@@ -488,6 +488,7 @@ AI_Skills_Booster/
 │   │   ├── mermaid_expert/ (1 skills)
 │   │   ├── mesh_memory/ (1 skills)
 │   │   ├── minimalist_ui/ (1 skills)
+│   │   ├── mirrord/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

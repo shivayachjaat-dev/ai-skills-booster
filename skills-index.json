@@ -10731,6 +10731,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mirrord",
+    "path": "skills/ai-engineering/models/mirrord/mirrord",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "mirrord",
+    "description": "Use this skill to design, implement, and operate production workflows for mirrord. Run a local process inside a live Kubernetes cluster's network, env and traffic with mirrord, so changes are tested against real services without deploying.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "mirrord",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mirrord",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
