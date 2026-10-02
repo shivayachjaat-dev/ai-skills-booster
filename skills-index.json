@@ -24941,6 +24941,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-workflow-patterns",
+    "path": "skills/frontend/ui-ux/n8n_workflow_pattern/n8n-workflow-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "n8n_workflow_pattern",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n workflow patterns. Proven architectural patterns for building n8n workflows.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Workflow Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
