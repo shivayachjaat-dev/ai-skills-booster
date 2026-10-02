@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,625 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,626 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1152,6 +1152,7 @@
 | [neon-postgres](skills/frontend/ui-ux/neon_postgres/neon-postgres/SKILL.md) | `frontend` | `ui-ux` | `neon_postgres` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon postgres. Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK. |
 | [nosql-expert](skills/frontend/ui-ux/nosql_expert/nosql-expert/SKILL.md) | `frontend` | `ui-ux` | `nosql_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nosql expert. Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems. |
 | [notion-template-business](skills/frontend/ui-ux/notion_template_busi/notion-template-business/SKILL.md) | `frontend` | `ui-ux` | `notion_template_busi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for notion template business. Expert in building and selling Notion templates as a business - not |
+| [nx-workspace-patterns](skills/frontend/ui-ux/nx_workspace_pattern/nx-workspace-patterns/SKILL.md) | `frontend` | `ui-ux` | `nx_workspace_pattern` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nx workspace patterns. Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

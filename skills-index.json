@@ -25667,6 +25667,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nx-workspace-patterns",
+    "path": "skills/frontend/ui-ux/nx_workspace_pattern/nx-workspace-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "nx_workspace_pattern",
+    "description": "Use this skill to design, implement, and operate production workflows for nx workspace patterns. Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "nx",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nx Workspace Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
