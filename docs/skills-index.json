@@ -8670,6 +8670,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bugs-are-annoying",
+    "path": "skills/security/appsec/bugs_are_annoying/bugs-are-annoying",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "bugs_are_annoying",
+    "description": "Use this skill to adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews.",
+    "tags": [
+      "security",
+      "appsec",
+      "bugs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bugs Are Annoying",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,3 +13,4 @@
 | [bb-methodology](../../skills/security/appsec/bb_methodology/bb-methodology/SKILL.md) | `bb_methodology` | `advanced` | `stable` | Use this skill to use at the START of any bug bounty hunting session, when switching targets, |
 | [bug-bounty](../../skills/security/appsec/bug_bounty/bug-bounty/SKILL.md) | `bug_bounty` | `advanced` | `stable` | Use this skill to complete bug bounty workflow |
 | [bugcrowd-reporting](../../skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) | `bugcrowd_reporting` | `advanced` | `stable` | Use this skill to bugcrowd-specific reporting tactics complementing report-writing |
+| [bugs-are-annoying](../../skills/security/appsec/bugs_are_annoying/bugs-are-annoying/SKILL.md) | `bugs_are_annoying` | `advanced` | `stable` | Use this skill to adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews. |
