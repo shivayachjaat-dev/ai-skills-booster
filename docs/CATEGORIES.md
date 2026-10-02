@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **433** skills across structured domains, categories, and subcategories.
+Master navigation for **434** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (147 skills)
 
@@ -514,7 +514,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (8 skills)
+## Business (9 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -536,13 +536,15 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (2 skills)
+### Operations (3 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
   - [board-governance](../skills/business/operations/board_governance/board-governance/SKILL.md) — Use this skill to board and governance register: meeting date, agenda, decision, resolution number, vote result, action owner and due date. Use for board packs and action tracking.
 - **Brand_Kit_Print_Coll** (1):
   - [brand-kit-print-collateral](../skills/business/operations/brand_kit_print_coll/brand-kit-print-collateral/SKILL.md) — Use this skill to print collateral spec: item, finished and trim size, bleed, colour mode, stock and GSM, finish, safe margin, print method, quantity and unit cost. Use for cards and letterhead.
+- **Buddy_Program_Manage** (1):
+  - [buddy-program-manager](../skills/business/operations/buddy_program_manage/buddy-program-manager/SKILL.md) — Use this skill to buddy programme register: new hire, assigned buddy, department, start and end dates, check-ins planned and done, and feedback score. Use for onboarding buddy schemes.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)

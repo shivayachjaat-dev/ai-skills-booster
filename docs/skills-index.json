@@ -4494,6 +4494,28 @@
     "maturity": "stable"
   },
   {
+    "name": "buddy-program-manager",
+    "path": "skills/business/operations/buddy_program_manage/buddy-program-manager",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "buddy_program_manage",
+    "description": "Use this skill to buddy programme register: new hire, assigned buddy, department, start and end dates, check-ins planned and done, and feedback score. Use for onboarding buddy schemes.",
+    "tags": [
+      "business",
+      "operations",
+      "buddy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Buddy Program Manager",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
