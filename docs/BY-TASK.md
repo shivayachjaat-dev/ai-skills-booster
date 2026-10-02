@@ -2,7 +2,7 @@
 
 Find the exact agent skill according to what task you need completed.
 
-## Build & Create (210 skills)
+## Build & Create (211 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering/agents`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — `ai-engineering/agents`: Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -110,6 +110,7 @@ Find the exact agent skill according to what task you need completed.
 - [aws-vpc](../skills/devops/ci-cd/aws_vpc/aws-vpc/SKILL.md) — `devops/ci-cd`: Use this skill to design and implement VPCs and networking. Configure subnets, route tables,
 - [azure-networking](../skills/devops/ci-cd/azure_networking/azure-networking/SKILL.md) — `devops/ci-cd`: Use this skill to configure Azure VNets, NSGs, and Azure Firewall. Implement hub-spoke
 - [backup-recovery](../skills/devops/ci-cd/backup_recovery/backup-recovery/SKILL.md) — `devops/ci-cd`: Use this skill to implement backup and recovery strategies. Configure rsync, Restic, and
+- [cdn-setup](../skills/devops/ci-cd/cdn_setup/cdn-setup/SKILL.md) — `devops/ci-cd`: Use this skill to configure CDNs for content delivery. Set up CloudFront, Cloudflare, and
 - [aws-skills](../skills/devops/cloud-infrastructure/aws_skills/aws-skills/SKILL.md) — `devops/cloud-infrastructure`: Use this skill to aWS development with infrastructure automation and cloud architecture patterns
 - [aws-sst-development](../skills/devops/cloud-infrastructure/aws_sst_development/aws-sst-development/SKILL.md) — `devops/cloud-infrastructure`: Use this skill to sST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework.
 - [azure-communication-sms-java](../skills/devops/cloud-infrastructure/azure_communication_/azure-communication-sms-java/SKILL.md) — `devops/cloud-infrastructure`: Use this skill to send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports.
