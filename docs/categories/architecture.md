@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **129 skills** available in this category.
+> **130 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -130,6 +130,7 @@
 | [golang-pro](../../skills/software-engineering/architecture/patterns/golang-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for golang pro. Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. |
 | [grafana-dashboards](../../skills/software-engineering/architecture/patterns/grafana-dashboards/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for grafana dashboards. Create and manage production-ready Grafana dashboards for comprehensive system observability. |
 | [grill-me](../../skills/software-engineering/architecture/patterns/grill-me/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for grill me. A relentless interview to sharpen a plan or design. |
+| [grill-with-docs](../../skills/software-engineering/architecture/patterns/grill-with-docs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for grill with docs. A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (954 skills)
+## Bash (955 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2010,6 +2010,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [golang-pro](../skills/software-engineering/architecture/patterns/golang-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for golang pro. Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.
 - [grafana-dashboards](../skills/software-engineering/architecture/patterns/grafana-dashboards/SKILL.md) — Use this skill to design, implement, and operate production workflows for grafana dashboards. Create and manage production-ready Grafana dashboards for comprehensive system observability.
 - [grill-me](../skills/software-engineering/architecture/patterns/grill-me/SKILL.md) — Use this skill to design, implement, and operate production workflows for grill me. A relentless interview to sharpen a plan or design.
+- [grill-with-docs](../skills/software-engineering/architecture/patterns/grill-with-docs/SKILL.md) — Use this skill to design, implement, and operate production workflows for grill with docs. A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
@@ -5294,6 +5295,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [grill-me](../skills/software-engineering/architecture/patterns/grill-me/SKILL.md) — Use this skill to design, implement, and operate production workflows for grill me. A relentless interview to sharpen a plan or design.
 
+## Grill With Docs (1 skills)
+
+- [grill-with-docs](../skills/software-engineering/architecture/patterns/grill-with-docs/SKILL.md) — Use this skill to design, implement, and operate production workflows for grill with docs. A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.
+
 ## Grype (1 skills)
 
 - [software-supply-chain-sbom-audit](../skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit/SKILL.md) — Use this skill when auditing, generating, and verifying Software Bill of Materials (SBOM) and scanning software supply chains for CVE vulnerabilities and non-compliant open-source licenses. It guides the agent through generating CycloneDX/SPDX SBOMs with Syft, scanning for known exploits with Grype, validating software licenses, and enforcing CI/CD gates.
@@ -6132,7 +6137,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1057 skills)
+## Python (1058 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7167,6 +7172,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [golang-pro](../skills/software-engineering/architecture/patterns/golang-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for golang pro. Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.
 - [grafana-dashboards](../skills/software-engineering/architecture/patterns/grafana-dashboards/SKILL.md) — Use this skill to design, implement, and operate production workflows for grafana dashboards. Create and manage production-ready Grafana dashboards for comprehensive system observability.
 - [grill-me](../skills/software-engineering/architecture/patterns/grill-me/SKILL.md) — Use this skill to design, implement, and operate production workflows for grill me. A relentless interview to sharpen a plan or design.
+- [grill-with-docs](../skills/software-engineering/architecture/patterns/grill-with-docs/SKILL.md) — Use this skill to design, implement, and operate production workflows for grill with docs. A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.

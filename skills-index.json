@@ -24973,6 +24973,28 @@
     "maturity": "stable"
   },
   {
+    "name": "grill-with-docs",
+    "path": "skills/software-engineering/architecture/patterns/grill-with-docs",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for grill with docs. A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "grill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Grill With Docs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
