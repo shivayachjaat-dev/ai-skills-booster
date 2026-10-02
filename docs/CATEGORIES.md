@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,227** skills across structured domains, categories, and subcategories.
+Master navigation for **1,228** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (415 skills)
 
@@ -2374,7 +2374,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (121 skills)
+## Security (122 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2404,7 +2404,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (59 skills)
+### Appsec (60 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -2516,6 +2516,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [hunt-http-smuggling](../skills/security/appsec/hunt_http_smuggling/hunt-http-smuggling/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt http smuggling. Hunt HTTP request smuggling (CL.TE, TE.CL, H2.CL, H2.TE).
 - **Hunt_K8S** (1):
   - [hunt-k8s](../skills/security/appsec/hunt_k8s/hunt-k8s/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt k8s. Hunt Kubernetes & Docker
+- **Hunt_Laravel** (1):
+  - [hunt-laravel](../skills/security/appsec/hunt_laravel/hunt-laravel/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt laravel. Hunt Laravel specific vulnerabilities
 - **Laravel_Security_Aud** (1):
   - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - **Mcp_Dependency_Drift** (1):
