@@ -15833,6 +15833,28 @@
     "maturity": "stable"
   },
   {
+    "name": "formik-patterns",
+    "path": "skills/frontend/ui-ux/formik_patterns/formik-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "formik_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for formik patterns. Formik form handling with validation patterns. Use when building forms, implementing validation, or handling form submission.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "formik",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Formik Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

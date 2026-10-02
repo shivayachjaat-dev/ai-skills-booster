@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **97 skills** available in this category.
+> **98 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -98,6 +98,7 @@
 | [fedramp-compliance](../../skills/frontend/ui-ux/fedramp_compliance/fedramp-compliance/SKILL.md) | `fedramp_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fedramp compliance. Implement FedRAMP requirements for federal cloud services. Configure |
 | [finishing-a-development-branch](../../skills/frontend/ui-ux/finishing_a_developm/finishing-a-development-branch/SKILL.md) | `finishing_a_developm` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for finishing a development branch. Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup |
 | [firebase-app-platform](../../skills/frontend/ui-ux/firebase_app_platfor/firebase-app-platform/SKILL.md) | `firebase_app_platfor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for firebase app platform. Build and operate apps on Firebase using Auth, Firestore, Cloud Functions, |
+| [formik-patterns](../../skills/frontend/ui-ux/formik_patterns/formik-patterns/SKILL.md) | `formik_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for formik patterns. Formik form handling with validation patterns. Use when building forms, implementing validation, or handling form submission. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
