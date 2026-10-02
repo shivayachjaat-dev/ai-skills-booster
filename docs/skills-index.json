@@ -8676,6 +8676,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brooks-audit",
+    "path": "skills/security/compliance/brooks_audit/brooks-audit",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "brooks_audit",
+    "description": "Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.",
+    "tags": [
+      "security",
+      "compliance",
+      "brooks",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brooks Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-keyvault-keys-rust",
     "path": "skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-rust",
     "domain": "security",

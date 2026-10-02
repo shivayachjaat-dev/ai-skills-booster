@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (238 skills)
+## Bash (239 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1274,6 +1274,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-identity-java](../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) — Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).
 - [azure-identity-rust](../skills/security/authentication/azure_identity_rust/azure-identity-rust/SKILL.md) — Use this skill to azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.
 - [azure-identity-ts](../skills/security/authentication/azure_identity_ts/azure-identity-ts/SKILL.md) — Use this skill to authenticate to Azure services with various credential types.
+- [brooks-audit](../skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) — Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.
 - [azure-keyvault-keys-rust](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-rust/SKILL.md) — Use this skill to azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: "keyvault keys rust", "KeyClient rust", "create key rust", "encrypt rust", "sign rust".
 - [azure-keyvault-keys-ts](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-ts/SKILL.md) — Use this skill to manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating keys.
 - [mitre-attack-chain-and-lateral-movement-simulation](../skills/security/red-teaming/attack-simulation/mitre-attack-chain-and-lateral-movement-simulation/SKILL.md) — Use this skill to model, simulate, and defend against multi-stage adversary attack chains across enterprise environments using the MITRE ATT&CK framework. It covers initial access emulation, execution vectors, credential dumping (LSASS, DPAPI), lateral movement (WMI, WinRM, Pass-the-Hash, Kerberoasting), command-and-control (C2) beacon analysis, and engineering Blue Team detection rules in Sigma and YARA-L.
@@ -1461,6 +1462,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Brevo Automation (1 skills)
 
 - [brevo-automation](../skills/ai-engineering/models/brevo_automation/brevo-automation/SKILL.md) — Use this skill to automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.
+
+## Brooks Audit (1 skills)
+
+- [brooks-audit](../skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) — Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.
 
 ## C (1 skills)
 
@@ -2687,7 +2692,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (341 skills)
+## Python (342 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2998,6 +3003,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [binary-anti-reversing-and-code-obfuscation](../skills/security/binary-defense/anti-reversing/binary-anti-reversing-and-code-obfuscation/SKILL.md) — Use this skill to evaluate, implement, and audit software intellectual property protections against reverse engineering, decompilation, and debugger tampering. It covers symbol stripping, control-flow flattening, anti-debugging API hooks (ptrace, IsDebuggerPresent), integrity hash checks, and security trade-off analysis.
 - [aws-iam-least-privilege-and-governance-architecture](../skills/security/cloud-security/aws-iam/aws-iam-least-privilege-and-governance-architecture/SKILL.md) — Use this skill to design, implement, and audit enterprise AWS IAM architectures adhering to least-privilege principles. It covers IAM permission boundaries, Service Control Policies (SCPs) in AWS Organizations, cross-account assume-role delegation with external IDs, ABAC (Attribute-Based Access Control) tagging policies, IAM Access Analyzer integration, and credential rotation.
 - [tamper-evident-audit-logging-and-siem-integration](../skills/security/compliance/audit-logging/tamper-evident-audit-logging-and-siem-integration/SKILL.md) — Use this skill to design and implement immutable, tamper-evident audit logging architectures with enterprise SIEM integration. It covers cryptographic HMAC hash chains, structured Common Event Format (CEF) and Elastic Common Schema (ECS) event modeling, automated PII redaction, secure multi-region syslog forwarding (TLS/mTLS), and retention compliance for SOC2, ISO 27001, and HIPAA.
+- [brooks-audit](../skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) — Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.
 - [azure-keyvault-keys-rust](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-rust/SKILL.md) — Use this skill to azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: "keyvault keys rust", "KeyClient rust", "create key rust", "encrypt rust", "sign rust".
 - [azure-keyvault-keys-ts](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-ts/SKILL.md) — Use this skill to manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating keys.
 - [identity-access-review-and-certification](../skills/security/identity-governance/access-review/identity-access-review-and-certification/SKILL.md) — Use this skill when designing, automating, and conducting periodic Identity Access Reviews, user entitlement certifications, and least-privilege compliance audits. It covers generating access certification campaigns, flagging dormant accounts, detecting toxic permission combinations (Segregation of Duties - SoD), and producing audit evidence for SOC2/ISO27001.
