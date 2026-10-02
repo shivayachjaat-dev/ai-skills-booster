@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,464** skills across structured domains, categories, and subcategories.
+Master navigation for **1,465** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (514 skills)
 
@@ -1993,7 +1993,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (278 skills)
+## Frontend (279 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2133,7 +2133,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Javascript_Typescrip** (1):
   - [javascript-typescript-typescript-scaffold](../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N
 
-### Ui Ux (162 skills)
+### Ui Ux (163 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2452,6 +2452,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [magic-ui-generator](../skills/frontend/ui-ux/magic_ui_generator/magic-ui-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for magic ui generator. Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations.
 - **Makepad_2_0_Animatio** (1):
   - [makepad-2-0-animation](../skills/frontend/ui-ux/makepad_2_0_animatio/makepad-2-0-animation/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad 2 0 animation. Makepad 2.0 guidance for animation; use when building or debugging Makepad UI code.
+- **Makepad_2_0_Dsl** (1):
+  - [makepad-2-0-dsl](../skills/frontend/ui-ux/makepad_2_0_dsl/makepad-2-0-dsl/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad 2 0 dsl. Makepad 2.0 guidance for dsl; use when building or debugging Makepad UI code.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

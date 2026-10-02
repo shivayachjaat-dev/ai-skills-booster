@@ -22939,6 +22939,28 @@
     "maturity": "stable"
   },
   {
+    "name": "makepad-2-0-dsl",
+    "path": "skills/frontend/ui-ux/makepad_2_0_dsl/makepad-2-0-dsl",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "makepad_2_0_dsl",
+    "description": "Use this skill to design, implement, and operate production workflows for makepad 2 0 dsl. Makepad 2.0 guidance for dsl; use when building or debugging Makepad UI code.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "makepad",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Makepad 2 0 Dsl",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
