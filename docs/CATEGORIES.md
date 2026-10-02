@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,409** skills across structured domains, categories, and subcategories.
+Master navigation for **1,410** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (480 skills)
+## Ai Engineering (481 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -236,7 +236,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Llm_App_Security** (1):
   - [llm-app-security](../skills/ai-engineering/llm-ops/llm_app_security/llm-app-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm app security. Secure LLM-powered applications with input validation, output controls,
 
-### Models (352 skills)
+### Models (353 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -916,9 +916,10 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [lint-and-validate](../skills/ai-engineering/models/lint_and_validate/lint-and-validate/SKILL.md) — Use this skill to design, implement, and operate production workflows for lint and validate. Run configured lint and type checks, distinguish failures from checks that did not run, and report concrete validation results.
 - **Linux_Troubleshootin** (1):
   - [linux-troubleshooting](../skills/ai-engineering/models/linux_troubleshootin/linux-troubleshooting/SKILL.md) — Use this skill to design, implement, and operate production workflows for linux troubleshooting. Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.
-- **Llm_Application_Dev_** (2):
+- **Llm_Application_Dev_** (3):
   - [llm-application-dev-ai-assistant](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-ai-assistant/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev ai assistant. You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur
   - [llm-application-dev-langchain-agent](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-langchain-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev langchain agent. You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph.
+  - [llm-application-dev-prompt-optimize](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-prompt-optimize/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev prompt optimize. You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques including constitutional AI, chain-of-thought reasoning, and model-specific optimizati
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

@@ -9741,6 +9741,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-application-dev-prompt-optimize",
+    "path": "skills/ai-engineering/models/llm_application_dev_/llm-application-dev-prompt-optimize",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "llm_application_dev_",
+    "description": "Use this skill to design, implement, and operate production workflows for llm application dev prompt optimize. You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques including constitutional AI, chain-of-thought reasoning, and model-specific optimizati",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Application Dev Prompt Optimize",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
