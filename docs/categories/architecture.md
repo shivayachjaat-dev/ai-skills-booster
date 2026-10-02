@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **76 skills** available in this category.
+> **77 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -79,4 +79,5 @@
 | [deployment-pipeline-design](../../skills/software-engineering/architecture/patterns/deployment-pipeline-design/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deployment pipeline design. Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies. |
 | [deployment-procedures](../../skills/software-engineering/architecture/patterns/deployment-procedures/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deployment procedures. Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts. |
 | [design-md](../../skills/software-engineering/architecture/patterns/design-md/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design md. Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files |
+| [dev-to-hashnode](../../skills/software-engineering/architecture/patterns/dev-to-hashnode/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dev to hashnode. When the user wants to publish on Dev.to, Hashnode, or other developer blogging platforms. Trigger phrases include "Dev.to," "Hashnode," "developer blog," "cross-posting," "technical blogging," "canonical URL," or "developer content platform. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

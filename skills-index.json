@@ -18021,6 +18021,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dev-to-hashnode",
+    "path": "skills/software-engineering/architecture/patterns/dev-to-hashnode",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for dev to hashnode. When the user wants to publish on Dev.to, Hashnode, or other developer blogging platforms. Trigger phrases include \"Dev.to,\" \"Hashnode,\" \"developer blog,\" \"cross-posting,\" \"technical blogging,\" \"canonical URL,\" or \"developer content platform.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "dev",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dev To Hashnode",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
