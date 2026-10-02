@@ -22911,6 +22911,28 @@
     "maturity": "stable"
   },
   {
+    "name": "framework-migration-deps-upgrade",
+    "path": "skills/testing/automation/framework_migration_/framework-migration-deps-upgrade",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "framework_migration_",
+    "description": "Use this skill to design, implement, and operate production workflows for framework migration deps upgrade. You are a dependency management expert specializing in safe, incremental upgrades of project dependencies. Plan and execute dependency updates with minimal risk, proper testing, and clear migration pa",
+    "tags": [
+      "testing",
+      "automation",
+      "framework",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Framework Migration Deps Upgrade",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",
