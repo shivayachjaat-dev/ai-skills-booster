@@ -135,6 +135,7 @@ AI_Skills_Booster/
 │   ├── api-design/
 │   │   ├── api-analyzer/ (1 skills)
 │   │   ├── backend_architect/ (1 skills)
+│   │   ├── backend_security_cod/ (1 skills)
 │   │   └── rate-limiting/ (1 skills)
 │   ├── api-frameworks/
 │   │   ├── atlas_cloud_media/ (1 skills)
