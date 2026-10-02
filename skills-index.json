@@ -13105,6 +13105,28 @@
     "maturity": "stable"
   },
   {
+    "name": "devops-pipeline-builder",
+    "path": "skills/frontend/ui-ux/devops_pipeline_buil/devops-pipeline-builder",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "devops_pipeline_buil",
+    "description": "Use this skill to design, implement, and operate production workflows for devops pipeline builder. Design and implement CI/CD pipelines, Docker configurations, deployment",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "devops",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Devops Pipeline Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
