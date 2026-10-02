@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **133** skills across structured domains, categories, and subcategories.
+Master navigation for **134** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (29 skills)
 
@@ -492,6 +492,14 @@ Category index: [`docs/categories/ios.md`](categories/ios.md)
 
 - **App Clips** (1):
   - [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
+
+## Multimedia (1 skills)
+
+### Image Generation (1 skills)
+Category index: [`docs/categories/image-generation.md`](categories/image-generation.md)
+
+- **Asset Pipeline** (1):
+  - [ai-image-generation-prompt-and-asset-pipeline](../skills/multimedia/image-generation/asset-pipeline/ai-image-generation-prompt-and-asset-pipeline/SKILL.md) — Use this skill to design programmatic image generation and brand asset pipelines using Flux, Stable Diffusion, and OpenAI DALL-E APIs. It enforces structured prompt expansion, seed determinism, negative prompt hygiene, aspect ratio constraints, and automated WebP optimization.
 
 ## Programming Languages (2 skills)
 

@@ -177,6 +177,9 @@ AI_Skills_Booster/
 ├── mobile/
 │   └── ios/
 │   │   └── app-clips/ (1 skills)
+├── multimedia/
+│   └── image-generation/
+│   │   └── asset-pipeline/ (1 skills)
 ├── programming-languages/
 │   ├── golang/
 │   │   └── concurrency/ (1 skills)

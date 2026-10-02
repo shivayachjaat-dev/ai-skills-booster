@@ -2346,6 +2346,32 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-image-generation-prompt-and-asset-pipeline",
+    "path": "skills/multimedia/image-generation/asset-pipeline/ai-image-generation-prompt-and-asset-pipeline",
+    "domain": "multimedia",
+    "category": "image-generation",
+    "subcategory": "asset-pipeline",
+    "description": "Use this skill to design programmatic image generation and brand asset pipelines using Flux, Stable Diffusion, and OpenAI DALL-E APIs. It enforces structured prompt expansion, seed determinism, negative prompt hygiene, aspect ratio constraints, and automated WebP optimization.",
+    "tags": [
+      "image-generation",
+      "flux",
+      "stable-diffusion",
+      "dall-e",
+      "prompt-engineering",
+      "asset-pipeline",
+      "multimedia"
+    ],
+    "technologies": [
+      "Python",
+      "Pillow",
+      "OpenAI API",
+      "Replicate",
+      "WebP"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "golang-goroutine-concurrency-patterns",
     "path": "skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns",
     "domain": "programming-languages",
