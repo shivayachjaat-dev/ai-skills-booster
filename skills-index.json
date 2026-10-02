@@ -9160,6 +9160,28 @@
     "maturity": "stable"
   },
   {
+    "name": "busabase",
+    "path": "skills/security/compliance/busabase/busabase",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "busabase",
+    "description": "Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history.",
+    "tags": [
+      "security",
+      "compliance",
+      "busabase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Busabase",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-keyvault-keys-rust",
     "path": "skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-rust",
     "domain": "security",
