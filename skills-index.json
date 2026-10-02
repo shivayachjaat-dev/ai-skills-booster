@@ -4908,6 +4908,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-resource-manager-cosmosdb-dotnet",
+    "path": "skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-cosmosdb-dotnet",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_resource_manag",
+    "description": "Use this skill to azure Resource Manager SDK for Cosmos DB in .NET.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Resource Manager Cosmosdb Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
