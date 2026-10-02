@@ -1173,6 +1173,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_xss/ (1 skills)
 │   │   ├── hunt_xxe/ (1 skills)
 │   │   ├── incident_management/ (1 skills)
+│   │   ├── incident_response/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)

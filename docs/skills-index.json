@@ -23652,6 +23652,28 @@
     "maturity": "stable"
   },
   {
+    "name": "incident-response",
+    "path": "skills/security/appsec/incident_response/incident-response",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "incident_response",
+    "description": "Use this skill to design, implement, and operate production workflows for incident response. Handle security incidents with IR playbooks and procedures.",
+    "tags": [
+      "security",
+      "appsec",
+      "incident",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Incident Response",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
