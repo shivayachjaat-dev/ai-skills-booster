@@ -3339,6 +3339,28 @@
     "maturity": "stable"
   },
   {
+    "name": "clean-code-guard",
+    "path": "skills/ai-engineering/models/clean_code_guard/clean-code-guard",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "clean_code_guard",
+    "description": "Use this skill to review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "clean",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Clean Code Guard",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

@@ -154,6 +154,7 @@ AI_Skills_Booster/
 │   │   ├── cirq/ (1 skills)
 │   │   ├── claimable_postgres/ (1 skills)
 │   │   ├── claude_api/ (1 skills)
+│   │   ├── clean_code_guard/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
