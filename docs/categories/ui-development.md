@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [frontend-architecture](../../skills/frontend/ui-development/frontend_architectur/frontend-architecture/SKILL.md) | `frontend_architectur` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend architecture. A portable, framework-agnostic architecture style for any React or React Native frontend. Organizes apps into feature modules with page/screen directories, a strict server-state vs UI-state split, barrel-only cross-module imports, co-located styles, ... |
 | [frontend-data-contracts](../../skills/frontend/ui-development/frontend_data_contra/frontend-data-contracts/SKILL.md) | `frontend_data_contra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend data contracts. A portable, framework-agnostic discipline for type safety at the network edge of any React or React Native app. |
 | [frontend-dev-guidelines](../../skills/frontend/ui-development/frontend_dev_guideli/frontend-dev-guidelines/SKILL.md) | `frontend_dev_guideli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend dev guidelines. You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features, or fetching or mutating data. |
+| [frontend-developer](../../skills/frontend/ui-development/frontend_developer/frontend-developer/SKILL.md) | `frontend_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend developer. Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture. |

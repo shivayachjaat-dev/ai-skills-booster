@@ -14183,6 +14183,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-developer",
+    "path": "skills/frontend/ui-development/frontend_developer/frontend-developer",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_developer",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend developer. Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Developer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
