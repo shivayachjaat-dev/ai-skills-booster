@@ -15525,6 +15525,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fedramp-compliance",
+    "path": "skills/frontend/ui-ux/fedramp_compliance/fedramp-compliance",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "fedramp_compliance",
+    "description": "Use this skill to design, implement, and operate production workflows for fedramp compliance. Implement FedRAMP requirements for federal cloud services. Configure",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "fedramp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fedramp Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
