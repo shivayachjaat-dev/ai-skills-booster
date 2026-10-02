@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,250 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,251 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1030,6 +1030,7 @@
 | [hunt-session](skills/security/appsec/hunt_session/hunt-session/SKILL.md) | `security` | `appsec` | `hunt_session` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt session. Hunt Session Management vulnerabilities |
 | [hunt-sharepoint](skills/security/appsec/hunt_sharepoint/hunt-sharepoint/SKILL.md) | `security` | `appsec` | `hunt_sharepoint` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt sharepoint. Hunt Microsoft SharePoint Server (2013/2016/2019/Subscription Edition) |
 | [hunt-springboot](skills/security/appsec/hunt_springboot/hunt-springboot/SKILL.md) | `security` | `appsec` | `hunt_springboot` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt springboot. Hunt Spring Boot specific vulnerabilities |
+| [hunt-ssrf](skills/security/appsec/hunt_ssrf/hunt-ssrf/SKILL.md) | `security` | `appsec` | `hunt_ssrf` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt ssrf. Hunting skill for ssrf vulnerabilities. |
 | [laravel-security-audit](skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `security` | `appsec` | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `security` | `appsec` | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |

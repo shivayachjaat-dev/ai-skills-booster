@@ -1146,6 +1146,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_session/ (1 skills)
 │   │   ├── hunt_sharepoint/ (1 skills)
 │   │   ├── hunt_springboot/ (1 skills)
+│   │   ├── hunt_ssrf/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)
