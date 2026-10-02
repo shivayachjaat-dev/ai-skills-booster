@@ -2224,6 +2224,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-keyvault-py",
+    "path": "skills/ai-engineering/rag/azure_keyvault_py/azure-keyvault-py",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "azure_keyvault_py",
+    "description": "Use this skill to azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Keyvault Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",
