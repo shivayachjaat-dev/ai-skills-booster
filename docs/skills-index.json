@@ -13545,6 +13545,28 @@
     "maturity": "stable"
   },
   {
+    "name": "retro-futurism",
+    "path": "skills/frontend/web-architecture/retro_futurism/retro-futurism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "retro_futurism",
+    "description": "Use this skill to design, implement, and operate production workflows for retro futurism. Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "retro",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Retro Futurism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-audit",
     "path": "skills/frontend/web-architecture/security_audit/security-audit",
     "domain": "frontend",
