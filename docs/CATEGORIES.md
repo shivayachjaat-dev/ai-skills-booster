@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,259** skills across structured domains, categories, and subcategories.
+Master navigation for **1,260** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (418 skills)
+## Ai Engineering (419 skills)
 
 ### Agents (49 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -829,7 +829,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (25 skills)
+### Rag (26 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -877,6 +877,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [fp-ts-pragmatic](../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.
 - **Hunt_Rag_Vector** (1):
   - [hunt-rag-vector](../skills/ai-engineering/rag/hunt_rag_vector/hunt-rag-vector/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt rag vector. Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP
+- **Hybrid_Search_Implem** (1):
+  - [hybrid-search-implementation](../skills/ai-engineering/rag/hybrid_search_implem/hybrid-search-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hybrid search implementation. Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall.
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 

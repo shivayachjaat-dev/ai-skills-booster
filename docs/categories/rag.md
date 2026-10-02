@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **25 skills** available in this category.
+> **26 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,4 +28,5 @@
 | [fp-pragmatic](../../skills/ai-engineering/rag/fp_pragmatic/fp-pragmatic/SKILL.md) | `fp_pragmatic` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp pragmatic. A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead |
 | [fp-ts-pragmatic](../../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) | `fp_ts_pragmatic` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library. |
 | [hunt-rag-vector](../../skills/ai-engineering/rag/hunt_rag_vector/hunt-rag-vector/SKILL.md) | `hunt_rag_vector` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt rag vector. Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP |
+| [hybrid-search-implementation](../../skills/ai-engineering/rag/hybrid_search_implem/hybrid-search-implementation/SKILL.md) | `hybrid_search_implem` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hybrid search implementation. Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall. |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

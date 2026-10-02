@@ -419,6 +419,7 @@ AI_Skills_Booster/
 │   │   ├── fp_pragmatic/ (1 skills)
 │   │   ├── fp_ts_pragmatic/ (1 skills)
 │   │   ├── hunt_rag_vector/ (1 skills)
+│   │   ├── hybrid_search_implem/ (1 skills)
 │   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)

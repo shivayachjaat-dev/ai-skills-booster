@@ -9178,6 +9178,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hybrid-search-implementation",
+    "path": "skills/ai-engineering/rag/hybrid_search_implem/hybrid-search-implementation",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "hybrid_search_implem",
+    "description": "Use this skill to design, implement, and operate production workflows for hybrid search implementation. Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "hybrid",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hybrid Search Implementation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
