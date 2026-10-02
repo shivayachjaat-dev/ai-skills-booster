@@ -996,7 +996,8 @@ AI_Skills_Booster/
 │   │   ├── jest_skill/ (1 skills)
 │   │   ├── lovable_cleanup/ (1 skills)
 │   │   ├── mobile_developer/ (1 skills)
-│   │   └── native_data_fetching/ (1 skills)
+│   │   ├── native_data_fetching/ (1 skills)
+│   │   └── nextjs_app_router_pa/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/

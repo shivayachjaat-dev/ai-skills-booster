@@ -20507,6 +20507,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nextjs-app-router-patterns",
+    "path": "skills/frontend/frameworks/nextjs_app_router_pa/nextjs-app-router-patterns",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "nextjs_app_router_pa",
+    "description": "Use this skill to design, implement, and operate production workflows for nextjs app router patterns. Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "nextjs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nextjs App Router Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **20 skills** available in this category.
+> **21 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -24,3 +24,4 @@
 | [lovable-cleanup](../../skills/frontend/frameworks/lovable_cleanup/lovable-cleanup/SKILL.md) | `lovable_cleanup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lovable cleanup. Audits and strips Lovable scaffolding from Vite + React projects — removes lovable-tagger, swaps placeholder assets, prunes unused Radix deps, cleans generated docs, and neutralizes stale favicon/CDN caching so the codebase ships as yours. |
 | [mobile-developer](../../skills/frontend/frameworks/mobile_developer/mobile-developer/SKILL.md) | `mobile_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mobile developer. Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization. |
 | [native-data-fetching](../../skills/frontend/frameworks/native_data_fetching/native-data-fetching/SKILL.md) | `native_data_fetching` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for native data fetching. Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (`useLoaderData`). |
+| [nextjs-app-router-patterns](../../skills/frontend/frameworks/nextjs_app_router_pa/nextjs-app-router-patterns/SKILL.md) | `nextjs_app_router_pa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nextjs app router patterns. Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development. |
