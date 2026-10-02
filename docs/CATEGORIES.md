@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,230** skills across structured domains, categories, and subcategories.
+Master navigation for **1,231** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (415 skills)
+## Ai Engineering (416 skills)
 
 ### Agents (49 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -206,7 +206,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (306 skills)
+### Models (307 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -800,6 +800,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [humanize-chinese](../skills/ai-engineering/models/humanize_chinese/humanize-chinese/SKILL.md) — Use this skill to design, implement, and operate production workflows for humanize chinese. Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to 去AI味, 降AIGC, 去除AI痕迹, 论文降重, 知网检测, 维普检测, humanize chinese, detect AI text, or make Chinese ...
 - **Hunt_Jwt_Crypto** (1):
   - [hunt-jwt-crypto](../skills/ai-engineering/models/hunt_jwt_crypto/hunt-jwt-crypto/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt jwt crypto. Hunt JWT cryptographic failures
+- **Hunt_Llm_Ai** (1):
+  - [hunt-llm-ai](../skills/ai-engineering/models/hunt_llm_ai/hunt-llm-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt llm ai. Hunt LLM/AI feature bugs
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
