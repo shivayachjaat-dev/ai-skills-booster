@@ -97,6 +97,9 @@ AI_Skills_Booster/
 ├── content/
 │   └── presentation/
 │   │   └── marp-slides/ (1 skills)
+├── creative/
+│   └── illustration/
+│   │   └── technical-diagrams/ (1 skills)
 ├── data-analytics/
 │   ├── dashboards/
 │   │   └── operational-metrics/ (1 skills)

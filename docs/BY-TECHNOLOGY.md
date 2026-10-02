@@ -278,8 +278,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
-## CSS3 (2 skills)
+## CSS3 (3 skills)
 
+- [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 - [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
 - [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
 
@@ -290,6 +291,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## CUDA (1 skills)
 
 - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
+
+## Canva / Figma Standards (1 skills)
+
+- [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
 ## Cargo (1 skills)
 
@@ -1039,6 +1044,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [clickhouse-time-series-analytics](../skills/databases/clickhouse/time-series/clickhouse-time-series-analytics/SKILL.md) — Use this skill when designing, partitioning, and querying massive time-series event logs and telemetry in ClickHouse. It guides the agent through selecting MergeTree table engines, primary key and sorting key design, TTL data aging policies, materialized views for real-time aggregations, and high-throughput batched ingestion.
 
+## Mermaid (1 skills)
+
+- [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
+
 ## Meta Ads API (1 skills)
 
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.
@@ -1345,6 +1354,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
 - [opentelemetry-collector-pipeline-routing](../skills/devops/observability/opentelemetry-collector/opentelemetry-collector-pipeline-routing/SKILL.md) — Use this skill when architecting, configuring, and scaling OpenTelemetry (OTel) Collector pipelines. It guides the agent through defining receivers (OTLP gRPC/HTTP), core processors (memory_limiter, batch, filter, transform), routing connectors (routing connector), multi-backend exporters (Prometheus, Jaeger, Tempo, Loki), and tuning collector throughput.
 - [ai-sre-autonomous-incident-triage-and-remediation](../skills/devops/sre/incident-remediation/ai-sre-autonomous-incident-triage-and-remediation/SKILL.md) — Use this skill to design and deploy autonomous AI-driven Site Reliability Engineering (SRE) incident response and triage workflows. It covers alerting webhook ingestion (PagerDuty, Datadog), automated log/trace correlation, blast-radius assessment, safe auto-remediation playbooks, and blameless post-mortem drafting.
+
+## Prompt Engineering (1 skills)
+
+- [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
 ## Promptfoo (1 skills)
 
@@ -1762,8 +1775,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
 
-## SVG (1 skills)
+## SVG (2 skills)
 
+- [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 - [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
 
 ## Schema.org (1 skills)

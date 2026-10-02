@@ -1413,6 +1413,31 @@
     "maturity": "stable"
   },
   {
+    "name": "technical-editorial-illustration-and-visual-metaphors",
+    "path": "skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors",
+    "domain": "creative",
+    "category": "illustration",
+    "subcategory": "technical-diagrams",
+    "description": "Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.",
+    "tags": [
+      "technical-illustration",
+      "visual-metaphors",
+      "editorial-design",
+      "svg-diagrams",
+      "architecture-diagrams",
+      "creative"
+    ],
+    "technologies": [
+      "SVG",
+      "CSS3",
+      "Mermaid",
+      "Prompt Engineering",
+      "Canva / Figma Standards"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "real-time-operational-metrics-dashboard",
     "path": "skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard",
     "domain": "data-analytics",

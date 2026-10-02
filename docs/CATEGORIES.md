@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **173** skills across structured domains, categories, and subcategories.
+Master navigation for **174** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (32 skills)
 
@@ -261,6 +261,14 @@ Category index: [`docs/categories/presentation.md`](categories/presentation.md)
 
 - **Marp Slides** (1):
   - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
+
+## Creative (1 skills)
+
+### Illustration (1 skills)
+Category index: [`docs/categories/illustration.md`](categories/illustration.md)
+
+- **Technical Diagrams** (1):
+  - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
 ## Data Analytics (10 skills)
 
