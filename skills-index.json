@@ -20177,6 +20177,28 @@
     "maturity": "stable"
   },
   {
+    "name": "error-diagnostics-error-analysis",
+    "path": "skills/software-engineering/architecture/patterns/error-diagnostics-error-analysis",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for error diagnostics error analysis. You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "error",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Error Diagnostics Error Analysis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
