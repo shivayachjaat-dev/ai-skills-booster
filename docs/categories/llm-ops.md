@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,3 +22,4 @@
 | [llm-ops](../../skills/ai-engineering/llm-ops/llm_ops/llm-ops/SKILL.md) | `llm_ops` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm ops. LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao. |
 | [llm-prompt-optimizer](../../skills/ai-engineering/llm-ops/llm_prompt_optimizer/llm-prompt-optimizer/SKILL.md) | `llm_prompt_optimizer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm prompt optimizer. Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage. |
 | [llmops-platform-engineering](../../skills/ai-engineering/llm-ops/llmops_platform_engi/llmops-platform-engineering/SKILL.md) | `llmops_platform_engi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llmops platform engineering. Build production LLMOps platforms with CI/CD, model promotion workflows, |
+| [mac-mini-llm-lab](../../skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) | `mac_mini_llm_lab` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access, |

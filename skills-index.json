@@ -2415,6 +2415,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mac-mini-llm-lab",
+    "path": "skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "mac_mini_llm_lab",
+    "description": "Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access,",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "mac",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mac Mini Llm Lab",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",
