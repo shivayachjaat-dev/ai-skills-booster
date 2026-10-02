@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **259** skills across structured domains, categories, and subcategories.
+Master navigation for **260** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (81 skills)
+## Ai Engineering (82 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (41 skills)
+### Models (42 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -189,6 +189,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-ai-openai-dotnet](../skills/ai-engineering/models/azure_ai_openai_dotn/azure-ai-openai-dotnet/SKILL.md) — Use this skill to azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants.
 - **Azure_Ai_Projects_Do** (1):
   - [azure-ai-projects-dotnet](../skills/ai-engineering/models/azure_ai_projects_do/azure-ai-projects-dotnet/SKILL.md) — Use this skill to azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes.
+- **Azure_Ai_Projects_Ja** (1):
+  - [azure-ai-projects-java](../skills/ai-engineering/models/azure_ai_projects_ja/azure-ai-projects-java/SKILL.md) — Use this skill to azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

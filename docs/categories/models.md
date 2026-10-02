@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **41 skills** available in this category.
+> **42 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -44,4 +44,5 @@
 | [azure-ai-ml-py](../../skills/ai-engineering/models/azure_ai_ml_py/azure-ai-ml-py/SKILL.md) | `azure_ai_ml_py` | `advanced` | `stable` | Use this skill to azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines. |
 | [azure-ai-openai-dotnet](../../skills/ai-engineering/models/azure_ai_openai_dotn/azure-ai-openai-dotnet/SKILL.md) | `azure_ai_openai_dotn` | `advanced` | `stable` | Use this skill to azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants. |
 | [azure-ai-projects-dotnet](../../skills/ai-engineering/models/azure_ai_projects_do/azure-ai-projects-dotnet/SKILL.md) | `azure_ai_projects_do` | `advanced` | `stable` | Use this skill to azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes. |
+| [azure-ai-projects-java](../../skills/ai-engineering/models/azure_ai_projects_ja/azure-ai-projects-java/SKILL.md) | `azure_ai_projects_ja` | `advanced` | `stable` | Use this skill to azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
