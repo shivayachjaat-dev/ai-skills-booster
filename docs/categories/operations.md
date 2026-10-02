@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **21 skills** available in this category.
+> **22 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -25,3 +25,4 @@
 | [knowledge-base](../../skills/business/operations/knowledge_base/knowledge-base/SKILL.md) | `knowledge_base` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for knowledge base. Knowledge base register: article title, category, department, owner, tags, summary, linked SOP, audience, last and next review dates and status. Use for documentation management. |
 | [kpi-dashboard-design](../../skills/business/operations/kpi_dashboard_design/kpi-dashboard-design/SKILL.md) | `kpi_dashboard_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kpi dashboard design. Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions. |
 | [leave-management](../../skills/business/operations/leave_management/leave-management/SKILL.md) | `leave_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leave management. Leave register: request, leave type, employee and department, manager and approver, start and end dates, days requested, leave balances, handover notes and status. Use for leave tracking. |
+| [lex-engineering-workflow](../../skills/business/operations/lex/lex-engineering-workflow/SKILL.md) | `lex` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lex engineering workflow. Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding. |
