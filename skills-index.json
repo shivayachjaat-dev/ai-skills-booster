@@ -5605,6 +5605,28 @@
     "maturity": "stable"
   },
   {
+    "name": "diagnose-android-overheating",
+    "path": "skills/ai-engineering/models/diagnose_android_ove/diagnose-android-overheating",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "diagnose_android_ove",
+    "description": "Use this skill to design, implement, and operate production workflows for diagnose android overheating. Use when diagnosing Android overheating, idle heat, thermal throttling, charging or radio heat, or abnormal battery drain with read-only ADB evidence and approval gates.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "diagnose",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Diagnose Android Overheating",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

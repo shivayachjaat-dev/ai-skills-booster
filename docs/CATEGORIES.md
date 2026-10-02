@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **832** skills across structured domains, categories, and subcategories.
+Master navigation for **833** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (286 skills)
+## Ai Engineering (287 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -164,7 +164,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (203 skills)
+### Models (204 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -544,6 +544,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [developer-newsletter](../skills/ai-engineering/models/developer_newsletter/developer-newsletter/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer newsletter. When the user wants to create, write, or improve a newsletter for developer audiences. Trigger phrases include "newsletter," "email marketing," "developer email," "weekly digest," "dev newsletter," "email subscribers," "newsletter growth," or "email l...
 - **Developer_Seo** (1):
   - [developer-seo](../skills/ai-engineering/models/developer_seo/developer-seo/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer seo. SEO strategy for technical queries and developer audiences. Covers keyword research for \"how to X in language\" queries, error message SEO, Stack Overflow-style content, technical long-tail keywords, and competing with official documentation sites.
+- **Diagnose_Android_Ove** (1):
+  - [diagnose-android-overheating](../skills/ai-engineering/models/diagnose_android_ove/diagnose-android-overheating/SKILL.md) — Use this skill to design, implement, and operate production workflows for diagnose android overheating. Use when diagnosing Android overheating, idle heat, thermal throttling, charging or radio heat, or abnormal battery drain with read-only ADB evidence and approval gates.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):
