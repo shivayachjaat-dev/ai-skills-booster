@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 771 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 772 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -579,6 +579,7 @@
 | [cyber-y2k](skills/frontend/web-architecture/cyber_y2k/cyber-y2k/SKILL.md) | `frontend` | `web-architecture` | `cyber_y2k` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for cyber y2k. Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics. |
 | [cyberpunk-ui](skills/frontend/web-architecture/cyberpunk_ui/cyberpunk-ui/SKILL.md) | `frontend` | `web-architecture` | `cyberpunk_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for cyberpunk ui. Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces. |
 | [dashboard-design](skills/frontend/web-architecture/dashboard_design/dashboard-design/SKILL.md) | `frontend` | `web-architecture` | `dashboard_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dashboard design. Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens. |
+| [data-dense-design](skills/frontend/web-architecture/data_dense_design/data-dense-design/SKILL.md) | `frontend` | `web-architecture` | `data_dense_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for data dense design. Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs). |
 | [defuddle](skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) | `frontend` | `web-architecture` | `defuddle` | `advanced` | `stable` | Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. |
 | [production-audit](skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `frontend` | `web-architecture` | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `frontend` | `web-architecture` | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |

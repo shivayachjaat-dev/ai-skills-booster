@@ -13061,6 +13061,28 @@
     "maturity": "stable"
   },
   {
+    "name": "data-dense-design",
+    "path": "skills/frontend/web-architecture/data_dense_design/data-dense-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "data_dense_design",
+    "description": "Use this skill to design, implement, and operate production workflows for data dense design. Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs).",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "data",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Data Dense Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "defuddle",
     "path": "skills/frontend/web-architecture/defuddle/defuddle",
     "domain": "frontend",
