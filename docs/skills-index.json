@@ -397,6 +397,32 @@
     "maturity": "stable"
   },
   {
+    "name": "drizzle-orm-schema-and-relational-queries",
+    "path": "skills/backend/database-drivers/drizzle/drizzle-orm-schema-and-relational-queries",
+    "domain": "backend",
+    "category": "database-drivers",
+    "subcategory": "drizzle",
+    "description": "Use this skill when designing database schemas, managing type-safe migrations, and querying SQL databases with Drizzle ORM in TypeScript. It guides the agent through pgTable declarations, relations API (1:1, 1:N, M:N), Drizzle Kit migrations (generate/migrate), prepared statements for maximum performance, and serverless pooling.",
+    "tags": [
+      "drizzle-orm",
+      "typescript",
+      "postgresql",
+      "database",
+      "orm",
+      "drizzle-kit",
+      "sql"
+    ],
+    "technologies": [
+      "Drizzle ORM",
+      "Drizzle Kit",
+      "TypeScript",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "sqlalchemy-async-session-management",
     "path": "skills/backend/database-drivers/sqlalchemy/sqlalchemy-async-session-management",
     "domain": "backend",

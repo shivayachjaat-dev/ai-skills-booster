@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **85** skills across structured domains, categories, and subcategories.
+Master navigation for **86** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (13 skills)
 
@@ -66,7 +66,7 @@ Category index: [`docs/categories/vector-databases.md`](categories/vector-databa
 - **Indexing** (1):
   - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
-## Backend (12 skills)
+## Backend (13 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -86,9 +86,11 @@ Category index: [`docs/categories/caching.md`](categories/caching.md)
 - **Redis Streams** (1):
   - [redis-streams-event-processing](../skills/backend/caching/redis-streams/redis-streams-event-processing/SKILL.md) — Use this skill when architecting, implementing, and operating event-driven stream processing systems using Redis Streams. It guides the agent through appending events with XADD, managing competing Consumer Groups with XREADGROUP, tracking the Pending Entries List (PEL), dead-lettering abandoned messages via XAUTOCLAIM, and stream memory trimming with MAXLEN.
 
-### Database Drivers (1 skills)
+### Database Drivers (2 skills)
 Category index: [`docs/categories/database-drivers.md`](categories/database-drivers.md)
 
+- **Drizzle** (1):
+  - [drizzle-orm-schema-and-relational-queries](../skills/backend/database-drivers/drizzle/drizzle-orm-schema-and-relational-queries/SKILL.md) — Use this skill when designing database schemas, managing type-safe migrations, and querying SQL databases with Drizzle ORM in TypeScript. It guides the agent through pgTable declarations, relations API (1:1, 1:N, M:N), Drizzle Kit migrations (generate/migrate), prepared statements for maximum performance, and serverless pooling.
 - **Sqlalchemy** (1):
   - [sqlalchemy-async-session-management](../skills/backend/database-drivers/sqlalchemy/sqlalchemy-async-session-management/SKILL.md) — Use this skill when architecting asynchronous database access layers in Python using SQLAlchemy 2.0+ and asyncpg. It guides the agent through AsyncEngine configuration, connection pooling with pool_pre_ping, scoped async session lifecycles, eager loading strategies (selectinload vs joinedload), and atomic transaction context managers.
 
