@@ -25997,6 +25997,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-migration-helper",
+    "path": "skills/frontend/ui-ux/odoo_migration_helpe/odoo-migration-helper",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_migration_helpe",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo migration helper. Step-by-step guide for migrating Odoo custom modules between versions (v14\u2192v15\u2192v16\u2192v17). Covers API changes, deprecated methods, and view migration.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Migration Helper",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
