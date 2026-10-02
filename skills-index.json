@@ -10247,6 +10247,28 @@
     "maturity": "stable"
   },
   {
+    "name": "m365-agents-py",
+    "path": "skills/ai-engineering/models/m365_agents_py/m365-agents-py",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "m365_agents_py",
+    "description": "Use this skill to design, implement, and operate production workflows for m365 agents py. Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "m365",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "M365 Agents Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

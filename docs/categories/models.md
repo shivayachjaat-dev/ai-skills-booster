@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **364 skills** available in this category.
+> **365 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -361,6 +361,7 @@
 | [loop-library](../../skills/ai-engineering/models/loop_library/loop-library/SKILL.md) | `loop_library` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for loop library. Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and handoffs. |
 | [loopy](../../skills/ai-engineering/models/loopy/loopy/SKILL.md) | `loopy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for loopy. Discover, find, compare, audit, repair, adapt, craft, run, debrief, and prepare repeatable AI-agent loops for publication. |
 | [lore](../../skills/ai-engineering/models/lore/lore/SKILL.md) | `lore` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lore. Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query. |
+| [m365-agents-py](../../skills/ai-engineering/models/m365_agents_py/m365-agents-py/SKILL.md) | `m365_agents_py` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for m365 agents py. Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

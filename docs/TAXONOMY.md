@@ -466,6 +466,7 @@ AI_Skills_Booster/
 │   │   ├── loop_library/ (1 skills)
 │   │   ├── loopy/ (1 skills)
 │   │   ├── lore/ (1 skills)
+│   │   ├── m365_agents_py/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

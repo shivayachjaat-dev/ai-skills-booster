@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,446** skills across structured domains, categories, and subcategories.
+Master navigation for **1,447** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (503 skills)
+## Ai Engineering (504 skills)
 
 ### Agents (60 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -258,7 +258,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Llmops_Platform_Engi** (1):
   - [llmops-platform-engineering](../skills/ai-engineering/llm-ops/llmops_platform_engi/llmops-platform-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for llmops platform engineering. Build production LLMOps platforms with CI/CD, model promotion workflows,
 
-### Models (364 skills)
+### Models (365 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -964,6 +964,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [loopy](../skills/ai-engineering/models/loopy/loopy/SKILL.md) — Use this skill to design, implement, and operate production workflows for loopy. Discover, find, compare, audit, repair, adapt, craft, run, debrief, and prepare repeatable AI-agent loops for publication.
 - **Lore** (1):
   - [lore](../skills/ai-engineering/models/lore/lore/SKILL.md) — Use this skill to design, implement, and operate production workflows for lore. Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query.
+- **M365_Agents_Py** (1):
+  - [m365-agents-py](../skills/ai-engineering/models/m365_agents_py/m365-agents-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents py. Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
