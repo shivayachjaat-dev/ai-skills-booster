@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,185 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,186 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1162,6 +1162,7 @@
 | [hig-technologies](skills/software-engineering/architecture/patterns/hig-technologies/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig technologies. Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
 | [hr-pro](skills/software-engineering/architecture/patterns/hr-pro/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hr pro. Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations. |
 | [hubspot-automation](skills/software-engineering/architecture/patterns/hubspot-automation/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hubspot automation. Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration. |
+| [hugging-face-jobs](skills/software-engineering/architecture/patterns/hugging-face-jobs/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face jobs. Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence. |
 | [multiplayer](skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
 | [github-pr-review-feedback-resolver](skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) | `software-engineering` | `code-review` | `pr-feedback` | `intermediate` | `stable` | Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads. |

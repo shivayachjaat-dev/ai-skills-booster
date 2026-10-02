@@ -26073,6 +26073,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-jobs",
+    "path": "skills/software-engineering/architecture/patterns/hugging-face-jobs",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face jobs. Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Jobs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
