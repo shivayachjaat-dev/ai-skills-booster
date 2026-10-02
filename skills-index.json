@@ -28426,6 +28426,28 @@
     "maturity": "stable"
   },
   {
+    "name": "security-checklist",
+    "path": "skills/security/appsec/security_checklist/security-checklist",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "security_checklist",
+    "description": "Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.",
+    "tags": [
+      "security",
+      "appsec",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Checklist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

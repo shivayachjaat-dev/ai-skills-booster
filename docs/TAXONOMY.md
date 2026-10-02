@@ -1387,7 +1387,8 @@ AI_Skills_Booster/
 │   │   ├── meme_coin_audit/ (1 skills)
 │   │   ├── metasploit_framework/ (1 skills)
 │   │   ├── mid_engagement_ir_de/ (1 skills)
-│   │   └── security_auditor/ (1 skills)
+│   │   ├── security_auditor/ (1 skills)
+│   │   └── security_checklist/ (1 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/
