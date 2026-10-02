@@ -498,6 +498,7 @@ AI_Skills_Booster/
 │   │   ├── modern_javascript_pa/ (1 skills)
 │   │   ├── monetization/ (1 skills)
 │   │   ├── monte_carlo_monitori/ (1 skills)
+│   │   ├── monte_carlo_remediat/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

@@ -10951,6 +10951,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-remediation",
+    "path": "skills/ai-engineering/models/monte_carlo_remediat/monte-carlo-remediation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "monte_carlo_remediat",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo remediation. Investigate and remediate data quality alerts using Monte Carlo MCP tools. Runs root cause analysis, assesses blast radius, discovers available tools (MCP/CLI/API), proposes and executes fixes, or escalates with full context when uncertain.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Remediation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
