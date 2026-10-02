@@ -182,6 +182,8 @@ AI_Skills_Booster/
 │   ├── architecture/
 │   │   ├── hexagonal/ (1 skills)
 │   │   └── interfaces/ (1 skills)
+│   ├── code-review/
+│   │   └── pr-feedback/ (1 skills)
 │   ├── debugging/
 │   │   └── recovery/ (1 skills)
 │   ├── design-patterns/

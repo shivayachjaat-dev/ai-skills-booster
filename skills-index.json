@@ -2340,6 +2340,30 @@
     "maturity": "stable"
   },
   {
+    "name": "github-pr-review-feedback-resolver",
+    "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
+    "domain": "software-engineering",
+    "category": "code-review",
+    "subcategory": "pr-feedback",
+    "description": "Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.",
+    "tags": [
+      "code-review",
+      "pull-request",
+      "github",
+      "git",
+      "collaboration",
+      "developer-experience"
+    ],
+    "technologies": [
+      "GitHub API",
+      "Git",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "debugging-and-error-recovery",
     "path": "skills/software-engineering/debugging/recovery/debugging-and-error-recovery",
     "domain": "software-engineering",
