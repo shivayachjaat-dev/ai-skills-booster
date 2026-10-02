@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **689** skills across structured domains, categories, and subcategories.
+Master navigation for **690** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (244 skills)
+## Ai Engineering (245 skills)
 
 ### Agents (29 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -148,7 +148,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (170 skills)
+### Models (171 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -480,6 +480,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [day-book](../skills/ai-engineering/models/day_book/day-book/SKILL.md) — Use this skill to daily cash, bank and digital day book: opening and closing balances per book, in/out movements, debit/credit presentation and reconciliation status. Use for daily bookkeeping.
 - **Ddd_Strategic_Design** (1):
   - [ddd-strategic-design](../skills/ai-engineering/models/ddd_strategic_design/ddd-strategic-design/SKILL.md) — Use this skill to design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains.
+- **Ddd_Tactical_Pattern** (1):
+  - [ddd-tactical-patterns](../skills/ai-engineering/models/ddd_tactical_pattern/ddd-tactical-patterns/SKILL.md) — Use this skill to apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
