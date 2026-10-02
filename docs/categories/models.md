@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **391 skills** available in this category.
+> **392 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -388,6 +388,7 @@
 | [modellix](../../skills/ai-engineering/models/modellix/modellix/SKILL.md) | `modellix` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for modellix. Integrate the Modellix API/CLI for async AI image, video, and speech generation or transcription (model run --wait, task download). |
 | [modern-javascript-patterns](../../skills/ai-engineering/models/modern_javascript_pa/modern-javascript-patterns/SKILL.md) | `modern_javascript_pa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for modern javascript patterns. Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code. |
 | [monetization](../../skills/ai-engineering/models/monetization/monetization/SKILL.md) | `monetization` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monetization. Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subscriptions, pricing experiments, freemium, upgrade flows, churn prevention, revenue optimization e modelos de negocio SaaS. |
+| [monte-carlo-monitoring-advisor](../../skills/ai-engineering/models/monte_carlo_monitori/monte-carlo-monitoring-advisor/SKILL.md) | `monte_carlo_monitori` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo monitoring advisor. Analyze data coverage, create monitors for warehouse tables and AI agents. Covers coverage gaps, use-case analysis, data monitor creation, and agent observability. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
