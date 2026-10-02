@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **13 skills** available in this category.
+> **14 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,3 +17,4 @@
 | [change-management](../../skills/security/appsec/change_management/change-management/SKILL.md) | `change_management` | `advanced` | `stable` | Use this skill to implement change management processes. Configure CAB reviews, change |
 | [changelog-entry](../../skills/security/appsec/changelog_entry/changelog-entry/SKILL.md) | `changelog_entry` | `advanced` | `stable` | Use this skill to generate a properly formatted CHANGELOG.md entry in Keep a Changelog format from a commit range or PR. Groups changes into Added/Changed/Deprecated/Removed/Fixed/Security categories and outputs a ready-to-paste block. |
 | [cis-benchmarks](../../skills/security/appsec/cis_benchmarks/cis-benchmarks/SKILL.md) | `cis_benchmarks` | `advanced` | `stable` | Use this skill to audit and remediate CIS benchmark violations. |
+| [code-review-sensei](../../skills/security/appsec/code_review_sensei/code-review-sensei/SKILL.md) | `code_review_sensei` | `advanced` | `stable` | Use this skill to expert code reviewer that catches bugs, security issues, performance |

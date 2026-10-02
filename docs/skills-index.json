@@ -10496,6 +10496,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-review-sensei",
+    "path": "skills/security/appsec/code_review_sensei/code-review-sensei",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "code_review_sensei",
+    "description": "Use this skill to expert code reviewer that catches bugs, security issues, performance",
+    "tags": [
+      "security",
+      "appsec",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Review Sensei",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
