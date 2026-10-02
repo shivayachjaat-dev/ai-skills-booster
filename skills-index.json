@@ -11575,6 +11575,28 @@
     "maturity": "stable"
   },
   {
+    "name": "discord-automation",
+    "path": "skills/frontend/frameworks/discord_automation/discord-automation",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "discord_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for discord automation. Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "discord",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Discord Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
