@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 874 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 875 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -644,6 +644,7 @@
 | [data-dense-design](skills/frontend/web-architecture/data_dense_design/data-dense-design/SKILL.md) | `frontend` | `web-architecture` | `data_dense_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for data dense design. Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs). |
 | [defuddle](skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) | `frontend` | `web-architecture` | `defuddle` | `advanced` | `stable` | Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. |
 | [django-pro](skills/frontend/web-architecture/django_pro/django-pro/SKILL.md) | `frontend` | `web-architecture` | `django_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for django pro. Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment. |
+| [dsh-deepread](skills/frontend/web-architecture/dsh_deepread/dsh-deepread/SKILL.md) | `frontend` | `web-architecture` | `dsh_deepread` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dsh deepread. Use for evidence-first reading of articles, books, PDFs, web pages, or document sets, with knowledge maps and Feynman checks. |
 | [duotone-design](skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) | `frontend` | `web-architecture` | `duotone_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics. |
 | [flat-design](skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) | `frontend` | `web-architecture` | `flat_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors. |
 | [flat-design-2](skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) | `frontend` | `web-architecture` | `flat_design_2` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability. |

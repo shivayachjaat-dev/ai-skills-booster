@@ -14491,6 +14491,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dsh-deepread",
+    "path": "skills/frontend/web-architecture/dsh_deepread/dsh-deepread",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "dsh_deepread",
+    "description": "Use this skill to design, implement, and operate production workflows for dsh deepread. Use for evidence-first reading of articles, books, PDFs, web pages, or document sets, with knowledge maps and Feynman checks.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "dsh",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dsh Deepread",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "duotone-design",
     "path": "skills/frontend/web-architecture/duotone_design/duotone-design",
     "domain": "frontend",
