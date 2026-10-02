@@ -97,6 +97,7 @@ AI_Skills_Booster/
 │   │   ├── azure_containerregis/ (1 skills)
 │   │   ├── azure_cosmos_rust/ (1 skills)
 │   │   ├── azure_cosmos_ts/ (1 skills)
+│   │   ├── azure_mgmt_arizeaiob/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
