@@ -2107,6 +2107,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-search-documents-dotnet",
+    "path": "skills/ai-engineering/models/azure_search_documen/azure-search-documents-dotnet",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_search_documen",
+    "description": "Use this skill to azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Search Documents Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

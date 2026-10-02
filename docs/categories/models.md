@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **62 skills** available in this category.
+> **63 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -65,4 +65,5 @@
 | [azure-cosmos-ts](../../skills/ai-engineering/models/azure_cosmos_ts/azure-cosmos-ts/SKILL.md) | `azure_cosmos_ts` | `advanced` | `stable` | Use this skill to azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management. |
 | [azure-mgmt-arizeaiobservabilityeval-dotnet](../../skills/ai-engineering/models/azure_mgmt_arizeaiob/azure-mgmt-arizeaiobservabilityeval-dotnet/SKILL.md) | `azure_mgmt_arizeaiob` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET). |
 | [azure-monitor-query-java](../../skills/ai-engineering/models/azure_monitor_query_/azure-monitor-query-java/SKILL.md) | `azure_monitor_query_` | `advanced` | `stable` | Use this skill to azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources. |
+| [azure-search-documents-dotnet](../../skills/ai-engineering/models/azure_search_documen/azure-search-documents-dotnet/SKILL.md) | `azure_search_documen` | `advanced` | `stable` | Use this skill to azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

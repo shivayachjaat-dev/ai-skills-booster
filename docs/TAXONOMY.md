@@ -99,6 +99,7 @@ AI_Skills_Booster/
 │   │   ├── azure_cosmos_ts/ (1 skills)
 │   │   ├── azure_mgmt_arizeaiob/ (1 skills)
 │   │   ├── azure_monitor_query_/ (1 skills)
+│   │   ├── azure_search_documen/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

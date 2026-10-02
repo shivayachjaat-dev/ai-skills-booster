@@ -2,7 +2,7 @@
 
 Find the exact agent skill according to what task you need completed.
 
-## Build & Create (172 skills)
+## Build & Create (173 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering/agents`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — `ai-engineering/agents`: Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -40,6 +40,7 @@ Find the exact agent skill according to what task you need completed.
 - [azure-ai-voicelive-py](../skills/ai-engineering/models/azure_ai_voicelive_p/azure-ai-voicelive-py/SKILL.md) — `ai-engineering/models`: Use this skill to build real-time voice AI applications with bidirectional WebSocket communication.
 - [azure-ai-voicelive-ts](../skills/ai-engineering/models/azure_ai_voicelive_t/azure-ai-voicelive-ts/SKILL.md) — `ai-engineering/models`: Use this skill to azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication.
 - [azure-communication-callautomation-java](../skills/ai-engineering/models/azure_communication_/azure-communication-callautomation-java/SKILL.md) — `ai-engineering/models`: Use this skill to build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions.
+- [azure-search-documents-dotnet](../skills/ai-engineering/models/azure_search_documen/azure-search-documents-dotnet/SKILL.md) — `ai-engineering/models`: Use this skill to azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering/models`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — `ai-engineering/orchestration`: Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 - [axiom](../skills/ai-engineering/rag/axiom/axiom/SKILL.md) — `ai-engineering/rag`: Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.
