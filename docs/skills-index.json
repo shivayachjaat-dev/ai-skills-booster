@@ -19573,6 +19573,28 @@
     "maturity": "stable"
   },
   {
+    "name": "markstream-custom-components",
+    "path": "skills/frontend/ui-development/markstream_custom_co/markstream-custom-components",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "markstream_custom_co",
+    "description": "Use this skill to design, implement, and operate production workflows for markstream custom components. Override Markstream node renderers and add trusted custom tags across Vue, React, Svelte, and Angular using scoped or renderer-local mappings.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "markstream",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Markstream Custom Components",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
