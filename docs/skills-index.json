@@ -2118,6 +2118,34 @@
     "maturity": "stable"
   },
   {
+    "name": "apple-silicon-container-runtime-optimization",
+    "path": "skills/devops/containers/apple-silicon/apple-silicon-container-runtime-optimization",
+    "domain": "devops",
+    "category": "containers",
+    "subcategory": "apple-silicon",
+    "description": "Use this skill to build, optimize, and manage lightweight OCI Linux containers and microVM runtimes on Apple Silicon (ARM64 macOS) using native virtualization frameworks, Rosetta 2 multi-arch emulation, Colima, and OrbStack. It covers cross-platform multi-arch image compilation (buildx), bind-mount I/O caching, and GPU acceleration.",
+    "tags": [
+      "apple-silicon",
+      "arm64",
+      "docker",
+      "orbstack",
+      "colima",
+      "containers",
+      "rosetta",
+      "devops"
+    ],
+    "technologies": [
+      "Docker Buildx",
+      "Colima",
+      "OrbStack",
+      "macOS Virtualization.framework",
+      "ARM64",
+      "Rosetta 2"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "docker-container-optimization",
     "path": "skills/devops/containers/optimization/docker-container-optimization",
     "domain": "devops",

@@ -156,6 +156,7 @@ AI_Skills_Booster/
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/
+│   │   ├── apple-silicon/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── continuous-delivery/
 │   │   └── flagger/ (1 skills)
