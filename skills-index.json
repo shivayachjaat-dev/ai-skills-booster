@@ -22288,6 +22288,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-exceptional-conditions",
+    "path": "skills/security/appsec/hunt_exceptional_con/hunt-exceptional-conditions",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_exceptional_con",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt exceptional conditions. Hunt mishandling of exceptional conditions",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Exceptional Conditions",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
