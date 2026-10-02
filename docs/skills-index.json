@@ -13550,6 +13550,28 @@
     "maturity": "stable"
   },
   {
+    "name": "marketing-ideas",
+    "path": "skills/business/growth/marketing_ideas/marketing-ideas",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "marketing_ideas",
+    "description": "Use this skill to design, implement, and operate production workflows for marketing ideas. Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system.",
+    "tags": [
+      "business",
+      "growth",
+      "marketing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Marketing Ideas",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",
