@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (286 skills)
+## AI Engineer (287 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -17,6 +17,7 @@ Curated workflows organized by professional role and specialization.
 - [claude-code-guide](../skills/ai-engineering/agents/claude_code_guide/claude-code-guide/SKILL.md) — `ai-engineering`: Use this skill to to provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns.
 - [claude-delegate](../skills/ai-engineering/agents/claude_delegate/claude-delegate/SKILL.md) — `ai-engineering`: Use this skill to delegate coding tasks to a separate Claude Code CLI process or Claude
 - [cline-delegate](../skills/ai-engineering/agents/cline_delegate/cline-delegate/SKILL.md) — `ai-engineering`: Use this skill to delegate coding tasks to the Cline CLI (`cline`) only when the user explicitly
+- [cmux](../skills/ai-engineering/agents/cmux/cmux/SKILL.md) — `ai-engineering`: Use this skill to control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows.
 - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — `ai-engineering`: Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — `ai-engineering`: Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — `ai-engineering`: Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.

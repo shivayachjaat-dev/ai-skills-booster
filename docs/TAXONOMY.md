@@ -17,6 +17,7 @@ AI_Skills_Booster/
 │   │   ├── claude_code_guide/ (1 skills)
 │   │   ├── claude_delegate/ (1 skills)
 │   │   ├── cline_delegate/ (1 skills)
+│   │   ├── cmux/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── forensic-audit/ (1 skills)
 │   │   ├── memory/ (1 skills)

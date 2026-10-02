@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **529** skills across structured domains, categories, and subcategories.
+Master navigation for **530** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (178 skills)
+## Ai Engineering (179 skills)
 
-### Agents (22 skills)
+### Agents (23 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -33,6 +33,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [claude-delegate](../skills/ai-engineering/agents/claude_delegate/claude-delegate/SKILL.md) — Use this skill to delegate coding tasks to a separate Claude Code CLI process or Claude
 - **Cline_Delegate** (1):
   - [cline-delegate](../skills/ai-engineering/agents/cline_delegate/cline-delegate/SKILL.md) — Use this skill to delegate coding tasks to the Cline CLI (`cline`) only when the user explicitly
+- **Cmux** (1):
+  - [cmux](../skills/ai-engineering/agents/cmux/cmux/SKILL.md) — Use this skill to control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows.
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):

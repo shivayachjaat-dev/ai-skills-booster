@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (347 skills)
+## Bash (348 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1060,6 +1060,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [claude-code-guide](../skills/ai-engineering/agents/claude_code_guide/claude-code-guide/SKILL.md) — Use this skill to to provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns.
 - [claude-delegate](../skills/ai-engineering/agents/claude_delegate/claude-delegate/SKILL.md) — Use this skill to delegate coding tasks to a separate Claude Code CLI process or Claude
 - [cline-delegate](../skills/ai-engineering/agents/cline_delegate/cline-delegate/SKILL.md) — Use this skill to delegate coding tasks to the Cline CLI (`cline`) only when the user explicitly
+- [cmux](../skills/ai-engineering/agents/cmux/cmux/SKILL.md) — Use this skill to control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows.
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [aws-rds](../skills/ai-engineering/computer-vision/aws_rds/aws-rds/SKILL.md) — Use this skill to provision and manage RDS databases. Configure backups, replication, and
@@ -2100,6 +2101,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Cloudformation Best Practices (1 skills)
 
 - [cloudformation-best-practices](../skills/devops/cloud-infrastructure/cloudformation_best_/cloudformation-best-practices/SKILL.md) — Use this skill to cloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates.
+
+## Cmux (1 skills)
+
+- [cmux](../skills/ai-engineering/agents/cmux/cmux/SKILL.md) — Use this skill to control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows.
 
 ## Colima (1 skills)
 
@@ -3232,7 +3237,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (450 skills)
+## Python (451 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3247,6 +3252,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [claude-code-guide](../skills/ai-engineering/agents/claude_code_guide/claude-code-guide/SKILL.md) — Use this skill to to provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns.
 - [claude-delegate](../skills/ai-engineering/agents/claude_delegate/claude-delegate/SKILL.md) — Use this skill to delegate coding tasks to a separate Claude Code CLI process or Claude
 - [cline-delegate](../skills/ai-engineering/agents/cline_delegate/cline-delegate/SKILL.md) — Use this skill to delegate coding tasks to the Cline CLI (`cline`) only when the user explicitly
+- [cmux](../skills/ai-engineering/agents/cmux/cmux/SKILL.md) — Use this skill to control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows.
 - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
