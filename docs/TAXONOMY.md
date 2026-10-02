@@ -88,6 +88,7 @@ AI_Skills_Booster/
 │   │   ├── azure_ai_textanalyti/ (1 skills)
 │   │   ├── azure_ai_transcripti/ (1 skills)
 │   │   ├── azure_ai_translation/ (3 skills)
+│   │   ├── azure_ai_vision_imag/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

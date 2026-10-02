@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **267** skills across structured domains, categories, and subcategories.
+Master navigation for **268** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (89 skills)
+## Ai Engineering (90 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (49 skills)
+### Models (50 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -203,6 +203,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-ai-translation-document-py](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-document-py/SKILL.md) — Use this skill to azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale.
   - [azure-ai-translation-text-py](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-text-py/SKILL.md) — Use this skill to azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.
   - [azure-ai-translation-ts](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-ts/SKILL.md) — Use this skill to text and document translation with REST-style clients.
+- **Azure_Ai_Vision_Imag** (1):
+  - [azure-ai-vision-imageanalysis-java](../skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-java/SKILL.md) — Use this skill to build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
