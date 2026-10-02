@@ -5806,6 +5806,28 @@
     "maturity": "stable"
   },
   {
+    "name": "content-creator",
+    "path": "skills/business/growth/content_creator/content-creator",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "content_creator",
+    "description": "Use this skill to draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.",
+    "tags": [
+      "business",
+      "growth",
+      "content",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Content Creator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",

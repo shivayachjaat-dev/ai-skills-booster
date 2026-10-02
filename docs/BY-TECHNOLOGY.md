@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (411 skills)
+## Bash (412 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1256,6 +1256,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-monitor-query-py](../skills/backend/python-services/azure_monitor_query_/azure-monitor-query-py/SKILL.md) — Use this skill to azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.
 - [azure-servicebus-py](../skills/backend/python-services/azure_servicebus_py/azure-servicebus-py/SKILL.md) — Use this skill to azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.
 - [competitor-ad-intelligence](../skills/business/growth/competitor_ad_intell/competitor-ad-intelligence/SKILL.md) — Use this skill to research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown.
+- [content-creator](../skills/business/growth/content_creator/content-creator/SKILL.md) — Use this skill to draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.
 - [board-governance](../skills/business/operations/board_governance/board-governance/SKILL.md) — Use this skill to board and governance register: meeting date, agenda, decision, resolution number, vote result, action owner and due date. Use for board packs and action tracking.
 - [brand-kit-print-collateral](../skills/business/operations/brand_kit_print_coll/brand-kit-print-collateral/SKILL.md) — Use this skill to print collateral spec: item, finished and trim size, bleed, colour mode, stock and GSM, finish, safe margin, print method, quantity and unit cost. Use for cards and letterhead.
 - [buddy-program-manager](../skills/business/operations/buddy_program_manage/buddy-program-manager/SKILL.md) — Use this skill to buddy programme register: new hire, assigned buddy, department, start and end dates, check-ins planned and done, and feedback score. Use for onboarding buddy schemes.
@@ -2429,6 +2430,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [container-scanning](../skills/ai-engineering/models/container_scanning/container-scanning/SKILL.md) — Use this skill to scan container images for vulnerabilities using Trivy, Grype, and cloud-native
 
+## Content Creator (1 skills)
+
+- [content-creator](../skills/business/growth/content_creator/content-creator/SKILL.md) — Use this skill to draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.
+
 ## Copywriting Frameworks (1 skills)
 
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.
@@ -3552,7 +3557,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (514 skills)
+## Python (515 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3798,6 +3803,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 - [internal-financial-audit-and-controls](../skills/business/finance/audit-controls/internal-financial-audit-and-controls/SKILL.md) — Use this skill when designing, testing, and automating internal financial accounting controls, journal entry audit trails, and reconciliation workflows compliant with SOX 404, GAAP, and IFRS. It guides the agent through general ledger reconciliation, manual journal entry approval thresholds, segregation of duties in treasury, and anomaly detection.
 - [competitor-ad-intelligence](../skills/business/growth/competitor_ad_intell/competitor-ad-intelligence/SKILL.md) — Use this skill to research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown.
+- [content-creator](../skills/business/growth/content_creator/content-creator/SKILL.md) — Use this skill to draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.
 - [corporate-alumni-and-talent-rehire-network](../skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network/SKILL.md) — Use this skill to design, maintain, and automate corporate alumni talent registers, re-hire eligibility tracking, and boomerang employee engagement workflows. It covers structured employee exit registers, skill taxonomy mapping, re-engagement cadences, and compliance auditing.
 - [employee-360-feedback-review-system](../skills/business/human-resources/performance-management/employee-360-feedback-review-system/SKILL.md) — Use this skill when designing, configuring, and operating multi-rater 360-degree performance feedback systems. It guides the agent through peer reviewer nomination workflows, role-specific competency rubrics, anonymous vs attributed visibility rules, cognitive bias mitigation (recency and halo effects), and synthesis reporting.
 - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
