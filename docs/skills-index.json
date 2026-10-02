@@ -4857,6 +4857,28 @@
     "maturity": "stable"
   },
   {
+    "name": "day-book",
+    "path": "skills/ai-engineering/models/day_book/day-book",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "day_book",
+    "description": "Use this skill to daily cash, bank and digital day book: opening and closing balances per book, in/out movements, debit/credit presentation and reconciliation status. Use for daily bookkeeping.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "day",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Day Book",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

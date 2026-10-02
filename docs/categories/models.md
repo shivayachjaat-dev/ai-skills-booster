@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **168 skills** available in this category.
+> **169 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -171,4 +171,5 @@
 | [data-engineer](../../skills/ai-engineering/models/data_engineer/data-engineer/SKILL.md) | `data_engineer` | `advanced` | `stable` | Use this skill to build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms. |
 | [data-export-engine](../../skills/ai-engineering/models/data_export_engine/data-export-engine/SKILL.md) | `data_export_engine` | `advanced` | `stable` | Use this skill to data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails. |
 | [database-cloud-optimization-cost-optimize](../../skills/ai-engineering/models/database_cloud_optim/database-cloud-optimization-cost-optimize/SKILL.md) | `database_cloud_optim` | `advanced` | `stable` | Use this skill to you are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and implement cost-effective architectures across AWS, Azure, and GCP. |
+| [day-book](../../skills/ai-engineering/models/day_book/day-book/SKILL.md) | `day_book` | `advanced` | `stable` | Use this skill to daily cash, bank and digital day book: opening and closing balances per book, in/out movements, debit/credit presentation and reconciliation status. Use for daily bookkeeping. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
