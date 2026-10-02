@@ -1634,6 +1634,28 @@
     "maturity": "stable"
   },
   {
+    "name": "liuguang-banlan-ui",
+    "path": "skills/ai-engineering/computer-vision/liuguang_banlan_ui/liuguang-banlan-ui",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "liuguang_banlan_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for liuguang banlan ui. Builds two parameterized UI modes\u2014\u6d41\u5149\u6ea2\u5f69\u767d (iridescent white) and \u4e94\u5f69\u6591\u6593\u9ed1 (colorful black)\u2014with OKLCH, WebGL/CSS fallback, vision gating, screenshot QA, and total/per-color intensity reports. Use when a UI request names either mode or needs measured color pa...",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "liuguang",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Liuguang Banlan Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "spatial-computing-ui",
     "path": "skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui",
     "domain": "ai-engineering",
