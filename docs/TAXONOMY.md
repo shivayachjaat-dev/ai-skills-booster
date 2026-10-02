@@ -58,6 +58,8 @@ AI_Skills_Booster/
 ├── frontend/
 │   ├── accessibility/
 │   │   └── wcag/ (1 skills)
+│   ├── nextjs/
+│   │   └── architecture/ (1 skills)
 │   └── react/
 │   │   └── architecture/ (1 skills)
 ├── mcp/

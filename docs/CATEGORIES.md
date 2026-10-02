@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **45** skills across structured domains, categories, and subcategories.
+Master navigation for **46** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (6 skills)
 
@@ -154,13 +154,19 @@ Category index: [`docs/categories/observability.md`](categories/observability.md
 - **Opentelemetry** (1):
   - [opentelemetry-distributed-tracing](../skills/devops/observability/opentelemetry/opentelemetry-distributed-tracing/SKILL.md) — Use this skill when designing, instrumenting, and troubleshooting end-to-end distributed tracing across microservices using OpenTelemetry (OTel). It covers W3C tracecontext propagation, OTLP gRPC/HTTP exporters, head-based and tail-based sampling strategies, span attributes standardization (semantic conventions), and collector deployment.
 
-## Frontend (2 skills)
+## Frontend (3 skills)
 
 ### Accessibility (1 skills)
 Category index: [`docs/categories/accessibility.md`](categories/accessibility.md)
 
 - **Wcag** (1):
   - [wcag-accessibility-audit](../skills/frontend/accessibility/wcag/wcag-accessibility-audit/SKILL.md) — Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.
+
+### Nextjs (1 skills)
+Category index: [`docs/categories/nextjs.md`](categories/nextjs.md)
+
+- **Architecture** (1):
+  - [nextjs-app-router-architecture](../skills/frontend/nextjs/architecture/nextjs-app-router-architecture/SKILL.md) — Use this skill when architecting and developing full-stack web applications with Next.js App Router (version 14+ / 15+). It guides the agent through React Server Components (RSC) vs Client Components boundaries, Server Actions with Zod validation, streaming SSR with Suspense boundaries, parallel and intercepting routes, dynamic segment caching, and revalidation (ISR).
 
 ### React (1 skills)
 Category index: [`docs/categories/react.md`](categories/react.md)

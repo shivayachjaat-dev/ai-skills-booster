@@ -650,6 +650,31 @@
     "maturity": "stable"
   },
   {
+    "name": "nextjs-app-router-architecture",
+    "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
+    "domain": "frontend",
+    "category": "nextjs",
+    "subcategory": "architecture",
+    "description": "Use this skill when architecting and developing full-stack web applications with Next.js App Router (version 14+ / 15+). It guides the agent through React Server Components (RSC) vs Client Components boundaries, Server Actions with Zod validation, streaming SSR with Suspense boundaries, parallel and intercepting routes, dynamic segment caching, and revalidation (ISR).",
+    "tags": [
+      "nextjs",
+      "react",
+      "app-router",
+      "server-components",
+      "server-actions",
+      "ssr"
+    ],
+    "technologies": [
+      "Next.js 14+",
+      "React 19",
+      "TypeScript",
+      "Zod",
+      "TailwindCSS"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "react-component-architecture",
     "path": "skills/frontend/react/architecture/react-component-architecture",
     "domain": "frontend",
