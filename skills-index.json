@@ -22741,6 +22741,28 @@
     "maturity": "stable"
   },
   {
+    "name": "magic-ui-generator",
+    "path": "skills/frontend/ui-ux/magic_ui_generator/magic-ui-generator",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "magic_ui_generator",
+    "description": "Use this skill to design, implement, and operate production workflows for magic ui generator. Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "magic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Magic Ui Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
