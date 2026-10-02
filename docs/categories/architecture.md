@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **42 skills** available in this category.
+> **43 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -46,3 +46,4 @@
 | [composition-patterns](../../skills/software-engineering/architecture/patterns/composition-patterns/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with composition-patterns tasks or workflows |
 | [comprehensive-review-full-review](../../skills/software-engineering/architecture/patterns/comprehensive-review-full-review/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with comprehensive review full review |
 | [concise-planning](../../skills/software-engineering/architecture/patterns/concise-planning/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist. |
+| [conductor-implement](../../skills/software-engineering/architecture/patterns/conductor-implement/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to execute tasks from a track's implementation plan following TDD workflow |

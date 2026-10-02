@@ -12917,6 +12917,28 @@
     "maturity": "stable"
   },
   {
+    "name": "conductor-implement",
+    "path": "skills/software-engineering/architecture/patterns/conductor-implement",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to execute tasks from a track's implementation plan following TDD workflow",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "conductor",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Conductor Implement",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
