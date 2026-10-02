@@ -12027,6 +12027,28 @@
     "maturity": "stable"
   },
   {
+    "name": "core-components",
+    "path": "skills/frontend/ui-ux/core_components/core-components",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "core_components",
+    "description": "Use this skill to design, implement, and operate production workflows for core components. Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "core",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Core Components",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cqrs-implementation",
     "path": "skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation",
     "domain": "frontend",

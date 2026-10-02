@@ -618,6 +618,7 @@ AI_Skills_Booster/
 │   │   ├── competitor_alternati/ (1 skills)
 │   │   ├── connection_auth_rule/ (1 skills)
 │   │   ├── copilot_sdk/ (1 skills)
+│   │   ├── core_components/ (1 skills)
 │   │   ├── cqrs_implementation/ (1 skills)
 │   │   ├── crossframe_casebook/ (1 skills)
 │   │   ├── crossframe_debate/ (1 skills)

@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **62 skills** available in this category.
+> **63 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -47,6 +47,7 @@
 | [competitor-alternatives](../../skills/frontend/ui-ux/competitor_alternati/competitor-alternatives/SKILL.md) | `competitor_alternati` | `advanced` | `stable` | Use this skill to you are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively. |
 | [connection-auth-rules](../../skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules/SKILL.md) | `connection_auth_rule` | `advanced` | `stable` | Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches |
 | [copilot-sdk](../../skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) | `copilot_sdk` | `advanced` | `stable` | Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET. |
+| [core-components](../../skills/frontend/ui-ux/core_components/core-components/SKILL.md) | `core_components` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for core components. Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library. |
 | [cqrs-implementation](../../skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation/SKILL.md) | `cqrs_implementation` | `advanced` | `stable` | Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems. |
 | [crossframe-casebook](../../skills/frontend/ui-ux/crossframe_casebook/crossframe-casebook/SKILL.md) | `crossframe_casebook` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes. |
 | [crossframe-debate](../../skills/frontend/ui-ux/crossframe_debate/crossframe-debate/SKILL.md) | `crossframe_debate` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese proposition testing, debate analysis, hidden-premise review, rebuttal design, or withdrawal condition checks. |
