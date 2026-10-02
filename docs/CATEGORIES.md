@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **75** skills across structured domains, categories, and subcategories.
+Master navigation for **76** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (11 skills)
 
@@ -58,7 +58,7 @@ Category index: [`docs/categories/vector-databases.md`](categories/vector-databa
 - **Indexing** (1):
   - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
-## Backend (10 skills)
+## Backend (11 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -71,6 +71,12 @@ Category index: [`docs/categories/background-tasks.md`](categories/background-ta
 
 - **Celery** (1):
   - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
+
+### Caching (1 skills)
+Category index: [`docs/categories/caching.md`](categories/caching.md)
+
+- **Redis Streams** (1):
+  - [redis-streams-event-processing](../skills/backend/caching/redis-streams/redis-streams-event-processing/SKILL.md) — Use this skill when architecting, implementing, and operating event-driven stream processing systems using Redis Streams. It guides the agent through appending events with XADD, managing competing Consumer Groups with XREADGROUP, tracking the Pending Entries List (PEL), dead-lettering abandoned messages via XAUTOCLAIM, and stream memory trimming with MAXLEN.
 
 ### Database Drivers (1 skills)
 Category index: [`docs/categories/database-drivers.md`](categories/database-drivers.md)

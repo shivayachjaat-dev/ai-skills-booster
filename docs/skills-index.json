@@ -322,6 +322,30 @@
     "maturity": "stable"
   },
   {
+    "name": "redis-streams-event-processing",
+    "path": "skills/backend/caching/redis-streams/redis-streams-event-processing",
+    "domain": "backend",
+    "category": "caching",
+    "subcategory": "redis-streams",
+    "description": "Use this skill when architecting, implementing, and operating event-driven stream processing systems using Redis Streams. It guides the agent through appending events with XADD, managing competing Consumer Groups with XREADGROUP, tracking the Pending Entries List (PEL), dead-lettering abandoned messages via XAUTOCLAIM, and stream memory trimming with MAXLEN.",
+    "tags": [
+      "redis",
+      "redis-streams",
+      "event-driven",
+      "message-queue",
+      "caching",
+      "streaming"
+    ],
+    "technologies": [
+      "Redis 7+",
+      "Python redis-py",
+      "Go go-redis",
+      "Node.js ioredis"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "sqlalchemy-async-session-management",
     "path": "skills/backend/database-drivers/sqlalchemy/sqlalchemy-async-session-management",
     "domain": "backend",
