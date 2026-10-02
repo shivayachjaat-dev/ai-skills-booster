@@ -33157,6 +33157,28 @@
     "maturity": "stable"
   },
   {
+    "name": "micro-saas-launcher",
+    "path": "skills/software-engineering/architecture/patterns/micro-saas-launcher",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for micro saas launcher. Expert in launching small, focused SaaS products fast - the indie",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "micro",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Micro Saas Launcher",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
