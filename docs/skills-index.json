@@ -26459,6 +26459,28 @@
     "maturity": "stable"
   },
   {
+    "name": "onboarding-playbook",
+    "path": "skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "onboarding_playbook",
+    "description": "Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "onboarding",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Onboarding Playbook",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
