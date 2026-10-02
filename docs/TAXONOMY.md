@@ -1074,6 +1074,7 @@ AI_Skills_Booster/
 │   │   ├── gcp_secret_manager/ (1 skills)
 │   │   ├── hardware_security/ (1 skills)
 │   │   ├── hashicorp_vault/ (1 skills)
+│   │   ├── hipaa_compliance/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)

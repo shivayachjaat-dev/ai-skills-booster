@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **34 skills** available in this category.
+> **35 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -34,6 +34,7 @@
 | [gcp-secret-manager](../../skills/security/appsec/gcp_secret_manager/gcp-secret-manager/SKILL.md) | `gcp_secret_manager` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp secret manager. Secure secrets in Google Cloud Secret Manager. Configure IAM policies, |
 | [hardware-security](../../skills/security/appsec/hardware_security/hardware-security/SKILL.md) | `hardware_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hardware security. Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis. |
 | [hashicorp-vault](../../skills/security/appsec/hashicorp_vault/hashicorp-vault/SKILL.md) | `hashicorp_vault` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hashicorp vault. Manage secrets and PKI with HashiCorp Vault. |
+| [hipaa-compliance](../../skills/security/appsec/hipaa_compliance/hipaa-compliance/SKILL.md) | `hipaa_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hipaa compliance. Implement HIPAA security and privacy rules. Configure PHI protections |
 | [laravel-security-audit](../../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |

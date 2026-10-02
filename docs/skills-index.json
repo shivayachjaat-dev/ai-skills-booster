@@ -21474,6 +21474,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hipaa-compliance",
+    "path": "skills/security/appsec/hipaa_compliance/hipaa-compliance",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hipaa_compliance",
+    "description": "Use this skill to design, implement, and operate production workflows for hipaa compliance. Implement HIPAA security and privacy rules. Configure PHI protections",
+    "tags": [
+      "security",
+      "appsec",
+      "hipaa",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hipaa Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
