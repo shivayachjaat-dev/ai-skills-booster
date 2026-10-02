@@ -9059,6 +9059,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kaizen",
+    "path": "skills/ai-engineering/models/kaizen/kaizen",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "kaizen",
+    "description": "Use this skill to design, implement, and operate production workflows for kaizen. Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "kaizen",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kaizen",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
