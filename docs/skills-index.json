@@ -23709,6 +23709,28 @@
     "maturity": "stable"
   },
   {
+    "name": "microservices-patterns",
+    "path": "skills/frontend/ui-ux/microservices_patter/microservices-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "microservices_patter",
+    "description": "Use this skill to design, implement, and operate production workflows for microservices patterns. Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "microservices",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Microservices Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

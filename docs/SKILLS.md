@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,513 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,514 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1063,6 +1063,7 @@
 | [mcp-builder-ms](skills/frontend/ui-ux/mcp_builder_ms/mcp-builder-ms/SKILL.md) | `frontend` | `ui-ux` | `mcp_builder_ms` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mcp builder ms. Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK). |
 | [mcp-tool-developer](skills/frontend/ui-ux/mcp_tool_developer/mcp-tool-developer/SKILL.md) | `frontend` | `ui-ux` | `mcp_tool_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mcp tool developer. Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publishing. |
 | [memory-forensics](skills/frontend/ui-ux/memory_forensics/memory-forensics/SKILL.md) | `frontend` | `ui-ux` | `memory_forensics` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for memory forensics. Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis. |
+| [microservices-patterns](skills/frontend/ui-ux/microservices_patter/microservices-patterns/SKILL.md) | `frontend` | `ui-ux` | `microservices_patter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for microservices patterns. Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
