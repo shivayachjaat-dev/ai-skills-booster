@@ -2851,6 +2851,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-llm-red-teaming-and-jailbreak-assessment",
+    "path": "skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment",
+    "domain": "security",
+    "category": "red-teaming",
+    "subcategory": "llm-jailbreak",
+    "description": "Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.",
+    "tags": [
+      "red-teaming",
+      "jailbreak",
+      "adversarial-testing",
+      "prompt-injection",
+      "llm-security",
+      "pentesting"
+    ],
+    "technologies": [
+      "Python",
+      "PyRIT",
+      "Garak",
+      "Adversarial Prompts",
+      "Security Auditing"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "secret-leak-detection-and-remediation",
     "path": "skills/security/secret-management/detection/secret-leak-detection-and-remediation",
     "domain": "security",

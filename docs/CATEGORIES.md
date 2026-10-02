@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **136** skills across structured domains, categories, and subcategories.
+Master navigation for **137** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -523,7 +523,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (24 skills)
+## Security (25 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -602,6 +602,12 @@ Category index: [`docs/categories/penetration-testing.md`](categories/penetratio
 
 - **Active Directory** (1):
   - [active-directory-security-assessment](../skills/security/penetration-testing/active-directory/active-directory-security-assessment/SKILL.md) — Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.
+
+### Red Teaming (1 skills)
+Category index: [`docs/categories/red-teaming.md`](categories/red-teaming.md)
+
+- **Llm Jailbreak** (1):
+  - [ai-llm-red-teaming-and-jailbreak-assessment](../skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment/SKILL.md) — Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.
 
 ### Secret Management (1 skills)
 Category index: [`docs/categories/secret-management.md`](categories/secret-management.md)

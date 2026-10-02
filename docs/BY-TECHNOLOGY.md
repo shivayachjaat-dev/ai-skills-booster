@@ -39,6 +39,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [activecampaign-marketing-automation-and-webhook-sync](../skills/marketing/crm/activecampaign-automation/activecampaign-marketing-automation-and-webhook-sync/SKILL.md) — Use this skill to design, automate, and synchronize marketing automation workflows, contact lifecycle tagging, email drip sequences, and webhook event listeners with ActiveCampaign via its REST v3 API and event webhooks.
 
+## Adversarial Prompts (1 skills)
+
+- [ai-llm-red-teaming-and-jailbreak-assessment](../skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment/SKILL.md) — Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.
+
 ## Alembic (1 skills)
 
 - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
@@ -396,6 +400,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## GLTF (1 skills)
 
 - [threejs-3d-web-experience](../skills/frontend/3d-graphics/threejs/threejs-3d-web-experience/SKILL.md) — Use this skill when designing, implementing, and optimizing interactive 3D web experiences using Three.js and React Three Fiber (R3F). It guides the agent through scene graph architecture, GLTF/GLB model loading and compression (Draco/Meshopt), custom GLSL shaders, camera controls (OrbitControls), lighting and shadows, and 60 FPS mobile performance optimization.
+
+## Garak (1 skills)
+
+- [ai-llm-red-teaming-and-jailbreak-assessment](../skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment/SKILL.md) — Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.
 
 ## Gherkin (1 skills)
 
@@ -1056,6 +1064,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
 
+## PyRIT (1 skills)
+
+- [ai-llm-red-teaming-and-jailbreak-assessment](../skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment/SKILL.md) — Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.
+
 ## PyTorch (3 skills)
 
 - [llm-lora-fine-tuning-pipeline](../skills/ai-engineering/fine-tuning/peft-lora/llm-lora-fine-tuning-pipeline/SKILL.md) — Use this skill when designing, training, and evaluating parameter-efficient fine-tuning (PEFT) pipelines for Large Language Models using LoRA and QLoRA. It guides the agent through 4-bit/8-bit quantization via bitsandbytes, LoRA hyperparameter configuration (rank r, alpha, target modules), dataset preparation and token masking, SFTTrainer orchestration, and adapter weight merging.
@@ -1085,7 +1097,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (71 skills)
+## Python (72 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
@@ -1148,6 +1160,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [identity-access-review-and-certification](../skills/security/identity-governance/access-review/identity-access-review-and-certification/SKILL.md) — Use this skill when designing, automating, and conducting periodic Identity Access Reviews, user entitlement certifications, and least-privilege compliance audits. It covers generating access certification campaigns, flagging dormant accounts, detecting toxic permission combinations (Segregation of Duties - SoD), and producing audit evidence for SOC2/ISO27001.
 - [privileged-access-and-admin-account-register](../skills/security/identity-governance/admin-register/privileged-access-and-admin-account-register/SKILL.md) — Use this skill when cataloging, auditing, and enforcing governance policies over privileged administrator accounts and break-glass emergency credentials across SaaS, cloud infrastructure, and internal systems. It guides the agent through structuring an Admin Access Register, enforcing mandatory MFA/WebAuthn, designated backup owners, and access justification logs.
 - [active-directory-security-assessment](../skills/security/penetration-testing/active-directory/active-directory-security-assessment/SKILL.md) — Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.
+- [ai-llm-red-teaming-and-jailbreak-assessment](../skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment/SKILL.md) — Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.
 - [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
 - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -1401,6 +1414,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## ScyllaDB (1 skills)
 
 - [scylladb-high-throughput-nosql-architecture](../skills/databases/nosql/scylladb/scylladb-high-throughput-nosql-architecture/SKILL.md) — Use this skill when architecting, modeling, and operating distributed, ultra-low-latency NoSQL databases with ScyllaDB (Apache Cassandra compatible). It guides the agent through shard-per-core asynchronous architecture, CQL partition and clustering key design, tuning consistency levels (LOCAL_QUORUM), tombstone prevention, and driver connection pooling.
+
+## Security Auditing (1 skills)
+
+- [ai-llm-red-teaming-and-jailbreak-assessment](../skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment/SKILL.md) — Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.
 
 ## Security Guardrails (1 skills)
 

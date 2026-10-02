@@ -216,6 +216,8 @@ AI_Skills_Booster/
 │   │   └── wireguard/ (1 skills)
 │   ├── penetration-testing/
 │   │   └── active-directory/ (1 skills)
+│   ├── red-teaming/
+│   │   └── llm-jailbreak/ (1 skills)
 │   ├── secret-management/
 │   │   └── detection/ (1 skills)
 │   ├── secrets/
