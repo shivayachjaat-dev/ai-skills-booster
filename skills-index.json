@@ -3964,6 +3964,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cc-skill-security-review",
+    "path": "skills/backend/api-frameworks/cc_skill_security_re/cc-skill-security-review",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "cc_skill_security_re",
+    "description": "Use this skill to this skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "cc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cc Skill Security Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",
