@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **431** skills across structured domains, categories, and subcategories.
+Master navigation for **432** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (147 skills)
 
@@ -944,7 +944,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (39 skills)
+## Frontend (40 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1054,7 +1054,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Browser_Extension_Bu** (1):
   - [browser-extension-builder](../skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) — Use this skill to expert in building browser extensions that solve real problems -
 
-### Web Architecture (5 skills)
+### Web Architecture (6 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **Antigravity_Design_E** (1):
@@ -1066,6 +1066,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [azure-web-pubsub-ts](../skills/frontend/web-architecture/azure_web_pubsub_ts/azure-web-pubsub-ts/SKILL.md) — Use this skill to real-time messaging with WebSocket connections and pub/sub patterns.
 - **Brand_Growth_System_** (1):
   - [brand-growth-system-builder](../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) — Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows.
+- **Browser_Harness** (1):
+  - [browser-harness](../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) — Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation.
 
 ## Marketing (8 skills)
 

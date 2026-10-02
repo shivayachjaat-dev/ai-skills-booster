@@ -7803,6 +7803,28 @@
     "maturity": "stable"
   },
   {
+    "name": "browser-harness",
+    "path": "skills/frontend/web-architecture/browser_harness/browser-harness",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "browser_harness",
+    "description": "Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "browser",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Browser Harness",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",
