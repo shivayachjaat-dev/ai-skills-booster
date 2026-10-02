@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **125 skills** available in this category.
+> **126 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -125,6 +125,7 @@
 | [hf-cli](../../skills/frontend/ui-ux/hf_cli/hf-cli/SKILL.md) | `hf_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hf cli. Curated upstream guidance for Hf Cli; use when the workflow matches the user goal. |
 | [hf-mem](../../skills/frontend/ui-ux/hf_mem/hf-mem/SKILL.md) | `hf_mem` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hf mem. Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub |
 | [hig-components-content](../../skills/frontend/ui-ux/hig_components_conte/hig-components-content/SKILL.md) | `hig_components_conte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig components content. Apple Human Interface Guidelines for content display components. |
+| [hig-components-dialogs](../../skills/frontend/ui-ux/hig_components_dialo/hig-components-dialogs/SKILL.md) | `hig_components_dialo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig components dialogs. Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

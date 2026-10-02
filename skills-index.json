@@ -18451,6 +18451,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-components-dialogs",
+    "path": "skills/frontend/ui-ux/hig_components_dialo/hig-components-dialogs",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hig_components_dialo",
+    "description": "Use this skill to design, implement, and operate production workflows for hig components dialogs. Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Components Dialogs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
