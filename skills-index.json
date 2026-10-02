@@ -787,6 +787,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-ml",
+    "path": "skills/ai-engineering/models/ai_ml/ai-ml",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ai_ml",
+    "description": "Use this skill to aI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ai Ml",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",

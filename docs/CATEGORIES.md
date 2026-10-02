@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **191** skills across structured domains, categories, and subcategories.
+Master navigation for **192** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (39 skills)
+## Ai Engineering (40 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -92,7 +92,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Models (6 skills)
+### Models (7 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -107,6 +107,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ai-engineer](../skills/ai-engineering/models/ai_engineer/ai-engineer/SKILL.md) — Use this skill to build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.
 - **Ai_Loop** (1):
   - [ai-loop](../skills/ai-engineering/models/ai_loop/ai-loop/SKILL.md) — Use this skill to runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work.
+- **Ai_Ml** (1):
+  - [ai-ml](../skills/ai-engineering/models/ai_ml/ai-ml/SKILL.md) — Use this skill to aI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)
