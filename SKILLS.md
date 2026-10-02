@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 920 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 921 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -648,6 +648,7 @@
 | [enhance-prompt](skills/frontend/ui-ux/enhance_prompt/enhance-prompt/SKILL.md) | `frontend` | `ui-ux` | `enhance_prompt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results. |
 | [environment-setup-guide](skills/frontend/ui-ux/environment_setup_gu/environment-setup-guide/SKILL.md) | `frontend` | `ui-ux` | `environment_setup_gu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for environment setup guide. Guide developers through setting up development environments with proper tools, dependencies, and configurations |
 | [error-debugging-error-trace](skills/frontend/ui-ux/error_debugging_erro/error-debugging-error-trace/SKILL.md) | `frontend` | `ui-ux` | `error_debugging_erro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error debugging error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and r... |
+| [esop-equity-tracker](skills/frontend/ui-ux/esop_equity_tracker/esop-equity-tracker/SKILL.md) | `frontend` | `ui-ux` | `esop_equity_tracker` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for esop equity tracker. ESOP and equity grant register: grant date, shares granted, strike price, vesting start, schedule and cliff, plus vested and exercised shares. Use for equity tracking. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

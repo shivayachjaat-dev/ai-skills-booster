@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **920** skills across structured domains, categories, and subcategories.
+Master navigation for **921** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (319 skills)
 
@@ -1433,7 +1433,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (164 skills)
+## Frontend (165 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1521,7 +1521,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
-### Ui Ux (84 skills)
+### Ui Ux (85 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1686,6 +1686,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [environment-setup-guide](../skills/frontend/ui-ux/environment_setup_gu/environment-setup-guide/SKILL.md) — Use this skill to design, implement, and operate production workflows for environment setup guide. Guide developers through setting up development environments with proper tools, dependencies, and configurations
 - **Error_Debugging_Erro** (1):
   - [error-debugging-error-trace](../skills/frontend/ui-ux/error_debugging_erro/error-debugging-error-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for error debugging error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and r...
+- **Esop_Equity_Tracker** (1):
+  - [esop-equity-tracker](../skills/frontend/ui-ux/esop_equity_tracker/esop-equity-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for esop equity tracker. ESOP and equity grant register: grant date, shares granted, strike price, vesting start, schedule and cliff, plus vested and exercised shares. Use for equity tracking.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

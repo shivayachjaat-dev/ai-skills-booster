@@ -14579,6 +14579,28 @@
     "maturity": "stable"
   },
   {
+    "name": "esop-equity-tracker",
+    "path": "skills/frontend/ui-ux/esop_equity_tracker/esop-equity-tracker",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "esop_equity_tracker",
+    "description": "Use this skill to design, implement, and operate production workflows for esop equity tracker. ESOP and equity grant register: grant date, shares granted, strike price, vesting start, schedule and cliff, plus vested and exercised shares. Use for equity tracking.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "esop",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Esop Equity Tracker",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
