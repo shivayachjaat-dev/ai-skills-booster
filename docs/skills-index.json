@@ -47,6 +47,29 @@
     "maturity": "stable"
   },
   {
+    "name": "postgres-query-performance-analysis",
+    "path": "skills/databases/postgresql/performance/postgres-query-performance-analysis",
+    "domain": "databases",
+    "category": "postgresql",
+    "subcategory": "performance",
+    "description": "Use this skill when diagnosing, analyzing, and optimizing slow PostgreSQL queries. It guides the agent through running and interpreting EXPLAIN (ANALYZE, BUFFERS), identifying sequential table scans, resolving missing indexes, fixing high buffer reads, eliminating N+1 query patterns, and tuning query planner configurations.",
+    "tags": [
+      "postgresql",
+      "databases",
+      "performance",
+      "query-optimization",
+      "indexing",
+      "sql"
+    ],
+    "technologies": [
+      "PostgreSQL",
+      "SQL",
+      "pg_stat_statements"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-server-scaffold",
     "path": "skills/mcp/server-development/scaffolding/mcp-server-scaffold",
     "domain": "mcp",

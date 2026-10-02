@@ -7,6 +7,9 @@ AI_Skills_Booster/
 │   │   └── memory/ (1 skills)
 │   └── rag/
 │   │   └── evaluation/ (1 skills)
+├── databases/
+│   └── postgresql/
+│   │   └── performance/ (1 skills)
 ├── mcp/
 │   └── server-development/
 │   │   └── scaffolding/ (1 skills)

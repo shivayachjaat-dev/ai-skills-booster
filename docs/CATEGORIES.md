@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **6** skills across structured domains, categories, and subcategories.
+Master navigation for **7** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (2 skills)
 
@@ -15,6 +15,14 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
+
+## Databases (1 skills)
+
+### Postgresql (1 skills)
+Category index: [`docs/categories/postgresql.md`](categories/postgresql.md)
+
+- **Performance** (1):
+  - [postgres-query-performance-analysis](../skills/databases/postgresql/performance/postgres-query-performance-analysis/SKILL.md) — Use this skill when diagnosing, analyzing, and optimizing slow PostgreSQL queries. It guides the agent through running and interpreting EXPLAIN (ANALYZE, BUFFERS), identifying sequential table scans, resolving missing indexes, fixing high buffer reads, eliminating N+1 query patterns, and tuning query planner configurations.
 
 ## Mcp (1 skills)
 

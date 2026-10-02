@@ -34,7 +34,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:25.619879+00:00"
+    "updated_at": "2026-10-02T13:15:29.657505+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -72,7 +72,44 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:25.621626+00:00"
+    "updated_at": "2026-10-02T13:15:29.657505+00:00"
+  },
+  {
+    "name": "postgres-query-performance-analysis",
+    "slug": "postgres-query-performance-analysis",
+    "path": "skills/databases/postgresql/performance/postgres-query-performance-analysis",
+    "domain": "databases",
+    "category": "postgresql",
+    "subcategory": "performance",
+    "description": "Use this skill when diagnosing, analyzing, and optimizing slow PostgreSQL queries. It guides the agent through running and interpreting EXPLAIN (ANALYZE, BUFFERS), identifying sequential table scans, resolving missing indexes, fixing high buffer reads, eliminating N+1 query patterns, and tuning query planner configurations.",
+    "tags": [
+      "postgresql",
+      "databases",
+      "performance",
+      "query-optimization",
+      "indexing",
+      "sql"
+    ],
+    "technologies": [
+      "PostgreSQL",
+      "SQL",
+      "pg_stat_statements"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "psql",
+      "python"
+    ],
+    "dependencies": [
+      "postgresql >= 12"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "source": "AI_Skills_Booster",
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:15:29.657505+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -111,7 +148,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:25.621626+00:00"
+    "updated_at": "2026-10-02T13:15:29.657505+00:00"
   },
   {
     "name": "skill-creator",
@@ -148,7 +185,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:25.621626+00:00"
+    "updated_at": "2026-10-02T13:15:29.660080+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -185,7 +222,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:25.621626+00:00"
+    "updated_at": "2026-10-02T13:15:29.660080+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -224,6 +261,6 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:25.621626+00:00"
+    "updated_at": "2026-10-02T13:15:29.660080+00:00"
   }
 ]
