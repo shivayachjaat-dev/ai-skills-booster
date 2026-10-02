@@ -16713,6 +16713,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monday-automation",
+    "path": "skills/developer-tools/productivity/monday_automation/monday-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "monday_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for monday automation. Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "monday",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monday Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

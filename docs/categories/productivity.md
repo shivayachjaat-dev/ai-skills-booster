@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **28 skills** available in this category.
+> **29 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,3 +32,4 @@
 | [microsoft-teams-automation](../../skills/developer-tools/productivity/microsoft_teams_auto/microsoft-teams-automation/SKILL.md) | `microsoft_teams_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for microsoft teams automation. Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas. |
 | [miro-automation](../../skills/developer-tools/productivity/miro_automation/miro-automation/SKILL.md) | `miro_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas. |
 | [mixpanel-automation](../../skills/developer-tools/productivity/mixpanel_automation/mixpanel-automation/SKILL.md) | `mixpanel_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mixpanel automation. Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas. |
+| [monday-automation](../../skills/developer-tools/productivity/monday_automation/monday-automation/SKILL.md) | `monday_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monday automation. Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas. |

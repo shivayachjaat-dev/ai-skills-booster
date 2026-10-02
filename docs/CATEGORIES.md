@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,537** skills across structured domains, categories, and subcategories.
+Master navigation for **1,538** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (534 skills)
 
@@ -1685,7 +1685,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (40 skills)
+## Developer Tools (41 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1715,7 +1715,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Linkedin_Cli** (1):
   - [linkedin-cli](../skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.
 
-### Productivity (28 skills)
+### Productivity (29 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1774,6 +1774,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [miro-automation](../skills/developer-tools/productivity/miro_automation/miro-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas.
 - **Mixpanel_Automation** (1):
   - [mixpanel-automation](../skills/developer-tools/productivity/mixpanel_automation/mixpanel-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for mixpanel automation. Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas.
+- **Monday_Automation** (1):
+  - [monday-automation](../skills/developer-tools/productivity/monday_automation/monday-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for monday automation. Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

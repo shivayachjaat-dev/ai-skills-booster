@@ -808,7 +808,8 @@ AI_Skills_Booster/
 │   │   ├── make_automation/ (1 skills)
 │   │   ├── microsoft_teams_auto/ (1 skills)
 │   │   ├── miro_automation/ (1 skills)
-│   │   └── mixpanel_automation/ (1 skills)
+│   │   ├── mixpanel_automation/ (1 skills)
+│   │   └── monday_automation/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/
