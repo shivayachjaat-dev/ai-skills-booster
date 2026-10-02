@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1225 skills)
+## Bash (1226 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1487,6 +1487,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [linkedin-post-writer](../skills/ai-engineering/models/linkedin_post_writer/linkedin-post-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin post writer. Draft LinkedIn posts from 16 tested hook formulas mapped to engagement goals (comments, reposts, likes, saves), with 2026 algorithm formatting rules and an AI-tell scrub pass before publishing.
 - [lint-and-validate](../skills/ai-engineering/models/lint_and_validate/lint-and-validate/SKILL.md) — Use this skill to design, implement, and operate production workflows for lint and validate. Run configured lint and type checks, distinguish failures from checks that did not run, and report concrete validation results.
 - [linux-troubleshooting](../skills/ai-engineering/models/linux_troubleshootin/linux-troubleshooting/SKILL.md) — Use this skill to design, implement, and operate production workflows for linux troubleshooting. Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.
+- [llm-application-dev-ai-assistant](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-ai-assistant/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev ai assistant. You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -6963,6 +6964,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [llm-app-security](../skills/ai-engineering/llm-ops/llm_app_security/llm-app-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm app security. Secure LLM-powered applications with input validation, output controls,
 
+## Llm Application Dev Ai Assistant (1 skills)
+
+- [llm-application-dev-ai-assistant](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-ai-assistant/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev ai assistant. You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur
+
 ## Local Legal Seo Audit (1 skills)
 
 - [local-legal-seo-audit](../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) — Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.
@@ -7477,7 +7482,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1328 skills)
+## Python (1329 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7912,6 +7917,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [linkedin-post-writer](../skills/ai-engineering/models/linkedin_post_writer/linkedin-post-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin post writer. Draft LinkedIn posts from 16 tested hook formulas mapped to engagement goals (comments, reposts, likes, saves), with 2026 algorithm formatting rules and an AI-tell scrub pass before publishing.
 - [lint-and-validate](../skills/ai-engineering/models/lint_and_validate/lint-and-validate/SKILL.md) — Use this skill to design, implement, and operate production workflows for lint and validate. Run configured lint and type checks, distinguish failures from checks that did not run, and report concrete validation results.
 - [linux-troubleshooting](../skills/ai-engineering/models/linux_troubleshootin/linux-troubleshooting/SKILL.md) — Use this skill to design, implement, and operate production workflows for linux troubleshooting. Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.
+- [llm-application-dev-ai-assistant](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-ai-assistant/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev ai assistant. You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.

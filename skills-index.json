@@ -9697,6 +9697,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-application-dev-ai-assistant",
+    "path": "skills/ai-engineering/models/llm_application_dev_/llm-application-dev-ai-assistant",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "llm_application_dev_",
+    "description": "Use this skill to design, implement, and operate production workflows for llm application dev ai assistant. You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Application Dev Ai Assistant",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
