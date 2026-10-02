@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **301 skills** available in this category.
+> **302 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -299,6 +299,7 @@
 | [hugging-face-trackio](../../skills/ai-engineering/models/hugging_face_trackio/hugging-face-trackio/SKILL.md) | `hugging_face_trackio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face trackio. Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). |
 | [hugging-face-vision-trainer](../../skills/ai-engineering/models/hugging_face_vision_/hugging-face-vision-trainer/SKILL.md) | `hugging_face_vision_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face vision trainer. Train object detection, image classification, and SAM or SAM2 segmentation models locally or on Hugging Face Jobs, with dataset validation and results saved to the Hub. |
 | [huggingface-best](../../skills/ai-engineering/models/huggingface_best/huggingface-best/SKILL.md) | `huggingface_best` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for huggingface best. Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores. |
+| [huggingface-local-models](../../skills/ai-engineering/models/huggingface_local_mo/huggingface-local-models/SKILL.md) | `huggingface_local_mo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for huggingface local models. Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

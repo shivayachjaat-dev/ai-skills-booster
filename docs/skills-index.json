@@ -8311,6 +8311,28 @@
     "maturity": "stable"
   },
   {
+    "name": "huggingface-local-models",
+    "path": "skills/ai-engineering/models/huggingface_local_mo/huggingface-local-models",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "huggingface_local_mo",
+    "description": "Use this skill to design, implement, and operate production workflows for huggingface local models. Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "huggingface",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Huggingface Local Models",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
