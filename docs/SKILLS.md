@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 612 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 613 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -216,6 +216,7 @@
 | [block-storage](skills/ai-engineering/rag/block_storage/block-storage/SKILL.md) | `ai-engineering` | `rag` | `block_storage` | `advanced` | `stable` | Use this skill to manage block storage volumes and LVM. Configure cloud block storage and |
 | [case-review](skills/ai-engineering/rag/case_review/case-review/SKILL.md) | `ai-engineering` | `rag` | `case_review` | `advanced` | `stable` | Use this skill to quality-gate review of a reverse-engineering or assessment case package: scope readiness, Evidence-to-Finding-to-Path traceability, work-item coverage, timeline consistency, and artifact hashes. |
 | [cloudflare-workers-expert](skills/ai-engineering/rag/cloudflare_workers_e/cloudflare-workers-expert/SKILL.md) | `ai-engineering` | `rag` | `cloudflare_workers_e` | `advanced` | `stable` | Use this skill to expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage. |
+| [convex](skills/ai-engineering/rag/convex/convex/SKILL.md) | `ai-engineering` | `rag` | `convex` | `advanced` | `stable` | Use this skill to convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment. |
 | [rag-retrieval-evaluation](skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `ai-engineering` | `rag` | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |
 | [llm-synthetic-data-generation-pipeline](skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) | `ai-engineering` | `synthetic-data` | `synth-data-pipeline` | `advanced` | `stable` | Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges. |
 | [ai-agent-custom-tool-builder-and-schema-generator](skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) | `ai-engineering` | `tools` | `tool-builder` | `advanced` | `stable` | Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript. |

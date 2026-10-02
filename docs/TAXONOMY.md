@@ -218,6 +218,7 @@ AI_Skills_Booster/
 │   │   ├── block_storage/ (1 skills)
 │   │   ├── case_review/ (1 skills)
 │   │   ├── cloudflare_workers_e/ (1 skills)
+│   │   ├── convex/ (1 skills)
 │   │   └── evaluation/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)
