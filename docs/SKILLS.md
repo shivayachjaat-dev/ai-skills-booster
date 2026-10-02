@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,460 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,461 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -475,6 +475,7 @@
 | [mailtrap-managing-contacts](skills/ai-engineering/models/mailtrap_managing_co/mailtrap-managing-contacts/SKILL.md) | `ai-engineering` | `models` | `mailtrap_managing_co` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mailtrap managing contacts. Manage Mailtrap contacts, lists, segments, custom fields, imports, CRM syncs, and campaign audiences through the UI or API. |
 | [mailtrap-sending-emails](skills/ai-engineering/models/mailtrap_sending_ema/mailtrap-sending-emails/SKILL.md) | `ai-engineering` | `models` | `mailtrap_sending_ema` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mailtrap sending emails. Configure or troubleshoot Mailtrap live email sending with Email API, SMTP, transactional streams, bulk streams, or batches. |
 | [mailtrap-setting-up-sending-domain](skills/ai-engineering/models/mailtrap_setting_up_/mailtrap-setting-up-sending-domain/SKILL.md) | `ai-engineering` | `models` | `mailtrap_setting_up_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mailtrap setting up sending domain. Add or verify a Mailtrap sending domain, troubleshoot DNS propagation, publish SPF/DKIM/DMARC records, and complete compliance. |
+| [mailtrap-testing-with-sandbox](skills/ai-engineering/models/mailtrap_testing_wit/mailtrap-testing-with-sandbox/SKILL.md) | `ai-engineering` | `models` | `mailtrap_testing_wit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mailtrap testing with sandbox. Capture outbound email in Mailtrap Email Sandbox for development, staging, CI, HTML inspection, spam checks, and fake inbox tests. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
