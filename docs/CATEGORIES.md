@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,481** skills across structured domains, categories, and subcategories.
+Master navigation for **1,482** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (516 skills)
 
@@ -2001,7 +2001,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (285 skills)
+## Frontend (286 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2091,7 +2091,7 @@ Category index: [`docs/categories/styling.md`](categories/styling.md)
 - **Fixing_Motion_Perfor** (1):
   - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-### Ui Development (25 skills)
+### Ui Development (26 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -2144,6 +2144,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [markstream-angular](../skills/frontend/ui-development/markstream_angular/markstream-angular/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream angular. Integrate the alpha markstream-angular renderer into Angular 20+ applications with standalone components, signals, safe HTML defaults, and optional peer features.
 - **Markstream_Custom_Co** (1):
   - [markstream-custom-components](../skills/frontend/ui-development/markstream_custom_co/markstream-custom-components/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream custom components. Override Markstream node renderers and add trusted custom tags across Vue, React, Svelte, and Angular using scoped or renderer-local mappings.
+- **Markstream_Install** (1):
+  - [markstream-install](../skills/frontend/ui-development/markstream_install/markstream-install/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream install. Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications.
 
 ### Ui Ux (167 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)

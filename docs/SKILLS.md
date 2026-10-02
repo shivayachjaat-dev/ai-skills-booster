@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,481 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,482 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -876,6 +876,7 @@
 | [javascript-typescript-typescript-scaffold](skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) | `frontend` | `ui-development` | `javascript_typescrip` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N |
 | [markstream-angular](skills/frontend/ui-development/markstream_angular/markstream-angular/SKILL.md) | `frontend` | `ui-development` | `markstream_angular` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream angular. Integrate the alpha markstream-angular renderer into Angular 20+ applications with standalone components, signals, safe HTML defaults, and optional peer features. |
 | [markstream-custom-components](skills/frontend/ui-development/markstream_custom_co/markstream-custom-components/SKILL.md) | `frontend` | `ui-development` | `markstream_custom_co` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream custom components. Override Markstream node renderers and add trusted custom tags across Vue, React, Svelte, and Angular using scoped or renderer-local mappings. |
+| [markstream-install](skills/frontend/ui-development/markstream_install/markstream-install/SKILL.md) | `frontend` | `ui-development` | `markstream_install` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream install. Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications. |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |

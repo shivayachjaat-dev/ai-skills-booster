@@ -960,7 +960,8 @@ AI_Skills_Booster/
 │   │   ├── industrial_brutalist/ (1 skills)
 │   │   ├── javascript_typescrip/ (1 skills)
 │   │   ├── markstream_angular/ (1 skills)
-│   │   └── markstream_custom_co/ (1 skills)
+│   │   ├── markstream_custom_co/ (1 skills)
+│   │   └── markstream_install/ (1 skills)
 │   ├── ui-ux/
 │   │   ├── anti_sleep/ (1 skills)
 │   │   ├── ask_questions_if_und/ (1 skills)

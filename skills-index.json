@@ -19595,6 +19595,28 @@
     "maturity": "stable"
   },
   {
+    "name": "markstream-install",
+    "path": "skills/frontend/ui-development/markstream_install/markstream-install",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "markstream_install",
+    "description": "Use this skill to design, implement, and operate production workflows for markstream install. Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "markstream",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Markstream Install",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

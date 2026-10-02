@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **25 skills** available in this category.
+> **26 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -29,3 +29,4 @@
 | [javascript-typescript-typescript-scaffold](../../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) | `javascript_typescrip` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N |
 | [markstream-angular](../../skills/frontend/ui-development/markstream_angular/markstream-angular/SKILL.md) | `markstream_angular` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream angular. Integrate the alpha markstream-angular renderer into Angular 20+ applications with standalone components, signals, safe HTML defaults, and optional peer features. |
 | [markstream-custom-components](../../skills/frontend/ui-development/markstream_custom_co/markstream-custom-components/SKILL.md) | `markstream_custom_co` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream custom components. Override Markstream node renderers and add trusted custom tags across Vue, React, Svelte, and Angular using scoped or renderer-local mappings. |
+| [markstream-install](../../skills/frontend/ui-development/markstream_install/markstream-install/SKILL.md) | `markstream_install` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream install. Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications. |
