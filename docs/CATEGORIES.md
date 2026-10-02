@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,631** skills across structured domains, categories, and subcategories.
+Master navigation for **1,632** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (566 skills)
 
@@ -3408,9 +3408,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (199 skills)
+## Software Engineering (200 skills)
 
-### Architecture (192 skills)
+### Architecture (193 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -3419,7 +3419,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (189):
+- **Patterns** (190):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -3605,6 +3605,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [nutrition-analyzer](../skills/software-engineering/architecture/patterns/nutrition-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for nutrition analyzer. 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。
   - [objection-preemptor](../skills/software-engineering/architecture/patterns/objection-preemptor/SKILL.md) — Use this skill to design, implement, and operate production workflows for objection preemptor. One sentence - what this skill does and when to invoke it
   - [observability-and-instrumentation](../skills/software-engineering/architecture/patterns/observability-and-instrumentation/SKILL.md) — Use this skill to design, implement, and operate production workflows for observability and instrumentation. Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works.
+  - [observability-monitoring-monitor-setup](../skills/software-engineering/architecture/patterns/observability-monitoring-monitor-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for observability monitoring monitor setup. You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful da
   - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
   - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
   - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,631 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,632 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1600,6 +1600,7 @@
 | [nutrition-analyzer](skills/software-engineering/architecture/patterns/nutrition-analyzer/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nutrition analyzer. 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。 |
 | [objection-preemptor](skills/software-engineering/architecture/patterns/objection-preemptor/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for objection preemptor. One sentence - what this skill does and when to invoke it |
 | [observability-and-instrumentation](skills/software-engineering/architecture/patterns/observability-and-instrumentation/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for observability and instrumentation. Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. |
+| [observability-monitoring-monitor-setup](skills/software-engineering/architecture/patterns/observability-monitoring-monitor-setup/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for observability monitoring monitor setup. You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful da |
 | [patterns](skills/software-engineering/architecture/patterns/patterns/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns. |
 | [pc-games](skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
 | [scale-benchmarks](skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |

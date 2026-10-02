@@ -35709,6 +35709,28 @@
     "maturity": "stable"
   },
   {
+    "name": "observability-monitoring-monitor-setup",
+    "path": "skills/software-engineering/architecture/patterns/observability-monitoring-monitor-setup",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for observability monitoring monitor setup. You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful da",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "observability",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Observability Monitoring Monitor Setup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
