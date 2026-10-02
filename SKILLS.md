@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 787 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 788 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -596,6 +596,7 @@
 | [material-design](skills/frontend/web-architecture/material_design/material-design/SKILL.md) | `frontend` | `web-architecture` | `material_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for material design. Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components. |
 | [maximalism](skills/frontend/web-architecture/maximalism/maximalism/SKILL.md) | `frontend` | `web-architecture` | `maximalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for maximalism. Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation. |
 | [minimalism](skills/frontend/web-architecture/minimalism/minimalism/SKILL.md) | `frontend` | `web-architecture` | `minimalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for minimalism. Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy. |
+| [monochromatic-ui](skills/frontend/web-architecture/monochromatic_ui/monochromatic-ui/SKILL.md) | `frontend` | `web-architecture` | `monochromatic_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monochromatic ui. Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline. |
 | [production-audit](skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `frontend` | `web-architecture` | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `frontend` | `web-architecture` | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `frontend` | `web-architecture` | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |

@@ -682,6 +682,7 @@ AI_Skills_Booster/
 │   │   ├── material_design/ (1 skills)
 │   │   ├── maximalism/ (1 skills)
 │   │   ├── minimalism/ (1 skills)
+│   │   ├── monochromatic_ui/ (1 skills)
 │   │   ├── production_audit/ (1 skills)
 │   │   ├── security_audit/ (1 skills)
 │   │   ├── seo_aeo_content_qual/ (1 skills)

@@ -13435,6 +13435,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monochromatic-ui",
+    "path": "skills/frontend/web-architecture/monochromatic_ui/monochromatic-ui",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "monochromatic_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for monochromatic ui. Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "monochromatic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monochromatic Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

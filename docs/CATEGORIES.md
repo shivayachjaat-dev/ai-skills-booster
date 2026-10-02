@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **787** skills across structured domains, categories, and subcategories.
+Master navigation for **788** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (272 skills)
 
@@ -1301,7 +1301,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (122 skills)
+## Frontend (123 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1511,7 +1511,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (40 skills)
+### Web Architecture (41 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1585,6 +1585,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [maximalism](../skills/frontend/web-architecture/maximalism/maximalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for maximalism. Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation.
 - **Minimalism** (1):
   - [minimalism](../skills/frontend/web-architecture/minimalism/minimalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for minimalism. Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy.
+- **Monochromatic_Ui** (1):
+  - [monochromatic-ui](../skills/frontend/web-architecture/monochromatic_ui/monochromatic-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for monochromatic ui. Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline.
 - **Production_Audit** (1):
   - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - **Security_Audit** (1):
