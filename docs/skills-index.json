@@ -70,6 +70,31 @@
     "maturity": "stable"
   },
   {
+    "name": "polars-high-throughput-data-pipeline",
+    "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "polars",
+    "description": "Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.",
+    "tags": [
+      "polars",
+      "data-analytics",
+      "data-pipelines",
+      "python",
+      "arrow",
+      "parquet",
+      "performance"
+    ],
+    "technologies": [
+      "Polars",
+      "Python",
+      "Apache Arrow",
+      "Parquet"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "postgres-query-performance-analysis",
     "path": "skills/databases/postgresql/performance/postgres-query-performance-analysis",
     "domain": "databases",

@@ -34,7 +34,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.140040+00:00"
   },
   {
     "name": "context-window-engineering",
@@ -70,7 +70,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.140040+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -108,7 +108,46 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.140040+00:00"
+  },
+  {
+    "name": "polars-high-throughput-data-pipeline",
+    "slug": "polars-high-throughput-data-pipeline",
+    "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "polars",
+    "description": "Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.",
+    "tags": [
+      "polars",
+      "data-analytics",
+      "data-pipelines",
+      "python",
+      "arrow",
+      "parquet",
+      "performance"
+    ],
+    "technologies": [
+      "Polars",
+      "Python",
+      "Apache Arrow",
+      "Parquet"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "python"
+    ],
+    "dependencies": [
+      "polars >= 0.20",
+      "pyarrow"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "source": "AI_Skills_Booster",
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:18:14.142046+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -145,7 +184,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.142046+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -183,7 +222,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.142046+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -221,7 +260,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.142046+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -260,7 +299,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.142046+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -299,7 +338,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.144052+00:00"
   },
   {
     "name": "skill-creator",
@@ -336,7 +375,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.144052+00:00"
   },
   {
     "name": "prompt-injection-defense",
@@ -372,7 +411,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.144052+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -409,7 +448,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.144052+00:00"
   },
   {
     "name": "secret-leak-detection-and-remediation",
@@ -448,7 +487,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.144052+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -487,7 +526,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.146056+00:00"
   },
   {
     "name": "debugging-and-error-recovery",
@@ -526,7 +565,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.146056+00:00"
   },
   {
     "name": "code-simplification",
@@ -562,7 +601,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.182408+00:00"
+    "updated_at": "2026-10-02T13:18:14.146056+00:00"
   },
   {
     "name": "playwright-e2e-testing",
@@ -601,6 +640,6 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:10.193672+00:00"
+    "updated_at": "2026-10-02T13:18:14.146056+00:00"
   }
 ]
