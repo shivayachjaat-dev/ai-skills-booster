@@ -7035,6 +7035,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-either-ref",
+    "path": "skills/ai-engineering/models/fp_either_ref/fp-either-ref",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "fp_either_ref",
+    "description": "Use this skill to design, implement, and operate production workflows for fp either ref. Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Either Ref",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
