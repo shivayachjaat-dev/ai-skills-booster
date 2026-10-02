@@ -10168,6 +10168,28 @@
     "maturity": "stable"
   },
   {
+    "name": "legal-compliance-vault",
+    "path": "skills/ai-engineering/rag/legal_compliance_vau/legal-compliance-vault",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "legal_compliance_vau",
+    "description": "Use this skill to design, implement, and operate production workflows for legal compliance vault. Legal and compliance document vault: document type, framework, owner and department, effective and expiry dates, renewal flag, storage link, confidentiality and status. Use for policy tracking.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "legal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Legal Compliance Vault",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

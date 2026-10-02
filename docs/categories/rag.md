@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **27 skills** available in this category.
+> **28 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -30,4 +30,5 @@
 | [hunt-rag-vector](../../skills/ai-engineering/rag/hunt_rag_vector/hunt-rag-vector/SKILL.md) | `hunt_rag_vector` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt rag vector. Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP |
 | [hybrid-search-implementation](../../skills/ai-engineering/rag/hybrid_search_implem/hybrid-search-implementation/SKILL.md) | `hybrid_search_implem` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hybrid search implementation. Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall. |
 | [laravel-development-workflow](../../skills/ai-engineering/rag/laravel_development_/laravel-development-workflow/SKILL.md) | `laravel_development_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for laravel development workflow. Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification. |
+| [legal-compliance-vault](../../skills/ai-engineering/rag/legal_compliance_vau/legal-compliance-vault/SKILL.md) | `legal_compliance_vau` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for legal compliance vault. Legal and compliance document vault: document type, framework, owner and department, effective and expiry dates, renewal flag, storage link, confidentiality and status. Use for policy tracking. |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

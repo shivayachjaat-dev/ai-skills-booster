@@ -464,6 +464,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_rag_vector/ (1 skills)
 │   │   ├── hybrid_search_implem/ (1 skills)
 │   │   ├── laravel_development_/ (1 skills)
+│   │   ├── legal_compliance_vau/ (1 skills)
 │   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)
