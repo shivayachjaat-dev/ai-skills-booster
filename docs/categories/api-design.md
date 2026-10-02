@@ -1,6 +1,6 @@
 # Category Index: Api Design
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,4 +10,5 @@
 | [cc-skill-backend-patterns](../../skills/backend/api-design/cc_skill_backend_pat/cc-skill-backend-patterns/SKILL.md) | `cc_skill_backend_pat` | `advanced` | `stable` | Use this skill to backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. |
 | [dotnet-architect](../../skills/backend/api-design/dotnet_architect/dotnet-architect/SKILL.md) | `dotnet_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dotnet architect. Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns. |
 | [firebase](../../skills/backend/api-design/firebase/firebase/SKILL.md) | `firebase` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for firebase. Firebase gives you a complete backend in minutes - auth, database, |
+| [fp-backend](../../skills/backend/api-design/fp_backend/fp-backend/SKILL.md) | `fp_backend` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp backend. Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection |
 | [api-rate-limiting-and-throttling](../../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) | `rate-limiting` | `advanced` | `stable` | Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions. |

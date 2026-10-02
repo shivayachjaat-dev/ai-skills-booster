@@ -7943,6 +7943,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-backend",
+    "path": "skills/backend/api-design/fp_backend/fp-backend",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "fp_backend",
+    "description": "Use this skill to design, implement, and operate production workflows for fp backend. Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection",
+    "tags": [
+      "backend",
+      "api-design",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Backend",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-rate-limiting-and-throttling",
     "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
     "domain": "backend",

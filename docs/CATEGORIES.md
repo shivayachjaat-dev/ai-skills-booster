@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,002** skills across structured domains, categories, and subcategories.
+Master navigation for **1,003** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (350 skills)
 
@@ -768,9 +768,9 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (70 skills)
+## Backend (71 skills)
 
-### Api Design (7 skills)
+### Api Design (8 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 
 - **Api Analyzer** (1):
@@ -785,6 +785,8 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
   - [dotnet-architect](../skills/backend/api-design/dotnet_architect/dotnet-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet architect. Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns.
 - **Firebase** (1):
   - [firebase](../skills/backend/api-design/firebase/firebase/SKILL.md) — Use this skill to design, implement, and operate production workflows for firebase. Firebase gives you a complete backend in minutes - auth, database,
+- **Fp_Backend** (1):
+  - [fp-backend](../skills/backend/api-design/fp_backend/fp-backend/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp backend. Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 

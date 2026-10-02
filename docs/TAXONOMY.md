@@ -368,6 +368,7 @@ AI_Skills_Booster/
 │   │   ├── cc_skill_backend_pat/ (1 skills)
 │   │   ├── dotnet_architect/ (1 skills)
 │   │   ├── firebase/ (1 skills)
+│   │   ├── fp_backend/ (1 skills)
 │   │   └── rate-limiting/ (1 skills)
 │   ├── api-frameworks/
 │   │   ├── atlas_cloud_media/ (1 skills)
