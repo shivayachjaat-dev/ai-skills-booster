@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 395 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 396 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -384,6 +384,7 @@
 | [babysit-pr](skills/software-engineering/architecture/patterns/babysit-pr/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to babysit a pull request through its bot review rounds: verify, fix, reply, |
 | [bash-linux](skills/software-engineering/architecture/patterns/bash-linux/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems. |
 | [bash-pro](skills/software-engineering/architecture/patterns/bash-pro/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to master of defensive Bash scripting for production automation, CI/CD |
+| [bevy-ecs-expert](skills/software-engineering/architecture/patterns/bevy-ecs-expert/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling. |
 | [github-pr-review-feedback-resolver](skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) | `software-engineering` | `code-review` | `pr-feedback` | `intermediate` | `stable` | Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads. |
 | [debugging-and-error-recovery](skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) | `software-engineering` | `debugging` | `recovery` | `advanced` | `stable` | Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation. |
 | [event-sourcing-and-cqrs-architecture](skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) | `software-engineering` | `design-patterns` | `event-sourcing` | `advanced` | `stable` | Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies. |
