@@ -14843,6 +14843,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-api-routes",
+    "path": "skills/frontend/ui-ux/expo_api_routes/expo-api-routes",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "expo_api_routes",
+    "description": "Use this skill to design, implement, and operate production workflows for expo api routes. Guidelines for creating API routes in Expo Router with EAS Hosting",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Api Routes",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
