@@ -536,6 +536,7 @@ AI_Skills_Booster/
 │   │   ├── laravel_development_/ (1 skills)
 │   │   ├── legal_compliance_vau/ (1 skills)
 │   │   ├── marketing_psychology/ (1 skills)
+│   │   ├── monte_carlo_storage_/ (1 skills)
 │   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)

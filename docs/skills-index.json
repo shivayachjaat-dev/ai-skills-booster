@@ -11796,6 +11796,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-storage-cost-analysis",
+    "path": "skills/ai-engineering/rag/monte_carlo_storage_/monte-carlo-storage-cost-analysis",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "monte_carlo_storage_",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo storage cost analysis. Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs MCP tool. Classifies waste patterns and table categories, computes safety tiers, and handles category drill-downs and lineage follow-ups.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Storage Cost Analysis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **29 skills** available in this category.
+> **30 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,4 +32,5 @@
 | [laravel-development-workflow](../../skills/ai-engineering/rag/laravel_development_/laravel-development-workflow/SKILL.md) | `laravel_development_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for laravel development workflow. Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification. |
 | [legal-compliance-vault](../../skills/ai-engineering/rag/legal_compliance_vau/legal-compliance-vault/SKILL.md) | `legal_compliance_vau` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for legal compliance vault. Legal and compliance document vault: document type, framework, owner and department, effective and expiry dates, renewal flag, storage link, confidentiality and status. Use for policy tracking. |
 | [marketing-psychology](../../skills/ai-engineering/rag/marketing_psychology/marketing-psychology/SKILL.md) | `marketing_psychology` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing psychology. Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system. |
+| [monte-carlo-storage-cost-analysis](../../skills/ai-engineering/rag/monte_carlo_storage_/monte-carlo-storage-cost-analysis/SKILL.md) | `monte_carlo_storage_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo storage cost analysis. Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs MCP tool. Classifies waste patterns and table categories, computes safety tiers, and handles category drill-downs and lineage follow-ups. |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,555** skills across structured domains, categories, and subcategories.
+Master navigation for **1,556** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (537 skills)
+## Ai Engineering (538 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1057,7 +1057,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (29 skills)
+### Rag (30 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1113,6 +1113,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [legal-compliance-vault](../skills/ai-engineering/rag/legal_compliance_vau/legal-compliance-vault/SKILL.md) — Use this skill to design, implement, and operate production workflows for legal compliance vault. Legal and compliance document vault: document type, framework, owner and department, effective and expiry dates, renewal flag, storage link, confidentiality and status. Use for policy tracking.
 - **Marketing_Psychology** (1):
   - [marketing-psychology](../skills/ai-engineering/rag/marketing_psychology/marketing-psychology/SKILL.md) — Use this skill to design, implement, and operate production workflows for marketing psychology. Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.
+- **Monte_Carlo_Storage_** (1):
+  - [monte-carlo-storage-cost-analysis](../skills/ai-engineering/rag/monte_carlo_storage_/monte-carlo-storage-cost-analysis/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo storage cost analysis. Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs MCP tool. Classifies waste patterns and table categories, computes safety tiers, and handles category drill-downs and lineage follow-ups.
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 
