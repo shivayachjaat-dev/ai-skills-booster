@@ -58,7 +58,8 @@ AI_Skills_Booster/
 │   │   └── vllm/ (1 skills)
 │   ├── llm-ops/
 │   │   ├── andrej_karpathy/ (1 skills)
-│   │   └── bullmq_specialist/ (1 skills)
+│   │   ├── bullmq_specialist/ (1 skills)
+│   │   └── context_window_manag/ (1 skills)
 │   ├── models/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)

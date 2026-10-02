@@ -1073,6 +1073,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-window-management",
+    "path": "skills/ai-engineering/llm-ops/context_window_manag/context-window-management",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "context_window_manag",
+    "description": "Use this skill to strategies for managing LLM context windows including",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Window Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",
