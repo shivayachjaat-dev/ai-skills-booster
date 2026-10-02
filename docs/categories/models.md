@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **153 skills** available in this category.
+> **154 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -156,4 +156,5 @@
 | [cpp-pro](../../skills/ai-engineering/models/cpp_pro/cpp-pro/SKILL.md) | `cpp_pro` | `advanced` | `stable` | Use this skill to write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. |
 | [cred-omega](../../skills/ai-engineering/models/cred_omega/cred-omega/SKILL.md) | `cred_omega` | `advanced` | `stable` | Use this skill to cISO operacional enterprise para gestao total de credenciais e segredos. |
 | [credit-cycle-analysis](../../skills/ai-engineering/models/credit_cycle_analysi/credit-cycle-analysis/SKILL.md) | `credit_cycle_analysi` | `advanced` | `stable` | Use this skill to debtor and creditor credit-cycle analysis: weighted collection or payment days, ageing buckets, credit limit utilisation and gap against benchmark. Use for working-capital review. |
+| [crewai](../../skills/ai-engineering/models/crewai/crewai/SKILL.md) | `crewai` | `advanced` | `stable` | Use this skill to expert in CrewAI - the leading role-based multi-agent framework |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

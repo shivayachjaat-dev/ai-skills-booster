@@ -4483,6 +4483,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crewai",
+    "path": "skills/ai-engineering/models/crewai/crewai",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "crewai",
+    "description": "Use this skill to expert in CrewAI - the leading role-based multi-agent framework",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "crewai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crewai",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
