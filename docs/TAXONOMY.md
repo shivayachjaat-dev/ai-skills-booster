@@ -56,6 +56,8 @@ AI_Skills_Booster/
 │   └── resilience/
 │   │   └── rate-limiter-token-bucket/ (1 skills)
 ├── business/
+│   ├── finance/
+│   │   └── audit-controls/ (1 skills)
 │   └── human-resources/
 │   │   └── performance-management/ (1 skills)
 ├── data-analytics/
