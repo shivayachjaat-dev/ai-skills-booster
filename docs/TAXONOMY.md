@@ -202,7 +202,8 @@ AI_Skills_Booster/
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
-│   │   └── aws_cost_cleanup/ (1 skills)
+│   │   ├── aws_cost_cleanup/ (1 skills)
+│   │   └── aws_cost_optimizer/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

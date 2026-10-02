@@ -2972,6 +2972,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-cost-optimizer",
+    "path": "skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "aws_cost_optimizer",
+    "description": "Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Cost Optimizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
