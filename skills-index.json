@@ -25073,6 +25073,28 @@
     "maturity": "stable"
   },
   {
+    "name": "neon-postgres",
+    "path": "skills/frontend/ui-ux/neon_postgres/neon-postgres",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "neon_postgres",
+    "description": "Use this skill to design, implement, and operate production workflows for neon postgres. Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "neon",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Neon Postgres",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

@@ -1211,6 +1211,7 @@ AI_Skills_Booster/
 │   │   ├── n8n_mcp_tools_expert/ (1 skills)
 │   │   ├── n8n_validation_exper/ (1 skills)
 │   │   ├── n8n_workflow_pattern/ (1 skills)
+│   │   ├── neon_postgres/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)

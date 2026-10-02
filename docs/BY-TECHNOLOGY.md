@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1408 skills)
+## Bash (1409 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2078,6 +2078,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-mcp-tools-expert](../skills/frontend/ui-ux/n8n_mcp_tools_expert/n8n-mcp-tools-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n mcp tools expert. Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns.
 - [n8n-validation-expert](../skills/frontend/ui-ux/n8n_validation_exper/n8n-validation-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n validation expert. Expert guide for interpreting and fixing n8n validation errors.
 - [n8n-workflow-patterns](../skills/frontend/ui-ux/n8n_workflow_pattern/n8n-workflow-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n workflow patterns. Proven architectural patterns for building n8n workflows.
+- [neon-postgres](../skills/frontend/ui-ux/neon_postgres/neon-postgres/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres. Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -8034,6 +8035,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [neon-object-storage](../skills/ai-engineering/rag/neon_object_storage/neon-object-storage/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon object storage. S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch.
 
+## Neon Postgres (1 skills)
+
+- [neon-postgres](../skills/frontend/ui-ux/neon_postgres/neon-postgres/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres. Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK.
+
 ## Network Policies (1 skills)
 
 - [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
@@ -8374,7 +8379,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1511 skills)
+## Python (1512 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9446,6 +9451,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-mcp-tools-expert](../skills/frontend/ui-ux/n8n_mcp_tools_expert/n8n-mcp-tools-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n mcp tools expert. Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns.
 - [n8n-validation-expert](../skills/frontend/ui-ux/n8n_validation_exper/n8n-validation-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n validation expert. Expert guide for interpreting and fixing n8n validation errors.
 - [n8n-workflow-patterns](../skills/frontend/ui-ux/n8n_workflow_pattern/n8n-workflow-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n workflow patterns. Proven architectural patterns for building n8n workflows.
+- [neon-postgres](../skills/frontend/ui-ux/neon_postgres/neon-postgres/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres. Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.

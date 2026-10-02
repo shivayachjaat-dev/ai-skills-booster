@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,590 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,591 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1125,6 +1125,7 @@
 | [n8n-mcp-tools-expert](skills/frontend/ui-ux/n8n_mcp_tools_expert/n8n-mcp-tools-expert/SKILL.md) | `frontend` | `ui-ux` | `n8n_mcp_tools_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n mcp tools expert. Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns. |
 | [n8n-validation-expert](skills/frontend/ui-ux/n8n_validation_exper/n8n-validation-expert/SKILL.md) | `frontend` | `ui-ux` | `n8n_validation_exper` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n validation expert. Expert guide for interpreting and fixing n8n validation errors. |
 | [n8n-workflow-patterns](skills/frontend/ui-ux/n8n_workflow_pattern/n8n-workflow-patterns/SKILL.md) | `frontend` | `ui-ux` | `n8n_workflow_pattern` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n workflow patterns. Proven architectural patterns for building n8n workflows. |
+| [neon-postgres](skills/frontend/ui-ux/neon_postgres/neon-postgres/SKILL.md) | `frontend` | `ui-ux` | `neon_postgres` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon postgres. Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
