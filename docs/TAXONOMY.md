@@ -237,7 +237,8 @@ AI_Skills_Booster/
 │   │   ├── aws_cost_cleanup/ (1 skills)
 │   │   ├── aws_cost_optimizer/ (1 skills)
 │   │   ├── aws_skills/ (1 skills)
-│   │   └── aws_sst_development/ (1 skills)
+│   │   ├── aws_sst_development/ (1 skills)
+│   │   └── azure_appconfigurati/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

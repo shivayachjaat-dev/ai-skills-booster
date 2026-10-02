@@ -3874,6 +3874,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-appconfiguration-java",
+    "path": "skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-java",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_appconfigurati",
+    "description": "Use this skill to azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Appconfiguration Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

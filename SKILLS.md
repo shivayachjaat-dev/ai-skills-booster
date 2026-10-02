@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 274 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 275 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -167,6 +167,7 @@
 | [aws-cost-optimizer](skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_optimizer` | `advanced` | `stable` | Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer |
 | [aws-skills](skills/devops/cloud-infrastructure/aws_skills/aws-skills/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_skills` | `advanced` | `stable` | Use this skill to aWS development with infrastructure automation and cloud architecture patterns |
 | [aws-sst-development](skills/devops/cloud-infrastructure/aws_sst_development/aws-sst-development/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_sst_development` | `advanced` | `stable` | Use this skill to sST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework. |
+| [azure-appconfiguration-java](skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-java/SKILL.md) | `devops` | `cloud-infrastructure` | `azure_appconfigurati` | `advanced` | `stable` | Use this skill to azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots. |
 | [helm-chart-architecture-and-lifecycle](skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle/SKILL.md) | `devops` | `container-orchestration` | `helm` | `intermediate` | `stable` | Use this skill when architecting, authoring, and managing production-grade Kubernetes packages with Helm 3+. It guides the agent through chart file structures, named template helpers (_helpers.tpl), strict values schema validation using values.schema.json, dependency subcharts, test suites (helm test), and semantic versioning release workflows. |
 | [apple-silicon-container-runtime-optimization](skills/devops/containers/apple-silicon/apple-silicon-container-runtime-optimization/SKILL.md) | `devops` | `containers` | `apple-silicon` | `intermediate` | `stable` | Use this skill to build, optimize, and manage lightweight OCI Linux containers and microVM runtimes on Apple Silicon (ARM64 macOS) using native virtualization frameworks, Rosetta 2 multi-arch emulation, Colima, and OrbStack. It covers cross-platform multi-arch image compilation (buildx), bind-mount I/O caching, and GPU acceleration. |
 | [docker-container-optimization](skills/devops/containers/optimization/docker-container-optimization/SKILL.md) | `devops` | `containers` | `optimization` | `intermediate` | `stable` | Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout. |
