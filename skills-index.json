@@ -17307,6 +17307,28 @@
     "maturity": "stable"
   },
   {
+    "name": "javascript-typescript-typescript-scaffold",
+    "path": "skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "javascript_typescrip",
+    "description": "Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "javascript",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Javascript Typescript Typescript Scaffold",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

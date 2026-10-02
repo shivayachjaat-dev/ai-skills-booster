@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **22 skills** available in this category.
+> **23 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -26,3 +26,4 @@
 | [full-output-enforcement](../../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) | `full_output_enforcem` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code. |
 | [high-end-visual-design](../../skills/frontend/ui-development/high_end_visual_desi/high-end-visual-design/SKILL.md) | `high_end_visual_desi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for high end visual design. Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions. |
 | [industrial-brutalist-ui](../../skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui/SKILL.md) | `industrial_brutalist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data. |
+| [javascript-typescript-typescript-scaffold](../../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) | `javascript_typescrip` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N |
