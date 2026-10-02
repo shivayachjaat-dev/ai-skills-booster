@@ -50,6 +50,7 @@ AI_Skills_Booster/
 │   │   └── indexing/ (1 skills)
 ├── backend/
 │   ├── api-design/
+│   │   ├── api-analyzer/ (1 skills)
 │   │   └── rate-limiting/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)

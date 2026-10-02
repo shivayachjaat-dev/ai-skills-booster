@@ -779,6 +779,32 @@
     "maturity": "stable"
   },
   {
+    "name": "rest-and-graphql-api-spec-analyzer",
+    "path": "skills/backend/api-design/api-analyzer/rest-and-graphql-api-spec-analyzer",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "api-analyzer",
+    "description": "Use this skill to statically audit, lint, and validate REST, OpenAPI 3.1, and GraphQL schema specifications against architectural best practices. It checks for consistent HTTP verb usage, snake/camel case casing conventions, missing pagination contracts, unversioned breaking changes, and rate limiting headers.",
+    "tags": [
+      "api-design",
+      "openapi",
+      "graphql",
+      "rest-api",
+      "schema-validation",
+      "spectral",
+      "backend"
+    ],
+    "technologies": [
+      "OpenAPI 3.1",
+      "GraphQL",
+      "Python",
+      "Pydantic",
+      "Spectral Linter"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "api-rate-limiting-and-throttling",
     "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
     "domain": "backend",
