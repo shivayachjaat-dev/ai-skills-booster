@@ -25765,6 +25765,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-technologies",
+    "path": "skills/software-engineering/architecture/patterns/hig-technologies",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for hig technologies. Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Technologies",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
