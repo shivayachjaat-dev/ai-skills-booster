@@ -11440,6 +11440,28 @@
     "maturity": "stable"
   },
   {
+    "name": "helium-mcp",
+    "path": "skills/data-analytics/data-pipelines/helium_mcp/helium-mcp",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "helium_mcp",
+    "description": "Use this skill to design, implement, and operate production workflows for helium mcp. Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and semantic meme search across 3.2M+ articles and 5,000+ sources",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "helium",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Helium Mcp",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

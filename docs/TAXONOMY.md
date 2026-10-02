@@ -550,6 +550,7 @@ AI_Skills_Booster/
 │   │   ├── fp_data_transforms/ (1 skills)
 │   │   ├── go_rust_reverse/ (1 skills)
 │   │   ├── graphql/ (1 skills)
+│   │   ├── helium_mcp/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)

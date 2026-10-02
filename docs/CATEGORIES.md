@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,151** skills across structured domains, categories, and subcategories.
+Master navigation for **1,152** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (398 skills)
 
@@ -1173,7 +1173,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (22 skills)
+## Data Analytics (23 skills)
 
 ### Analytics Engineering (1 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1187,7 +1187,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (11 skills)
+### Data Pipelines (12 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -1210,6 +1210,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [go-rust-reverse](../skills/data-analytics/data-pipelines/go_rust_reverse/go-rust-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for go rust reverse. Reverse engineer stripped Go and Rust binaries: runtime recognition, pclntab/module metadata recovery, panic-string analysis, and idiomatic decompilation strategies.
 - **Graphql** (1):
   - [graphql](../skills/data-analytics/data-pipelines/graphql/graphql/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql. GraphQL gives clients exactly the data they need - no more, no
+- **Helium_Mcp** (1):
+  - [helium-mcp](../skills/data-analytics/data-pipelines/helium_mcp/helium-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for helium mcp. Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and semantic meme search across 3.2M+ articles and 5,000+ sources
 - **Polars** (1):
   - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 
