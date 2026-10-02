@@ -665,7 +665,8 @@ AI_Skills_Booster/
 │   │   ├── geo_compare/ (1 skills)
 │   │   ├── geo_proposal/ (1 skills)
 │   │   ├── geo_prospect/ (1 skills)
-│   │   └── graphql_schema/ (1 skills)
+│   │   ├── graphql_schema/ (1 skills)
+│   │   └── it_manager_hospital/ (1 skills)
 │   ├── productivity/
 │   │   ├── asana_automation/ (1 skills)
 │   │   ├── bamboohr_automation/ (1 skills)

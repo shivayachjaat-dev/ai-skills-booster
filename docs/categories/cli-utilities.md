@@ -1,6 +1,6 @@
 # Category Index: Cli Utilities
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [geo-proposal](../../skills/developer-tools/cli-utilities/geo_proposal/geo-proposal/SKILL.md) | `geo_proposal` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo proposal. Auto-generate a professional, client-ready GEO service proposal from |
 | [geo-prospect](../../skills/developer-tools/cli-utilities/geo_prospect/geo-prospect/SKILL.md) | `geo_prospect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo prospect. CRM-lite for managing GEO agency prospects and clients. |
 | [graphql-schema](../../skills/developer-tools/cli-utilities/graphql_schema/graphql-schema/SKILL.md) | `graphql_schema` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types. |
+| [it-manager-hospital](../../skills/developer-tools/cli-utilities/it_manager_hospital/it-manager-hospital/SKILL.md) | `it_manager_hospital` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for it manager hospital. World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS/PEP ecosystems. |
