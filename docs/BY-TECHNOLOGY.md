@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (839 skills)
+## Bash (840 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1666,6 +1666,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fp-option-ref](../skills/frontend/ui-ux/fp_option_ref/fp-option-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp option ref. Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks.
 - [fp-refactor](../skills/frontend/ui-ux/fp_refactor/fp-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp refactor. Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns
 - [fp-types-ref](../skills/frontend/ui-ux/fp_types_ref/fp-types-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp types ref. Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.
+- [free-tool-strategy](../skills/frontend/ui-ux/free_tool_strategy/free-tool-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for free tool strategy. You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -4563,6 +4564,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [free-tier-strategy](../skills/ai-engineering/models/free_tier_strategy/free-tier-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for free tier strategy. Design free tiers that convert to paid without creating resentment or abuse. Trigger phrases: free tier design, freemium model, free trial strategy, free tier limits, developer free plan, open source commercial, feature gating, upgrade triggers, free ti...
 
+## Free Tool Strategy (1 skills)
+
+- [free-tool-strategy](../skills/frontend/ui-ux/free_tool_strategy/free-tool-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for free tool strategy. You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.
+
 ## FreeRTOS (1 skills)
 
 - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
@@ -5561,7 +5566,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (942 skills)
+## Python (943 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6229,6 +6234,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fp-option-ref](../skills/frontend/ui-ux/fp_option_ref/fp-option-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp option ref. Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks.
 - [fp-refactor](../skills/frontend/ui-ux/fp_refactor/fp-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp refactor. Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns
 - [fp-types-ref](../skills/frontend/ui-ux/fp_types_ref/fp-types-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp types ref. Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.
+- [free-tool-strategy](../skills/frontend/ui-ux/free_tool_strategy/free-tool-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for free tool strategy. You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.

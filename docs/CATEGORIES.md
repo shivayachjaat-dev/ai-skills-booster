@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,021** skills across structured domains, categories, and subcategories.
+Master navigation for **1,022** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (357 skills)
 
@@ -1535,7 +1535,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (191 skills)
+## Frontend (192 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1637,7 +1637,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
-### Ui Ux (101 skills)
+### Ui Ux (102 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1836,6 +1836,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [fp-refactor](../skills/frontend/ui-ux/fp_refactor/fp-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp refactor. Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns
 - **Fp_Types_Ref** (1):
   - [fp-types-ref](../skills/frontend/ui-ux/fp_types_ref/fp-types-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp types ref. Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.
+- **Free_Tool_Strategy** (1):
+  - [free-tool-strategy](../skills/frontend/ui-ux/free_tool_strategy/free-tool-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for free tool strategy. You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

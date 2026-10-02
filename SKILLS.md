@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,021 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,022 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -721,6 +721,7 @@
 | [fp-option-ref](skills/frontend/ui-ux/fp_option_ref/fp-option-ref/SKILL.md) | `frontend` | `ui-ux` | `fp_option_ref` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp option ref. Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks. |
 | [fp-refactor](skills/frontend/ui-ux/fp_refactor/fp-refactor/SKILL.md) | `frontend` | `ui-ux` | `fp_refactor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp refactor. Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns |
 | [fp-types-ref](skills/frontend/ui-ux/fp_types_ref/fp-types-ref/SKILL.md) | `frontend` | `ui-ux` | `fp_types_ref` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp types ref. Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports. |
+| [free-tool-strategy](skills/frontend/ui-ux/free_tool_strategy/free-tool-strategy/SKILL.md) | `frontend` | `ui-ux` | `free_tool_strategy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for free tool strategy. You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

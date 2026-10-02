@@ -16185,6 +16185,28 @@
     "maturity": "stable"
   },
   {
+    "name": "free-tool-strategy",
+    "path": "skills/frontend/ui-ux/free_tool_strategy/free-tool-strategy",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "free_tool_strategy",
+    "description": "Use this skill to design, implement, and operate production workflows for free tool strategy. You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "free",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Free Tool Strategy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
