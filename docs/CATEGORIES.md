@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **707** skills across structured domains, categories, and subcategories.
+Master navigation for **708** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (253 skills)
 
@@ -1826,9 +1826,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (72 skills)
+## Software Engineering (73 skills)
 
-### Architecture (65 skills)
+### Architecture (66 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -1837,7 +1837,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (62):
+- **Patterns** (63):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -1900,6 +1900,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [debugging-toolkit-smart-debug](../skills/software-engineering/architecture/patterns/debugging-toolkit-smart-debug/SKILL.md) — Use this skill to use when working with debugging toolkit smart debug
   - [deep-research](../skills/software-engineering/architecture/patterns/deep-research/SKILL.md) — Use this skill to run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.
   - [defi-yield-strategy-allocator](../skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator/SKILL.md) — Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.
+  - [dependency-analysis](../skills/software-engineering/architecture/patterns/dependency-analysis/SKILL.md) — Use this skill to analyze internal and package dependencies using Ontoly graph traversal.
 
 ### Code Review (1 skills)
 Category index: [`docs/categories/code-review.md`](categories/code-review.md)
