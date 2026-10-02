@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **50 skills** available in this category.
+> **51 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -54,3 +54,4 @@
 | [crossframe-public](../../skills/frontend/ui-ux/crossframe_public/crossframe-public/SKILL.md) | `crossframe_public` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence. |
 | [crossframe-suite](../../skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) | `crossframe_suite` | `advanced` | `stable` | Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output. |
 | [dast-scanning](../../skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) | `dast_scanning` | `advanced` | `stable` | Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite, |
+| [data-privacy-controls](../../skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) | `data_privacy_control` | `advanced` | `stable` | Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance. |

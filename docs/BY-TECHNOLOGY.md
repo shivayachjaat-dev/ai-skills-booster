@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (482 skills)
+## Bash (483 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1427,6 +1427,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [crossframe-public](../skills/frontend/ui-ux/crossframe_public/crossframe-public/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence.
 - [crossframe-suite](../skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) — Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.
 - [dast-scanning](../skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) — Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite,
+- [data-privacy-controls](../skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) — Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
@@ -2841,6 +2842,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [data-export-engine](../skills/ai-engineering/models/data_export_engine/data-export-engine/SKILL.md) — Use this skill to data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails.
 
+## Data Privacy Controls (1 skills)
+
+- [data-privacy-controls](../skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) — Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance.
+
 ## DataLoader (1 skills)
 
 - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
@@ -3907,7 +3912,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (585 skills)
+## Python (586 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4352,6 +4357,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [crossframe-public](../skills/frontend/ui-ux/crossframe_public/crossframe-public/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence.
 - [crossframe-suite](../skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) — Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.
 - [dast-scanning](../skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) — Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite,
+- [data-privacy-controls](../skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) — Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.

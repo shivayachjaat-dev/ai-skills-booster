@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 664 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 665 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -498,6 +498,7 @@
 | [crossframe-public](skills/frontend/ui-ux/crossframe_public/crossframe-public/SKILL.md) | `frontend` | `ui-ux` | `crossframe_public` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence. |
 | [crossframe-suite](skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) | `frontend` | `ui-ux` | `crossframe_suite` | `advanced` | `stable` | Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output. |
 | [dast-scanning](skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) | `frontend` | `ui-ux` | `dast_scanning` | `advanced` | `stable` | Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite, |
+| [data-privacy-controls](skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) | `frontend` | `ui-ux` | `data_privacy_control` | `advanced` | `stable` | Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |
