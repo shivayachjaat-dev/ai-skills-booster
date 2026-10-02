@@ -6331,6 +6331,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ethical-hacking-methodology",
+    "path": "skills/ai-engineering/models/ethical_hacking_meth/ethical-hacking-methodology",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ethical_hacking_meth",
+    "description": "Use this skill to design, implement, and operate production workflows for ethical hacking methodology. Master the complete penetration testing lifecycle from reconnaissance through reporting. This skill covers the five stages of ethical hacking methodology, essential tools, attack techniques, and professional reporting for authorized security as...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ethical",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ethical Hacking Methodology",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
