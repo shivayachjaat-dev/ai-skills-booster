@@ -1117,6 +1117,28 @@
     "maturity": "stable"
   },
   {
+    "name": "autonomous-agents",
+    "path": "skills/ai-engineering/models/autonomous_agents/autonomous-agents",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "autonomous_agents",
+    "description": "Use this skill to autonomous agents are AI systems that can independently decompose",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "autonomous",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Autonomous Agents",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

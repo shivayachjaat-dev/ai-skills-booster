@@ -61,6 +61,7 @@ AI_Skills_Booster/
 │   │   ├── audit_agent_run_evid/ (1 skills)
 │   │   ├── auto_research/ (1 skills)
 │   │   ├── autonomous_agent_pat/ (1 skills)
+│   │   ├── autonomous_agents/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
