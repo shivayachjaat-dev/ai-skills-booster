@@ -12854,6 +12854,28 @@
     "maturity": "stable"
   },
   {
+    "name": "leave-management",
+    "path": "skills/business/operations/leave_management/leave-management",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "leave_management",
+    "description": "Use this skill to design, implement, and operate production workflows for leave management. Leave register: request, leave type, employee and department, manager and approver, start and end dates, days requested, leave balances, handover notes and status. Use for leave tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "leave",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Leave Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

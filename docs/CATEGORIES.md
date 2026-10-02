@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,370** skills across structured domains, categories, and subcategories.
+Master navigation for **1,371** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (462 skills)
 
@@ -1225,7 +1225,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (32 skills)
+## Business (33 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1263,7 +1263,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (20 skills)
+### Operations (21 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1306,6 +1306,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [knowledge-base](../skills/business/operations/knowledge_base/knowledge-base/SKILL.md) — Use this skill to design, implement, and operate production workflows for knowledge base. Knowledge base register: article title, category, department, owner, tags, summary, linked SOP, audience, last and next review dates and status. Use for documentation management.
 - **Kpi_Dashboard_Design** (1):
   - [kpi-dashboard-design](../skills/business/operations/kpi_dashboard_design/kpi-dashboard-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for kpi dashboard design. Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.
+- **Leave_Management** (1):
+  - [leave-management](../skills/business/operations/leave_management/leave-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for leave management. Leave register: request, leave type, employee and department, manager and approver, start and end dates, days requested, leave balances, handover notes and status. Use for leave tracking.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)
