@@ -12412,6 +12412,28 @@
     "maturity": "stable"
   },
   {
+    "name": "object-storage",
+    "path": "skills/ai-engineering/rag/object_storage/object-storage",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "object_storage",
+    "description": "Use this skill to design, implement, and operate production workflows for object storage. Configure object storage with S3, GCS, and MinIO. Implement lifecycle",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "object",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Object Storage",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

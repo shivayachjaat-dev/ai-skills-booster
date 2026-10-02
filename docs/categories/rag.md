@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **33 skills** available in this category.
+> **34 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -36,4 +36,5 @@
 | [neon-object-storage](../../skills/ai-engineering/rag/neon_object_storage/neon-object-storage/SKILL.md) | `neon_object_storage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon object storage. S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch. |
 | [nextjs-seo-indexing](../../skills/ai-engineering/rag/nextjs_seo_indexing/nextjs-seo-indexing/SKILL.md) | `nextjs_seo_indexing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nextjs seo indexing. Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical tags, noindex audits, sitemap health, static rendering, and internal linking. |
 | [nfs-storage](../../skills/ai-engineering/rag/nfs_storage/nfs-storage/SKILL.md) | `nfs_storage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nfs storage. Configure NFS servers and clients. Implement network file sharing for |
+| [object-storage](../../skills/ai-engineering/rag/object_storage/object-storage/SKILL.md) | `object_storage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for object storage. Configure object storage with S3, GCS, and MinIO. Implement lifecycle |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

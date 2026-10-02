@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,626** skills across structured domains, categories, and subcategories.
+Master navigation for **1,627** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (565 skills)
+## Ai Engineering (566 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1105,7 +1105,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (33 skills)
+### Rag (34 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1169,6 +1169,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [nextjs-seo-indexing](../skills/ai-engineering/rag/nextjs_seo_indexing/nextjs-seo-indexing/SKILL.md) — Use this skill to design, implement, and operate production workflows for nextjs seo indexing. Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical tags, noindex audits, sitemap health, static rendering, and internal linking.
 - **Nfs_Storage** (1):
   - [nfs-storage](../skills/ai-engineering/rag/nfs_storage/nfs-storage/SKILL.md) — Use this skill to design, implement, and operate production workflows for nfs storage. Configure NFS servers and clients. Implement network file sharing for
+- **Object_Storage** (1):
+  - [object-storage](../skills/ai-engineering/rag/object_storage/object-storage/SKILL.md) — Use this skill to design, implement, and operate production workflows for object storage. Configure object storage with S3, GCS, and MinIO. Implement lifecycle
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 
