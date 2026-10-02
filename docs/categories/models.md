@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **54 skills** available in this category.
+> **55 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -57,4 +57,5 @@
 | [azure-ai-voicelive-dotnet](../../skills/ai-engineering/models/azure_ai_voicelive_d/azure-ai-voicelive-dotnet/SKILL.md) | `azure_ai_voicelive_d` | `advanced` | `stable` | Use this skill to azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication. |
 | [azure-ai-voicelive-java](../../skills/ai-engineering/models/azure_ai_voicelive_j/azure-ai-voicelive-java/SKILL.md) | `azure_ai_voicelive_j` | `advanced` | `stable` | Use this skill to azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket. |
 | [azure-ai-voicelive-py](../../skills/ai-engineering/models/azure_ai_voicelive_p/azure-ai-voicelive-py/SKILL.md) | `azure_ai_voicelive_p` | `advanced` | `stable` | Use this skill to build real-time voice AI applications with bidirectional WebSocket communication. |
+| [azure-ai-voicelive-ts](../../skills/ai-engineering/models/azure_ai_voicelive_t/azure-ai-voicelive-ts/SKILL.md) | `azure_ai_voicelive_t` | `advanced` | `stable` | Use this skill to azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
