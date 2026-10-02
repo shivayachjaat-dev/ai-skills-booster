@@ -13039,6 +13039,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dashboard-design",
+    "path": "skills/frontend/web-architecture/dashboard_design/dashboard-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "dashboard_design",
+    "description": "Use this skill to design, implement, and operate production workflows for dashboard design. Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "dashboard",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dashboard Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "defuddle",
     "path": "skills/frontend/web-architecture/defuddle/defuddle",
     "domain": "frontend",
