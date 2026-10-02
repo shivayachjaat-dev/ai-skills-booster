@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1440 skills)
+## Bash (1441 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2103,6 +2103,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-workflow-patterns](../skills/frontend/ui-ux/n8n_workflow_pattern/n8n-workflow-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n workflow patterns. Proven architectural patterns for building n8n workflows.
 - [neon-postgres](../skills/frontend/ui-ux/neon_postgres/neon-postgres/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres. Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK.
 - [nosql-expert](../skills/frontend/ui-ux/nosql_expert/nosql-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for nosql expert. Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.
+- [notion-template-business](../skills/frontend/ui-ux/notion_template_busi/notion-template-business/SKILL.md) — Use this skill to design, implement, and operate production workflows for notion template business. Expert in building and selling Notion templates as a business - not
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -8230,6 +8231,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [notion-manual-import](../skills/business/operations/notion_manual_import/notion-manual-import/SKILL.md) — Use this skill to design, implement, and operate production workflows for notion manual import. Notion Manual Import: the Notion step for any module - CSV, property mapping, import steps and verification for the field list the active module confirmed. Use whenever the user picks Notion.
 
+## Notion Template Business (1 skills)
+
+- [notion-template-business](../skills/frontend/ui-ux/notion_template_busi/notion-template-business/SKILL.md) — Use this skill to design, implement, and operate production workflows for notion template business. Expert in building and selling Notion templates as a business - not
+
 ## NumPy (4 skills)
 
 - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
@@ -8534,7 +8539,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1543 skills)
+## Python (1544 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9631,6 +9636,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-workflow-patterns](../skills/frontend/ui-ux/n8n_workflow_pattern/n8n-workflow-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n workflow patterns. Proven architectural patterns for building n8n workflows.
 - [neon-postgres](../skills/frontend/ui-ux/neon_postgres/neon-postgres/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres. Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK.
 - [nosql-expert](../skills/frontend/ui-ux/nosql_expert/nosql-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for nosql expert. Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.
+- [notion-template-business](../skills/frontend/ui-ux/notion_template_busi/notion-template-business/SKILL.md) — Use this skill to design, implement, and operate production workflows for notion template business. Expert in building and selling Notion templates as a business - not
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
