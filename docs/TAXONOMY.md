@@ -303,7 +303,8 @@ AI_Skills_Booster/
 │   │   ├── board_governance/ (1 skills)
 │   │   ├── brand_kit_print_coll/ (1 skills)
 │   │   ├── buddy_program_manage/ (1 skills)
-│   │   └── competency_matrix/ (1 skills)
+│   │   ├── competency_matrix/ (1 skills)
+│   │   └── contract_document_re/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/

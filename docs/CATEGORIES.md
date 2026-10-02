@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **609** skills across structured domains, categories, and subcategories.
+Master navigation for **610** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (216 skills)
 
@@ -662,7 +662,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (12 skills)
+## Business (13 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -692,7 +692,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (4 skills)
+### Operations (5 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -703,6 +703,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [buddy-program-manager](../skills/business/operations/buddy_program_manage/buddy-program-manager/SKILL.md) — Use this skill to buddy programme register: new hire, assigned buddy, department, start and end dates, check-ins planned and done, and feedback score. Use for onboarding buddy schemes.
 - **Competency_Matrix** (1):
   - [competency-matrix](../skills/business/operations/competency_matrix/competency-matrix/SKILL.md) — Use this skill to competency matrix of expected proficiency by job title and grade, with assessment method and linked skill area. Use for role frameworks and hiring bars.
+- **Contract_Document_Re** (1):
+  - [contract-document-renewal](../skills/business/operations/contract_document_re/contract-document-renewal/SKILL.md) — Use this skill to contract register: counterparty, owner, start and end dates, auto-renewal flag, renewal notice deadline, value and tax basis. Use for renewal tracking and notice deadlines.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)

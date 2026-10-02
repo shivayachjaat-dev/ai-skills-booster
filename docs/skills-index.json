@@ -6210,6 +6210,28 @@
     "maturity": "stable"
   },
   {
+    "name": "contract-document-renewal",
+    "path": "skills/business/operations/contract_document_re/contract-document-renewal",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "contract_document_re",
+    "description": "Use this skill to contract register: counterparty, owner, start and end dates, auto-renewal flag, renewal notice deadline, value and tax basis. Use for renewal tracking and notice deadlines.",
+    "tags": [
+      "business",
+      "operations",
+      "contract",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Contract Document Renewal",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
