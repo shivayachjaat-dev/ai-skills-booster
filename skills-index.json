@@ -9930,6 +9930,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-api-misconfig",
+    "path": "skills/backend/api-frameworks/hunt_api_misconfig/hunt-api-misconfig",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "hunt_api_misconfig",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt api misconfig. Hunt API security misconfiguration",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Api Misconfig",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",

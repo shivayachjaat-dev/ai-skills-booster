@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,3 +28,4 @@
 | [gemini-api-integration](../../skills/backend/api-frameworks/gemini_api_integrati/gemini-api-integration/SKILL.md) | `gemini_api_integrati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gemini api integration. Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices. |
 | [github](../../skills/backend/api-frameworks/github/github/SKILL.md) | `github` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for github. Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries. |
 | [hugging-face-papers](../../skills/backend/api-frameworks/hugging_face_papers/hugging-face-papers/SKILL.md) | `hugging_face_papers` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face papers. Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. |
+| [hunt-api-misconfig](../../skills/backend/api-frameworks/hunt_api_misconfig/hunt-api-misconfig/SKILL.md) | `hunt_api_misconfig` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt api misconfig. Hunt API security misconfiguration |

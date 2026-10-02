@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,199** skills across structured domains, categories, and subcategories.
+Master navigation for **1,200** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (414 skills)
 
@@ -896,7 +896,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (75 skills)
+## Backend (76 skills)
 
 ### Api Design (8 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -918,7 +918,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (24 skills)
+### Api Frameworks (25 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -967,6 +967,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [github](../skills/backend/api-frameworks/github/github/SKILL.md) — Use this skill to design, implement, and operate production workflows for github. Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries.
 - **Hugging_Face_Papers** (1):
   - [hugging-face-papers](../skills/backend/api-frameworks/hugging_face_papers/hugging-face-papers/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face papers. Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page.
+- **Hunt_Api_Misconfig** (1):
+  - [hunt-api-misconfig](../skills/backend/api-frameworks/hunt_api_misconfig/hunt-api-misconfig/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt api misconfig. Hunt API security misconfiguration
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)
