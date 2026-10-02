@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **199** skills across structured domains, categories, and subcategories.
+Master navigation for **200** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (44 skills)
+## Ai Engineering (45 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -98,7 +98,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (10 skills)
+### Models (11 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -121,6 +121,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ai-studio-image](../skills/ai-engineering/models/ai_studio_image/ai-studio-image/SKILL.md) — Use this skill to geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.
 - **Akf_Trust_Metadata** (1):
   - [akf-trust-metadata](../skills/ai-engineering/models/akf_trust_metadata/akf-trust-metadata/SKILL.md) — Use this skill to the AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing.
+- **Antigravity_Maintain** (1):
+  - [antigravity-maintainer-batch-release](../skills/ai-engineering/models/antigravity_maintain/antigravity-maintainer-batch-release/SKILL.md) — Use this skill to run protected AAS maintainer sweeps, PR merge batches, canonical sync, Core preview checks, and scripted releases. Use for repository maintenance, main alignment, CLI/MCP/Workbench changes, or release work; not ordinary contribution tasks.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)
