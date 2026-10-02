@@ -22,6 +22,8 @@ AI_Skills_Booster/
 ├── backend/
 │   ├── api-design/
 │   │   └── rate-limiting/ (1 skills)
+│   ├── background-tasks/
+│   │   └── celery/ (1 skills)
 │   ├── database-drivers/
 │   │   └── sqlalchemy/ (1 skills)
 │   ├── fastapi/

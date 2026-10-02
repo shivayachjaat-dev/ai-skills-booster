@@ -246,6 +246,31 @@
     "maturity": "stable"
   },
   {
+    "name": "celery-distributed-task-processing",
+    "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
+    "domain": "backend",
+    "category": "background-tasks",
+    "subcategory": "celery",
+    "description": "Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.",
+    "tags": [
+      "celery",
+      "python",
+      "background-tasks",
+      "redis",
+      "rabbitmq",
+      "distributed-systems"
+    ],
+    "technologies": [
+      "Celery 5+",
+      "Redis",
+      "RabbitMQ",
+      "Python",
+      "Flower"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "sqlalchemy-async-session-management",
     "path": "skills/backend/database-drivers/sqlalchemy/sqlalchemy-async-session-management",
     "domain": "backend",
