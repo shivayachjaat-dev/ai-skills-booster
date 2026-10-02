@@ -5957,6 +5957,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dropthehassle-publish",
+    "path": "skills/ai-engineering/models/dropthehassle_publis/dropthehassle-publish",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "dropthehassle_publis",
+    "description": "Use this skill to design, implement, and operate production workflows for dropthehassle publish. Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "dropthehassle",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dropthehassle Publish",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

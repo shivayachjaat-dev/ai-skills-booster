@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **873** skills across structured domains, categories, and subcategories.
+Master navigation for **874** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (303 skills)
+## Ai Engineering (304 skills)
 
 ### Agents (36 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -170,7 +170,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (216 skills)
+### Models (217 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -576,6 +576,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [domain-driven-design](../skills/ai-engineering/models/domain_driven_design/domain-driven-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for domain driven design. Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns.
 - **Domain_Modeling** (1):
   - [domain-modeling](../skills/ai-engineering/models/domain_modeling/domain-modeling/SKILL.md) — Use this skill to design, implement, and operate production workflows for domain modeling. Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.
+- **Dropthehassle_Publis** (1):
+  - [dropthehassle-publish](../skills/ai-engineering/models/dropthehassle_publis/dropthehassle-publish/SKILL.md) — Use this skill to design, implement, and operate production workflows for dropthehassle publish. Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):

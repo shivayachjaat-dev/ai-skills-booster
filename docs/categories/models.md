@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **216 skills** available in this category.
+> **217 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -210,6 +210,7 @@
 | [docx-official](../../skills/ai-engineering/models/docx_official/docx-official/SKILL.md) | `docx_official` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docx official. A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks. |
 | [domain-driven-design](../../skills/ai-engineering/models/domain_driven_design/domain-driven-design/SKILL.md) | `domain_driven_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for domain driven design. Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns. |
 | [domain-modeling](../../skills/ai-engineering/models/domain_modeling/domain-modeling/SKILL.md) | `domain_modeling` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for domain modeling. Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model. |
+| [dropthehassle-publish](../../skills/ai-engineering/models/dropthehassle_publis/dropthehassle-publish/SKILL.md) | `dropthehassle_publis` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dropthehassle publish. Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money. |
 | [editorial-design](../../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
