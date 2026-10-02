@@ -9323,6 +9323,28 @@
     "maturity": "stable"
   },
   {
+    "name": "laravel-expert",
+    "path": "skills/ai-engineering/models/laravel_expert/laravel-expert",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "laravel_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for laravel expert. Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+).",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "laravel",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Laravel Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

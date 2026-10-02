@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **335 skills** available in this category.
+> **336 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -333,6 +333,7 @@
 | [lambda-lang](../../skills/ai-engineering/models/lambda_lang/lambda-lang/SKILL.md) | `lambda_lang` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lambda lang. Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains; 3x smaller than natural language. |
 | [landing-page-generator](../../skills/ai-engineering/models/landing_page_generat/landing-page-generator/SKILL.md) | `landing_page_generat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for landing page generator. Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO. |
 | [langchain-architecture](../../skills/ai-engineering/models/langchain_architectu/langchain-architecture/SKILL.md) | `langchain_architectu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for langchain architecture. Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration. |
+| [laravel-expert](../../skills/ai-engineering/models/laravel_expert/laravel-expert/SKILL.md) | `laravel_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for laravel expert. Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+). |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

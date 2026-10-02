@@ -426,6 +426,7 @@ AI_Skills_Booster/
 │   │   ├── lambda_lang/ (1 skills)
 │   │   ├── landing_page_generat/ (1 skills)
 │   │   ├── langchain_architectu/ (1 skills)
+│   │   ├── laravel_expert/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
