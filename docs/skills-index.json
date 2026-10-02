@@ -6287,6 +6287,28 @@
     "maturity": "stable"
   },
   {
+    "name": "error-handling-patterns",
+    "path": "skills/ai-engineering/models/error_handling_patte/error-handling-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "error_handling_patte",
+    "description": "Use this skill to design, implement, and operate production workflows for error handling patterns. Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "error",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Error Handling Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
