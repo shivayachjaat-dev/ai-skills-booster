@@ -17093,6 +17093,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mdm-device-management",
+    "path": "skills/devops/ci-cd/mdm_device_managemen/mdm-device-management",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "mdm_device_managemen",
+    "description": "Use this skill to design, implement, and operate production workflows for mdm device management. Manage and secure company devices with MDM solutions",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "mdm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mdm Device Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",

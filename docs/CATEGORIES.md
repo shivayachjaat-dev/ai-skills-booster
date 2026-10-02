@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,500** skills across structured domains, categories, and subcategories.
+Master navigation for **1,501** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (520 skills)
 
@@ -1749,9 +1749,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (96 skills)
+## Devops (97 skills)
 
-### Ci Cd (35 skills)
+### Ci Cd (36 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -1822,6 +1822,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [load-balancing](../skills/devops/ci-cd/load_balancing/load-balancing/SKILL.md) — Use this skill to design, implement, and operate production workflows for load balancing. Configure load balancers and traffic distribution. Implement health checks
 - **Loki_Logging** (1):
   - [loki-logging](../skills/devops/ci-cd/loki_logging/loki-logging/SKILL.md) — Use this skill to design, implement, and operate production workflows for loki logging. Configure Grafana Loki for log aggregation and analysis.
+- **Mdm_Device_Managemen** (1):
+  - [mdm-device-management](../skills/devops/ci-cd/mdm_device_managemen/mdm-device-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for mdm device management. Manage and secure company devices with MDM solutions
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
