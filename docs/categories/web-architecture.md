@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **62 skills** available in this category.
+> **63 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -39,6 +39,7 @@
 | [flat-design-2](../../skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) | `flat_design_2` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability. |
 | [frutiger-aero](../../skills/frontend/web-architecture/frutiger_aero/frutiger-aero/SKILL.md) | `frutiger_aero` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frutiger aero. Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs. |
 | [glassmorphism](../../skills/frontend/web-architecture/glassmorphism/glassmorphism/SKILL.md) | `glassmorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for glassmorphism. Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel. |
+| [go-rod-master](../../skills/frontend/web-architecture/go_rod_master/go-rod-master/SKILL.md) | `go_rod_master` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for go rod master. Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns. |
 | [gradient-design](../../skills/frontend/web-architecture/gradient_design/gradient-design/SKILL.md) | `gradient_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gradient design. Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels. |
 | [high-contrast](../../skills/frontend/web-architecture/high_contrast/high-contrast/SKILL.md) | `high_contrast` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact. |
 | [holographic-ui](../../skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) | `holographic_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements. |

@@ -18561,6 +18561,28 @@
     "maturity": "stable"
   },
   {
+    "name": "go-rod-master",
+    "path": "skills/frontend/web-architecture/go_rod_master/go-rod-master",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "go_rod_master",
+    "description": "Use this skill to design, implement, and operate production workflows for go rod master. Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "go",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Go Rod Master",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gradient-design",
     "path": "skills/frontend/web-architecture/gradient_design/gradient-design",
     "domain": "frontend",
