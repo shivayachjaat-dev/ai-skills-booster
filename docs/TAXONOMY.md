@@ -695,7 +695,8 @@ AI_Skills_Booster/
 │   │   ├── azure_servicebus_ts/ (1 skills)
 │   │   ├── cloud_architect/ (1 skills)
 │   │   ├── cloudformation_best_/ (1 skills)
-│   │   └── cost_optimization/ (1 skills)
+│   │   ├── cost_optimization/ (1 skills)
+│   │   └── hf_cloud_aws_context/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

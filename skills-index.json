@@ -14192,6 +14192,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hf-cloud-aws-context-discovery",
+    "path": "skills/devops/cloud-infrastructure/hf_cloud_aws_context/hf-cloud-aws-context-discovery",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "hf_cloud_aws_context",
+    "description": "Use this skill to design, implement, and operate production workflows for hf cloud aws context discovery. Discover the effective local AWS profile, region, account, and caller identity before any AWS task without exposing credentials.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "hf",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hf Cloud Aws Context Discovery",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

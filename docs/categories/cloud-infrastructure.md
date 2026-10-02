@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **36 skills** available in this category.
+> **37 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -40,3 +40,4 @@
 | [cloud-architect](../../skills/devops/cloud-infrastructure/cloud_architect/cloud-architect/SKILL.md) | `cloud_architect` | `advanced` | `stable` | Use this skill to expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. |
 | [cloudformation-best-practices](../../skills/devops/cloud-infrastructure/cloudformation_best_/cloudformation-best-practices/SKILL.md) | `cloudformation_best_` | `advanced` | `stable` | Use this skill to cloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates. |
 | [cost-optimization](../../skills/devops/cloud-infrastructure/cost_optimization/cost-optimization/SKILL.md) | `cost_optimization` | `advanced` | `stable` | Use this skill to strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP. |
+| [hf-cloud-aws-context-discovery](../../skills/devops/cloud-infrastructure/hf_cloud_aws_context/hf-cloud-aws-context-discovery/SKILL.md) | `hf_cloud_aws_context` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hf cloud aws context discovery. Discover the effective local AWS profile, region, account, and caller identity before any AWS task without exposing credentials. |
