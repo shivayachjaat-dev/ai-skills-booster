@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (890 skills)
+## Bash (891 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1494,6 +1494,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
 - [career-ops](../skills/developer-tools/cli-utilities/career_ops/career-ops/SKILL.md) — Use this skill to multi-CLI job-search command center: evaluate offers, scan portals,
 - [expo-observe](../skills/developer-tools/cli-utilities/expo_observe/expo-observe/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo observe. Set up and query EAS Observe for Expo apps, including root integration, interactive markers, route metrics, CLI summaries, traces, logs, and performance diagnosis.
+- [geo-compare](../skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients.
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 - [bamboohr-automation](../skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) — Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.
 - [basecamp-automation](../skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) — Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas.
@@ -4842,6 +4843,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [geo-citability](../skills/ai-engineering/models/geo_citability/geo-citability/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo citability. AI citability scoring and optimization.
 
+## Geo Compare (1 skills)
+
+- [geo-compare](../skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients.
+
 ## Gherkin (1 skills)
 
 - [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
@@ -5812,7 +5817,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (993 skills)
+## Python (994 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6298,6 +6303,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
 - [career-ops](../skills/developer-tools/cli-utilities/career_ops/career-ops/SKILL.md) — Use this skill to multi-CLI job-search command center: evaluate offers, scan portals,
 - [expo-observe](../skills/developer-tools/cli-utilities/expo_observe/expo-observe/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo observe. Set up and query EAS Observe for Expo apps, including root integration, interactive markers, route metrics, CLI summaries, traces, logs, and performance diagnosis.
+- [geo-compare](../skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients.
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 - [bamboohr-automation](../skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) — Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.
 - [basecamp-automation](../skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) — Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas.

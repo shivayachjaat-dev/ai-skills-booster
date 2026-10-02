@@ -11411,6 +11411,28 @@
     "maturity": "stable"
   },
   {
+    "name": "geo-compare",
+    "path": "skills/developer-tools/cli-utilities/geo_compare/geo-compare",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "geo_compare",
+    "description": "Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients.",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "geo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geo Compare",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",

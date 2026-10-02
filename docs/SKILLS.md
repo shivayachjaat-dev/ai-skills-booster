@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,072 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,073 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -510,6 +510,7 @@
 | [ask-copilot](skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) | `developer-tools` | `cli-utilities` | `ask_copilot` | `advanced` | `stable` | Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction. |
 | [career-ops](skills/developer-tools/cli-utilities/career_ops/career-ops/SKILL.md) | `developer-tools` | `cli-utilities` | `career_ops` | `advanced` | `stable` | Use this skill to multi-CLI job-search command center: evaluate offers, scan portals, |
 | [expo-observe](skills/developer-tools/cli-utilities/expo_observe/expo-observe/SKILL.md) | `developer-tools` | `cli-utilities` | `expo_observe` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo observe. Set up and query EAS Observe for Expo apps, including root integration, interactive markers, route metrics, CLI summaries, traces, logs, and performance diagnosis. |
+| [geo-compare](skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) | `developer-tools` | `cli-utilities` | `geo_compare` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients. |
 | [asana-automation](skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) | `developer-tools` | `productivity` | `asana_automation` | `advanced` | `stable` | Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas. |
 | [bamboohr-automation](skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) | `developer-tools` | `productivity` | `bamboohr_automation` | `advanced` | `stable` | Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas. |
 | [basecamp-automation](skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) | `developer-tools` | `productivity` | `basecamp_automation` | `advanced` | `stable` | Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas. |

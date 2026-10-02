@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,072** skills across structured domains, categories, and subcategories.
+Master navigation for **1,073** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (370 skills)
 
@@ -1269,7 +1269,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (23 skills)
+## Developer Tools (24 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1277,7 +1277,7 @@ Category index: [`docs/categories/cli.md`](categories/cli.md)
 - **Typer Architecture** (1):
   - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
 
-### Cli Utilities (3 skills)
+### Cli Utilities (4 skills)
 Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md)
 
 - **Ask_Copilot** (1):
@@ -1286,6 +1286,8 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
   - [career-ops](../skills/developer-tools/cli-utilities/career_ops/career-ops/SKILL.md) — Use this skill to multi-CLI job-search command center: evaluate offers, scan portals,
 - **Expo_Observe** (1):
   - [expo-observe](../skills/developer-tools/cli-utilities/expo_observe/expo-observe/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo observe. Set up and query EAS Observe for Expo apps, including root integration, interactive markers, route metrics, CLI summaries, traces, logs, and performance diagnosis.
+- **Geo_Compare** (1):
+  - [geo-compare](../skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients.
 
 ### Productivity (17 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
