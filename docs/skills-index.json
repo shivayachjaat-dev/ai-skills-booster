@@ -94,6 +94,31 @@
     "maturity": "stable"
   },
   {
+    "name": "kubernetes-crashloop-debugging",
+    "path": "skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging",
+    "domain": "devops",
+    "category": "kubernetes",
+    "subcategory": "troubleshooting",
+    "description": "Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.",
+    "tags": [
+      "kubernetes",
+      "devops",
+      "troubleshooting",
+      "debugging",
+      "k8s",
+      "containers",
+      "observability"
+    ],
+    "technologies": [
+      "Kubernetes",
+      "kubectl",
+      "Docker",
+      "Linux"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-server-scaffold",
     "path": "skills/mcp/server-development/scaffolding/mcp-server-scaffold",
     "domain": "mcp",

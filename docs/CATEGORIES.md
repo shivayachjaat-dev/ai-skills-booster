@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **8** skills across structured domains, categories, and subcategories.
+Master navigation for **9** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (2 skills)
 
@@ -24,13 +24,19 @@ Category index: [`docs/categories/postgresql.md`](categories/postgresql.md)
 - **Performance** (1):
   - [postgres-query-performance-analysis](../skills/databases/postgresql/performance/postgres-query-performance-analysis/SKILL.md) — Use this skill when diagnosing, analyzing, and optimizing slow PostgreSQL queries. It guides the agent through running and interpreting EXPLAIN (ANALYZE, BUFFERS), identifying sequential table scans, resolving missing indexes, fixing high buffer reads, eliminating N+1 query patterns, and tuning query planner configurations.
 
-## Devops (1 skills)
+## Devops (2 skills)
 
 ### Containers (1 skills)
 Category index: [`docs/categories/containers.md`](categories/containers.md)
 
 - **Optimization** (1):
   - [docker-container-optimization](../skills/devops/containers/optimization/docker-container-optimization/SKILL.md) — Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.
+
+### Kubernetes (1 skills)
+Category index: [`docs/categories/kubernetes.md`](categories/kubernetes.md)
+
+- **Troubleshooting** (1):
+  - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
 
 ## Mcp (1 skills)
 
