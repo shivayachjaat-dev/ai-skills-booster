@@ -254,6 +254,7 @@ AI_Skills_Booster/
 │   │   ├── detect_ai_text/ (1 skills)
 │   │   ├── devcontainer_setup/ (1 skills)
 │   │   ├── devcontainers_nix/ (1 skills)
+│   │   ├── developer_churn/ (1 skills)
 │   │   ├── editorial_design/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)

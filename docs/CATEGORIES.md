@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **820** skills across structured domains, categories, and subcategories.
+Master navigation for **821** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (283 skills)
+## Ai Engineering (284 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -164,7 +164,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (200 skills)
+### Models (201 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -538,6 +538,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [devcontainer-setup](../skills/ai-engineering/models/devcontainer_setup/devcontainer-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for devcontainer setup. Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code worksp...
 - **Devcontainers_Nix** (1):
   - [devcontainers-nix](../skills/ai-engineering/models/devcontainers_nix/devcontainers-nix/SKILL.md) — Use this skill to design, implement, and operate production workflows for devcontainers nix. Create reproducible development environments with Dev Containers, Nix
+- **Developer_Churn** (1):
+  - [developer-churn](../skills/ai-engineering/models/developer_churn/developer-churn/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer churn. When the user wants to understand, reduce, or recover from developer churn. Trigger phrases include "why developers leave," "churn rate," "win-back campaign," "at-risk users," "developer retention," "preventing churn," or "competitor switching.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):
