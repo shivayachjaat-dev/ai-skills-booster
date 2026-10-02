@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **151 skills** available in this category.
+> **152 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -154,4 +154,5 @@
 | [copywriting](../../skills/ai-engineering/models/copywriting/copywriting/SKILL.md) | `copywriting` | `advanced` | `stable` | Use this skill to write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules. |
 | [course-upskilling-requests](../../skills/ai-engineering/models/course_upskilling_re/course-upskilling-requests/SKILL.md) | `course_upskilling_re` | `advanced` | `stable` | Use this skill to training request register: course, provider, cost, duration, budget line, the three approval steps, service bond and completion evidence. Use for upskilling approvals. |
 | [cpp-pro](../../skills/ai-engineering/models/cpp_pro/cpp-pro/SKILL.md) | `cpp_pro` | `advanced` | `stable` | Use this skill to write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. |
+| [cred-omega](../../skills/ai-engineering/models/cred_omega/cred-omega/SKILL.md) | `cred_omega` | `advanced` | `stable` | Use this skill to cISO operacional enterprise para gestao total de credenciais e segredos. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

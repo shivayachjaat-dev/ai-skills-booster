@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **625** skills across structured domains, categories, and subcategories.
+Master navigation for **626** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (222 skills)
+## Ai Engineering (223 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (151 skills)
+### Models (152 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -438,6 +438,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [course-upskilling-requests](../skills/ai-engineering/models/course_upskilling_re/course-upskilling-requests/SKILL.md) — Use this skill to training request register: course, provider, cost, duration, budget line, the three approval steps, service bond and completion evidence. Use for upskilling approvals.
 - **Cpp_Pro** (1):
   - [cpp-pro](../skills/ai-engineering/models/cpp_pro/cpp-pro/SKILL.md) — Use this skill to write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization.
+- **Cred_Omega** (1):
+  - [cred-omega](../skills/ai-engineering/models/cred_omega/cred-omega/SKILL.md) — Use this skill to cISO operacional enterprise para gestao total de credenciais e segredos.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

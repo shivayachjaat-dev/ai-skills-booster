@@ -4439,6 +4439,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cred-omega",
+    "path": "skills/ai-engineering/models/cred_omega/cred-omega",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cred_omega",
+    "description": "Use this skill to cISO operacional enterprise para gestao total de credenciais e segredos.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cred",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cred Omega",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

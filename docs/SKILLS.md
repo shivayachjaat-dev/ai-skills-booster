@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 625 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 626 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -202,6 +202,7 @@
 | [copywriting](skills/ai-engineering/models/copywriting/copywriting/SKILL.md) | `ai-engineering` | `models` | `copywriting` | `advanced` | `stable` | Use this skill to write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules. |
 | [course-upskilling-requests](skills/ai-engineering/models/course_upskilling_re/course-upskilling-requests/SKILL.md) | `ai-engineering` | `models` | `course_upskilling_re` | `advanced` | `stable` | Use this skill to training request register: course, provider, cost, duration, budget line, the three approval steps, service bond and completion evidence. Use for upskilling approvals. |
 | [cpp-pro](skills/ai-engineering/models/cpp_pro/cpp-pro/SKILL.md) | `ai-engineering` | `models` | `cpp_pro` | `advanced` | `stable` | Use this skill to write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. |
+| [cred-omega](skills/ai-engineering/models/cred_omega/cred-omega/SKILL.md) | `ai-engineering` | `models` | `cred_omega` | `advanced` | `stable` | Use this skill to cISO operacional enterprise para gestao total de credenciais e segredos. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |
