@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,600** skills across structured domains, categories, and subcategories.
+Master navigation for **1,601** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (556 skills)
 
@@ -1859,9 +1859,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (100 skills)
+## Devops (101 skills)
 
-### Ci Cd (38 skills)
+### Ci Cd (39 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -1938,6 +1938,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [model-registry-governance](../skills/devops/ci-cd/model_registry_gover/model-registry-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for model registry governance. Establish model registry standards, governance controls, metadata schemas,
 - **Model_Serving_Kubern** (1):
   - [model-serving-kubernetes](../skills/devops/ci-cd/model_serving_kubern/model-serving-kubernetes/SKILL.md) — Use this skill to design, implement, and operate production workflows for model serving kubernetes. Deploy ML models on Kubernetes with KServe (formerly KFServing) and NVIDIA
+- **New_Relic** (1):
+  - [new-relic](../skills/devops/ci-cd/new_relic/new-relic/SKILL.md) — Use this skill to design, implement, and operate production workflows for new relic. Configure New Relic observability platform for infrastructure and application
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
