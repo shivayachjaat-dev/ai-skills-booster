@@ -302,7 +302,8 @@ AI_Skills_Booster/
 │   │   └── timescaledb/ (1 skills)
 ├── desktop/
 │   └── frameworks/
-│   │   └── avalonia-dotnet/ (1 skills)
+│   │   ├── avalonia-dotnet/ (1 skills)
+│   │   └── chatexport_need_mine/ (1 skills)
 ├── developer-tools/
 │   ├── cli/
 │   │   └── typer-architecture/ (1 skills)

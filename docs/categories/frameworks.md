@@ -1,10 +1,11 @@
 # Category Index: Frameworks
 
-> **5 skills** available in this category.
+> **6 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
 | [avalonia-cross-platform-desktop-ui-architecture](../../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) | `avalonia-dotnet` | `advanced` | `stable` | Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux. |
+| [chatexport-need-miner](../../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) | `chatexport_need_mine` | `advanced` | `stable` | Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat. |
 | [angular-signals-standalone-components-and-state](../../skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state/SKILL.md) | `angular` | `advanced` | `stable` | Use this skill to design, build, and optimize enterprise Angular applications using modern Signals, standalone components, inject() dependency injection, fine-grained reactivity, and Vite-powered builds. |
 | [astro-content-and-islands-web-architecture](../../skills/frontend/frameworks/astro-islands/astro-content-and-islands-web-architecture/SKILL.md) | `astro-islands` | `advanced` | `stable` | Use this skill to design, build, and optimize content-driven websites and web applications using Astro 4/5 Islands Architecture. It covers zero-JS by default rendering, selective client hydration (client:load, client:idle, client:visible), type-safe Content Collections with Zod schemas, View Transitions API, hybrid SSR adapter configuration, and SEO optimization. |
 | [azure-cosmos-java](../../skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java/SKILL.md) | `azure_cosmos_java` | `advanced` | `stable` | Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns. |

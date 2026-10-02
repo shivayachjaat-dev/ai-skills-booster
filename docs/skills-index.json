@@ -5643,6 +5643,28 @@
     "maturity": "stable"
   },
   {
+    "name": "chatexport-need-miner",
+    "path": "skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner",
+    "domain": "desktop",
+    "category": "frameworks",
+    "subcategory": "chatexport_need_mine",
+    "description": "Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.",
+    "tags": [
+      "desktop",
+      "frameworks",
+      "chatexport",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Chatexport Need Miner",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-native-cli-tool-architecture-with-typer",
     "path": "skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer",
     "domain": "developer-tools",
