@@ -32321,6 +32321,28 @@
     "maturity": "stable"
   },
   {
+    "name": "markdown-rendering",
+    "path": "skills/software-engineering/architecture/patterns/markdown-rendering",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for markdown rendering. Open Markdown reliably in cmux panes and recover from blank rendered surfaces.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "markdown",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Markdown Rendering",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
