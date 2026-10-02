@@ -397,6 +397,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-anti-sycophancy-and-truthful-reflection",
+    "path": "skills/ai-engineering/evaluation/anti-sycophancy/ai-anti-sycophancy-and-truthful-reflection",
+    "domain": "ai-engineering",
+    "category": "evaluation",
+    "subcategory": "anti-sycophancy",
+    "description": "Use this skill to evaluate and eliminate sycophantic behavior, uncritical agreement, and false consensus in conversational AI agents. It implements contrarian perspective injection, epistemic uncertainty modeling, disagreement rubrics, and automated sycophancy benchmark audits.",
+    "tags": [
+      "anti-sycophancy",
+      "truthfulness",
+      "cognitive-bias",
+      "llm-alignment",
+      "ai-evaluation",
+      "critical-thinking"
+    ],
+    "technologies": [
+      "Python",
+      "Pydantic",
+      "Epistemic Calibration",
+      "Adversarial Prompts",
+      "Evals"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "deepeval-unit-testing-llm-apps",
     "path": "skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps",
     "domain": "ai-engineering",

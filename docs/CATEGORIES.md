@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **153** skills across structured domains, categories, and subcategories.
+Master navigation for **154** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (30 skills)
+## Ai Engineering (31 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -48,9 +48,11 @@ Category index: [`docs/categories/context.md`](categories/context.md)
 - **Optimization** (1):
   - [context-window-engineering](../skills/ai-engineering/context/optimization/context-window-engineering/SKILL.md) — Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs.
 
-### Evaluation (4 skills)
+### Evaluation (5 skills)
 Category index: [`docs/categories/evaluation.md`](categories/evaluation.md)
 
+- **Anti Sycophancy** (1):
+  - [ai-anti-sycophancy-and-truthful-reflection](../skills/ai-engineering/evaluation/anti-sycophancy/ai-anti-sycophancy-and-truthful-reflection/SKILL.md) — Use this skill to evaluate and eliminate sycophantic behavior, uncritical agreement, and false consensus in conversational AI agents. It implements contrarian perspective injection, epistemic uncertainty modeling, disagreement rubrics, and automated sycophancy benchmark audits.
 - **Deepeval** (1):
   - [deepeval-unit-testing-llm-apps](../skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps/SKILL.md) — Use this skill when designing, authoring, and automating CI/CD unit testing suites for Large Language Model applications using DeepEval. It guides the agent through defining LLM test cases (LLMTestCase), configuring G-Eval custom criteria metrics, hallucination and answer relevancy scoring, integrating with pytest, and setting regression assertions.
 - **Prompt Regression** (1):

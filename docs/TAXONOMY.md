@@ -23,6 +23,7 @@ AI_Skills_Booster/
 │   ├── context/
 │   │   └── optimization/ (1 skills)
 │   ├── evaluation/
+│   │   ├── anti-sycophancy/ (1 skills)
 │   │   ├── deepeval/ (1 skills)
 │   │   ├── prompt-regression/ (1 skills)
 │   │   ├── promptfoo/ (1 skills)

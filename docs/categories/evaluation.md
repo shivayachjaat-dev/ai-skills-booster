@@ -1,9 +1,10 @@
 # Category Index: Evaluation
 
-> **4 skills** available in this category.
+> **5 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
+| [ai-anti-sycophancy-and-truthful-reflection](../../skills/ai-engineering/evaluation/anti-sycophancy/ai-anti-sycophancy-and-truthful-reflection/SKILL.md) | `anti-sycophancy` | `advanced` | `stable` | Use this skill to evaluate and eliminate sycophantic behavior, uncritical agreement, and false consensus in conversational AI agents. It implements contrarian perspective injection, epistemic uncertainty modeling, disagreement rubrics, and automated sycophancy benchmark audits. |
 | [deepeval-unit-testing-llm-apps](../../skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps/SKILL.md) | `deepeval` | `intermediate` | `stable` | Use this skill when designing, authoring, and automating CI/CD unit testing suites for Large Language Model applications using DeepEval. It guides the agent through defining LLM test cases (LLMTestCase), configuring G-Eval custom criteria metrics, hallucination and answer relevancy scoring, integrating with pytest, and setting regression assertions. |
 | [llm-prompt-regression-testing-and-eval-harness](../../skills/ai-engineering/evaluation/prompt-regression/llm-prompt-regression-testing-and-eval-harness/SKILL.md) | `prompt-regression` | `advanced` | `stable` | Use this skill to design, execute, and automate prompt regression test matrices and LLM-as-a-judge evaluation harnesses. It covers golden dataset curation, semantic embedding drift measurement, factual consistency scoring, and CI/CD gate automation before deploying prompt or model updates. |
 | [promptfoo-llm-eval-benchmarking](../../skills/ai-engineering/evaluation/promptfoo/promptfoo-llm-eval-benchmarking/SKILL.md) | `promptfoo` | `intermediate` | `stable` | Use this skill when designing, executing, and automating LLM prompt evaluations and adversarial red-teaming benchmarks using promptfoo. It guides the agent through defining test matrices (providers x prompts x variables), configuring deterministic and LLM-as-a-judge assertions, running red-team vulnerability scans, and integrating evaluations into CI/CD pipelines. |
