@@ -316,6 +316,7 @@ AI_Skills_Booster/
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── feature_tracking/ (1 skills)
+│   │   ├── fedora_hyprland_inst/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)

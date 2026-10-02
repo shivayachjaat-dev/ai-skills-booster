@@ -6903,6 +6903,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fedora-hyprland-installer",
+    "path": "skills/ai-engineering/models/fedora_hyprland_inst/fedora-hyprland-installer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "fedora_hyprland_inst",
+    "description": "Use this skill to design, implement, and operate production workflows for fedora hyprland installer. Install, configure, verify, repair, update, and uninstall Hyprland on Fedora Linux with GPU-aware detection (NVIDIA/AMD/Intel).",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "fedora",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fedora Hyprland Installer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "floating-ui",
     "path": "skills/ai-engineering/models/floating_ui/floating-ui",
     "domain": "ai-engineering",
