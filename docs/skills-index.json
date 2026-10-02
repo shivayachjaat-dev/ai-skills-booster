@@ -7673,6 +7673,28 @@
     "maturity": "stable"
   },
   {
+    "name": "github-workflow-automation",
+    "path": "skills/ai-engineering/models/github_workflow_auto/github-workflow-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "github_workflow_auto",
+    "description": "Use this skill to design, implement, and operate production workflows for github workflow automation. Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "github",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Github Workflow Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

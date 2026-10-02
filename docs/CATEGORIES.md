@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,102** skills across structured domains, categories, and subcategories.
+Master navigation for **1,103** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (381 skills)
+## Ai Engineering (382 skills)
 
 ### Agents (46 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -198,7 +198,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (276 skills)
+### Models (277 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -732,6 +732,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [git-commit-message](../skills/ai-engineering/models/git_commit_message/git-commit-message/SKILL.md) — Use this skill to design, implement, and operate production workflows for git commit message. Generates conventional-commit messages from staged changes: type prefix + English imperative subject (≤50 chars) + optional body explaining why. Use when the user asks to write, generate, or polish a git commit message.
 - **Github_Actions_Debug** (1):
   - [github-actions-debugger](../skills/ai-engineering/models/github_actions_debug/github-actions-debugger/SKILL.md) — Use this skill to design, implement, and operate production workflows for github actions debugger. Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions.
+- **Github_Workflow_Auto** (1):
+  - [github-workflow-automation](../skills/ai-engineering/models/github_workflow_auto/github-workflow-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for github workflow automation. Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

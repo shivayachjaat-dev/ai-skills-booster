@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **276 skills** available in this category.
+> **277 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -274,6 +274,7 @@
 | [git-advanced-workflows](../../skills/ai-engineering/models/git_advanced_workflo/git-advanced-workflows/SKILL.md) | `git_advanced_workflo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for git advanced workflows. Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence. |
 | [git-commit-message](../../skills/ai-engineering/models/git_commit_message/git-commit-message/SKILL.md) | `git_commit_message` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for git commit message. Generates conventional-commit messages from staged changes: type prefix + English imperative subject (≤50 chars) + optional body explaining why. Use when the user asks to write, generate, or polish a git commit message. |
 | [github-actions-debugger](../../skills/ai-engineering/models/github_actions_debug/github-actions-debugger/SKILL.md) | `github_actions_debug` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for github actions debugger. Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions. |
+| [github-workflow-automation](../../skills/ai-engineering/models/github_workflow_auto/github-workflow-automation/SKILL.md) | `github_workflow_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for github workflow automation. Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
