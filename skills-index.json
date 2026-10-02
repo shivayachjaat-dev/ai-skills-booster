@@ -11333,6 +11333,28 @@
     "maturity": "stable"
   },
   {
+    "name": "claude-win11-speckit-update-skill",
+    "path": "skills/software-engineering/architecture/patterns/claude-win11-speckit-update-skill",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to windows 11 system management",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "claude",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Claude Win11 Speckit Update Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

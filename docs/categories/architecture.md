@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **28 skills** available in this category.
+> **29 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,3 +32,4 @@
 | [citation-management](../../skills/software-engineering/architecture/patterns/citation-management/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to manage citations systematically throughout the research and writing process. |
 | [claude-scientific-skills](../../skills/software-engineering/architecture/patterns/claude-scientific-skills/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to scientific research and analysis skills |
 | [claude-speed-reader](../../skills/software-engineering/architecture/patterns/claude-speed-reader/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting |
+| [claude-win11-speckit-update-skill](../../skills/software-engineering/architecture/patterns/claude-win11-speckit-update-skill/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to windows 11 system management |

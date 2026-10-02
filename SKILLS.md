@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 506 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 507 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -492,6 +492,7 @@
 | [citation-management](skills/software-engineering/architecture/patterns/citation-management/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to manage citations systematically throughout the research and writing process. |
 | [claude-scientific-skills](skills/software-engineering/architecture/patterns/claude-scientific-skills/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to scientific research and analysis skills |
 | [claude-speed-reader](skills/software-engineering/architecture/patterns/claude-speed-reader/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting |
+| [claude-win11-speckit-update-skill](skills/software-engineering/architecture/patterns/claude-win11-speckit-update-skill/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to windows 11 system management |
 | [github-pr-review-feedback-resolver](skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) | `software-engineering` | `code-review` | `pr-feedback` | `intermediate` | `stable` | Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads. |
 | [debugging-and-error-recovery](skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) | `software-engineering` | `debugging` | `recovery` | `advanced` | `stable` | Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation. |
 | [event-sourcing-and-cqrs-architecture](skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) | `software-engineering` | `design-patterns` | `event-sourcing` | `advanced` | `stable` | Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies. |
