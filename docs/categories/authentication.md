@@ -1,6 +1,6 @@
 # Category Index: Authentication
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,3 +19,4 @@
 | [malware-analysis](../../skills/security/authentication/malware_analysis/malware-analysis/SKILL.md) | `malware_analysis` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for malware analysis. Analyze suspected malware through static, dynamic, and behavioral techniques: IOC extraction, YARA/Sigma rule authoring, sandbox orchestration, and anti-analysis detection. |
 | [nextjs-supabase-auth](../../skills/security/authentication/nextjs_supabase_auth/nextjs-supabase-auth/SKILL.md) | `nextjs_supabase_auth` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nextjs supabase auth. Expert integration of Supabase Auth with Next.js App Router |
 | [oauth2-jwt-authentication-flow](../../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) | `oauth2` | `advanced` | `stable` | Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists. |
+| [open-source-marketing](../../skills/security/authentication/open_source_marketin/open-source-marketing/SKILL.md) | `open_source_marketin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for open source marketing. When the user wants to market an open source project authentically. Trigger phrases include "open source marketing," "OSS marketing," "GitHub marketing," "promote my library," "grow stars," "launch open source," "open source growth," or "contributor ... |

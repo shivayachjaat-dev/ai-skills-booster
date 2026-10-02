@@ -1520,7 +1520,8 @@ AI_Skills_Booster/
 │   │   ├── identity_federation/ (1 skills)
 │   │   ├── malware_analysis/ (1 skills)
 │   │   ├── nextjs_supabase_auth/ (1 skills)
-│   │   └── oauth2/ (1 skills)
+│   │   ├── oauth2/ (1 skills)
+│   │   └── open_source_marketin/ (1 skills)
 │   ├── authorization/
 │   │   └── rbac/ (1 skills)
 │   ├── binary-defense/
