@@ -144,6 +144,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
 
+## Bandit (1 skills)
+
+- [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
+
 ## Bash (2 skills)
 
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
@@ -1101,6 +1105,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 - [ai-agent-qa-test-authoring-and-regression-triage](../skills/testing/agent-qa/test-authoring/ai-agent-qa-test-authoring-and-regression-triage/SKILL.md) — Use this skill to author, execute, and triage end-to-end automated test suites for AI agents. It establishes deterministic evaluation fixtures, trajectory regression tracking, tool mocking, flakiness score analysis, and automated failure post-mortem triaging.
 
+## Python AST (1 skills)
+
+- [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
+
 ## Python Behave (1 skills)
 
 - [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
@@ -1220,8 +1228,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-## Regex (1 skills)
+## Regex (2 skills)
 
+- [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 - [prompt-injection-defense](../skills/security/ai-security/defense/prompt-injection-defense/SKILL.md) — Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.
 
 ## Rekor (1 skills)
@@ -1323,9 +1332,17 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [scylladb-high-throughput-nosql-architecture](../skills/databases/nosql/scylladb/scylladb-high-throughput-nosql-architecture/SKILL.md) — Use this skill when architecting, modeling, and operating distributed, ultra-low-latency NoSQL databases with ScyllaDB (Apache Cassandra compatible). It guides the agent through shard-per-core asynchronous architecture, CQL partition and clustering key design, tuning consistency levels (LOCAL_QUORUM), tombstone prevention, and driver connection pooling.
 
+## Security Guardrails (1 skills)
+
+- [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
+
 ## Semantic Layer (1 skills)
 
 - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
+
+## Semgrep (1 skills)
+
+- [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
 ## SentenceTransformers (1 skills)
 

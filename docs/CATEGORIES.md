@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **129** skills across structured domains, categories, and subcategories.
+Master navigation for **130** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (27 skills)
 
@@ -489,7 +489,13 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (23 skills)
+## Security (24 skills)
+
+### Ai Guardrails (1 skills)
+Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
+
+- **Code Generation** (1):
+  - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
 ### Ai Security (2 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)

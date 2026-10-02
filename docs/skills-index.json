@@ -2316,6 +2316,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-code-generation-guardrails-and-ast-validation",
+    "path": "skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation",
+    "domain": "security",
+    "category": "ai-guardrails",
+    "subcategory": "code-generation",
+    "description": "Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.",
+    "tags": [
+      "code-guardrails",
+      "ast-validation",
+      "secret-detection",
+      "semgrep",
+      "bandit",
+      "ai-safety"
+    ],
+    "technologies": [
+      "Python AST",
+      "Bandit",
+      "Semgrep",
+      "Regex",
+      "Security Guardrails"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "prompt-injection-defense",
     "path": "skills/security/ai-security/defense/prompt-injection-defense",
     "domain": "security",

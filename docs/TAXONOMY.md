@@ -177,6 +177,8 @@ AI_Skills_Booster/
 │   └── rust/
 │   │   └── memory-safety/ (1 skills)
 ├── security/
+│   ├── ai-guardrails/
+│   │   └── code-generation/ (1 skills)
 │   ├── ai-security/
 │   │   ├── defense/ (1 skills)
 │   │   └── sandbox-defense/ (1 skills)
