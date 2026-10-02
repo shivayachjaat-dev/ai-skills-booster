@@ -4989,6 +4989,28 @@
     "maturity": "stable"
   },
   {
+    "name": "debugging-code",
+    "path": "skills/ai-engineering/models/debugging_code/debugging-code",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "debugging_code",
+    "description": "Use this skill to interactively debug source code \u2014 set breakpoints, step through execution line by line, inspect live variable state, evaluate expressions against the running program, and navigate the call stack to trace root causes.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "debugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Debugging Code",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

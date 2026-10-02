@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **174 skills** available in this category.
+> **175 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -177,4 +177,5 @@
 | [de-ai-writer](../../skills/ai-engineering/models/de_ai_writer/de-ai-writer/SKILL.md) | `de_ai_writer` | `advanced` | `stable` | Use this skill to chinese AI-smell removal engine: 35 Chinese AI-tell patterns (赋能/闭环), AI-smell scoring, de-AI rewriting, style clone. Use when a Chinese draft reads machine-written or the user asks 去AI味. |
 | [debug-buttercup](../../skills/ai-engineering/models/debug_buttercup/debug-buttercup/SKILL.md) | `debug_buttercup` | `advanced` | `stable` | Use this skill to all pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings. |
 | [debugger](../../skills/ai-engineering/models/debugger/debugger/SKILL.md) | `debugger` | `advanced` | `stable` | Use this skill to debugging specialist for errors, test failures, and unexpected |
+| [debugging-code](../../skills/ai-engineering/models/debugging_code/debugging-code/SKILL.md) | `debugging_code` | `advanced` | `stable` | Use this skill to interactively debug source code — set breakpoints, step through execution line by line, inspect live variable state, evaluate expressions against the running program, and navigate the call stack to trace root causes. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

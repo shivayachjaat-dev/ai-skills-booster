@@ -229,6 +229,7 @@ AI_Skills_Booster/
 │   │   ├── de_ai_writer/ (1 skills)
 │   │   ├── debug_buttercup/ (1 skills)
 │   │   ├── debugger/ (1 skills)
+│   │   ├── debugging_code/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
