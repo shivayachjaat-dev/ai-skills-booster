@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (412 skills)
+## Bash (413 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1209,6 +1209,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [container-hardening](../skills/ai-engineering/models/container_hardening/container-hardening/SKILL.md) — Use this skill to secure Docker images and container runtime configurations.
 - [container-registries](../skills/ai-engineering/models/container_registries/container-registries/SKILL.md) — Use this skill to manage container registries including ECR, ACR, GCR, and Docker Hub.
 - [container-scanning](../skills/ai-engineering/models/container_scanning/container-scanning/SKILL.md) — Use this skill to scan container images for vulnerabilities using Trivy, Grype, and cloud-native
+- [content-marketer](../skills/ai-engineering/models/content_marketer/content-marketer/SKILL.md) — Use this skill to elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
 - [axiom](../skills/ai-engineering/rag/axiom/axiom/SKILL.md) — Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.
@@ -2434,6 +2435,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [content-creator](../skills/business/growth/content_creator/content-creator/SKILL.md) — Use this skill to draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.
 
+## Content Marketer (1 skills)
+
+- [content-marketer](../skills/ai-engineering/models/content_marketer/content-marketer/SKILL.md) — Use this skill to elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.
+
 ## Copywriting Frameworks (1 skills)
 
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.
@@ -3557,7 +3562,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (515 skills)
+## Python (516 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3738,6 +3743,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [container-hardening](../skills/ai-engineering/models/container_hardening/container-hardening/SKILL.md) — Use this skill to secure Docker images and container runtime configurations.
 - [container-registries](../skills/ai-engineering/models/container_registries/container-registries/SKILL.md) — Use this skill to manage container registries including ECR, ACR, GCR, and Docker Hub.
 - [container-scanning](../skills/ai-engineering/models/container_scanning/container-scanning/SKILL.md) — Use this skill to scan container images for vulnerabilities using Trivy, Grype, and cloud-native
+- [content-marketer](../skills/ai-engineering/models/content_marketer/content-marketer/SKILL.md) — Use this skill to elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.

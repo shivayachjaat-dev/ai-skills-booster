@@ -4109,6 +4109,28 @@
     "maturity": "stable"
   },
   {
+    "name": "content-marketer",
+    "path": "skills/ai-engineering/models/content_marketer/content-marketer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "content_marketer",
+    "description": "Use this skill to elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "content",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Content Marketer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

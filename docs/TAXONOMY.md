@@ -189,6 +189,7 @@ AI_Skills_Booster/
 │   │   ├── container_hardening/ (1 skills)
 │   │   ├── container_registries/ (1 skills)
 │   │   ├── container_scanning/ (1 skills)
+│   │   ├── content_marketer/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

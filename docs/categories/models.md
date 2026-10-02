@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **141 skills** available in this category.
+> **142 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -144,4 +144,5 @@
 | [container-hardening](../../skills/ai-engineering/models/container_hardening/container-hardening/SKILL.md) | `container_hardening` | `advanced` | `stable` | Use this skill to secure Docker images and container runtime configurations. |
 | [container-registries](../../skills/ai-engineering/models/container_registries/container-registries/SKILL.md) | `container_registries` | `advanced` | `stable` | Use this skill to manage container registries including ECR, ACR, GCR, and Docker Hub. |
 | [container-scanning](../../skills/ai-engineering/models/container_scanning/container-scanning/SKILL.md) | `container_scanning` | `advanced` | `stable` | Use this skill to scan container images for vulnerabilities using Trivy, Grype, and cloud-native |
+| [content-marketer](../../skills/ai-engineering/models/content_marketer/content-marketer/SKILL.md) | `content_marketer` | `advanced` | `stable` | Use this skill to elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
