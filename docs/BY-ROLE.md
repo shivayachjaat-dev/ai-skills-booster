@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (558 skills)
+## AI Engineer (559 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -374,6 +374,7 @@ Curated workflows organized by professional role and specialization.
 - [humanize-chinese](../skills/ai-engineering/models/humanize_chinese/humanize-chinese/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for humanize chinese. Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to 去AI味, 降AIGC, 去除AI痕迹, 论文降重, 知网检测, 维普检测, humanize chinese, detect AI text, or make Chinese ...
 - [hunt-jwt-crypto](../skills/ai-engineering/models/hunt_jwt_crypto/hunt-jwt-crypto/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for hunt jwt crypto. Hunt JWT cryptographic failures
 - [hunt-llm-ai](../skills/ai-engineering/models/hunt_llm_ai/hunt-llm-ai/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for hunt llm ai. Hunt LLM/AI feature bugs
+- [hunt-subdomain](../skills/ai-engineering/models/hunt_subdomain/hunt-subdomain/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for hunt subdomain. Hunting skill for subdomain takeover vulnerabilities.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — `ai-engineering`: Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — `ai-engineering`: Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.

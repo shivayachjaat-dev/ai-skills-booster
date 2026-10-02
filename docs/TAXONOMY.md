@@ -386,6 +386,7 @@ AI_Skills_Booster/
 │   │   ├── humanize_chinese/ (1 skills)
 │   │   ├── hunt_jwt_crypto/ (1 skills)
 │   │   ├── hunt_llm_ai/ (1 skills)
+│   │   ├── hunt_subdomain/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

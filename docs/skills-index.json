@@ -8443,6 +8443,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-subdomain",
+    "path": "skills/ai-engineering/models/hunt_subdomain/hunt-subdomain",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "hunt_subdomain",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt subdomain. Hunting skill for subdomain takeover vulnerabilities.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Subdomain",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
