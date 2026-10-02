@@ -707,6 +707,7 @@ AI_Skills_Booster/
 │   │   ├── dotnet_backend_patte/ (1 skills)
 │   │   ├── drizzle_orm_expert/ (1 skills)
 │   │   ├── eas_app_stores/ (1 skills)
+│   │   ├── eas_hosting/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   └── swiftui_performance_/ (1 skills)

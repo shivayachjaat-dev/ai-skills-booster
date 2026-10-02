@@ -13985,6 +13985,28 @@
     "maturity": "stable"
   },
   {
+    "name": "eas-hosting",
+    "path": "skills/frontend/ui-ux/eas_hosting/eas-hosting",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "eas_hosting",
+    "description": "Use this skill to design, implement, and operate production workflows for eas hosting. Curated upstream guidance for Eas Hosting; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "eas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Eas Hosting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
