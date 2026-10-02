@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,183** skills across structured domains, categories, and subcategories.
+Master navigation for **1,184** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (403 skills)
+## Ai Engineering (404 skills)
 
 ### Agents (49 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -190,7 +190,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (5 skills)
+### Llm Ops (6 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -203,6 +203,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
+- **Hugging_Face_Evaluat** (1):
+  - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
 ### Models (295 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)

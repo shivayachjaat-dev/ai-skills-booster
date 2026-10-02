@@ -1799,6 +1799,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-evaluation",
+    "path": "skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "hugging_face_evaluat",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Evaluation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

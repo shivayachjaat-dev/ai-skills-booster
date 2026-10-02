@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,183 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,184 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -82,6 +82,7 @@
 | [context-window-management](skills/ai-engineering/llm-ops/context_window_manag/context-window-management/SKILL.md) | `ai-engineering` | `llm-ops` | `context_window_manag` | `advanced` | `stable` | Use this skill to strategies for managing LLM context windows including |
 | [conversation-memory](skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) | `ai-engineering` | `llm-ops` | `conversation_memory` | `advanced` | `stable` | Use this skill to persistent memory systems for LLM conversations including |
 | [geo-llmstxt](skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) | `ai-engineering` | `llm-ops` | `geo_llmstxt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping |
+| [hugging-face-evaluation](skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) | `ai-engineering` | `llm-ops` | `hugging_face_evaluat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ... |
 | [agentfolio](skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) | `ai-engineering` | `models` | `agentfolio` | `advanced` | `stable` | Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory. |
 | [ai-agent-development](skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) | `ai-engineering` | `models` | `ai_agent_development` | `advanced` | `stable` | Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. |
 | [ai-analyzer](skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) | `ai-engineering` | `models` | `ai_analyzer` | `advanced` | `stable` | Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |
