@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **203** skills across structured domains, categories, and subcategories.
+Master navigation for **204** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (48 skills)
+## Ai Engineering (49 skills)
 
 ### Agents (15 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -102,7 +102,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (12 skills)
+### Models (13 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -129,6 +129,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [antigravity-maintainer-batch-release](../skills/ai-engineering/models/antigravity_maintain/antigravity-maintainer-batch-release/SKILL.md) — Use this skill to run protected AAS maintainer sweeps, PR merge batches, canonical sync, Core preview checks, and scripted releases. Use for repository maintenance, main alignment, CLI/MCP/Workbench changes, or release work; not ordinary contribution tasks.
 - **Antigravity_Workflow** (1):
   - [antigravity-workflows](../skills/ai-engineering/models/antigravity_workflow/antigravity-workflows/SKILL.md) — Use this skill to use when asked to ship a SaaS MVP, audit application security, build an AI agent, run browser QA, or design a domain model with multiple skills and verified checkpoints.
+- **App_Builder** (1):
+  - [app-builder](../skills/ai-engineering/models/app_builder/app-builder/SKILL.md) — Use this skill to main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)

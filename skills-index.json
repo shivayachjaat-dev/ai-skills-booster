@@ -985,6 +985,28 @@
     "maturity": "stable"
   },
   {
+    "name": "app-builder",
+    "path": "skills/ai-engineering/models/app_builder/app-builder",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "app_builder",
+    "description": "Use this skill to main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "app",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "App Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",
