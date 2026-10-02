@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **142 skills** available in this category.
+> **143 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -142,6 +142,7 @@
 | [interactive-portfolio](../../skills/frontend/ui-ux/interactive_portfoli/interactive-portfolio/SKILL.md) | `interactive_portfoli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for interactive portfolio. Expert in building portfolios that actually land jobs and clients - |
 | [interview-style-doc-building](../../skills/frontend/ui-ux/interview_style_doc_/interview-style-doc-building/SKILL.md) | `interview_style_doc_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for interview style doc building. Build structured strategy documents by asking one question at a time and patching the file. |
 | [invariant-guard](../../skills/frontend/ui-ux/invariant_guard/invariant-guard/SKILL.md) | `invariant_guard` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for invariant guard. Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps. |
+| [ios-developer](../../skills/frontend/ui-ux/ios_developer/ios-developer/SKILL.md) | `ios_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ios developer. Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
