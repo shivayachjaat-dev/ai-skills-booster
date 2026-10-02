@@ -8786,6 +8786,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gemini-api-integration",
+    "path": "skills/backend/api-frameworks/gemini_api_integrati/gemini-api-integration",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "gemini_api_integrati",
+    "description": "Use this skill to design, implement, and operate production workflows for gemini api integration. Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "gemini",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gemini Api Integration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
