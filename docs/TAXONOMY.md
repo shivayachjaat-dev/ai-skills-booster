@@ -1273,6 +1273,7 @@ AI_Skills_Booster/
 │   │   ├── odoo_sales_crm_exper/ (1 skills)
 │   │   ├── odoo_xml_views_build/ (1 skills)
 │   │   ├── on_call_handoff_patt/ (1 skills)
+│   │   ├── onboarding_cro/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)

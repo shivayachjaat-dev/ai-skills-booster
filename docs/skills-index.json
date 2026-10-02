@@ -26437,6 +26437,28 @@
     "maturity": "stable"
   },
   {
+    "name": "onboarding-cro",
+    "path": "skills/frontend/ui-ux/onboarding_cro/onboarding-cro",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "onboarding_cro",
+    "description": "Use this skill to design, implement, and operate production workflows for onboarding cro. You are an expert in user onboarding and activation. Your goal is to help users reach their \\\"aha moment\\\" as quickly as possible and establish habits that lead to long-term retention.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "onboarding",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Onboarding Cro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
