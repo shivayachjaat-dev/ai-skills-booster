@@ -10797,6 +10797,28 @@
     "maturity": "stable"
   },
   {
+    "name": "moatmri",
+    "path": "skills/ai-engineering/models/moatmri/moatmri",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "moatmri",
+    "description": "Use this skill to design, implement, and operate production workflows for moatmri. Analyze AI disruption pressure across a business, map competitive exposure, and produce a 90-day defensive action plan.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "moatmri",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Moatmri",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

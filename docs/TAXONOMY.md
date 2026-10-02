@@ -491,6 +491,7 @@ AI_Skills_Booster/
 │   │   ├── mirrord/ (1 skills)
 │   │   ├── mise_configurator/ (1 skills)
 │   │   ├── mmx_cli/ (1 skills)
+│   │   ├── moatmri/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
