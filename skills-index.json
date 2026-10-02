@@ -24237,6 +24237,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monorepo-management",
+    "path": "skills/frontend/ui-ux/monorepo_management/monorepo-management",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "monorepo_management",
+    "description": "Use this skill to design, implement, and operate production workflows for monorepo management. Build efficient, scalable monorepos that enable code sharing, consistent tooling, and atomic changes across multiple packages and applications.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "monorepo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monorepo Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
