@@ -14337,6 +14337,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-seo",
+    "path": "skills/frontend/ui-development/frontend_seo/frontend-seo",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_seo",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend seo. A portable, framework-agnostic SEO system for any React or React Native-for-web frontend.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Seo",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
