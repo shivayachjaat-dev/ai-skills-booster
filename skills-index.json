@@ -24281,6 +24281,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-asset-health",
+    "path": "skills/frontend/ui-ux/monte_carlo_asset_he/monte-carlo-asset-health",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "monte_carlo_asset_he",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo asset health. Curated upstream guidance for Monte Carlo Asset Health; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Asset Health",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

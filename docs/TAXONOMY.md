@@ -1175,6 +1175,7 @@ AI_Skills_Booster/
 │   │   ├── monorepo_architect/ (1 skills)
 │   │   ├── monorepo_management/ (1 skills)
 │   │   ├── monte_carlo_analyze_/ (1 skills)
+│   │   ├── monte_carlo_asset_he/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
