@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 793 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 794 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -605,6 +605,7 @@
 | [sci-fi-interface](skills/frontend/web-architecture/sci_fi_interface/sci-fi-interface/SKILL.md) | `frontend` | `web-architecture` | `sci_fi_interface` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sci fi interface. Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts. |
 | [security-audit](skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `frontend` | `web-architecture` | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `frontend` | `web-architecture` | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |
+| [skeuomorphism](skills/frontend/web-architecture/skeuomorphism/skeuomorphism/SKILL.md) | `frontend` | `web-architecture` | `skeuomorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skeuomorphism. Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors. |
 | [web3-audit](skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) | `frontend` | `web-architecture` | `web3_audit` | `advanced` | `stable` | Use this skill to smart contract security audit |
 | [app-store-optimization-and-metadata-strategy](skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) | `marketing` | `aso` | `app-store-optimization` | `intermediate` | `stable` | Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata. |
 | [social-sentiment-and-brand-reputation-monitor](skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor/SKILL.md) | `marketing` | `brand` | `reputation-monitor` | `intermediate` | `stable` | Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting. |

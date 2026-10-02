@@ -13633,6 +13633,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skeuomorphism",
+    "path": "skills/frontend/web-architecture/skeuomorphism/skeuomorphism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "skeuomorphism",
+    "description": "Use this skill to design, implement, and operate production workflows for skeuomorphism. Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "skeuomorphism",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skeuomorphism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "web3-audit",
     "path": "skills/frontend/web-architecture/web3_audit/web3-audit",
     "domain": "frontend",

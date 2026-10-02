@@ -691,6 +691,7 @@ AI_Skills_Booster/
 │   │   ├── sci_fi_interface/ (1 skills)
 │   │   ├── security_audit/ (1 skills)
 │   │   ├── seo_aeo_content_qual/ (1 skills)
+│   │   ├── skeuomorphism/ (1 skills)
 │   │   └── web3_audit/ (1 skills)
 ├── marketing/
 │   ├── aso/
