@@ -6835,6 +6835,28 @@
     "maturity": "stable"
   },
   {
+    "name": "baseline-ui",
+    "path": "skills/frontend/ui-ux/baseline_ui/baseline-ui",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "baseline_ui",
+    "description": "Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "baseline",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Baseline Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

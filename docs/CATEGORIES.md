@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **379** skills across structured domains, categories, and subcategories.
+Master navigation for **380** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (121 skills)
 
@@ -876,7 +876,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (31 skills)
+## Frontend (32 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -936,7 +936,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-### Ui Ux (16 skills)
+### Ui Ux (17 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -971,6 +971,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [backend-development-feature-development](../skills/frontend/ui-ux/backend_development_/backend-development-feature-development/SKILL.md) — Use this skill to orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.
 - **Backtesting_Framewor** (1):
   - [backtesting-frameworks](../skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks/SKILL.md) — Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.
+- **Baseline_Ui** (1):
+  - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
 ### Web Architecture (4 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
