@@ -377,7 +377,8 @@ AI_Skills_Booster/
 │   │   ├── documentation/ (1 skills)
 │   │   ├── exa_search/ (1 skills)
 │   │   ├── fal_platform/ (1 skills)
-│   │   └── fastapi-endpoints/ (1 skills)
+│   │   ├── fastapi-endpoints/ (1 skills)
+│   │   └── fastapi_router_py/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/

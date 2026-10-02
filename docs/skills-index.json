@@ -8192,6 +8192,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fastapi-router-py",
+    "path": "skills/backend/api-frameworks/fastapi_router_py/fastapi-router-py",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "fastapi_router_py",
+    "description": "Use this skill to design, implement, and operate production workflows for fastapi router py. Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "fastapi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fastapi Router Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
