@@ -33009,6 +33009,28 @@
     "maturity": "stable"
   },
   {
+    "name": "marketing-mindset",
+    "path": "skills/testing/automation/marketing_mindset/marketing-mindset",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "marketing_mindset",
+    "description": "Use this skill to design, implement, and operate production workflows for marketing mindset. Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test \u2014 a marketer's decision framework, not a tactic library.",
+    "tags": [
+      "testing",
+      "automation",
+      "marketing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Marketing Mindset",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

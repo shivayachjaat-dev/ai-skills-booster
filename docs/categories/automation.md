@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,3 +19,4 @@
 | [junit-5-skill](../../skills/testing/automation/junit_5_skill/junit-5-skill/SKILL.md) | `junit_5_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for junit 5 skill. Generates production-grade JUnit 5 unit and integration tests in Java. Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and nested tests. Use when user mentions \"JUnit\", \"JUnit 5\", \"@Test\", \"assertEquals\", \"Assertions\"... |
 | [kotlin-coroutines-expert](../../skills/testing/automation/kotlin_coroutines_ex/kotlin-coroutines-expert/SKILL.md) | `kotlin_coroutines_ex` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kotlin coroutines expert. Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing. |
 | [longbridge-content](../../skills/testing/automation/longbridge_content/longbridge-content/SKILL.md) | `longbridge_content` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for longbridge content. Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge. |
+| [marketing-mindset](../../skills/testing/automation/marketing_mindset/marketing-mindset/SKILL.md) | `marketing_mindset` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing mindset. Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test — a marketer's decision framework, not a tactic library. |
