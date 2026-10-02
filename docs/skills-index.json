@@ -21091,6 +21091,28 @@
     "maturity": "stable"
   },
   {
+    "name": "launch-strategy",
+    "path": "skills/frontend/ui-ux/launch_strategy/launch-strategy",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "launch_strategy",
+    "description": "Use this skill to design, implement, and operate production workflows for launch strategy. You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "launch",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Launch Strategy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

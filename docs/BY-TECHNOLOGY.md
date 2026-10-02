@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1184 skills)
+## Bash (1185 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1893,6 +1893,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [json-schema-manual](../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) — Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract.
 - [k8s-security-policies](../skills/frontend/ui-ux/k8s_security_policie/k8s-security-policies/SKILL.md) — Use this skill to design, implement, and operate production workflows for k8s security policies. Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.
 - [langgraph](../skills/frontend/ui-ux/langgraph/langgraph/SKILL.md) — Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building
+- [launch-strategy](../skills/frontend/ui-ux/launch_strategy/launch-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for launch strategy. You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -6726,6 +6727,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [latex-paper-conversion](../skills/software-engineering/architecture/patterns/latex-paper-conversion/SKILL.md) — Use this skill to design, implement, and operate production workflows for latex paper conversion. This skill should be used when the user asks to convert an academic paper in LaTeX from one format (e.g., Springer, IPOL) to another format (e.g., MDPI, IEEE, Nature). It automates extraction, injection, fixing formatting, and compiling.
 
+## Launch Strategy (1 skills)
+
+- [launch-strategy](../skills/frontend/ui-ux/launch_strategy/launch-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for launch strategy. You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.
+
 ## Layered Design (1 skills)
 
 - [layered-design](../skills/frontend/web-architecture/layered_design/layered-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for layered design. Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content.
@@ -7276,7 +7281,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1287 skills)
+## Python (1288 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8167,6 +8172,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [json-schema-manual](../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) — Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract.
 - [k8s-security-policies](../skills/frontend/ui-ux/k8s_security_policie/k8s-security-policies/SKILL.md) — Use this skill to design, implement, and operate production workflows for k8s security policies. Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.
 - [langgraph](../skills/frontend/ui-ux/langgraph/langgraph/SKILL.md) — Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building
+- [launch-strategy](../skills/frontend/ui-ux/launch_strategy/launch-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for launch strategy. You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.

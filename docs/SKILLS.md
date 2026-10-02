@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,366 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,367 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -944,6 +944,7 @@
 | [json-schema-manual](skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) | `frontend` | `ui-ux` | `json_schema_manual` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract. |
 | [k8s-security-policies](skills/frontend/ui-ux/k8s_security_policie/k8s-security-policies/SKILL.md) | `frontend` | `ui-ux` | `k8s_security_policie` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for k8s security policies. Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes. |
 | [langgraph](skills/frontend/ui-ux/langgraph/langgraph/SKILL.md) | `frontend` | `ui-ux` | `langgraph` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building |
+| [launch-strategy](skills/frontend/ui-ux/launch_strategy/launch-strategy/SKILL.md) | `frontend` | `ui-ux` | `launch_strategy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for launch strategy. You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
