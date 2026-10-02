@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **144 skills** available in this category.
+> **145 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -146,5 +146,6 @@
 | [i18n-localization](../../skills/software-engineering/architecture/patterns/i18n-localization/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for i18n localization. Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support. |
 | [idea-darwin](../../skills/software-engineering/architecture/patterns/idea-darwin/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea darwin. Darwinian idea evolution engine — toss rough ideas onto an evolution island, let them compete, crossbreed, and mutate through structured rounds to surface your strongest concepts. |
 | [identity-mirror](../../skills/software-engineering/architecture/patterns/identity-mirror/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for identity mirror. One sentence - what this skill does and when to invoke it |
+| [image-generator](../../skills/software-engineering/architecture/patterns/image-generator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for image generator. Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editi... |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

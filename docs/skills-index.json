@@ -28119,6 +28119,28 @@
     "maturity": "stable"
   },
   {
+    "name": "image-generator",
+    "path": "skills/software-engineering/architecture/patterns/image-generator",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for image generator. Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editi...",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "image",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Image Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
