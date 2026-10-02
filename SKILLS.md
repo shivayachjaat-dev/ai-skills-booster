@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,096 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,097 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -776,6 +776,7 @@
 | [gdpr-compliance](skills/frontend/ui-ux/gdpr_compliance/gdpr-compliance/SKILL.md) | `frontend` | `ui-ux` | `gdpr_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gdpr compliance. Implement GDPR data protection requirements. Configure consent management, |
 | [gdpr-data-handling](skills/frontend/ui-ux/gdpr_data_handling/gdpr-data-handling/SKILL.md) | `frontend` | `ui-ux` | `gdpr_data_handling` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gdpr data handling. Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls. |
 | [gemini-live-api-dev](skills/frontend/ui-ux/gemini_live_api_dev/gemini-live-api-dev/SKILL.md) | `frontend` | `ui-ux` | `gemini_live_api_dev` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gemini live api dev. Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. |
+| [github-actions](skills/frontend/ui-ux/github_actions/github-actions/SKILL.md) | `frontend` | `ui-ux` | `github_actions` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for github actions. Build, test, and deploy applications using GitHub Actions workflows. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
