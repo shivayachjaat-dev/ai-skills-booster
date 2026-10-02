@@ -29439,6 +29439,28 @@
     "maturity": "stable"
   },
   {
+    "name": "julia-pro",
+    "path": "skills/software-engineering/architecture/patterns/julia-pro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for julia pro. Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "julia",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Julia Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
