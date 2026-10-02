@@ -24445,6 +24445,28 @@
     "maturity": "stable"
   },
   {
+    "name": "go-playwright",
+    "path": "skills/software-engineering/architecture/patterns/go-playwright",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for go playwright. Expert capability for robust, stealthy, and efficient browser automation using Playwright Go.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "go",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Go Playwright",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
