@@ -12524,6 +12524,28 @@
     "maturity": "stable"
   },
   {
+    "name": "knowledge-base",
+    "path": "skills/business/operations/knowledge_base/knowledge-base",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "knowledge_base",
+    "description": "Use this skill to design, implement, and operate production workflows for knowledge base. Knowledge base register: article title, category, department, owner, tags, summary, linked SOP, audience, last and next review dates and status. Use for documentation management.",
+    "tags": [
+      "business",
+      "operations",
+      "knowledge",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Knowledge Base",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

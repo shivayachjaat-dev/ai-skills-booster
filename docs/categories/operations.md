@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,3 +22,4 @@
 | [internal-communication](../../skills/business/operations/internal_communicati/internal-communication/SKILL.md) | `internal_communicati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for internal communication. Internal communication log: title, type, date, department, host and attendees, agenda, action items, follow-up date, meeting link and delivery status. Use for internal comms tracking. |
 | [inventory-stock-reconciliation](../../skills/business/operations/inventory_stock_reco/inventory-stock-reconciliation/SKILL.md) | `inventory_stock_reco` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for inventory stock reconciliation. Stock reconciliation register: count date, item, warehouse, book vs physical quantity, variance quantity and value, variance reason, damage and expiry, adjustment and approval. Use for stock counts. |
 | [invoices-billing](../../skills/business/operations/invoices_billing/invoices-billing/SKILL.md) | `invoices_billing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for invoices billing. Invoice and billing register: invoice number, client, project, issue and due dates, subtotal, discount, tax and withholding, total, payments, balance and aging. Use for billing follow-up. |
+| [knowledge-base](../../skills/business/operations/knowledge_base/knowledge-base/SKILL.md) | `knowledge_base` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for knowledge base. Knowledge base register: article title, category, department, owner, tags, summary, linked SOP, audience, last and next review dates and status. Use for documentation management. |
