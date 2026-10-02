@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 548 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 549 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -169,6 +169,7 @@
 | [code-review-and-quality](skills/ai-engineering/models/code_review_and_qual/code-review-and-quality/SKILL.md) | `ai-engineering` | `models` | `code_review_and_qual` | `advanced` | `stable` | Use this skill to conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. |
 | [code-review-checklist](skills/ai-engineering/models/code_review_checklis/code-review-checklist/SKILL.md) | `ai-engineering` | `models` | `code_review_checklis` | `advanced` | `stable` | Use this skill to comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability |
 | [code-reviewer](skills/ai-engineering/models/code_reviewer/code-reviewer/SKILL.md) | `ai-engineering` | `models` | `code_reviewer` | `advanced` | `stable` | Use this skill to elite code review expert specializing in modern AI-powered code |
+| [code-showcase-systematic-debugging](skills/ai-engineering/models/code_showcase_system/code-showcase-systematic-debugging/SKILL.md) | `ai-engineering` | `models` | `code_showcase_system` | `advanced` | `stable` | Use this skill to four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |

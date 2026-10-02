@@ -3713,6 +3713,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-showcase-systematic-debugging",
+    "path": "skills/ai-engineering/models/code_showcase_system/code-showcase-systematic-debugging",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "code_showcase_system",
+    "description": "Use this skill to four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Showcase Systematic Debugging",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

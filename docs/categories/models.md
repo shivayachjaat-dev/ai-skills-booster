@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **125 skills** available in this category.
+> **126 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -128,4 +128,5 @@
 | [code-review-and-quality](../../skills/ai-engineering/models/code_review_and_qual/code-review-and-quality/SKILL.md) | `code_review_and_qual` | `advanced` | `stable` | Use this skill to conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. |
 | [code-review-checklist](../../skills/ai-engineering/models/code_review_checklis/code-review-checklist/SKILL.md) | `code_review_checklis` | `advanced` | `stable` | Use this skill to comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability |
 | [code-reviewer](../../skills/ai-engineering/models/code_reviewer/code-reviewer/SKILL.md) | `code_reviewer` | `advanced` | `stable` | Use this skill to elite code review expert specializing in modern AI-powered code |
+| [code-showcase-systematic-debugging](../../skills/ai-engineering/models/code_showcase_system/code-showcase-systematic-debugging/SKILL.md) | `code_showcase_system` | `advanced` | `stable` | Use this skill to four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
