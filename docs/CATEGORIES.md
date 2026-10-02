@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **750** skills across structured domains, categories, and subcategories.
+Master navigation for **751** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (265 skills)
 
@@ -2019,7 +2019,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (13 skills)
+## Testing (14 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -2039,7 +2039,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (6 skills)
+### Automation (7 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -2054,6 +2054,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [code-showcase-testing-patterns](../skills/testing/automation/code_showcase_testin/code-showcase-testing-patterns/SKILL.md) — Use this skill to jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.
 - **Cucumber_Skill** (1):
   - [cucumber-skill](../skills/testing/automation/cucumber_skill/cucumber-skill/SKILL.md) — Use this skill to generates Cucumber BDD tests with Gherkin feature files and step definitions in Java, JavaScript, or Ruby. Use when user mentions \"Cucumber\", \"Gherkin\", \"Feature/Scenario\", \"Given/When/Then\", \"BDD\".
+- **Dependency_Upgrade** (1):
+  - [dependency-upgrade](../skills/testing/automation/dependency_upgrade/dependency-upgrade/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency upgrade. Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

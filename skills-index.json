@@ -17037,6 +17037,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dependency-upgrade",
+    "path": "skills/testing/automation/dependency_upgrade/dependency-upgrade",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "dependency_upgrade",
+    "description": "Use this skill to design, implement, and operate production workflows for dependency upgrade. Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.",
+    "tags": [
+      "testing",
+      "automation",
+      "dependency",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dependency Upgrade",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",
