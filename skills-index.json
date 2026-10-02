@@ -8441,6 +8441,28 @@
     "maturity": "stable"
   },
   {
+    "name": "chrome-extension-developer",
+    "path": "skills/frontend/ui-ux/chrome_extension_dev/chrome-extension-developer",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "chrome_extension_dev",
+    "description": "Use this skill to expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "chrome",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Chrome Extension Developer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

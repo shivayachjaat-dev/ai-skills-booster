@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **32 skills** available in this category.
+> **33 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -36,3 +36,4 @@
 | [changelog-updates](../../skills/frontend/ui-ux/changelog_updates/changelog-updates/SKILL.md) | `changelog_updates` | `advanced` | `stable` | Use this skill to create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features. |
 | [chat-widget](../../skills/frontend/ui-ux/chat_widget/chat-widget/SKILL.md) | `chat_widget` | `advanced` | `stable` | Use this skill to build a real-time support chat system with a floating widget for users and an admin dashboard for support staff. Use when the user wants live chat, customer support chat, real-time messaging, or in-app support. |
 | [check-identity-pack](../../skills/frontend/ui-ux/check_identity_pack/check-identity-pack/SKILL.md) | `check_identity_pack` | `advanced` | `stable` | Use this skill to run an AFP 100-point or AUSTRAC safe-harbour identity check over a set of documents, and report exactly what's missing. Use when the user asks to check identity documents, verify someone's ID for onboarding, or assess whether a document pack satisfies Australian identity requiremen |
+| [chrome-extension-developer](../../skills/frontend/ui-ux/chrome_extension_dev/chrome-extension-developer/SKILL.md) | `chrome_extension_dev` | `advanced` | `stable` | Use this skill to expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication. |
