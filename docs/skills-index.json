@@ -10294,6 +10294,28 @@
     "maturity": "stable"
   },
   {
+    "name": "github-presence",
+    "path": "skills/business/growth/github_presence/github-presence",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "github_presence",
+    "description": "Use this skill to design, implement, and operate production workflows for github presence. When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include \"GitHub README,\" \"README optimization,\" \"GitHub profile,\" \"GitHub stars,\" \"GitHub discoverability,\" \"awesome lists,\" or \"GitHub marketing.",
+    "tags": [
+      "business",
+      "growth",
+      "github",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Github Presence",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",

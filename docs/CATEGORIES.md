@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,101** skills across structured domains, categories, and subcategories.
+Master navigation for **1,102** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (381 skills)
 
@@ -1041,7 +1041,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (24 skills)
+## Business (25 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1049,7 +1049,7 @@ Category index: [`docs/categories/finance.md`](categories/finance.md)
 - **Audit Controls** (1):
   - [internal-financial-audit-and-controls](../skills/business/finance/audit-controls/internal-financial-audit-and-controls/SKILL.md) — Use this skill when designing, testing, and automating internal financial accounting controls, journal entry audit trails, and reconciliation workflows compliant with SOX 404, GAAP, and IFRS. It guides the agent through general ledger reconciliation, manual journal entry approval thresholds, segregation of duties in treasury, and anomaly detection.
 
-### Growth (5 skills)
+### Growth (6 skills)
 Category index: [`docs/categories/growth.md`](categories/growth.md)
 
 - **Competitor_Ad_Intell** (1):
@@ -1062,6 +1062,8 @@ Category index: [`docs/categories/growth.md`](categories/growth.md)
   - [cro-engineering-workflow](../skills/business/growth/cro/cro-engineering-workflow/SKILL.md) — Use this skill to when the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms.
 - **Developer_Audience_C** (1):
   - [developer-audience-context](../skills/business/growth/developer_audience_c/developer-audience-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer audience context. When the user wants to establish or update their developer audience context. Also use when starting any other developer marketing skill to ensure foundational context is loaded.
+- **Github_Presence** (1):
+  - [github-presence](../skills/business/growth/github_presence/github-presence/SKILL.md) — Use this skill to design, implement, and operate production workflows for github presence. When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include "GitHub README," "README optimization," "GitHub profile," "GitHub stars," "GitHub discoverability," "awesome lists," or "GitHub marketing.
 
 ### Human Resources (2 skills)
 Category index: [`docs/categories/human-resources.md`](categories/human-resources.md)
