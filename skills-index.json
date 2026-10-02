@@ -8485,6 +8485,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ci-cd-and-automation",
+    "path": "skills/frontend/ui-ux/ci_cd_and_automation/ci-cd-and-automation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "ci_cd_and_automation",
+    "description": "Use this skill to automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "ci",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ci Cd And Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

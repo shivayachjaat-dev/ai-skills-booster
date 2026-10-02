@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **488** skills across structured domains, categories, and subcategories.
+Master navigation for **489** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (163 skills)
 
@@ -992,7 +992,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (54 skills)
+## Frontend (55 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1060,7 +1060,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Cc_Skill_Frontend_Pa** (1):
   - [cc-skill-frontend-patterns](../skills/frontend/ui-development/cc_skill_frontend_pa/cc-skill-frontend-patterns/SKILL.md) — Use this skill to frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
 
-### Ui Ux (33 skills)
+### Ui Ux (34 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1129,6 +1129,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [check-identity-pack](../skills/frontend/ui-ux/check_identity_pack/check-identity-pack/SKILL.md) — Use this skill to run an AFP 100-point or AUSTRAC safe-harbour identity check over a set of documents, and report exactly what's missing. Use when the user asks to check identity documents, verify someone's ID for onboarding, or assess whether a document pack satisfies Australian identity requiremen
 - **Chrome_Extension_Dev** (1):
   - [chrome-extension-developer](../skills/frontend/ui-ux/chrome_extension_dev/chrome-extension-developer/SKILL.md) — Use this skill to expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication.
+- **Ci_Cd_And_Automation** (1):
+  - [ci-cd-and-automation](../skills/frontend/ui-ux/ci_cd_and_automation/ci-cd-and-automation/SKILL.md) — Use this skill to automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.
 
 ### Web Architecture (8 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
