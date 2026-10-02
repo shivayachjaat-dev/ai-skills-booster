@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,050 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,051 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -745,6 +745,7 @@
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
+| [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
 | [3d-ui](skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) | `frontend` | `web-architecture` | `3d_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [aurora-ui](skills/frontend/web-architecture/aurora_ui/aurora-ui/SKILL.md) | `frontend` | `web-architecture` | `aurora_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for aurora ui. Web and App implementation guide for Aurora UI. Trigger when user wants gradient glows, color blobs, and atmospheric lighting effects. |

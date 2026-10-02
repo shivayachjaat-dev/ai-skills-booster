@@ -16713,6 +16713,28 @@
     "maturity": "stable"
   },
   {
+    "name": "vr-ar",
+    "path": "skills/frontend/ui-ux/vr_ar/vr-ar",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "vr_ar",
+    "description": "Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "vr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Vr Ar",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "3d-ui",
     "path": "skills/frontend/web-architecture/3d_ui/3d-ui",
     "domain": "frontend",
