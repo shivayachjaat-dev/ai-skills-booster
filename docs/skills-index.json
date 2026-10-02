@@ -2393,6 +2393,28 @@
     "maturity": "stable"
   },
   {
+    "name": "beatra-ai-video-studio",
+    "path": "skills/ai-engineering/models/beatra_ai_video_stud/beatra-ai-video-studio",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "beatra_ai_video_stud",
+    "description": "Use this skill to install and use the official Beatra AI Video Studio package, pinned by digest, for paid text-to-video, image-to-video, and video edit or extend jobs on the hosted Beatra service.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "beatra",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Beatra Ai Video Studio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
