@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **45 skills** available in this category.
+> **46 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -48,4 +48,5 @@
 | [azure-ai-projects-py](../../skills/ai-engineering/models/azure_ai_projects_py/azure-ai-projects-py/SKILL.md) | `azure_ai_projects_py` | `advanced` | `stable` | Use this skill to build AI applications on Microsoft Foundry using the azure-ai-projects SDK. |
 | [azure-ai-projects-ts](../../skills/ai-engineering/models/azure_ai_projects_ts/azure-ai-projects-ts/SKILL.md) | `azure_ai_projects_ts` | `advanced` | `stable` | Use this skill to high-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations. |
 | [azure-ai-textanalytics-py](../../skills/ai-engineering/models/azure_ai_textanalyti/azure-ai-textanalytics-py/SKILL.md) | `azure_ai_textanalyti` | `advanced` | `stable` | Use this skill to azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text. |
+| [azure-ai-transcription-py](../../skills/ai-engineering/models/azure_ai_transcripti/azure-ai-transcription-py/SKILL.md) | `azure_ai_transcripti` | `advanced` | `stable` | Use this skill to azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
