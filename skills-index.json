@@ -13721,6 +13721,28 @@
     "maturity": "stable"
   },
   {
+    "name": "swiss-design",
+    "path": "skills/frontend/web-architecture/swiss_design/swiss-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "swiss_design",
+    "description": "Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "swiss",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Swiss Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "web3-audit",
     "path": "skills/frontend/web-architecture/web3_audit/web3-audit",
     "domain": "frontend",
