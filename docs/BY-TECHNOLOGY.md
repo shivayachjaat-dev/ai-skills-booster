@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (300 skills)
+## Bash (301 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1294,6 +1294,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [busybox-on-windows](../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) — Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
 - [cc-skill-project-guidelines-example](../skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example/SKILL.md) — Use this skill to project Guidelines Skill (Example)
 - [cdk-patterns](../skills/frontend/ui-ux/cdk_patterns/cdk-patterns/SKILL.md) — Use this skill to common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs.
+- [changelog-updates](../skills/frontend/ui-ux/changelog_updates/changelog-updates/SKILL.md) — Use this skill to create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
@@ -1841,6 +1842,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Changelog Entry (1 skills)
 
 - [changelog-entry](../skills/security/appsec/changelog_entry/changelog-entry/SKILL.md) — Use this skill to generate a properly formatted CHANGELOG.md entry in Keep a Changelog format from a commit range or PR. Groups changes into Added/Changed/Deprecated/Removed/Fixed/Security categories and outputs a ready-to-paste block.
+
+## Changelog Updates (1 skills)
+
+- [changelog-updates](../skills/frontend/ui-ux/changelog_updates/changelog-updates/SKILL.md) — Use this skill to create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features.
 
 ## Chroma (1 skills)
 
@@ -2997,7 +3002,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (403 skills)
+## Python (404 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3309,6 +3314,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [busybox-on-windows](../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) — Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
 - [cc-skill-project-guidelines-example](../skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example/SKILL.md) — Use this skill to project Guidelines Skill (Example)
 - [cdk-patterns](../skills/frontend/ui-ux/cdk_patterns/cdk-patterns/SKILL.md) — Use this skill to common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs.
+- [changelog-updates](../skills/frontend/ui-ux/changelog_updates/changelog-updates/SKILL.md) — Use this skill to create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.

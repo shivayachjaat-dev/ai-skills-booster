@@ -8353,6 +8353,28 @@
     "maturity": "stable"
   },
   {
+    "name": "changelog-updates",
+    "path": "skills/frontend/ui-ux/changelog_updates/changelog-updates",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "changelog_updates",
+    "description": "Use this skill to create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "changelog",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Changelog Updates",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

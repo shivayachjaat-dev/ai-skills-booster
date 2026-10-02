@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **482** skills across structured domains, categories, and subcategories.
+Master navigation for **483** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (162 skills)
 
@@ -988,7 +988,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (50 skills)
+## Frontend (51 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1056,7 +1056,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Cc_Skill_Frontend_Pa** (1):
   - [cc-skill-frontend-patterns](../skills/frontend/ui-development/cc_skill_frontend_pa/cc-skill-frontend-patterns/SKILL.md) — Use this skill to frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
 
-### Ui Ux (29 skills)
+### Ui Ux (30 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1117,6 +1117,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [cc-skill-project-guidelines-example](../skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example/SKILL.md) — Use this skill to project Guidelines Skill (Example)
 - **Cdk_Patterns** (1):
   - [cdk-patterns](../skills/frontend/ui-ux/cdk_patterns/cdk-patterns/SKILL.md) — Use this skill to common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs.
+- **Changelog_Updates** (1):
+  - [changelog-updates](../skills/frontend/ui-ux/changelog_updates/changelog-updates/SKILL.md) — Use this skill to create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features.
 
 ### Web Architecture (8 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)

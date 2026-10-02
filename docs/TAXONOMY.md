@@ -450,7 +450,8 @@ AI_Skills_Booster/
 │   │   ├── business_continuity/ (1 skills)
 │   │   ├── busybox_on_windows/ (1 skills)
 │   │   ├── cc_skill_project_gui/ (1 skills)
-│   │   └── cdk_patterns/ (1 skills)
+│   │   ├── cdk_patterns/ (1 skills)
+│   │   └── changelog_updates/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)
