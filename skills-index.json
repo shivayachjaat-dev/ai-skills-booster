@@ -6221,6 +6221,28 @@
     "maturity": "stable"
   },
   {
+    "name": "emblemai-crypto-wallet",
+    "path": "skills/ai-engineering/models/emblemai_crypto_wall/emblemai-crypto-wallet",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "emblemai_crypto_wall",
+    "description": "Use this skill to design, implement, and operate production workflows for emblemai crypto wallet. Crypto wallet management across 7 blockchains via EmblemAI Agent Hustle API. Balance checks, token swaps, portfolio analysis, and transaction execution for Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "emblemai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Emblemai Crypto Wallet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
