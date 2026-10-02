@@ -18473,6 +18473,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-components-layout",
+    "path": "skills/frontend/ui-ux/hig_components_layou/hig-components-layout",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hig_components_layou",
+    "description": "Use this skill to design, implement, and operate production workflows for hig components layout. Apple Human Interface Guidelines for layout and navigation components.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Components Layout",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
