@@ -7326,6 +7326,28 @@
     "maturity": "stable"
   },
   {
+    "name": "datadog-automation",
+    "path": "skills/data-analytics/data-pipelines/datadog_automation/datadog-automation",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "datadog_automation",
+    "description": "Use this skill to automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always search tools first for current schemas.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "datadog",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Datadog Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

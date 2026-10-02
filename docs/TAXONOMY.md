@@ -362,6 +362,7 @@ AI_Skills_Booster/
 │   │   ├── data_engineering_dat/ (1 skills)
 │   │   ├── data_scientist/ (1 skills)
 │   │   ├── data_storytelling/ (1 skills)
+│   │   ├── datadog_automation/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
