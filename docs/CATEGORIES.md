@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **978** skills across structured domains, categories, and subcategories.
+Master navigation for **979** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (345 skills)
 
@@ -2290,9 +2290,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (107 skills)
+## Software Engineering (108 skills)
 
-### Architecture (100 skills)
+### Architecture (101 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -2301,7 +2301,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (97):
+- **Patterns** (98):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -2398,6 +2398,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [family-health-analyzer](../skills/software-engineering/architecture/patterns/family-health-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for family health analyzer. 分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议
   - [favicon](../skills/software-engineering/architecture/patterns/favicon/SKILL.md) — Use this skill to design, implement, and operate production workflows for favicon. Generate favicons from a source image
   - [file-organizer](../skills/software-engineering/architecture/patterns/file-organizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for file organizer. 6. Reduces Clutter: Identifies old files you probably don't need anymore
+  - [filesystem-context](../skills/software-engineering/architecture/patterns/filesystem-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for filesystem context. Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading.
   - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 
 ### Code Review (1 skills)

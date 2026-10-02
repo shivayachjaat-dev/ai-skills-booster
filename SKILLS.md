@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 978 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 979 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -957,6 +957,7 @@
 | [family-health-analyzer](skills/software-engineering/architecture/patterns/family-health-analyzer/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for family health analyzer. 分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议 |
 | [favicon](skills/software-engineering/architecture/patterns/favicon/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for favicon. Generate favicons from a source image |
 | [file-organizer](skills/software-engineering/architecture/patterns/file-organizer/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for file organizer. 6. Reduces Clutter: Identifies old files you probably don't need anymore |
+| [filesystem-context](skills/software-engineering/architecture/patterns/filesystem-context/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for filesystem context. Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading. |
 | [hig-inputs](skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
 | [github-pr-review-feedback-resolver](skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) | `software-engineering` | `code-review` | `pr-feedback` | `intermediate` | `stable` | Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads. |
 | [debugging-and-error-recovery](skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) | `software-engineering` | `debugging` | `recovery` | `advanced` | `stable` | Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation. |

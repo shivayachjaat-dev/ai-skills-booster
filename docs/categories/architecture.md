@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **101 skills** available in this category.
+> **102 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -104,4 +104,5 @@
 | [family-health-analyzer](../../skills/software-engineering/architecture/patterns/family-health-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for family health analyzer. 分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议 |
 | [favicon](../../skills/software-engineering/architecture/patterns/favicon/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for favicon. Generate favicons from a source image |
 | [file-organizer](../../skills/software-engineering/architecture/patterns/file-organizer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for file organizer. 6. Reduces Clutter: Identifies old files you probably don't need anymore |
+| [filesystem-context](../../skills/software-engineering/architecture/patterns/filesystem-context/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for filesystem context. Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
