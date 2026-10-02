@@ -15912,6 +15912,28 @@
     "maturity": "stable"
   },
   {
+    "name": "offer-appointment",
+    "path": "skills/business/operations/offer_appointment/offer-appointment",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "offer_appointment",
+    "description": "Use this skill to design, implement, and operate production workflows for offer appointment. Offer register: candidate, position, department, employment type, offered salary and currency, offer date and expiry, joining date, probation, approver and sign-off. Use for offer tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "offer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Offer Appointment",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
