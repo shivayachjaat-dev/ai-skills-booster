@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **159** skills across structured domains, categories, and subcategories.
+Master navigation for **160** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -250,7 +250,7 @@ Category index: [`docs/categories/presentation.md`](categories/presentation.md)
 - **Marp Slides** (1):
   - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 
-## Data Analytics (8 skills)
+## Data Analytics (9 skills)
 
 ### Dashboards (1 skills)
 Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
@@ -299,6 +299,12 @@ Category index: [`docs/categories/product-analytics.md`](categories/product-anal
 
 - **Amplitude** (1):
   - [amplitude-product-analytics-and-funnel-tracking](../skills/data-analytics/product-analytics/amplitude/amplitude-product-analytics-and-funnel-tracking/SKILL.md) — Use this skill to design, instrument, and automate product analytics event tracking, user identification, conversion funnels, and retention cohort analysis using Amplitude's HTTP API and SDKs. It enforces event naming taxonomies, user property schemas, and GDPR identity deletion.
+
+### Web Scraping (1 skills)
+Category index: [`docs/categories/web-scraping.md`](categories/web-scraping.md)
+
+- **Apify Actors** (1):
+  - [apify-actor-web-scraping-and-crawling-pipeline](../skills/data-analytics/web-scraping/apify-actors/apify-actor-web-scraping-and-crawling-pipeline/SKILL.md) — Use this skill to develop, containerize, and deploy serverless web scraping and data extraction Actors on the Apify platform using the Crawlee framework and Python/JavaScript. It covers proxy rotation, anti-bot fingerprint bypasses, schema-validated dataset storage, and webhook notifications.
 
 ## Databases (12 skills)
 

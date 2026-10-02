@@ -1562,6 +1562,32 @@
     "maturity": "stable"
   },
   {
+    "name": "apify-actor-web-scraping-and-crawling-pipeline",
+    "path": "skills/data-analytics/web-scraping/apify-actors/apify-actor-web-scraping-and-crawling-pipeline",
+    "domain": "data-analytics",
+    "category": "web-scraping",
+    "subcategory": "apify-actors",
+    "description": "Use this skill to develop, containerize, and deploy serverless web scraping and data extraction Actors on the Apify platform using the Crawlee framework and Python/JavaScript. It covers proxy rotation, anti-bot fingerprint bypasses, schema-validated dataset storage, and webhook notifications.",
+    "tags": [
+      "apify",
+      "web-scraping",
+      "crawlee",
+      "actor-development",
+      "data-extraction",
+      "proxy-rotation",
+      "automation"
+    ],
+    "technologies": [
+      "Apify SDK",
+      "Crawlee",
+      "Python",
+      "Playwright",
+      "Docker"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "clickhouse-time-series-analytics",
     "path": "skills/databases/clickhouse/time-series/clickhouse-time-series-analytics",
     "domain": "databases",

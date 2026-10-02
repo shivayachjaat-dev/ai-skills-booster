@@ -108,8 +108,10 @@ AI_Skills_Booster/
 │   │   └── alpha-vantage/ (1 skills)
 │   ├── orchestration/
 │   │   └── airflow/ (1 skills)
-│   └── product-analytics/
+│   ├── product-analytics/
 │   │   └── amplitude/ (1 skills)
+│   └── web-scraping/
+│   │   └── apify-actors/ (1 skills)
 ├── databases/
 │   ├── clickhouse/
 │   │   └── time-series/ (1 skills)
