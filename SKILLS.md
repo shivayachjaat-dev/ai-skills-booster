@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,134 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,135 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -542,6 +542,7 @@
 | [geo-compare](skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) | `developer-tools` | `cli-utilities` | `geo_compare` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients. |
 | [geo-proposal](skills/developer-tools/cli-utilities/geo_proposal/geo-proposal/SKILL.md) | `developer-tools` | `cli-utilities` | `geo_proposal` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo proposal. Auto-generate a professional, client-ready GEO service proposal from |
 | [geo-prospect](skills/developer-tools/cli-utilities/geo_prospect/geo-prospect/SKILL.md) | `developer-tools` | `cli-utilities` | `geo_prospect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo prospect. CRM-lite for managing GEO agency prospects and clients. |
+| [graphql-schema](skills/developer-tools/cli-utilities/graphql_schema/graphql-schema/SKILL.md) | `developer-tools` | `cli-utilities` | `graphql_schema` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types. |
 | [asana-automation](skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) | `developer-tools` | `productivity` | `asana_automation` | `advanced` | `stable` | Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas. |
 | [bamboohr-automation](skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) | `developer-tools` | `productivity` | `bamboohr_automation` | `advanced` | `stable` | Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas. |
 | [basecamp-automation](skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) | `developer-tools` | `productivity` | `basecamp_automation` | `advanced` | `stable` | Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas. |

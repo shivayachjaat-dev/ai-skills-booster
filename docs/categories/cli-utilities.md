@@ -1,6 +1,6 @@
 # Category Index: Cli Utilities
 
-> **6 skills** available in this category.
+> **7 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,3 +10,4 @@
 | [geo-compare](../../skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) | `geo_compare` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients. |
 | [geo-proposal](../../skills/developer-tools/cli-utilities/geo_proposal/geo-proposal/SKILL.md) | `geo_proposal` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo proposal. Auto-generate a professional, client-ready GEO service proposal from |
 | [geo-prospect](../../skills/developer-tools/cli-utilities/geo_prospect/geo-prospect/SKILL.md) | `geo_prospect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo prospect. CRM-lite for managing GEO agency prospects and clients. |
+| [graphql-schema](../../skills/developer-tools/cli-utilities/graphql_schema/graphql-schema/SKILL.md) | `graphql_schema` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types. |

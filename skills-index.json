@@ -12115,6 +12115,28 @@
     "maturity": "stable"
   },
   {
+    "name": "graphql-schema",
+    "path": "skills/developer-tools/cli-utilities/graphql_schema/graphql-schema",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "graphql_schema",
+    "description": "Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "graphql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Graphql Schema",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",

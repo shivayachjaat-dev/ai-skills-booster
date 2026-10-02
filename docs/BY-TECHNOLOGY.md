@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (952 skills)
+## Bash (953 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1526,6 +1526,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [geo-compare](../skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients.
 - [geo-proposal](../skills/developer-tools/cli-utilities/geo_proposal/geo-proposal/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo proposal. Auto-generate a professional, client-ready GEO service proposal from
 - [geo-prospect](../skills/developer-tools/cli-utilities/geo_prospect/geo-prospect/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo prospect. CRM-lite for managing GEO agency prospects and clients.
+- [graphql-schema](../skills/developer-tools/cli-utilities/graphql_schema/graphql-schema/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 - [bamboohr-automation](../skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) — Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.
 - [basecamp-automation](../skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) — Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas.
@@ -5280,6 +5281,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [graphql-architect](../skills/frontend/ui-ux/graphql_architect/graphql-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql architect. Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.
 
+## Graphql Schema (1 skills)
+
+- [graphql-schema](../skills/developer-tools/cli-utilities/graphql_schema/graphql-schema/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.
+
 ## Graphviz (1 skills)
 
 - [threat-modeling-and-attack-tree-construction](../skills/security/threat-modeling/attack-trees/threat-modeling-and-attack-tree-construction/SKILL.md) — Use this skill to systematically model adversary capabilities and visualize attack vectors using hierarchical AND/OR attack trees. It covers root goal definition, node decomposition, probability and cost quantification, STRIDE mapping, residual risk scoring (DREAD/CVSS), and mapping defensive countermeasures directly to leaf-node vectors.
@@ -6122,7 +6127,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1055 skills)
+## Python (1056 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6640,6 +6645,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [geo-compare](../skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients.
 - [geo-proposal](../skills/developer-tools/cli-utilities/geo_proposal/geo-proposal/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo proposal. Auto-generate a professional, client-ready GEO service proposal from
 - [geo-prospect](../skills/developer-tools/cli-utilities/geo_prospect/geo-prospect/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo prospect. CRM-lite for managing GEO agency prospects and clients.
+- [graphql-schema](../skills/developer-tools/cli-utilities/graphql_schema/graphql-schema/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 - [bamboohr-automation](../skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) — Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.
 - [basecamp-automation](../skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) — Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas.
