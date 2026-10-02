@@ -12147,6 +12147,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-review-excellence",
+    "path": "skills/software-engineering/architecture/patterns/code-review-excellence",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Review Excellence",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
