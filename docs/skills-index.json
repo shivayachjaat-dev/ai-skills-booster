@@ -3141,6 +3141,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cc-skill-strategic-compact",
+    "path": "skills/ai-engineering/models/cc_skill_strategic_c/cc-skill-strategic-compact",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cc_skill_strategic_c",
+    "description": "Use this skill to prepare a verified checkpoint before condensing an agent conversation at a phase boundary. Use during long tasks when context is repetitive; preserves constraints, evidence, decisions and the next action.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cc Skill Strategic Compact",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **476** skills across structured domains, categories, and subcategories.
+Master navigation for **477** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (161 skills)
+## Ai Engineering (162 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -120,7 +120,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (104 skills)
+### Models (105 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -320,6 +320,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [capacity-workload-planner](../skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner/SKILL.md) — Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning.
 - **Carrier_Relationship** (1):
   - [carrier-relationship-management](../skills/ai-engineering/models/carrier_relationship/carrier-relationship-management/SKILL.md) — Use this skill to codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.
+- **Cc_Skill_Strategic_C** (1):
+  - [cc-skill-strategic-compact](../skills/ai-engineering/models/cc_skill_strategic_c/cc-skill-strategic-compact/SKILL.md) — Use this skill to prepare a verified checkpoint before condensing an agent conversation at a phase boundary. Use during long tasks when context is repetitive; preserves constraints, evidence, decisions and the next action.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

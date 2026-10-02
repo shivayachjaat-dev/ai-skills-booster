@@ -145,6 +145,7 @@ AI_Skills_Booster/
 │   │   ├── candidate_talent_poo/ (1 skills)
 │   │   ├── capacity_workload_pl/ (1 skills)
 │   │   ├── carrier_relationship/ (1 skills)
+│   │   ├── cc_skill_strategic_c/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

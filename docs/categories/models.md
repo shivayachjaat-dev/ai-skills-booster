@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **104 skills** available in this category.
+> **105 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -107,4 +107,5 @@
 | [candidate-talent-pool](../../skills/ai-engineering/models/candidate_talent_poo/candidate-talent-pool/SKILL.md) | `candidate_talent_poo` | `advanced` | `stable` | Use this skill to candidate and prospect pool: contact details, experience, skills, consent status and date, referral source and last contact. Use for talent pipelines and re-engagement. |
 | [capacity-workload-planner](../../skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner/SKILL.md) | `capacity_workload_pl` | `advanced` | `stable` | Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning. |
 | [carrier-relationship-management](../../skills/ai-engineering/models/carrier_relationship/carrier-relationship-management/SKILL.md) | `carrier_relationship` | `advanced` | `stable` | Use this skill to codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships. |
+| [cc-skill-strategic-compact](../../skills/ai-engineering/models/cc_skill_strategic_c/cc-skill-strategic-compact/SKILL.md) | `cc_skill_strategic_c` | `advanced` | `stable` | Use this skill to prepare a verified checkpoint before condensing an agent conversation at a phase boundary. Use during long tasks when context is repetitive; preserves constraints, evidence, decisions and the next action. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
