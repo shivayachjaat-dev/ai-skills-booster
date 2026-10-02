@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **111** skills across structured domains, categories, and subcategories.
+Master navigation for **112** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (17 skills)
 
@@ -176,7 +176,13 @@ Category index: [`docs/categories/procurement.md`](categories/procurement.md)
 - **Software Selection** (1):
   - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
 
-## Data Analytics (3 skills)
+## Data Analytics (4 skills)
+
+### Dashboards (1 skills)
+Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
+
+- **Operational Metrics** (1):
+  - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
 ### Data Pipelines (1 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)

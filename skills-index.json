@@ -851,6 +851,32 @@
     "maturity": "stable"
   },
   {
+    "name": "real-time-operational-metrics-dashboard",
+    "path": "skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard",
+    "domain": "data-analytics",
+    "category": "dashboards",
+    "subcategory": "operational-metrics",
+    "description": "Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.",
+    "tags": [
+      "metrics-register",
+      "kpi-dashboard",
+      "operational-analytics",
+      "sli-slo",
+      "sql",
+      "data-governance"
+    ],
+    "technologies": [
+      "Python",
+      "SQL",
+      "Grafana",
+      "Superset",
+      "Pydantic",
+      "Semantic Layer"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

@@ -65,6 +65,8 @@ AI_Skills_Booster/
 │   └── procurement/
 │   │   └── software-selection/ (1 skills)
 ├── data-analytics/
+│   ├── dashboards/
+│   │   └── operational-metrics/ (1 skills)
 │   ├── data-pipelines/
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
