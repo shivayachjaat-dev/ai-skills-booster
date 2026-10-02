@@ -18262,6 +18262,28 @@
     "maturity": "stable"
   },
   {
+    "name": "firmware-analyst",
+    "path": "skills/security/appsec/firmware_analyst/firmware-analyst",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "firmware_analyst",
+    "description": "Use this skill to design, implement, and operate production workflows for firmware analyst. Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.",
+    "tags": [
+      "security",
+      "appsec",
+      "firmware",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Firmware Analyst",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gcp-audit-logs",
     "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
     "domain": "security",

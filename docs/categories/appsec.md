@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **29 skills** available in this category.
+> **30 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,6 +28,7 @@
 | [evidence-hygiene](../../skills/security/appsec/evidence_hygiene/evidence-hygiene/SKILL.md) | `evidence_hygiene` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for evidence hygiene. Evidence-capture and PoC-redaction discipline for bug-bounty submissions |
 | [find-bugs](../../skills/security/appsec/find_bugs/find-bugs/SKILL.md) | `find_bugs` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for find bugs. Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch. |
 | [firewall-config](../../skills/security/appsec/firewall_config/firewall-config/SKILL.md) | `firewall_config` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for firewall config. Configure iptables, nftables, and cloud firewalls. Implement network |
+| [firmware-analyst](../../skills/security/appsec/firmware_analyst/firmware-analyst/SKILL.md) | `firmware_analyst` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for firmware analyst. Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering. |
 | [gcp-audit-logs](../../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) | `gcp_audit_logs` | `advanced` | `stable` | Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and |
 | [laravel-security-audit](../../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |

@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (806 skills)
+## Bash (807 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1734,6 +1734,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [evidence-hygiene](../skills/security/appsec/evidence_hygiene/evidence-hygiene/SKILL.md) — Use this skill to design, implement, and operate production workflows for evidence hygiene. Evidence-capture and PoC-redaction discipline for bug-bounty submissions
 - [find-bugs](../skills/security/appsec/find_bugs/find-bugs/SKILL.md) — Use this skill to design, implement, and operate production workflows for find bugs. Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.
 - [firewall-config](../skills/security/appsec/firewall_config/firewall-config/SKILL.md) — Use this skill to design, implement, and operate production workflows for firewall config. Configure iptables, nftables, and cloud firewalls. Implement network
+- [firmware-analyst](../skills/security/appsec/firmware_analyst/firmware-analyst/SKILL.md) — Use this skill to design, implement, and operate production workflows for firmware analyst. Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
 - [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
@@ -4378,6 +4379,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [b2b-lead-enrichment-and-prospecting-crawler](../skills/marketing/lead-generation/b2b-enrichment/b2b-lead-enrichment-and-prospecting-crawler/SKILL.md) — Use this skill to design, build, and automate ethical B2B sales lead generation and firmographic enrichment pipelines. It covers company domain parsing, technology stack detection (BuiltWith/Wappalyzer signatures), executive contact discovery, and CRM ingestion.
 
+## Firmware Analyst (1 skills)
+
+- [firmware-analyst](../skills/security/appsec/firmware_analyst/firmware-analyst/SKILL.md) — Use this skill to design, implement, and operate production workflows for firmware analyst. Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
+
 ## Flagger (1 skills)
 
 - [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
@@ -5396,7 +5401,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (909 skills)
+## Python (910 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6146,6 +6151,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [evidence-hygiene](../skills/security/appsec/evidence_hygiene/evidence-hygiene/SKILL.md) — Use this skill to design, implement, and operate production workflows for evidence hygiene. Evidence-capture and PoC-redaction discipline for bug-bounty submissions
 - [find-bugs](../skills/security/appsec/find_bugs/find-bugs/SKILL.md) — Use this skill to design, implement, and operate production workflows for find bugs. Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.
 - [firewall-config](../skills/security/appsec/firewall_config/firewall-config/SKILL.md) — Use this skill to design, implement, and operate production workflows for firewall config. Configure iptables, nftables, and cloud firewalls. Implement network
+- [firmware-analyst](../skills/security/appsec/firmware_analyst/firmware-analyst/SKILL.md) — Use this skill to design, implement, and operate production workflows for firmware analyst. Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
 - [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
