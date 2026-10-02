@@ -34873,6 +34873,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nerdzao-elite",
+    "path": "skills/software-engineering/architecture/patterns/nerdzao-elite",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for nerdzao elite. Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "nerdzao",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nerdzao Elite",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",

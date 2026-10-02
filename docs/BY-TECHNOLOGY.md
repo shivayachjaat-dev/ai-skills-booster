@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1411 skills)
+## Bash (1412 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2464,6 +2464,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [mtls-configuration](../skills/software-engineering/architecture/patterns/mtls-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for mtls configuration. Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [n8n-code-javascript](../skills/software-engineering/architecture/patterns/n8n-code-javascript/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code javascript. Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes.
+- [nerdzao-elite](../skills/software-engineering/architecture/patterns/nerdzao-elite/SKILL.md) — Use this skill to design, implement, and operate production workflows for nerdzao elite. Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation.
 - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
@@ -8049,6 +8050,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [neon-postgres-egress-optimizer](../skills/data-analytics/data-pipelines/neon_postgres_egress/neon-postgres-egress-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres egress optimizer. Diagnose and fix excessive Postgres egress (network data transfer) in a codebase.
 
+## Nerdzao Elite (1 skills)
+
+- [nerdzao-elite](../skills/software-engineering/architecture/patterns/nerdzao-elite/SKILL.md) — Use this skill to design, implement, and operate production workflows for nerdzao elite. Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation.
+
 ## Network Policies (1 skills)
 
 - [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
@@ -8389,7 +8394,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1514 skills)
+## Python (1515 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9874,6 +9879,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [mtls-configuration](../skills/software-engineering/architecture/patterns/mtls-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for mtls configuration. Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [n8n-code-javascript](../skills/software-engineering/architecture/patterns/n8n-code-javascript/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code javascript. Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes.
+- [nerdzao-elite](../skills/software-engineering/architecture/patterns/nerdzao-elite/SKILL.md) — Use this skill to design, implement, and operate production workflows for nerdzao elite. Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation.
 - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.

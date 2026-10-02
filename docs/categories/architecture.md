@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **187 skills** available in this category.
+> **188 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -187,6 +187,7 @@
 | [mtls-configuration](../../skills/software-engineering/architecture/patterns/mtls-configuration/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mtls configuration. Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication. |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [n8n-code-javascript](../../skills/software-engineering/architecture/patterns/n8n-code-javascript/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n code javascript. Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes. |
+| [nerdzao-elite](../../skills/software-engineering/architecture/patterns/nerdzao-elite/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nerdzao elite. Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation. |
 | [patterns](../../skills/software-engineering/architecture/patterns/patterns/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
