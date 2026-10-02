@@ -7616,6 +7616,28 @@
     "maturity": "stable"
   },
   {
+    "name": "five-axis-code-review",
+    "path": "skills/ai-engineering/rag/five_axis_code_revie/five-axis-code-review",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "five_axis_code_revie",
+    "description": "Use this skill to design, implement, and operate production workflows for five axis code review. Five-axis code review checklist (correctness, security, readability, performance, test coverage) producing actionable comments instead of style nitpicks. Use when the user asks to review code, a diff, or a pull request.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "five",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Five Axis Code Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
