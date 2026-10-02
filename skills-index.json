@@ -5603,6 +5603,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-messaging-webpubsubservice-py",
+    "path": "skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "azure_messaging_webp",
+    "description": "Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Messaging Webpubsubservice Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",

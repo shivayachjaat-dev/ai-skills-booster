@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **315** skills across structured domains, categories, and subcategories.
+Master navigation for **316** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (103 skills)
 
@@ -778,7 +778,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (26 skills)
+## Frontend (27 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -868,13 +868,14 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Azure_Functions_Devs** (1):
   - [azure-functions-devsec](../skills/frontend/ui-ux/azure_functions_devs/azure-functions-devsec/SKILL.md) — Use this skill to build serverless applications on Azure Functions. Configure triggers,
 
-### Web Architecture (2 skills)
+### Web Architecture (3 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **Antigravity_Design_E** (1):
   - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
-- **Azure_Messaging_Webp** (1):
+- **Azure_Messaging_Webp** (2):
   - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
+  - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
 
 ## Marketing (8 skills)
 
