@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **4** skills across structured domains, categories, and subcategories.
+Master navigation for **5** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (2 skills)
 
@@ -15,6 +15,14 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
+
+## Mcp (1 skills)
+
+### Server Development (1 skills)
+Category index: [`docs/categories/server-development.md`](categories/server-development.md)
+
+- **Scaffolding** (1):
+  - [mcp-server-scaffold](../skills/mcp/server-development/scaffolding/mcp-server-scaffold/SKILL.md) — Use this skill when scaffolding, implementing, and validating a Model Context Protocol (MCP) server from scratch using TypeScript or Python. It guides the agent through configuring tool schemas, resource providers, prompt templates, stdio/SSE transports, error boundaries, and integration tests.
 
 ## Meta (1 skills)
 

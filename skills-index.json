@@ -47,6 +47,30 @@
     "maturity": "stable"
   },
   {
+    "name": "mcp-server-scaffold",
+    "path": "skills/mcp/server-development/scaffolding/mcp-server-scaffold",
+    "domain": "mcp",
+    "category": "server-development",
+    "subcategory": "scaffolding",
+    "description": "Use this skill when scaffolding, implementing, and validating a Model Context Protocol (MCP) server from scratch using TypeScript or Python. It guides the agent through configuring tool schemas, resource providers, prompt templates, stdio/SSE transports, error boundaries, and integration tests.",
+    "tags": [
+      "mcp",
+      "model-context-protocol",
+      "agent-tools",
+      "typescript",
+      "python",
+      "api-integration"
+    ],
+    "technologies": [
+      "Model Context Protocol",
+      "TypeScript",
+      "Node.js",
+      "Python"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-creator",
     "path": "skills/meta/ecosystem/creation/skill-creator",
     "domain": "meta",
