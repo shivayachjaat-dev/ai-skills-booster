@@ -28031,6 +28031,28 @@
     "maturity": "stable"
   },
   {
+    "name": "identity-mirror",
+    "path": "skills/software-engineering/architecture/patterns/identity-mirror",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for identity mirror. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "identity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Identity Mirror",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
