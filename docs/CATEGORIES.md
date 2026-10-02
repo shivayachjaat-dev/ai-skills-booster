@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **408** skills across structured domains, categories, and subcategories.
+Master navigation for **409** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (134 skills)
+## Ai Engineering (135 skills)
 
 ### Agents (17 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -116,7 +116,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (80 skills)
+### Models (81 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -268,6 +268,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [blockchain-developer](../skills/ai-engineering/models/blockchain_developer/blockchain-developer/SKILL.md) — Use this skill to build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.
 - **Blueprint** (1):
   - [blueprint](../skills/ai-engineering/models/blueprint/blueprint/SKILL.md) — Use this skill to turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh agent in a new session can pick up any step without reading prior steps.
+- **Boost_Asio_Pro** (1):
+  - [boost-asio-pro](../skills/ai-engineering/models/boost_asio_pro/boost-asio-pro/SKILL.md) — Use this skill to use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, composed async ops. Covers io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, and pre-C++20 callback style
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -2569,6 +2569,28 @@
     "maturity": "stable"
   },
   {
+    "name": "boost-asio-pro",
+    "path": "skills/ai-engineering/models/boost_asio_pro/boost-asio-pro",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "boost_asio_pro",
+    "description": "Use this skill to use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio \u2014 TCP/UDP servers and clients, SSL/TLS, timers, strands, composed async ops. Covers io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, and pre-C++20 callback style",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "boost",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Boost Asio Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
