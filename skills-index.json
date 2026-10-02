@@ -25953,6 +25953,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-inventory-optimizer",
+    "path": "skills/frontend/ui-ux/odoo_inventory_optim/odoo-inventory-optimizer",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_inventory_optim",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo inventory optimizer. Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Inventory Optimizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
