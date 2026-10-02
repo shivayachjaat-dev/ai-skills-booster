@@ -33795,6 +33795,28 @@
     "maturity": "stable"
   },
   {
+    "name": "patterns",
+    "path": "skills/software-engineering/architecture/patterns/patterns",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "patterns",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "pc-games",
     "path": "skills/software-engineering/architecture/patterns/pc-games",
     "domain": "software-engineering",

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,540 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,541 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1513,6 +1513,7 @@
 | [mental-health-analyzer](skills/software-engineering/architecture/patterns/mental-health-analyzer/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mental health analyzer. 分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。 |
 | [micro-saas-launcher](skills/software-engineering/architecture/patterns/micro-saas-launcher/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for micro saas launcher. Expert in launching small, focused SaaS products fast - the indie |
 | [multiplayer](skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
+| [patterns](skills/software-engineering/architecture/patterns/patterns/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns. |
 | [pc-games](skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
 | [github-pr-review-feedback-resolver](skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) | `software-engineering` | `code-review` | `pr-feedback` | `intermediate` | `stable` | Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads. |
 | [debugging-and-error-recovery](skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) | `software-engineering` | `debugging` | `recovery` | `advanced` | `stable` | Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation. |
