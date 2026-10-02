@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **230** skills across structured domains, categories, and subcategories.
+Master navigation for **231** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (61 skills)
+## Ai Engineering (62 skills)
 
 ### Agents (15 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -102,7 +102,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (24 skills)
+### Models (25 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -151,6 +151,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [aws-cloudtrail](../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) — Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails
 - **Aws_Cost_Operations** (1):
   - [aws-cost-operations](../skills/ai-engineering/models/aws_cost_operations/aws-cost-operations/SKILL.md) — Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture.
+- **Aws_Ecs_Fargate** (1):
+  - [aws-ecs-fargate](../skills/ai-engineering/models/aws_ecs_fargate/aws-ecs-fargate/SKILL.md) — Use this skill to deploy containers on ECS and Fargate. Configure task definitions, services,
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -27,4 +27,5 @@
 | [aws-agentic-ai](../../skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) | `aws_agentic_ai` | `advanced` | `stable` | Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations. |
 | [aws-cloudtrail](../../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) | `aws_cloudtrail` | `advanced` | `stable` | Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails |
 | [aws-cost-operations](../../skills/ai-engineering/models/aws_cost_operations/aws-cost-operations/SKILL.md) | `aws_cost_operations` | `advanced` | `stable` | Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture. |
+| [aws-ecs-fargate](../../skills/ai-engineering/models/aws_ecs_fargate/aws-ecs-fargate/SKILL.md) | `aws_ecs_fargate` | `advanced` | `stable` | Use this skill to deploy containers on ECS and Fargate. Configure task definitions, services, |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
