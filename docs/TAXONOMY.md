@@ -149,8 +149,10 @@ AI_Skills_Booster/
 │   │   ├── grafana-loki/ (1 skills)
 │   │   ├── opentelemetry/ (1 skills)
 │   │   └── opentelemetry-collector/ (1 skills)
-│   └── service-mesh/
+│   ├── service-mesh/
 │   │   └── istio/ (1 skills)
+│   └── sre/
+│   │   └── incident-remediation/ (1 skills)
 ├── frontend/
 │   ├── 3d-graphics/
 │   │   └── threejs/ (1 skills)

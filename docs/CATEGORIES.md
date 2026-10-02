@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **138** skills across structured domains, categories, and subcategories.
+Master navigation for **139** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -332,7 +332,7 @@ Category index: [`docs/categories/repository-specs.md`](categories/repository-sp
 - **Agents Md** (1):
   - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 
-## Devops (17 skills)
+## Devops (18 skills)
 
 ### Ci Cd (1 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -418,6 +418,12 @@ Category index: [`docs/categories/service-mesh.md`](categories/service-mesh.md)
 
 - **Istio** (1):
   - [istio-service-mesh-traffic-routing](../skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing/SKILL.md) — Use this skill when implementing advanced traffic management, security policies, and canary deployments using the Istio Service Mesh. It guides the agent through VirtualService routing rules, DestinationRule subset definitions, mutual TLS (mTLS) PeerAuthentication enforcement, fault injection, and Envoy sidecar proxy tuning.
+
+### Sre (1 skills)
+Category index: [`docs/categories/sre.md`](categories/sre.md)
+
+- **Incident Remediation** (1):
+  - [ai-sre-autonomous-incident-triage-and-remediation](../skills/devops/sre/incident-remediation/ai-sre-autonomous-incident-triage-and-remediation/SKILL.md) — Use this skill to design and deploy autonomous AI-driven Site Reliability Engineering (SRE) incident response and triage workflows. It covers alerting webhook ingestion (PagerDuty, Datadog), automated log/trace correlation, blast-radius assessment, safe auto-remediation playbooks, and blameless post-mortem drafting.
 
 ## Frontend (5 skills)
 

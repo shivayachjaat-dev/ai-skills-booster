@@ -2094,6 +2094,32 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-sre-autonomous-incident-triage-and-remediation",
+    "path": "skills/devops/sre/incident-remediation/ai-sre-autonomous-incident-triage-and-remediation",
+    "domain": "devops",
+    "category": "sre",
+    "subcategory": "incident-remediation",
+    "description": "Use this skill to design and deploy autonomous AI-driven Site Reliability Engineering (SRE) incident response and triage workflows. It covers alerting webhook ingestion (PagerDuty, Datadog), automated log/trace correlation, blast-radius assessment, safe auto-remediation playbooks, and blameless post-mortem drafting.",
+    "tags": [
+      "sre",
+      "incident-response",
+      "auto-remediation",
+      "pagerduty",
+      "datadog",
+      "observability",
+      "devops"
+    ],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Prometheus",
+      "Kubernetes",
+      "PagerDuty API"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "threejs-3d-web-experience",
     "path": "skills/frontend/3d-graphics/threejs/threejs-3d-web-experience",
     "domain": "frontend",
