@@ -12715,6 +12715,28 @@
     "maturity": "stable"
   },
   {
+    "name": "git-workflow",
+    "path": "skills/devops/ci-cd/git_workflow/git-workflow",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "git_workflow",
+    "description": "Use this skill to design, implement, and operate production workflows for git workflow. Implement Git branching strategies, PR workflows, and release management",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "git",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Git Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",

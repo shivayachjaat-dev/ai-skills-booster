@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **28 skills** available in this category.
+> **29 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -31,4 +31,5 @@
 | [gcp-compute](../../skills/devops/ci-cd/gcp_compute/gcp-compute/SKILL.md) | `gcp_compute` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp compute. Manage Compute Engine instances and instance templates. Configure managed |
 | [gcp-gke](../../skills/devops/ci-cd/gcp_gke/gcp-gke/SKILL.md) | `gcp_gke` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp gke. Deploy and manage Google Kubernetes Engine clusters. Configure node pools, |
 | [gcp-networking](../../skills/devops/ci-cd/gcp_networking/gcp-networking/SKILL.md) | `gcp_networking` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp networking. Configure VPCs, firewall rules, and Cloud NAT. Implement shared VPC and |
+| [git-workflow](../../skills/devops/ci-cd/git_workflow/git-workflow/SKILL.md) | `git_workflow` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for git workflow. Implement Git branching strategies, PR workflows, and release management |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |

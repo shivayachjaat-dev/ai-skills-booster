@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,093** skills across structured domains, categories, and subcategories.
+Master navigation for **1,094** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (380 skills)
 
@@ -1363,9 +1363,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (85 skills)
+## Devops (86 skills)
 
-### Ci Cd (28 skills)
+### Ci Cd (29 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -1422,6 +1422,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [gcp-gke](../skills/devops/ci-cd/gcp_gke/gcp-gke/SKILL.md) — Use this skill to design, implement, and operate production workflows for gcp gke. Deploy and manage Google Kubernetes Engine clusters. Configure node pools,
 - **Gcp_Networking** (1):
   - [gcp-networking](../skills/devops/ci-cd/gcp_networking/gcp-networking/SKILL.md) — Use this skill to design, implement, and operate production workflows for gcp networking. Configure VPCs, firewall rules, and Cloud NAT. Implement shared VPC and
+- **Git_Workflow** (1):
+  - [git-workflow](../skills/devops/ci-cd/git_workflow/git-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for git workflow. Implement Git branching strategies, PR workflows, and release management
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
