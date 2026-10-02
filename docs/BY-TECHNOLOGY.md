@@ -14,9 +14,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [context-window-engineering](../skills/ai-engineering/context/optimization/context-window-engineering/SKILL.md) — Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs.
 
-## Apache Arrow (1 skills)
+## Apache Arrow (2 skills)
 
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
+- [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
 
 ## Apache Kafka (1 skills)
 
@@ -57,6 +58,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Docker Compose (1 skills)
 
 - [docker-container-optimization](../skills/devops/containers/optimization/docker-container-optimization/SKILL.md) — Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.
+
+## DuckDB (1 skills)
+
+- [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
 
 ## Embeddings (1 skills)
 
@@ -229,9 +234,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [terraform-infrastructure-as-code](../skills/devops/iac/terraform/terraform-infrastructure-as-code/SKILL.md) — Use this skill when writing, refactoring, and maintaining Infrastructure as Code (IaC) using Terraform / OpenTofu. It guides the agent through remote state management with S3/DynamoDB locking, modular component design, variable validation rules, drift detection, resource tagging standards, and blast radius containment.
 
-## Parquet (1 skills)
+## Parquet (2 skills)
 
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
+- [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
 
 ## Playwright (2 skills)
 
@@ -263,7 +269,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (19 skills)
+## Python (20 skills)
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
@@ -276,6 +282,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
+- [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
 - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 - [mcp-server-scaffold](../skills/mcp/server-development/scaffolding/mcp-server-scaffold/SKILL.md) — Use this skill when scaffolding, implementing, and validating a Model Context Protocol (MCP) server from scratch using TypeScript or Python. It guides the agent through configuring tool schemas, resource providers, prompt templates, stdio/SSE transports, error boundaries, and integration tests.
 - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
@@ -317,9 +324,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
 
-## SQL (4 skills)
+## SQL (5 skills)
 
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
+- [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
 - [database-migration-safety](../skills/databases/migrations/zero-downtime/database-migration-safety/SKILL.md) — Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.
 - [postgres-query-performance-analysis](../skills/databases/postgresql/performance/postgres-query-performance-analysis/SKILL.md) — Use this skill when diagnosing, analyzing, and optimizing slow PostgreSQL queries. It guides the agent through running and interpreting EXPLAIN (ANALYZE, BUFFERS), identifying sequential table scans, resolving missing indexes, fixing high buffer reads, eliminating N+1 query patterns, and tuning query planner configurations.
 - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.

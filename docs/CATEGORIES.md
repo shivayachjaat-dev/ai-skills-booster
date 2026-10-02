@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **34** skills across structured domains, categories, and subcategories.
+Master navigation for **35** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -76,7 +76,13 @@ Category index: [`docs/categories/experimentation.md`](categories/experimentatio
 - **Ab Testing** (1):
   - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 
-## Databases (3 skills)
+## Databases (4 skills)
+
+### Duckdb (1 skills)
+Category index: [`docs/categories/duckdb.md`](categories/duckdb.md)
+
+- **Analytics** (1):
+  - [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
 
 ### Migrations (1 skills)
 Category index: [`docs/categories/migrations.md`](categories/migrations.md)

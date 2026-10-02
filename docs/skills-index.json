@@ -296,6 +296,32 @@
     "maturity": "stable"
   },
   {
+    "name": "duckdb-embedded-analytics",
+    "path": "skills/databases/duckdb/analytics/duckdb-embedded-analytics",
+    "domain": "databases",
+    "category": "duckdb",
+    "subcategory": "analytics",
+    "description": "Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.",
+    "tags": [
+      "duckdb",
+      "databases",
+      "analytics",
+      "olap",
+      "sql",
+      "parquet",
+      "python"
+    ],
+    "technologies": [
+      "DuckDB",
+      "Python",
+      "SQL",
+      "Parquet",
+      "Apache Arrow"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "database-migration-safety",
     "path": "skills/databases/migrations/zero-downtime/database-migration-safety",
     "domain": "databases",

@@ -29,6 +29,8 @@ AI_Skills_Booster/
 │   └── experimentation/
 │   │   └── ab-testing/ (1 skills)
 ├── databases/
+│   ├── duckdb/
+│   │   └── analytics/ (1 skills)
 │   ├── migrations/
 │   │   └── zero-downtime/ (1 skills)
 │   ├── postgresql/
