@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,118** skills across structured domains, categories, and subcategories.
+Master navigation for **1,119** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (386 skills)
 
@@ -1625,7 +1625,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (220 skills)
+## Frontend (221 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1755,7 +1755,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Full_Output_Enforcem** (1):
   - [full-output-enforcement](../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) — Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
 
-### Ui Ux (115 skills)
+### Ui Ux (116 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1980,6 +1980,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [go-concurrency-patterns](../skills/frontend/ui-ux/go_concurrency_patte/go-concurrency-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for go concurrency patterns. Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions.
 - **Godot_4_Migration** (1):
   - [godot-4-migration](../skills/frontend/ui-ux/godot_4_migration/godot-4-migration/SKILL.md) — Use this skill to design, implement, and operate production workflows for godot 4 migration. Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports.
+- **Godot_Gdscript_Patte** (1):
+  - [godot-gdscript-patterns](../skills/frontend/ui-ux/godot_gdscript_patte/godot-gdscript-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for godot gdscript patterns. Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

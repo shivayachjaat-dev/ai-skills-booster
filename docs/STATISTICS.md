@@ -1,18 +1,18 @@
 # Repository Statistics
 
-- **Total Active Skills**: 1,118
+- **Total Active Skills**: 1,119
 - **Total Domains**: 21
 - **Total Categories**: 153
-- **Skills with Automation Scripts**: 944
+- **Skills with Automation Scripts**: 945
 - **Skills with Formal Evaluations**: 1
-- **Skills with Reference Docs**: 943
+- **Skills with Reference Docs**: 944
 
 ## Distribution by Domain
 
 | Domain | Skill Count | Percentage |
 |---|---|---|
 | `ai-engineering` | 386 | 34.5% |
-| `frontend` | 220 | 19.7% |
+| `frontend` | 221 | 19.7% |
 | `software-engineering` | 132 | 11.8% |
 | `security` | 93 | 8.3% |
 | `devops` | 86 | 7.7% |
@@ -37,7 +37,7 @@
 
 | Complexity | Count | Percentage |
 |---|---|---|
-| `advanced` | 1053 | 94.2% |
+| `advanced` | 1054 | 94.2% |
 | `intermediate` | 51 | 4.6% |
 | `expert` | 14 | 1.3% |
 
@@ -45,4 +45,4 @@
 
 | Maturity | Count | Percentage |
 |---|---|---|
-| `stable` | 1118 | 100.0% |
+| `stable` | 1119 | 100.0% |

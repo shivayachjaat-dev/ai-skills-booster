@@ -17769,6 +17769,28 @@
     "maturity": "stable"
   },
   {
+    "name": "godot-gdscript-patterns",
+    "path": "skills/frontend/ui-ux/godot_gdscript_patte/godot-gdscript-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "godot_gdscript_patte",
+    "description": "Use this skill to design, implement, and operate production workflows for godot gdscript patterns. Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "godot",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Godot Gdscript Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
