@@ -700,6 +700,31 @@
     "maturity": "stable"
   },
   {
+    "name": "meilisearch-full-text-search-integration",
+    "path": "skills/databases/search/meilisearch/meilisearch-full-text-search-integration",
+    "domain": "databases",
+    "category": "search",
+    "subcategory": "meilisearch",
+    "description": "Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.",
+    "tags": [
+      "meilisearch",
+      "search",
+      "full-text-search",
+      "typo-tolerance",
+      "fast-search",
+      "faceted-search"
+    ],
+    "technologies": [
+      "Meilisearch",
+      "Python meilisearch",
+      "TypeScript",
+      "InstantSearch.js",
+      "Docker"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",

@@ -58,8 +58,10 @@ AI_Skills_Booster/
 │   │   └── prisma/ (1 skills)
 │   ├── postgresql/
 │   │   └── performance/ (1 skills)
-│   └── redis/
+│   ├── redis/
 │   │   └── caching/ (1 skills)
+│   └── search/
+│   │   └── meilisearch/ (1 skills)
 ├── devops/
 │   ├── ci-cd/
 │   │   └── optimization/ (1 skills)
