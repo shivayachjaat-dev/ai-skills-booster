@@ -3500,6 +3500,28 @@
     "maturity": "stable"
   },
   {
+    "name": "case-review",
+    "path": "skills/ai-engineering/rag/case_review/case-review",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "case_review",
+    "description": "Use this skill to quality-gate review of a reverse-engineering or assessment case package: scope readiness, Evidence-to-Finding-to-Path traceability, work-item coverage, timeline consistency, and artifact hashes.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "case",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Case Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",

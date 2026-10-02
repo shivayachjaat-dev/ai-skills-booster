@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (286 skills)
+## Bash (287 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1179,6 +1179,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-storage-queue-rust](../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-rust/SKILL.md) — Use this skill to azure Queue Storage library for Rust. Send, receive, and manage queue messages. Triggers: "queue storage rust", "QueueClient rust", "send message rust", "receive messages rust", "QueueServiceClient rust", "queue rust".
 - [azure-storage-queue-ts](../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-ts/SKILL.md) — Use this skill to azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.
 - [block-storage](../skills/ai-engineering/rag/block_storage/block-storage/SKILL.md) — Use this skill to manage block storage volumes and LVM. Configure cloud block storage and
+- [case-review](../skills/ai-engineering/rag/case_review/case-review/SKILL.md) — Use this skill to quality-gate review of a reverse-engineering or assessment case package: scope readiness, Evidence-to-Finding-to-Path traceability, work-item coverage, timeline consistency, and artifact hashes.
 - [backend-architect](../skills/backend/api-design/backend_architect/backend-architect/SKILL.md) — Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
 - [backend-security-coder](../skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) — Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
 - [atlas-cloud-media](../skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) — Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling.
@@ -1767,6 +1768,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Casbin (1 skills)
 
 - [rbac-access-matrix-policy-design](../skills/security/authorization/rbac/rbac-access-matrix-policy-design/SKILL.md) — Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware.
+
+## Case Review (1 skills)
+
+- [case-review](../skills/ai-engineering/rag/case_review/case-review/SKILL.md) — Use this skill to quality-gate review of a reverse-engineering or assessment case package: scope readiness, Evidence-to-Finding-to-Path traceability, work-item coverage, timeline consistency, and artifact hashes.
 
 ## Celery 5+ (1 skills)
 
@@ -2927,7 +2932,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (389 skills)
+## Python (390 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3079,6 +3084,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-storage-queue-rust](../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-rust/SKILL.md) — Use this skill to azure Queue Storage library for Rust. Send, receive, and manage queue messages. Triggers: "queue storage rust", "QueueClient rust", "send message rust", "receive messages rust", "QueueServiceClient rust", "queue rust".
 - [azure-storage-queue-ts](../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-ts/SKILL.md) — Use this skill to azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.
 - [block-storage](../skills/ai-engineering/rag/block_storage/block-storage/SKILL.md) — Use this skill to manage block storage volumes and LVM. Configure cloud block storage and
+- [case-review](../skills/ai-engineering/rag/case_review/case-review/SKILL.md) — Use this skill to quality-gate review of a reverse-engineering or assessment case package: scope readiness, Evidence-to-Finding-to-Path traceability, work-item coverage, timeline consistency, and artifact hashes.
 - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
