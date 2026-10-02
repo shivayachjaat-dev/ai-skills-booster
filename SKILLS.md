@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 587 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 588 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -438,6 +438,7 @@
 | [code-showcase-core-components](skills/frontend/ui-ux/code_showcase_core_c/code-showcase-core-components/SKILL.md) | `frontend` | `ui-ux` | `code_showcase_core_c` | `advanced` | `stable` | Use this skill to core component library and design system patterns. Use when building UI, using design tokens, or working with the component library. |
 | [community-building](skills/frontend/ui-ux/community_building/community-building/SKILL.md) | `frontend` | `ui-ux` | `community_building` | `advanced` | `stable` | Use this skill to when the user wants to build, grow, or improve a developer community on Discord, Slack, or forums. |
 | [competitor-alternatives](skills/frontend/ui-ux/competitor_alternati/competitor-alternatives/SKILL.md) | `frontend` | `ui-ux` | `competitor_alternati` | `advanced` | `stable` | Use this skill to you are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively. |
+| [connection-auth-rules](skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules/SKILL.md) | `frontend` | `ui-ux` | `connection_auth_rule` | `advanced` | `stable` | Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |

@@ -9959,6 +9959,28 @@
     "maturity": "stable"
   },
   {
+    "name": "connection-auth-rules",
+    "path": "skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "connection_auth_rule",
+    "description": "Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "connection",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Connection Auth Rules",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
