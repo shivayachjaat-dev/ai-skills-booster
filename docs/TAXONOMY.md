@@ -5,6 +5,7 @@ AI_Skills_Booster/
 ├── ai-engineering/
 │   ├── agents/
 │   │   ├── autogen/ (1 skills)
+│   │   ├── azure-foundry/ (1 skills)
 │   │   ├── benchmarking/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── memory/ (1 skills)

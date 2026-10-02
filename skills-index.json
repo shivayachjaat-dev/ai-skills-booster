@@ -26,6 +26,31 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-foundry-persistent-agents",
+    "path": "skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "azure-foundry",
+    "description": "Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.",
+    "tags": [
+      "azure-ai",
+      "azure-ai-foundry",
+      "ai-agents",
+      "python-sdk",
+      "managed-identity",
+      "rag"
+    ],
+    "technologies": [
+      "Azure AI Agent SDK",
+      "Python",
+      "Azure OpenAI",
+      "Azure Identity",
+      "Vector Store"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-benchmark-evaluation",
     "path": "skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation",
     "domain": "ai-engineering",
