@@ -70,6 +70,31 @@
     "maturity": "stable"
   },
   {
+    "name": "api-rate-limiting-and-throttling",
+    "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "rate-limiting",
+    "description": "Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.",
+    "tags": [
+      "backend",
+      "api-security",
+      "rate-limiting",
+      "redis",
+      "throttling",
+      "scalability"
+    ],
+    "technologies": [
+      "Redis",
+      "Node.js",
+      "Python",
+      "Lua",
+      "FastAPI"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

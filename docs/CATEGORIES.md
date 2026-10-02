@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **19** skills across structured domains, categories, and subcategories.
+Master navigation for **20** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (3 skills)
 
@@ -21,6 +21,14 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
+
+## Backend (1 skills)
+
+### Api Design (1 skills)
+Category index: [`docs/categories/api-design.md`](categories/api-design.md)
+
+- **Rate Limiting** (1):
+  - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
 ## Data Analytics (2 skills)
 
