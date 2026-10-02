@@ -5659,6 +5659,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-communication-common-java",
+    "path": "skills/security/authentication/azure_communication_/azure-communication-common-java",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "azure_communication_",
+    "description": "Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.",
+    "tags": [
+      "security",
+      "authentication",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Communication Common Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",

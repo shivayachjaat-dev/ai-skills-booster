@@ -366,6 +366,7 @@ AI_Skills_Booster/
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/
+│   │   ├── azure_communication_/ (1 skills)
 │   │   └── oauth2/ (1 skills)
 │   ├── authorization/
 │   │   └── rbac/ (1 skills)
