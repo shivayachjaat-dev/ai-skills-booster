@@ -1116,6 +1116,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_fintech_graphql/ (1 skills)
 │   │   ├── hunt_forgot_password/ (1 skills)
 │   │   ├── hunt_graphql/ (1 skills)
+│   │   ├── hunt_grpc/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)
