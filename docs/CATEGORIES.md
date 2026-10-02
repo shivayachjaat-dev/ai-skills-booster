@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **619** skills across structured domains, categories, and subcategories.
+Master navigation for **620** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (220 skills)
+## Ai Engineering (221 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (149 skills)
+### Models (150 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -434,6 +434,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [context-optimization](../skills/ai-engineering/models/context_optimization/context-optimization/SKILL.md) — Use this skill to context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity.
 - **Copywriting** (1):
   - [copywriting](../skills/ai-engineering/models/copywriting/copywriting/SKILL.md) — Use this skill to write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules.
+- **Course_Upskilling_Re** (1):
+  - [course-upskilling-requests](../skills/ai-engineering/models/course_upskilling_re/course-upskilling-requests/SKILL.md) — Use this skill to training request register: course, provider, cost, duration, budget line, the three approval steps, service bond and completion evidence. Use for upskilling approvals.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

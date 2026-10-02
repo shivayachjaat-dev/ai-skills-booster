@@ -4395,6 +4395,28 @@
     "maturity": "stable"
   },
   {
+    "name": "course-upskilling-requests",
+    "path": "skills/ai-engineering/models/course_upskilling_re/course-upskilling-requests",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "course_upskilling_re",
+    "description": "Use this skill to training request register: course, provider, cost, duration, budget line, the three approval steps, service bond and completion evidence. Use for upskilling approvals.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "course",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Course Upskilling Requests",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
