@@ -23027,6 +23027,28 @@
     "maturity": "stable"
   },
   {
+    "name": "makepad-skills",
+    "path": "skills/frontend/ui-ux/makepad_skills/makepad-skills",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "makepad_skills",
+    "description": "Use this skill to design, implement, and operate production workflows for makepad skills. Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "makepad",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Makepad Skills",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

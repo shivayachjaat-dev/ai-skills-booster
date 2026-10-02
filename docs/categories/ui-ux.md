@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **166 skills** available in this category.
+> **167 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -166,6 +166,7 @@
 | [makepad-2-0-events](../../skills/frontend/ui-ux/makepad_2_0_events/makepad-2-0-events/SKILL.md) | `makepad_2_0_events` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad 2 0 events. Makepad 2.0 guidance for events; use when building or debugging Makepad UI code. |
 | [makepad-2-0-layout](../../skills/frontend/ui-ux/makepad_2_0_layout/makepad-2-0-layout/SKILL.md) | `makepad_2_0_layout` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad 2 0 layout. Makepad 2.0 guidance for layout; use when building or debugging Makepad UI code. |
 | [makepad-2-0-widgets](../../skills/frontend/ui-ux/makepad_2_0_widgets/makepad-2-0-widgets/SKILL.md) | `makepad_2_0_widgets` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad 2 0 widgets. Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code. |
+| [makepad-skills](../../skills/frontend/ui-ux/makepad_skills/makepad-skills/SKILL.md) | `makepad_skills` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad skills. Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

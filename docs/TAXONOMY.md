@@ -1118,6 +1118,7 @@ AI_Skills_Booster/
 │   │   ├── makepad_2_0_events/ (1 skills)
 │   │   ├── makepad_2_0_layout/ (1 skills)
 │   │   ├── makepad_2_0_widgets/ (1 skills)
+│   │   ├── makepad_skills/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)

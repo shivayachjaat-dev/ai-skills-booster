@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,469** skills across structured domains, categories, and subcategories.
+Master navigation for **1,470** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (514 skills)
 
@@ -1993,7 +1993,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (282 skills)
+## Frontend (283 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2133,7 +2133,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Javascript_Typescrip** (1):
   - [javascript-typescript-typescript-scaffold](../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N
 
-### Ui Ux (166 skills)
+### Ui Ux (167 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2460,6 +2460,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [makepad-2-0-layout](../skills/frontend/ui-ux/makepad_2_0_layout/makepad-2-0-layout/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad 2 0 layout. Makepad 2.0 guidance for layout; use when building or debugging Makepad UI code.
 - **Makepad_2_0_Widgets** (1):
   - [makepad-2-0-widgets](../skills/frontend/ui-ux/makepad_2_0_widgets/makepad-2-0-widgets/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad 2 0 widgets. Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code.
+- **Makepad_Skills** (1):
+  - [makepad-skills](../skills/frontend/ui-ux/makepad_skills/makepad-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad skills. Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):
