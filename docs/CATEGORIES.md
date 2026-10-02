@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **755** skills across structured domains, categories, and subcategories.
+Master navigation for **756** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (265 skills)
+## Ai Engineering (266 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -156,7 +156,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (186 skills)
+### Models (187 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -508,6 +508,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [dei-dashboard](../skills/ai-engineering/models/dei_dashboard/dei-dashboard/SKILL.md) — Use this skill to diversity, equity and inclusion dashboard: metric by department and period, value against target, group size and minimum-threshold flag. Use for DEI reporting.
 - **Dependency_Managemen** (1):
   - [dependency-management-deps-audit](../skills/ai-engineering/models/dependency_managemen/dependency-management-deps-audit/SKILL.md) — Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+- **Deprecation_And_Migr** (1):
+  - [deprecation-and-migration](../skills/ai-engineering/models/deprecation_and_migr/deprecation-and-migration/SKILL.md) — Use this skill to design, implement, and operate production workflows for deprecation and migration. Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):

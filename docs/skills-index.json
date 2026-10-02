@@ -5209,6 +5209,28 @@
     "maturity": "stable"
   },
   {
+    "name": "deprecation-and-migration",
+    "path": "skills/ai-engineering/models/deprecation_and_migr/deprecation-and-migration",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "deprecation_and_migr",
+    "description": "Use this skill to design, implement, and operate production workflows for deprecation and migration. Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "deprecation",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Deprecation And Migration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",

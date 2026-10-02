@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **186 skills** available in this category.
+> **187 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -183,6 +183,7 @@
 | [deepapi](../../skills/ai-engineering/models/deepapi/deepapi/SKILL.md) | `deepapi` | `advanced` | `stable` | Use this skill to use DeepAPI for supported scraping, research, and email workflows with explicit credentials and approval. |
 | [dei-dashboard](../../skills/ai-engineering/models/dei_dashboard/dei-dashboard/SKILL.md) | `dei_dashboard` | `advanced` | `stable` | Use this skill to diversity, equity and inclusion dashboard: metric by department and period, value against target, group size and minimum-threshold flag. Use for DEI reporting. |
 | [dependency-management-deps-audit](../../skills/ai-engineering/models/dependency_managemen/dependency-management-deps-audit/SKILL.md) | `dependency_managemen` | `advanced` | `stable` | Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies. |
+| [deprecation-and-migration](../../skills/ai-engineering/models/deprecation_and_migr/deprecation-and-migration/SKILL.md) | `deprecation_and_migr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deprecation and migration. Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
