@@ -699,6 +699,7 @@ AI_Skills_Booster/
 │   │   ├── swiss_design/ (1 skills)
 │   │   ├── synthwave/ (1 skills)
 │   │   ├── tile_design/ (1 skills)
+│   │   ├── vaporwave/ (1 skills)
 │   │   └── web3_audit/ (1 skills)
 ├── marketing/
 │   ├── aso/

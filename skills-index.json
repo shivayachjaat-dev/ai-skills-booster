@@ -13809,6 +13809,28 @@
     "maturity": "stable"
   },
   {
+    "name": "vaporwave",
+    "path": "skills/frontend/web-architecture/vaporwave/vaporwave",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "vaporwave",
+    "description": "Use this skill to design, implement, and operate production workflows for vaporwave. Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "vaporwave",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Vaporwave",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "web3-audit",
     "path": "skills/frontend/web-architecture/web3_audit/web3-audit",
     "domain": "frontend",
