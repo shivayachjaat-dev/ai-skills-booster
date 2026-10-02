@@ -170,6 +170,32 @@
     "maturity": "stable"
   },
   {
+    "name": "vllm-high-throughput-inference-serving",
+    "path": "skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving",
+    "domain": "ai-engineering",
+    "category": "inference-optimization",
+    "subcategory": "vllm",
+    "description": "Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.",
+    "tags": [
+      "vllm",
+      "llm-serving",
+      "inference",
+      "paged-attention",
+      "gpu",
+      "ai-infrastructure"
+    ],
+    "technologies": [
+      "vLLM",
+      "PyTorch",
+      "CUDA",
+      "TensorRT",
+      "FastAPI",
+      "Ray"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",

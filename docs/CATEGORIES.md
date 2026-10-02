@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **65** skills across structured domains, categories, and subcategories.
+Master navigation for **66** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (9 skills)
+## Ai Engineering (10 skills)
 
 ### Agents (3 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -37,6 +37,12 @@ Category index: [`docs/categories/guardrails.md`](categories/guardrails.md)
 
 - **Input Output Moderation** (1):
   - [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
+
+### Inference Optimization (1 skills)
+Category index: [`docs/categories/inference-optimization.md`](categories/inference-optimization.md)
+
+- **Vllm** (1):
+  - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
 ### Rag (1 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
