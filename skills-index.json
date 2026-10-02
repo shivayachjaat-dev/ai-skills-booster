@@ -850,6 +850,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ansible-idempotent-configuration-management",
+    "path": "skills/devops/infrastructure-as-code/ansible/ansible-idempotent-configuration-management",
+    "domain": "devops",
+    "category": "infrastructure-as-code",
+    "subcategory": "ansible",
+    "description": "Use this skill when designing, authoring, and executing automated server configuration management playbooks and roles using Ansible. It guides the agent through enforcing strict task idempotency, structuring reusable Ansible roles, managing encrypted secrets with Ansible Vault, organizing inventory variables, and testing with Molecule.",
+    "tags": [
+      "ansible",
+      "configuration-management",
+      "devops",
+      "automation",
+      "infrastructure-as-code",
+      "linux"
+    ],
+    "technologies": [
+      "Ansible 2.15+",
+      "YAML",
+      "Linux",
+      "Ansible Vault",
+      "Molecule"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "kubernetes-crashloop-debugging",
     "path": "skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging",
     "domain": "devops",

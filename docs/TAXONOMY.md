@@ -73,6 +73,8 @@ AI_Skills_Booster/
 │   │   └── argo-cd/ (1 skills)
 │   ├── iac/
 │   │   └── terraform/ (1 skills)
+│   ├── infrastructure-as-code/
+│   │   └── ansible/ (1 skills)
 │   ├── kubernetes/
 │   │   └── troubleshooting/ (1 skills)
 │   ├── monitoring/
