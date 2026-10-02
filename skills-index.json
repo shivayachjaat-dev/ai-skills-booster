@@ -5847,6 +5847,28 @@
     "maturity": "stable"
   },
   {
+    "name": "documentation-generation-doc-generate",
+    "path": "skills/ai-engineering/models/documentation_genera/documentation-generation-doc-generate",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "documentation_genera",
+    "description": "Use this skill to design, implement, and operate production workflows for documentation generation doc generate. You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best p...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "documentation",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Documentation Generation Doc Generate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

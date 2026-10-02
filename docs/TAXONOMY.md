@@ -268,6 +268,7 @@ AI_Skills_Booster/
 │   │   ├── docker_management/ (1 skills)
 │   │   ├── docs_architect/ (1 skills)
 │   │   ├── docs_as_marketing/ (1 skills)
+│   │   ├── documentation_genera/ (1 skills)
 │   │   ├── editorial_design/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)

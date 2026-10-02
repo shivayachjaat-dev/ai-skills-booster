@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **860** skills across structured domains, categories, and subcategories.
+Master navigation for **861** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (298 skills)
+## Ai Engineering (299 skills)
 
 ### Agents (36 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -170,7 +170,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (211 skills)
+### Models (212 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -566,6 +566,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [docs-architect](../skills/ai-engineering/models/docs_architect/docs-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for docs architect. Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.
 - **Docs_As_Marketing** (1):
   - [docs-as-marketing](../skills/ai-engineering/models/docs_as_marketing/docs-as-marketing/SKILL.md) — Use this skill to design, implement, and operate production workflows for docs as marketing. Transform documentation into a powerful marketing channel that attracts, converts, and retains developers.
+- **Documentation_Genera** (1):
+  - [documentation-generation-doc-generate](../skills/ai-engineering/models/documentation_genera/documentation-generation-doc-generate/SKILL.md) — Use this skill to design, implement, and operate production workflows for documentation generation doc generate. You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best p...
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):
