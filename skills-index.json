@@ -13162,6 +13162,28 @@
     "maturity": "stable"
   },
   {
+    "name": "linktree-link-hub",
+    "path": "skills/business/operations/linktree_link_hub/linktree-link-hub",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "linktree_link_hub",
+    "description": "Use this skill to design, implement, and operate production workflows for linktree link hub. Link-in-bio register: label, destination URL, link type, priority order, audience, click tracking, UTM source, schedule, click count and status. Use for link hub tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "linktree",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Linktree Link Hub",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

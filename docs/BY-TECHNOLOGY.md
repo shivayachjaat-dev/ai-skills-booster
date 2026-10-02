@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1216 skills)
+## Bash (1217 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1611,6 +1611,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [kpi-dashboard-design](../skills/business/operations/kpi_dashboard_design/kpi-dashboard-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for kpi dashboard design. Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.
 - [leave-management](../skills/business/operations/leave_management/leave-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for leave management. Leave register: request, leave type, employee and department, manager and approver, start and end dates, days requested, leave balances, handover notes and status. Use for leave tracking.
 - [lex-engineering-workflow](../skills/business/operations/lex/lex-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for lex engineering workflow. Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.
+- [linktree-link-hub](../skills/business/operations/linktree_link_hub/linktree-link-hub/SKILL.md) — Use this skill to design, implement, and operate production workflows for linktree link hub. Link-in-bio register: label, destination URL, link type, priority order, audience, click tracking, UTM source, schedule, click count and status. Use for link hub tracking.
 - [google-analytics-automation](../skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.
 - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
 - [calc](../skills/data-analytics/data-pipelines/calc/calc/SKILL.md) — Use this skill to design, implement, and operate production workflows for calc. Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.
@@ -6890,6 +6891,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [linkerd-patterns](../skills/security/appsec/linkerd_patterns/linkerd-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkerd patterns. Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.
 
+## Linktree Link Hub (1 skills)
+
+- [linktree-link-hub](../skills/business/operations/linktree_link_hub/linktree-link-hub/SKILL.md) — Use this skill to design, implement, and operate production workflows for linktree link hub. Link-in-bio register: label, destination URL, link type, priority order, audience, click tracking, UTM source, schedule, click count and status. Use for link hub tracking.
+
 ## Lintlang Audit (1 skills)
 
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
@@ -7432,7 +7437,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1319 skills)
+## Python (1320 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8012,6 +8017,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [kpi-dashboard-design](../skills/business/operations/kpi_dashboard_design/kpi-dashboard-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for kpi dashboard design. Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.
 - [leave-management](../skills/business/operations/leave_management/leave-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for leave management. Leave register: request, leave type, employee and department, manager and approver, start and end dates, days requested, leave balances, handover notes and status. Use for leave tracking.
 - [lex-engineering-workflow](../skills/business/operations/lex/lex-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for lex engineering workflow. Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.
+- [linktree-link-hub](../skills/business/operations/linktree_link_hub/linktree-link-hub/SKILL.md) — Use this skill to design, implement, and operate production workflows for linktree link hub. Link-in-bio register: label, destination URL, link type, priority order, audience, click tracking, UTM source, schedule, click count and status. Use for link hub tracking.
 - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
 - [ai-saas-wrapper-architecture-and-stripe-metering](../skills/business/saas/ai-metering/ai-saas-wrapper-architecture-and-stripe-metering/SKILL.md) — Use this skill to architect, build, and monetize AI-wrapper SaaS products with usage-based billing, token credit wallets, and Stripe metering. It covers rate-limited API gateway proxies, tenant isolation, credit deduction middleware, and margin preservation against upstream LLM token costs.
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
