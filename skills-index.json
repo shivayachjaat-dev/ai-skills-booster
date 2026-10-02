@@ -1095,6 +1095,28 @@
     "maturity": "stable"
   },
   {
+    "name": "autonomous-agent-patterns",
+    "path": "skills/ai-engineering/models/autonomous_agent_pat/autonomous-agent-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "autonomous_agent_pat",
+    "description": "Use this skill to design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/openai/codex).",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "autonomous",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Autonomous Agent Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
