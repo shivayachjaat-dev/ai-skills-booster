@@ -2217,6 +2217,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-fine-tuning",
+    "path": "skills/ai-engineering/llm-ops/llm_fine_tuning/llm-fine-tuning",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llm_fine_tuning",
+    "description": "Use this skill to design, implement, and operate production workflows for llm fine tuning. Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Fine Tuning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

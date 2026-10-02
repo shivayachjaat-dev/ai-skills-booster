@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **12 skills** available in this category.
+> **13 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -16,3 +16,4 @@
 | [llm-caching](../../skills/ai-engineering/llm-ops/llm_caching/llm-caching/SKILL.md) | `llm_caching` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm caching. Implement multi-layer LLM caching with exact match, semantic similarity, |
 | [llm-cost-optimization](../../skills/ai-engineering/llm-ops/llm_cost_optimizatio/llm-cost-optimization/SKILL.md) | `llm_cost_optimizatio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm cost optimization. Reduce LLM API and infrastructure costs through model selection, prompt |
 | [llm-evaluation](../../skills/ai-engineering/llm-ops/llm_evaluation/llm-evaluation/SKILL.md) | `llm_evaluation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm evaluation. Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing. |
+| [llm-fine-tuning](../../skills/ai-engineering/llm-ops/llm_fine_tuning/llm-fine-tuning/SKILL.md) | `llm_fine_tuning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm fine tuning. Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full |

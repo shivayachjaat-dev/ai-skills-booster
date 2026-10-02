@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (633 skills)
+## AI Engineer (634 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -89,6 +89,7 @@ Curated workflows organized by professional role and specialization.
 - [llm-caching](../skills/ai-engineering/llm-ops/llm_caching/llm-caching/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm caching. Implement multi-layer LLM caching with exact match, semantic similarity,
 - [llm-cost-optimization](../skills/ai-engineering/llm-ops/llm_cost_optimizatio/llm-cost-optimization/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm cost optimization. Reduce LLM API and infrastructure costs through model selection, prompt
 - [llm-evaluation](../skills/ai-engineering/llm-ops/llm_evaluation/llm-evaluation/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm evaluation. Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing.
+- [llm-fine-tuning](../skills/ai-engineering/llm-ops/llm_fine_tuning/llm-fine-tuning/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm fine tuning. Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full
 - [agentfolio](../skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) — `ai-engineering`: Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
 - [ai-agent-development](../skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) — `ai-engineering`: Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.
 - [ai-analyzer](../skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) — `ai-engineering`: Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。

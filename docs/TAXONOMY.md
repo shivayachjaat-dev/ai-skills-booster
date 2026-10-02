@@ -110,7 +110,8 @@ AI_Skills_Booster/
 │   │   ├── llm_app_security/ (1 skills)
 │   │   ├── llm_caching/ (1 skills)
 │   │   ├── llm_cost_optimizatio/ (1 skills)
-│   │   └── llm_evaluation/ (1 skills)
+│   │   ├── llm_evaluation/ (1 skills)
+│   │   └── llm_fine_tuning/ (1 skills)
 │   ├── models/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)

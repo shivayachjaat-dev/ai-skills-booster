@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,414** skills across structured domains, categories, and subcategories.
+Master navigation for **1,415** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (485 skills)
+## Ai Engineering (486 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -214,7 +214,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (12 skills)
+### Llm Ops (13 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -241,6 +241,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [llm-cost-optimization](../skills/ai-engineering/llm-ops/llm_cost_optimizatio/llm-cost-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm cost optimization. Reduce LLM API and infrastructure costs through model selection, prompt
 - **Llm_Evaluation** (1):
   - [llm-evaluation](../skills/ai-engineering/llm-ops/llm_evaluation/llm-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm evaluation. Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing.
+- **Llm_Fine_Tuning** (1):
+  - [llm-fine-tuning](../skills/ai-engineering/llm-ops/llm_fine_tuning/llm-fine-tuning/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm fine tuning. Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full
 
 ### Models (354 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
