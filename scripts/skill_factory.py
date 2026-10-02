@@ -85,23 +85,47 @@ def create_and_ship_skill(skill_spec):
     if evals:
         eval_dir = os.path.join(target_dir, "evals")
         os.makedirs(eval_dir, exist_ok=True)
-        for fname, fcontent in evals.items():
-            with open(os.path.join(eval_dir, fname), "w", encoding="utf-8") as f:
-                f.write(fcontent)
+        if isinstance(evals, dict):
+            for fname, fcontent in evals.items():
+                with open(os.path.join(eval_dir, fname), "w", encoding="utf-8") as f:
+                    f.write(fcontent)
+        elif isinstance(evals, list):
+            for item in evals:
+                fname = item.get("name") or item.get("filename")
+                fcontent = item.get("code") or item.get("content", "")
+                if fname:
+                    with open(os.path.join(eval_dir, fname), "w", encoding="utf-8") as f:
+                        f.write(fcontent)
 
     if scripts:
         script_dir = os.path.join(target_dir, "scripts")
         os.makedirs(script_dir, exist_ok=True)
-        for fname, fcontent in scripts.items():
-            with open(os.path.join(script_dir, fname), "w", encoding="utf-8") as f:
-                f.write(fcontent)
+        if isinstance(scripts, dict):
+            for fname, fcontent in scripts.items():
+                with open(os.path.join(script_dir, fname), "w", encoding="utf-8") as f:
+                    f.write(fcontent)
+        elif isinstance(scripts, list):
+            for item in scripts:
+                fname = item.get("name") or item.get("filename")
+                fcontent = item.get("code") or item.get("content", "")
+                if fname:
+                    with open(os.path.join(script_dir, fname), "w", encoding="utf-8") as f:
+                        f.write(fcontent)
 
     if references:
         ref_dir = os.path.join(target_dir, "references")
         os.makedirs(ref_dir, exist_ok=True)
-        for fname, fcontent in references.items():
-            with open(os.path.join(ref_dir, fname), "w", encoding="utf-8") as f:
-                f.write(fcontent)
+        if isinstance(references, dict):
+            for fname, fcontent in references.items():
+                with open(os.path.join(ref_dir, fname), "w", encoding="utf-8") as f:
+                    f.write(fcontent)
+        elif isinstance(references, list):
+            for item in references:
+                fname = item.get("filename") or item.get("name")
+                fcontent = item.get("content") or item.get("code", "")
+                if fname:
+                    with open(os.path.join(ref_dir, fname), "w", encoding="utf-8") as f:
+                        f.write(fcontent)
 
     print(f"\n[Factory] Created skill files at {target_dir}")
 

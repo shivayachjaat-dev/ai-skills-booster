@@ -199,7 +199,8 @@ AI_Skills_Booster/
 │   ├── design-systems/
 │   │   └── clean-ui-anti-slop/ (1 skills)
 │   ├── frameworks/
-│   │   └── angular/ (1 skills)
+│   │   ├── angular/ (1 skills)
+│   │   └── astro-islands/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/

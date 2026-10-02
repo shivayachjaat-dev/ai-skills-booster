@@ -2764,6 +2764,34 @@
     "maturity": "stable"
   },
   {
+    "name": "astro-content-and-islands-web-architecture",
+    "path": "skills/frontend/frameworks/astro-islands/astro-content-and-islands-web-architecture",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "astro-islands",
+    "description": "Use this skill to design, build, and optimize content-driven websites and web applications using Astro 4/5 Islands Architecture. It covers zero-JS by default rendering, selective client hydration (client:load, client:idle, client:visible), type-safe Content Collections with Zod schemas, View Transitions API, hybrid SSR adapter configuration, and SEO optimization.",
+    "tags": [
+      "frontend",
+      "astro",
+      "islands-architecture",
+      "ssg",
+      "ssr",
+      "typescript",
+      "content-collections",
+      "web-performance"
+    ],
+    "technologies": [
+      "Astro",
+      "TypeScript",
+      "Zod",
+      "Vite",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

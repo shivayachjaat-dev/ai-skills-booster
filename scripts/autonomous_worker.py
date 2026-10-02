@@ -61,708 +61,1249 @@ def mark_backlog_item(backlog_query, new_status="completed", blocked_reason=None
 
 CONTINUOUS_QUEUE = [
     # -------------------------------------------------------------
-    # 1. EMBEDDED: arm-cortex-m-embedded-firmware-architecture (Backlog: arm-cortex-expert)
+    # 1. FRONTEND: astro-content-and-islands-web-architecture (Backlog: astro)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "arm-cortex-expert",
-        "name": "arm-cortex-m-embedded-firmware-architecture",
-        "domain": "embedded",
-        "category": "firmware",
-        "subcategory": "arm-cortex-m",
-        "description": "Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.",
-        "tags": ["embedded", "arm-cortex-m", "firmware", "freertos", "cmsis", "bare-metal", "stm32", "microcontrollers"],
-        "technologies": ["ARM Cortex-M", "C", "C++", "FreeRTOS", "CMSIS", "DMA", "NVIC"],
-        "complexity": "expert",
-        "maturity": "stable",
-        "tools": ["c", "bash"],
-        "dependencies": ["arm-none-eabi-gcc", "openocd", "make"],
-        "content": """# ARM Cortex-M Embedded Firmware & Real-Time Architecture
-
-## Overview
-
-A hardware-level embedded systems engineering standard for developing real-time, deterministic firmware on ARM Cortex-M microcontrollers (Cortex-M0+/M3/M4/M7/M33) across STM32, Nordic nRF52, and Raspberry Pi RP2040 platforms. Embedded firmware development requires strict timing guarantees, deterministic interrupt service routines (ISRs), non-blocking DMA ring buffers, hardware watchdog fail-safes, and energy-efficient low-power sleep modes. This skill guides firmware engineers and AI agents in utilizing the ARM CMSIS HAL, configuring the Nested Vectored Interrupt Controller (NVIC), writing thread-safe FreeRTOS tasks, and preventing stack overflow crashes.
-
-## When to Use
-
-- Writing bare-metal or FreeRTOS firmware for ARM Cortex-M targets (STM32, nRF52, SAMD).
-- Configuring peripheral drivers (UART, SPI, I2C, CAN bus) with Direct Memory Access (DMA) and circular buffers.
-- Setting up the Nested Vectored Interrupt Controller (NVIC) priorities to eliminate interrupt inversion.
-- Implementing low-power sleep modes (Stop, Standby, Deep Sleep) with RTC or GPIO wakeups.
-
-## When NOT to Use
-
-- User-space application development on full operating systems (Linux/Windows/macOS).
-- High-level web application frontend or backend APIs.
-
-## Inputs & Prerequisites
-
-- Microcontroller datasheet and reference manual with memory map and register offsets.
-- ARM GNU Toolchain (`arm-none-eabi-gcc`, `arm-none-eabi-gdb`) and OpenOCD/J-Link debugger.
-- Clock tree configuration (HSE, PLL, system clock frequency in MHz).
-
-## Core Workflow
-
-### 1. High-Performance UART DMA Circular Ring Buffer (C)
-Process asynchronous serial streams without CPU polling overhead:
-
-```c
-// drivers/uart_dma_ring.c
-#include <stdint.h>
-#include <stdbool.h>
-#include <string.h>
-
-#define RING_BUFFER_SIZE 512
-
-typedef struct {
-    uint8_t buffer[RING_BUFFER_SIZE];
-    volatile uint16_t head;
-    volatile uint16_t tail;
-} UartRingBuffer;
-
-static UartRingBuffer rx_ring = { .head = 0, .tail = 0 };
-
-// Called by DMA Half-Transfer and Transfer-Complete Interrupts
-void UART_DMA_Rx_ISR_Handler(uint16_t dma_current_pos) {
-    // Update head pointer based on hardware DMA remaining transfer counter
-    rx_ring.head = (RING_BUFFER_SIZE - dma_current_pos) % RING_BUFFER_SIZE;
-}
-
-bool RingBuffer_ReadByte(uint8_t *out_byte) {
-    if (rx_ring.tail == rx_ring.head) {
-        return false; // Buffer empty
-    }
-    *out_byte = rx_ring.buffer[rx_ring.tail];
-    rx_ring.tail = (rx_ring.tail + 1) % RING_BUFFER_SIZE;
-    return true;
-}
-
-uint16_t RingBuffer_Available(void) {
-    if (rx_ring.head >= rx_ring.tail) {
-        return rx_ring.head - rx_ring.tail;
-    }
-    return (RING_BUFFER_SIZE - rx_ring.tail) + rx_ring.head;
-}
-```
-
-### 2. NVIC Interrupt Priority & Watchdog Architecture
-Configure interrupt priority grouping to prevent priority inversion:
-
-```c
-// system/system_init.c
-#include <stdint.h>
-
-// CMSIS NVIC priority grouping: 4 bits for pre-emption priority, 0 bits for sub-priority
-#define NVIC_PRIORITYGROUP_4 ((uint32_t)0x00000300)
-
-void System_Security_Init(void) {
-    // 1. Configure NVIC grouping
-    // NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
-
-    // 2. Critical faults (HardFault, BusFault, MemManage) have highest priority
-    // NVIC_SetPriority(MemoryManagement_IRQn, 0);
-    // NVIC_SetPriority(BusFault_IRQn, 0);
-    // NVIC_SetPriority(UsageFault_IRQn, 0);
-
-    // 3. Communications DMA interrupts have intermediate priority
-    // NVIC_SetPriority(DMA1_Channel1_IRQn, 5);
-
-    // 4. FreeRTOS SysTick and PendSV have lowest priority to avoid delaying hardware ISRs
-    // NVIC_SetPriority(SysTick_IRQn, 15);
-    // NVIC_SetPriority(PendSV_IRQn, 15);
-}
-
-// Independent Hardware Watchdog (IWDG) refresh loop
-void Watchdog_Refresh_Task(void) {
-    // Must be refreshed periodically; failure triggers MCU hardware reset
-    // IWDG->KR = 0xAAAA;
-}
-```
-
-### 3. FreeRTOS Task Stack Management & Overflow Hooks
-Guard against memory corruption in multi-tasking environments:
-- Enable stack overflow detection in `FreeRTOSConfig.h` (`#define configCHECK_FOR_STACK_OVERFLOW 2`).
-- Provide the application hook `vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName)` to halt hardware and log diagnostics before restarting.
-
-## Best Practices & Failure Modes
-
-- **Volatile Keyword**: Always declare variables shared between ISRs and main thread loops as `volatile` to prevent compiler register optimization bugs.
-- **Blocking inside ISRs**: Never call delays, blocking mutex waits (`xSemaphoreTake` without 0 timeout), or long loops inside an ISR; offload processing to FreeRTOS tasks.
-- **Clock Tree Misconfiguration**: Verify oscillator PLL lock flags before switching system clock source to prevent MCU freeze.
-
-## Verification & Testing
-
-- Compile firmware using ARM GCC:
-  ```bash
-  arm-none-eabi-gcc --version || echo "ARM GCC compiler ready"
-  ```
-- Test ring buffer C code:
-  ```bash
-  python -c "print('Embedded firmware architecture verified')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 2. DEVOPS: azure-arm-and-bicep-infrastructure-as-code (Backlog: arm-templates)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "arm-templates",
-        "name": "azure-arm-and-bicep-infrastructure-as-code",
-        "domain": "devops",
-        "category": "infrastructure",
-        "subcategory": "azure-bicep",
-        "description": "Use this skill to design, validate, and deploy modular Azure infrastructure using Bicep and ARM templates. It covers modular parameter files, role-based access control (RBAC) assignments, Key Vault secret references, what-if deployment preview validation, and Azure DevOps / GitHub Actions pipelines.",
-        "tags": ["bicep", "arm-templates", "azure", "infrastructure-as-code", "devops", "cloud-governance"],
-        "technologies": ["Azure Bicep", "ARM Templates", "Azure CLI", "GitHub Actions", "PowerShell"],
+        "backlog_ref": "astro",
+        "name": "astro-content-and-islands-web-architecture",
+        "domain": "frontend",
+        "category": "frameworks",
+        "subcategory": "astro-islands",
+        "description": "Use this skill to design, build, and optimize content-driven websites and web applications using Astro 4/5 Islands Architecture. It covers zero-JS by default rendering, selective client hydration (client:load, client:idle, client:visible), type-safe Content Collections with Zod schemas, View Transitions API, hybrid SSR adapter configuration, and SEO optimization.",
+        "tags": ["frontend", "astro", "islands-architecture", "ssg", "ssr", "typescript", "content-collections", "web-performance"],
+        "technologies": ["Astro", "TypeScript", "Zod", "Vite", "Node.js", "Tailwind CSS"],
         "complexity": "advanced",
         "maturity": "stable",
-        "tools": ["bicep", "bash"],
-        "dependencies": ["bicep >= 0.24.0", "azure-cli >= 2.50.0"],
-        "content": """# Azure Bicep & ARM Infrastructure as Code Architecture
+        "tools": ["astro", "npm", "node"],
+        "dependencies": ["astro@^4.0.0", "typescript@^5.0.0", "zod@^3.22.0"],
+        "content": """# Astro Content Collections & Islands Architecture
 
 ## Overview
 
-An enterprise cloud infrastructure engineering standard for developing, compiling, and deploying Azure resources using Azure Bicep and ARM templates. Authoring infrastructure using raw verbose ARM JSON templates is tedious, syntax-error prone, and lacks modular abstraction. Azure Bicep provides a modern domain-specific language (DSL) with transparent resource abstraction, first-class modularization, compile-time validation, and automated ARM JSON transpilation. This skill equips AI engineers to construct enterprise-grade Bicep modules, manage secure secrets via Key Vault, validate changes via `what-if` previews, and orchestrate zero-downtime CI/CD deployments.
+A modern web engineering guide for architecting high-performance, content-first websites and hybrid web applications using Astro (v4/v5). By enforcing a "Zero JavaScript by default" baseline, Astro compiles UI templates (Astro, React, Vue, Svelte, Preact) to static HTML at build time, while hydrating interactive components ("islands") independently on demand. This skill guides software engineers and AI coding agents in designing robust Astro architectures, configuring type-safe Content Collections with Zod schema validation, implementing client-side routing with the native View Transitions API, and deploying hybrid server-side rendering (SSR) via edge adapters.
+
+```
++------------------------------------------------------------------------+
+|                          Astro Static Shell (0kb JS)                  |
+|                                                                        |
+|  +---------------------+  +---------------------+  +----------------+  |
+|  | Header & Hero       |  | Markdown Article    |  | Static Footer  |  |
+|  | (Static HTML/CSS)   |  | Content Collection  |  | (Pure HTML)    |  |
+|  +---------------------+  +---------------------+  +----------------+  |
+|                                                                        |
+|  Interactive Component Islands:                                        |
+|  +-----------------------+     +-----------------------+               |
+|  | Search Dialog (React) |     | Comments Widget (Vue) |               |
+|  | client:idle           |     | client:visible        |               |
+|  +-----------------------+     +-----------------------+               |
++------------------------------------------------------------------------+
+```
 
 ## When to Use
 
-- Provisioning Azure cloud resources (Virtual Networks, AKS clusters, App Services, Cosmos DB).
-- Authoring reusable infrastructure modules shared across multiple business units.
-- Enforcing resource tagging and compliance policies at compile-time.
-- Running deployment dry-runs (`az deployment group what-if`) in pull request pipelines.
+- Developing documentation sites, tech blogs, marketing portfolios, and editorial publishing platforms requiring near-perfect Google Core Web Vitals (LCP < 1.2s, CLS = 0).
+- Building multi-framework hybrid applications where different teams use React, Vue, or Svelte components inside a single unified shell.
+- Structuring large collections of Markdown or MDX documents requiring strict frontmatter validation and schema integrity.
+- Implementing fast multi-page applications (MPA) with SPA-like animated page transitions using Astro View Transitions.
 
 ## When NOT to Use
 
-- Deploying multi-cloud architectures across AWS and Google Cloud (use Terraform or OpenTofu).
-- Configuration management inside individual OS virtual machines (use Ansible).
+- Highly dynamic, single-page state-intensive web apps (e.g., Figma-like canvas editors, live trading dashboards) where every single element requires client-side state synchronization.
+- Pure REST API backends or microservices without front-facing HTML markup.
 
 ## Inputs & Prerequisites
 
-- Azure subscription and resource group (`rg-production-eastus`).
-- Azure Bicep CLI (`az bicep install`) and Azure CLI authenticated via Service Principal or OIDC.
-- Architecture diagram specifying networking subnets, SKU sizes, and RBAC roles.
+- Node.js 18.17.1+ or 20.x, npm / pnpm / yarn package manager.
+- Basic familiarity with TypeScript, HTML/CSS, and JSX or template syntaxes.
+- Target project repository initialized with `astro` dependencies.
 
 ## Core Workflow
 
-### 1. Modular Bicep Infrastructure Specification (`main.bicep`)
-Implement a production-grade infrastructure module with secure parameter defaults:
+### Step 1: Content Collection Schema Modeling
+Define strongly typed schemas in `src/content/config.ts` using Astro's built-in `defineCollection` and `z` (Zod).
 
-```bicep
-// main.bicep - Production Application Infrastructure
-targetScope = 'resourceGroup'
+```typescript
+// src/content/config.ts
+import { defineCollection, z } from 'astro:content';
 
-@description('Environment name (staging, prod)')
-@allowed([
-  'staging'
-  'prod'
-])
-param environmentName string = 'staging'
+const blogCollection = defineCollection({
+  type: 'content', // 'content' for Markdown/MDX, 'data' for JSON/YAML
+  schema: ({ image }) => z.object({
+    title: z.string().max(80),
+    description: z.string().min(20).max(160),
+    pubDate: z.date(),
+    updatedDate: z.date().optional(),
+    author: z.string().default('Core Engineering Team'),
+    tags: z.array(z.string()).nonempty(),
+    coverImage: image().refine((img) => img.width >= 720, {
+      message: 'Cover image must be at least 720px wide',
+    }).optional(),
+    draft: z.boolean().default(false),
+  }),
+});
 
-@description('Azure region for resource deployment')
-param location string = resourceGroup().location
-
-@description('Mandatory cost-center billing tag')
-param costCenter string = 'CC-Engineering-42'
-
-var commonTags = {
-  Environment: environmentName
-  ManagedBy: 'Bicep'
-  CostCenter: costCenter
-}
-
-// 1. Virtual Network Module
-module vnet './modules/network.bicep' = {
-  name: 'vnetDeployment'
-  params: {
-    vnetName: 'vnet-${environmentName}-${location}'
-    location: location
-    tags: commonTags
-  }
-}
-
-// 2. Azure Key Vault for Secure Secrets
-resource keyVault 'Microsoft.KeyVault/vaults@2023-07-01' = {
-  name: 'kv-${environmentName}-${uniqueString(resourceGroup().id)}'
-  location: location
-  tags: commonTags
-  properties: {
-    sku: {
-      family: 'A'
-      name: 'standard'
-    }
-    tenantId: subscription().tenantId
-    enableRbacAuthorization: true
-    enableSoftDelete: true
-    softDeleteRetentionInDays: 90
-    networkAcls: {
-      defaultAction: 'Deny'
-      bypass: 'AzureServices'
-    }
-  }
-}
-
-output keyVaultUri string = keyVault.properties.vaultUri
-output vnetId string = vnet.outputs.vnetId
+export const collections = {
+  blog: blogCollection,
+};
 ```
 
-### 2. CI/CD What-If Preview Pipeline (GitHub Actions)
-Validate deployment diffs before applying changes to production:
+### Step 2: Dynamic Route Generation
+Create static routes with parameter validation using `getStaticPaths` in `src/pages/blog/[...slug].astro`.
 
-```yaml
-# .github/workflows/bicep-deploy.yml
-name: "Azure Bicep Deployment"
+```astro
+---
+// src/pages/blog/[...slug].astro
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
-on:
-  pull_request:
-    paths: ['infra/**']
-  push:
-    branches: [main]
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => {
+    return import.meta.env.PROD ? !data.draft : true;
+  });
 
-jobs:
-  validate-and-preview:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
 
-      - name: Azure Login via OIDC
-        uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
 
-      - name: Bicep Lint
-        run: az bicep build --file infra/main.bicep
+const { post } = Astro.props;
+const { Content, headings } = await post.render();
+---
 
-      - name: Run What-If Deployment Preview
-        run: |
-          az deployment group what-if \\
-            --resource-group rg-production \\
-            --template-file infra/main.bicep \\
-            --parameters environmentName=prod
+<BaseLayout title={post.data.title} description={post.data.description}>
+  <article class="prose prose-slate max-w-3xl mx-auto py-12 px-4">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold tracking-tight">{post.data.title}</h1>
+      <p class="text-sm text-slate-500">
+        Published on {post.data.pubDate.toLocaleDateString('en-US', { dateStyle: 'long' })}
+      </p>
+    </header>
+    
+    <div class="content-body">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
+```
+
+### Step 3: Island Hydration Strategy Selection
+Apply explicit `client:*` hydration directives based on real user interaction requirements:
+
+| Directive | Execution Condition | Best Use Case |
+|---|---|---|
+| *(none)* | Rendered to static HTML, 0kb JS loaded | Headers, footers, articles, static cards |
+| `client:load` | Hydrates immediately on page load | Critical interactive elements (primary navigation, cart modal) |
+| `client:idle` | Hydrates once browser reaches `requestIdleCallback` | Search bars, newsletter subscription forms, theme toggles |
+| `client:visible` | Hydrates when element intersects viewport (`IntersectionObserver`) | Heavy comments widgets, interactive charts, media players |
+| `client:media` | Hydrates only when CSS media query matches (`client:media="(max-width: 50em)"`) | Mobile-only slideout menus |
+| `client:only="react"`| Skips server-side rendering entirely, runs on client | Canvas tools, browser-storage dependent UI |
+
+### Step 4: Seamless View Transitions Integration
+Enable persistent state and fluid navigation animations across page switches:
+
+```astro
+---
+// src/layouts/BaseLayout.astro
+import { ViewTransitions } from 'astro:transitions';
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <ViewTransitions fallback="swap" />
+  </head>
+  <body class="bg-white text-slate-900 min-h-screen">
+    <slot />
+  </body>
+</html>
 ```
 
 ## Best Practices & Failure Modes
 
-- **Hardcoded Secrets**: Never declare secrets in parameter files; use Key Vault references (`getSecret(...)`) or pass them as secure string parameters dynamically in CI.
-- **Unique Name Conflicts**: Azure storage accounts and Key Vaults require globally unique names across all Azure tenants; always use the `uniqueString(resourceGroup().id)` function.
-- **Soft-Delete Purge**: Key Vault soft-delete is enabled by default; plan names carefully to avoid conflicts with recently deleted vaults.
+- **Never Over-Hydrate**: Avoid putting `client:load` on components below the fold; prefer `client:visible` or `client:idle` to maintain zero First Input Delay (FID) and Low Interaction to Next Paint (INP).
+- **Zod Schema Evolution**: When adding required fields to content schemas, provide default values (`.default(...)`) or mark them `.optional()` to prevent breaking legacy markdown files.
+- **Islands Isolation**: Remember that islands do not share UI state automatically across different frameworks. Use lightweight nanostores (`@nanostores/core`) or browser custom events for cross-island reactivity.
+- **Environment Variables**: Use `PUBLIC_*` prefix only for variables safe to expose to client bundles; private API keys must be accessed in server endpoints or `.astro` frontmatter.
 
 ## Verification & Testing
 
-- Validate Bicep syntax compilation:
-  ```bash
-  az bicep build --file main.bicep || echo "Bicep compiler verified"
-  ```
-- Test template logic:
-  ```bash
-  python -c "print('Azure Bicep architecture verified')"
-  ```
-"""
-    },
+1. Run schema validation: `npx astro check` to verify TypeScript and Content Collection types.
+2. Build static output: `npx astro build` to confirm zero broken links and valid asset hashes.
+3. Audit client JS bundle: Confirm page payloads in `dist/` contain 0kb client script bundles for purely informational pages.
+4. Preview production artifacts: `npx astro preview` and verify Core Web Vitals using Lighthouse.
+""",
+        "scripts": [
+            {
+                "name": "audit_astro_islands.py",
+                "description": "Scans an Astro project repository to audit client:* directive hydration usage and detect unnecessary JS bundle bloat.",
+                "code": """#!/usr/bin/env python3
+import os
+import re
+import sys
 
-    # -------------------------------------------------------------
-    # 3. AI ENGINEERING: spectral-graph-laplacian-vector-search (Backlog: arrowspace)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "arrowspace",
-        "name": "spectral-graph-laplacian-vector-search",
-        "domain": "ai-engineering",
-        "category": "vector-search",
-        "subcategory": "spectral-embeddings",
-        "description": "Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.",
-        "tags": ["spectral-search", "graph-laplacian", "vector-search", "embeddings", "manifold-learning", "eigenvectors", "ai-engineering"],
-        "technologies": ["Python", "NumPy", "SciPy", "Spectral Graph Theory", "Vector Embeddings"],
-        "complexity": "expert",
-        "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["numpy >= 1.24.0", "scipy >= 1.10.0", "python >= 3.10"],
-        "content": """# Spectral Graph Laplacian Vector Search Architecture
+DIRECTIVE_PATTERN = re.compile(r'client:(load|idle|visible|media|only)')
 
-## Overview
+def audit_islands(src_dir="src"):
+    if not os.path.exists(src_dir):
+        print(f"Error: Directory '{src_dir}' not found.")
+        sys.exit(1)
 
-An advanced mathematical information retrieval standard for non-linear vector search, manifold discovery, and cluster topology mapping using graph Laplacian spectral decomposition. In high-dimensional embedding spaces (e.g., text, biological structures, multi-modal features), data points frequently lie on non-linear low-dimensional sub-manifolds (e.g., Swiss roll or intertwined spirals) where standard linear metrics (Cosine Similarity, Euclidean L2 distance) return misleading nearest neighbors. This skill equips AI researchers and vector search engineers to construct affinity graphs, compute the normalized Graph Laplacian ($L = D^{-1/2} A D^{-1/2}$), perform spectral eigenvector projections, and execute manifold-aware semantic retrieval.
+    print("=" * 65)
+    print(f"Auditing Astro Islands Hydration in: {src_dir}")
+    print("=" * 65)
 
-## When to Use
+    findings = []
+    for root, _, files in os.walk(src_dir):
+        for file in files:
+            if file.endswith(('.astro', '.mdx', '.jsx', '.tsx')):
+                filepath = os.path.join(root, file)
+                with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                    for line_no, line in enumerate(f, 1):
+                        matches = DIRECTIVE_PATTERN.findall(line)
+                        for match in matches:
+                            findings.append((filepath, line_no, match, line.strip()))
 
-- Performing nearest-neighbor retrieval over non-linear manifolds where cosine similarity misses latent semantic structure.
-- Discovering organic cluster boundaries in unlabeled high-dimensional vector spaces.
-- Improving RAG retrieval precision across complex conceptual domains with interconnected cross-references.
-- Dimensionality reduction that preserves local neighborhood topology (Laplacian Eigenmaps).
+    if not findings:
+        print("Pure Static Architecture: No client hydration directives found (0kb JS).")
+        return
 
-## When NOT to Use
+    counts = {}
+    for _, _, directive, _ in findings:
+        counts[directive] = counts.get(directive, 0) + 1
 
-- Massive real-time billion-scale vector indexes requiring sub-millisecond retrieval (use HNSW or ScaNN).
-- Perfectly linear, uniformly distributed embedding datasets.
+    print(f"Total Interactive Islands Found: {len(findings)}\\n")
+    print("Hydration Breakdown:")
+    for directive, count in sorted(counts.items()):
+        print(f"  - client:{directive:<10}: {count} occurrences")
 
-## Inputs & Prerequisites
+    print("\\nDirectives Audit List:")
+    for path, line_no, directive, snippet in findings[:15]:
+        rel_path = os.path.relpath(path, src_dir)
+        print(f"  [{directive:<7}] {rel_path}:{line_no} -> {snippet[:60]}")
 
-- High-dimensional embedding matrix $X \in \mathbb{R}^{N \times D}$.
-- Graph construction hyperparameters (number of nearest neighbors $k$, Gaussian kernel bandwidth $\sigma$).
-- SciPy sparse linear algebra library for eigensolvers (`scipy.sparse.linalg.eigsh`).
-
-## Core Workflow
-
-### 1. Normalized Graph Laplacian Decomposition Engine (NumPy + SciPy)
-Construct the affinity matrix and extract the spectral manifold coordinates:
-
-```python
-\"\"\"Spectral Graph Laplacian Vector Search Engine.\"\"\"
-import numpy as np
-from scipy import sparse
-from scipy.sparse.linalg import eigsh
-from typing import Tuple, List
-
-class SpectralVectorSearch:
-    def __init__(self, k_neighbors: int = 15, n_components: int = 8):
-        self.k_neighbors = k_neighbors
-        self.n_components = n_components
-        self.eigenvectors = None
-        self.eigenvalues = None
-
-    def fit_transform(self, embeddings: np.ndarray) -> np.ndarray:
-        \"\"\"Compute Normalized Graph Laplacian and project into spectral manifold space.\"\"\"
-        n_samples = embeddings.shape[0]
-
-        # 1. Compute Pairwise Euclidean Distance Matrix (Vectorized)
-        dot_prods = np.dot(embeddings, embeddings.T)
-        norms = np.diag(dot_prods)
-        dist_sq = norms[:, None] + norms[None, :] - 2 * dot_prods
-        dist_sq = np.maximum(dist_sq, 0.0)
-
-        # 2. Build k-Nearest Neighbors Adjacency Matrix
-        adj = np.zeros((n_samples, n_samples))
-        for i in range(n_samples):
-            # Find k nearest neighbors indices (excluding self)
-            nearest = np.argsort(dist_sq[i])[:self.k_neighbors + 1]
-            adj[i, nearest] = 1.0
-            adj[nearest, i] = 1.0  # Symmetrize
-
-        # 3. Compute Degree Matrix D
-        degree = np.sum(adj, axis=1)
-        d_inv_sqrt = np.power(np.maximum(degree, 1e-12), -0.5)
-        d_mat_inv_sqrt = sparse.diags(d_inv_sqrt)
-
-        # 4. Construct Normalized Laplacian: L_sym = I - D^(-1/2) * A * D^(-1/2)
-        adj_sparse = sparse.csr_matrix(adj)
-        normalized_adj = d_mat_inv_sqrt @ adj_sparse @ d_mat_inv_sqrt
-        laplacian_sym = sparse.eye(n_samples) - normalized_adj
-
-        # 5. Extract Smallest Non-Trivial Eigenvectors
-        # The first eigenvector corresponds to lambda=0 (constant vector), so skip it
-        vals, vecs = eigsh(laplacian_sym, k=self.n_components + 1, which="SM")
-        
-        # Sort eigenvalues ascending
-        idx = np.argsort(vals)
-        self.eigenvalues = vals[idx][1:]
-        self.eigenvectors = vecs[:, idx][:, 1:]
-
-        return self.eigenvectors
-
-    def query_spectral_neighbors(self, item_index: int, top_k: int = 5) -> List[Tuple[int, float]]:
-        \"\"\"Retrieve nearest neighbors in the spectral embedding space.\"\"\"
-        query_vec = self.eigenvectors[item_index]
-        # Compute Euclidean distance in the low-dimensional spectral space
-        diff = self.eigenvectors - query_vec
-        spectral_dists = np.linalg.norm(diff, axis=1)
-
-        nearest_indices = np.argsort(spectral_dists)[:top_k + 1]
-        results = [(int(idx), float(spectral_dists[idx])) for idx in nearest_indices if idx != item_index]
-        return results[:top_k]
+    if counts.get('load', 0) > 5:
+        print("\\n[WARNING]: High client:load count detected (>5). Consider client:idle or client:visible for non-critical UI.")
 
 if __name__ == "__main__":
-    # Generate simulated manifold embeddings (100 samples, 64-dim)
-    np.random.seed(42)
-    sample_data = np.random.randn(100, 64)
+    target = sys.argv[1] if len(sys.argv) > 1 else "src"
+    audit_islands(target)
+"""
+            }
+        ],
+        "references": [
+            {
+                "title": "Astro Islands Architecture & Content Collections Reference",
+                "filename": "astro_architecture_reference.md",
+                "content": """# Astro Architecture & Performance Guidelines
+
+## Islands Architecture Philosophy
+Astro pioneered the Islands Architecture paradigm for web development. In this paradigm:
+- The base HTML document is 100% static, pre-rendered during build or on the server edge.
+- Interactive components are isolated widgets embedded in the document slot.
+- JavaScript runtime is strictly downloaded and executed when the specified trigger condition is satisfied.
+
+## Performance Checklist
+1. **Fonts & Assets**: Always use `@astrojs/image` or native Astro `<Image />` component with automated WebP conversion and `srcset` attributes.
+2. **SSR Adapters**: When switching from SSG to SSR, select the appropriate official adapter:
+   - `@astrojs/node` for standalone Node.js container environments.
+   - `@astrojs/cloudflare` for zero-cold-start edge workers.
+   - `@astrojs/vercel` for serverless Lambdas.
+3. **Cross-Island Communication**:
+   Use Nano Stores for lightweight (<1kb), framework-agnostic shared state:
+   ```typescript
+   import { atom } from 'nanostores';
+   export const isCartOpen = atom(false);
+   ```
+"""
+            }
+        ]
+    },
+
+    # -------------------------------------------------------------
+    # 2. DATA-ANALYTICS: astropy-computational-astronomy-and-coordinate-systems (Backlog: astropy)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "astropy",
+        "name": "astropy-computational-astronomy-and-coordinate-systems",
+        "domain": "data-analytics",
+        "category": "scientific-computing",
+        "subcategory": "astronomy-physics",
+        "description": "Use this skill to perform computational astronomy, astrophysical data analysis, and celestial mechanics using Astropy. It covers celestial coordinate transformations (ICRS, Galactic, FK5, AltAz), FITS image and table I/O with WCS header mapping, physical units and dimensional quantities, time standards (UTC, TDB, Julian Dates), and cosmological parameter modeling.",
+        "tags": ["data-analytics", "scientific-computing", "astronomy", "astrophysics", "astropy", "fits", "coordinate-frames", "celestial-mechanics"],
+        "technologies": ["Astropy", "NumPy", "SciPy", "Matplotlib", "Python"],
+        "complexity": "expert",
+        "maturity": "stable",
+        "tools": ["python", "bash"],
+        "dependencies": ["astropy@^6.0.0", "numpy@^1.26.0", "scipy@^1.12.0"],
+        "content": """# Astropy Computational Astronomy & Coordinate Systems
+
+## Overview
+
+A scientific computing engineering standard for processing astronomical datasets, calculating orbital trajectories, and transforming celestial coordinate frames using Python and the Astropy core library. Astronomical data processing demands strict precision regarding relativistic time scales (UTC vs. TAI vs. TDB), spherical trigonometry frame conversions (ICRS, Galactic, AltAz topocentric), FITS (Flexible Image Transport System) file parsing with World Coordinate Systems (WCS), and physical unit dimension checking. This skill provides production patterns for astrophysicists, data engineers, and AI research agents.
+
+```
++------------------------------------------------------------------------+
+|                      Astropy Core Architecture                         |
+|                                                                        |
+|  [ Physical Units & Quantities ] <---> [ Time & Epoch Management ]     |
+|      (astropy.units, u.Quantity)           (astropy.time.Time, JD/MJD) |
+|                      |                                |                |
+|                      v                                v                |
+|  [ Celestial Coordinate Frames ]     [ FITS Data I/O & WCS Mapping ]   |
+|   (SkyCoord, ICRS, Galactic, AltAz)     (astropy.io.fits, astropy.wcs) |
+|                      |                                |                |
+|                      +----------------+---------------+                |
+|                                       v                                |
+|                        [ Cosmological Distance Models ]                |
+|                           (astropy.cosmology.FlatLambdaCDM)            |
++------------------------------------------------------------------------+
+```
+
+## When to Use
+
+- Parsing, validating, and modifying scientific FITS images, multi-extension headers, and binary tables.
+- Converting astronomical observation targets between equatorial coordinates (RA/Dec in ICRS or FK5) and local observatory horizons (Altitude/Azimuth with atmospheric refraction).
+- Performing dimensionally safe physics calculations (velocities, luminosity, parsecs, light-years) with automated unit cancellation.
+- Computing cosmological distances (angular diameter distance, luminosity distance, lookback time) using standard $\\Lambda\\text{CDM}$ parameterizations.
+
+## When NOT to Use
+
+- General tabular data manipulation with no astronomical spatial/coordinate context (use pure pandas/Polars).
+- Simple cartesian 2D/3D geometry without celestial sphere projection or epoch precession.
+
+## Inputs & Prerequisites
+
+- Python 3.10+ with `astropy`, `numpy`, and `scipy` installed.
+- Target astronomical dataset (FITS files, Gaia/SDSS/Kepler catalog tables, or coordinate catalogs).
+- Observatory site specifications (latitude, longitude, elevation, and timestamp) for topocentric calculations.
+
+## Core Workflow
+
+### Step 1: Dimensioned Quantities and Physical Unit Safety
+Prevent unit calculation errors by wrapping values in `astropy.units`:
+
+```python
+import astropy.units as u
+from astropy.constants import G, M_earth, R_earth
+
+# Calculate Earth escape velocity with automatic unit simplification
+v_escape = ((2 * G * M_earth) / R_earth)**0.5
+v_escape_km_s = v_escape.to(u.km / u.s)
+
+print(f"Earth Escape Velocity: {v_escape_km_s:.2f}")
+# Output: 11.18 km / s
+```
+
+### Step 2: Celestial Coordinate Transformations
+Transform celestial targets from ICRS (equatorial) to local horizon (AltAz) for a specific ground-based telescope:
+
+```python
+from astropy.coordinates import SkyCoord, EarthLocation, AltAz
+from astropy.time import Time
+import astropy.units as u
+
+# Target: Crab Nebula (M1)
+crab = SkyCoord.from_name("M1")
+
+# Observation site: Keck Observatory, Mauna Kea, Hawaii
+keck = EarthLocation.of_site("Keck Observatory")
+
+# Observation epoch: 2026-10-15 08:30:00 UTC
+obs_time = Time("2026-10-15 08:30:00", scale="utc")
+
+# Transform to local horizon frame
+altaz_frame = AltAz(obstime=obs_time, location=keck)
+crab_altaz = crab.transform_to(altaz_frame)
+
+print(f"Crab Nebula Altitude: {crab_altaz.alt:.2f}, Azimuth: {crab_altaz.az:.2f}")
+if crab_altaz.alt > 30 * u.deg:
+    print("Target is observable above airmass limit (>30 deg).")
+```
+
+### Step 3: FITS File I/O and WCS Projection
+Load high-energy telescope FITS data, inspect headers, and map pixel coordinates to real sky coordinates:
+
+```python
+from astropy.io import fits
+from astropy.wcs import WCS
+import numpy as np
+
+def inspect_fits_file(filepath: str):
+    with fits.open(filepath) as hdul:
+        hdul.info()
+        primary_hdu = hdul[0]
+        header = primary_hdu.header
+        image_data = primary_hdu.data
+        
+        # Initialize World Coordinate System
+        wcs = WCS(header)
+        
+        # Convert central pixel to RA/Dec
+        ny, nx = image_data.shape
+        center_sky = wcs.pixel_to_world(nx / 2, ny / 2)
+        print(f"Center Coordinate (ICRS): {center_sky.to_string('hmsdms')}")
+        
+        return header, image_data, wcs
+```
+
+### Step 4: Cosmological Redshift Calculations
+Compute luminosity distance and lookback time for high-redshift galaxies:
+
+```python
+from astropy.cosmology import FlatLambdaCDM
+import astropy.units as u
+
+# Standard Planck 2018 cosmology: H0 = 67.4 km/s/Mpc, Om0 = 0.315
+cosmo = FlatLambdaCDM(H0=67.4 * u.km / (u.s * u.Mpc), Om0=0.315)
+
+z = 2.45 # Distant quasar redshift
+d_L = cosmo.luminosity_distance(z)
+t_lookback = cosmo.lookback_time(z)
+
+print(f"Redshift z={z}: Luminosity Distance = {d_L.to(u.Gpc):.2f}, Lookback Time = {t_lookback.to(u.Gyr):.2f}")
+```
+
+## Best Practices & Failure Modes
+
+- **Never Assume UTC for Orbital Mechanics**: High-precision ephemerides require Terrestrial Time (TT) or Barycentric Dynamical Time (TDB) rather than UTC to account for leap seconds.
+- **WCS Axis Order**: Remember that NumPy indexing is `[row, col]` (y, x), whereas FITS WCS indexing is `(x, y)` (NAXIS1, NAXIS2). Inverting coordinates leads to flipped astronomical projections.
+- **Large FITS Memory Management**: For gigabyte-scale survey images, use `memmap=True` in `fits.open(..., memmap=True)` to avoid reading the entire dataset into RAM.
+
+## Verification & Testing
+
+1. Validate coordinate conversion accuracy against the SIMBAD or VizieR astronomical databases.
+2. Verify dimensional consistency: Ensure formulas evaluate without `UnitConversionError`.
+3. Check FITS header compliance: Validate with `fits.verify('fix')` to detect non-standard FITS keywords.
+""",
+        "scripts": [
+            {
+                "name": "fits_header_analyzer.py",
+                "description": "Analyzes a FITS astronomical file, extracting metadata, WCS projections, and photometric zero-points.",
+                "code": """#!/usr/bin/env python3
+import sys
+import os
+
+def analyze_fits(filepath):
+    if not os.path.exists(filepath):
+        print(f"Error: File '{filepath}' does not exist.")
+        sys.exit(1)
+
+    try:
+        from astropy.io import fits
+        from astropy.wcs import WCS
+    except ImportError:
+        print("Error: Astropy is required. Run 'pip install astropy'.")
+        sys.exit(1)
+
+    print("=" * 65)
+    print(f"Analyzing Astronomical FITS File: {os.path.basename(filepath)}")
+    print("=" * 65)
+
+    with fits.open(filepath) as hdul:
+        print(f"HDU Extensions: {len(hdul)}")
+        for idx, hdu in enumerate(hdul):
+            shape_str = str(hdu.data.shape) if hdu.data is not None else "No Data"
+            print(f"  HDU #{idx}: Name={hdu.name}, Type={type(hdu).__name__}, Shape={shape_str}")
+
+        primary = hdul[0]
+        hdr = primary.header
+        
+        keys_of_interest = ['TELESCOP', 'INSTRUME', 'OBJECT', 'EXPTIME', 'DATE-OBS', 'FILTER']
+        print("\\nKey Observation Metadata:")
+        for k in keys_of_interest:
+            if k in hdr:
+                print(f"  {k:<12}: {hdr[k]}")
+
+        try:
+            wcs = WCS(hdr)
+            if wcs.has_celestial:
+                print("\\nWorld Coordinate System (WCS) Found:")
+                print(f"  Projection Type: {wcs.wcs.ctype[0]} / {wcs.wcs.ctype[1]}")
+                print(f"  Reference Pixel: {wcs.wcs.crpix}")
+                print(f"  Ref Coordinates: {wcs.wcs.crval} deg")
+        except Exception as e:
+            print(f"\\nNo valid celestial WCS: {e}")
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python fits_header_analyzer.py <path-to-fits-file>")
+        sys.exit(1)
+    analyze_fits(sys.argv[1])
+"""
+            }
+        ],
+        "references": [
+            {
+                "title": "Astronomical Coordinate Systems & Epoch Quick Reference",
+                "filename": "coordinate_frames_reference.md",
+                "content": """# Celestial Coordinate Systems Reference
+
+## Reference Frames
+1. **ICRS (International Celestial Reference System)**:
+   - Origin: Barycenter of the Solar System.
+   - Axes: Aligned with FK5 at J2000.0, fixed against distant extragalactic radio sources (quasars). Standard for modern deep-sky catalogs.
+2. **Galactic Frame**:
+   - Origin: Galactic Center ($\text{Sgr A}^*$).
+   - Coordinates: Galactic Longitude ($l$) and Latitude ($b$), useful for interstellar dust and Milky Way structure studies.
+3. **AltAz (Horizontal / Topocentric)**:
+   - Origin: Observer's location on Earth's surface.
+   - Dependent on geographic coordinates, elevation, pressure, temperature, and exact epoch.
+
+## Time Scales
+- **UTC**: Universal Time Coordinated, ticks with atomic seconds but includes irregular leap seconds.
+- **TAI**: International Atomic Time, continuous without leap seconds.
+- **TDB**: Barycentric Dynamical Time, standard for Solar System dynamics and relativistic orbital modeling.
+"""
+            }
+        ]
+    },
+
+    # -------------------------------------------------------------
+    # 3. BACKEND: asyncio-concurrency-and-event-loop-architecture (Backlog: async-python-patterns)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "async-python-patterns",
+        "name": "asyncio-concurrency-and-event-loop-architecture",
+        "domain": "backend",
+        "category": "python",
+        "subcategory": "async-concurrency",
+        "description": "Use this skill to design, implement, and debug high-performance asynchronous Python systems using standard asyncio. It covers structured concurrency with asyncio.TaskGroup (Python 3.11+), resilient cancellation semantics, worker queues with backpressure, thread/process pool offloading with run_in_executor, event loop latency profiling, and avoiding blocking I/O pitfalls.",
+        "tags": ["backend", "python", "asyncio", "concurrency", "event-loop", "taskgroup", "multithreading", "performance"],
+        "technologies": ["Python", "asyncio", "uvloop", "concurrent.futures"],
+        "complexity": "expert",
+        "maturity": "stable",
+        "tools": ["python", "bash"],
+        "dependencies": ["python@>=3.11", "uvloop@>=0.19.0"],
+        "content": """# Python AsyncIO Concurrency & Event Loop Architecture
+
+## Overview
+
+A systems-level engineering standard for building robust, high-throughput asynchronous services and event-driven architectures in modern Python (3.11+). While Python's `asyncio` delivers massive I/O concurrency without thread overhead, production systems frequently suffer from unhandled task cancellations, silent task failures, blocking CPU operations that freeze the event loop, and queue memory leaks. This skill establishes clean patterns for structured concurrency (`asyncio.TaskGroup`), bounded worker pools, graceful process shutdown, and low-latency profiling.
+
+```
++------------------------------------------------------------------------+
+|                          AsyncIO Single-Thread Event Loop              |
+|                                                                        |
+|  +--------------------+     +--------------------+                     |
+|  | Coroutine Task A   |     | Coroutine Task B   |  (Non-blocking I/O) |
+|  | (Network Socket)   |     | (Database Client)  |                     |
+|  +--------------------+     +--------------------+                     |
+|            |                          |                                |
+|            v                          v                                |
+|  [ Structured Concurrency: asyncio.TaskGroup / ExceptionGroup ]        |
+|                               |                                        |
+|  [ Bounded Worker Queues ]    |   [ ThreadPoolExecutor Offloading ]    |
+|   (asyncio.Queue maxsize=100) |    (CPU-bound / Legacy Blocking SDKs)  |
+|                               |                                        |
++-------------------------------+----------------------------------------+
+```
+
+## When to Use
+
+- Building high-concurrency microservices, network proxies, stream processors, or web scraping pipelines handling thousands of open sockets.
+- Implementing worker pools where work generation must pause when downstream processing is saturated (backpressure).
+- Refactoring legacy code with `asyncio.gather()` to modern structured concurrency (`asyncio.TaskGroup`) for bulletproof exception propagation.
+- Offloading synchronous or CPU-intensive operations (cryptography, image manipulation, file I/O) to thread/process executors without stalling the event loop.
+
+## When NOT to Use
+
+- Pure CPU-bound parallel number crunching (use `multiprocessing`, Ray, or PySpark instead).
+- Simple scripts with strictly linear, sequential tasks where synchronous execution is clearer and faster to maintain.
+
+## Inputs & Prerequisites
+
+- Python 3.11 or higher (leveraging `asyncio.TaskGroup` and `ExceptionGroup`).
+- Async-compatible network and database drivers (`httpx`, `aiohttp`, `asyncpg`, `aiosqlite`).
+
+## Core Workflow
+
+### Step 1: Structured Concurrency with TaskGroup
+Eliminate orphan tasks and race conditions by replacing `asyncio.gather()` with `asyncio.TaskGroup`. If any subtask raises an exception, remaining tasks are automatically cancelled:
+
+```python
+import asyncio
+import logging
+
+logger = logging.getLogger(__name__)
+
+async def fetch_telemetry(device_id: str) -> dict:
+    await asyncio.sleep(0.1) # Simulate network fetch
+    if device_id == "sensor-invalid":
+        raise ValueError(f"Telemetry corruption on {device_id}")
+    return {"device_id": device_id, "status": "online"}
+
+async def ingest_device_fleet(device_ids: list[str]) -> list[dict]:
+    results = []
+    try:
+        async with asyncio.TaskGroup() as tg:
+            tasks = [tg.create_task(fetch_telemetry(did)) for did in device_ids]
+            
+        # All tasks completed successfully if we reach here
+        results = [t.result() for t in tasks]
+    except* ValueError as eg:
+        for exc in eg.exceptions:
+            logger.error("Fleet ingestion validation error: %s", exc)
+        raise
+    return results
+```
+
+### Step 2: Bounded Worker Pool with Backpressure
+Prevent memory exhaustion under traffic surges by using `asyncio.Queue` with a strict `maxsize`:
+
+```python
+import asyncio
+import random
+
+async def worker(worker_id: int, queue: asyncio.Queue):
+    while True:
+        job = await queue.get()
+        try:
+            # Process job
+            await asyncio.sleep(random.uniform(0.05, 0.2))
+            print(f"Worker {worker_id} processed job {job['id']}")
+        except asyncio.CancelledError:
+            # Clean up before exit
+            raise
+        except Exception as e:
+            print(f"Worker {worker_id} encountered job error: {e}")
+        finally:
+            queue.task_done()
+
+async def producer(queue: asyncio.Queue, total_jobs: int):
+    for i in range(total_jobs):
+        # When queue reaches maxsize, producer will asynchronously pause here
+        await queue.put({"id": i, "payload": f"data_{i}"})
+    print("Producer finished enqueuing all jobs.")
+
+async def run_pipeline():
+    queue = asyncio.Queue(maxsize=50) # Strict backpressure buffer
     
-    searcher = SpectralVectorSearch(k_neighbors=10, n_components=6)
-    spectral_coords = searcher.fit_transform(sample_data)
-    print("Projected embeddings into spectral space:", spectral_coords.shape)
-
-    neighbors = searcher.query_spectral_neighbors(item_index=0, top_k=3)
-    print("Nearest spectral neighbors for item 0:")
-    for rank, (idx, dist) in enumerate(neighbors, 1):
-        print(f" {rank}. Item {idx} (Spectral Distance: {dist:.4f})")
+    # Spawn 5 worker coroutines
+    workers = [asyncio.create_task(worker(i, queue)) for i in range(5)]
+    
+    await producer(queue, total_jobs=200)
+    await queue.join() # Wait until all items are processed
+    
+    for w in workers:
+        w.cancel()
+    await asyncio.gather(*workers, return_exceptions=True)
 ```
 
-### 2. Spectral vs. Cosine Manifold Diagnostics
-- When embeddings reside on convoluted manifold branches, data points that are distant in Euclidean space may share high graph connectivity.
-- Spectral search respects geodesic manifold distance, grouping points along intrinsic cluster paths.
+### Step 3: Offloading Blocking Synchronous Calls
+Never execute blocking I/O (e.g., standard `requests.get()`, `time.sleep()`, disk writes) directly in the event loop:
+
+```python
+import asyncio
+import time
+from concurrent.futures import ThreadPoolExecutor
+
+executor = ThreadPoolExecutor(max_workers=8)
+
+def blocking_legacy_computation(data: bytes) -> bytes:
+    # CPU or blocking disk operation
+    time.sleep(0.5)
+    return data.upper()
+
+async def safe_async_wrapper(data: bytes) -> bytes:
+    loop = asyncio.get_running_loop()
+    # Runs in worker thread, leaving event loop unblocked
+    result = await loop.run_in_executor(executor, blocking_legacy_computation, data)
+    return result
+```
+
+### Step 4: Graceful Signal Handling and Teardown
+Handle `SIGINT` / `SIGTERM` cleanly to allow ongoing requests to finish within a timeout:
+
+```python
+import signal
+
+def setup_graceful_shutdown(loop, stop_event: asyncio.Event):
+    for sig in (signal.SIGINT, signal.SIGTERM):
+        try:
+            loop.add_signal_handler(sig, lambda s=sig: asyncio.create_task(handle_exit(s, stop_event)))
+        except NotImplementedError:
+            # Windows fallback
+            pass
+
+async def handle_exit(sig, stop_event: asyncio.Event):
+    print(f"\\nReceived signal {sig.name}. Initiating graceful shutdown...")
+    stop_event.set()
+```
 
 ## Best Practices & Failure Modes
 
-- **Disconnected Graph Components**: If the affinity graph contains disconnected subgraphs, multiple zero eigenvalues appear ($k$ components with $\lambda=0$); ensure the graph is fully connected by adjusting $k$-neighbors.
-- **Sparse vs Dense Scaling**: For $N > 5000$, never use dense NumPy matrix operations; use `scipy.sparse.csr_matrix` and iterative ARPACK eigensolvers (`eigsh`) to prevent $O(N^2)$ memory exhaustion.
-- **Numerical Stability**: Clamp negative distance matrix values with `np.maximum(dist_sq, 0.0)` to eliminate floating-point precision artifacts.
+- **Event Loop Starvation**: Avoid any operation taking > 10ms without an `await`. Use Python's `-X dev` or `PYTHONASYNCIODEBUG=1` to detect slow callbacks automatically.
+- **CancelledError Swallowing**: Never catch `except Exception:` without re-raising `asyncio.CancelledError`, or tasks will become un-cancellable zombies.
+- **ContextVars Thread-Safety**: When using `asyncio.create_task()`, context variables (`contextvars`) are copied shallowly to child tasks.
+- **uvloop in Production**: On Linux/macOS production servers, install `uvloop` and call `uvloop.install()` before running the event loop for a 2-4x speedup.
 
 ## Verification & Testing
 
-- Validate NumPy and SciPy eigensolver execution:
-  ```bash
-  python -c "import numpy, scipy.sparse; print('Spectral linear algebra libraries ready')"
-  ```
-- Test spectral projection computation:
-  ```bash
-  python -c "print('Spectral vector search unit tests pass')"
-  ```
+1. Test cancellation semantics using `pytest-asyncio` with explicit task timeout wrappers.
+2. Run loop debug mode: `python -X dev server.py` and ensure zero `Executing <Task ...> took 0.XXX seconds` warnings appear.
+3. Verify leak prevention: Run memory profiling during sustained load to confirm `asyncio.all_tasks()` count remains bounded.
+""",
+        "scripts": [
+            {
+                "name": "event_loop_profiler.py",
+                "description": "Profiles event loop latency and detects blocking operations by measuring scheduling jitter.",
+                "code": """#!/usr/bin/env python3
+import asyncio
+import time
+import sys
+
+async def jitter_monitor(interval=0.05, threshold=0.03):
+    print(f"Monitoring event loop jitter (interval={interval}s, warning threshold={threshold}s)...")
+    lag_samples = []
+    
+    try:
+        while True:
+            target = time.perf_counter() + interval
+            await asyncio.sleep(interval)
+            now = time.perf_counter()
+            drift = now - target
+            
+            if drift > threshold:
+                print(f"[EVENT LOOP STALL DETECTED]: Delay={drift*1000:.2f}ms above baseline!")
+            
+            lag_samples.append(drift)
+            if len(lag_samples) >= 50:
+                avg_lag = sum(lag_samples) / len(lag_samples) * 1000
+                max_lag = max(lag_samples) * 1000
+                print(f"Metrics (last 50 ticks): Avg Jitter={avg_lag:.2f}ms | Max Stall={max_lag:.2f}ms")
+                lag_samples.clear()
+    except asyncio.CancelledError:
+        print("Jitter monitor stopped cleanly.")
+
+async def simulate_workload():
+    await asyncio.sleep(1.0)
+    print("Simulating brief blocking operation to verify detector...")
+    time.sleep(0.08) # Deliberate 80ms block
+    await asyncio.sleep(2.0)
+
+async def main():
+    monitor_task = asyncio.create_task(jitter_monitor())
+    workload_task = asyncio.create_task(simulate_workload())
+    
+    await workload_task
+    monitor_task.cancel()
+    await asyncio.gather(monitor_task, return_exceptions=True)
+
+if __name__ == "__main__":
+    asyncio.run(main())
 """
+            }
+        ],
+        "references": [
+            {
+                "title": "AsyncIO Antipatterns and Performance Checklist",
+                "filename": "asyncio_architecture_reference.md",
+                "content": """# AsyncIO Engineering Patterns & Antipatterns
+
+## Critical Antipatterns
+1. **Unbounded `asyncio.gather(*tasks)` with thousands of elements**:
+   - Spawns thousands of concurrent sockets immediately, exhausting file descriptors (`ulimit -n`).
+   - Fix: Use `asyncio.Semaphore(max_concurrent)` or an `asyncio.Queue` worker pool.
+
+2. **Synchronous File I/O in Async Handlers**:
+   - `open('large.json', 'r').read()` blocks the main thread completely.
+   - Fix: Use `anyio.to_thread.run_sync` or `aiofiles`.
+
+3. **Silent Exception Loss**:
+   - Spawning fire-and-forget tasks with `asyncio.create_task(coro())` without retaining references. If the task fails, the exception is only printed when garbage collected.
+   - Fix: Retain task references or use `TaskGroup`.
+"""
+            }
+        ]
     },
 
     # -------------------------------------------------------------
-    # 4. CREATIVE: technical-editorial-illustration-and-visual-metaphors (Backlog: article-illustrations)
+    # 4. SECURITY: threat-modeling-and-attack-tree-construction (Backlog: attack-tree-construction)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "article-illustrations",
-        "name": "technical-editorial-illustration-and-visual-metaphors",
-        "domain": "creative",
-        "category": "illustration",
-        "subcategory": "technical-diagrams",
-        "description": "Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.",
-        "tags": ["technical-illustration", "visual-metaphors", "editorial-design", "svg-diagrams", "architecture-diagrams", "creative"],
-        "technologies": ["SVG", "CSS3", "Mermaid", "Prompt Engineering", "Canva / Figma Standards"],
-        "complexity": "intermediate",
+        "backlog_ref": "attack-tree-construction",
+        "name": "threat-modeling-and-attack-tree-construction",
+        "domain": "security",
+        "category": "threat-modeling",
+        "subcategory": "attack-trees",
+        "description": "Use this skill to systematically model adversary capabilities and visualize attack vectors using hierarchical AND/OR attack trees. It covers root goal definition, node decomposition, probability and cost quantification, STRIDE mapping, residual risk scoring (DREAD/CVSS), and mapping defensive countermeasures directly to leaf-node vectors.",
+        "tags": ["security", "threat-modeling", "attack-trees", "risk-assessment", "stride", "dread", "appsec", "adversary-modeling"],
+        "technologies": ["Threat Modeling", "Mermaid.js", "Python", "Graphviz", "STRIDE", "CVSS"],
+        "complexity": "advanced",
         "maturity": "stable",
-        "tools": ["svg", "markdown"],
-        "dependencies": ["python >= 3.10"],
-        "content": """# Technical Editorial Illustration & Visual Metaphor Design
+        "tools": ["python", "bash"],
+        "dependencies": ["python@>=3.10"],
+        "content": """# Threat Modeling & Hierarchical Attack Tree Construction
 
 ## Overview
 
-A creative engineering standard for conceptualizing, authoring, and structuring editorial technical illustrations and visual architecture metaphors for software engineering documentation, RFCs, and engineering blogs. Abstract distributed systems concepts (Raft consensus leader election, database sharding rebalancing, Kafka consumer backpressure, zero-trust token handshakes) are notoriously difficult to explain through pure text. This skill equips AI agents to translate complex architectural dynamics into clear, high-craft SVG illustrations, visual metaphors, and standardized color-coded engineering diagrams.
+A structured security engineering framework for modeling adversary tactics, calculating compromise probabilities, and designing defensive mitigations using hierarchical Attack Trees (Schneier methodology). While high-level threat frameworks like STRIDE enumerate abstract categories of risk, Attack Trees mathematically decompose a root compromise goal (e.g., "Exfiltrate Customer Database") into logical AND/OR conditions across concrete attack surfaces. This skill guides security architects, penetration testers, and AI agents in constructing valid attack trees, quantifying adversary cost vs. payoff, and prioritizing security controls.
+
+```
+                     [ Root Goal: Compromise Production DB ]
+                                        |
+                 +----------------------+----------------------+ (OR)
+                 |                                             |
+    [ Target: Exfiltrate via SQLi ]              [ Target: Stolen IAM Credentials ]
+                 |                                             |
+        +--------+--------+ (AND)                     +--------+--------+ (AND)
+        |                 |                           |                 |
+ [ Find Unsanitized ] [ Bypass WAF ]           [ Phish Admin Key ] [ Bypass MFA ]
+```
 
 ## When to Use
 
-- Designing hero illustrations and conceptual header diagrams for technical blog posts and architecture guides.
-- Translating difficult distributed systems concepts into accessible, accurate visual metaphors.
-- Generating crisp, scalable vector SVG illustrations with responsive viewports and dark-mode support.
-- Establishing consistent visual style guides (line weights, typography, color palettes) for developer docs.
+- Performing architecture threat assessments during design phases for cloud, fintech, or healthcare infrastructure.
+- Evaluating the security posture of an existing software system prior to third-party penetration testing.
+- Quantifying the ROI of security mitigations (e.g., measuring whether implementing WebAuthn MFA breaks the lowest-cost attack path).
+- Formalizing attack chains for incident response table-top exercises.
 
 ## When NOT to Use
 
-- Generating photorealistic marketing stock photos (use diffusion models).
-- Low-level UML class hierarchy diagrams (use Mermaid or PlantUML).
+- Automated low-level vulnerability scanning (e.g., running Semgrep, Trivy, or OWASP ZAP).
+- Writing exploitation payloads or exploit automation code.
 
 ## Inputs & Prerequisites
 
-- Core technical concept requiring visual explanation (e.g., "Event-driven backpressure under burst traffic").
-- Brand color palette (Primary, Secondary, Accent, Dark Surface, Light Text).
-- Target display medium (16:9 widescreen blog hero, inline documentation callout, presentation slide).
+- System architecture diagrams, data flow diagrams (DFD), trust boundaries, and asset inventory.
+- Target threat actor profiles (opportunistic script kiddie, cybercriminal group, malicious insider, nation-state).
+- Graphing utilities (Mermaid.js or Graphviz) for tree rendering.
 
 ## Core Workflow
 
-### 1. Conceptual Metaphor Mapping Matrix
-Select physical and architectural metaphors that accurately mirror system behaviors:
+### Step 1: Root Goal Identification and Scope
+Select an attacker-centric root objective focused on critical asset compromise rather than an abstract vulnerability:
+- *Bad*: "SQL Injection in User Profile" (Vulnerability, not goal).
+- *Good*: "Exfiltrate Unencrypted PII from Customer Database" (Root objective).
 
-| Technical Concept | Ineffective Cliché | High-Impact Visual Metaphor | Core Mechanism |
-| :--- | :--- | :--- | :--- |
-| **Kafka Backpressure** | Generic pipeline pipes | Overflow reservoir with tiered floodgates | Producers pause when buffer reaches high-water mark |
-| **Raft Consensus** | Generic server boxes | Quorum council casting cryptographic ballots | Split-brain prevention via strict majority vote |
-| **Database Sharding** | Broken database icon | Postal sorting facility routing by zip-code hash | Deterministic key routing to partitioned nodes |
-| **mTLS Zero-Trust** | Padlock on an arrow | Mutual passport verification at border checkpoint | Both client and server authenticate each other |
+### Step 2: Hierarchical Node Decomposition (AND/OR Logic)
+Decompose nodes top-down into logical prerequisites:
+- **OR Nodes**: The attacker succeeds if *any* single child node succeeds (multiple alternate paths).
+- **AND Nodes**: The attacker succeeds *only if all* child nodes succeed (chained prerequisites).
 
-### 2. Scalable Responsive SVG Illustration Template
-Author hand-crafted, clean SVG code with dark-mode CSS variables:
-
-```xml
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
-  <defs>
-    <style>
-      .bg { fill: #0f172a; }
-      .surface { fill: #1e293b; stroke: #334155; stroke-width: 2; }
-      .accent { fill: #38bdf8; }
-      .accent-stroke { stroke: #38bdf8; stroke-width: 3; stroke-dasharray: 6 4; }
-      .node-text { font-family: 'Inter', sans-serif; font-size: 14px; fill: #f8fafc; font-weight: 600; }
-      .sub-text { font-family: 'Inter', sans-serif; font-size: 11px; fill: #94a3b8; }
-      .pulse-ring { stroke: #10b981; stroke-width: 2; fill: none; opacity: 0.7; }
-    </style>
-    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8" />
-    </marker>
-  </defs>
-
-  <!-- Background Canvas -->
-  <rect width="100%" height="100%" class="bg" rx="12" />
-
-  <!-- Node 1: Event Producer -->
-  <g transform="translate(80, 180)">
-    <rect width="160" height="90" rx="8" class="surface" />
-    <text x="80" y="42" text-anchor="middle" class="node-text">Event Producer</text>
-    <text x="80" y="62" text-anchor="middle" class="sub-text">High-Throughput Ingress</text>
-  </g>
-
-  <!-- Node 2: Buffer Reservoir (Metaphor) -->
-  <g transform="translate(320, 150)">
-    <rect width="160" height="150" rx="10" class="surface" />
-    <rect x="15" y="60" width="130" height="75" rx="6" fill="#0369a1" opacity="0.4" />
-    <text x="80" y="35" text-anchor="middle" class="node-text">Partition Buffer</text>
-    <text x="80" y="105" text-anchor="middle" class="sub-text">Dynamic Reservoir (72%)</text>
-  </g>
-
-  <!-- Node 3: Rate-Limited Consumer -->
-  <g transform="translate(560, 180)">
-    <rect width="160" height="90" rx="8" class="surface" />
-    <circle cx="80" cy="45" r="32" class="pulse-ring" />
-    <text x="80" y="42" text-anchor="middle" class="node-text">Worker Consumer</text>
-    <text x="80" y="62" text-anchor="middle" class="sub-text">Paced Processing (250/s)</text>
-  </g>
-
-  <!-- Connecting Flows -->
-  <path d="M 240 225 L 320 225" class="accent-stroke" marker-end="url(#arrow)" />
-  <path d="M 480 225 L 560 225" class="accent-stroke" marker-end="url(#arrow)" />
-</svg>
+```mermaid
+graph TD
+    Root["Goal: Unauthorized Admin Access to Cloud Console"]
+    Root --> OR1{"OR"}
+    
+    OR1 --> PathA["Compromise IAM Long-Lived Key"]
+    OR1 --> PathB["Session Hijacking / Token Theft"]
+    OR1 --> PathC["Exploit SSO Identity Provider"]
+    
+    PathA --> AND1{"AND"}
+    AND1 --> A1["Scan Public GitHub for Leaked Access Key"]
+    AND1 --> A2["Key lacks IP Restriction Policy"]
+    
+    PathB --> AND2{"AND"}
+    AND2 --> B1["Deploy Infostealer Malware to Admin Laptop"]
+    AND2 --> B2["Extract Active AWS SSO Cookie"]
+    AND2 --> B3["Bypass Conditional Access Session Token"]
 ```
 
-### 3. Visual Craft & Style Guide Rules
-- **Color Discipline**: Never use more than 3 semantic hues: Base Surface (`slate-900`), Brand Anchor (`sky-400`), and Status Indicator (`emerald-500` or `rose-500`).
-- **Typography Sizing**: Minimum font size for any label in a 16:9 graphic is 12px to maintain legibility on mobile devices.
-- **Negative Space**: Ensure 25% of the canvas consists of clean negative space to focus viewer attention on the core flow.
+### Step 3: Adversary Cost and Feasibility Quantification
+Assign standard quantitative attributes to each leaf node:
+- **Cost**: Financial expenditure required (Low: <$100, Medium: <$10k, High: >$10k).
+- **Skill Required**: Novice, Intermediate, Advanced, Elite/Nation-State.
+- **Likelihood**: Probability of success within 12 months (0.0 to 1.0).
+- **Detection Probability**: Chance of triggering an alert during execution.
+
+### Step 4: Defense Mapping & Cut-Set Identification
+Identify the "Minimal Cut Set"—the smallest combination of defensive mitigations that completely severs all valid attack paths leading to the root goal:
+
+| Leaf Node Attack Vector | Defensive Countermeasure | Impact on Attack Tree |
+|---|---|---|
+| Leaked Access Keys in Git | Git pre-commit secret scanning + short-lived AWS IAM Identity Center tokens | Completely eliminates Path A |
+| Cookie Theft via Infostealer | FIDO2 / WebAuthn Hardware Security Keys (Device-bound credentials) | Cuts Path B session reuse |
+| SSO Credential Stuffing | Phishing-resistant MFA + Risk-based conditional access policies | Cuts Path C |
 
 ## Best Practices & Failure Modes
 
-- **Visual Accuracy Over Metaphor**: Never sacrifice technical truth for metaphor; if an analogy oversimplifies or misrepresents how the protocol operates, revise the visual.
-- **Unscalable Text in SVG**: Always use `viewBox` rather than hardcoded pixel widths to allow responsive resizing across screen sizes.
-- **Accessibility Contrast**: Ensure text labels have at least 4.5:1 contrast ratio against the node background.
+- **Avoid Infinite Leaf Explosion**: Stop decomposing when reaching standard primitives (e.g., "Exploit known CVE in unpatched nginx") rather than modeling compiler internals.
+- **Strict AND/OR Semantics**: Ensure intermediate nodes explicitly declare whether children are independent options (OR) or mandatory steps in a sequential chain (AND).
+- **Keep Trees Dynamic**: Update trees when defensive controls change or when new public exploit techniques are disclosed.
 
 ## Verification & Testing
 
-- Validate SVG XML structure:
-  ```bash
-  python -c "import xml.etree.ElementTree; print('SVG XML parser validated')"
-  ```
-- Test SVG rendering:
-  ```bash
-  python -c "print('Editorial illustration template verified')"
-  ```
+1. Verify that every path from root to leaves contains valid logical transitions without circular loops.
+2. Confirm that proposed defensive controls break at least one node in every branch of an OR set.
+3. Validate tree syntax with Mermaid linting or Graphviz compile tests.
+""",
+        "scripts": [
+            {
+                "name": "attack_tree_evaluator.py",
+                "description": "Parses a JSON/YAML attack tree model and computes the lowest-cost attack path and minimal cut set.",
+                "code": """#!/usr/bin/env python3
+import json
+import sys
+
+SAMPLE_TREE = {
+    "goal": "Exfiltrate Customer DB",
+    "type": "OR",
+    "children": [
+        {
+            "name": "SQL Injection in Search API",
+            "type": "AND",
+            "children": [
+                {"name": "Discover parameter SQLi", "cost": 2, "skill": "medium"},
+                {"name": "Bypass ModSecurity WAF", "cost": 4, "skill": "high"}
+            ]
+        },
+        {
+            "name": "Compromise Database Backup Bucket",
+            "type": "AND",
+            "children": [
+                {"name": "Obtain S3 read credentials", "cost": 3, "skill": "medium"},
+                {"name": "Overcome S3 bucket KMS encryption", "cost": 6, "skill": "high"}
+            ]
+        },
+        {
+            "name": "Insider Credential Abuse",
+            "cost": 10,
+            "skill": "low"
+        }
+    ]
+}
+
+def calculate_min_cost(node):
+    if "cost" in node and "children" not in node:
+        return node["cost"], [node["name"]]
+    
+    node_type = node.get("type", "OR")
+    if node_type == "AND":
+        total_cost = 0
+        all_steps = []
+        for child in node["children"]:
+            c, steps = calculate_min_cost(child)
+            total_cost += c
+            all_steps.extend(steps)
+        return total_cost, all_steps
+    else: # OR node
+        best_cost = float("inf")
+        best_path = []
+        for child in node["children"]:
+            c, steps = calculate_min_cost(child)
+            if c < best_cost:
+                best_cost = c
+                best_path = steps
+        return best_cost, best_path
+
+def evaluate_tree(tree_data):
+    print("=" * 65)
+    print(f"Attack Tree Evaluation: Root Goal = '{tree_data['goal']}'")
+    print("=" * 65)
+    min_cost, path = calculate_min_cost(tree_data)
+    print(f"Lowest Adversary Cost to Compromise: {min_cost} points")
+    print("\\nMost Probable / Lowest-Resistance Attack Path:")
+    for idx, step in enumerate(path, 1):
+        print(f"  {idx}. {step}")
+
+if __name__ == "__main__":
+    evaluate_tree(SAMPLE_TREE)
 """
+            }
+        ],
+        "references": [
+            {
+                "title": "Attack Tree Modeling Methodology & STRIDE Mapping Guide",
+                "filename": "attack_tree_methodology.md",
+                "content": """# Attack Tree Methodology Guide
+
+## Bruce Schneier Attack Tree Notation
+Attack trees were popularized by Bruce Schneier in 1999 as a formal method to evaluate cyber-physical and information security systems:
+- Nodes represent sub-goals.
+- Leaves represent individual attack vectors.
+- Operators (AND / OR) quantify whether attackers need parallel conditions or choices.
+
+## Node Scoring Matrix
+| Metric | Low (1 pt) | Medium (3 pts) | High (5 pts) | Extreme (10 pts) |
+|---|---|---|---|---|
+| Attacker Cost | < $100 | $100 - $5,000 | $5,000 - $50,000 | > $50,000 |
+| Skill Needed | Script Kiddie | Experienced Dev | Penetration Tester | Nation-State APT |
+| Equipment | Standard Laptop | Commercial Tools | Specialized Hardware | Zero-Day Research Lab |
+"""
+            }
+        ]
     },
 
     # -------------------------------------------------------------
-    # 5. DEVOPS: apple-silicon-container-runtime-optimization (Backlog: apple-container)
+    # 5. AI-ENGINEERING: whisper-speech-to-text-and-diarization-pipeline (Backlog: audio-transcriber)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "apple-container",
-        "name": "apple-silicon-container-runtime-optimization",
-        "domain": "devops",
-        "category": "containers",
-        "subcategory": "apple-silicon",
-        "description": "Use this skill to build, optimize, and manage lightweight OCI Linux containers and microVM runtimes on Apple Silicon (ARM64 macOS) using native virtualization frameworks, Rosetta 2 multi-arch emulation, Colima, and OrbStack. It covers cross-platform multi-arch image compilation (buildx), bind-mount I/O caching, and GPU acceleration.",
-        "tags": ["apple-silicon", "arm64", "docker", "orbstack", "colima", "containers", "rosetta", "devops"],
-        "technologies": ["Docker Buildx", "Colima", "OrbStack", "macOS Virtualization.framework", "ARM64", "Rosetta 2"],
-        "complexity": "intermediate",
+        "backlog_ref": "audio-transcriber",
+        "name": "whisper-speech-to-text-and-diarization-pipeline",
+        "domain": "ai-engineering",
+        "category": "audio-processing",
+        "subcategory": "speech-recognition",
+        "description": "Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.",
+        "tags": ["ai-engineering", "audio-processing", "speech-to-text", "whisper", "faster-whisper", "speaker-diarization", "pyannote", "vad"],
+        "technologies": ["Whisper", "faster-whisper", "PyAnnote", "Silero VAD", "FFmpeg", "Python"],
+        "complexity": "advanced",
         "maturity": "stable",
-        "tools": ["docker", "bash"],
-        "dependencies": ["docker >= 24.0.0", "colima >= 0.6.0"],
-        "content": """# Apple Silicon OCI Container Runtime & Multi-Arch Architecture
+        "tools": ["python", "ffmpeg", "bash"],
+        "dependencies": ["faster-whisper@>=1.0.0", "pyannote.audio@>=3.1.0", "torch@>=2.1.0"],
+        "content": """# Whisper Speech-to-Text & Multi-Speaker Diarization Pipeline
 
 ## Overview
 
-A high-performance local DevOps engineering standard for developing, compiling, and running Linux OCI containers on Apple Silicon (M1/M2/M3/M4 ARM64 macOS). Developing cloud applications on Apple Silicon workstations introduces specific friction points: slow x86_64 emulation under QEMU, slow file-system I/O overhead on Docker Desktop bind mounts, and deploying ARM64 images to x86_64 cloud Kubernetes clusters by mistake. This skill equips AI engineers to utilize native Apple Virtualization.framework runtimes (OrbStack, Colima), configure Rosetta 2 translation for x86 binaries, accelerate bind mounts with VirtioFS, and build multi-arch images with `docker buildx`.
+A production engineering standard for building high-accuracy, cost-effective automated speech recognition (ASR) pipelines with multi-speaker diarization. While vanilla Whisper models transcribe audio with remarkable linguistic precision, enterprise use cases (boardroom meetings, clinical consultations, podcast production, customer support triage) require knowing *who* spoke *when*, filtering non-speech background noise, and executing inference with high throughput. This skill guides AI engineers in integrating `faster-whisper` (CTranslate2 INT8/FP16 quantization), Silero Voice Activity Detection (VAD), and `pyannote.audio` speaker clustering to generate timestamped, speaker-labeled Markdown and subtitle outputs.
+
+```
++------------------------------------------------------------------------+
+|                 Speech Processing & Diarization Pipeline               |
+|                                                                        |
+|  [ Raw Audio / Video ] ---> [ FFmpeg Audio Normalization (16kHz Mono) ]|
+|                                              |                         |
+|                      +-----------------------+                         |
+|                      |                                                 |
+|                      v                                                 |
+|          [ Silero VAD Pre-Filter ] (Remove dead silence & background)  |
+|                      |                                                 |
+|         +------------+------------+                                    |
+|         v                         v                                    |
+|  [ faster-whisper ]      [ pyannote.audio ]                            |
+|  (CTranslate2 ASR)       (Speaker Embedding & Clustering)              |
+|         |                         |                                    |
+|         +------------+------------+                                    |
+|                      v                                                 |
+|      [ Timestamp Alignment & Speaker Fusion ]                          |
+|                      |                                                 |
+|                      v                                                 |
+|  [ Formatted Output: Markdown Notes / SRT / JSON Transcript ]          |
++------------------------------------------------------------------------+
+```
 
 ## When to Use
 
-- Optimizing local container performance, memory consumption, and battery life on Apple Silicon macOS laptops.
-- Building multi-architecture container images (`linux/arm64` and `linux/amd64`) for cross-platform cloud deployment.
-- Accelerating heavy source-code bind-mount I/O performance (Node.js `node_modules`, Python virtual environments) using VirtioFS.
-- Running legacy x86_64 Linux container workloads on Apple Silicon using hardware-accelerated Rosetta 2.
+- Transcribing executive meetings, interviews, podcasts, or customer calls where distinguishing speaker identities is mandatory.
+- Deploying private, on-premise, or cloud ASR pipelines that eliminate recurring third-party API costs.
+- Generating synchronized subtitle files (`.srt`, `.vtt`) with precise word-level timing.
+- Batch processing gigabytes of legacy audio recordings with GPU-accelerated INT8 quantization.
 
 ## When NOT to Use
 
-- Running Linux containers natively inside an actual production Linux datacenter.
-- Developing native iOS or macOS Cocoa applications (use Xcode).
+- Real-time, ultra-low latency voice-to-voice streaming conversational agents (<200ms budget; use streaming WebRTC ASR like Whisper-live or Deepgram Nova-2).
+- Non-speech audio classification (e.g., gunshot detection, musical pitch estimation).
 
 ## Inputs & Prerequisites
 
-- Apple Silicon Mac running macOS 13+ (Ventura, Sonoma, Sequoia).
-- Container runtime installed: OrbStack, Colima (`brew install colima docker`), or Docker Desktop with VirtioFS enabled.
-- Docker CLI and Buildx plugin configured.
+- Audio/video files in standard formats (`.wav`, `.mp3`, `.m4a`, `.mp4`, `.flac`).
+- FFmpeg installed in the system PATH.
+- Python 3.10+ with PyTorch (CUDA optional but recommended for speed).
+- Hugging Face user access token for downloading PyAnnote diarization weights.
 
 ## Core Workflow
 
-### 1. High-Performance Colima Runtime Configuration (CLI)
-Initialize an optimized ARM64 Linux VM with VirtioFS and Rosetta translation:
+### Step 1: Audio Pre-Processing with FFmpeg
+Convert incoming audio streams to 16kHz 16-bit mono PCM, the standard sample rate for Whisper and PyAnnote:
 
 ```bash
-# Start Colima with native Apple Virtualization.framework, VirtioFS, and Rosetta 2
-colima start \\
-  --arch aarch64 \\
-  --cpu 4 \\
-  --memory 8 \\
-  --vm-type=vz \\
-  --mount-type=virtiofs \\
-  --rosetta
-
-# Verify runtime architecture
-docker info --format '{{.Architecture}}' # Output: aarch64
+ffmpeg -i input_media.mp4 -vn -ar 16000 -ac 1 -c:a pcm_s16le normalized_audio.wav
 ```
 
-### 2. Multi-Architecture Image Compilation with Docker Buildx
-Build and push cross-platform container images concurrently:
+### Step 2: Accelerated Transcription with faster-whisper
+Use `faster-whisper` (CTranslate2) for 4x faster execution and 50% lower VRAM consumption:
 
-```bash
-#!/usr/bin/env bash
-set -euo pipefail
+```python
+from faster_whisper import WhisperModel
 
-# 1. Create and bootstrap Buildx multi-arch builder instance
-docker buildx create --name multiarch-builder --use --bootstrap || docker buildx use multiarch-builder
+# Use "large-v3" for maximum accuracy, or "distil-large-v3" for high speed
+# Compute type: "float16" on GPU, "int8" on CPU
+model = WhisperModel("large-v3", device="cuda", compute_type="float16")
 
-# 2. Build for both ARM64 (local testing) and AMD64 (production cloud)
-IMAGE_NAME="acme/api-service:2.4.0"
+segments, info = model.transcribe(
+    "normalized_audio.wav",
+    beam_size=5,
+    vad_filter=True, # Built-in Silero VAD chunking
+    vad_parameters=dict(min_silence_duration_ms=500),
+    language="en",
+    word_timestamps=True
+)
 
-echo "Building multi-arch container image for linux/amd64 and linux/arm64..."
-docker buildx build \\
-  --platform linux/amd64,linux/arm64 \\
-  -t "${IMAGE_NAME}" \\
-  -f Dockerfile \\
-  --push \\
-  .
-
-# 3. Verify multi-arch manifest
-docker buildx imagetools inspect "${IMAGE_NAME}"
+transcription_segments = []
+for segment in segments:
+    transcription_segments.append({
+        "start": segment.start,
+        "end": segment.end,
+        "text": segment.text.strip(),
+        "words": [{"word": w.word, "start": w.start, "end": w.end, "prob": w.probability} for w in segment.words]
+    })
 ```
 
-### 3. Dockerfile Best Practices for Apple Silicon
-Optimize package managers and base images for native ARM64:
+### Step 3: Speaker Diarization with pyannote.audio
+Extract speaker segmentation turns from the normalized audio:
 
-```dockerfile
-# Use multi-arch friendly official base images
-FROM --platform=$BUILDPLATFORM python:3.11-slim AS builder
+```python
+from pyannote.audio import Pipeline
+import torch
 
-WORKDIR /app
+def run_diarization(audio_path: str, hf_token: str):
+    pipeline = Pipeline.from_pretrained(
+        "pyannote/speaker-diarization-3.1",
+        use_auth_token=hf_token
+    )
+    if torch.cuda.is_available():
+        pipeline.to(torch.device("cuda"))
+        
+    diarization = pipeline(audio_path)
+    
+    speaker_turns = []
+    for turn, _, speaker in diarization.itertracks(yield_label=True):
+        speaker_turns.append({
+            "start": turn.start,
+            "end": turn.end,
+            "speaker": speaker
+        })
+    return speaker_turns
+```
 
-# Install dependencies using pre-compiled wheels where possible
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+### Step 4: Speaker-to-Text Temporal Fusion
+Assign speaker labels to transcription segments by calculating maximum temporal intersection:
 
-COPY . ./
+```python
+def merge_speaker_and_text(transcripts, speaker_turns):
+    merged = []
+    
+    for seg in transcripts:
+        seg_start = seg["start"]
+        seg_end = seg["end"]
+        seg_mid = (seg_start + seg_end) / 2.0
+        
+        # Find overlapping speaker
+        matched_speaker = "Unknown"
+        for turn in speaker_turns:
+            if turn["start"] <= seg_mid <= turn["end"]:
+                matched_speaker = turn["speaker"]
+                break
+                
+        merged.append({
+            "speaker": matched_speaker,
+            "start": seg_start,
+            "end": seg_end,
+            "text": seg["text"]
+        })
+        
+    return merged
+```
 
-# Target execution platform
-FROM python:3.11-slim
-WORKDIR /app
-COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
-COPY --from=builder /app /app
+### Step 5: Structured Markdown Output Formatting
+Group consecutive utterances by the same speaker into readable conversation blocks:
 
-EXPOSE 8000
-CMD ["python3", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+```python
+def format_to_markdown(merged_entries) -> str:
+    md_lines = ["# Meeting & Audio Transcription\\n"]
+    current_speaker = None
+    
+    for entry in merged_entries:
+        speaker = entry["speaker"]
+        timestamp = f"[{int(entry['start'] // 60):02d}:{int(entry['start'] % 60):02d}]"
+        
+        if speaker != current_speaker:
+            current_speaker = speaker
+            md_lines.append(f"\\n### {speaker} {timestamp}\\n")
+            
+        md_lines.append(f"{entry['text']} ")
+        
+    return "\\n".join(md_lines)
 ```
 
 ## Best Practices & Failure Modes
 
-- **Slow x86_64 Emulation Without Rosetta**: If running x86 containers without Rosetta 2, QEMU software emulation can be 10x slower. Always enable Rosetta 2 emulation in OrbStack or Colima.
-- **Accidental ARM64 Cloud Deploys**: Building images locally without `--platform linux/amd64` will create an ARM64 image that fails to execute on x86_64 cloud nodes (`exec format error`).
-- **Bind Mount File Locking**: Use named Docker volumes or VirtioFS caching rather than raw osxfs mounts for high-frequency database writes (e.g., PostgreSQL local test databases).
+- **Audio Clipping & Low SNR**: Poor microphone gain leads to hallucinated repetitive sentences in Whisper. Normalize audio gain using `-af loudnorm` in FFmpeg.
+- **Cross-Talk & Overlapping Speakers**: When two speakers talk simultaneously, PyAnnote flags overlapping segments. Whisper might capture only the louder speaker. Handle overlapping intervals gracefully.
+- **VAD Truncation**: Ensure `min_silence_duration_ms` is set to at least 400-500ms; overly aggressive silence pruning cuts off word endings and natural pauses.
 
 ## Verification & Testing
 
-- Verify Docker Buildx availability:
-  ```bash
-  docker buildx version || echo "Docker buildx verified"
-  ```
-- Test multi-arch script syntax:
-  ```bash
-  python -c "print('Apple Silicon container architecture verified')"
-  ```
+1. Test transcription accuracy against a standardized ground truth audio snippet (measure Word Error Rate / WER).
+2. Verify speaker change transitions: Ensure no single speaker monologue artificially crosses distinct conversational turns.
+3. Validate output formats: Generate valid SRT files and verify with subtitle players like VLC.
+""",
+        "scripts": [
+            {
+                "name": "audio_transcription_cli.py",
+                "description": "CLI utility to transcribe audio files with faster-whisper, generating timestamped Markdown transcripts.",
+                "code": """#!/usr/bin/env python3
+import sys
+import os
+
+def transcribe_file(audio_path, output_md=None):
+    if not os.path.exists(audio_path):
+        print(f"Error: Audio file '{audio_path}' not found.")
+        sys.exit(1)
+
+    try:
+        from faster_whisper import WhisperModel
+    except ImportError:
+        print("faster-whisper is not installed. Run 'pip install faster-whisper'.")
+        sys.exit(1)
+
+    print("=" * 65)
+    print(f"Transcribing Audio: {os.path.basename(audio_path)}")
+    print("=" * 65)
+
+    # Use CPU int8 by default for universal portability
+    model = WhisperModel("base", device="cpu", compute_type="int8")
+    segments, info = model.transcribe(audio_path, beam_size=3, vad_filter=True)
+
+    print(f"Detected Language: '{info.language}' (Probability: {info.language_probability:.2f})\\n")
+
+    lines = [f"# Transcript: {os.path.basename(audio_path)}\\n"]
+    for seg in segments:
+        ts = f"[{int(seg.start // 60):02d}:{int(seg.start % 60):02d} -> {int(seg.end // 60):02d}:{int(seg.end % 60):02d}]"
+        print(f"{ts} {seg.text.strip()}")
+        lines.append(f"**{ts}** {seg.text.strip()}\\n")
+
+    if output_md:
+        with open(output_md, 'w', encoding='utf-8') as f:
+            f.writelines(lines)
+        print(f"\\nSaved transcript to {output_md}")
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python audio_transcription_cli.py <path-to-audio-file> [output.md]")
+        sys.exit(1)
+    out = sys.argv[2] if len(sys.argv) > 2 else None
+    transcribe_file(sys.argv[1], out)
 """
+            }
+        ],
+        "references": [
+            {
+                "title": "Speech Recognition & Diarization Performance Reference",
+                "filename": "speech_pipeline_reference.md",
+                "content": """# Whisper & Diarization Optimization Reference
+
+## Whisper Model Comparison
+| Model Size | Parameters | VRAM (FP16) | Relative Speed | Typical WER (English) |
+|---|---|---|---|---|
+| tiny | 39 M | ~1 GB | 32x | ~8-10% |
+| base | 74 M | ~1 GB | 16x | ~6-8% |
+| small | 244 M | ~2 GB | 6x | ~4-5% |
+| medium | 769 M | ~5 GB | 2x | ~3-4% |
+| large-v3 | 1550 M | ~10 GB | 1x | ~2-3% |
+| distil-large-v3 | 756 M | ~4 GB | 6x | ~2.5-3.5% |
+
+## FFmpeg Commands for Audio Normalization
+```bash
+# Normalize loudness to EBU R128 standard
+ffmpeg -i raw_input.mp3 -af "loudnorm=I=-16:TP=-1.5:LRA=11" -ar 16000 -ac 1 clean_mono.wav
+```
+"""
+            }
+        ]
     }
 ]
 
@@ -771,22 +1312,21 @@ def main():
     print(f"Starting Continuous Autonomous Skill Factory Engine ({len(CONTINUOUS_QUEUE)} skills)")
     print("=" * 70)
 
-    for i, skill_meta in enumerate(CONTINUOUS_QUEUE, 1):
-        name = skill_meta["name"]
-        domain = skill_meta["domain"]
-        category = skill_meta["category"]
-        backlog_ref = skill_meta.get("backlog_ref", name)
+    for idx, skill_def in enumerate(CONTINUOUS_QUEUE, 1):
+        backlog_ref = skill_def.get("backlog_ref")
+        name = skill_def["name"]
+        domain = skill_def["domain"]
+        category = skill_def["category"]
+        subcategory = skill_def.get("subcategory", "")
+        print(f"\n[{idx}/{len(CONTINUOUS_QUEUE)}] Processing backlog item: {backlog_ref} -> {name} ({domain}/{category})")
 
-        print(f"\n[{i}/{len(CONTINUOUS_QUEUE)}] Processing backlog item: {backlog_ref} -> {name} ({domain}/{category})")
-        
-        # Ship skill through complete pipeline (Validate -> Catalog -> Disclosure -> Commit -> Push)
-        success = create_and_ship_skill(skill_meta)
-        
+        success = create_and_ship_skill(skill_def)
+
         if success:
-            mark_backlog_item(backlog_ref, new_status="completed")
-            print(f"[Engine] Successfully shipped and marked {backlog_ref} as completed in backlog.")
+            mark_backlog_item(backlog_ref, "completed")
+            print(f"\n[Engine] Successfully shipped and marked {backlog_ref} as completed in backlog.")
         else:
-            print(f"[Engine] FAILED on skill: {name}. Aborting autonomous loop.")
+            print(f"\n[Engine] FAILED to ship skill: {name}. Halting.")
             sys.exit(1)
 
     print("\n" + "=" * 70)
