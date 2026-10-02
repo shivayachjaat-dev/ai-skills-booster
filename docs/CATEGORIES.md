@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **513** skills across structured domains, categories, and subcategories.
+Master navigation for **514** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (172 skills)
+## Ai Engineering (173 skills)
 
-### Agents (21 skills)
+### Agents (22 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -31,6 +31,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [claude-code-guide](../skills/ai-engineering/agents/claude_code_guide/claude-code-guide/SKILL.md) — Use this skill to to provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns.
 - **Claude_Delegate** (1):
   - [claude-delegate](../skills/ai-engineering/agents/claude_delegate/claude-delegate/SKILL.md) — Use this skill to delegate coding tasks to a separate Claude Code CLI process or Claude
+- **Cline_Delegate** (1):
+  - [cline-delegate](../skills/ai-engineering/agents/cline_delegate/cline-delegate/SKILL.md) — Use this skill to delegate coding tasks to the Cline CLI (`cline`) only when the user explicitly
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):

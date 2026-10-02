@@ -276,6 +276,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cline-delegate",
+    "path": "skills/ai-engineering/agents/cline_delegate/cline-delegate",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "cline_delegate",
+    "description": "Use this skill to delegate coding tasks to the Cline CLI (`cline`) only when the user explicitly",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "cline",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cline Delegate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-chaos-testing-and-fault-injection",
     "path": "skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection",
     "domain": "ai-engineering",
