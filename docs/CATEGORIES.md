@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **561** skills across structured domains, categories, and subcategories.
+Master navigation for **562** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (196 skills)
 
@@ -1086,7 +1086,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (64 skills)
+## Frontend (65 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1240,7 +1240,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Code_Showcase_Core_C** (1):
   - [code-showcase-core-components](../skills/frontend/ui-ux/code_showcase_core_c/code-showcase-core-components/SKILL.md) — Use this skill to core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
 
-### Web Architecture (10 skills)
+### Web Architecture (11 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **Antigravity_Design_E** (1):
@@ -1262,6 +1262,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [client-secret-exposure-audit](../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) — Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig.
 - **Cloud_Penetration_Te** (1):
   - [cloud-penetration-testing](../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) — Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).
+- **Comfyui_Gateway** (1):
+  - [comfyui-gateway](../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) — Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).
 
 ## Marketing (8 skills)
 

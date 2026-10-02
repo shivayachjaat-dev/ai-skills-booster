@@ -521,7 +521,8 @@ AI_Skills_Booster/
 │   │   ├── burp_suite_testing/ (1 skills)
 │   │   ├── business_website_set/ (1 skills)
 │   │   ├── client_secret_exposu/ (1 skills)
-│   │   └── cloud_penetration_te/ (1 skills)
+│   │   ├── cloud_penetration_te/ (1 skills)
+│   │   └── comfyui_gateway/ (1 skills)
 ├── marketing/
 │   ├── aso/
 │   │   └── app-store-optimization/ (1 skills)

@@ -9915,6 +9915,28 @@
     "maturity": "stable"
   },
   {
+    "name": "comfyui-gateway",
+    "path": "skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "comfyui_gateway",
+    "description": "Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "comfyui",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Comfyui Gateway",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",
