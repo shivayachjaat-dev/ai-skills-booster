@@ -9367,6 +9367,28 @@
     "maturity": "stable"
   },
   {
+    "name": "learning-career-development",
+    "path": "skills/ai-engineering/models/learning_career_deve/learning-career-development",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "learning_career_deve",
+    "description": "Use this skill to design, implement, and operate production workflows for learning career development. Training register: course, provider, delivery method, department, employee, duration, progress percentage, score, mandatory flag, certificate earned and skills gained. Use for learning records.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "learning",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Learning Career Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

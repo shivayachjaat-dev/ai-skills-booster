@@ -428,6 +428,7 @@ AI_Skills_Booster/
 │   │   ├── langchain_architectu/ (1 skills)
 │   │   ├── laravel_expert/ (1 skills)
 │   │   ├── lead_magnets/ (1 skills)
+│   │   ├── learning_career_deve/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
