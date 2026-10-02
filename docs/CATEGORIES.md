@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **816** skills across structured domains, categories, and subcategories.
+Master navigation for **817** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (281 skills)
+## Ai Engineering (282 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -164,7 +164,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (198 skills)
+### Models (199 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -534,6 +534,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [design-thinking](../skills/ai-engineering/models/design_thinking/design-thinking/SKILL.md) — Use this skill to design, implement, and operate production workflows for design thinking. Direction and intent for frontend design. Use with design when defining purpose, tone, domain, color world, and review bar; includes cross-domain lens from cinema, architecture, marketing, UX, automotive, industrial design.
 - **Detect_Ai_Text** (1):
   - [detect-ai-text](../skills/ai-engineering/models/detect_ai_text/detect-ai-text/SKILL.md) — Use this skill to design, implement, and operate production workflows for detect ai text. Estimate whether a document's prose was written by AI, with the linguistic tells and honest abstention on non-prose. Use when the user asks whether an essay, report, CV, submission, or article was AI-generated — for triage, not proof.
+- **Devcontainer_Setup** (1):
+  - [devcontainer-setup](../skills/ai-engineering/models/devcontainer_setup/devcontainer-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for devcontainer setup. Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code worksp...
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):
