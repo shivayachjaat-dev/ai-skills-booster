@@ -35841,6 +35841,28 @@
     "maturity": "stable"
   },
   {
+    "name": "occupational-health-analyzer",
+    "path": "skills/software-engineering/architecture/patterns/occupational-health-analyzer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for occupational health analyzer. \u5206\u6790\u804c\u4e1a\u5065\u5eb7\u6570\u636e\u3001\u8bc6\u522b\u5de5\u4f5c\u76f8\u5173\u5065\u5eb7\u98ce\u9669\u3001\u8bc4\u4f30\u804c\u4e1a\u5065\u5eb7\u72b6\u51b5\u3001\u63d0\u4f9b\u4e2a\u6027\u5316\u804c\u4e1a\u5065\u5eb7\u5efa\u8bae\u3002\u652f\u6301\u4e0e\u7761\u7720\u3001\u8fd0\u52a8\u3001\u5fc3\u7406\u5065\u5eb7\u7b49\u5176\u4ed6\u5065\u5eb7\u6570\u636e\u7684\u5173\u8054\u5206\u6790\u3002",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "occupational",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Occupational Health Analyzer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
