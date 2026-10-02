@@ -16723,6 +16723,28 @@
     "maturity": "stable"
   },
   {
+    "name": "jest-skill",
+    "path": "skills/frontend/frameworks/jest_skill/jest-skill",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "jest_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for jest skill. Generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and React component testing. Use when user mentions \\\"Jest\\\", \\\"describe/it/expect\\\", \\\"jest.mock\\\", \\\"toMatchSnapshot\\\".",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "jest",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Jest Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
