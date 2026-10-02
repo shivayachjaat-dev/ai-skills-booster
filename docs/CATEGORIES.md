@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,022** skills across structured domains, categories, and subcategories.
+Master navigation for **1,023** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (357 skills)
 
@@ -1237,7 +1237,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (22 skills)
+## Developer Tools (23 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1255,7 +1255,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Expo_Observe** (1):
   - [expo-observe](../skills/developer-tools/cli-utilities/expo_observe/expo-observe/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo observe. Set up and query EAS Observe for Expo apps, including root integration, interactive markers, route metrics, CLI summaries, traces, logs, and performance diagnosis.
 
-### Productivity (16 skills)
+### Productivity (17 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1290,6 +1290,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [dropbox-automation](../skills/developer-tools/productivity/dropbox_automation/dropbox-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for dropbox automation. Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.
 - **Figma_Automation** (1):
   - [figma-automation](../skills/developer-tools/productivity/figma_automation/figma-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for figma automation. Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas.
+- **Freshdesk_Automation** (1):
+  - [freshdesk-automation](../skills/developer-tools/productivity/freshdesk_automation/freshdesk-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for freshdesk automation. Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

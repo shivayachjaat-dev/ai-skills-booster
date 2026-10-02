@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **16 skills** available in this category.
+> **17 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -20,3 +20,4 @@
 | [docusign-automation](../../skills/developer-tools/productivity/docusign_automation/docusign-automation/SKILL.md) | `docusign_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docusign automation. Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas. |
 | [dropbox-automation](../../skills/developer-tools/productivity/dropbox_automation/dropbox-automation/SKILL.md) | `dropbox_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dropbox automation. Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas. |
 | [figma-automation](../../skills/developer-tools/productivity/figma_automation/figma-automation/SKILL.md) | `figma_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for figma automation. Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas. |
+| [freshdesk-automation](../../skills/developer-tools/productivity/freshdesk_automation/freshdesk-automation/SKILL.md) | `freshdesk_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for freshdesk automation. Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas. |

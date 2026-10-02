@@ -11411,6 +11411,28 @@
     "maturity": "stable"
   },
   {
+    "name": "freshdesk-automation",
+    "path": "skills/developer-tools/productivity/freshdesk_automation/freshdesk-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "freshdesk_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for freshdesk automation. Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "freshdesk",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Freshdesk Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
