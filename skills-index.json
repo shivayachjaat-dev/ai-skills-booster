@@ -9783,6 +9783,28 @@
     "maturity": "stable"
   },
   {
+    "name": "docusign-automation",
+    "path": "skills/developer-tools/productivity/docusign_automation/docusign-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "docusign_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for docusign automation. Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "docusign",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Docusign Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
