@@ -3823,6 +3823,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codex-review",
+    "path": "skills/ai-engineering/models/codex_review/codex-review",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "codex_review",
+    "description": "Use this skill to professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "codex",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codex Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

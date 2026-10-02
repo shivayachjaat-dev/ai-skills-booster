@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **558** skills across structured domains, categories, and subcategories.
+Master navigation for **559** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (193 skills)
+## Ai Engineering (194 skills)
 
 ### Agents (23 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -130,7 +130,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (130 skills)
+### Models (131 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -382,6 +382,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [codebase-design](../skills/ai-engineering/models/codebase_design/codebase-design/SKILL.md) — Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.
 - **Codex_Delegate** (1):
   - [codex-delegate](../skills/ai-engineering/models/codex_delegate/codex-delegate/SKILL.md) — Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly
+- **Codex_Review** (1):
+  - [codex-review](../skills/ai-engineering/models/codex_review/codex-review/SKILL.md) — Use this skill to professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

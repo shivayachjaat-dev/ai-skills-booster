@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **130 skills** available in this category.
+> **131 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -133,4 +133,5 @@
 | [codebase-cleanup-deps-audit](../../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) | `codebase_cleanup_dep` | `advanced` | `stable` | Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies. |
 | [codebase-design](../../skills/ai-engineering/models/codebase_design/codebase-design/SKILL.md) | `codebase_design` | `advanced` | `stable` | Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary. |
 | [codex-delegate](../../skills/ai-engineering/models/codex_delegate/codex-delegate/SKILL.md) | `codex_delegate` | `advanced` | `stable` | Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly |
+| [codex-review](../../skills/ai-engineering/models/codex_review/codex-review/SKILL.md) | `codex_review` | `advanced` | `stable` | Use this skill to professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
