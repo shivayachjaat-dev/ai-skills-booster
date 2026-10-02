@@ -448,6 +448,7 @@ AI_Skills_Booster/
 │   │   ├── cloudflare_zero_trus/ (1 skills)
 │   │   ├── cloudformation/ (1 skills)
 │   │   ├── cron_doctor/ (1 skills)
+│   │   ├── datadog/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)

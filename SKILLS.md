@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 680 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 681 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -385,6 +385,7 @@
 | [cloudflare-zero-trust](skills/devops/ci-cd/cloudflare_zero_trus/cloudflare-zero-trust/SKILL.md) | `devops` | `ci-cd` | `cloudflare_zero_trus` | `advanced` | `stable` | Use this skill to protect internal apps with Cloudflare Access, device posture, and Zero |
 | [cloudformation](skills/devops/ci-cd/cloudformation/cloudformation/SKILL.md) | `devops` | `ci-cd` | `cloudformation` | `advanced` | `stable` | Use this skill to deploy AWS resources with CloudFormation templates. Create stacks, use |
 | [cron-doctor](skills/devops/ci-cd/cron_doctor/cron-doctor/SKILL.md) | `devops` | `ci-cd` | `cron_doctor` | `advanced` | `stable` | Use this skill to diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29. |
+| [datadog](skills/devops/ci-cd/datadog/datadog/SKILL.md) | `devops` | `ci-cd` | `datadog` | `advanced` | `stable` | Use this skill to implement Datadog monitoring and APM for infrastructure and applications. |
 | [github-actions-ci-pipeline-optimization](skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `devops` | `ci-cd` | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |
