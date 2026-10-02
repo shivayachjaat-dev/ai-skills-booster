@@ -30017,6 +30017,28 @@
     "maturity": "stable"
   },
   {
+    "name": "junit-5-skill",
+    "path": "skills/testing/automation/junit_5_skill/junit-5-skill",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "junit_5_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for junit 5 skill. Generates production-grade JUnit 5 unit and integration tests in Java. Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and nested tests. Use when user mentions \\\"JUnit\\\", \\\"JUnit 5\\\", \\\"@Test\\\", \\\"assertEquals\\\", \\\"Assertions\\\"...",
+    "tags": [
+      "testing",
+      "automation",
+      "junit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Junit 5 Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",
