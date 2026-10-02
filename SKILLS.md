@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 938 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 939 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -662,6 +662,7 @@
 | [event-store-design](skills/frontend/ui-ux/event_store_design/event-store-design/SKILL.md) | `frontend` | `ui-ux` | `event_store_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for event store design. Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns. |
 | [expo-animation](skills/frontend/ui-ux/expo_animation/expo-animation/SKILL.md) | `frontend` | `ui-ux` | `expo_animation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo animation. Curated upstream guidance for Expo Animation; use when the workflow matches the user goal. |
 | [expo-api-routes](skills/frontend/ui-ux/expo_api_routes/expo-api-routes/SKILL.md) | `frontend` | `ui-ux` | `expo_api_routes` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo api routes. Guidelines for creating API routes in Expo Router with EAS Hosting |
+| [expo-cicd-workflows](skills/frontend/ui-ux/expo_cicd_workflows/expo-cicd-workflows/SKILL.md) | `frontend` | `ui-ux` | `expo_cicd_workflows` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo cicd workflows. Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

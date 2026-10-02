@@ -14887,6 +14887,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-cicd-workflows",
+    "path": "skills/frontend/ui-ux/expo_cicd_workflows/expo-cicd-workflows",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "expo_cicd_workflows",
+    "description": "Use this skill to design, implement, and operate production workflows for expo cicd workflows. Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Cicd Workflows",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
