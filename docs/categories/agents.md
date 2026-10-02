@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **52 skills** available in this category.
+> **53 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -47,6 +47,7 @@
 | [idea-evaluator](../../skills/ai-engineering/agents/idea_evaluator/idea-evaluator/SKILL.md) | `idea_evaluator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea evaluator. Evaluates an idea by hosting a multi-turn debate between a Pro and Con agent, delivering a final verdict on whether it's worth pursuing. |
 | [idea-evaluator-con](../../skills/ai-engineering/agents/idea_evaluator_con/idea-evaluator-con/SKILL.md) | `idea_evaluator_con` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea evaluator con. The Con Agent persona for idea evaluation. Critiques an idea by identifying potential flaws, risks, and market challenges. |
 | [idea-evaluator-pro](../../skills/ai-engineering/agents/idea_evaluator_pro/idea-evaluator-pro/SKILL.md) | `idea_evaluator_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea evaluator pro. The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and potential. |
+| [idea-to-blueprint](../../skills/ai-engineering/agents/idea_to_blueprint/idea-to-blueprint/SKILL.md) | `idea_to_blueprint` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea to blueprint. Turn a raw product, app, bot or feature idea into one evidence-backed build blueprint (researched stack, epics, Given/When/Then criteria, tests) that coding agents build one epic per session. |
 | [lintlang-audit](../../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) | `lintlang_audit` | `advanced` | `stable` | Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files. |
 | [agent-project-memory](../../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) | `memory` | `advanced` | `stable` | Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects. |
 | [agent-memory-recall-and-retention-discipline](../../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) | `memory-discipline` | `advanced` | `stable` | Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences. |

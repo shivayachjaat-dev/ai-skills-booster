@@ -965,6 +965,28 @@
     "maturity": "stable"
   },
   {
+    "name": "idea-to-blueprint",
+    "path": "skills/ai-engineering/agents/idea_to_blueprint/idea-to-blueprint",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "idea_to_blueprint",
+    "description": "Use this skill to design, implement, and operate production workflows for idea to blueprint. Turn a raw product, app, bot or feature idea into one evidence-backed build blueprint (researched stack, epics, Given/When/Then criteria, tests) that coding agents build one epic per session.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "idea",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Idea To Blueprint",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",
