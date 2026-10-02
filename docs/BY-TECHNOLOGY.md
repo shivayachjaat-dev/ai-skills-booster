@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1317 skills)
+## Bash (1318 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1127,6 +1127,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
 - [gemini-api-dev](../skills/ai-engineering/audio-processing/gemini_api_dev/gemini-api-dev/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini api dev. Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specificat...
+- [md2video-audio](../skills/ai-engineering/audio-processing/md2video_audio/md2video-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for md2video audio. Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration.
 - [aws-rds](../skills/ai-engineering/computer-vision/aws_rds/aws-rds/SKILL.md) — Use this skill to provision and manage RDS databases. Configure backups, replication, and
 - [azure-sql](../skills/ai-engineering/computer-vision/azure_sql/azure-sql/SKILL.md) — Use this skill to provision Azure SQL Database and Cosmos DB. Configure security, backups,
 - [color-blocking](../skills/ai-engineering/computer-vision/color_blocking/color-blocking/SKILL.md) — Use this skill to design, implement, and operate production workflows for color blocking. Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids.
@@ -7490,6 +7491,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [mcp-tool-developer](../skills/frontend/ui-ux/mcp_tool_developer/mcp-tool-developer/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp tool developer. Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publishing.
 
+## Md2Video Audio (1 skills)
+
+- [md2video-audio](../skills/ai-engineering/audio-processing/md2video_audio/md2video-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for md2video audio. Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration.
+
 ## Meilisearch (1 skills)
 
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
@@ -7934,7 +7939,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1420 skills)
+## Python (1421 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7999,6 +8004,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
 - [gemini-api-dev](../skills/ai-engineering/audio-processing/gemini_api_dev/gemini-api-dev/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini api dev. Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specificat...
+- [md2video-audio](../skills/ai-engineering/audio-processing/md2video_audio/md2video-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for md2video audio. Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration.
 - [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
 - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.

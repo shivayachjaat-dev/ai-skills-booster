@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,499** skills across structured domains, categories, and subcategories.
+Master navigation for **1,500** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (519 skills)
+## Ai Engineering (520 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -130,7 +130,7 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
 - **Skill_Security_Audit** (1):
   - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 
-### Audio Processing (4 skills)
+### Audio Processing (5 skills)
 Category index: [`docs/categories/audio-processing.md`](categories/audio-processing.md)
 
 - **Azure_Speech_To_Text** (1):
@@ -139,6 +139,8 @@ Category index: [`docs/categories/audio-processing.md`](categories/audio-process
   - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
 - **Gemini_Api_Dev** (1):
   - [gemini-api-dev](../skills/ai-engineering/audio-processing/gemini_api_dev/gemini-api-dev/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini api dev. Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specificat...
+- **Md2Video_Audio** (1):
+  - [md2video-audio](../skills/ai-engineering/audio-processing/md2video_audio/md2video-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for md2video audio. Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration.
 - **Speech Recognition** (1):
   - [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
 

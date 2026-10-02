@@ -1444,6 +1444,28 @@
     "maturity": "stable"
   },
   {
+    "name": "md2video-audio",
+    "path": "skills/ai-engineering/audio-processing/md2video_audio/md2video-audio",
+    "domain": "ai-engineering",
+    "category": "audio-processing",
+    "subcategory": "md2video_audio",
+    "description": "Use this skill to design, implement, and operate production workflows for md2video audio. Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration.",
+    "tags": [
+      "ai-engineering",
+      "audio-processing",
+      "md2video",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Md2Video Audio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "whisper-speech-to-text-and-diarization-pipeline",
     "path": "skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline",
     "domain": "ai-engineering",
