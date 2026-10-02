@@ -15271,6 +15271,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ddd-context-mapping",
+    "path": "skills/software-engineering/architecture/patterns/ddd-context-mapping",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to map relationships between bounded contexts and define integration contracts using DDD context mapping patterns.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "ddd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ddd Context Mapping",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
