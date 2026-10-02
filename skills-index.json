@@ -23895,6 +23895,28 @@
     "maturity": "stable"
   },
   {
+    "name": "git-hooks-automation",
+    "path": "skills/software-engineering/architecture/patterns/git-hooks-automation",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for git hooks automation. Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate code quality gates, formatting, linting, and commit message enforcement before code reaches CI.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "git",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Git Hooks Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
