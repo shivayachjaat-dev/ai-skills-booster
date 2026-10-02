@@ -3719,6 +3719,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cc-skill-backend-patterns",
+    "path": "skills/backend/api-design/cc_skill_backend_pat/cc-skill-backend-patterns",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "cc_skill_backend_pat",
+    "description": "Use this skill to backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
+    "tags": [
+      "backend",
+      "api-design",
+      "cc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cc Skill Backend Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-rate-limiting-and-throttling",
     "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
     "domain": "backend",

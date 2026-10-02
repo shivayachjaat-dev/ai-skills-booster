@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 469 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 470 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -168,6 +168,7 @@
 | [rest-and-graphql-api-spec-analyzer](skills/backend/api-design/api-analyzer/rest-and-graphql-api-spec-analyzer/SKILL.md) | `backend` | `api-design` | `api-analyzer` | `intermediate` | `stable` | Use this skill to statically audit, lint, and validate REST, OpenAPI 3.1, and GraphQL schema specifications against architectural best practices. It checks for consistent HTTP verb usage, snake/camel case casing conventions, missing pagination contracts, unversioned breaking changes, and rate limiting headers. |
 | [backend-architect](skills/backend/api-design/backend_architect/backend-architect/SKILL.md) | `backend` | `api-design` | `backend_architect` | `advanced` | `stable` | Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems. |
 | [backend-security-coder](skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) | `backend` | `api-design` | `backend_security_cod` | `advanced` | `stable` | Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews. |
+| [cc-skill-backend-patterns](skills/backend/api-design/cc_skill_backend_pat/cc-skill-backend-patterns/SKILL.md) | `backend` | `api-design` | `cc_skill_backend_pat` | `advanced` | `stable` | Use this skill to backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. |
 | [api-rate-limiting-and-throttling](skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) | `backend` | `api-design` | `rate-limiting` | `advanced` | `stable` | Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions. |
 | [atlas-cloud-media](skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) | `backend` | `api-frameworks` | `atlas_cloud_media` | `advanced` | `stable` | Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling. |
 | [aws-mcp-setup](skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) | `backend` | `api-frameworks` | `aws_mcp_setup` | `advanced` | `stable` | Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration. |

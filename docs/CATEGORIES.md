@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **469** skills across structured domains, categories, and subcategories.
+Master navigation for **470** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (161 skills)
 
@@ -390,9 +390,9 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (43 skills)
+## Backend (44 skills)
 
-### Api Design (4 skills)
+### Api Design (5 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 
 - **Api Analyzer** (1):
@@ -401,6 +401,8 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
   - [backend-architect](../skills/backend/api-design/backend_architect/backend-architect/SKILL.md) — Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
 - **Backend_Security_Cod** (1):
   - [backend-security-coder](../skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) — Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
+- **Cc_Skill_Backend_Pat** (1):
+  - [cc-skill-backend-patterns](../skills/backend/api-design/cc_skill_backend_pat/cc-skill-backend-patterns/SKILL.md) — Use this skill to backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
