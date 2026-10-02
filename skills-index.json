@@ -2503,6 +2503,28 @@
     "maturity": "stable"
   },
   {
+    "name": "biopython",
+    "path": "skills/ai-engineering/models/biopython/biopython",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "biopython",
+    "description": "Use this skill to biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, database access, structural bioinformatics, phylogenetics, and many other bioinformatics tasks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "biopython",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Biopython",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

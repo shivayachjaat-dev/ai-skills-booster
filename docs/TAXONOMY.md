@@ -116,6 +116,7 @@ AI_Skills_Booster/
 │   │   ├── beautiful_prose/ (1 skills)
 │   │   ├── before_you_build/ (1 skills)
 │   │   ├── behavioral_modes/ (1 skills)
+│   │   ├── biopython/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
