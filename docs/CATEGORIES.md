@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **176** skills across structured domains, categories, and subcategories.
+Master navigation for **177** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (32 skills)
 
@@ -270,7 +270,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (10 skills)
+## Data Analytics (11 skills)
 
 ### Dashboards (1 skills)
 Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
@@ -325,6 +325,12 @@ Category index: [`docs/categories/product-analytics.md`](categories/product-anal
 
 - **Amplitude** (1):
   - [amplitude-product-analytics-and-funnel-tracking](../skills/data-analytics/product-analytics/amplitude/amplitude-product-analytics-and-funnel-tracking/SKILL.md) — Use this skill to design, instrument, and automate product analytics event tracking, user identification, conversion funnels, and retention cohort analysis using Amplitude's HTTP API and SDKs. It enforces event naming taxonomies, user property schemas, and GDPR identity deletion.
+
+### Scientific Computing (1 skills)
+Category index: [`docs/categories/scientific-computing.md`](categories/scientific-computing.md)
+
+- **Astronomy Physics** (1):
+  - [astropy-computational-astronomy-and-coordinate-systems](../skills/data-analytics/scientific-computing/astronomy-physics/astropy-computational-astronomy-and-coordinate-systems/SKILL.md) — Use this skill to perform computational astronomy, astrophysical data analysis, and celestial mechanics using Astropy. It covers celestial coordinate transformations (ICRS, Galactic, FK5, AltAz), FITS image and table I/O with WCS header mapping, physical units and dimensional quantities, time standards (UTC, TDB, Julian Dates), and cosmological parameter modeling.
 
 ### Web Scraping (1 skills)
 Category index: [`docs/categories/web-scraping.md`](categories/web-scraping.md)

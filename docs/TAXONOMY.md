@@ -119,6 +119,8 @@ AI_Skills_Booster/
 │   │   └── airflow/ (1 skills)
 │   ├── product-analytics/
 │   │   └── amplitude/ (1 skills)
+│   ├── scientific-computing/
+│   │   └── astronomy-physics/ (1 skills)
 │   └── web-scraping/
 │   │   └── apify-actors/ (1 skills)
 ├── databases/

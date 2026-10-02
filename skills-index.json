@@ -1664,6 +1664,33 @@
     "maturity": "stable"
   },
   {
+    "name": "astropy-computational-astronomy-and-coordinate-systems",
+    "path": "skills/data-analytics/scientific-computing/astronomy-physics/astropy-computational-astronomy-and-coordinate-systems",
+    "domain": "data-analytics",
+    "category": "scientific-computing",
+    "subcategory": "astronomy-physics",
+    "description": "Use this skill to perform computational astronomy, astrophysical data analysis, and celestial mechanics using Astropy. It covers celestial coordinate transformations (ICRS, Galactic, FK5, AltAz), FITS image and table I/O with WCS header mapping, physical units and dimensional quantities, time standards (UTC, TDB, Julian Dates), and cosmological parameter modeling.",
+    "tags": [
+      "data-analytics",
+      "scientific-computing",
+      "astronomy",
+      "astrophysics",
+      "astropy",
+      "fits",
+      "coordinate-frames",
+      "celestial-mechanics"
+    ],
+    "technologies": [
+      "Astropy",
+      "NumPy",
+      "SciPy",
+      "Matplotlib",
+      "Python"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "apify-actor-web-scraping-and-crawling-pipeline",
     "path": "skills/data-analytics/web-scraping/apify-actors/apify-actor-web-scraping-and-crawling-pipeline",
     "domain": "data-analytics",
