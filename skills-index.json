@@ -14315,6 +14315,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-security-coder",
+    "path": "skills/frontend/ui-development/frontend_security_co/frontend-security-coder",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_security_co",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend security coder. Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Security Coder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
