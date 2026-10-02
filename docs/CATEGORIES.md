@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **188** skills across structured domains, categories, and subcategories.
+Master navigation for **189** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (36 skills)
+## Ai Engineering (37 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -92,7 +92,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Models (3 skills)
+### Models (4 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -101,6 +101,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ai-agent-development](../skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) — Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.
 - **Ai_Analyzer** (1):
   - [ai-analyzer](../skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) — Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
+- **Ai_Dev_Jobs_Mcp** (1):
+  - [ai-dev-jobs-mcp](../skills/ai-engineering/models/ai_dev_jobs_mcp/ai-dev-jobs-mcp/SKILL.md) — Use this skill to search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)
