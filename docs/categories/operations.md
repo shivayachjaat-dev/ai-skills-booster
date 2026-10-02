@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **5 skills** available in this category.
+> **6 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -9,3 +9,4 @@
 | [buddy-program-manager](../../skills/business/operations/buddy_program_manage/buddy-program-manager/SKILL.md) | `buddy_program_manage` | `advanced` | `stable` | Use this skill to buddy programme register: new hire, assigned buddy, department, start and end dates, check-ins planned and done, and feedback score. Use for onboarding buddy schemes. |
 | [competency-matrix](../../skills/business/operations/competency_matrix/competency-matrix/SKILL.md) | `competency_matrix` | `advanced` | `stable` | Use this skill to competency matrix of expected proficiency by job title and grade, with assessment method and linked skill area. Use for role frameworks and hiring bars. |
 | [contract-document-renewal](../../skills/business/operations/contract_document_re/contract-document-renewal/SKILL.md) | `contract_document_re` | `advanced` | `stable` | Use this skill to contract register: counterparty, owner, start and end dates, auto-renewal flag, renewal notice deadline, value and tax basis. Use for renewal tracking and notice deadlines. |
+| [csv-manual-export](../../skills/business/operations/csv_manual_export/csv-manual-export/SKILL.md) | `csv_manual_export` | `advanced` | `stable` | Use this skill to cSV Manual Export: a UTF-8 CSV template from a confirmed field list, empty by default, with no invented columns or values. Use for an import, staging or handoff file. |

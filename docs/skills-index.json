@@ -6628,6 +6628,28 @@
     "maturity": "stable"
   },
   {
+    "name": "csv-manual-export",
+    "path": "skills/business/operations/csv_manual_export/csv-manual-export",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "csv_manual_export",
+    "description": "Use this skill to cSV Manual Export: a UTF-8 CSV template from a confirmed field list, empty by default, with no invented columns or values. Use for an import, staging or handoff file.",
+    "tags": [
+      "business",
+      "operations",
+      "csv",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Csv Manual Export",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
