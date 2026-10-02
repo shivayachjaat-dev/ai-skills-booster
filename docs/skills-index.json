@@ -1233,6 +1233,28 @@
     "maturity": "stable"
   },
   {
+    "name": "multi-advisor",
+    "path": "skills/ai-engineering/agents/multi_advisor/multi-advisor",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "multi_advisor",
+    "description": "Use this skill to design, implement, and operate production workflows for multi advisor. Conselho de especialistas \u2014 consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas e agentes tecnicos simultaneamente, cada um pela sua otica unica, e consolida em sintese deciso...",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "multi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Multi Advisor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-observability-and-trace-evaluation",
     "path": "skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation",
     "domain": "ai-engineering",

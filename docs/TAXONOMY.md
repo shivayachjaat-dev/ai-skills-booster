@@ -59,6 +59,7 @@ AI_Skills_Booster/
 │   │   ├── m365_agents_ts/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)
+│   │   ├── multi_advisor/ (1 skills)
 │   │   ├── observability/ (1 skills)
 │   │   ├── orchestration/ (1 skills)
 │   │   ├── orchestration-optimization/ (1 skills)

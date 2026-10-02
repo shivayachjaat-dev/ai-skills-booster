@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,561** skills across structured domains, categories, and subcategories.
+Master navigation for **1,562** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (538 skills)
+## Ai Engineering (539 skills)
 
-### Agents (61 skills)
+### Agents (62 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -117,6 +117,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - **Memory Discipline** (1):
   - [agent-memory-recall-and-retention-discipline](../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) — Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences.
+- **Multi_Advisor** (1):
+  - [multi-advisor](../skills/ai-engineering/agents/multi_advisor/multi-advisor/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi advisor. Conselho de especialistas — consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas e agentes tecnicos simultaneamente, cada um pela sua otica unica, e consolida em sintese deciso...
 - **Observability** (1):
   - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
 - **Orchestration** (1):
