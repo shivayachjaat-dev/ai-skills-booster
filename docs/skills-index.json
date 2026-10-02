@@ -32717,6 +32717,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mathguard",
+    "path": "skills/software-engineering/architecture/patterns/mathguard",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for mathguard. Math-heavy escalation for n >= 10^6 \u2014 Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "mathguard",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mathguard",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
