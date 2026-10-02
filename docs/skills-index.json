@@ -18153,6 +18153,28 @@
     "maturity": "stable"
   },
   {
+    "name": "developer-listening",
+    "path": "skills/software-engineering/architecture/patterns/developer-listening",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for developer listening. Monitor what developers say about your brand, competitors, and the problems they're solving. Track mentions and conversations across GitHub, Hacker News, Reddit, Stack Overflow, Twitter, and Discord.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "developer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Developer Listening",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
