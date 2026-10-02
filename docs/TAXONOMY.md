@@ -624,7 +624,8 @@ AI_Skills_Booster/
 │   │   ├── muapi_media/ (1 skills)
 │   │   ├── newman_cicd_integrat/ (1 skills)
 │   │   ├── odoo_rpc_api/ (1 skills)
-│   │   └── odoo_shopify_integra/ (1 skills)
+│   │   ├── odoo_shopify_integra/ (1 skills)
+│   │   └── odoo_woocommerce_bri/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/

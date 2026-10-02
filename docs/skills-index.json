@@ -13670,6 +13670,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-woocommerce-bridge",
+    "path": "skills/backend/api-frameworks/odoo_woocommerce_bri/odoo-woocommerce-bridge",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "odoo_woocommerce_bri",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo woocommerce bridge. Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Woocommerce Bridge",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
