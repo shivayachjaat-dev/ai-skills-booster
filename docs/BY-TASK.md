@@ -340,8 +340,9 @@ Find the exact agent skill according to what task you need completed.
 - [playwright-e2e-testing](../skills/testing/e2e/playwright/playwright-e2e-testing/SKILL.md) — `testing/e2e`: Use this skill when authoring, debugging, and maintaining end-to-end (E2E) automated browser test suites using Playwright. It guides the agent through resilient locator strategies (user-facing role/text), page object models, network mocking, authenticated session caching, parallel execution, and flaky test elimination.
 - [appium-mobile-automation-and-cross-device-testing](../skills/testing/mobile-testing/appium-cross-device/appium-mobile-automation-and-cross-device-testing/SKILL.md) — `testing/mobile-testing`: Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.
 
-## General Workflows (102 skills)
+## General Workflows (103 skills)
 
+- [bill-gates](../skills/ai-engineering/agents/bill_gates/bill-gates/SKILL.md) — `ai-engineering/agents`: Use this skill to agente que simula Bill Gates — cofundador da Microsoft, arquiteto da industria de software comercial, estrategista tecnologico global, investidor sistemico e filantropo baseado em dados.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — `ai-engineering/audio-processing`: Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [aws-rds](../skills/ai-engineering/computer-vision/aws_rds/aws-rds/SKILL.md) — `ai-engineering/computer-vision`: Use this skill to provision and manage RDS databases. Configure backups, replication, and
 - [azure-sql](../skills/ai-engineering/computer-vision/azure_sql/azure-sql/SKILL.md) — `ai-engineering/computer-vision`: Use this skill to provision Azure SQL Database and Cosmos DB. Configure security, backups,

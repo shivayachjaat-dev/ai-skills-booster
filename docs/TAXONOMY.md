@@ -11,6 +11,7 @@ AI_Skills_Booster/
 │   │   ├── ax_extract_workflow/ (1 skills)
 │   │   ├── azure-foundry/ (1 skills)
 │   │   ├── benchmarking/ (1 skills)
+│   │   ├── bill_gates/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── forensic-audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
