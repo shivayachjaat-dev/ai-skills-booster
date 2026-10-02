@@ -8375,6 +8375,28 @@
     "maturity": "stable"
   },
   {
+    "name": "chat-widget",
+    "path": "skills/frontend/ui-ux/chat_widget/chat-widget",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "chat_widget",
+    "description": "Use this skill to build a real-time support chat system with a floating widget for users and an admin dashboard for support staff. Use when the user wants live chat, customer support chat, real-time messaging, or in-app support.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "chat",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Chat Widget",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

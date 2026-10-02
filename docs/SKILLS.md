@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 483 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 484 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -366,6 +366,7 @@
 | [cc-skill-project-guidelines-example](skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example/SKILL.md) | `frontend` | `ui-ux` | `cc_skill_project_gui` | `advanced` | `stable` | Use this skill to project Guidelines Skill (Example) |
 | [cdk-patterns](skills/frontend/ui-ux/cdk_patterns/cdk-patterns/SKILL.md) | `frontend` | `ui-ux` | `cdk_patterns` | `advanced` | `stable` | Use this skill to common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs. |
 | [changelog-updates](skills/frontend/ui-ux/changelog_updates/changelog-updates/SKILL.md) | `frontend` | `ui-ux` | `changelog_updates` | `advanced` | `stable` | Use this skill to create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features. |
+| [chat-widget](skills/frontend/ui-ux/chat_widget/chat-widget/SKILL.md) | `frontend` | `ui-ux` | `chat_widget` | `advanced` | `stable` | Use this skill to build a real-time support chat system with a floating widget for users and an admin dashboard for support staff. Use when the user wants live chat, customer support chat, real-time messaging, or in-app support. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |

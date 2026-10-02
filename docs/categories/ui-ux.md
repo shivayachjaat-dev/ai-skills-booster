@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **30 skills** available in this category.
+> **31 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -34,3 +34,4 @@
 | [cc-skill-project-guidelines-example](../../skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example/SKILL.md) | `cc_skill_project_gui` | `advanced` | `stable` | Use this skill to project Guidelines Skill (Example) |
 | [cdk-patterns](../../skills/frontend/ui-ux/cdk_patterns/cdk-patterns/SKILL.md) | `cdk_patterns` | `advanced` | `stable` | Use this skill to common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs. |
 | [changelog-updates](../../skills/frontend/ui-ux/changelog_updates/changelog-updates/SKILL.md) | `changelog_updates` | `advanced` | `stable` | Use this skill to create release notes and product updates that developers actually read and care about. This skill covers changelog formatting, versioning communication, breaking change announcements, deprecation notices, and building anticipation for new features. |
+| [chat-widget](../../skills/frontend/ui-ux/chat_widget/chat-widget/SKILL.md) | `chat_widget` | `advanced` | `stable` | Use this skill to build a real-time support chat system with a floating widget for users and an admin dashboard for support staff. Use when the user wants live chat, customer support chat, real-time messaging, or in-app support. |
