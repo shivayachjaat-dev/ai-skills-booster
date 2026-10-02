@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **45 skills** available in this category.
+> **46 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -46,6 +46,7 @@
 | [production-audit](../../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [retro-design](../../skills/frontend/web-architecture/retro_design/retro-design/SKILL.md) | `retro_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for retro design. Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts. |
 | [retro-futurism](../../skills/frontend/web-architecture/retro_futurism/retro-futurism/SKILL.md) | `retro_futurism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for retro futurism. Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes. |
+| [sci-fi-interface](../../skills/frontend/web-architecture/sci_fi_interface/sci-fi-interface/SKILL.md) | `sci_fi_interface` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sci fi interface. Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts. |
 | [security-audit](../../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](../../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |
 | [web3-audit](../../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) | `web3_audit` | `advanced` | `stable` | Use this skill to smart contract security audit |

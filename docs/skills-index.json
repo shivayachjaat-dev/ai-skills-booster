@@ -13567,6 +13567,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sci-fi-interface",
+    "path": "skills/frontend/web-architecture/sci_fi_interface/sci-fi-interface",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "sci_fi_interface",
+    "description": "Use this skill to design, implement, and operate production workflows for sci fi interface. Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "sci",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sci Fi Interface",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-audit",
     "path": "skills/frontend/web-architecture/security_audit/security-audit",
     "domain": "frontend",
