@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **766** skills across structured domains, categories, and subcategories.
+Master navigation for **767** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (269 skills)
 
@@ -1295,7 +1295,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (104 skills)
+## Frontend (105 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1505,7 +1505,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (22 skills)
+### Web Architecture (23 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1541,6 +1541,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [cloud-penetration-testing](../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) — Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).
 - **Comfyui_Gateway** (1):
   - [comfyui-gateway](../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) — Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).
+- **Command_Center_Ui** (1):
+  - [command-center-ui](../skills/frontend/web-architecture/command_center_ui/command-center-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for command center ui. Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps.
 - **Defuddle** (1):
   - [defuddle](../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) — Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.
 - **Production_Audit** (1):

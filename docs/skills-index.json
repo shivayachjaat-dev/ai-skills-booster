@@ -12951,6 +12951,28 @@
     "maturity": "stable"
   },
   {
+    "name": "command-center-ui",
+    "path": "skills/frontend/web-architecture/command_center_ui/command-center-ui",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "command_center_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for command center ui. Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "command",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Command Center Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "defuddle",
     "path": "skills/frontend/web-architecture/defuddle/defuddle",
     "domain": "frontend",

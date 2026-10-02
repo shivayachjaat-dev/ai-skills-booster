@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **22 skills** available in this category.
+> **23 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -21,6 +21,7 @@
 | [client-secret-exposure-audit](../../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) | `client_secret_exposu` | `advanced` | `stable` | Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig. |
 | [cloud-penetration-testing](../../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) | `cloud_penetration_te` | `advanced` | `stable` | Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP). |
 | [comfyui-gateway](../../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) | `comfyui_gateway` | `advanced` | `stable` | Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64). |
+| [command-center-ui](../../skills/frontend/web-architecture/command_center_ui/command-center-ui/SKILL.md) | `command_center_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for command center ui. Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps. |
 | [defuddle](../../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) | `defuddle` | `advanced` | `stable` | Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. |
 | [production-audit](../../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](../../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
