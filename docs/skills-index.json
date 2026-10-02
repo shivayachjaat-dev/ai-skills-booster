@@ -4241,6 +4241,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-fundamentals",
+    "path": "skills/ai-engineering/models/context_fundamentals/context-fundamentals",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "context_fundamentals",
+    "description": "Use this skill to context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Fundamentals",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

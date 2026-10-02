@@ -195,6 +195,7 @@ AI_Skills_Booster/
 │   │   ├── context_compression/ (1 skills)
 │   │   ├── context_degradation/ (1 skills)
 │   │   ├── context_driven_devel/ (1 skills)
+│   │   ├── context_fundamentals/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

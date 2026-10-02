@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **145 skills** available in this category.
+> **146 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -148,4 +148,5 @@
 | [context-compression](../../skills/ai-engineering/models/context_compression/context-compression/SKILL.md) | `context_compression` | `advanced` | `stable` | Use this skill to when agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request. |
 | [context-degradation](../../skills/ai-engineering/models/context_degradation/context-degradation/SKILL.md) | `context_degradation` | `advanced` | `stable` | Use this skill to language models exhibit predictable degradation patterns as context length increases. Understanding these patterns is essential for diagnosing failures and designing resilient systems. |
 | [context-driven-development](../../skills/ai-engineering/models/context_driven_devel/context-driven-development/SKILL.md) | `context_driven_devel` | `advanced` | `stable` | Use this skill to guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through structured project documentation. |
+| [context-fundamentals](../../skills/ai-engineering/models/context_fundamentals/context-fundamentals/SKILL.md) | `context_fundamentals` | `advanced` | `stable` | Use this skill to context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
