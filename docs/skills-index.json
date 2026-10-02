@@ -8671,6 +8671,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bash-linux",
+    "path": "skills/software-engineering/architecture/patterns/bash-linux",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "bash",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bash Linux",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
