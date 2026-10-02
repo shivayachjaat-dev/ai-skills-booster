@@ -8817,6 +8817,28 @@
     "maturity": "stable"
   },
   {
+    "name": "inventory-demand-planning",
+    "path": "skills/ai-engineering/models/inventory_demand_pla/inventory-demand-planning",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "inventory_demand_pla",
+    "description": "Use this skill to design, implement, and operate production workflows for inventory demand planning. Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "inventory",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Inventory Demand Planning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
