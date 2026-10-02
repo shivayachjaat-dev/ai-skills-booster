@@ -35539,6 +35539,28 @@
     "maturity": "stable"
   },
   {
+    "name": "neon-postgres-branches",
+    "path": "skills/testing/automation/neon_postgres_branch/neon-postgres-branches",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "neon_postgres_branch",
+    "description": "Use this skill to design, implement, and operate production workflows for neon postgres branches. Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, schema-only branch workflows for sensitive data, or branch creation via ...",
+    "tags": [
+      "testing",
+      "automation",
+      "neon",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Neon Postgres Branches",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

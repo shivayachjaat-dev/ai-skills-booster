@@ -1555,7 +1555,8 @@ AI_Skills_Booster/
 │   │   ├── junit_5_skill/ (1 skills)
 │   │   ├── kotlin_coroutines_ex/ (1 skills)
 │   │   ├── longbridge_content/ (1 skills)
-│   │   └── marketing_mindset/ (1 skills)
+│   │   ├── marketing_mindset/ (1 skills)
+│   │   └── neon_postgres_branch/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/
