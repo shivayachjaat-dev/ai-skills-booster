@@ -149,6 +149,9 @@ AI_Skills_Booster/
 │   │   └── meilisearch/ (1 skills)
 │   └── time-series/
 │   │   └── timescaledb/ (1 skills)
+├── desktop/
+│   └── frameworks/
+│   │   └── avalonia-dotnet/ (1 skills)
 ├── developer-tools/
 │   ├── cli/
 │   │   └── typer-architecture/ (1 skills)

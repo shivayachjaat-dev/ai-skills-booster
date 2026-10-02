@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **182** skills across structured domains, categories, and subcategories.
+Master navigation for **183** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (33 skills)
 
@@ -411,6 +411,14 @@ Category index: [`docs/categories/time-series.md`](categories/time-series.md)
 
 - **Timescaledb** (1):
   - [timescaledb-hypertables-and-retention](../skills/databases/time-series/timescaledb/timescaledb-hypertables-and-retention/SKILL.md) — Use this skill when architecting, partitioning, and optimizing high-throughput time-series databases with TimescaleDB on PostgreSQL. It guides the agent through hypertable creation, chunk time interval sizing, continuous aggregates with automatic refresh policies, column-oriented compression policies, and data retention drops.
+
+## Desktop (1 skills)
+
+### Frameworks (1 skills)
+Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
+
+- **Avalonia Dotnet** (1):
+  - [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
 
 ## Developer Tools (3 skills)
 

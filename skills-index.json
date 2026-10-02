@@ -2073,6 +2073,34 @@
     "maturity": "stable"
   },
   {
+    "name": "avalonia-cross-platform-desktop-ui-architecture",
+    "path": "skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture",
+    "domain": "desktop",
+    "category": "frameworks",
+    "subcategory": "avalonia-dotnet",
+    "description": "Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.",
+    "tags": [
+      "desktop",
+      "avalonia",
+      "dotnet",
+      "csharp",
+      "mvvm",
+      "cross-platform",
+      "reactiveui",
+      "ui-architecture"
+    ],
+    "technologies": [
+      "Avalonia UI",
+      "C#",
+      ".NET 8",
+      ".NET 9",
+      "ReactiveUI",
+      "XAML"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-native-cli-tool-architecture-with-typer",
     "path": "skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer",
     "domain": "developer-tools",

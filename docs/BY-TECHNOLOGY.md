@@ -2,6 +2,14 @@
 
 Discover skills tailored to specific frameworks, platforms, and languages.
 
+## .NET 8 (1 skills)
+
+- [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
+
+## .NET 9 (1 skills)
+
+- [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
+
 ## ADR Tools (1 skills)
 
 - [architecture-decision-records-and-rfc-governance](../skills/software-engineering/architecture/adr-governance/architecture-decision-records-and-rfc-governance/SKILL.md) — Use this skill to author, review, and maintain standardized Architecture Decision Records (ADRs) and Requests for Comments (RFCs) across engineering organizations. It captures context, decision drivers, evaluated alternatives with tradeoff matrices, compliance implications, and status lifecycles (Proposed, Accepted, Deprecated, Superseded).
@@ -213,6 +221,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 
+## Avalonia UI (1 skills)
+
+- [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
+
 ## Avro (1 skills)
 
 - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
@@ -262,6 +274,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## C (1 skills)
 
 - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
+
+## C# (1 skills)
+
+- [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
 
 ## C++ (1 skills)
 
@@ -1692,6 +1708,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [threejs-3d-web-experience](../skills/frontend/3d-graphics/threejs/threejs-3d-web-experience/SKILL.md) — Use this skill when designing, implementing, and optimizing interactive 3D web experiences using Three.js and React Three Fiber (R3F). It guides the agent through scene graph architecture, GLTF/GLB model loading and compression (Draco/Meshopt), custom GLSL shaders, camera controls (OrbitControls), lighting and shadows, and 60 FPS mobile performance optimization.
 
+## ReactiveUI (1 skills)
+
+- [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
+
 ## Redis (8 skills)
 
 - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
@@ -2197,6 +2217,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## X.509 SVID (1 skills)
 
 - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
+
+## XAML (1 skills)
+
+- [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
 
 ## XCUITest (1 skills)
 
