@@ -21012,6 +21012,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hashicorp-vault",
+    "path": "skills/security/appsec/hashicorp_vault/hashicorp-vault",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hashicorp_vault",
+    "description": "Use this skill to design, implement, and operate production workflows for hashicorp vault. Manage secrets and PKI with HashiCorp Vault.",
+    "tags": [
+      "security",
+      "appsec",
+      "hashicorp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hashicorp Vault",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
