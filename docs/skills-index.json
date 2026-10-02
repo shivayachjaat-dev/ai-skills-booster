@@ -1315,6 +1315,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azd-deployment",
+    "path": "skills/ai-engineering/models/azd_deployment/azd-deployment",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azd_deployment",
+    "description": "Use this skill to deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azd Deployment",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

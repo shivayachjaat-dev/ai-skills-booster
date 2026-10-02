@@ -71,6 +71,7 @@ AI_Skills_Booster/
 │   │   ├── aws_cost_operations/ (1 skills)
 │   │   ├── aws_ecs_fargate/ (1 skills)
 │   │   ├── awt_e2e_testing/ (1 skills)
+│   │   ├── azd_deployment/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
