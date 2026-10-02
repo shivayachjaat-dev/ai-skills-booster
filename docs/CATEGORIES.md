@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **498** skills across structured domains, categories, and subcategories.
+Master navigation for **499** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (167 skills)
 
@@ -1002,7 +1002,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (56 skills)
+## Frontend (57 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1072,7 +1072,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Ckw_Design** (1):
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 
-### Ui Ux (34 skills)
+### Ui Ux (35 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1143,6 +1143,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [chrome-extension-developer](../skills/frontend/ui-ux/chrome_extension_dev/chrome-extension-developer/SKILL.md) — Use this skill to expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication.
 - **Ci_Cd_And_Automation** (1):
   - [ci-cd-and-automation](../skills/frontend/ui-ux/ci_cd_and_automation/ci-cd-and-automation/SKILL.md) — Use this skill to automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.
+- **Claude_Ally_Health** (1):
+  - [claude-ally-health](../skills/frontend/ui-ux/claude_ally_health/claude-ally-health/SKILL.md) — Use this skill to a health assistant skill for medical information analysis, symptom tracking, and wellness guidance.
 
 ### Web Architecture (8 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)

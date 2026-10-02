@@ -8639,6 +8639,28 @@
     "maturity": "stable"
   },
   {
+    "name": "claude-ally-health",
+    "path": "skills/frontend/ui-ux/claude_ally_health/claude-ally-health",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "claude_ally_health",
+    "description": "Use this skill to a health assistant skill for medical information analysis, symptom tracking, and wellness guidance.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "claude",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Claude Ally Health",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

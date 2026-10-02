@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **34 skills** available in this category.
+> **35 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -38,3 +38,4 @@
 | [check-identity-pack](../../skills/frontend/ui-ux/check_identity_pack/check-identity-pack/SKILL.md) | `check_identity_pack` | `advanced` | `stable` | Use this skill to run an AFP 100-point or AUSTRAC safe-harbour identity check over a set of documents, and report exactly what's missing. Use when the user asks to check identity documents, verify someone's ID for onboarding, or assess whether a document pack satisfies Australian identity requiremen |
 | [chrome-extension-developer](../../skills/frontend/ui-ux/chrome_extension_dev/chrome-extension-developer/SKILL.md) | `chrome_extension_dev` | `advanced` | `stable` | Use this skill to expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication. |
 | [ci-cd-and-automation](../../skills/frontend/ui-ux/ci_cd_and_automation/ci-cd-and-automation/SKILL.md) | `ci_cd_and_automation` | `advanced` | `stable` | Use this skill to automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies. |
+| [claude-ally-health](../../skills/frontend/ui-ux/claude_ally_health/claude-ally-health/SKILL.md) | `claude_ally_health` | `advanced` | `stable` | Use this skill to a health assistant skill for medical information analysis, symptom tracking, and wellness guidance. |
