@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **95** skills across structured domains, categories, and subcategories.
+Master navigation for **96** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -369,7 +369,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (17 skills)
+## Security (18 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -438,6 +438,12 @@ Category index: [`docs/categories/supply-chain.md`](categories/supply-chain.md)
 
 - **Cosign** (1):
   - [cosign-container-image-signing](../skills/security/supply-chain/cosign/cosign-container-image-signing/SKILL.md) — Use this skill when designing, implementing, and enforcing cryptographic container image signing and verification using Sigstore Cosign. It covers keyless signing via OIDC (GitHub Actions/GitLab CI), public/private keypair signing, SBOM attestation attachment, and enforcing Kubernetes admission policies with Kyverno or Gatekeeper.
+
+### Threat Modeling (1 skills)
+Category index: [`docs/categories/threat-modeling.md`](categories/threat-modeling.md)
+
+- **Stride** (1):
+  - [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
 
 ### Vulnerability Management (1 skills)
 Category index: [`docs/categories/vulnerability-management.md`](categories/vulnerability-management.md)

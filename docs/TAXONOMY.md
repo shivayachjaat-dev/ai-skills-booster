@@ -155,6 +155,8 @@ AI_Skills_Booster/
 │   │   └── vault/ (1 skills)
 │   ├── supply-chain/
 │   │   └── cosign/ (1 skills)
+│   ├── threat-modeling/
+│   │   └── stride/ (1 skills)
 │   ├── vulnerability-management/
 │   │   └── dependency-check/ (1 skills)
 │   ├── vulnerability-scanning/

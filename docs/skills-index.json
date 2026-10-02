@@ -1981,6 +1981,33 @@
     "maturity": "stable"
   },
   {
+    "name": "stride-threat-modeling-and-security-audit",
+    "path": "skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit",
+    "domain": "security",
+    "category": "threat-modeling",
+    "subcategory": "stride",
+    "description": "Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.",
+    "tags": [
+      "threat-modeling",
+      "stride",
+      "security-audit",
+      "pasta",
+      "owasp",
+      "infosec",
+      "appsec"
+    ],
+    "technologies": [
+      "STRIDE",
+      "PASTA",
+      "OWASP ASVS",
+      "Python",
+      "Draw.io",
+      "Threat Dragon"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "software-supply-chain-sbom-audit",
     "path": "skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit",
     "domain": "security",

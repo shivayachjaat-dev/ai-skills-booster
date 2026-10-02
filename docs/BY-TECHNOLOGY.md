@@ -202,6 +202,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
 
+## Draw.io (1 skills)
+
+- [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
+
 ## Drizzle Kit (1 skills)
 
 - [drizzle-orm-schema-and-relational-queries](../skills/backend/database-drivers/drizzle/drizzle-orm-schema-and-relational-queries/SKILL.md) — Use this skill when designing database schemas, managing type-safe migrations, and querying SQL databases with Drizzle ORM in TypeScript. It guides the agent through pgTable declarations, relations API (1:1, 1:N, M:N), Drizzle Kit migrations (generate/migrate), prepared statements for maximum performance, and serverless pooling.
@@ -642,6 +646,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
 
+## OWASP ASVS (1 skills)
+
+- [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
+
 ## OWASP Secure Headers Project (1 skills)
 
 - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
@@ -680,6 +688,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [terraform-infrastructure-as-code](../skills/devops/iac/terraform/terraform-infrastructure-as-code/SKILL.md) — Use this skill when writing, refactoring, and maintaining Infrastructure as Code (IaC) using Terraform / OpenTofu. It guides the agent through remote state management with S3/DynamoDB locking, modular component design, variable validation rules, drift detection, resource tagging standards, and blast radius containment.
 - [terraform-module-design-and-testing](../skills/devops/infrastructure-as-code/terraform-modules/terraform-module-design-and-testing/SKILL.md) — Use this skill when architecting, authoring, and testing reusable Infrastructure as Code (IaC) modules with Terraform and OpenTofu. It guides the agent through root and child module contracts, custom input variable validations, structured outputs, dynamic blocks, version pinning, and automated integration testing using Terratest in Go.
+
+## PASTA (1 skills)
+
+- [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
 
 ## PEFT (1 skills)
 
@@ -765,7 +777,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (35 skills)
+## Python (36 skills)
 
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
@@ -795,6 +807,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 - [prompt-injection-defense](../skills/security/ai-security/defense/prompt-injection-defense/SKILL.md) — Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.
 - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
+- [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
 - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
 - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
@@ -970,6 +983,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [hashicorp-boundary-secure-remote-access](../skills/security/zero-trust/boundary/hashicorp-boundary-secure-remote-access/SKILL.md) — Use this skill when designing, configuring, and operating identity-aware secure remote access architectures using HashiCorp Boundary. It guides the agent through defining Scopes (Global, Org, Project), dynamic host catalogs (AWS/K8s), targets (SSH, PostgreSQL, Kubernetes), credential brokering with Vault, and session recording.
 
+## STRIDE (1 skills)
+
+- [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
+
 ## SciPy (1 skills)
 
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
@@ -1046,6 +1063,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Terraform >= 1.5 (1 skills)
 
 - [terraform-module-design-and-testing](../skills/devops/infrastructure-as-code/terraform-modules/terraform-module-design-and-testing/SKILL.md) — Use this skill when architecting, authoring, and testing reusable Infrastructure as Code (IaC) modules with Terraform and OpenTofu. It guides the agent through root and child module contracts, custom input variable validations, structured outputs, dynamic blocks, version pinning, and automated integration testing using Terratest in Go.
+
+## Threat Dragon (1 skills)
+
+- [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
 
 ## Tiktoken (1 skills)
 
