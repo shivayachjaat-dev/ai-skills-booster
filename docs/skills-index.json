@@ -8509,6 +8509,28 @@
     "maturity": "stable"
   },
   {
+    "name": "idea-autopsy",
+    "path": "skills/ai-engineering/models/idea_autopsy/idea-autopsy",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "idea_autopsy",
+    "description": "Use this skill to design, implement, and operate production workflows for idea autopsy. Autopsy a business idea before you build it: kill-list check, five hard filters, a free-AI one-prompt test, live ad-market verification, and a verdict with a named kill-pattern.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "idea",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Idea Autopsy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
