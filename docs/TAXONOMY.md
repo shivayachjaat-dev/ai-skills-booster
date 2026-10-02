@@ -72,7 +72,7 @@ AI_Skills_Booster/
 │   │   ├── aws_ecs_fargate/ (1 skills)
 │   │   ├── awt_e2e_testing/ (1 skills)
 │   │   ├── azd_deployment/ (1 skills)
-│   │   ├── azure_ai_agents_pers/ (1 skills)
+│   │   ├── azure_ai_agents_pers/ (2 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
