@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (526 skills)
+## AI Engineer (527 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -350,6 +350,7 @@ Curated workflows organized by professional role and specialization.
 - [google-slides-automation](../skills/ai-engineering/models/google_slides_automa/google-slides-automation/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for google slides automation. Read and edit Google Slides through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.
 - [gpt-taste](../skills/ai-engineering/models/gpt_taste/gpt-taste/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for gpt taste. Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids.
 - [gpu-kubernetes-operations](../skills/ai-engineering/models/gpu_kubernetes_opera/gpu-kubernetes-operations/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for gpu kubernetes operations. Operate GPU-backed Kubernetes clusters for AI inference and training
+- [gpu-server-management](../skills/ai-engineering/models/gpu_server_managemen/gpu-server-management/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for gpu server management. Set up and manage NVIDIA GPU servers for AI workloads
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — `ai-engineering`: Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — `ai-engineering`: Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.

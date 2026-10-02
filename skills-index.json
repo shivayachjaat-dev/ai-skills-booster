@@ -7915,6 +7915,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gpu-server-management",
+    "path": "skills/ai-engineering/models/gpu_server_managemen/gpu-server-management",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "gpu_server_managemen",
+    "description": "Use this skill to design, implement, and operate production workflows for gpu server management. Set up and manage NVIDIA GPU servers for AI workloads",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "gpu",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gpu Server Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

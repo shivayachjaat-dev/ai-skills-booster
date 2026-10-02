@@ -362,6 +362,7 @@ AI_Skills_Booster/
 │   │   ├── google_slides_automa/ (1 skills)
 │   │   ├── gpt_taste/ (1 skills)
 │   │   ├── gpu_kubernetes_opera/ (1 skills)
+│   │   ├── gpu_server_managemen/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

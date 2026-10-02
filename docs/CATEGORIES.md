@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,129** skills across structured domains, categories, and subcategories.
+Master navigation for **1,130** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (392 skills)
+## Ai Engineering (393 skills)
 
 ### Agents (46 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -198,7 +198,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (287 skills)
+### Models (288 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -754,6 +754,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [gpt-taste](../skills/ai-engineering/models/gpt_taste/gpt-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for gpt taste. Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids.
 - **Gpu_Kubernetes_Opera** (1):
   - [gpu-kubernetes-operations](../skills/ai-engineering/models/gpu_kubernetes_opera/gpu-kubernetes-operations/SKILL.md) — Use this skill to design, implement, and operate production workflows for gpu kubernetes operations. Operate GPU-backed Kubernetes clusters for AI inference and training
+- **Gpu_Server_Managemen** (1):
+  - [gpu-server-management](../skills/ai-engineering/models/gpu_server_managemen/gpu-server-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for gpu server management. Set up and manage NVIDIA GPU servers for AI workloads
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
