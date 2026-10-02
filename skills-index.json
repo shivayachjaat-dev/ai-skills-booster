@@ -14029,6 +14029,28 @@
     "maturity": "stable"
   },
   {
+    "name": "eas-simulator",
+    "path": "skills/frontend/ui-ux/eas_simulator/eas-simulator",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "eas_simulator",
+    "description": "Use this skill to design, implement, and operate production workflows for eas simulator. Curated upstream guidance for Eas Simulator; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "eas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Eas Simulator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
