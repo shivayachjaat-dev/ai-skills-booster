@@ -265,7 +265,8 @@ AI_Skills_Booster/
 │   │   ├── azure_keyvault_certi/ (1 skills)
 │   │   ├── azure_keyvault_secre/ (1 skills)
 │   │   ├── azure_maps_search_do/ (1 skills)
-│   │   └── azure_mgmt_applicati/ (1 skills)
+│   │   ├── azure_mgmt_applicati/ (1 skills)
+│   │   └── azure_mgmt_botservic/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/
