@@ -24005,6 +24005,28 @@
     "maturity": "stable"
   },
   {
+    "name": "git-pushing",
+    "path": "skills/software-engineering/architecture/patterns/git-pushing",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for git pushing. Safely stage, commit, and push intended git changes with conventional commit messages. Use for ordinary non-release pushes when explicitly asked to push, save work remotely, or share a completed change.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "git",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Git Pushing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
