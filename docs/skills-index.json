@@ -11880,6 +11880,28 @@
     "maturity": "stable"
   },
   {
+    "name": "eas-update-insights",
+    "path": "skills/embedded/firmware/eas_update_insights/eas-update-insights",
+    "domain": "embedded",
+    "category": "firmware",
+    "subcategory": "eas_update_insights",
+    "description": "Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.",
+    "tags": [
+      "embedded",
+      "firmware",
+      "eas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Eas Update Insights",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "threejs-3d-web-experience",
     "path": "skills/frontend/3d-graphics/threejs/threejs-3d-web-experience",
     "domain": "frontend",

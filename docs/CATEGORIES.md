@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **884** skills across structured domains, categories, and subcategories.
+Master navigation for **885** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (306 skills)
 
@@ -1391,13 +1391,15 @@ Category index: [`docs/categories/sre.md`](categories/sre.md)
 - **Incident Remediation** (1):
   - [ai-sre-autonomous-incident-triage-and-remediation](../skills/devops/sre/incident-remediation/ai-sre-autonomous-incident-triage-and-remediation/SKILL.md) — Use this skill to design and deploy autonomous AI-driven Site Reliability Engineering (SRE) incident response and triage workflows. It covers alerting webhook ingestion (PagerDuty, Datadog), automated log/trace correlation, blast-radius assessment, safe auto-remediation playbooks, and blameless post-mortem drafting.
 
-## Embedded (1 skills)
+## Embedded (2 skills)
 
-### Firmware (1 skills)
+### Firmware (2 skills)
 Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
+- **Eas_Update_Insights** (1):
+  - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
 ## Frontend (157 skills)
 
