@@ -15604,6 +15604,28 @@
     "maturity": "stable"
   },
   {
+    "name": "notion-manual-import",
+    "path": "skills/business/operations/notion_manual_import/notion-manual-import",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "notion_manual_import",
+    "description": "Use this skill to design, implement, and operate production workflows for notion manual import. Notion Manual Import: the Notion step for any module - CSV, property mapping, import steps and verification for the field list the active module confirmed. Use whenever the user picks Notion.",
+    "tags": [
+      "business",
+      "operations",
+      "notion",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Notion Manual Import",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

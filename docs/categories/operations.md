@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **25 skills** available in this category.
+> **26 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -29,3 +29,4 @@
 | [linktree-link-hub](../../skills/business/operations/linktree_link_hub/linktree-link-hub/SKILL.md) | `linktree_link_hub` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linktree link hub. Link-in-bio register: label, destination URL, link type, priority order, audience, click tracking, UTM source, schedule, click count and status. Use for link hub tracking. |
 | [logo-image-design](../../skills/business/operations/logo_image_design/logo-image-design/SKILL.md) | `logo_image_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for logo image design. Brand asset register: asset type, format, dimensions and aspect ratio, colour mode, background variant, clear space, approved and prohibited uses, rights owner and licence. Use for brand control. |
 | [notification-reminder-hub](../../skills/business/operations/notification_reminde/notification-reminder-hub/SKILL.md) | `notification_reminde` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for notification reminder hub. Notification register: title, type, priority, recipient and department, message, linked record, trigger module, scheduled and sent dates and status. Use for reminder tracking. |
+| [notion-manual-import](../../skills/business/operations/notion_manual_import/notion-manual-import/SKILL.md) | `notion_manual_import` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for notion manual import. Notion Manual Import: the Notion step for any module - CSV, property mapping, import steps and verification for the field list the active module confirmed. Use whenever the user picks Notion. |
