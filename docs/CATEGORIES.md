@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **893** skills across structured domains, categories, and subcategories.
+Master navigation for **894** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (309 skills)
+## Ai Engineering (310 skills)
 
-### Agents (37 skills)
+### Agents (38 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -57,6 +57,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [documentation-and-adrs](../skills/ai-engineering/agents/documentation_and_ad/documentation-and-adrs/SKILL.md) — Use this skill to design, implement, and operate production workflows for documentation and adrs. Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.
 - **Ecl_Harness_Engineer** (1):
   - [ecl-harness-engineer](../skills/ai-engineering/agents/ecl_harness_engineer/ecl-harness-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for ecl harness engineer. Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs.
+- **Elon_Musk** (1):
+  - [elon-musk](../skills/ai-engineering/agents/elon_musk/elon-musk/SKILL.md) — Use this skill to design, implement, and operate production workflows for elon musk. Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade. Ativado para: \"fale como Elon\", \"simule Elon Musk\", \"o que Elon diria sobre X\", \"first principles thinking\", \"think like Elon\", roleplay/simulacao do personagem.
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):

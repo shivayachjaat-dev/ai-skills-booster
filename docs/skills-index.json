@@ -562,6 +562,28 @@
     "maturity": "stable"
   },
   {
+    "name": "elon-musk",
+    "path": "skills/ai-engineering/agents/elon_musk/elon-musk",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "elon_musk",
+    "description": "Use this skill to design, implement, and operate production workflows for elon musk. Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade. Ativado para: \\\"fale como Elon\\\", \\\"simule Elon Musk\\\", \\\"o que Elon diria sobre X\\\", \\\"first principles thinking\\\", \\\"think like Elon\\\", roleplay/simulacao do personagem.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "elon",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Elon Musk",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-chaos-testing-and-fault-injection",
     "path": "skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection",
     "domain": "ai-engineering",
