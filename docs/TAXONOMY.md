@@ -286,7 +286,8 @@ AI_Skills_Booster/
 │   │   ├── cc_skill_clickhouse_/ (1 skills)
 │   │   ├── database/ (1 skills)
 │   │   ├── database_admin/ (1 skills)
-│   │   └── database_architect/ (1 skills)
+│   │   ├── database_architect/ (1 skills)
+│   │   └── database_backups/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/

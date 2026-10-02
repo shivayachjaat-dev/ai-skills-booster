@@ -6139,6 +6139,28 @@
     "maturity": "stable"
   },
   {
+    "name": "database-backups",
+    "path": "skills/backend/databases/database_backups/database-backups",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "database_backups",
+    "description": "Use this skill to implement database backup strategies. Configure automated backups, retention,",
+    "tags": [
+      "backend",
+      "databases",
+      "database",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Database Backups",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

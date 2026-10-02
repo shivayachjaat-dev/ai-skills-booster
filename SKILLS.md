@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 672 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 673 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -277,6 +277,7 @@
 | [database](skills/backend/databases/database/database/SKILL.md) | `backend` | `databases` | `database` | `advanced` | `stable` | Use this skill to database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering. |
 | [database-admin](skills/backend/databases/database_admin/database-admin/SKILL.md) | `backend` | `databases` | `database_admin` | `advanced` | `stable` | Use this skill to expert database administrator specializing in modern cloud databases, automation, and reliability engineering. |
 | [database-architect](skills/backend/databases/database_architect/database-architect/SKILL.md) | `backend` | `databases` | `database_architect` | `advanced` | `stable` | Use this skill to expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. |
+| [database-backups](skills/backend/databases/database_backups/database-backups/SKILL.md) | `backend` | `databases` | `database_backups` | `advanced` | `stable` | Use this skill to implement database backup strategies. Configure automated backups, retention, |
 | [openapi-documentation-generator-and-swagger-ui](skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui/SKILL.md) | `backend` | `documentation` | `openapi-generator` | `intermediate` | `stable` | Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export. |
 | [fastapi-async-api-design](skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) | `backend` | `fastapi` | `async-architecture` | `advanced` | `stable` | Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation. |
 | [apollo-federation-subgraph-architecture](skills/backend/graphql/federation/apollo-federation-subgraph-architecture/SKILL.md) | `backend` | `graphql` | `federation` | `advanced` | `stable` | Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing. |

@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,4 +13,5 @@
 | [database](../../skills/backend/databases/database/database/SKILL.md) | `database` | `advanced` | `stable` | Use this skill to database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering. |
 | [database-admin](../../skills/backend/databases/database_admin/database-admin/SKILL.md) | `database_admin` | `advanced` | `stable` | Use this skill to expert database administrator specializing in modern cloud databases, automation, and reliability engineering. |
 | [database-architect](../../skills/backend/databases/database_architect/database-architect/SKILL.md) | `database_architect` | `advanced` | `stable` | Use this skill to expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. |
+| [database-backups](../../skills/backend/databases/database_backups/database-backups/SKILL.md) | `database_backups` | `advanced` | `stable` | Use this skill to implement database backup strategies. Configure automated backups, retention, |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |
