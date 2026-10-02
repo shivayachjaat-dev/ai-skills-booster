@@ -210,6 +210,28 @@
     "maturity": "stable"
   },
   {
+    "name": "clarvia-aeo-check",
+    "path": "skills/ai-engineering/agents/clarvia_aeo_check/clarvia-aeo-check",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "clarvia_aeo_check",
+    "description": "Use this skill to score any MCP server, API, or CLI for agent-readiness using Clarvia AEO (Agent Experience Optimization). Search 15,400+ indexed tools before adding them to your workflow.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "clarvia",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Clarvia Aeo Check",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-chaos-testing-and-fault-injection",
     "path": "skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection",
     "domain": "ai-engineering",
