@@ -21399,6 +21399,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lesson-generator",
+    "path": "skills/frontend/ui-ux/lesson_generator/lesson-generator",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "lesson_generator",
+    "description": "Use this skill to design, implement, and operate production workflows for lesson generator. Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "lesson",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lesson Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

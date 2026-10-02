@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,382** skills across structured domains, categories, and subcategories.
+Master navigation for **1,383** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (469 skills)
 
@@ -1877,7 +1877,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (267 skills)
+## Frontend (268 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2015,7 +2015,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Javascript_Typescrip** (1):
   - [javascript-typescript-typescript-scaffold](../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N
 
-### Ui Ux (152 skills)
+### Ui Ux (153 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2314,6 +2314,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [learn](../skills/frontend/ui-ux/learn/learn/SKILL.md) — Use this skill to design, implement, and operate production workflows for learn. Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study guides, or exercises. Use when the user asks to learn, understand, practice, drill, review, study, or be tutored on something.
 - **Leiloeiro_Avaliacao** (1):
   - [leiloeiro-avaliacao](../skills/frontend/ui-ux/leiloeiro_avaliacao/leiloeiro-avaliacao/SKILL.md) — Use this skill to design, implement, and operate production workflows for leiloeiro avaliacao. Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca.
+- **Lesson_Generator** (1):
+  - [lesson-generator](../skills/frontend/ui-ux/lesson_generator/lesson-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for lesson generator. Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

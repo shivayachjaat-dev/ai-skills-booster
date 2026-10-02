@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **152 skills** available in this category.
+> **153 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -152,6 +152,7 @@
 | [launch-strategy](../../skills/frontend/ui-ux/launch_strategy/launch-strategy/SKILL.md) | `launch_strategy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for launch strategy. You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users. |
 | [learn](../../skills/frontend/ui-ux/learn/learn/SKILL.md) | `learn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for learn. Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study guides, or exercises. Use when the user asks to learn, understand, practice, drill, review, study, or be tutored on something. |
 | [leiloeiro-avaliacao](../../skills/frontend/ui-ux/leiloeiro_avaliacao/leiloeiro-avaliacao/SKILL.md) | `leiloeiro_avaliacao` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leiloeiro avaliacao. Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca. |
+| [lesson-generator](../../skills/frontend/ui-ux/lesson_generator/lesson-generator/SKILL.md) | `lesson_generator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lesson generator. Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
