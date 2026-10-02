@@ -9330,6 +9330,28 @@
     "maturity": "stable"
   },
   {
+    "name": "change-management",
+    "path": "skills/security/appsec/change_management/change-management",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "change_management",
+    "description": "Use this skill to implement change management processes. Configure CAB reviews, change",
+    "tags": [
+      "security",
+      "appsec",
+      "change",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Change Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

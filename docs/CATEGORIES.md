@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **479** skills across structured domains, categories, and subcategories.
+Master navigation for **480** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (162 skills)
 
@@ -1247,7 +1247,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (53 skills)
+## Security (54 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -1277,7 +1277,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (10 skills)
+### Appsec (11 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -1299,6 +1299,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [bugcrowd-reporting](../skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) — Use this skill to bugcrowd-specific reporting tactics complementing report-writing
 - **Bugs_Are_Annoying** (1):
   - [bugs-are-annoying](../skills/security/appsec/bugs_are_annoying/bugs-are-annoying/SKILL.md) — Use this skill to adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews.
+- **Change_Management** (1):
+  - [change-management](../skills/security/appsec/change_management/change-management/SKILL.md) — Use this skill to implement change management processes. Configure CAB reviews, change
 
 ### Architecture (1 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
