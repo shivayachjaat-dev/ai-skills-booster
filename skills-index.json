@@ -12665,6 +12665,28 @@
     "maturity": "stable"
   },
   {
+    "name": "emil-design-eng",
+    "path": "skills/frontend/ui-development/emil_design_eng/emil-design-eng",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "emil_design_eng",
+    "description": "Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "emil",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Emil Design Eng",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

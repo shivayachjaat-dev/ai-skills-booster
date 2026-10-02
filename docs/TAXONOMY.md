@@ -645,7 +645,8 @@ AI_Skills_Booster/
 │   │   ├── ckw_design/ (1 skills)
 │   │   ├── design_it/ (1 skills)
 │   │   ├── design_taste_fronten/ (1 skills)
-│   │   └── development/ (1 skills)
+│   │   ├── development/ (1 skills)
+│   │   └── emil_design_eng/ (1 skills)
 │   ├── ui-ux/
 │   │   ├── anti_sleep/ (1 skills)
 │   │   ├── ask_questions_if_und/ (1 skills)

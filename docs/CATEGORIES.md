@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **901** skills across structured domains, categories, and subcategories.
+Master navigation for **902** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (315 skills)
 
@@ -1423,7 +1423,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (160 skills)
+## Frontend (161 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1495,7 +1495,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-### Ui Development (5 skills)
+### Ui Development (6 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -1508,6 +1508,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [design-taste-frontend](../skills/frontend/ui-development/design_taste_fronten/design-taste-frontend/SKILL.md) — Use this skill to design, implement, and operate production workflows for design taste frontend. Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.
 - **Development** (1):
   - [development](../skills/frontend/ui-development/development/development/SKILL.md) — Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.
+- **Emil_Design_Eng** (1):
+  - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
 ### Ui Ux (81 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
