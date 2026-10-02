@@ -14359,6 +14359,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-slides",
+    "path": "skills/frontend/ui-development/frontend_slides/frontend-slides",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_slides",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend slides. Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Slides",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

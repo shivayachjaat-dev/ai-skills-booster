@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,037** skills across structured domains, categories, and subcategories.
+Master navigation for **1,038** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (359 skills)
 
@@ -1541,7 +1541,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (204 skills)
+## Frontend (205 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1627,7 +1627,7 @@ Category index: [`docs/categories/styling.md`](categories/styling.md)
 - **Fixing_Motion_Perfor** (1):
   - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-### Ui Development (18 skills)
+### Ui Development (19 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -1666,6 +1666,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [frontend-security-coder](../skills/frontend/ui-development/frontend_security_co/frontend-security-coder/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend security coder. Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns.
 - **Frontend_Seo** (1):
   - [frontend-seo](../skills/frontend/ui-development/frontend_seo/frontend-seo/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend seo. A portable, framework-agnostic SEO system for any React or React Native-for-web frontend.
+- **Frontend_Slides** (1):
+  - [frontend-slides](../skills/frontend/ui-development/frontend_slides/frontend-slides/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend slides. Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.
 
 ### Ui Ux (102 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)

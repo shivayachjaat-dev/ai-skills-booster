@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,3 +22,4 @@
 | [frontend-optimistic-mutations](../../skills/frontend/ui-development/frontend_optimistic_/frontend-optimistic-mutations/SKILL.md) | `frontend_optimistic_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend optimistic mutations. A portable, framework-agnostic discipline for the write path of any React or React Native app using a query/cache layer. |
 | [frontend-security-coder](../../skills/frontend/ui-development/frontend_security_co/frontend-security-coder/SKILL.md) | `frontend_security_co` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend security coder. Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns. |
 | [frontend-seo](../../skills/frontend/ui-development/frontend_seo/frontend-seo/SKILL.md) | `frontend_seo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend seo. A portable, framework-agnostic SEO system for any React or React Native-for-web frontend. |
+| [frontend-slides](../../skills/frontend/ui-development/frontend_slides/frontend-slides/SKILL.md) | `frontend_slides` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend slides. Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. |
