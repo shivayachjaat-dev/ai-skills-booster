@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 378 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 379 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -204,6 +204,7 @@
 | [ask-copilot](skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) | `developer-tools` | `cli-utilities` | `ask_copilot` | `advanced` | `stable` | Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction. |
 | [asana-automation](skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) | `developer-tools` | `productivity` | `asana_automation` | `advanced` | `stable` | Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas. |
 | [bamboohr-automation](skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) | `developer-tools` | `productivity` | `bamboohr_automation` | `advanced` | `stable` | Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas. |
+| [basecamp-automation](skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) | `developer-tools` | `productivity` | `basecamp_automation` | `advanced` | `stable` | Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas. |
 | [agents-md-repository-context-specification](skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) | `developer-tools` | `repository-specs` | `agents-md` | `intermediate` | `stable` | Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants. |
 | [multi-language-api-sdk-code-generator](skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) | `developer-tools` | `sdk-generation` | `openapi-generator` | `advanced` | `stable` | Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning. |
 | [aws-cost-optimization](skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) | `devops` | `ci-cd` | `aws_cost_optimizatio` | `advanced` | `stable` | Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning, |
