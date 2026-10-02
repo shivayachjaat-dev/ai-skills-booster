@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,3 +22,4 @@
 | [backtesting-frameworks](../../skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks/SKILL.md) | `backtesting_framewor` | `advanced` | `stable` | Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates. |
 | [baseline-ui](../../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) | `baseline_ui` | `advanced` | `stable` | Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass. |
 | [bash-defensive-patterns](../../skills/frontend/ui-ux/bash_defensive_patte/bash-defensive-patterns/SKILL.md) | `bash_defensive_patte` | `advanced` | `stable` | Use this skill to master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety. |
+| [bats-testing-patterns](../../skills/frontend/ui-ux/bats_testing_pattern/bats-testing-patterns/SKILL.md) | `bats_testing_pattern` | `advanced` | `stable` | Use this skill to master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities. |

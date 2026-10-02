@@ -6879,6 +6879,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bats-testing-patterns",
+    "path": "skills/frontend/ui-ux/bats_testing_pattern/bats-testing-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "bats_testing_pattern",
+    "description": "Use this skill to master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "bats",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bats Testing Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
