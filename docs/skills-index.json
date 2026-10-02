@@ -1134,6 +1134,31 @@
     "maturity": "stable"
   },
   {
+    "name": "corporate-alumni-and-talent-rehire-network",
+    "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
+    "domain": "business",
+    "category": "human-resources",
+    "subcategory": "alumni-tracker",
+    "description": "Use this skill to design, maintain, and automate corporate alumni talent registers, re-hire eligibility tracking, and boomerang employee engagement workflows. It covers structured employee exit registers, skill taxonomy mapping, re-engagement cadences, and compliance auditing.",
+    "tags": [
+      "alumni-tracker",
+      "human-resources",
+      "talent-acquisition",
+      "boomerang-hiring",
+      "talent-management",
+      "business"
+    ],
+    "technologies": [
+      "Python",
+      "Pydantic",
+      "SQLite",
+      "CSV",
+      "HR Workflows"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "employee-360-feedback-review-system",
     "path": "skills/business/human-resources/performance-management/employee-360-feedback-review-system",
     "domain": "business",

@@ -78,6 +78,7 @@ AI_Skills_Booster/
 │   ├── finance/
 │   │   └── audit-controls/ (1 skills)
 │   ├── human-resources/
+│   │   ├── alumni-tracker/ (1 skills)
 │   │   └── performance-management/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
