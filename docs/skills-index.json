@@ -1497,6 +1497,29 @@
     "maturity": "stable"
   },
   {
+    "name": "hexagonal-ports-and-adapters-architecture",
+    "path": "skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "hexagonal",
+    "description": "Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.",
+    "tags": [
+      "hexagonal-architecture",
+      "clean-architecture",
+      "ports-and-adapters",
+      "domain-driven-design",
+      "software-architecture"
+    ],
+    "technologies": [
+      "Python",
+      "TypeScript",
+      "Domain-Driven Design",
+      "Dependency Injection"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-and-interface-design",
     "path": "skills/software-engineering/architecture/interfaces/api-and-interface-design",
     "domain": "software-engineering",

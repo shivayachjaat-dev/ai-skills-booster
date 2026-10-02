@@ -130,6 +130,7 @@ AI_Skills_Booster/
 │   │   └── spiffe-spire/ (1 skills)
 ├── software-engineering/
 │   ├── architecture/
+│   │   ├── hexagonal/ (1 skills)
 │   │   └── interfaces/ (1 skills)
 │   ├── debugging/
 │   │   └── recovery/ (1 skills)
