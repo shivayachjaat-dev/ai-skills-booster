@@ -14205,6 +14205,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-lighthouse",
+    "path": "skills/frontend/ui-development/frontend_lighthouse/frontend-lighthouse",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_lighthouse",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend lighthouse. Add a portable Lighthouse CI gate for production frontend builds with Core Web Vitals budgets, category floors, median runs, and CI artifacts.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Lighthouse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
