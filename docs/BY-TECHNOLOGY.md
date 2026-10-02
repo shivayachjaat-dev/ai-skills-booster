@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (815 skills)
+## Bash (816 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1093,6 +1093,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [evaluation](../skills/ai-engineering/agents/evaluation/evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for evaluation. Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time.
 - [fable-safe-prompt](../skills/ai-engineering/agents/fable_safe_prompt/fable-safe-prompt/SKILL.md) — Use this skill to design, implement, and operate production workflows for fable safe prompt. Rewrite allowed prompts to reduce false-positive safety triggers without bypassing policy or changing intent.
 - [find-complementary-founders](../skills/ai-engineering/agents/find_complementary_f/find-complementary-founders/SKILL.md) — Use this skill to design, implement, and operate production workflows for find complementary founders. Use when an owner explicitly asks for a cofounder or project partner, or explicitly says they need a complementary builder, operator, go-to-market partner, or scaling capability. Assess and publish only the agent's own owner, then rank only app...
+- [folder-specific-claude-and-agents-md](../skills/ai-engineering/agents/folder_specific_clau/folder-specific-claude-and-agents-md/SKILL.md) — Use this skill to design, implement, and operate production workflows for folder specific claude and agents md. Create folder-scoped CLAUDE.md and AGENTS.md guidance for future agents working in that area.
 - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
@@ -4443,6 +4444,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [flutter-expert](../skills/mobile/app-development/flutter_expert/flutter-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for flutter expert. Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
 
+## Folder Specific Claude And Agents Md (1 skills)
+
+- [folder-specific-claude-and-agents-md](../skills/ai-engineering/agents/folder_specific_clau/folder-specific-claude-and-agents-md/SKILL.md) — Use this skill to design, implement, and operate production workflows for folder specific claude and agents md. Create folder-scoped CLAUDE.md and AGENTS.md guidance for future agents working in that area.
+
 ## FreeRTOS (1 skills)
 
 - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
@@ -5441,7 +5446,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (918 skills)
+## Python (919 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5474,6 +5479,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fable-safe-prompt](../skills/ai-engineering/agents/fable_safe_prompt/fable-safe-prompt/SKILL.md) — Use this skill to design, implement, and operate production workflows for fable safe prompt. Rewrite allowed prompts to reduce false-positive safety triggers without bypassing policy or changing intent.
 - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - [find-complementary-founders](../skills/ai-engineering/agents/find_complementary_f/find-complementary-founders/SKILL.md) — Use this skill to design, implement, and operate production workflows for find complementary founders. Use when an owner explicitly asks for a cofounder or project partner, or explicitly says they need a complementary builder, operator, go-to-market partner, or scaling capability. Assess and publish only the agent's own owner, then rank only app...
+- [folder-specific-claude-and-agents-md](../skills/ai-engineering/agents/folder_specific_clau/folder-specific-claude-and-agents-md/SKILL.md) — Use this skill to design, implement, and operate production workflows for folder specific claude and agents md. Create folder-scoped CLAUDE.md and AGENTS.md guidance for future agents working in that area.
 - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
 - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.

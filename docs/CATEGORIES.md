@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **997** skills across structured domains, categories, and subcategories.
+Master navigation for **998** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (349 skills)
+## Ai Engineering (350 skills)
 
-### Agents (42 skills)
+### Agents (43 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -69,6 +69,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Find_Complementary_F** (1):
   - [find-complementary-founders](../skills/ai-engineering/agents/find_complementary_f/find-complementary-founders/SKILL.md) — Use this skill to design, implement, and operate production workflows for find complementary founders. Use when an owner explicitly asks for a cofounder or project partner, or explicitly says they need a complementary builder, operator, go-to-market partner, or scaling capability. Assess and publish only the agent's own owner, then rank only app...
+- **Folder_Specific_Clau** (1):
+  - [folder-specific-claude-and-agents-md](../skills/ai-engineering/agents/folder_specific_clau/folder-specific-claude-and-agents-md/SKILL.md) — Use this skill to design, implement, and operate production workflows for folder specific claude and agents md. Create folder-scoped CLAUDE.md and AGENTS.md guidance for future agents working in that area.
 - **Forensic Audit** (1):
   - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
 - **Geo_Audit** (1):

@@ -697,6 +697,28 @@
     "maturity": "stable"
   },
   {
+    "name": "folder-specific-claude-and-agents-md",
+    "path": "skills/ai-engineering/agents/folder_specific_clau/folder-specific-claude-and-agents-md",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "folder_specific_clau",
+    "description": "Use this skill to design, implement, and operate production workflows for folder specific claude and agents md. Create folder-scoped CLAUDE.md and AGENTS.md guidance for future agents working in that area.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "folder",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Folder Specific Claude And Agents Md",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-session-audit-and-forensic-replay",
     "path": "skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay",
     "domain": "ai-engineering",
