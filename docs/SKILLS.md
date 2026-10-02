@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 190 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 191 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -35,6 +35,7 @@
 | [ai-analyzer](skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) | `ai-engineering` | `models` | `ai_analyzer` | `advanced` | `stable` | Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |
 | [ai-dev-jobs-mcp](skills/ai-engineering/models/ai_dev_jobs_mcp/ai-dev-jobs-mcp/SKILL.md) | `ai-engineering` | `models` | `ai_dev_jobs_mcp` | `advanced` | `stable` | Use this skill to search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP |
 | [ai-engineer](skills/ai-engineering/models/ai_engineer/ai-engineer/SKILL.md) | `ai-engineering` | `models` | `ai_engineer` | `advanced` | `stable` | Use this skill to build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations. |
+| [ai-loop](skills/ai-engineering/models/ai_loop/ai-loop/SKILL.md) | `ai-engineering` | `models` | `ai_loop` | `advanced` | `stable` | Use this skill to runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |
 | [rag-retrieval-evaluation](skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `ai-engineering` | `rag` | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |

@@ -765,6 +765,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-loop",
+    "path": "skills/ai-engineering/models/ai_loop/ai-loop",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ai_loop",
+    "description": "Use this skill to runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ai Loop",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",
