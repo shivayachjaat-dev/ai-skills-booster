@@ -36595,6 +36595,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-automated-tests",
+    "path": "skills/testing/automation/odoo_automated_tests/odoo-automated-tests",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "odoo_automated_tests",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo automated tests. Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration.",
+    "tags": [
+      "testing",
+      "automation",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Automated Tests",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

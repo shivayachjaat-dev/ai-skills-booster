@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **17 skills** available in this category.
+> **18 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -21,3 +21,4 @@
 | [longbridge-content](../../skills/testing/automation/longbridge_content/longbridge-content/SKILL.md) | `longbridge_content` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for longbridge content. Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge. |
 | [marketing-mindset](../../skills/testing/automation/marketing_mindset/marketing-mindset/SKILL.md) | `marketing_mindset` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing mindset. Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test — a marketer's decision framework, not a tactic library. |
 | [neon-postgres-branches](../../skills/testing/automation/neon_postgres_branch/neon-postgres-branches/SKILL.md) | `neon_postgres_branch` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon postgres branches. Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, schema-only branch workflows for sensitive data, or branch creation via ... |
+| [odoo-automated-tests](../../skills/testing/automation/odoo_automated_tests/odoo-automated-tests/SKILL.md) | `odoo_automated_tests` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo automated tests. Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration. |

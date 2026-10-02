@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,639** skills across structured domains, categories, and subcategories.
+Master navigation for **1,640** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (567 skills)
 
@@ -3660,7 +3660,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (24 skills)
+## Testing (25 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -3680,7 +3680,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (17 skills)
+### Automation (18 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -3717,6 +3717,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [marketing-mindset](../skills/testing/automation/marketing_mindset/marketing-mindset/SKILL.md) — Use this skill to design, implement, and operate production workflows for marketing mindset. Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test — a marketer's decision framework, not a tactic library.
 - **Neon_Postgres_Branch** (1):
   - [neon-postgres-branches](../skills/testing/automation/neon_postgres_branch/neon-postgres-branches/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres branches. Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, schema-only branch workflows for sensitive data, or branch creation via ...
+- **Odoo_Automated_Tests** (1):
+  - [odoo-automated-tests](../skills/testing/automation/odoo_automated_tests/odoo-automated-tests/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo automated tests. Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

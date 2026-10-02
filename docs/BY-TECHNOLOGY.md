@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1457 skills)
+## Bash (1458 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2532,6 +2532,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [longbridge-content](../skills/testing/automation/longbridge_content/longbridge-content/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge content. Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge.
 - [marketing-mindset](../skills/testing/automation/marketing_mindset/marketing-mindset/SKILL.md) — Use this skill to design, implement, and operate production workflows for marketing mindset. Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test — a marketer's decision framework, not a tactic library.
 - [neon-postgres-branches](../skills/testing/automation/neon_postgres_branch/neon-postgres-branches/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres branches. Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, schema-only branch workflows for sensitive data, or branch creation via ...
+- [odoo-automated-tests](../skills/testing/automation/odoo_automated_tests/odoo-automated-tests/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo automated tests. Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration.
 
 ## Bash Defensive Patterns (1 skills)
 
@@ -8354,6 +8355,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [odoo-accounting-setup](../skills/frontend/ui-ux/odoo_accounting_setu/odoo-accounting-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo accounting setup. Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation.
 
+## Odoo Automated Tests (1 skills)
+
+- [odoo-automated-tests](../skills/testing/automation/odoo_automated_tests/odoo-automated-tests/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo automated tests. Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration.
+
 ## Open Policy Agent (OPA) (1 skills)
 
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
@@ -8619,7 +8624,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1560 skills)
+## Python (1561 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10180,6 +10185,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [longbridge-content](../skills/testing/automation/longbridge_content/longbridge-content/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge content. Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge.
 - [marketing-mindset](../skills/testing/automation/marketing_mindset/marketing-mindset/SKILL.md) — Use this skill to design, implement, and operate production workflows for marketing mindset. Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test — a marketer's decision framework, not a tactic library.
 - [neon-postgres-branches](../skills/testing/automation/neon_postgres_branch/neon-postgres-branches/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres branches. Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, schema-only branch workflows for sensitive data, or branch creation via ...
+- [odoo-automated-tests](../skills/testing/automation/odoo_automated_tests/odoo-automated-tests/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo automated tests. Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration.
 - [appium-mobile-automation-and-cross-device-testing](../skills/testing/mobile-testing/appium-cross-device/appium-mobile-automation-and-cross-device-testing/SKILL.md) — Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.
 
 ## Python AST (1 skills)
