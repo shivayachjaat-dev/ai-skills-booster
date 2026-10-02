@@ -1120,6 +1120,30 @@
     "maturity": "stable"
   },
   {
+    "name": "envelope-encryption-kms-pattern",
+    "path": "skills/security/cryptography/envelope-encryption/envelope-encryption-kms-pattern",
+    "domain": "security",
+    "category": "cryptography",
+    "subcategory": "envelope-encryption",
+    "description": "Use this skill when architecting and implementing cryptographic envelope encryption for sensitive data at rest using cloud Key Management Services (AWS KMS, GCP KMS, Azure Key Vault) or HashiCorp Vault. It guides the agent through two-tier key hierarchies (KEK and DEK), AES-256-GCM authenticated encryption, DEK caching with TTL limits, and key rotation.",
+    "tags": [
+      "cryptography",
+      "encryption",
+      "envelope-encryption",
+      "kms",
+      "aes-gcm",
+      "security"
+    ],
+    "technologies": [
+      "AWS KMS",
+      "Cryptography Python",
+      "AES-256-GCM",
+      "HashiCorp Vault"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "incident-response-and-triage",
     "path": "skills/security/incident-response/triage/incident-response-and-triage",
     "domain": "security",

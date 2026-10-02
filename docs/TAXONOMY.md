@@ -98,6 +98,8 @@ AI_Skills_Booster/
 │   │   └── oauth2/ (1 skills)
 │   ├── code-review/
 │   │   └── github/ (1 skills)
+│   ├── cryptography/
+│   │   └── envelope-encryption/ (1 skills)
 │   ├── incident-response/
 │   │   └── triage/ (1 skills)
 │   ├── secret-management/
