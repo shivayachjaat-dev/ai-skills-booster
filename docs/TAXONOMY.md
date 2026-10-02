@@ -32,6 +32,7 @@ AI_Skills_Booster/
 │   │   ├── elon_musk/ (1 skills)
 │   │   ├── error_debugging_mult/ (1 skills)
 │   │   ├── evaluation/ (1 skills)
+│   │   ├── fable_safe_prompt/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── forensic-audit/ (1 skills)
 │   │   ├── geo_audit/ (1 skills)

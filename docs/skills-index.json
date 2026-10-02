@@ -628,6 +628,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fable-safe-prompt",
+    "path": "skills/ai-engineering/agents/fable_safe_prompt/fable-safe-prompt",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "fable_safe_prompt",
+    "description": "Use this skill to design, implement, and operate production workflows for fable safe prompt. Rewrite allowed prompts to reduce false-positive safety triggers without bypassing policy or changing intent.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "fable",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fable Safe Prompt",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-chaos-testing-and-fault-injection",
     "path": "skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection",
     "domain": "ai-engineering",

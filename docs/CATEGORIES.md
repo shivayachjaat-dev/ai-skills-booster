@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **949** skills across structured domains, categories, and subcategories.
+Master navigation for **950** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (329 skills)
+## Ai Engineering (330 skills)
 
-### Agents (40 skills)
+### Agents (41 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -63,6 +63,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [error-debugging-multi-agent-review](../skills/ai-engineering/agents/error_debugging_mult/error-debugging-multi-agent-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for error debugging multi agent review. Use when working with error debugging multi agent review
 - **Evaluation** (1):
   - [evaluation](../skills/ai-engineering/agents/evaluation/evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for evaluation. Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time.
+- **Fable_Safe_Prompt** (1):
+  - [fable-safe-prompt](../skills/ai-engineering/agents/fable_safe_prompt/fable-safe-prompt/SKILL.md) — Use this skill to design, implement, and operate production workflows for fable safe prompt. Rewrite allowed prompts to reduce false-positive safety triggers without bypassing policy or changing intent.
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):

@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **40 skills** available in this category.
+> **41 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,6 +32,7 @@
 | [elon-musk](../../skills/ai-engineering/agents/elon_musk/elon-musk/SKILL.md) | `elon_musk` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for elon musk. Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade. Ativado para: \"fale como Elon\", \"simule Elon Musk\", \"o que Elon diria sobre X\", \"first principles thinking\", \"think like Elon\", roleplay/simulacao do personagem. |
 | [error-debugging-multi-agent-review](../../skills/ai-engineering/agents/error_debugging_mult/error-debugging-multi-agent-review/SKILL.md) | `error_debugging_mult` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error debugging multi agent review. Use when working with error debugging multi agent review |
 | [evaluation](../../skills/ai-engineering/agents/evaluation/evaluation/SKILL.md) | `evaluation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for evaluation. Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time. |
+| [fable-safe-prompt](../../skills/ai-engineering/agents/fable_safe_prompt/fable-safe-prompt/SKILL.md) | `fable_safe_prompt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fable safe prompt. Rewrite allowed prompts to reduce false-positive safety triggers without bypassing policy or changing intent. |
 | [ai-agent-chaos-testing-and-fault-injection](../../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) | `fault-injection` | `advanced` | `stable` | Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies. |
 | [ai-agent-session-audit-and-forensic-replay](../../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) | `forensic-audit` | `advanced` | `stable` | Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays. |
 | [geo-audit](../../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) | `geo_audit` | `advanced` | `stable` | Use this skill to full website GEO+SEO audit with parallel subagent delegation. |
