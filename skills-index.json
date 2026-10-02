@@ -5405,6 +5405,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-functions-devsec",
+    "path": "skills/frontend/ui-ux/azure_functions_devs/azure-functions-devsec",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "azure_functions_devs",
+    "description": "Use this skill to build serverless applications on Azure Functions. Configure triggers,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Functions Devsec",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

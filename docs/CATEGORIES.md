@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **300** skills across structured domains, categories, and subcategories.
+Master navigation for **301** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (102 skills)
 
@@ -766,7 +766,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (24 skills)
+## Frontend (25 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -826,7 +826,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-### Ui Ux (12 skills)
+### Ui Ux (13 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -853,6 +853,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [azure-eventgrid-java](../skills/frontend/ui-ux/azure_eventgrid_java/azure-eventgrid-java/SKILL.md) — Use this skill to build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub patterns, or integrating with Azure services via events.
 - **Azure_Eventhub_Java** (1):
   - [azure-eventhub-java](../skills/frontend/ui-ux/azure_eventhub_java/azure-eventhub-java/SKILL.md) — Use this skill to build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures.
+- **Azure_Functions_Devs** (1):
+  - [azure-functions-devsec](../skills/frontend/ui-ux/azure_functions_devs/azure-functions-devsec/SKILL.md) — Use this skill to build serverless applications on Azure Functions. Configure triggers,
 
 ### Web Architecture (1 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)

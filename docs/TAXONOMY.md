@@ -326,7 +326,8 @@ AI_Skills_Booster/
 │   │   ├── azure_cosmos_db_py/ (1 skills)
 │   │   ├── azure_devops/ (1 skills)
 │   │   ├── azure_eventgrid_java/ (1 skills)
-│   │   └── azure_eventhub_java/ (1 skills)
+│   │   ├── azure_eventhub_java/ (1 skills)
+│   │   └── azure_functions_devs/ (1 skills)
 │   └── web-architecture/
 │   │   └── antigravity_design_e/ (1 skills)
 ├── marketing/
