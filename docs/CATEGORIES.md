@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,367** skills across structured domains, categories, and subcategories.
+Master navigation for **1,368** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (460 skills)
+## Ai Engineering (461 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -230,7 +230,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Langfuse** (1):
   - [langfuse](../skills/ai-engineering/llm-ops/langfuse/langfuse/SKILL.md) — Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform.
 
-### Models (336 skills)
+### Models (337 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -884,6 +884,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [langchain-architecture](../skills/ai-engineering/models/langchain_architectu/langchain-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for langchain architecture. Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration.
 - **Laravel_Expert** (1):
   - [laravel-expert](../skills/ai-engineering/models/laravel_expert/laravel-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for laravel expert. Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+).
+- **Lead_Magnets** (1):
+  - [lead-magnets](../skills/ai-engineering/models/lead_magnets/lead-magnets/SKILL.md) — Use this skill to design, implement, and operate production workflows for lead magnets. Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

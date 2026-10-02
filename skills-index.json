@@ -9345,6 +9345,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lead-magnets",
+    "path": "skills/ai-engineering/models/lead_magnets/lead-magnets",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "lead_magnets",
+    "description": "Use this skill to design, implement, and operate production workflows for lead magnets. Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "lead",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lead Magnets",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
