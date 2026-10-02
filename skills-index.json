@@ -24511,6 +24511,28 @@
     "maturity": "stable"
   },
   {
+    "name": "goal-analyzer",
+    "path": "skills/software-engineering/architecture/patterns/goal-analyzer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for goal analyzer. \u5206\u6790\u5065\u5eb7\u76ee\u6807\u6570\u636e\u3001\u8bc6\u522b\u76ee\u6807\u6a21\u5f0f\u3001\u8bc4\u4f30\u76ee\u6807\u8fdb\u5ea6,\u5e76\u63d0\u4f9b\u4e2a\u6027\u5316\u76ee\u6807\u7ba1\u7406\u5efa\u8bae\u3002\u652f\u6301\u4e0e\u8425\u517b\u3001\u8fd0\u52a8\u3001\u7761\u7720\u7b49\u5065\u5eb7\u6570\u636e\u7684\u5173\u8054\u5206\u6790\u3002",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "goal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Goal Analyzer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
