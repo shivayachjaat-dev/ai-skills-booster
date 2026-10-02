@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [disciplinary-pip-tracker](../../skills/business/operations/disciplinary_pip_tra/disciplinary-pip-tracker/SKILL.md) | `disciplinary_pip_tra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for disciplinary pip tracker. Disciplinary and performance-improvement case register: case type, linked review or issue, improvement goals, review dates, outcome and confidentiality. Use for PIP tracking. |
 | [employee-suggestion-hub](../../skills/business/operations/employee_suggestion_/employee-suggestion-hub/SKILL.md) | `employee_suggestion_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for employee suggestion hub. Suggestion register: submitter or anonymous flag, category, votes, reviewer, decision and response status. Use for employee feedback programs. |
 | [expense-accounting](../../skills/business/operations/expense_accounting/expense-accounting/SKILL.md) | `expense_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expense accounting. Expense accounting register: expense number and date, payee with PAN and VAT, bill reference, document type, amount with VAT, ledger account, approver and status. Use for expense bookkeeping. |
+| [find-matching-tenders](../../skills/business/operations/find_matching_tender/find-matching-tenders/SKILL.md) | `find_matching_tender` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for find matching tenders. Find open AU/NZ government tenders matching what a company does, ranked by fit with why and gap analysis. Use when the user asks to find tenders, bid opportunities, government contracts, or RFPs for their business (or a client's). |

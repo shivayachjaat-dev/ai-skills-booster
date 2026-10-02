@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **982** skills across structured domains, categories, and subcategories.
+Master navigation for **983** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (347 skills)
 
@@ -961,7 +961,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (21 skills)
+## Business (22 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -997,7 +997,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (10 skills)
+### Operations (11 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1020,6 +1020,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [employee-suggestion-hub](../skills/business/operations/employee_suggestion_/employee-suggestion-hub/SKILL.md) — Use this skill to design, implement, and operate production workflows for employee suggestion hub. Suggestion register: submitter or anonymous flag, category, votes, reviewer, decision and response status. Use for employee feedback programs.
 - **Expense_Accounting** (1):
   - [expense-accounting](../skills/business/operations/expense_accounting/expense-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for expense accounting. Expense accounting register: expense number and date, payee with PAN and VAT, bill reference, document type, amount with VAT, ledger account, approver and status. Use for expense bookkeeping.
+- **Find_Matching_Tender** (1):
+  - [find-matching-tenders](../skills/business/operations/find_matching_tender/find-matching-tenders/SKILL.md) — Use this skill to design, implement, and operate production workflows for find matching tenders. Find open AU/NZ government tenders matching what a company does, ranked by fit with why and gap analysis. Use when the user asks to find tenders, bid opportunities, government contracts, or RFPs for their business (or a client's).
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)

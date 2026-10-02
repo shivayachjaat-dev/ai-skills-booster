@@ -9708,6 +9708,28 @@
     "maturity": "stable"
   },
   {
+    "name": "find-matching-tenders",
+    "path": "skills/business/operations/find_matching_tender/find-matching-tenders",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "find_matching_tender",
+    "description": "Use this skill to design, implement, and operate production workflows for find matching tenders. Find open AU/NZ government tenders matching what a company does, ranked by fit with why and gap analysis. Use when the user asks to find tenders, bid opportunities, government contracts, or RFPs for their business (or a client's).",
+    "tags": [
+      "business",
+      "operations",
+      "find",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Find Matching Tenders",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
