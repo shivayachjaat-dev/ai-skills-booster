@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **19 skills** available in this category.
+> **20 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -23,3 +23,4 @@
 | [bun-development](../../skills/software-engineering/architecture/patterns/bun-development/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun). |
 | [c-pro](../../skills/software-engineering/architecture/patterns/c-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to write efficient C code with proper memory management, pointer |
 | [c4-architecture-c4-architecture](../../skills/software-engineering/architecture/patterns/c4-architecture-c4-architecture/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach. |
+| [c4-code](../../skills/software-engineering/architecture/patterns/c4-code/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure. |

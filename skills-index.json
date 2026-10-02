@@ -10255,6 +10255,28 @@
     "maturity": "stable"
   },
   {
+    "name": "c4-code",
+    "path": "skills/software-engineering/architecture/patterns/c4-code",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "c4",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "C4 Code",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
