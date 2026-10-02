@@ -3163,6 +3163,28 @@
     "maturity": "stable"
   },
   {
+    "name": "churn-prevention",
+    "path": "skills/ai-engineering/models/churn_prevention/churn-prevention",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "churn_prevention",
+    "description": "Use this skill to reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "churn",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Churn Prevention",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
