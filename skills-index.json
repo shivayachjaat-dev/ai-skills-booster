@@ -2488,6 +2488,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-storage-file-share-py",
+    "path": "skills/ai-engineering/rag/azure_storage_file_s/azure-storage-file-share-py",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "azure_storage_file_s",
+    "description": "Use this skill to azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Storage File Share Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",
