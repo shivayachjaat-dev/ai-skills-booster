@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **286 skills** available in this category.
+> **287 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -284,6 +284,7 @@
 | [google-sheets-automation](../../skills/ai-engineering/models/google_sheets_automa/google-sheets-automation/SKILL.md) | `google_sheets_automa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google sheets automation. Read and edit Google Sheets through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification. |
 | [google-slides-automation](../../skills/ai-engineering/models/google_slides_automa/google-slides-automation/SKILL.md) | `google_slides_automa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google slides automation. Read and edit Google Slides through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification. |
 | [gpt-taste](../../skills/ai-engineering/models/gpt_taste/gpt-taste/SKILL.md) | `gpt_taste` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gpt taste. Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids. |
+| [gpu-kubernetes-operations](../../skills/ai-engineering/models/gpu_kubernetes_opera/gpu-kubernetes-operations/SKILL.md) | `gpu_kubernetes_opera` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gpu kubernetes operations. Operate GPU-backed Kubernetes clusters for AI inference and training |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
