@@ -4512,6 +4512,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-mgmt-applicationinsights-dotnet",
+    "path": "skills/devops/cloud-infrastructure/azure_mgmt_applicati/azure-mgmt-applicationinsights-dotnet",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_mgmt_applicati",
+    "description": "Use this skill to azure Application Insights SDK for .NET. Application performance monitoring and observability resource management.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Mgmt Applicationinsights Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
