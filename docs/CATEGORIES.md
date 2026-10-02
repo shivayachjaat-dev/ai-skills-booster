@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **356** skills across structured domains, categories, and subcategories.
+Master navigation for **357** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (107 skills)
+## Ai Engineering (108 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -40,9 +40,11 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
 - **Scheduling** (1):
   - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 
-### Audio Processing (1 skills)
+### Audio Processing (2 skills)
 Category index: [`docs/categories/audio-processing.md`](categories/audio-processing.md)
 
+- **Azure_Speech_To_Text** (1):
+  - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - **Speech Recognition** (1):
   - [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
 

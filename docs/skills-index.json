@@ -388,6 +388,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-speech-to-text-rest-py",
+    "path": "skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py",
+    "domain": "ai-engineering",
+    "category": "audio-processing",
+    "subcategory": "azure_speech_to_text",
+    "description": "Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.",
+    "tags": [
+      "ai-engineering",
+      "audio-processing",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Speech To Text Rest Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "whisper-speech-to-text-and-diarization-pipeline",
     "path": "skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline",
     "domain": "ai-engineering",

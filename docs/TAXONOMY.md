@@ -21,6 +21,7 @@ AI_Skills_Booster/
 │   │   ├── process-management/ (1 skills)
 │   │   └── scheduling/ (1 skills)
 │   ├── audio-processing/
+│   │   ├── azure_speech_to_text/ (1 skills)
 │   │   └── speech-recognition/ (1 skills)
 │   ├── communication/
 │   │   ├── agent-email/ (1 skills)
