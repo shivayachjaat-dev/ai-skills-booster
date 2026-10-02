@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,135 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,136 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1111,6 +1111,7 @@
 | [goal-analyzer](skills/software-engineering/architecture/patterns/goal-analyzer/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for goal analyzer. 分析健康目标数据、识别目标模式、评估目标进度,并提供个性化目标管理建议。支持与营养、运动、睡眠等健康数据的关联分析。 |
 | [golang-pro](skills/software-engineering/architecture/patterns/golang-pro/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for golang pro. Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. |
 | [grafana-dashboards](skills/software-engineering/architecture/patterns/grafana-dashboards/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for grafana dashboards. Create and manage production-ready Grafana dashboards for comprehensive system observability. |
+| [grill-me](skills/software-engineering/architecture/patterns/grill-me/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for grill me. A relentless interview to sharpen a plan or design. |
 | [hig-inputs](skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
 | [multiplayer](skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
