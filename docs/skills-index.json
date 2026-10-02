@@ -16867,6 +16867,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gdpr-data-handling",
+    "path": "skills/frontend/ui-ux/gdpr_data_handling/gdpr-data-handling",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "gdpr_data_handling",
+    "description": "Use this skill to design, implement, and operate production workflows for gdpr data handling. Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "gdpr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gdpr Data Handling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

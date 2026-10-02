@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **105 skills** available in this category.
+> **106 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -105,6 +105,7 @@
 | [free-tool-strategy](../../skills/frontend/ui-ux/free_tool_strategy/free-tool-strategy/SKILL.md) | `free_tool_strategy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for free tool strategy. You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness. |
 | [gcp-cloud-run](../../skills/frontend/ui-ux/gcp_cloud_run/gcp-cloud-run/SKILL.md) | `gcp_cloud_run` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp cloud run. Specialized skill for building production-ready serverless |
 | [gdpr-compliance](../../skills/frontend/ui-ux/gdpr_compliance/gdpr-compliance/SKILL.md) | `gdpr_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gdpr compliance. Implement GDPR data protection requirements. Configure consent management, |
+| [gdpr-data-handling](../../skills/frontend/ui-ux/gdpr_data_handling/gdpr-data-handling/SKILL.md) | `gdpr_data_handling` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gdpr data handling. Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
