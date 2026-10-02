@@ -13787,6 +13787,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dotnet-backend",
+    "path": "skills/frontend/ui-ux/dotnet_backend/dotnet-backend",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "dotnet_backend",
+    "description": "Use this skill to design, implement, and operate production workflows for dotnet backend. Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "dotnet",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dotnet Backend",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

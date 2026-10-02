@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **71 skills** available in this category.
+> **72 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -72,6 +72,7 @@
 | [devops-pipeline-builder](../../skills/frontend/ui-ux/devops_pipeline_buil/devops-pipeline-builder/SKILL.md) | `devops_pipeline_buil` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devops pipeline builder. Design and implement CI/CD pipelines, Docker configurations, deployment |
 | [discord-bot-architect](../../skills/frontend/ui-ux/discord_bot_architec/discord-bot-architect/SKILL.md) | `discord_bot_architec` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for discord bot architect. Specialized skill for building production-ready Discord bots. |
 | [doc-coauthoring](../../skills/frontend/ui-ux/doc_coauthoring/doc-coauthoring/SKILL.md) | `doc_coauthoring` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for doc coauthoring. This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing. |
+| [dotnet-backend](../../skills/frontend/ui-ux/dotnet_backend/dotnet-backend/SKILL.md) | `dotnet_backend` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dotnet backend. Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
