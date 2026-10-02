@@ -445,6 +445,31 @@
     "maturity": "stable"
   },
   {
+    "name": "github-actions-ci-pipeline-optimization",
+    "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "optimization",
+    "description": "Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).",
+    "tags": [
+      "github-actions",
+      "ci-cd",
+      "devops",
+      "automation",
+      "workflow-optimization",
+      "build-speed"
+    ],
+    "technologies": [
+      "GitHub Actions",
+      "YAML",
+      "Docker",
+      "npm",
+      "Git"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "docker-container-optimization",
     "path": "skills/devops/containers/optimization/docker-container-optimization",
     "domain": "devops",

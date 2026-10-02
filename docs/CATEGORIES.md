@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **41** skills across structured domains, categories, and subcategories.
+Master navigation for **42** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (5 skills)
 
@@ -110,7 +110,13 @@ Category index: [`docs/categories/redis.md`](categories/redis.md)
 - **Caching** (1):
   - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 
-## Devops (4 skills)
+## Devops (5 skills)
+
+### Ci Cd (1 skills)
+Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
+
+- **Optimization** (1):
+  - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
 ### Containers (1 skills)
 Category index: [`docs/categories/containers.md`](categories/containers.md)

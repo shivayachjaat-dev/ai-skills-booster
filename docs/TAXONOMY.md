@@ -41,6 +41,8 @@ AI_Skills_Booster/
 │   └── redis/
 │   │   └── caching/ (1 skills)
 ├── devops/
+│   ├── ci-cd/
+│   │   └── optimization/ (1 skills)
 │   ├── containers/
 │   │   └── optimization/ (1 skills)
 │   ├── iac/
