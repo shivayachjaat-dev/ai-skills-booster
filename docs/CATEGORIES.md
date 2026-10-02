@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **435** skills across structured domains, categories, and subcategories.
+Master navigation for **436** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (148 skills)
 
@@ -1183,7 +1183,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (49 skills)
+## Security (50 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -1213,7 +1213,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (7 skills)
+### Appsec (8 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -1229,6 +1229,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [azure-security-keyvault-keys-java](../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-java/SKILL.md) — Use this skill to azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys.
 - **Bb_Methodology** (1):
   - [bb-methodology](../skills/security/appsec/bb_methodology/bb-methodology/SKILL.md) — Use this skill to use at the START of any bug bounty hunting session, when switching targets,
+- **Bug_Bounty** (1):
+  - [bug-bounty](../skills/security/appsec/bug_bounty/bug-bounty/SKILL.md) — Use this skill to complete bug bounty workflow
 
 ### Architecture (1 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)

@@ -8604,6 +8604,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bug-bounty",
+    "path": "skills/security/appsec/bug_bounty/bug-bounty",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "bug_bounty",
+    "description": "Use this skill to complete bug bounty workflow",
+    "tags": [
+      "security",
+      "appsec",
+      "bug",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bug Bounty",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
