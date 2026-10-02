@@ -652,6 +652,7 @@ AI_Skills_Booster/
 │   │   ├── decision_navigator/ (1 skills)
 │   │   ├── defi_protocol_templa/ (1 skills)
 │   │   ├── design_theme_guide/ (1 skills)
+│   │   ├── design_ux/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   └── swiftui_performance_/ (1 skills)

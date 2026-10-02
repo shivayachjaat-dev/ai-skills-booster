@@ -12775,6 +12775,28 @@
     "maturity": "stable"
   },
   {
+    "name": "design-ux",
+    "path": "skills/frontend/ui-ux/design_ux/design-ux",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "design_ux",
+    "description": "Use this skill to design, implement, and operate production workflows for design ux. UX / usability audit \u2014 heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI \\\"feels off\\\", \\\"sucks to use\\\", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "design",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Design Ux",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

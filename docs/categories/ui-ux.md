@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **64 skills** available in this category.
+> **65 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -65,6 +65,7 @@
 | [decision-navigator](../../skills/frontend/ui-ux/decision_navigator/decision-navigator/SKILL.md) | `decision_navigator` | `advanced` | `stable` | Use this skill to guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps. |
 | [defi-protocol-templates](../../skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates/SKILL.md) | `defi_protocol_templa` | `advanced` | `stable` | Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols. |
 | [design-theme-guide](../../skills/frontend/ui-ux/design_theme_guide/design-theme-guide/SKILL.md) | `design_theme_guide` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design theme guide. Design-token register: colour, typography, spacing and radius tokens with light and dark values, contrast ratio and WCAG level. Use for design system documentation. |
+| [design-ux](../../skills/frontend/ui-ux/design_ux/design-ux/SKILL.md) | `design_ux` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design ux. UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI \"feels off\", \"sucks to use\", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
