@@ -97,6 +97,8 @@ AI_Skills_Booster/
 │   │   └── airtable/ (1 skills)
 │   ├── experimentation/
 │   │   └── ab-testing/ (1 skills)
+│   ├── financial/
+│   │   └── alpha-vantage/ (1 skills)
 │   └── orchestration/
 │   │   └── airflow/ (1 skills)
 ├── databases/

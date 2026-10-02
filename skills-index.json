@@ -1358,6 +1358,32 @@
     "maturity": "stable"
   },
   {
+    "name": "financial-market-data-and-alpha-vantage-time-series",
+    "path": "skills/data-analytics/financial/alpha-vantage/financial-market-data-and-alpha-vantage-time-series",
+    "domain": "data-analytics",
+    "category": "financial",
+    "subcategory": "alpha-vantage",
+    "description": "Use this skill to fetch, clean, and analyze global equities, FX, cryptocurrency, and macroeconomic time series using the Alpha Vantage API. It covers technical indicator calculations (RSI, MACD, Bollinger Bands), rate limiting, and Pandas data pipeline integration.",
+    "tags": [
+      "financial-data",
+      "alpha-vantage",
+      "time-series",
+      "equities",
+      "technical-indicators",
+      "pandas",
+      "data-analytics"
+    ],
+    "technologies": [
+      "Alpha Vantage API",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Requests"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "airflow-dag-orchestration-and-lineage",
     "path": "skills/data-analytics/orchestration/airflow/airflow-dag-orchestration-and-lineage",
     "domain": "data-analytics",

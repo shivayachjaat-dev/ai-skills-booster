@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **145** skills across structured domains, categories, and subcategories.
+Master navigation for **146** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -232,7 +232,7 @@ Category index: [`docs/categories/presentation.md`](categories/presentation.md)
 - **Marp Slides** (1):
   - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 
-## Data Analytics (6 skills)
+## Data Analytics (7 skills)
 
 ### Dashboards (1 skills)
 Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
@@ -263,6 +263,12 @@ Category index: [`docs/categories/experimentation.md`](categories/experimentatio
 
 - **Ab Testing** (1):
   - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
+
+### Financial (1 skills)
+Category index: [`docs/categories/financial.md`](categories/financial.md)
+
+- **Alpha Vantage** (1):
+  - [financial-market-data-and-alpha-vantage-time-series](../skills/data-analytics/financial/alpha-vantage/financial-market-data-and-alpha-vantage-time-series/SKILL.md) — Use this skill to fetch, clean, and analyze global equities, FX, cryptocurrency, and macroeconomic time series using the Alpha Vantage API. It covers technical indicator calculations (RSI, MACD, Bollinger Bands), rate limiting, and Pandas data pipeline integration.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)
