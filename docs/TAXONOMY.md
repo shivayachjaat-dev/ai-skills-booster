@@ -415,7 +415,7 @@ AI_Skills_Booster/
 │   │   ├── aws_secrets_manager/ (1 skills)
 │   │   ├── azure_keyvault/ (1 skills)
 │   │   ├── azure_monitor_audit/ (1 skills)
-│   │   └── azure_security_keyva/ (1 skills)
+│   │   └── azure_security_keyva/ (2 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/

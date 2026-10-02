@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 350 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 351 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -301,6 +301,7 @@
 | [azure-keyvault](skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) | `security` | `appsec` | `azure_keyvault` | `advanced` | `stable` | Use this skill to manage secrets and certificates in Azure Key Vault. Configure access |
 | [azure-monitor-audit](skills/security/appsec/azure_monitor_audit/azure-monitor-audit/SKILL.md) | `security` | `appsec` | `azure_monitor_audit` | `advanced` | `stable` | Use this skill to configure Azure Monitor and Activity Log for auditing. Set up diagnostic |
 | [azure-security-keyvault-keys-dotnet](skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-dotnet/SKILL.md) | `security` | `appsec` | `azure_security_keyva` | `advanced` | `stable` | Use this skill to azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification. |
+| [azure-security-keyvault-keys-java](skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-java/SKILL.md) | `security` | `appsec` | `azure_security_keyva` | `advanced` | `stable` | Use this skill to azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys. |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |
 | [azure-communication-common-java](skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) | `security` | `authentication` | `azure_communication_` | `advanced` | `stable` | Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services. |
 | [azure-identity-dotnet](skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) | `security` | `authentication` | `azure_identity_dotne` | `advanced` | `stable` | Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. |
