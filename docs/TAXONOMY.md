@@ -9,6 +9,7 @@ AI_Skills_Booster/
 │   │   ├── azure-foundry/ (1 skills)
 │   │   ├── benchmarking/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
+│   │   ├── forensic-audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)
 │   │   ├── observability/ (1 skills)

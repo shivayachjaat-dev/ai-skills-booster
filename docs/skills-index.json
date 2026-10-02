@@ -125,6 +125,32 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-agent-session-audit-and-forensic-replay",
+    "path": "skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "forensic-audit",
+    "description": "Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.",
+    "tags": [
+      "session-audit",
+      "forensic-replay",
+      "audit-trail",
+      "compliance",
+      "soc2",
+      "eu-ai-act",
+      "cryptographic-log"
+    ],
+    "technologies": [
+      "Python",
+      "SHA-256",
+      "JSON Lines",
+      "Cryptography",
+      "Pydantic"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agent-project-memory",
     "path": "skills/ai-engineering/agents/memory/agent-project-memory",
     "domain": "ai-engineering",
