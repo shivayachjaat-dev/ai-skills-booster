@@ -1464,6 +1464,7 @@ AI_Skills_Booster/
 │   │   ├── hubspot_integration/ (1 skills)
 │   │   ├── identity_federation/ (1 skills)
 │   │   ├── malware_analysis/ (1 skills)
+│   │   ├── nextjs_supabase_auth/ (1 skills)
 │   │   └── oauth2/ (1 skills)
 │   ├── authorization/
 │   │   └── rbac/ (1 skills)

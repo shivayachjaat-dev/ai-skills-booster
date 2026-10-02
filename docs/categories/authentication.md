@@ -1,6 +1,6 @@
 # Category Index: Authentication
 
-> **14 skills** available in this category.
+> **15 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,4 +17,5 @@
 | [hubspot-integration](../../skills/security/authentication/hubspot_integration/hubspot-integration/SKILL.md) | `hubspot_integration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hubspot integration. Expert patterns for HubSpot CRM integration including OAuth |
 | [identity-federation](../../skills/security/authentication/identity_federation/identity-federation/SKILL.md) | `identity_federation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for identity federation. Authorized assessment of federated identity systems: SAML, OIDC, OAuth2 flows, SSO misconfiguration, and token-confusion issues. |
 | [malware-analysis](../../skills/security/authentication/malware_analysis/malware-analysis/SKILL.md) | `malware_analysis` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for malware analysis. Analyze suspected malware through static, dynamic, and behavioral techniques: IOC extraction, YARA/Sigma rule authoring, sandbox orchestration, and anti-analysis detection. |
+| [nextjs-supabase-auth](../../skills/security/authentication/nextjs_supabase_auth/nextjs-supabase-auth/SKILL.md) | `nextjs_supabase_auth` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nextjs supabase auth. Expert integration of Supabase Auth with Next.js App Router |
 | [oauth2-jwt-authentication-flow](../../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) | `oauth2` | `advanced` | `stable` | Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists. |

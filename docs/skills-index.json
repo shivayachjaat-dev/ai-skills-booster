@@ -30057,6 +30057,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nextjs-supabase-auth",
+    "path": "skills/security/authentication/nextjs_supabase_auth/nextjs-supabase-auth",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "nextjs_supabase_auth",
+    "description": "Use this skill to design, implement, and operate production workflows for nextjs supabase auth. Expert integration of Supabase Auth with Next.js App Router",
+    "tags": [
+      "security",
+      "authentication",
+      "nextjs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nextjs Supabase Auth",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
