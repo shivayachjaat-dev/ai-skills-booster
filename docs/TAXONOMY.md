@@ -127,7 +127,8 @@ AI_Skills_Booster/
 │   │   ├── llmops_platform_engi/ (1 skills)
 │   │   ├── mac_mini_llm_lab/ (1 skills)
 │   │   ├── mcp_builder/ (1 skills)
-│   │   └── multi_tenant_llm_hos/ (1 skills)
+│   │   ├── multi_tenant_llm_hos/ (1 skills)
+│   │   └── odoo_ecommerce_confi/ (1 skills)
 │   ├── models/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)

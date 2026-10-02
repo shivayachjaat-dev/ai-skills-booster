@@ -2591,6 +2591,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-ecommerce-configurator",
+    "path": "skills/ai-engineering/llm-ops/odoo_ecommerce_confi/odoo-ecommerce-configurator",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "odoo_ecommerce_confi",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo ecommerce configurator. Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow.",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Ecommerce Configurator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

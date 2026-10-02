@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **21 skills** available in this category.
+> **22 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -25,3 +25,4 @@
 | [mac-mini-llm-lab](../../skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) | `mac_mini_llm_lab` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access, |
 | [mcp-builder](../../skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) | `mcp_builder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks. |
 | [multi-tenant-llm-hosting](../../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) | `multi_tenant_llm_hos` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation, |
+| [odoo-ecommerce-configurator](../../skills/ai-engineering/llm-ops/odoo_ecommerce_confi/odoo-ecommerce-configurator/SKILL.md) | `odoo_ecommerce_confi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo ecommerce configurator. Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow. |
