@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,3 +19,4 @@
 | [frontend-mobile-development-component-scaffold](../../skills/frontend/ui-development/frontend_mobile_deve/frontend-mobile-development-component-scaffold/SKILL.md) | `frontend_mobile_deve` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend mobile development component scaffold. You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s |
 | [frontend-mobile-security-xss-scan](../../skills/frontend/ui-development/frontend_mobile_secu/frontend-mobile-security-xss-scan/SKILL.md) | `frontend_mobile_secu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend mobile security xss scan. You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention. Analyze React, Vue, Angular, and vanilla JavaScript code to identify injection poi |
 | [frontend-observability](../../skills/frontend/ui-development/frontend_observabili/frontend-observability/SKILL.md) | `frontend_observabili` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend observability. A portable, framework-agnostic field-side observability system for any React or React Native app. |
+| [frontend-optimistic-mutations](../../skills/frontend/ui-development/frontend_optimistic_/frontend-optimistic-mutations/SKILL.md) | `frontend_optimistic_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend optimistic mutations. A portable, framework-agnostic discipline for the write path of any React or React Native app using a query/cache layer. |

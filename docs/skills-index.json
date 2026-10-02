@@ -14293,6 +14293,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-optimistic-mutations",
+    "path": "skills/frontend/ui-development/frontend_optimistic_/frontend-optimistic-mutations",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_optimistic_",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend optimistic mutations. A portable, framework-agnostic discipline for the write path of any React or React Native app using a query/cache layer.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Optimistic Mutations",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
