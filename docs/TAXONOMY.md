@@ -360,7 +360,8 @@ AI_Skills_Booster/
 │   │   ├── canva_automation/ (1 skills)
 │   │   ├── clickup_automation/ (1 skills)
 │   │   ├── close_automation/ (1 skills)
-│   │   └── coda_automation/ (1 skills)
+│   │   ├── coda_automation/ (1 skills)
+│   │   └── competitor_tracking/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/

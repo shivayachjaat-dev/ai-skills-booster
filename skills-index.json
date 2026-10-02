@@ -6813,6 +6813,28 @@
     "maturity": "stable"
   },
   {
+    "name": "competitor-tracking",
+    "path": "skills/developer-tools/productivity/competitor_tracking/competitor-tracking",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "competitor_tracking",
+    "description": "Use this skill to systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "competitor",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Competitor Tracking",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
