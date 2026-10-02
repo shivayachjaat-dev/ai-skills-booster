@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,297** skills across structured domains, categories, and subcategories.
+Master navigation for **1,298** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (434 skills)
+## Ai Engineering (435 skills)
 
 ### Agents (54 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -218,7 +218,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (317 skills)
+### Models (318 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -834,6 +834,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [imagen](../skills/ai-engineering/models/imagen/imagen/SKILL.md) — Use this skill to design, implement, and operate production workflows for imagen. AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.
 - **Incident_Response_Sm** (1):
   - [incident-response-smart-fix](../skills/ai-engineering/models/incident_response_sm/incident-response-smart-fix/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident response smart fix. [Extended thinking: This workflow implements a sophisticated debugging and resolution pipeline that leverages AI-assisted debugging tools and observability platforms to systematically diagnose and res
+- **Instructree** (1):
+  - [instructree](../skills/ai-engineering/models/instructree/instructree/SKILL.md) — Use this skill to design, implement, and operate production workflows for instructree. Map, explain, and lint repository-scoped coding-agent instructions before changing code.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

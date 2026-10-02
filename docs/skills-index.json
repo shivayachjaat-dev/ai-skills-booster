@@ -8795,6 +8795,28 @@
     "maturity": "stable"
   },
   {
+    "name": "instructree",
+    "path": "skills/ai-engineering/models/instructree/instructree",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "instructree",
+    "description": "Use this skill to design, implement, and operate production workflows for instructree. Map, explain, and lint repository-scoped coding-agent instructions before changing code.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "instructree",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Instructree",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
