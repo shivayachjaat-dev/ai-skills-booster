@@ -6114,6 +6114,28 @@
     "maturity": "stable"
   },
   {
+    "name": "copy-editing",
+    "path": "skills/business/growth/copy_editing/copy-editing",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "copy_editing",
+    "description": "Use this skill to you are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve existing copy through focused editing passes while preserving the core message.",
+    "tags": [
+      "business",
+      "growth",
+      "copy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Copy Editing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",
