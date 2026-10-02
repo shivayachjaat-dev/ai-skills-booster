@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **654** skills across structured domains, categories, and subcategories.
+Master navigation for **655** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (233 skills)
+## Ai Engineering (234 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (161 skills)
+### Models (162 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -458,6 +458,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [csharp-pro](../skills/ai-engineering/models/csharp_pro/csharp-pro/SKILL.md) — Use this skill to write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.
 - **Customer_Support** (1):
   - [customer-support](../skills/ai-engineering/models/customer_support/customer-support/SKILL.md) — Use this skill to elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences.
+- **Cypress_Skill** (1):
+  - [cypress-skill](../skills/ai-engineering/models/cypress_skill/cypress-skill/SKILL.md) — Use this skill to generates production-grade Cypress E2E and component tests in JavaScript or TypeScript. Supports local execution and TestMu AI cloud. Use when the user asks to write Cypress tests, set up Cypress, test with cy commands, or mentions \"Cypress\", \"cy.visit\", \"cy.get\", \"cy.interc
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

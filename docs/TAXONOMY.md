@@ -214,6 +214,7 @@ AI_Skills_Booster/
 │   │   ├── crypto_bd_agent/ (1 skills)
 │   │   ├── csharp_pro/ (1 skills)
 │   │   ├── customer_support/ (1 skills)
+│   │   ├── cypress_skill/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

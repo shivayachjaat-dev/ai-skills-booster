@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **161 skills** available in this category.
+> **162 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -164,4 +164,5 @@
 | [crypto-bd-agent](../../skills/ai-engineering/models/crypto_bd_agent/crypto-bd-agent/SKILL.md) | `crypto_bd_agent` | `advanced` | `stable` | Use this skill to production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges. |
 | [csharp-pro](../../skills/ai-engineering/models/csharp_pro/csharp-pro/SKILL.md) | `csharp_pro` | `advanced` | `stable` | Use this skill to write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing. |
 | [customer-support](../../skills/ai-engineering/models/customer_support/customer-support/SKILL.md) | `customer_support` | `advanced` | `stable` | Use this skill to elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. |
+| [cypress-skill](../../skills/ai-engineering/models/cypress_skill/cypress-skill/SKILL.md) | `cypress_skill` | `advanced` | `stable` | Use this skill to generates production-grade Cypress E2E and component tests in JavaScript or TypeScript. Supports local execution and TestMu AI cloud. Use when the user asks to write Cypress tests, set up Cypress, test with cy commands, or mentions \"Cypress\", \"cy.visit\", \"cy.get\", \"cy.interc |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

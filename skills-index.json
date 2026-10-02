@@ -4659,6 +4659,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cypress-skill",
+    "path": "skills/ai-engineering/models/cypress_skill/cypress-skill",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cypress_skill",
+    "description": "Use this skill to generates production-grade Cypress E2E and component tests in JavaScript or TypeScript. Supports local execution and TestMu AI cloud. Use when the user asks to write Cypress tests, set up Cypress, test with cy commands, or mentions \\\"Cypress\\\", \\\"cy.visit\\\", \\\"cy.get\\\", \\\"cy.interc",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cypress",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cypress Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
