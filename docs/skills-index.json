@@ -19969,6 +19969,28 @@
     "maturity": "stable"
   },
   {
+    "name": "interactive-portfolio",
+    "path": "skills/frontend/ui-ux/interactive_portfoli/interactive-portfolio",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "interactive_portfoli",
+    "description": "Use this skill to design, implement, and operate production workflows for interactive portfolio. Expert in building portfolios that actually land jobs and clients -",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "interactive",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Interactive Portfolio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
