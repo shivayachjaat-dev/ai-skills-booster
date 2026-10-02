@@ -675,6 +675,28 @@
     "maturity": "stable"
   },
   {
+    "name": "find-complementary-founders",
+    "path": "skills/ai-engineering/agents/find_complementary_f/find-complementary-founders",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "find_complementary_f",
+    "description": "Use this skill to design, implement, and operate production workflows for find complementary founders. Use when an owner explicitly asks for a cofounder or project partner, or explicitly says they need a complementary builder, operator, go-to-market partner, or scaling capability. Assess and publish only the agent's own owner, then rank only app...",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "find",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Find Complementary Founders",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-session-audit-and-forensic-replay",
     "path": "skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay",
     "domain": "ai-engineering",
