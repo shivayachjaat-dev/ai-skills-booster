@@ -7786,6 +7786,28 @@
     "maturity": "stable"
   },
   {
+    "name": "developer-audience-context",
+    "path": "skills/business/growth/developer_audience_c/developer-audience-context",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "developer_audience_c",
+    "description": "Use this skill to design, implement, and operate production workflows for developer audience context. When the user wants to establish or update their developer audience context. Also use when starting any other developer marketing skill to ensure foundational context is loaded.",
+    "tags": [
+      "business",
+      "growth",
+      "developer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Developer Audience Context",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",

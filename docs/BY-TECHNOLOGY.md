@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (637 skills)
+## Bash (638 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1362,6 +1362,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [content-creator](../skills/business/growth/content_creator/content-creator/SKILL.md) — Use this skill to draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.
 - [copy-editing](../skills/business/growth/copy_editing/copy-editing/SKILL.md) — Use this skill to you are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve existing copy through focused editing passes while preserving the core message.
 - [cro-engineering-workflow](../skills/business/growth/cro/cro-engineering-workflow/SKILL.md) — Use this skill to when the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms.
+- [developer-audience-context](../skills/business/growth/developer_audience_c/developer-audience-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer audience context. When the user wants to establish or update their developer audience context. Also use when starting any other developer marketing skill to ensure foundational context is loaded.
 - [board-governance](../skills/business/operations/board_governance/board-governance/SKILL.md) — Use this skill to board and governance register: meeting date, agenda, decision, resolution number, vote result, action owner and due date. Use for board packs and action tracking.
 - [brand-kit-print-collateral](../skills/business/operations/brand_kit_print_coll/brand-kit-print-collateral/SKILL.md) — Use this skill to print collateral spec: item, finished and trim size, bleed, colour mode, stock and GSM, finish, safe margin, print method, quantity and unit cost. Use for cards and letterhead.
 - [buddy-program-manager](../skills/business/operations/buddy_program_manage/buddy-program-manager/SKILL.md) — Use this skill to buddy programme register: new hire, assigned buddy, department, start and end dates, check-ins planned and done, and feedback score. Use for onboarding buddy schemes.
@@ -3368,6 +3369,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [developer-advocacy](../skills/frontend/ui-ux/developer_advocacy/developer-advocacy/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer advocacy. When the user wants to do developer advocacy activities including conference talks, live coding, podcasts, and building in public.
 
+## Developer Audience Context (1 skills)
+
+- [developer-audience-context](../skills/business/growth/developer_audience_c/developer-audience-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer audience context. When the user wants to establish or update their developer audience context. Also use when starting any other developer marketing skill to ensure foundational context is loaded.
+
 ## Django (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -4554,7 +4559,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (740 skills)
+## Python (741 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4890,6 +4895,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [content-creator](../skills/business/growth/content_creator/content-creator/SKILL.md) — Use this skill to draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.
 - [copy-editing](../skills/business/growth/copy_editing/copy-editing/SKILL.md) — Use this skill to you are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve existing copy through focused editing passes while preserving the core message.
 - [cro-engineering-workflow](../skills/business/growth/cro/cro-engineering-workflow/SKILL.md) — Use this skill to when the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms.
+- [developer-audience-context](../skills/business/growth/developer_audience_c/developer-audience-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer audience context. When the user wants to establish or update their developer audience context. Also use when starting any other developer marketing skill to ensure foundational context is loaded.
 - [corporate-alumni-and-talent-rehire-network](../skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network/SKILL.md) — Use this skill to design, maintain, and automate corporate alumni talent registers, re-hire eligibility tracking, and boomerang employee engagement workflows. It covers structured employee exit registers, skill taxonomy mapping, re-engagement cadences, and compliance auditing.
 - [employee-360-feedback-review-system](../skills/business/human-resources/performance-management/employee-360-feedback-review-system/SKILL.md) — Use this skill when designing, configuring, and operating multi-rater 360-degree performance feedback systems. It guides the agent through peer reviewer nomination workflows, role-specific competency rubrics, anonymous vs attributed visibility rules, cognitive bias mitigation (recency and halo effects), and synthesis reporting.
 - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
