@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,3 +15,4 @@
 | [azure-cosmos-db-py](../../skills/frontend/ui-ux/azure_cosmos_db_py/azure-cosmos-db-py/SKILL.md) | `azure_cosmos_db_py` | `advanced` | `stable` | Use this skill to build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles. |
 | [azure-devops](../../skills/frontend/ui-ux/azure_devops/azure-devops/SKILL.md) | `azure_devops` | `advanced` | `stable` | Use this skill to set up Azure Pipelines for CI/CD, configure build and release pipelines, |
 | [azure-eventgrid-java](../../skills/frontend/ui-ux/azure_eventgrid_java/azure-eventgrid-java/SKILL.md) | `azure_eventgrid_java` | `advanced` | `stable` | Use this skill to build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub patterns, or integrating with Azure services via events. |
+| [azure-eventhub-java](../../skills/frontend/ui-ux/azure_eventhub_java/azure-eventhub-java/SKILL.md) | `azure_eventhub_java` | `advanced` | `stable` | Use this skill to build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures. |

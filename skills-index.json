@@ -5295,6 +5295,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-eventhub-java",
+    "path": "skills/frontend/ui-ux/azure_eventhub_java/azure-eventhub-java",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "azure_eventhub_java",
+    "description": "Use this skill to build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Eventhub Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
