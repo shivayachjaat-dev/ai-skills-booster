@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **588** skills across structured domains, categories, and subcategories.
+Master navigation for **589** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (202 skills)
 
@@ -1405,7 +1405,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (59 skills)
+## Security (60 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -1530,12 +1530,14 @@ Category index: [`docs/categories/compliance.md`](categories/compliance.md)
 - **Busabase** (1):
   - [busabase](../skills/security/compliance/busabase/busabase/SKILL.md) — Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history.
 
-### Cryptography (3 skills)
+### Cryptography (4 skills)
 Category index: [`docs/categories/cryptography.md`](categories/cryptography.md)
 
 - **Azure_Keyvault_Keys_** (2):
   - [azure-keyvault-keys-rust](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-rust/SKILL.md) — Use this skill to azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: "keyvault keys rust", "KeyClient rust", "create key rust", "encrypt rust", "sign rust".
   - [azure-keyvault-keys-ts](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-ts/SKILL.md) — Use this skill to manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating keys.
+- **Constant_Time_Analys** (1):
+  - [constant-time-analysis](../skills/security/cryptography/constant_time_analys/constant-time-analysis/SKILL.md) — Use this skill to analyze cryptographic code to detect operations that leak secret data through execution timing variations.
 - **Envelope Encryption** (1):
   - [envelope-encryption-kms-pattern](../skills/security/cryptography/envelope-encryption/envelope-encryption-kms-pattern/SKILL.md) — Use this skill when architecting and implementing cryptographic envelope encryption for sensitive data at rest using cloud Key Management Services (AWS KMS, GCP KMS, Azure Key Vault) or HashiCorp Vault. It guides the agent through two-tier key hierarchies (KEK and DEK), AES-256-GCM authenticated encryption, DEK caching with TTL limits, and key rotation.
 

@@ -11580,6 +11580,28 @@
     "maturity": "stable"
   },
   {
+    "name": "constant-time-analysis",
+    "path": "skills/security/cryptography/constant_time_analys/constant-time-analysis",
+    "domain": "security",
+    "category": "cryptography",
+    "subcategory": "constant_time_analys",
+    "description": "Use this skill to analyze cryptographic code to detect operations that leak secret data through execution timing variations.",
+    "tags": [
+      "security",
+      "cryptography",
+      "constant",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Constant Time Analysis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "envelope-encryption-kms-pattern",
     "path": "skills/security/cryptography/envelope-encryption/envelope-encryption-kms-pattern",
     "domain": "security",
