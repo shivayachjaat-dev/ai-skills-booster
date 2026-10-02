@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (925 skills)
+## Bash (926 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1734,6 +1734,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [gitlab-ci](../skills/frontend/ui-ux/gitlab_ci/gitlab-ci/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitlab ci. Configure GitLab CI/CD pipelines and runners for automated building,
 - [gitlab-ci-patterns](../skills/frontend/ui-ux/gitlab_ci_patterns/gitlab-ci-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitlab ci patterns. Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment.
 - [gitops-workflow](../skills/frontend/ui-ux/gitops_workflow/gitops-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
+- [glasser](../skills/frontend/ui-ux/glasser/glasser/SKILL.md) — Use this skill to design, implement, and operate production workflows for glasser. Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -5062,6 +5063,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [gitops-workflow](../skills/frontend/ui-ux/gitops_workflow/gitops-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
 
+## Glasser (1 skills)
+
+- [glasser](../skills/frontend/ui-ux/glasser/glasser/SKILL.md) — Use this skill to design, implement, and operate production workflows for glasser. Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration.
+
 ## Glassmorphism (1 skills)
 
 - [glassmorphism](../skills/frontend/web-architecture/glassmorphism/glassmorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for glassmorphism. Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel.
@@ -5987,7 +5992,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1028 skills)
+## Python (1029 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6719,6 +6724,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [gitlab-ci](../skills/frontend/ui-ux/gitlab_ci/gitlab-ci/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitlab ci. Configure GitLab CI/CD pipelines and runners for automated building,
 - [gitlab-ci-patterns](../skills/frontend/ui-ux/gitlab_ci_patterns/gitlab-ci-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitlab ci patterns. Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment.
 - [gitops-workflow](../skills/frontend/ui-ux/gitops_workflow/gitops-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
+- [glasser](../skills/frontend/ui-ux/glasser/glasser/SKILL.md) — Use this skill to design, implement, and operate production workflows for glasser. Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.

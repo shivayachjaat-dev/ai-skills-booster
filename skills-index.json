@@ -17593,6 +17593,28 @@
     "maturity": "stable"
   },
   {
+    "name": "glasser",
+    "path": "skills/frontend/ui-ux/glasser/glasser",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "glasser",
+    "description": "Use this skill to design, implement, and operate production workflows for glasser. Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "glasser",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Glasser",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
