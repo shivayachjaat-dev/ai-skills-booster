@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -27,4 +27,5 @@
 | [ebpf-observability](../../skills/devops/ci-cd/ebpf_observability/ebpf-observability/SKILL.md) | `ebpf_observability` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ebpf observability. Use eBPF for deep kernel-level observability — trace syscalls, network |
 | [elk-stack](../../skills/devops/ci-cd/elk_stack/elk-stack/SKILL.md) | `elk_stack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for elk stack. Deploy and manage the ELK Stack (Elasticsearch, Logstash, Kibana) for |
 | [feature-flags](../../skills/devops/ci-cd/feature_flags/feature-flags/SKILL.md) | `feature_flags` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for feature flags. Implement feature flags for progressive feature rollout using LaunchDarkly, |
+| [gcp-cloud-functions](../../skills/devops/ci-cd/gcp_cloud_functions/gcp-cloud-functions/SKILL.md) | `gcp_cloud_functions` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp cloud functions. Deploy serverless functions on Google Cloud Functions. Configure triggers |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,053 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,054 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -543,6 +543,7 @@
 | [ebpf-observability](skills/devops/ci-cd/ebpf_observability/ebpf-observability/SKILL.md) | `devops` | `ci-cd` | `ebpf_observability` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ebpf observability. Use eBPF for deep kernel-level observability — trace syscalls, network |
 | [elk-stack](skills/devops/ci-cd/elk_stack/elk-stack/SKILL.md) | `devops` | `ci-cd` | `elk_stack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for elk stack. Deploy and manage the ELK Stack (Elasticsearch, Logstash, Kibana) for |
 | [feature-flags](skills/devops/ci-cd/feature_flags/feature-flags/SKILL.md) | `devops` | `ci-cd` | `feature_flags` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for feature flags. Implement feature flags for progressive feature rollout using LaunchDarkly, |
+| [gcp-cloud-functions](skills/devops/ci-cd/gcp_cloud_functions/gcp-cloud-functions/SKILL.md) | `devops` | `ci-cd` | `gcp_cloud_functions` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp cloud functions. Deploy serverless functions on Google Cloud Functions. Configure triggers |
 | [github-actions-ci-pipeline-optimization](skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `devops` | `ci-cd` | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |

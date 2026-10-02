@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,053** skills across structured domains, categories, and subcategories.
+Master navigation for **1,054** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (362 skills)
 
@@ -1319,9 +1319,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (81 skills)
+## Devops (82 skills)
 
-### Ci Cd (24 skills)
+### Ci Cd (25 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -1370,6 +1370,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [elk-stack](../skills/devops/ci-cd/elk_stack/elk-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for elk stack. Deploy and manage the ELK Stack (Elasticsearch, Logstash, Kibana) for
 - **Feature_Flags** (1):
   - [feature-flags](../skills/devops/ci-cd/feature_flags/feature-flags/SKILL.md) — Use this skill to design, implement, and operate production workflows for feature flags. Implement feature flags for progressive feature rollout using LaunchDarkly,
+- **Gcp_Cloud_Functions** (1):
+  - [gcp-cloud-functions](../skills/devops/ci-cd/gcp_cloud_functions/gcp-cloud-functions/SKILL.md) — Use this skill to design, implement, and operate production workflows for gcp cloud functions. Deploy serverless functions on Google Cloud Functions. Configure triggers
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
