@@ -25237,6 +25237,28 @@
     "maturity": "stable"
   },
   {
+    "name": "headline-psychologist",
+    "path": "skills/software-engineering/architecture/patterns/headline-psychologist",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for headline psychologist. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "headline",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Headline Psychologist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
