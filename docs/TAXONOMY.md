@@ -42,6 +42,7 @@ AI_Skills_Booster/
 │   │   ├── geoffrey_hinton/ (1 skills)
 │   │   ├── git_pr_workflows_git/ (1 skills)
 │   │   ├── grok_delegate/ (1 skills)
+│   │   ├── handoff/ (1 skills)
 │   │   ├── lintlang_audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)

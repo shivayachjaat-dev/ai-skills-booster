@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **47 skills** available in this category.
+> **48 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@
 | [geoffrey-hinton](../../skills/ai-engineering/agents/geoffrey_hinton/geoffrey-hinton/SKILL.md) | `geoffrey_hinton` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geoffrey hinton. Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das Deep Belief Networks. |
 | [git-pr-workflows-git-workflow](../../skills/ai-engineering/agents/git_pr_workflows_git/git-pr-workflows-git-workflow/SKILL.md) | `git_pr_workflows_git` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for git pr workflows git workflow. Orchestrate review, tests, commits, branch pushes, and pull-request creation with parallel agents. Use when completed changes must move through validation into a PR or guarded merge. |
 | [grok-delegate](../../skills/ai-engineering/agents/grok_delegate/grok-delegate/SKILL.md) | `grok_delegate` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for grok delegate. Delegate coding tasks to the Grok Build CLI only when the user explicitly |
+| [handoff](../../skills/ai-engineering/agents/handoff/handoff/SKILL.md) | `handoff` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for handoff. Compact the current conversation into a handoff document for another agent to pick up. |
 | [lintlang-audit](../../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) | `lintlang_audit` | `advanced` | `stable` | Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files. |
 | [agent-project-memory](../../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) | `memory` | `advanced` | `stable` | Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects. |
 | [agent-memory-recall-and-retention-discipline](../../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) | `memory-discipline` | `advanced` | `stable` | Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences. |

@@ -855,6 +855,28 @@
     "maturity": "stable"
   },
   {
+    "name": "handoff",
+    "path": "skills/ai-engineering/agents/handoff/handoff",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "handoff",
+    "description": "Use this skill to design, implement, and operate production workflows for handoff. Compact the current conversation into a handoff document for another agent to pick up.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "handoff",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Handoff",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",
