@@ -10211,6 +10211,28 @@
     "maturity": "stable"
   },
   {
+    "name": "c-pro",
+    "path": "skills/software-engineering/architecture/patterns/c-pro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to write efficient C code with proper memory management, pointer",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "c",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "C Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

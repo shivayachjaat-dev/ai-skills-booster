@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **17 skills** available in this category.
+> **18 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -21,3 +21,4 @@
 | [bug-hunter](../../skills/software-engineering/architecture/patterns/bug-hunter/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression. |
 | [bulletmind](../../skills/software-engineering/architecture/patterns/bulletmind/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking. |
 | [bun-development](../../skills/software-engineering/architecture/patterns/bun-development/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun). |
+| [c-pro](../../skills/software-engineering/architecture/patterns/c-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to write efficient C code with proper memory management, pointer |
