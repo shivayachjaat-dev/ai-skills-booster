@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,032** skills across structured domains, categories, and subcategories.
+Master navigation for **1,033** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (359 skills)
 
@@ -1541,7 +1541,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (199 skills)
+## Frontend (200 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1627,7 +1627,7 @@ Category index: [`docs/categories/styling.md`](categories/styling.md)
 - **Fixing_Motion_Perfor** (1):
   - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-### Ui Development (13 skills)
+### Ui Development (14 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -1656,6 +1656,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [frontend-lighthouse](../skills/frontend/ui-development/frontend_lighthouse/frontend-lighthouse/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend lighthouse. Add a portable Lighthouse CI gate for production frontend builds with Core Web Vitals budgets, category floors, median runs, and CI artifacts.
 - **Frontend_Mobile_Deve** (1):
   - [frontend-mobile-development-component-scaffold](../skills/frontend/ui-development/frontend_mobile_deve/frontend-mobile-development-component-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend mobile development component scaffold. You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s
+- **Frontend_Mobile_Secu** (1):
+  - [frontend-mobile-security-xss-scan](../skills/frontend/ui-development/frontend_mobile_secu/frontend-mobile-security-xss-scan/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend mobile security xss scan. You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention. Analyze React, Vue, Angular, and vanilla JavaScript code to identify injection poi
 
 ### Ui Ux (102 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)

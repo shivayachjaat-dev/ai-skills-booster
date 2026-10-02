@@ -718,7 +718,8 @@ AI_Skills_Booster/
 │   │   ├── frontend_dev_guideli/ (1 skills)
 │   │   ├── frontend_developer/ (1 skills)
 │   │   ├── frontend_lighthouse/ (1 skills)
-│   │   └── frontend_mobile_deve/ (1 skills)
+│   │   ├── frontend_mobile_deve/ (1 skills)
+│   │   └── frontend_mobile_secu/ (1 skills)
 │   ├── ui-ux/
 │   │   ├── anti_sleep/ (1 skills)
 │   │   ├── ask_questions_if_und/ (1 skills)

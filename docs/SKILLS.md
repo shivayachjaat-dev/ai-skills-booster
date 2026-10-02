@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,032 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,033 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -633,6 +633,7 @@
 | [frontend-developer](skills/frontend/ui-development/frontend_developer/frontend-developer/SKILL.md) | `frontend` | `ui-development` | `frontend_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend developer. Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture. |
 | [frontend-lighthouse](skills/frontend/ui-development/frontend_lighthouse/frontend-lighthouse/SKILL.md) | `frontend` | `ui-development` | `frontend_lighthouse` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend lighthouse. Add a portable Lighthouse CI gate for production frontend builds with Core Web Vitals budgets, category floors, median runs, and CI artifacts. |
 | [frontend-mobile-development-component-scaffold](skills/frontend/ui-development/frontend_mobile_deve/frontend-mobile-development-component-scaffold/SKILL.md) | `frontend` | `ui-development` | `frontend_mobile_deve` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend mobile development component scaffold. You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s |
+| [frontend-mobile-security-xss-scan](skills/frontend/ui-development/frontend_mobile_secu/frontend-mobile-security-xss-scan/SKILL.md) | `frontend` | `ui-development` | `frontend_mobile_secu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend mobile security xss scan. You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention. Analyze React, Vue, Angular, and vanilla JavaScript code to identify injection poi |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |

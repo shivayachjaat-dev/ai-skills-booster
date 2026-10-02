@@ -14249,6 +14249,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-mobile-security-xss-scan",
+    "path": "skills/frontend/ui-development/frontend_mobile_secu/frontend-mobile-security-xss-scan",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_mobile_secu",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend mobile security xss scan. You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention. Analyze React, Vue, Angular, and vanilla JavaScript code to identify injection poi",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Mobile Security Xss Scan",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

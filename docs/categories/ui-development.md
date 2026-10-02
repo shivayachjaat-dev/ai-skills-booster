@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **13 skills** available in this category.
+> **14 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,3 +17,4 @@
 | [frontend-developer](../../skills/frontend/ui-development/frontend_developer/frontend-developer/SKILL.md) | `frontend_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend developer. Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture. |
 | [frontend-lighthouse](../../skills/frontend/ui-development/frontend_lighthouse/frontend-lighthouse/SKILL.md) | `frontend_lighthouse` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend lighthouse. Add a portable Lighthouse CI gate for production frontend builds with Core Web Vitals budgets, category floors, median runs, and CI artifacts. |
 | [frontend-mobile-development-component-scaffold](../../skills/frontend/ui-development/frontend_mobile_deve/frontend-mobile-development-component-scaffold/SKILL.md) | `frontend_mobile_deve` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend mobile development component scaffold. You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s |
+| [frontend-mobile-security-xss-scan](../../skills/frontend/ui-development/frontend_mobile_secu/frontend-mobile-security-xss-scan/SKILL.md) | `frontend_mobile_secu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend mobile security xss scan. You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention. Analyze React, Vue, Angular, and vanilla JavaScript code to identify injection poi |
