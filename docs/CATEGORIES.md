@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **683** skills across structured domains, categories, and subcategories.
+Master navigation for **684** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (243 skills)
 
@@ -1239,7 +1239,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (81 skills)
+## Frontend (82 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1317,7 +1317,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Ckw_Design** (1):
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 
-### Ui Ux (52 skills)
+### Ui Ux (53 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1424,6 +1424,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [data-privacy-controls](../skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) — Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance.
 - **Data_Quality_Framewo** (1):
   - [data-quality-frameworks](../skills/frontend/ui-ux/data_quality_framewo/data-quality-frameworks/SKILL.md) — Use this skill to implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts.
+- **Dbos_Golang** (1):
+  - [dbos-golang](../skills/frontend/ui-ux/dbos_golang/dbos-golang/SKILL.md) — Use this skill to guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control.
 
 ### Web Architecture (11 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)

@@ -11697,6 +11697,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dbos-golang",
+    "path": "skills/frontend/ui-ux/dbos_golang/dbos-golang",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "dbos_golang",
+    "description": "Use this skill to guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "dbos",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dbos Golang",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

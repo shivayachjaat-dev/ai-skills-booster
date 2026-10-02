@@ -602,7 +602,8 @@ AI_Skills_Booster/
 │   │   ├── crossframe_suite/ (1 skills)
 │   │   ├── dast_scanning/ (1 skills)
 │   │   ├── data_privacy_control/ (1 skills)
-│   │   └── data_quality_framewo/ (1 skills)
+│   │   ├── data_quality_framewo/ (1 skills)
+│   │   └── dbos_golang/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)
