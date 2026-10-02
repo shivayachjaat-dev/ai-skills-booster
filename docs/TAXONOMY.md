@@ -351,6 +351,7 @@ AI_Skills_Booster/
 │   │   ├── circleci/ (1 skills)
 │   │   ├── cloud_devops/ (1 skills)
 │   │   ├── cloudflare_pages/ (1 skills)
+│   │   ├── cloudflare_r2/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)

@@ -6533,6 +6533,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cloudflare-r2",
+    "path": "skills/devops/ci-cd/cloudflare_r2/cloudflare-r2",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "cloudflare_r2",
+    "description": "Use this skill to manage Cloudflare R2 buckets, lifecycle, and signed URLs. Use for low-egress",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "cloudflare",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cloudflare R2",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
