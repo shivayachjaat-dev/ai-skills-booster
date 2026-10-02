@@ -23,6 +23,29 @@
     "maturity": "stable"
   },
   {
+    "name": "context-window-engineering",
+    "path": "skills/ai-engineering/context/optimization/context-window-engineering",
+    "domain": "ai-engineering",
+    "category": "context",
+    "subcategory": "optimization",
+    "description": "Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs.",
+    "tags": [
+      "context-window",
+      "prompt-engineering",
+      "prompt-caching",
+      "token-optimization",
+      "ai-engineering"
+    ],
+    "technologies": [
+      "Python",
+      "Anthropic Prompt Caching",
+      "OpenAI",
+      "Tiktoken"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",

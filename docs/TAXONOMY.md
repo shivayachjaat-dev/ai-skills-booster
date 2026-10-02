@@ -5,6 +5,8 @@ AI_Skills_Booster/
 ├── ai-engineering/
 │   ├── agents/
 │   │   └── memory/ (1 skills)
+│   ├── context/
+│   │   └── optimization/ (1 skills)
 │   └── rag/
 │   │   └── evaluation/ (1 skills)
 ├── databases/
