@@ -20067,6 +20067,28 @@
     "maturity": "stable"
   },
   {
+    "name": "eol-resistor-calculator",
+    "path": "skills/software-engineering/architecture/patterns/eol-resistor-calculator",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for eol resistor calculator. Calculates and validates end-of-line (EOL, SEOL, DEOL, TEOL) resistor loops for intrusion alarm panels (Honeywell, DSC, Paradox, Bosch) with wire gauge drop and state tables. Trigger phrases: eol resistor, deol wiring, alarm zone resistor, calculat...",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "eol",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Eol Resistor Calculator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",

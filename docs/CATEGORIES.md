@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **910** skills across structured domains, categories, and subcategories.
+Master navigation for **911** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (316 skills)
 
@@ -2180,9 +2180,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (94 skills)
+## Software Engineering (95 skills)
 
-### Architecture (87 skills)
+### Architecture (88 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -2191,7 +2191,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (84):
+- **Patterns** (85):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -2275,6 +2275,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [emotional-arc-designer](../skills/software-engineering/architecture/patterns/emotional-arc-designer/SKILL.md) — Use this skill to design, implement, and operate production workflows for emotional arc designer. One sentence - what this skill does and when to invoke it
   - [employment-contract-templates](../skills/software-engineering/architecture/patterns/employment-contract-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for employment contract templates. Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies.
   - [energy-procurement](../skills/software-engineering/architecture/patterns/energy-procurement/SKILL.md) — Use this skill to design, implement, and operate production workflows for energy procurement. Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management.
+  - [eol-resistor-calculator](../skills/software-engineering/architecture/patterns/eol-resistor-calculator/SKILL.md) — Use this skill to design, implement, and operate production workflows for eol resistor calculator. Calculates and validates end-of-line (EOL, SEOL, DEOL, TEOL) resistor loops for intrusion alarm panels (Honeywell, DSC, Paradox, Bosch) with wire gauge drop and state tables. Trigger phrases: eol resistor, deol wiring, alarm zone resistor, calculat...
   - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 
 ### Code Review (1 skills)
