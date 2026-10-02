@@ -7409,6 +7409,28 @@
     "maturity": "stable"
   },
   {
+    "name": "geo-citability",
+    "path": "skills/ai-engineering/models/geo_citability/geo-citability",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "geo_citability",
+    "description": "Use this skill to design, implement, and operate production workflows for geo citability. AI citability scoring and optimization.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "geo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geo Citability",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
