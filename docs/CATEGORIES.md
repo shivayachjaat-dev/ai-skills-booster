@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **326** skills across structured domains, categories, and subcategories.
+Master navigation for **327** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (104 skills)
 
@@ -632,7 +632,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (46 skills)
+## Devops (47 skills)
 
 ### Ci Cd (5 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -648,7 +648,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (20 skills)
+### Cloud Infrastructure (21 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -690,6 +690,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [azure-mgmt-botservice-dotnet](../skills/devops/cloud-infrastructure/azure_mgmt_botservic/azure-mgmt-botservice-dotnet/SKILL.md) — Use this skill to azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings.
 - **Azure_Mgmt_Fabric_Do** (1):
   - [azure-mgmt-fabric-dotnet](../skills/devops/cloud-infrastructure/azure_mgmt_fabric_do/azure-mgmt-fabric-dotnet/SKILL.md) — Use this skill to azure Resource Manager SDK for Fabric in .NET.
+- **Azure_Mgmt_Mongodbat** (1):
+  - [azure-mgmt-mongodbatlas-dotnet](../skills/devops/cloud-infrastructure/azure_mgmt_mongodbat/azure-mgmt-mongodbatlas-dotnet/SKILL.md) — Use this skill to manage MongoDB Atlas Organizations as Azure ARM resources with unified billing through Azure Marketplace.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)

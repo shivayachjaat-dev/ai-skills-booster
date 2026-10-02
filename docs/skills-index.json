@@ -4644,6 +4644,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-mgmt-mongodbatlas-dotnet",
+    "path": "skills/devops/cloud-infrastructure/azure_mgmt_mongodbat/azure-mgmt-mongodbatlas-dotnet",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_mgmt_mongodbat",
+    "description": "Use this skill to manage MongoDB Atlas Organizations as Azure ARM resources with unified billing through Azure Marketplace.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Mgmt Mongodbatlas Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
