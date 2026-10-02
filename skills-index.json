@@ -2839,6 +2839,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-resource-manager-mysql-dotnet",
+    "path": "skills/backend/databases/azure_resource_manag/azure-resource-manager-mysql-dotnet",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "azure_resource_manag",
+    "description": "Use this skill to azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments.",
+    "tags": [
+      "backend",
+      "databases",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Resource Manager Mysql Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
