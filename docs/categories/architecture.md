@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **190 skills** available in this category.
+> **191 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -190,6 +190,7 @@
 | [nerdzao-elite](../../skills/software-engineering/architecture/patterns/nerdzao-elite/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nerdzao elite. Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation. |
 | [nerdzao-elite-gemini-high](../../skills/software-engineering/architecture/patterns/nerdzao-elite-gemini-high/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nerdzao elite gemini high. Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para Gemini 3.1 Pro High. Workflow completo com foco em qualidade máxima e eficiência de tokens. |
 | [not-a-vibe-coder](../../skills/software-engineering/architecture/patterns/not-a-vibe-coder/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for not a vibe coder. Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases. |
+| [nutrition-analyzer](../../skills/software-engineering/architecture/patterns/nutrition-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nutrition analyzer. 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。 |
 | [patterns](../../skills/software-engineering/architecture/patterns/patterns/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
