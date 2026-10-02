@@ -15657,6 +15657,28 @@
     "maturity": "stable"
   },
   {
+    "name": "finishing-a-development-branch",
+    "path": "skills/frontend/ui-ux/finishing_a_developm/finishing-a-development-branch",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "finishing_a_developm",
+    "description": "Use this skill to design, implement, and operate production workflows for finishing a development branch. Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "finishing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Finishing A Development Branch",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
