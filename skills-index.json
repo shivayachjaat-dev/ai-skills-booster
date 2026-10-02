@@ -6998,6 +6998,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-security-keyvault-keys-dotnet",
+    "path": "skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-dotnet",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "azure_security_keyva",
+    "description": "Use this skill to azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification.",
+    "tags": [
+      "security",
+      "appsec",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Security Keyvault Keys Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
