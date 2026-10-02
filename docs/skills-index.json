@@ -16679,6 +16679,28 @@
     "maturity": "stable"
   },
   {
+    "name": "deployment-procedures",
+    "path": "skills/software-engineering/architecture/patterns/deployment-procedures",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for deployment procedures. Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "deployment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Deployment Procedures",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
