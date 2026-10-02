@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (628 skills)
+## Bash (629 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1509,6 +1509,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dbt-transformation-patterns](../skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns/SKILL.md) — Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.
 - [decision-navigator](../skills/frontend/ui-ux/decision_navigator/decision-navigator/SKILL.md) — Use this skill to guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps.
 - [defi-protocol-templates](../skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates/SKILL.md) — Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.
+- [design-theme-guide](../skills/frontend/ui-ux/design_theme_guide/design-theme-guide/SKILL.md) — Use this skill to design, implement, and operate production workflows for design theme guide. Design-token register: colour, typography, spacing and radius tokens with light and dark values, contrast ratio and WCAG level. Use for design system documentation.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -3323,6 +3324,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [design-taste-frontend](../skills/frontend/ui-development/design_taste_fronten/design-taste-frontend/SKILL.md) — Use this skill to design, implement, and operate production workflows for design taste frontend. Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.
 
+## Design Theme Guide (1 skills)
+
+- [design-theme-guide](../skills/frontend/ui-ux/design_theme_guide/design-theme-guide/SKILL.md) — Use this skill to design, implement, and operate production workflows for design theme guide. Design-token register: colour, typography, spacing and radius tokens with light and dark values, contrast ratio and WCAG level. Use for design system documentation.
+
 ## Django (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -4509,7 +4514,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (731 skills)
+## Python (732 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5020,6 +5025,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dbt-transformation-patterns](../skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns/SKILL.md) — Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.
 - [decision-navigator](../skills/frontend/ui-ux/decision_navigator/decision-navigator/SKILL.md) — Use this skill to guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps.
 - [defi-protocol-templates](../skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates/SKILL.md) — Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.
+- [design-theme-guide](../skills/frontend/ui-ux/design_theme_guide/design-theme-guide/SKILL.md) — Use this skill to design, implement, and operate production workflows for design theme guide. Design-token register: colour, typography, spacing and radius tokens with light and dark values, contrast ratio and WCAG level. Use for design system documentation.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
