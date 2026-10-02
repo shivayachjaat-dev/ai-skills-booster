@@ -11545,6 +11545,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-orm-expert",
+    "path": "skills/ai-engineering/models/odoo_orm_expert/odoo-orm-expert",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "odoo_orm_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo orm expert. Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Orm Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **413 skills** available in this category.
+> **414 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -410,6 +410,7 @@
 | [not-human-search-mcp](../../skills/ai-engineering/models/not_human_search_mcp/not-human-search-mcp/SKILL.md) | `not_human_search_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for not human search mcp. Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the Not Human Search MCP server |
 | [nsfw-ai-spicyapi](../../skills/ai-engineering/models/nsfw_ai_spicyapi/nsfw-ai-spicyapi/SKILL.md) | `nsfw_ai_spicyapi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nsfw ai spicyapi. Generate adult (18+) images, image-to-video clips and image edits through the SpicyAPI API, with a cost quote before every paid run and adults-only / consent rules. |
 | [obsidian-clipper-template-creator](../../skills/ai-engineering/models/obsidian_clipper_tem/obsidian-clipper-template-creator/SKILL.md) | `obsidian_clipper_tem` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for obsidian clipper template creator. Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format clipped content. |
+| [odoo-orm-expert](../../skills/ai-engineering/models/odoo_orm_expert/odoo-orm-expert/SKILL.md) | `odoo_orm_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo orm expert. Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
