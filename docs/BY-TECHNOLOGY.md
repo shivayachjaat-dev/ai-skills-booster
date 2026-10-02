@@ -845,6 +845,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-monitor-ingestion-java](../skills/devops/cloud-infrastructure/azure_monitor_ingest/azure-monitor-ingestion-java/SKILL.md) — Use this skill to azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).
 
+## Azure Monitor Ingestion Py (1 skills)
+
+- [azure-monitor-ingestion-py](../skills/backend/api-frameworks/azure_monitor_ingest/azure-monitor-ingestion-py/SKILL.md) — Use this skill to azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.
+
 ## Azure OpenAI (1 skills)
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
@@ -853,7 +857,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (149 skills)
+## Bash (150 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -934,6 +938,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-mgmt-apicenter-py](../skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-py/SKILL.md) — Use this skill to azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.
 - [azure-mgmt-apimanagement-dotnet](../skills/backend/api-frameworks/azure_mgmt_apimanage/azure-mgmt-apimanagement-dotnet/SKILL.md) — Use this skill to azure Resource Manager SDK for API Management in .NET.
 - [azure-mgmt-apimanagement-py](../skills/backend/api-frameworks/azure_mgmt_apimanage/azure-mgmt-apimanagement-py/SKILL.md) — Use this skill to azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.
+- [azure-monitor-ingestion-py](../skills/backend/api-frameworks/azure_monitor_ingest/azure-monitor-ingestion-py/SKILL.md) — Use this skill to azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
 - [azure-appconfiguration-py](../skills/backend/python-services/azure_appconfigurati/azure-appconfiguration-py/SKILL.md) — Use this skill to azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
 - [azure-eventgrid-py](../skills/backend/python-services/azure_eventgrid_py/azure-eventgrid-py/SKILL.md) — Use this skill to azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
@@ -2242,7 +2247,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (252 skills)
+## Python (253 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2351,6 +2356,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-mgmt-apicenter-py](../skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-py/SKILL.md) — Use this skill to azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.
 - [azure-mgmt-apimanagement-dotnet](../skills/backend/api-frameworks/azure_mgmt_apimanage/azure-mgmt-apimanagement-dotnet/SKILL.md) — Use this skill to azure Resource Manager SDK for API Management in .NET.
 - [azure-mgmt-apimanagement-py](../skills/backend/api-frameworks/azure_mgmt_apimanage/azure-mgmt-apimanagement-py/SKILL.md) — Use this skill to azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.
+- [azure-monitor-ingestion-py](../skills/backend/api-frameworks/azure_monitor_ingest/azure-monitor-ingestion-py/SKILL.md) — Use this skill to azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.
 - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
 - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
