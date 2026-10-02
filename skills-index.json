@@ -1309,6 +1309,31 @@
     "maturity": "stable"
   },
   {
+    "name": "airtable-api-data-sync-and-webhook-automation",
+    "path": "skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation",
+    "domain": "data-analytics",
+    "category": "databases",
+    "subcategory": "airtable",
+    "description": "Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads.",
+    "tags": [
+      "airtable",
+      "api-sync",
+      "low-code",
+      "databases",
+      "webhooks",
+      "data-integration"
+    ],
+    "technologies": [
+      "Airtable API",
+      "Python",
+      "Pydantic",
+      "FastAPI",
+      "Requests"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "ab-test-experiment-design",
     "path": "skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design",
     "domain": "data-analytics",

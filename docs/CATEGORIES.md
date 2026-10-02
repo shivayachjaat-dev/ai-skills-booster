@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **140** skills across structured domains, categories, and subcategories.
+Master navigation for **141** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -232,7 +232,7 @@ Category index: [`docs/categories/presentation.md`](categories/presentation.md)
 - **Marp Slides** (1):
   - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 
-## Data Analytics (5 skills)
+## Data Analytics (6 skills)
 
 ### Dashboards (1 skills)
 Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
@@ -251,6 +251,12 @@ Category index: [`docs/categories/data-warehouse.md`](categories/data-warehouse.
 
 - **Snowflake** (1):
   - [snowflake-data-warehouse-modeling](../skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling/SKILL.md) — Use this skill when architecting, modeling, and optimizing enterprise data warehouses in Snowflake. It guides the agent through multi-cluster virtual warehouse sizing, micro-partition clustering keys, zero-copy cloning for staging environments, time travel data recovery, and continuous ingestion with Snowpipe.
+
+### Databases (1 skills)
+Category index: [`docs/categories/databases.md`](categories/databases.md)
+
+- **Airtable** (1):
+  - [airtable-api-data-sync-and-webhook-automation](../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) — Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads.
 
 ### Experimentation (1 skills)
 Category index: [`docs/categories/experimentation.md`](categories/experimentation.md)

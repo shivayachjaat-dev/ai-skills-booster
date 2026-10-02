@@ -93,6 +93,8 @@ AI_Skills_Booster/
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
+│   ├── databases/
+│   │   └── airtable/ (1 skills)
 │   ├── experimentation/
 │   │   └── ab-testing/ (1 skills)
 │   └── orchestration/
