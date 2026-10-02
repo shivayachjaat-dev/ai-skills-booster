@@ -22354,6 +22354,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-forgot-password",
+    "path": "skills/security/appsec/hunt_forgot_password/hunt-forgot-password",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_forgot_password",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt forgot password. Hunt Forgot Password / Account Recovery Authentication Flaws",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Forgot Password",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
