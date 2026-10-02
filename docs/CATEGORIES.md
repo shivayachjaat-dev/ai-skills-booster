@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **357** skills across structured domains, categories, and subcategories.
+Master navigation for **358** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (108 skills)
+## Ai Engineering (109 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -56,11 +56,13 @@ Category index: [`docs/categories/communication.md`](categories/communication.md
 - **Voice Telephony** (1):
   - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 
-### Computer Vision (1 skills)
+### Computer Vision (2 skills)
 Category index: [`docs/categories/computer-vision.md`](categories/computer-vision.md)
 
 - **Aws_Rds** (1):
   - [aws-rds](../skills/ai-engineering/computer-vision/aws_rds/aws-rds/SKILL.md) — Use this skill to provision and manage RDS databases. Configure backups, replication, and
+- **Azure_Sql** (1):
+  - [azure-sql](../skills/ai-engineering/computer-vision/azure_sql/azure-sql/SKILL.md) — Use this skill to provision Azure SQL Database and Cosmos DB. Configure security, backups,
 
 ### Context (1 skills)
 Category index: [`docs/categories/context.md`](categories/context.md)

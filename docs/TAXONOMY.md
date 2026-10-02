@@ -27,7 +27,8 @@ AI_Skills_Booster/
 │   │   ├── agent-email/ (1 skills)
 │   │   └── voice-telephony/ (1 skills)
 │   ├── computer-vision/
-│   │   └── aws_rds/ (1 skills)
+│   │   ├── aws_rds/ (1 skills)
+│   │   └── azure_sql/ (1 skills)
 │   ├── context/
 │   │   └── optimization/ (1 skills)
 │   ├── evaluation/

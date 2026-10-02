@@ -512,6 +512,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-sql",
+    "path": "skills/ai-engineering/computer-vision/azure_sql/azure-sql",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "azure_sql",
+    "description": "Use this skill to provision Azure SQL Database and Cosmos DB. Configure security, backups,",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Sql",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "context-window-engineering",
     "path": "skills/ai-engineering/context/optimization/context-window-engineering",
     "domain": "ai-engineering",
