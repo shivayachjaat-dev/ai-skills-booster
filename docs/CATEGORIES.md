@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,635** skills across structured domains, categories, and subcategories.
+Master navigation for **1,636** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (566 skills)
+## Ai Engineering (567 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -276,7 +276,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Multi_Tenant_Llm_Hos** (1):
   - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 
-### Models (412 skills)
+### Models (413 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1078,6 +1078,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [not-human-search-mcp](../skills/ai-engineering/models/not_human_search_mcp/not-human-search-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for not human search mcp. Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the Not Human Search MCP server
 - **Nsfw_Ai_Spicyapi** (1):
   - [nsfw-ai-spicyapi](../skills/ai-engineering/models/nsfw_ai_spicyapi/nsfw-ai-spicyapi/SKILL.md) — Use this skill to design, implement, and operate production workflows for nsfw ai spicyapi. Generate adult (18+) images, image-to-video clips and image edits through the SpicyAPI API, with a cost quote before every paid run and adults-only / consent rules.
+- **Obsidian_Clipper_Tem** (1):
+  - [obsidian-clipper-template-creator](../skills/ai-engineering/models/obsidian_clipper_tem/obsidian-clipper-template-creator/SKILL.md) — Use this skill to design, implement, and operate production workflows for obsidian clipper template creator. Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format clipped content.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

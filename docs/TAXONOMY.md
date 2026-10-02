@@ -523,6 +523,7 @@ AI_Skills_Booster/
 │   │   ├── nodejs_backend_patte/ (1 skills)
 │   │   ├── not_human_search_mcp/ (1 skills)
 │   │   ├── nsfw_ai_spicyapi/ (1 skills)
+│   │   ├── obsidian_clipper_tem/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
