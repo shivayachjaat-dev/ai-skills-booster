@@ -1975,6 +1975,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-communication-callingserver-java",
+    "path": "skills/ai-engineering/models/azure_communication_/azure-communication-callingserver-java",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_communication_",
+    "description": "Use this skill to \u26a0\ufe0f DEPRECATED: This SDK has been renamed to Call Automation. For new projects, use azure-communication-callautomation instead. This skill is for maintaining legacy code only.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Communication Callingserver Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
