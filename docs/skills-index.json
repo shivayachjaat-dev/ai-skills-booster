@@ -36457,6 +36457,28 @@
     "maturity": "stable"
   },
   {
+    "name": "office-productivity",
+    "path": "skills/software-engineering/architecture/patterns/office-productivity",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for office productivity. Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "office",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Office Productivity",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
