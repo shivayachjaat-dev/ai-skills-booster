@@ -195,6 +195,8 @@ AI_Skills_Booster/
 │   └── state-management/
 │   │   └── zustand/ (1 skills)
 ├── marketing/
+│   ├── brand/
+│   │   └── reputation-monitor/ (1 skills)
 │   ├── creative/
 │   │   └── ad-creative/ (1 skills)
 │   ├── crm/

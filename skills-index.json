@@ -2678,6 +2678,31 @@
     "maturity": "stable"
   },
   {
+    "name": "social-sentiment-and-brand-reputation-monitor",
+    "path": "skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor",
+    "domain": "marketing",
+    "category": "brand",
+    "subcategory": "reputation-monitor",
+    "description": "Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting.",
+    "tags": [
+      "brand-reputation",
+      "sentiment-analysis",
+      "social-monitoring",
+      "nlp",
+      "crisis-management",
+      "marketing"
+    ],
+    "technologies": [
+      "Python",
+      "NLTK",
+      "TextBlob",
+      "Pydantic",
+      "FastAPI"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "high-converting-ad-creative-design",
     "path": "skills/marketing/creative/ad-creative/high-converting-ad-creative-design",
     "domain": "marketing",
