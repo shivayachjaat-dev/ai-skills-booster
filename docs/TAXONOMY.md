@@ -290,7 +290,8 @@ AI_Skills_Booster/
 │   │   ├── database_architect/ (1 skills)
 │   │   ├── database_backups/ (1 skills)
 │   │   ├── database_design/ (1 skills)
-│   │   └── database_migration/ (1 skills)
+│   │   ├── database_migration/ (1 skills)
+│   │   └── database_migrations_/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/
