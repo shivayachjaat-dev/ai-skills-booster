@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **568** skills across structured domains, categories, and subcategories.
+Master navigation for **569** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (198 skills)
 
@@ -626,13 +626,19 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (10 skills)
+## Business (11 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
 
 - **Audit Controls** (1):
   - [internal-financial-audit-and-controls](../skills/business/finance/audit-controls/internal-financial-audit-and-controls/SKILL.md) — Use this skill when designing, testing, and automating internal financial accounting controls, journal entry audit trails, and reconciliation workflows compliant with SOX 404, GAAP, and IFRS. It guides the agent through general ledger reconciliation, manual journal entry approval thresholds, segregation of duties in treasury, and anomaly detection.
+
+### Growth (1 skills)
+Category index: [`docs/categories/growth.md`](categories/growth.md)
+
+- **Competitor_Ad_Intell** (1):
+  - [competitor-ad-intelligence](../skills/business/growth/competitor_ad_intell/competitor-ad-intelligence/SKILL.md) — Use this skill to research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown.
 
 ### Human Resources (2 skills)
 Category index: [`docs/categories/human-resources.md`](categories/human-resources.md)

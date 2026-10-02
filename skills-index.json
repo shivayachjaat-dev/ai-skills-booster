@@ -5608,6 +5608,28 @@
     "maturity": "stable"
   },
   {
+    "name": "competitor-ad-intelligence",
+    "path": "skills/business/growth/competitor_ad_intell/competitor-ad-intelligence",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "competitor_ad_intell",
+    "description": "Use this skill to research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown.",
+    "tags": [
+      "business",
+      "growth",
+      "competitor",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Competitor Ad Intelligence",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",
