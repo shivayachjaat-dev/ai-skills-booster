@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **253** skills across structured domains, categories, and subcategories.
+Master navigation for **254** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (75 skills)
+## Ai Engineering (76 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (35 skills)
+### Models (36 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -176,8 +176,9 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-ai-contentsafety-ts](../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-ts/SKILL.md) — Use this skill to analyze text and images for harmful content with customizable blocklists.
 - **Azure_Ai_Contentunde** (1):
   - [azure-ai-contentunderstanding-py](../skills/ai-engineering/models/azure_ai_contentunde/azure-ai-contentunderstanding-py/SKILL.md) — Use this skill to azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video.
-- **Azure_Ai_Document_In** (1):
+- **Azure_Ai_Document_In** (2):
   - [azure-ai-document-intelligence-dotnet](../skills/ai-engineering/models/azure_ai_document_in/azure-ai-document-intelligence-dotnet/SKILL.md) — Use this skill to azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models.
+  - [azure-ai-document-intelligence-ts](../skills/ai-engineering/models/azure_ai_document_in/azure-ai-document-intelligence-ts/SKILL.md) — Use this skill to extract text, tables, and structured data from documents using prebuilt and custom models.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -1513,6 +1513,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-document-intelligence-ts",
+    "path": "skills/ai-engineering/models/azure_ai_document_in/azure-ai-document-intelligence-ts",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_document_in",
+    "description": "Use this skill to extract text, tables, and structured data from documents using prebuilt and custom models.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Document Intelligence Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

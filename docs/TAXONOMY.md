@@ -76,7 +76,7 @@ AI_Skills_Booster/
 │   │   ├── azure_ai_anomalydete/ (1 skills)
 │   │   ├── azure_ai_contentsafe/ (3 skills)
 │   │   ├── azure_ai_contentunde/ (1 skills)
-│   │   ├── azure_ai_document_in/ (1 skills)
+│   │   ├── azure_ai_document_in/ (2 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
