@@ -11311,6 +11311,28 @@
     "maturity": "stable"
   },
   {
+    "name": "claude-speed-reader",
+    "path": "skills/software-engineering/architecture/patterns/claude-speed-reader",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "claude",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Claude Speed Reader",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

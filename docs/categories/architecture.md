@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **27 skills** available in this category.
+> **28 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -31,3 +31,4 @@
 | [changelog-automation](../../skills/software-engineering/architecture/patterns/changelog-automation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions. |
 | [citation-management](../../skills/software-engineering/architecture/patterns/citation-management/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to manage citations systematically throughout the research and writing process. |
 | [claude-scientific-skills](../../skills/software-engineering/architecture/patterns/claude-scientific-skills/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to scientific research and analysis skills |
+| [claude-speed-reader](../../skills/software-engineering/architecture/patterns/claude-speed-reader/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting |
