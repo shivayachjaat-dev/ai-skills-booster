@@ -16104,6 +16104,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nextjs-best-practices",
+    "path": "skills/data-analytics/data-pipelines/nextjs_best_practice/nextjs-best-practices",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "nextjs_best_practice",
+    "description": "Use this skill to design, implement, and operate production workflows for nextjs best practices. Next.js App Router principles. Server Components, data fetching, routing patterns.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "nextjs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nextjs Best Practices",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

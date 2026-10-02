@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,607** skills across structured domains, categories, and subcategories.
+Master navigation for **1,608** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (559 skills)
 
@@ -1569,7 +1569,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (35 skills)
+## Data Analytics (36 skills)
 
 ### Analytics Engineering (1 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1583,7 +1583,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (24 skills)
+### Data Pipelines (25 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -1632,6 +1632,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [neon-postgres-egress-optimizer](../skills/data-analytics/data-pipelines/neon_postgres_egress/neon-postgres-egress-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres egress optimizer. Diagnose and fix excessive Postgres egress (network data transfer) in a codebase.
 - **Nexrad_Product_Acces** (1):
   - [nexrad-product-access](../skills/data-analytics/data-pipelines/nexrad_product_acces/nexrad-product-access/SKILL.md) — Use this skill to design, implement, and operate production workflows for nexrad product access. Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation.
+- **Nextjs_Best_Practice** (1):
+  - [nextjs-best-practices](../skills/data-analytics/data-pipelines/nextjs_best_practice/nextjs-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for nextjs best practices. Next.js App Router principles. Server Components, data fetching, routing patterns.
 - **Polars** (1):
   - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 

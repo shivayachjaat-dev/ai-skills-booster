@@ -760,6 +760,7 @@ AI_Skills_Booster/
 │   │   ├── monte_carlo_context_/ (1 skills)
 │   │   ├── neon_postgres_egress/ (1 skills)
 │   │   ├── nexrad_product_acces/ (1 skills)
+│   │   ├── nextjs_best_practice/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
