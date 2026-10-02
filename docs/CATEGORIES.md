@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **418** skills across structured domains, categories, and subcategories.
+Master navigation for **419** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (140 skills)
 
@@ -736,9 +736,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (62 skills)
+## Devops (63 skills)
 
-### Ci Cd (8 skills)
+### Ci Cd (9 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -755,6 +755,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [backup-recovery](../skills/devops/ci-cd/backup_recovery/backup-recovery/SKILL.md) — Use this skill to implement backup and recovery strategies. Configure rsync, Restic, and
 - **Blue_Green_Deploy** (1):
   - [blue-green-deploy](../skills/devops/ci-cd/blue_green_deploy/blue-green-deploy/SKILL.md) — Use this skill to configure zero-downtime deployment strategies including blue-green, canary,
+- **Brendangregg_Use_Tsa** (1):
+  - [brendangregg-use-tsa](../skills/devops/ci-cd/brendangregg_use_tsa/brendangregg-use-tsa/SKILL.md) — Use this skill to methodical performance troubleshooting and root-cause analysis with Brendan Gregg's USE and TSA methods, plus evidence-backed RCA and postmortem reports.
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 

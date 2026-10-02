@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 418 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 419 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -237,6 +237,7 @@
 | [azure-networking](skills/devops/ci-cd/azure_networking/azure-networking/SKILL.md) | `devops` | `ci-cd` | `azure_networking` | `advanced` | `stable` | Use this skill to configure Azure VNets, NSGs, and Azure Firewall. Implement hub-spoke |
 | [backup-recovery](skills/devops/ci-cd/backup_recovery/backup-recovery/SKILL.md) | `devops` | `ci-cd` | `backup_recovery` | `advanced` | `stable` | Use this skill to implement backup and recovery strategies. Configure rsync, Restic, and |
 | [blue-green-deploy](skills/devops/ci-cd/blue_green_deploy/blue-green-deploy/SKILL.md) | `devops` | `ci-cd` | `blue_green_deploy` | `advanced` | `stable` | Use this skill to configure zero-downtime deployment strategies including blue-green, canary, |
+| [brendangregg-use-tsa](skills/devops/ci-cd/brendangregg_use_tsa/brendangregg-use-tsa/SKILL.md) | `devops` | `ci-cd` | `brendangregg_use_tsa` | `advanced` | `stable` | Use this skill to methodical performance troubleshooting and root-cause analysis with Brendan Gregg's USE and TSA methods, plus evidence-backed RCA and postmortem reports. |
 | [github-actions-ci-pipeline-optimization](skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `devops` | `ci-cd` | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |
