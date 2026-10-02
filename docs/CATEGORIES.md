@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,640** skills across structured domains, categories, and subcategories.
+Master navigation for **1,641** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (567 skills)
+## Ai Engineering (568 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1107,7 +1107,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (34 skills)
+### Rag (35 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1173,6 +1173,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [nfs-storage](../skills/ai-engineering/rag/nfs_storage/nfs-storage/SKILL.md) — Use this skill to design, implement, and operate production workflows for nfs storage. Configure NFS servers and clients. Implement network file sharing for
 - **Object_Storage** (1):
   - [object-storage](../skills/ai-engineering/rag/object_storage/object-storage/SKILL.md) — Use this skill to design, implement, and operate production workflows for object storage. Configure object storage with S3, GCS, and MinIO. Implement lifecycle
+- **Odoo_Backup_Strategy** (1):
+  - [odoo-backup-strategy](../skills/ai-engineering/rag/odoo_backup_strategy/odoo-backup-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo backup strategy. Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling, cloud storage upload, and tested restore procedures.
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 

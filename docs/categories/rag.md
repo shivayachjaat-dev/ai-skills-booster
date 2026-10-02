@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **34 skills** available in this category.
+> **35 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -37,4 +37,5 @@
 | [nextjs-seo-indexing](../../skills/ai-engineering/rag/nextjs_seo_indexing/nextjs-seo-indexing/SKILL.md) | `nextjs_seo_indexing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nextjs seo indexing. Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical tags, noindex audits, sitemap health, static rendering, and internal linking. |
 | [nfs-storage](../../skills/ai-engineering/rag/nfs_storage/nfs-storage/SKILL.md) | `nfs_storage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nfs storage. Configure NFS servers and clients. Implement network file sharing for |
 | [object-storage](../../skills/ai-engineering/rag/object_storage/object-storage/SKILL.md) | `object_storage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for object storage. Configure object storage with S3, GCS, and MinIO. Implement lifecycle |
+| [odoo-backup-strategy](../../skills/ai-engineering/rag/odoo_backup_strategy/odoo-backup-strategy/SKILL.md) | `odoo_backup_strategy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo backup strategy. Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling, cloud storage upload, and tested restore procedures. |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

@@ -12456,6 +12456,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-backup-strategy",
+    "path": "skills/ai-engineering/rag/odoo_backup_strategy/odoo-backup-strategy",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "odoo_backup_strategy",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo backup strategy. Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling, cloud storage upload, and tested restore procedures.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Backup Strategy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
