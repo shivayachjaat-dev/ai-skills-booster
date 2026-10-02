@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,530** skills across structured domains, categories, and subcategories.
+Master navigation for **1,531** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (530 skills)
+## Ai Engineering (531 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -266,7 +266,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Mcp_Builder** (1):
   - [mcp-builder](../skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
 
-### Models (386 skills)
+### Models (387 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1016,6 +1016,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [mmx-cli](../skills/ai-engineering/models/mmx_cli/mmx-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for mmx cli. Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax models, perform web search, or manage MiniMax API resources from the terminal.
 - **Moatmri** (1):
   - [moatmri](../skills/ai-engineering/models/moatmri/moatmri/SKILL.md) — Use this skill to design, implement, and operate production workflows for moatmri. Analyze AI disruption pressure across a business, map competitive exposure, and produce a 90-day defensive action plan.
+- **Mobile_Reverse** (1):
+  - [mobile-reverse](../skills/ai-engineering/models/mobile_reverse/mobile-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for mobile reverse. Authorized Android/iOS application reverse engineering and security testing: APK/IPA analysis, runtime instrumentation (Frida/Objection), SSL-pinning and jailbreak/root-detection bypass, per OWASP MASTG.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

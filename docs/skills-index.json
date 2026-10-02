@@ -10819,6 +10819,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mobile-reverse",
+    "path": "skills/ai-engineering/models/mobile_reverse/mobile-reverse",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "mobile_reverse",
+    "description": "Use this skill to design, implement, and operate production workflows for mobile reverse. Authorized Android/iOS application reverse engineering and security testing: APK/IPA analysis, runtime instrumentation (Frida/Objection), SSL-pinning and jailbreak/root-detection bypass, per OWASP MASTG.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "mobile",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mobile Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
