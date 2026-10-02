@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **343** skills across structured domains, categories, and subcategories.
+Master navigation for **344** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (105 skills)
 
@@ -282,7 +282,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (37 skills)
+## Backend (38 skills)
 
 ### Api Design (2 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -338,15 +338,16 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (3 skills)
+### Databases (4 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
   - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
 - **Azure_Postgres_Ts** (1):
   - [azure-postgres-ts](../skills/backend/databases/azure_postgres_ts/azure-postgres-ts/SKILL.md) — Use this skill to connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
-- **Azure_Resource_Manag** (1):
+- **Azure_Resource_Manag** (2):
   - [azure-resource-manager-mysql-dotnet](../skills/backend/databases/azure_resource_manag/azure-resource-manager-mysql-dotnet/SKILL.md) — Use this skill to azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments.
+  - [azure-resource-manager-postgresql-dotnet](../skills/backend/databases/azure_resource_manag/azure-resource-manager-postgresql-dotnet/SKILL.md) — Use this skill to azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments.
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)
