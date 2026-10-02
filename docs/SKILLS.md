@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,647 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,648 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1166,6 +1166,7 @@
 | [odoo-edi-connector](skills/frontend/ui-ux/odoo_edi_connector/odoo-edi-connector/SKILL.md) | `frontend` | `ui-ux` | `odoo_edi_connector` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo edi connector. Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing. |
 | [odoo-hr-payroll-setup](skills/frontend/ui-ux/odoo_hr_payroll_setu/odoo-hr-payroll-setup/SKILL.md) | `frontend` | `ui-ux` | `odoo_hr_payroll_setu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo hr payroll setup. Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries. |
 | [odoo-inventory-optimizer](skills/frontend/ui-ux/odoo_inventory_optim/odoo-inventory-optimizer/SKILL.md) | `frontend` | `ui-ux` | `odoo_inventory_optim` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo inventory optimizer. Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration. |
+| [odoo-manufacturing-advisor](skills/frontend/ui-ux/odoo_manufacturing_a/odoo-manufacturing-advisor/SKILL.md) | `frontend` | `ui-ux` | `odoo_manufacturing_a` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo manufacturing advisor. Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

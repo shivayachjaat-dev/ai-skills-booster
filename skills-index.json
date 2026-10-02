@@ -25975,6 +25975,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-manufacturing-advisor",
+    "path": "skills/frontend/ui-ux/odoo_manufacturing_a/odoo-manufacturing-advisor",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_manufacturing_a",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo manufacturing advisor. Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Manufacturing Advisor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
