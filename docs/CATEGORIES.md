@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **261** skills across structured domains, categories, and subcategories.
+Master navigation for **262** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (83 skills)
+## Ai Engineering (84 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (43 skills)
+### Models (44 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -193,6 +193,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-ai-projects-java](../skills/ai-engineering/models/azure_ai_projects_ja/azure-ai-projects-java/SKILL.md) — Use this skill to azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.
 - **Azure_Ai_Projects_Py** (1):
   - [azure-ai-projects-py](../skills/ai-engineering/models/azure_ai_projects_py/azure-ai-projects-py/SKILL.md) — Use this skill to build AI applications on Microsoft Foundry using the azure-ai-projects SDK.
+- **Azure_Ai_Projects_Ts** (1):
+  - [azure-ai-projects-ts](../skills/ai-engineering/models/azure_ai_projects_ts/azure-ai-projects-ts/SKILL.md) — Use this skill to high-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
