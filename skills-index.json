@@ -16119,6 +16119,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-types-ref",
+    "path": "skills/frontend/ui-ux/fp_types_ref/fp-types-ref",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "fp_types_ref",
+    "description": "Use this skill to design, implement, and operate production workflows for fp types ref. Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Types Ref",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
