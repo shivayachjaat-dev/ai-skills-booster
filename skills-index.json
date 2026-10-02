@@ -10164,6 +10164,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-data-transforms",
+    "path": "skills/data-analytics/data-pipelines/fp_data_transforms/fp-data-transforms",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "fp_data_transforms",
+    "description": "Use this skill to design, implement, and operate production workflows for fp data transforms. Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Data Transforms",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",
