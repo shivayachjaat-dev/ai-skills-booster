@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 autonomous_worker.py - Continuous Autonomous Skill Factory Engine.
-Executes the mandatory autonomous loop:
+Executes the continuous autonomous loop:
 while unfinished_backlog_items_exist:
     select_next_unfinished_skill()
     compare_with_reference_repositories()
@@ -55,750 +55,706 @@ def mark_backlog_item(backlog_query, new_status="completed", blocked_reason=None
 # Continuous queue of high-value backlog candidates adapted into production skills
 CONTINUOUS_QUEUE = [
     # -------------------------------------------------------------
-    # 1. SECURITY: stride-threat-modeling-and-security-audit (Backlog: 007)
+    # 1. SECURITY: active-directory-security-assessment (Backlog: active-directory-attacks)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "007",
-        "name": "stride-threat-modeling-and-security-audit",
+        "backlog_ref": "active-directory-attacks",
+        "name": "active-directory-security-assessment",
         "domain": "security",
-        "category": "threat-modeling",
-        "subcategory": "stride",
-        "description": "Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.",
-        "tags": ["threat-modeling", "stride", "security-audit", "pasta", "owasp", "infosec", "appsec"],
-        "technologies": ["STRIDE", "PASTA", "OWASP ASVS", "Python", "Draw.io", "Threat Dragon"],
+        "category": "penetration-testing",
+        "subcategory": "active-directory",
+        "description": "Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.",
+        "tags": ["active-directory", "pentesting", "security", "kerberos", "bloodhound", "adcs", "red-team"],
+        "technologies": ["Active Directory", "Kerberos", "BloodHound", "PowerView", "Impacket", "Python"],
         "complexity": "advanced",
         "maturity": "stable",
-        "tools": ["python", "threat-dragon"],
-        "dependencies": ["python >= 3.10"],
-        "content": """# STRIDE Threat Modeling & Architectural Security Audit
+        "tools": ["python", "powershell"],
+        "dependencies": ["impacket >= 0.11.0"],
+        "content": """# Active Directory Security Assessment & Hardening Architecture
 
 ## Overview
 
-A definitive production security architecture standard for identifying vulnerabilities early in the software design lifecycle using Microsoft STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) and PASTA (Process for Attack Simulation and Threat Analysis). This skill instructs AI agents on decomposing architectures into Data Flow Diagrams (DFDs), enumerating attack surfaces across trust boundaries, and cataloging mitigations compliant with OWASP standards.
+A definitive production security reference for auditing, assessing, and hardening Microsoft Active Directory (AD) enterprise environments against credential attacks and privilege escalation paths. Over 90% of Fortune 500 enterprises rely on Active Directory for identity and access management, making it the primary target during internal network compromises. This skill instructs AI agents on analyzing Kerberos delegation vulnerabilities, identifying Kerberoasting and AS-REP roasting vectors, mapping attack paths using BloodHound, and establishing defenses against DCSync attacks.
 
 ## When to Use
 
-- Conducting security design reviews for new system architectures or major feature additions.
-- Identifying architectural risks before writing code or provisioning cloud infrastructure.
-- Satisfying compliance audits (SOC2, ISO 27001, FedRAMP, HIPAA) requiring formal threat modeling.
-- Prioritizing penetration testing and security vulnerability remediation efforts.
+- Conducting internal network penetration testing and red-team/blue-team identity audits.
+- Identifying over-privileged Domain Admin accounts and unconstrained Kerberos delegation.
+- Auditing Service Principal Names (SPNs) configured with weak or crackable service account passwords.
+- Defending Active Directory Certificate Services (ADCS) against ESC1-ESC8 template escalation attacks.
 
 ## When NOT to Use
 
-- Static source code analysis (SAST) of existing pull requests (use SonarQube or Semgrep).
-- Runtime intrusion detection inside live production networks (use Falco or Suricata).
+- Cloud-native identity providers without Active Directory integration (pure Google Workspace or Okta).
+- Web application vulnerability scanning (use OWASP ZAP or Burp Suite).
 
 ## Inputs & Prerequisites
 
-- Architecture diagrams showing components, external entities, data stores, and data flows.
-- Defined Trust Boundaries (e.g. Public Internet vs DMZ vs Private Data VPC).
-- List of sensitive assets (PII, customer credentials, financial records).
+- Read-only domain user credentials or access to domain controller audit logs.
+- Python 3.10+ with `impacket` installed.
+- Understanding of Kerberos ticket granting mechanisms (TGT, TGS).
 
 ## Core Workflow
 
-### 1. Architectural Decomposition & Trust Boundaries
-Map the application elements against the STRIDE threat matrix:
+### 1. Kerberoasting Attack Vector Audit
+Identify service accounts with registered Service Principal Names (SPNs) vulnerable to offline hash cracking:
 
-| STRIDE Category | Threat Definition | Desired Security Property | Typical Mitigations |
-| :--- | :--- | :--- | :--- |
-| **S**poofing | Attacker pretends to be another user or service | Authentication | Mutual TLS, WebAuthn/FIDO2, OpenID Connect |
-| **T**ampering | Unauthorized modification of data in transit or rest | Integrity | HMAC signatures, digital signatures, TLS 1.3 |
-| **R**epudiation | User denies performing an action without proof | Non-repudiation | Append-only audit logs, cryptographic signing |
-| **I**nformation Disclosure | Unauthorized read access to sensitive data | Confidentiality | AES-256-GCM encryption, KMS, strict RBAC |
-| **D**enial of Service | Exhausting resources to make service unavailable | Availability | Token-bucket rate limiting, autoscaling, CDN |
-| **E**levation of Privilege | Attacker gains unauthorized permissions | Authorization | Least-privilege IAM, Role-Based Access Control |
+```python
+from impacket.krb5.kerberosv5 import getKerberosTGT, getKerberosTGS
+from impacket.krb5 import constants
+import datetime
 
-### 2. Automated STRIDE Threat Enumeration in Python
-Generate structured threat catalogs programmatically:
+def audit_service_principal_names(spn_accounts: list[dict]):
+    \"\"\"
+    Checks service accounts for weak encryption types (RC4 vs AES)
+    and non-expiring passwords that allow offline hash cracking.
+    \"\"\"
+    vulnerable_accounts = []
+    for account in spn_accounts:
+        spn = account.get("servicePrincipalName")
+        encryption_types = account.get("msDS-SupportedEncryptionTypes", 0)
+        password_last_set = account.get("pwdLastSet")
+        
+        # Flag accounts that still support weak RC4-HMAC (type 4)
+        supports_rc4 = (encryption_types & 0x4) != 0 or encryption_types == 0
+        
+        # Check password age
+        if supports_rc4:
+            vulnerable_accounts.append({
+                "account_name": account.get("sAMAccountName"),
+                "spn": spn,
+                "risk": "HIGH: Vulnerable to Kerberoasting (RC4-HMAC supported)",
+                "remediation": "Configure AES-256 encryption and enforce 25+ character passwords or Group Managed Service Accounts (gMSA)."
+            })
+            
+    return vulnerable_accounts
+```
+
+### 2. BloodHound Graph Analysis: Identifying Shortest Attack Paths
+Model AD objects as a directed graph to discover hidden transitive paths to Domain Admin:
+
+```cypher
+// BloodHound Cypher Query: Find shortest path from any Domain User to Domain Admins
+MATCH (u:Group {name: "DOMAIN USERS@CORP.LOCAL"}), (da:Group {name: "DOMAIN ADMINS@CORP.LOCAL"})
+MATCH p = shortestPath((u)-[*1..6]->(da))
+RETURN p;
+```
+
+### 3. DCSync Replication Rights Audit
+Verify which non-Domain Controller principals possess `DS-Replication-Get-Changes-All` rights:
+
+```powershell
+# PowerShell ActiveDirectory Module
+Get-Acl "AD:\DC=corp,DC=local" | Select-Object -ExpandProperty Access | Where-Object {
+    $_.ObjectType -eq "1131f6aa-9c07-11d1-f79f-00c04fc2dcd2" -or # DS-Replication-Get-Changes
+    $_.ObjectType -eq "1131f6ad-9c07-11d1-f79f-00c04fc2dcd2"     # DS-Replication-Get-Changes-All
+} | Select-Object IdentityReference, ActiveDirectoryRights, AccessControlType
+```
+
+## Best Practices & Failure Modes
+
+1. **Static Plaintext Service Account Passwords**: Traditional service accounts frequently have passwords set once that never expire. Always migrate service accounts to Group Managed Service Accounts (gMSA), where Windows rotates 128-character passwords automatically every 30 days.
+2. **Unconstrained Kerberos Delegation**: Servers configured with unconstrained delegation store client TGTs in LSASS memory. If an attacker compromises an unconstrained server, they can impersonate any domain admin who connects to that server. Use Constrained Delegation or Resource-Based Constrained Delegation (RBCD).
+3. **Allowing NTLM in Modern Networks**: NTLM lacks mutual authentication and is vulnerable to relay attacks. Enforce Kerberos-only authentication and disable NTLM via Group Policy.
+
+## Verification & Testing
+
+- Audit domain controller event logs for Event ID 4769 (Kerberos Ticket Request) with failure code `0x1f` or RC4 encryption (`0x17`):
+  ```powershell
+  Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4769} -MaxEvents 50 | 
+      Where-Object { $_.Properties[4].Value -eq '0x17' }
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 2. BUSINESS: employee-360-feedback-review-system (Backlog: 360-feedback-system)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "360-feedback-system",
+        "name": "employee-360-feedback-review-system",
+        "domain": "business",
+        "category": "human-resources",
+        "subcategory": "performance-management",
+        "description": "Use this skill when designing, configuring, and operating multi-rater 360-degree performance feedback systems. It guides the agent through peer reviewer nomination workflows, role-specific competency rubrics, anonymous vs attributed visibility rules, cognitive bias mitigation (recency and halo effects), and synthesis reporting.",
+        "tags": ["360-feedback", "hr", "performance-review", "talent-management", "competencies", "people-ops"],
+        "technologies": ["Python", "JSON", "PostgreSQL", "Data Analytics"],
+        "complexity": "intermediate",
+        "maturity": "stable",
+        "tools": ["python"],
+        "dependencies": ["python >= 3.10"],
+        "content": """# Employee 360-Degree Performance Feedback Architecture
+
+## Overview
+
+A comprehensive engineering guide for architecting fair, actionable, and bias-resistant multi-rater 360-degree feedback systems. Single-manager reviews suffer from idiosyncratic rater bias and blind spots. A 360 feedback system aggregates calibrated perspectives from direct managers, peers, cross-functional partners, and direct reports. This skill instructs AI agents on structuring review cycles, designing competency rubrics, enforcing reviewer anonymity thresholds, eliminating cognitive bias, and generating development-focused synthesis summaries.
+
+## When to Use
+
+- Building or configuring automated quarterly or annual performance review cycles.
+- Gathering balanced feedback for engineering promotions, leadership reviews, and personal development plans.
+- Mitigating cognitive biases (recency bias, halo effect, centrality bias) through structured behavioral prompts.
+- Aggregating qualitative feedback into actionable strengths and development opportunities.
+
+## When NOT to Use
+
+- Immediate operational feedback for acute safety or code violations (handle synchronously 1-on-1).
+- Anonymous complaints regarding workplace harassment or whistleblowing (use formal ethics hotlines).
+
+## Inputs & Prerequisites
+
+- Organizational structure (reporting hierarchy, team affiliations).
+- Defined competency rubric with behavioral anchors (e.g. Technical Execution, Collaboration, Leadership).
+- Review cycle timeline and visibility thresholds.
+
+## Core Workflow
+
+### 1. Multi-Rater Nomination & Visibility Matrix
+Define rater categories and privacy thresholds:
+
+```json
+{
+  "review_cycle": "2026-H1-Engineering",
+  "rater_categories": {
+    "manager": {
+      "min_raters": 1,
+      "max_raters": 2,
+      "anonymous": false,
+      "visibility": "subject_and_leadership"
+    },
+    "peer": {
+      "min_raters": 3,
+      "max_raters": 5,
+      "anonymous": true,
+      "min_completed_for_anonymity": 3,
+      "visibility": "aggregated_only"
+    },
+    "direct_report": {
+      "min_raters": 2,
+      "max_raters": 8,
+      "anonymous": true,
+      "min_completed_for_anonymity": 3,
+      "visibility": "aggregated_only"
+    },
+    "self": {
+      "min_raters": 1,
+      "max_raters": 1,
+      "anonymous": false,
+      "visibility": "subject_and_manager"
+    }
+  }
+}
+```
+
+### 2. Behavioral Competency Rubric Definition
+Design questions anchored in observable behaviors rather than personality traits:
 
 ```python
 from dataclasses import dataclass
 from typing import List
 
 @dataclass
-class ThreatModelItem:
-    element: str
-    stride_category: str
-    threat_description: str
-    impact: str # High / Medium / Low
-    likelihood: str # High / Medium / Low
-    mitigation: str
-    owasp_reference: str
+class CompetencyQuestion:
+    competency: str
+    behavioral_prompt: str
+    rating_scale: List[str] # 1 to 5 scale with behavioral anchors
 
-def audit_data_flow(source: str, destination: str, crosses_trust_boundary: bool) -> List[ThreatModelItem]:
-    threats = []
-    if crosses_trust_boundary:
-        threats.append(ThreatModelItem(
-            element=f"{source} -> {destination}",
-            stride_category="Information Disclosure",
-            threat_description="Traffic passing across public boundary can be intercepted via MITM.",
-            impact="High",
-            likelihood="Medium",
-            mitigation="Enforce TLS 1.3 with strict cipher suites and HSTS.",
-            owasp_reference="OWASP ASVS V9 (Communications)"
-        ))
-        threats.append(ThreatModelItem(
-            element=f"{source} -> {destination}",
-            stride_category="Spoofing",
-            threat_description="Unauthorized clients can impersonate legitimate callers.",
-            impact="High",
-            likelihood="High",
-            mitigation="Require mutual TLS (mTLS) or cryptographically signed JWT tokens with audience validation.",
-            owasp_reference="OWASP ASVS V2 (Authentication)"
-        ))
-    return threats
+ENGINEERING_RUBRIC = [
+    CompetencyQuestion(
+        competency="Technical Craft & Execution",
+        behavioral_prompt="How effectively does the individual design robust software, handle edge cases, and maintain code quality?",
+        rating_scale=[
+            "1 - Frequently introduces defects; requires constant supervision",
+            "2 - Meets basic requirements with guidance",
+            "3 - Consistently delivers high-quality, resilient code independently",
+            "4 - Sets technical standards and simplifies complex systems for the team",
+            "5 - Industry-level domain authority; anticipates multi-year architectural needs"
+        ]
+    ),
+    CompetencyQuestion(
+        competency="Cross-Functional Collaboration",
+        behavioral_prompt="How effectively does the individual communicate across teams, resolve technical disputes, and unblock partners?",
+        rating_scale=[
+            "1 - Creates friction or silos",
+            "2 - Cooperates when prompted",
+            "3 - Proactively aligns with partners and communicates transparently",
+            "4 - Builds strong cross-team consensus on contentious decisions",
+            "5 - Exemplary organizational leader driving company-wide initiatives"
+        ]
+    )
+]
 ```
 
-### 3. Risk Scoring via DREAD Methodology
-Quantify risk priorities across 5 dimensions (Damage, Reproducibility, Exploitability, Affected Users, Discoverability):
+### 3. Feedback Synthesis & Anonymity Enforcement
+Aggregate feedback while protecting reviewer identities:
 
 ```python
-def calculate_dread_score(damage: int, reproducibility: int, exploitability: int, affected_users: int, discoverability: int) -> float:
-    \"\"\"Scores each factor from 1 (low) to 10 (critical), returning average DREAD score.\"\"\"
-    total = damage + reproducibility + exploitability + affected_users + discoverability
-    return round(total / 5.0, 1)
+def synthesize_feedback(feedback_submissions: list[dict], min_anonymous_count: int = 3) -> dict:
+    peer_feedback = [f for f in feedback_submissions if f["category"] == "peer"]
+    
+    # Enforce strict anonymity threshold
+    if len(peer_feedback) < min_anonymous_count:
+        peer_comments = ["[Aggregated comments withheld: Fewer than 3 peer reviews received to protect anonymity]"]
+    else:
+        peer_comments = [f["qualitative_strengths"] for f in peer_feedback]
 
-# Example: SQL Injection in login endpoint
-risk_score = calculate_dread_score(damage=10, reproducibility=10, exploitability=8, affected_users=10, discoverability=8)
-# DREAD Score: 9.2 (Critical Priority)
+    avg_scores = {}
+    for comp in ["Technical Craft & Execution", "Cross-Functional Collaboration"]:
+        scores = [f["ratings"][comp] for f in feedback_submissions if comp in f.get("ratings", {})]
+        avg_scores[comp] = round(sum(scores) / len(scores), 2) if scores else 0.0
+
+    return {
+        "quantitative_summary": avg_scores,
+        "peer_qualitative_feedback": peer_comments
+    }
 ```
 
 ## Best Practices & Failure Modes
 
-1. **Vague Threat Descriptions**: Writing "Data might be stolen" provides zero engineering value. Explicitly describe the attacker mechanism: "Unauthenticated attacker exploits unparameterized query in `/search` to dump `users` table".
-2. **Ignoring Internal Trust Boundaries**: Assuming internal networks are completely trusted allows an attacker who breaches one microservice to pivot unimpeded. Enforce zero-trust mTLS between all internal components.
-3. **Shelfware Threat Models**: Threat models written once in a static document and never reviewed become obsolete within months. Store threat model files (`threatmodel.yaml`) inside Git repositories alongside code and update on schema changes.
+1. **Violating Anonymity with Small Sample Sizes**: If only 1 peer completes a review, attributing comments to "Peers" clearly exposes the author. If fewer than 3 reviews are submitted in an anonymous category, combine them into an aggregated pool or withhold qualitative quotes.
+2. **Personality Feedback vs Behavioral Evidence**: Feedback criticizing tone or temperament ("too aggressive", "not enthusiastic enough") disproportionately harms underrepresented groups. Prompt reviewers for concrete situations, behaviors, and business impacts (SBI model).
+3. **Recency Bias**: Reviewers naturally recall work done in the last 2 weeks while forgetting the previous 5 months. Encourage year-round private note-taking and review tickets across the entire cycle.
 
 ## Verification & Testing
 
-- Validate threat model matrix completeness against OWASP ASVS checklist:
+- Unit test verifying that anonymity thresholds are strictly respected:
   ```python
-  threats = audit_data_flow("Browser Client", "API Gateway", crosses_trust_boundary=True)
-  assert len(threats) >= 2
-  assert all(t.mitigation != "" for t in threats)
+  sample_submissions = [
+      {"category": "peer", "ratings": {"Technical Craft & Execution": 4}, "qualitative_strengths": "Great job"},
+      {"category": "peer", "ratings": {"Technical Craft & Execution": 5}, "qualitative_strengths": "Fast delivery"}
+  ] # Only 2 peers
+  report = synthesize_feedback(sample_submissions, min_anonymous_count=3)
+  assert "withheld" in report["peer_qualitative_feedback"][0]
   ```
 """
     },
 
     # -------------------------------------------------------------
-    # 2. FRONTEND: threejs-3d-web-experience (Backlog: 3d-web-experience)
+    # 3. BUSINESS: internal-financial-audit-and-controls (Backlog: accounting-audit-system-builder)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "3d-web-experience",
-        "name": "threejs-3d-web-experience",
-        "domain": "frontend",
-        "category": "3d-graphics",
-        "subcategory": "threejs",
-        "description": "Use this skill when designing, implementing, and optimizing interactive 3D web experiences using Three.js and React Three Fiber (R3F). It guides the agent through scene graph architecture, GLTF/GLB model loading and compression (Draco/Meshopt), custom GLSL shaders, camera controls (OrbitControls), lighting and shadows, and 60 FPS mobile performance optimization.",
-        "tags": ["threejs", "webgl", "3d", "react-three-fiber", "r3f", "shaders", "frontend"],
-        "technologies": ["Three.js", "React Three Fiber", "WebGL", "GLSL", "GLTF", "TypeScript"],
+        "backlog_ref": "accounting-audit-system-builder",
+        "name": "internal-financial-audit-and-controls",
+        "domain": "business",
+        "category": "finance",
+        "subcategory": "audit-controls",
+        "description": "Use this skill when designing, testing, and automating internal financial accounting controls, journal entry audit trails, and reconciliation workflows compliant with SOX 404, GAAP, and IFRS. It guides the agent through general ledger reconciliation, manual journal entry approval thresholds, segregation of duties in treasury, and anomaly detection.",
+        "tags": ["financial-audit", "accounting", "sox-compliance", "internal-controls", "finance", "gaap"],
+        "technologies": ["Python", "SQL", "PostgreSQL", "Pandas", "Audit Trails"],
         "complexity": "advanced",
         "maturity": "stable",
-        "tools": ["npm", "pnpm", "gltf-pipeline"],
-        "dependencies": ["three >= 0.160.0", "@types/three >= 0.160.0"],
-        "content": """# Three.js & React Three Fiber (R3F) 3D Web Architecture
+        "tools": ["python"],
+        "dependencies": ["pandas >= 2.0.0", "python >= 3.10"],
+        "content": """# Internal Financial Audit & SOX Accounting Controls Architecture
 
 ## Overview
 
-A definitive production frontend engineering standard for building interactive, high-performance 3D web experiences using Three.js and React Three Fiber (R3F). Bringing 3D to the web often results in sluggish frame rates, bloated asset downloads, and battery drain. This skill instructs AI agents on scene graph hierarchy, GLTF/GLB model optimization using Draco and Meshopt compression, custom GLSL shader materials, responsive canvas sizing, and maintaining consistent 60 FPS performance on mobile devices.
+A definitive production finance and compliance engineering reference for architecting internal accounting controls, automated ledger reconciliation, and tamper-evident audit trails. Corporate financial reporting is governed by Sarbanes-Oxley (SOX) Section 404, GAAP, and IFRS standards. This skill instructs AI agents on designing controls for manual journal entries, enforcing multi-tier approval thresholds, executing automated three-way matching (Purchase Order -> Goods Receipt -> Invoice), and detecting accounting anomalies (Benford's Law).
 
 ## When to Use
 
-- Building interactive 3D product configurators, e-commerce showcases, and spatial portfolios.
-- Integrating immersive WebGL canvas backgrounds that respond to scroll or mouse positions.
-- Developing data visualizations in 3D space (topological maps, network graphs).
-- Rendering animated 3D character avatars or procedural environments.
+- Designing enterprise ERP accounting modules, billing engines, and treasury ledger systems.
+- Preparing financial infrastructure for external audit (Big 4 accounting firm reviews).
+- Automating account balance reconciliation across internal databases and external payment processors (Stripe/Adyen/Banks).
+- Enforcing Segregation of Duties (SoD) on material journal entries and wire transfers.
 
 ## When NOT to Use
 
-- 2D websites where simple CSS animations or Canvas 2D achieve the desired effect without the 600 KB Three.js bundle overhead.
-- Native AAA gaming where WebAssembly game engines (Unreal/Unity WebGL) are required.
+- Simple non-regulated personal budgeting or expense tracker hobby apps.
+- Real-time stock trading algorithms (use market-making quantitative skills).
 
 ## Inputs & Prerequisites
 
-- Modern browser with WebGL 2.0 support.
-- Node.js 18+ with TypeScript.
-- 3D assets in optimized GLTF/GLB format.
+- Chart of Accounts (COA) with asset, liability, equity, revenue, and expense codes.
+- General Ledger journal entry tables with debit and credit balance enforcement.
+- Bank statement feeds and payment gateway settlement reports.
 
 ## Core Workflow
 
-### 1. Declarative 3D Scene in React Three Fiber (R3F)
-Build a responsive, performant 3D scene with lighting, soft shadows, and orbit controls:
+### 1. Double-Entry Journal Entry Invariant Enforcement
+Ensure that debits strictly equal credits on every posted transaction with cryptographic immutability:
 
-```tsx
-// components/Scene3D.tsx
-import React, { Suspense, useRef } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, useGLTF, Environment, Float } from '@react-three/drei';
-import * as THREE from 'three';
+```python
+from dataclasses import dataclass
+from typing import List
+import datetime
+import hashlib
+import json
 
-interface ModelProps {
-  url: string;
-}
+@dataclass
+class JournalEntryLine:
+    account_code: str
+    debit_cents: int
+    credit_cents: int
+    description: str
 
-function ProductModel({ url }: ModelProps) {
-  const { scene } = useGLTF(url);
-  const meshRef = useRef<THREE.Group>(null);
+class JournalEntry:
+    def __init__(self, entry_id: str, creator_id: str, lines: List[JournalEntryLine]):
+        self.entry_id = entry_id
+        self.creator_id = creator_id
+        self.lines = lines
+        self.timestamp = datetime.datetime.utcnow().isoformat()
+        self._validate_invariants()
 
-  // Smooth continuous rotation in animation loop
-  useFrame((state, delta) => {
-    if (meshRef.current) {
-      meshRef.current.rotation.y += delta * 0.5;
-    }
-  });
+    def _validate_invariants(self):
+        total_debits = sum(line.debit_cents for line in self.lines)
+        total_credits = sum(line.credit_cents for line in self.lines)
+        
+        # Fundamental Accounting Equation Invariant
+        if total_debits != total_credits:
+            raise ValueError(f"Unbalanced Journal Entry: Debits ({total_debits}) != Credits ({total_credits})")
+        if total_debits == 0:
+            raise ValueError("Journal entry cannot have zero total amount.")
 
-  return (
-    <Float speed={2} rotationIntensity={0.5} floatIntensity={1}>
-      <primitive ref={meshRef} object={scene} scale={1.5} dispose={null} />
-    </Float>
-  );
-}
-
-export const InteractiveCanvas: React.FC = () => {
-  return (
-    <div style={{ width: '100vw', height: '100vh', background: '#0a0a0c' }}>
-      <Canvas
-        camera={{ position: [0, 2, 5], fov: 45 }}
-        gl={{ antialias: true, powerPreference: 'high-performance' }}
-        dpr={[1, 2]} // Cap device pixel ratio at 2x for Retina mobile performance
-      >
-        <ambientLight intensity={0.7} />
-        <directionalLight position={[5, 10, 5]} intensity={1.5} castShadow />
-        <Suspense fallback={null}>
-          <ProductModel url="/models/product-optimized.glb" />
-          <Environment preset="city" />
-        </Suspense>
-        <OrbitControls enablePan={false} maxPolarAngle={Math.PI / 2} minDistance={2} maxDistance={10} />
-      </Canvas>
-    </div>
-  );
-};
+    def compute_audit_hash(self, previous_block_hash: str) -> str:
+        payload = {
+            "entry_id": self.entry_id,
+            "creator_id": self.creator_id,
+            "timestamp": self.timestamp,
+            "lines": [l.__dict__ for l in self.lines],
+            "prev_hash": previous_block_hash
+        }
+        return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
 ```
 
-### 2. GLTF Model Compression Pipeline
-Compress unoptimized 3D models before publishing to web servers:
+### 2. Automated Account Reconciliation (Three-Way Matching)
+Match customer invoices against payment provider settlements and bank deposits:
 
-```bash
-# Compress GLTF model using Draco geometry compression and KTX2 texture compression
-gltf-pipeline -i raw_model.gltf -o model-draco.glb -d --draco.compressionLevel 7
+```python
+import pandas as pd
 
-# Inspect mesh triangle count and draw calls
-npx gltf-transform inspect model-draco.glb
+def reconcile_bank_settlement(internal_ledger_df: pd.DataFrame, bank_settlement_df: pd.DataFrame) -> dict:
+    \"\"\"
+    Performs outer join to identify discrepancies between ledger and bank statements.
+    \"\"\"
+    merged = pd.merge(
+        internal_ledger_df,
+        bank_settlement_df,
+        on="transaction_reference_id",
+        how="outer",
+        suffixes=("_ledger", "_bank")
+    )
+
+    # Discrepancy 1: Recorded in ledger but missing from bank (in-transit or missing settlement)
+    missing_in_bank = merged[merged["amount_cents_bank"].isna()]
+
+    # Discrepancy 2: Present in bank but missing in ledger (unrecorded bank fee or unauthorized charge)
+    missing_in_ledger = merged[merged["amount_cents_ledger"].isna()]
+
+    # Discrepancy 3: Amount mismatch
+    amount_mismatch = merged[
+        merged["amount_cents_ledger"].notna() &
+        merged["amount_cents_bank"].notna() &
+        (merged["amount_cents_ledger"] != merged["amount_cents_bank"])
+    ]
+
+    return {
+        "matched_count": len(merged) - len(missing_in_bank) - len(missing_in_ledger) - len(amount_mismatch),
+        "unmatched_bank_items": len(missing_in_ledger),
+        "unmatched_ledger_items": len(missing_in_bank),
+        "discrepant_amounts": len(amount_mismatch)
+    }
 ```
 
-### 3. Custom GLSL Vertex and Fragment Shader Material
-Create custom visual effects beyond standard materials:
+### 3. Forensic Anomaly Detection via Benford's Law
+Detect fraudulent or fabricated manual journal entries:
 
-```typescript
-import { shaderMaterial } from '@react-three/drei';
-import * as THREE from 'three';
-import { extend } from '@react-three/fiber';
+```python
+import math
+from collections import Counter
 
-export const HologramMaterial = shaderMaterial(
-  { uTime: 0, uColor: new THREE.Color(0.2, 0.8, 1.0) },
-  // Vertex Shader
-  `
-    varying vec2 vUv;
-    varying vec3 vNormal;
-    void main() {
-      vUv = uv;
-      vNormal = normalize(normalMatrix * normal);
-      gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-    }
-  `,
-  // Fragment Shader
-  `
-    uniform float uTime;
-    uniform vec3 uColor;
-    varying vec2 vUv;
-    varying vec3 vNormal;
-    void main() {
-      float fresnel = pow(1.0 - dot(vNormal, vec3(0.0, 0.0, 1.0)), 2.0);
-      float scanline = sin(vUv.y * 100.0 + uTime * 5.0) * 0.1;
-      gl_FragColor = vec4(uColor + scanline, fresnel * 0.8);
-    }
-  `
-);
+def check_benfords_law(amounts: list[float]) -> dict:
+    \"\"\"
+    In natural financial data, first digit '1' appears ~30.1% of the time,
+    while digit '9' appears ~4.6% of the time. Deviations signal fabrication.
+    \"\"\"
+    first_digits = []
+    for amt in amounts:
+        if amt > 0:
+            digit = int(str(amt).replace(".", "")[0])
+            if digit > 0:
+                first_digits.append(digit)
 
-extend({ HologramMaterial });
+    total = len(first_digits)
+    counts = Counter(first_digits)
+    observed = {d: counts[d] / total for d in range(1, 10)}
+    expected = {d: math.log10(1 + 1 / d) for d in range(1, 10)}
+
+    # Calculate Chi-Square goodness-of-fit statistic
+    chi_square = sum(((observed.get(d, 0) - expected[d]) ** 2) / expected[d] for d in range(1, 10))
+    is_suspicious = chi_square > 0.05
+    return {"chi_square": chi_square, "is_suspicious": is_suspicious}
 ```
 
 ## Best Practices & Failure Modes
 
-1. **Uncapped Device Pixel Ratio (DPR)**: Rendering at native 3x or 4x DPR on high-end mobile phones forces the GPU to fill 4x more pixels, causing immediate thermal throttling and drops to 15 FPS. Always cap DPR with `dpr={[1, 2]}`.
-2. **Memory Leaks from Undisposed Geometries**: In Three.js, removing a mesh from the scene does not free GPU memory. Always traverse and dispose geometries, textures, and materials: `mesh.geometry.dispose()`, `mesh.material.dispose()`.
-3. **Draw Call Overload**: Having hundreds of separate meshes creates hundreds of WebGL draw calls. Merge static meshes using `THREE.BufferGeometryUtils.mergeGeometries` or use `InstancedMesh` for repeated objects.
+1. **Direct Database Updates to Ledger Tables**: Permitting developers or DBAs to execute `UPDATE general_ledger SET balance = ...` destroys audit integrity and violates SOX controls. General ledgers must be append-only; corrections must be posted as offsetting journal entries.
+2. **Missing Floating-Point Precision**: Never store currency as floating-point numbers (`float`). Rounding errors (`0.1 + 0.2 = 0.30000000000000004`) lead to penny imbalances on millions of transactions. Store currency strictly as integer cents or `DECIMAL(18, 4)`.
+3. **Threshold Avoidance (Smurfing)**: Dishonest actors split a $50,000 transaction requiring CEO sign-off into six $9,900 entries. Build control rules that aggregate transactions per vendor within a 48-hour window.
 
 ## Verification & Testing
 
-- Monitor frame rates using `r3f-perf`:
-  ```tsx
-  import { Perf } from 'r3f-perf';
-  <Canvas><Perf position="top-left" /></Canvas>
+- Unit test verifying that unbalanced journal entries raise exceptions:
+  ```python
+  import pytest
+  lines = [
+      JournalEntryLine("1010-CASH", 5000, 0, "Cash received"),
+      JournalEntryLine("4010-REVENUE", 0, 4900, "Revenue") # $1 mismatch
+  ]
+  with pytest.raises(ValueError):
+      JournalEntry("JE-001", "user-1", lines)
   ```
-  *Verify that draw calls are < 50 and FPS remains at 60.*
 """
     },
 
     # -------------------------------------------------------------
-    # 3. SECURITY: rbac-access-matrix-policy-design (Backlog: access-matrix)
+    # 4. SOFTWARE ENGINEERING: github-pr-review-feedback-resolver (Backlog: address-github-comments)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "access-matrix",
-        "name": "rbac-access-matrix-policy-design",
-        "domain": "security",
-        "category": "authorization",
-        "subcategory": "rbac",
-        "description": "Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware.",
-        "tags": ["rbac", "authorization", "access-control", "permissions", "abac", "security", "identity"],
-        "technologies": ["Python", "FastAPI", "Casbin", "JSON", "SQLAlchemy"],
+        "backlog_ref": "address-github-comments",
+        "name": "github-pr-review-feedback-resolver",
+        "domain": "software-engineering",
+        "category": "code-review",
+        "subcategory": "pr-feedback",
+        "description": "Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.",
+        "tags": ["code-review", "pull-request", "github", "git", "collaboration", "developer-experience"],
+        "technologies": ["GitHub API", "Git", "Python", "Bash"],
         "complexity": "intermediate",
         "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["python >= 3.10"],
-        "content": """# Role-Based Access Control (RBAC) Access Matrix Architecture
+        "tools": ["gh", "git", "python"],
+        "dependencies": ["git >= 2.30.0", "gh >= 2.40.0"],
+        "content": """# GitHub Pull Request Review Feedback Resolution Workflow
 
 ## Overview
 
-A definitive security engineering reference for modeling, auditing, and enforcing fine-grained authorization policies using an Access Control Matrix. Ad-hoc authorization logic hardcoded across application routes leads to permission creep, broken access control (OWASP Top 10 #1), and privilege escalation. This skill instructs AI agents on defining explicit permission taxonomies (`resource:action`), mapping roles to permission sets, resolving conflicting rules, and implementing high-performance authorization middleware.
+A definitive software engineering standard for processing, implementing, and verifying code review feedback on GitHub pull requests. Effectively responding to code reviews requires more than applying mechanical suggestions; it demands understanding reviewer intent, testing side-effects locally, crafting atomic fixup commits, providing clear technical rationale for trade-offs, and marking comment threads resolved. This skill instructs AI agents on handling code review iterations systematically.
 
 ## When to Use
 
-- Designing multi-tenant B2B SaaS authorization models (Owner, Admin, Editor, Viewer, Auditor).
-- Replacing brittle `if user.role == 'admin'` statements with granular permission checks (`orders:refund`).
-- Auditing user roles and access rights for SOC2, ISO 27001, and HIPAA compliance reviews.
-- Implementing dynamic tenant-scoped permissions across microservices.
+- Addressing reviewer comments and suggestions on open GitHub pull requests.
+- Evaluating whether requested refactors break existing unit or integration tests.
+- Formulating respectful, technically grounded rebuttals when a reviewer's suggestion has unintended drawbacks.
+- Automating review comment triage and resolution via GitHub CLI (`gh`).
 
 ## When NOT to Use
 
-- Public unauthenticated endpoints with no access restrictions.
-- Simple single-user applications.
+- Creating new features from scratch before a pull request exists.
+- Reviewing other developers' pull requests (use `github-pr-security-review`).
 
 ## Inputs & Prerequisites
 
-- List of application resources (e.g. `documents`, `invoices`, `users`, `settings`).
-- List of supported actions (e.g. `create`, `read`, `update`, `delete`, `approve`).
-- Identity context provided via authenticated JWT claims or session state.
+- Local git branch tracking the open pull request.
+- GitHub CLI (`gh`) authenticated with repository write access.
+- Test suite configured locally to verify fixes before pushing.
 
 ## Core Workflow
 
-### 1. Fine-Grained Permission Matrix Schema
-Formalize the Access Matrix in structured JSON/YAML:
+### 1. Fetching Review Comments via GitHub CLI
+Inspect pending review comments and unresolved review threads:
+
+```bash
+# View PR status and review comments
+gh pr view --comments
+
+# Fetch unresolved review discussion threads as structured JSON
+gh api graphql -f query='
+query($owner: String!, $repo: String!, $pr: Int!) {
+  repository(owner: $owner, name: $repo) {
+    pullRequest(number: $pr) {
+      reviewThreads(first: 50) {
+        nodes {
+          id
+          isResolved
+          comments(first: 5) {
+            nodes {
+              id
+              path
+              line
+              body
+              author { login }
+            }
+          }
+        }
+      }
+    }
+  }
+}' -F owner='company-org' -F repo='app' -F pr=142
+```
+
+### 2. Review Comment Triage & Decision Matrix
+Classify feedback into 4 actionable buckets:
+
+1. **Typo / Formatting / Style**: Apply immediately without discussion.
+2. **Bug / Edge Case**: Implement fix, add regression unit test, commit with clear message.
+3. **Architectural Suggestion with Trade-offs**: Analyze impact; if agreeing, refactor; if disagreeing, present polite empirical evidence (benchmarks, complexity analysis).
+4. **Out of Scope (Scope Creep)**: Acknowledge validity, create a separate tracking issue, and link it in the reply.
+
+### 3. Pushing Fixes & Replying to Comments
+Apply changes, run local test suite, push commits, and reply to threads:
+
+```bash
+# 1. Verify fix locally before pushing
+pytest tests/
+npm run typecheck
+
+# 2. Commit atomic fix
+git add src/payments.py tests/test_payments.py
+git commit -m "fix(payments): handle null currency code in invoice calculation"
+
+# 3. Push to PR branch
+git push origin feature/payments-upgrade
+
+# 4. Reply to specific review thread on GitHub
+gh pr comment 142 --body "Addressed in commit $(git rev-parse --short HEAD). Added unit test covering null currency codes."
+```
+
+## Best Practices & Failure Modes
+
+1. **Force-Pushing during Active Reviews**: Force-pushing (`git push --force`) wipes reviewer inline comment context from the GitHub UI, making it impossible for reviewers to see what changed between review rounds. Push incremental commits during review; squash-and-merge at the very end.
+2. **Resolving Threads Without Replying**: Resolving a reviewer's comment without an explanation or commit reference leaves the reviewer wondering if their concern was addressed or ignored. Always comment with the commit SHA before resolving.
+3. **Blindly Accepting Broken Suggestions**: GitHub's "Apply suggestion" button does not run test suites. Applying a suggestion that has a subtle syntax error or breaks type checking fails CI immediately. Always pull and run tests locally.
+
+## Verification & Testing
+
+- Check that all review threads are addressed and CI passes:
+  ```bash
+  gh pr checks
+  # All status checks must report PASS
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 5. MOBILE: ios-app-clip-architecture (Backlog: add-app-clip)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "add-app-clip",
+        "name": "ios-app-clip-architecture",
+        "domain": "mobile",
+        "category": "ios",
+        "subcategory": "app-clips",
+        "description": "Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.",
+        "tags": ["ios", "app-clips", "apple", "mobile", "swift", "expo", "react-native"],
+        "technologies": ["iOS SDK", "Swift", "SwiftUI", "Expo", "React Native", "Xcode"],
+        "complexity": "advanced",
+        "maturity": "stable",
+        "tools": ["xcodebuild", "fastlane"],
+        "dependencies": ["ios >= 16.0"],
+        "content": """# iOS App Clip Architecture & On-Demand Execution
+
+## Overview
+
+A definitive mobile engineering reference for building high-conversion, lightweight iOS App Clips. App Clips provide immediate, frictionless access to specific app functionalities (e.g. paying for parking, ordering takeout, renting a scooter) via NFC tags, QR codes, Safari Smart App Banners, or Messages, without requiring users to download the full app from the App Store. This skill instructs AI agents on configuring App Clip targets in Xcode/Expo, adhering to strict binary size limits (15 MB / 50 MB on iOS 17+), configuring Associated Domains, and seamlessly transitioning users to the full application.
+
+## When to Use
+
+- Enabling frictionless physical-world interactions (tap NFC tag to pay or order).
+- Providing instant demo experiences directly from Safari web links or QR codes.
+- Streamlining checkout workflows using native Apple Pay and Sign in with Apple.
+- Increasing full app conversion rates by allowing users to complete a task before downloading.
+
+## When NOT to Use
+
+- Apps requiring background audio playback, continuous background location tracking, or Bluetooth peripherals (App Clips are restricted from background processing).
+- Heavy applications requiring large local databases (> 50 MB) or complex multi-tab navigation.
+
+## Inputs & Prerequisites
+
+- Apple Developer Program account with explicit App Clip App ID capabilities.
+- Xcode 15+ or Expo SDK 50+ project.
+- Web domain serving Apple App Site Association (AASA) file over HTTPS.
+
+## Core Workflow
+
+### 1. Associated Domains Configuration (`apple-app-site-association`)
+Host the AASA file at `https://example.com/.well-known/apple-app-site-association` with MIME type `application/json`:
 
 ```json
 {
-  "roles": {
-    "super_admin": {
-      "description": "Full administrative control across all resources",
-      "permissions": ["*:*"]
-    },
-    "organization_admin": {
-      "description": "Tenant administrator managing members and billing",
-      "permissions": [
-        "users:read", "users:invite", "users:delete",
-        "billing:read", "billing:update",
-        "projects:*",
-        "audit_logs:read"
-      ]
-    },
-    "project_editor": {
-      "description": "Collaborator able to create and edit project artifacts",
-      "permissions": [
-        "projects:read", "projects:update",
-        "documents:create", "documents:read", "documents:update",
-        "comments:create"
-      ]
-    },
-    "auditor": {
-      "description": "Read-only access for compliance and review",
-      "permissions": [
-        "users:read", "projects:read", "documents:read", "audit_logs:read"
-      ]
-    }
+  "appclips": {
+    "apps": ["TEAM_ID.com.example.app.Clip"]
+  },
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["TEAM_ID.com.example.app"],
+        "components": [
+          { "/": "/orders/*" }
+        ]
+      }
+    ]
   }
 }
 ```
 
-### 2. High-Performance Permission Evaluation Engine
-Implement wildcard matching and contextual scope verification:
+### 2. SwiftUI App Clip Entry Point & URL Invocation Handling
+Handle incoming invocation URLs with zero splash screen delays:
 
-```python
-from typing import Set, List
+```swift
+// AppClipApp.swift
+import SwiftUI
 
-class AccessControlPolicy:
-    def __init__(self, role_definitions: dict):
-        self.role_definitions = role_definitions
+@main
+struct RestaurantAppClip: App {
+    @StateObject private var cartManager = CartManager()
 
-    def get_permissions_for_roles(self, roles: List[str]) -> Set[str]:
-        perms = set()
-        for role in roles:
-            role_meta = self.role_definitions.get(role, {})
-            perms.update(role_meta.get("permissions", []))
-        return perms
-
-    def has_permission(self, granted_permissions: Set[str], required_permission: str) -> bool:
-        if "*:*" in granted_permissions:
-            return True
-
-        req_resource, req_action = required_permission.split(":", 1)
-
-        # Check resource wildcard (e.g. "projects:*")
-        if f"{req_resource}:*" in granted_permissions:
-            return True
-
-        # Check exact permission (e.g. "projects:read")
-        return required_permission in granted_permissions
-```
-
-### 3. FastAPI Route Authorization Dependency
-Enforce permission gates declaratively on endpoints:
-
-```python
-from fastapi import FastAPI, Depends, HTTPException, status
-
-app = FastAPI()
-
-def require_permission(permission: str):
-    def dependency(user_permissions: Set[str] = Depends(get_current_user_permissions)):
-        policy = AccessControlPolicy(ROLE_DATA)
-        if not policy.has_permission(user_permissions, permission):
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN,
-                detail=f"Forbidden: Missing required permission '{permission}'"
-            )
-        return True
-    return dependency
-
-@app.delete("/api/v1/projects/{project_id}", dependencies=[Depends(require_permission("projects:delete"))])
-async def delete_project(project_id: str):
-    return {"status": "deleted", "id": project_id}
-```
-
-## Best Practices & Failure Modes
-
-1. **Role Bloat (Exploding Roles)**: Creating hyper-specific roles (`project_editor_without_delete`, `invoice_viewer_special`) causes unmanageable complexity. Keep standard roles high-level, and assign custom overrides via feature flags or group memberships.
-2. **Missing Tenant Boundary Isolation**: Checking `has_permission("projects:read")` without checking whether the user belongs to the project's tenant leads to BOLA (Broken Object Level Authorization / IDOR). Always combine RBAC with resource ownership checks (`project.tenant_id == user.tenant_id`).
-3. **Hardcoding Authorization Checks in UI Only**: Hiding a "Delete" button in the frontend while leaving the backend DELETE API unprotected allows any authenticated user to issue API requests directly. Always enforce checks on the server.
-
-## Verification & Testing
-
-- Unit test verifying permission resolution and wildcard evaluation:
-  ```python
-  policy = AccessControlPolicy({
-      "editor": {"permissions": ["documents:*", "users:read"]}
-  })
-  editor_perms = policy.get_permissions_for_roles(["editor"])
-
-  assert policy.has_permission(editor_perms, "documents:create") is True
-  assert policy.has_permission(editor_perms, "documents:delete") is True
-  assert policy.has_permission(editor_perms, "users:read") is True
-  assert policy.has_permission(editor_perms, "users:delete") is False
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 4. SECURITY: identity-access-review-and-certification (Backlog: access-review)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "access-review",
-        "name": "identity-access-review-and-certification",
-        "domain": "security",
-        "category": "identity-governance",
-        "subcategory": "access-review",
-        "description": "Use this skill when designing, automating, and conducting periodic Identity Access Reviews, user entitlement certifications, and least-privilege compliance audits. It covers generating access certification campaigns, flagging dormant accounts, detecting toxic permission combinations (Segregation of Duties - SoD), and producing audit evidence for SOC2/ISO27001.",
-        "tags": ["identity-governance", "access-review", "compliance", "soc2", "iam", "least-privilege"],
-        "technologies": ["Python", "SQLAlchemy", "PostgreSQL", "JSON", "Audit Logging"],
-        "complexity": "intermediate",
-        "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["python >= 3.10"],
-        "content": """# Identity Access Review & User Entitlement Certification Architecture
-
-## Overview
-
-A comprehensive engineering guide for establishing automated periodic Access Reviews and User Entitlement Certifications. Regulatory compliance standards (SOC 2 Type II, ISO 27001, HIPAA, SOX) mandate quarterly or bi-annual reviews of all user and service account access to production systems. This skill instructs AI agents on automating review campaigns, identifying dormant accounts, detecting Segregation of Duties (SoD) conflicts, executing approval/revocation workflows, and preserving tamper-evident audit evidence.
-
-## When to Use
-
-- Conducting quarterly access certification campaigns for employee and contractor permissions.
-- Identifying and revoking orphaned accounts belonging to offboarded personnel.
-- Detecting Segregation of Duties violations (e.g. a single user having both Code Author and Production Deployer privileges).
-- Generating auditor-ready access certification evidence reports for SOC2/SOX compliance.
-
-## When NOT to Use
-
-- Real-time per-request API authorization checks (use `rbac-access-matrix-policy-design`).
-- Single-factor password credential resets.
-
-## Inputs & Prerequisites
-
-- Identity catalog of active employees, contractors, and service accounts.
-- System entitlement mapping (which users have which roles in which applications).
-- Account activity and login telemetry (last active timestamps).
-
-## Core Workflow
-
-### 1. Segregation of Duties (SoD) Conflict Detection
-Define toxic combinations of permissions that represent fraud or compliance risks:
-
-```python
-from dataclasses import dataclass
-from typing import List, Set
-
-@dataclass
-class ToxicCombination:
-    name: str
-    conflicting_permissions: Set[str]
-    description: str
-
-SOD_POLICIES = [
-    ToxicCombination(
-        name="Invoice Creation & Payment Approval",
-        conflicting_permissions={"invoices:create", "payments:approve"},
-        description="A single user cannot both create an invoice and approve payment for it."
-    ),
-    ToxicCombination(
-        name="Code Commit & Production Release",
-        conflicting_permissions={"code:commit", "production:deploy"},
-        description="Developers committing code cannot unilaterally approve production deployments without peer review."
-    )
-]
-
-def detect_sod_violations(user_id: str, user_permissions: Set[str]) -> List[str]:
-    violations = []
-    for policy in SOD_POLICIES:
-        if policy.conflicting_permissions.issubset(user_permissions):
-            violations.append(f"SoD Conflict: {policy.name} ({policy.description})")
-    return violations
-```
-
-### 2. Automated Dormant Account Detection
-Identify accounts that have had zero activity for 90+ days:
-
-```python
-import datetime
-
-def find_dormant_accounts(account_records: list[dict], threshold_days: int = 90) -> list[dict]:
-    cutoff_date = datetime.datetime.utcnow() - datetime.timedelta(days=threshold_days)
-    dormant = []
-
-    for acc in account_records:
-        last_active = acc.get("last_login_at")
-        if last_active is None or last_active < cutoff_date:
-            dormant.append({
-                "account_id": acc["id"],
-                "email": acc["email"],
-                "last_active": last_active,
-                "days_inactive": (datetime.datetime.utcnow() - last_active).days if last_active else "Never"
-            })
-    return dormant
-```
-
-### 3. Access Certification Campaign Lifecycle
-Generate review items for managers and record cryptographic audit logs:
-
-```python
-import hashlib
-import json
-
-class AccessReviewCampaign:
-    def __init__(self, campaign_id: str, quarter: str):
-        self.campaign_id = campaign_id
-        self.quarter = quarter
-        self.certifications = []
-
-    def record_decision(self, reviewer_id: str, subject_user_id: str, role_id: str, decision: str, reason: str):
-        assert decision in ("APPROVE", "REVOKE")
-        record = {
-            "campaign_id": self.campaign_id,
-            "quarter": self.quarter,
-            "reviewer_id": reviewer_id,
-            "subject_user_id": subject_user_id,
-            "role_id": role_id,
-            "decision": decision,
-            "reason": reason,
-            "timestamp": datetime.datetime.utcnow().isoformat()
+    var body: some Scene {
+        WindowGroup {
+            OrderView()
+                .environmentObject(cartManager)
+                .onContinueUserActivity(NSUserActivityTypeBrowsingWeb) { userActivity in
+                    guard let incomingURL = userActivity.webpageURL else { return }
+                    handleInvocation(url: incomingURL)
+                }
         }
-        # Compute SHA256 integrity hash
-        record_hash = hashlib.sha256(json.dumps(record, sort_keys=True).encode()).hexdigest()
-        record["integrity_hash"] = record_hash
-        self.certifications.append(record)
-        return record
+    }
+
+    private func handleInvocation(url: URL) {
+        // Parse payload: https://example.com/menu?table=14&restaurant_id=rest_88
+        let components = URLComponents(url: url, resolvingAgainstBaseURL: true)
+        let tableNumber = components?.queryItems?.first(where: { $0.name == "table" })?.value
+        let restaurantId = components?.queryItems?.first(where: { $0.name == "restaurant_id" })?.value
+        
+        print("Invoked App Clip for restaurant: \(restaurantId ?? "none") at table: \(tableNumber ?? "0")")
+    }
+}
+```
+
+### 3. Native Apple Pay Integration (Frictionless Payment)
+Avoid requiring users to create accounts or enter credit card numbers manually:
+
+```swift
+import PassKit
+
+func makePaymentRequest(amount: Decimal) -> PKPaymentRequest {
+    let request = PKPaymentRequest()
+    request.merchantIdentifier = "merchant.com.example.appclip"
+    request.supportedNetworks = [.visa, .masterCard, .amex]
+    request.merchantCapabilities = .threeDSecure
+    request.countryCode = "US"
+    request.currencyCode = "USD"
+    
+    request.paymentSummaryItems = [
+        PKPaymentSummaryItem(label: "Table Order", amount: NSDecimalNumber(decimal: amount))
+    ]
+    return request
+}
 ```
 
 ## Best Practices & Failure Modes
 
-1. **Rubber-Stamping Approvals**: Managers frequently click "Approve All" without reviewing permissions. Combat this by highlighting high-risk roles (Production Admin, Financial Signer) in distinct review tiers requiring explicit justification.
-2. **Missing Automated Deprovisioning**: If a reviewer selects "REVOKE" during an access review, but revocation is not tied to automated IAM APIs (Okta, AWS IAM, GitHub), revoked access remains active. Ensure the review campaign emits deprovisioning webhooks.
-3. **Omitting Service Accounts**: Access reviews often focus exclusively on human employees, completely ignoring machine service accounts with permanent root tokens. Service accounts must be included in quarterly certification campaigns.
+1. **Exceeding Strict Binary Size Limits**: On iOS 16 and earlier, the uncompressed App Clip binary cannot exceed 15 MB (50 MB on iOS 17+). If the thin binary exceeds this limit, Apple App Store Connect rejects deployment immediately. Remove unnecessary heavy third-party analytics libraries and compress image assets.
+2. **Demanding Account Creation Upfront**: Forcing users to enter an email and password before taking action destroys App Clip conversion. Use Sign in with Apple and Apple Pay to complete transactions with zero typing.
+3. **Missing AASA File Validation**: If the `apple-app-site-association` file returns an HTTP 301/302 redirect or lacks the `appclips` dictionary, iOS will fail to open the App Clip and fall back to opening the webpage in Safari.
 
 ## Verification & Testing
 
-- Test SoD conflict detector on conflicting permission set:
-  ```python
-  bad_permissions = {"invoices:create", "payments:approve", "reports:read"}
-  violations = detect_sod_violations("user_123", bad_permissions)
-  assert len(violations) == 1
-  assert "Invoice Creation & Payment Approval" in violations[0]
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 5. TESTING: e2e-acceptance-testing-orchestrator (Backlog: acceptance-orchestrator)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "acceptance-orchestrator",
-        "name": "e2e-acceptance-testing-orchestrator",
-        "domain": "testing",
-        "category": "acceptance-testing",
-        "subcategory": "bdd-orchestration",
-        "description": "Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.",
-        "tags": ["acceptance-testing", "bdd", "cucumber", "gherkin", "playwright", "testing", "qa"],
-        "technologies": ["Gherkin", "Python Behave", "Playwright", "pytest", "GitHub Actions"],
-        "complexity": "advanced",
-        "maturity": "stable",
-        "tools": ["behave", "playwright", "python"],
-        "dependencies": ["behave >= 1.2.6", "playwright >= 1.40.0"],
-        "content": """# E2E Acceptance Testing & BDD Orchestration Architecture
-
-## Overview
-
-A definitive production testing standard for driving end-to-end acceptance verification using Behavior-Driven Development (BDD). By translating product requirements and user stories into unambiguous, executable Gherkin specifications (`Given-When-Then`), engineering, product, and QA align on definition-of-done. This skill instructs AI agents on authoring clean feature files, implementing reusable step definitions with Playwright, isolating test databases, and integrating automated acceptance gates into release pipelines.
-
-## When to Use
-
-- Validating critical business user journeys (checkout flows, account onboarding, permission downgrades).
-- Automating acceptance criteria verification directly from issue tracker specifications.
-- Fostering collaboration between product managers, developers, and QA using human-readable feature files.
-- Preventing regressions in complex cross-service workflows before merging release candidates.
-
-## When NOT to Use
-
-- Low-level unit testing of mathematical algorithms or utility functions (use `pytest` or Jest directly).
-- Micro-benchmarking database query latency.
-
-## Inputs & Prerequisites
-
-- Running staging or local preview environment of the application.
-- Python 3.10+ with `behave` and `playwright` installed.
-- Documented acceptance criteria for target features.
-
-## Core Workflow
-
-### 1. Declarative Gherkin Feature File (`features/checkout.feature`)
-Express business acceptance criteria in plain, structured English:
-
-```gherkin
-Feature: Customer Checkout & Order Placement
-  As an authenticated customer
-  I want to checkout items in my cart
-  So that I can purchase products securely
-
-  Background:
-    Given the store catalog has an item "Wireless Headphones" with price "$99"
-    And a registered customer "alice@example.com" is logged in
-
-  Scenario: Successful checkout with valid payment
-    Given the customer has added "Wireless Headphones" to their cart
-    When they navigate to the checkout page
-    And they enter shipping address:
-      | Street         | City       | PostalCode | Country |
-      | 123 Main St    | Metropolis | 10001      | US      |
-    And they complete payment with valid credit card
-    Then an order confirmation screen is displayed
-    And the customer receives an order confirmation email with subject "Your Order Confirmation"
-    And the cart is emptied
-```
-
-### 2. Step Definitions Implementation with Playwright
-Execute browser automation corresponding to each step:
-
-```python
-# features/steps/checkout_steps.py
-from behave import given, when, then
-from playwright.sync_api import Page, expect
-
-@given('the store catalog has an item "{item_name}" with price "{price}"')
-def step_catalog_setup(context, item_name, price):
-    # Seed test database via backend API fixture
-    context.api_client.seed_catalog_item(name=item_name, price=price)
-
-@given('a registered customer "{email}" is logged in')
-def step_customer_logged_in(context, email):
-    context.page.goto(f"{context.base_url}/login")
-    context.page.fill('input[name="email"]', email)
-    context.page.fill('input[name="password"]', "TestPassword123!")
-    context.page.click('button[type="submit"]')
-    expect(context.page.locator('.navbar-user')).to_contain_text(email)
-
-@given('the customer has added "{item_name}" to their cart')
-def step_add_to_cart(context, item_name):
-    context.page.goto(f"{context.base_url}/products")
-    context.page.click(f'button[data-item="{item_name}"]')
-
-@when('they navigate to the checkout page')
-def step_navigate_checkout(context):
-    context.page.goto(f"{context.base_url}/checkout")
-
-@when('they enter shipping address')
-def step_enter_shipping(context):
-    row = context.table[0]
-    context.page.fill('input[name="street"]', row["Street"])
-    context.page.fill('input[name="city"]', row["City"])
-    context.page.fill('input[name="postal_code"]', row["PostalCode"])
-
-@when('they complete payment with valid credit card')
-def step_submit_payment(context):
-    context.page.click('button#submit-order')
-
-@then('an order confirmation screen is displayed')
-def step_verify_confirmation(context):
-    expect(context.page.locator('h1.confirmation-heading')).to_be_visible()
-    expect(context.page.locator('.order-id')).not_to_be_empty()
-```
-
-### 3. Environment Lifecycle Hooks (`features/environment.py`)
-Launch and teardown headless browser instances per scenario:
-
-```python
-from playwright.sync_api import sync_playwright
-
-def before_all(context):
-    context.playwright = sync_playwright().start()
-    context.browser = context.playwright.chromium.launch(headless=True)
-    context.base_url = "http://localhost:3000"
-
-def before_scenario(context, scenario):
-    context.page = context.browser.new_page()
-
-def after_scenario(context, scenario):
-    if scenario.status == "failed":
-        # Capture failure screenshot for debugging
-        context.page.screenshot(path=f"screenshots/failed_{scenario.name.replace(' ', '_')}.png")
-    context.page.close()
-
-def after_all(context):
-    context.browser.close()
-    context.playwright.stop()
-```
-
-## Best Practices & Failure Modes
-
-1. **Brittle Selectors**: Using fragile XPath or DOM layout selectors (`div > div:nth-child(3) > button`) causes tests to break whenever CSS layout changes. Use semantic user-facing locators (`getByRole('button', { name: 'Submit' })` or `data-testid`).
-2. **Shared State Pollution Between Scenarios**: Relying on database state created by a previous scenario causes cascade failures when tests run in arbitrary order. Every scenario must be completely isolated and seed its own fresh test data.
-3. **Flaky Hardcoded Sleeps**: Using `time.sleep(5)` slows tests down and fails on busy CI nodes. Use Playwright's auto-waiting assertions (`expect(locator).to_be_visible()`).
-
-## Verification & Testing
-
-- Run the full acceptance test suite:
+- Test local App Clip invocation in Xcode scheme:
+  - Edit Scheme -> Run -> Arguments -> Environment Variables:
+  - Add `_XCAppClipURL` with value `https://example.com/menu?table=14`
+- Validate AASA file configuration using Apple CDN Validator:
   ```bash
-  behave features/
-  ```
-- Run tests filtered by specific feature tag:
-  ```bash
-  behave --tags=@smoke features/
+  curl -v https://app-site-association.cdn-apple.com/a/v1/example.com
   ```
 """
     }

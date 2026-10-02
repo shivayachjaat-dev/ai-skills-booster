@@ -155,6 +155,8 @@ AI_Skills_Booster/
 │   │   └── triage/ (1 skills)
 │   ├── network-security/
 │   │   └── wireguard/ (1 skills)
+│   ├── penetration-testing/
+│   │   └── active-directory/ (1 skills)
 │   ├── secret-management/
 │   │   └── detection/ (1 skills)
 │   ├── secrets/

@@ -1983,6 +1983,33 @@
     "maturity": "stable"
   },
   {
+    "name": "active-directory-security-assessment",
+    "path": "skills/security/penetration-testing/active-directory/active-directory-security-assessment",
+    "domain": "security",
+    "category": "penetration-testing",
+    "subcategory": "active-directory",
+    "description": "Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.",
+    "tags": [
+      "active-directory",
+      "pentesting",
+      "security",
+      "kerberos",
+      "bloodhound",
+      "adcs",
+      "red-team"
+    ],
+    "technologies": [
+      "Active Directory",
+      "Kerberos",
+      "BloodHound",
+      "PowerView",
+      "Impacket",
+      "Python"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "secret-leak-detection-and-remediation",
     "path": "skills/security/secret-management/detection/secret-leak-detection-and-remediation",
     "domain": "security",

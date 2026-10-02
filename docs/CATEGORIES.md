@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **100** skills across structured domains, categories, and subcategories.
+Master navigation for **101** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -375,7 +375,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (20 skills)
+## Security (21 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -438,6 +438,12 @@ Category index: [`docs/categories/network-security.md`](categories/network-secur
 
 - **Wireguard** (1):
   - [wireguard-site-to-site-mesh-vpn](../skills/security/network-security/wireguard/wireguard-site-to-site-mesh-vpn/SKILL.md) — Use this skill when designing, configuring, and maintaining secure site-to-site and point-to-point mesh VPN networks using WireGuard. It covers Curve25519 cryptographic key generation, wg-quick configuration files, AllowedIPs routing tables, persistent keepalives behind NAT, and network firewall forwarding rules.
+
+### Penetration Testing (1 skills)
+Category index: [`docs/categories/penetration-testing.md`](categories/penetration-testing.md)
+
+- **Active Directory** (1):
+  - [active-directory-security-assessment](../skills/security/penetration-testing/active-directory/active-directory-security-assessment/SKILL.md) — Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.
 
 ### Secret Management (1 skills)
 Category index: [`docs/categories/secret-management.md`](categories/secret-management.md)
