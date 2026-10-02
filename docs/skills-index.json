@@ -170,6 +170,33 @@
     "maturity": "stable"
   },
   {
+    "name": "grpc-service-implementation",
+    "path": "skills/backend/grpc/services/grpc-service-implementation",
+    "domain": "backend",
+    "category": "grpc",
+    "subcategory": "services",
+    "description": "Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.",
+    "tags": [
+      "grpc",
+      "protobuf",
+      "backend",
+      "microservices",
+      "http2",
+      "streaming",
+      "rpc"
+    ],
+    "technologies": [
+      "gRPC",
+      "Protocol Buffers",
+      "Go",
+      "Python",
+      "TypeScript",
+      "HTTP/2"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kafka-event-driven-architecture",
     "path": "skills/backend/messaging/kafka/kafka-event-driven-architecture",
     "domain": "backend",

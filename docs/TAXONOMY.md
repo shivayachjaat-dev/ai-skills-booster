@@ -17,6 +17,8 @@ AI_Skills_Booster/
 │   │   └── async-architecture/ (1 skills)
 │   ├── graphql/
 │   │   └── schema-design/ (1 skills)
+│   ├── grpc/
+│   │   └── services/ (1 skills)
 │   └── messaging/
 │   │   └── kafka/ (1 skills)
 ├── data-analytics/

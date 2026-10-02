@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **28** skills across structured domains, categories, and subcategories.
+Master navigation for **29** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -24,7 +24,7 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 
-## Backend (4 skills)
+## Backend (5 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -43,6 +43,12 @@ Category index: [`docs/categories/graphql.md`](categories/graphql.md)
 
 - **Schema Design** (1):
   - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
+
+### Grpc (1 skills)
+Category index: [`docs/categories/grpc.md`](categories/grpc.md)
+
+- **Services** (1):
+  - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
 
 ### Messaging (1 skills)
 Category index: [`docs/categories/messaging.md`](categories/messaging.md)
