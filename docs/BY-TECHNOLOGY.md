@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (270 skills)
+## Bash (271 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1274,6 +1274,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [building-native-ui](../skills/frontend/ui-ux/building_native_ui/building-native-ui/SKILL.md) — Use this skill to complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.
 - [burpsuite-project-parser](../skills/frontend/ui-ux/burpsuite_project_pa/burpsuite-project-parser/SKILL.md) — Use this skill to searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.
 - [business-continuity](../skills/frontend/ui-ux/business_continuity/business-continuity/SKILL.md) — Use this skill to develop business continuity plans and impact analysis. Implement BCP
+- [busybox-on-windows](../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) — Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
@@ -1621,6 +1622,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Business Website Setup (1 skills)
 
 - [business-website-setup](../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) — Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.
+
+## Busybox On Windows (1 skills)
+
+- [busybox-on-windows](../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) — Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
 
 ## C (1 skills)
 
@@ -2847,7 +2852,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (373 skills)
+## Python (374 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3139,6 +3144,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [building-native-ui](../skills/frontend/ui-ux/building_native_ui/building-native-ui/SKILL.md) — Use this skill to complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.
 - [burpsuite-project-parser](../skills/frontend/ui-ux/burpsuite_project_pa/burpsuite-project-parser/SKILL.md) — Use this skill to searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.
 - [business-continuity](../skills/frontend/ui-ux/business_continuity/business-continuity/SKILL.md) — Use this skill to develop business continuity plans and impact analysis. Implement BCP
+- [busybox-on-windows](../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) — Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.

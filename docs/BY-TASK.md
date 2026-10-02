@@ -2,7 +2,7 @@
 
 Find the exact agent skill according to what task you need completed.
 
-## Build & Create (200 skills)
+## Build & Create (201 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering/agents`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — `ai-engineering/agents`: Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -157,6 +157,7 @@ Find the exact agent skill according to what task you need completed.
 - [browser-extension-builder](../skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) — `frontend/ui-ux`: Use this skill to expert in building browser extensions that solve real problems -
 - [building-native-ui](../skills/frontend/ui-ux/building_native_ui/building-native-ui/SKILL.md) — `frontend/ui-ux`: Use this skill to complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.
 - [business-continuity](../skills/frontend/ui-ux/business_continuity/business-continuity/SKILL.md) — `frontend/ui-ux`: Use this skill to develop business continuity plans and impact analysis. Implement BCP
+- [busybox-on-windows](../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) — `frontend/ui-ux`: Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — `frontend/web-architecture`: Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — `frontend/web-architecture`: Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [brand-growth-system-builder](../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) — `frontend/web-architecture`: Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows.

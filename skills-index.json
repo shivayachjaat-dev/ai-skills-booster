@@ -7913,6 +7913,28 @@
     "maturity": "stable"
   },
   {
+    "name": "busybox-on-windows",
+    "path": "skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "busybox_on_windows",
+    "description": "Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "busybox",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Busybox On Windows",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

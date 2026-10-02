@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **452** skills across structured domains, categories, and subcategories.
+Master navigation for **453** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (153 skills)
 
@@ -958,7 +958,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (45 skills)
+## Frontend (46 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1018,7 +1018,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-### Ui Ux (26 skills)
+### Ui Ux (27 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1073,6 +1073,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [burpsuite-project-parser](../skills/frontend/ui-ux/burpsuite_project_pa/burpsuite-project-parser/SKILL.md) — Use this skill to searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.
 - **Business_Continuity** (1):
   - [business-continuity](../skills/frontend/ui-ux/business_continuity/business-continuity/SKILL.md) — Use this skill to develop business continuity plans and impact analysis. Implement BCP
+- **Busybox_On_Windows** (1):
+  - [busybox-on-windows](../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) — Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
 
 ### Web Architecture (8 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
