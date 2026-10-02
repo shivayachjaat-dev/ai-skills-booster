@@ -11699,6 +11699,28 @@
     "maturity": "stable"
   },
   {
+    "name": "open-dynamic-workflows",
+    "path": "skills/ai-engineering/models/open_dynamic_workflo/open-dynamic-workflows",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "open_dynamic_workflo",
+    "description": "Use this skill to design, implement, and operate production workflows for open dynamic workflows. Plan, orchestrate, and adversarially verify parallel AI coding agents with a dynamic multi-agent workflow engine.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "open",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Open Dynamic Workflows",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
