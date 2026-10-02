@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **525** skills across structured domains, categories, and subcategories.
+Master navigation for **526** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (177 skills)
+## Ai Engineering (178 skills)
 
 ### Agents (22 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -367,7 +367,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (15 skills)
+### Rag (16 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -395,6 +395,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [block-storage](../skills/ai-engineering/rag/block_storage/block-storage/SKILL.md) — Use this skill to manage block storage volumes and LVM. Configure cloud block storage and
 - **Case_Review** (1):
   - [case-review](../skills/ai-engineering/rag/case_review/case-review/SKILL.md) — Use this skill to quality-gate review of a reverse-engineering or assessment case package: scope readiness, Evidence-to-Finding-to-Path traceability, work-item coverage, timeline consistency, and artifact hashes.
+- **Cloudflare_Workers_E** (1):
+  - [cloudflare-workers-expert](../skills/ai-engineering/rag/cloudflare_workers_e/cloudflare-workers-expert/SKILL.md) — Use this skill to expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage.
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 

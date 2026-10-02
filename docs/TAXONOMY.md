@@ -178,6 +178,7 @@ AI_Skills_Booster/
 │   │   ├── azure_storage_queue_/ (3 skills)
 │   │   ├── block_storage/ (1 skills)
 │   │   ├── case_review/ (1 skills)
+│   │   ├── cloudflare_workers_e/ (1 skills)
 │   │   └── evaluation/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)
