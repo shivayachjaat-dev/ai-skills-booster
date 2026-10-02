@@ -25567,6 +25567,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-components-menus",
+    "path": "skills/software-engineering/architecture/patterns/hig-components-menus",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for hig components menus. Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Components Menus",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
