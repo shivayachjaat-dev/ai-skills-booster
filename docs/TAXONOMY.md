@@ -515,6 +515,7 @@ AI_Skills_Booster/
 │   │   ├── nanobanana_ppt_skill/ (1 skills)
 │   │   ├── neon_ai_gateway/ (1 skills)
 │   │   ├── network_101/ (1 skills)
+│   │   ├── new_rails_project/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

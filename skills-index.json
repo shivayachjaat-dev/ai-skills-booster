@@ -11325,6 +11325,28 @@
     "maturity": "stable"
   },
   {
+    "name": "new-rails-project",
+    "path": "skills/ai-engineering/models/new_rails_project/new-rails-project",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "new_rails_project",
+    "description": "Use this skill to design, implement, and operate production workflows for new rails project. Create a new Rails project",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "new",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "New Rails Project",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
