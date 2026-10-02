@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **194** skills across structured domains, categories, and subcategories.
+Master navigation for **195** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (42 skills)
+## Ai Engineering (43 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -92,7 +92,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Models (9 skills)
+### Models (10 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -113,6 +113,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ai-product](../skills/ai-engineering/models/ai_product/ai-product/SKILL.md) — Use this skill to every product will be AI-powered. The question is whether you'll
 - **Ai_Studio_Image** (1):
   - [ai-studio-image](../skills/ai-engineering/models/ai_studio_image/ai-studio-image/SKILL.md) — Use this skill to geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.
+- **Akf_Trust_Metadata** (1):
+  - [akf-trust-metadata](../skills/ai-engineering/models/akf_trust_metadata/akf-trust-metadata/SKILL.md) — Use this skill to the AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)

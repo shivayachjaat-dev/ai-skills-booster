@@ -47,7 +47,8 @@ AI_Skills_Booster/
 │   │   ├── ai_loop/ (1 skills)
 │   │   ├── ai_ml/ (1 skills)
 │   │   ├── ai_product/ (1 skills)
-│   │   └── ai_studio_image/ (1 skills)
+│   │   ├── ai_studio_image/ (1 skills)
+│   │   └── akf_trust_metadata/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
 │   ├── quantization/

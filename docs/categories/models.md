@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,3 +13,4 @@
 | [ai-ml](../../skills/ai-engineering/models/ai_ml/ai-ml/SKILL.md) | `ai_ml` | `advanced` | `stable` | Use this skill to aI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features. |
 | [ai-product](../../skills/ai-engineering/models/ai_product/ai-product/SKILL.md) | `ai_product` | `advanced` | `stable` | Use this skill to every product will be AI-powered. The question is whether you'll |
 | [ai-studio-image](../../skills/ai-engineering/models/ai_studio_image/ai-studio-image/SKILL.md) | `ai_studio_image` | `advanced` | `stable` | Use this skill to geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis. |
+| [akf-trust-metadata](../../skills/ai-engineering/models/akf_trust_metadata/akf-trust-metadata/SKILL.md) | `akf_trust_metadata` | `advanced` | `stable` | Use this skill to the AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing. |

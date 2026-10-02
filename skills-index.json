@@ -853,6 +853,28 @@
     "maturity": "stable"
   },
   {
+    "name": "akf-trust-metadata",
+    "path": "skills/ai-engineering/models/akf_trust_metadata/akf-trust-metadata",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "akf_trust_metadata",
+    "description": "Use this skill to the AI native file format. EXIF for AI \u2014 stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "akf",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Akf Trust Metadata",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",
