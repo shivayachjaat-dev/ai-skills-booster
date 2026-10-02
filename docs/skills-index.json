@@ -20534,6 +20534,28 @@
     "maturity": "stable"
   },
   {
+    "name": "geo-report",
+    "path": "skills/security/compliance/geo_report/geo-report",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "geo_report",
+    "description": "Use this skill to design, implement, and operate production workflows for geo report. Generate a professional, client-facing GEO report combining all audit",
+    "tags": [
+      "security",
+      "compliance",
+      "geo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geo Report",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "indexing-issue-auditor",
     "path": "skills/security/compliance/indexing_issue_audit/indexing-issue-auditor",
     "domain": "security",
