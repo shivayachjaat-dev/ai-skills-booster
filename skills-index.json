@@ -3471,6 +3471,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cloudflare-security-audit",
+    "path": "skills/ai-engineering/models/cloudflare_security_/cloudflare-security-audit",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cloudflare_security_",
+    "description": "Use this skill to audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cloudflare",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cloudflare Security Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

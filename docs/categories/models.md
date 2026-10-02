@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **115 skills** available in this category.
+> **116 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -118,4 +118,5 @@
 | [closed-loop-delivery](../../skills/ai-engineering/models/closed_loop_delivery/closed-loop-delivery/SKILL.md) | `closed_loop_delivery` | `advanced` | `stable` | Use this skill to use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification. |
 | [cloud-iam-deep](../../skills/ai-engineering/models/cloud_iam_deep/cloud-iam-deep/SKILL.md) | `cloud_iam_deep` | `advanced` | `stable` | Use this skill to cloud IAM red-team attack chain across AWS, Azure, GCP |
 | [cloud-k8s](../../skills/ai-engineering/models/cloud_k8s/cloud-k8s/SKILL.md) | `cloud_k8s` | `advanced` | `stable` | Use this skill to authorized cloud, container, and Kubernetes security assessment: metadata SSRF, IAM misconfiguration, container escape paths, and cluster RBAC review. |
+| [cloudflare-security-audit](../../skills/ai-engineering/models/cloudflare_security_/cloudflare-security-audit/SKILL.md) | `cloudflare_security_` | `advanced` | `stable` | Use this skill to audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 523 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 524 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -158,6 +158,7 @@
 | [closed-loop-delivery](skills/ai-engineering/models/closed_loop_delivery/closed-loop-delivery/SKILL.md) | `ai-engineering` | `models` | `closed_loop_delivery` | `advanced` | `stable` | Use this skill to use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification. |
 | [cloud-iam-deep](skills/ai-engineering/models/cloud_iam_deep/cloud-iam-deep/SKILL.md) | `ai-engineering` | `models` | `cloud_iam_deep` | `advanced` | `stable` | Use this skill to cloud IAM red-team attack chain across AWS, Azure, GCP |
 | [cloud-k8s](skills/ai-engineering/models/cloud_k8s/cloud-k8s/SKILL.md) | `ai-engineering` | `models` | `cloud_k8s` | `advanced` | `stable` | Use this skill to authorized cloud, container, and Kubernetes security assessment: metadata SSRF, IAM misconfiguration, container escape paths, and cluster RBAC review. |
+| [cloudflare-security-audit](skills/ai-engineering/models/cloudflare_security_/cloudflare-security-audit/SKILL.md) | `ai-engineering` | `models` | `cloudflare_security_` | `advanced` | `stable` | Use this skill to audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |
