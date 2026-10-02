@@ -486,7 +486,8 @@ AI_Skills_Booster/
 │   │   ├── azure_monitor_audit/ (1 skills)
 │   │   ├── azure_security_keyva/ (2 skills)
 │   │   ├── bb_methodology/ (1 skills)
-│   │   └── bug_bounty/ (1 skills)
+│   │   ├── bug_bounty/ (1 skills)
+│   │   └── bugcrowd_reporting/ (1 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/

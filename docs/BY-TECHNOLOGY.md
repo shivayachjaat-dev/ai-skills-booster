@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (256 skills)
+## Bash (257 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1281,6 +1281,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-security-keyvault-keys-java](../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-java/SKILL.md) — Use this skill to azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys.
 - [bb-methodology](../skills/security/appsec/bb_methodology/bb-methodology/SKILL.md) — Use this skill to use at the START of any bug bounty hunting session, when switching targets,
 - [bug-bounty](../skills/security/appsec/bug_bounty/bug-bounty/SKILL.md) — Use this skill to complete bug bounty workflow
+- [bugcrowd-reporting](../skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) — Use this skill to bugcrowd-specific reporting tactics complementing report-writing
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
 - [azure-identity-dotnet](../skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) — Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.
 - [azure-identity-java](../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) — Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).
@@ -1551,6 +1552,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Bug Hunter (1 skills)
 
 - [bug-hunter](../skills/software-engineering/architecture/patterns/bug-hunter/SKILL.md) — Use this skill to systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression.
+
+## Bugcrowd Reporting (1 skills)
+
+- [bugcrowd-reporting](../skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) — Use this skill to bugcrowd-specific reporting tactics complementing report-writing
 
 ## C (1 skills)
 
@@ -2777,7 +2782,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (359 skills)
+## Python (360 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3090,6 +3095,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-security-keyvault-keys-java](../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-java/SKILL.md) — Use this skill to azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys.
 - [bb-methodology](../skills/security/appsec/bb_methodology/bb-methodology/SKILL.md) — Use this skill to use at the START of any bug bounty hunting session, when switching targets,
 - [bug-bounty](../skills/security/appsec/bug_bounty/bug-bounty/SKILL.md) — Use this skill to complete bug bounty workflow
+- [bugcrowd-reporting](../skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) — Use this skill to bugcrowd-specific reporting tactics complementing report-writing
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
 - [azure-identity-dotnet](../skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) — Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.
 - [azure-identity-java](../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) — Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).

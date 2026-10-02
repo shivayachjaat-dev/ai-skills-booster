@@ -8648,6 +8648,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bugcrowd-reporting",
+    "path": "skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "bugcrowd_reporting",
+    "description": "Use this skill to bugcrowd-specific reporting tactics complementing report-writing",
+    "tags": [
+      "security",
+      "appsec",
+      "bugcrowd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bugcrowd Reporting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

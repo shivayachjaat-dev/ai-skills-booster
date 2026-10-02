@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **8 skills** available in this category.
+> **9 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -12,3 +12,4 @@
 | [azure-security-keyvault-keys-java](../../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-java/SKILL.md) | `azure_security_keyva` | `advanced` | `stable` | Use this skill to azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys. |
 | [bb-methodology](../../skills/security/appsec/bb_methodology/bb-methodology/SKILL.md) | `bb_methodology` | `advanced` | `stable` | Use this skill to use at the START of any bug bounty hunting session, when switching targets, |
 | [bug-bounty](../../skills/security/appsec/bug_bounty/bug-bounty/SKILL.md) | `bug_bounty` | `advanced` | `stable` | Use this skill to complete bug bounty workflow |
+| [bugcrowd-reporting](../../skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) | `bugcrowd_reporting` | `advanced` | `stable` | Use this skill to bugcrowd-specific reporting tactics complementing report-writing |

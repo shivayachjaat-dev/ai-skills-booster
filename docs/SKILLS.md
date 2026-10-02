@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 438 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 439 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -375,6 +375,7 @@
 | [azure-security-keyvault-keys-java](skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-java/SKILL.md) | `security` | `appsec` | `azure_security_keyva` | `advanced` | `stable` | Use this skill to azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys. |
 | [bb-methodology](skills/security/appsec/bb_methodology/bb-methodology/SKILL.md) | `security` | `appsec` | `bb_methodology` | `advanced` | `stable` | Use this skill to use at the START of any bug bounty hunting session, when switching targets, |
 | [bug-bounty](skills/security/appsec/bug_bounty/bug-bounty/SKILL.md) | `security` | `appsec` | `bug_bounty` | `advanced` | `stable` | Use this skill to complete bug bounty workflow |
+| [bugcrowd-reporting](skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) | `security` | `appsec` | `bugcrowd_reporting` | `advanced` | `stable` | Use this skill to bugcrowd-specific reporting tactics complementing report-writing |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |
 | [azure-communication-common-java](skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) | `security` | `authentication` | `azure_communication_` | `advanced` | `stable` | Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services. |
 | [azure-identity-dotnet](skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) | `security` | `authentication` | `azure_identity_dotne` | `advanced` | `stable` | Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. |
