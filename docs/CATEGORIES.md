@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **489** skills across structured domains, categories, and subcategories.
+Master navigation for **490** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (163 skills)
+## Ai Engineering (164 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -120,7 +120,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (106 skills)
+### Models (107 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -324,6 +324,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [cc-skill-strategic-compact](../skills/ai-engineering/models/cc_skill_strategic_c/cc-skill-strategic-compact/SKILL.md) — Use this skill to prepare a verified checkpoint before condensing an agent conversation at a phase boundary. Use during long tasks when context is repetitive; preserves constraints, evidence, decisions and the next action.
 - **Churn_Prevention** (1):
   - [churn-prevention](../skills/ai-engineering/models/churn_prevention/churn-prevention/SKILL.md) — Use this skill to reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement.
+- **Cicd_Automation_Work** (1):
+  - [cicd-automation-workflow-automate](../skills/ai-engineering/models/cicd_automation_work/cicd-automation-workflow-automate/SKILL.md) — Use this skill to you are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

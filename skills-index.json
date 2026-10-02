@@ -3185,6 +3185,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cicd-automation-workflow-automate",
+    "path": "skills/ai-engineering/models/cicd_automation_work/cicd-automation-workflow-automate",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cicd_automation_work",
+    "description": "Use this skill to you are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cicd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cicd Automation Workflow Automate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
