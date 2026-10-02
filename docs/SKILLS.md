@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,546 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,547 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1088,6 +1088,7 @@
 | [mlops-engineer](skills/frontend/ui-ux/mlops_engineer/mlops-engineer/SKILL.md) | `frontend` | `ui-ux` | `mlops_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mlops engineer. Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. |
 | [monorepo-architect](skills/frontend/ui-ux/monorepo_architect/monorepo-architect/SKILL.md) | `frontend` | `ui-ux` | `monorepo_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monorepo architect. Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup, |
 | [monorepo-management](skills/frontend/ui-ux/monorepo_management/monorepo-management/SKILL.md) | `frontend` | `ui-ux` | `monorepo_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monorepo management. Build efficient, scalable monorepos that enable code sharing, consistent tooling, and atomic changes across multiple packages and applications. |
+| [monte-carlo-analyze-root-cause](skills/frontend/ui-ux/monte_carlo_analyze_/monte-carlo-analyze-root-cause/SKILL.md) | `frontend` | `ui-ux` | `monte_carlo_analyze_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo analyze root cause. Curated upstream guidance for Monte Carlo Analyze Root Cause; use when the workflow matches the user goal. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

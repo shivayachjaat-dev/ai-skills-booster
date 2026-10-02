@@ -24259,6 +24259,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-analyze-root-cause",
+    "path": "skills/frontend/ui-ux/monte_carlo_analyze_/monte-carlo-analyze-root-cause",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "monte_carlo_analyze_",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo analyze root cause. Curated upstream guidance for Monte Carlo Analyze Root Cause; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Analyze Root Cause",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
