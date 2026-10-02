@@ -2991,6 +2991,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-vpc",
+    "path": "skills/devops/ci-cd/aws_vpc/aws-vpc",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "aws_vpc",
+    "description": "Use this skill to design and implement VPCs and networking. Configure subnets, route tables,",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Vpc",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",

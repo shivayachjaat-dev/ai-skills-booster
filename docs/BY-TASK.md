@@ -2,7 +2,7 @@
 
 Find the exact agent skill according to what task you need completed.
 
-## Build & Create (145 skills)
+## Build & Create (146 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering/agents`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — `ai-engineering/agents`: Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -76,6 +76,7 @@ Find the exact agent skill according to what task you need completed.
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — `developer-tools/repository-specs`: Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — `developer-tools/sdk-generation`: Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 - [aws-s3](../skills/devops/ci-cd/aws_s3/aws-s3/SKILL.md) — `devops/ci-cd`: Use this skill to configure S3 buckets, policies, and lifecycle rules. Implement versioning,
+- [aws-vpc](../skills/devops/ci-cd/aws_vpc/aws-vpc/SKILL.md) — `devops/ci-cd`: Use this skill to design and implement VPCs and networking. Configure subnets, route tables,
 - [aws-skills](../skills/devops/cloud-infrastructure/aws_skills/aws-skills/SKILL.md) — `devops/cloud-infrastructure`: Use this skill to aWS development with infrastructure automation and cloud architecture patterns
 - [aws-sst-development](../skills/devops/cloud-infrastructure/aws_sst_development/aws-sst-development/SKILL.md) — `devops/cloud-infrastructure`: Use this skill to sST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework.
 - [apple-silicon-container-runtime-optimization](../skills/devops/containers/apple-silicon/apple-silicon-container-runtime-optimization/SKILL.md) — `devops/containers`: Use this skill to build, optimize, and manage lightweight OCI Linux containers and microVM runtimes on Apple Silicon (ARM64 macOS) using native virtualization frameworks, Rosetta 2 multi-arch emulation, Colima, and OrbStack. It covers cross-platform multi-arch image compilation (buildx), bind-mount I/O caching, and GPU acceleration.

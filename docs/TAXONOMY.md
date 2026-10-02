@@ -204,6 +204,7 @@ AI_Skills_Booster/
 │   ├── ci-cd/
 │   │   ├── aws_cost_optimizatio/ (1 skills)
 │   │   ├── aws_s3/ (1 skills)
+│   │   ├── aws_vpc/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
