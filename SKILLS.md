@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,239 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,240 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1019,6 +1019,7 @@
 | [hunt-nodejs](skills/security/appsec/hunt_nodejs/hunt-nodejs/SKILL.md) | `security` | `appsec` | `hunt_nodejs` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt nodejs. Hunt Node.js specific vulnerabilities |
 | [hunt-ntlm-info](skills/security/appsec/hunt_ntlm_info/hunt-ntlm-info/SKILL.md) | `security` | `appsec` | `hunt_ntlm_info` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt ntlm info. Hunt NTLM/Negotiate information disclosure on internet-reachable IIS/SharePoint/Exchange. |
 | [hunt-open-redirect](skills/security/appsec/hunt_open_redirect/hunt-open-redirect/SKILL.md) | `security` | `appsec` | `hunt_open_redirect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt open redirect. Hunt Open Redirect |
+| [hunt-race-condition](skills/security/appsec/hunt_race_condition/hunt-race-condition/SKILL.md) | `security` | `appsec` | `hunt_race_condition` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt race condition. Hunting skill for race condition vulnerabilities. |
 | [laravel-security-audit](skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `security` | `appsec` | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `security` | `appsec` | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |

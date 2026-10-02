@@ -1135,6 +1135,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_nodejs/ (1 skills)
 │   │   ├── hunt_ntlm_info/ (1 skills)
 │   │   ├── hunt_open_redirect/ (1 skills)
+│   │   ├── hunt_race_condition/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)
