@@ -5194,6 +5194,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-servicebus-ts",
+    "path": "skills/devops/cloud-infrastructure/azure_servicebus_ts/azure-servicebus-ts",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_servicebus_ts",
+    "description": "Use this skill to enterprise messaging with queues, topics, and subscriptions.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Servicebus Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

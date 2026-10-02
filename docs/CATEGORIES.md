@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **355** skills across structured domains, categories, and subcategories.
+Master navigation for **356** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (107 skills)
 
@@ -653,7 +653,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (59 skills)
+## Devops (60 skills)
 
 ### Ci Cd (6 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -671,7 +671,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (32 skills)
+### Cloud Infrastructure (33 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -733,6 +733,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [azure-servicebus-dotnet](../skills/devops/cloud-infrastructure/azure_servicebus_dot/azure-servicebus-dotnet/SKILL.md) — Use this skill to azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions.
 - **Azure_Servicebus_Rus** (1):
   - [azure-servicebus-rust](../skills/devops/cloud-infrastructure/azure_servicebus_rus/azure-servicebus-rust/SKILL.md) — Use this skill to azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions. Triggers: "service bus rust", "ServiceBusClient rust", "send message servicebus rust", "receive message servicebus rust", "queue rust messaging", "topic subscription rust".
+- **Azure_Servicebus_Ts** (1):
+  - [azure-servicebus-ts](../skills/devops/cloud-infrastructure/azure_servicebus_ts/azure-servicebus-ts/SKILL.md) — Use this skill to enterprise messaging with queues, topics, and subscriptions.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)
