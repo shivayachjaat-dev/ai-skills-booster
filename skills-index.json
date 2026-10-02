@@ -22420,6 +22420,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-host-header",
+    "path": "skills/security/appsec/hunt_host_header/hunt-host-header",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_host_header",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt host header. Hunt Host Header Injection",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Host Header",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
