@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1265 skills)
+## Bash (1266 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1121,6 +1121,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [kotler-macro-analyzer](../skills/ai-engineering/agents/kotler_macro_analyze/kotler-macro-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotler macro analyzer. Professional PESTEL/SWOT analysis agent based on Kotler's methodology for strategic market audits.
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [m365-agents-dotnet](../skills/ai-engineering/agents/m365_agents_dotnet/m365-agents-dotnet/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents dotnet. Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.
+- [m365-agents-ts](../skills/ai-engineering/agents/m365_agents_ts/m365-agents-ts/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents ts. Microsoft 365 Agents SDK for TypeScript/Node.js.
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
@@ -7180,6 +7181,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [m365-agents-py](../skills/ai-engineering/models/m365_agents_py/m365-agents-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents py. Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.
 
+## M365 Agents Ts (1 skills)
+
+- [m365-agents-ts](../skills/ai-engineering/agents/m365_agents_ts/m365-agents-ts/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents ts. Microsoft 365 Agents SDK for TypeScript/Node.js.
+
 ## MIME (1 skills)
 
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
@@ -7677,7 +7682,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1368 skills)
+## Python (1369 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7731,6 +7736,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [kotler-macro-analyzer](../skills/ai-engineering/agents/kotler_macro_analyze/kotler-macro-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotler macro analyzer. Professional PESTEL/SWOT analysis agent based on Kotler's methodology for strategic market audits.
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [m365-agents-dotnet](../skills/ai-engineering/agents/m365_agents_dotnet/m365-agents-dotnet/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents dotnet. Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.
+- [m365-agents-ts](../skills/ai-engineering/agents/m365_agents_ts/m365-agents-ts/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents ts. Microsoft 365 Agents SDK for TypeScript/Node.js.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - [agent-memory-recall-and-retention-discipline](../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) — Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences.
 - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.

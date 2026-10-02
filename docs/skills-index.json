@@ -1163,6 +1163,28 @@
     "maturity": "stable"
   },
   {
+    "name": "m365-agents-ts",
+    "path": "skills/ai-engineering/agents/m365_agents_ts/m365-agents-ts",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "m365_agents_ts",
+    "description": "Use this skill to design, implement, and operate production workflows for m365 agents ts. Microsoft 365 Agents SDK for TypeScript/Node.js.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "m365",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "M365 Agents Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agent-project-memory",
     "path": "skills/ai-engineering/agents/memory/agent-project-memory",
     "domain": "ai-engineering",

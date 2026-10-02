@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,447** skills across structured domains, categories, and subcategories.
+Master navigation for **1,448** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (504 skills)
+## Ai Engineering (505 skills)
 
-### Agents (60 skills)
+### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -111,6 +111,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - **M365_Agents_Dotnet** (1):
   - [m365-agents-dotnet](../skills/ai-engineering/agents/m365_agents_dotnet/m365-agents-dotnet/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents dotnet. Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.
+- **M365_Agents_Ts** (1):
+  - [m365-agents-ts](../skills/ai-engineering/agents/m365_agents_ts/m365-agents-ts/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents ts. Microsoft 365 Agents SDK for TypeScript/Node.js.
 - **Memory** (1):
   - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - **Memory Discipline** (1):
