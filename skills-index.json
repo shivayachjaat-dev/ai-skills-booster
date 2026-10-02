@@ -20683,6 +20683,28 @@
     "maturity": "stable"
   },
   {
+    "name": "3d-games",
+    "path": "skills/software-engineering/architecture/patterns/3d-games",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "3d",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "3D Games",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "artifact-yylo",
     "path": "skills/software-engineering/architecture/patterns/artifact-yylo",
     "domain": "software-engineering",
