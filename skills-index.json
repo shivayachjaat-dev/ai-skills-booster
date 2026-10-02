@@ -18539,6 +18539,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-components-system",
+    "path": "skills/frontend/ui-ux/hig_components_syste/hig-components-system",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hig_components_syste",
+    "description": "Use this skill to design, implement, and operate production workflows for hig components system. Apple HIG guidance for system experience components: widgets, live activities, notifications, complications, home screen quick actions, top shelf, watch faces, app clips, and app shortcuts.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Components System",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
