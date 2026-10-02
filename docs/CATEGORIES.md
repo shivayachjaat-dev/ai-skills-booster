@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,509** skills across structured domains, categories, and subcategories.
+Master navigation for **1,510** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (523 skills)
+## Ai Engineering (524 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -266,7 +266,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Mcp_Builder** (1):
   - [mcp-builder](../skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
 
-### Models (379 skills)
+### Models (380 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1002,6 +1002,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [memory-systems](../skills/ai-engineering/models/memory_systems/memory-systems/SKILL.md) — Use this skill to design, implement, and operate production workflows for memory systems. Design short-term, long-term, and graph-based memory architectures. Use when building agents that must persist across sessions, needing to maintain entity consistency across conversations, or implementing reasoning over accumulated knowledge.
 - **Mentorship_Program** (1):
   - [mentorship-program](../skills/ai-engineering/models/mentorship_program/mentorship-program/SKILL.md) — Use this skill to design, implement, and operate production workflows for mentorship program. Mentorship register: mentor and mentee pair, department, focus area, mentee goal, session counts, last and next session, overall rating, progress notes and status. Use for mentorship tracking.
+- **Mermaid_Expert** (1):
+  - [mermaid-expert](../skills/ai-engineering/models/mermaid_expert/mermaid-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for mermaid expert. Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

@@ -10665,6 +10665,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mermaid-expert",
+    "path": "skills/ai-engineering/models/mermaid_expert/mermaid-expert",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "mermaid_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for mermaid expert. Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "mermaid",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mermaid Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
