@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,436** skills across structured domains, categories, and subcategories.
+Master navigation for **1,437** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (497 skills)
 
@@ -1957,7 +1957,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (271 skills)
+## Frontend (272 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2095,7 +2095,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Javascript_Typescrip** (1):
   - [javascript-typescript-typescript-scaffold](../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N
 
-### Ui Ux (156 skills)
+### Ui Ux (157 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2402,6 +2402,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [logic-diff](../skills/frontend/ui-ux/logic_diff/logic-diff/SKILL.md) — Use this skill to design, implement, and operate production workflows for logic diff. Compare two code versions for semantic equivalence via semi-formal tracing of both versions side-by-side.
 - **Longbridge_Derivativ** (1):
   - [longbridge-derivatives](../skills/frontend/ui-ux/longbridge_derivativ/longbridge-derivatives/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge derivatives. Curated upstream guidance for Longbridge Derivatives; use when the workflow matches the user goal.
+- **Longbridge_Quant** (1):
+  - [longbridge-quant](../skills/frontend/ui-ux/longbridge_quant/longbridge-quant/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge quant. Curated upstream guidance for Longbridge Quant; use when the workflow matches the user goal.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):
