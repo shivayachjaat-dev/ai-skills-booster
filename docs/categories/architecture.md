@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **47 skills** available in this category.
+> **48 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -51,3 +51,4 @@
 | [conductor-new-track](../../skills/software-engineering/architecture/patterns/conductor-new-track/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to create a new track with specification and phased implementation plan |
 | [conductor-revert](../../skills/software-engineering/architecture/patterns/conductor-revert/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to git-aware undo by logical work unit (track, phase, or task) |
 | [conductor-status](../../skills/software-engineering/architecture/patterns/conductor-status/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to display project status, active tracks, and next actions |
+| [conductor-validator](../../skills/software-engineering/architecture/patterns/conductor-validator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to validates Conductor project artifacts for completeness, |
