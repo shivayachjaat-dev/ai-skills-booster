@@ -48,7 +48,8 @@ AI_Skills_Booster/
 │   ├── inference-optimization/
 │   │   └── vllm/ (1 skills)
 │   ├── llm-ops/
-│   │   └── andrej_karpathy/ (1 skills)
+│   │   ├── andrej_karpathy/ (1 skills)
+│   │   └── bullmq_specialist/ (1 skills)
 │   ├── models/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)

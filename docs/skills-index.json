@@ -853,6 +853,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bullmq-specialist",
+    "path": "skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "bullmq_specialist",
+    "description": "Use this skill to bullMQ expert for Redis-backed job queues, background processing,",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "bullmq",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bullmq Specialist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",
