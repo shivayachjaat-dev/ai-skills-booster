@@ -1685,6 +1685,32 @@
     "maturity": "stable"
   },
   {
+    "name": "cross-channel-ad-campaign-analytics",
+    "path": "skills/marketing/paid-advertising/campaign-analytics/cross-channel-ad-campaign-analytics",
+    "domain": "marketing",
+    "category": "paid-advertising",
+    "subcategory": "campaign-analytics",
+    "description": "Use this skill when analyzing, attributing, and optimizing multi-channel paid advertising campaigns across Google Ads, Meta Ads, LinkedIn, and programmatic channels. It guides the agent through calculating Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), attribution modeling (First-Touch, Last-Touch, Data-Driven Markov), statistical significance in spend allocation, and budget rebalancing.",
+    "tags": [
+      "ad-analytics",
+      "roas",
+      "cac",
+      "attribution-modeling",
+      "paid-advertising",
+      "marketing",
+      "analytics"
+    ],
+    "technologies": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "Markov Chains"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-server-scaffold",
     "path": "skills/mcp/server-development/scaffolding/mcp-server-scaffold",
     "domain": "mcp",

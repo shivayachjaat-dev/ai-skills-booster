@@ -129,6 +129,9 @@ AI_Skills_Booster/
 │   │   └── architecture/ (1 skills)
 │   └── state-management/
 │   │   └── zustand/ (1 skills)
+├── marketing/
+│   └── paid-advertising/
+│   │   └── campaign-analytics/ (1 skills)
 ├── mcp/
 │   └── server-development/
 │   │   └── scaffolding/ (1 skills)

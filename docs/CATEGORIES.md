@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **106** skills across structured domains, categories, and subcategories.
+Master navigation for **107** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -364,6 +364,14 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
+
+## Marketing (1 skills)
+
+### Paid Advertising (1 skills)
+Category index: [`docs/categories/paid-advertising.md`](categories/paid-advertising.md)
+
+- **Campaign Analytics** (1):
+  - [cross-channel-ad-campaign-analytics](../skills/marketing/paid-advertising/campaign-analytics/cross-channel-ad-campaign-analytics/SKILL.md) — Use this skill when analyzing, attributing, and optimizing multi-channel paid advertising campaigns across Google Ads, Meta Ads, LinkedIn, and programmatic channels. It guides the agent through calculating Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), attribution modeling (First-Touch, Last-Touch, Data-Driven Markov), statistical significance in spend allocation, and budget rebalancing.
 
 ## Mcp (1 skills)
 
