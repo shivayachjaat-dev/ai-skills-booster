@@ -3031,6 +3031,31 @@
     "maturity": "stable"
   },
   {
+    "name": "binary-anti-reversing-and-code-obfuscation",
+    "path": "skills/security/binary-defense/anti-reversing/binary-anti-reversing-and-code-obfuscation",
+    "domain": "security",
+    "category": "binary-defense",
+    "subcategory": "anti-reversing",
+    "description": "Use this skill to evaluate, implement, and audit software intellectual property protections against reverse engineering, decompilation, and debugger tampering. It covers symbol stripping, control-flow flattening, anti-debugging API hooks (ptrace, IsDebuggerPresent), integrity hash checks, and security trade-off analysis.",
+    "tags": [
+      "anti-reversing",
+      "binary-hardening",
+      "obfuscation",
+      "anti-debugging",
+      "reverse-engineering",
+      "intellectual-property"
+    ],
+    "technologies": [
+      "C/C++",
+      "Assembly",
+      "Python",
+      "LLVM Obfuscator",
+      "Binary Hardening"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-security-review",
     "path": "skills/security/code-review/github/github-pr-security-review",
     "domain": "security",

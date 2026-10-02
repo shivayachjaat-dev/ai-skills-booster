@@ -228,6 +228,8 @@ AI_Skills_Booster/
 │   │   └── oauth2/ (1 skills)
 │   ├── authorization/
 │   │   └── rbac/ (1 skills)
+│   ├── binary-defense/
+│   │   └── anti-reversing/ (1 skills)
 │   ├── code-review/
 │   │   └── github/ (1 skills)
 │   ├── cryptography/
