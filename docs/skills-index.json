@@ -9001,6 +9001,28 @@
     "maturity": "stable"
   },
   {
+    "name": "billing-automation",
+    "path": "skills/software-engineering/architecture/patterns/billing-automation",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "billing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Billing Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
