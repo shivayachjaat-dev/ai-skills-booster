@@ -23608,6 +23608,28 @@
     "maturity": "stable"
   },
   {
+    "name": "incident-management",
+    "path": "skills/security/appsec/incident_management/incident-management",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "incident_management",
+    "description": "Use this skill to design, implement, and operate production workflows for incident management. Implement incident management processes and escalation procedures. Configure",
+    "tags": [
+      "security",
+      "appsec",
+      "incident",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Incident Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",

@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1102 skills)
+## Bash (1103 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1981,6 +1981,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hunt-tls-network](../skills/security/appsec/hunt_tls_network/hunt-tls-network/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt tls network. Hunt TLS/SSL and DNS misconfigurations
 - [hunt-xss](../skills/security/appsec/hunt_xss/hunt-xss/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt xss. Hunting skill for xss vulnerabilities.
 - [hunt-xxe](../skills/security/appsec/hunt_xxe/hunt-xxe/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt xxe. Hunting skill for xxe vulnerabilities.
+- [incident-management](../skills/security/appsec/incident_management/incident-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident management. Implement incident management processes and escalation procedures. Configure
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
@@ -6147,6 +6148,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [improve-codebase-architecture](../skills/software-engineering/architecture/patterns/improve-codebase-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for improve codebase architecture. Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
 
+## Incident Management (1 skills)
+
+- [incident-management](../skills/security/appsec/incident_management/incident-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident management. Implement incident management processes and escalation procedures. Configure
+
 ## Indexing Issue Auditor (1 skills)
 
 - [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
@@ -6872,7 +6877,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1205 skills)
+## Python (1206 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7865,6 +7870,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hunt-tls-network](../skills/security/appsec/hunt_tls_network/hunt-tls-network/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt tls network. Hunt TLS/SSL and DNS misconfigurations
 - [hunt-xss](../skills/security/appsec/hunt_xss/hunt-xss/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt xss. Hunting skill for xss vulnerabilities.
 - [hunt-xxe](../skills/security/appsec/hunt_xxe/hunt-xxe/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt xxe. Hunting skill for xxe vulnerabilities.
+- [incident-management](../skills/security/appsec/incident_management/incident-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident management. Implement incident management processes and escalation procedures. Configure
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
