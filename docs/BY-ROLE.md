@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (466 skills)
+## AI Engineer (467 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -301,6 +301,7 @@ Curated workflows organized by professional role and specialization.
 - [fal-upscale](../skills/ai-engineering/models/fal_upscale/fal-upscale/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for fal upscale. Upscale and enhance image and video resolution using AI
 - [fal-workflow](../skills/ai-engineering/models/fal_workflow/fal-workflow/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for fal workflow. Generate workflow JSON files for chaining AI models
 - [falsify](../skills/ai-engineering/models/falsify/falsify/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for falsify. The scientific thinking protocol for AI agents. Use when facing complex, ambiguous, or high-stakes questions where guessing is costly: hypothesis → attempt to break it → evidence → calibrated conclusion.
+- [famulor-skill](../skills/ai-engineering/models/famulor_skill/famulor-skill/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for famulor skill. Operate Famulor assistants, communication history, campaigns, knowledge, automations, telephony, and workspace administration through its hosted MCP server.
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — `ai-engineering`: Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — `ai-engineering`: Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
 - [floating-ui](../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.

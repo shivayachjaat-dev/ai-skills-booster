@@ -6815,6 +6815,28 @@
     "maturity": "stable"
   },
   {
+    "name": "famulor-skill",
+    "path": "skills/ai-engineering/models/famulor_skill/famulor-skill",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "famulor_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for famulor skill. Operate Famulor assistants, communication history, campaigns, knowledge, automations, telephony, and workspace administration through its hosted MCP server.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "famulor",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Famulor Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",

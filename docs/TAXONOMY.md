@@ -312,6 +312,7 @@ AI_Skills_Booster/
 │   │   ├── fal_upscale/ (1 skills)
 │   │   ├── fal_workflow/ (1 skills)
 │   │   ├── falsify/ (1 skills)
+│   │   ├── famulor_skill/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)
