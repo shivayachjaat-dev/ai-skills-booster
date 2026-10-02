@@ -10841,6 +10841,28 @@
     "maturity": "stable"
   },
   {
+    "name": "model-supply-chain-security",
+    "path": "skills/ai-engineering/models/model_supply_chain_s/model-supply-chain-security",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "model_supply_chain_s",
+    "description": "Use this skill to design, implement, and operate production workflows for model supply chain security. Secure the AI model supply chain with artifact signing, provenance attestation,",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "model",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Model Supply Chain Security",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
