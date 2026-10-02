@@ -6780,6 +6780,28 @@
     "maturity": "stable"
   },
   {
+    "name": "developer-signup-flow",
+    "path": "skills/backend/api-frameworks/developer_signup_flo/developer-signup-flow",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "developer_signup_flo",
+    "description": "Use this skill to design, implement, and operate production workflows for developer signup flow. Design frictionless signup experiences for developers including GitHub OAuth, API key generation, and onboarding personalization.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "developer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Developer Signup Flow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",
