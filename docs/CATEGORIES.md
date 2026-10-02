@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,323** skills across structured domains, categories, and subcategories.
+Master navigation for **1,324** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (440 skills)
 
@@ -1551,7 +1551,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (90 skills)
+## Devops (91 skills)
 
 ### Ci Cd (30 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -1617,7 +1617,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (39 skills)
+### Cloud Infrastructure (40 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -1693,6 +1693,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [hybrid-cloud-architect](../skills/devops/cloud-infrastructure/hybrid_cloud_archite/hybrid-cloud-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for hybrid cloud architect. Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).
 - **Hybrid_Cloud_Network** (1):
   - [hybrid-cloud-networking](../skills/devops/cloud-infrastructure/hybrid_cloud_network/hybrid-cloud-networking/SKILL.md) — Use this skill to design, implement, and operate production workflows for hybrid cloud networking. Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute.
+- **Java_Pro** (1):
+  - [java-pro](../skills/devops/cloud-infrastructure/java_pro/java-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for java pro. Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)

@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **39 skills** available in this category.
+> **40 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -43,3 +43,4 @@
 | [hf-cloud-aws-context-discovery](../../skills/devops/cloud-infrastructure/hf_cloud_aws_context/hf-cloud-aws-context-discovery/SKILL.md) | `hf_cloud_aws_context` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hf cloud aws context discovery. Discover the effective local AWS profile, region, account, and caller identity before any AWS task without exposing credentials. |
 | [hybrid-cloud-architect](../../skills/devops/cloud-infrastructure/hybrid_cloud_archite/hybrid-cloud-architect/SKILL.md) | `hybrid_cloud_archite` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hybrid cloud architect. Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware). |
 | [hybrid-cloud-networking](../../skills/devops/cloud-infrastructure/hybrid_cloud_network/hybrid-cloud-networking/SKILL.md) | `hybrid_cloud_network` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hybrid cloud networking. Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute. |
+| [java-pro](../../skills/devops/cloud-infrastructure/java_pro/java-pro/SKILL.md) | `java_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for java pro. Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns. |

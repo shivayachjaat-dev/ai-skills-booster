@@ -15666,6 +15666,28 @@
     "maturity": "stable"
   },
   {
+    "name": "java-pro",
+    "path": "skills/devops/cloud-infrastructure/java_pro/java-pro",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "java_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for java pro. Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "java",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Java Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
