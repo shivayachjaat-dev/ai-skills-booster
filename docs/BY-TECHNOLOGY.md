@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1174 skills)
+## Bash (1175 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1461,6 +1461,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [kpi-tracker](../skills/ai-engineering/models/kpi_tracker/kpi-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for kpi tracker. KPI register: metric by level, department, job title and employee, linked OKR, unit and direction, target against actual, achievement and weight percentages, period and owner. Use for scorecards.
 - [kubernetes-architect](../skills/ai-engineering/models/kubernetes_architect/kubernetes-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubernetes architect. Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.
 - [kubernetes-deployment](../skills/ai-engineering/models/kubernetes_deploymen/kubernetes-deployment/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubernetes deployment. Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations.
+- [kubestellar-console](../skills/ai-engineering/models/kubestellar_console/kubestellar-console/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubestellar console. Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -6641,6 +6642,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [kubernetes-ops](../skills/devops/ci-cd/kubernetes_ops/kubernetes-ops/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubernetes ops. Deploy, scale, and manage Kubernetes workloads.
 
+## Kubestellar Console (1 skills)
+
+- [kubestellar-console](../skills/ai-engineering/models/kubestellar_console/kubestellar-console/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubestellar console. Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills
+
 ## Kusto KQL (1 skills)
 
 - [azure-application-insights-telemetry-and-distributed-tracing](../skills/devops/observability/application-insights/azure-application-insights-telemetry-and-distributed-tracing/SKILL.md) — Use this skill to instrument web applications, browser frontends, and Node.js/Python microservices with Azure Application Insights telemetry SDKs. It covers distributed W3C trace propagation, custom business event tracking, client-side unhandled exception telemetry, and Kusto (KQL) query diagnostics.
@@ -7232,7 +7237,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1277 skills)
+## Python (1278 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7645,6 +7650,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [kpi-tracker](../skills/ai-engineering/models/kpi_tracker/kpi-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for kpi tracker. KPI register: metric by level, department, job title and employee, linked OKR, unit and direction, target against actual, achievement and weight percentages, period and owner. Use for scorecards.
 - [kubernetes-architect](../skills/ai-engineering/models/kubernetes_architect/kubernetes-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubernetes architect. Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.
 - [kubernetes-deployment](../skills/ai-engineering/models/kubernetes_deploymen/kubernetes-deployment/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubernetes deployment. Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations.
+- [kubestellar-console](../skills/ai-engineering/models/kubestellar_console/kubestellar-console/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubestellar console. Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.

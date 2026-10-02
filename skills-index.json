@@ -9213,6 +9213,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kubestellar-console",
+    "path": "skills/ai-engineering/models/kubestellar_console/kubestellar-console",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "kubestellar_console",
+    "description": "Use this skill to design, implement, and operate production workflows for kubestellar console. Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "kubestellar",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kubestellar Console",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

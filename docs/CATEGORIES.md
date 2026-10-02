@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,356** skills across structured domains, categories, and subcategories.
+Master navigation for **1,357** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (453 skills)
+## Ai Engineering (454 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -228,7 +228,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (331 skills)
+### Models (332 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -872,6 +872,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [kubernetes-architect](../skills/ai-engineering/models/kubernetes_architect/kubernetes-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubernetes architect. Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.
 - **Kubernetes_Deploymen** (1):
   - [kubernetes-deployment](../skills/ai-engineering/models/kubernetes_deploymen/kubernetes-deployment/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubernetes deployment. Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations.
+- **Kubestellar_Console** (1):
+  - [kubestellar-console](../skills/ai-engineering/models/kubestellar_console/kubestellar-console/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubestellar console. Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
