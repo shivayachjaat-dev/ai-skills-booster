@@ -16195,6 +16195,28 @@
     "maturity": "stable"
   },
   {
+    "name": "copywriting-psychologist",
+    "path": "skills/software-engineering/architecture/patterns/copywriting-psychologist",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for copywriting psychologist. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "copywriting",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Copywriting Psychologist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "create-branch",
     "path": "skills/software-engineering/architecture/patterns/create-branch",
     "domain": "software-engineering",

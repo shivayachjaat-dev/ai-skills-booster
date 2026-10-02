@@ -1053,7 +1053,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (564 skills)
+## Bash (565 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1595,6 +1595,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [context-guardian](../skills/software-engineering/architecture/patterns/context-guardian/SKILL.md) — Use this skill to guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao.
 - [context-management-context-restore](../skills/software-engineering/architecture/patterns/context-management-context-restore/SKILL.md) — Use this skill to use when working with context management context restore
 - [context-management-context-save](../skills/software-engineering/architecture/patterns/context-management-context-save/SKILL.md) — Use this skill to use when working with context management context save
+- [copywriting-psychologist](../skills/software-engineering/architecture/patterns/copywriting-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for copywriting psychologist. One sentence - what this skill does and when to invoke it
 - [create-branch](../skills/software-engineering/architecture/patterns/create-branch/SKILL.md) — Use this skill to create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a new branch", or when starting new work on the default branch.
 - [create-issue-gate](../skills/software-engineering/architecture/patterns/create-issue-gate/SKILL.md) — Use this skill to use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.
 - [create-pr](../skills/software-engineering/architecture/patterns/create-pr/SKILL.md) — Use this skill to alias for pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name. Redirects to the canonical PR writing workflow.
@@ -2705,6 +2706,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Copywriting Frameworks (1 skills)
 
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.
+
+## Copywriting Psychologist (1 skills)
+
+- [copywriting-psychologist](../skills/software-engineering/architecture/patterns/copywriting-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for copywriting psychologist. One sentence - what this skill does and when to invoke it
 
 ## Cosign (1 skills)
 
@@ -4249,7 +4254,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (667 skills)
+## Python (668 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4885,6 +4890,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [context-guardian](../skills/software-engineering/architecture/patterns/context-guardian/SKILL.md) — Use this skill to guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao.
 - [context-management-context-restore](../skills/software-engineering/architecture/patterns/context-management-context-restore/SKILL.md) — Use this skill to use when working with context management context restore
 - [context-management-context-save](../skills/software-engineering/architecture/patterns/context-management-context-save/SKILL.md) — Use this skill to use when working with context management context save
+- [copywriting-psychologist](../skills/software-engineering/architecture/patterns/copywriting-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for copywriting psychologist. One sentence - what this skill does and when to invoke it
 - [create-branch](../skills/software-engineering/architecture/patterns/create-branch/SKILL.md) — Use this skill to create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a new branch", or when starting new work on the default branch.
 - [create-issue-gate](../skills/software-engineering/architecture/patterns/create-issue-gate/SKILL.md) — Use this skill to use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.
 - [create-pr](../skills/software-engineering/architecture/patterns/create-pr/SKILL.md) — Use this skill to alias for pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name. Redirects to the canonical PR writing workflow.

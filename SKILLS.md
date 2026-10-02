@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 746 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 747 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -713,6 +713,7 @@
 | [context-guardian](skills/software-engineering/architecture/patterns/context-guardian/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao. |
 | [context-management-context-restore](skills/software-engineering/architecture/patterns/context-management-context-restore/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to use when working with context management context restore |
 | [context-management-context-save](skills/software-engineering/architecture/patterns/context-management-context-save/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to use when working with context management context save |
+| [copywriting-psychologist](skills/software-engineering/architecture/patterns/copywriting-psychologist/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for copywriting psychologist. One sentence - what this skill does and when to invoke it |
 | [create-branch](skills/software-engineering/architecture/patterns/create-branch/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a new branch", or when starting new work on the default branch. |
 | [create-issue-gate](skills/software-engineering/architecture/patterns/create-issue-gate/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution. |
 | [create-pr](skills/software-engineering/architecture/patterns/create-pr/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to alias for pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name. Redirects to the canonical PR writing workflow. |
