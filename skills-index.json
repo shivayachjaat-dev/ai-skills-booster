@@ -22993,6 +22993,28 @@
     "maturity": "stable"
   },
   {
+    "name": "game-art",
+    "path": "skills/software-engineering/architecture/patterns/game-art",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for game art. Game art principles. Visual style selection, asset pipeline, animation workflow.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "game",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Game Art",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
