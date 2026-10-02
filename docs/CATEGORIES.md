@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **894** skills across structured domains, categories, and subcategories.
+Master navigation for **895** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (310 skills)
+## Ai Engineering (311 skills)
 
 ### Agents (38 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -176,7 +176,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (220 skills)
+### Models (221 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -592,6 +592,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ecommerce-listing-image-set](../skills/ai-engineering/models/ecommerce_listing_im/ecommerce-listing-image-set/SKILL.md) — Use this skill to design, implement, and operate production workflows for ecommerce listing image set. Install and use the official Ecommerce Product Images package, pinned by digest, for paid hosted work on the Beatra service.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
+- **Email_Issue_Fixer** (1):
+  - [email-issue-fixer](../skills/ai-engineering/models/email_issue_fixer/email-issue-fixer/SKILL.md) — Use this skill to design, implement, and operate production workflows for email issue fixer. Fix small email mistakes without touching the writer's voice, and strip tracking parameters from links on request. Always returns the corrected draft plus a change list.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):

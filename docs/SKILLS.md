@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 894 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 895 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -279,6 +279,7 @@
 | [earllm-build](skills/ai-engineering/models/earllm_build/earllm-build/SKILL.md) | `ai-engineering` | `models` | `earllm_build` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for earllm build. Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline. |
 | [ecommerce-listing-image-set](skills/ai-engineering/models/ecommerce_listing_im/ecommerce-listing-image-set/SKILL.md) | `ai-engineering` | `models` | `ecommerce_listing_im` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ecommerce listing image set. Install and use the official Ecommerce Product Images package, pinned by digest, for paid hosted work on the Beatra service. |
 | [editorial-design](skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `ai-engineering` | `models` | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
+| [email-issue-fixer](skills/ai-engineering/models/email_issue_fixer/email-issue-fixer/SKILL.md) | `ai-engineering` | `models` | `email_issue_fixer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for email issue fixer. Fix small email mistakes without touching the writer's voice, and strip tracking parameters from links on request. Always returns the corrected draft plus a change list. |
 | [fda-food-safety-auditor](skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
 | [floating-ui](skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) | `ai-engineering` | `models` | `floating_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. |

@@ -6133,6 +6133,28 @@
     "maturity": "stable"
   },
   {
+    "name": "email-issue-fixer",
+    "path": "skills/ai-engineering/models/email_issue_fixer/email-issue-fixer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "email_issue_fixer",
+    "description": "Use this skill to design, implement, and operate production workflows for email issue fixer. Fix small email mistakes without touching the writer's voice, and strip tracking parameters from links on request. Always returns the corrected draft plus a change list.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "email",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Email Issue Fixer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
