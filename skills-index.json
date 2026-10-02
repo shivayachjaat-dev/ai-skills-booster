@@ -2217,6 +2217,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-storage-blob-rust",
+    "path": "skills/ai-engineering/models/azure_storage_blob_r/azure-storage-blob-rust",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_storage_blob_r",
+    "description": "Use this skill to azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Storage Blob Rust",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

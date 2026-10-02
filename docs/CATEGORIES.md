@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **360** skills across structured domains, categories, and subcategories.
+Master navigation for **361** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (111 skills)
+## Ai Engineering (112 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -114,7 +114,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (65 skills)
+### Models (66 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -236,6 +236,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-search-documents-py](../skills/ai-engineering/models/azure_search_documen/azure-search-documents-py/SKILL.md) — Use this skill to azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.
 - **Azure_Storage_Blob_P** (1):
   - [azure-storage-blob-py](../skills/ai-engineering/models/azure_storage_blob_p/azure-storage-blob-py/SKILL.md) — Use this skill to azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle.
+- **Azure_Storage_Blob_R** (1):
+  - [azure-storage-blob-rust](../skills/ai-engineering/models/azure_storage_blob_r/azure-storage-blob-rust/SKILL.md) — Use this skill to azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

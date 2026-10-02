@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **65 skills** available in this category.
+> **66 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -68,4 +68,5 @@
 | [azure-search-documents-dotnet](../../skills/ai-engineering/models/azure_search_documen/azure-search-documents-dotnet/SKILL.md) | `azure_search_documen` | `advanced` | `stable` | Use this skill to azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search. |
 | [azure-search-documents-py](../../skills/ai-engineering/models/azure_search_documen/azure-search-documents-py/SKILL.md) | `azure_search_documen` | `advanced` | `stable` | Use this skill to azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets. |
 | [azure-storage-blob-py](../../skills/ai-engineering/models/azure_storage_blob_p/azure-storage-blob-py/SKILL.md) | `azure_storage_blob_p` | `advanced` | `stable` | Use this skill to azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle. |
+| [azure-storage-blob-rust](../../skills/ai-engineering/models/azure_storage_blob_r/azure-storage-blob-rust/SKILL.md) | `azure_storage_blob_r` | `advanced` | `stable` | Use this skill to azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
