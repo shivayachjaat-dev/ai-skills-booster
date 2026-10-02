@@ -10883,6 +10883,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-public",
+    "path": "skills/frontend/ui-ux/crossframe_public/crossframe-public",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "crossframe_public",
+    "description": "Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Public",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
