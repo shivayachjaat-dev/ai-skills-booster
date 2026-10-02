@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,144** skills across structured domains, categories, and subcategories.
+Master navigation for **1,145** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (398 skills)
 
@@ -1659,7 +1659,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (226 skills)
+## Frontend (227 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2035,7 +2035,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (63 skills)
+### Web Architecture (64 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -2111,6 +2111,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [go-rod-master](../skills/frontend/web-architecture/go_rod_master/go-rod-master/SKILL.md) — Use this skill to design, implement, and operate production workflows for go rod master. Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns.
 - **Gradient_Design** (1):
   - [gradient-design](../skills/frontend/web-architecture/gradient_design/gradient-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for gradient design. Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.
+- **Hasdata** (1):
+  - [hasdata](../skills/frontend/web-architecture/hasdata/hasdata/SKILL.md) — Use this skill to design, implement, and operate production workflows for hasdata. Use HasData APIs for web scraping and structured web data extraction.
 - **High_Contrast** (1):
   - [high-contrast](../skills/frontend/web-architecture/high_contrast/high-contrast/SKILL.md) — Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.
 - **Holographic_Ui** (1):

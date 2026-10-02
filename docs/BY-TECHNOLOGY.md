@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (962 skills)
+## Bash (963 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1804,6 +1804,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [glassmorphism](../skills/frontend/web-architecture/glassmorphism/glassmorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for glassmorphism. Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel.
 - [go-rod-master](../skills/frontend/web-architecture/go_rod_master/go-rod-master/SKILL.md) — Use this skill to design, implement, and operate production workflows for go rod master. Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns.
 - [gradient-design](../skills/frontend/web-architecture/gradient_design/gradient-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for gradient design. Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.
+- [hasdata](../skills/frontend/web-architecture/hasdata/hasdata/SKILL.md) — Use this skill to design, implement, and operate production workflows for hasdata. Use HasData APIs for web scraping and structured web data extraction.
 - [high-contrast](../skills/frontend/web-architecture/high_contrast/high-contrast/SKILL.md) — Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.
 - [holographic-ui](../skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.
 - [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
@@ -5390,6 +5391,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [hardware-security](../skills/security/appsec/hardware_security/hardware-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for hardware security. Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis.
 
+## Hasdata (1 skills)
+
+- [hasdata](../skills/frontend/web-architecture/hasdata/hasdata/SKILL.md) — Use this skill to design, implement, and operate production workflows for hasdata. Use HasData APIs for web scraping and structured web data extraction.
+
 ## HashiCorp Boundary (1 skills)
 
 - [hashicorp-boundary-secure-remote-access](../skills/security/zero-trust/boundary/hashicorp-boundary-secure-remote-access/SKILL.md) — Use this skill when designing, configuring, and operating identity-aware secure remote access architectures using HashiCorp Boundary. It guides the agent through defining Scopes (Global, Org, Project), dynamic host catalogs (AWS/K8s), targets (SSH, PostgreSQL, Kubernetes), credential brokering with Vault, and session recording.
@@ -6172,7 +6177,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1065 skills)
+## Python (1066 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6974,6 +6979,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [glassmorphism](../skills/frontend/web-architecture/glassmorphism/glassmorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for glassmorphism. Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel.
 - [go-rod-master](../skills/frontend/web-architecture/go_rod_master/go-rod-master/SKILL.md) — Use this skill to design, implement, and operate production workflows for go rod master. Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns.
 - [gradient-design](../skills/frontend/web-architecture/gradient_design/gradient-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for gradient design. Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.
+- [hasdata](../skills/frontend/web-architecture/hasdata/hasdata/SKILL.md) — Use this skill to design, implement, and operate production workflows for hasdata. Use HasData APIs for web scraping and structured web data extraction.
 - [high-contrast](../skills/frontend/web-architecture/high_contrast/high-contrast/SKILL.md) — Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.
 - [holographic-ui](../skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.
 - [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.

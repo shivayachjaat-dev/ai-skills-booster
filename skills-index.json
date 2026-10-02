@@ -19133,6 +19133,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hasdata",
+    "path": "skills/frontend/web-architecture/hasdata/hasdata",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "hasdata",
+    "description": "Use this skill to design, implement, and operate production workflows for hasdata. Use HasData APIs for web scraping and structured web data extraction.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "hasdata",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hasdata",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "high-contrast",
     "path": "skills/frontend/web-architecture/high_contrast/high-contrast",
     "domain": "frontend",

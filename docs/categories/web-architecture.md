@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **63 skills** available in this category.
+> **64 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -41,6 +41,7 @@
 | [glassmorphism](../../skills/frontend/web-architecture/glassmorphism/glassmorphism/SKILL.md) | `glassmorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for glassmorphism. Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel. |
 | [go-rod-master](../../skills/frontend/web-architecture/go_rod_master/go-rod-master/SKILL.md) | `go_rod_master` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for go rod master. Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns. |
 | [gradient-design](../../skills/frontend/web-architecture/gradient_design/gradient-design/SKILL.md) | `gradient_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gradient design. Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels. |
+| [hasdata](../../skills/frontend/web-architecture/hasdata/hasdata/SKILL.md) | `hasdata` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hasdata. Use HasData APIs for web scraping and structured web data extraction. |
 | [high-contrast](../../skills/frontend/web-architecture/high_contrast/high-contrast/SKILL.md) | `high_contrast` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact. |
 | [holographic-ui](../../skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) | `holographic_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements. |
 | [isometric-design](../../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) | `isometric_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations. |
