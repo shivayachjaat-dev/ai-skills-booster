@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **443** skills across structured domains, categories, and subcategories.
+Master navigation for **444** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (150 skills)
+## Ai Engineering (151 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -120,7 +120,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (94 skills)
+### Models (95 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -300,6 +300,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [budget-cash-flow](../skills/ai-engineering/models/budget_cash_flow/budget-cash-flow/SKILL.md) — Use this skill to budget against actual by department, category and period, with budget and actual amounts, variance, percentage used and linked expenses. Use for budget tracking or cash-flow reviews.
 - **Bug_Hunt_Swarm** (1):
   - [bug-hunt-swarm](../skills/ai-engineering/models/bug_hunt_swarm/bug-hunt-swarm/SKILL.md) — Use this skill to parallel read-only multi-agent root-cause investigation for bugs, regressions, crashes, flaky behavior, or unexplained failures.
+- **Bumblebee** (1):
+  - [bumblebee](../skills/ai-engineering/models/bumblebee/bumblebee/SKILL.md) — Use this skill to run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

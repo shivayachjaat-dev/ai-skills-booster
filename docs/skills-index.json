@@ -2921,6 +2921,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bumblebee",
+    "path": "skills/ai-engineering/models/bumblebee/bumblebee",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "bumblebee",
+    "description": "Use this skill to run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "bumblebee",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bumblebee",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
