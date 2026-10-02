@@ -1062,6 +1062,28 @@
     "maturity": "stable"
   },
   {
+    "name": "elixir-pro",
+    "path": "skills/ai-engineering/computer-vision/elixir_pro/elixir-pro",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "elixir_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for elixir pro. Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "elixir",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Elixir Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "spatial-computing-ui",
     "path": "skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui",
     "domain": "ai-engineering",

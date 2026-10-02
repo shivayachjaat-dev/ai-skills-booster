@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **891** skills across structured domains, categories, and subcategories.
+Master navigation for **892** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (308 skills)
+## Ai Engineering (309 skills)
 
 ### Agents (37 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -98,7 +98,7 @@ Category index: [`docs/categories/communication.md`](categories/communication.md
 - **Voice Telephony** (1):
   - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 
-### Computer Vision (7 skills)
+### Computer Vision (8 skills)
 Category index: [`docs/categories/computer-vision.md`](categories/computer-vision.md)
 
 - **Aws_Rds** (1):
@@ -111,6 +111,8 @@ Category index: [`docs/categories/computer-vision.md`](categories/computer-visio
   - [computer-vision-expert](../skills/ai-engineering/computer-vision/computer_vision_expe/computer-vision-expert/SKILL.md) — Use this skill to sOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis.
 - **Deterministic_Design** (1):
   - [deterministic-design](../skills/ai-engineering/computer-vision/deterministic_design/deterministic-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for deterministic design. Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The m...
+- **Elixir_Pro** (1):
+  - [elixir-pro](../skills/ai-engineering/computer-vision/elixir_pro/elixir-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for elixir pro. Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.
 - **Spatial_Computing_Ui** (1):
   - [spatial-computing-ui](../skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for spatial computing ui. Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style.
 - **Spatial_Design** (1):

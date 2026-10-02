@@ -53,6 +53,7 @@ AI_Skills_Booster/
 │   │   ├── color_blocking/ (1 skills)
 │   │   ├── computer_vision_expe/ (1 skills)
 │   │   ├── deterministic_design/ (1 skills)
+│   │   ├── elixir_pro/ (1 skills)
 │   │   ├── spatial_computing_ui/ (1 skills)
 │   │   └── spatial_design/ (1 skills)
 │   ├── context/
