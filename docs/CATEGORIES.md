@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **236** skills across structured domains, categories, and subcategories.
+Master navigation for **237** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (63 skills)
 
@@ -661,7 +661,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (16 skills)
+## Frontend (17 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -719,7 +719,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-### Ui Ux (5 skills)
+### Ui Ux (6 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -732,6 +732,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [automated-triage](../skills/frontend/ui-ux/automated_triage/automated-triage/SKILL.md) — Use this skill to triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.
 - **Aws_Lambda** (1):
   - [aws-lambda](../skills/frontend/ui-ux/aws_lambda/aws-lambda/SKILL.md) — Use this skill to build and deploy serverless functions on AWS Lambda. Configure triggers,
+- **Aws_Serverless** (1):
+  - [aws-serverless](../skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) — Use this skill to specialized skill for building production-ready serverless
 
 ### Web Architecture (1 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)

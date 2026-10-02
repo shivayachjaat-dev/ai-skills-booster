@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 236 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 237 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -168,6 +168,7 @@
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |
 | [automated-triage](skills/frontend/ui-ux/automated_triage/automated-triage/SKILL.md) | `frontend` | `ui-ux` | `automated_triage` | `advanced` | `stable` | Use this skill to triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule. |
 | [aws-lambda](skills/frontend/ui-ux/aws_lambda/aws-lambda/SKILL.md) | `frontend` | `ui-ux` | `aws_lambda` | `advanced` | `stable` | Use this skill to build and deploy serverless functions on AWS Lambda. Configure triggers, |
+| [aws-serverless](skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) | `frontend` | `ui-ux` | `aws_serverless` | `advanced` | `stable` | Use this skill to specialized skill for building production-ready serverless |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [app-store-optimization-and-metadata-strategy](skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) | `marketing` | `aso` | `app-store-optimization` | `intermediate` | `stable` | Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata. |
 | [social-sentiment-and-brand-reputation-monitor](skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor/SKILL.md) | `marketing` | `brand` | `reputation-monitor` | `intermediate` | `stable` | Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting. |

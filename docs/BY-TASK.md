@@ -2,7 +2,7 @@
 
 Find the exact agent skill according to what task you need completed.
 
-## Build & Create (141 skills)
+## Build & Create (142 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering/agents`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — `ai-engineering/agents`: Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -106,6 +106,7 @@ Find the exact agent skill according to what task you need completed.
 - [audit-context-building](../skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) — `frontend/ui-ux`: Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.
 - [automated-triage](../skills/frontend/ui-ux/automated_triage/automated-triage/SKILL.md) — `frontend/ui-ux`: Use this skill to triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.
 - [aws-lambda](../skills/frontend/ui-ux/aws_lambda/aws-lambda/SKILL.md) — `frontend/ui-ux`: Use this skill to build and deploy serverless functions on AWS Lambda. Configure triggers,
+- [aws-serverless](../skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) — `frontend/ui-ux`: Use this skill to specialized skill for building production-ready serverless
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — `frontend/web-architecture`: Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [social-sentiment-and-brand-reputation-monitor](../skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor/SKILL.md) — `marketing/brand`: Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting.
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — `marketing/creative`: Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.

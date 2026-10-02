@@ -4019,6 +4019,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-serverless",
+    "path": "skills/frontend/ui-ux/aws_serverless/aws-serverless",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "aws_serverless",
+    "description": "Use this skill to specialized skill for building production-ready serverless",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Serverless",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

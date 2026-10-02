@@ -449,6 +449,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
 
+## Aws Serverless (1 skills)
+
+- [aws-serverless](../skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) — Use this skill to specialized skill for building production-ready serverless
+
 ## Azure AI Agent SDK (1 skills)
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
@@ -473,7 +477,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (54 skills)
+## Bash (55 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -521,6 +525,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [audit-context-building](../skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) — Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.
 - [automated-triage](../skills/frontend/ui-ux/automated_triage/automated-triage/SKILL.md) — Use this skill to triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.
 - [aws-lambda](../skills/frontend/ui-ux/aws_lambda/aws-lambda/SKILL.md) — Use this skill to build and deploy serverless functions on AWS Lambda. Configure triggers,
+- [aws-serverless](../skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) — Use this skill to specialized skill for building production-ready serverless
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [aws-ec2](../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) — Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
@@ -1767,7 +1772,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (157 skills)
+## Python (158 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -1882,6 +1887,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [audit-context-building](../skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) — Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.
 - [automated-triage](../skills/frontend/ui-ux/automated_triage/automated-triage/SKILL.md) — Use this skill to triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.
 - [aws-lambda](../skills/frontend/ui-ux/aws_lambda/aws-lambda/SKILL.md) — Use this skill to build and deploy serverless functions on AWS Lambda. Configure triggers,
+- [aws-serverless](../skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) — Use this skill to specialized skill for building production-ready serverless
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [app-store-optimization-and-metadata-strategy](../skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) — Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata.
 - [social-sentiment-and-brand-reputation-monitor](../skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor/SKILL.md) — Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting.
