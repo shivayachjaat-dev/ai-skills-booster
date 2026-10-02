@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **106 skills** available in this category.
+> **107 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -109,4 +109,5 @@
 | [form-cro](../../skills/software-engineering/architecture/patterns/form-cro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for form cro. Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms. |
 | [fp-errors](../../skills/software-engineering/architecture/patterns/fp-errors/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp errors. Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code |
 | [fp-ts-errors](../../skills/software-engineering/architecture/patterns/fp-ts-errors/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp ts errors. Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts. |
+| [framework-migration-code-migrate](../../skills/software-engineering/architecture/patterns/framework-migration-code-migrate/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for framework migration code migrate. You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms. Generate comprehensive migration plans, automated migration scripts, and |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

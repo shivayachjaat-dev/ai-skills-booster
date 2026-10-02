@@ -22399,6 +22399,28 @@
     "maturity": "stable"
   },
   {
+    "name": "framework-migration-code-migrate",
+    "path": "skills/software-engineering/architecture/patterns/framework-migration-code-migrate",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for framework migration code migrate. You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms. Generate comprehensive migration plans, automated migration scripts, and",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "framework",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Framework Migration Code Migrate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
