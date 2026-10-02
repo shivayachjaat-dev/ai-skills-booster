@@ -4952,6 +4952,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cross-platform-contract-propagation-audit",
+    "path": "skills/ai-engineering/rag/cross_platform_contr/cross-platform-contract-propagation-audit",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "cross_platform_contr",
+    "description": "Use this skill to use when auditing whether a field, enum, flag, or API contract propagates consistently across storage, services, clients, analytics, and tests.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "cross",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cross Platform Contract Propagation Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",
