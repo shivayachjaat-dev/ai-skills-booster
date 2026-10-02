@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 859 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 860 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -27,6 +27,7 @@
 | [delegate-setup](skills/ai-engineering/agents/delegate_setup/delegate-setup/SKILL.md) | `ai-engineering` | `agents` | `delegate_setup` | `advanced` | `stable` | Use this skill to configure approved delegation lanes across installed implementer CLIs, |
 | [dispatching-parallel-agents](skills/ai-engineering/agents/dispatching_parallel/dispatching-parallel-agents/SKILL.md) | `ai-engineering` | `agents` | `dispatching_parallel` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dispatching parallel agents. Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies |
 | [ditto](skills/ai-engineering/agents/ditto/ditto/SKILL.md) | `ai-engineering` | `agents` | `ditto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ditto. Use when a user asks to mine or update a private, evidence-backed work profile from local Claude Code, Codex, Copilot CLI, or OpenCode sessions. |
+| [documentation-and-adrs](skills/ai-engineering/agents/documentation_and_ad/documentation-and-adrs/SKILL.md) | `ai-engineering` | `agents` | `documentation_and_ad` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for documentation and adrs. Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase. |
 | [ai-agent-chaos-testing-and-fault-injection](skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) | `ai-engineering` | `agents` | `fault-injection` | `advanced` | `stable` | Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies. |
 | [ai-agent-session-audit-and-forensic-replay](skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) | `ai-engineering` | `agents` | `forensic-audit` | `advanced` | `stable` | Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays. |
 | [geo-audit](skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) | `ai-engineering` | `agents` | `geo_audit` | `advanced` | `stable` | Use this skill to full website GEO+SEO audit with parallel subagent delegation. |
