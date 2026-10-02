@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **401 skills** available in this category.
+> **402 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -398,6 +398,7 @@
 | [n8n-code-tool](../../skills/ai-engineering/models/n8n_code_tool/n8n-code-tool/SKILL.md) | `n8n_code_tool` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n code tool. Write and debug JavaScript or Python for the AI-callable n8n Custom Code Tool, including schemas, sandbox limits, and return formats. |
 | [n8n-error-handling](../../skills/ai-engineering/models/n8n_error_handling/n8n-error-handling/SKILL.md) | `n8n_error_handling` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n error handling. Design visible, structured, recoverable n8n failures using error outputs, retries, Error Trigger workflows, and HTTP error responses. |
 | [n8n-node-configuration](../../skills/ai-engineering/models/n8n_node_configurati/n8n-node-configuration/SKILL.md) | `n8n_node_configurati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n node configuration. Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type. |
+| [nanobanana-ppt-skills](../../skills/ai-engineering/models/nanobanana_ppt_skill/nanobanana-ppt-skills/SKILL.md) | `nanobanana_ppt_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nanobanana ppt skills. AI-powered PPT generation with document analysis and styled images |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
