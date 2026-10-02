@@ -421,6 +421,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
 - [incident-response-and-triage](../skills/security/incident-response/triage/incident-response-and-triage/SKILL.md) — Use this skill when triaging, containing, and investigating active production security incidents and data breaches. It guides the agent through the PICERL framework (Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned), evidence preservation without anti-forensic contamination, forensic log isolation, and root-cause analysis.
 
+## Linux Kernel (1 skills)
+
+- [wireguard-site-to-site-mesh-vpn](../skills/security/network-security/wireguard/wireguard-site-to-site-mesh-vpn/SKILL.md) — Use this skill when designing, configuring, and maintaining secure site-to-site and point-to-point mesh VPN networks using WireGuard. It covers Curve25519 cryptographic key generation, wg-quick configuration files, AllowedIPs routing tables, persistent keepalives behind NAT, and network firewall forwarding rules.
+
 ## Liquibase (1 skills)
 
 - [database-migration-safety](../skills/databases/migrations/zero-downtime/database-migration-safety/SKILL.md) — Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.
@@ -525,6 +529,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## OpenAPI (1 skills)
 
 - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
+
+## OpenBSD (1 skills)
+
+- [wireguard-site-to-site-mesh-vpn](../skills/security/network-security/wireguard/wireguard-site-to-site-mesh-vpn/SKILL.md) — Use this skill when designing, configuring, and maintaining secure site-to-site and point-to-point mesh VPN networks using WireGuard. It covers Curve25519 cryptographic key generation, wg-quick configuration files, AllowedIPs routing tables, persistent keepalives behind NAT, and network firewall forwarding rules.
 
 ## OpenSSL (1 skills)
 
@@ -919,9 +927,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [cypress-component-testing](../skills/testing/component/cypress/cypress-component-testing/SKILL.md) — Use this skill when authoring, running, and debugging isolated component tests using Cypress Component Testing for React, Vue, or Angular. It guides the agent through mounting components in real browser DOMs, asserting visual states, stubbing network requests via cy.intercept, simulating user events, and verifying CSS animations without firing up full backend environments.
 
-## WireGuard (1 skills)
+## WireGuard (2 skills)
 
 - [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
+- [wireguard-site-to-site-mesh-vpn](../skills/security/network-security/wireguard/wireguard-site-to-site-mesh-vpn/SKILL.md) — Use this skill when designing, configuring, and maintaining secure site-to-site and point-to-point mesh VPN networks using WireGuard. It covers Curve25519 cryptographic key generation, wg-quick configuration files, AllowedIPs routing tables, persistent keepalives behind NAT, and network firewall forwarding rules.
 
 ## X.509 SVID (1 skills)
 
@@ -978,6 +987,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [vault-secrets-management](../skills/security/secrets/vault/vault-secrets-management/SKILL.md) — Use this skill when architecting and managing enterprise secrets using HashiCorp Vault. It guides the agent through dynamic database credentials generation, lease management and renewal, Kubernetes ServiceAccount authentication, PKI on-demand certificate issuance, transit encryption, and disaster recovery replication.
 
+## iptables (1 skills)
+
+- [wireguard-site-to-site-mesh-vpn](../skills/security/network-security/wireguard/wireguard-site-to-site-mesh-vpn/SKILL.md) — Use this skill when designing, configuring, and maintaining secure site-to-site and point-to-point mesh VPN networks using WireGuard. It covers Curve25519 cryptographic key generation, wg-quick configuration files, AllowedIPs routing tables, persistent keepalives behind NAT, and network firewall forwarding rules.
+
 ## kubectl (1 skills)
 
 - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
@@ -1013,3 +1026,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## vLLM (1 skills)
 
 - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
+
+## wg-quick (1 skills)
+
+- [wireguard-site-to-site-mesh-vpn](../skills/security/network-security/wireguard/wireguard-site-to-site-mesh-vpn/SKILL.md) — Use this skill when designing, configuring, and maintaining secure site-to-site and point-to-point mesh VPN networks using WireGuard. It covers Curve25519 cryptographic key generation, wg-quick configuration files, AllowedIPs routing tables, persistent keepalives behind NAT, and network firewall forwarding rules.
