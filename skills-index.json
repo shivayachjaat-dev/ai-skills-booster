@@ -24181,6 +24181,28 @@
     "maturity": "stable"
   },
   {
+    "name": "github-issue-creator",
+    "path": "skills/software-engineering/architecture/patterns/github-issue-creator",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for github issue creator. Turn error logs, screenshots, voice notes, and rough bug reports into crisp, developer-ready GitHub issues with repro steps, impact, and evidence.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "github",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Github Issue Creator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
