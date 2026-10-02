@@ -2773,6 +2773,28 @@
     "maturity": "stable"
   },
   {
+    "name": "backend-architect",
+    "path": "skills/backend/api-design/backend_architect/backend-architect",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "backend_architect",
+    "description": "Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.",
+    "tags": [
+      "backend",
+      "api-design",
+      "backend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Backend Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-rate-limiting-and-throttling",
     "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
     "domain": "backend",
