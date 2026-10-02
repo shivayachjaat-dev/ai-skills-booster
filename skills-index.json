@@ -4512,6 +4512,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-ec2",
+    "path": "skills/security/appsec/aws_ec2/aws-ec2",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "aws_ec2",
+    "description": "Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security",
+    "tags": [
+      "security",
+      "appsec",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Ec2",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
