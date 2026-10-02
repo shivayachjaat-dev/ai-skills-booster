@@ -174,6 +174,7 @@ AI_Skills_Booster/
 │   │   ├── code_showcase_system/ (1 skills)
 │   │   ├── code_simplifier/ (1 skills)
 │   │   ├── codebase_cleanup_dep/ (1 skills)
+│   │   ├── codebase_design/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

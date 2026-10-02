@@ -3779,6 +3779,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codebase-design",
+    "path": "skills/ai-engineering/models/codebase_design/codebase-design",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "codebase_design",
+    "description": "Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "codebase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codebase Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
