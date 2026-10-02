@@ -26063,6 +26063,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-performance-tuner",
+    "path": "skills/frontend/ui-ux/odoo_performance_tun/odoo-performance-tuner",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_performance_tun",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo performance tuner. Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker configuration, memory limits, PostgreSQL tuning, and profiling tools.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Performance Tuner",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,651 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,652 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1170,6 +1170,7 @@
 | [odoo-manufacturing-advisor](skills/frontend/ui-ux/odoo_manufacturing_a/odoo-manufacturing-advisor/SKILL.md) | `frontend` | `ui-ux` | `odoo_manufacturing_a` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo manufacturing advisor. Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows. |
 | [odoo-migration-helper](skills/frontend/ui-ux/odoo_migration_helpe/odoo-migration-helper/SKILL.md) | `frontend` | `ui-ux` | `odoo_migration_helpe` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo migration helper. Step-by-step guide for migrating Odoo custom modules between versions (v14→v15→v16→v17). Covers API changes, deprecated methods, and view migration. |
 | [odoo-module-developer](skills/frontend/ui-ux/odoo_module_develope/odoo-module-developer/SKILL.md) | `frontend` | `ui-ux` | `odoo_module_develope` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo module developer. Expert guide for creating custom Odoo modules. Covers __manifest__.py, model inheritance, ORM patterns, and module structure best practices. |
+| [odoo-performance-tuner](skills/frontend/ui-ux/odoo_performance_tun/odoo-performance-tuner/SKILL.md) | `frontend` | `ui-ux` | `odoo_performance_tun` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo performance tuner. Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker configuration, memory limits, PostgreSQL tuning, and profiling tools. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
