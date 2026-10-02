@@ -8663,6 +8663,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ii-commons",
+    "path": "skills/ai-engineering/models/ii_commons/ii-commons",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ii_commons",
+    "description": "Use this skill to design, implement, and operate production workflows for ii commons. Deterministic search across arXiv, PubMed/PMC, and US policy corpora with daily freshness cutoffs.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ii",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ii Commons",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
