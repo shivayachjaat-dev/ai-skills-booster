@@ -1183,6 +1183,31 @@
     "maturity": "stable"
   },
   {
+    "name": "company-announcement-and-internal-comms-portal",
+    "path": "skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal",
+    "domain": "business",
+    "category": "internal-comms",
+    "subcategory": "announcement-portal",
+    "description": "Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.",
+    "tags": [
+      "internal-comms",
+      "announcement-board",
+      "employee-portal",
+      "business-operations",
+      "notifications",
+      "governance"
+    ],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Pydantic",
+      "SQLAlchemy",
+      "PostgreSQL"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **150** skills across structured domains, categories, and subcategories.
+Master navigation for **151** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -198,7 +198,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (5 skills)
+## Business (6 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -213,6 +213,12 @@ Category index: [`docs/categories/human-resources.md`](categories/human-resource
   - [corporate-alumni-and-talent-rehire-network](../skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network/SKILL.md) — Use this skill to design, maintain, and automate corporate alumni talent registers, re-hire eligibility tracking, and boomerang employee engagement workflows. It covers structured employee exit registers, skill taxonomy mapping, re-engagement cadences, and compliance auditing.
 - **Performance Management** (1):
   - [employee-360-feedback-review-system](../skills/business/human-resources/performance-management/employee-360-feedback-review-system/SKILL.md) — Use this skill when designing, configuring, and operating multi-rater 360-degree performance feedback systems. It guides the agent through peer reviewer nomination workflows, role-specific competency rubrics, anonymous vs attributed visibility rules, cognitive bias mitigation (recency and halo effects), and synthesis reporting.
+
+### Internal Comms (1 skills)
+Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.md)
+
+- **Announcement Portal** (1):
+  - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)
