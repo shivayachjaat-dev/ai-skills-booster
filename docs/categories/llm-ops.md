@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **4 skills** available in this category.
+> **5 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -8,3 +8,4 @@
 | [bullmq-specialist](../../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) | `bullmq_specialist` | `advanced` | `stable` | Use this skill to bullMQ expert for Redis-backed job queues, background processing, |
 | [context-window-management](../../skills/ai-engineering/llm-ops/context_window_manag/context-window-management/SKILL.md) | `context_window_manag` | `advanced` | `stable` | Use this skill to strategies for managing LLM context windows including |
 | [conversation-memory](../../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) | `conversation_memory` | `advanced` | `stable` | Use this skill to persistent memory systems for LLM conversations including |
+| [geo-llmstxt](../../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) | `geo_llmstxt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping |

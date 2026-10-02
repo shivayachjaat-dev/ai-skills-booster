@@ -1667,6 +1667,28 @@
     "maturity": "stable"
   },
   {
+    "name": "geo-llmstxt",
+    "path": "skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "geo_llmstxt",
+    "description": "Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "geo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geo Llmstxt",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

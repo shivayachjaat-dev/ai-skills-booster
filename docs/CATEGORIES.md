@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,076** skills across structured domains, categories, and subcategories.
+Master navigation for **1,077** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (373 skills)
+## Ai Engineering (374 skills)
 
 ### Agents (44 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -180,7 +180,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (4 skills)
+### Llm Ops (5 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -191,6 +191,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [context-window-management](../skills/ai-engineering/llm-ops/context_window_manag/context-window-management/SKILL.md) — Use this skill to strategies for managing LLM context windows including
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
+- **Geo_Llmstxt** (1):
+  - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
 ### Models (271 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)

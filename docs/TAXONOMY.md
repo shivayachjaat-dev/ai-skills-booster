@@ -85,7 +85,8 @@ AI_Skills_Booster/
 │   │   ├── andrej_karpathy/ (1 skills)
 │   │   ├── bullmq_specialist/ (1 skills)
 │   │   ├── context_window_manag/ (1 skills)
-│   │   └── conversation_memory/ (1 skills)
+│   │   ├── conversation_memory/ (1 skills)
+│   │   └── geo_llmstxt/ (1 skills)
 │   ├── models/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)
