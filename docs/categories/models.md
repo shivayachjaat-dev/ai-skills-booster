@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **111 skills** available in this category.
+> **112 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -114,4 +114,5 @@
 | [claimable-postgres](../../skills/ai-engineering/models/claimable_postgres/claimable-postgres/SKILL.md) | `claimable_postgres` | `advanced` | `stable` | Use this skill to provision instant temporary Postgres databases via Claimable Postgres by Neon (neon.new) with no login, signup, or credit card. Supports REST API, CLI, and SDK. |
 | [claude-api](../../skills/ai-engineering/models/claude_api/claude-api/SKILL.md) | `claude_api` | `advanced` | `stable` | Use this skill to build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-sci |
 | [clean-code-guard](../../skills/ai-engineering/models/clean_code_guard/clean-code-guard/SKILL.md) | `clean_code_guard` | `advanced` | `stable` | Use this skill to review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks. |
+| [clients-accounts](../../skills/ai-engineering/models/clients_accounts/clients-accounts/SKILL.md) | `clients_accounts` | `advanced` | `stable` | Use this skill to client and account register: contacts, billing address, tax ID and basis, payment terms, invoice totals, amounts paid and outstanding balance. Use for account tracking. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

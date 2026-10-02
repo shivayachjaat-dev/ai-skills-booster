@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **512** skills across structured domains, categories, and subcategories.
+Master navigation for **513** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (171 skills)
+## Ai Engineering (172 skills)
 
 ### Agents (21 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -126,7 +126,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (111 skills)
+### Models (112 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -340,6 +340,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [claude-api](../skills/ai-engineering/models/claude_api/claude-api/SKILL.md) — Use this skill to build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-sci
 - **Clean_Code_Guard** (1):
   - [clean-code-guard](../skills/ai-engineering/models/clean_code_guard/clean-code-guard/SKILL.md) — Use this skill to review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks.
+- **Clients_Accounts** (1):
+  - [clients-accounts](../skills/ai-engineering/models/clients_accounts/clients-accounts/SKILL.md) — Use this skill to client and account register: contacts, billing address, tax ID and basis, payment terms, invoice totals, amounts paid and outstanding balance. Use for account tracking.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

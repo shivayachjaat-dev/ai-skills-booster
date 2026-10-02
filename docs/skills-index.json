@@ -3361,6 +3361,28 @@
     "maturity": "stable"
   },
   {
+    "name": "clients-accounts",
+    "path": "skills/ai-engineering/models/clients_accounts/clients-accounts",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "clients_accounts",
+    "description": "Use this skill to client and account register: contacts, billing address, tax ID and basis, payment terms, invoice totals, amounts paid and outstanding balance. Use for account tracking.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "clients",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Clients Accounts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
