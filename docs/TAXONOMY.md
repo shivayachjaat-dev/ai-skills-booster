@@ -944,6 +944,7 @@ AI_Skills_Booster/
 │   │   ├── go_rod_master/ (1 skills)
 │   │   ├── gradient_design/ (1 skills)
 │   │   ├── hasdata/ (1 skills)
+│   │   ├── hasdata_cli/ (1 skills)
 │   │   ├── high_contrast/ (1 skills)
 │   │   ├── holographic_ui/ (1 skills)
 │   │   ├── isometric_design/ (1 skills)

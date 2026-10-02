@@ -19155,6 +19155,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hasdata-cli",
+    "path": "skills/frontend/web-architecture/hasdata_cli/hasdata-cli",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "hasdata_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for hasdata cli. Command-line access to search, scraping, and structured web data.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "hasdata",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hasdata Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "high-contrast",
     "path": "skills/frontend/web-architecture/high_contrast/high-contrast",
     "domain": "frontend",
