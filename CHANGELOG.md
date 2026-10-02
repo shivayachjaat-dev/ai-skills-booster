@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Repository initialization with automated validation, catalog generation, and search engine.
 - Three-level taxonomy hierarchy: Domain -> Category -> Subcategory -> Skill.
-- Reference ecosystem audit covering `agentic-awesome-skills` and `agent-skills`.
+- Reference ecosystem audit covering open-source agent skills standards.
 - CI/CD validation workflow for GitHub Actions.
 - CLI search tool and automated duplicate detection engine.
 - Machine-readable master databases: `skill-inventory.json`, `skill-backlog.json`, `skills-index.json`.
