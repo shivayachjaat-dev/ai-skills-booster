@@ -14689,6 +14689,28 @@
     "maturity": "stable"
   },
   {
+    "name": "event-store-design",
+    "path": "skills/frontend/ui-ux/event_store_design/event-store-design",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "event_store_design",
+    "description": "Use this skill to design, implement, and operate production workflows for event store design. Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "event",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Event Store Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
