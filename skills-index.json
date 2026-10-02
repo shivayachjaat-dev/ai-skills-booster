@@ -11193,6 +11193,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-error-handling",
+    "path": "skills/ai-engineering/models/n8n_error_handling/n8n-error-handling",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "n8n_error_handling",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n error handling. Design visible, structured, recoverable n8n failures using error outputs, retries, Error Trigger workflows, and HTTP error responses.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Error Handling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
