@@ -14501,6 +14501,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cv-generator",
+    "path": "skills/software-engineering/architecture/patterns/cv-generator",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to generate professional, ATS-optimized CVs for FlowCV, Canva, Google Docs, or Word. Handles multi-source merging, JD targeting, seniority adaptation, and humanized rewriting. Outputs paste-ready text with an ATS flaw report and improvement suggestions.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "cv",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cv Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

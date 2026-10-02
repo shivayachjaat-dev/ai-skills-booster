@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **59 skills** available in this category.
+> **60 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -63,3 +63,4 @@
 | [crossframe-essay](../../skills/software-engineering/architecture/patterns/crossframe-essay/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when explicit CrossFrame work needs a Chinese critical insight essay, commentary, concept essay, public piece, or structure-to-article draft after diagnosis. |
 | [customer-research](../../skills/software-engineering/architecture/patterns/customer-research/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to when the user wants to conduct, analyze, or synthesize customer research. |
 | [customs-trade-compliance](../../skills/software-engineering/architecture/patterns/customs-trade-compliance/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions. |
+| [cv-generator](../../skills/software-engineering/architecture/patterns/cv-generator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to generate professional, ATS-optimized CVs for FlowCV, Canva, Google Docs, or Word. Handles multi-source merging, JD targeting, seniority adaptation, and humanized rewriting. Outputs paste-ready text with an ATS flaw report and improvement suggestions. |
