@@ -28955,6 +28955,28 @@
     "maturity": "stable"
   },
   {
+    "name": "issues",
+    "path": "skills/software-engineering/architecture/patterns/issues",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for issues. Interact with GitHub issues - create, list, and view issues.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "issues",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Issues",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
