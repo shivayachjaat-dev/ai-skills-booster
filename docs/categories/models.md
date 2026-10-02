@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **187 skills** available in this category.
+> **188 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,6 +11,7 @@
 | [ai-engineer](../../skills/ai-engineering/models/ai_engineer/ai-engineer/SKILL.md) | `ai_engineer` | `advanced` | `stable` | Use this skill to build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations. |
 | [ai-loop](../../skills/ai-engineering/models/ai_loop/ai-loop/SKILL.md) | `ai_loop` | `advanced` | `stable` | Use this skill to runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work. |
 | [ai-ml](../../skills/ai-engineering/models/ai_ml/ai-ml/SKILL.md) | `ai_ml` | `advanced` | `stable` | Use this skill to aI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features. |
+| [ai-native-ui](../../skills/ai-engineering/models/ai_native_ui/ai-native-ui/SKILL.md) | `ai_native_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ai native ui. Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics. |
 | [ai-product](../../skills/ai-engineering/models/ai_product/ai-product/SKILL.md) | `ai_product` | `advanced` | `stable` | Use this skill to every product will be AI-powered. The question is whether you'll |
 | [ai-studio-image](../../skills/ai-engineering/models/ai_studio_image/ai-studio-image/SKILL.md) | `ai_studio_image` | `advanced` | `stable` | Use this skill to geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis. |
 | [akf-trust-metadata](../../skills/ai-engineering/models/akf_trust_metadata/akf-trust-metadata/SKILL.md) | `akf_trust_metadata` | `advanced` | `stable` | Use this skill to the AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing. |

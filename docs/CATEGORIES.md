@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **758** skills across structured domains, categories, and subcategories.
+Master navigation for **759** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (266 skills)
+## Ai Engineering (267 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -156,7 +156,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (187 skills)
+### Models (188 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -173,6 +173,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ai-loop](../skills/ai-engineering/models/ai_loop/ai-loop/SKILL.md) — Use this skill to runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work.
 - **Ai_Ml** (1):
   - [ai-ml](../skills/ai-engineering/models/ai_ml/ai-ml/SKILL.md) — Use this skill to aI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.
+- **Ai_Native_Ui** (1):
+  - [ai-native-ui](../skills/ai-engineering/models/ai_native_ui/ai-native-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for ai native ui. Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.
 - **Ai_Product** (1):
   - [ai-product](../skills/ai-engineering/models/ai_product/ai-product/SKILL.md) — Use this skill to every product will be AI-powered. The question is whether you'll
 - **Ai_Studio_Image** (1):

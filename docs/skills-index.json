@@ -1425,6 +1425,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-native-ui",
+    "path": "skills/ai-engineering/models/ai_native_ui/ai-native-ui",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ai_native_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for ai native ui. Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ai Native Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-product",
     "path": "skills/ai-engineering/models/ai_product/ai-product",
     "domain": "ai-engineering",

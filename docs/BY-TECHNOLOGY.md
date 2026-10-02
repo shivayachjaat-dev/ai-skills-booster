@@ -128,6 +128,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-ml](../skills/ai-engineering/models/ai_ml/ai-ml/SKILL.md) — Use this skill to aI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.
 
+## Ai Native Ui (1 skills)
+
+- [ai-native-ui](../skills/ai-engineering/models/ai_native_ui/ai-native-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for ai native ui. Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.
+
 ## Ai Product (1 skills)
 
 - [ai-product](../skills/ai-engineering/models/ai_product/ai-product/SKILL.md) — Use this skill to every product will be AI-powered. The question is whether you'll
@@ -1057,7 +1061,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (576 skills)
+## Bash (577 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1095,6 +1099,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ai-engineer](../skills/ai-engineering/models/ai_engineer/ai-engineer/SKILL.md) — Use this skill to build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.
 - [ai-loop](../skills/ai-engineering/models/ai_loop/ai-loop/SKILL.md) — Use this skill to runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work.
 - [ai-ml](../skills/ai-engineering/models/ai_ml/ai-ml/SKILL.md) — Use this skill to aI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.
+- [ai-native-ui](../skills/ai-engineering/models/ai_native_ui/ai-native-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for ai native ui. Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.
 - [ai-product](../skills/ai-engineering/models/ai_product/ai-product/SKILL.md) — Use this skill to every product will be AI-powered. The question is whether you'll
 - [ai-studio-image](../skills/ai-engineering/models/ai_studio_image/ai-studio-image/SKILL.md) — Use this skill to geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.
 - [akf-trust-metadata](../skills/ai-engineering/models/akf_trust_metadata/akf-trust-metadata/SKILL.md) — Use this skill to the AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing.
@@ -4309,7 +4314,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (679 skills)
+## Python (680 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4368,6 +4373,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ai-engineer](../skills/ai-engineering/models/ai_engineer/ai-engineer/SKILL.md) — Use this skill to build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.
 - [ai-loop](../skills/ai-engineering/models/ai_loop/ai-loop/SKILL.md) — Use this skill to runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work.
 - [ai-ml](../skills/ai-engineering/models/ai_ml/ai-ml/SKILL.md) — Use this skill to aI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.
+- [ai-native-ui](../skills/ai-engineering/models/ai_native_ui/ai-native-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for ai native ui. Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.
 - [ai-product](../skills/ai-engineering/models/ai_product/ai-product/SKILL.md) — Use this skill to every product will be AI-powered. The question is whether you'll
 - [ai-studio-image](../skills/ai-engineering/models/ai_studio_image/ai-studio-image/SKILL.md) — Use this skill to geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.
 - [akf-trust-metadata](../skills/ai-engineering/models/akf_trust_metadata/akf-trust-metadata/SKILL.md) — Use this skill to the AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing.
