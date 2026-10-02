@@ -2745,6 +2745,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brooks-harness",
+    "path": "skills/ai-engineering/models/brooks_harness/brooks-harness",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "brooks_harness",
+    "description": "Use this skill to maintenance orchestrator for the brooks-lint plugin itself.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "brooks",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brooks Harness",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

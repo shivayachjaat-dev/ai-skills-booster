@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **87 skills** available in this category.
+> **88 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -90,4 +90,5 @@
 | [break-ai-fix-loops](../../skills/ai-engineering/models/break_ai_fix_loops/break-ai-fix-loops/SKILL.md) | `break_ai_fix_loops` | `advanced` | `stable` | Use this skill to stop ineffective AI coding repair loops with stable failure fingerprints, a three-attempt budget, real-path proof, negative controls, and tested rollback. |
 | [brevo-automation](../../skills/ai-engineering/models/brevo_automation/brevo-automation/SKILL.md) | `brevo_automation` | `advanced` | `stable` | Use this skill to automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP. |
 | [brooks-debt](../../skills/ai-engineering/models/brooks_debt/brooks-debt/SKILL.md) | `brooks_debt` | `advanced` | `stable` | Use this skill to tech debt assessment that identifies, classifies, and prioritizes maintainability problems — helping teams build a refactoring roadmap — drawing on twelve classic engineering books. |
+| [brooks-harness](../../skills/ai-engineering/models/brooks_harness/brooks-harness/SKILL.md) | `brooks_harness` | `advanced` | `stable` | Use this skill to maintenance orchestrator for the brooks-lint plugin itself. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

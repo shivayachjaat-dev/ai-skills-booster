@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **422** skills across structured domains, categories, and subcategories.
+Master navigation for **423** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (142 skills)
+## Ai Engineering (143 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -118,7 +118,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (87 skills)
+### Models (88 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -284,6 +284,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [brevo-automation](../skills/ai-engineering/models/brevo_automation/brevo-automation/SKILL.md) — Use this skill to automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.
 - **Brooks_Debt** (1):
   - [brooks-debt](../skills/ai-engineering/models/brooks_debt/brooks-debt/SKILL.md) — Use this skill to tech debt assessment that identifies, classifies, and prioritizes maintainability problems — helping teams build a refactoring roadmap — drawing on twelve classic engineering books.
+- **Brooks_Harness** (1):
+  - [brooks-harness](../skills/ai-engineering/models/brooks_harness/brooks-harness/SKILL.md) — Use this skill to maintenance orchestrator for the brooks-lint plugin itself.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

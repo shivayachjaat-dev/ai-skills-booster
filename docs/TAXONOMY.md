@@ -127,6 +127,7 @@ AI_Skills_Booster/
 │   │   ├── break_ai_fix_loops/ (1 skills)
 │   │   ├── brevo_automation/ (1 skills)
 │   │   ├── brooks_debt/ (1 skills)
+│   │   ├── brooks_harness/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
