@@ -1139,6 +1139,28 @@
     "maturity": "stable"
   },
   {
+    "name": "avoid-ai-writing",
+    "path": "skills/ai-engineering/models/avoid_ai_writing/avoid-ai-writing",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "avoid_ai_writing",
+    "description": "Use this skill to audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "avoid",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Avoid Ai Writing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

@@ -62,6 +62,7 @@ AI_Skills_Booster/
 │   │   ├── auto_research/ (1 skills)
 │   │   ├── autonomous_agent_pat/ (1 skills)
 │   │   ├── autonomous_agents/ (1 skills)
+│   │   ├── avoid_ai_writing/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

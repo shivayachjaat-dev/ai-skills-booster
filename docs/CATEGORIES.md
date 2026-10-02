@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **221** skills across structured domains, categories, and subcategories.
+Master navigation for **222** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (57 skills)
+## Ai Engineering (58 skills)
 
 ### Agents (15 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -102,7 +102,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (20 skills)
+### Models (21 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -143,6 +143,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [autonomous-agent-patterns](../skills/ai-engineering/models/autonomous_agent_pat/autonomous-agent-patterns/SKILL.md) — Use this skill to design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/openai/codex).
 - **Autonomous_Agents** (1):
   - [autonomous-agents](../skills/ai-engineering/models/autonomous_agents/autonomous-agents/SKILL.md) — Use this skill to autonomous agents are AI systems that can independently decompose
+- **Avoid_Ai_Writing** (1):
+  - [avoid-ai-writing](../skills/ai-engineering/models/avoid_ai_writing/avoid-ai-writing/SKILL.md) — Use this skill to audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
