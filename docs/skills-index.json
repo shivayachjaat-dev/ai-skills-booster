@@ -1755,6 +1755,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-translation-document-py",
+    "path": "skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-document-py",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_translation",
+    "description": "Use this skill to azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Translation Document Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
