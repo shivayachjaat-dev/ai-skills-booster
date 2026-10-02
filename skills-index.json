@@ -7869,6 +7869,28 @@
     "maturity": "stable"
   },
   {
+    "name": "business-continuity",
+    "path": "skills/frontend/ui-ux/business_continuity/business-continuity",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "business_continuity",
+    "description": "Use this skill to develop business continuity plans and impact analysis. Implement BCP",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "business",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Business Continuity",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
