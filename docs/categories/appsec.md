@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -23,6 +23,7 @@
 | [cyber-audit](../../skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) | `cyber_audit` | `advanced` | `stable` | Use this skill to run read-only exposure checks for security advisories and write a structured local audit report. |
 | [dependency-scanning](../../skills/security/appsec/dependency_scanning/dependency-scanning/SKILL.md) | `dependency_scanning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot, |
 | [differential-review](../../skills/security/appsec/differential_review/differential-review/SKILL.md) | `differential_review` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for differential review. Security-focused code review for PRs, commits, and diffs. |
+| [disaster-recovery](../../skills/security/appsec/disaster_recovery/disaster-recovery/SKILL.md) | `disaster_recovery` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for disaster recovery. Implement disaster recovery strategies and runbooks. Configure RPO/RTO |
 | [gcp-audit-logs](../../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) | `gcp_audit_logs` | `advanced` | `stable` | Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and |
 | [laravel-security-audit](../../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |

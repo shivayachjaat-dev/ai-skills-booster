@@ -15490,6 +15490,28 @@
     "maturity": "stable"
   },
   {
+    "name": "disaster-recovery",
+    "path": "skills/security/appsec/disaster_recovery/disaster-recovery",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "disaster_recovery",
+    "description": "Use this skill to design, implement, and operate production workflows for disaster recovery. Implement disaster recovery strategies and runbooks. Configure RPO/RTO",
+    "tags": [
+      "security",
+      "appsec",
+      "disaster",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Disaster Recovery",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gcp-audit-logs",
     "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
     "domain": "security",

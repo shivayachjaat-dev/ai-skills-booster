@@ -799,6 +799,7 @@ AI_Skills_Booster/
 │   │   ├── cyber_audit/ (1 skills)
 │   │   ├── dependency_scanning/ (1 skills)
 │   │   ├── differential_review/ (1 skills)
+│   │   ├── disaster_recovery/ (1 skills)
 │   │   ├── gcp_audit_logs/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
