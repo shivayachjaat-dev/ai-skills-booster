@@ -23,6 +23,30 @@
     "maturity": "stable"
   },
   {
+    "name": "rag-retrieval-evaluation",
+    "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "evaluation",
+    "description": "Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.",
+    "tags": [
+      "rag",
+      "evaluation",
+      "vector-search",
+      "embeddings",
+      "information-retrieval",
+      "llm-benchmarking"
+    ],
+    "technologies": [
+      "Python",
+      "Vector Databases",
+      "Embeddings",
+      "Ragas"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-creator",
     "path": "skills/meta/ecosystem/creation/skill-creator",
     "domain": "meta",

@@ -34,7 +34,45 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:13.584464+00:00"
+    "updated_at": "2026-10-02T13:15:17.860292+00:00"
+  },
+  {
+    "name": "rag-retrieval-evaluation",
+    "slug": "rag-retrieval-evaluation",
+    "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "evaluation",
+    "description": "Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.",
+    "tags": [
+      "rag",
+      "evaluation",
+      "vector-search",
+      "embeddings",
+      "information-retrieval",
+      "llm-benchmarking"
+    ],
+    "technologies": [
+      "Python",
+      "Vector Databases",
+      "Embeddings",
+      "Ragas"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "python"
+    ],
+    "dependencies": [
+      "python >= 3.9",
+      "numpy"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "source": "AI_Skills_Booster",
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:15:17.862298+00:00"
   },
   {
     "name": "skill-creator",
@@ -71,7 +109,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:13.585464+00:00"
+    "updated_at": "2026-10-02T13:15:17.862298+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -108,6 +146,6 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:13.585464+00:00"
+    "updated_at": "2026-10-02T13:15:17.862298+00:00"
   }
 ]
