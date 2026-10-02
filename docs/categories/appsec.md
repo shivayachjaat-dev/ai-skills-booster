@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **31 skills** available in this category.
+> **32 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -31,6 +31,7 @@
 | [firmware-analyst](../../skills/security/appsec/firmware_analyst/firmware-analyst/SKILL.md) | `firmware_analyst` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for firmware analyst. Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering. |
 | [fsi-compliance-checker](../../skills/security/appsec/fsi_compliance_check/fsi-compliance-checker/SKILL.md) | `fsi_compliance_check` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fsi compliance checker. Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation. |
 | [gcp-audit-logs](../../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) | `gcp_audit_logs` | `advanced` | `stable` | Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and |
+| [gcp-secret-manager](../../skills/security/appsec/gcp_secret_manager/gcp-secret-manager/SKILL.md) | `gcp_secret_manager` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp secret manager. Secure secrets in Google Cloud Secret Manager. Configure IAM policies, |
 | [laravel-security-audit](../../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |

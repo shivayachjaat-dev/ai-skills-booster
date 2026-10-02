@@ -983,6 +983,7 @@ AI_Skills_Booster/
 │   │   ├── firmware_analyst/ (1 skills)
 │   │   ├── fsi_compliance_check/ (1 skills)
 │   │   ├── gcp_audit_logs/ (1 skills)
+│   │   ├── gcp_secret_manager/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)

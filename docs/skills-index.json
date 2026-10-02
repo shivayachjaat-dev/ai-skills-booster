@@ -19494,6 +19494,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gcp-secret-manager",
+    "path": "skills/security/appsec/gcp_secret_manager/gcp-secret-manager",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "gcp_secret_manager",
+    "description": "Use this skill to design, implement, and operate production workflows for gcp secret manager. Secure secrets in Google Cloud Secret Manager. Configure IAM policies,",
+    "tags": [
+      "security",
+      "appsec",
+      "gcp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gcp Secret Manager",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
