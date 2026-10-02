@@ -19551,6 +19551,28 @@
     "maturity": "stable"
   },
   {
+    "name": "markstream-angular",
+    "path": "skills/frontend/ui-development/markstream_angular/markstream-angular",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "markstream_angular",
+    "description": "Use this skill to design, implement, and operate production workflows for markstream angular. Integrate the alpha markstream-angular renderer into Angular 20+ applications with standalone components, signals, safe HTML defaults, and optional peer features.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "markstream",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Markstream Angular",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

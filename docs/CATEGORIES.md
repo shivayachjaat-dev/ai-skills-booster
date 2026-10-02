@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,479** skills across structured domains, categories, and subcategories.
+Master navigation for **1,480** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (516 skills)
 
@@ -2001,7 +2001,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (283 skills)
+## Frontend (284 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2091,7 +2091,7 @@ Category index: [`docs/categories/styling.md`](categories/styling.md)
 - **Fixing_Motion_Perfor** (1):
   - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-### Ui Development (23 skills)
+### Ui Development (24 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -2140,6 +2140,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [industrial-brutalist-ui](../skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.
 - **Javascript_Typescrip** (1):
   - [javascript-typescript-typescript-scaffold](../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N
+- **Markstream_Angular** (1):
+  - [markstream-angular](../skills/frontend/ui-development/markstream_angular/markstream-angular/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream angular. Integrate the alpha markstream-angular renderer into Angular 20+ applications with standalone components, signals, safe HTML defaults, and optional peer features.
 
 ### Ui Ux (167 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
