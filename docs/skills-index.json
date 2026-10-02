@@ -12577,6 +12577,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aurora-ui",
+    "path": "skills/frontend/web-architecture/aurora_ui/aurora-ui",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "aurora_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for aurora ui. Web and App implementation guide for Aurora UI. Trigger when user wants gradient glows, color blobs, and atmospheric lighting effects.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "aurora",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aurora Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-messaging-webpubsub-java",
     "path": "skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java",
     "domain": "frontend",

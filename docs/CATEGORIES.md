@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **759** skills across structured domains, categories, and subcategories.
+Master navigation for **760** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (267 skills)
 
@@ -1291,7 +1291,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (99 skills)
+## Frontend (100 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1501,13 +1501,15 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (17 skills)
+### Web Architecture (18 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
   - [3d-ui](../skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
 - **Antigravity_Design_E** (1):
   - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
+- **Aurora_Ui** (1):
+  - [aurora-ui](../skills/frontend/web-architecture/aurora_ui/aurora-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for aurora ui. Web and App implementation guide for Aurora UI. Trigger when user wants gradient glows, color blobs, and atmospheric lighting effects.
 - **Azure_Messaging_Webp** (2):
   - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
   - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.

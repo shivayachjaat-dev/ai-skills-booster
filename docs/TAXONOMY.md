@@ -644,6 +644,7 @@ AI_Skills_Booster/
 │   └── web-architecture/
 │   │   ├── 3d_ui/ (1 skills)
 │   │   ├── antigravity_design_e/ (1 skills)
+│   │   ├── aurora_ui/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)
 │   │   ├── azure_web_pubsub_ts/ (1 skills)
 │   │   ├── brand_growth_system_/ (1 skills)
