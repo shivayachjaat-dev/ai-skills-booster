@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **369** skills across structured domains, categories, and subcategories.
+Master navigation for **370** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (120 skills)
 
@@ -864,7 +864,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (28 skills)
+## Frontend (29 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -956,7 +956,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Azure_Search_Documen** (1):
   - [azure-search-documents-ts](../skills/frontend/ui-ux/azure_search_documen/azure-search-documents-ts/SKILL.md) — Use this skill to build search applications with vector, hybrid, and semantic search capabilities.
 
-### Web Architecture (3 skills)
+### Web Architecture (4 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **Antigravity_Design_E** (1):
@@ -964,6 +964,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
 - **Azure_Messaging_Webp** (2):
   - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
   - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
+- **Azure_Web_Pubsub_Ts** (1):
+  - [azure-web-pubsub-ts](../skills/frontend/web-architecture/azure_web_pubsub_ts/azure-web-pubsub-ts/SKILL.md) — Use this skill to real-time messaging with WebSocket connections and pub/sub patterns.
 
 ## Marketing (8 skills)
 

@@ -6725,6 +6725,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-web-pubsub-ts",
+    "path": "skills/frontend/web-architecture/azure_web_pubsub_ts/azure-web-pubsub-ts",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "azure_web_pubsub_ts",
+    "description": "Use this skill to real-time messaging with WebSocket connections and pub/sub patterns.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Web Pubsub Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",
