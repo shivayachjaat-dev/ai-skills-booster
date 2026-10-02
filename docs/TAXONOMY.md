@@ -573,7 +573,8 @@ AI_Skills_Booster/
 │   │   ├── ask_copilot/ (1 skills)
 │   │   ├── career_ops/ (1 skills)
 │   │   ├── expo_observe/ (1 skills)
-│   │   └── geo_compare/ (1 skills)
+│   │   ├── geo_compare/ (1 skills)
+│   │   └── geo_proposal/ (1 skills)
 │   ├── productivity/
 │   │   ├── asana_automation/ (1 skills)
 │   │   ├── bamboohr_automation/ (1 skills)
