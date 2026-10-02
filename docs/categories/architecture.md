@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **92 skills** available in this category.
+> **93 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -95,4 +95,5 @@
 | [error-debugging-error-analysis](../../skills/software-engineering/architecture/patterns/error-debugging-error-analysis/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error debugging error analysis. You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions. |
 | [error-detective](../../skills/software-engineering/architecture/patterns/error-detective/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error detective. Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes. |
 | [error-diagnostics-error-analysis](../../skills/software-engineering/architecture/patterns/error-diagnostics-error-analysis/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error diagnostics error analysis. You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions. |
+| [error-diagnostics-error-trace](../../skills/software-engineering/architecture/patterns/error-diagnostics-error-trace/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error diagnostics error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

@@ -20199,6 +20199,28 @@
     "maturity": "stable"
   },
   {
+    "name": "error-diagnostics-error-trace",
+    "path": "skills/software-engineering/architecture/patterns/error-diagnostics-error-trace",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for error diagnostics error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging,",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "error",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Error Diagnostics Error Trace",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
