@@ -4666,6 +4666,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-mgmt-weightsandbiases-dotnet",
+    "path": "skills/devops/cloud-infrastructure/azure_mgmt_weightsan/azure-mgmt-weightsandbiases-dotnet",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_mgmt_weightsan",
+    "description": "Use this skill to azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Mgmt Weightsandbiases Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

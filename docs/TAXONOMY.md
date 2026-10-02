@@ -270,7 +270,8 @@ AI_Skills_Booster/
 │   │   ├── azure_mgmt_applicati/ (1 skills)
 │   │   ├── azure_mgmt_botservic/ (1 skills)
 │   │   ├── azure_mgmt_fabric_do/ (1 skills)
-│   │   └── azure_mgmt_mongodbat/ (1 skills)
+│   │   ├── azure_mgmt_mongodbat/ (1 skills)
+│   │   └── azure_mgmt_weightsan/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

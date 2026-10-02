@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **21 skills** available in this category.
+> **22 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -25,3 +25,4 @@
 | [azure-mgmt-botservice-dotnet](../../skills/devops/cloud-infrastructure/azure_mgmt_botservic/azure-mgmt-botservice-dotnet/SKILL.md) | `azure_mgmt_botservic` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings. |
 | [azure-mgmt-fabric-dotnet](../../skills/devops/cloud-infrastructure/azure_mgmt_fabric_do/azure-mgmt-fabric-dotnet/SKILL.md) | `azure_mgmt_fabric_do` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Fabric in .NET. |
 | [azure-mgmt-mongodbatlas-dotnet](../../skills/devops/cloud-infrastructure/azure_mgmt_mongodbat/azure-mgmt-mongodbatlas-dotnet/SKILL.md) | `azure_mgmt_mongodbat` | `advanced` | `stable` | Use this skill to manage MongoDB Atlas Organizations as Azure ARM resources with unified billing through Azure Marketplace. |
+| [azure-mgmt-weightsandbiases-dotnet](../../skills/devops/cloud-infrastructure/azure_mgmt_weightsan/azure-mgmt-weightsandbiases-dotnet/SKILL.md) | `azure_mgmt_weightsan` | `advanced` | `stable` | Use this skill to azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability. |
