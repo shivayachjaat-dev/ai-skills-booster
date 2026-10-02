@@ -378,6 +378,7 @@ AI_Skills_Booster/
 │   │   ├── hugging_face_paper_p/ (1 skills)
 │   │   ├── hugging_face_tool_bu/ (1 skills)
 │   │   ├── hugging_face_trackio/ (1 skills)
+│   │   ├── hugging_face_vision_/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

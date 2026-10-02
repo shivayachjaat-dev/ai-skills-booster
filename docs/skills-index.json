@@ -8267,6 +8267,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-vision-trainer",
+    "path": "skills/ai-engineering/models/hugging_face_vision_/hugging-face-vision-trainer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "hugging_face_vision_",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face vision trainer. Train object detection, image classification, and SAM or SAM2 segmentation models locally or on Hugging Face Jobs, with dataset validation and results saved to the Hub.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Vision Trainer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

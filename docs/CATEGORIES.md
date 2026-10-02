@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,191** skills across structured domains, categories, and subcategories.
+Master navigation for **1,192** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (408 skills)
+## Ai Engineering (409 skills)
 
 ### Agents (49 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -206,7 +206,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (299 skills)
+### Models (300 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -786,6 +786,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [hugging-face-tool-builder](../skills/ai-engineering/models/hugging_face_tool_bu/hugging-face-tool-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face tool builder. Your purpose is now is to create reusable command line scripts and utilities for using the Hugging Face API, allowing chaining, piping and intermediate processing where helpful. You can access the API directly, as well as use the hf command line ...
 - **Hugging_Face_Trackio** (1):
   - [hugging-face-trackio](../skills/ai-engineering/models/hugging_face_trackio/hugging-face-trackio/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face trackio. Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI).
+- **Hugging_Face_Vision_** (1):
+  - [hugging-face-vision-trainer](../skills/ai-engineering/models/hugging_face_vision_/hugging-face-vision-trainer/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face vision trainer. Train object detection, image classification, and SAM or SAM2 segmentation models locally or on Hugging Face Jobs, with dataset validation and results saved to the Hub.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
