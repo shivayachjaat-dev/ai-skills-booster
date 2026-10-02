@@ -30,4 +30,7 @@ AI_Skills_Booster/
 ├── software-engineering/
 │   └── architecture/
 │   │   └── interfaces/ (1 skills)
+├── testing/
+│   └── e2e/
+│   │   └── playwright/ (1 skills)
 ```

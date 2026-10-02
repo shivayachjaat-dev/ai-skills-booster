@@ -34,7 +34,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.224796+00:00"
+    "updated_at": "2026-10-02T13:16:55.266768+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -72,7 +72,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.225796+00:00"
+    "updated_at": "2026-10-02T13:16:55.267810+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -109,7 +109,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.226795+00:00"
+    "updated_at": "2026-10-02T13:16:55.267810+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -147,7 +147,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.226795+00:00"
+    "updated_at": "2026-10-02T13:16:55.267810+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -185,7 +185,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.227797+00:00"
+    "updated_at": "2026-10-02T13:16:55.268811+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -224,7 +224,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.227797+00:00"
+    "updated_at": "2026-10-02T13:16:55.268811+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -263,7 +263,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.228796+00:00"
+    "updated_at": "2026-10-02T13:16:55.269811+00:00"
   },
   {
     "name": "skill-creator",
@@ -300,7 +300,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.229797+00:00"
+    "updated_at": "2026-10-02T13:16:55.269811+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -337,7 +337,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.229797+00:00"
+    "updated_at": "2026-10-02T13:16:55.271450+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -376,6 +376,45 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:51.230795+00:00"
+    "updated_at": "2026-10-02T13:16:55.271450+00:00"
+  },
+  {
+    "name": "playwright-e2e-testing",
+    "slug": "playwright-e2e-testing",
+    "path": "skills/testing/e2e/playwright/playwright-e2e-testing",
+    "domain": "testing",
+    "category": "e2e",
+    "subcategory": "playwright",
+    "description": "Use this skill when authoring, debugging, and maintaining end-to-end (E2E) automated browser test suites using Playwright. It guides the agent through resilient locator strategies (user-facing role/text), page object models, network mocking, authenticated session caching, parallel execution, and flaky test elimination.",
+    "tags": [
+      "playwright",
+      "testing",
+      "e2e",
+      "browser-automation",
+      "qa",
+      "ci-cd"
+    ],
+    "technologies": [
+      "Playwright",
+      "TypeScript",
+      "Node.js",
+      "Chromium"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "npx",
+      "playwright",
+      "node"
+    ],
+    "dependencies": [
+      "@playwright/test >= 1.35"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "source": "AI_Skills_Booster",
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:16:55.272519+00:00"
   }
 ]

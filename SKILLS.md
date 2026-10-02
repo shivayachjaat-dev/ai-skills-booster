@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 10 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 11 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [skill-creator](skills/meta/ecosystem/creation/skill-creator/SKILL.md) | `meta` | `ecosystem` | `creation` | `advanced` | `stable` | Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation. |
 | [github-pr-security-review](skills/security/code-review/github/github-pr-security-review/SKILL.md) | `security` | `code-review` | `github` | `advanced` | `stable` | Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation. |
 | [api-and-interface-design](skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) | `software-engineering` | `architecture` | `interfaces` | `advanced` | `stable` | Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles. |
+| [playwright-e2e-testing](skills/testing/e2e/playwright/playwright-e2e-testing/SKILL.md) | `testing` | `e2e` | `playwright` | `advanced` | `stable` | Use this skill when authoring, debugging, and maintaining end-to-end (E2E) automated browser test suites using Playwright. It guides the agent through resilient locator strategies (user-facing role/text), page object models, network mocking, authenticated session caching, parallel execution, and flaky test elimination. |

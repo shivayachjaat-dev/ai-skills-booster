@@ -235,5 +235,29 @@
     ],
     "complexity": "advanced",
     "maturity": "stable"
+  },
+  {
+    "name": "playwright-e2e-testing",
+    "path": "skills/testing/e2e/playwright/playwright-e2e-testing",
+    "domain": "testing",
+    "category": "e2e",
+    "subcategory": "playwright",
+    "description": "Use this skill when authoring, debugging, and maintaining end-to-end (E2E) automated browser test suites using Playwright. It guides the agent through resilient locator strategies (user-facing role/text), page object models, network mocking, authenticated session caching, parallel execution, and flaky test elimination.",
+    "tags": [
+      "playwright",
+      "testing",
+      "e2e",
+      "browser-automation",
+      "qa",
+      "ci-cd"
+    ],
+    "technologies": [
+      "Playwright",
+      "TypeScript",
+      "Node.js",
+      "Chromium"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
   }
 ]

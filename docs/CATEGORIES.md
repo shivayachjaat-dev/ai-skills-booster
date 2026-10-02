@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **10** skills across structured domains, categories, and subcategories.
+Master navigation for **11** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (2 skills)
 
@@ -77,3 +77,11 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
+
+## Testing (1 skills)
+
+### E2E (1 skills)
+Category index: [`docs/categories/e2e.md`](categories/e2e.md)
+
+- **Playwright** (1):
+  - [playwright-e2e-testing](../skills/testing/e2e/playwright/playwright-e2e-testing/SKILL.md) — Use this skill when authoring, debugging, and maintaining end-to-end (E2E) automated browser test suites using Playwright. It guides the agent through resilient locator strategies (user-facing role/text), page object models, network mocking, authenticated session caching, parallel execution, and flaky test elimination.
