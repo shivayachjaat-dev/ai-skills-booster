@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **152 skills** available in this category.
+> **153 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -154,5 +154,6 @@
 | [inngest](../../skills/software-engineering/architecture/patterns/inngest/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for inngest. Inngest expert for serverless-first background jobs, event-driven |
 | [internal-comms](../../skills/software-engineering/architecture/patterns/internal-comms/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for internal comms. Write internal communications such as status reports, leadership updates, 3P updates, newsletters, FAQs, incident reports, and project updates using repeatable internal formats. |
 | [internal-comms-anthropic](../../skills/software-engineering/architecture/patterns/internal-comms-anthropic/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for internal comms anthropic. Compatibility alias for internal-comms: draft status updates, newsletters and FAQs from approved sources. |
+| [internal-comms-community](../../skills/software-engineering/architecture/patterns/internal-comms-community/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for internal comms community. Compatibility alias for internal-comms: draft status updates, newsletters and FAQs from approved sources. |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

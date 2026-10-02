@@ -28647,6 +28647,28 @@
     "maturity": "stable"
   },
   {
+    "name": "internal-comms-community",
+    "path": "skills/software-engineering/architecture/patterns/internal-comms-community",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for internal comms community. Compatibility alias for internal-comms: draft status updates, newsletters and FAQs from approved sources.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "internal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Internal Comms Community",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
