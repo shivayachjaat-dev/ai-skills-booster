@@ -7726,6 +7726,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-pragmatic",
+    "path": "skills/ai-engineering/rag/fp_pragmatic/fp-pragmatic",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "fp_pragmatic",
+    "description": "Use this skill to design, implement, and operate production workflows for fp pragmatic. A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Pragmatic",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
