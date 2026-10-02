@@ -22169,6 +22169,28 @@
     "maturity": "stable"
   },
   {
+    "name": "logic-diff",
+    "path": "skills/frontend/ui-ux/logic_diff/logic-diff",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "logic_diff",
+    "description": "Use this skill to design, implement, and operate production workflows for logic diff. Compare two code versions for semantic equivalence via semi-formal tracing of both versions side-by-side.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "logic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Logic Diff",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

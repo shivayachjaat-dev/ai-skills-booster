@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **154 skills** available in this category.
+> **155 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -154,6 +154,7 @@
 | [leiloeiro-avaliacao](../../skills/frontend/ui-ux/leiloeiro_avaliacao/leiloeiro-avaliacao/SKILL.md) | `leiloeiro_avaliacao` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leiloeiro avaliacao. Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca. |
 | [lesson-generator](../../skills/frontend/ui-ux/lesson_generator/lesson-generator/SKILL.md) | `lesson_generator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lesson generator. Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links. |
 | [linux-shell-scripting](../../skills/frontend/ui-ux/linux_shell_scriptin/linux-shell-scripting/SKILL.md) | `linux_shell_scriptin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linux shell scripting. Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration ... |
+| [logic-diff](../../skills/frontend/ui-ux/logic_diff/logic-diff/SKILL.md) | `logic_diff` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for logic diff. Compare two code versions for semantic equivalence via semi-formal tracing of both versions side-by-side. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

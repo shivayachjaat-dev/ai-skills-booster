@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,423 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,424 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -993,6 +993,7 @@
 | [leiloeiro-avaliacao](skills/frontend/ui-ux/leiloeiro_avaliacao/leiloeiro-avaliacao/SKILL.md) | `frontend` | `ui-ux` | `leiloeiro_avaliacao` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leiloeiro avaliacao. Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca. |
 | [lesson-generator](skills/frontend/ui-ux/lesson_generator/lesson-generator/SKILL.md) | `frontend` | `ui-ux` | `lesson_generator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lesson generator. Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links. |
 | [linux-shell-scripting](skills/frontend/ui-ux/linux_shell_scriptin/linux-shell-scripting/SKILL.md) | `frontend` | `ui-ux` | `linux_shell_scriptin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linux shell scripting. Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration ... |
+| [logic-diff](skills/frontend/ui-ux/logic_diff/logic-diff/SKILL.md) | `frontend` | `ui-ux` | `logic_diff` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for logic diff. Compare two code versions for semantic equivalence via semi-formal tracing of both versions side-by-side. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
