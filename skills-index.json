@@ -6199,6 +6199,28 @@
     "maturity": "stable"
   },
   {
+    "name": "email-systems",
+    "path": "skills/ai-engineering/models/email_systems/email-systems",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "email_systems",
+    "description": "Use this skill to design, implement, and operate production workflows for email systems. Email has the highest ROI of any marketing channel. $36 for every",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "email",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Email Systems",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",

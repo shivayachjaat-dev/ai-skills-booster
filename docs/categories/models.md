@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **223 skills** available in this category.
+> **224 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -218,6 +218,7 @@
 | [email-issue-fixer](../../skills/ai-engineering/models/email_issue_fixer/email-issue-fixer/SKILL.md) | `email_issue_fixer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for email issue fixer. Fix small email mistakes without touching the writer's voice, and strip tracking parameters from links on request. Always returns the corrected draft plus a change list. |
 | [email-security](../../skills/ai-engineering/models/email_security/email-security/SKILL.md) | `email_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for email security. Authorized email security review: phishing analysis, SPF/DKIM/DMARC header authentication, BEC pattern investigation, and mailbox token abuse research. |
 | [email-sequence](../../skills/ai-engineering/models/email_sequence/email-sequence/SKILL.md) | `email_sequence` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for email sequence. You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion. |
+| [email-systems](../../skills/ai-engineering/models/email_systems/email-systems/SKILL.md) | `email_systems` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for email systems. Email has the highest ROI of any marketing channel. $36 for every |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
 | [floating-ui](../../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) | `floating_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. |
