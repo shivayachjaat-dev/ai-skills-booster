@@ -1583,6 +1583,31 @@
     "maturity": "stable"
   },
   {
+    "name": "algolia-search-indexing-and-faceted-search",
+    "path": "skills/databases/search/algolia/algolia-search-indexing-and-faceted-search",
+    "domain": "databases",
+    "category": "search",
+    "subcategory": "algolia",
+    "description": "Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.",
+    "tags": [
+      "algolia",
+      "search-engine",
+      "faceted-search",
+      "instant-search",
+      "indexing",
+      "ranking-rules"
+    ],
+    "technologies": [
+      "Algolia Search API",
+      "Python",
+      "JavaScript",
+      "InstantSearch",
+      "REST"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "elasticsearch-dsl-search-and-aggregations",
     "path": "skills/databases/search/elasticsearch/elasticsearch-dsl-search-and-aggregations",
     "domain": "databases",

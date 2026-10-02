@@ -55,6 +55,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
 
+## Algolia Search API (1 skills)
+
+- [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
+
 ## Ansible 2.15+ (1 skills)
 
 - [ansible-idempotent-configuration-management](../skills/devops/infrastructure-as-code/ansible/ansible-idempotent-configuration-management/SKILL.md) — Use this skill when designing, authoring, and executing automated server configuration management playbooks and roles using Ansible. It guides the agent through enforcing strict task idempotency, structuring reusable Ansible roles, managing encrypted secrets with Ansible Vault, organizing inventory variables, and testing with Molecule.
@@ -620,6 +624,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
 
+## InstantSearch (1 skills)
+
+- [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
+
 ## InstantSearch.js (1 skills)
 
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
@@ -669,8 +677,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
 
-## JavaScript (1 skills)
+## JavaScript (2 skills)
 
+- [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
 
 ## KMS (1 skills)
@@ -1123,7 +1132,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (76 skills)
+## Python (77 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
@@ -1170,6 +1179,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [clickhouse-time-series-analytics](../skills/databases/clickhouse/time-series/clickhouse-time-series-analytics/SKILL.md) — Use this skill when designing, partitioning, and querying massive time-series event logs and telemetry in ClickHouse. It guides the agent through selecting MergeTree table engines, primary key and sorting key design, TTL data aging policies, materialized views for real-time aggregations, and high-throughput batched ingestion.
 - [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
 - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
+- [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
 - [elasticsearch-dsl-search-and-aggregations](../skills/databases/search/elasticsearch/elasticsearch-dsl-search-and-aggregations/SKILL.md) — Use this skill when architecting, indexing, and querying complex search and analytical systems using Elasticsearch 8+ and Elasticsearch-DSL. It guides the agent through explicit index mapping design (analyzers, keyword vs text fields), boolean compound queries (must, filter, should), multi-match cross-field queries, and multi-level nested aggregations.
 - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
@@ -1262,8 +1272,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
-## REST (2 skills)
+## REST (3 skills)
 
+- [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
 - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
 

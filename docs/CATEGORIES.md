@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **141** skills across structured domains, categories, and subcategories.
+Master navigation for **142** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -270,7 +270,7 @@ Category index: [`docs/categories/orchestration.md`](categories/orchestration.md
 - **Airflow** (1):
   - [airflow-dag-orchestration-and-lineage](../skills/data-analytics/orchestration/airflow/airflow-dag-orchestration-and-lineage/SKILL.md) — Use this skill to design, write, test, and deploy production-grade Apache Airflow DAGs with data lineage tracking, idempotent task execution, dynamic task mapping, OpenLineage metadata emission, and robust error retry strategies.
 
-## Databases (11 skills)
+## Databases (12 skills)
 
 ### Clickhouse (1 skills)
 Category index: [`docs/categories/clickhouse.md`](categories/clickhouse.md)
@@ -316,9 +316,11 @@ Category index: [`docs/categories/redis.md`](categories/redis.md)
 - **Caching** (1):
   - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 
-### Search (2 skills)
+### Search (3 skills)
 Category index: [`docs/categories/search.md`](categories/search.md)
 
+- **Algolia** (1):
+  - [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
 - **Elasticsearch** (1):
   - [elasticsearch-dsl-search-and-aggregations](../skills/databases/search/elasticsearch/elasticsearch-dsl-search-and-aggregations/SKILL.md) — Use this skill when architecting, indexing, and querying complex search and analytical systems using Elasticsearch 8+ and Elasticsearch-DSL. It guides the agent through explicit index mapping design (analyzers, keyword vs text fields), boolean compound queries (must, filter, should), multi-match cross-field queries, and multi-level nested aggregations.
 - **Meilisearch** (1):
