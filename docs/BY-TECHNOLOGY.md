@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1181 skills)
+## Bash (1182 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1496,6 +1496,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fp-ts-pragmatic](../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.
 - [hunt-rag-vector](../skills/ai-engineering/rag/hunt_rag_vector/hunt-rag-vector/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt rag vector. Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP
 - [hybrid-search-implementation](../skills/ai-engineering/rag/hybrid_search_implem/hybrid-search-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hybrid search implementation. Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall.
+- [laravel-development-workflow](../skills/ai-engineering/rag/laravel_development_/laravel-development-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for laravel development workflow. Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification.
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [backend-architect](../skills/backend/api-design/backend_architect/backend-architect/SKILL.md) — Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
 - [backend-security-coder](../skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) — Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
@@ -6707,6 +6708,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [langgraph](../skills/frontend/ui-ux/langgraph/langgraph/SKILL.md) — Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building
 
+## Laravel Development Workflow (1 skills)
+
+- [laravel-development-workflow](../skills/ai-engineering/rag/laravel_development_/laravel-development-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for laravel development workflow. Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification.
+
 ## Laravel Security Audit (1 skills)
 
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
@@ -7261,7 +7266,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1284 skills)
+## Python (1285 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7711,6 +7716,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fp-ts-pragmatic](../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.
 - [hunt-rag-vector](../skills/ai-engineering/rag/hunt_rag_vector/hunt-rag-vector/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt rag vector. Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP
 - [hybrid-search-implementation](../skills/ai-engineering/rag/hybrid_search_implem/hybrid-search-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hybrid search implementation. Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall.
+- [laravel-development-workflow](../skills/ai-engineering/rag/laravel_development_/laravel-development-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for laravel development workflow. Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification.
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.

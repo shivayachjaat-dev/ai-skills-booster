@@ -10058,6 +10058,28 @@
     "maturity": "stable"
   },
   {
+    "name": "laravel-development-workflow",
+    "path": "skills/ai-engineering/rag/laravel_development_/laravel-development-workflow",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "laravel_development_",
+    "description": "Use this skill to design, implement, and operate production workflows for laravel development workflow. Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "laravel",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Laravel Development Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

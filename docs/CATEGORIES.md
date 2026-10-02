@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,363** skills across structured domains, categories, and subcategories.
+Master navigation for **1,364** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (458 skills)
+## Ai Engineering (459 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -907,7 +907,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (26 skills)
+### Rag (27 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -957,6 +957,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [hunt-rag-vector](../skills/ai-engineering/rag/hunt_rag_vector/hunt-rag-vector/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt rag vector. Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP
 - **Hybrid_Search_Implem** (1):
   - [hybrid-search-implementation](../skills/ai-engineering/rag/hybrid_search_implem/hybrid-search-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hybrid search implementation. Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall.
+- **Laravel_Development_** (1):
+  - [laravel-development-workflow](../skills/ai-engineering/rag/laravel_development_/laravel-development-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for laravel development workflow. Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification.
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 
