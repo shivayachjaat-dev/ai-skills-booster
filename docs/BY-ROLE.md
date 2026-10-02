@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (411 skills)
+## AI Engineer (412 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -255,6 +255,7 @@ Curated workflows organized by professional role and specialization.
 - [docker-compose](../skills/ai-engineering/models/docker_compose/docker-compose/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for docker compose. Define and run multi-container Docker applications using Docker Compose.
 - [docker-expert](../skills/ai-engineering/models/docker_expert/docker-expert/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for docker expert. You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.
 - [docker-management](../skills/ai-engineering/models/docker_management/docker-management/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for docker management. Build, optimize, and troubleshoot Docker containers and images.
+- [docs-architect](../skills/ai-engineering/models/docs_architect/docs-architect/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for docs architect. Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.
 - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — `ai-engineering`: Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — `ai-engineering`: Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.

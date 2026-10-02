@@ -5781,6 +5781,28 @@
     "maturity": "stable"
   },
   {
+    "name": "docs-architect",
+    "path": "skills/ai-engineering/models/docs_architect/docs-architect",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "docs_architect",
+    "description": "Use this skill to design, implement, and operate production workflows for docs architect. Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "docs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Docs Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
