@@ -151,6 +151,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [software-supply-chain-sbom-audit](../skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit/SKILL.md) — Use this skill when auditing, generating, and verifying Software Bill of Materials (SBOM) and scanning software supply chains for CVE vulnerabilities and non-compliant open-source licenses. It guides the agent through generating CycloneDX/SPDX SBOMs with Syft, scanning for known exploits with Grype, validating software licenses, and enforcing CI/CD gates.
 - [container-vulnerability-scanning-trivy](../skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy/SKILL.md) — Use this skill when auditing, scanning, and enforcing security policies across container images, filesystems, and Software Bill of Materials (SBOM) using Aqua Security Trivy. It guides the agent through CI/CD gate automation, severity threshold enforcement (CRITICAL/HIGH), CVE filtering via .trivyignore, and generating CycloneDX SBOMs.
 
+## Cypher (1 skills)
+
+- [neo4j-graph-data-modeling-and-cypher](../skills/databases/nosql/neo4j/neo4j-graph-data-modeling-and-cypher/SKILL.md) — Use this skill when designing, indexing, and querying labeled property graphs using Neo4j 5+ and Cypher query language. It guides the agent through node and relationship property modeling, index and constraint declarations, variable-length path traversal, aggregation with WITH clauses, and optimizing Cypher queries using PROFILE and EXPLAIN.
+
 ## Cypress (1 skills)
 
 - [cypress-component-testing](../skills/testing/component/cypress/cypress-component-testing/SKILL.md) — Use this skill when authoring, running, and debugging isolated component tests using Cypress Component Testing for React, Vue, or Angular. It guides the agent through mounting components in real browser DOMs, asserting visual states, stubbing network requests via cy.intercept, simulating user events, and verifying CSS animations without firing up full backend environments.
@@ -171,12 +175,13 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
 
-## Docker (14 skills)
+## Docker (15 skills)
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - [rabbitmq-reliable-messaging-patterns](../skills/backend/message-queues/rabbitmq/rabbitmq-reliable-messaging-patterns/SKILL.md) — Use this skill when designing, building, and operating mission-critical message queuing architectures with RabbitMQ (AMQP 0-9-1). It guides the agent through publisher confirms (ACK/NACK), queue and message durability, dead letter exchanges (DLX) for poisoned messages, consumer manual acknowledgments with prefetch limits, and consumer idempotency.
 - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
 - [clickhouse-time-series-analytics](../skills/databases/clickhouse/time-series/clickhouse-time-series-analytics/SKILL.md) — Use this skill when designing, partitioning, and querying massive time-series event logs and telemetry in ClickHouse. It guides the agent through selecting MergeTree table engines, primary key and sorting key design, TTL data aging policies, materialized views for real-time aggregations, and high-throughput batched ingestion.
+- [neo4j-graph-data-modeling-and-cypher](../skills/databases/nosql/neo4j/neo4j-graph-data-modeling-and-cypher/SKILL.md) — Use this skill when designing, indexing, and querying labeled property graphs using Neo4j 5+ and Cypher query language. It guides the agent through node and relationship property modeling, index and constraint declarations, variable-length path traversal, aggregation with WITH clauses, and optimizing Cypher queries using PROFILE and EXPLAIN.
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
 - [timescaledb-hypertables-and-retention](../skills/databases/time-series/timescaledb/timescaledb-hypertables-and-retention/SKILL.md) — Use this skill when architecting, partitioning, and optimizing high-throughput time-series databases with TimescaleDB on PostgreSQL. It guides the agent through hypertable creation, chunk time interval sizing, continuous aggregates with automatic refresh policies, column-oriented compression policies, and data retention drops.
 - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
@@ -586,6 +591,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
 
+## Neo4j 5+ (1 skills)
+
+- [neo4j-graph-data-modeling-and-cypher](../skills/databases/nosql/neo4j/neo4j-graph-data-modeling-and-cypher/SKILL.md) — Use this skill when designing, indexing, and querying labeled property graphs using Neo4j 5+ and Cypher query language. It guides the agent through node and relationship property modeling, index and constraint declarations, variable-length path traversal, aggregation with WITH clauses, and optimizing Cypher queries using PROFILE and EXPLAIN.
+
 ## Next.js 14+ (1 skills)
 
 - [nextjs-app-router-architecture](../skills/frontend/nextjs/architecture/nextjs-app-router-architecture/SKILL.md) — Use this skill when architecting and developing full-stack web applications with Next.js App Router (version 14+ / 15+). It guides the agent through React Server Components (RSC) vs Client Components boundaries, Server Actions with Zod validation, streaming SSR with Suspense boundaries, parallel and intercepting routes, dynamic segment caching, and revalidation (ISR).
@@ -813,6 +822,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Python meilisearch (1 skills)
 
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
+
+## Python neo4j (1 skills)
+
+- [neo4j-graph-data-modeling-and-cypher](../skills/databases/nosql/neo4j/neo4j-graph-data-modeling-and-cypher/SKILL.md) — Use this skill when designing, indexing, and querying labeled property graphs using Neo4j 5+ and Cypher query language. It guides the agent through node and relationship property modeling, index and constraint declarations, variable-length path traversal, aggregation with WITH clauses, and optimizing Cypher queries using PROFILE and EXPLAIN.
 
 ## Python prometheus_client (1 skills)
 

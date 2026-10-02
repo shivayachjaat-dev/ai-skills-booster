@@ -881,6 +881,30 @@
     "maturity": "stable"
   },
   {
+    "name": "neo4j-graph-data-modeling-and-cypher",
+    "path": "skills/databases/nosql/neo4j/neo4j-graph-data-modeling-and-cypher",
+    "domain": "databases",
+    "category": "nosql",
+    "subcategory": "neo4j",
+    "description": "Use this skill when designing, indexing, and querying labeled property graphs using Neo4j 5+ and Cypher query language. It guides the agent through node and relationship property modeling, index and constraint declarations, variable-length path traversal, aggregation with WITH clauses, and optimizing Cypher queries using PROFILE and EXPLAIN.",
+    "tags": [
+      "neo4j",
+      "cypher",
+      "graph-database",
+      "knowledge-graph",
+      "nosql",
+      "graph"
+    ],
+    "technologies": [
+      "Neo4j 5+",
+      "Cypher",
+      "Python neo4j",
+      "Docker"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scylladb-high-throughput-nosql-architecture",
     "path": "skills/databases/nosql/scylladb/scylladb-high-throughput-nosql-architecture",
     "domain": "databases",

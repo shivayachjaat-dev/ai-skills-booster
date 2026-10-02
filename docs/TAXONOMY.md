@@ -70,6 +70,7 @@ AI_Skills_Booster/
 │   ├── migrations/
 │   │   └── zero-downtime/ (1 skills)
 │   ├── nosql/
+│   │   ├── neo4j/ (1 skills)
 │   │   └── scylladb/ (1 skills)
 │   ├── orm/
 │   │   └── prisma/ (1 skills)
