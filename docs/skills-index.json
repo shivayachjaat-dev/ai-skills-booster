@@ -15884,6 +15884,28 @@
     "maturity": "stable"
   },
   {
+    "name": "neon-postgres-egress-optimizer",
+    "path": "skills/data-analytics/data-pipelines/neon_postgres_egress/neon-postgres-egress-optimizer",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "neon_postgres_egress",
+    "description": "Use this skill to design, implement, and operate production workflows for neon postgres egress optimizer. Diagnose and fix excessive Postgres egress (network data transfer) in a codebase.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "neon",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Neon Postgres Egress Optimizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

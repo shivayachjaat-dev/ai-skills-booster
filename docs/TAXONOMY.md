@@ -750,6 +750,7 @@ AI_Skills_Booster/
 │   │   ├── longbridge_fundament/ (1 skills)
 │   │   ├── ml_pipeline_workflow/ (1 skills)
 │   │   ├── monte_carlo_context_/ (1 skills)
+│   │   ├── neon_postgres_egress/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)

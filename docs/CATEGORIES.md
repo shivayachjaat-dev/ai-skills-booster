@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,592** skills across structured domains, categories, and subcategories.
+Master navigation for **1,593** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (554 skills)
 
@@ -1553,7 +1553,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (33 skills)
+## Data Analytics (34 skills)
 
 ### Analytics Engineering (1 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1567,7 +1567,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (22 skills)
+### Data Pipelines (23 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -1612,6 +1612,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [ml-pipeline-workflow](../skills/data-analytics/data-pipelines/ml_pipeline_workflow/ml-pipeline-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for ml pipeline workflow. Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.
 - **Monte_Carlo_Context_** (1):
   - [monte-carlo-context-detection](../skills/data-analytics/data-pipelines/monte_carlo_context_/monte-carlo-context-detection/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo context detection. Route data-related requests to the right Monte Carlo skill or workflow.
+- **Neon_Postgres_Egress** (1):
+  - [neon-postgres-egress-optimizer](../skills/data-analytics/data-pipelines/neon_postgres_egress/neon-postgres-egress-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres egress optimizer. Diagnose and fix excessive Postgres egress (network data transfer) in a codebase.
 - **Polars** (1):
   - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 
