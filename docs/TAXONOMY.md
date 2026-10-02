@@ -2,6 +2,9 @@
 
 ```text
 AI_Skills_Booster/
+├── ai-engineering/
+│   └── agents/
+│   │   └── memory/ (1 skills)
 ├── meta/
 │   └── ecosystem/
 │   │   └── creation/ (1 skills)

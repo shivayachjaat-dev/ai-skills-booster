@@ -1,5 +1,28 @@
 [
   {
+    "name": "agent-project-memory",
+    "path": "skills/ai-engineering/agents/memory/agent-project-memory",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "memory",
+    "description": "Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.",
+    "tags": [
+      "ai-agents",
+      "agent-memory",
+      "context-management",
+      "state-persistence",
+      "llm-architecture"
+    ],
+    "technologies": [
+      "Python",
+      "JSON",
+      "SQLite",
+      "Markdown"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-creator",
     "path": "skills/meta/ecosystem/creation/skill-creator",
     "domain": "meta",

@@ -1,6 +1,14 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2** skills across structured domains, categories, and subcategories.
+Master navigation for **3** skills across structured domains, categories, and subcategories.
+
+## Ai Engineering (1 skills)
+
+### Agents (1 skills)
+Category index: [`docs/categories/agents.md`](categories/agents.md)
+
+- **Memory** (1):
+  - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 
 ## Meta (1 skills)
 
