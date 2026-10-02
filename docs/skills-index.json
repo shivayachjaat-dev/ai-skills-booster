@@ -2554,6 +2554,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-storage-queue-rust",
+    "path": "skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-rust",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "azure_storage_queue_",
+    "description": "Use this skill to azure Queue Storage library for Rust. Send, receive, and manage queue messages. Triggers: \"queue storage rust\", \"QueueClient rust\", \"send message rust\", \"receive messages rust\", \"QueueServiceClient rust\", \"queue rust\".",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Storage Queue Rust",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",
