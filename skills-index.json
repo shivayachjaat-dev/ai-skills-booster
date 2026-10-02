@@ -745,6 +745,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gemini-interactions-api",
+    "path": "skills/ai-engineering/agents/gemini_interactions_/gemini-interactions-api",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "gemini_interactions_",
+    "description": "Use this skill to design, implement, and operate production workflows for gemini interactions api. Build with the Gemini Interactions API for text, chat, multimodal generation, streaming, managed or background agents, function calling, structured output, and generateContent migrations.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "gemini",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gemini Interactions Api",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "geo-audit",
     "path": "skills/ai-engineering/agents/geo_audit/geo-audit",
     "domain": "ai-engineering",

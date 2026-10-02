@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **43 skills** available in this category.
+> **44 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -37,6 +37,7 @@
 | [find-complementary-founders](../../skills/ai-engineering/agents/find_complementary_f/find-complementary-founders/SKILL.md) | `find_complementary_f` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for find complementary founders. Use when an owner explicitly asks for a cofounder or project partner, or explicitly says they need a complementary builder, operator, go-to-market partner, or scaling capability. Assess and publish only the agent's own owner, then rank only app... |
 | [folder-specific-claude-and-agents-md](../../skills/ai-engineering/agents/folder_specific_clau/folder-specific-claude-and-agents-md/SKILL.md) | `folder_specific_clau` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for folder specific claude and agents md. Create folder-scoped CLAUDE.md and AGENTS.md guidance for future agents working in that area. |
 | [ai-agent-session-audit-and-forensic-replay](../../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) | `forensic-audit` | `advanced` | `stable` | Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays. |
+| [gemini-interactions-api](../../skills/ai-engineering/agents/gemini_interactions_/gemini-interactions-api/SKILL.md) | `gemini_interactions_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gemini interactions api. Build with the Gemini Interactions API for text, chat, multimodal generation, streaming, managed or background agents, function calling, structured output, and generateContent migrations. |
 | [geo-audit](../../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) | `geo_audit` | `advanced` | `stable` | Use this skill to full website GEO+SEO audit with parallel subagent delegation. |
 | [lintlang-audit](../../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) | `lintlang_audit` | `advanced` | `stable` | Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files. |
 | [agent-project-memory](../../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) | `memory` | `advanced` | `stable` | Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects. |

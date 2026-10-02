@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,065** skills across structured domains, categories, and subcategories.
+Master navigation for **1,066** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (365 skills)
+## Ai Engineering (366 skills)
 
-### Agents (43 skills)
+### Agents (44 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -73,6 +73,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [folder-specific-claude-and-agents-md](../skills/ai-engineering/agents/folder_specific_clau/folder-specific-claude-and-agents-md/SKILL.md) — Use this skill to design, implement, and operate production workflows for folder specific claude and agents md. Create folder-scoped CLAUDE.md and AGENTS.md guidance for future agents working in that area.
 - **Forensic Audit** (1):
   - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
+- **Gemini_Interactions_** (1):
+  - [gemini-interactions-api](../skills/ai-engineering/agents/gemini_interactions_/gemini-interactions-api/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini interactions api. Build with the Gemini Interactions API for text, chat, multimodal generation, streaming, managed or background agents, function calling, structured output, and generateContent migrations.
 - **Geo_Audit** (1):
   - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
 - **Lintlang_Audit** (1):

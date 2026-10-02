@@ -37,6 +37,7 @@ AI_Skills_Booster/
 │   │   ├── find_complementary_f/ (1 skills)
 │   │   ├── folder_specific_clau/ (1 skills)
 │   │   ├── forensic-audit/ (1 skills)
+│   │   ├── gemini_interactions_/ (1 skills)
 │   │   ├── geo_audit/ (1 skills)
 │   │   ├── lintlang_audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
