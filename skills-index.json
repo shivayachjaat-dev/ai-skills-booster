@@ -5185,6 +5185,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-devops",
+    "path": "skills/frontend/ui-ux/azure_devops/azure-devops",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "azure_devops",
+    "description": "Use this skill to set up Azure Pipelines for CI/CD, configure build and release pipelines,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Devops",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 290 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 291 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -221,6 +221,7 @@
 | [aws-serverless-eda](skills/frontend/ui-ux/aws_serverless_eda/aws-serverless-eda/SKILL.md) | `frontend` | `ui-ux` | `aws_serverless_eda` | `advanced` | `stable` | Use this skill to aWS serverless and event-driven architecture expert based on Well-Architected Framework. Use when building serverless APIs, Lambda functions, REST APIs, microservices, or async workflows. |
 | [azure-communication-chat-java](skills/frontend/ui-ux/azure_communication_/azure-communication-chat-java/SKILL.md) | `frontend` | `ui-ux` | `azure_communication_` | `advanced` | `stable` | Use this skill to build real-time chat applications with thread management, messaging, participants, and read receipts. |
 | [azure-cosmos-db-py](skills/frontend/ui-ux/azure_cosmos_db_py/azure-cosmos-db-py/SKILL.md) | `frontend` | `ui-ux` | `azure_cosmos_db_py` | `advanced` | `stable` | Use this skill to build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles. |
+| [azure-devops](skills/frontend/ui-ux/azure_devops/azure-devops/SKILL.md) | `frontend` | `ui-ux` | `azure_devops` | `advanced` | `stable` | Use this skill to set up Azure Pipelines for CI/CD, configure build and release pipelines, |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [app-store-optimization-and-metadata-strategy](skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) | `marketing` | `aso` | `app-store-optimization` | `intermediate` | `stable` | Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata. |
 | [social-sentiment-and-brand-reputation-monitor](skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor/SKILL.md) | `marketing` | `brand` | `reputation-monitor` | `intermediate` | `stable` | Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting. |
