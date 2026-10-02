@@ -1907,6 +1907,31 @@
     "maturity": "stable"
   },
   {
+    "name": "identity-access-review-and-certification",
+    "path": "skills/security/identity-governance/access-review/identity-access-review-and-certification",
+    "domain": "security",
+    "category": "identity-governance",
+    "subcategory": "access-review",
+    "description": "Use this skill when designing, automating, and conducting periodic Identity Access Reviews, user entitlement certifications, and least-privilege compliance audits. It covers generating access certification campaigns, flagging dormant accounts, detecting toxic permission combinations (Segregation of Duties - SoD), and producing audit evidence for SOC2/ISO27001.",
+    "tags": [
+      "identity-governance",
+      "access-review",
+      "compliance",
+      "soc2",
+      "iam",
+      "least-privilege"
+    ],
+    "technologies": [
+      "Python",
+      "SQLAlchemy",
+      "PostgreSQL",
+      "JSON",
+      "Audit Logging"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "incident-response-and-triage",
     "path": "skills/security/incident-response/triage/incident-response-and-triage",
     "domain": "security",

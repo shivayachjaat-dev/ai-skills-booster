@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **98** skills across structured domains, categories, and subcategories.
+Master navigation for **99** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -375,7 +375,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (19 skills)
+## Security (20 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -420,6 +420,12 @@ Category index: [`docs/categories/cryptography.md`](categories/cryptography.md)
 
 - **Envelope Encryption** (1):
   - [envelope-encryption-kms-pattern](../skills/security/cryptography/envelope-encryption/envelope-encryption-kms-pattern/SKILL.md) — Use this skill when architecting and implementing cryptographic envelope encryption for sensitive data at rest using cloud Key Management Services (AWS KMS, GCP KMS, Azure Key Vault) or HashiCorp Vault. It guides the agent through two-tier key hierarchies (KEK and DEK), AES-256-GCM authenticated encryption, DEK caching with TTL limits, and key rotation.
+
+### Identity Governance (1 skills)
+Category index: [`docs/categories/identity-governance.md`](categories/identity-governance.md)
+
+- **Access Review** (1):
+  - [identity-access-review-and-certification](../skills/security/identity-governance/access-review/identity-access-review-and-certification/SKILL.md) — Use this skill when designing, automating, and conducting periodic Identity Access Reviews, user entitlement certifications, and least-privilege compliance audits. It covers generating access certification campaigns, flagging dormant accounts, detecting toxic permission combinations (Segregation of Duties - SoD), and producing audit evidence for SOC2/ISO27001.
 
 ### Incident Response (1 skills)
 Category index: [`docs/categories/incident-response.md`](categories/incident-response.md)

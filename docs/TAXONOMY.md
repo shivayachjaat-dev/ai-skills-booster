@@ -149,6 +149,8 @@ AI_Skills_Booster/
 │   │   └── github/ (1 skills)
 │   ├── cryptography/
 │   │   └── envelope-encryption/ (1 skills)
+│   ├── identity-governance/
+│   │   └── access-review/ (1 skills)
 │   ├── incident-response/
 │   │   └── triage/ (1 skills)
 │   ├── network-security/
