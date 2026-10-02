@@ -18884,6 +18884,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fixing-accessibility",
+    "path": "skills/security/compliance/fixing_accessibility/fixing-accessibility",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "fixing_accessibility",
+    "description": "Use this skill to design, implement, and operate production workflows for fixing accessibility. Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.",
+    "tags": [
+      "security",
+      "compliance",
+      "fixing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fixing Accessibility",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "indexing-issue-auditor",
     "path": "skills/security/compliance/indexing_issue_audit/indexing-issue-auditor",
     "domain": "security",

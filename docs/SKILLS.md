@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 992 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 993 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -839,6 +839,7 @@
 | [brooks-audit](skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) | `security` | `compliance` | `brooks_audit` | `advanced` | `stable` | Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books. |
 | [busabase](skills/security/compliance/busabase/busabase/SKILL.md) | `security` | `compliance` | `busabase` | `advanced` | `stable` | Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history. |
 | [fix-review](skills/security/compliance/fix_review/fix-review/SKILL.md) | `security` | `compliance` | `fix_review` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fix review. Verify fix commits address audit findings without new bugs |
+| [fixing-accessibility](skills/security/compliance/fixing_accessibility/fixing-accessibility/SKILL.md) | `security` | `compliance` | `fixing_accessibility` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fixing accessibility. Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance. |
 | [indexing-issue-auditor](skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) | `security` | `compliance` | `indexing_issue_audit` | `advanced` | `stable` | Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors. |
 | [local-legal-seo-audit](skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) | `security` | `compliance` | `local_legal_seo_audi` | `advanced` | `stable` | Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages. |
 | [production-code-audit](skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) | `security` | `compliance` | `production_code_audi` | `advanced` | `stable` | Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations |

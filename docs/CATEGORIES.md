@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **992** skills across structured domains, categories, and subcategories.
+Master navigation for **993** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (348 skills)
 
@@ -2036,7 +2036,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (87 skills)
+## Security (88 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2185,7 +2185,7 @@ Category index: [`docs/categories/code-review.md`](categories/code-review.md)
 - **Github** (1):
   - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
 
-### Compliance (13 skills)
+### Compliance (14 skills)
 Category index: [`docs/categories/compliance.md`](categories/compliance.md)
 
 - **Audit Logging** (1):
@@ -2196,6 +2196,8 @@ Category index: [`docs/categories/compliance.md`](categories/compliance.md)
   - [busabase](../skills/security/compliance/busabase/busabase/SKILL.md) — Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history.
 - **Fix_Review** (1):
   - [fix-review](../skills/security/compliance/fix_review/fix-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for fix review. Verify fix commits address audit findings without new bugs
+- **Fixing_Accessibility** (1):
+  - [fixing-accessibility](../skills/security/compliance/fixing_accessibility/fixing-accessibility/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing accessibility. Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.
 - **Indexing_Issue_Audit** (1):
   - [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
 - **Local_Legal_Seo_Audi** (1):
