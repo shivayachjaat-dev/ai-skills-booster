@@ -3119,6 +3119,28 @@
     "maturity": "stable"
   },
   {
+    "name": "carrier-relationship-management",
+    "path": "skills/ai-engineering/models/carrier_relationship/carrier-relationship-management",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "carrier_relationship",
+    "description": "Use this skill to codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "carrier",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Carrier Relationship Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
