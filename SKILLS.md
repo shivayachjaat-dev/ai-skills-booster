@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 621 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 622 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -467,6 +467,7 @@
 | [competitor-alternatives](skills/frontend/ui-ux/competitor_alternati/competitor-alternatives/SKILL.md) | `frontend` | `ui-ux` | `competitor_alternati` | `advanced` | `stable` | Use this skill to you are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively. |
 | [connection-auth-rules](skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules/SKILL.md) | `frontend` | `ui-ux` | `connection_auth_rule` | `advanced` | `stable` | Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches |
 | [copilot-sdk](skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) | `frontend` | `ui-ux` | `copilot_sdk` | `advanced` | `stable` | Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET. |
+| [cqrs-implementation](skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation/SKILL.md) | `frontend` | `ui-ux` | `cqrs_implementation` | `advanced` | `stable` | Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |

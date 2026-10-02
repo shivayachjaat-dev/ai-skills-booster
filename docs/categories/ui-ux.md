@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **42 skills** available in this category.
+> **43 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -46,3 +46,4 @@
 | [competitor-alternatives](../../skills/frontend/ui-ux/competitor_alternati/competitor-alternatives/SKILL.md) | `competitor_alternati` | `advanced` | `stable` | Use this skill to you are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively. |
 | [connection-auth-rules](../../skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules/SKILL.md) | `connection_auth_rule` | `advanced` | `stable` | Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches |
 | [copilot-sdk](../../skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) | `copilot_sdk` | `advanced` | `stable` | Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET. |
+| [cqrs-implementation](../../skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation/SKILL.md) | `cqrs_implementation` | `advanced` | `stable` | Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems. |

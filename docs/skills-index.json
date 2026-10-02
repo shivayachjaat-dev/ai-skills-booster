@@ -10597,6 +10597,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cqrs-implementation",
+    "path": "skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "cqrs_implementation",
+    "description": "Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "cqrs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cqrs Implementation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
