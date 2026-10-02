@@ -25733,6 +25733,28 @@
     "maturity": "stable"
   },
   {
+    "name": "observability-engineer",
+    "path": "skills/frontend/ui-ux/observability_engine/observability-engineer",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "observability_engine",
+    "description": "Use this skill to design, implement, and operate production workflows for observability engineer. Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "observability",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Observability Engineer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

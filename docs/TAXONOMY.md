@@ -1241,6 +1241,7 @@ AI_Skills_Booster/
 │   │   ├── notion_template_busi/ (1 skills)
 │   │   ├── nx_workspace_pattern/ (1 skills)
 │   │   ├── observability_cloud_/ (1 skills)
+│   │   ├── observability_engine/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
