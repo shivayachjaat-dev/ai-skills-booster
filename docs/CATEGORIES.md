@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,678** skills across structured domains, categories, and subcategories.
+Master navigation for **1,679** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (575 skills)
 
@@ -3730,7 +3730,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (25 skills)
+## Testing (26 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -3750,7 +3750,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (18 skills)
+### Automation (19 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -3789,6 +3789,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [neon-postgres-branches](../skills/testing/automation/neon_postgres_branch/neon-postgres-branches/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres branches. Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, schema-only branch workflows for sensitive data, or branch creation via ...
 - **Odoo_Automated_Tests** (1):
   - [odoo-automated-tests](../skills/testing/automation/odoo_automated_tests/odoo-automated-tests/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo automated tests. Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration.
+- **Oneroster_Csv_Valida** (1):
+  - [oneroster-csv-validator](../skills/testing/automation/oneroster_csv_valida/oneroster-csv-validator/SKILL.md) — Use this skill to design, implement, and operate production workflows for oneroster csv validator. Validates 1EdTech / IMS Global OneRoster v1.1 and v1.2 CSV roster sets: manifest integrity, bulk vs delta strictness, foreign key references, and encoding sanitization. Trigger phrases: oneroster csv validator, validate oneroster zip, clever roster...
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

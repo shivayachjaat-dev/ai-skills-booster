@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,3 +22,4 @@
 | [marketing-mindset](../../skills/testing/automation/marketing_mindset/marketing-mindset/SKILL.md) | `marketing_mindset` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing mindset. Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test — a marketer's decision framework, not a tactic library. |
 | [neon-postgres-branches](../../skills/testing/automation/neon_postgres_branch/neon-postgres-branches/SKILL.md) | `neon_postgres_branch` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon postgres branches. Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, schema-only branch workflows for sensitive data, or branch creation via ... |
 | [odoo-automated-tests](../../skills/testing/automation/odoo_automated_tests/odoo-automated-tests/SKILL.md) | `odoo_automated_tests` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo automated tests. Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration. |
+| [oneroster-csv-validator](../../skills/testing/automation/oneroster_csv_valida/oneroster-csv-validator/SKILL.md) | `oneroster_csv_valida` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for oneroster csv validator. Validates 1EdTech / IMS Global OneRoster v1.1 and v1.2 CSV roster sets: manifest integrity, bulk vs delta strictness, foreign key references, and encoding sanitization. Trigger phrases: oneroster csv validator, validate oneroster zip, clever roster... |
