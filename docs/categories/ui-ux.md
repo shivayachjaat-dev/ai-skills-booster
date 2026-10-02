@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **199 skills** available in this category.
+> **200 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -200,6 +200,7 @@
 | [odoo-performance-tuner](../../skills/frontend/ui-ux/odoo_performance_tun/odoo-performance-tuner/SKILL.md) | `odoo_performance_tun` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo performance tuner. Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker configuration, memory limits, PostgreSQL tuning, and profiling tools. |
 | [odoo-project-timesheet](../../skills/frontend/ui-ux/odoo_project_timeshe/odoo-project-timesheet/SKILL.md) | `odoo_project_timeshe` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo project timesheet. Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets. |
 | [odoo-purchase-workflow](../../skills/frontend/ui-ux/odoo_purchase_workfl/odoo-purchase-workflow/SKILL.md) | `odoo_purchase_workfl` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo purchase workflow. Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching. |
+| [odoo-sales-crm-expert](../../skills/frontend/ui-ux/odoo_sales_crm_exper/odoo-sales-crm-expert/SKILL.md) | `odoo_sales_crm_exper` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo sales crm expert. Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

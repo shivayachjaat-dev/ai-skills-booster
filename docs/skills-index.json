@@ -26173,6 +26173,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-sales-crm-expert",
+    "path": "skills/frontend/ui-ux/odoo_sales_crm_exper/odoo-sales-crm-expert",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_sales_crm_exper",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo sales crm expert. Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Sales Crm Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

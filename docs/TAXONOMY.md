@@ -1261,6 +1261,7 @@ AI_Skills_Booster/
 │   │   ├── odoo_performance_tun/ (1 skills)
 │   │   ├── odoo_project_timeshe/ (1 skills)
 │   │   ├── odoo_purchase_workfl/ (1 skills)
+│   │   ├── odoo_sales_crm_exper/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
