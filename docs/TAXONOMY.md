@@ -187,6 +187,7 @@ AI_Skills_Booster/
 │   │   ├── code_showcase_system/ (1 skills)
 │   │   ├── code_simplifier/ (1 skills)
 │   │   ├── codebase_cleanup_dep/ (1 skills)
+│   │   ├── codebase_cleanup_ref/ (1 skills)
 │   │   ├── codebase_design/ (1 skills)
 │   │   ├── codex_delegate/ (1 skills)
 │   │   ├── codex_review/ (1 skills)

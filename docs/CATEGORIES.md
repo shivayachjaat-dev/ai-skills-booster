@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **744** skills across structured domains, categories, and subcategories.
+Master navigation for **745** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (264 skills)
+## Ai Engineering (265 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -156,7 +156,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (185 skills)
+### Models (186 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -404,6 +404,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [code-simplifier](../skills/ai-engineering/models/code_simplifier/code-simplifier/SKILL.md) — Use this skill to simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specifi
 - **Codebase_Cleanup_Dep** (1):
   - [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to audit, identify, and eliminate dead code, unused dependencies, obsolete configuration files, and unreferenced assets across a codebase to reduce technical debt and build times.
+- **Codebase_Cleanup_Ref** (1):
+  - [codebase-cleanup-refactor-clean](../skills/ai-engineering/models/codebase_cleanup_ref/codebase-cleanup-refactor-clean/SKILL.md) — Use this skill to design, implement, and operate production workflows for codebase cleanup refactor clean. You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.
 - **Codebase_Design** (1):
   - [codebase-design](../skills/ai-engineering/models/codebase_design/codebase-design/SKILL.md) — Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.
 - **Codex_Delegate** (1):

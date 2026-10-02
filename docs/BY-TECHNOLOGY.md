@@ -1053,7 +1053,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (562 skills)
+## Bash (563 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1211,6 +1211,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [code-showcase-systematic-debugging](../skills/ai-engineering/models/code_showcase_system/code-showcase-systematic-debugging/SKILL.md) — Use this skill to four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST.
 - [code-simplifier](../skills/ai-engineering/models/code_simplifier/code-simplifier/SKILL.md) — Use this skill to simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specifi
 - [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to audit, identify, and eliminate dead code, unused dependencies, obsolete configuration files, and unreferenced assets across a codebase to reduce technical debt and build times.
+- [codebase-cleanup-refactor-clean](../skills/ai-engineering/models/codebase_cleanup_ref/codebase-cleanup-refactor-clean/SKILL.md) — Use this skill to design, implement, and operate production workflows for codebase cleanup refactor clean. You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.
 - [codebase-design](../skills/ai-engineering/models/codebase_design/codebase-design/SKILL.md) — Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.
 - [codex-delegate](../skills/ai-engineering/models/codex_delegate/codex-delegate/SKILL.md) — Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly
 - [codex-review](../skills/ai-engineering/models/codex_review/codex-review/SKILL.md) — Use this skill to professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.
@@ -2423,6 +2424,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Codebase Cleanup Deps Audit (1 skills)
 
 - [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to audit, identify, and eliminate dead code, unused dependencies, obsolete configuration files, and unreferenced assets across a codebase to reduce technical debt and build times.
+
+## Codebase Cleanup Refactor Clean (1 skills)
+
+- [codebase-cleanup-refactor-clean](../skills/ai-engineering/models/codebase_cleanup_ref/codebase-cleanup-refactor-clean/SKILL.md) — Use this skill to design, implement, and operate production workflows for codebase cleanup refactor clean. You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.
 
 ## Codebase Design (1 skills)
 
@@ -4239,7 +4244,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (665 skills)
+## Python (666 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4418,6 +4423,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [code-showcase-systematic-debugging](../skills/ai-engineering/models/code_showcase_system/code-showcase-systematic-debugging/SKILL.md) — Use this skill to four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST.
 - [code-simplifier](../skills/ai-engineering/models/code_simplifier/code-simplifier/SKILL.md) — Use this skill to simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specifi
 - [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to audit, identify, and eliminate dead code, unused dependencies, obsolete configuration files, and unreferenced assets across a codebase to reduce technical debt and build times.
+- [codebase-cleanup-refactor-clean](../skills/ai-engineering/models/codebase_cleanup_ref/codebase-cleanup-refactor-clean/SKILL.md) — Use this skill to design, implement, and operate production workflows for codebase cleanup refactor clean. You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.
 - [codebase-design](../skills/ai-engineering/models/codebase_design/codebase-design/SKILL.md) — Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.
 - [codex-delegate](../skills/ai-engineering/models/codex_delegate/codex-delegate/SKILL.md) — Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly
 - [codex-review](../skills/ai-engineering/models/codex_review/codex-review/SKILL.md) — Use this skill to professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.

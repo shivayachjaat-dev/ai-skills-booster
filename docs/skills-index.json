@@ -4065,6 +4065,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codebase-cleanup-refactor-clean",
+    "path": "skills/ai-engineering/models/codebase_cleanup_ref/codebase-cleanup-refactor-clean",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "codebase_cleanup_ref",
+    "description": "Use this skill to design, implement, and operate production workflows for codebase cleanup refactor clean. You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "codebase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codebase Cleanup Refactor Clean",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "codebase-design",
     "path": "skills/ai-engineering/models/codebase_design/codebase-design",
     "domain": "ai-engineering",
