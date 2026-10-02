@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **187 skills** available in this category.
+> **188 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -188,6 +188,7 @@
 | [nosql-expert](../../skills/frontend/ui-ux/nosql_expert/nosql-expert/SKILL.md) | `nosql_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nosql expert. Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems. |
 | [notion-template-business](../../skills/frontend/ui-ux/notion_template_busi/notion-template-business/SKILL.md) | `notion_template_busi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for notion template business. Expert in building and selling Notion templates as a business - not |
 | [nx-workspace-patterns](../../skills/frontend/ui-ux/nx_workspace_pattern/nx-workspace-patterns/SKILL.md) | `nx_workspace_pattern` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nx workspace patterns. Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands. |
+| [observability-cloud-planning](../../skills/frontend/ui-ux/observability_cloud_/observability-cloud-planning/SKILL.md) | `observability_cloud_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for observability cloud planning. Build a cloud, SLO, and incident-readiness register after intake. Use when an SME needs monitoring scope, alert ownership, cost limits, or service planning. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

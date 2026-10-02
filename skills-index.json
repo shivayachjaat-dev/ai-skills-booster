@@ -25711,6 +25711,28 @@
     "maturity": "stable"
   },
   {
+    "name": "observability-cloud-planning",
+    "path": "skills/frontend/ui-ux/observability_cloud_/observability-cloud-planning",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "observability_cloud_",
+    "description": "Use this skill to design, implement, and operate production workflows for observability cloud planning. Build a cloud, SLO, and incident-readiness register after intake. Use when an SME needs monitoring scope, alert ownership, cost limits, or service planning.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "observability",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Observability Cloud Planning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
