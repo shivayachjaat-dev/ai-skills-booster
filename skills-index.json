@@ -9499,6 +9499,28 @@
     "maturity": "stable"
   },
   {
+    "name": "leiloeiro-risco",
+    "path": "skills/ai-engineering/models/leiloeiro_risco/leiloeiro-risco",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "leiloeiro_risco",
+    "description": "Use this skill to design, implement, and operate production workflows for leiloeiro risco. Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais, stress test 4 cenarios e ROI ponderado por risco.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "leiloeiro",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Leiloeiro Risco",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

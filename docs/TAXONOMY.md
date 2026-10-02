@@ -434,6 +434,7 @@ AI_Skills_Booster/
 │   │   ├── leiloeiro_ia/ (1 skills)
 │   │   ├── leiloeiro_juridico/ (1 skills)
 │   │   ├── leiloeiro_mercado/ (1 skills)
+│   │   ├── leiloeiro_risco/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

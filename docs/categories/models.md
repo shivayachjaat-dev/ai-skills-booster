@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **343 skills** available in this category.
+> **344 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -341,6 +341,7 @@
 | [leiloeiro-ia](../../skills/ai-engineering/models/leiloeiro_ia/leiloeiro-ia/SKILL.md) | `leiloeiro_ia` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leiloeiro ia. Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado integrada. Orquestra os 5 modulos especializados. |
 | [leiloeiro-juridico](../../skills/ai-engineering/models/leiloeiro_juridico/leiloeiro-juridico/SKILL.md) | `leiloeiro_juridico` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leiloeiro juridico. Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria, CPC arts 829-903, Lei 9514/97, onus reais, embargos e jurisprudencia. |
 | [leiloeiro-mercado](../../skills/ai-engineering/models/leiloeiro_mercado/leiloeiro-mercado/SKILL.md) | `leiloeiro_mercado` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leiloeiro mercado. Analise de mercado imobiliario para leiloes. Liquidez, desagio tipico, ROI, estrategias de saida (flip/reforma/renda), Selic 2025 e benchmark CDI/FII. |
+| [leiloeiro-risco](../../skills/ai-engineering/models/leiloeiro_risco/leiloeiro-risco/SKILL.md) | `leiloeiro_risco` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leiloeiro risco. Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais, stress test 4 cenarios e ROI ponderado por risco. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
