@@ -7505,6 +7505,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cc-skill-coding-standards",
+    "path": "skills/frontend/frameworks/cc_skill_coding_stan/cc-skill-coding-standards",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "cc_skill_coding_stan",
+    "description": "Use this skill to universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "cc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cc Skill Coding Standards",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

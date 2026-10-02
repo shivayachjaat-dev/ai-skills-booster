@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **471** skills across structured domains, categories, and subcategories.
+Master navigation for **472** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (161 skills)
 
@@ -982,7 +982,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (46 skills)
+## Frontend (47 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1008,7 +1008,7 @@ Category index: [`docs/categories/design-systems.md`](categories/design-systems.
 - **Clean Ui Anti Slop** (1):
   - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
-### Frameworks (3 skills)
+### Frameworks (4 skills)
 Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 
 - **Angular** (1):
@@ -1017,6 +1017,8 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
   - [astro-content-and-islands-web-architecture](../skills/frontend/frameworks/astro-islands/astro-content-and-islands-web-architecture/SKILL.md) — Use this skill to design, build, and optimize content-driven websites and web applications using Astro 4/5 Islands Architecture. It covers zero-JS by default rendering, selective client hydration (client:load, client:idle, client:visible), type-safe Content Collections with Zod schemas, View Transitions API, hybrid SSR adapter configuration, and SEO optimization.
 - **Azure_Cosmos_Java** (1):
   - [azure-cosmos-java](../skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java/SKILL.md) — Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.
+- **Cc_Skill_Coding_Stan** (1):
+  - [cc-skill-coding-standards](../skills/frontend/frameworks/cc_skill_coding_stan/cc-skill-coding-standards/SKILL.md) — Use this skill to universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
 
 ### Nextjs (1 skills)
 Category index: [`docs/categories/nextjs.md`](categories/nextjs.md)
