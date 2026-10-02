@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **549** skills across structured domains, categories, and subcategories.
+Master navigation for **550** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (189 skills)
 
@@ -1656,7 +1656,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (11 skills)
+## Testing (12 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -1676,7 +1676,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (4 skills)
+### Automation (5 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -1687,6 +1687,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [browser-testing-with-devtools](../skills/testing/automation/browser_testing_with/browser-testing-with-devtools/SKILL.md) — Use this skill to test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, accessibility, and performance traces.
 - **Circleci_Automation** (1):
   - [circleci-automation](../skills/testing/automation/circleci_automation/circleci-automation/SKILL.md) — Use this skill to automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.
+- **Code_Showcase_Testin** (1):
+  - [code-showcase-testing-patterns](../skills/testing/automation/code_showcase_testin/code-showcase-testing-patterns/SKILL.md) — Use this skill to jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

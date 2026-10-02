@@ -12615,6 +12615,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-showcase-testing-patterns",
+    "path": "skills/testing/automation/code_showcase_testin/code-showcase-testing-patterns",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "code_showcase_testin",
+    "description": "Use this skill to jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
+    "tags": [
+      "testing",
+      "automation",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Showcase Testing Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

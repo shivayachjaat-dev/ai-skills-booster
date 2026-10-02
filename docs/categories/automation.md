@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **4 skills** available in this category.
+> **5 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -8,3 +8,4 @@
 | [brooks-sweep](../../skills/testing/automation/brooks_sweep/brooks-sweep/SKILL.md) | `brooks_sweep` | `advanced` | `stable` | Use this skill to full-sweep mode: runs a unified analysis across all quality dimensions — code decay, architecture, tech debt, and test quality — then applies fixes directly to the codebase. Safe changes are auto-applied; risky changes are confirmed before execution. |
 | [browser-testing-with-devtools](../../skills/testing/automation/browser_testing_with/browser-testing-with-devtools/SKILL.md) | `browser_testing_with` | `advanced` | `stable` | Use this skill to test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, accessibility, and performance traces. |
 | [circleci-automation](../../skills/testing/automation/circleci_automation/circleci-automation/SKILL.md) | `circleci_automation` | `advanced` | `stable` | Use this skill to automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas. |
+| [code-showcase-testing-patterns](../../skills/testing/automation/code_showcase_testin/code-showcase-testing-patterns/SKILL.md) | `code_showcase_testin` | `advanced` | `stable` | Use this skill to jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle. |
