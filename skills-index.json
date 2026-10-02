@@ -3537,6 +3537,28 @@
     "maturity": "stable"
   },
   {
+    "name": "card-based-design",
+    "path": "skills/ai-engineering/models/card_based_design/card-based-design",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "card_based_design",
+    "description": "Use this skill to design, implement, and operate production workflows for card based design. Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "card",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Card Based Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "carrier-relationship-management",
     "path": "skills/ai-engineering/models/carrier_relationship/carrier-relationship-management",
     "domain": "ai-engineering",

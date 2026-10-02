@@ -163,6 +163,7 @@ AI_Skills_Booster/
 │   │   ├── calendly_automation/ (1 skills)
 │   │   ├── candidate_talent_poo/ (1 skills)
 │   │   ├── capacity_workload_pl/ (1 skills)
+│   │   ├── card_based_design/ (1 skills)
 │   │   ├── carrier_relationship/ (1 skills)
 │   │   ├── cc_skill_strategic_c/ (1 skills)
 │   │   ├── churn_prevention/ (1 skills)

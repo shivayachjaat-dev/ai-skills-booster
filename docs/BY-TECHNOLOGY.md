@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (581 skills)
+## Bash (582 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1199,6 +1199,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [calendly-automation](../skills/ai-engineering/models/calendly_automation/calendly-automation/SKILL.md) — Use this skill to automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.
 - [candidate-talent-pool](../skills/ai-engineering/models/candidate_talent_poo/candidate-talent-pool/SKILL.md) — Use this skill to candidate and prospect pool: contact details, experience, skills, consent status and date, referral source and last contact. Use for talent pipelines and re-engagement.
 - [capacity-workload-planner](../skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner/SKILL.md) — Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning.
+- [card-based-design](../skills/ai-engineering/models/card_based_design/card-based-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for card based design. Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.
 - [carrier-relationship-management](../skills/ai-engineering/models/carrier_relationship/carrier-relationship-management/SKILL.md) — Use this skill to codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.
 - [cc-skill-strategic-compact](../skills/ai-engineering/models/cc_skill_strategic_c/cc-skill-strategic-compact/SKILL.md) — Use this skill to prepare a verified checkpoint before condensing an agent conversation at a phase boundary. Use during long tasks when context is repetitive; preserves constraints, evidence, decisions and the next action.
 - [churn-prevention](../skills/ai-engineering/models/churn_prevention/churn-prevention/SKILL.md) — Use this skill to reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement.
@@ -2082,6 +2083,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Capacity Workload Planner (1 skills)
 
 - [capacity-workload-planner](../skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner/SKILL.md) — Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning.
+
+## Card Based Design (1 skills)
+
+- [card-based-design](../skills/ai-engineering/models/card_based_design/card-based-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for card based design. Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.
 
 ## Career Ops (1 skills)
 
@@ -4334,7 +4339,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (684 skills)
+## Python (685 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4489,6 +4494,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [calendly-automation](../skills/ai-engineering/models/calendly_automation/calendly-automation/SKILL.md) — Use this skill to automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.
 - [candidate-talent-pool](../skills/ai-engineering/models/candidate_talent_poo/candidate-talent-pool/SKILL.md) — Use this skill to candidate and prospect pool: contact details, experience, skills, consent status and date, referral source and last contact. Use for talent pipelines and re-engagement.
 - [capacity-workload-planner](../skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner/SKILL.md) — Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning.
+- [card-based-design](../skills/ai-engineering/models/card_based_design/card-based-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for card based design. Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.
 - [carrier-relationship-management](../skills/ai-engineering/models/carrier_relationship/carrier-relationship-management/SKILL.md) — Use this skill to codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.
 - [cc-skill-strategic-compact](../skills/ai-engineering/models/cc_skill_strategic_c/cc-skill-strategic-compact/SKILL.md) — Use this skill to prepare a verified checkpoint before condensing an agent conversation at a phase boundary. Use during long tasks when context is repetitive; preserves constraints, evidence, decisions and the next action.
 - [churn-prevention](../skills/ai-engineering/models/churn_prevention/churn-prevention/SKILL.md) — Use this skill to reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement.

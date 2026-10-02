@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **763** skills across structured domains, categories, and subcategories.
+Master navigation for **764** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (267 skills)
+## Ai Engineering (268 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -156,7 +156,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (188 skills)
+### Models (189 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -356,6 +356,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [candidate-talent-pool](../skills/ai-engineering/models/candidate_talent_poo/candidate-talent-pool/SKILL.md) — Use this skill to candidate and prospect pool: contact details, experience, skills, consent status and date, referral source and last contact. Use for talent pipelines and re-engagement.
 - **Capacity_Workload_Pl** (1):
   - [capacity-workload-planner](../skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner/SKILL.md) — Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning.
+- **Card_Based_Design** (1):
+  - [card-based-design](../skills/ai-engineering/models/card_based_design/card-based-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for card based design. Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.
 - **Carrier_Relationship** (1):
   - [carrier-relationship-management](../skills/ai-engineering/models/carrier_relationship/carrier-relationship-management/SKILL.md) — Use this skill to codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.
 - **Cc_Skill_Strategic_C** (1):

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 763 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 764 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -161,6 +161,7 @@
 | [calendly-automation](skills/ai-engineering/models/calendly_automation/calendly-automation/SKILL.md) | `ai-engineering` | `models` | `calendly_automation` | `advanced` | `stable` | Use this skill to automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas. |
 | [candidate-talent-pool](skills/ai-engineering/models/candidate_talent_poo/candidate-talent-pool/SKILL.md) | `ai-engineering` | `models` | `candidate_talent_poo` | `advanced` | `stable` | Use this skill to candidate and prospect pool: contact details, experience, skills, consent status and date, referral source and last contact. Use for talent pipelines and re-engagement. |
 | [capacity-workload-planner](skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner/SKILL.md) | `ai-engineering` | `models` | `capacity_workload_pl` | `advanced` | `stable` | Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning. |
+| [card-based-design](skills/ai-engineering/models/card_based_design/card-based-design/SKILL.md) | `ai-engineering` | `models` | `card_based_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for card based design. Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers. |
 | [carrier-relationship-management](skills/ai-engineering/models/carrier_relationship/carrier-relationship-management/SKILL.md) | `ai-engineering` | `models` | `carrier_relationship` | `advanced` | `stable` | Use this skill to codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships. |
 | [cc-skill-strategic-compact](skills/ai-engineering/models/cc_skill_strategic_c/cc-skill-strategic-compact/SKILL.md) | `ai-engineering` | `models` | `cc_skill_strategic_c` | `advanced` | `stable` | Use this skill to prepare a verified checkpoint before condensing an agent conversation at a phase boundary. Use during long tasks when context is repetitive; preserves constraints, evidence, decisions and the next action. |
 | [churn-prevention](skills/ai-engineering/models/churn_prevention/churn-prevention/SKILL.md) | `ai-engineering` | `models` | `churn_prevention` | `advanced` | `stable` | Use this skill to reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement. |
