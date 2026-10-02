@@ -14073,6 +14073,28 @@
     "maturity": "stable"
   },
   {
+    "name": "eas-workflows",
+    "path": "skills/frontend/ui-ux/eas_workflows/eas-workflows",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "eas_workflows",
+    "description": "Use this skill to design, implement, and operate production workflows for eas workflows. Curated upstream guidance for Eas Workflows; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "eas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Eas Workflows",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

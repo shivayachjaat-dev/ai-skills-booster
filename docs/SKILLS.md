@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 885 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 886 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -625,6 +625,7 @@
 | [eas-hosting](skills/frontend/ui-ux/eas_hosting/eas-hosting/SKILL.md) | `frontend` | `ui-ux` | `eas_hosting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eas hosting. Curated upstream guidance for Eas Hosting; use when the workflow matches the user goal. |
 | [eas-observe](skills/frontend/ui-ux/eas_observe/eas-observe/SKILL.md) | `frontend` | `ui-ux` | `eas_observe` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eas observe. Curated upstream guidance for Eas Observe; use when the workflow matches the user goal. |
 | [eas-simulator](skills/frontend/ui-ux/eas_simulator/eas-simulator/SKILL.md) | `frontend` | `ui-ux` | `eas_simulator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eas simulator. Curated upstream guidance for Eas Simulator; use when the workflow matches the user goal. |
+| [eas-workflows](skills/frontend/ui-ux/eas_workflows/eas-workflows/SKILL.md) | `frontend` | `ui-ux` | `eas_workflows` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eas workflows. Curated upstream guidance for Eas Workflows; use when the workflow matches the user goal. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
