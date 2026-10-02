@@ -126,7 +126,7 @@ AI_Skills_Booster/
 │   │   ├── aws_mcp_setup/ (1 skills)
 │   │   ├── azure_keyvault_secre/ (1 skills)
 │   │   ├── azure_mgmt_apicenter/ (2 skills)
-│   │   ├── azure_mgmt_apimanage/ (1 skills)
+│   │   ├── azure_mgmt_apimanage/ (2 skills)
 │   │   └── fastapi-endpoints/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)

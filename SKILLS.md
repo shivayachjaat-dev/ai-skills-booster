@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 319 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 320 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -115,6 +115,7 @@
 | [azure-mgmt-apicenter-dotnet](skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-dotnet/SKILL.md) | `backend` | `api-frameworks` | `azure_mgmt_apicenter` | `advanced` | `stable` | Use this skill to azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery. |
 | [azure-mgmt-apicenter-py](skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-py/SKILL.md) | `backend` | `api-frameworks` | `azure_mgmt_apicenter` | `advanced` | `stable` | Use this skill to azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization. |
 | [azure-mgmt-apimanagement-dotnet](skills/backend/api-frameworks/azure_mgmt_apimanage/azure-mgmt-apimanagement-dotnet/SKILL.md) | `backend` | `api-frameworks` | `azure_mgmt_apimanage` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for API Management in .NET. |
+| [azure-mgmt-apimanagement-py](skills/backend/api-frameworks/azure_mgmt_apimanage/azure-mgmt-apimanagement-py/SKILL.md) | `backend` | `api-frameworks` | `azure_mgmt_apimanage` | `advanced` | `stable` | Use this skill to azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies. |
 | [fastapi-high-performance-endpoint-builder](skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) | `backend` | `api-frameworks` | `fastapi-endpoints` | `intermediate` | `stable` | Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation. |
 | [celery-distributed-task-processing](skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) | `backend` | `background-tasks` | `celery` | `advanced` | `stable` | Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization. |
 | [redis-streams-event-processing](skills/backend/caching/redis-streams/redis-streams-event-processing/SKILL.md) | `backend` | `caching` | `redis-streams` | `advanced` | `stable` | Use this skill when architecting, implementing, and operating event-driven stream processing systems using Redis Streams. It guides the agent through appending events with XADD, managing competing Consumer Groups with XREADGROUP, tracking the Pending Entries List (PEL), dead-lettering abandoned messages via XAUTOCLAIM, and stream memory trimming with MAXLEN. |
