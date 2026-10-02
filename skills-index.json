@@ -2327,6 +2327,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llmops-platform-engineering",
+    "path": "skills/ai-engineering/llm-ops/llmops_platform_engi/llmops-platform-engineering",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llmops_platform_engi",
+    "description": "Use this skill to design, implement, and operate production workflows for llmops platform engineering. Build production LLMOps platforms with CI/CD, model promotion workflows,",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llmops",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llmops Platform Engineering",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",
