@@ -3691,6 +3691,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-reviewer",
+    "path": "skills/ai-engineering/models/code_reviewer/code-reviewer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "code_reviewer",
+    "description": "Use this skill to elite code review expert specializing in modern AI-powered code",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Reviewer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
