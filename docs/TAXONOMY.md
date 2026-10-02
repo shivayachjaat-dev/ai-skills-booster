@@ -567,7 +567,8 @@ AI_Skills_Booster/
 │   │   └── prism-wiremock/ (1 skills)
 │   ├── automation/
 │   │   ├── bash_scripting/ (1 skills)
-│   │   └── brooks_sweep/ (1 skills)
+│   │   ├── brooks_sweep/ (1 skills)
+│   │   └── browser_testing_with/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/

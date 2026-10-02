@@ -10041,6 +10041,28 @@
     "maturity": "stable"
   },
   {
+    "name": "browser-testing-with-devtools",
+    "path": "skills/testing/automation/browser_testing_with/browser-testing-with-devtools",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "browser_testing_with",
+    "description": "Use this skill to test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, accessibility, and performance traces.",
+    "tags": [
+      "testing",
+      "automation",
+      "browser",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Browser Testing With Devtools",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",
