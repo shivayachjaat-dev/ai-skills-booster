@@ -17439,6 +17439,28 @@
     "maturity": "stable"
   },
   {
+    "name": "github-actions-templates",
+    "path": "skills/frontend/ui-ux/github_actions_templ/github-actions-templates",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "github_actions_templ",
+    "description": "Use this skill to design, implement, and operate production workflows for github actions templates. Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "github",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Github Actions Templates",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
