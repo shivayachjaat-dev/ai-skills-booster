@@ -3449,6 +3449,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cloud-k8s",
+    "path": "skills/ai-engineering/models/cloud_k8s/cloud-k8s",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cloud_k8s",
+    "description": "Use this skill to authorized cloud, container, and Kubernetes security assessment: metadata SSRF, IAM misconfiguration, container escape paths, and cluster RBAC review.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cloud",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cloud K8S",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

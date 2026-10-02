@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **114 skills** available in this category.
+> **115 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -117,4 +117,5 @@
 | [clients-accounts](../../skills/ai-engineering/models/clients_accounts/clients-accounts/SKILL.md) | `clients_accounts` | `advanced` | `stable` | Use this skill to client and account register: contacts, billing address, tax ID and basis, payment terms, invoice totals, amounts paid and outstanding balance. Use for account tracking. |
 | [closed-loop-delivery](../../skills/ai-engineering/models/closed_loop_delivery/closed-loop-delivery/SKILL.md) | `closed_loop_delivery` | `advanced` | `stable` | Use this skill to use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification. |
 | [cloud-iam-deep](../../skills/ai-engineering/models/cloud_iam_deep/cloud-iam-deep/SKILL.md) | `cloud_iam_deep` | `advanced` | `stable` | Use this skill to cloud IAM red-team attack chain across AWS, Azure, GCP |
+| [cloud-k8s](../../skills/ai-engineering/models/cloud_k8s/cloud-k8s/SKILL.md) | `cloud_k8s` | `advanced` | `stable` | Use this skill to authorized cloud, container, and Kubernetes security assessment: metadata SSRF, IAM misconfiguration, container escape paths, and cluster RBAC review. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

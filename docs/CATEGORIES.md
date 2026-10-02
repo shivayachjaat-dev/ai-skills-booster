@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **519** skills across structured domains, categories, and subcategories.
+Master navigation for **520** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (175 skills)
+## Ai Engineering (176 skills)
 
 ### Agents (22 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -128,7 +128,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (114 skills)
+### Models (115 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -348,6 +348,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [closed-loop-delivery](../skills/ai-engineering/models/closed_loop_delivery/closed-loop-delivery/SKILL.md) — Use this skill to use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification.
 - **Cloud_Iam_Deep** (1):
   - [cloud-iam-deep](../skills/ai-engineering/models/cloud_iam_deep/cloud-iam-deep/SKILL.md) — Use this skill to cloud IAM red-team attack chain across AWS, Azure, GCP
+- **Cloud_K8S** (1):
+  - [cloud-k8s](../skills/ai-engineering/models/cloud_k8s/cloud-k8s/SKILL.md) — Use this skill to authorized cloud, container, and Kubernetes security assessment: metadata SSRF, IAM misconfiguration, container escape paths, and cluster RBAC review.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
