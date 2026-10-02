@@ -28,6 +28,7 @@ AI_Skills_Booster/
 │   │   ├── dispatching_parallel/ (1 skills)
 │   │   ├── ditto/ (1 skills)
 │   │   ├── documentation_and_ad/ (1 skills)
+│   │   ├── ecl_harness_engineer/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── forensic-audit/ (1 skills)
 │   │   ├── geo_audit/ (1 skills)

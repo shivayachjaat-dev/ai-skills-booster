@@ -540,6 +540,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ecl-harness-engineer",
+    "path": "skills/ai-engineering/agents/ecl_harness_engineer/ecl-harness-engineer",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "ecl_harness_engineer",
+    "description": "Use this skill to design, implement, and operate production workflows for ecl harness engineer. Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "ecl",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ecl Harness Engineer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-chaos-testing-and-fault-injection",
     "path": "skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection",
     "domain": "ai-engineering",
