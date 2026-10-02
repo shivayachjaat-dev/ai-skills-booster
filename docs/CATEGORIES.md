@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **126** skills across structured domains, categories, and subcategories.
+Master navigation for **127** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (25 skills)
+## Ai Engineering (26 skills)
 
 ### Agents (12 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -32,11 +32,13 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
 - **Scheduling** (1):
   - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 
-### Communication (1 skills)
+### Communication (2 skills)
 Category index: [`docs/categories/communication.md`](categories/communication.md)
 
 - **Agent Email** (1):
   - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
+- **Voice Telephony** (1):
+  - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 
 ### Context (1 skills)
 Category index: [`docs/categories/context.md`](categories/context.md)

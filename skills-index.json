@@ -322,6 +322,32 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-agent-voice-telephony-and-sms-integration",
+    "path": "skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration",
+    "domain": "ai-engineering",
+    "category": "communication",
+    "subcategory": "voice-telephony",
+    "description": "Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.",
+    "tags": [
+      "voice-agents",
+      "telephony",
+      "twilio",
+      "sms",
+      "webrtc",
+      "speech-to-text",
+      "audio-streaming"
+    ],
+    "technologies": [
+      "Twilio API",
+      "Python",
+      "WebSockets",
+      "FastAPI",
+      "TwiML"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "context-window-engineering",
     "path": "skills/ai-engineering/context/optimization/context-window-engineering",
     "domain": "ai-engineering",

@@ -329,9 +329,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [webauthn-fido2-passkey-authentication](../skills/security/zero-trust/mfa-webauthn/webauthn-fido2-passkey-authentication/SKILL.md) — Use this skill when designing, implementing, and securing passwordless authentication and multi-factor authentication (MFA) using WebAuthn, FIDO2, and Passkeys. It covers registration and authentication ceremony state machines, cryptographic challenge verification, public key credential storage, authenticator attestation, and signature counter verification.
 
-## FastAPI (9 skills)
+## FastAPI (10 skills)
 
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
+- [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.
@@ -1014,7 +1015,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (62 skills)
+## Python (63 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
@@ -1028,6 +1029,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [multi-agent-workload-distribution-and-cost-optimization](../skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization/SKILL.md) — Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.
 - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
+- [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 - [context-window-engineering](../skills/ai-engineering/context/optimization/context-window-engineering/SKILL.md) — Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs.
 - [deepeval-unit-testing-llm-apps](../skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps/SKILL.md) — Use this skill when designing, authoring, and automating CI/CD unit testing suites for Large Language Model applications using DeepEval. It guides the agent through defining LLM test cases (LLMTestCase), configuring G-Eval custom criteria metrics, hallucination and answer relevancy scoring, integrating with pytest, and setting regression assertions.
 - [promptfoo-llm-eval-benchmarking](../skills/ai-engineering/evaluation/promptfoo/promptfoo-llm-eval-benchmarking/SKILL.md) — Use this skill when designing, executing, and automating LLM prompt evaluations and adversarial red-teaming benchmarks using promptfoo. It guides the agent through defining test matrices (providers x prompts x variables), configuring deterministic and LLM-as-a-judge assertions, running red-team vulnerability scans, and integrating evaluations into CI/CD pipelines.
@@ -1416,6 +1418,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [secret-leak-detection-and-remediation](../skills/security/secret-management/detection/secret-leak-detection-and-remediation/SKILL.md) — Use this skill when detecting, containing, revoking, and purging secrets committed to Git repositories or build artifacts. It guides the agent through scanning history with TruffleHog/Gitleaks, executing emergency credential revocation, rewriting Git history with git-filter-repo, and installing pre-commit guardrails.
 
+## TwiML (1 skills)
+
+- [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
+
+## Twilio API (1 skills)
+
+- [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
+
 ## TypeScript (23 skills)
 
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
@@ -1477,6 +1487,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## WebSocket (1 skills)
 
 - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
+
+## WebSockets (1 skills)
+
+- [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 
 ## Webhooks (1 skills)
 
