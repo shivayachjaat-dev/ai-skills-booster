@@ -604,7 +604,8 @@ AI_Skills_Booster/
 │   │   ├── data_privacy_control/ (1 skills)
 │   │   ├── data_quality_framewo/ (1 skills)
 │   │   ├── dbos_golang/ (1 skills)
-│   │   └── dbos_python/ (1 skills)
+│   │   ├── dbos_python/ (1 skills)
+│   │   └── dbos_typescript/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)

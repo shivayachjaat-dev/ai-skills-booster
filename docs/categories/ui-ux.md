@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **54 skills** available in this category.
+> **55 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -58,3 +58,4 @@
 | [data-quality-frameworks](../../skills/frontend/ui-ux/data_quality_framewo/data-quality-frameworks/SKILL.md) | `data_quality_framewo` | `advanced` | `stable` | Use this skill to implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts. |
 | [dbos-golang](../../skills/frontend/ui-ux/dbos_golang/dbos-golang/SKILL.md) | `dbos_golang` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control. |
 | [dbos-python](../../skills/frontend/ui-ux/dbos_python/dbos-python/SKILL.md) | `dbos_python` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control. |
+| [dbos-typescript](../../skills/frontend/ui-ux/dbos_typescript/dbos-typescript/SKILL.md) | `dbos_typescript` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control. |

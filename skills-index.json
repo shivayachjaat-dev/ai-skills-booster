@@ -11741,6 +11741,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dbos-typescript",
+    "path": "skills/frontend/ui-ux/dbos_typescript/dbos-typescript",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "dbos_typescript",
+    "description": "Use this skill to guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "dbos",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dbos Typescript",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
