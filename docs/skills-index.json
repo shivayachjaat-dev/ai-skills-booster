@@ -7585,6 +7585,28 @@
     "maturity": "stable"
   },
   {
+    "name": "git-advanced-workflows",
+    "path": "skills/ai-engineering/models/git_advanced_workflo/git-advanced-workflows",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "git_advanced_workflo",
+    "description": "Use this skill to design, implement, and operate production workflows for git advanced workflows. Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "git",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Git Advanced Workflows",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
