@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **409 skills** available in this category.
+> **410 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -406,6 +406,7 @@
 | [nexrad-mosaic-construction](../../skills/ai-engineering/models/nexrad_mosaic_constr/nexrad-mosaic-construction/SKILL.md) | `nexrad_mosaic_constr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nexrad mosaic construction. Construct a quality-aware NEXRAD multi-radar mosaic from aligned single-site products with explicit coverage, beam geometry, quality weighting, overlap resolution, and provenance. |
 | [nexrad-radar-visualization](../../skills/ai-engineering/models/nexrad_radar_visuali/nexrad-radar-visualization/SKILL.md) | `nexrad_radar_visuali` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nexrad radar visualization. Plot NEXRAD Level II/III site scans and decoded radar mosaics with correct radar geometry, map grids, units, quality masks, timestamps, and provenance. |
 | [nika](../../skills/ai-engineering/models/nika/nika/SKILL.md) | `nika` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nika. Runs repeatable AI work as checked, budgeted workflow files. |
+| [nodejs-backend-patterns](../../skills/ai-engineering/models/nodejs_backend_patte/nodejs-backend-patterns/SKILL.md) | `nodejs_backend_patte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nodejs backend patterns. Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

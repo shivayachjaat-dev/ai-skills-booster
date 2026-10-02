@@ -11435,6 +11435,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nodejs-backend-patterns",
+    "path": "skills/ai-engineering/models/nodejs_backend_patte/nodejs-backend-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "nodejs_backend_patte",
+    "description": "Use this skill to design, implement, and operate production workflows for nodejs backend patterns. Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "nodejs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nodejs Backend Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
