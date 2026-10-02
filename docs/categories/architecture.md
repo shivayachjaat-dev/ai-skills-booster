@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,3 +19,4 @@
 | [binary-analysis-patterns](../../skills/software-engineering/architecture/patterns/binary-analysis-patterns/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic. |
 | [binary-diff](../../skills/software-engineering/architecture/patterns/binary-diff/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to cross-version binary symbol migration: diff updated binaries, recover function names without PDBs, and propagate annotations after software updates using BinDiff-style tooling. |
 | [bug-hunter](../../skills/software-engineering/architecture/patterns/bug-hunter/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression. |
+| [bulletmind](../../skills/software-engineering/architecture/patterns/bulletmind/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking. |

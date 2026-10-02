@@ -9925,6 +9925,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bulletmind",
+    "path": "skills/software-engineering/architecture/patterns/bulletmind",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "bulletmind",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bulletmind",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
