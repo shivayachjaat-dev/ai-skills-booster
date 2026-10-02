@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **81 skills** available in this category.
+> **82 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -84,4 +84,5 @@
 | [devrel-content](../../skills/software-engineering/architecture/patterns/devrel-content/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devrel content. When the user wants to create technical content for developers including blog posts, tutorials, and documentation. |
 | [distributed-tracing](../../skills/software-engineering/architecture/patterns/distributed-tracing/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for distributed tracing. Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices. |
 | [dotnet-reverse](../../skills/software-engineering/architecture/patterns/dotnet-reverse/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dotnet reverse. .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling. |
+| [doubt-driven-development](../../skills/software-engineering/architecture/patterns/doubt-driven-development/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for doubt driven development. Subjects every non-trivial decision to a fresh-context adversarial review before it stands. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
