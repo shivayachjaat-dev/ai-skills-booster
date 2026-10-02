@@ -843,6 +843,32 @@
     "maturity": "stable"
   },
   {
+    "name": "cors-csrf-web-security-hardening",
+    "path": "skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening",
+    "domain": "security",
+    "category": "application-security",
+    "subcategory": "cors-csrf",
+    "description": "Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.",
+    "tags": [
+      "security",
+      "cors",
+      "csrf",
+      "web-security",
+      "cookies",
+      "headers",
+      "owasp"
+    ],
+    "technologies": [
+      "HTTP",
+      "FastAPI",
+      "Express.js",
+      "Django",
+      "OWASP"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
