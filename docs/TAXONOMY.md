@@ -369,6 +369,7 @@ AI_Skills_Booster/
 │   │   ├── grok_build/ (1 skills)
 │   │   ├── growth_engine/ (1 skills)
 │   │   ├── hf_mcp/ (1 skills)
+│   │   ├── hig_project_context/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

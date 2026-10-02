@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,170** skills across structured domains, categories, and subcategories.
+Master navigation for **1,171** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (399 skills)
+## Ai Engineering (400 skills)
 
 ### Agents (48 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -202,7 +202,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (292 skills)
+### Models (293 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -768,6 +768,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [growth-engine](../skills/ai-engineering/models/growth_engine/growth-engine/SKILL.md) — Use this skill to design, implement, and operate production workflows for growth engine. Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica.
 - **Hf_Mcp** (1):
   - [hf-mcp](../skills/ai-engineering/models/hf_mcp/hf-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for hf mcp. Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documentation, run compute jobs, and use Gradio Spaces as AI tools. Available when connected to the HF MCP server.
+- **Hig_Project_Context** (1):
+  - [hig-project-context](../skills/ai-engineering/models/hig_project_context/hig-project-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig project context. Create or update a shared Apple design context document that other HIG skills use to tailor guidance.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
