@@ -941,6 +941,28 @@
     "maturity": "stable"
   },
   {
+    "name": "antigravity-workflows",
+    "path": "skills/ai-engineering/models/antigravity_workflow/antigravity-workflows",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "antigravity_workflow",
+    "description": "Use this skill to use when asked to ship a SaaS MVP, audit application security, build an AI agent, run browser QA, or design a domain model with multiple skills and verified checkpoints.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "antigravity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Antigravity Workflows",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",

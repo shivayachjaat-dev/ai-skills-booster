@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,3 +15,4 @@
 | [ai-studio-image](../../skills/ai-engineering/models/ai_studio_image/ai-studio-image/SKILL.md) | `ai_studio_image` | `advanced` | `stable` | Use this skill to geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis. |
 | [akf-trust-metadata](../../skills/ai-engineering/models/akf_trust_metadata/akf-trust-metadata/SKILL.md) | `akf_trust_metadata` | `advanced` | `stable` | Use this skill to the AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing. |
 | [antigravity-maintainer-batch-release](../../skills/ai-engineering/models/antigravity_maintain/antigravity-maintainer-batch-release/SKILL.md) | `antigravity_maintain` | `advanced` | `stable` | Use this skill to run protected AAS maintainer sweeps, PR merge batches, canonical sync, Core preview checks, and scripted releases. Use for repository maintenance, main alignment, CLI/MCP/Workbench changes, or release work; not ordinary contribution tasks. |
+| [antigravity-workflows](../../skills/ai-engineering/models/antigravity_workflow/antigravity-workflows/SKILL.md) | `antigravity_workflow` | `advanced` | `stable` | Use this skill to use when asked to ship a SaaS MVP, audit application security, build an AI agent, run browser QA, or design a domain model with multiple skills and verified checkpoints. |

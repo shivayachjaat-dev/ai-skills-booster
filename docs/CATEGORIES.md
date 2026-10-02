@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **201** skills across structured domains, categories, and subcategories.
+Master navigation for **202** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (46 skills)
+## Ai Engineering (47 skills)
 
 ### Agents (14 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -100,7 +100,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (11 skills)
+### Models (12 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -125,6 +125,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [akf-trust-metadata](../skills/ai-engineering/models/akf_trust_metadata/akf-trust-metadata/SKILL.md) — Use this skill to the AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing.
 - **Antigravity_Maintain** (1):
   - [antigravity-maintainer-batch-release](../skills/ai-engineering/models/antigravity_maintain/antigravity-maintainer-batch-release/SKILL.md) — Use this skill to run protected AAS maintainer sweeps, PR merge batches, canonical sync, Core preview checks, and scripted releases. Use for repository maintenance, main alignment, CLI/MCP/Workbench changes, or release work; not ordinary contribution tasks.
+- **Antigravity_Workflow** (1):
+  - [antigravity-workflows](../skills/ai-engineering/models/antigravity_workflow/antigravity-workflows/SKILL.md) — Use this skill to use when asked to ship a SaaS MVP, audit application security, build an AI agent, run browser QA, or design a domain model with multiple skills and verified checkpoints.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)
