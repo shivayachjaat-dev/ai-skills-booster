@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **14** skills across structured domains, categories, and subcategories.
+Master navigation for **15** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (2 skills)
 
@@ -62,7 +62,13 @@ Category index: [`docs/categories/ecosystem.md`](categories/ecosystem.md)
 - **Creation** (1):
   - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 
-## Security (2 skills)
+## Security (3 skills)
+
+### Ai Security (1 skills)
+Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
+
+- **Defense** (1):
+  - [prompt-injection-defense](../skills/security/ai-security/defense/prompt-injection-defense/SKILL.md) — Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.
 
 ### Code Review (1 skills)
 Category index: [`docs/categories/code-review.md`](categories/code-review.md)

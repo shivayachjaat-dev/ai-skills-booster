@@ -190,6 +190,29 @@
     "maturity": "stable"
   },
   {
+    "name": "prompt-injection-defense",
+    "path": "skills/security/ai-security/defense/prompt-injection-defense",
+    "domain": "security",
+    "category": "ai-security",
+    "subcategory": "defense",
+    "description": "Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.",
+    "tags": [
+      "ai-security",
+      "prompt-injection",
+      "llm-security",
+      "agent-safety",
+      "owasp-llm-top-10"
+    ],
+    "technologies": [
+      "Python",
+      "LLMs",
+      "Guardrails",
+      "Regex"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-security-review",
     "path": "skills/security/code-review/github/github-pr-security-review",
     "domain": "security",

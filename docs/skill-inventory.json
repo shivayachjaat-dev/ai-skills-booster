@@ -34,7 +34,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.162358+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -72,7 +72,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.162358+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -109,7 +109,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.162358+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -147,7 +147,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.162358+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -185,7 +185,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.164364+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -224,7 +224,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.164364+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -263,7 +263,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.164364+00:00"
   },
   {
     "name": "skill-creator",
@@ -300,7 +300,43 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.164364+00:00"
+  },
+  {
+    "name": "prompt-injection-defense",
+    "slug": "prompt-injection-defense",
+    "path": "skills/security/ai-security/defense/prompt-injection-defense",
+    "domain": "security",
+    "category": "ai-security",
+    "subcategory": "defense",
+    "description": "Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.",
+    "tags": [
+      "ai-security",
+      "prompt-injection",
+      "llm-security",
+      "agent-safety",
+      "owasp-llm-top-10"
+    ],
+    "technologies": [
+      "Python",
+      "LLMs",
+      "Guardrails",
+      "Regex"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "python"
+    ],
+    "dependencies": [
+      "python >= 3.9"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "source": "AI_Skills_Booster",
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:18:06.164364+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -337,7 +373,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.166369+00:00"
   },
   {
     "name": "secret-leak-detection-and-remediation",
@@ -376,7 +412,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.166369+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -415,7 +451,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.166369+00:00"
   },
   {
     "name": "debugging-and-error-recovery",
@@ -454,7 +490,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.167873+00:00"
   },
   {
     "name": "code-simplification",
@@ -490,7 +526,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.167873+00:00"
   },
   {
     "name": "playwright-e2e-testing",
@@ -529,6 +565,6 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:18:02.086763+00:00"
+    "updated_at": "2026-10-02T13:18:06.167873+00:00"
   }
 ]
