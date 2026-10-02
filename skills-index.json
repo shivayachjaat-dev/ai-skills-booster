@@ -5053,6 +5053,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-cosmos-db-py",
+    "path": "skills/frontend/ui-ux/azure_cosmos_db_py/azure-cosmos-db-py",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "azure_cosmos_db_py",
+    "description": "Use this skill to build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Cosmos Db Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

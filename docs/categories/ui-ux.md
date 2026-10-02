@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **8 skills** available in this category.
+> **9 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -12,3 +12,4 @@
 | [aws-serverless](../../skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) | `aws_serverless` | `advanced` | `stable` | Use this skill to specialized skill for building production-ready serverless |
 | [aws-serverless-eda](../../skills/frontend/ui-ux/aws_serverless_eda/aws-serverless-eda/SKILL.md) | `aws_serverless_eda` | `advanced` | `stable` | Use this skill to aWS serverless and event-driven architecture expert based on Well-Architected Framework. Use when building serverless APIs, Lambda functions, REST APIs, microservices, or async workflows. |
 | [azure-communication-chat-java](../../skills/frontend/ui-ux/azure_communication_/azure-communication-chat-java/SKILL.md) | `azure_communication_` | `advanced` | `stable` | Use this skill to build real-time chat applications with thread management, messaging, participants, and read receipts. |
+| [azure-cosmos-db-py](../../skills/frontend/ui-ux/azure_cosmos_db_py/azure-cosmos-db-py/SKILL.md) | `azure_cosmos_db_py` | `advanced` | `stable` | Use this skill to build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles. |
