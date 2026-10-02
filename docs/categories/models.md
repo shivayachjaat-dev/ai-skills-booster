@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **166 skills** available in this category.
+> **167 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -169,4 +169,5 @@
 | [daily-gift](../../skills/ai-engineering/models/daily_gift/daily-gift/SKILL.md) | `daily_gift` | `advanced` | `stable` | Use this skill to relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video |
 | [daily-news-report](../../skills/ai-engineering/models/daily_news_report/daily-news-report/SKILL.md) | `daily_news_report` | `advanced` | `stable` | Use this skill to scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. |
 | [data-engineer](../../skills/ai-engineering/models/data_engineer/data-engineer/SKILL.md) | `data_engineer` | `advanced` | `stable` | Use this skill to build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms. |
+| [data-export-engine](../../skills/ai-engineering/models/data_export_engine/data-export-engine/SKILL.md) | `data_export_engine` | `advanced` | `stable` | Use this skill to data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

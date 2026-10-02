@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **663** skills across structured domains, categories, and subcategories.
+Master navigation for **664** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (239 skills)
+## Ai Engineering (240 skills)
 
 ### Agents (28 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -146,7 +146,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (166 skills)
+### Models (167 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -470,6 +470,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [daily-news-report](../skills/ai-engineering/models/daily_news_report/daily-news-report/SKILL.md) — Use this skill to scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.
 - **Data_Engineer** (1):
   - [data-engineer](../skills/ai-engineering/models/data_engineer/data-engineer/SKILL.md) — Use this skill to build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.
+- **Data_Export_Engine** (1):
+  - [data-export-engine](../skills/ai-engineering/models/data_export_engine/data-export-engine/SKILL.md) — Use this skill to data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

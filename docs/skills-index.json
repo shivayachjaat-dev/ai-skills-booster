@@ -4791,6 +4791,28 @@
     "maturity": "stable"
   },
   {
+    "name": "data-export-engine",
+    "path": "skills/ai-engineering/models/data_export_engine/data-export-engine",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "data_export_engine",
+    "description": "Use this skill to data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "data",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Data Export Engine",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
