@@ -1097,6 +1097,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kotler-macro-analyzer",
+    "path": "skills/ai-engineering/agents/kotler_macro_analyze/kotler-macro-analyzer",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "kotler_macro_analyze",
+    "description": "Use this skill to design, implement, and operate production workflows for kotler macro analyzer. Professional PESTEL/SWOT analysis agent based on Kotler's methodology for strategic market audits.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "kotler",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kotler Macro Analyzer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",

@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,348** skills across structured domains, categories, and subcategories.
+Master navigation for **1,349** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (449 skills)
+## Ai Engineering (450 skills)
 
-### Agents (58 skills)
+### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -105,6 +105,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [jev-use](../skills/ai-engineering/agents/jev_use/jev-use/SKILL.md) — Use this skill to design, implement, and operate production workflows for jev use. Route enumerable judgment steps - did it work, which option, how risky, is this safe to run - to the Jev judgment model through the jev_judge and jev_gate MCP tools, batched into one call per state.
 - **Kimi_Delegate** (1):
   - [kimi-delegate](../skills/ai-engineering/agents/kimi_delegate/kimi-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for kimi delegate. Delegate coding tasks to the Kimi Code CLI (`kimi`) only when the user
+- **Kotler_Macro_Analyze** (1):
+  - [kotler-macro-analyzer](../skills/ai-engineering/agents/kotler_macro_analyze/kotler-macro-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotler macro analyzer. Professional PESTEL/SWOT analysis agent based on Kotler's methodology for strategic market audits.
 - **Lintlang_Audit** (1):
   - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - **Memory** (1):

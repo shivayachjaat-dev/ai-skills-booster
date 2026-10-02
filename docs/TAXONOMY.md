@@ -53,6 +53,7 @@ AI_Skills_Booster/
 │   │   ├── jenkins/ (1 skills)
 │   │   ├── jev_use/ (1 skills)
 │   │   ├── kimi_delegate/ (1 skills)
+│   │   ├── kotler_macro_analyze/ (1 skills)
 │   │   ├── lintlang_audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)
