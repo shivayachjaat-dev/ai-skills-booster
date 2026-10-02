@@ -429,6 +429,7 @@ AI_Skills_Booster/
 │   │   ├── laravel_expert/ (1 skills)
 │   │   ├── lead_magnets/ (1 skills)
 │   │   ├── learning_career_deve/ (1 skills)
+│   │   ├── legal_advisor/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
