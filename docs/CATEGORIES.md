@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **351** skills across structured domains, categories, and subcategories.
+Master navigation for **352** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (107 skills)
 
@@ -285,7 +285,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (39 skills)
+## Backend (40 skills)
 
 ### Api Design (2 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -295,7 +295,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (9 skills)
+### Api Frameworks (10 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -312,6 +312,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [azure-mgmt-apimanagement-py](../skills/backend/api-frameworks/azure_mgmt_apimanage/azure-mgmt-apimanagement-py/SKILL.md) — Use this skill to azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.
 - **Azure_Monitor_Ingest** (1):
   - [azure-monitor-ingestion-py](../skills/backend/api-frameworks/azure_monitor_ingest/azure-monitor-ingestion-py/SKILL.md) — Use this skill to azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.
+- **Azure_Security_Keyva** (1):
+  - [azure-security-keyvault-secrets-java](../skills/backend/api-frameworks/azure_security_keyva/azure-security-keyvault-secrets-java/SKILL.md) — Use this skill to azure Key Vault Secrets Java SDK for secret management. Use when storing, retrieving, or managing passwords, API keys, connection strings, or other sensitive configuration data.
 - **Fastapi Endpoints** (1):
   - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 

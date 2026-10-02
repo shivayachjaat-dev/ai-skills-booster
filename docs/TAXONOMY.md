@@ -131,6 +131,7 @@ AI_Skills_Booster/
 │   │   ├── azure_mgmt_apicenter/ (2 skills)
 │   │   ├── azure_mgmt_apimanage/ (2 skills)
 │   │   ├── azure_monitor_ingest/ (1 skills)
+│   │   ├── azure_security_keyva/ (1 skills)
 │   │   └── fastapi-endpoints/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)

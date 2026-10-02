@@ -2688,6 +2688,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-security-keyvault-secrets-java",
+    "path": "skills/backend/api-frameworks/azure_security_keyva/azure-security-keyvault-secrets-java",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "azure_security_keyva",
+    "description": "Use this skill to azure Key Vault Secrets Java SDK for secret management. Use when storing, retrieving, or managing passwords, API keys, connection strings, or other sensitive configuration data.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Security Keyvault Secrets Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",
