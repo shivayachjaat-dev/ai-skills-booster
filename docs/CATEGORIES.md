@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,260** skills across structured domains, categories, and subcategories.
+Master navigation for **1,261** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (419 skills)
+## Ai Engineering (420 skills)
 
 ### Agents (49 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -206,7 +206,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (308 skills)
+### Models (309 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -804,6 +804,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [hunt-llm-ai](../skills/ai-engineering/models/hunt_llm_ai/hunt-llm-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt llm ai. Hunt LLM/AI feature bugs
 - **Hunt_Subdomain** (1):
   - [hunt-subdomain](../skills/ai-engineering/models/hunt_subdomain/hunt-subdomain/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt subdomain. Hunting skill for subdomain takeover vulnerabilities.
+- **Hyperexecute_Skill** (1):
+  - [hyperexecute-skill](../skills/ai-engineering/models/hyperexecute_skill/hyperexecute-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for hyperexecute skill. Operates HyperExecute end-to-end for TestMu AI/LambdaTest cloud test execution: analyze projects, create YAML, validate locally, run CLI jobs, debug failures, and wire CI.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

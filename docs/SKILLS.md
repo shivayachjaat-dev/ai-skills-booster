@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,260 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,261 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -385,6 +385,7 @@
 | [hunt-jwt-crypto](skills/ai-engineering/models/hunt_jwt_crypto/hunt-jwt-crypto/SKILL.md) | `ai-engineering` | `models` | `hunt_jwt_crypto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt jwt crypto. Hunt JWT cryptographic failures |
 | [hunt-llm-ai](skills/ai-engineering/models/hunt_llm_ai/hunt-llm-ai/SKILL.md) | `ai-engineering` | `models` | `hunt_llm_ai` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt llm ai. Hunt LLM/AI feature bugs |
 | [hunt-subdomain](skills/ai-engineering/models/hunt_subdomain/hunt-subdomain/SKILL.md) | `ai-engineering` | `models` | `hunt_subdomain` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt subdomain. Hunting skill for subdomain takeover vulnerabilities. |
+| [hyperexecute-skill](skills/ai-engineering/models/hyperexecute_skill/hyperexecute-skill/SKILL.md) | `ai-engineering` | `models` | `hyperexecute_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hyperexecute skill. Operates HyperExecute end-to-end for TestMu AI/LambdaTest cloud test execution: analyze projects, create YAML, validate locally, run CLI jobs, debug failures, and wire CI. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
