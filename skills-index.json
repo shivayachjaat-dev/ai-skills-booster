@@ -3689,6 +3689,28 @@
     "maturity": "stable"
   },
   {
+    "name": "automated-triage",
+    "path": "skills/frontend/ui-ux/automated_triage/automated-triage",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "automated_triage",
+    "description": "Use this skill to triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "automated",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Automated Triage",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
