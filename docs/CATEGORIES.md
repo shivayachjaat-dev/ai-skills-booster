@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **164** skills across structured domains, categories, and subcategories.
+Master navigation for **165** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -647,7 +647,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (27 skills)
+## Security (28 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -726,6 +726,12 @@ Category index: [`docs/categories/incident-response.md`](categories/incident-res
 
 - **Triage** (1):
   - [incident-response-and-triage](../skills/security/incident-response/triage/incident-response-and-triage/SKILL.md) — Use this skill when triaging, containing, and investigating active production security incidents and data breaches. It guides the agent through the PICERL framework (Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned), evidence preservation without anti-forensic contamination, forensic log isolation, and root-cause analysis.
+
+### Mobile Security (1 skills)
+Category index: [`docs/categories/mobile-security.md`](categories/mobile-security.md)
+
+- **Apk Analysis** (1):
+  - [android-apk-red-teaming-and-static-analysis](../skills/security/mobile-security/apk-analysis/android-apk-red-teaming-and-static-analysis/SKILL.md) — Use this skill to perform automated static and dynamic security assessments of compiled Android APK and AAB packages using Jadx, APKTool, and MobSF. It covers decompilation, hardcoded secret extraction, insecure AndroidManifest configurations, exported components (Activities, Services, Broadcast Receivers), and network security configurations.
 
 ### Network Security (1 skills)
 Category index: [`docs/categories/network-security.md`](categories/network-security.md)

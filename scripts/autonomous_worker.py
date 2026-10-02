@@ -795,7 +795,7 @@ APK_SECRET_REGEXES = [
     (r"AIza[0-9A-Za-z-_]{35}", "Google API Key"),
     (r"AKIA[0-9A-Z]{16}", "AWS Access Key"),
     (r"sk_live_[0-9a-zA-Z]{24}", "Stripe Live Secret Key"),
-    (r"-----BEGIN PRIVATE KEY-----", "RSA Private Key")
+    (r"BEGIN[ -]PRIVATE[ -]KEY", "RSA Private Key")
 ]
 
 def scan_decompiled_code_for_secrets(source_code: str) -> List[str]:

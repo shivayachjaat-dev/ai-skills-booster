@@ -3460,6 +3460,33 @@
     "maturity": "stable"
   },
   {
+    "name": "android-apk-red-teaming-and-static-analysis",
+    "path": "skills/security/mobile-security/apk-analysis/android-apk-red-teaming-and-static-analysis",
+    "domain": "security",
+    "category": "mobile-security",
+    "subcategory": "apk-analysis",
+    "description": "Use this skill to perform automated static and dynamic security assessments of compiled Android APK and AAB packages using Jadx, APKTool, and MobSF. It covers decompilation, hardcoded secret extraction, insecure AndroidManifest configurations, exported components (Activities, Services, Broadcast Receivers), and network security configurations.",
+    "tags": [
+      "apk-analysis",
+      "mobile-security",
+      "android-security",
+      "jadx",
+      "decompilation",
+      "reverse-engineering",
+      "red-teaming"
+    ],
+    "technologies": [
+      "Jadx",
+      "APKTool",
+      "Python",
+      "Android Security",
+      "Regex",
+      "XML Parsing"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "wireguard-site-to-site-mesh-vpn",
     "path": "skills/security/network-security/wireguard/wireguard-site-to-site-mesh-vpn",
     "domain": "security",

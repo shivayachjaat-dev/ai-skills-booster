@@ -259,6 +259,8 @@ AI_Skills_Booster/
 │   │   └── admin-register/ (1 skills)
 │   ├── incident-response/
 │   │   └── triage/ (1 skills)
+│   ├── mobile-security/
+│   │   └── apk-analysis/ (1 skills)
 │   ├── network-security/
 │   │   └── wireguard/ (1 skills)
 │   ├── penetration-testing/
