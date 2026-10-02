@@ -581,6 +581,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-ai-vision-imageanalysis-java](../skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-java/SKILL.md) — Use this skill to build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping.
 
+## Azure Ai Vision Imageanalysis Py (1 skills)
+
+- [azure-ai-vision-imageanalysis-py](../skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-py/SKILL.md) — Use this skill to azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.
+
 ## Azure Bicep (1 skills)
 
 - [azure-arm-and-bicep-infrastructure-as-code](../skills/devops/infrastructure/azure-bicep/azure-arm-and-bicep-infrastructure-as-code/SKILL.md) — Use this skill to design, validate, and deploy modular Azure infrastructure using Bicep and ARM templates. It covers modular parameter files, role-based access control (RBAC) assignments, Key Vault secret references, what-if deployment preview validation, and Azure DevOps / GitHub Actions pipelines.
@@ -601,7 +605,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (86 skills)
+## Bash (87 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -658,6 +662,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-ai-translation-text-py](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-text-py/SKILL.md) — Use this skill to azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.
 - [azure-ai-translation-ts](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-ts/SKILL.md) — Use this skill to text and document translation with REST-style clients.
 - [azure-ai-vision-imageanalysis-java](../skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-java/SKILL.md) — Use this skill to build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping.
+- [azure-ai-vision-imageanalysis-py](../skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-py/SKILL.md) — Use this skill to azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
 - [axiom](../skills/ai-engineering/rag/axiom/axiom/SKILL.md) — Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.
@@ -1927,7 +1932,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (189 skills)
+## Python (190 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2005,6 +2010,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-ai-translation-text-py](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-text-py/SKILL.md) — Use this skill to azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.
 - [azure-ai-translation-ts](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-ts/SKILL.md) — Use this skill to text and document translation with REST-style clients.
 - [azure-ai-vision-imageanalysis-java](../skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-java/SKILL.md) — Use this skill to build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping.
+- [azure-ai-vision-imageanalysis-py](../skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-py/SKILL.md) — Use this skill to azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
