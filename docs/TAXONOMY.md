@@ -776,6 +776,7 @@ AI_Skills_Booster/
 │   │   ├── helm_charts/ (1 skills)
 │   │   ├── kubernetes_ops/ (1 skills)
 │   │   ├── kustomize/ (1 skills)
+│   │   ├── linux_administration/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
