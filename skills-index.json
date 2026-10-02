@@ -13369,6 +13369,28 @@
     "maturity": "stable"
   },
   {
+    "name": "material-design",
+    "path": "skills/frontend/web-architecture/material_design/material-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "material_design",
+    "description": "Use this skill to design, implement, and operate production workflows for material design. Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "material",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Material Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

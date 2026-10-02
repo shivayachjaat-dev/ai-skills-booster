@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 784 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 785 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -593,6 +593,7 @@
 | [holographic-ui](skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) | `frontend` | `web-architecture` | `holographic_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements. |
 | [isometric-design](skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) | `frontend` | `web-architecture` | `isometric_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations. |
 | [layered-design](skills/frontend/web-architecture/layered_design/layered-design/SKILL.md) | `frontend` | `web-architecture` | `layered_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for layered design. Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content. |
+| [material-design](skills/frontend/web-architecture/material_design/material-design/SKILL.md) | `frontend` | `web-architecture` | `material_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for material design. Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components. |
 | [production-audit](skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `frontend` | `web-architecture` | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `frontend` | `web-architecture` | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `frontend` | `web-architecture` | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |
