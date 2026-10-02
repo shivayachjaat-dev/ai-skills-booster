@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,184** skills across structured domains, categories, and subcategories.
+Master navigation for **1,185** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (404 skills)
 
@@ -1685,7 +1685,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (242 skills)
+## Frontend (243 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2087,7 +2087,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (66 skills)
+### Web Architecture (67 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -2173,6 +2173,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [holographic-ui](../skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.
 - **Hono** (1):
   - [hono](../skills/frontend/web-architecture/hono/hono/SKILL.md) — Use this skill to design, implement, and operate production workflows for hono. Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.
+- **Hugging_Face_Gradio** (1):
+  - [hugging-face-gradio](../skills/frontend/web-architecture/hugging_face_gradio/hugging-face-gradio/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face gradio. Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.
 - **Isometric_Design** (1):
   - [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
 - **Layered_Design** (1):

@@ -19815,6 +19815,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-gradio",
+    "path": "skills/frontend/web-architecture/hugging_face_gradio/hugging-face-gradio",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "hugging_face_gradio",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face gradio. Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Gradio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "isometric-design",
     "path": "skills/frontend/web-architecture/isometric_design/isometric-design",
     "domain": "frontend",

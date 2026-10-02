@@ -974,6 +974,7 @@ AI_Skills_Booster/
 │   │   ├── high_contrast/ (1 skills)
 │   │   ├── holographic_ui/ (1 skills)
 │   │   ├── hono/ (1 skills)
+│   │   ├── hugging_face_gradio/ (1 skills)
 │   │   ├── isometric_design/ (1 skills)
 │   │   ├── layered_design/ (1 skills)
 │   │   ├── material_design/ (1 skills)
