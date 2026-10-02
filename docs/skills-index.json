@@ -20079,6 +20079,28 @@
     "maturity": "stable"
   },
   {
+    "name": "invariant-guard",
+    "path": "skills/frontend/ui-ux/invariant_guard/invariant-guard",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "invariant_guard",
+    "description": "Use this skill to design, implement, and operate production workflows for invariant guard. Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "invariant",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Invariant Guard",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
