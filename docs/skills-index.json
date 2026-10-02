@@ -23885,6 +23885,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ml-engineer",
+    "path": "skills/frontend/ui-ux/ml_engineer/ml-engineer",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "ml_engineer",
+    "description": "Use this skill to design, implement, and operate production workflows for ml engineer. Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "ml",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ml Engineer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
