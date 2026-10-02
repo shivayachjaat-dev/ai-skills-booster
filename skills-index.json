@@ -30626,6 +30626,28 @@
     "maturity": "stable"
   },
   {
+    "name": "offensive-osint",
+    "path": "skills/security/appsec/offensive_osint/offensive-osint",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "offensive_osint",
+    "description": "Use this skill to design, implement, and operate production workflows for offensive osint. Operational arsenal for authorized external red-team and bug-bounty recon.",
+    "tags": [
+      "security",
+      "appsec",
+      "offensive",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Offensive Osint",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",

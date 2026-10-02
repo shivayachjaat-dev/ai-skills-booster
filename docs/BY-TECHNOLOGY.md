@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1481 skills)
+## Bash (1482 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2304,6 +2304,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [network-engineer](../skills/security/appsec/network_engineer/network-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for network engineer. Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
 - [nodejs-best-practices](../skills/security/appsec/nodejs_best_practice/nodejs-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for nodejs best practices. Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.
 - [odoo-security-rules](../skills/security/appsec/odoo_security_rules/odoo-security-rules/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo security rules. Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns.
+- [offensive-osint](../skills/security/appsec/offensive_osint/offensive-osint/SKILL.md) — Use this skill to design, implement, and operate production workflows for offensive osint. Operational arsenal for authorized external red-team and bug-bounty recon.
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
@@ -8474,6 +8475,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [offboarding-exit](../skills/business/operations/offboarding_exit/offboarding-exit/SKILL.md) — Use this skill to design, implement, and operate production workflows for offboarding exit. Offboarding register: exit type, employee and manager, notice and final day, reason, handover owner, and done flags for knowledge transfer, assets, access and settlement. Use for exit tracking.
 
+## Offensive Osint (1 skills)
+
+- [offensive-osint](../skills/security/appsec/offensive_osint/offensive-osint/SKILL.md) — Use this skill to design, implement, and operate production workflows for offensive osint. Operational arsenal for authorized external red-team and bug-bounty recon.
+
 ## Open Policy Agent (OPA) (1 skills)
 
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
@@ -8739,7 +8744,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1584 skills)
+## Python (1585 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10051,6 +10056,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [network-engineer](../skills/security/appsec/network_engineer/network-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for network engineer. Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
 - [nodejs-best-practices](../skills/security/appsec/nodejs_best_practice/nodejs-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for nodejs best practices. Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.
 - [odoo-security-rules](../skills/security/appsec/odoo_security_rules/odoo-security-rules/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo security rules. Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns.
+- [offensive-osint](../skills/security/appsec/offensive_osint/offensive-osint/SKILL.md) — Use this skill to design, implement, and operate production workflows for offensive osint. Operational arsenal for authorized external red-team and bug-bounty recon.
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.

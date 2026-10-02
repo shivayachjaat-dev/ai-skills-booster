@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **92 skills** available in this category.
+> **93 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -94,5 +94,6 @@
 | [network-engineer](../../skills/security/appsec/network_engineer/network-engineer/SKILL.md) | `network_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for network engineer. Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. |
 | [nodejs-best-practices](../../skills/security/appsec/nodejs_best_practice/nodejs-best-practices/SKILL.md) | `nodejs_best_practice` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nodejs best practices. Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying. |
 | [odoo-security-rules](../../skills/security/appsec/odoo_security_rules/odoo-security-rules/SKILL.md) | `odoo_security_rules` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo security rules. Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns. |
+| [offensive-osint](../../skills/security/appsec/offensive_osint/offensive-osint/SKILL.md) | `offensive_osint` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for offensive osint. Operational arsenal for authorized external red-team and bug-bounty recon. |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](../../skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
