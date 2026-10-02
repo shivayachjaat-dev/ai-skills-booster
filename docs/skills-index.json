@@ -14222,6 +14222,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-code-python",
+    "path": "skills/backend/python-services/n8n_code_python/n8n-code-python",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "n8n_code_python",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n code python. Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.",
+    "tags": [
+      "backend",
+      "python-services",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Code Python",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",
