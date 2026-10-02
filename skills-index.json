@@ -12995,6 +12995,28 @@
     "maturity": "stable"
   },
   {
+    "name": "developer-sandbox",
+    "path": "skills/frontend/ui-ux/developer_sandbox/developer-sandbox",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "developer_sandbox",
+    "description": "Use this skill to design, implement, and operate production workflows for developer sandbox. Design and build interactive playgrounds that let developers experience your product without commitment. This skill covers playground architecture, pre-populated examples, embedding strategies, gating decisions, and converting playground users to signups.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "developer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Developer Sandbox",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
