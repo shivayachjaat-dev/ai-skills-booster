@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **592** skills across structured domains, categories, and subcategories.
+Master navigation for **593** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (205 skills)
+## Ai Engineering (206 skills)
 
 ### Agents (24 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -134,7 +134,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (140 skills)
+### Models (141 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -406,6 +406,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [container-hardening](../skills/ai-engineering/models/container_hardening/container-hardening/SKILL.md) — Use this skill to secure Docker images and container runtime configurations.
 - **Container_Registries** (1):
   - [container-registries](../skills/ai-engineering/models/container_registries/container-registries/SKILL.md) — Use this skill to manage container registries including ECR, ACR, GCR, and Docker Hub.
+- **Container_Scanning** (1):
+  - [container-scanning](../skills/ai-engineering/models/container_scanning/container-scanning/SKILL.md) — Use this skill to scan container images for vulnerabilities using Trivy, Grype, and cloud-native
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

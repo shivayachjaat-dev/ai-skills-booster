@@ -4087,6 +4087,28 @@
     "maturity": "stable"
   },
   {
+    "name": "container-scanning",
+    "path": "skills/ai-engineering/models/container_scanning/container-scanning",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "container_scanning",
+    "description": "Use this skill to scan container images for vulnerabilities using Trivy, Grype, and cloud-native",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "container",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Container Scanning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
