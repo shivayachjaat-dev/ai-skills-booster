@@ -8309,6 +8309,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cdk-patterns",
+    "path": "skills/frontend/ui-ux/cdk_patterns/cdk-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "cdk_patterns",
+    "description": "Use this skill to common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "cdk",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cdk Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

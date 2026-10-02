@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **28 skills** available in this category.
+> **29 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,3 +32,4 @@
 | [business-continuity](../../skills/frontend/ui-ux/business_continuity/business-continuity/SKILL.md) | `business_continuity` | `advanced` | `stable` | Use this skill to develop business continuity plans and impact analysis. Implement BCP |
 | [busybox-on-windows](../../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) | `busybox_on_windows` | `advanced` | `stable` | Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows. |
 | [cc-skill-project-guidelines-example](../../skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example/SKILL.md) | `cc_skill_project_gui` | `advanced` | `stable` | Use this skill to project Guidelines Skill (Example) |
+| [cdk-patterns](../../skills/frontend/ui-ux/cdk_patterns/cdk-patterns/SKILL.md) | `cdk_patterns` | `advanced` | `stable` | Use this skill to common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs. |
