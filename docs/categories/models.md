@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **30 skills** available in this category.
+> **31 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -33,4 +33,5 @@
 | [azure-ai-agents-persistent-dotnet](../../skills/ai-engineering/models/azure_ai_agents_pers/azure-ai-agents-persistent-dotnet/SKILL.md) | `azure_ai_agents_pers` | `advanced` | `stable` | Use this skill to azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. |
 | [azure-ai-agents-persistent-java](../../skills/ai-engineering/models/azure_ai_agents_pers/azure-ai-agents-persistent-java/SKILL.md) | `azure_ai_agents_pers` | `advanced` | `stable` | Use this skill to azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. |
 | [azure-ai-anomalydetector-java](../../skills/ai-engineering/models/azure_ai_anomalydete/azure-ai-anomalydetector-java/SKILL.md) | `azure_ai_anomalydete` | `advanced` | `stable` | Use this skill to build anomaly detection applications with Azure AI Anomaly Detector SDK for Java. Use when implementing univariate/multivariate anomaly detection, time-series analysis, or AI-powered monitoring. |
+| [azure-ai-contentsafety-java](../../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-java/SKILL.md) | `azure_ai_contentsafe` | `advanced` | `stable` | Use this skill to build content moderation applications using the Azure AI Content Safety SDK for Java. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

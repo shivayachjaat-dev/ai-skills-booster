@@ -1403,6 +1403,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-contentsafety-java",
+    "path": "skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-java",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_contentsafe",
+    "description": "Use this skill to build content moderation applications using the Azure AI Content Safety SDK for Java.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Contentsafety Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
