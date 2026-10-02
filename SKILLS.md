@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,228 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,229 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1008,6 +1008,7 @@
 | [hunt-http-smuggling](skills/security/appsec/hunt_http_smuggling/hunt-http-smuggling/SKILL.md) | `security` | `appsec` | `hunt_http_smuggling` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt http smuggling. Hunt HTTP request smuggling (CL.TE, TE.CL, H2.CL, H2.TE). |
 | [hunt-k8s](skills/security/appsec/hunt_k8s/hunt-k8s/SKILL.md) | `security` | `appsec` | `hunt_k8s` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt k8s. Hunt Kubernetes & Docker |
 | [hunt-laravel](skills/security/appsec/hunt_laravel/hunt-laravel/SKILL.md) | `security` | `appsec` | `hunt_laravel` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt laravel. Hunt Laravel specific vulnerabilities |
+| [hunt-ldap](skills/security/appsec/hunt_ldap/hunt-ldap/SKILL.md) | `security` | `appsec` | `hunt_ldap` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt ldap. Hunt LDAP Injection and XPath Injection |
 | [laravel-security-audit](skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `security` | `appsec` | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `security` | `appsec` | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
