@@ -593,6 +593,31 @@
     "maturity": "stable"
   },
   {
+    "name": "golang-goroutine-concurrency-patterns",
+    "path": "skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns",
+    "domain": "programming-languages",
+    "category": "golang",
+    "subcategory": "concurrency",
+    "description": "Use this skill when designing, implementing, and debugging concurrent systems in Go. It guides the agent through worker pool patterns, context cancellation propagation (context.Context), channel synchronization (buffered vs unbuffered), race condition prevention using the Go race detector (-race), errgroup error aggregation, and graceful shutdown.",
+    "tags": [
+      "golang",
+      "concurrency",
+      "goroutines",
+      "channels",
+      "go",
+      "multithreading"
+    ],
+    "technologies": [
+      "Go",
+      "Golang",
+      "sync",
+      "errgroup",
+      "context"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "prompt-injection-defense",
     "path": "skills/security/ai-security/defense/prompt-injection-defense",
     "domain": "security",

@@ -57,6 +57,9 @@ AI_Skills_Booster/
 ├── meta/
 │   └── ecosystem/
 │   │   └── creation/ (1 skills)
+├── programming-languages/
+│   └── golang/
+│   │   └── concurrency/ (1 skills)
 ├── security/
 │   ├── ai-security/
 │   │   └── defense/ (1 skills)

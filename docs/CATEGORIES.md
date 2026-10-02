@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **37** skills across structured domains, categories, and subcategories.
+Master navigation for **38** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -157,6 +157,14 @@ Category index: [`docs/categories/ecosystem.md`](categories/ecosystem.md)
 
 - **Creation** (1):
   - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
+
+## Programming Languages (1 skills)
+
+### Golang (1 skills)
+Category index: [`docs/categories/golang.md`](categories/golang.md)
+
+- **Concurrency** (1):
+  - [golang-goroutine-concurrency-patterns](../skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns/SKILL.md) — Use this skill when designing, implementing, and debugging concurrent systems in Go. It guides the agent through worker pool patterns, context cancellation propagation (context.Context), channel synchronization (buffered vs unbuffered), race condition prevention using the Go race detector (-race), errgroup error aggregation, and graceful shutdown.
 
 ## Security (6 skills)
 

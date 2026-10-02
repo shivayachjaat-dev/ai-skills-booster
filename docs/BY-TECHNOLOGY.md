@@ -110,10 +110,15 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [secret-leak-detection-and-remediation](../skills/security/secret-management/detection/secret-leak-detection-and-remediation/SKILL.md) — Use this skill when detecting, containing, revoking, and purging secrets committed to Git repositories or build artifacts. It guides the agent through scanning history with TruffleHog/Gitleaks, executing emergency credential revocation, rewriting Git history with git-filter-repo, and installing pre-commit guardrails.
 
-## Go (2 skills)
+## Go (3 skills)
 
 - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
+- [golang-goroutine-concurrency-patterns](../skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns/SKILL.md) — Use this skill when designing, implementing, and debugging concurrent systems in Go. It guides the agent through worker pool patterns, context cancellation propagation (context.Context), channel synchronization (buffered vs unbuffered), race condition prevention using the Go race detector (-race), errgroup error aggregation, and graceful shutdown.
 - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
+
+## Golang (1 skills)
+
+- [golang-goroutine-concurrency-patterns](../skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns/SKILL.md) — Use this skill when designing, implementing, and debugging concurrent systems in Go. It guides the agent through worker pool patterns, context cancellation propagation (context.Context), channel synchronization (buffered vs unbuffered), race condition prevention using the Go race detector (-race), errgroup error aggregation, and graceful shutdown.
 
 ## Grafana (1 skills)
 
@@ -442,6 +447,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [wcag-accessibility-audit](../skills/frontend/accessibility/wcag/wcag-accessibility-audit/SKILL.md) — Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.
 
+## context (1 skills)
+
+- [golang-goroutine-concurrency-patterns](../skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns/SKILL.md) — Use this skill when designing, implementing, and debugging concurrent systems in Go. It guides the agent through worker pool patterns, context cancellation propagation (context.Context), channel synchronization (buffered vs unbuffered), race condition prevention using the Go race detector (-race), errgroup error aggregation, and graceful shutdown.
+
+## errgroup (1 skills)
+
+- [golang-goroutine-concurrency-patterns](../skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns/SKILL.md) — Use this skill when designing, implementing, and debugging concurrent systems in Go. It guides the agent through worker pool patterns, context cancellation propagation (context.Context), channel synchronization (buffered vs unbuffered), race condition prevention using the Go race detector (-race), errgroup error aggregation, and graceful shutdown.
+
 ## gRPC (1 skills)
 
 - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
@@ -465,3 +478,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## shadcn/ui (1 skills)
 
 - [react-component-architecture](../skills/frontend/react/architecture/react-component-architecture/SKILL.md) — Use this skill when designing, refactoring, and structuring scalable React component hierarchies. It enforces clean separation of concerns between presentational components and stateful containers, headless UI patterns, compound components, strict TypeScript prop contracts, and memoization boundaries.
+
+## sync (1 skills)
+
+- [golang-goroutine-concurrency-patterns](../skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns/SKILL.md) — Use this skill when designing, implementing, and debugging concurrent systems in Go. It guides the agent through worker pool patterns, context cancellation propagation (context.Context), channel synchronization (buffered vs unbuffered), race condition prevention using the Go race detector (-race), errgroup error aggregation, and graceful shutdown.
