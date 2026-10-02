@@ -11529,6 +11529,28 @@
     "maturity": "stable"
   },
   {
+    "name": "base",
+    "path": "skills/backend/databases/base/base",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "base",
+    "description": "Use this skill to design, implement, and operate production workflows for base. Database management, forms, reports, and data operations with LibreOffice Base.",
+    "tags": [
+      "backend",
+      "databases",
+      "base",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Base",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cc-skill-clickhouse-io",
     "path": "skills/backend/databases/cc_skill_clickhouse_/cc-skill-clickhouse-io",
     "domain": "backend",

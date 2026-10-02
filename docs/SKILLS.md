@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,384 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,385 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -522,6 +522,7 @@
 | [azure-resource-manager-mysql-dotnet](skills/backend/databases/azure_resource_manag/azure-resource-manager-mysql-dotnet/SKILL.md) | `backend` | `databases` | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments. |
 | [azure-resource-manager-postgresql-dotnet](skills/backend/databases/azure_resource_manag/azure-resource-manager-postgresql-dotnet/SKILL.md) | `backend` | `databases` | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments. |
 | [azure-resource-manager-sql-dotnet](skills/backend/databases/azure_resource_manag/azure-resource-manager-sql-dotnet/SKILL.md) | `backend` | `databases` | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Azure SQL in .NET. |
+| [base](skills/backend/databases/base/base/SKILL.md) | `backend` | `databases` | `base` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for base. Database management, forms, reports, and data operations with LibreOffice Base. |
 | [cc-skill-clickhouse-io](skills/backend/databases/cc_skill_clickhouse_/cc-skill-clickhouse-io/SKILL.md) | `backend` | `databases` | `cc_skill_clickhouse_` | `advanced` | `stable` | Use this skill to clickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. |
 | [database](skills/backend/databases/database/database/SKILL.md) | `backend` | `databases` | `database` | `advanced` | `stable` | Use this skill to database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering. |
 | [database-admin](skills/backend/databases/database_admin/database-admin/SKILL.md) | `backend` | `databases` | `database_admin` | `advanced` | `stable` | Use this skill to expert database administrator specializing in modern cloud databases, automation, and reliability engineering. |

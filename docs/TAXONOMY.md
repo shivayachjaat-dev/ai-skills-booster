@@ -532,6 +532,7 @@ AI_Skills_Booster/
 │   │   ├── asset_it_management/ (1 skills)
 │   │   ├── azure_postgres_ts/ (1 skills)
 │   │   ├── azure_resource_manag/ (3 skills)
+│   │   ├── base/ (1 skills)
 │   │   ├── cc_skill_clickhouse_/ (1 skills)
 │   │   ├── database/ (1 skills)
 │   │   ├── database_admin/ (1 skills)
