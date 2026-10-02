@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,360 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,361 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -422,6 +422,7 @@
 | [kubestellar-console](skills/ai-engineering/models/kubestellar_console/kubestellar-console/SKILL.md) | `ai-engineering` | `models` | `kubestellar_console` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kubestellar console. Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills |
 | [lambda-lang](skills/ai-engineering/models/lambda_lang/lambda-lang/SKILL.md) | `ai-engineering` | `models` | `lambda_lang` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lambda lang. Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains; 3x smaller than natural language. |
 | [landing-page-generator](skills/ai-engineering/models/landing_page_generat/landing-page-generator/SKILL.md) | `ai-engineering` | `models` | `landing_page_generat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for landing page generator. Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO. |
+| [langchain-architecture](skills/ai-engineering/models/langchain_architectu/langchain-architecture/SKILL.md) | `ai-engineering` | `models` | `langchain_architectu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for langchain architecture. Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

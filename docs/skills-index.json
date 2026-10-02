@@ -9279,6 +9279,28 @@
     "maturity": "stable"
   },
   {
+    "name": "langchain-architecture",
+    "path": "skills/ai-engineering/models/langchain_architectu/langchain-architecture",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "langchain_architectu",
+    "description": "Use this skill to design, implement, and operate production workflows for langchain architecture. Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "langchain",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Langchain Architecture",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

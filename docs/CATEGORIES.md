@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,360** skills across structured domains, categories, and subcategories.
+Master navigation for **1,361** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (456 skills)
+## Ai Engineering (457 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -228,7 +228,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (334 skills)
+### Models (335 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -878,6 +878,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [lambda-lang](../skills/ai-engineering/models/lambda_lang/lambda-lang/SKILL.md) — Use this skill to design, implement, and operate production workflows for lambda lang. Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains; 3x smaller than natural language.
 - **Landing_Page_Generat** (1):
   - [landing-page-generator](../skills/ai-engineering/models/landing_page_generat/landing-page-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for landing page generator. Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO.
+- **Langchain_Architectu** (1):
+  - [langchain-architecture](../skills/ai-engineering/models/langchain_architectu/langchain-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for langchain architecture. Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
