@@ -3030,6 +3030,32 @@
     "maturity": "stable"
   },
   {
+    "name": "owasp-api-security-top-10-hardening",
+    "path": "skills/security/api-security/owasp-top-10/owasp-api-security-top-10-hardening",
+    "domain": "security",
+    "category": "api-security",
+    "subcategory": "owasp-top-10",
+    "description": "Use this skill to audit and harden REST and GraphQL APIs against the OWASP API Security Top 10 vulnerabilities. It covers Broken Object Level Authorization (BOLA), Broken Authentication, Unrestricted Resource Consumption, Broken Function Level Authorization (BFLA), and Server-Side Request Forgery (SSRF).",
+    "tags": [
+      "api-security",
+      "owasp-top-10",
+      "bola",
+      "bfla",
+      "authentication",
+      "rate-limiting",
+      "security"
+    ],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "OWASP API Top 10",
+      "JWT",
+      "Security Auditing"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cors-csrf-web-security-hardening",
     "path": "skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening",
     "domain": "security",

@@ -227,6 +227,8 @@ AI_Skills_Booster/
 │   ├── ai-security/
 │   │   ├── defense/ (1 skills)
 │   │   └── sandbox-defense/ (1 skills)
+│   ├── api-security/
+│   │   └── owasp-top-10/ (1 skills)
 │   ├── application-security/
 │   │   ├── cors-csrf/ (1 skills)
 │   │   └── security-headers/ (1 skills)

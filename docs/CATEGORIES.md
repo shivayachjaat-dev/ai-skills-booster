@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **157** skills across structured domains, categories, and subcategories.
+Master navigation for **158** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -617,7 +617,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (26 skills)
+## Security (27 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -632,6 +632,12 @@ Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
   - [prompt-injection-defense](../skills/security/ai-security/defense/prompt-injection-defense/SKILL.md) — Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.
 - **Sandbox Defense** (1):
   - [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
+
+### Api Security (1 skills)
+Category index: [`docs/categories/api-security.md`](categories/api-security.md)
+
+- **Owasp Top 10** (1):
+  - [owasp-api-security-top-10-hardening](../skills/security/api-security/owasp-top-10/owasp-api-security-top-10-hardening/SKILL.md) — Use this skill to audit and harden REST and GraphQL APIs against the OWASP API Security Top 10 vulnerabilities. It covers Broken Object Level Authorization (BOLA), Broken Authentication, Unrestricted Resource Consumption, Broken Function Level Authorization (BFLA), and Server-Side Request Forgery (SSRF).
 
 ### Application Security (2 skills)
 Category index: [`docs/categories/application-security.md`](categories/application-security.md)
