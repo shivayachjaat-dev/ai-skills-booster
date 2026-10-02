@@ -7855,6 +7855,28 @@
     "maturity": "stable"
   },
   {
+    "name": "firebase",
+    "path": "skills/backend/api-design/firebase/firebase",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "firebase",
+    "description": "Use this skill to design, implement, and operate production workflows for firebase. Firebase gives you a complete backend in minutes - auth, database,",
+    "tags": [
+      "backend",
+      "api-design",
+      "firebase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Firebase",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-rate-limiting-and-throttling",
     "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
     "domain": "backend",
