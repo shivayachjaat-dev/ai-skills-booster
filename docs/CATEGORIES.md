@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,028** skills across structured domains, categories, and subcategories.
+Master navigation for **1,029** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (359 skills)
 
@@ -1541,7 +1541,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (195 skills)
+## Frontend (196 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1627,7 +1627,7 @@ Category index: [`docs/categories/styling.md`](categories/styling.md)
 - **Fixing_Motion_Perfor** (1):
   - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-### Ui Development (9 skills)
+### Ui Development (10 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -1648,6 +1648,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [frontend-architecture](../skills/frontend/ui-development/frontend_architectur/frontend-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend architecture. A portable, framework-agnostic architecture style for any React or React Native frontend. Organizes apps into feature modules with page/screen directories, a strict server-state vs UI-state split, barrel-only cross-module imports, co-located styles, ...
 - **Frontend_Data_Contra** (1):
   - [frontend-data-contracts](../skills/frontend/ui-development/frontend_data_contra/frontend-data-contracts/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend data contracts. A portable, framework-agnostic discipline for type safety at the network edge of any React or React Native app.
+- **Frontend_Dev_Guideli** (1):
+  - [frontend-dev-guidelines](../skills/frontend/ui-development/frontend_dev_guideli/frontend-dev-guidelines/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend dev guidelines. You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features, or fetching or mutating data.
 
 ### Ui Ux (102 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)

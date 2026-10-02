@@ -14161,6 +14161,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-dev-guidelines",
+    "path": "skills/frontend/ui-development/frontend_dev_guideli/frontend-dev-guidelines",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_dev_guideli",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend dev guidelines. You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features, or fetching or mutating data.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Dev Guidelines",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
