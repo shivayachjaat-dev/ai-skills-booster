@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **173 skills** available in this category.
+> **174 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -174,6 +174,7 @@
 | [memory-forensics](../../skills/frontend/ui-ux/memory_forensics/memory-forensics/SKILL.md) | `memory_forensics` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for memory forensics. Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis. |
 | [microservices-patterns](../../skills/frontend/ui-ux/microservices_patter/microservices-patterns/SKILL.md) | `microservices_patter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for microservices patterns. Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems. |
 | [ml-engineer](../../skills/frontend/ui-ux/ml_engineer/ml-engineer/SKILL.md) | `ml_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ml engineer. Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. |
+| [mlops-engineer](../../skills/frontend/ui-ux/mlops_engineer/mlops-engineer/SKILL.md) | `mlops_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mlops engineer. Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

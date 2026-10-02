@@ -23929,6 +23929,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mlops-engineer",
+    "path": "skills/frontend/ui-ux/mlops_engineer/mlops-engineer",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "mlops_engineer",
+    "description": "Use this skill to design, implement, and operate production workflows for mlops engineer. Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "mlops",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mlops Engineer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

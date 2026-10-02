@@ -1159,6 +1159,7 @@ AI_Skills_Booster/
 │   │   ├── memory_forensics/ (1 skills)
 │   │   ├── microservices_patter/ (1 skills)
 │   │   ├── ml_engineer/ (1 skills)
+│   │   ├── mlops_engineer/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,525** skills across structured domains, categories, and subcategories.
+Master navigation for **1,526** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (528 skills)
 
@@ -2039,7 +2039,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (300 skills)
+## Frontend (301 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2199,7 +2199,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (173 skills)
+### Ui Ux (174 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2542,6 +2542,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [microservices-patterns](../skills/frontend/ui-ux/microservices_patter/microservices-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for microservices patterns. Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems.
 - **Ml_Engineer** (1):
   - [ml-engineer](../skills/frontend/ui-ux/ml_engineer/ml-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for ml engineer. Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring.
+- **Mlops_Engineer** (1):
+  - [mlops-engineer](../skills/frontend/ui-ux/mlops_engineer/mlops-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for mlops engineer. Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
