@@ -6375,6 +6375,28 @@
     "maturity": "stable"
   },
   {
+    "name": "event-sourcing-architect",
+    "path": "skills/ai-engineering/models/event_sourcing_archi/event-sourcing-architect",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "event_sourcing_archi",
+    "description": "Use this skill to design, implement, and operate production workflows for event sourcing architect. Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "event",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Event Sourcing Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
