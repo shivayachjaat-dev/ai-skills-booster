@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **30** skills across structured domains, categories, and subcategories.
+Master navigation for **31** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -96,13 +96,19 @@ Category index: [`docs/categories/redis.md`](categories/redis.md)
 - **Caching** (1):
   - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 
-## Devops (2 skills)
+## Devops (3 skills)
 
 ### Containers (1 skills)
 Category index: [`docs/categories/containers.md`](categories/containers.md)
 
 - **Optimization** (1):
   - [docker-container-optimization](../skills/devops/containers/optimization/docker-container-optimization/SKILL.md) — Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.
+
+### Iac (1 skills)
+Category index: [`docs/categories/iac.md`](categories/iac.md)
+
+- **Terraform** (1):
+  - [terraform-infrastructure-as-code](../skills/devops/iac/terraform/terraform-infrastructure-as-code/SKILL.md) — Use this skill when writing, refactoring, and maintaining Infrastructure as Code (IaC) using Terraform / OpenTofu. It guides the agent through remote state management with S3/DynamoDB locking, modular component design, variable validation rules, drift detection, resource tagging standards, and blast radius containment.
 
 ### Kubernetes (1 skills)
 Category index: [`docs/categories/kubernetes.md`](categories/kubernetes.md)

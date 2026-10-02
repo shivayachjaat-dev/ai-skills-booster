@@ -393,6 +393,32 @@
     "maturity": "stable"
   },
   {
+    "name": "terraform-infrastructure-as-code",
+    "path": "skills/devops/iac/terraform/terraform-infrastructure-as-code",
+    "domain": "devops",
+    "category": "iac",
+    "subcategory": "terraform",
+    "description": "Use this skill when writing, refactoring, and maintaining Infrastructure as Code (IaC) using Terraform / OpenTofu. It guides the agent through remote state management with S3/DynamoDB locking, modular component design, variable validation rules, drift detection, resource tagging standards, and blast radius containment.",
+    "tags": [
+      "terraform",
+      "opentofu",
+      "iac",
+      "devops",
+      "cloud",
+      "aws",
+      "infrastructure"
+    ],
+    "technologies": [
+      "Terraform",
+      "OpenTofu",
+      "AWS",
+      "HCL",
+      "Git"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubernetes-crashloop-debugging",
     "path": "skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging",
     "domain": "devops",

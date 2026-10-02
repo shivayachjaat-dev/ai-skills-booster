@@ -38,6 +38,8 @@ AI_Skills_Booster/
 ├── devops/
 │   ├── containers/
 │   │   └── optimization/ (1 skills)
+│   ├── iac/
+│   │   └── terraform/ (1 skills)
 │   └── kubernetes/
 │   │   └── troubleshooting/ (1 skills)
 ├── frontend/
