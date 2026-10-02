@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **840** skills across structured domains, categories, and subcategories.
+Master navigation for **841** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (288 skills)
 
@@ -1345,7 +1345,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (146 skills)
+## Frontend (147 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1431,7 +1431,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Development** (1):
   - [development](../skills/frontend/ui-development/development/development/SKILL.md) — Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.
 
-### Ui Ux (69 skills)
+### Ui Ux (70 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1566,6 +1566,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [developer-sandbox](../skills/frontend/ui-ux/developer_sandbox/developer-sandbox/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer sandbox. Design and build interactive playgrounds that let developers experience your product without commitment. This skill covers playground architecture, pre-populated examples, embedding strategies, gating decisions, and converting playground users to signups.
 - **Devops_Pipeline_Buil** (1):
   - [devops-pipeline-builder](../skills/frontend/ui-ux/devops_pipeline_buil/devops-pipeline-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for devops pipeline builder. Design and implement CI/CD pipelines, Docker configurations, deployment
+- **Discord_Bot_Architec** (1):
+  - [discord-bot-architect](../skills/frontend/ui-ux/discord_bot_architec/discord-bot-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for discord bot architect. Specialized skill for building production-ready Discord bots.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

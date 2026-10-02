@@ -13259,6 +13259,28 @@
     "maturity": "stable"
   },
   {
+    "name": "discord-bot-architect",
+    "path": "skills/frontend/ui-ux/discord_bot_architec/discord-bot-architect",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "discord_bot_architec",
+    "description": "Use this skill to design, implement, and operate production workflows for discord bot architect. Specialized skill for building production-ready Discord bots.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "discord",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Discord Bot Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
