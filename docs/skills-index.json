@@ -13281,6 +13281,28 @@
     "maturity": "stable"
   },
   {
+    "name": "high-contrast",
+    "path": "skills/frontend/web-architecture/high_contrast/high-contrast",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "high_contrast",
+    "description": "Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "high",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "High Contrast",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
