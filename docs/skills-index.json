@@ -25,6 +25,28 @@
     "maturity": "stable"
   },
   {
+    "name": "antigravity-skill-orchestrator",
+    "path": "skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "antigravity_skill_or",
+    "description": "Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "antigravity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Antigravity Skill Orchestrator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-debate-and-reflection",
     "path": "skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection",
     "domain": "ai-engineering",
