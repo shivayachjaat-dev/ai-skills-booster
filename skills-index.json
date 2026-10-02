@@ -12367,6 +12367,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codebase-onboarding",
+    "path": "skills/software-engineering/architecture/patterns/codebase-onboarding",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to onboard a developer to a repository using Ontoly graph summaries. Use",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "codebase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codebase Onboarding",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
