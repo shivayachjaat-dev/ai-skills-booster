@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **189** skills across structured domains, categories, and subcategories.
+Master navigation for **190** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (37 skills)
+## Ai Engineering (38 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -92,7 +92,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Models (4 skills)
+### Models (5 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -103,6 +103,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ai-analyzer](../skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) — Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
 - **Ai_Dev_Jobs_Mcp** (1):
   - [ai-dev-jobs-mcp](../skills/ai-engineering/models/ai_dev_jobs_mcp/ai-dev-jobs-mcp/SKILL.md) — Use this skill to search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP
+- **Ai_Engineer** (1):
+  - [ai-engineer](../skills/ai-engineering/models/ai_engineer/ai-engineer/SKILL.md) — Use this skill to build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)

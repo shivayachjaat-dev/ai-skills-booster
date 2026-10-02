@@ -743,6 +743,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-engineer",
+    "path": "skills/ai-engineering/models/ai_engineer/ai-engineer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ai_engineer",
+    "description": "Use this skill to build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ai Engineer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",

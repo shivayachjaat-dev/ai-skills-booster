@@ -42,7 +42,8 @@ AI_Skills_Booster/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)
 │   │   ├── ai_analyzer/ (1 skills)
-│   │   └── ai_dev_jobs_mcp/ (1 skills)
+│   │   ├── ai_dev_jobs_mcp/ (1 skills)
+│   │   └── ai_engineer/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
 │   ├── quantization/
