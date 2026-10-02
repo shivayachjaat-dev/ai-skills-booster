@@ -8583,6 +8583,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codebase-to-wordpress-converter",
+    "path": "skills/frontend/frameworks/codebase_to_wordpres/codebase-to-wordpress-converter",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "codebase_to_wordpres",
+    "description": "Use this skill to expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "codebase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codebase To Wordpress Converter",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

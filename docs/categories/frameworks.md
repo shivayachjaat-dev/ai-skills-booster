@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [azure-cosmos-java](../../skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java/SKILL.md) | `azure_cosmos_java` | `advanced` | `stable` | Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns. |
 | [cc-skill-coding-standards](../../skills/frontend/frameworks/cc_skill_coding_stan/cc-skill-coding-standards/SKILL.md) | `cc_skill_coding_stan` | `advanced` | `stable` | Use this skill to universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development. |
 | [code-showcase-react-ui-patterns](../../skills/frontend/frameworks/code_showcase_react_/code-showcase-react-ui-patterns/SKILL.md) | `code_showcase_react_` | `advanced` | `stable` | Use this skill to modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states. |
+| [codebase-to-wordpress-converter](../../skills/frontend/frameworks/codebase_to_wordpres/codebase-to-wordpress-converter/SKILL.md) | `codebase_to_wordpres` | `advanced` | `stable` | Use this skill to expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme. |

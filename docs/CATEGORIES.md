@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **555** skills across structured domains, categories, and subcategories.
+Master navigation for **556** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (192 skills)
 
@@ -1076,7 +1076,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (63 skills)
+## Frontend (64 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1102,7 +1102,7 @@ Category index: [`docs/categories/design-systems.md`](categories/design-systems.
 - **Clean Ui Anti Slop** (1):
   - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
-### Frameworks (5 skills)
+### Frameworks (6 skills)
 Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 
 - **Angular** (1):
@@ -1115,6 +1115,8 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
   - [cc-skill-coding-standards](../skills/frontend/frameworks/cc_skill_coding_stan/cc-skill-coding-standards/SKILL.md) — Use this skill to universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
 - **Code_Showcase_React_** (1):
   - [code-showcase-react-ui-patterns](../skills/frontend/frameworks/code_showcase_react_/code-showcase-react-ui-patterns/SKILL.md) — Use this skill to modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
+- **Codebase_To_Wordpres** (1):
+  - [codebase-to-wordpress-converter](../skills/frontend/frameworks/codebase_to_wordpres/codebase-to-wordpress-converter/SKILL.md) — Use this skill to expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme.
 
 ### Nextjs (1 skills)
 Category index: [`docs/categories/nextjs.md`](categories/nextjs.md)
