@@ -2723,6 +2723,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brooks-debt",
+    "path": "skills/ai-engineering/models/brooks_debt/brooks-debt",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "brooks_debt",
+    "description": "Use this skill to tech debt assessment that identifies, classifies, and prioritizes maintainability problems \u2014 helping teams build a refactoring roadmap \u2014 drawing on twelve classic engineering books.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "brooks",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brooks Debt",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

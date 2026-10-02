@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **421** skills across structured domains, categories, and subcategories.
+Master navigation for **422** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (141 skills)
+## Ai Engineering (142 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -118,7 +118,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (86 skills)
+### Models (87 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -282,6 +282,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [break-ai-fix-loops](../skills/ai-engineering/models/break_ai_fix_loops/break-ai-fix-loops/SKILL.md) — Use this skill to stop ineffective AI coding repair loops with stable failure fingerprints, a three-attempt budget, real-path proof, negative controls, and tested rollback.
 - **Brevo_Automation** (1):
   - [brevo-automation](../skills/ai-engineering/models/brevo_automation/brevo-automation/SKILL.md) — Use this skill to automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.
+- **Brooks_Debt** (1):
+  - [brooks-debt](../skills/ai-engineering/models/brooks_debt/brooks-debt/SKILL.md) — Use this skill to tech debt assessment that identifies, classifies, and prioritizes maintainability problems — helping teams build a refactoring roadmap — drawing on twelve classic engineering books.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
