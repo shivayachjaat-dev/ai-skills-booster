@@ -28669,6 +28669,28 @@
     "maturity": "stable"
   },
   {
+    "name": "draw",
+    "path": "skills/software-engineering/architecture/patterns/draw",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for draw. Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "draw",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Draw",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "dx-optimizer",
     "path": "skills/software-engineering/architecture/patterns/dx-optimizer",
     "domain": "software-engineering",
