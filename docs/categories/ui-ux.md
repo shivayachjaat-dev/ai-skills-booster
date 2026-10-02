@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **46 skills** available in this category.
+> **47 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -50,3 +50,4 @@
 | [crossframe-casebook](../../skills/frontend/ui-ux/crossframe_casebook/crossframe-casebook/SKILL.md) | `crossframe_casebook` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes. |
 | [crossframe-debate](../../skills/frontend/ui-ux/crossframe_debate/crossframe-debate/SKILL.md) | `crossframe_debate` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese proposition testing, debate analysis, hidden-premise review, rebuttal design, or withdrawal condition checks. |
 | [crossframe-dialogue](../../skills/frontend/ui-ux/crossframe_dialogue/crossframe-dialogue/SKILL.md) | `crossframe_dialogue` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese reader replies, editor responses, consultation-style short answers, or boundary-aware structural advice. |
+| [crossframe-notebook](../../skills/frontend/ui-ux/crossframe_notebook/crossframe-notebook/SKILL.md) | `crossframe_notebook` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese notes for books, theories, articles, excerpts, bidirectional reading, absorption, or conflict mapping. |

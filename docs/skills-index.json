@@ -10839,6 +10839,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-notebook",
+    "path": "skills/frontend/ui-ux/crossframe_notebook/crossframe-notebook",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "crossframe_notebook",
+    "description": "Use this skill to use when CrossFrame Suite routes explicit Chinese notes for books, theories, articles, excerpts, bidirectional reading, absorption, or conflict mapping.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Notebook",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
