@@ -1,6 +1,6 @@
 # Category Index: Authentication
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -12,4 +12,5 @@
 | [browser-act](../../skills/security/authentication/browser_act/browser-act/SKILL.md) | `browser_act` | `advanced` | `stable` | Use this skill to use BrowserAct for authenticated browser automation, JS-rendered extraction, screenshots, parallel sessions, verification handling, and human handoff. |
 | [browser-extension-reverse](../../skills/security/authentication/browser_extension_re/browser-extension-reverse/SKILL.md) | `browser_extension_re` | `advanced` | `stable` | Use this skill to authorized reverse engineering of Chrome/Firefox extensions: manifest analysis, background workers, content scripts, and extension-based credential or data-exposure research. |
 | [clerk-auth](../../skills/security/authentication/clerk_auth/clerk-auth/SKILL.md) | `clerk_auth` | `advanced` | `stable` | Use this skill to expert patterns for Clerk auth implementation, middleware, |
+| [content-strategy](../../skills/security/authentication/content_strategy/content-strategy/SKILL.md) | `content_strategy` | `advanced` | `stable` | Use this skill to plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program. |
 | [oauth2-jwt-authentication-flow](../../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) | `oauth2` | `advanced` | `stable` | Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists. |

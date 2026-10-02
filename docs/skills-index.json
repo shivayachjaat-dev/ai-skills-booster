@@ -11467,6 +11467,28 @@
     "maturity": "stable"
   },
   {
+    "name": "content-strategy",
+    "path": "skills/security/authentication/content_strategy/content-strategy",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "content_strategy",
+    "description": "Use this skill to plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program.",
+    "tags": [
+      "security",
+      "authentication",
+      "content",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Content Strategy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",

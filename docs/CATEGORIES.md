@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **595** skills across structured domains, categories, and subcategories.
+Master navigation for **596** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (207 skills)
 
@@ -1417,7 +1417,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (60 skills)
+## Security (61 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -1486,7 +1486,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 - **Zero Trust** (1):
   - [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
 
-### Authentication (9 skills)
+### Authentication (10 skills)
 Category index: [`docs/categories/authentication.md`](categories/authentication.md)
 
 - **Azure_Communication_** (1):
@@ -1505,6 +1505,8 @@ Category index: [`docs/categories/authentication.md`](categories/authentication.
   - [browser-extension-reverse](../skills/security/authentication/browser_extension_re/browser-extension-reverse/SKILL.md) — Use this skill to authorized reverse engineering of Chrome/Firefox extensions: manifest analysis, background workers, content scripts, and extension-based credential or data-exposure research.
 - **Clerk_Auth** (1):
   - [clerk-auth](../skills/security/authentication/clerk_auth/clerk-auth/SKILL.md) — Use this skill to expert patterns for Clerk auth implementation, middleware,
+- **Content_Strategy** (1):
+  - [content-strategy](../skills/security/authentication/content_strategy/content-strategy/SKILL.md) — Use this skill to plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program.
 - **Oauth2** (1):
   - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
 
