@@ -16603,6 +16603,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-multi-instance",
+    "path": "skills/developer-tools/cli-utilities/n8n_multi_instance/n8n-multi-instance",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "n8n_multi_instance",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n multi instance. Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes.",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Multi Instance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",

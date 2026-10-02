@@ -1,6 +1,6 @@
 # Category Index: Cli Utilities
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,3 +13,4 @@
 | [graphql-schema](../../skills/developer-tools/cli-utilities/graphql_schema/graphql-schema/SKILL.md) | `graphql_schema` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types. |
 | [it-manager-hospital](../../skills/developer-tools/cli-utilities/it_manager_hospital/it-manager-hospital/SKILL.md) | `it_manager_hospital` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for it manager hospital. World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS/PEP ecosystems. |
 | [linkedin-cli](../../skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli/SKILL.md) | `linkedin_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator. |
+| [n8n-multi-instance](../../skills/developer-tools/cli-utilities/n8n_multi_instance/n8n-multi-instance/SKILL.md) | `n8n_multi_instance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n multi instance. Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes. |
