@@ -3178,6 +3178,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-monitor-query-py",
+    "path": "skills/backend/python-services/azure_monitor_query_/azure-monitor-query-py",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "azure_monitor_query_",
+    "description": "Use this skill to azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.",
+    "tags": [
+      "backend",
+      "python-services",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Monitor Query Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

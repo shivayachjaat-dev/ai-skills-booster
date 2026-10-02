@@ -1,6 +1,6 @@
 # Category Index: Python Services
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [azure-mgmt-botservice-py](../../skills/backend/python-services/azure_mgmt_botservic/azure-mgmt-botservice-py/SKILL.md) | `azure_mgmt_botservic` | `advanced` | `stable` | Use this skill to azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources. |
 | [azure-mgmt-fabric-py](../../skills/backend/python-services/azure_mgmt_fabric_py/azure-mgmt-fabric-py/SKILL.md) | `azure_mgmt_fabric_py` | `advanced` | `stable` | Use this skill to azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources. |
 | [azure-monitor-opentelemetry-exporter-py](../../skills/backend/python-services/azure_monitor_opente/azure-monitor-opentelemetry-exporter-py/SKILL.md) | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights. |
+| [azure-monitor-query-py](../../skills/backend/python-services/azure_monitor_query_/azure-monitor-query-py/SKILL.md) | `azure_monitor_query_` | `advanced` | `stable` | Use this skill to azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics. |
