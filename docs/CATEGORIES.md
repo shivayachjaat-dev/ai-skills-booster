@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **693** skills across structured domains, categories, and subcategories.
+Master navigation for **694** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (247 skills)
+## Ai Engineering (248 skills)
 
 ### Agents (29 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -148,7 +148,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (173 skills)
+### Models (174 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -486,6 +486,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [de-ai-writer](../skills/ai-engineering/models/de_ai_writer/de-ai-writer/SKILL.md) — Use this skill to chinese AI-smell removal engine: 35 Chinese AI-tell patterns (赋能/闭环), AI-smell scoring, de-AI rewriting, style clone. Use when a Chinese draft reads machine-written or the user asks 去AI味.
 - **Debug_Buttercup** (1):
   - [debug-buttercup](../skills/ai-engineering/models/debug_buttercup/debug-buttercup/SKILL.md) — Use this skill to all pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings.
+- **Debugger** (1):
+  - [debugger](../skills/ai-engineering/models/debugger/debugger/SKILL.md) — Use this skill to debugging specialist for errors, test failures, and unexpected
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

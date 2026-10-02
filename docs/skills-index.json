@@ -4967,6 +4967,28 @@
     "maturity": "stable"
   },
   {
+    "name": "debugger",
+    "path": "skills/ai-engineering/models/debugger/debugger",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "debugger",
+    "description": "Use this skill to debugging specialist for errors, test failures, and unexpected",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "debugger",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Debugger",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
