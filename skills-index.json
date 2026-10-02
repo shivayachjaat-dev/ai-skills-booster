@@ -24599,6 +24599,28 @@
     "maturity": "stable"
   },
   {
+    "name": "golang-pro",
+    "path": "skills/software-engineering/architecture/patterns/golang-pro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for golang pro. Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "golang",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Golang Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
