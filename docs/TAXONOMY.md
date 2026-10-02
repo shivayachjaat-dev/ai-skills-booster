@@ -336,6 +336,7 @@ AI_Skills_Booster/
 │   │   ├── frontend_ui_engineer/ (1 skills)
 │   │   ├── gcp_cloud_sql/ (1 skills)
 │   │   ├── gdb_cli/ (1 skills)
+│   │   ├── gemini_omni_flash_ap/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

@@ -7343,6 +7343,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gemini-omni-flash-api",
+    "path": "skills/ai-engineering/models/gemini_omni_flash_ap/gemini-omni-flash-api",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "gemini_omni_flash_ap",
+    "description": "Use this skill to design, implement, and operate production workflows for gemini omni flash api. Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "gemini",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gemini Omni Flash Api",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
