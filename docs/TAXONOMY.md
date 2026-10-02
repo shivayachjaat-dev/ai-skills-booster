@@ -533,6 +533,7 @@ AI_Skills_Booster/
 │   │   ├── okta_attack/ (1 skills)
 │   │   ├── omentir_linkedin_out/ (1 skills)
 │   │   ├── open_dynamic_workflo/ (1 skills)
+│   │   ├── openapi_spec_generat/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

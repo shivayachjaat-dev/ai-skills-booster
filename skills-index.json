@@ -11721,6 +11721,28 @@
     "maturity": "stable"
   },
   {
+    "name": "openapi-spec-generation",
+    "path": "skills/ai-engineering/models/openapi_spec_generat/openapi-spec-generation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "openapi_spec_generat",
+    "description": "Use this skill to design, implement, and operate production workflows for openapi spec generation. Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "openapi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Openapi Spec Generation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
