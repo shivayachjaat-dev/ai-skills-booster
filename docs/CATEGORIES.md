@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **876** skills across structured domains, categories, and subcategories.
+Master navigation for **877** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (304 skills)
 
@@ -2126,9 +2126,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (88 skills)
+## Software Engineering (89 skills)
 
-### Architecture (81 skills)
+### Architecture (82 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -2137,7 +2137,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (78):
+- **Patterns** (79):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -2215,6 +2215,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [distributed-tracing](../skills/software-engineering/architecture/patterns/distributed-tracing/SKILL.md) — Use this skill to design, implement, and operate production workflows for distributed tracing. Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.
   - [dotnet-reverse](../skills/software-engineering/architecture/patterns/dotnet-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet reverse. .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling.
   - [doubt-driven-development](../skills/software-engineering/architecture/patterns/doubt-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for doubt driven development. Subjects every non-trivial decision to a fresh-context adversarial review before it stands.
+  - [dx-optimizer](../skills/software-engineering/architecture/patterns/dx-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for dx optimizer. Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.
   - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 
 ### Code Review (1 skills)

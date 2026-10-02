@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **82 skills** available in this category.
+> **83 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -85,4 +85,5 @@
 | [distributed-tracing](../../skills/software-engineering/architecture/patterns/distributed-tracing/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for distributed tracing. Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices. |
 | [dotnet-reverse](../../skills/software-engineering/architecture/patterns/dotnet-reverse/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dotnet reverse. .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling. |
 | [doubt-driven-development](../../skills/software-engineering/architecture/patterns/doubt-driven-development/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for doubt driven development. Subjects every non-trivial decision to a fresh-context adversarial review before it stands. |
+| [dx-optimizer](../../skills/software-engineering/architecture/patterns/dx-optimizer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dx optimizer. Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

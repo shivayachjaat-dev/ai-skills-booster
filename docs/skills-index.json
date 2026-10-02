@@ -19341,6 +19341,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dx-optimizer",
+    "path": "skills/software-engineering/architecture/patterns/dx-optimizer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for dx optimizer. Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "dx",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dx Optimizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
