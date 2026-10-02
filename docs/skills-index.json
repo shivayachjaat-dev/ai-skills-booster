@@ -5627,6 +5627,28 @@
     "maturity": "stable"
   },
   {
+    "name": "diagnosing-bugs",
+    "path": "skills/ai-engineering/models/diagnosing_bugs/diagnosing-bugs",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "diagnosing_bugs",
+    "description": "Use this skill to design, implement, and operate production workflows for diagnosing bugs. Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "diagnosing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Diagnosing Bugs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
