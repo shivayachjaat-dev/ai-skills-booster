@@ -1109,6 +1109,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_cors/ (1 skills)
 │   │   ├── hunt_csrf/ (1 skills)
 │   │   ├── hunt_deserialization/ (1 skills)
+│   │   ├── hunt_dispatch/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,213 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,214 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -993,6 +993,7 @@
 | [hunt-cors](skills/security/appsec/hunt_cors/hunt-cors/SKILL.md) | `security` | `appsec` | `hunt_cors` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt cors. Hunt CORS Misconfiguration |
 | [hunt-csrf](skills/security/appsec/hunt_csrf/hunt-csrf/SKILL.md) | `security` | `appsec` | `hunt_csrf` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt csrf. Hunting skill for csrf vulnerabilities. |
 | [hunt-deserialization](skills/security/appsec/hunt_deserialization/hunt-deserialization/SKILL.md) | `security` | `appsec` | `hunt_deserialization` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt deserialization. Hunt Insecure Deserialization |
+| [hunt-dispatch](skills/security/appsec/hunt_dispatch/hunt-dispatch/SKILL.md) | `security` | `appsec` | `hunt_dispatch` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt dispatch. Skill-set loader for /hunt orchestrator. |
 | [laravel-security-audit](skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `security` | `appsec` | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `security` | `appsec` | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
