@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1050 skills)
+## Bash (1051 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1806,6 +1806,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hig-platforms](../skills/frontend/ui-ux/hig_platforms/hig-platforms/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig platforms. Apple Human Interface Guidelines for platform-specific design.
 - [huggingface-lora-space-builder](../skills/frontend/ui-ux/huggingface_lora_spa/huggingface-lora-space-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for huggingface lora space builder. Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA.
 - [hunt-idor](../skills/frontend/ui-ux/hunt_idor/hunt-idor/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt idor. Hunting skill for idor vulnerabilities. Built from 26 public bug bounty
+- [hunt-misc](../skills/frontend/ui-ux/hunt_misc/hunt-misc/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt misc. Hunting skill for misc vulnerabilities. Built from 225 public bug bounty
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -5875,6 +5876,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [hunt-mfa-bypass](../skills/security/appsec/hunt_mfa_bypass/hunt-mfa-bypass/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt mfa bypass. Hunt MFA / 2FA bypass
 
+## Hunt Misc (1 skills)
+
+- [hunt-misc](../skills/frontend/ui-ux/hunt_misc/hunt-misc/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt misc. Hunting skill for misc vulnerabilities. Built from 225 public bug bounty
+
 ## IMAP (1 skills)
 
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
@@ -6612,7 +6617,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1153 skills)
+## Python (1154 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7416,6 +7421,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hig-platforms](../skills/frontend/ui-ux/hig_platforms/hig-platforms/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig platforms. Apple Human Interface Guidelines for platform-specific design.
 - [huggingface-lora-space-builder](../skills/frontend/ui-ux/huggingface_lora_spa/huggingface-lora-space-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for huggingface lora space builder. Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA.
 - [hunt-idor](../skills/frontend/ui-ux/hunt_idor/hunt-idor/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt idor. Hunting skill for idor vulnerabilities. Built from 26 public bug bounty
+- [hunt-misc](../skills/frontend/ui-ux/hunt_misc/hunt-misc/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt misc. Hunting skill for misc vulnerabilities. Built from 225 public bug bounty
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.

@@ -19177,6 +19177,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-misc",
+    "path": "skills/frontend/ui-ux/hunt_misc/hunt-misc",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hunt_misc",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt misc. Hunting skill for misc vulnerabilities. Built from 225 public bug bounty",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Misc",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

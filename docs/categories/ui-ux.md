@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **135 skills** available in this category.
+> **136 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -135,6 +135,7 @@
 | [hig-platforms](../../skills/frontend/ui-ux/hig_platforms/hig-platforms/SKILL.md) | `hig_platforms` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig platforms. Apple Human Interface Guidelines for platform-specific design. |
 | [huggingface-lora-space-builder](../../skills/frontend/ui-ux/huggingface_lora_spa/huggingface-lora-space-builder/SKILL.md) | `huggingface_lora_spa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for huggingface lora space builder. Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. |
 | [hunt-idor](../../skills/frontend/ui-ux/hunt_idor/hunt-idor/SKILL.md) | `hunt_idor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt idor. Hunting skill for idor vulnerabilities. Built from 26 public bug bounty |
+| [hunt-misc](../../skills/frontend/ui-ux/hunt_misc/hunt-misc/SKILL.md) | `hunt_misc` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt misc. Hunting skill for misc vulnerabilities. Built from 225 public bug bounty |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
