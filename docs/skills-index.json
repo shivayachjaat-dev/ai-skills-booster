@@ -17125,6 +17125,28 @@
     "maturity": "stable"
   },
   {
+    "name": "deployment-validation-config-validate",
+    "path": "skills/testing/automation/deployment_validatio/deployment-validation-config-validate",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "deployment_validatio",
+    "description": "Use this skill to design, implement, and operate production workflows for deployment validation config validate. You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configurat",
+    "tags": [
+      "testing",
+      "automation",
+      "deployment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Deployment Validation Config Validate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

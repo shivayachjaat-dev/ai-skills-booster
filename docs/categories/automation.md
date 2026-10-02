@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [code-showcase-testing-patterns](../../skills/testing/automation/code_showcase_testin/code-showcase-testing-patterns/SKILL.md) | `code_showcase_testin` | `advanced` | `stable` | Use this skill to jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle. |
 | [cucumber-skill](../../skills/testing/automation/cucumber_skill/cucumber-skill/SKILL.md) | `cucumber_skill` | `advanced` | `stable` | Use this skill to generates Cucumber BDD tests with Gherkin feature files and step definitions in Java, JavaScript, or Ruby. Use when user mentions \"Cucumber\", \"Gherkin\", \"Feature/Scenario\", \"Given/When/Then\", \"BDD\". |
 | [dependency-upgrade](../../skills/testing/automation/dependency_upgrade/dependency-upgrade/SKILL.md) | `dependency_upgrade` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dependency upgrade. Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches. |
+| [deployment-validation-config-validate](../../skills/testing/automation/deployment_validatio/deployment-validation-config-validate/SKILL.md) | `deployment_validatio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deployment validation config validate. You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configurat |
