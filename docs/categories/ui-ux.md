@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **178 skills** available in this category.
+> **179 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -179,6 +179,7 @@
 | [monorepo-management](../../skills/frontend/ui-ux/monorepo_management/monorepo-management/SKILL.md) | `monorepo_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monorepo management. Build efficient, scalable monorepos that enable code sharing, consistent tooling, and atomic changes across multiple packages and applications. |
 | [monte-carlo-analyze-root-cause](../../skills/frontend/ui-ux/monte_carlo_analyze_/monte-carlo-analyze-root-cause/SKILL.md) | `monte_carlo_analyze_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo analyze root cause. Curated upstream guidance for Monte Carlo Analyze Root Cause; use when the workflow matches the user goal. |
 | [monte-carlo-asset-health](../../skills/frontend/ui-ux/monte_carlo_asset_he/monte-carlo-asset-health/SKILL.md) | `monte_carlo_asset_he` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo asset health. Curated upstream guidance for Monte Carlo Asset Health; use when the workflow matches the user goal. |
+| [monte-carlo-monitor-creation](../../skills/frontend/ui-ux/monte_carlo_monitor_/monte-carlo-monitor-creation/SKILL.md) | `monte_carlo_monitor_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo monitor creation. Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

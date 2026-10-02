@@ -24325,6 +24325,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-monitor-creation",
+    "path": "skills/frontend/ui-ux/monte_carlo_monitor_/monte-carlo-monitor-creation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "monte_carlo_monitor_",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo monitor creation. Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Monitor Creation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
