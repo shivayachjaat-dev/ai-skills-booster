@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **12** skills across structured domains, categories, and subcategories.
+Master navigation for **13** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (2 skills)
 
@@ -76,13 +76,19 @@ Category index: [`docs/categories/secret-management.md`](categories/secret-manag
 - **Detection** (1):
   - [secret-leak-detection-and-remediation](../skills/security/secret-management/detection/secret-leak-detection-and-remediation/SKILL.md) — Use this skill when detecting, containing, revoking, and purging secrets committed to Git repositories or build artifacts. It guides the agent through scanning history with TruffleHog/Gitleaks, executing emergency credential revocation, rewriting Git history with git-filter-repo, and installing pre-commit guardrails.
 
-## Software Engineering (1 skills)
+## Software Engineering (2 skills)
 
 ### Architecture (1 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
+
+### Refactoring (1 skills)
+Category index: [`docs/categories/refactoring.md`](categories/refactoring.md)
+
+- **Simplification** (1):
+  - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 
 ## Testing (1 skills)
 

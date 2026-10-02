@@ -30,8 +30,10 @@ AI_Skills_Booster/
 │   └── secret-management/
 │   │   └── detection/ (1 skills)
 ├── software-engineering/
-│   └── architecture/
+│   ├── architecture/
 │   │   └── interfaces/ (1 skills)
+│   └── refactoring/
+│   │   └── simplification/ (1 skills)
 ├── testing/
 │   └── e2e/
 │   │   └── playwright/ (1 skills)

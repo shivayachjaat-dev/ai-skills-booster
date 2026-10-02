@@ -261,6 +261,29 @@
     "maturity": "stable"
   },
   {
+    "name": "code-simplification",
+    "path": "skills/software-engineering/refactoring/simplification/code-simplification",
+    "domain": "software-engineering",
+    "category": "refactoring",
+    "subcategory": "simplification",
+    "description": "Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.",
+    "tags": [
+      "software-engineering",
+      "refactoring",
+      "clean-code",
+      "simplification",
+      "code-quality"
+    ],
+    "technologies": [
+      "TypeScript",
+      "Python",
+      "Go",
+      "Rust"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "playwright-e2e-testing",
     "path": "skills/testing/e2e/playwright/playwright-e2e-testing",
     "domain": "testing",

@@ -34,7 +34,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.303865+00:00"
+    "updated_at": "2026-10-02T13:17:57.649100+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -72,7 +72,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.304867+00:00"
+    "updated_at": "2026-10-02T13:17:57.650711+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -109,7 +109,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.305339+00:00"
+    "updated_at": "2026-10-02T13:17:57.651014+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -147,7 +147,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.305339+00:00"
+    "updated_at": "2026-10-02T13:17:57.651014+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -185,7 +185,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.305339+00:00"
+    "updated_at": "2026-10-02T13:17:57.652010+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -224,7 +224,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.306608+00:00"
+    "updated_at": "2026-10-02T13:17:57.652541+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -263,7 +263,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.306608+00:00"
+    "updated_at": "2026-10-02T13:17:57.653136+00:00"
   },
   {
     "name": "skill-creator",
@@ -300,7 +300,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.307607+00:00"
+    "updated_at": "2026-10-02T13:17:57.653136+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -337,7 +337,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.307607+00:00"
+    "updated_at": "2026-10-02T13:17:57.654145+00:00"
   },
   {
     "name": "secret-leak-detection-and-remediation",
@@ -376,7 +376,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.308604+00:00"
+    "updated_at": "2026-10-02T13:17:57.654145+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -415,7 +415,43 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.308604+00:00"
+    "updated_at": "2026-10-02T13:17:57.654145+00:00"
+  },
+  {
+    "name": "code-simplification",
+    "slug": "code-simplification",
+    "path": "skills/software-engineering/refactoring/simplification/code-simplification",
+    "domain": "software-engineering",
+    "category": "refactoring",
+    "subcategory": "simplification",
+    "description": "Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.",
+    "tags": [
+      "software-engineering",
+      "refactoring",
+      "clean-code",
+      "simplification",
+      "code-quality"
+    ],
+    "technologies": [
+      "TypeScript",
+      "Python",
+      "Go",
+      "Rust"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable",
+    "tools": [
+      "git"
+    ],
+    "dependencies": [
+      "git >= 2.30"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "source": "AI_Skills_Booster",
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:17:57.654145+00:00"
   },
   {
     "name": "playwright-e2e-testing",
@@ -454,6 +490,6 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:59.309604+00:00"
+    "updated_at": "2026-10-02T13:17:57.655633+00:00"
   }
 ]
