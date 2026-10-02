@@ -32915,6 +32915,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mdpr-skill",
+    "path": "skills/software-engineering/architecture/patterns/mdpr-skill",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for mdpr skill. Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "mdpr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mdpr Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
