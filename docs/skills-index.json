@@ -4248,6 +4248,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-eventhub-ts",
+    "path": "skills/devops/cloud-infrastructure/azure_eventhub_ts/azure-eventhub-ts",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_eventhub_ts",
+    "description": "Use this skill to high-throughput event streaming and real-time data ingestion.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Eventhub Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **12 skills** available in this category.
+> **13 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -16,3 +16,4 @@
 | [azure-eventgrid-dotnet](../../skills/devops/cloud-infrastructure/azure_eventgrid_dotn/azure-eventgrid-dotnet/SKILL.md) | `azure_eventgrid_dotn` | `advanced` | `stable` | Use this skill to azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents. |
 | [azure-eventhub-dotnet](../../skills/devops/cloud-infrastructure/azure_eventhub_dotne/azure-eventhub-dotnet/SKILL.md) | `azure_eventhub_dotne` | `advanced` | `stable` | Use this skill to azure Event Hubs SDK for .NET. |
 | [azure-eventhub-rust](../../skills/devops/cloud-infrastructure/azure_eventhub_rust/azure-eventhub-rust/SKILL.md) | `azure_eventhub_rust` | `advanced` | `stable` | Use this skill to azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion. |
+| [azure-eventhub-ts](../../skills/devops/cloud-infrastructure/azure_eventhub_ts/azure-eventhub-ts/SKILL.md) | `azure_eventhub_ts` | `advanced` | `stable` | Use this skill to high-throughput event streaming and real-time data ingestion. |
