@@ -322,6 +322,34 @@
     "maturity": "stable"
   },
   {
+    "name": "whisper-speech-to-text-and-diarization-pipeline",
+    "path": "skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline",
+    "domain": "ai-engineering",
+    "category": "audio-processing",
+    "subcategory": "speech-recognition",
+    "description": "Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.",
+    "tags": [
+      "ai-engineering",
+      "audio-processing",
+      "speech-to-text",
+      "whisper",
+      "faster-whisper",
+      "speaker-diarization",
+      "pyannote",
+      "vad"
+    ],
+    "technologies": [
+      "Whisper",
+      "faster-whisper",
+      "PyAnnote",
+      "Silero VAD",
+      "FFmpeg",
+      "Python"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-email-inbox-and-smtp-automation",
     "path": "skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation",
     "domain": "ai-engineering",

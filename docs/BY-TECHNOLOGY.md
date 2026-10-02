@@ -526,8 +526,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
 - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-## FFmpeg (1 skills)
+## FFmpeg (2 skills)
 
+- [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
 - [multilingual-audio-dubbing-and-srt-sync](../skills/multimedia/audio/multilingual-dubbing/multilingual-audio-dubbing-and-srt-sync/SKILL.md) — Use this skill to design and automate end-to-end multilingual audio dubbing, subtitle translation, and SRT timestamp alignment pipelines using Whisper, ElevenLabs, and FFmpeg. It covers speech synthesis matching, audio ducking, subtitle timecode synchronization, and video stream multiplexing.
 
 ## FIDO2 (1 skills)
@@ -1413,6 +1414,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
 
+## PyAnnote (1 skills)
+
+- [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
+
 ## PyRIT (1 skills)
 
 - [ai-llm-red-teaming-and-jailbreak-assessment](../skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment/SKILL.md) — Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.
@@ -1455,7 +1460,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (101 skills)
+## Python (102 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
@@ -1469,6 +1474,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 - [multi-agent-workload-distribution-and-cost-optimization](../skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization/SKILL.md) — Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.
 - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
+- [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
 - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 - [context-window-engineering](../skills/ai-engineering/context/optimization/context-window-engineering/SKILL.md) — Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs.
@@ -1881,6 +1887,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [cosign-container-image-signing](../skills/security/supply-chain/cosign/cosign-container-image-signing/SKILL.md) — Use this skill when designing, implementing, and enforcing cryptographic container image signing and verification using Sigstore Cosign. It covers keyless signing via OIDC (GitHub Actions/GitLab CI), public/private keypair signing, SBOM attestation attachment, and enforcing Kubernetes admission policies with Kyverno or Gatekeeper.
 
+## Silero VAD (1 skills)
+
+- [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
+
 ## SimpleWebAuthn (1 skills)
 
 - [webauthn-fido2-passkey-authentication](../skills/security/zero-trust/mfa-webauthn/webauthn-fido2-passkey-authentication/SKILL.md) — Use this skill when designing, implementing, and securing passwordless authentication and multi-factor authentication (MFA) using WebAuthn, FIDO2, and Passkeys. It covers registration and authentication ceremony state machines, cryptographic challenge verification, public key credential storage, authenticator attestation, and signature counter verification.
@@ -2145,6 +2155,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [cypress-component-testing](../skills/testing/component/cypress/cypress-component-testing/SKILL.md) — Use this skill when authoring, running, and debugging isolated component tests using Cypress Component Testing for React, Vue, or Angular. It guides the agent through mounting components in real browser DOMs, asserting visual states, stubbing network requests via cy.intercept, simulating user events, and verifying CSS animations without firing up full backend environments.
 
+## Whisper (1 skills)
+
+- [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
+
 ## WireGuard (2 skills)
 
 - [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
@@ -2230,6 +2244,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## errgroup (1 skills)
 
 - [golang-goroutine-concurrency-patterns](../skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns/SKILL.md) — Use this skill when designing, implementing, and debugging concurrent systems in Go. It guides the agent through worker pool patterns, context cancellation propagation (context.Context), channel synchronization (buffered vs unbuffered), race condition prevention using the Go race detector (-race), errgroup error aggregation, and graceful shutdown.
+
+## faster-whisper (1 skills)
+
+- [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
 
 ## gRPC (1 skills)
 

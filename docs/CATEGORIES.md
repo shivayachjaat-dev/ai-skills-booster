@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **179** skills across structured domains, categories, and subcategories.
+Master navigation for **180** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (32 skills)
+## Ai Engineering (33 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -33,6 +33,12 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - **Scheduling** (1):
   - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
+
+### Audio Processing (1 skills)
+Category index: [`docs/categories/audio-processing.md`](categories/audio-processing.md)
+
+- **Speech Recognition** (1):
+  - [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
 
 ### Communication (2 skills)
 Category index: [`docs/categories/communication.md`](categories/communication.md)

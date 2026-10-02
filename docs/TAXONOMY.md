@@ -17,6 +17,8 @@ AI_Skills_Booster/
 │   │   ├── orchestration-optimization/ (1 skills)
 │   │   ├── process-management/ (1 skills)
 │   │   └── scheduling/ (1 skills)
+│   ├── audio-processing/
+│   │   └── speech-recognition/ (1 skills)
 │   ├── communication/
 │   │   ├── agent-email/ (1 skills)
 │   │   └── voice-telephony/ (1 skills)
