@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **533** skills across structured domains, categories, and subcategories.
+Master navigation for **534** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (180 skills)
+## Ai Engineering (181 skills)
 
 ### Agents (23 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -130,7 +130,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (117 skills)
+### Models (118 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -356,6 +356,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [cloudflare-security-audit](../skills/ai-engineering/models/cloudflare_security_/cloudflare-security-audit/SKILL.md) — Use this skill to audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting.
 - **Co_Marketing** (1):
   - [co-marketing](../skills/ai-engineering/models/co_marketing/co-marketing/SKILL.md) — Use this skill to when the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities.
+- **Code_Documentation_C** (1):
+  - [code-documentation-code-explain](../skills/ai-engineering/models/code_documentation_c/code-documentation-code-explain/SKILL.md) — Use this skill to you are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations for developers at all levels.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

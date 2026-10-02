@@ -3537,6 +3537,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-documentation-code-explain",
+    "path": "skills/ai-engineering/models/code_documentation_c/code-documentation-code-explain",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "code_documentation_c",
+    "description": "Use this skill to you are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations for developers at all levels.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Documentation Code Explain",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

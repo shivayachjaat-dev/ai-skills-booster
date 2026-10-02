@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **117 skills** available in this category.
+> **118 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -120,4 +120,5 @@
 | [cloud-k8s](../../skills/ai-engineering/models/cloud_k8s/cloud-k8s/SKILL.md) | `cloud_k8s` | `advanced` | `stable` | Use this skill to authorized cloud, container, and Kubernetes security assessment: metadata SSRF, IAM misconfiguration, container escape paths, and cluster RBAC review. |
 | [cloudflare-security-audit](../../skills/ai-engineering/models/cloudflare_security_/cloudflare-security-audit/SKILL.md) | `cloudflare_security_` | `advanced` | `stable` | Use this skill to audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting. |
 | [co-marketing](../../skills/ai-engineering/models/co_marketing/co-marketing/SKILL.md) | `co_marketing` | `advanced` | `stable` | Use this skill to when the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. |
+| [code-documentation-code-explain](../../skills/ai-engineering/models/code_documentation_c/code-documentation-code-explain/SKILL.md) | `code_documentation_c` | `advanced` | `stable` | Use this skill to you are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations for developers at all levels. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
