@@ -470,6 +470,32 @@
     "maturity": "stable"
   },
   {
+    "name": "prometheus-grafana-observability",
+    "path": "skills/devops/monitoring/prometheus/prometheus-grafana-observability",
+    "domain": "devops",
+    "category": "monitoring",
+    "subcategory": "prometheus",
+    "description": "Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.",
+    "tags": [
+      "prometheus",
+      "grafana",
+      "observability",
+      "monitoring",
+      "devops",
+      "sre",
+      "metrics"
+    ],
+    "technologies": [
+      "Prometheus",
+      "Grafana",
+      "PromQL",
+      "Docker",
+      "Alertmanager"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "wcag-accessibility-audit",
     "path": "skills/frontend/accessibility/wcag/wcag-accessibility-audit",
     "domain": "frontend",

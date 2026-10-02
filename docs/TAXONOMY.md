@@ -42,8 +42,10 @@ AI_Skills_Booster/
 │   │   └── optimization/ (1 skills)
 │   ├── iac/
 │   │   └── terraform/ (1 skills)
-│   └── kubernetes/
+│   ├── kubernetes/
 │   │   └── troubleshooting/ (1 skills)
+│   └── monitoring/
+│   │   └── prometheus/ (1 skills)
 ├── frontend/
 │   ├── accessibility/
 │   │   └── wcag/ (1 skills)

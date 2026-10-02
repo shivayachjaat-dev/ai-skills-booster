@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **35** skills across structured domains, categories, and subcategories.
+Master navigation for **36** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -102,7 +102,7 @@ Category index: [`docs/categories/redis.md`](categories/redis.md)
 - **Caching** (1):
   - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 
-## Devops (3 skills)
+## Devops (4 skills)
 
 ### Containers (1 skills)
 Category index: [`docs/categories/containers.md`](categories/containers.md)
@@ -121,6 +121,12 @@ Category index: [`docs/categories/kubernetes.md`](categories/kubernetes.md)
 
 - **Troubleshooting** (1):
   - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
+
+### Monitoring (1 skills)
+Category index: [`docs/categories/monitoring.md`](categories/monitoring.md)
+
+- **Prometheus** (1):
+  - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
 
 ## Frontend (2 skills)
 
