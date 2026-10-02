@@ -11719,6 +11719,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dbos-python",
+    "path": "skills/frontend/ui-ux/dbos_python/dbos-python",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "dbos_python",
+    "description": "Use this skill to guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "dbos",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dbos Python",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

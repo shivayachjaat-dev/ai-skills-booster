@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 684 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 685 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -518,6 +518,7 @@
 | [data-privacy-controls](skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) | `frontend` | `ui-ux` | `data_privacy_control` | `advanced` | `stable` | Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance. |
 | [data-quality-frameworks](skills/frontend/ui-ux/data_quality_framewo/data-quality-frameworks/SKILL.md) | `frontend` | `ui-ux` | `data_quality_framewo` | `advanced` | `stable` | Use this skill to implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts. |
 | [dbos-golang](skills/frontend/ui-ux/dbos_golang/dbos-golang/SKILL.md) | `frontend` | `ui-ux` | `dbos_golang` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control. |
+| [dbos-python](skills/frontend/ui-ux/dbos_python/dbos-python/SKILL.md) | `frontend` | `ui-ux` | `dbos_python` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |

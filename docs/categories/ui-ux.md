@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **53 skills** available in this category.
+> **54 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -57,3 +57,4 @@
 | [data-privacy-controls](../../skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) | `data_privacy_control` | `advanced` | `stable` | Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance. |
 | [data-quality-frameworks](../../skills/frontend/ui-ux/data_quality_framewo/data-quality-frameworks/SKILL.md) | `data_quality_framewo` | `advanced` | `stable` | Use this skill to implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts. |
 | [dbos-golang](../../skills/frontend/ui-ux/dbos_golang/dbos-golang/SKILL.md) | `dbos_golang` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control. |
+| [dbos-python](../../skills/frontend/ui-ux/dbos_python/dbos-python/SKILL.md) | `dbos_python` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control. |
