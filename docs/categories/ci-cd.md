@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **22 skills** available in this category.
+> **23 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -25,4 +25,5 @@
 | [devops-deploy](../../skills/devops/ci-cd/devops_deploy/devops-deploy/SKILL.md) | `devops_deploy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devops deploy. DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento. |
 | [dns-management](../../skills/devops/ci-cd/dns_management/dns-management/SKILL.md) | `dns_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dns management. Configure DNS zones and records. Manage Route53, Cloud DNS, and self-hosted |
 | [ebpf-observability](../../skills/devops/ci-cd/ebpf_observability/ebpf-observability/SKILL.md) | `ebpf_observability` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ebpf observability. Use eBPF for deep kernel-level observability — trace syscalls, network |
+| [elk-stack](../../skills/devops/ci-cd/elk_stack/elk-stack/SKILL.md) | `elk_stack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for elk stack. Deploy and manage the ELK Stack (Elasticsearch, Logstash, Kibana) for |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
