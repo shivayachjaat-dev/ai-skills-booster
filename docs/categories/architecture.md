@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **114 skills** available in this category.
+> **115 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -115,6 +115,7 @@
 | [full-stack-orchestration-full-stack-feature](../../skills/software-engineering/architecture/patterns/full-stack-orchestration-full-stack-feature/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for full stack orchestration full stack feature. Use when working with full stack orchestration full stack feature |
 | [game-art](../../skills/software-engineering/architecture/patterns/game-art/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for game art. Game art principles. Visual style selection, asset pipeline, animation workflow. |
 | [game-design](../../skills/software-engineering/architecture/patterns/game-design/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for game design. Game design principles. GDD structure, balancing, player psychology, progression. |
+| [generate-nanobanana](../../skills/software-engineering/architecture/patterns/generate-nanobanana/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for generate nanobanana. Generate and edit images/video with Google's Gemini media models (Nano Banana 2/Pro, Gemini Omni Flash), with cost-approval gates, reference-image support, and a prompt/output log per call. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

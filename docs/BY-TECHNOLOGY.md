@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (887 skills)
+## Bash (888 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1943,6 +1943,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [full-stack-orchestration-full-stack-feature](../skills/software-engineering/architecture/patterns/full-stack-orchestration-full-stack-feature/SKILL.md) — Use this skill to design, implement, and operate production workflows for full stack orchestration full stack feature. Use when working with full stack orchestration full stack feature
 - [game-art](../skills/software-engineering/architecture/patterns/game-art/SKILL.md) — Use this skill to design, implement, and operate production workflows for game art. Game art principles. Visual style selection, asset pipeline, animation workflow.
 - [game-design](../skills/software-engineering/architecture/patterns/game-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for game design. Game design principles. GDD structure, balancing, player psychology, progression.
+- [generate-nanobanana](../skills/software-engineering/architecture/patterns/generate-nanobanana/SKILL.md) — Use this skill to design, implement, and operate production workflows for generate nanobanana. Generate and edit images/video with Google's Gemini media models (Nano Banana 2/Pro, Gemini Omni Flash), with cost-approval gates, reference-image support, and a prompt/output log per call.
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
@@ -4823,6 +4824,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [geminiignore-finops](../skills/ai-engineering/models/geminiignore_finops/geminiignore-finops/SKILL.md) — Use this skill to design, implement, and operate production workflows for geminiignore finops. Configure and optimize .geminiignore files for AI context window efficiency and token cost reduction (FinOps).
 
+## Generate Nanobanana (1 skills)
+
+- [generate-nanobanana](../skills/software-engineering/architecture/patterns/generate-nanobanana/SKILL.md) — Use this skill to design, implement, and operate production workflows for generate nanobanana. Generate and edit images/video with Google's Gemini media models (Nano Banana 2/Pro, Gemini Omni Flash), with cost-approval gates, reference-image support, and a prompt/output log per call.
+
 ## Geo Audit (1 skills)
 
 - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
@@ -5797,7 +5802,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (990 skills)
+## Python (991 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6765,6 +6770,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [full-stack-orchestration-full-stack-feature](../skills/software-engineering/architecture/patterns/full-stack-orchestration-full-stack-feature/SKILL.md) — Use this skill to design, implement, and operate production workflows for full stack orchestration full stack feature. Use when working with full stack orchestration full stack feature
 - [game-art](../skills/software-engineering/architecture/patterns/game-art/SKILL.md) — Use this skill to design, implement, and operate production workflows for game art. Game art principles. Visual style selection, asset pipeline, animation workflow.
 - [game-design](../skills/software-engineering/architecture/patterns/game-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for game design. Game design principles. GDD structure, balancing, player psychology, progression.
+- [generate-nanobanana](../skills/software-engineering/architecture/patterns/generate-nanobanana/SKILL.md) — Use this skill to design, implement, and operate production workflows for generate nanobanana. Generate and edit images/video with Google's Gemini media models (Nano Banana 2/Pro, Gemini Omni Flash), with cost-approval gates, reference-image support, and a prompt/output log per call.
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
