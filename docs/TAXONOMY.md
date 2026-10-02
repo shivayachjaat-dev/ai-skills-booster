@@ -343,7 +343,8 @@ AI_Skills_Booster/
 │   │   ├── database_migration/ (1 skills)
 │   │   ├── database_migrations_/ (2 skills)
 │   │   ├── database_optimizer/ (1 skills)
-│   │   └── database_security/ (1 skills)
+│   │   ├── database_security/ (1 skills)
+│   │   └── django_perf_review/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/

@@ -7415,6 +7415,28 @@
     "maturity": "stable"
   },
   {
+    "name": "django-perf-review",
+    "path": "skills/backend/databases/django_perf_review/django-perf-review",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "django_perf_review",
+    "description": "Use this skill to design, implement, and operate production workflows for django perf review. Django performance code review. Use when asked to \"review Django performance\", \"find N+1 queries\", \"optimize Django\", \"check queryset performance\", \"database performance\", \"Django ORM issues\", or audit Django code for performance problems.",
+    "tags": [
+      "backend",
+      "databases",
+      "django",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Django Perf Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **845** skills across structured domains, categories, and subcategories.
+Master navigation for **846** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (290 skills)
 
@@ -648,7 +648,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (60 skills)
+## Backend (61 skills)
 
 ### Api Design (5 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -722,7 +722,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (16 skills)
+### Databases (17 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -754,6 +754,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [database-optimizer](../skills/backend/databases/database_optimizer/database-optimizer/SKILL.md) — Use this skill to expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.
 - **Database_Security** (1):
   - [database-security](../skills/backend/databases/database_security/database-security/SKILL.md) — Use this skill to authorized database security assessment across PostgreSQL, MySQL, MSSQL, MongoDB, and Redis: exposure, authorization gaps, UDF/command execution paths, and misconfiguration review.
+- **Django_Perf_Review** (1):
+  - [django-perf-review](../skills/backend/databases/django_perf_review/django-perf-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for django perf review. Django performance code review. Use when asked to "review Django performance", "find N+1 queries", "optimize Django", "check queryset performance", "database performance", "Django ORM issues", or audit Django code for performance problems.
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)
