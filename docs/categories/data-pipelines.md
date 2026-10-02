@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **19 skills** available in this category.
+> **20 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,4 +22,5 @@
 | [ingest-youtube](../../skills/data-analytics/data-pipelines/ingest_youtube/ingest-youtube/SKILL.md) | `ingest_youtube` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ingest youtube. Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs. |
 | [it-manager-pro](../../skills/data-analytics/data-pipelines/it_manager_pro/it-manager-pro/SKILL.md) | `it_manager_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for it manager pro. Elite IT Management Advisor specializing in data-driven strategy, executive communication, and human-centric leadership for the 2026 digital era. |
 | [lemmaly](../../skills/data-analytics/data-pipelines/lemmaly/lemmaly/SKILL.md) | `lemmaly` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lemmaly. Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults. |
+| [longbridge-fundamentals](../../skills/data-analytics/data-pipelines/longbridge_fundament/longbridge-fundamentals/SKILL.md) | `longbridge_fundament` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for longbridge fundamentals. Financial statements, business segments, dividends, valuation multiples (PE/PB/PS), industry comparison, operating data, corporate actions, company and executive profiles, cross-stock comparison, and valuation ranking via Longbridge. |
 | [polars-high-throughput-data-pipeline](../../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) | `polars` | `advanced` | `stable` | Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations. |
