@@ -8487,6 +8487,28 @@
     "maturity": "stable"
   },
   {
+    "name": "iconsax-library",
+    "path": "skills/ai-engineering/models/iconsax_library/iconsax-library",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "iconsax_library",
+    "description": "Use this skill to design, implement, and operate production workflows for iconsax library. Extensive icon library and AI-driven icon generation skill for premium UI/UX design.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "iconsax",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Iconsax Library",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

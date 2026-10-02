@@ -388,6 +388,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_llm_ai/ (1 skills)
 │   │   ├── hunt_subdomain/ (1 skills)
 │   │   ├── hyperexecute_skill/ (1 skills)
+│   │   ├── iconsax_library/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
