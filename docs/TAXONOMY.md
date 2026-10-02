@@ -338,6 +338,7 @@ AI_Skills_Booster/
 │   │   ├── gdb_cli/ (1 skills)
 │   │   ├── gemini_omni_flash_ap/ (1 skills)
 │   │   ├── geminiignore_finops/ (1 skills)
+│   │   ├── geo_brand_mentions/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

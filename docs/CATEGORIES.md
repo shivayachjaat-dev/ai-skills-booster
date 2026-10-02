@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,070** skills across structured domains, categories, and subcategories.
+Master navigation for **1,071** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (368 skills)
+## Ai Engineering (369 skills)
 
 ### Agents (44 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -192,7 +192,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (266 skills)
+### Models (267 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -706,6 +706,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [gemini-omni-flash-api](../skills/ai-engineering/models/gemini_omni_flash_ap/gemini-omni-flash-api/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini omni flash api. Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK.
 - **Geminiignore_Finops** (1):
   - [geminiignore-finops](../skills/ai-engineering/models/geminiignore_finops/geminiignore-finops/SKILL.md) — Use this skill to design, implement, and operate production workflows for geminiignore finops. Configure and optimize .geminiignore files for AI context window efficiency and token cost reduction (FinOps).
+- **Geo_Brand_Mentions** (1):
+  - [geo-brand-mentions](../skills/ai-engineering/models/geo_brand_mentions/geo-brand-mentions/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo brand mentions. Brand mention and authority scanner for AI visibility.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

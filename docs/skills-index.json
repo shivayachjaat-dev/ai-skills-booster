@@ -7387,6 +7387,28 @@
     "maturity": "stable"
   },
   {
+    "name": "geo-brand-mentions",
+    "path": "skills/ai-engineering/models/geo_brand_mentions/geo-brand-mentions",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "geo_brand_mentions",
+    "description": "Use this skill to design, implement, and operate production workflows for geo brand mentions. Brand mention and authority scanner for AI visibility.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "geo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geo Brand Mentions",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

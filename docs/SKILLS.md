@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,070 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,071 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -336,6 +336,7 @@
 | [gdb-cli](skills/ai-engineering/models/gdb_cli/gdb-cli/SKILL.md) | `ai-engineering` | `models` | `gdb_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gdb cli. GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation |
 | [gemini-omni-flash-api](skills/ai-engineering/models/gemini_omni_flash_ap/gemini-omni-flash-api/SKILL.md) | `ai-engineering` | `models` | `gemini_omni_flash_ap` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gemini omni flash api. Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. |
 | [geminiignore-finops](skills/ai-engineering/models/geminiignore_finops/geminiignore-finops/SKILL.md) | `ai-engineering` | `models` | `geminiignore_finops` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geminiignore finops. Configure and optimize .geminiignore files for AI context window efficiency and token cost reduction (FinOps). |
+| [geo-brand-mentions](skills/ai-engineering/models/geo_brand_mentions/geo-brand-mentions/SKILL.md) | `ai-engineering` | `models` | `geo_brand_mentions` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo brand mentions. Brand mention and authority scanner for AI visibility. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
