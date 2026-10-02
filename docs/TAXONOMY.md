@@ -182,6 +182,7 @@ AI_Skills_Booster/
 │   │   ├── cold_email/ (1 skills)
 │   │   ├── company_email_accoun/ (1 skills)
 │   │   ├── compile_knowledge/ (1 skills)
+│   │   ├── computer_use_agents/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
