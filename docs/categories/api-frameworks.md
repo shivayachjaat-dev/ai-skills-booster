@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **37 skills** available in this category.
+> **38 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -41,3 +41,4 @@
 | [odoo-rpc-api](../../skills/backend/api-frameworks/odoo_rpc_api/odoo-rpc-api/SKILL.md) | `odoo_rpc_api` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo rpc api. Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScript, and curl. |
 | [odoo-shopify-integration](../../skills/backend/api-frameworks/odoo_shopify_integra/odoo-shopify-integration/SKILL.md) | `odoo_shopify_integra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo shopify integration. Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules. |
 | [odoo-woocommerce-bridge](../../skills/backend/api-frameworks/odoo_woocommerce_bri/odoo-woocommerce-bridge/SKILL.md) | `odoo_woocommerce_bri` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo woocommerce bridge. Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API. |
+| [openapi-spec-generator](../../skills/backend/api-frameworks/openapi_spec_generat/openapi-spec-generator/SKILL.md) | `openapi_spec_generat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openapi spec generator. Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs. |

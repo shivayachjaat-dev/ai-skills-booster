@@ -13846,6 +13846,28 @@
     "maturity": "stable"
   },
   {
+    "name": "openapi-spec-generator",
+    "path": "skills/backend/api-frameworks/openapi_spec_generat/openapi-spec-generator",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "openapi_spec_generat",
+    "description": "Use this skill to design, implement, and operate production workflows for openapi spec generator. Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "openapi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Openapi Spec Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
