@@ -10379,6 +10379,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mailtrap-managing-contacts",
+    "path": "skills/ai-engineering/models/mailtrap_managing_co/mailtrap-managing-contacts",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "mailtrap_managing_co",
+    "description": "Use this skill to design, implement, and operate production workflows for mailtrap managing contacts. Manage Mailtrap contacts, lists, segments, custom fields, imports, CRM syncs, and campaign audiences through the UI or API.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "mailtrap",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mailtrap Managing Contacts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
