@@ -1,6 +1,6 @@
 # Category Index: Python Services
 
-> **6 skills** available in this category.
+> **7 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,3 +10,4 @@
 | [azure-identity-py](../../skills/backend/python-services/azure_identity_py/azure-identity-py/SKILL.md) | `azure_identity_py` | `advanced` | `stable` | Use this skill to azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, and token caching. |
 | [azure-mgmt-botservice-py](../../skills/backend/python-services/azure_mgmt_botservic/azure-mgmt-botservice-py/SKILL.md) | `azure_mgmt_botservic` | `advanced` | `stable` | Use this skill to azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources. |
 | [azure-mgmt-fabric-py](../../skills/backend/python-services/azure_mgmt_fabric_py/azure-mgmt-fabric-py/SKILL.md) | `azure_mgmt_fabric_py` | `advanced` | `stable` | Use this skill to azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources. |
+| [azure-monitor-opentelemetry-exporter-py](../../skills/backend/python-services/azure_monitor_opente/azure-monitor-opentelemetry-exporter-py/SKILL.md) | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights. |
