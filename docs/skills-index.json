@@ -778,6 +778,32 @@
     "maturity": "stable"
   },
   {
+    "name": "scylladb-high-throughput-nosql-architecture",
+    "path": "skills/databases/nosql/scylladb/scylladb-high-throughput-nosql-architecture",
+    "domain": "databases",
+    "category": "nosql",
+    "subcategory": "scylladb",
+    "description": "Use this skill when architecting, modeling, and operating distributed, ultra-low-latency NoSQL databases with ScyllaDB (Apache Cassandra compatible). It guides the agent through shard-per-core asynchronous architecture, CQL partition and clustering key design, tuning consistency levels (LOCAL_QUORUM), tombstone prevention, and driver connection pooling.",
+    "tags": [
+      "scylladb",
+      "cassandra",
+      "cql",
+      "nosql",
+      "distributed-database",
+      "low-latency",
+      "big-data"
+    ],
+    "technologies": [
+      "ScyllaDB",
+      "Apache Cassandra",
+      "CQL",
+      "Python scylla-driver",
+      "Go gocql"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "prisma-schema-migration-and-relations",
     "path": "skills/databases/orm/prisma/prisma-schema-migration-and-relations",
     "domain": "databases",
