@@ -12973,6 +12973,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cyber-y2k",
+    "path": "skills/frontend/web-architecture/cyber_y2k/cyber-y2k",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "cyber_y2k",
+    "description": "Use this skill to design, implement, and operate production workflows for cyber y2k. Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "cyber",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cyber Y2K",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "defuddle",
     "path": "skills/frontend/web-architecture/defuddle/defuddle",
     "domain": "frontend",

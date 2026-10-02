@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 767 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 768 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -575,6 +575,7 @@
 | [cloud-penetration-testing](skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) | `frontend` | `web-architecture` | `cloud_penetration_te` | `advanced` | `stable` | Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP). |
 | [comfyui-gateway](skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) | `frontend` | `web-architecture` | `comfyui_gateway` | `advanced` | `stable` | Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64). |
 | [command-center-ui](skills/frontend/web-architecture/command_center_ui/command-center-ui/SKILL.md) | `frontend` | `web-architecture` | `command_center_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for command center ui. Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps. |
+| [cyber-y2k](skills/frontend/web-architecture/cyber_y2k/cyber-y2k/SKILL.md) | `frontend` | `web-architecture` | `cyber_y2k` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for cyber y2k. Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics. |
 | [defuddle](skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) | `frontend` | `web-architecture` | `defuddle` | `advanced` | `stable` | Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. |
 | [production-audit](skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `frontend` | `web-architecture` | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `frontend` | `web-architecture` | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
