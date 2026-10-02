@@ -21343,6 +21343,28 @@
     "maturity": "stable"
   },
   {
+    "name": "favicon",
+    "path": "skills/software-engineering/architecture/patterns/favicon",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for favicon. Generate favicons from a source image",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "favicon",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Favicon",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
