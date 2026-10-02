@@ -253,6 +253,7 @@ AI_Skills_Booster/
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
+│   │   ├── typography_first/ (1 skills)
 │   │   ├── vibe_code_auditor/ (1 skills)
 │   │   └── wcag_audit_patterns/ (1 skills)
 │   ├── orchestration/
