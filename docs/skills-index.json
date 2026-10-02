@@ -25513,6 +25513,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nosql-expert",
+    "path": "skills/frontend/ui-ux/nosql_expert/nosql-expert",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "nosql_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for nosql expert. Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "nosql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nosql Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

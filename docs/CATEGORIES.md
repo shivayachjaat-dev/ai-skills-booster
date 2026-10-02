@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,616** skills across structured domains, categories, and subcategories.
+Master navigation for **1,617** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (563 skills)
 
@@ -2155,7 +2155,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (319 skills)
+## Frontend (320 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2321,7 +2321,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (184 skills)
+### Ui Ux (185 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2686,6 +2686,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [n8n-workflow-patterns](../skills/frontend/ui-ux/n8n_workflow_pattern/n8n-workflow-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n workflow patterns. Proven architectural patterns for building n8n workflows.
 - **Neon_Postgres** (1):
   - [neon-postgres](../skills/frontend/ui-ux/neon_postgres/neon-postgres/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon postgres. Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK.
+- **Nosql_Expert** (1):
+  - [nosql-expert](../skills/frontend/ui-ux/nosql_expert/nosql-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for nosql expert. Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
