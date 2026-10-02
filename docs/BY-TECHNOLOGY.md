@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1120 skills)
+## Bash (1121 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2176,6 +2176,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [incremental-implementation](../skills/software-engineering/architecture/patterns/incremental-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for incremental implementation. Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.
 - [inngest](../skills/software-engineering/architecture/patterns/inngest/SKILL.md) — Use this skill to design, implement, and operate production workflows for inngest. Inngest expert for serverless-first background jobs, event-driven
 - [internal-comms](../skills/software-engineering/architecture/patterns/internal-comms/SKILL.md) — Use this skill to design, implement, and operate production workflows for internal comms. Write internal communications such as status reports, leadership updates, 3P updates, newsletters, FAQs, incident reports, and project updates using repeatable internal formats.
+- [internal-comms-anthropic](../skills/software-engineering/architecture/patterns/internal-comms-anthropic/SKILL.md) — Use this skill to design, implement, and operate production workflows for internal comms anthropic. Compatibility alias for internal-comms: draft status updates, newsletters and FAQs from approved sources.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -6257,6 +6258,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [internal-comms](../skills/software-engineering/architecture/patterns/internal-comms/SKILL.md) — Use this skill to design, implement, and operate production workflows for internal comms. Write internal communications such as status reports, leadership updates, 3P updates, newsletters, FAQs, incident reports, and project updates using repeatable internal formats.
 
+## Internal Comms Anthropic (1 skills)
+
+- [internal-comms-anthropic](../skills/software-engineering/architecture/patterns/internal-comms-anthropic/SKILL.md) — Use this skill to design, implement, and operate production workflows for internal comms anthropic. Compatibility alias for internal-comms: draft status updates, newsletters and FAQs from approved sources.
+
 ## Isometric Design (1 skills)
 
 - [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
@@ -6962,7 +6967,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1223 skills)
+## Python (1224 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8163,6 +8168,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [incremental-implementation](../skills/software-engineering/architecture/patterns/incremental-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for incremental implementation. Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.
 - [inngest](../skills/software-engineering/architecture/patterns/inngest/SKILL.md) — Use this skill to design, implement, and operate production workflows for inngest. Inngest expert for serverless-first background jobs, event-driven
 - [internal-comms](../skills/software-engineering/architecture/patterns/internal-comms/SKILL.md) — Use this skill to design, implement, and operate production workflows for internal comms. Write internal communications such as status reports, leadership updates, 3P updates, newsletters, FAQs, incident reports, and project updates using repeatable internal formats.
+- [internal-comms-anthropic](../skills/software-engineering/architecture/patterns/internal-comms-anthropic/SKILL.md) — Use this skill to design, implement, and operate production workflows for internal comms anthropic. Compatibility alias for internal-comms: draft status updates, newsletters and FAQs from approved sources.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
