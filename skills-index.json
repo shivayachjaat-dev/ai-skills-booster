@@ -13885,6 +13885,28 @@
     "maturity": "stable"
   },
   {
+    "name": "create-issue-gate",
+    "path": "skills/software-engineering/architecture/patterns/create-issue-gate",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "create",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Create Issue Gate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
