@@ -11391,6 +11391,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nexrad-radar-visualization",
+    "path": "skills/ai-engineering/models/nexrad_radar_visuali/nexrad-radar-visualization",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "nexrad_radar_visuali",
+    "description": "Use this skill to design, implement, and operate production workflows for nexrad radar visualization. Plot NEXRAD Level II/III site scans and decoded radar mosaics with correct radar geometry, map grids, units, quality masks, timestamps, and provenance.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "nexrad",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nexrad Radar Visualization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
