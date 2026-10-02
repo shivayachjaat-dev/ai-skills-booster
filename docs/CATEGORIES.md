@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,378** skills across structured domains, categories, and subcategories.
+Master navigation for **1,379** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (466 skills)
+## Ai Engineering (467 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -230,7 +230,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Langfuse** (1):
   - [langfuse](../skills/ai-engineering/llm-ops/langfuse/langfuse/SKILL.md) — Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform.
 
-### Models (341 skills)
+### Models (342 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -894,6 +894,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [leiloeiro-edital](../skills/ai-engineering/models/leiloeiro_edital/leiloeiro-edital/SKILL.md) — Use this skill to design, implement, and operate production workflows for leiloeiro edital. Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas, debitos, ocupante e classificacao da oportunidade.
 - **Leiloeiro_Ia** (1):
   - [leiloeiro-ia](../skills/ai-engineering/models/leiloeiro_ia/leiloeiro-ia/SKILL.md) — Use this skill to design, implement, and operate production workflows for leiloeiro ia. Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado integrada. Orquestra os 5 modulos especializados.
+- **Leiloeiro_Juridico** (1):
+  - [leiloeiro-juridico](../skills/ai-engineering/models/leiloeiro_juridico/leiloeiro-juridico/SKILL.md) — Use this skill to design, implement, and operate production workflows for leiloeiro juridico. Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria, CPC arts 829-903, Lei 9514/97, onus reais, embargos e jurisprudencia.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
