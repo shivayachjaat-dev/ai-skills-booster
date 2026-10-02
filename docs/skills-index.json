@@ -7627,6 +7627,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cc-skill-frontend-patterns",
+    "path": "skills/frontend/ui-development/cc_skill_frontend_pa/cc-skill-frontend-patterns",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "cc_skill_frontend_pa",
+    "description": "Use this skill to frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "cc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cc Skill Frontend Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
