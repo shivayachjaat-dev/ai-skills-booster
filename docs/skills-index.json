@@ -13963,6 +13963,28 @@
     "maturity": "stable"
   },
   {
+    "name": "eas-app-stores",
+    "path": "skills/frontend/ui-ux/eas_app_stores/eas-app-stores",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "eas_app_stores",
+    "description": "Use this skill to design, implement, and operate production workflows for eas app stores. Curated upstream guidance for Eas App Stores; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "eas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Eas App Stores",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
