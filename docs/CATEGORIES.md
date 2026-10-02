@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,330** skills across structured domains, categories, and subcategories.
+Master navigation for **1,331** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (441 skills)
+## Ai Engineering (442 skills)
 
 ### Agents (56 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -222,7 +222,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (322 skills)
+### Models (323 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -848,6 +848,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [iterate-pr](../skills/ai-engineering/models/iterate_pr/iterate-pr/SKILL.md) — Use this skill to design, implement, and operate production workflows for iterate pr. Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle.
 - **Itil_Expert** (1):
   - [itil-expert](../skills/ai-engineering/models/itil_expert/itil-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for itil expert. Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm), specialized in AI-native governance, sustainability, and value co-creation.
+- **Jev_Social** (1):
+  - [jev-social](../skills/ai-engineering/models/jev_social/jev-social/SKILL.md) — Use this skill to design, implement, and operate production workflows for jev social. Run read-only, browser-grounded Instagram, TikTok, or LinkedIn research through Jev routing and socai CLI, returning source-linked evidence and reports.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

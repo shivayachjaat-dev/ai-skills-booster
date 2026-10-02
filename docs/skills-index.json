@@ -8949,6 +8949,28 @@
     "maturity": "stable"
   },
   {
+    "name": "jev-social",
+    "path": "skills/ai-engineering/models/jev_social/jev-social",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "jev_social",
+    "description": "Use this skill to design, implement, and operate production workflows for jev social. Run read-only, browser-grounded Instagram, TikTok, or LinkedIn research through Jev routing and socai CLI, returning source-linked evidence and reports.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "jev",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Jev Social",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
