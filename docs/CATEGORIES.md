@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **691** skills across structured domains, categories, and subcategories.
+Master navigation for **692** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (246 skills)
 
@@ -1027,9 +1027,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (75 skills)
+## Devops (76 skills)
 
-### Ci Cd (18 skills)
+### Ci Cd (19 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -1066,6 +1066,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [cron-doctor](../skills/devops/ci-cd/cron_doctor/cron-doctor/SKILL.md) — Use this skill to diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29.
 - **Datadog** (1):
   - [datadog](../skills/devops/ci-cd/datadog/datadog/SKILL.md) — Use this skill to implement Datadog monitoring and APM for infrastructure and applications.
+- **Debate_Review** (1):
+  - [debate-review](../skills/devops/ci-cd/debate_review/debate-review/SKILL.md) — Use this skill to two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 

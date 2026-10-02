@@ -454,6 +454,7 @@ AI_Skills_Booster/
 │   │   ├── cloudformation/ (1 skills)
 │   │   ├── cron_doctor/ (1 skills)
 │   │   ├── datadog/ (1 skills)
+│   │   ├── debate_review/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)

@@ -8799,6 +8799,28 @@
     "maturity": "stable"
   },
   {
+    "name": "debate-review",
+    "path": "skills/devops/ci-cd/debate_review/debate-review",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "debate_review",
+    "description": "Use this skill to two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "debate",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Debate Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
