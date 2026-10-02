@@ -15041,6 +15041,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-ui-jetpack-compose",
+    "path": "skills/frontend/ui-ux/expo_ui_jetpack_comp/expo-ui-jetpack-compose",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "expo_ui_jetpack_comp",
+    "description": "Use this skill to design, implement, and operate production workflows for expo ui jetpack compose. expo-ui-jetpack-compose",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Ui Jetpack Compose",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
