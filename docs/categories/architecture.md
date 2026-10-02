@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **102 skills** available in this category.
+> **103 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -105,4 +105,5 @@
 | [favicon](../../skills/software-engineering/architecture/patterns/favicon/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for favicon. Generate favicons from a source image |
 | [file-organizer](../../skills/software-engineering/architecture/patterns/file-organizer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for file organizer. 6. Reduces Clutter: Identifies old files you probably don't need anymore |
 | [filesystem-context](../../skills/software-engineering/architecture/patterns/filesystem-context/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for filesystem context. Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading. |
+| [fitness-analyzer](../../skills/software-engineering/architecture/patterns/fitness-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fitness analyzer. 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。 |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
