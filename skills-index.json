@@ -2151,6 +2151,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-caching",
+    "path": "skills/ai-engineering/llm-ops/llm_caching/llm-caching",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llm_caching",
+    "description": "Use this skill to design, implement, and operate production workflows for llm caching. Implement multi-layer LLM caching with exact match, semantic similarity,",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Caching",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

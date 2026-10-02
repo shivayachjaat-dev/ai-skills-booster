@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (629 skills)
+## AI Engineer (630 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -86,6 +86,7 @@ Curated workflows organized by professional role and specialization.
 - [langfuse](../skills/ai-engineering/llm-ops/langfuse/langfuse/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform.
 - [llm-app-patterns](../skills/ai-engineering/llm-ops/llm_app_patterns/llm-app-patterns/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm app patterns. Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries.
 - [llm-app-security](../skills/ai-engineering/llm-ops/llm_app_security/llm-app-security/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm app security. Secure LLM-powered applications with input validation, output controls,
+- [llm-caching](../skills/ai-engineering/llm-ops/llm_caching/llm-caching/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm caching. Implement multi-layer LLM caching with exact match, semantic similarity,
 - [agentfolio](../skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) — `ai-engineering`: Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
 - [ai-agent-development](../skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) — `ai-engineering`: Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.
 - [ai-analyzer](../skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) — `ai-engineering`: Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
