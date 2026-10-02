@@ -14117,6 +14117,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-data-contracts",
+    "path": "skills/frontend/ui-development/frontend_data_contra/frontend-data-contracts",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_data_contra",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend data contracts. A portable, framework-agnostic discipline for type safety at the network edge of any React or React Native app.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Data Contracts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

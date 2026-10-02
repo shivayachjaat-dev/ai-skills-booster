@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **8 skills** available in this category.
+> **9 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -12,3 +12,4 @@
 | [emil-design-eng](../../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) | `emil_design_eng` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance. |
 | [frontend-api-integration-patterns](../../skills/frontend/ui-development/frontend_api_integra/frontend-api-integration-patterns/SKILL.md) | `frontend_api_integra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend api integration patterns. Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management. |
 | [frontend-architecture](../../skills/frontend/ui-development/frontend_architectur/frontend-architecture/SKILL.md) | `frontend_architectur` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend architecture. A portable, framework-agnostic architecture style for any React or React Native frontend. Organizes apps into feature modules with page/screen directories, a strict server-state vs UI-state split, barrel-only cross-module imports, co-located styles, ... |
+| [frontend-data-contracts](../../skills/frontend/ui-development/frontend_data_contra/frontend-data-contracts/SKILL.md) | `frontend_data_contra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend data contracts. A portable, framework-agnostic discipline for type safety at the network edge of any React or React Native app. |
