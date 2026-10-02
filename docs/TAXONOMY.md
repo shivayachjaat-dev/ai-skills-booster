@@ -374,6 +374,7 @@ AI_Skills_Booster/
 │   │   ├── hig_project_context/ (1 skills)
 │   │   ├── hosted_agents_v2_py/ (1 skills)
 │   │   ├── hugging_face_communi/ (1 skills)
+│   │   ├── hugging_face_model_t/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

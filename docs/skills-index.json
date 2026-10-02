@@ -8179,6 +8179,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-model-trainer",
+    "path": "skills/ai-engineering/models/hugging_face_model_t/hugging-face-model-trainer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "hugging_face_model_t",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face model trainer. Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Model Trainer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
