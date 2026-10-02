@@ -36611,6 +36611,28 @@
     "maturity": "stable"
   },
   {
+    "name": "onboarding",
+    "path": "skills/software-engineering/architecture/patterns/onboarding",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for onboarding. When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "onboarding",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Onboarding",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
