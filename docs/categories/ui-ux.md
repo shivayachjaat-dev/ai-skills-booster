@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,3 +28,4 @@
 | [brand-guidelines-anthropic](../../skills/frontend/ui-ux/brand_guidelines_ant/brand-guidelines-anthropic/SKILL.md) | `brand_guidelines_ant` | `advanced` | `stable` | Use this skill to to access Anthropic's official brand identity and style resources, use this skill. |
 | [browser-extension-builder](../../skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) | `browser_extension_bu` | `advanced` | `stable` | Use this skill to expert in building browser extensions that solve real problems - |
 | [building-native-ui](../../skills/frontend/ui-ux/building_native_ui/building-native-ui/SKILL.md) | `building_native_ui` | `advanced` | `stable` | Use this skill to complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs. |
+| [burpsuite-project-parser](../../skills/frontend/ui-ux/burpsuite_project_pa/burpsuite-project-parser/SKILL.md) | `burpsuite_project_pa` | `advanced` | `stable` | Use this skill to searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project. |

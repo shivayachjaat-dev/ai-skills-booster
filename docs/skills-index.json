@@ -7825,6 +7825,28 @@
     "maturity": "stable"
   },
   {
+    "name": "burpsuite-project-parser",
+    "path": "skills/frontend/ui-ux/burpsuite_project_pa/burpsuite-project-parser",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "burpsuite_project_pa",
+    "description": "Use this skill to searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "burpsuite",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Burpsuite Project Parser",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
