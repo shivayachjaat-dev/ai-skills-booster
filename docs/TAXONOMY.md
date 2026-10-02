@@ -23,8 +23,10 @@ AI_Skills_Booster/
 ├── databases/
 │   ├── migrations/
 │   │   └── zero-downtime/ (1 skills)
-│   └── postgresql/
+│   ├── postgresql/
 │   │   └── performance/ (1 skills)
+│   └── redis/
+│   │   └── caching/ (1 skills)
 ├── devops/
 │   ├── containers/
 │   │   └── optimization/ (1 skills)

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **24** skills across structured domains, categories, and subcategories.
+Master navigation for **25** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -52,7 +52,7 @@ Category index: [`docs/categories/experimentation.md`](categories/experimentatio
 - **Ab Testing** (1):
   - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 
-## Databases (2 skills)
+## Databases (3 skills)
 
 ### Migrations (1 skills)
 Category index: [`docs/categories/migrations.md`](categories/migrations.md)
@@ -65,6 +65,12 @@ Category index: [`docs/categories/postgresql.md`](categories/postgresql.md)
 
 - **Performance** (1):
   - [postgres-query-performance-analysis](../skills/databases/postgresql/performance/postgres-query-performance-analysis/SKILL.md) — Use this skill when diagnosing, analyzing, and optimizing slow PostgreSQL queries. It guides the agent through running and interpreting EXPLAIN (ANALYZE, BUFFERS), identifying sequential table scans, resolving missing indexes, fixing high buffer reads, eliminating N+1 query patterns, and tuning query planner configurations.
+
+### Redis (1 skills)
+Category index: [`docs/categories/redis.md`](categories/redis.md)
+
+- **Caching** (1):
+  - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 
 ## Devops (2 skills)
 

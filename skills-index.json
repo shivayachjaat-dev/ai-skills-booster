@@ -243,6 +243,30 @@
     "maturity": "stable"
   },
   {
+    "name": "redis-caching-patterns",
+    "path": "skills/databases/redis/caching/redis-caching-patterns",
+    "domain": "databases",
+    "category": "redis",
+    "subcategory": "caching",
+    "description": "Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.",
+    "tags": [
+      "redis",
+      "caching",
+      "databases",
+      "performance",
+      "backend",
+      "scalability"
+    ],
+    "technologies": [
+      "Redis",
+      "Python",
+      "Node.js",
+      "SQL"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "docker-container-optimization",
     "path": "skills/devops/containers/optimization/docker-container-optimization",
     "domain": "devops",
