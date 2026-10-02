@@ -22310,6 +22310,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-file-upload",
+    "path": "skills/security/appsec/hunt_file_upload/hunt-file-upload",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_file_upload",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt file upload. Hunt file upload bugs",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt File Upload",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
