@@ -4681,6 +4681,28 @@
     "maturity": "stable"
   },
   {
+    "name": "daily",
+    "path": "skills/ai-engineering/models/daily/daily",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "daily",
+    "description": "Use this skill to documentation and capabilities reference for Daily",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "daily",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Daily",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
