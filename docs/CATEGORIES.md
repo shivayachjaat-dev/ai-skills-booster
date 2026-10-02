@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **781** skills across structured domains, categories, and subcategories.
+Master navigation for **782** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (272 skills)
 
@@ -1301,7 +1301,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (116 skills)
+## Frontend (117 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1511,7 +1511,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (34 skills)
+### Web Architecture (35 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1573,6 +1573,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [gradient-design](../skills/frontend/web-architecture/gradient_design/gradient-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for gradient design. Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.
 - **High_Contrast** (1):
   - [high-contrast](../skills/frontend/web-architecture/high_contrast/high-contrast/SKILL.md) — Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.
+- **Holographic_Ui** (1):
+  - [holographic-ui](../skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.
 - **Production_Audit** (1):
   - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - **Security_Audit** (1):

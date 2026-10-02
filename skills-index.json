@@ -13303,6 +13303,28 @@
     "maturity": "stable"
   },
   {
+    "name": "holographic-ui",
+    "path": "skills/frontend/web-architecture/holographic_ui/holographic-ui",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "holographic_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "holographic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Holographic Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
