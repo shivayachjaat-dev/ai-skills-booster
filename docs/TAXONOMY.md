@@ -263,6 +263,7 @@ AI_Skills_Booster/
 │   │   ├── diagnosing_bugs/ (1 skills)
 │   │   ├── doc2math/ (1 skills)
 │   │   ├── docker_compose/ (1 skills)
+│   │   ├── docker_expert/ (1 skills)
 │   │   ├── editorial_design/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)

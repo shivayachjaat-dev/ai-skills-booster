@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **851** skills across structured domains, categories, and subcategories.
+Master navigation for **852** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (292 skills)
+## Ai Engineering (293 skills)
 
 ### Agents (35 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -168,7 +168,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (207 skills)
+### Models (208 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -556,6 +556,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [doc2math](../skills/ai-engineering/models/doc2math/doc2math/SKILL.md) — Use this skill to design, implement, and operate production workflows for doc2math. Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints, objectives, and uncertainty.
 - **Docker_Compose** (1):
   - [docker-compose](../skills/ai-engineering/models/docker_compose/docker-compose/SKILL.md) — Use this skill to design, implement, and operate production workflows for docker compose. Define and run multi-container Docker applications using Docker Compose.
+- **Docker_Expert** (1):
+  - [docker-expert](../skills/ai-engineering/models/docker_expert/docker-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for docker expert. You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 851 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 852 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -261,6 +261,7 @@
 | [diagnosing-bugs](skills/ai-engineering/models/diagnosing_bugs/diagnosing-bugs/SKILL.md) | `ai-engineering` | `models` | `diagnosing_bugs` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for diagnosing bugs. Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow. |
 | [doc2math](skills/ai-engineering/models/doc2math/doc2math/SKILL.md) | `ai-engineering` | `models` | `doc2math` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for doc2math. Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints, objectives, and uncertainty. |
 | [docker-compose](skills/ai-engineering/models/docker_compose/docker-compose/SKILL.md) | `ai-engineering` | `models` | `docker_compose` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docker compose. Define and run multi-container Docker applications using Docker Compose. |
+| [docker-expert](skills/ai-engineering/models/docker_expert/docker-expert/SKILL.md) | `ai-engineering` | `models` | `docker_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docker expert. You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices. |
 | [editorial-design](skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `ai-engineering` | `models` | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |

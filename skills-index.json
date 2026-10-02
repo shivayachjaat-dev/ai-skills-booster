@@ -5737,6 +5737,28 @@
     "maturity": "stable"
   },
   {
+    "name": "docker-expert",
+    "path": "skills/ai-engineering/models/docker_expert/docker-expert",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "docker_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for docker expert. You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "docker",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Docker Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
