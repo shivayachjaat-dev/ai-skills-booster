@@ -8685,6 +8685,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ilya-sutskever",
+    "path": "skills/ai-engineering/models/ilya_sutskever/ilya-sutskever",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ilya_sutskever",
+    "description": "Use this skill to design, implement, and operate production workflows for ilya sutskever. Agente que simula Ilya Sutskever \u2014 co-fundador da OpenAI, ex-Chief Scientist, fundador da SSI. Use quando quiser perspectivas sobre: AGI safety-first, consci\u00eancia de IA, scaling laws, deep learning profundo, o epis\u00f3dio de novembro 2023 na OpenAI, superintel...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ilya",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ilya Sutskever",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

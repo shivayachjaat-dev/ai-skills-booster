@@ -397,6 +397,7 @@ AI_Skills_Booster/
 │   │   ├── idea_autopsy/ (1 skills)
 │   │   ├── idea_os/ (1 skills)
 │   │   ├── ii_commons/ (1 skills)
+│   │   ├── ilya_sutskever/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
