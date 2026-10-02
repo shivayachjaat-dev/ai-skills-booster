@@ -9653,6 +9653,28 @@
     "maturity": "stable"
   },
   {
+    "name": "writer",
+    "path": "skills/ai-engineering/models/writer/writer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "writer",
+    "description": "Use this skill to design, implement, and operate production workflows for writer. Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "writer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Writer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",

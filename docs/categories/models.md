@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **344 skills** available in this category.
+> **345 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -348,3 +348,4 @@
 | [typography-first](../../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
 | [vibe-code-auditor](../../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) | `vibe_code_auditor` | `advanced` | `stable` | Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. |
 | [wcag-audit-patterns](../../skills/ai-engineering/models/wcag_audit_patterns/wcag-audit-patterns/SKILL.md) | `wcag_audit_patterns` | `advanced` | `stable` | Use this skill to comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies. |
+| [writer](../../skills/ai-engineering/models/writer/writer/SKILL.md) | `writer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for writer. Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer. |

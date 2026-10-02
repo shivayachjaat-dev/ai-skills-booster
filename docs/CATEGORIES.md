@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,388** skills across structured domains, categories, and subcategories.
+Master navigation for **1,389** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (469 skills)
+## Ai Engineering (470 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -230,7 +230,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Langfuse** (1):
   - [langfuse](../skills/ai-engineering/llm-ops/langfuse/langfuse/SKILL.md) — Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform.
 
-### Models (344 skills)
+### Models (345 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -912,6 +912,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
 - **Wcag_Audit_Patterns** (1):
   - [wcag-audit-patterns](../skills/ai-engineering/models/wcag_audit_patterns/wcag-audit-patterns/SKILL.md) — Use this skill to comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.
+- **Writer** (1):
+  - [writer](../skills/ai-engineering/models/writer/writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for writer. Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)

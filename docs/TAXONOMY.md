@@ -440,7 +440,8 @@ AI_Skills_Booster/
 │   │   ├── templates/ (1 skills)
 │   │   ├── typography_first/ (1 skills)
 │   │   ├── vibe_code_auditor/ (1 skills)
-│   │   └── wcag_audit_patterns/ (1 skills)
+│   │   ├── wcag_audit_patterns/ (1 skills)
+│   │   └── writer/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
 │   ├── quantization/

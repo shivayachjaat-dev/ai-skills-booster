@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,388 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,389 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -439,6 +439,7 @@
 | [typography-first](skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `ai-engineering` | `models` | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
 | [vibe-code-auditor](skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) | `ai-engineering` | `models` | `vibe_code_auditor` | `advanced` | `stable` | Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. |
 | [wcag-audit-patterns](skills/ai-engineering/models/wcag_audit_patterns/wcag-audit-patterns/SKILL.md) | `ai-engineering` | `models` | `wcag_audit_patterns` | `advanced` | `stable` | Use this skill to comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies. |
+| [writer](skills/ai-engineering/models/writer/writer/SKILL.md) | `ai-engineering` | `models` | `writer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for writer. Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |
 | [appdeploy](skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) | `ai-engineering` | `rag` | `appdeploy` | `advanced` | `stable` | Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl. |
