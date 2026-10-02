@@ -510,6 +510,7 @@ AI_Skills_Booster/
 │   │   ├── n8n_agents/ (1 skills)
 │   │   ├── n8n_code_tool/ (1 skills)
 │   │   ├── n8n_error_handling/ (1 skills)
+│   │   ├── n8n_node_configurati/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

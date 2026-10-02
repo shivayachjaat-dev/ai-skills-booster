@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,581** skills across structured domains, categories, and subcategories.
+Master navigation for **1,582** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (549 skills)
+## Ai Engineering (550 skills)
 
 ### Agents (64 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -274,7 +274,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Multi_Tenant_Llm_Hos** (1):
   - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 
-### Models (400 skills)
+### Models (401 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1052,6 +1052,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [n8n-code-tool](../skills/ai-engineering/models/n8n_code_tool/n8n-code-tool/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code tool. Write and debug JavaScript or Python for the AI-callable n8n Custom Code Tool, including schemas, sandbox limits, and return formats.
 - **N8N_Error_Handling** (1):
   - [n8n-error-handling](../skills/ai-engineering/models/n8n_error_handling/n8n-error-handling/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n error handling. Design visible, structured, recoverable n8n failures using error outputs, retries, Error Trigger workflows, and HTTP error responses.
+- **N8N_Node_Configurati** (1):
+  - [n8n-node-configuration](../skills/ai-engineering/models/n8n_node_configurati/n8n-node-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n node configuration. Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

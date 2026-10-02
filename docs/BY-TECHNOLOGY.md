@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1399 skills)
+## Bash (1400 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1556,6 +1556,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-agents](../skills/ai-engineering/models/n8n_agents/n8n-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n agents. Design n8n AI agents, chains, classifiers, extractors, tool calling, memory, RAG, structured output, and human-review flows.
 - [n8n-code-tool](../skills/ai-engineering/models/n8n_code_tool/n8n-code-tool/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code tool. Write and debug JavaScript or Python for the AI-callable n8n Custom Code Tool, including schemas, sandbox limits, and return formats.
 - [n8n-error-handling](../skills/ai-engineering/models/n8n_error_handling/n8n-error-handling/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n error handling. Design visible, structured, recoverable n8n failures using error outputs, retries, Error Trigger workflows, and HTTP error responses.
+- [n8n-node-configuration](../skills/ai-engineering/models/n8n_node_configurati/n8n-node-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n node configuration. Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -7965,6 +7966,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [n8n-multi-instance](../skills/developer-tools/cli-utilities/n8n_multi_instance/n8n-multi-instance/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n multi instance. Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes.
 
+## N8N Node Configuration (1 skills)
+
+- [n8n-node-configuration](../skills/ai-engineering/models/n8n_node_configurati/n8n-node-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n node configuration. Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type.
+
 ## NGINX (1 skills)
 
 - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
@@ -8329,7 +8334,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1502 skills)
+## Python (1503 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8833,6 +8838,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-agents](../skills/ai-engineering/models/n8n_agents/n8n-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n agents. Design n8n AI agents, chains, classifiers, extractors, tool calling, memory, RAG, structured output, and human-review flows.
 - [n8n-code-tool](../skills/ai-engineering/models/n8n_code_tool/n8n-code-tool/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code tool. Write and debug JavaScript or Python for the AI-callable n8n Custom Code Tool, including schemas, sandbox limits, and return formats.
 - [n8n-error-handling](../skills/ai-engineering/models/n8n_error_handling/n8n-error-handling/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n error handling. Design visible, structured, recoverable n8n failures using error outputs, retries, Error Trigger workflows, and HTTP error responses.
+- [n8n-node-configuration](../skills/ai-engineering/models/n8n_node_configurati/n8n-node-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n node configuration. Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
