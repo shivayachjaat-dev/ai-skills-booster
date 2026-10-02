@@ -349,6 +349,32 @@
     "maturity": "stable"
   },
   {
+    "name": "apollo-federation-subgraph-architecture",
+    "path": "skills/backend/graphql/federation/apollo-federation-subgraph-architecture",
+    "domain": "backend",
+    "category": "graphql",
+    "subcategory": "federation",
+    "description": "Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing.",
+    "tags": [
+      "graphql",
+      "apollo-federation",
+      "subgraphs",
+      "api-gateway",
+      "distributed-systems",
+      "rover"
+    ],
+    "technologies": [
+      "Apollo Federation v2",
+      "GraphQL",
+      "Rover CLI",
+      "Apollo Router",
+      "TypeScript",
+      "Node.js"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "graphql-schema-evolution",
     "path": "skills/backend/graphql/schema-design/graphql-schema-evolution",
     "domain": "backend",

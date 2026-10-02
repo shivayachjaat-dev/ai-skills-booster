@@ -47,6 +47,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
 
+## Apollo Federation v2 (1 skills)
+
+- [apollo-federation-subgraph-architecture](../skills/backend/graphql/federation/apollo-federation-subgraph-architecture/SKILL.md) — Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing.
+
+## Apollo Router (1 skills)
+
+- [apollo-federation-subgraph-architecture](../skills/backend/graphql/federation/apollo-federation-subgraph-architecture/SKILL.md) — Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing.
+
 ## Apollo Server (1 skills)
 
 - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
@@ -257,8 +265,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
 
-## GraphQL (2 skills)
+## GraphQL (3 skills)
 
+- [apollo-federation-subgraph-architecture](../skills/backend/graphql/federation/apollo-federation-subgraph-architecture/SKILL.md) — Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing.
 - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
 - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
 
@@ -451,9 +460,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [legacy-system-strangler-migration](../skills/software-engineering/modernization/migration/legacy-system-strangler-migration/SKILL.md) — Use this skill when incrementally modernizing, decomposing, and replacing legacy monoliths or deprecated backend systems without risky all-at-once cutovers. It guides the agent through the Strangler Fig pattern, reverse proxy intercept routing, parallel run shadow verification, database synchronization, and progressive decommission.
 
-## Node.js (8 skills)
+## Node.js (9 skills)
 
 - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
+- [apollo-federation-subgraph-architecture](../skills/backend/graphql/federation/apollo-federation-subgraph-architecture/SKILL.md) — Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing.
 - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
 - [prisma-schema-migration-and-relations](../skills/databases/orm/prisma/prisma-schema-migration-and-relations/SKILL.md) — Use this skill when architecting database schemas, managing relational migrations, and optimizing database queries using Prisma ORM (TypeScript/Node.js). It covers complex relationship modeling (1:1, 1:N, M:N explicit join tables), zero-downtime migration workflows (`prisma migrate dev/deploy`), connection pooling with PgBouncer, and avoiding N+1 query traps.
 - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
@@ -686,6 +696,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
+## Rover CLI (1 skills)
+
+- [apollo-federation-subgraph-architecture](../skills/backend/graphql/federation/apollo-federation-subgraph-architecture/SKILL.md) — Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing.
+
 ## Rust (2 skills)
 
 - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
@@ -794,8 +808,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [secret-leak-detection-and-remediation](../skills/security/secret-management/detection/secret-leak-detection-and-remediation/SKILL.md) — Use this skill when detecting, containing, revoking, and purging secrets committed to Git repositories or build artifacts. It guides the agent through scanning history with TruffleHog/Gitleaks, executing emergency credential revocation, rewriting Git history with git-filter-repo, and installing pre-commit guardrails.
 
-## TypeScript (18 skills)
+## TypeScript (19 skills)
 
+- [apollo-federation-subgraph-architecture](../skills/backend/graphql/federation/apollo-federation-subgraph-architecture/SKILL.md) — Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing.
 - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
 - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
 - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.

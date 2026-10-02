@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **70** skills across structured domains, categories, and subcategories.
+Master navigation for **71** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (10 skills)
 
@@ -56,7 +56,7 @@ Category index: [`docs/categories/vector-databases.md`](categories/vector-databa
 - **Indexing** (1):
   - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
-## Backend (9 skills)
+## Backend (10 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -82,9 +82,11 @@ Category index: [`docs/categories/fastapi.md`](categories/fastapi.md)
 - **Async Architecture** (1):
   - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.
 
-### Graphql (1 skills)
+### Graphql (2 skills)
 Category index: [`docs/categories/graphql.md`](categories/graphql.md)
 
+- **Federation** (1):
+  - [apollo-federation-subgraph-architecture](../skills/backend/graphql/federation/apollo-federation-subgraph-architecture/SKILL.md) — Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing.
 - **Schema Design** (1):
   - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
 

@@ -31,6 +31,7 @@ AI_Skills_Booster/
 │   ├── fastapi/
 │   │   └── async-architecture/ (1 skills)
 │   ├── graphql/
+│   │   ├── federation/ (1 skills)
 │   │   └── schema-design/ (1 skills)
 │   ├── grpc/
 │   │   └── services/ (1 skills)
