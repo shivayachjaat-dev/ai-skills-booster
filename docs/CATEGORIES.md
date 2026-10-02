@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,526** skills across structured domains, categories, and subcategories.
+Master navigation for **1,527** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (528 skills)
+## Ai Engineering (529 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -266,7 +266,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Mcp_Builder** (1):
   - [mcp-builder](../skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
 
-### Models (384 skills)
+### Models (385 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1012,6 +1012,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [mirrord](../skills/ai-engineering/models/mirrord/mirrord/SKILL.md) — Use this skill to design, implement, and operate production workflows for mirrord. Run a local process inside a live Kubernetes cluster's network, env and traffic with mirrord, so changes are tested against real services without deploying.
 - **Mise_Configurator** (1):
   - [mise-configurator](../skills/ai-engineering/models/mise_configurator/mise-configurator/SKILL.md) — Use this skill to design, implement, and operate production workflows for mise configurator. Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization.
+- **Mmx_Cli** (1):
+  - [mmx-cli](../skills/ai-engineering/models/mmx_cli/mmx-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for mmx cli. Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax models, perform web search, or manage MiniMax API resources from the terminal.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
