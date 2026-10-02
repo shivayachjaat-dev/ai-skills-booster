@@ -2327,6 +2327,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bdistill-behavioral-xray",
+    "path": "skills/ai-engineering/models/bdistill_behavioral_/bdistill-behavioral-xray",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "bdistill_behavioral_",
+    "description": "Use this skill to x-ray any AI model's behavioral patterns \u2014 refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "bdistill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bdistill Behavioral Xray",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
