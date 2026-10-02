@@ -4065,6 +4065,28 @@
     "maturity": "stable"
   },
   {
+    "name": "container-registries",
+    "path": "skills/ai-engineering/models/container_registries/container-registries",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "container_registries",
+    "description": "Use this skill to manage container registries including ECR, ACR, GCR, and Docker Hub.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "container",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Container Registries",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

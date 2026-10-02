@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **139 skills** available in this category.
+> **140 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -142,4 +142,5 @@
 | [conductor-setup](../../skills/ai-engineering/models/conductor_setup/conductor-setup/SKILL.md) | `conductor_setup` | `advanced` | `stable` | Use this skill to configure a Rails project to work with Conductor (parallel coding agents) |
 | [constraint-driven-development](../../skills/ai-engineering/models/constraint_driven_de/constraint-driven-development/SKILL.md) | `constraint_driven_de` | `advanced` | `stable` | Use this skill to write the project quality bar as enforced CONSTRAINTS.md so agents stop |
 | [container-hardening](../../skills/ai-engineering/models/container_hardening/container-hardening/SKILL.md) | `container_hardening` | `advanced` | `stable` | Use this skill to secure Docker images and container runtime configurations. |
+| [container-registries](../../skills/ai-engineering/models/container_registries/container-registries/SKILL.md) | `container_registries` | `advanced` | `stable` | Use this skill to manage container registries including ECR, ACR, GCR, and Docker Hub. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

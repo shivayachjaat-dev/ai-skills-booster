@@ -187,6 +187,7 @@ AI_Skills_Booster/
 │   │   ├── conductor_setup/ (1 skills)
 │   │   ├── constraint_driven_de/ (1 skills)
 │   │   ├── container_hardening/ (1 skills)
+│   │   ├── container_registries/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **591** skills across structured domains, categories, and subcategories.
+Master navigation for **592** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (204 skills)
+## Ai Engineering (205 skills)
 
 ### Agents (24 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -134,7 +134,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (139 skills)
+### Models (140 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -404,6 +404,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [constraint-driven-development](../skills/ai-engineering/models/constraint_driven_de/constraint-driven-development/SKILL.md) — Use this skill to write the project quality bar as enforced CONSTRAINTS.md so agents stop
 - **Container_Hardening** (1):
   - [container-hardening](../skills/ai-engineering/models/container_hardening/container-hardening/SKILL.md) — Use this skill to secure Docker images and container runtime configurations.
+- **Container_Registries** (1):
+  - [container-registries](../skills/ai-engineering/models/container_registries/container-registries/SKILL.md) — Use this skill to manage container registries including ECR, ACR, GCR, and Docker Hub.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
