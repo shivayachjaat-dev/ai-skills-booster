@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,451** skills across structured domains, categories, and subcategories.
+Master navigation for **1,452** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (507 skills)
 
@@ -1977,7 +1977,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (274 skills)
+## Frontend (275 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2117,7 +2117,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Javascript_Typescrip** (1):
   - [javascript-typescript-typescript-scaffold](../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N
 
-### Ui Ux (158 skills)
+### Ui Ux (159 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2428,6 +2428,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [longbridge-quant](../skills/frontend/ui-ux/longbridge_quant/longbridge-quant/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge quant. Curated upstream guidance for Longbridge Quant; use when the workflow matches the user goal.
 - **Longbridge_Research** (1):
   - [longbridge-research](../skills/frontend/ui-ux/longbridge_research/longbridge-research/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge research. Curated upstream guidance for Longbridge Research; use when the workflow matches the user goal.
+- **Macos_Menubar_Tuist_** (1):
+  - [macos-menubar-tuist-app](../skills/frontend/ui-ux/macos_menubar_tuist_/macos-menubar-tuist-app/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos menubar tuist app. Build, refactor, or review SwiftUI macOS menubar apps that use Tuist.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

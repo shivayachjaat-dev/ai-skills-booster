@@ -22675,6 +22675,28 @@
     "maturity": "stable"
   },
   {
+    "name": "macos-menubar-tuist-app",
+    "path": "skills/frontend/ui-ux/macos_menubar_tuist_/macos-menubar-tuist-app",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "macos_menubar_tuist_",
+    "description": "Use this skill to design, implement, and operate production workflows for macos menubar tuist app. Build, refactor, or review SwiftUI macOS menubar apps that use Tuist.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "macos",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Macos Menubar Tuist App",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

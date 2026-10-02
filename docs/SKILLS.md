@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,451 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,452 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1016,6 +1016,7 @@
 | [longbridge-derivatives](skills/frontend/ui-ux/longbridge_derivativ/longbridge-derivatives/SKILL.md) | `frontend` | `ui-ux` | `longbridge_derivativ` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for longbridge derivatives. Curated upstream guidance for Longbridge Derivatives; use when the workflow matches the user goal. |
 | [longbridge-quant](skills/frontend/ui-ux/longbridge_quant/longbridge-quant/SKILL.md) | `frontend` | `ui-ux` | `longbridge_quant` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for longbridge quant. Curated upstream guidance for Longbridge Quant; use when the workflow matches the user goal. |
 | [longbridge-research](skills/frontend/ui-ux/longbridge_research/longbridge-research/SKILL.md) | `frontend` | `ui-ux` | `longbridge_research` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for longbridge research. Curated upstream guidance for Longbridge Research; use when the workflow matches the user goal. |
+| [macos-menubar-tuist-app](skills/frontend/ui-ux/macos_menubar_tuist_/macos-menubar-tuist-app/SKILL.md) | `frontend` | `ui-ux` | `macos_menubar_tuist_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for macos menubar tuist app. Build, refactor, or review SwiftUI macOS menubar apps that use Tuist. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

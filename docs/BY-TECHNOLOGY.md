@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1269 skills)
+## Bash (1270 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1969,6 +1969,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [longbridge-derivatives](../skills/frontend/ui-ux/longbridge_derivativ/longbridge-derivatives/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge derivatives. Curated upstream guidance for Longbridge Derivatives; use when the workflow matches the user goal.
 - [longbridge-quant](../skills/frontend/ui-ux/longbridge_quant/longbridge-quant/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge quant. Curated upstream guidance for Longbridge Quant; use when the workflow matches the user goal.
 - [longbridge-research](../skills/frontend/ui-ux/longbridge_research/longbridge-research/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge research. Curated upstream guidance for Longbridge Research; use when the workflow matches the user goal.
+- [macos-menubar-tuist-app](../skills/frontend/ui-ux/macos_menubar_tuist_/macos-menubar-tuist-app/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos menubar tuist app. Build, refactor, or review SwiftUI macOS menubar apps that use Tuist.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -7212,6 +7213,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [machine-learning-ops-ml-pipeline](../skills/software-engineering/architecture/patterns/machine-learning-ops-ml-pipeline/SKILL.md) — Use this skill to design, implement, and operate production workflows for machine learning ops ml pipeline. Design and implement a complete ML pipeline for: $ARGUMENTS
 
+## Macos Menubar Tuist App (1 skills)
+
+- [macos-menubar-tuist-app](../skills/frontend/ui-ux/macos_menubar_tuist_/macos-menubar-tuist-app/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos menubar tuist app. Build, refactor, or review SwiftUI macOS menubar apps that use Tuist.
+
 ## Markdown (6 skills)
 
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
@@ -7697,7 +7702,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1372 skills)
+## Python (1373 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8660,6 +8665,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [longbridge-derivatives](../skills/frontend/ui-ux/longbridge_derivativ/longbridge-derivatives/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge derivatives. Curated upstream guidance for Longbridge Derivatives; use when the workflow matches the user goal.
 - [longbridge-quant](../skills/frontend/ui-ux/longbridge_quant/longbridge-quant/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge quant. Curated upstream guidance for Longbridge Quant; use when the workflow matches the user goal.
 - [longbridge-research](../skills/frontend/ui-ux/longbridge_research/longbridge-research/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge research. Curated upstream guidance for Longbridge Research; use when the workflow matches the user goal.
+- [macos-menubar-tuist-app](../skills/frontend/ui-ux/macos_menubar_tuist_/macos-menubar-tuist-app/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos menubar tuist app. Build, refactor, or review SwiftUI macOS menubar apps that use Tuist.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
