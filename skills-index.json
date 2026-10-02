@@ -24391,6 +24391,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-push-ingestion",
+    "path": "skills/frontend/ui-ux/monte_carlo_push_ing/monte-carlo-push-ingestion",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "monte_carlo_push_ing",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo push ingestion. Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Push Ingestion",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
