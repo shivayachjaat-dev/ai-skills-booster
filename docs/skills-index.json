@@ -11301,6 +11301,28 @@
     "maturity": "stable"
   },
   {
+    "name": "data-quality-frameworks",
+    "path": "skills/frontend/ui-ux/data_quality_framewo/data-quality-frameworks",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "data_quality_framewo",
+    "description": "Use this skill to implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "data",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Data Quality Frameworks",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
