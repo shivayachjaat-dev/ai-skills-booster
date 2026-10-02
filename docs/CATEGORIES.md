@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **266** skills across structured domains, categories, and subcategories.
+Master navigation for **267** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (88 skills)
+## Ai Engineering (89 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (48 skills)
+### Models (49 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -199,9 +199,10 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-ai-textanalytics-py](../skills/ai-engineering/models/azure_ai_textanalyti/azure-ai-textanalytics-py/SKILL.md) — Use this skill to azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.
 - **Azure_Ai_Transcripti** (1):
   - [azure-ai-transcription-py](../skills/ai-engineering/models/azure_ai_transcripti/azure-ai-transcription-py/SKILL.md) — Use this skill to azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization.
-- **Azure_Ai_Translation** (2):
+- **Azure_Ai_Translation** (3):
   - [azure-ai-translation-document-py](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-document-py/SKILL.md) — Use this skill to azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale.
   - [azure-ai-translation-text-py](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-text-py/SKILL.md) — Use this skill to azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.
+  - [azure-ai-translation-ts](../skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-ts/SKILL.md) — Use this skill to text and document translation with REST-style clients.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -1799,6 +1799,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-translation-ts",
+    "path": "skills/ai-engineering/models/azure_ai_translation/azure-ai-translation-ts",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_translation",
+    "description": "Use this skill to text and document translation with REST-style clients.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Translation Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
