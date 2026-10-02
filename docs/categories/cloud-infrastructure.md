@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,3 +15,4 @@
 | [azure-compute-batch-java](../../skills/devops/cloud-infrastructure/azure_compute_batch_/azure-compute-batch-java/SKILL.md) | `azure_compute_batch_` | `advanced` | `stable` | Use this skill to azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes. |
 | [azure-eventgrid-dotnet](../../skills/devops/cloud-infrastructure/azure_eventgrid_dotn/azure-eventgrid-dotnet/SKILL.md) | `azure_eventgrid_dotn` | `advanced` | `stable` | Use this skill to azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents. |
 | [azure-eventhub-dotnet](../../skills/devops/cloud-infrastructure/azure_eventhub_dotne/azure-eventhub-dotnet/SKILL.md) | `azure_eventhub_dotne` | `advanced` | `stable` | Use this skill to azure Event Hubs SDK for .NET. |
+| [azure-eventhub-rust](../../skills/devops/cloud-infrastructure/azure_eventhub_rust/azure-eventhub-rust/SKILL.md) | `azure_eventhub_rust` | `advanced` | `stable` | Use this skill to azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion. |

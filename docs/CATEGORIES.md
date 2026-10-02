@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **297** skills across structured domains, categories, and subcategories.
+Master navigation for **298** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (102 skills)
 
@@ -614,7 +614,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (37 skills)
+## Devops (38 skills)
 
 ### Ci Cd (5 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -630,7 +630,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (11 skills)
+### Cloud Infrastructure (12 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -654,6 +654,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [azure-eventgrid-dotnet](../skills/devops/cloud-infrastructure/azure_eventgrid_dotn/azure-eventgrid-dotnet/SKILL.md) — Use this skill to azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents.
 - **Azure_Eventhub_Dotne** (1):
   - [azure-eventhub-dotnet](../skills/devops/cloud-infrastructure/azure_eventhub_dotne/azure-eventhub-dotnet/SKILL.md) — Use this skill to azure Event Hubs SDK for .NET.
+- **Azure_Eventhub_Rust** (1):
+  - [azure-eventhub-rust](../skills/devops/cloud-infrastructure/azure_eventhub_rust/azure-eventhub-rust/SKILL.md) — Use this skill to azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)

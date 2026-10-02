@@ -4226,6 +4226,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-eventhub-rust",
+    "path": "skills/devops/cloud-infrastructure/azure_eventhub_rust/azure-eventhub-rust",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_eventhub_rust",
+    "description": "Use this skill to azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Eventhub Rust",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
