@@ -574,7 +574,8 @@ AI_Skills_Booster/
 │   │   ├── health_wellness/ (1 skills)
 │   │   ├── intern_program/ (1 skills)
 │   │   ├── internal_communicati/ (1 skills)
-│   │   └── inventory_stock_reco/ (1 skills)
+│   │   ├── inventory_stock_reco/ (1 skills)
+│   │   └── invoices_billing/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/

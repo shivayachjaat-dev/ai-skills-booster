@@ -12194,6 +12194,28 @@
     "maturity": "stable"
   },
   {
+    "name": "invoices-billing",
+    "path": "skills/business/operations/invoices_billing/invoices-billing",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "invoices_billing",
+    "description": "Use this skill to design, implement, and operate production workflows for invoices billing. Invoice and billing register: invoice number, client, project, issue and due dates, subtotal, discount, tax and withholding, total, payments, balance and aging. Use for billing follow-up.",
+    "tags": [
+      "business",
+      "operations",
+      "invoices",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Invoices Billing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

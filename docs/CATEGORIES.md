@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,311** skills across structured domains, categories, and subcategories.
+Master navigation for **1,312** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (436 skills)
 
@@ -1171,7 +1171,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (29 skills)
+## Business (30 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1209,7 +1209,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (17 skills)
+### Operations (18 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1246,6 +1246,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [internal-communication](../skills/business/operations/internal_communicati/internal-communication/SKILL.md) — Use this skill to design, implement, and operate production workflows for internal communication. Internal communication log: title, type, date, department, host and attendees, agenda, action items, follow-up date, meeting link and delivery status. Use for internal comms tracking.
 - **Inventory_Stock_Reco** (1):
   - [inventory-stock-reconciliation](../skills/business/operations/inventory_stock_reco/inventory-stock-reconciliation/SKILL.md) — Use this skill to design, implement, and operate production workflows for inventory stock reconciliation. Stock reconciliation register: count date, item, warehouse, book vs physical quantity, variance quantity and value, variance reason, damage and expiry, adjustment and approval. Use for stock counts.
+- **Invoices_Billing** (1):
+  - [invoices-billing](../skills/business/operations/invoices_billing/invoices-billing/SKILL.md) — Use this skill to design, implement, and operate production workflows for invoices billing. Invoice and billing register: invoice number, client, project, issue and due dates, subtotal, discount, tax and withholding, total, payments, balance and aging. Use for billing follow-up.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)
