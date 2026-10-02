@@ -20585,6 +20585,28 @@
     "maturity": "stable"
   },
   {
+    "name": "json-schema-manual",
+    "path": "skills/frontend/ui-ux/json_schema_manual/json-schema-manual",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "json_schema_manual",
+    "description": "Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "json",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Json Schema Manual",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
