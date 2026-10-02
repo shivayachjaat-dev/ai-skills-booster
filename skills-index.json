@@ -5935,6 +5935,28 @@
     "maturity": "stable"
   },
   {
+    "name": "domain-modeling",
+    "path": "skills/ai-engineering/models/domain_modeling/domain-modeling",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "domain_modeling",
+    "description": "Use this skill to design, implement, and operate production workflows for domain modeling. Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "domain",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Domain Modeling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
