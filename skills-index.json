@@ -14469,6 +14469,28 @@
     "maturity": "stable"
   },
   {
+    "name": "environment-setup-guide",
+    "path": "skills/frontend/ui-ux/environment_setup_gu/environment-setup-guide",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "environment_setup_gu",
+    "description": "Use this skill to design, implement, and operate production workflows for environment setup guide. Guide developers through setting up development environments with proper tools, dependencies, and configurations",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "environment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Environment Setup Guide",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

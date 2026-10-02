@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **82 skills** available in this category.
+> **83 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -83,6 +83,7 @@
 | [electron-development](../../skills/frontend/ui-ux/electron_development/electron-development/SKILL.md) | `electron_development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for electron development. Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update. |
 | [embedding-strategies](../../skills/frontend/ui-ux/embedding_strategies/embedding-strategies/SKILL.md) | `embedding_strategies` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for embedding strategies. Guide to selecting and optimizing embedding models for vector search applications. |
 | [enhance-prompt](../../skills/frontend/ui-ux/enhance_prompt/enhance-prompt/SKILL.md) | `enhance_prompt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results. |
+| [environment-setup-guide](../../skills/frontend/ui-ux/environment_setup_gu/environment-setup-guide/SKILL.md) | `environment_setup_gu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for environment setup guide. Guide developers through setting up development environments with proper tools, dependencies, and configurations |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
