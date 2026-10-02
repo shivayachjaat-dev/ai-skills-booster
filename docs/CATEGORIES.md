@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **450** skills across structured domains, categories, and subcategories.
+Master navigation for **451** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (152 skills)
+## Ai Engineering (153 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -120,7 +120,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (96 skills)
+### Models (97 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -304,6 +304,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [bumblebee](../skills/ai-engineering/models/bumblebee/bumblebee/SKILL.md) — Use this skill to run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs.
 - **Business_Analyst** (1):
   - [business-analyst](../skills/ai-engineering/models/business_analyst/business-analyst/SKILL.md) — Use this skill to master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.
+- **Business_Email_Templ** (1):
+  - [business-email-template](../skills/ai-engineering/models/business_email_templ/business-email-template/SKILL.md) — Use this skill to business email template register: trigger, sender and recipient type, subject pattern, body structure, personalisation tokens and send checks. Use for repeatable outbound email.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
