@@ -5173,6 +5173,28 @@
     "maturity": "stable"
   },
   {
+    "name": "awareness-stage-mapper",
+    "path": "skills/software-engineering/architecture/patterns/awareness-stage-mapper",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to one sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "awareness",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Awareness Stage Mapper",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

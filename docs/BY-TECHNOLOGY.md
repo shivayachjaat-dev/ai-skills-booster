@@ -393,6 +393,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
 
+## Awareness Stage Mapper (1 skills)
+
+- [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
+
 ## Azure AI Agent SDK (1 skills)
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
@@ -417,7 +421,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (40 skills)
+## Bash (41 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -458,6 +462,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [mitre-attack-chain-and-lateral-movement-simulation](../skills/security/red-teaming/attack-simulation/mitre-attack-chain-and-lateral-movement-simulation/SKILL.md) — Use this skill to model, simulate, and defend against multi-stage adversary attack chains across enterprise environments using the MITRE ATT&CK framework. It covers initial access emulation, execution vectors, credential dumping (LSASS, DPAPI), lateral movement (WMI, WinRM, Pass-the-Hash, Kerberoasting), command-and-control (C2) beacon analysis, and engineering Blue Team detection rules in Sigma and YARA-L.
 - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
 - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
+- [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 
 ## BeautifulSoup (1 skills)
@@ -1697,7 +1702,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (143 skills)
+## Python (144 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -1832,6 +1837,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
 - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
+- [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
 - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
