@@ -15468,6 +15468,28 @@
     "maturity": "stable"
   },
   {
+    "name": "differential-review",
+    "path": "skills/security/appsec/differential_review/differential-review",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "differential_review",
+    "description": "Use this skill to design, implement, and operate production workflows for differential review. Security-focused code review for PRs, commits, and diffs.",
+    "tags": [
+      "security",
+      "appsec",
+      "differential",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Differential Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gcp-audit-logs",
     "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
     "domain": "security",
