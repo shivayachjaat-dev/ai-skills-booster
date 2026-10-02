@@ -36677,6 +36677,28 @@
     "maturity": "stable"
   },
   {
+    "name": "onboarding-psychologist",
+    "path": "skills/software-engineering/architecture/patterns/onboarding-psychologist",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for onboarding psychologist. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "onboarding",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Onboarding Psychologist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",

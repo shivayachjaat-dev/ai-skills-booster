@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1494 skills)
+## Bash (1495 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2546,6 +2546,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [offers](../skills/software-engineering/architecture/patterns/offers/SKILL.md) — Use this skill to design, implement, and operate production workflows for offers. When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure.
 - [office-productivity](../skills/software-engineering/architecture/patterns/office-productivity/SKILL.md) — Use this skill to design, implement, and operate production workflows for office productivity. Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats.
 - [onboarding](../skills/software-engineering/architecture/patterns/onboarding/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding. When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.
+- [onboarding-psychologist](../skills/software-engineering/architecture/patterns/onboarding-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding psychologist. One sentence - what this skill does and when to invoke it
 - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
@@ -8539,6 +8540,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [onboarding-playbook](../skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding.
 
+## Onboarding Psychologist (1 skills)
+
+- [onboarding-psychologist](../skills/software-engineering/architecture/patterns/onboarding-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding psychologist. One sentence - what this skill does and when to invoke it
+
 ## Open Policy Agent (OPA) (1 skills)
 
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
@@ -8804,7 +8809,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1597 skills)
+## Python (1598 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10371,6 +10376,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [offers](../skills/software-engineering/architecture/patterns/offers/SKILL.md) — Use this skill to design, implement, and operate production workflows for offers. When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure.
 - [office-productivity](../skills/software-engineering/architecture/patterns/office-productivity/SKILL.md) — Use this skill to design, implement, and operate production workflows for office productivity. Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats.
 - [onboarding](../skills/software-engineering/architecture/patterns/onboarding/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding. When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.
+- [onboarding-psychologist](../skills/software-engineering/architecture/patterns/onboarding-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding psychologist. One sentence - what this skill does and when to invoke it
 - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
