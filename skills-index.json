@@ -35621,6 +35621,28 @@
     "maturity": "stable"
   },
   {
+    "name": "objection-preemptor",
+    "path": "skills/software-engineering/architecture/patterns/objection-preemptor",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for objection preemptor. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "objection",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Objection Preemptor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
