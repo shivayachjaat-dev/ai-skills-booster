@@ -11763,6 +11763,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dbt-transformation-patterns",
+    "path": "skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "dbt_transformation_p",
+    "description": "Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "dbt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dbt Transformation Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

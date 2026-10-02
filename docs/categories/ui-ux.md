@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **55 skills** available in this category.
+> **56 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -59,3 +59,4 @@
 | [dbos-golang](../../skills/frontend/ui-ux/dbos_golang/dbos-golang/SKILL.md) | `dbos_golang` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control. |
 | [dbos-python](../../skills/frontend/ui-ux/dbos_python/dbos-python/SKILL.md) | `dbos_python` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control. |
 | [dbos-typescript](../../skills/frontend/ui-ux/dbos_typescript/dbos-typescript/SKILL.md) | `dbos_typescript` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control. |
+| [dbt-transformation-patterns](../../skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns/SKILL.md) | `dbt_transformation_p` | `advanced` | `stable` | Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing. |

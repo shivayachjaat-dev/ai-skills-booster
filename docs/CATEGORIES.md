@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **686** skills across structured domains, categories, and subcategories.
+Master navigation for **687** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (243 skills)
 
@@ -1239,7 +1239,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (84 skills)
+## Frontend (85 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1317,7 +1317,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Ckw_Design** (1):
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 
-### Ui Ux (55 skills)
+### Ui Ux (56 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1430,6 +1430,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [dbos-python](../skills/frontend/ui-ux/dbos_python/dbos-python/SKILL.md) — Use this skill to guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control.
 - **Dbos_Typescript** (1):
   - [dbos-typescript](../skills/frontend/ui-ux/dbos_typescript/dbos-typescript/SKILL.md) — Use this skill to guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control.
+- **Dbt_Transformation_P** (1):
+  - [dbt-transformation-patterns](../skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns/SKILL.md) — Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.
 
 ### Web Architecture (11 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
