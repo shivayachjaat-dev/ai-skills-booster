@@ -6293,6 +6293,28 @@
     "maturity": "stable"
   },
   {
+    "name": "database-security",
+    "path": "skills/backend/databases/database_security/database-security",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "database_security",
+    "description": "Use this skill to authorized database security assessment across PostgreSQL, MySQL, MSSQL, MongoDB, and Redis: exposure, authorization gaps, UDF/command execution paths, and misconfiguration review.",
+    "tags": [
+      "backend",
+      "databases",
+      "database",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Database Security",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
