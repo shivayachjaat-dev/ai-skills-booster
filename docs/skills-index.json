@@ -677,6 +677,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-agent-development",
+    "path": "skills/ai-engineering/models/ai_agent_development/ai-agent-development",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ai_agent_development",
+    "description": "Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ai Agent Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",
