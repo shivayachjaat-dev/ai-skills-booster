@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **425** skills across structured domains, categories, and subcategories.
+Master navigation for **426** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (145 skills)
 
@@ -1430,7 +1430,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (8 skills)
+## Testing (9 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -1450,11 +1450,13 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (1 skills)
+### Automation (2 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
   - [bash-scripting](../skills/testing/automation/bash_scripting/bash-scripting/SKILL.md) — Use this skill to bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
+- **Brooks_Sweep** (1):
+  - [brooks-sweep](../skills/testing/automation/brooks_sweep/brooks-sweep/SKILL.md) — Use this skill to full-sweep mode: runs a unified analysis across all quality dimensions — code decay, architecture, tech debt, and test quality — then applies fixes directly to the codebase. Safe changes are auto-applied; risky changes are confirmed before execution.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

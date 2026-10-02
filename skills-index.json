@@ -9887,6 +9887,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brooks-sweep",
+    "path": "skills/testing/automation/brooks_sweep/brooks-sweep",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "brooks_sweep",
+    "description": "Use this skill to full-sweep mode: runs a unified analysis across all quality dimensions \u2014 code decay, architecture, tech debt, and test quality \u2014 then applies fixes directly to the codebase. Safe changes are auto-applied; risky changes are confirmed before execution.",
+    "tags": [
+      "testing",
+      "automation",
+      "brooks",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brooks Sweep",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",
