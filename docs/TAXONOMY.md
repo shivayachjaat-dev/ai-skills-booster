@@ -1200,6 +1200,7 @@ AI_Skills_Booster/
 │   │   ├── monte_carlo_asset_he/ (1 skills)
 │   │   ├── monte_carlo_monitor_/ (1 skills)
 │   │   ├── monte_carlo_push_ing/ (1 skills)
+│   │   ├── n8n_mcp_tools_expert/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)

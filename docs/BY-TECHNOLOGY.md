@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1397 skills)
+## Bash (1398 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2067,6 +2067,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [monte-carlo-asset-health](../skills/frontend/ui-ux/monte_carlo_asset_he/monte-carlo-asset-health/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo asset health. Curated upstream guidance for Monte Carlo Asset Health; use when the workflow matches the user goal.
 - [monte-carlo-monitor-creation](../skills/frontend/ui-ux/monte_carlo_monitor_/monte-carlo-monitor-creation/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo monitor creation. Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment.
 - [monte-carlo-push-ingestion](../skills/frontend/ui-ux/monte_carlo_push_ing/monte-carlo-push-ingestion/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo push ingestion. Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse.
+- [n8n-mcp-tools-expert](../skills/frontend/ui-ux/n8n_mcp_tools_expert/n8n-mcp-tools-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n mcp tools expert. Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -7955,6 +7956,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [n8n-expression-syntax](../skills/frontend/web-architecture/n8n_expression_synta/n8n-expression-syntax/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n expression syntax. Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, or working with webhook data in workflows.
 
+## N8N Mcp Tools Expert (1 skills)
+
+- [n8n-mcp-tools-expert](../skills/frontend/ui-ux/n8n_mcp_tools_expert/n8n-mcp-tools-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n mcp tools expert. Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns.
+
 ## NGINX (1 skills)
 
 - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
@@ -8319,7 +8324,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1500 skills)
+## Python (1501 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9380,6 +9385,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [monte-carlo-asset-health](../skills/frontend/ui-ux/monte_carlo_asset_he/monte-carlo-asset-health/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo asset health. Curated upstream guidance for Monte Carlo Asset Health; use when the workflow matches the user goal.
 - [monte-carlo-monitor-creation](../skills/frontend/ui-ux/monte_carlo_monitor_/monte-carlo-monitor-creation/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo monitor creation. Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment.
 - [monte-carlo-push-ingestion](../skills/frontend/ui-ux/monte_carlo_push_ing/monte-carlo-push-ingestion/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo push ingestion. Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse.
+- [n8n-mcp-tools-expert](../skills/frontend/ui-ux/n8n_mcp_tools_expert/n8n-mcp-tools-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n mcp tools expert. Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.

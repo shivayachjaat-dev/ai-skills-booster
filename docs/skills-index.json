@@ -24831,6 +24831,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-mcp-tools-expert",
+    "path": "skills/frontend/ui-ux/n8n_mcp_tools_expert/n8n-mcp-tools-expert",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "n8n_mcp_tools_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n mcp tools expert. Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Mcp Tools Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
