@@ -80,6 +80,8 @@ AI_Skills_Booster/
 │   └── refactoring/
 │   │   └── simplification/ (1 skills)
 ├── testing/
+│   ├── component/
+│   │   └── cypress/ (1 skills)
 │   ├── e2e/
 │   │   └── playwright/ (1 skills)
 │   └── load-testing/

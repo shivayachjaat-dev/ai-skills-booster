@@ -836,6 +836,31 @@
     "maturity": "stable"
   },
   {
+    "name": "cypress-component-testing",
+    "path": "skills/testing/component/cypress/cypress-component-testing",
+    "domain": "testing",
+    "category": "component",
+    "subcategory": "cypress",
+    "description": "Use this skill when authoring, running, and debugging isolated component tests using Cypress Component Testing for React, Vue, or Angular. It guides the agent through mounting components in real browser DOMs, asserting visual states, stubbing network requests via cy.intercept, simulating user events, and verifying CSS animations without firing up full backend environments.",
+    "tags": [
+      "cypress",
+      "component-testing",
+      "testing",
+      "frontend",
+      "react",
+      "vue"
+    ],
+    "technologies": [
+      "Cypress",
+      "React",
+      "TypeScript",
+      "Vite",
+      "Webpack"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "playwright-e2e-testing",
     "path": "skills/testing/e2e/playwright/playwright-e2e-testing",
     "domain": "testing",

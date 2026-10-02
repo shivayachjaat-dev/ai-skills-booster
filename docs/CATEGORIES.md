@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **36** skills across structured domains, categories, and subcategories.
+Master navigation for **37** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -222,7 +222,13 @@ Category index: [`docs/categories/refactoring.md`](categories/refactoring.md)
 - **Simplification** (1):
   - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 
-## Testing (2 skills)
+## Testing (3 skills)
+
+### Component (1 skills)
+Category index: [`docs/categories/component.md`](categories/component.md)
+
+- **Cypress** (1):
+  - [cypress-component-testing](../skills/testing/component/cypress/cypress-component-testing/SKILL.md) — Use this skill when authoring, running, and debugging isolated component tests using Cypress Component Testing for React, Vue, or Angular. It guides the agent through mounting components in real browser DOMs, asserting visual states, stubbing network requests via cy.intercept, simulating user events, and verifying CSS animations without firing up full backend environments.
 
 ### E2E (1 skills)
 Category index: [`docs/categories/e2e.md`](categories/e2e.md)
