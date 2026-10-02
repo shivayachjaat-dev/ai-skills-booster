@@ -62,6 +62,7 @@ AI_Skills_Booster/
 │   ├── quantization/
 │   │   └── gguf-llama-cpp/ (1 skills)
 │   ├── rag/
+│   │   ├── appdeploy/ (1 skills)
 │   │   └── evaluation/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)

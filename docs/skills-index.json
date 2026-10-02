@@ -1080,6 +1080,28 @@
     "maturity": "stable"
   },
   {
+    "name": "appdeploy",
+    "path": "skills/ai-engineering/rag/appdeploy/appdeploy",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "appdeploy",
+    "description": "Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "appdeploy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Appdeploy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",
