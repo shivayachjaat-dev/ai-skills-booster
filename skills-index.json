@@ -5011,6 +5011,28 @@
     "maturity": "stable"
   },
   {
+    "name": "deep-research-framework",
+    "path": "skills/ai-engineering/models/deep_research_framew/deep-research-framework",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "deep_research_framew",
+    "description": "Use this skill to framework for deep research reports: define the question and tier sources first, cross-verify, then write conclusion-first reports with explicit uncertainty statements. Use when the user asks for a research report, topic investigation, or competitive analysis.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "deep",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Deep Research Framework",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

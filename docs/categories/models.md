@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **175 skills** available in this category.
+> **176 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -178,4 +178,5 @@
 | [debug-buttercup](../../skills/ai-engineering/models/debug_buttercup/debug-buttercup/SKILL.md) | `debug_buttercup` | `advanced` | `stable` | Use this skill to all pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings. |
 | [debugger](../../skills/ai-engineering/models/debugger/debugger/SKILL.md) | `debugger` | `advanced` | `stable` | Use this skill to debugging specialist for errors, test failures, and unexpected |
 | [debugging-code](../../skills/ai-engineering/models/debugging_code/debugging-code/SKILL.md) | `debugging_code` | `advanced` | `stable` | Use this skill to interactively debug source code — set breakpoints, step through execution line by line, inspect live variable state, evaluate expressions against the running program, and navigate the call stack to trace root causes. |
+| [deep-research-framework](../../skills/ai-engineering/models/deep_research_framew/deep-research-framework/SKILL.md) | `deep_research_framew` | `advanced` | `stable` | Use this skill to framework for deep research reports: define the question and tier sources first, cross-verify, then write conclusion-first reports with explicit uncertainty statements. Use when the user asks for a research report, topic investigation, or competitive analysis. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
