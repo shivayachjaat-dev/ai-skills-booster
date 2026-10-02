@@ -14227,6 +14227,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-mobile-development-component-scaffold",
+    "path": "skills/frontend/ui-development/frontend_mobile_deve/frontend-mobile-development-component-scaffold",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_mobile_deve",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend mobile development component scaffold. You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Mobile Development Component Scaffold",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
