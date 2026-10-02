@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **823** skills across structured domains, categories, and subcategories.
+Master navigation for **824** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (285 skills)
 
@@ -1329,7 +1329,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (141 skills)
+## Frontend (142 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1411,7 +1411,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Design_Taste_Fronten** (1):
   - [design-taste-frontend](../skills/frontend/ui-development/design_taste_fronten/design-taste-frontend/SKILL.md) — Use this skill to design, implement, and operate production workflows for design taste frontend. Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.
 
-### Ui Ux (66 skills)
+### Ui Ux (67 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1540,6 +1540,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [design-ux](../skills/frontend/ui-ux/design_ux/design-ux/SKILL.md) — Use this skill to design, implement, and operate production workflows for design ux. UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI \"feels off\", \"sucks to use\", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app.
 - **Developer_Advocacy** (1):
   - [developer-advocacy](../skills/frontend/ui-ux/developer_advocacy/developer-advocacy/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer advocacy. When the user wants to do developer advocacy activities including conference talks, live coding, podcasts, and building in public.
+- **Developer_Onboarding** (1):
+  - [developer-onboarding](../skills/frontend/ui-ux/developer_onboarding/developer-onboarding/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer onboarding. Get developers to \"Hello World\" fast with optimized quickstarts, tutorials, and sample apps.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

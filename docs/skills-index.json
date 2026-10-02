@@ -12973,6 +12973,28 @@
     "maturity": "stable"
   },
   {
+    "name": "developer-onboarding",
+    "path": "skills/frontend/ui-ux/developer_onboarding/developer-onboarding",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "developer_onboarding",
+    "description": "Use this skill to design, implement, and operate production workflows for developer onboarding. Get developers to \\\"Hello World\\\" fast with optimized quickstarts, tutorials, and sample apps.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "developer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Developer Onboarding",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
