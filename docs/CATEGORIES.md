@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,655** skills across structured domains, categories, and subcategories.
+Master navigation for **1,656** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (571 skills)
 
@@ -1208,7 +1208,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (102 skills)
+## Backend (103 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1232,7 +1232,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (34 skills)
+### Api Frameworks (35 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -1301,6 +1301,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [muapi-media](../skills/backend/api-frameworks/muapi_media/muapi-media/SKILL.md) — Use this skill to design, implement, and operate production workflows for muapi media. Generate images and videos with MuAPI's schema-driven asynchronous media API while protecting keys, polling, and output downloads.
 - **Newman_Cicd_Integrat** (1):
   - [newman-cicd-integration](../skills/backend/api-frameworks/newman_cicd_integrat/newman-cicd-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for newman cicd integration. Generate ready-to-use CI/CD pipeline configurations that install and run Newman for automated API testing.
+- **Odoo_Rpc_Api** (1):
+  - [odoo-rpc-api](../skills/backend/api-frameworks/odoo_rpc_api/odoo-rpc-api/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo rpc api. Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScript, and curl.
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)

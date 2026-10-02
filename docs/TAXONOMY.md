@@ -622,7 +622,8 @@ AI_Skills_Booster/
 │   │   ├── minecraft_bukkit_pro/ (1 skills)
 │   │   ├── monthly_closing_stat/ (1 skills)
 │   │   ├── muapi_media/ (1 skills)
-│   │   └── newman_cicd_integrat/ (1 skills)
+│   │   ├── newman_cicd_integrat/ (1 skills)
+│   │   └── odoo_rpc_api/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/

@@ -13626,6 +13626,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-rpc-api",
+    "path": "skills/backend/api-frameworks/odoo_rpc_api/odoo-rpc-api",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "odoo_rpc_api",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo rpc api. Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScript, and curl.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Rpc Api",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
