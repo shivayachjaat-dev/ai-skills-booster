@@ -809,6 +809,7 @@ AI_Skills_Booster/
 │   │   ├── duotone_design/ (1 skills)
 │   │   ├── expo_deployment/ (1 skills)
 │   │   ├── fastapi_pro/ (1 skills)
+│   │   ├── ffuf_claude_skill/ (1 skills)
 │   │   ├── flat_design/ (1 skills)
 │   │   ├── flat_design_2/ (1 skills)
 │   │   ├── frutiger_aero/ (1 skills)

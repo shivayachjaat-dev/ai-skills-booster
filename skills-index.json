@@ -16229,6 +16229,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ffuf-claude-skill",
+    "path": "skills/frontend/web-architecture/ffuf_claude_skill/ffuf-claude-skill",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "ffuf_claude_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for ffuf claude skill. Web fuzzing with ffuf",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "ffuf",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ffuf Claude Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "flat-design",
     "path": "skills/frontend/web-architecture/flat_design/flat-design",
     "domain": "frontend",
