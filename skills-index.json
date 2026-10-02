@@ -10599,6 +10599,28 @@
     "maturity": "stable"
   },
   {
+    "name": "memory-safety-patterns",
+    "path": "skills/ai-engineering/models/memory_safety_patter/memory-safety-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "memory_safety_patter",
+    "description": "Use this skill to design, implement, and operate production workflows for memory safety patterns. Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "memory",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Memory Safety Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
