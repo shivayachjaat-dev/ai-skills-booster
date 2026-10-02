@@ -24092,6 +24092,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ios-redteam-pipeline",
+    "path": "skills/security/appsec/ios_redteam_pipeline/ios-redteam-pipeline",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "ios_redteam_pipeline",
+    "description": "Use this skill to design, implement, and operate production workflows for ios redteam pipeline. End-to-end iOS red-team pipeline",
+    "tags": [
+      "security",
+      "appsec",
+      "ios",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ios Redteam Pipeline",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
