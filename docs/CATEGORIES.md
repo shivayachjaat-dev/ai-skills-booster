@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,376** skills across structured domains, categories, and subcategories.
+Master navigation for **1,377** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (464 skills)
+## Ai Engineering (465 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -230,7 +230,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Langfuse** (1):
   - [langfuse](../skills/ai-engineering/llm-ops/langfuse/langfuse/SKILL.md) — Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform.
 
-### Models (339 skills)
+### Models (340 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -890,6 +890,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [learning-career-development](../skills/ai-engineering/models/learning_career_deve/learning-career-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for learning career development. Training register: course, provider, delivery method, department, employee, duration, progress percentage, score, mandatory flag, certificate earned and skills gained. Use for learning records.
 - **Legal_Advisor** (1):
   - [legal-advisor](../skills/ai-engineering/models/legal_advisor/legal-advisor/SKILL.md) — Use this skill to design, implement, and operate production workflows for legal advisor. Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.
+- **Leiloeiro_Edital** (1):
+  - [leiloeiro-edital](../skills/ai-engineering/models/leiloeiro_edital/leiloeiro-edital/SKILL.md) — Use this skill to design, implement, and operate production workflows for leiloeiro edital. Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas, debitos, ocupante e classificacao da oportunidade.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

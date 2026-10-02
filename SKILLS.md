@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,376 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,377 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -428,6 +428,7 @@
 | [lead-magnets](skills/ai-engineering/models/lead_magnets/lead-magnets/SKILL.md) | `ai-engineering` | `models` | `lead_magnets` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lead magnets. Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers. |
 | [learning-career-development](skills/ai-engineering/models/learning_career_deve/learning-career-development/SKILL.md) | `ai-engineering` | `models` | `learning_career_deve` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for learning career development. Training register: course, provider, delivery method, department, employee, duration, progress percentage, score, mandatory flag, certificate earned and skills gained. Use for learning records. |
 | [legal-advisor](skills/ai-engineering/models/legal_advisor/legal-advisor/SKILL.md) | `ai-engineering` | `models` | `legal_advisor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for legal advisor. Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements. |
+| [leiloeiro-edital](skills/ai-engineering/models/leiloeiro_edital/leiloeiro-edital/SKILL.md) | `ai-engineering` | `models` | `leiloeiro_edital` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leiloeiro edital. Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas, debitos, ocupante e classificacao da oportunidade. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
