@@ -8905,6 +8905,28 @@
     "maturity": "stable"
   },
   {
+    "name": "itil-expert",
+    "path": "skills/ai-engineering/models/itil_expert/itil-expert",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "itil_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for itil expert. Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm), specialized in AI-native governance, sustainability, and value co-creation.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "itil",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Itil Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
