@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 495 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 496 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -341,6 +341,7 @@
 | [react-component-architecture](skills/frontend/react/architecture/react-component-architecture/SKILL.md) | `frontend` | `react` | `architecture` | `advanced` | `stable` | Use this skill when designing, refactoring, and structuring scalable React component hierarchies. It enforces clean separation of concerns between presentational components and stateful containers, headless UI patterns, compound components, strict TypeScript prop contracts, and memoization boundaries. |
 | [zustand-state-management-patterns](skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) | `frontend` | `state-management` | `zustand` | `intermediate` | `stable` | Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows. |
 | [cc-skill-frontend-patterns](skills/frontend/ui-development/cc_skill_frontend_pa/cc-skill-frontend-patterns/SKILL.md) | `frontend` | `ui-development` | `cc_skill_frontend_pa` | `advanced` | `stable` | Use this skill to frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. |
+| [ckw-design](skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) | `frontend` | `ui-development` | `ckw_design` | `advanced` | `stable` | Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |
