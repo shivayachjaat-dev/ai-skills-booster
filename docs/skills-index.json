@@ -2817,6 +2817,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-postgres-ts",
+    "path": "skills/backend/databases/azure_postgres_ts/azure-postgres-ts",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "azure_postgres_ts",
+    "description": "Use this skill to connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.",
+    "tags": [
+      "backend",
+      "databases",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Postgres Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

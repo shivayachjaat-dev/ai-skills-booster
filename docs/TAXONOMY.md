@@ -141,7 +141,8 @@ AI_Skills_Booster/
 │   ├── database-migrations/
 │   │   └── alembic/ (1 skills)
 │   ├── databases/
-│   │   └── asset_it_management/ (1 skills)
+│   │   ├── asset_it_management/ (1 skills)
+│   │   └── azure_postgres_ts/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/
