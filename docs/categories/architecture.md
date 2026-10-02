@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **108 skills** available in this category.
+> **109 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -111,4 +111,5 @@
 | [fp-ts-errors](../../skills/software-engineering/architecture/patterns/fp-ts-errors/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp ts errors. Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts. |
 | [framework-migration-code-migrate](../../skills/software-engineering/architecture/patterns/framework-migration-code-migrate/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for framework migration code migrate. You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms. Generate comprehensive migration plans, automated migration scripts, and |
 | [free-design-resources](../../skills/software-engineering/architecture/patterns/free-design-resources/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for free design resources. Design resource register: resource and provider, licence type, commercial-use and attribution rules, export format, lock-in risk, free tier limit and accessibility notes. Use for tool vetting. |
+| [full-stack-orchestration-full-stack-feature](../../skills/software-engineering/architecture/patterns/full-stack-orchestration-full-stack-feature/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for full stack orchestration full stack feature. Use when working with full stack orchestration full stack feature |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

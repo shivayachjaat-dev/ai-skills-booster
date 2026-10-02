@@ -22949,6 +22949,28 @@
     "maturity": "stable"
   },
   {
+    "name": "full-stack-orchestration-full-stack-feature",
+    "path": "skills/software-engineering/architecture/patterns/full-stack-orchestration-full-stack-feature",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for full stack orchestration full stack feature. Use when working with full stack orchestration full stack feature",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "full",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Full Stack Orchestration Full Stack Feature",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
