@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **407** skills across structured domains, categories, and subcategories.
+Master navigation for **408** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (134 skills)
 
@@ -488,7 +488,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (6 skills)
+## Business (7 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -509,6 +509,12 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
+
+### Operations (1 skills)
+Category index: [`docs/categories/operations.md`](categories/operations.md)
+
+- **Board_Governance** (1):
+  - [board-governance](../skills/business/operations/board_governance/board-governance/SKILL.md) — Use this skill to board and governance register: meeting date, agenda, decision, resolution number, vote result, action owner and due date. Use for board packs and action tracking.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)

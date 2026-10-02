@@ -209,6 +209,8 @@ AI_Skills_Booster/
 │   │   └── performance-management/ (1 skills)
 │   ├── internal-comms/
 │   │   └── announcement-portal/ (1 skills)
+│   ├── operations/
+│   │   └── board_governance/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/

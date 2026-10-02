@@ -4164,6 +4164,28 @@
     "maturity": "stable"
   },
   {
+    "name": "board-governance",
+    "path": "skills/business/operations/board_governance/board-governance",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "board_governance",
+    "description": "Use this skill to board and governance register: meeting date, agenda, decision, resolution number, vote result, action owner and due date. Use for board packs and action tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "board",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Board Governance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
