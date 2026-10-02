@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **49 skills** available in this category.
+> **50 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -53,3 +53,4 @@
 | [crossframe-notebook](../../skills/frontend/ui-ux/crossframe_notebook/crossframe-notebook/SKILL.md) | `crossframe_notebook` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese notes for books, theories, articles, excerpts, bidirectional reading, absorption, or conflict mapping. |
 | [crossframe-public](../../skills/frontend/ui-ux/crossframe_public/crossframe-public/SKILL.md) | `crossframe_public` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence. |
 | [crossframe-suite](../../skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) | `crossframe_suite` | `advanced` | `stable` | Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output. |
+| [dast-scanning](../../skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) | `dast_scanning` | `advanced` | `stable` | Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite, |
