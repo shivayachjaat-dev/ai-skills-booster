@@ -1,5 +1,29 @@
 [
   {
+    "name": "ai-agent-benchmark-evaluation",
+    "path": "skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "benchmarking",
+    "description": "Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.",
+    "tags": [
+      "ai-agents",
+      "benchmarking",
+      "evaluation",
+      "llm-testing",
+      "agent-architecture",
+      "evals"
+    ],
+    "technologies": [
+      "Python",
+      "Pytest",
+      "JSON",
+      "Docker"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agent-project-memory",
     "path": "skills/ai-engineering/agents/memory/agent-project-memory",
     "domain": "ai-engineering",

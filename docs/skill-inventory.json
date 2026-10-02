@@ -1,5 +1,43 @@
 [
   {
+    "name": "ai-agent-benchmark-evaluation",
+    "slug": "ai-agent-benchmark-evaluation",
+    "path": "skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "benchmarking",
+    "description": "Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.",
+    "tags": [
+      "ai-agents",
+      "benchmarking",
+      "evaluation",
+      "llm-testing",
+      "agent-architecture",
+      "evals"
+    ],
+    "technologies": [
+      "Python",
+      "Pytest",
+      "JSON",
+      "Docker"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "python",
+      "pytest"
+    ],
+    "dependencies": [
+      "python >= 3.9",
+      "pytest"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:52:27.738503+00:00"
+  },
+  {
     "name": "agent-project-memory",
     "slug": "agent-project-memory",
     "path": "skills/ai-engineering/agents/memory/agent-project-memory",
@@ -33,7 +71,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.301014+00:00"
+    "updated_at": "2026-10-02T13:52:27.739550+00:00"
   },
   {
     "name": "context-window-engineering",
@@ -68,7 +106,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.302014+00:00"
+    "updated_at": "2026-10-02T13:52:27.739550+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -105,7 +143,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.302014+00:00"
+    "updated_at": "2026-10-02T13:52:27.740471+00:00"
   },
   {
     "name": "api-rate-limiting-and-throttling",
@@ -144,7 +182,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.303012+00:00"
+    "updated_at": "2026-10-02T13:52:27.740471+00:00"
   },
   {
     "name": "fastapi-async-api-design",
@@ -184,7 +222,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.303012+00:00"
+    "updated_at": "2026-10-02T13:52:27.741467+00:00"
   },
   {
     "name": "polars-high-throughput-data-pipeline",
@@ -222,7 +260,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.304013+00:00"
+    "updated_at": "2026-10-02T13:52:27.741467+00:00"
   },
   {
     "name": "ab-test-experiment-design",
@@ -260,7 +298,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.304013+00:00"
+    "updated_at": "2026-10-02T13:52:27.742469+00:00"
   },
   {
     "name": "database-migration-safety",
@@ -299,7 +337,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.304013+00:00"
+    "updated_at": "2026-10-02T13:52:27.742469+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -335,7 +373,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.305176+00:00"
+    "updated_at": "2026-10-02T13:52:27.743526+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -372,7 +410,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.305176+00:00"
+    "updated_at": "2026-10-02T13:52:27.743526+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -409,7 +447,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.305176+00:00"
+    "updated_at": "2026-10-02T13:52:27.743526+00:00"
   },
   {
     "name": "wcag-accessibility-audit",
@@ -449,7 +487,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.306176+00:00"
+    "updated_at": "2026-10-02T13:52:27.744501+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -487,7 +525,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.307176+00:00"
+    "updated_at": "2026-10-02T13:52:27.744501+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -525,7 +563,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.307176+00:00"
+    "updated_at": "2026-10-02T13:52:27.744501+00:00"
   },
   {
     "name": "skill-creator",
@@ -561,7 +599,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.308173+00:00"
+    "updated_at": "2026-10-02T13:52:27.745688+00:00"
   },
   {
     "name": "prompt-injection-defense",
@@ -596,7 +634,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.309176+00:00"
+    "updated_at": "2026-10-02T13:52:27.745688+00:00"
   },
   {
     "name": "oauth2-jwt-authentication-flow",
@@ -638,7 +676,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.309176+00:00"
+    "updated_at": "2026-10-02T13:52:27.745688+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -674,7 +712,7 @@
     "has_evals": true,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.310178+00:00"
+    "updated_at": "2026-10-02T13:52:27.746649+00:00"
   },
   {
     "name": "secret-leak-detection-and-remediation",
@@ -712,7 +750,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.310178+00:00"
+    "updated_at": "2026-10-02T13:52:27.746649+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -750,7 +788,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.311173+00:00"
+    "updated_at": "2026-10-02T13:52:27.747731+00:00"
   },
   {
     "name": "debugging-and-error-recovery",
@@ -788,7 +826,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.311173+00:00"
+    "updated_at": "2026-10-02T13:52:27.747731+00:00"
   },
   {
     "name": "code-simplification",
@@ -823,7 +861,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.312190+00:00"
+    "updated_at": "2026-10-02T13:52:27.747731+00:00"
   },
   {
     "name": "playwright-e2e-testing",
@@ -861,6 +899,6 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:23.312190+00:00"
+    "updated_at": "2026-10-02T13:52:27.748689+00:00"
   }
 ]

@@ -1,9 +1,10 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 23 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 24 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
+| [ai-agent-benchmark-evaluation](skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) | `ai-engineering` | `agents` | `benchmarking` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases. |
 | [agent-project-memory](skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) | `ai-engineering` | `agents` | `memory` | `advanced` | `stable` | Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects. |
 | [context-window-engineering](skills/ai-engineering/context/optimization/context-window-engineering/SKILL.md) | `ai-engineering` | `context` | `optimization` | `advanced` | `stable` | Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs. |
 | [rag-retrieval-evaluation](skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `ai-engineering` | `rag` | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |

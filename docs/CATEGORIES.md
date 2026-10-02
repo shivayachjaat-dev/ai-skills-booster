@@ -1,12 +1,14 @@
 # Skill Categories & Directory Map
 
-Master navigation for **23** skills across structured domains, categories, and subcategories.
+Master navigation for **24** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (3 skills)
+## Ai Engineering (4 skills)
 
-### Agents (1 skills)
+### Agents (2 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
+- **Benchmarking** (1):
+  - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - **Memory** (1):
   - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 
