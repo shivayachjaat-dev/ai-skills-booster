@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 775 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 776 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -584,6 +584,7 @@
 | [defuddle](skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) | `frontend` | `web-architecture` | `defuddle` | `advanced` | `stable` | Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. |
 | [duotone-design](skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) | `frontend` | `web-architecture` | `duotone_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics. |
 | [flat-design](skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) | `frontend` | `web-architecture` | `flat_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors. |
+| [flat-design-2](skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) | `frontend` | `web-architecture` | `flat_design_2` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability. |
 | [production-audit](skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `frontend` | `web-architecture` | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `frontend` | `web-architecture` | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `frontend` | `web-architecture` | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |

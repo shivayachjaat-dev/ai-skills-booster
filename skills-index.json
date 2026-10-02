@@ -13171,6 +13171,28 @@
     "maturity": "stable"
   },
   {
+    "name": "flat-design-2",
+    "path": "skills/frontend/web-architecture/flat_design_2/flat-design-2",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "flat_design_2",
+    "description": "Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "flat",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Flat Design 2",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

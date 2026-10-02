@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **775** skills across structured domains, categories, and subcategories.
+Master navigation for **776** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (271 skills)
 
@@ -1299,7 +1299,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (111 skills)
+## Frontend (112 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1509,7 +1509,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (29 skills)
+### Web Architecture (30 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1561,6 +1561,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [duotone-design](../skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.
 - **Flat_Design** (1):
   - [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
+- **Flat_Design_2** (1):
+  - [flat-design-2](../skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.
 - **Production_Audit** (1):
   - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - **Security_Audit** (1):
