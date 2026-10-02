@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,406** skills across structured domains, categories, and subcategories.
+Master navigation for **1,407** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (477 skills)
+## Ai Engineering (478 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -214,7 +214,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (8 skills)
+### Llm Ops (9 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -233,6 +233,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [langfuse](../skills/ai-engineering/llm-ops/langfuse/langfuse/SKILL.md) — Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform.
 - **Llm_App_Patterns** (1):
   - [llm-app-patterns](../skills/ai-engineering/llm-ops/llm_app_patterns/llm-app-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm app patterns. Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries.
+- **Llm_App_Security** (1):
+  - [llm-app-security](../skills/ai-engineering/llm-ops/llm_app_security/llm-app-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm app security. Secure LLM-powered applications with input validation, output controls,
 
 ### Models (350 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)

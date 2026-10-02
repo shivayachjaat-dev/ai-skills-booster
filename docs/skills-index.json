@@ -2129,6 +2129,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-app-security",
+    "path": "skills/ai-engineering/llm-ops/llm_app_security/llm-app-security",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llm_app_security",
+    "description": "Use this skill to design, implement, and operate production workflows for llm app security. Secure LLM-powered applications with input validation, output controls,",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm App Security",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

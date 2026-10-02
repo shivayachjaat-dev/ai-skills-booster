@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,406 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,407 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -97,6 +97,7 @@
 | [hugging-face-evaluation](skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) | `ai-engineering` | `llm-ops` | `hugging_face_evaluat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ... |
 | [langfuse](skills/ai-engineering/llm-ops/langfuse/langfuse/SKILL.md) | `ai-engineering` | `llm-ops` | `langfuse` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform. |
 | [llm-app-patterns](skills/ai-engineering/llm-ops/llm_app_patterns/llm-app-patterns/SKILL.md) | `ai-engineering` | `llm-ops` | `llm_app_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm app patterns. Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries. |
+| [llm-app-security](skills/ai-engineering/llm-ops/llm_app_security/llm-app-security/SKILL.md) | `ai-engineering` | `llm-ops` | `llm_app_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm app security. Secure LLM-powered applications with input validation, output controls, |
 | [agentfolio](skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) | `ai-engineering` | `models` | `agentfolio` | `advanced` | `stable` | Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory. |
 | [ai-agent-development](skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) | `ai-engineering` | `models` | `ai_agent_development` | `advanced` | `stable` | Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. |
 | [ai-analyzer](skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) | `ai-engineering` | `models` | `ai_analyzer` | `advanced` | `stable` | Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |

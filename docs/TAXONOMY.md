@@ -106,7 +106,8 @@ AI_Skills_Booster/
 │   │   ├── geo_llmstxt/ (1 skills)
 │   │   ├── hugging_face_evaluat/ (1 skills)
 │   │   ├── langfuse/ (1 skills)
-│   │   └── llm_app_patterns/ (1 skills)
+│   │   ├── llm_app_patterns/ (1 skills)
+│   │   └── llm_app_security/ (1 skills)
 │   ├── models/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)
