@@ -23,6 +23,8 @@ AI_Skills_Booster/
 │   └── kubernetes/
 │   │   └── troubleshooting/ (1 skills)
 ├── frontend/
+│   ├── accessibility/
+│   │   └── wcag/ (1 skills)
 │   └── react/
 │   │   └── architecture/ (1 skills)
 ├── mcp/

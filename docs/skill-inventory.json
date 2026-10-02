@@ -33,7 +33,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.067832+00:00"
+    "updated_at": "2026-10-02T13:51:08.451216+00:00"
   },
   {
     "name": "context-window-engineering",
@@ -68,7 +68,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.068747+00:00"
+    "updated_at": "2026-10-02T13:51:08.452189+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -105,7 +105,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.068747+00:00"
+    "updated_at": "2026-10-02T13:51:08.452189+00:00"
   },
   {
     "name": "polars-high-throughput-data-pipeline",
@@ -143,7 +143,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.068747+00:00"
+    "updated_at": "2026-10-02T13:51:08.452189+00:00"
   },
   {
     "name": "ab-test-experiment-design",
@@ -181,7 +181,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.069745+00:00"
+    "updated_at": "2026-10-02T13:51:08.453188+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -217,7 +217,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.069745+00:00"
+    "updated_at": "2026-10-02T13:51:08.453188+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -254,7 +254,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.069745+00:00"
+    "updated_at": "2026-10-02T13:51:08.453188+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -291,7 +291,47 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.071250+00:00"
+    "updated_at": "2026-10-02T13:51:08.454188+00:00"
+  },
+  {
+    "name": "wcag-accessibility-audit",
+    "slug": "wcag-accessibility-audit",
+    "path": "skills/frontend/accessibility/wcag/wcag-accessibility-audit",
+    "domain": "frontend",
+    "category": "accessibility",
+    "subcategory": "wcag",
+    "description": "Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "a11y",
+      "frontend",
+      "axe-core",
+      "html",
+      "inclusive-design"
+    ],
+    "technologies": [
+      "HTML",
+      "ARIA",
+      "axe-core",
+      "Playwright",
+      "CSS"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "axe-core",
+      "playwright",
+      "npm"
+    ],
+    "dependencies": [
+      "@axe-core/playwright"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:51:08.454188+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -329,7 +369,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.071250+00:00"
+    "updated_at": "2026-10-02T13:51:08.454188+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -367,7 +407,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.071831+00:00"
+    "updated_at": "2026-10-02T13:51:08.455320+00:00"
   },
   {
     "name": "skill-creator",
@@ -403,7 +443,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.071831+00:00"
+    "updated_at": "2026-10-02T13:51:08.455320+00:00"
   },
   {
     "name": "prompt-injection-defense",
@@ -438,7 +478,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.072837+00:00"
+    "updated_at": "2026-10-02T13:51:08.456348+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -474,7 +514,7 @@
     "has_evals": true,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.072837+00:00"
+    "updated_at": "2026-10-02T13:51:08.456348+00:00"
   },
   {
     "name": "secret-leak-detection-and-remediation",
@@ -512,7 +552,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.072837+00:00"
+    "updated_at": "2026-10-02T13:51:08.456348+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -550,7 +590,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.073836+00:00"
+    "updated_at": "2026-10-02T13:51:08.457320+00:00"
   },
   {
     "name": "debugging-and-error-recovery",
@@ -588,7 +628,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.073836+00:00"
+    "updated_at": "2026-10-02T13:51:08.459323+00:00"
   },
   {
     "name": "code-simplification",
@@ -623,7 +663,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.075009+00:00"
+    "updated_at": "2026-10-02T13:51:08.460323+00:00"
   },
   {
     "name": "playwright-e2e-testing",
@@ -661,6 +701,6 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:51:04.076011+00:00"
+    "updated_at": "2026-10-02T13:51:08.460323+00:00"
   }
 ]

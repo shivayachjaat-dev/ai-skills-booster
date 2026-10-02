@@ -191,6 +191,32 @@
     "maturity": "stable"
   },
   {
+    "name": "wcag-accessibility-audit",
+    "path": "skills/frontend/accessibility/wcag/wcag-accessibility-audit",
+    "domain": "frontend",
+    "category": "accessibility",
+    "subcategory": "wcag",
+    "description": "Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "a11y",
+      "frontend",
+      "axe-core",
+      "html",
+      "inclusive-design"
+    ],
+    "technologies": [
+      "HTML",
+      "ARIA",
+      "axe-core",
+      "Playwright",
+      "CSS"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "react-component-architecture",
     "path": "skills/frontend/react/architecture/react-component-architecture",
     "domain": "frontend",
