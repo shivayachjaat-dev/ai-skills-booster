@@ -10607,6 +10607,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cc-skill-continuous-learning",
+    "path": "skills/software-engineering/architecture/patterns/cc-skill-continuous-learning",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to turn a completed debugging session or repeated user correction into a small, evidence-backed procedure. Use for explicit requests to capture reusable lessons; does not automatically extract or save memories.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "cc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cc Skill Continuous Learning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

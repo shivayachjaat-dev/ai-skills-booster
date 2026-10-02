@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **23 skills** available in this category.
+> **24 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -27,3 +27,4 @@
 | [c4-component](../../skills/software-engineering/architecture/patterns/c4-component/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships. |
 | [c4-context](../../skills/software-engineering/architecture/patterns/c4-context/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies. |
 | [canvas-design](../../skills/software-engineering/architecture/patterns/canvas-design/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to these are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files. |
+| [cc-skill-continuous-learning](../../skills/software-engineering/architecture/patterns/cc-skill-continuous-learning/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to turn a completed debugging session or repeated user correction into a small, evidence-backed procedure. Use for explicit requests to capture reusable lessons; does not automatically extract or save memories. |
