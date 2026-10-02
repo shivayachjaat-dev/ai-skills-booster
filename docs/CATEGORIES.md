@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **460** skills across structured domains, categories, and subcategories.
+Master navigation for **461** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (155 skills)
+## Ai Engineering (156 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -120,7 +120,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (99 skills)
+### Models (100 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -310,6 +310,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [buywhere-product-catalog](../skills/ai-engineering/models/buywhere_product_cat/buywhere-product-catalog/SKILL.md) — Use this skill to use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents.
 - **C4_Container** (1):
   - [c4-container](../skills/ai-engineering/models/c4_container/c4-container/SKILL.md) — Use this skill to expert C4 Container-level documentation specialist.
+- **Cal_Com_Automation** (1):
+  - [cal-com-automation](../skills/ai-engineering/models/cal_com_automation/cal-com-automation/SKILL.md) — Use this skill to automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
