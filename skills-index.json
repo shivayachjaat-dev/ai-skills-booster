@@ -13530,6 +13530,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lemmaly",
+    "path": "skills/data-analytics/data-pipelines/lemmaly/lemmaly",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "lemmaly",
+    "description": "Use this skill to design, implement, and operate production workflows for lemmaly. Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "lemmaly",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lemmaly",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

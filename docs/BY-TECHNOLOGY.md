@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1199 skills)
+## Bash (1200 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1618,6 +1618,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [infinity](../skills/data-analytics/data-pipelines/infinity/infinity/SKILL.md) — Use this skill to design, implement, and operate production workflows for infinity. Enforces a strict input boundary protocol (detect, classify, filter, verify) to ensure untrusted data never reaches business logic raw.
 - [ingest-youtube](../skills/data-analytics/data-pipelines/ingest_youtube/ingest-youtube/SKILL.md) — Use this skill to design, implement, and operate production workflows for ingest youtube. Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs.
 - [it-manager-pro](../skills/data-analytics/data-pipelines/it_manager_pro/it-manager-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for it manager pro. Elite IT Management Advisor specializing in data-driven strategy, executive communication, and human-centric leadership for the 2026 digital era.
+- [lemmaly](../skills/data-analytics/data-pipelines/lemmaly/lemmaly/SKILL.md) — Use this skill to design, implement, and operate production workflows for lemmaly. Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.
 - [chatexport-need-miner](../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) — Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
 - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
@@ -6805,6 +6806,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [leiloeiro-risco](../skills/ai-engineering/models/leiloeiro_risco/leiloeiro-risco/SKILL.md) — Use this skill to design, implement, and operate production workflows for leiloeiro risco. Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais, stress test 4 cenarios e ROI ponderado por risco.
 
+## Lemmaly (1 skills)
+
+- [lemmaly](../skills/data-analytics/data-pipelines/lemmaly/lemmaly/SKILL.md) — Use this skill to design, implement, and operate production workflows for lemmaly. Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.
+
 ## Lighthouse (1 skills)
 
 - [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
@@ -7351,7 +7356,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1302 skills)
+## Python (1303 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7946,6 +7951,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [infinity](../skills/data-analytics/data-pipelines/infinity/infinity/SKILL.md) — Use this skill to design, implement, and operate production workflows for infinity. Enforces a strict input boundary protocol (detect, classify, filter, verify) to ensure untrusted data never reaches business logic raw.
 - [ingest-youtube](../skills/data-analytics/data-pipelines/ingest_youtube/ingest-youtube/SKILL.md) — Use this skill to design, implement, and operate production workflows for ingest youtube. Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs.
 - [it-manager-pro](../skills/data-analytics/data-pipelines/it_manager_pro/it-manager-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for it manager pro. Elite IT Management Advisor specializing in data-driven strategy, executive communication, and human-centric leadership for the 2026 digital era.
+- [lemmaly](../skills/data-analytics/data-pipelines/lemmaly/lemmaly/SKILL.md) — Use this skill to design, implement, and operate production workflows for lemmaly. Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 - [airtable-api-data-sync-and-webhook-automation](../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) — Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.

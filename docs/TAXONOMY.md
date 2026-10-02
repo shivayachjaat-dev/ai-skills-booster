@@ -645,6 +645,7 @@ AI_Skills_Booster/
 │   │   ├── infinity/ (1 skills)
 │   │   ├── ingest_youtube/ (1 skills)
 │   │   ├── it_manager_pro/ (1 skills)
+│   │   ├── lemmaly/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
