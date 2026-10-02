@@ -7695,6 +7695,28 @@
     "maturity": "stable"
   },
   {
+    "name": "global-chat-agent-discovery",
+    "path": "skills/ai-engineering/models/global_chat_agent_di/global-chat-agent-discovery",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "global_chat_agent_di",
+    "description": "Use this skill to design, implement, and operate production workflows for global chat agent discovery. Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "global",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Global Chat Agent Discovery",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

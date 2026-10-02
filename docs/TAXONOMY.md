@@ -352,6 +352,7 @@ AI_Skills_Booster/
 │   │   ├── git_commit_message/ (1 skills)
 │   │   ├── github_actions_debug/ (1 skills)
 │   │   ├── github_workflow_auto/ (1 skills)
+│   │   ├── global_chat_agent_di/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
