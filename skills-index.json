@@ -1734,6 +1734,32 @@
     "maturity": "stable"
   },
   {
+    "name": "high-converting-ad-creative-design",
+    "path": "skills/marketing/creative/ad-creative/high-converting-ad-creative-design",
+    "domain": "marketing",
+    "category": "creative",
+    "subcategory": "ad-creative",
+    "description": "Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.",
+    "tags": [
+      "ad-creative",
+      "marketing",
+      "copywriting",
+      "ab-testing",
+      "google-ads",
+      "meta-ads",
+      "cro"
+    ],
+    "technologies": [
+      "Python",
+      "Pydantic",
+      "Meta Ads API",
+      "Google Ads API",
+      "Copywriting Frameworks"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "cross-channel-ad-campaign-analytics",
     "path": "skills/marketing/paid-advertising/campaign-analytics/cross-channel-ad-campaign-analytics",
     "domain": "marketing",

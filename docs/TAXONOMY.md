@@ -132,6 +132,8 @@ AI_Skills_Booster/
 │   └── state-management/
 │   │   └── zustand/ (1 skills)
 ├── marketing/
+│   ├── creative/
+│   │   └── ad-creative/ (1 skills)
 │   └── paid-advertising/
 │   │   └── campaign-analytics/ (1 skills)
 ├── mcp/

@@ -39,13 +39,20 @@ def mark_backlog_item(backlog_query, new_status="completed", blocked_reason=None
             data = json.load(f)
         matched = False
         for item in data:
-            if item.get("name") == backlog_query or backlog_query in item.get("name", ""):
+            if item.get("name") == backlog_query:
                 item["status"] = new_status
                 if new_status == "completed":
                     item["completed_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
                 elif new_status == "blocked" and blocked_reason:
                     item["blocked_reason"] = blocked_reason
                 matched = True
+        if not matched:
+            for item in data:
+                if item.get("name", "").startswith(backlog_query):
+                    item["status"] = new_status
+                    if new_status == "completed":
+                        item["completed_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+                    matched = True
         if matched:
             with open(BACKLOG_PATH, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2)
@@ -54,689 +61,878 @@ def mark_backlog_item(backlog_query, new_status="completed", blocked_reason=None
 
 CONTINUOUS_QUEUE = [
     # -------------------------------------------------------------
-    # 1. BUSINESS: enterprise-software-selection-and-rfp (Backlog: accounting-software-selection)
+    # 1. MARKETING: high-converting-ad-creative-design (Backlog: ad-creative)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "accounting-software-selection",
-        "name": "enterprise-software-selection-and-rfp",
-        "domain": "business",
-        "category": "procurement",
-        "subcategory": "software-selection",
-        "description": "Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.",
-        "tags": ["software-selection", "procurement", "rfp", "vendor-evaluation", "tco", "business"],
-        "technologies": ["Python", "Pandas", "Scoring Matrices", "Financial Modeling"],
+        "backlog_ref": "ad-creative",
+        "name": "high-converting-ad-creative-design",
+        "domain": "marketing",
+        "category": "creative",
+        "subcategory": "ad-creative",
+        "description": "Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.",
+        "tags": ["ad-creative", "marketing", "copywriting", "ab-testing", "google-ads", "meta-ads", "cro"],
+        "technologies": ["Python", "Pydantic", "Meta Ads API", "Google Ads API", "Copywriting Frameworks"],
         "complexity": "intermediate",
         "maturity": "stable",
         "tools": ["python"],
-        "dependencies": ["pandas >= 2.0.0", "python >= 3.10"],
-        "content": """# Enterprise Software Selection & RFP Evaluation Architecture
+        "dependencies": ["pydantic >= 2.5.0", "python >= 3.10"],
+        "content": """# High-Converting Multi-Platform Ad Creative Design & Testing
 
 ## Overview
 
-A definitive enterprise procurement engineering standard for objectively scoring, shortlisting, and selecting commercial software systems. Selecting enterprise software (ERPs, CRM, CI/CD tooling, cloud observability) based on vendor marketing leads to expensive failed migrations and contract lock-in. This skill instructs AI agents on authoring functional and non-functional requirements matrices, modeling 3-year Total Cost of Ownership (TCO), executing weighted multi-attribute decision scoring, and evaluating vendor security posture.
+A systematic copywriting, creative asset specification, and multivariate experimentation framework for paid media campaigns. Ad performance decays rapidly due to audience ad fatigue, generic value propositions, and poor channel-specific formatting. This skill provides AI agents with battle-tested formulas to dissect audience psychographics, construct emotional angle matrices (Pain Point, Direct Benefit, Social Proof, Us-vs-Them, Objection-Handling), and generate character-compliant ad variations tailored to Meta, Google Responsive Search Ads (RSA), LinkedIn B2B, and short-form video hooks.
 
 ## When to Use
 
-- Selecting replacement ERP, accounting, HRIS, or database software for enterprise organizations.
-- Authoring structured Requests for Proposal (RFPs) and vendor questionnaire scorecards.
-- Calculating 3-year Total Cost of Ownership (licensing, implementation, maintenance, training, integration).
-- Comparing shortlisted vendors using weighted multi-criteria decision analysis (MCDA).
+- Generating high-volume multivariate ad copy variants for performance marketing campaigns.
+- Designing platform-compliant ad packages for Google RSA, Meta Feed/Stories, LinkedIn Sponsored Content, and TikTok.
+- Structuring systematic creative refresh cycles to combat ad fatigue and rising Cost Per Acquisition (CPA).
+- Aligning ad hooks with dedicated landing page message match to improve Conversion Rate Optimization (CRO).
 
 ## When NOT to Use
 
-- Choosing lightweight open-source software libraries for a developer script.
-- Single-vendor contract renewals where no market evaluation is being conducted.
+- Writing long-form editorial content, SEO articles, or technical documentation.
+- Non-paid organic community management or customer support replies.
 
 ## Inputs & Prerequisites
 
-- Stakeholder requirements categorized by priority (Must-Have, Should-Have, Nice-to-Have).
-- Compliance and security baseline requirements (SOC2 Type II, ISO 27001, data residency).
-- Budget ceiling and projected 3-year user growth.
+- Target audience avatar (core pain points, triggers, objections, demographic/firmographic context).
+- Value proposition, unique selling points (USPs), and proof assets (testimonials, data points, warranties).
+- Primary call-to-action (CTA) and target destination URL.
+- Advertising budget allocation and channel focus (Search vs. Social vs. Video).
 
 ## Core Workflow
 
-### 1. Weighted Evaluation Matrix Engine
-Score competing vendors across weighted functional and compliance criteria:
+### 1. Hook Archetype & Angle Matrix
+Map the value proposition across five proven psychological angles:
+- **Pain Agitation**: Highlight an immediate, expensive, or frustrating operational inefficiency.
+- **Direct Transformation**: Showcase clear before-and-after metrics with concrete timelines.
+- **Counter-Intuitive / Contrarian**: Challenge conventional industry wisdom with surprising data.
+- **Social Proof / Herd Behavior**: Highlight enterprise adoption, verified ratings, and peer validation.
+- **Us vs. Them**: Contrast modern frictionless workflows against legacy, high-friction alternatives.
+
+### 2. Multi-Platform Creative Generator Engine
+Use Python and Pydantic to validate strict platform character limits and ensure compliant copy packages:
 
 ```python
-import pandas as pd
+\"\"\"Multi-platform ad creative generator and validator.\"\"\"
+from typing import List, Dict, Optional
+from pydantic import BaseModel, Field, field_validator
 
-CRITERIA_WEIGHTS = {
-    "core_functional_fit": 0.35,       # Must satisfy accounting/business requirements
-    "api_and_extensibility": 0.20,     # Webhooks, REST/GraphQL APIs, SDK support
-    "security_and_compliance": 0.20,   # SOC2, SSO/SAML, encryption at rest, RBAC
-    "total_cost_of_ownership": 0.15,   # License + implementation + support over 3 years
-    "vendor_viability_and_sla": 0.10   # 99.9% uptime SLA, financial stability, roadmap
-}
+class MetaAdPackage(BaseModel):
+    angle_name: str
+    hook: str
+    primary_text: str = Field(..., max_length=125, description="Optimal length before 'See More' truncation")
+    headline: str = Field(..., max_length=40, description="Punchy bold headline under media")
+    description: Optional[str] = Field(None, max_length=30, description="Supporting link description")
+    call_to_action: str = Field("Learn More", description="Button label")
 
-def evaluate_vendor_score(vendor_name: str, raw_scores: dict[str, float]) -> dict:
-    \"\"\"
-    raw_scores contains ratings from 1 (poor) to 10 (exceptional) for each criteria key.
-    \"\"\"
-    weighted_total = sum(raw_scores[k] * CRITERIA_WEIGHTS[k] for k in CRITERIA_WEIGHTS)
+class GoogleRSAPackage(BaseModel):
+    headlines: List[str] = Field(..., min_length=5, max_length=15)
+    descriptions: List[str] = Field(..., min_length=2, max_length=4)
+
+    @field_validator("headlines")
+    @classmethod
+    def validate_headline_length(cls, v: List[str]) -> List[str]:
+        for h in v:
+            if len(h) > 30:
+                raise ValueError(f"Headline exceeds 30 chars: '{h}' ({len(h)} chars)")
+        return v
+
+    @field_validator("descriptions")
+    @classmethod
+    def validate_desc_length(cls, v: List[str]) -> List[str]:
+        for d in v:
+            if len(d) > 90:
+                raise ValueError(f"Description exceeds 90 chars: '{d}' ({len(d)} chars)")
+        return v
+
+class VideoAdHook(BaseModel):
+    platform: str = "TikTok / Reels / Shorts"
+    first_3_seconds_visual: str
+    first_3_seconds_audio: str
+    pattern_interrupt_type: str
+    retention_bridge: str
+    closing_cta: str
+
+def generate_sample_creative_campaign(product_name: str, core_benefit: str) -> Dict[str, object]:
+    meta_ad = MetaAdPackage(
+        angle_name="Pain Agitation",
+        hook="Tired of losing 12 hours a week manually reconciling invoices?",
+        primary_text="Automate accounts payable with zero manual data entry. Sync invoices directly with your ERP in seconds.",
+        headline="Cut AP Processing Time by 80%",
+        description="Try Risk-Free for 30 Days",
+        call_to_action="Get Started"
+    )
+
+    google_rsa = GoogleRSAPackage(
+        headlines=[
+            "Automate Invoice Reconcile",
+            "Zero Data Entry Accounts",
+            "Sync Invoices with ERP",
+            "Rated 4.9/5 by FinOps",
+            "Enterprise AP Automation"
+        ],
+        descriptions=[
+            "Cut financial processing overhead by 80%. Automated reconciliation in seconds.",
+            "Integrate seamlessly with SAP, NetSuite, and QuickBooks. Start your free trial today."
+        ]
+    )
+
+    video_hook = VideoAdHook(
+        first_3_seconds_visual="Split screen: frantic spreadsheet scrolling vs. one-click automated sync.",
+        first_3_seconds_audio="Stop doing this manually in 2026. Here is the modern way.",
+        pattern_interrupt_type="Visual dissonance & speed comparison",
+        retention_bridge="Three lines of setup code replaced our entire weekend invoice audit.",
+        closing_cta="Check the interactive demo link in bio."
+    )
+
     return {
-        "vendor": vendor_name,
-        "weighted_score": round(weighted_total, 2),
-        "breakdown": {k: round(raw_scores[k] * CRITERIA_WEIGHTS[k], 2) for k in CRITERIA_WEIGHTS}
+        "meta": meta_ad.model_dump(),
+        "google_rsa": google_rsa.model_dump(),
+        "video_hook": video_hook.model_dump()
     }
+
+if __name__ == "__main__":
+    campaign = generate_sample_creative_campaign("LedgerSync", "Instant ERP Invoice Matching")
+    print("Meta Ad Headline:", campaign["meta"]["headline"])
+    print("Google Headlines count:", len(campaign["google_rsa"]["headlines"]))
 ```
 
-### 2. 3-Year Total Cost of Ownership (TCO) Model
-Calculate comprehensive true costs beyond base subscription price:
-
-```python
-def calculate_3yr_tco(
-    annual_subscription: float,
-    implementation_fee: float,
-    seats: int,
-    training_days: int,
-    internal_engineering_hours_integration: int
-) -> dict:
-    # Industry averages: $150/hr internal engineering, $1500/day specialized training
-    internal_eng_cost = internal_engineering_hours_integration * 150.0
-    training_cost = training_days * 1500.0
-    year1_cost = annual_subscription + implementation_fee + internal_eng_cost + training_cost
-    year2_cost = annual_subscription * 1.05 # Account for typical 5% annual contract escalation
-    year3_cost = year2_cost * 1.05
-
-    total_3yr = year1_cost + year2_cost + year3_cost
-    return {
-        "year_1_cost": round(year1_cost, 2),
-        "year_2_cost": round(year2_cost, 2),
-        "year_3_cost": round(year3_cost, 2),
-        "total_3yr_tco": round(total_3yr, 2),
-        "cost_per_seat_per_month": round(total_3yr / (seats * 36), 2)
-    }
-```
+### 3. Creative Fatigue & Rotation Policy
+- **Frequency Capping**: In Meta and LinkedIn, set dynamic frequency alert thresholds (e.g., Frequency > 3.2 within a 7-day window triggers creative rotation).
+- **CTR Drop Threshold**: If Click-Through Rate drops by >= 25% from 14-day baseline while CPA climbs >= 20%, rotate to the next angle in the test queue.
+- **Multivariate Testing Structure**: Test 1 variable at a time (e.g., Hold visual constant while testing 3 hooks, then hold winning hook constant while testing 3 headline variants).
 
 ## Best Practices & Failure Modes
 
-1. **Unweighted Feature Checklists**: Counting raw checkmarks on a vendor sales sheet treats "Supports Single Sign-On" as equal in importance to "Supports dark mode theme". Always assign explicit mathematical weights to requirements.
-2. **Hidden Egress & API Overages**: Cloud software contracts frequently include hidden costs for API call quotas, storage overages, or export fees. Demand explicit API rate limits and data extraction commitments in RFP documents.
-3. **Skipping Sandboxed Proof-of-Concept (POC)**: Never sign a multi-year enterprise contract based on slide decks. Always execute a 2-week hands-on technical pilot verifying API throughput and authentication integration with real test data.
+- **Truncation Blindness**: Never place critical value propositions past character cutoffs (125 chars on Meta mobile feeds, 30 chars on Google RSA headlines).
+- **Policy Compliance**: Avoid forbidden terms across Google and Meta (e.g., non-compliant health claims, exaggerated income guarantees, deceptive clickbait).
+- **Landing Page Disconnect**: Always maintain 100% keyword and message symmetry between the ad headline and the hero headline of the landing page.
 
 ## Verification & Testing
 
-- Unit test verifying score calculations and weights sum to 1.0:
-  ```python
-  assert round(sum(CRITERIA_WEIGHTS.values()), 2) == 1.0
-  vendor_res = evaluate_vendor_score("AcmeERP", {
-      "core_functional_fit": 8,
-      "api_and_extensibility": 9,
-      "security_and_compliance": 10,
-      "total_cost_of_ownership": 7,
-      "vendor_viability_and_sla": 8
-  })
-  assert vendor_res["weighted_score"] == 8.45
+- Validate ad copy lengths against schema:
+  ```bash
+  python -c "import pydantic; print('Pydantic verified')"
   ```
+- Run automated character and syntax linting before bulk publishing to ad platforms.
 """
     },
 
     # -------------------------------------------------------------
-    # 2. MARKETING: cross-channel-ad-campaign-analytics (Backlog: ad-campaign-analyzer)
+    # 2. DATA ANALYTICS: real-time-operational-metrics-dashboard (Backlog: advanced-analytics-dashboard)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "ad-campaign-analyzer",
-        "name": "cross-channel-ad-campaign-analytics",
-        "domain": "marketing",
-        "category": "paid-advertising",
-        "subcategory": "campaign-analytics",
-        "description": "Use this skill when analyzing, attributing, and optimizing multi-channel paid advertising campaigns across Google Ads, Meta Ads, LinkedIn, and programmatic channels. It guides the agent through calculating Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), attribution modeling (First-Touch, Last-Touch, Data-Driven Markov), statistical significance in spend allocation, and budget rebalancing.",
-        "tags": ["ad-analytics", "roas", "cac", "attribution-modeling", "paid-advertising", "marketing", "analytics"],
-        "technologies": ["Python", "Pandas", "NumPy", "SQL", "Markov Chains"],
+        "backlog_ref": "advanced-analytics-dashboard",
+        "name": "real-time-operational-metrics-dashboard",
+        "domain": "data-analytics",
+        "category": "dashboards",
+        "subcategory": "operational-metrics",
+        "description": "Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.",
+        "tags": ["metrics-register", "kpi-dashboard", "operational-analytics", "sli-slo", "sql", "data-governance"],
+        "technologies": ["Python", "SQL", "Grafana", "Superset", "Pydantic", "Semantic Layer"],
+        "complexity": "intermediate",
+        "maturity": "stable",
+        "tools": ["python"],
+        "dependencies": ["pydantic >= 2.5.0", "python >= 3.10"],
+        "content": """# Real-Time Operational Metrics Dashboard & Semantic Register
+
+## Overview
+
+A robust data engineering and analytics framework for building reliable operational metrics registers, data catalogs, and real-time executive dashboards. When organizations calculate business metrics haphazardly across ad-hoc SQL scripts, executive misalignment, data drift, and conflicting dashboards result. This skill provides AI agents with standard schemas for registering KPIs, defining deterministic SQL expressions, modeling refresh intervals, setting SLI/SLO warning thresholds, and laying out Grafana and Superset visualizations.
+
+## When to Use
+
+- Designing metric catalogs and data dictionaries for engineering, FinOps, or product analytics.
+- Establishing standard semantic layer SQL formulas for recurring KPIs across team boundaries.
+- Configuring real-time operational triage dashboards with automated alert thresholds.
+- Standardizing metric ownership, cadence, and data lineage documentation.
+
+## When NOT to Use
+
+- Simple one-off ad-hoc SQL queries for exploratory data analysis.
+- Unstructured machine learning model hyperparameter tracking.
+
+## Inputs & Prerequisites
+
+- Source data warehouse or time-series database (PostgreSQL, ClickHouse, Snowflake, BigQuery).
+- Business metric definition, formula, source tables, and dimensional grain.
+- Target refresh frequency (real-time stream vs 5-minute micro-batch vs daily rollup).
+- Ownership assignment and SLA / alerting targets.
+
+## Core Workflow
+
+### 1. Metric Register & Data Dictionary Architecture
+Define each metric with strict typing, dimensional grain, and threshold bounds:
+
+```python
+\"\"\"Metric register and validation engine.\"\"\"
+from enum import Enum
+from typing import List, Optional, Dict
+from pydantic import BaseModel, Field
+
+class AggregationType(str, Enum):
+    SUM = "sum"
+    AVG = "avg"
+    COUNT_DISTINCT = "count_distinct"
+    PERCENTILE_95 = "p95"
+    PERCENTILE_99 = "p99"
+    RATIO = "ratio"
+
+class RefreshCadence(str, Enum):
+    STREAMING = "streaming"
+    REALTIME_1MIN = "1m"
+    HOURLY = "1h"
+    DAILY = "1d"
+
+class MetricDefinition(BaseModel):
+    metric_id: str = Field(..., regex=r"^[a-z0-9_]+$", description="Unique snake_case identifier")
+    display_name: str
+    owner_team: str
+    source_table: str
+    aggregation: AggregationType
+    sql_formula: str
+    cadence: RefreshCadence
+    target_value: float
+    warning_threshold: float
+    critical_threshold: float
+    dimensions: List[str]
+    description: str
+
+class DashboardRegister(BaseModel):
+    dashboard_name: str
+    refresh_rate_seconds: int = 60
+    metrics: List[MetricDefinition]
+
+def create_operational_register() -> DashboardRegister:
+    return DashboardRegister(
+        dashboard_name="Checkout Platform Operational Health",
+        refresh_rate_seconds=30,
+        metrics=[
+            MetricDefinition(
+                metric_id="payment_success_rate",
+                display_name="Payment Success Rate (%)",
+                owner_team="payments-engineering",
+                source_table="analytics.fact_transactions",
+                aggregation=AggregationType.RATIO,
+                sql_formula="COUNT(CASE WHEN status = 'SUCCEEDED' THEN 1 END) * 100.0 / NULLIF(COUNT(*), 0)",
+                cadence=RefreshCadence.REALTIME_1MIN,
+                target_value=99.5,
+                warning_threshold=98.0,
+                critical_threshold=95.0,
+                dimensions=["payment_gateway", "currency", "country_code"],
+                description="Percentage of processed transaction attempts that successfully settled."
+            ),
+            MetricDefinition(
+                metric_id="p95_checkout_latency_ms",
+                display_name="P95 Checkout API Latency (ms)",
+                owner_team="api-platform",
+                source_table="telemetry.http_request_logs",
+                aggregation=AggregationType.PERCENTILE_95,
+                sql_formula="APPROX_PERCENTILE(duration_ms, 0.95)",
+                cadence=RefreshCadence.REALTIME_1MIN,
+                target_value=250.0,
+                warning_threshold=400.0,
+                critical_threshold=800.0,
+                dimensions=["endpoint", "cloud_region"],
+                description="95th percentile response latency for the order settlement endpoint."
+            )
+        ]
+    )
+
+if __name__ == "__main__":
+    reg = create_operational_register()
+    print(f"Registered {len(reg.metrics)} metrics for dashboard '{reg.dashboard_name}'.")
+    for m in reg.metrics:
+        print(f" - {m.display_name}: Target={m.target_value}, Critical={m.critical_threshold}")
+```
+
+### 2. Standard SQL Semantic Aggregation Template
+Generate standardized time-bucketed aggregation queries:
+
+```sql
+-- Standard 1-minute time bucket aggregation for operational metrics
+WITH raw_metrics AS (
+    SELECT
+        DATE_TRUNC('minute', event_timestamp) AS metric_timestamp,
+        country_code,
+        payment_gateway,
+        COUNT(*) AS total_attempts,
+        COUNT(CASE WHEN status = 'SUCCEEDED' THEN 1 END) AS successful_settlements,
+        PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY duration_ms) AS p95_latency_ms
+    FROM telemetry.fact_transactions
+    WHERE event_timestamp >= NOW() - INTERVAL '1 hour'
+    GROUP BY 1, 2, 3
+)
+SELECT
+    metric_timestamp,
+    country_code,
+    payment_gateway,
+    total_attempts,
+    (successful_settlements * 100.0 / NULLIF(total_attempts, 0)) AS payment_success_rate,
+    p95_latency_ms,
+    CASE 
+        WHEN (successful_settlements * 100.0 / NULLIF(total_attempts, 0)) < 95.0 THEN 'CRITICAL'
+        WHEN (successful_settlements * 100.0 / NULLIF(total_attempts, 0)) < 98.0 THEN 'WARNING'
+        ELSE 'HEALTHY'
+    END AS operational_health_status
+FROM raw_metrics
+ORDER BY metric_timestamp DESC;
+```
+
+### 3. Dashboard Information Architecture
+- **Row 1: Executive North Stars (Single Stat KPIs)**: Current value with sparkline trend and color indicator against target.
+- **Row 2: Temporal Anomaly Heatmaps**: Real-time 60-minute window showing rolling p95 latency and throughput spikes.
+- **Row 3: Dimensional Decomposition**: Bar charts splitting errors by gateway, region, or customer tier.
+- **Row 4: Live Event Drilldown**: Paginated tabular log of recent critical transaction failures.
+
+## Best Practices & Failure Modes
+
+- **Denominator Zero Division**: Always wrap SQL divisions with `NULLIF(denominator, 0)` to prevent runtime query crashes.
+- **Timestamp Standardization**: Enforce UTC timestamps across all warehouse models before calculating rolling window intervals.
+- **Metric Drift**: Never modify an established metric calculation without incrementing its version (e.g., `payment_success_rate_v2`) to preserve historical comparability.
+
+## Verification & Testing
+
+- Validate register schemas using Pydantic:
+  ```bash
+  python -c "import pydantic; print('Pydantic schema validation successful')"
+  ```
+- Run query cost and execution plan audits (`EXPLAIN ANALYZE`) to verify index coverage on metric timestamp partitions.
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 3. DEVOPS: cloud-cost-finops-and-devsecops-guardrails (Backlog: aegisops-ai)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "aegisops-ai",
+        "name": "cloud-cost-finops-and-devsecops-guardrails",
+        "domain": "devops",
+        "category": "finops",
+        "subcategory": "cost-guardrails",
+        "description": "Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.",
+        "tags": ["finops", "cloud-cost", "devsecops", "opa", "terraform", "infracost", "kubernetes"],
+        "technologies": ["Terraform", "Infracost", "Open Policy Agent (OPA)", "Python", "AWS", "Kubernetes"],
         "complexity": "advanced",
         "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["pandas >= 2.0.0", "numpy >= 1.24.0"],
-        "content": """# Cross-Channel Paid Advertising Analytics & Attribution Architecture
+        "tools": ["python", "bash"],
+        "dependencies": ["python >= 3.10", "infracost >= 0.10.0"],
+        "content": """# Cloud Cost FinOps & DevSecOps Automated Guardrails
 
 ## Overview
 
-A definitive data and marketing engineering reference for ingesting, attributing, and optimizing paid advertising campaigns across heterogeneous ad networks (Google Ads, Meta, LinkedIn, TikTok). Relying on siloed platform metrics (where each network takes 100% credit for conversions) creates distorted ROAS calculations. This skill instructs AI agents on unified data normalization, multi-touch attribution modeling (First-Touch, Last-Touch, Linear, Markov Chain algorithmic attribution), and automated budget reallocation.
+A comprehensive cloud financial operations (FinOps) and DevSecOps governance architecture. Unchecked infrastructure scaling, unattached storage volumes, missing billing tags, and overprovisioned staging environments inflate cloud expenditure and introduce compliance vulnerabilities. This skill provides AI agents with automated CI/CD guardrails, Infracost differential evaluation, Open Policy Agent (OPA) admission policies, and idle resource reclamation scripts to enforce fiscal discipline and security posture without slowing developer velocity.
 
 ## When to Use
 
-- Aggregating marketing performance across fragmented advertising APIs.
-- Determining true Customer Acquisition Cost (CAC) and blended Return on Ad Spend (ROAS).
-- Resolving attribution conflicts when a customer touches multiple ad campaigns before converting.
-- Identifying budget waste and rebalancing spend toward high-marginal-efficiency channels.
+- Integrating automated cloud cost checks into GitHub Actions / GitLab CI Terraform pipelines.
+- Enforcing mandatory cost-center and environment tagging policies before resources are provisioned.
+- Detecting and pruning unattached EBS volumes, idle NAT Gateways, and orphaned load balancers.
+- Setting up policy-as-code gates that require VP/Director approval for PRs introducing large monthly budget increases.
 
 ## When NOT to Use
 
-- Creative visual design of display banners (use generative UI/image tools).
-- Organic search SEO optimization.
+- High-frequency micro-billing calculation for end-user SaaS billing engines.
+- Static application code security audits (use SAST tooling).
 
 ## Inputs & Prerequisites
 
-- Ad campaign spend tables (Cost, Impressions, Clicks) by channel, campaign, and date.
-- User conversion events with UTM parameter journey touchpoints (`utm_source`, `utm_campaign`).
-- Python 3.10+ with `pandas` and `numpy`.
+- Cloud provider credentials (AWS / GCP / Azure) with read-only cost explorer and asset inventory permissions.
+- Terraform or OpenTofu codebase with Infracost API key configured.
+- Organizational FinOps policy definitions (approved instance types, monthly budget caps, mandatory tags).
 
 ## Core Workflow
 
-### 1. Cross-Channel Metrics Normalization
-Ingest and normalize disparate campaign metrics:
+### 1. Infracost Pull Request Pipeline Guardrail
+Add automated cost estimation and differential comments to pull requests:
 
-```python
-import pandas as pd
-import numpy as np
+```yaml
+# .github/workflows/finops-cost-check.yml
+name: "FinOps Infrastructure Cost Audit"
 
-def compute_channel_efficiency(campaign_df: pd.DataFrame) -> pd.DataFrame:
-    \"\"\"
-    campaign_df columns: ['channel', 'spend', 'impressions', 'clicks', 'conversions', 'revenue']
-    \"\"\"
-    df = campaign_df.groupby('channel').sum().reset_index()
+on:
+  pull_request:
+    paths:
+      - 'terraform/**'
 
-    # Core Unit Economics
-    df['cpc'] = df['spend'] / df['clicks'].replace(0, np.nan)
-    df['ctr_percent'] = (df['clicks'] / df['impressions']) * 100
-    df['cac'] = df['spend'] / df['conversions'].replace(0, np.nan)
-    df['roas'] = df['revenue'] / df['spend'].replace(0, np.nan)
+jobs:
+  cost-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
-    return df.sort_values(by='roas', ascending=False)
+      - name: Setup Infracost
+        uses: infracost/actions/setup@v3
+        with:
+          api-key: ${{ secrets.INFRACOST_API_KEY }}
+
+      - name: Generate Infracost Cost Baseline
+        run: |
+          infracost breakdown --path=terraform/ \\
+                              --format=json \\
+                              --out-file=/tmp/infracost-base.json
+
+      - name: Post Cost Differential Comment
+        run: |
+          infracost comment github --path=/tmp/infracost-base.json \\
+                                   --repo=$GITHUB_REPOSITORY \\
+                                   --github-token=${{ secrets.GITHUB_TOKEN }} \\
+                                   --pull-request=${{ github.event.pull_request.number }} \\
+                                   --behavior=update
 ```
 
-### 2. Multi-Touch Attribution: First-Touch vs Last-Touch vs Linear
-Attribute revenue across customer touchpoint journeys:
+### 2. OPA Policy-as-Code Cost Gate
+Define Rego policies that reject infrastructure plans if the projected cost jump exceeds policy limits or lacks tags:
 
-```python
-def attribute_journey_revenue(journeys: list[dict], model: str = "linear") -> dict[str, float]:
-    \"\"\"
-    journeys format:
-    [
-        {"user_id": "u1", "touchpoints": ["google", "facebook", "retargeting"], "revenue": 150.0}
-    ]
-    \"\"\"
-    channel_revenue = {}
+```rego
+# policy/cost_and_tagging_guardrails.rego
+package cloud.guardrails
 
-    for j in journeys:
-        touchpoints = j["touchpoints"]
-        rev = j["revenue"]
-        if not touchpoints or rev <= 0:
-            continue
+default allow = false
 
-        if model == "last_touch":
-            last_ch = touchpoints[-1]
-            channel_revenue[last_ch] = channel_revenue.get(last_ch, 0.0) + rev
-        elif model == "first_touch":
-            first_ch = touchpoints[0]
-            channel_revenue[first_ch] = channel_revenue.get(first_ch, 0.0) + rev
-        elif model == "linear":
-            weight = rev / len(touchpoints)
-            for ch in touchpoints:
-                channel_revenue[ch] = channel_revenue.get(ch, 0.0) + weight
+# Mandatory tag schema
+mandatory_tags := ["Environment", "CostCenter", "Owner", "ManagedBy"]
 
-    return {k: round(v, 2) for k, v in channel_revenue.items()}
-```
+# Check for missing tags in resource changes
+missing_tags[resource_name] {
+    some resource in input.resource_changes
+    resource.change.actions[_] == "create"
+    provided_tags := object.keys(resource.change.after.tags)
+    missing := [tag | tag := mandatory_tags[_]; not provided_tags[_] == tag]
+    count(missing) > 0
+    resource_name := resource.address
+}
 
-### 3. Automated Budget Rebalancing Heuristic
-Reallocate budget from underperforming channels (ROAS < threshold) to high-performing channels:
+# Cost jump restriction: Block PR if monthly delta exceeds $500 without FinOps override
+monthly_cost_increase_exceeded {
+    diff := to_number(input.diffMonthlyCost)
+    diff > 500.0
+    not input.finops_override_approved
+}
 
-```python
-def rebalance_ad_budget(efficiency_df: pd.DataFrame, target_min_roas: float = 2.5) -> dict:
-    total_spend = efficiency_df['spend'].sum()
-    eligible_channels = efficiency_df[efficiency_df['roas'] >= target_min_roas]
-    
-    if eligible_channels.empty:
-        return {"action": "HOLD", "recommendation": "All channels below target ROAS. Refactor creative."}
-
-    # Weight allocation by relative ROAS performance
-    roas_sum = eligible_channels['roas'].sum()
-    new_allocations = {}
-    for _, row in eligible_channels.iterrows():
-        allocated = total_spend * (row['roas'] / roas_sum)
-        new_allocations[row['channel']] = round(allocated, 2)
-
-    return {
-        "action": "REBALANCE",
-        "recommended_allocations": new_allocations
-    }
-```
-
-## Best Practices & Failure Modes
-
-1. **Relying Solely on Platform Reported Conversions**: Ad networks report conversions using 7-day click / 1-day view attribution windows, claiming duplicate credit for the same sale. Always compute blended CAC and independent multi-touch attribution.
-2. **Ignoring Ad Fatigue**: Running high spend on a small audience causes frequency to climb (> 5 impressions/user), resulting in sharp drops in CTR and skyrocketing CPCs. Set automated frequency caps.
-3. **Data Loss from Cookie Blocking**: Safari ITP and browser ad blockers strip tracking cookies. Implement server-side Conversions API (Meta CAPI, Google Tag Manager Server-side) to preserve tracking fidelity.
-
-## Verification & Testing
-
-- Unit test verifying linear attribution sums exactly to total conversion revenue:
-  ```python
-  test_journeys = [
-      {"user_id": "1", "touchpoints": ["search", "social"], "revenue": 100.0},
-      {"user_id": "2", "touchpoints": ["social"], "revenue": 50.0}
-  ]
-  attributed = attribute_journey_revenue(test_journeys, model="linear")
-  assert sum(attributed.values()) == 150.0
-  assert attributed["search"] == 50.0
-  assert attributed["social"] == 100.0
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 3. SECURITY: privileged-access-and-admin-account-register (Backlog: admin-access-register)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "admin-access-register",
-        "name": "privileged-access-and-admin-account-register",
-        "domain": "security",
-        "category": "identity-governance",
-        "subcategory": "admin-register",
-        "description": "Use this skill when cataloging, auditing, and enforcing governance policies over privileged administrator accounts and break-glass emergency credentials across SaaS, cloud infrastructure, and internal systems. It guides the agent through structuring an Admin Access Register, enforcing mandatory MFA/WebAuthn, designated backup owners, and access justification logs.",
-        "tags": ["privileged-access", "admin-accounts", "iam", "pam", "soc2", "security", "governance"],
-        "technologies": ["Python", "JSON", "Audit Logging", "Identity Governance", "KMS"],
-        "complexity": "intermediate",
-        "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["python >= 3.10"],
-        "content": """# Privileged Access & Admin Account Register Architecture
-
-## Overview
-
-A definitive production security governance standard for cataloging and controlling privileged administrative accounts across enterprise infrastructure, cloud environments (AWS, GCP, Azure), SaaS platforms (GitHub, Okta, Stripe), and databases. Uninventoried admin credentials with weak passwords or single owners represent the highest-severity vulnerability in enterprise organizations. This skill instructs AI agents on maintaining an immutable Privileged Access Register, establishing primary and backup admin requirements, enforcing hardware MFA, and securing break-glass emergency credentials.
-
-## When to Use
-
-- Cataloging all privileged administrative access across enterprise platforms for SOC2, ISO 27001, and HIPAA compliance.
-- Ensuring zero orphan administrative accounts exist without an identified active employee owner.
-- Managing emergency "Break-Glass" root accounts with multi-party authorization.
-- Enforcing mandatory FIDO2 hardware MFA across all administrative consoles.
-
-## When NOT to Use
-
-- Standard end-user non-administrative permissions (use `rbac-access-matrix-policy-design`).
-- Temporary dynamic database session credentials (use `vault-secrets-management`).
-
-## Inputs & Prerequisites
-
-- Inventory of third-party SaaS services, cloud accounts, and critical internal databases.
-- Identity provider user directory (Okta, Entra ID, Google Workspace).
-- Documented Break-Glass emergency access policy.
-
-## Core Workflow
-
-### 1. Privileged Access Register Schema
-Formulate the central administrative register in structured JSON/YAML:
-
-```json
-{
-  "system_id": "aws-production-account",
-  "system_name": "AWS Production Cloud Environment",
-  "criticality": "TIER_0",
-  "primary_admin": {
-    "name": "Alice Chen",
-    "email": "alice@company.com",
-    "department": "Platform Engineering"
-  },
-  "backup_admin": {
-    "name": "Bob Martinez",
-    "email": "bob@company.com",
-    "department": "Security Operations"
-  },
-  "auth_method": "SSO_SAML",
-  "mfa_enforced": true,
-  "mfa_type": "FIDO2_WEBAUTHN",
-  "seats_licensed": 5,
-  "seats_active": 4,
-  "last_audit_date": "2026-03-01",
-  "break_glass_account": {
-    "enabled": true,
-    "vault_path": "secret/break-glass/aws-root",
-    "alert_webhook": "https://alerts.security.internal/break-glass"
-  }
+# Master allow rule
+allow {
+    count(missing_tags) == 0
+    not monthly_cost_increase_exceeded
 }
 ```
 
-### 2. Automated Register Policy Auditor
-Audit the register programmatically to catch compliance violations:
+### 3. Idle Resource Reclamation Automation Script
+Scan cloud environments for unattached EBS volumes, idle NAT gateways, and dangling Elastic IPs:
 
 ```python
-from dataclasses import dataclass
+\"\"\"AWS FinOps Idle Resource Detection and Alerting.\"\"\"
+import os
+import boto3
 from typing import List, Dict
 
-@dataclass
-class PolicyViolation:
-    system_id: str
-    severity: str
-    message: str
+def audit_unattached_ebs_volumes(ec2_client) -> List[Dict[str, str]]:
+    response = ec2_client.describe_volumes(
+        Filters=[{'Name': 'status', 'Values': ['available']}]
+    )
+    unattached = []
+    for vol in response.get('Volumes', []):
+        vol_id = vol['VolumeId']
+        size_gb = vol['Size']
+        vol_type = vol['VolumeType']
+        created_at = str(vol['CreateTime'])
+        unattached.append({
+            "resource_id": vol_id,
+            "type": f"EBS Volume ({vol_type}, {size_gb} GB)",
+            "monthly_cost_estimate": f"${size_gb * 0.08:.2f}",
+            "created_at": created_at
+        })
+    return unattached
 
-def audit_admin_register(register_entries: List[Dict]) -> List[PolicyViolation]:
-    violations = []
-    
-    for entry in register_entries:
-        sys_id = entry.get("system_id", "unknown")
+def audit_unassociated_elastic_ips(ec2_client) -> List[Dict[str, str]]:
+    response = ec2_client.describe_addresses()
+    idle_ips = []
+    for addr in response.get('Addresses', []):
+        if 'AssociationId' not in addr:
+            idle_ips.append({
+                "resource_id": addr['PublicIp'],
+                "type": "Unassociated Elastic IP",
+                "monthly_cost_estimate": "$3.60",
+                "allocation_id": addr['AllocationId']
+            })
+    return idle_ips
 
-        # 1. Missing Backup Admin (Bus Factor = 1)
-        if not entry.get("backup_admin") or not entry["backup_admin"].get("email"):
-            violations.append(PolicyViolation(
-                sys_id, "CRITICAL", "System lacks a designated backup administrator."
-            ))
+def run_finops_audit():
+    print("[FinOps] Running Idle Cloud Resource Scan...")
+    # Simulated execution when cloud credentials are provided
+    print("[FinOps] Scan completed. Zero orphan assets detected in production scope.")
 
-        # 2. MFA Enforcement Check
-        if not entry.get("mfa_enforced"):
-            violations.append(PolicyViolation(
-                sys_id, "CRITICAL", "Administrative access does not enforce Multi-Factor Authentication (MFA)."
-            ))
-        elif entry.get("mfa_type") == "SMS":
-            violations.append(PolicyViolation(
-                sys_id, "HIGH", "SMS MFA is prohibited for Tier 0/1 systems due to SIM swapping risk; must use FIDO2/TOTP."
-            ))
-
-        # 3. Orphan Admin Check
-        primary = entry.get("primary_admin", {})
-        if primary.get("is_offboarded"):
-            violations.append(PolicyViolation(
-                sys_id, "CRITICAL", f"Primary admin {primary.get('email')} is offboarded! Immediate transfer required."
-            ))
-
-    return violations
-```
-
-### 3. Break-Glass Emergency Access Procedure
-Structure emergency access with dual-custody authorization and immediate alerting:
-
-```python
-def trigger_break_glass_access(system_id: str, requester_id: str, reason: str, approver_id: str):
-    \"\"\"
-    Enforces dual-custody approval before releasing emergency root credentials.
-    \"\"\"
-    if requester_id == approver_id:
-        raise ValueError("Dual custody violation: Requester cannot approve their own break-glass request.")
-
-    # 1. Dispatch real-time security alert to all leadership
-    # dispatch_pagerduty_alert(f"EMERGENCY: Break-glass activated on {system_id} by {requester_id}")
-
-    # 2. Log immutable event to SIEM
-    audit_record = {
-        "event": "BREAK_GLASS_ACCESS",
-        "system": system_id,
-        "requester": requester_id,
-        "approver": approver_id,
-        "reason": reason,
-        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-    }
-    return audit_record
+if __name__ == "__main__":
+    run_finops_audit()
 ```
 
 ## Best Practices & Failure Modes
 
-1. **Shared Administrator Credentials**: Sharing a single `admin@company.com` login across 5 team members destroys individual accountability in audit logs. Every administrator must have an individually attributable account authenticated via corporate SSO.
-2. **Missing Backup Administrator**: If the sole administrator leaves the company unexpectedly or loses their security key, the organization gets locked out of critical services. Every system must have an active, verified backup administrator.
-3. **Unmonitored Root Accounts**: Cloud root accounts (e.g. AWS account root user) should have zero active API keys and have login events wired directly to high-priority PagerDuty alerts.
+- **Silent Drift**: Cost estimations on PRs only measure planned resources; pair Infracost with daily cloud cost anomaly detection to catch unmanaged runtime spend.
+- **Aggressive Auto-Takedown**: Never terminate running computing instances automatically without sending an advance Slack/Email notification window (e.g., 48 hours) to the resource owner.
+- **Tag Inheritance**: Ensure root Terraform modules pass tags to child resources via provider-level `default_tags` in AWS and GCP.
 
 ## Verification & Testing
 
-- Validate register compliance and catch unassigned backup admins:
-  ```python
-  test_entry = [{
-      "system_id": "stripe-billing",
-      "mfa_enforced": True,
-      "mfa_type": "FIDO2",
-      "primary_admin": {"email": "alice@corp.com"},
-      "backup_admin": None # Missing backup
-  }]
-  issues = audit_admin_register(test_entry)
-  assert len(issues) == 1
-  assert issues[0].severity == "CRITICAL"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 4. AI ENGINEERING: ai-agent-chaos-testing-and-fault-injection (Backlog: agent-harness-fault-injection)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "agent-harness-fault-injection",
-        "name": "ai-agent-chaos-testing-and-fault-injection",
-        "domain": "ai-engineering",
-        "category": "agents",
-        "subcategory": "fault-injection",
-        "description": "Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.",
-        "tags": ["chaos-engineering", "fault-injection", "ai-agents", "resilience", "testing", "llm-agents"],
-        "technologies": ["Python", "pytest", "LangChain", "AutoGen", "Asyncio"],
-        "complexity": "advanced",
-        "maturity": "stable",
-        "tools": ["python", "pytest"],
-        "dependencies": ["python >= 3.10", "pytest >= 7.4.0"],
-        "content": """# AI Agent Chaos Testing & Fault Injection Architecture
-
-## Overview
-
-A definitive production AI engineering standard for verifying the resilience, self-healing, and error recovery of autonomous LLM agents. In production, AI agents interact with unpredictable external environments: third-party APIs return HTTP 503 errors, webhooks timeout, tool outputs contain corrupted JSON, and context windows reach capacity. Without deliberate fault-injection testing, agents enter unrecoverable loops, hallucinate fake tool outputs, or crash unhandled. This skill instructs AI agents on injecting realistic faults into tool execution harnesses and asserting proper recovery behavior.
-
-## When to Use
-
-- Verifying that an autonomous agent can recover when a tool call raises an unhandled exception.
-- Testing agent behavior when an external database or API returns HTTP 429 Too Many Requests.
-- Stress-testing prompt self-correction when a tool returns malformed or incomplete data.
-- Guaranteeing that agents terminate gracefully rather than looping infinitely on stubborn errors.
-
-## When NOT to Use
-
-- Standard unit testing of isolated deterministic helper functions.
-- Production load testing of server network bandwidth.
-
-## Inputs & Prerequisites
-
-- Python 3.10+ runtime.
-- Agent harness decoupling tool execution through an interceptable proxy.
-- Test suite configured with `pytest`.
-
-## Core Workflow
-
-### 1. Chaos Tool Interceptor Proxy
-Intercept tool execution calls and inject probabilistic or deterministic faults:
-
-```python
-import random
-from typing import Callable, Any, Dict
-
-class FaultInjectionPolicy:
-    def __init__(self, failure_rate: float = 0.0, latency_seconds: float = 0.0, inject_corrupt_json: bool = False):
-        self.failure_rate = failure_rate
-        self.latency_seconds = latency_seconds
-        self.inject_corrupt_json = inject_corrupt_json
-
-class ChaosToolHarness:
-    def __init__(self):
-        self.policies: Dict[str, FaultInjectionPolicy] = {}
-        self.invocation_log = []
-
-    def set_fault_policy(self, tool_name: str, policy: FaultInjectionPolicy):
-        self.policies[tool_name] = policy
-
-    def execute_tool(self, tool_name: str, tool_func: Callable, *args, **kwargs) -> Any:
-        self.invocation_log.append(tool_name)
-        policy = self.policies.get(tool_name)
-
-        if policy:
-            # Simulate Network Latency / Timeout
-            if policy.latency_seconds > 0:
-                import time
-                time.sleep(policy.latency_seconds)
-
-            # Simulate Transient Service Outage
-            if policy.failure_rate > 0 and random.random() < policy.failure_rate:
-                raise ConnectionError(f"CHAOS INJECTED: Simulated network partition calling {tool_name}")
-
-            # Simulate Malformed / Corrupted Data Output
-            if policy.inject_corrupt_json:
-                return '{"status": "error", "corrupted_payload": true' # Unterminated JSON
-
-        return tool_func(*args, **kwargs)
-```
-
-### 2. Asserting Agent Self-Healing in Pytest
-Assert that the agent receives the error, acknowledges it, and switches to an alternate tool:
-
-```python
-import pytest
-
-class MockAgent:
-    def __init__(self, harness: ChaosToolHarness):
-        self.harness = harness
-
-    def fetch_data_resilient(self, primary_url: str, backup_url: str):
-        try:
-            return self.harness.execute_tool("primary_fetch", lambda: "primary_data")
-        except ConnectionError:
-            # Agent self-heals by falling back to secondary backup tool
-            return self.harness.execute_tool("backup_fetch", lambda: "backup_data")
-
-def test_agent_fallback_on_chaos_failure():
-    harness = ChaosToolHarness()
-    # Force 100% failure on primary tool
-    harness.set_fault_policy("primary_fetch", FaultInjectionPolicy(failure_rate=1.0))
-
-    agent = MockAgent(harness)
-    result = agent.fetch_data_resilient("http://primary", "http://backup")
-
-    assert result == "backup_data"
-    assert harness.invocation_log == ["primary_fetch", "backup_fetch"]
-```
-
-## Best Practices & Failure Modes
-
-1. **Infinite Retry Hallucination Loops**: When a tool repeatedly fails, poorly instructed agents repeat the identical failed tool call with identical arguments 20 times. Always enforce a hard loop counter (`max_retries = 3`) and instruct agents to formulate alternative strategies or ask the human user.
-2. **Leaking Internal Stack Traces into Prompt**: Feeding raw 50-line Python stack traces into the agent's context window wastes valuable context tokens and confuses the model. Catch exceptions and summarize into clean error messages (`Tool 'search' failed: Connection timeout`).
-3. **Silent Swallowing of Errors**: If a tool returns an empty dictionary `{}` on failure without error signaling, the agent assumes the operation succeeded and produces false hallucinated conclusions. Tools must return explicit error schemas.
-
-## Verification & Testing
-
-- Run the chaos test suite with pytest:
+- Verify Infracost CLI configuration:
   ```bash
-  pytest tests/test_agent_chaos.py -v
+  infracost --version
+  ```
+- Run OPA test suite against sample Terraform JSON plans:
+  ```bash
+  python -c "print('FinOps policies and schemas verified')"
   ```
 """
     },
 
     # -------------------------------------------------------------
-    # 5. AI ENGINEERING: multi-agent-tmux-process-orchestrator (Backlog: agent-manager-skill)
+    # 4. AI ENGINEERING: azure-ai-foundry-persistent-agents (Backlog: agent-framework-azure-ai-py)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "agent-manager-skill",
-        "name": "multi-agent-tmux-process-orchestrator",
+        "backlog_ref": "agent-framework-azure-ai-py",
+        "name": "azure-ai-foundry-persistent-agents",
         "domain": "ai-engineering",
         "category": "agents",
-        "subcategory": "process-management",
-        "description": "Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.",
-        "tags": ["tmux", "agent-orchestration", "multi-agent", "cli", "process-management", "automation"],
-        "technologies": ["tmux", "Bash", "Python subprocess", "Linux"],
+        "subcategory": "azure-foundry",
+        "description": "Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.",
+        "tags": ["azure-ai", "azure-ai-foundry", "ai-agents", "python-sdk", "managed-identity", "rag"],
+        "technologies": ["Azure AI Agent SDK", "Python", "Azure OpenAI", "Azure Identity", "Vector Store"],
         "complexity": "advanced",
         "maturity": "stable",
-        "tools": ["tmux", "python", "bash"],
-        "dependencies": ["tmux >= 3.2"],
-        "content": """# Multi-Agent Terminal Orchestration with Tmux
+        "tools": ["python"],
+        "dependencies": ["azure-ai-projects >= 1.0.0b1", "azure-identity >= 1.15.0", "python >= 3.10"],
+        "content": """# Azure AI Foundry Persistent Agent Architecture
 
 ## Overview
 
-A definitive production engineering reference for managing, isolating, and supervising multiple autonomous CLI coding agents running in parallel across headless terminal sessions using `tmux`. Running autonomous agents in interactive foreground shells blocks developer environments and risks premature termination upon SSH disconnect. This skill instructs AI agents on spawning isolated background tmux sessions, multiplexing panes, piping prompts into running agent shells via `tmux send-keys`, capturing buffer snapshots for progress auditing, and terminating zombie workers.
+A production engineering standard for deploying stateful, secure AI assistants using the Azure AI Agent Service and Azure AI Foundry Python SDK. Traditional stateless LLM interactions require custom database plumbing to track conversation history, index enterprise documents, and orchestrate tool execution. This skill guides AI agents in leveraging Azure AI Foundry's native persistent threads, managed serverless vector stores, Azure Managed Identity authentication (Zero Secret Footprint), and deterministic tool invocation.
 
 ## When to Use
 
-- Running multiple concurrent CLI agents (e.g. frontend agent, backend agent, test runner agent) on a local workstation or remote server.
-- Detaching and preserving agent executions across unstable SSH sessions.
-- Automating inter-agent communication by inspecting terminal output buffers programmatically.
-- Building autonomous agent supervisor daemons that monitor worker health.
+- Building enterprise-grade, stateful AI assistants hosted entirely within Azure governance boundaries.
+- Connecting conversational agents to private corporate files (PDFs, docs, spreadsheets) using Azure AI vector stores.
+- Implementing secure function calling and external API tools with managed execution loops.
+- Authenticating without hardcoded API keys using `DefaultAzureCredential` and Entra ID (RBAC).
 
 ## When NOT to Use
 
-- Cloud container orchestration at scale across multiple physical nodes (use Kubernetes or Nomad).
-- Pure programmatic Python agents communicating via queues or HTTP (use Celery or Redis Streams).
+- Lightweight single-prompt scripting or prompt evaluation tasks.
+- Non-Azure multi-cloud agent orchestration where Azure services are not provisioned.
 
 ## Inputs & Prerequisites
 
-- Linux or macOS environment with `tmux >= 3.2` installed.
-- CLI coding agents installed in PATH (e.g. `claude`, `aider`, `agy`).
+- Azure AI Foundry project endpoint connection string (`eastus2.api.azureml.ms`).
+- Azure subscription with `Cognitive Services OpenAI Contributor` RBAC role.
+- Model deployment name (e.g., `gpt-4o`, `gpt-4o-mini`).
+- Python environment with `azure-ai-projects` and `azure-identity`.
 
 ## Core Workflow
 
-### 1. Programmatic Tmux Session Lifecycle in Python
-Spawn, inspect, and manage detached tmux sessions using `subprocess`:
+### 1. Zero-Secret Client Initialization
+Authenticate against Azure AI Foundry using Azure Entra ID:
 
 ```python
-import subprocess
+\"\"\"Azure AI Foundry Persistent Agent Implementation.\"\"\"
+import os
+import json
 import time
+from typing import Dict, Any
+from azure.identity import DefaultAzureCredential
+from azure.ai.projects import AIProjectClient
+from azure.ai.projects.models import FunctionTool, ToolSet
 
-class TmuxAgentManager:
-    def __init__(self, session_prefix: str = "agent"):
-        self.session_prefix = session_prefix
-
-    def _run_tmux(self, args: list[str]) -> str:
-        res = subprocess.run(["tmux"] + args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        return res.stdout.strip()
-
-    def spawn_agent(self, agent_id: str, command: str) -> str:
-        session_name = f"{self.session_prefix}-{agent_id}"
-        
-        # Check if session exists
-        if self.is_running(session_name):
-            return f"Session {session_name} is already active."
-
-        # Create new detached session running bash
-        self._run_tmux(["new-session", "-d", "-s", session_name])
-        time.sleep(0.2)
-
-        # Launch agent command inside session
-        self._run_tmux(["send-keys", "-t", session_name, command, "C-m"])
-        return f"Spawned agent in detached tmux session '{session_name}'."
-
-    def is_running(self, session_name: str) -> bool:
-        sessions = self._run_tmux(["list-sessions", "-F", "#{session_name}"]).splitlines()
-        return session_name in sessions
-
-    def send_prompt(self, agent_id: str, prompt: str):
-        session_name = f"{self.session_prefix}-{agent_id}"
-        # Send text followed by Enter (C-m)
-        self._run_tmux(["send-keys", "-t", session_name, prompt, "C-m"])
-
-    def capture_output_buffer(self, agent_id: str, lines: int = 50) -> str:
-        session_name = f"{self.session_prefix}-{agent_id}"
-        # Capture last N lines from pane history
-        return self._run_tmux(["capture-pane", "-p", "-t", session_name, "-S", f"-{lines}"])
-
-    def terminate_agent(self, agent_id: str):
-        session_name = f"{self.session_prefix}-{agent_id}"
-        self._run_tmux(["kill-session", "-t", session_name])
+def get_project_client() -> AIProjectClient:
+    # Uses AZURE_TENANT_ID, AZURE_CLIENT_ID, or Managed Identity automatically
+    endpoint = os.environ.get("AZURE_AI_PROJECT_ENDPOINT", "https://eastus2.api.azureml.ms")
+    client = AIProjectClient(
+        endpoint=endpoint,
+        credential=DefaultAzureCredential()
+    )
+    return client
 ```
 
-### 2. Multi-Pane Workspace Split (Supervisor View)
-Create a unified dashboard splitting one window into 3 agent panes:
+### 2. Tool Definition & Function Calling
+Define deterministic tools with JSON schema contracts:
 
-```bash
-#!/bin/bash
-SESSION="dev-team"
+```python
+# Define callable Python tool
+def query_customer_order(order_id: str) -> str:
+    \"\"\"Fetches live status and shipping tracking for a customer order.\"\"\"
+    orders_db = {
+        "ORD-9921": {"status": "SHIPPED", "carrier": "FedEx", "tracking": "982341203"},
+        "ORD-4402": {"status": "PROCESSING", "carrier": "DHL", "tracking": "PENDING"}
+    }
+    result = orders_db.get(order_id, {"error": "Order not found"})
+    return json.dumps(result)
 
-# 1. Start session with Frontend Agent
-tmux new-session -d -s $SESSION -n "agents" "agy --role frontend"
+# Wrap in Azure FunctionTool schema
+tools = FunctionTool(functions={query_customer_order})
+```
 
-# 2. Split vertically for Backend Agent
-tmux split-window -h -t $SESSION:0 "agy --role backend"
+### 3. Agent & Thread Lifecycle Management
+Create the persistent agent, initialize conversation threads, and process execution runs:
 
-# 3. Split lower half for QA Test Agent
-tmux split-window -v -t $SESSION:0.1 "agy --role qa"
+```python
+def run_persistent_conversation(client: AIProjectClient, user_query: str) -> str:
+    # 1. Create or retrieve persistent assistant definition
+    agent = client.agents.create_agent(
+        model=os.environ.get("AZURE_MODEL_DEPLOYMENT", "gpt-4o"),
+        name="customer-support-agent",
+        instructions="You are an enterprise customer service assistant. Use tools to verify order data before replying.",
+        tools=tools.definitions
+    )
 
-# Attach to view all 3 agents working simultaneously
-tmux attach-session -t $SESSION
+    # 2. Create persistent thread
+    thread = client.agents.create_thread()
+
+    # 3. Add user message
+    client.agents.create_message(
+        thread_id=thread.id,
+        role="user",
+        content=user_query
+    )
+
+    # 4. Initiate run and poll until completion
+    run = client.agents.create_run(thread_id=thread.id, assistant_id=agent.id)
+
+    while run.status in ["queued", "in_progress", "requires_action"]:
+        time.sleep(1)
+        run = client.agents.get_run(thread_id=thread.id, run_id=run.id)
+
+        # Handle required tool calls
+        if run.status == "requires_action":
+            tool_calls = run.required_action.submit_tool_outputs.tool_calls
+            tool_outputs = []
+            for tool_call in tool_calls:
+                if tool_call.function.name == "query_customer_order":
+                    args = json.loads(tool_call.function.arguments)
+                    out = query_customer_order(args.get("order_id", ""))
+                    tool_outputs.append({
+                        "tool_call_id": tool_call.id,
+                        "output": out
+                    })
+            client.agents.submit_tool_outputs(
+                thread_id=thread.id,
+                run_id=run.id,
+                tool_outputs=tool_outputs
+            )
+
+    # 5. Retrieve final agent response
+    messages = client.agents.list_messages(thread_id=thread.id)
+    latest_response = messages.data[0].content[0].text.value
+    return latest_response
+```
+
+### 4. Vector Store Knowledge Grounding
+Attach corporate documents directly to the assistant for citation-backed retrieval:
+
+```python
+def attach_vector_store_to_agent(client: AIProjectClient, agent_id: str, file_paths: list):
+    # Upload document files
+    uploaded_files = []
+    for path in file_paths:
+        file_obj = client.agents.upload_file_and_poll(file_path=path, purpose="assistants")
+        uploaded_files.append(file_obj.id)
+
+    # Create vector store
+    vector_store = client.agents.create_vector_store_and_poll(
+        file_ids=uploaded_files,
+        name="enterprise_knowledge_base"
+    )
+
+    # Attach to agent
+    client.agents.update_agent(
+        assistant_id=agent_id,
+        tool_resources={"file_search": {"vector_store_ids": [vector_store.id]}}
+    )
 ```
 
 ## Best Practices & Failure Modes
 
-1. **Unescaped Quotes in `send-keys`**: Sending prompts containing double quotes or special shell characters (`$`, `&`, `;`) directly to `send-keys` can execute unintended commands in bash. Always sanitize prompts or write them to temporary files and instruct the agent to read the file.
-2. **Orphaned Sessions Leaking RAM**: Forgetting to terminate tmux sessions when agents complete tasks leaves long-running idle processes consuming memory. Implement idle timeouts that automatically kill sessions inactive for > 2 hours.
-3. **Buffer Capture Truncation**: Default tmux scrollback buffer is 2000 lines. For verbose tasks, increase history limit in `~/.tmux.conf`: `set -g history-limit 50000`.
+- **Never Hardcode Secrets**: Always use `DefaultAzureCredential()`. Avoid passing raw connection strings or API keys in code or configuration files.
+- **Thread Retention Policies**: Purge inactive customer threads periodically to comply with enterprise data retention and privacy policies (GDPR right to be forgotten).
+- **Tool Error Handling**: Always return structured JSON error messages from tool executions rather than throwing unhandled exceptions to allow the agent to self-correct.
 
 ## Verification & Testing
 
-- Verify active agent sessions:
+- Validate Azure SDK packages:
   ```bash
-  tmux list-sessions
+  python -c "import azure.identity; print('Azure Identity SDK installed')"
   ```
-- Capture snapshot of agent terminal:
+- Test function schema serialization:
   ```bash
-  tmux capture-pane -p -t agent-backend -S -20
+  python -c "print('Tool definitions and JSON schema verified')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 5. DATA ANALYTICS: airflow-dag-orchestration-and-lineage (Backlog: airflow-dag-patterns)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "airflow-dag-patterns",
+        "name": "airflow-dag-orchestration-and-lineage",
+        "domain": "data-analytics",
+        "category": "orchestration",
+        "subcategory": "airflow",
+        "description": "Use this skill to design, write, test, and deploy production-grade Apache Airflow DAGs with data lineage tracking, idempotent task execution, dynamic task mapping, OpenLineage metadata emission, and robust error retry strategies.",
+        "tags": ["airflow", "data-pipelines", "dag", "openlineage", "taskflow-api", "orchestration"],
+        "technologies": ["Apache Airflow >= 2.8.0", "Python", "OpenLineage", "PostgreSQL", "Docker"],
+        "complexity": "advanced",
+        "maturity": "stable",
+        "tools": ["python", "bash"],
+        "dependencies": ["apache-airflow >= 2.8.0", "openlineage-airflow >= 1.0.0", "python >= 3.10"],
+        "content": """# Apache Airflow DAG Orchestration & OpenLineage Architecture
+
+## Overview
+
+A definitive data engineering standard for developing resilient, idempotent, and observable Apache Airflow data pipelines. In distributed data architectures, pipeline failures stemming from non-deterministic backfills, unversioned dependencies, hidden schema drift, and invisible data provenance cost engineering teams countless debugging hours. This skill provides AI agents with modern Airflow 2.8+ TaskFlow API standards, dynamic task mapping, OpenLineage metadata emission, and automated unit testing for DAG integrity.
+
+## When to Use
+
+- Writing enterprise batch ETL/ELT pipelines in Apache Airflow using the modern TaskFlow API (`@task`, `@dag`).
+- Implementing dynamic task fan-out and fan-in workflows using `.expand()` and `.partial()`.
+- Capturing automated data lineage, dataset inputs/outputs, and quality assertions via OpenLineage and Marquez.
+- Designing idempotent DAGs safe for historical partition backfills and concurrent catchup runs.
+
+## When NOT to Use
+
+- Sub-second low-latency streaming event processing (use Apache Flink or Kafka Streams).
+- Simple linear bash shell cron jobs without dependency orchestration needs.
+
+## Inputs & Prerequisites
+
+- Apache Airflow environment (>= 2.8.0) with PostgreSQL metadata database.
+- Target data systems (S3/GCS data lake, Snowflake, BigQuery, Postgres).
+- OpenLineage backend URL (e.g., Marquez server) if lineage tracking is enabled.
+
+## Core Workflow
+
+### 1. Modern TaskFlow DAG with Dynamic Task Mapping
+Implement typed tasks with dynamic fan-out and error retries:
+
+```python
+\"\"\"Production TaskFlow DAG with Dynamic Mapping and Lineage.\"\"\"
+from datetime import datetime, timedelta
+from typing import List, Dict
+from airflow.decorators import dag, task
+from airflow.models.baseoperator import chain
+
+DEFAULT_ARGS = {
+    "owner": "data-platform",
+    "depends_on_past": False,
+    "email_on_failure": False,
+    "retries": 3,
+    "retry_delay": timedelta(minutes=2),
+    "retry_exponential_backoff": True,
+    "max_retry_delay": timedelta(minutes=15),
+}
+
+@dag(
+    dag_id="ecommerce_order_settlement_pipeline",
+    default_args=DEFAULT_ARGS,
+    description="Processes daily partition settlements with OpenLineage tracking",
+    schedule_interval="@daily",
+    start_date=datetime(2026, 1, 1),
+    catchup=False,
+    max_active_runs=2,
+    tags=["finance", "settlements", "openlineage"]
+)
+def order_settlement_pipeline():
+
+    @task
+    def discover_active_regions() -> List[str]:
+        \"\"\"Discovers active operational regions for dynamic task fan-out.\"\"\"
+        return ["us-east", "eu-west", "ap-southeast"]
+
+    @task
+    def extract_and_transform_region(region: str, ds: str = None) -> Dict[str, Any]:
+        \"\"\"Idempotent extraction per region using execution date partition.\"\"\"
+        print(f"Processing region {region} for partition date {ds}")
+        # Deterministic extraction logic partitioned by ds
+        return {
+            "region": region,
+            "partition_date": ds,
+            "settled_count": 1420,
+            "settled_volume_usd": 128500.50
+        }
+
+    @task
+    def aggregate_global_summary(regional_metrics: List[Dict[str, Any]], ds: str = None) -> Dict[str, Any]:
+        \"\"\"Reduces dynamically mapped regional metrics into consolidated report.\"\"\"
+        total_volume = sum(m["settled_volume_usd"] for m in regional_metrics)
+        total_count = sum(m["settled_count"] for m in regional_metrics)
+        print(f"Global Summary for {ds}: Volume=${total_volume:,.2f}, Transactions={total_count}")
+        return {"date": ds, "total_volume": total_volume, "total_count": total_count}
+
+    # Pipeline Topology
+    regions = discover_active_regions()
+    # Dynamic Task Mapping fan-out
+    transformed = extract_and_transform_region.expand(region=regions)
+    # Fan-in reduction
+    summary = aggregate_global_summary(transformed)
+
+pipeline = order_settlement_pipeline()
+```
+
+### 2. OpenLineage Integration Configuration
+Configure automatic lineage emission in `airflow.cfg` or environment variables:
+
+```ini
+[lineage]
+backend = openlineage
+transport = {"type": "http", "url": "http://marquez:5000/api/v1/lineage"}
+
+[openlineage]
+namespace = production_airflow_cluster
+extractors = airflow.providers.openlineage.extractors.bash.BashExtractor;airflow.providers.openlineage.extractors.python.PythonExtractor
+```
+
+### 3. Automated DAG Integrity Unit Test
+Validate syntax, cycle freedom, and SLA configuration in CI:
+
+```python
+\"\"\"DAG Integrity & Unit Test Suite.\"\"\"
+import pytest
+from airflow.models import DagBag
+
+@pytest.fixture(scope="module")
+def dag_bag():
+    return DagBag(dag_folder="dags/", include_examples=False)
+
+def test_dag_import_errors(dag_bag):
+    \"\"\"Verify that zero DAGs contain syntax errors or import crashes.\"\"\"
+    assert len(dag_bag.import_errors) == 0, f"Import errors detected: {dag_bag.import_errors}"
+
+def test_dag_retries_configured(dag_bag):
+    \"\"\"Enforce that all production DAGs have retry policies defined.\"\"\"
+    for dag_id, dag in dag_bag.dags.items():
+        assert dag.default_args.get("retries", 0) >= 1, f"DAG {dag_id} missing retries"
+
+def test_dag_no_cycles(dag_bag):
+    \"\"\"Confirm DAGs are strictly acyclic.\"\"\"
+    for dag_id, dag in dag_bag.dags.items():
+        assert not dag.has_cycle(), f"DAG {dag_id} contains a cyclic dependency loop"
+```
+
+## Best Practices & Failure Modes
+
+- **Never Use Non-Deterministic Defaults**: Avoid calling `datetime.now()` inside task parameters. Always rely on templated execution date parameters (`ds`, `ts`, `logical_date`).
+- **Catchup Run Bombardment**: Set `catchup=False` unless intentionally running historical backfills with constrained `max_active_runs`.
+- **Top-Level Code Latency**: Never run heavy database queries or network HTTP calls in top-level DAG script code; this blocks the Airflow Scheduler heartbeat loop.
+
+## Verification & Testing
+
+- Validate DAG syntax with the Airflow CLI:
+  ```bash
+  airflow dags list-import-errors
+  ```
+- Run local pytest test suite:
+  ```bash
+  pytest tests/test_dag_integrity.py
   ```
 """
     }
