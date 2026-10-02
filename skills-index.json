@@ -1051,6 +1051,28 @@
     "maturity": "stable"
   },
   {
+    "name": "audit-agent-run-evidence",
+    "path": "skills/ai-engineering/models/audit_agent_run_evid/audit-agent-run-evidence",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "audit_agent_run_evid",
+    "description": "Use this skill to use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "audit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Audit Agent Run Evidence",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

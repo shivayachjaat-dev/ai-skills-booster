@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **16 skills** available in this category.
+> **17 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,4 +19,5 @@
 | [app-builder](../../skills/ai-engineering/models/app_builder/app-builder/SKILL.md) | `app_builder` | `advanced` | `stable` | Use this skill to main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents. |
 | [asset-inventory](../../skills/ai-engineering/models/asset_inventory/asset-inventory/SKILL.md) | `asset_inventory` | `advanced` | `stable` | Use this skill to maintain IT asset inventory and configuration management database. Track |
 | [attendance](../../skills/ai-engineering/models/attendance/attendance/SKILL.md) | `attendance` | `advanced` | `stable` | Use this skill to daily attendance register: check-in and check-out, hours worked, work mode, late minutes, leave and regularisation flags, as CSV, SQL, JSON Schema or Notion on request. Use for payroll input. |
+| [audit-agent-run-evidence](../../skills/ai-engineering/models/audit_agent_run_evid/audit-agent-run-evidence/SKILL.md) | `audit_agent_run_evid` | `advanced` | `stable` | Use this skill to use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

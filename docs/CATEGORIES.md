@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **215** skills across structured domains, categories, and subcategories.
+Master navigation for **216** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (53 skills)
+## Ai Engineering (54 skills)
 
 ### Agents (15 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -102,7 +102,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (16 skills)
+### Models (17 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -135,6 +135,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [asset-inventory](../skills/ai-engineering/models/asset_inventory/asset-inventory/SKILL.md) — Use this skill to maintain IT asset inventory and configuration management database. Track
 - **Attendance** (1):
   - [attendance](../skills/ai-engineering/models/attendance/attendance/SKILL.md) — Use this skill to daily attendance register: check-in and check-out, hours worked, work mode, late minutes, leave and regularisation flags, as CSV, SQL, JSON Schema or Notion on request. Use for payroll input.
+- **Audit_Agent_Run_Evid** (1):
+  - [audit-agent-run-evidence](../skills/ai-engineering/models/audit_agent_run_evid/audit-agent-run-evidence/SKILL.md) — Use this skill to use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
