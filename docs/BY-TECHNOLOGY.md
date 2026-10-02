@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (769 skills)
+## Bash (770 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1824,6 +1824,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [event-staffing-compliance](../skills/software-engineering/architecture/patterns/event-staffing-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for event staffing compliance. Assess worker-classification and compliance risk for temporary event staffing in the US and Canada — W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP.
 - [evolution](../skills/software-engineering/architecture/patterns/evolution/SKILL.md) — Use this skill to design, implement, and operate production workflows for evolution. This skill enables makepad-skills to self-improve continuously during development.
 - [executing-plans](../skills/software-engineering/architecture/patterns/executing-plans/SKILL.md) — Use this skill to design, implement, and operate production workflows for executing plans. Use when you have a written implementation plan to execute in a separate session with review checkpoints
+- [fact-check-x-unified](../skills/software-engineering/architecture/patterns/fact-check-x-unified/SKILL.md) — Use this skill to design, implement, and operate production workflows for fact check x unified. Fact-Check-X 流程编排能力，依次组织各方答案汇总、各方答案聚合（未核验）、权威核验后的最终答案和各方答案测评，生成可打开、可审计、可迁移的阶段产物与完整报告包。
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [bash-scripting](../skills/testing/automation/bash_scripting/bash-scripting/SKILL.md) — Use this skill to bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
@@ -4151,6 +4152,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [fact-check-x-complete](../skills/ai-engineering/models/fact_check_x_complet/fact-check-x-complete/SKILL.md) — Use this skill to design, implement, and operate production workflows for fact check x complete. Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.
 
+## Fact Check X Unified (1 skills)
+
+- [fact-check-x-unified](../skills/software-engineering/architecture/patterns/fact-check-x-unified/SKILL.md) — Use this skill to design, implement, and operate production workflows for fact check x unified. Fact-Check-X 流程编排能力，依次组织各方答案汇总、各方答案聚合（未核验）、权威核验后的最终答案和各方答案测评，生成可打开、可审计、可迁移的阶段产物与完整报告包。
+
 ## FastAPI (19 skills)
 
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
@@ -5211,7 +5216,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (872 skills)
+## Python (873 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6064,6 +6069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [event-staffing-compliance](../skills/software-engineering/architecture/patterns/event-staffing-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for event staffing compliance. Assess worker-classification and compliance risk for temporary event staffing in the US and Canada — W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP.
 - [evolution](../skills/software-engineering/architecture/patterns/evolution/SKILL.md) — Use this skill to design, implement, and operate production workflows for evolution. This skill enables makepad-skills to self-improve continuously during development.
 - [executing-plans](../skills/software-engineering/architecture/patterns/executing-plans/SKILL.md) — Use this skill to design, implement, and operate production workflows for executing plans. Use when you have a written implementation plan to execute in a separate session with review checkpoints
+- [fact-check-x-unified](../skills/software-engineering/architecture/patterns/fact-check-x-unified/SKILL.md) — Use this skill to design, implement, and operate production workflows for fact check x unified. Fact-Check-X 流程编排能力，依次组织各方答案汇总、各方答案聚合（未核验）、权威核验后的最终答案和各方答案测评，生成可打开、可审计、可迁移的阶段产物与完整报告包。
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.

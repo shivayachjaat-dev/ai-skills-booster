@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **97 skills** available in this category.
+> **98 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -100,4 +100,5 @@
 | [event-staffing-compliance](../../skills/software-engineering/architecture/patterns/event-staffing-compliance/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for event staffing compliance. Assess worker-classification and compliance risk for temporary event staffing in the US and Canada — W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP. |
 | [evolution](../../skills/software-engineering/architecture/patterns/evolution/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for evolution. This skill enables makepad-skills to self-improve continuously during development. |
 | [executing-plans](../../skills/software-engineering/architecture/patterns/executing-plans/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for executing plans. Use when you have a written implementation plan to execute in a separate session with review checkpoints |
+| [fact-check-x-unified](../../skills/software-engineering/architecture/patterns/fact-check-x-unified/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fact check x unified. Fact-Check-X 流程编排能力，依次组织各方答案汇总、各方答案聚合（未核验）、权威核验后的最终答案和各方答案测评，生成可打开、可审计、可迁移的阶段产物与完整报告包。 |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

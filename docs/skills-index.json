@@ -20969,6 +20969,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fact-check-x-unified",
+    "path": "skills/software-engineering/architecture/patterns/fact-check-x-unified",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for fact check x unified. Fact-Check-X \u6d41\u7a0b\u7f16\u6392\u80fd\u529b\uff0c\u4f9d\u6b21\u7ec4\u7ec7\u5404\u65b9\u7b54\u6848\u6c47\u603b\u3001\u5404\u65b9\u7b54\u6848\u805a\u5408\uff08\u672a\u6838\u9a8c\uff09\u3001\u6743\u5a01\u6838\u9a8c\u540e\u7684\u6700\u7ec8\u7b54\u6848\u548c\u5404\u65b9\u7b54\u6848\u6d4b\u8bc4\uff0c\u751f\u6210\u53ef\u6253\u5f00\u3001\u53ef\u5ba1\u8ba1\u3001\u53ef\u8fc1\u79fb\u7684\u9636\u6bb5\u4ea7\u7269\u4e0e\u5b8c\u6574\u62a5\u544a\u5305\u3002",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "fact",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fact Check X Unified",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
