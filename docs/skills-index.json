@@ -564,6 +564,31 @@
     "maturity": "stable"
   },
   {
+    "name": "zero-trust-network-architecture",
+    "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
+    "domain": "security",
+    "category": "architecture",
+    "subcategory": "zero-trust",
+    "description": "Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.",
+    "tags": [
+      "security",
+      "zero-trust",
+      "ztna",
+      "mtls",
+      "network-security",
+      "cloud-security"
+    ],
+    "technologies": [
+      "mTLS",
+      "SPIFFE/SPIRE",
+      "Istio",
+      "WireGuard",
+      "OIDC"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",

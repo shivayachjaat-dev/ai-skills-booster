@@ -35,7 +35,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.728311+00:00"
+    "updated_at": "2026-10-02T13:58:44.307082+00:00"
   },
   {
     "name": "agent-project-memory",
@@ -71,7 +71,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.728311+00:00"
+    "updated_at": "2026-10-02T13:58:44.307082+00:00"
   },
   {
     "name": "context-window-engineering",
@@ -106,7 +106,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.728311+00:00"
+    "updated_at": "2026-10-02T13:58:44.308081+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -143,7 +143,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.728311+00:00"
+    "updated_at": "2026-10-02T13:58:44.308081+00:00"
   },
   {
     "name": "api-rate-limiting-and-throttling",
@@ -182,7 +182,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.728311+00:00"
+    "updated_at": "2026-10-02T13:58:44.308081+00:00"
   },
   {
     "name": "fastapi-async-api-design",
@@ -222,7 +222,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.730316+00:00"
+    "updated_at": "2026-10-02T13:58:44.309081+00:00"
   },
   {
     "name": "graphql-schema-evolution",
@@ -262,7 +262,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.730316+00:00"
+    "updated_at": "2026-10-02T13:58:44.309081+00:00"
   },
   {
     "name": "grpc-service-implementation",
@@ -304,7 +304,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.730316+00:00"
+    "updated_at": "2026-10-02T13:58:44.309081+00:00"
   },
   {
     "name": "kafka-event-driven-architecture",
@@ -342,7 +342,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.730316+00:00"
+    "updated_at": "2026-10-02T13:58:44.310080+00:00"
   },
   {
     "name": "websocket-realtime-communication",
@@ -382,7 +382,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.730316+00:00"
+    "updated_at": "2026-10-02T13:58:44.310080+00:00"
   },
   {
     "name": "polars-high-throughput-data-pipeline",
@@ -420,7 +420,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.732322+00:00"
+    "updated_at": "2026-10-02T13:58:44.311081+00:00"
   },
   {
     "name": "ab-test-experiment-design",
@@ -458,7 +458,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.732322+00:00"
+    "updated_at": "2026-10-02T13:58:44.311081+00:00"
   },
   {
     "name": "database-migration-safety",
@@ -497,7 +497,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.732322+00:00"
+    "updated_at": "2026-10-02T13:58:44.311081+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -533,7 +533,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.732322+00:00"
+    "updated_at": "2026-10-02T13:58:44.312081+00:00"
   },
   {
     "name": "redis-caching-patterns",
@@ -571,7 +571,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.732322+00:00"
+    "updated_at": "2026-10-02T13:58:44.312081+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -608,7 +608,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.734327+00:00"
+    "updated_at": "2026-10-02T13:58:44.313081+00:00"
   },
   {
     "name": "terraform-infrastructure-as-code",
@@ -648,7 +648,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.734327+00:00"
+    "updated_at": "2026-10-02T13:58:44.313081+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -685,7 +685,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.734327+00:00"
+    "updated_at": "2026-10-02T13:58:44.313081+00:00"
   },
   {
     "name": "wcag-accessibility-audit",
@@ -725,7 +725,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.734327+00:00"
+    "updated_at": "2026-10-02T13:58:44.314081+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -763,7 +763,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.734327+00:00"
+    "updated_at": "2026-10-02T13:58:44.314081+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -801,7 +801,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.736333+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "skill-creator",
@@ -837,7 +837,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.736333+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "prompt-injection-defense",
@@ -872,7 +872,45 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.736333+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
+  },
+  {
+    "name": "zero-trust-network-architecture",
+    "slug": "zero-trust-network-architecture",
+    "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
+    "domain": "security",
+    "category": "architecture",
+    "subcategory": "zero-trust",
+    "description": "Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.",
+    "tags": [
+      "security",
+      "zero-trust",
+      "ztna",
+      "mtls",
+      "network-security",
+      "cloud-security"
+    ],
+    "technologies": [
+      "mTLS",
+      "SPIFFE/SPIRE",
+      "Istio",
+      "WireGuard",
+      "OIDC"
+    ],
+    "complexity": "expert",
+    "maturity": "stable",
+    "tools": [
+      "openssl",
+      "curl"
+    ],
+    "dependencies": [
+      "openssl >= 1.1.1"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "oauth2-jwt-authentication-flow",
@@ -914,7 +952,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.736333+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -950,7 +988,7 @@
     "has_evals": true,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.736333+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "secret-leak-detection-and-remediation",
@@ -988,7 +1026,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.738337+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -1026,7 +1064,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.738337+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "debugging-and-error-recovery",
@@ -1064,7 +1102,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.738337+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "legacy-system-strangler-migration",
@@ -1102,7 +1140,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.738337+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "code-simplification",
@@ -1137,7 +1175,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.738337+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "playwright-e2e-testing",
@@ -1175,7 +1213,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.738337+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   },
   {
     "name": "k6-api-load-testing",
@@ -1213,6 +1251,6 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:57:01.740341+00:00"
+    "updated_at": "2026-10-02T13:58:44.314828+00:00"
   }
 ]

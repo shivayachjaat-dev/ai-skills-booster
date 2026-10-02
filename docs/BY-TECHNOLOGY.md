@@ -126,6 +126,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
 
+## Istio (1 skills)
+
+- [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
+
 ## JSON (2 skills)
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
@@ -198,6 +202,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## OAuth 2.1 (1 skills)
 
 - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
+
+## OIDC (1 skills)
+
+- [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
 
 ## OpenAI (1 skills)
 
@@ -295,6 +303,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 
+## SPIFFE/SPIRE (1 skills)
+
+- [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
+
 ## SQL (4 skills)
 
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
@@ -365,6 +377,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
 
+## WireGuard (1 skills)
+
+- [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
+
 ## YAML (1 skills)
 
 - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
@@ -384,6 +400,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## kubectl (1 skills)
 
 - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
+
+## mTLS (1 skills)
+
+- [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
 
 ## pg_stat_statements (1 skills)
 
