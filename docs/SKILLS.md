@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 695 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 696 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -375,6 +375,7 @@
 | [competitor-tracking](skills/developer-tools/productivity/competitor_tracking/competitor-tracking/SKILL.md) | `developer-tools` | `productivity` | `competitor_tracking` | `advanced` | `stable` | Use this skill to systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors. |
 | [confluence-automation](skills/developer-tools/productivity/confluence_automatio/confluence-automation/SKILL.md) | `developer-tools` | `productivity` | `confluence_automatio` | `advanced` | `stable` | Use this skill to automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas. |
 | [convertkit-automation](skills/developer-tools/productivity/convertkit_automatio/convertkit-automation/SKILL.md) | `developer-tools` | `productivity` | `convertkit_automatio` | `advanced` | `stable` | Use this skill to automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas. |
+| [debugging-strategies](skills/developer-tools/productivity/debugging_strategies/debugging-strategies/SKILL.md) | `developer-tools` | `productivity` | `debugging_strategies` | `advanced` | `stable` | Use this skill to transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches. |
 | [agents-md-repository-context-specification](skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) | `developer-tools` | `repository-specs` | `agents-md` | `intermediate` | `stable` | Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants. |
 | [multi-language-api-sdk-code-generator](skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) | `developer-tools` | `sdk-generation` | `openapi-generator` | `advanced` | `stable` | Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning. |
 | [aws-cost-optimization](skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) | `devops` | `ci-cd` | `aws_cost_optimizatio` | `advanced` | `stable` | Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning, |

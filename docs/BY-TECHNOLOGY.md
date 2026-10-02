@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (513 skills)
+## Bash (514 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1339,6 +1339,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [competitor-tracking](../skills/developer-tools/productivity/competitor_tracking/competitor-tracking/SKILL.md) — Use this skill to systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors.
 - [confluence-automation](../skills/developer-tools/productivity/confluence_automatio/confluence-automation/SKILL.md) — Use this skill to automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas.
 - [convertkit-automation](../skills/developer-tools/productivity/convertkit_automatio/convertkit-automation/SKILL.md) — Use this skill to automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas.
+- [debugging-strategies](../skills/developer-tools/productivity/debugging_strategies/debugging-strategies/SKILL.md) — Use this skill to transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,
 - [aws-s3](../skills/devops/ci-cd/aws_s3/aws-s3/SKILL.md) — Use this skill to configure S3 buckets, policies, and lifecycle rules. Implement versioning,
 - [aws-vpc](../skills/devops/ci-cd/aws_vpc/aws-vpc/SKILL.md) — Use this skill to design and implement VPCs and networking. Configure subnets, route tables,
@@ -3000,6 +3001,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [debugging-code](../skills/ai-engineering/models/debugging_code/debugging-code/SKILL.md) — Use this skill to interactively debug source code — set breakpoints, step through execution line by line, inspect live variable state, evaluate expressions against the running program, and navigate the call stack to trace root causes.
 
+## Debugging Strategies (1 skills)
+
+- [debugging-strategies](../skills/developer-tools/productivity/debugging_strategies/debugging-strategies/SKILL.md) — Use this skill to transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.
+
 ## DeepEval (1 skills)
 
 - [deepeval-unit-testing-llm-apps](../skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps/SKILL.md) — Use this skill when designing, authoring, and automating CI/CD unit testing suites for Large Language Model applications using DeepEval. It guides the agent through defining LLM test cases (LLMTestCase), configuring G-Eval custom criteria metrics, hallucination and answer relevancy scoring, integrating with pytest, and setting regression assertions.
@@ -4062,7 +4067,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (616 skills)
+## Python (617 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4413,6 +4418,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [competitor-tracking](../skills/developer-tools/productivity/competitor_tracking/competitor-tracking/SKILL.md) — Use this skill to systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors.
 - [confluence-automation](../skills/developer-tools/productivity/confluence_automatio/confluence-automation/SKILL.md) — Use this skill to automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas.
 - [convertkit-automation](../skills/developer-tools/productivity/convertkit_automatio/convertkit-automation/SKILL.md) — Use this skill to automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas.
+- [debugging-strategies](../skills/developer-tools/productivity/debugging_strategies/debugging-strategies/SKILL.md) — Use this skill to transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,

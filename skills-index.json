@@ -8441,6 +8441,28 @@
     "maturity": "stable"
   },
   {
+    "name": "debugging-strategies",
+    "path": "skills/developer-tools/productivity/debugging_strategies/debugging-strategies",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "debugging_strategies",
+    "description": "Use this skill to transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "debugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Debugging Strategies",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

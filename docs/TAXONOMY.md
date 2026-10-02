@@ -433,7 +433,8 @@ AI_Skills_Booster/
 │   │   ├── coda_automation/ (1 skills)
 │   │   ├── competitor_tracking/ (1 skills)
 │   │   ├── confluence_automatio/ (1 skills)
-│   │   └── convertkit_automatio/ (1 skills)
+│   │   ├── convertkit_automatio/ (1 skills)
+│   │   └── debugging_strategies/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/

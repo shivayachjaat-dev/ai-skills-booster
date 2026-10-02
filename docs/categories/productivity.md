@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,3 +15,4 @@
 | [competitor-tracking](../../skills/developer-tools/productivity/competitor_tracking/competitor-tracking/SKILL.md) | `competitor_tracking` | `advanced` | `stable` | Use this skill to systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors. |
 | [confluence-automation](../../skills/developer-tools/productivity/confluence_automatio/confluence-automation/SKILL.md) | `confluence_automatio` | `advanced` | `stable` | Use this skill to automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas. |
 | [convertkit-automation](../../skills/developer-tools/productivity/convertkit_automatio/convertkit-automation/SKILL.md) | `convertkit_automatio` | `advanced` | `stable` | Use this skill to automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas. |
+| [debugging-strategies](../../skills/developer-tools/productivity/debugging_strategies/debugging-strategies/SKILL.md) | `debugging_strategies` | `advanced` | `stable` | Use this skill to transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches. |
