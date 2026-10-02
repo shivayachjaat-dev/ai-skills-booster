@@ -34,7 +34,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:21.802328+00:00"
+    "updated_at": "2026-10-02T13:15:25.619879+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -72,7 +72,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:21.802328+00:00"
+    "updated_at": "2026-10-02T13:15:25.621626+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -111,7 +111,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:21.802328+00:00"
+    "updated_at": "2026-10-02T13:15:25.621626+00:00"
   },
   {
     "name": "skill-creator",
@@ -148,7 +148,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:21.802328+00:00"
+    "updated_at": "2026-10-02T13:15:25.621626+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -185,6 +185,45 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:21.802328+00:00"
+    "updated_at": "2026-10-02T13:15:25.621626+00:00"
+  },
+  {
+    "name": "api-and-interface-design",
+    "slug": "api-and-interface-design",
+    "path": "skills/software-engineering/architecture/interfaces/api-and-interface-design",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "interfaces",
+    "description": "Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.",
+    "tags": [
+      "api-design",
+      "architecture",
+      "interface-contracts",
+      "rest",
+      "graphql",
+      "typescript"
+    ],
+    "technologies": [
+      "REST",
+      "GraphQL",
+      "TypeScript",
+      "OpenAPI",
+      "JSON Schema"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "tsc",
+      "curl"
+    ],
+    "dependencies": [
+      "typescript >= 4.5"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "source": "AI_Skills_Booster",
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:15:25.621626+00:00"
   }
 ]

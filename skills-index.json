@@ -114,5 +114,30 @@
     ],
     "complexity": "advanced",
     "maturity": "stable"
+  },
+  {
+    "name": "api-and-interface-design",
+    "path": "skills/software-engineering/architecture/interfaces/api-and-interface-design",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "interfaces",
+    "description": "Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.",
+    "tags": [
+      "api-design",
+      "architecture",
+      "interface-contracts",
+      "rest",
+      "graphql",
+      "typescript"
+    ],
+    "technologies": [
+      "REST",
+      "GraphQL",
+      "TypeScript",
+      "OpenAPI",
+      "JSON Schema"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
   }
 ]

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **5** skills across structured domains, categories, and subcategories.
+Master navigation for **6** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (2 skills)
 
@@ -39,3 +39,11 @@ Category index: [`docs/categories/code-review.md`](categories/code-review.md)
 
 - **Github** (1):
   - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
+
+## Software Engineering (1 skills)
+
+### Architecture (1 skills)
+Category index: [`docs/categories/architecture.md`](categories/architecture.md)
+
+- **Interfaces** (1):
+  - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.

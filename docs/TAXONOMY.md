@@ -16,4 +16,7 @@ AI_Skills_Booster/
 ├── security/
 │   └── code-review/
 │   │   └── github/ (1 skills)
+├── software-engineering/
+│   └── architecture/
+│   │   └── interfaces/ (1 skills)
 ```
