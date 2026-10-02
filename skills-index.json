@@ -14479,6 +14479,28 @@
     "maturity": "stable"
   },
   {
+    "name": "customs-trade-compliance",
+    "path": "skills/software-engineering/architecture/patterns/customs-trade-compliance",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "customs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Customs Trade Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
