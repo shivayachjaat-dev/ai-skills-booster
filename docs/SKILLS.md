@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 748 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 749 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -721,6 +721,7 @@
 | [crossframe](skills/software-engineering/architecture/patterns/crossframe/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to use when the user explicitly invokes CrossFrame or 跨尺度结构诊断 for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution. |
 | [crossframe-critical](skills/software-engineering/architecture/patterns/crossframe-critical/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to use only when the user explicitly names crossframe-critical for a Chinese structural critique dossier, article plan, or long-form critical essay. |
 | [crossframe-essay](skills/software-engineering/architecture/patterns/crossframe-essay/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to use when explicit CrossFrame work needs a Chinese critical insight essay, commentary, concept essay, public piece, or structure-to-article draft after diagnosis. |
+| [customer-psychographic-profiler](skills/software-engineering/architecture/patterns/customer-psychographic-profiler/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for customer psychographic profiler. One sentence - what this skill does and when to invoke it |
 | [customer-research](skills/software-engineering/architecture/patterns/customer-research/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to when the user wants to conduct, analyze, or synthesize customer research. |
 | [customs-trade-compliance](skills/software-engineering/architecture/patterns/customs-trade-compliance/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions. |
 | [cv-generator](skills/software-engineering/architecture/patterns/cv-generator/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to generate professional, ATS-optimized CVs for FlowCV, Canva, Google Docs, or Word. Handles multi-source merging, JD targeting, seniority adaptation, and humanized rewriting. Outputs paste-ready text with an ATS flaw report and improvement suggestions. |

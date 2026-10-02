@@ -1053,7 +1053,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (566 skills)
+## Bash (567 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1603,6 +1603,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [crossframe](../skills/software-engineering/architecture/patterns/crossframe/SKILL.md) — Use this skill to use when the user explicitly invokes CrossFrame or 跨尺度结构诊断 for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution.
 - [crossframe-critical](../skills/software-engineering/architecture/patterns/crossframe-critical/SKILL.md) — Use this skill to use only when the user explicitly names crossframe-critical for a Chinese structural critique dossier, article plan, or long-form critical essay.
 - [crossframe-essay](../skills/software-engineering/architecture/patterns/crossframe-essay/SKILL.md) — Use this skill to use when explicit CrossFrame work needs a Chinese critical insight essay, commentary, concept essay, public piece, or structure-to-article draft after diagnosis.
+- [customer-psychographic-profiler](../skills/software-engineering/architecture/patterns/customer-psychographic-profiler/SKILL.md) — Use this skill to design, implement, and operate production workflows for customer psychographic profiler. One sentence - what this skill does and when to invoke it
 - [customer-research](../skills/software-engineering/architecture/patterns/customer-research/SKILL.md) — Use this skill to when the user wants to conduct, analyze, or synthesize customer research.
 - [customs-trade-compliance](../skills/software-engineering/architecture/patterns/customs-trade-compliance/SKILL.md) — Use this skill to codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions.
 - [cv-generator](../skills/software-engineering/architecture/patterns/cv-generator/SKILL.md) — Use this skill to generate professional, ATS-optimized CVs for FlowCV, Canva, Google Docs, or Word. Handles multi-source merging, JD targeting, seniority adaptation, and humanized rewriting. Outputs paste-ready text with an ATS flaw report and improvement suggestions.
@@ -2867,6 +2868,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Culture Retention (1 skills)
 
 - [culture-retention](../skills/business/operations/culture_retention/culture-retention/SKILL.md) — Use this skill to employee survey and retention register: engagement, growth, happiness, work-life balance and manager-relationship scores, key concern and retention risk. Use for culture surveys.
+
+## Customer Psychographic Profiler (1 skills)
+
+- [customer-psychographic-profiler](../skills/software-engineering/architecture/patterns/customer-psychographic-profiler/SKILL.md) — Use this skill to design, implement, and operate production workflows for customer psychographic profiler. One sentence - what this skill does and when to invoke it
 
 ## Customer Research (1 skills)
 
@@ -4259,7 +4264,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (669 skills)
+## Python (670 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4903,6 +4908,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [crossframe](../skills/software-engineering/architecture/patterns/crossframe/SKILL.md) — Use this skill to use when the user explicitly invokes CrossFrame or 跨尺度结构诊断 for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution.
 - [crossframe-critical](../skills/software-engineering/architecture/patterns/crossframe-critical/SKILL.md) — Use this skill to use only when the user explicitly names crossframe-critical for a Chinese structural critique dossier, article plan, or long-form critical essay.
 - [crossframe-essay](../skills/software-engineering/architecture/patterns/crossframe-essay/SKILL.md) — Use this skill to use when explicit CrossFrame work needs a Chinese critical insight essay, commentary, concept essay, public piece, or structure-to-article draft after diagnosis.
+- [customer-psychographic-profiler](../skills/software-engineering/architecture/patterns/customer-psychographic-profiler/SKILL.md) — Use this skill to design, implement, and operate production workflows for customer psychographic profiler. One sentence - what this skill does and when to invoke it
 - [customer-research](../skills/software-engineering/architecture/patterns/customer-research/SKILL.md) — Use this skill to when the user wants to conduct, analyze, or synthesize customer research.
 - [customs-trade-compliance](../skills/software-engineering/architecture/patterns/customs-trade-compliance/SKILL.md) — Use this skill to codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions.
 - [cv-generator](../skills/software-engineering/architecture/patterns/cv-generator/SKILL.md) — Use this skill to generate professional, ATS-optimized CVs for FlowCV, Canva, Google Docs, or Word. Handles multi-source merging, JD targeting, seniority adaptation, and humanized rewriting. Outputs paste-ready text with an ATS flaw report and improvement suggestions.

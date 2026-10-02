@@ -16371,6 +16371,28 @@
     "maturity": "stable"
   },
   {
+    "name": "customer-psychographic-profiler",
+    "path": "skills/software-engineering/architecture/patterns/customer-psychographic-profiler",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for customer psychographic profiler. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "customer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Customer Psychographic Profiler",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "customer-research",
     "path": "skills/software-engineering/architecture/patterns/customer-research",
     "domain": "software-engineering",
