@@ -11461,6 +11461,28 @@
     "maturity": "stable"
   },
   {
+    "name": "feature-flags",
+    "path": "skills/devops/ci-cd/feature_flags/feature-flags",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "feature_flags",
+    "description": "Use this skill to design, implement, and operate production workflows for feature flags. Implement feature flags for progressive feature rollout using LaunchDarkly,",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "feature",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Feature Flags",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
