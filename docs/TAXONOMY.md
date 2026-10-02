@@ -52,6 +52,7 @@ AI_Skills_Booster/
 │   │   ├── ios_debugger_agent/ (1 skills)
 │   │   ├── jenkins/ (1 skills)
 │   │   ├── jev_use/ (1 skills)
+│   │   ├── kimi_delegate/ (1 skills)
 │   │   ├── lintlang_audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)

@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **57 skills** available in this category.
+> **58 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -52,6 +52,7 @@
 | [ios-debugger-agent](../../skills/ai-engineering/agents/ios_debugger_agent/ios-debugger-agent/SKILL.md) | `ios_debugger_agent` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ios debugger agent. Debug the current iOS project on a booted simulator with XcodeBuildMCP. |
 | [jenkins](../../skills/ai-engineering/agents/jenkins/jenkins/SKILL.md) | `jenkins` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for jenkins. Create and manage Jenkins CI/CD pipelines, configure agents, manage plugins, |
 | [jev-use](../../skills/ai-engineering/agents/jev_use/jev-use/SKILL.md) | `jev_use` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for jev use. Route enumerable judgment steps - did it work, which option, how risky, is this safe to run - to the Jev judgment model through the jev_judge and jev_gate MCP tools, batched into one call per state. |
+| [kimi-delegate](../../skills/ai-engineering/agents/kimi_delegate/kimi-delegate/SKILL.md) | `kimi_delegate` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kimi delegate. Delegate coding tasks to the Kimi Code CLI (`kimi`) only when the user |
 | [lintlang-audit](../../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) | `lintlang_audit` | `advanced` | `stable` | Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files. |
 | [agent-project-memory](../../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) | `memory` | `advanced` | `stable` | Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects. |
 | [agent-memory-recall-and-retention-discipline](../../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) | `memory-discipline` | `advanced` | `stable` | Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences. |

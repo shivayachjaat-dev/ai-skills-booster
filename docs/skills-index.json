@@ -1075,6 +1075,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kimi-delegate",
+    "path": "skills/ai-engineering/agents/kimi_delegate/kimi-delegate",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "kimi_delegate",
+    "description": "Use this skill to design, implement, and operate production workflows for kimi delegate. Delegate coding tasks to the Kimi Code CLI (`kimi`) only when the user",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "kimi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kimi Delegate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",
