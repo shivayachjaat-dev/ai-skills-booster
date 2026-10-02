@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **935** skills across structured domains, categories, and subcategories.
+Master navigation for **936** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (326 skills)
 
@@ -1451,7 +1451,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (166 skills)
+## Frontend (167 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1539,7 +1539,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
-### Ui Ux (86 skills)
+### Ui Ux (87 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1708,6 +1708,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [esop-equity-tracker](../skills/frontend/ui-ux/esop_equity_tracker/esop-equity-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for esop equity tracker. ESOP and equity grant register: grant date, shares granted, strike price, vesting start, schedule and cliff, plus vested and exercised shares. Use for equity tracking.
 - **Event_Store_Design** (1):
   - [event-store-design](../skills/frontend/ui-ux/event_store_design/event-store-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for event store design. Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns.
+- **Expo_Animation** (1):
+  - [expo-animation](../skills/frontend/ui-ux/expo_animation/expo-animation/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo animation. Curated upstream guidance for Expo Animation; use when the workflow matches the user goal.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

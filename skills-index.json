@@ -14821,6 +14821,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-animation",
+    "path": "skills/frontend/ui-ux/expo_animation/expo-animation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "expo_animation",
+    "description": "Use this skill to design, implement, and operate production workflows for expo animation. Curated upstream guidance for Expo Animation; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Animation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
