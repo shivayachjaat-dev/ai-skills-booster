@@ -11389,6 +11389,28 @@
     "maturity": "stable"
   },
   {
+    "name": "design-taste-frontend",
+    "path": "skills/frontend/ui-development/design_taste_fronten/design-taste-frontend",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "design_taste_fronten",
+    "description": "Use this skill to design, implement, and operate production workflows for design taste frontend. Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "design",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Design Taste Frontend",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

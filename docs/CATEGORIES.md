@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **809** skills across structured domains, categories, and subcategories.
+Master navigation for **810** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (278 skills)
 
@@ -1313,7 +1313,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (137 skills)
+## Frontend (138 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1383,7 +1383,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-### Ui Development (3 skills)
+### Ui Development (4 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -1392,6 +1392,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 - **Design_It** (1):
   - [design-it](../skills/frontend/ui-development/design_it/design-it/SKILL.md) — Use this skill to design, implement, and operate production workflows for design it. Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic.
+- **Design_Taste_Fronten** (1):
+  - [design-taste-frontend](../skills/frontend/ui-development/design_taste_fronten/design-taste-frontend/SKILL.md) — Use this skill to design, implement, and operate production workflows for design taste frontend. Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.
 
 ### Ui Ux (63 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
