@@ -10709,6 +10709,28 @@
     "maturity": "stable"
   },
   {
+    "name": "minimalist-ui",
+    "path": "skills/ai-engineering/models/minimalist_ui/minimalist-ui",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "minimalist_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for minimalist ui. Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "minimalist",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Minimalist Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
