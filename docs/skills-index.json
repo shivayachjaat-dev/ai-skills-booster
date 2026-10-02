@@ -9257,6 +9257,28 @@
     "maturity": "stable"
   },
   {
+    "name": "landing-page-generator",
+    "path": "skills/ai-engineering/models/landing_page_generat/landing-page-generator",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "landing_page_generat",
+    "description": "Use this skill to design, implement, and operate production workflows for landing page generator. Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "landing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Landing Page Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

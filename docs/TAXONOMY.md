@@ -423,6 +423,7 @@ AI_Skills_Booster/
 │   │   ├── kubernetes_deploymen/ (1 skills)
 │   │   ├── kubestellar_console/ (1 skills)
 │   │   ├── lambda_lang/ (1 skills)
+│   │   ├── landing_page_generat/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
