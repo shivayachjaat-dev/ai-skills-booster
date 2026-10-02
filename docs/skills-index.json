@@ -22684,6 +22684,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-nextjs",
+    "path": "skills/security/appsec/hunt_nextjs/hunt-nextjs",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_nextjs",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt nextjs. Hunt Next.js specific vulnerabilities",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Nextjs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
