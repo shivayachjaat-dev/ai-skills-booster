@@ -9431,6 +9431,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-showcase-core-components",
+    "path": "skills/frontend/ui-ux/code_showcase_core_c/code-showcase-core-components",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "code_showcase_core_c",
+    "description": "Use this skill to core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Showcase Core Components",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

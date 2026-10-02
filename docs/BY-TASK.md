@@ -2,7 +2,7 @@
 
 Find the exact agent skill according to what task you need completed.
 
-## Build & Create (230 skills)
+## Build & Create (231 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering/agents`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — `ai-engineering/agents`: Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -182,6 +182,7 @@ Find the exact agent skill according to what task you need completed.
 - [chrome-extension-developer](../skills/frontend/ui-ux/chrome_extension_dev/chrome-extension-developer/SKILL.md) — `frontend/ui-ux`: Use this skill to expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication.
 - [ci-cd-and-automation](../skills/frontend/ui-ux/ci_cd_and_automation/ci-cd-and-automation/SKILL.md) — `frontend/ui-ux`: Use this skill to automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.
 - [cloudflare-workers](../skills/frontend/ui-ux/cloudflare_workers/cloudflare-workers/SKILL.md) — `frontend/ui-ux`: Use this skill to build and deploy edge functions with Cloudflare Workers and Wrangler.
+- [code-showcase-core-components](../skills/frontend/ui-ux/code_showcase_core_c/code-showcase-core-components/SKILL.md) — `frontend/ui-ux`: Use this skill to core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — `frontend/web-architecture`: Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — `frontend/web-architecture`: Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [brand-growth-system-builder](../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) — `frontend/web-architecture`: Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows.
