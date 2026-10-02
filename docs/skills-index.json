@@ -23983,6 +23983,28 @@
     "maturity": "stable"
   },
   {
+    "name": "git-pr-workflows-pr-enhance",
+    "path": "skills/software-engineering/architecture/patterns/git-pr-workflows-pr-enhance",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for git pr workflows pr enhance. You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensu",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "git",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Git Pr Workflows Pr Enhance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
