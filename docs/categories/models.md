@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **69 skills** available in this category.
+> **70 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -72,4 +72,5 @@
 | [azure-storage-blob-ts](../../skills/ai-engineering/models/azure_storage_blob_t/azure-storage-blob-ts/SKILL.md) | `azure_storage_blob_t` | `advanced` | `stable` | Use this skill to azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers. |
 | [azure-vms](../../skills/ai-engineering/models/azure_vms/azure-vms/SKILL.md) | `azure_vms` | `advanced` | `stable` | Use this skill to manage Azure Virtual Machines and scale sets. Configure availability |
 | [backend-dev-guidelines](../../skills/ai-engineering/models/backend_dev_guidelin/backend-dev-guidelines/SKILL.md) | `backend_dev_guidelin` | `advanced` | `stable` | Use this skill to you are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access. |
+| [bdi-mental-states](../../skills/ai-engineering/models/bdi_mental_states/bdi-mental-states/SKILL.md) | `bdi_mental_states` | `advanced` | `stable` | Use this skill to this skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transform RDF to beliefs", "build cognitive agent", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbol |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

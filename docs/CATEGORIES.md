@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **387** skills across structured domains, categories, and subcategories.
+Master navigation for **388** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (121 skills)
+## Ai Engineering (122 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -114,7 +114,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (69 skills)
+### Models (70 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -244,6 +244,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-vms](../skills/ai-engineering/models/azure_vms/azure-vms/SKILL.md) — Use this skill to manage Azure Virtual Machines and scale sets. Configure availability
 - **Backend_Dev_Guidelin** (1):
   - [backend-dev-guidelines](../skills/ai-engineering/models/backend_dev_guidelin/backend-dev-guidelines/SKILL.md) — Use this skill to you are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access.
+- **Bdi_Mental_States** (1):
+  - [bdi-mental-states](../skills/ai-engineering/models/bdi_mental_states/bdi-mental-states/SKILL.md) — Use this skill to this skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transform RDF to beliefs", "build cognitive agent", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbol
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -107,6 +107,7 @@ AI_Skills_Booster/
 │   │   ├── azure_storage_blob_t/ (1 skills)
 │   │   ├── azure_vms/ (1 skills)
 │   │   ├── backend_dev_guidelin/ (1 skills)
+│   │   ├── bdi_mental_states/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

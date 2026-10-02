@@ -2305,6 +2305,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bdi-mental-states",
+    "path": "skills/ai-engineering/models/bdi_mental_states/bdi-mental-states",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "bdi_mental_states",
+    "description": "Use this skill to this skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbol",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "bdi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bdi Mental States",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
