@@ -9189,6 +9189,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cloud-penetration-testing",
+    "path": "skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "cloud_penetration_te",
+    "description": "Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "cloud",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cloud Penetration Testing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **520** skills across structured domains, categories, and subcategories.
+Master navigation for **521** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (176 skills)
 
@@ -1030,7 +1030,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (59 skills)
+## Frontend (60 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1176,7 +1176,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Claude_D3Js_Skill** (1):
   - [claude-d3js-skill](../skills/frontend/ui-ux/claude_d3js_skill/claude-d3js-skill/SKILL.md) — Use this skill to this skill provides guidance for creating sophisticated, interactive data visualisations using d3.js.
 
-### Web Architecture (9 skills)
+### Web Architecture (10 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **Antigravity_Design_E** (1):
@@ -1196,6 +1196,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [business-website-setup](../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) — Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.
 - **Client_Secret_Exposu** (1):
   - [client-secret-exposure-audit](../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) — Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig.
+- **Cloud_Penetration_Te** (1):
+  - [cloud-penetration-testing](../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) — Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).
 
 ## Marketing (8 skills)
 

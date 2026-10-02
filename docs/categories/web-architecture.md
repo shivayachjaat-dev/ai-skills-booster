@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,3 +13,4 @@
 | [burp-suite-testing](../../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) | `burp_suite_testing` | `advanced` | `stable` | Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows. |
 | [business-website-setup](../../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) | `business_website_set` | `advanced` | `stable` | Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews. |
 | [client-secret-exposure-audit](../../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) | `client_secret_exposu` | `advanced` | `stable` | Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig. |
+| [cloud-penetration-testing](../../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) | `cloud_penetration_te` | `advanced` | `stable` | Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP). |
