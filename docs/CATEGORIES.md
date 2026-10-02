@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,040** skills across structured domains, categories, and subcategories.
+Master navigation for **1,041** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (361 skills)
 
@@ -2124,7 +2124,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (89 skills)
+## Security (90 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2154,7 +2154,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (30 skills)
+### Appsec (31 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -2206,6 +2206,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [firewall-config](../skills/security/appsec/firewall_config/firewall-config/SKILL.md) — Use this skill to design, implement, and operate production workflows for firewall config. Configure iptables, nftables, and cloud firewalls. Implement network
 - **Firmware_Analyst** (1):
   - [firmware-analyst](../skills/security/appsec/firmware_analyst/firmware-analyst/SKILL.md) — Use this skill to design, implement, and operate production workflows for firmware analyst. Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
+- **Fsi_Compliance_Check** (1):
+  - [fsi-compliance-checker](../skills/security/appsec/fsi_compliance_check/fsi-compliance-checker/SKILL.md) — Use this skill to design, implement, and operate production workflows for fsi compliance checker. Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation.
 - **Gcp_Audit_Logs** (1):
   - [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
 - **Laravel_Security_Aud** (1):

@@ -19186,6 +19186,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fsi-compliance-checker",
+    "path": "skills/security/appsec/fsi_compliance_check/fsi-compliance-checker",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "fsi_compliance_check",
+    "description": "Use this skill to design, implement, and operate production workflows for fsi compliance checker. Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation.",
+    "tags": [
+      "security",
+      "appsec",
+      "fsi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fsi Compliance Checker",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gcp-audit-logs",
     "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
     "domain": "security",

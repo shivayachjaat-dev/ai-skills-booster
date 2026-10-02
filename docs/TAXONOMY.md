@@ -969,6 +969,7 @@ AI_Skills_Booster/
 │   │   ├── find_bugs/ (1 skills)
 │   │   ├── firewall_config/ (1 skills)
 │   │   ├── firmware_analyst/ (1 skills)
+│   │   ├── fsi_compliance_check/ (1 skills)
 │   │   ├── gcp_audit_logs/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
