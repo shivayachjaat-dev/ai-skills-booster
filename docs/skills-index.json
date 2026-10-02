@@ -13971,6 +13971,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nestjs-expert",
+    "path": "skills/backend/databases/nestjs_expert/nestjs-expert",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "nestjs_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for nestjs expert. You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems.",
+    "tags": [
+      "backend",
+      "databases",
+      "nestjs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nestjs Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
