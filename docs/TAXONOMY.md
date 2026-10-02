@@ -125,6 +125,7 @@ AI_Skills_Booster/
 │   │   ├── atlas_cloud_media/ (1 skills)
 │   │   ├── aws_mcp_setup/ (1 skills)
 │   │   ├── azure_keyvault_secre/ (1 skills)
+│   │   ├── azure_mgmt_apicenter/ (1 skills)
 │   │   └── fastapi-endpoints/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
