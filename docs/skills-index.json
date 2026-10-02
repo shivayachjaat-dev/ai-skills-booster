@@ -1953,6 +1953,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-communication-callautomation-java",
+    "path": "skills/ai-engineering/models/azure_communication_/azure-communication-callautomation-java",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_communication_",
+    "description": "Use this skill to build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Communication Callautomation Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

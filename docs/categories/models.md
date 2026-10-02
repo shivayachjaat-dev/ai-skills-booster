@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **55 skills** available in this category.
+> **56 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -58,4 +58,5 @@
 | [azure-ai-voicelive-java](../../skills/ai-engineering/models/azure_ai_voicelive_j/azure-ai-voicelive-java/SKILL.md) | `azure_ai_voicelive_j` | `advanced` | `stable` | Use this skill to azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket. |
 | [azure-ai-voicelive-py](../../skills/ai-engineering/models/azure_ai_voicelive_p/azure-ai-voicelive-py/SKILL.md) | `azure_ai_voicelive_p` | `advanced` | `stable` | Use this skill to build real-time voice AI applications with bidirectional WebSocket communication. |
 | [azure-ai-voicelive-ts](../../skills/ai-engineering/models/azure_ai_voicelive_t/azure-ai-voicelive-ts/SKILL.md) | `azure_ai_voicelive_t` | `advanced` | `stable` | Use this skill to azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication. |
+| [azure-communication-callautomation-java](../../skills/ai-engineering/models/azure_communication_/azure-communication-callautomation-java/SKILL.md) | `azure_communication_` | `advanced` | `stable` | Use this skill to build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
