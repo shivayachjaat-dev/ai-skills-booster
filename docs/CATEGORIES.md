@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,103** skills across structured domains, categories, and subcategories.
+Master navigation for **1,104** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (382 skills)
 
@@ -1297,7 +1297,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (26 skills)
+## Developer Tools (27 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1321,7 +1321,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Geo_Prospect** (1):
   - [geo-prospect](../skills/developer-tools/cli-utilities/geo_prospect/geo-prospect/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo prospect. CRM-lite for managing GEO agency prospects and clients.
 
-### Productivity (17 skills)
+### Productivity (18 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1358,6 +1358,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [figma-automation](../skills/developer-tools/productivity/figma_automation/figma-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for figma automation. Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas.
 - **Freshdesk_Automation** (1):
   - [freshdesk-automation](../skills/developer-tools/productivity/freshdesk_automation/freshdesk-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for freshdesk automation. Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas.
+- **Gitlab_Automation** (1):
+  - [gitlab-automation](../skills/developer-tools/productivity/gitlab_automation/gitlab-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitlab automation. Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio). Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

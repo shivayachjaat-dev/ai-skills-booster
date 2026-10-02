@@ -12159,6 +12159,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gitlab-automation",
+    "path": "skills/developer-tools/productivity/gitlab_automation/gitlab-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "gitlab_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for gitlab automation. Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "gitlab",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gitlab Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
