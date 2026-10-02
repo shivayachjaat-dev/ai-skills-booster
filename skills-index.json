@@ -15560,6 +15560,28 @@
     "maturity": "stable"
   },
   {
+    "name": "notification-reminder-hub",
+    "path": "skills/business/operations/notification_reminde/notification-reminder-hub",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "notification_reminde",
+    "description": "Use this skill to design, implement, and operate production workflows for notification reminder hub. Notification register: title, type, priority, recipient and department, message, linked record, trigger module, scheduled and sent dates and status. Use for reminder tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "notification",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Notification Reminder Hub",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
