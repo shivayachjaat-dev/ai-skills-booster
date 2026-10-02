@@ -16537,6 +16537,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mixpanel-automation",
+    "path": "skills/developer-tools/productivity/mixpanel_automation/mixpanel-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "mixpanel_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for mixpanel automation. Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "mixpanel",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mixpanel Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

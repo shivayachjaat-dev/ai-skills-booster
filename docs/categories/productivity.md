@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **27 skills** available in this category.
+> **28 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -31,3 +31,4 @@
 | [make-automation](../../skills/developer-tools/productivity/make_automation/make-automation/SKILL.md) | `make_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for make automation. Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas. |
 | [microsoft-teams-automation](../../skills/developer-tools/productivity/microsoft_teams_auto/microsoft-teams-automation/SKILL.md) | `microsoft_teams_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for microsoft teams automation. Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas. |
 | [miro-automation](../../skills/developer-tools/productivity/miro_automation/miro-automation/SKILL.md) | `miro_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas. |
+| [mixpanel-automation](../../skills/developer-tools/productivity/mixpanel_automation/mixpanel-automation/SKILL.md) | `mixpanel_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mixpanel automation. Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas. |
