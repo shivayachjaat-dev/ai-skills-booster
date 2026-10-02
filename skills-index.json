@@ -1118,6 +1118,32 @@
     "maturity": "stable"
   },
   {
+    "name": "container-vulnerability-scanning-trivy",
+    "path": "skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy",
+    "domain": "security",
+    "category": "vulnerability-scanning",
+    "subcategory": "trivy",
+    "description": "Use this skill when auditing, scanning, and enforcing security policies across container images, filesystems, and Software Bill of Materials (SBOM) using Aqua Security Trivy. It guides the agent through CI/CD gate automation, severity threshold enforcement (CRITICAL/HIGH), CVE filtering via .trivyignore, and generating CycloneDX SBOMs.",
+    "tags": [
+      "trivy",
+      "vulnerability-scanning",
+      "containers",
+      "security",
+      "sbom",
+      "cve",
+      "devsecops"
+    ],
+    "technologies": [
+      "Trivy",
+      "Docker",
+      "CycloneDX",
+      "GitHub Actions",
+      "SPDX"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "api-and-interface-design",
     "path": "skills/software-engineering/architecture/interfaces/api-and-interface-design",
     "domain": "software-engineering",

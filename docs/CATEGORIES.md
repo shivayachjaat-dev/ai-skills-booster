@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **53** skills across structured domains, categories, and subcategories.
+Master navigation for **54** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (7 skills)
 
@@ -229,7 +229,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (8 skills)
+## Security (9 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -278,6 +278,12 @@ Category index: [`docs/categories/secrets.md`](categories/secrets.md)
 
 - **Vault** (1):
   - [vault-secrets-management](../skills/security/secrets/vault/vault-secrets-management/SKILL.md) — Use this skill when architecting and managing enterprise secrets using HashiCorp Vault. It guides the agent through dynamic database credentials generation, lease management and renewal, Kubernetes ServiceAccount authentication, PKI on-demand certificate issuance, transit encryption, and disaster recovery replication.
+
+### Vulnerability Scanning (1 skills)
+Category index: [`docs/categories/vulnerability-scanning.md`](categories/vulnerability-scanning.md)
+
+- **Trivy** (1):
+  - [container-vulnerability-scanning-trivy](../skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy/SKILL.md) — Use this skill when auditing, scanning, and enforcing security policies across container images, filesystems, and Software Bill of Materials (SBOM) using Aqua Security Trivy. It guides the agent through CI/CD gate automation, severity threshold enforcement (CRITICAL/HIGH), CVE filtering via .trivyignore, and generating CycloneDX SBOMs.
 
 ## Software Engineering (5 skills)
 

@@ -96,8 +96,10 @@ AI_Skills_Booster/
 │   │   └── triage/ (1 skills)
 │   ├── secret-management/
 │   │   └── detection/ (1 skills)
-│   └── secrets/
+│   ├── secrets/
 │   │   └── vault/ (1 skills)
+│   └── vulnerability-scanning/
+│   │   └── trivy/ (1 skills)
 ├── software-engineering/
 │   ├── architecture/
 │   │   └── interfaces/ (1 skills)
