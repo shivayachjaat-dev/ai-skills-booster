@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1082 skills)
+## Bash (1083 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1556,6 +1556,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [graphql](../skills/data-analytics/data-pipelines/graphql/graphql/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql. GraphQL gives clients exactly the data they need - no more, no
 - [helium-mcp](../skills/data-analytics/data-pipelines/helium_mcp/helium-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for helium mcp. Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and semantic meme search across 3.2M+ articles and 5,000+ sources
 - [hugging-face-cli](../skills/data-analytics/data-pipelines/hugging_face_cli/hugging-face-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face cli. Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub.
+- [ida-reverse](../skills/data-analytics/data-pipelines/ida_reverse/ida-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for ida reverse. Reverse engineer binaries with IDA Pro: decompilation, disassembly, data-flow tracking, cross-references, and IDA MCP automation for deep static analysis of PE/ELF/Mach-O targets.
 - [chatexport-need-miner](../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) — Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
 - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
@@ -6039,6 +6040,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [iconsax-library](../skills/ai-engineering/models/iconsax_library/iconsax-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for iconsax library. Extensive icon library and AI-driven icon generation skill for premium UI/UX design.
 
+## Ida Reverse (1 skills)
+
+- [ida-reverse](../skills/data-analytics/data-pipelines/ida_reverse/ida-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for ida reverse. Reverse engineer binaries with IDA Pro: decompilation, disassembly, data-flow tracking, cross-references, and IDA MCP automation for deep static analysis of PE/ELF/Mach-O targets.
+
 ## Identity Governance (1 skills)
 
 - [privileged-access-and-admin-account-register](../skills/security/identity-governance/admin-register/privileged-access-and-admin-account-register/SKILL.md) — Use this skill when cataloging, auditing, and enforcing governance policies over privileged administrator accounts and break-glass emergency credentials across SaaS, cloud infrastructure, and internal systems. It guides the agent through structuring an Admin Access Register, enforcing mandatory MFA/WebAuthn, designated backup owners, and access justification logs.
@@ -6772,7 +6777,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1185 skills)
+## Python (1186 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7305,6 +7310,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [graphql](../skills/data-analytics/data-pipelines/graphql/graphql/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql. GraphQL gives clients exactly the data they need - no more, no
 - [helium-mcp](../skills/data-analytics/data-pipelines/helium_mcp/helium-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for helium mcp. Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and semantic meme search across 3.2M+ articles and 5,000+ sources
 - [hugging-face-cli](../skills/data-analytics/data-pipelines/hugging_face_cli/hugging-face-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face cli. Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub.
+- [ida-reverse](../skills/data-analytics/data-pipelines/ida_reverse/ida-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for ida reverse. Reverse engineer binaries with IDA Pro: decompilation, disassembly, data-flow tracking, cross-references, and IDA MCP automation for deep static analysis of PE/ELF/Mach-O targets.
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 - [airtable-api-data-sync-and-webhook-automation](../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) — Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.

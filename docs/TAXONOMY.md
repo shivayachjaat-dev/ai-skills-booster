@@ -583,6 +583,7 @@ AI_Skills_Booster/
 │   │   ├── graphql/ (1 skills)
 │   │   ├── helium_mcp/ (1 skills)
 │   │   ├── hugging_face_cli/ (1 skills)
+│   │   ├── ida_reverse/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)

@@ -12166,6 +12166,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ida-reverse",
+    "path": "skills/data-analytics/data-pipelines/ida_reverse/ida-reverse",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "ida_reverse",
+    "description": "Use this skill to design, implement, and operate production workflows for ida reverse. Reverse engineer binaries with IDA Pro: decompilation, disassembly, data-flow tracking, cross-references, and IDA MCP automation for deep static analysis of PE/ELF/Mach-O targets.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "ida",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ida Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",
