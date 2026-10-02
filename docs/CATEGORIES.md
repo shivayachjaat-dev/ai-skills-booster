@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **704** skills across structured domains, categories, and subcategories.
+Master navigation for **705** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (251 skills)
 
@@ -1259,7 +1259,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (87 skills)
+## Frontend (88 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1457,7 +1457,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Defi_Protocol_Templa** (1):
   - [defi-protocol-templates](../skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates/SKILL.md) — Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.
 
-### Web Architecture (11 skills)
+### Web Architecture (12 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **Antigravity_Design_E** (1):
@@ -1481,6 +1481,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [cloud-penetration-testing](../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) — Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).
 - **Comfyui_Gateway** (1):
   - [comfyui-gateway](../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) — Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).
+- **Defuddle** (1):
+  - [defuddle](../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) — Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.
 
 ## Marketing (8 skills)
 

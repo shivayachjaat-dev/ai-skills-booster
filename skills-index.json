@@ -12291,6 +12291,28 @@
     "maturity": "stable"
   },
   {
+    "name": "defuddle",
+    "path": "skills/frontend/web-architecture/defuddle/defuddle",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "defuddle",
+    "description": "Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "defuddle",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Defuddle",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",
