@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **59 skills** available in this category.
+> **60 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -62,4 +62,5 @@
 | [azure-communication-callingserver-java](../../skills/ai-engineering/models/azure_communication_/azure-communication-callingserver-java/SKILL.md) | `azure_communication_` | `advanced` | `stable` | Use this skill to ⚠️ DEPRECATED: This SDK has been renamed to Call Automation. For new projects, use azure-communication-callautomation instead. This skill is for maintaining legacy code only. |
 | [azure-containerregistry-py](../../skills/ai-engineering/models/azure_containerregis/azure-containerregistry-py/SKILL.md) | `azure_containerregis` | `advanced` | `stable` | Use this skill to azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories. |
 | [azure-cosmos-rust](../../skills/ai-engineering/models/azure_cosmos_rust/azure-cosmos-rust/SKILL.md) | `azure_cosmos_rust` | `advanced` | `stable` | Use this skill to azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data. |
+| [azure-cosmos-ts](../../skills/ai-engineering/models/azure_cosmos_ts/azure-cosmos-ts/SKILL.md) | `azure_cosmos_ts` | `advanced` | `stable` | Use this skill to azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
