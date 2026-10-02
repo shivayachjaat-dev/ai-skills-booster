@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **913** skills across structured domains, categories, and subcategories.
+Master navigation for **914** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (316 skills)
+## Ai Engineering (317 skills)
 
-### Agents (38 skills)
+### Agents (39 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -59,6 +59,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [ecl-harness-engineer](../skills/ai-engineering/agents/ecl_harness_engineer/ecl-harness-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for ecl harness engineer. Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs.
 - **Elon_Musk** (1):
   - [elon-musk](../skills/ai-engineering/agents/elon_musk/elon-musk/SKILL.md) — Use this skill to design, implement, and operate production workflows for elon musk. Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade. Ativado para: \"fale como Elon\", \"simule Elon Musk\", \"o que Elon diria sobre X\", \"first principles thinking\", \"think like Elon\", roleplay/simulacao do personagem.
+- **Error_Debugging_Mult** (1):
+  - [error-debugging-multi-agent-review](../skills/ai-engineering/agents/error_debugging_mult/error-debugging-multi-agent-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for error debugging multi agent review. Use when working with error debugging multi agent review
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):
