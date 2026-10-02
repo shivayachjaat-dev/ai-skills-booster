@@ -10628,6 +10628,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codebase-audit-pre-push",
+    "path": "skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "codebase_audit_pre_p",
+    "description": "Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.",
+    "tags": [
+      "security",
+      "appsec",
+      "codebase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codebase Audit Pre Push",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
