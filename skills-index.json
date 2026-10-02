@@ -14301,6 +14301,28 @@
     "maturity": "stable"
   },
   {
+    "name": "obsidian-bases",
+    "path": "skills/backend/databases/obsidian_bases/obsidian-bases",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "obsidian_bases",
+    "description": "Use this skill to design, implement, and operate production workflows for obsidian bases. Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.",
+    "tags": [
+      "backend",
+      "databases",
+      "obsidian",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Obsidian Bases",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
