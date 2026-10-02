@@ -10687,6 +10687,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mesh-memory",
+    "path": "skills/ai-engineering/models/mesh_memory/mesh-memory",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "mesh_memory",
+    "description": "Use this skill to design, implement, and operate production workflows for mesh memory. Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessions by meaning, not keyword. Postgres + pgvector with auto-tagging.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "mesh",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mesh Memory",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

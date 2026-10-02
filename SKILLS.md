@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,510 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,511 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -486,6 +486,7 @@
 | [memory-systems](skills/ai-engineering/models/memory_systems/memory-systems/SKILL.md) | `ai-engineering` | `models` | `memory_systems` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for memory systems. Design short-term, long-term, and graph-based memory architectures. Use when building agents that must persist across sessions, needing to maintain entity consistency across conversations, or implementing reasoning over accumulated knowledge. |
 | [mentorship-program](skills/ai-engineering/models/mentorship_program/mentorship-program/SKILL.md) | `ai-engineering` | `models` | `mentorship_program` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mentorship program. Mentorship register: mentor and mentee pair, department, focus area, mentee goal, session counts, last and next session, overall rating, progress notes and status. Use for mentorship tracking. |
 | [mermaid-expert](skills/ai-engineering/models/mermaid_expert/mermaid-expert/SKILL.md) | `ai-engineering` | `models` | `mermaid_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mermaid expert. Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling. |
+| [mesh-memory](skills/ai-engineering/models/mesh_memory/mesh-memory/SKILL.md) | `ai-engineering` | `models` | `mesh_memory` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mesh memory. Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessions by meaning, not keyword. Postgres + pgvector with auto-tagging. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
