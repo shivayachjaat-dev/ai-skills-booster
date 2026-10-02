@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **13** skills across structured domains, categories, and subcategories.
+Master navigation for **14** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (2 skills)
 
@@ -76,13 +76,19 @@ Category index: [`docs/categories/secret-management.md`](categories/secret-manag
 - **Detection** (1):
   - [secret-leak-detection-and-remediation](../skills/security/secret-management/detection/secret-leak-detection-and-remediation/SKILL.md) — Use this skill when detecting, containing, revoking, and purging secrets committed to Git repositories or build artifacts. It guides the agent through scanning history with TruffleHog/Gitleaks, executing emergency credential revocation, rewriting Git history with git-filter-repo, and installing pre-commit guardrails.
 
-## Software Engineering (2 skills)
+## Software Engineering (3 skills)
 
 ### Architecture (1 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
+
+### Debugging (1 skills)
+Category index: [`docs/categories/debugging.md`](categories/debugging.md)
+
+- **Recovery** (1):
+  - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
 
 ### Refactoring (1 skills)
 Category index: [`docs/categories/refactoring.md`](categories/refactoring.md)

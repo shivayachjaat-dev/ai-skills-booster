@@ -261,6 +261,30 @@
     "maturity": "stable"
   },
   {
+    "name": "debugging-and-error-recovery",
+    "path": "skills/software-engineering/debugging/recovery/debugging-and-error-recovery",
+    "domain": "software-engineering",
+    "category": "debugging",
+    "subcategory": "recovery",
+    "description": "Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "error-recovery",
+      "root-cause-analysis",
+      "software-engineering"
+    ],
+    "technologies": [
+      "Git",
+      "Python",
+      "TypeScript",
+      "GDB",
+      "Node.js"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "code-simplification",
     "path": "skills/software-engineering/refactoring/simplification/code-simplification",
     "domain": "software-engineering",

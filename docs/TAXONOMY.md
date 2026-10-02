@@ -32,6 +32,8 @@ AI_Skills_Booster/
 ├── software-engineering/
 │   ├── architecture/
 │   │   └── interfaces/ (1 skills)
+│   ├── debugging/
+│   │   └── recovery/ (1 skills)
 │   └── refactoring/
 │   │   └── simplification/ (1 skills)
 ├── testing/
