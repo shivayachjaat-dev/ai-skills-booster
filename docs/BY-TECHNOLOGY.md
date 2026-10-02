@@ -14,8 +14,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [wcag-accessibility-audit](../skills/frontend/accessibility/wcag/wcag-accessibility-audit/SKILL.md) — Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.
 
-## AWS (1 skills)
+## AWS (2 skills)
 
+- [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
 - [terraform-infrastructure-as-code](../skills/devops/iac/terraform/terraform-infrastructure-as-code/SKILL.md) — Use this skill when writing, refactoring, and maintaining Infrastructure as Code (IaC) using Terraform / OpenTofu. It guides the agent through remote state management with S3/DynamoDB locking, modular component design, variable validation rules, drift detection, resource tagging standards, and blast radius containment.
 
 ## AWS KMS (1 skills)
@@ -517,6 +518,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [active-directory-security-assessment](../skills/security/penetration-testing/active-directory/active-directory-security-assessment/SKILL.md) — Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.
 
+## Infracost (1 skills)
+
+- [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
+
 ## InstantSearch.js (1 skills)
 
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
@@ -576,10 +581,11 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [istio-service-mesh-traffic-routing](../skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing/SKILL.md) — Use this skill when implementing advanced traffic management, security policies, and canary deployments using the Istio Service Mesh. It guides the agent through VirtualService routing rules, DestinationRule subset definitions, mutual TLS (mTLS) PeerAuthentication enforcement, fault injection, and Envoy sidecar proxy tuning.
 
-## Kubernetes (10 skills)
+## Kubernetes (11 skills)
 
 - [helm-chart-architecture-and-lifecycle](../skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle/SKILL.md) — Use this skill when architecting, authoring, and managing production-grade Kubernetes packages with Helm 3+. It guides the agent through chart file structures, named template helpers (_helpers.tpl), strict values schema validation using values.schema.json, dependency subcharts, test suites (helm test), and semantic versioning release workflows.
 - [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
+- [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
 - [argocd-gitops-continuous-delivery](../skills/devops/gitops/argo-cd/argocd-gitops-continuous-delivery/SKILL.md) — Use this skill when designing, configuring, and operating GitOps continuous delivery workflows on Kubernetes using Argo CD. It guides the agent through Application and ApplicationSet CRD declarations, automated self-healing and pruning sync policies, sync waves and resource hooks, multi-tenant RBAC, and repository secrets integration.
 - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
 - [grafana-loki-log-aggregation](../skills/devops/observability/grafana-loki/grafana-loki-log-aggregation/SKILL.md) — Use this skill when designing, configuring, and querying horizontally scalable log aggregation systems using Grafana Loki and Promtail / Grafana Alloy. It guides the agent through label cardinality management to prevent index explosion, authoring LogQL queries and metric extractions, configuring structured metadata, and creating LogQL alerting rules.
@@ -759,6 +765,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
+## Open Policy Agent (OPA) (1 skills)
+
+- [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
+
 ## OpenAI (7 skills)
 
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
@@ -898,7 +908,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (48 skills)
+## Python (49 skills)
 
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
@@ -929,6 +939,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
 - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 - [elasticsearch-dsl-search-and-aggregations](../skills/databases/search/elasticsearch/elasticsearch-dsl-search-and-aggregations/SKILL.md) — Use this skill when architecting, indexing, and querying complex search and analytical systems using Elasticsearch 8+ and Elasticsearch-DSL. It guides the agent through explicit index mapping design (analyzers, keyword vs text fields), boolean compound queries (must, filter, should), multi-match cross-field queries, and multi-level nested aggregations.
+- [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.
 - [cross-channel-ad-campaign-analytics](../skills/marketing/paid-advertising/campaign-analytics/cross-channel-ad-campaign-analytics/SKILL.md) — Use this skill when analyzing, attributing, and optimizing multi-channel paid advertising campaigns across Google Ads, Meta Ads, LinkedIn, and programmatic channels. It guides the agent through calculating Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), attribution modeling (First-Touch, Last-Touch, Data-Driven Markov), statistical significance in spend allocation, and budget rebalancing.
 - [mcp-server-scaffold](../skills/mcp/server-development/scaffolding/mcp-server-scaffold/SKILL.md) — Use this skill when scaffolding, implementing, and validating a Model Context Protocol (MCP) server from scratch using TypeScript or Python. It guides the agent through configuring tool schemas, resource providers, prompt templates, stdio/SSE transports, error boundaries, and integration tests.
@@ -1230,8 +1241,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-## Terraform (1 skills)
+## Terraform (2 skills)
 
+- [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
 - [terraform-infrastructure-as-code](../skills/devops/iac/terraform/terraform-infrastructure-as-code/SKILL.md) — Use this skill when writing, refactoring, and maintaining Infrastructure as Code (IaC) using Terraform / OpenTofu. It guides the agent through remote state management with S3/DynamoDB locking, modular component design, variable validation rules, drift detection, resource tagging standards, and blast radius containment.
 
 ## Terraform >= 1.5 (1 skills)

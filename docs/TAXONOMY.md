@@ -105,6 +105,8 @@ AI_Skills_Booster/
 │   │   └── flagger/ (1 skills)
 │   ├── continuous-integration/
 │   │   └── github-reusable-workflows/ (1 skills)
+│   ├── finops/
+│   │   └── cost-guardrails/ (1 skills)
 │   ├── gitops/
 │   │   └── argo-cd/ (1 skills)
 │   ├── iac/

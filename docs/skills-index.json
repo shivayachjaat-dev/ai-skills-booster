@@ -1353,6 +1353,33 @@
     "maturity": "stable"
   },
   {
+    "name": "cloud-cost-finops-and-devsecops-guardrails",
+    "path": "skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails",
+    "domain": "devops",
+    "category": "finops",
+    "subcategory": "cost-guardrails",
+    "description": "Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.",
+    "tags": [
+      "finops",
+      "cloud-cost",
+      "devsecops",
+      "opa",
+      "terraform",
+      "infracost",
+      "kubernetes"
+    ],
+    "technologies": [
+      "Terraform",
+      "Infracost",
+      "Open Policy Agent (OPA)",
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "argocd-gitops-continuous-delivery",
     "path": "skills/devops/gitops/argo-cd/argocd-gitops-continuous-delivery",
     "domain": "devops",
