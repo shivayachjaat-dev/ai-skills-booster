@@ -9594,6 +9594,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cis-benchmarks",
+    "path": "skills/security/appsec/cis_benchmarks/cis-benchmarks",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "cis_benchmarks",
+    "description": "Use this skill to audit and remediate CIS benchmark violations.",
+    "tags": [
+      "security",
+      "appsec",
+      "cis",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cis Benchmarks",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

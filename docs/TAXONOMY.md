@@ -530,7 +530,8 @@ AI_Skills_Booster/
 │   │   ├── bugcrowd_reporting/ (1 skills)
 │   │   ├── bugs_are_annoying/ (1 skills)
 │   │   ├── change_management/ (1 skills)
-│   │   └── changelog_entry/ (1 skills)
+│   │   ├── changelog_entry/ (1 skills)
+│   │   └── cis_benchmarks/ (1 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/
