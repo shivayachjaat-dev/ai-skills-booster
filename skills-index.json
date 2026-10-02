@@ -22917,6 +22917,28 @@
     "maturity": "stable"
   },
   {
+    "name": "makepad-2-0-animation",
+    "path": "skills/frontend/ui-ux/makepad_2_0_animatio/makepad-2-0-animation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "makepad_2_0_animatio",
+    "description": "Use this skill to design, implement, and operate production workflows for makepad 2 0 animation. Makepad 2.0 guidance for animation; use when building or debugging Makepad UI code.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "makepad",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Makepad 2 0 Animation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

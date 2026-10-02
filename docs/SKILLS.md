@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,463 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,464 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1027,6 +1027,7 @@
 | [macos-menubar-tuist-app](skills/frontend/ui-ux/macos_menubar_tuist_/macos-menubar-tuist-app/SKILL.md) | `frontend` | `ui-ux` | `macos_menubar_tuist_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for macos menubar tuist app. Build, refactor, or review SwiftUI macOS menubar apps that use Tuist. |
 | [macos-spm-app-packaging](skills/frontend/ui-ux/macos_spm_app_packag/macos-spm-app-packaging/SKILL.md) | `frontend` | `ui-ux` | `macos_spm_app_packag` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for macos spm app packaging. Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects. |
 | [magic-ui-generator](skills/frontend/ui-ux/magic_ui_generator/magic-ui-generator/SKILL.md) | `frontend` | `ui-ux` | `magic_ui_generator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for magic ui generator. Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations. |
+| [makepad-2-0-animation](skills/frontend/ui-ux/makepad_2_0_animatio/makepad-2-0-animation/SKILL.md) | `frontend` | `ui-ux` | `makepad_2_0_animatio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad 2 0 animation. Makepad 2.0 guidance for animation; use when building or debugging Makepad UI code. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
