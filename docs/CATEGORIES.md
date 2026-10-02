@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **950** skills across structured domains, categories, and subcategories.
+Master navigation for **951** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (330 skills)
+## Ai Engineering (331 skills)
 
 ### Agents (41 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -182,7 +182,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (237 skills)
+### Models (238 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -632,6 +632,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [expo-tailwind-setup](../skills/ai-engineering/models/expo_tailwind_setup/expo-tailwind-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo tailwind setup. Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
 - **Extract_Document_Dat** (1):
   - [extract-document-data](../skills/ai-engineering/models/extract_document_dat/extract-document-data/SKILL.md) — Use this skill to design, implement, and operate production workflows for extract document data. Extract structured, grounded fields from documents — values cite their page, missing values abstain instead of hallucinating. Use for parsing invoices, payslips, statements, contracts.
+- **Fact_Check_X_Complet** (1):
+  - [fact-check-x-complete](../skills/ai-engineering/models/fact_check_x_complet/fact-check-x-complete/SKILL.md) — Use this skill to design, implement, and operate production workflows for fact check x complete. Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):

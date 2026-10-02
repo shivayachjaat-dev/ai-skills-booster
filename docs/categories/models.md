@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **237 skills** available in this category.
+> **238 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -232,6 +232,7 @@
 | [expo-examples](../../skills/ai-engineering/models/expo_examples/expo-examples/SKILL.md) | `expo_examples` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo examples. Expo's official example projects — the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind, and more). |
 | [expo-tailwind-setup](../../skills/ai-engineering/models/expo_tailwind_setup/expo-tailwind-setup/SKILL.md) | `expo_tailwind_setup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo tailwind setup. Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling |
 | [extract-document-data](../../skills/ai-engineering/models/extract_document_dat/extract-document-data/SKILL.md) | `extract_document_dat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for extract document data. Extract structured, grounded fields from documents — values cite their page, missing values abstain instead of hallucinating. Use for parsing invoices, payslips, statements, contracts. |
+| [fact-check-x-complete](../../skills/ai-engineering/models/fact_check_x_complet/fact-check-x-complete/SKILL.md) | `fact_check_x_complet` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fact check x complete. Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
 | [floating-ui](../../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) | `floating_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. |

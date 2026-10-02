@@ -6573,6 +6573,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fact-check-x-complete",
+    "path": "skills/ai-engineering/models/fact_check_x_complet/fact-check-x-complete",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "fact_check_x_complet",
+    "description": "Use this skill to design, implement, and operate production workflows for fact check x complete. Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "fact",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fact Check X Complete",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
