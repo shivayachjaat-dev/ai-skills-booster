@@ -259,7 +259,8 @@ AI_Skills_Booster/
 │   │   ├── azure_eventhub_rust/ (1 skills)
 │   │   ├── azure_eventhub_ts/ (1 skills)
 │   │   ├── azure_functions/ (1 skills)
-│   │   └── azure_keyvault_certi/ (1 skills)
+│   │   ├── azure_keyvault_certi/ (1 skills)
+│   │   └── azure_keyvault_secre/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

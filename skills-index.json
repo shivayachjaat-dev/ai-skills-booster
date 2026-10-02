@@ -4380,6 +4380,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-keyvault-secrets-ts",
+    "path": "skills/devops/cloud-infrastructure/azure_keyvault_secre/azure-keyvault-secrets-ts",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_keyvault_secre",
+    "description": "Use this skill to manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Keyvault Secrets Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

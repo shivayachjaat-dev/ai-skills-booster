@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **312** skills across structured domains, categories, and subcategories.
+Master navigation for **313** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (103 skills)
 
@@ -620,7 +620,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (41 skills)
+## Devops (42 skills)
 
 ### Ci Cd (5 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -636,7 +636,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (15 skills)
+### Cloud Infrastructure (16 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -668,6 +668,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [azure-functions](../skills/devops/cloud-infrastructure/azure_functions/azure-functions/SKILL.md) — Use this skill to expert patterns for Azure Functions development including isolated
 - **Azure_Keyvault_Certi** (1):
   - [azure-keyvault-certificates-rust](../skills/devops/cloud-infrastructure/azure_keyvault_certi/azure-keyvault-certificates-rust/SKILL.md) — Use this skill to azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.
+- **Azure_Keyvault_Secre** (1):
+  - [azure-keyvault-secrets-ts](../skills/devops/cloud-infrastructure/azure_keyvault_secre/azure-keyvault-secrets-ts/SKILL.md) — Use this skill to manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)
