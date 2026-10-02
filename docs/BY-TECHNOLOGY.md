@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (223 skills)
+## Bash (224 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1188,6 +1188,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-aks](../skills/devops/ci-cd/azure_aks/azure-aks/SKILL.md) — Use this skill to deploy and manage Azure Kubernetes Service clusters. Configure node pools,
 - [azure-networking](../skills/devops/ci-cd/azure_networking/azure-networking/SKILL.md) — Use this skill to configure Azure VNets, NSGs, and Azure Firewall. Implement hub-spoke
 - [backup-recovery](../skills/devops/ci-cd/backup_recovery/backup-recovery/SKILL.md) — Use this skill to implement backup and recovery strategies. Configure rsync, Restic, and
+- [blue-green-deploy](../skills/devops/ci-cd/blue_green_deploy/blue-green-deploy/SKILL.md) — Use this skill to configure zero-downtime deployment strategies including blue-green, canary,
 - [amazon-alexa](../skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) — Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
 - [aws-cost-cleanup](../skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) — Use this skill to automated cleanup of unused AWS resources to reduce costs
 - [aws-cost-optimizer](../skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) — Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer
@@ -1386,6 +1387,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## BloodHound (1 skills)
 
 - [active-directory-security-assessment](../skills/security/penetration-testing/active-directory/active-directory-security-assessment/SKILL.md) — Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.
+
+## Blue Green Deploy (1 skills)
+
+- [blue-green-deploy](../skills/devops/ci-cd/blue_green_deploy/blue-green-deploy/SKILL.md) — Use this skill to configure zero-downtime deployment strategies including blue-green, canary,
 
 ## C (1 skills)
 
@@ -2612,7 +2617,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (326 skills)
+## Python (327 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2814,6 +2819,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-aks](../skills/devops/ci-cd/azure_aks/azure-aks/SKILL.md) — Use this skill to deploy and manage Azure Kubernetes Service clusters. Configure node pools,
 - [azure-networking](../skills/devops/ci-cd/azure_networking/azure-networking/SKILL.md) — Use this skill to configure Azure VNets, NSGs, and Azure Firewall. Implement hub-spoke
 - [backup-recovery](../skills/devops/ci-cd/backup_recovery/backup-recovery/SKILL.md) — Use this skill to implement backup and recovery strategies. Configure rsync, Restic, and
+- [blue-green-deploy](../skills/devops/ci-cd/blue_green_deploy/blue-green-deploy/SKILL.md) — Use this skill to configure zero-downtime deployment strategies including blue-green, canary,
 - [amazon-alexa](../skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) — Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
 - [aws-cost-cleanup](../skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) — Use this skill to automated cleanup of unused AWS resources to reduce costs
 - [aws-cost-optimizer](../skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) — Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer

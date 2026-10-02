@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,4 +10,5 @@
 | [azure-aks](../../skills/devops/ci-cd/azure_aks/azure-aks/SKILL.md) | `azure_aks` | `advanced` | `stable` | Use this skill to deploy and manage Azure Kubernetes Service clusters. Configure node pools, |
 | [azure-networking](../../skills/devops/ci-cd/azure_networking/azure-networking/SKILL.md) | `azure_networking` | `advanced` | `stable` | Use this skill to configure Azure VNets, NSGs, and Azure Firewall. Implement hub-spoke |
 | [backup-recovery](../../skills/devops/ci-cd/backup_recovery/backup-recovery/SKILL.md) | `backup_recovery` | `advanced` | `stable` | Use this skill to implement backup and recovery strategies. Configure rsync, Restic, and |
+| [blue-green-deploy](../../skills/devops/ci-cd/blue_green_deploy/blue-green-deploy/SKILL.md) | `blue_green_deploy` | `advanced` | `stable` | Use this skill to configure zero-downtime deployment strategies including blue-green, canary, |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
