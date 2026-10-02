@@ -7473,6 +7473,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brand-growth-system-builder",
+    "path": "skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "brand_growth_system_",
+    "description": "Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "brand",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brand Growth System Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",

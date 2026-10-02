@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **412** skills across structured domains, categories, and subcategories.
+Master navigation for **413** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (137 skills)
 
@@ -920,7 +920,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (36 skills)
+## Frontend (37 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1026,7 +1026,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Blog_Writing_Guide** (1):
   - [blog-writing-guide](../skills/frontend/ui-ux/blog_writing_guide/blog-writing-guide/SKILL.md) — Use this skill to this skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement.
 
-### Web Architecture (4 skills)
+### Web Architecture (5 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **Antigravity_Design_E** (1):
@@ -1036,6 +1036,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
 - **Azure_Web_Pubsub_Ts** (1):
   - [azure-web-pubsub-ts](../skills/frontend/web-architecture/azure_web_pubsub_ts/azure-web-pubsub-ts/SKILL.md) — Use this skill to real-time messaging with WebSocket connections and pub/sub patterns.
+- **Brand_Growth_System_** (1):
+  - [brand-growth-system-builder](../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) — Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows.
 
 ## Marketing (8 skills)
 
