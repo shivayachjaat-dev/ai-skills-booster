@@ -2534,6 +2534,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-mgmt-apimanagement-dotnet",
+    "path": "skills/backend/api-frameworks/azure_mgmt_apimanage/azure-mgmt-apimanagement-dotnet",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "azure_mgmt_apimanage",
+    "description": "Use this skill to azure Resource Manager SDK for API Management in .NET.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Mgmt Apimanagement Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",
