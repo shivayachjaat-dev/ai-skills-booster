@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (788 skills)
+## Bash (789 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1351,6 +1351,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [famulor-skill](../skills/ai-engineering/models/famulor_skill/famulor-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for famulor skill. Operate Famulor assistants, communication history, campaigns, knowledge, automations, telephony, and workspace administration through its hosted MCP server.
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
+- [feature-tracking](../skills/ai-engineering/models/feature_tracking/feature-tracking/SKILL.md) — Use this skill to design, implement, and operate production workflows for feature tracking. Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes.
 - [floating-ui](../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
@@ -4280,6 +4281,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [competitor-alternative-page-architecture](../skills/marketing/seo/competitor-alternatives/competitor-alternative-page-architecture/SKILL.md) — Use this skill to design, write, and structure high-converting, honest competitor alternative and comparison pages (e.g., 'Best [Competitor] Alternatives in 2026'). It covers objective feature matrix tables, search intent capture, migration guides, and conversion rate optimization (CRO).
 
+## Feature Tracking (1 skills)
+
+- [feature-tracking](../skills/ai-engineering/models/feature_tracking/feature-tracking/SKILL.md) — Use this skill to design, implement, and operate production workflows for feature tracking. Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes.
+
 ## Financial Modeling (1 skills)
 
 - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
@@ -5306,7 +5311,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (891 skills)
+## Python (892 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5613,6 +5618,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [famulor-skill](../skills/ai-engineering/models/famulor_skill/famulor-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for famulor skill. Operate Famulor assistants, communication history, campaigns, knowledge, automations, telephony, and workspace administration through its hosted MCP server.
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
+- [feature-tracking](../skills/ai-engineering/models/feature_tracking/feature-tracking/SKILL.md) — Use this skill to design, implement, and operate production workflows for feature tracking. Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes.
 - [floating-ui](../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.

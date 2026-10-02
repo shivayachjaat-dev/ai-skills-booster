@@ -6881,6 +6881,28 @@
     "maturity": "stable"
   },
   {
+    "name": "feature-tracking",
+    "path": "skills/ai-engineering/models/feature_tracking/feature-tracking",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "feature_tracking",
+    "description": "Use this skill to design, implement, and operate production workflows for feature tracking. Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "feature",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Feature Tracking",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "floating-ui",
     "path": "skills/ai-engineering/models/floating_ui/floating-ui",
     "domain": "ai-engineering",
