@@ -12059,6 +12059,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-refactoring-tech-debt",
+    "path": "skills/software-engineering/architecture/patterns/code-refactoring-tech-debt",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Refactoring Tech Debt",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

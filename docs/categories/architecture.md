@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **32 skills** available in this category.
+> **33 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -36,3 +36,4 @@
 | [clean-code](../../skills/software-engineering/architecture/patterns/clean-code/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to this skill embodies the principles of \"Clean Code\" by Robert C. Martin (Uncle Bob). Use it to transform \"code that works\" into \"code that is clean.\ |
 | [code-polish](../../skills/software-engineering/architecture/patterns/code-polish/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to rewrites unprofessional code comments into clear ones and performs non-semantic cleanup. Use to professionalize code without altering logic or behavior. |
 | [code-refactoring-context-restore](../../skills/software-engineering/architecture/patterns/code-refactoring-context-restore/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with code refactoring context restore |
+| [code-refactoring-tech-debt](../../skills/software-engineering/architecture/patterns/code-refactoring-tech-debt/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions. |
