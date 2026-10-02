@@ -309,6 +309,7 @@ AI_Skills_Booster/
 │   │   ├── fal_audio/ (1 skills)
 │   │   ├── fal_generate/ (1 skills)
 │   │   ├── fal_image_edit/ (1 skills)
+│   │   ├── fal_upscale/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)

@@ -6749,6 +6749,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fal-upscale",
+    "path": "skills/ai-engineering/models/fal_upscale/fal-upscale",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "fal_upscale",
+    "description": "Use this skill to design, implement, and operate production workflows for fal upscale. Upscale and enhance image and video resolution using AI",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "fal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fal Upscale",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",

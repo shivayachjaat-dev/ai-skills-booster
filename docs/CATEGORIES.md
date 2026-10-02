@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **960** skills across structured domains, categories, and subcategories.
+Master navigation for **961** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (338 skills)
+## Ai Engineering (339 skills)
 
 ### Agents (41 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -182,7 +182,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (245 skills)
+### Models (246 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -648,6 +648,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [fal-generate](../skills/ai-engineering/models/fal_generate/fal-generate/SKILL.md) — Use this skill to design, implement, and operate production workflows for fal generate. Generate images and videos using fal.ai AI models
 - **Fal_Image_Edit** (1):
   - [fal-image-edit](../skills/ai-engineering/models/fal_image_edit/fal-image-edit/SKILL.md) — Use this skill to design, implement, and operate production workflows for fal image edit. AI-powered image editing with style transfer and object removal
+- **Fal_Upscale** (1):
+  - [fal-upscale](../skills/ai-engineering/models/fal_upscale/fal-upscale/SKILL.md) — Use this skill to design, implement, and operate production workflows for fal upscale. Upscale and enhance image and video resolution using AI
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):
