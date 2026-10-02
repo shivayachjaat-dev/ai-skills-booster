@@ -337,6 +337,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [database-migration-safety](../skills/databases/migrations/zero-downtime/database-migration-safety/SKILL.md) — Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.
 
+## Llama Guard (1 skills)
+
+- [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
+
 ## LlamaIndex (1 skills)
 
 - [ragas-rag-triad-evaluation](../skills/ai-engineering/evaluation/ragas-rag-evaluation/ragas-rag-triad-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and auditing Retrieval-Augmented Generation (RAG) pipelines using RAGAS and the RAG Triad framework. It guides the agent through calculating Faithfulness (hallucination detection), Answer Relevance, Context Precision, and Context Recall, building synthetic evaluation datasets, and CI automated regression gating.
@@ -358,6 +362,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [clickhouse-time-series-analytics](../skills/databases/clickhouse/time-series/clickhouse-time-series-analytics/SKILL.md) — Use this skill when designing, partitioning, and querying massive time-series event logs and telemetry in ClickHouse. It guides the agent through selecting MergeTree table engines, primary key and sorting key design, TTL data aging policies, materialized views for real-time aggregations, and high-throughput batched ingestion.
 
+## Microsoft Presidio (1 skills)
+
+- [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
+
 ## Model Context Protocol (1 skills)
 
 - [mcp-server-scaffold](../skills/mcp/server-development/scaffolding/mcp-server-scaffold/SKILL.md) — Use this skill when scaffolding, implementing, and validating a Model Context Protocol (MCP) server from scratch using TypeScript or Python. It guides the agent through configuring tool schemas, resource providers, prompt templates, stdio/SSE transports, error boundaries, and integration tests.
@@ -365,6 +373,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## MySQL (1 skills)
 
 - [database-migration-safety](../skills/databases/migrations/zero-downtime/database-migration-safety/SKILL.md) — Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.
+
+## NeMo Guardrails (1 skills)
+
+- [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
 
 ## Next.js 14+ (1 skills)
 
@@ -481,8 +493,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [llm-lora-fine-tuning-pipeline](../skills/ai-engineering/fine-tuning/peft-lora/llm-lora-fine-tuning-pipeline/SKILL.md) — Use this skill when designing, training, and evaluating parameter-efficient fine-tuning (PEFT) pipelines for Large Language Models using LoRA and QLoRA. It guides the agent through 4-bit/8-bit quantization via bitsandbytes, LoRA hyperparameter configuration (rank r, alpha, target modules), dataset preparation and token masking, SFTTrainer orchestration, and adapter weight merging.
 
-## Pydantic (1 skills)
+## Pydantic (2 skills)
 
+- [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
 - [sqlalchemy-async-session-management](../skills/backend/database-drivers/sqlalchemy/sqlalchemy-async-session-management/SKILL.md) — Use this skill when architecting asynchronous database access layers in Python using SQLAlchemy 2.0+ and asyncpg. It guides the agent through AsyncEngine configuration, connection pooling with pool_pre_ping, scoped async session lifecycles, eager loading strategies (selectinload vs joinedload), and atomic transaction context managers.
 
 ## Pydantic v2 (1 skills)
@@ -493,12 +506,13 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (24 skills)
+## Python (25 skills)
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 - [context-window-engineering](../skills/ai-engineering/context/optimization/context-window-engineering/SKILL.md) — Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs.
+- [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
 - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.

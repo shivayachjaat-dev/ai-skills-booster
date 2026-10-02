@@ -145,6 +145,31 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-guardrails-input-output-moderation",
+    "path": "skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation",
+    "domain": "ai-engineering",
+    "category": "guardrails",
+    "subcategory": "input-output-moderation",
+    "description": "Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.",
+    "tags": [
+      "guardrails",
+      "ai-safety",
+      "prompt-injection",
+      "pii-redaction",
+      "moderation",
+      "llm"
+    ],
+    "technologies": [
+      "NeMo Guardrails",
+      "Llama Guard",
+      "Microsoft Presidio",
+      "Pydantic",
+      "Python"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",

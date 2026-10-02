@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **60** skills across structured domains, categories, and subcategories.
+Master navigation for **61** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (8 skills)
+## Ai Engineering (9 skills)
 
 ### Agents (3 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -31,6 +31,12 @@ Category index: [`docs/categories/fine-tuning.md`](categories/fine-tuning.md)
 
 - **Peft Lora** (1):
   - [llm-lora-fine-tuning-pipeline](../skills/ai-engineering/fine-tuning/peft-lora/llm-lora-fine-tuning-pipeline/SKILL.md) — Use this skill when designing, training, and evaluating parameter-efficient fine-tuning (PEFT) pipelines for Large Language Models using LoRA and QLoRA. It guides the agent through 4-bit/8-bit quantization via bitsandbytes, LoRA hyperparameter configuration (rank r, alpha, target modules), dataset preparation and token masking, SFTTrainer orchestration, and adapter weight merging.
+
+### Guardrails (1 skills)
+Category index: [`docs/categories/guardrails.md`](categories/guardrails.md)
+
+- **Input Output Moderation** (1):
+  - [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
 
 ### Rag (1 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
