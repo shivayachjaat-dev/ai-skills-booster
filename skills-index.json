@@ -2591,6 +2591,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brain-to-docs",
+    "path": "skills/ai-engineering/models/brain_to_docs/brain-to-docs",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "brain_to_docs",
+    "description": "Use this skill to interview the user to turn project vision and decisions into README and ADR documentation.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "brain",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brain To Docs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

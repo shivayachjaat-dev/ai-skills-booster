@@ -120,6 +120,7 @@ AI_Skills_Booster/
 │   │   ├── blockchain_developer/ (1 skills)
 │   │   ├── blueprint/ (1 skills)
 │   │   ├── boost_asio_pro/ (1 skills)
+│   │   ├── brain_to_docs/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
