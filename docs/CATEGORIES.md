@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **617** skills across structured domains, categories, and subcategories.
+Master navigation for **618** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (219 skills)
+## Ai Engineering (220 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (148 skills)
+### Models (149 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -432,6 +432,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [context-manager](../skills/ai-engineering/models/context_manager/context-manager/SKILL.md) — Use this skill to elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems.
 - **Context_Optimization** (1):
   - [context-optimization](../skills/ai-engineering/models/context_optimization/context-optimization/SKILL.md) — Use this skill to context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity.
+- **Copywriting** (1):
+  - [copywriting](../skills/ai-engineering/models/copywriting/copywriting/SKILL.md) — Use this skill to write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

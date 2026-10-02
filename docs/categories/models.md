@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **148 skills** available in this category.
+> **149 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -151,4 +151,5 @@
 | [context-fundamentals](../../skills/ai-engineering/models/context_fundamentals/context-fundamentals/SKILL.md) | `context_fundamentals` | `advanced` | `stable` | Use this skill to context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs. |
 | [context-manager](../../skills/ai-engineering/models/context_manager/context-manager/SKILL.md) | `context_manager` | `advanced` | `stable` | Use this skill to elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems. |
 | [context-optimization](../../skills/ai-engineering/models/context_optimization/context-optimization/SKILL.md) | `context_optimization` | `advanced` | `stable` | Use this skill to context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity. |
+| [copywriting](../../skills/ai-engineering/models/copywriting/copywriting/SKILL.md) | `copywriting` | `advanced` | `stable` | Use this skill to write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

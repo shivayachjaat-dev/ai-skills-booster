@@ -4373,6 +4373,28 @@
     "maturity": "stable"
   },
   {
+    "name": "copywriting",
+    "path": "skills/ai-engineering/models/copywriting/copywriting",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "copywriting",
+    "description": "Use this skill to write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "copywriting",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Copywriting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

@@ -201,6 +201,7 @@ AI_Skills_Booster/
 │   │   ├── context_fundamentals/ (1 skills)
 │   │   ├── context_manager/ (1 skills)
 │   │   ├── context_optimization/ (1 skills)
+│   │   ├── copywriting/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
