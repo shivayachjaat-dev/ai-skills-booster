@@ -13875,6 +13875,28 @@
     "maturity": "stable"
   },
   {
+    "name": "widget-based-design",
+    "path": "skills/frontend/web-architecture/widget_based_design/widget-based-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "widget_based_design",
+    "description": "Use this skill to design, implement, and operate production workflows for widget based design. Web and App implementation guide for Widget-Based Design. Trigger when user wants modular blocks, iOS Home Screen aesthetics, and customizable mini-apps.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "widget",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Widget Based Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",

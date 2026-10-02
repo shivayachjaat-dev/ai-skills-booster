@@ -701,7 +701,8 @@ AI_Skills_Booster/
 │   │   ├── tile_design/ (1 skills)
 │   │   ├── vaporwave/ (1 skills)
 │   │   ├── vibrant_maximalism/ (1 skills)
-│   │   └── web3_audit/ (1 skills)
+│   │   ├── web3_audit/ (1 skills)
+│   │   └── widget_based_design/ (1 skills)
 ├── marketing/
 │   ├── aso/
 │   │   └── app-store-optimization/ (1 skills)
