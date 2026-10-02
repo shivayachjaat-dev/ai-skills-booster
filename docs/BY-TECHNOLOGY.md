@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (770 skills)
+## Bash (771 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1338,6 +1338,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [expo-tailwind-setup](../skills/ai-engineering/models/expo_tailwind_setup/expo-tailwind-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo tailwind setup. Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
 - [extract-document-data](../skills/ai-engineering/models/extract_document_dat/extract-document-data/SKILL.md) — Use this skill to design, implement, and operate production workflows for extract document data. Extract structured, grounded fields from documents — values cite their page, missing values abstain instead of hallucinating. Use for parsing invoices, payslips, statements, contracts.
 - [fact-check-x-complete](../skills/ai-engineering/models/fact_check_x_complet/fact-check-x-complete/SKILL.md) — Use this skill to design, implement, and operate production workflows for fact check x complete. Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.
+- [faf-context](../skills/ai-engineering/models/faf_context/faf-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for faf context. Get your project to 100% ✪ AI-readiness, fast — the AI auto-detects your stack and only asks for what it can't know (your goal and the human "why"). Least typing, maximum context. For time-conscious builders; feeds into faf-expert for depth.
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
 - [floating-ui](../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.
@@ -4156,6 +4157,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [fact-check-x-unified](../skills/software-engineering/architecture/patterns/fact-check-x-unified/SKILL.md) — Use this skill to design, implement, and operate production workflows for fact check x unified. Fact-Check-X 流程编排能力，依次组织各方答案汇总、各方答案聚合（未核验）、权威核验后的最终答案和各方答案测评，生成可打开、可审计、可迁移的阶段产物与完整报告包。
 
+## Faf Context (1 skills)
+
+- [faf-context](../skills/ai-engineering/models/faf_context/faf-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for faf context. Get your project to 100% ✪ AI-readiness, fast — the AI auto-detects your stack and only asks for what it can't know (your goal and the human "why"). Least typing, maximum context. For time-conscious builders; feeds into faf-expert for depth.
+
 ## FastAPI (19 skills)
 
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
@@ -5216,7 +5221,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (873 skills)
+## Python (874 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5510,6 +5515,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [expo-tailwind-setup](../skills/ai-engineering/models/expo_tailwind_setup/expo-tailwind-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo tailwind setup. Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
 - [extract-document-data](../skills/ai-engineering/models/extract_document_dat/extract-document-data/SKILL.md) — Use this skill to design, implement, and operate production workflows for extract document data. Extract structured, grounded fields from documents — values cite their page, missing values abstain instead of hallucinating. Use for parsing invoices, payslips, statements, contracts.
 - [fact-check-x-complete](../skills/ai-engineering/models/fact_check_x_complet/fact-check-x-complete/SKILL.md) — Use this skill to design, implement, and operate production workflows for fact check x complete. Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.
+- [faf-context](../skills/ai-engineering/models/faf_context/faf-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for faf context. Get your project to 100% ✪ AI-readiness, fast — the AI auto-detects your stack and only asks for what it can't know (your goal and the human "why"). Least typing, maximum context. For time-conscious builders; feeds into faf-expert for depth.
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
 - [floating-ui](../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.
