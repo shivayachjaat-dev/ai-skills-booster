@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **78 skills** available in this category.
+> **79 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -81,4 +81,5 @@
 | [design-md](../../skills/software-engineering/architecture/patterns/design-md/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design md. Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files |
 | [dev-to-hashnode](../../skills/software-engineering/architecture/patterns/dev-to-hashnode/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dev to hashnode. When the user wants to publish on Dev.to, Hashnode, or other developer blogging platforms. Trigger phrases include "Dev.to," "Hashnode," "developer blog," "cross-posting," "technical blogging," "canonical URL," or "developer content platform. |
 | [developer-listening](../../skills/software-engineering/architecture/patterns/developer-listening/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for developer listening. Monitor what developers say about your brand, competitors, and the problems they're solving. Track mentions and conversations across GitHub, Hacker News, Reddit, Stack Overflow, Twitter, and Discord. |
+| [devrel-content](../../skills/software-engineering/architecture/patterns/devrel-content/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devrel content. When the user wants to create technical content for developers including blog posts, tutorials, and documentation. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

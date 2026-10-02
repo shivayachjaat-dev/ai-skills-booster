@@ -18373,6 +18373,28 @@
     "maturity": "stable"
   },
   {
+    "name": "devrel-content",
+    "path": "skills/software-engineering/architecture/patterns/devrel-content",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for devrel content. When the user wants to create technical content for developers including blog posts, tutorials, and documentation.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "devrel",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Devrel Content",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
