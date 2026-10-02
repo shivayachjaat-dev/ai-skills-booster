@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **64 skills** available in this category.
+> **65 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -68,3 +68,4 @@
 | [ddd-context-mapping](../../skills/software-engineering/architecture/patterns/ddd-context-mapping/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to map relationships between bounded contexts and define integration contracts using DDD context mapping patterns. |
 | [debugging-toolkit](../../skills/software-engineering/architecture/patterns/debugging-toolkit/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with debugging toolkit smart debug (Alias for debugging-toolkit-smart-debug) |
 | [debugging-toolkit-smart-debug](../../skills/software-engineering/architecture/patterns/debugging-toolkit-smart-debug/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with debugging toolkit smart debug |
+| [deep-research](../../skills/software-engineering/architecture/patterns/deep-research/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports. |
