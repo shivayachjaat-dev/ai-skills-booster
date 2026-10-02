@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **941** skills across structured domains, categories, and subcategories.
+Master navigation for **942** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (326 skills)
+## Ai Engineering (327 skills)
 
 ### Agents (40 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -180,7 +180,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (234 skills)
+### Models (235 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -624,6 +624,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [examprep-ai](../skills/ai-engineering/models/examprep_ai/examprep-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for examprep ai. Exam preparation assistant that converts syllabi, past papers, or notes into a ranked High Score Roadmap. Covers theory, numericals, MCQs, coding, and lab prep, ordered Easy → Medium → Hard. Use for last-minute revision, important topics, and question prediction.
 - **Expense_Management** (1):
   - [expense-management](../skills/ai-engineering/models/expense_management/expense-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for expense management. Expense claim register: claim id, employee and department, amount and tax, approver and level, category, cost centre, budget line, receipt flag and status. Use for claim approvals.
+- **Expo_Examples** (1):
+  - [expo-examples](../skills/ai-engineering/models/expo_examples/expo-examples/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo examples. Expo's official example projects — the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind, and more).
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):
