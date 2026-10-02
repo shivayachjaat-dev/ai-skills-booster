@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,332** skills across structured domains, categories, and subcategories.
+Master navigation for **1,333** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (443 skills)
 
@@ -1473,7 +1473,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (32 skills)
+## Developer Tools (33 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1501,7 +1501,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **It_Manager_Hospital** (1):
   - [it-manager-hospital](../skills/developer-tools/cli-utilities/it_manager_hospital/it-manager-hospital/SKILL.md) — Use this skill to design, implement, and operate production workflows for it manager hospital. World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS/PEP ecosystems.
 
-### Productivity (21 skills)
+### Productivity (22 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1546,6 +1546,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [instagram-automation](../skills/developer-tools/productivity/instagram_automation/instagram-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for instagram automation. Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas.
 - **Intercom_Automation** (1):
   - [intercom-automation](../skills/developer-tools/productivity/intercom_automation/intercom-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for intercom automation. Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas.
+- **Jira_Automation** (1):
+  - [jira-automation](../skills/developer-tools/productivity/jira_automation/jira-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for jira automation. Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

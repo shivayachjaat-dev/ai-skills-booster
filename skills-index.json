@@ -14183,6 +14183,28 @@
     "maturity": "stable"
   },
   {
+    "name": "jira-automation",
+    "path": "skills/developer-tools/productivity/jira_automation/jira-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "jira_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for jira automation. Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "jira",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Jira Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
