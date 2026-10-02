@@ -2471,6 +2471,32 @@
     "maturity": "stable"
   },
   {
+    "name": "android-jetpack-compose-architecture-and-ui-testing",
+    "path": "skills/mobile/android/jetpack-compose/android-jetpack-compose-architecture-and-ui-testing",
+    "domain": "mobile",
+    "category": "android",
+    "subcategory": "jetpack-compose",
+    "description": "Use this skill to design, architect, and test modern Android applications using Jetpack Compose, Kotlin Coroutines, StateFlow, Material 3, and automated Compose UI tests. It covers unidirectional data flow (UDF), ViewModel state hoisting, preview fixtures, and Semantics-based UI journey testing.",
+    "tags": [
+      "android",
+      "jetpack-compose",
+      "kotlin",
+      "material3",
+      "ui-testing",
+      "mobile-architecture",
+      "mvi"
+    ],
+    "technologies": [
+      "Jetpack Compose",
+      "Kotlin",
+      "Material 3",
+      "StateFlow",
+      "Compose UI Test"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ios-app-clip-architecture",
     "path": "skills/mobile/ios/app-clips/ios-app-clip-architecture",
     "domain": "mobile",

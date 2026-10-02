@@ -209,6 +209,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
+## Compose UI Test (1 skills)
+
+- [android-jetpack-compose-architecture-and-ui-testing](../skills/mobile/android/jetpack-compose/android-jetpack-compose-architecture-and-ui-testing/SKILL.md) — Use this skill to design, architect, and test modern Android applications using Jetpack Compose, Kotlin Coroutines, StateFlow, Material 3, and automated Compose UI tests. It covers unidirectional data flow (UDF), ViewModel state hoisting, preview fixtures, and Semantics-based UI journey testing.
+
 ## Copywriting Frameworks (1 skills)
 
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.
@@ -687,6 +691,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [p5js-generative-algorithmic-art-canvas](../skills/multimedia/generative-art/p5js/p5js-generative-algorithmic-art-canvas/SKILL.md) — Use this skill to design, write, and render interactive generative algorithmic art, creative coding animations, and mathematical visualizations using p5.js and HTML5 Canvas. It covers noise field mathematics (Perlin/Simplex), particle physics, vector math, and high-DPI export.
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
 
+## Jetpack Compose (1 skills)
+
+- [android-jetpack-compose-architecture-and-ui-testing](../skills/mobile/android/jetpack-compose/android-jetpack-compose-architecture-and-ui-testing/SKILL.md) — Use this skill to design, architect, and test modern Android applications using Jetpack Compose, Kotlin Coroutines, StateFlow, Material 3, and automated Compose UI tests. It covers unidirectional data flow (UDF), ViewModel state hoisting, preview fixtures, and Semantics-based UI journey testing.
+
 ## KMS (1 skills)
 
 - [privileged-access-and-admin-account-register](../skills/security/identity-governance/admin-register/privileged-access-and-admin-account-register/SKILL.md) — Use this skill when cataloging, auditing, and enforcing governance policies over privileged administrator accounts and break-glass emergency credentials across SaaS, cloud infrastructure, and internal systems. It guides the agent through structuring an Admin Access Register, enforcing mandatory MFA/WebAuthn, designated backup owners, and access justification logs.
@@ -703,6 +711,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Kiali (1 skills)
 
 - [istio-service-mesh-traffic-routing](../skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing/SKILL.md) — Use this skill when implementing advanced traffic management, security policies, and canary deployments using the Istio Service Mesh. It guides the agent through VirtualService routing rules, DestinationRule subset definitions, mutual TLS (mTLS) PeerAuthentication enforcement, fault injection, and Envoy sidecar proxy tuning.
+
+## Kotlin (1 skills)
+
+- [android-jetpack-compose-architecture-and-ui-testing](../skills/mobile/android/jetpack-compose/android-jetpack-compose-architecture-and-ui-testing/SKILL.md) — Use this skill to design, architect, and test modern Android applications using Jetpack Compose, Kotlin Coroutines, StateFlow, Material 3, and automated Compose UI tests. It covers unidirectional data flow (UDF), ViewModel state hoisting, preview fixtures, and Semantics-based UI journey testing.
 
 ## Kubeflow Pipelines v2 (1 skills)
 
@@ -812,6 +824,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Marp CLI (1 skills)
 
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
+
+## Material 3 (1 skills)
+
+- [android-jetpack-compose-architecture-and-ui-testing](../skills/mobile/android/jetpack-compose/android-jetpack-compose-architecture-and-ui-testing/SKILL.md) — Use this skill to design, architect, and test modern Android applications using Jetpack Compose, Kotlin Coroutines, StateFlow, Material 3, and automated Compose UI tests. It covers unidirectional data flow (UDF), ViewModel state hoisting, preview fixtures, and Semantics-based UI journey testing.
 
 ## Meilisearch (1 skills)
 
@@ -1513,6 +1529,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Snowpipe (1 skills)
 
 - [snowflake-data-warehouse-modeling](../skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling/SKILL.md) — Use this skill when architecting, modeling, and optimizing enterprise data warehouses in Snowflake. It guides the agent through multi-cluster virtual warehouse sizing, micro-partition clustering keys, zero-copy cloning for staging environments, time travel data recovery, and continuous ingestion with Snowpipe.
+
+## StateFlow (1 skills)
+
+- [android-jetpack-compose-architecture-and-ui-testing](../skills/mobile/android/jetpack-compose/android-jetpack-compose-architecture-and-ui-testing/SKILL.md) — Use this skill to design, architect, and test modern Android applications using Jetpack Compose, Kotlin Coroutines, StateFlow, Material 3, and automated Compose UI tests. It covers unidirectional data flow (UDF), ViewModel state hoisting, preview fixtures, and Semantics-based UI journey testing.
 
 ## Statsmodels (1 skills)
 
