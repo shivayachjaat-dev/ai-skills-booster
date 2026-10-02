@@ -8705,6 +8705,28 @@
     "maturity": "stable"
   },
   {
+    "name": "claude-d3js-skill",
+    "path": "skills/frontend/ui-ux/claude_d3js_skill/claude-d3js-skill",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "claude_d3js_skill",
+    "description": "Use this skill to this skill provides guidance for creating sophisticated, interactive data visualisations using d3.js.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "claude",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Claude D3Js Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

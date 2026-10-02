@@ -466,7 +466,8 @@ AI_Skills_Booster/
 │   │   ├── check_identity_pack/ (1 skills)
 │   │   ├── chrome_extension_dev/ (1 skills)
 │   │   ├── ci_cd_and_automation/ (1 skills)
-│   │   └── claude_ally_health/ (1 skills)
+│   │   ├── claude_ally_health/ (1 skills)
+│   │   └── claude_d3js_skill/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)

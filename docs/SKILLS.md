@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 501 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 502 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -381,6 +381,7 @@
 | [chrome-extension-developer](skills/frontend/ui-ux/chrome_extension_dev/chrome-extension-developer/SKILL.md) | `frontend` | `ui-ux` | `chrome_extension_dev` | `advanced` | `stable` | Use this skill to expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication. |
 | [ci-cd-and-automation](skills/frontend/ui-ux/ci_cd_and_automation/ci-cd-and-automation/SKILL.md) | `frontend` | `ui-ux` | `ci_cd_and_automation` | `advanced` | `stable` | Use this skill to automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies. |
 | [claude-ally-health](skills/frontend/ui-ux/claude_ally_health/claude-ally-health/SKILL.md) | `frontend` | `ui-ux` | `claude_ally_health` | `advanced` | `stable` | Use this skill to a health assistant skill for medical information analysis, symptom tracking, and wellness guidance. |
+| [claude-d3js-skill](skills/frontend/ui-ux/claude_d3js_skill/claude-d3js-skill/SKILL.md) | `frontend` | `ui-ux` | `claude_d3js_skill` | `advanced` | `stable` | Use this skill to this skill provides guidance for creating sophisticated, interactive data visualisations using d3.js. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |

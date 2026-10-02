@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **35 skills** available in this category.
+> **36 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -39,3 +39,4 @@
 | [chrome-extension-developer](../../skills/frontend/ui-ux/chrome_extension_dev/chrome-extension-developer/SKILL.md) | `chrome_extension_dev` | `advanced` | `stable` | Use this skill to expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication. |
 | [ci-cd-and-automation](../../skills/frontend/ui-ux/ci_cd_and_automation/ci-cd-and-automation/SKILL.md) | `ci_cd_and_automation` | `advanced` | `stable` | Use this skill to automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies. |
 | [claude-ally-health](../../skills/frontend/ui-ux/claude_ally_health/claude-ally-health/SKILL.md) | `claude_ally_health` | `advanced` | `stable` | Use this skill to a health assistant skill for medical information analysis, symptom tracking, and wellness guidance. |
+| [claude-d3js-skill](../../skills/frontend/ui-ux/claude_d3js_skill/claude-d3js-skill/SKILL.md) | `claude_d3js_skill` | `advanced` | `stable` | Use this skill to this skill provides guidance for creating sophisticated, interactive data visualisations using d3.js. |
