@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **462** skills across structured domains, categories, and subcategories.
+Master navigation for **463** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (157 skills)
+## Ai Engineering (158 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -120,7 +120,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (101 skills)
+### Models (102 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -314,6 +314,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [cal-com-automation](../skills/ai-engineering/models/cal_com_automation/cal-com-automation/SKILL.md) — Use this skill to automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.
 - **Calendly_Automation** (1):
   - [calendly-automation](../skills/ai-engineering/models/calendly_automation/calendly-automation/SKILL.md) — Use this skill to automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.
+- **Candidate_Talent_Poo** (1):
+  - [candidate-talent-pool](../skills/ai-engineering/models/candidate_talent_poo/candidate-talent-pool/SKILL.md) — Use this skill to candidate and prospect pool: contact details, experience, skills, consent status and date, referral source and last contact. Use for talent pipelines and re-engagement.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

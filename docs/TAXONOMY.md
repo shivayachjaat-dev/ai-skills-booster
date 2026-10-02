@@ -142,6 +142,7 @@ AI_Skills_Booster/
 │   │   ├── c4_container/ (1 skills)
 │   │   ├── cal_com_automation/ (1 skills)
 │   │   ├── calendly_automation/ (1 skills)
+│   │   ├── candidate_talent_poo/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

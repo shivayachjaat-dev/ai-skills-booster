@@ -3075,6 +3075,28 @@
     "maturity": "stable"
   },
   {
+    "name": "candidate-talent-pool",
+    "path": "skills/ai-engineering/models/candidate_talent_poo/candidate-talent-pool",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "candidate_talent_poo",
+    "description": "Use this skill to candidate and prospect pool: contact details, experience, skills, consent status and date, referral source and last contact. Use for talent pipelines and re-engagement.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "candidate",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Candidate Talent Pool",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
