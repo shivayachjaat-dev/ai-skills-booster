@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 980 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 981 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -804,6 +804,7 @@
 | [disaster-recovery](skills/security/appsec/disaster_recovery/disaster-recovery/SKILL.md) | `security` | `appsec` | `disaster_recovery` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for disaster recovery. Implement disaster recovery strategies and runbooks. Configure RPO/RTO |
 | [enterprise-vpn-attack](skills/security/appsec/enterprise_vpn_attac/enterprise-vpn-attack/SKILL.md) | `security` | `appsec` | `enterprise_vpn_attac` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for enterprise vpn attack. External SSL VPN / remote-access appliance attack matrix |
 | [evidence-hygiene](skills/security/appsec/evidence_hygiene/evidence-hygiene/SKILL.md) | `security` | `appsec` | `evidence_hygiene` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for evidence hygiene. Evidence-capture and PoC-redaction discipline for bug-bounty submissions |
+| [find-bugs](skills/security/appsec/find_bugs/find-bugs/SKILL.md) | `security` | `appsec` | `find_bugs` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for find bugs. Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch. |
 | [gcp-audit-logs](skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) | `security` | `appsec` | `gcp_audit_logs` | `advanced` | `stable` | Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and |
 | [laravel-security-audit](skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `security` | `appsec` | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |

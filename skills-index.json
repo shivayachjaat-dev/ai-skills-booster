@@ -18086,6 +18086,28 @@
     "maturity": "stable"
   },
   {
+    "name": "find-bugs",
+    "path": "skills/security/appsec/find_bugs/find-bugs",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "find_bugs",
+    "description": "Use this skill to design, implement, and operate production workflows for find bugs. Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
+    "tags": [
+      "security",
+      "appsec",
+      "find",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Find Bugs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gcp-audit-logs",
     "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
     "domain": "security",
