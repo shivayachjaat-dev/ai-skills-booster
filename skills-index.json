@@ -21135,6 +21135,28 @@
     "maturity": "stable"
   },
   {
+    "name": "learn",
+    "path": "skills/frontend/ui-ux/learn/learn",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "learn",
+    "description": "Use this skill to design, implement, and operate production workflows for learn. Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study guides, or exercises. Use when the user asks to learn, understand, practice, drill, review, study, or be tutored on something.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "learn",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Learn",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
