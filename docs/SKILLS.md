@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 974 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 975 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -724,6 +724,7 @@
 | [expo-deployment](skills/frontend/web-architecture/expo_deployment/expo-deployment/SKILL.md) | `frontend` | `web-architecture` | `expo_deployment` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo deployment. Deploy Expo apps with EAS: build and submit iOS and Android releases, configure build and submit profiles, manage versions and store metadata, and deploy web bundles or API routes. |
 | [fastapi-pro](skills/frontend/web-architecture/fastapi_pro/fastapi-pro/SKILL.md) | `frontend` | `web-architecture` | `fastapi_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fastapi pro. Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns. |
 | [ffuf-claude-skill](skills/frontend/web-architecture/ffuf_claude_skill/ffuf-claude-skill/SKILL.md) | `frontend` | `web-architecture` | `ffuf_claude_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ffuf claude skill. Web fuzzing with ffuf |
+| [ffuf-web-fuzzing](skills/frontend/web-architecture/ffuf_web_fuzzing/ffuf-web-fuzzing/SKILL.md) | `frontend` | `web-architecture` | `ffuf_web_fuzzing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ffuf web fuzzing. Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | [flat-design](skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) | `frontend` | `web-architecture` | `flat_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors. |
 | [flat-design-2](skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) | `frontend` | `web-architecture` | `flat_design_2` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability. |
 | [frutiger-aero](skills/frontend/web-architecture/frutiger_aero/frutiger-aero/SKILL.md) | `frontend` | `web-architecture` | `frutiger_aero` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frutiger aero. Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs. |

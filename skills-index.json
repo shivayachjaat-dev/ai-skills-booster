@@ -16251,6 +16251,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ffuf-web-fuzzing",
+    "path": "skills/frontend/web-architecture/ffuf_web_fuzzing/ffuf-web-fuzzing",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "ffuf_web_fuzzing",
+    "description": "Use this skill to design, implement, and operate production workflows for ffuf web fuzzing. Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "ffuf",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ffuf Web Fuzzing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "flat-design",
     "path": "skills/frontend/web-architecture/flat_design/flat-design",
     "domain": "frontend",

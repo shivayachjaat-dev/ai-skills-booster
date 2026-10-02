@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **974** skills across structured domains, categories, and subcategories.
+Master navigation for **975** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (344 skills)
 
@@ -1495,7 +1495,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (180 skills)
+## Frontend (181 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1781,7 +1781,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (60 skills)
+### Web Architecture (61 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1841,6 +1841,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [fastapi-pro](../skills/frontend/web-architecture/fastapi_pro/fastapi-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for fastapi pro. Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.
 - **Ffuf_Claude_Skill** (1):
   - [ffuf-claude-skill](../skills/frontend/web-architecture/ffuf_claude_skill/ffuf-claude-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for ffuf claude skill. Web fuzzing with ffuf
+- **Ffuf_Web_Fuzzing** (1):
+  - [ffuf-web-fuzzing](../skills/frontend/web-architecture/ffuf_web_fuzzing/ffuf-web-fuzzing/SKILL.md) — Use this skill to design, implement, and operate production workflows for ffuf web fuzzing. Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
 - **Flat_Design** (1):
   - [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
 - **Flat_Design_2** (1):
