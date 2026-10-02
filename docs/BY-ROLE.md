@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (500 skills)
+## AI Engineer (501 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -329,6 +329,7 @@ Curated workflows organized by professional role and specialization.
 - [geo-brand-mentions](../skills/ai-engineering/models/geo_brand_mentions/geo-brand-mentions/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for geo brand mentions. Brand mention and authority scanner for AI visibility.
 - [geo-citability](../skills/ai-engineering/models/geo_citability/geo-citability/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for geo citability. AI citability scoring and optimization.
 - [geo-content](../skills/ai-engineering/models/geo_content/geo-content/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for geo content. Content quality and E-E-A-T assessment for AI citability — evaluate experience,
+- [geo-crawlers](../skills/ai-engineering/models/geo_crawlers/geo-crawlers/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for geo crawlers. AI crawler access analysis.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — `ai-engineering`: Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — `ai-engineering`: Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
