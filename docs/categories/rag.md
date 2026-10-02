@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,4 +10,5 @@
 | [azure-data-tables-py](../../skills/ai-engineering/rag/azure_data_tables_py/azure-data-tables-py/SKILL.md) | `azure_data_tables_py` | `advanced` | `stable` | Use this skill to azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations. |
 | [azure-keyvault-py](../../skills/ai-engineering/rag/azure_keyvault_py/azure-keyvault-py/SKILL.md) | `azure_keyvault_py` | `advanced` | `stable` | Use this skill to azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage. |
 | [azure-storage-blob-java](../../skills/ai-engineering/rag/azure_storage_blob_j/azure-storage-blob-java/SKILL.md) | `azure_storage_blob_j` | `advanced` | `stable` | Use this skill to build blob storage applications using the Azure Storage Blob SDK for Java. |
+| [azure-storage-file-datalake-py](../../skills/ai-engineering/rag/azure_storage_file_d/azure-storage-file-datalake-py/SKILL.md) | `azure_storage_file_d` | `advanced` | `stable` | Use this skill to azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations. |
 | [rag-retrieval-evaluation](../../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |

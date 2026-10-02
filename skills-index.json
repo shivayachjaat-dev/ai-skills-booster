@@ -2466,6 +2466,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-storage-file-datalake-py",
+    "path": "skills/ai-engineering/rag/azure_storage_file_d/azure-storage-file-datalake-py",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "azure_storage_file_d",
+    "description": "Use this skill to azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Storage File Datalake Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",
