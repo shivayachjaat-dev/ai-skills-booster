@@ -1205,6 +1205,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-cost-operations",
+    "path": "skills/ai-engineering/models/aws_cost_operations/aws-cost-operations",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "aws_cost_operations",
+    "description": "Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Cost Operations",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

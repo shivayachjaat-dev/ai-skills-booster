@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **226** skills across structured domains, categories, and subcategories.
+Master navigation for **227** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (60 skills)
+## Ai Engineering (61 skills)
 
 ### Agents (15 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -102,7 +102,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (23 skills)
+### Models (24 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -149,6 +149,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [aws-agentic-ai](../skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) — Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations.
 - **Aws_Cloudtrail** (1):
   - [aws-cloudtrail](../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) — Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails
+- **Aws_Cost_Operations** (1):
+  - [aws-cost-operations](../skills/ai-engineering/models/aws_cost_operations/aws-cost-operations/SKILL.md) — Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
