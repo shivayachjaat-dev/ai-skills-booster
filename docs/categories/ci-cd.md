@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **26 skills** available in this category.
+> **27 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -29,4 +29,5 @@
 | [feature-flags](../../skills/devops/ci-cd/feature_flags/feature-flags/SKILL.md) | `feature_flags` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for feature flags. Implement feature flags for progressive feature rollout using LaunchDarkly, |
 | [gcp-cloud-functions](../../skills/devops/ci-cd/gcp_cloud_functions/gcp-cloud-functions/SKILL.md) | `gcp_cloud_functions` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp cloud functions. Deploy serverless functions on Google Cloud Functions. Configure triggers |
 | [gcp-compute](../../skills/devops/ci-cd/gcp_compute/gcp-compute/SKILL.md) | `gcp_compute` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp compute. Manage Compute Engine instances and instance templates. Configure managed |
+| [gcp-gke](../../skills/devops/ci-cd/gcp_gke/gcp-gke/SKILL.md) | `gcp_gke` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp gke. Deploy and manage Google Kubernetes Engine clusters. Configure node pools, |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |

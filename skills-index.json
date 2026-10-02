@@ -12209,6 +12209,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gcp-gke",
+    "path": "skills/devops/ci-cd/gcp_gke/gcp-gke",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "gcp_gke",
+    "description": "Use this skill to design, implement, and operate production workflows for gcp gke. Deploy and manage Google Kubernetes Engine clusters. Configure node pools,",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "gcp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gcp Gke",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
