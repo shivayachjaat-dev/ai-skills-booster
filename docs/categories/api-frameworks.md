@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **26 skills** available in this category.
+> **27 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -30,3 +30,4 @@
 | [hugging-face-papers](../../skills/backend/api-frameworks/hugging_face_papers/hugging-face-papers/SKILL.md) | `hugging_face_papers` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face papers. Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. |
 | [hunt-api-misconfig](../../skills/backend/api-frameworks/hunt_api_misconfig/hunt-api-misconfig/SKILL.md) | `hunt_api_misconfig` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt api misconfig. Hunt API security misconfiguration |
 | [hunt-shadow-api](../../skills/backend/api-frameworks/hunt_shadow_api/hunt-shadow-api/SKILL.md) | `hunt_shadow_api` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt shadow api. Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper |
+| [incident-responder](../../skills/backend/api-frameworks/incident_responder/incident-responder/SKILL.md) | `incident_responder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incident responder. Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. |

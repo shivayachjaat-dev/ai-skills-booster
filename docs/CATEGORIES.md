@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,285** skills across structured domains, categories, and subcategories.
+Master navigation for **1,286** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (432 skills)
 
@@ -932,7 +932,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (81 skills)
+## Backend (82 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -956,7 +956,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (26 skills)
+### Api Frameworks (27 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -1009,6 +1009,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [hunt-api-misconfig](../skills/backend/api-frameworks/hunt_api_misconfig/hunt-api-misconfig/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt api misconfig. Hunt API security misconfiguration
 - **Hunt_Shadow_Api** (1):
   - [hunt-shadow-api](../skills/backend/api-frameworks/hunt_shadow_api/hunt-shadow-api/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt shadow api. Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper
+- **Incident_Responder** (1):
+  - [incident-responder](../skills/backend/api-frameworks/incident_responder/incident-responder/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident responder. Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)

@@ -10392,6 +10392,28 @@
     "maturity": "stable"
   },
   {
+    "name": "incident-responder",
+    "path": "skills/backend/api-frameworks/incident_responder/incident-responder",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "incident_responder",
+    "description": "Use this skill to design, implement, and operate production workflows for incident responder. Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "incident",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Incident Responder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
