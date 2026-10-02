@@ -7407,6 +7407,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brand-guidelines-anthropic",
+    "path": "skills/frontend/ui-ux/brand_guidelines_ant/brand-guidelines-anthropic",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "brand_guidelines_ant",
+    "description": "Use this skill to to access Anthropic's official brand identity and style resources, use this skill.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "brand",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brand Guidelines Anthropic",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

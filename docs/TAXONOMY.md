@@ -406,7 +406,8 @@ AI_Skills_Booster/
 │   │   ├── bash_defensive_patte/ (1 skills)
 │   │   ├── bats_testing_pattern/ (1 skills)
 │   │   ├── bazel_build_optimiza/ (1 skills)
-│   │   └── blog_writing_guide/ (1 skills)
+│   │   ├── blog_writing_guide/ (1 skills)
+│   │   └── brand_guidelines_ant/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)

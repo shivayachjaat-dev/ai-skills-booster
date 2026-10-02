@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **414** skills across structured domains, categories, and subcategories.
+Master navigation for **415** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (138 skills)
 
@@ -922,7 +922,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (37 skills)
+## Frontend (38 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -982,7 +982,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-### Ui Ux (21 skills)
+### Ui Ux (22 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1027,6 +1027,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [bazel-build-optimization](../skills/frontend/ui-ux/bazel_build_optimiza/bazel-build-optimization/SKILL.md) — Use this skill to optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.
 - **Blog_Writing_Guide** (1):
   - [blog-writing-guide](../skills/frontend/ui-ux/blog_writing_guide/blog-writing-guide/SKILL.md) — Use this skill to this skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement.
+- **Brand_Guidelines_Ant** (1):
+  - [brand-guidelines-anthropic](../skills/frontend/ui-ux/brand_guidelines_ant/brand-guidelines-anthropic/SKILL.md) — Use this skill to to access Anthropic's official brand identity and style resources, use this skill.
 
 ### Web Architecture (5 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
