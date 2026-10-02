@@ -22411,6 +22411,28 @@
     "maturity": "stable"
   },
   {
+    "name": "longbridge-research",
+    "path": "skills/frontend/ui-ux/longbridge_research/longbridge-research",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "longbridge_research",
+    "description": "Use this skill to design, implement, and operate production workflows for longbridge research. Curated upstream guidance for Longbridge Research; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "longbridge",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Longbridge Research",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
