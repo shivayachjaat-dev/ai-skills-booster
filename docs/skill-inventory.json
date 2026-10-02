@@ -35,7 +35,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.333856+00:00"
+    "updated_at": "2026-10-02T13:56:41.691920+00:00"
   },
   {
     "name": "agent-project-memory",
@@ -71,7 +71,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.333856+00:00"
+    "updated_at": "2026-10-02T13:56:41.691920+00:00"
   },
   {
     "name": "context-window-engineering",
@@ -106,7 +106,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.333856+00:00"
+    "updated_at": "2026-10-02T13:56:41.692920+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -143,7 +143,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.334855+00:00"
+    "updated_at": "2026-10-02T13:56:41.693432+00:00"
   },
   {
     "name": "api-rate-limiting-and-throttling",
@@ -182,7 +182,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.334855+00:00"
+    "updated_at": "2026-10-02T13:56:41.693432+00:00"
   },
   {
     "name": "fastapi-async-api-design",
@@ -222,7 +222,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.335855+00:00"
+    "updated_at": "2026-10-02T13:56:41.693432+00:00"
   },
   {
     "name": "graphql-schema-evolution",
@@ -262,7 +262,45 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.335855+00:00"
+    "updated_at": "2026-10-02T13:56:41.694442+00:00"
+  },
+  {
+    "name": "kafka-event-driven-architecture",
+    "slug": "kafka-event-driven-architecture",
+    "path": "skills/backend/messaging/kafka/kafka-event-driven-architecture",
+    "domain": "backend",
+    "category": "messaging",
+    "subcategory": "kafka",
+    "description": "Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.",
+    "tags": [
+      "kafka",
+      "event-driven",
+      "backend",
+      "messaging",
+      "distributed-systems",
+      "streaming"
+    ],
+    "technologies": [
+      "Apache Kafka",
+      "Java",
+      "Python",
+      "Avro",
+      "Docker"
+    ],
+    "complexity": "expert",
+    "maturity": "stable",
+    "tools": [
+      "python",
+      "docker"
+    ],
+    "dependencies": [
+      "confluent-kafka or kafka-python"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:56:41.694442+00:00"
   },
   {
     "name": "polars-high-throughput-data-pipeline",
@@ -300,7 +338,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.335855+00:00"
+    "updated_at": "2026-10-02T13:56:41.694442+00:00"
   },
   {
     "name": "ab-test-experiment-design",
@@ -338,7 +376,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.336855+00:00"
+    "updated_at": "2026-10-02T13:56:41.695612+00:00"
   },
   {
     "name": "database-migration-safety",
@@ -377,7 +415,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.336855+00:00"
+    "updated_at": "2026-10-02T13:56:41.695612+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -413,7 +451,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.336855+00:00"
+    "updated_at": "2026-10-02T13:56:41.695612+00:00"
   },
   {
     "name": "redis-caching-patterns",
@@ -451,7 +489,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.337854+00:00"
+    "updated_at": "2026-10-02T13:56:41.696611+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -488,7 +526,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.337854+00:00"
+    "updated_at": "2026-10-02T13:56:41.696611+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -525,7 +563,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.338854+00:00"
+    "updated_at": "2026-10-02T13:56:41.696611+00:00"
   },
   {
     "name": "wcag-accessibility-audit",
@@ -565,7 +603,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.338854+00:00"
+    "updated_at": "2026-10-02T13:56:41.697611+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -603,7 +641,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.339342+00:00"
+    "updated_at": "2026-10-02T13:56:41.697611+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -641,7 +679,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.339342+00:00"
+    "updated_at": "2026-10-02T13:56:41.698611+00:00"
   },
   {
     "name": "skill-creator",
@@ -677,7 +715,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.340718+00:00"
+    "updated_at": "2026-10-02T13:56:41.698611+00:00"
   },
   {
     "name": "prompt-injection-defense",
@@ -712,7 +750,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.341231+00:00"
+    "updated_at": "2026-10-02T13:56:41.698611+00:00"
   },
   {
     "name": "oauth2-jwt-authentication-flow",
@@ -754,7 +792,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.342271+00:00"
+    "updated_at": "2026-10-02T13:56:41.699611+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -790,7 +828,7 @@
     "has_evals": true,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.342271+00:00"
+    "updated_at": "2026-10-02T13:56:41.699611+00:00"
   },
   {
     "name": "secret-leak-detection-and-remediation",
@@ -828,7 +866,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.342271+00:00"
+    "updated_at": "2026-10-02T13:56:41.699611+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -866,7 +904,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.343270+00:00"
+    "updated_at": "2026-10-02T13:56:41.700607+00:00"
   },
   {
     "name": "debugging-and-error-recovery",
@@ -904,7 +942,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.343270+00:00"
+    "updated_at": "2026-10-02T13:56:41.701611+00:00"
   },
   {
     "name": "legacy-system-strangler-migration",
@@ -942,7 +980,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.343270+00:00"
+    "updated_at": "2026-10-02T13:56:41.702609+00:00"
   },
   {
     "name": "code-simplification",
@@ -977,7 +1015,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.344270+00:00"
+    "updated_at": "2026-10-02T13:56:41.703634+00:00"
   },
   {
     "name": "playwright-e2e-testing",
@@ -1015,6 +1053,6 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T13:52:41.344270+00:00"
+    "updated_at": "2026-10-02T13:56:41.703634+00:00"
   }
 ]

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **27** skills across structured domains, categories, and subcategories.
+Master navigation for **28** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -24,7 +24,7 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 
-## Backend (3 skills)
+## Backend (4 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -43,6 +43,12 @@ Category index: [`docs/categories/graphql.md`](categories/graphql.md)
 
 - **Schema Design** (1):
   - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
+
+### Messaging (1 skills)
+Category index: [`docs/categories/messaging.md`](categories/messaging.md)
+
+- **Kafka** (1):
+  - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
 
 ## Data Analytics (2 skills)
 

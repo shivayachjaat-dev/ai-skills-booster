@@ -170,6 +170,31 @@
     "maturity": "stable"
   },
   {
+    "name": "kafka-event-driven-architecture",
+    "path": "skills/backend/messaging/kafka/kafka-event-driven-architecture",
+    "domain": "backend",
+    "category": "messaging",
+    "subcategory": "kafka",
+    "description": "Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.",
+    "tags": [
+      "kafka",
+      "event-driven",
+      "backend",
+      "messaging",
+      "distributed-systems",
+      "streaming"
+    ],
+    "technologies": [
+      "Apache Kafka",
+      "Java",
+      "Python",
+      "Avro",
+      "Docker"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",
