@@ -699,6 +699,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-analyzer",
+    "path": "skills/ai-engineering/models/ai_analyzer/ai-analyzer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ai_analyzer",
+    "description": "Use this skill to aI\u9a71\u52a8\u7684\u7efc\u5408\u5065\u5eb7\u5206\u6790\u7cfb\u7edf\uff0c\u6574\u5408\u591a\u7ef4\u5ea6\u5065\u5eb7\u6570\u636e\u3001\u8bc6\u522b\u5f02\u5e38\u6a21\u5f0f\u3001\u9884\u6d4b\u5065\u5eb7\u98ce\u9669\u3001\u63d0\u4f9b\u4e2a\u6027\u5316\u5efa\u8bae\u3002\u652f\u6301\u667a\u80fd\u95ee\u7b54\u548cAI\u5065\u5eb7\u62a5\u544a\u751f\u6210\u3002",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ai Analyzer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",
