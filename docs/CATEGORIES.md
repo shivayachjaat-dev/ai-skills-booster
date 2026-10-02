@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **47** skills across structured domains, categories, and subcategories.
+Master navigation for **48** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (6 skills)
 
@@ -116,7 +116,7 @@ Category index: [`docs/categories/redis.md`](categories/redis.md)
 - **Caching** (1):
   - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 
-## Devops (6 skills)
+## Devops (7 skills)
 
 ### Ci Cd (1 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -153,6 +153,12 @@ Category index: [`docs/categories/observability.md`](categories/observability.md
 
 - **Opentelemetry** (1):
   - [opentelemetry-distributed-tracing](../skills/devops/observability/opentelemetry/opentelemetry-distributed-tracing/SKILL.md) — Use this skill when designing, instrumenting, and troubleshooting end-to-end distributed tracing across microservices using OpenTelemetry (OTel). It covers W3C tracecontext propagation, OTLP gRPC/HTTP exporters, head-based and tail-based sampling strategies, span attributes standardization (semantic conventions), and collector deployment.
+
+### Service Mesh (1 skills)
+Category index: [`docs/categories/service-mesh.md`](categories/service-mesh.md)
+
+- **Istio** (1):
+  - [istio-service-mesh-traffic-routing](../skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing/SKILL.md) — Use this skill when implementing advanced traffic management, security policies, and canary deployments using the Istio Service Mesh. It guides the agent through VirtualService routing rules, DestinationRule subset definitions, mutual TLS (mTLS) PeerAuthentication enforcement, fault injection, and Envoy sidecar proxy tuning.
 
 ## Frontend (3 skills)
 

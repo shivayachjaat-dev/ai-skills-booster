@@ -53,8 +53,10 @@ AI_Skills_Booster/
 │   │   └── troubleshooting/ (1 skills)
 │   ├── monitoring/
 │   │   └── prometheus/ (1 skills)
-│   └── observability/
+│   ├── observability/
 │   │   └── opentelemetry/ (1 skills)
+│   └── service-mesh/
+│   │   └── istio/ (1 skills)
 ├── frontend/
 │   ├── accessibility/
 │   │   └── wcag/ (1 skills)

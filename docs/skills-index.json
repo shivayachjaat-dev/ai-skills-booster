@@ -624,6 +624,31 @@
     "maturity": "stable"
   },
   {
+    "name": "istio-service-mesh-traffic-routing",
+    "path": "skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing",
+    "domain": "devops",
+    "category": "service-mesh",
+    "subcategory": "istio",
+    "description": "Use this skill when implementing advanced traffic management, security policies, and canary deployments using the Istio Service Mesh. It guides the agent through VirtualService routing rules, DestinationRule subset definitions, mutual TLS (mTLS) PeerAuthentication enforcement, fault injection, and Envoy sidecar proxy tuning.",
+    "tags": [
+      "istio",
+      "service-mesh",
+      "kubernetes",
+      "canary",
+      "mtls",
+      "traffic-management"
+    ],
+    "technologies": [
+      "Istio",
+      "Kubernetes",
+      "Envoy",
+      "Kiali",
+      "Helm"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "wcag-accessibility-audit",
     "path": "skills/frontend/accessibility/wcag/wcag-accessibility-audit",
     "domain": "frontend",
