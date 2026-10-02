@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **77** skills across structured domains, categories, and subcategories.
+Master navigation for **78** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (11 skills)
 
@@ -192,7 +192,7 @@ Category index: [`docs/categories/time-series.md`](categories/time-series.md)
 - **Timescaledb** (1):
   - [timescaledb-hypertables-and-retention](../skills/databases/time-series/timescaledb/timescaledb-hypertables-and-retention/SKILL.md) — Use this skill when architecting, partitioning, and optimizing high-throughput time-series databases with TimescaleDB on PostgreSQL. It guides the agent through hypertable creation, chunk time interval sizing, continuous aggregates with automatic refresh policies, column-oriented compression policies, and data retention drops.
 
-## Devops (12 skills)
+## Devops (13 skills)
 
 ### Ci Cd (1 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -245,9 +245,11 @@ Category index: [`docs/categories/monitoring.md`](categories/monitoring.md)
   - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
   - [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
 
-### Observability (1 skills)
+### Observability (2 skills)
 Category index: [`docs/categories/observability.md`](categories/observability.md)
 
+- **Grafana Loki** (1):
+  - [grafana-loki-log-aggregation](../skills/devops/observability/grafana-loki/grafana-loki-log-aggregation/SKILL.md) — Use this skill when designing, configuring, and querying horizontally scalable log aggregation systems using Grafana Loki and Promtail / Grafana Alloy. It guides the agent through label cardinality management to prevent index explosion, authoring LogQL queries and metric extractions, configuring structured metadata, and creating LogQL alerting rules.
 - **Opentelemetry** (1):
   - [opentelemetry-distributed-tracing](../skills/devops/observability/opentelemetry/opentelemetry-distributed-tracing/SKILL.md) — Use this skill when designing, instrumenting, and troubleshooting end-to-end distributed tracing across microservices using OpenTelemetry (OTel). It covers W3C tracecontext propagation, OTLP gRPC/HTTP exporters, head-based and tail-based sampling strategies, span attributes standardization (semantic conventions), and collector deployment.
 

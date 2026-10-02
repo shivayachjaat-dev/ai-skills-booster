@@ -1078,6 +1078,32 @@
     "maturity": "stable"
   },
   {
+    "name": "grafana-loki-log-aggregation",
+    "path": "skills/devops/observability/grafana-loki/grafana-loki-log-aggregation",
+    "domain": "devops",
+    "category": "observability",
+    "subcategory": "grafana-loki",
+    "description": "Use this skill when designing, configuring, and querying horizontally scalable log aggregation systems using Grafana Loki and Promtail / Grafana Alloy. It guides the agent through label cardinality management to prevent index explosion, authoring LogQL queries and metric extractions, configuring structured metadata, and creating LogQL alerting rules.",
+    "tags": [
+      "grafana-loki",
+      "loki",
+      "logql",
+      "logging",
+      "observability",
+      "promtail",
+      "devops"
+    ],
+    "technologies": [
+      "Grafana Loki",
+      "Promtail",
+      "Grafana Alloy",
+      "LogQL",
+      "Kubernetes"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "opentelemetry-distributed-tracing",
     "path": "skills/devops/observability/opentelemetry/opentelemetry-distributed-tracing",
     "domain": "devops",
