@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1375 skills)
+## Bash (1376 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1618,6 +1618,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [javascript-pro](../skills/backend/api-frameworks/javascript_pro/javascript-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript pro. Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.
 - [longbridge-market-data](../skills/backend/api-frameworks/longbridge_market_da/longbridge-market-data/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge market data. Real-time quotes, K-line charts, order book, trade ticks, intraday capital flow, market sentiment temperature, trading session schedule, security lists, exchange rates, and IPO calendar for HK/US/A-share/SG via Longbridge. Also covers ADR premium an...
 - [minecraft-bukkit-pro](../skills/backend/api-frameworks/minecraft_bukkit_pro/minecraft-bukkit-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for minecraft bukkit pro. Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.
+- [monthly-closing-statements](../skills/backend/api-frameworks/monthly_closing_stat/monthly-closing-statements/SKILL.md) — Use this skill to design, implement, and operate production workflows for monthly closing statements. Monthly closing register: period dates, cash/bank/party/inventory/TDS reconciliation flags, profit, receivables, payables, working capital, open adjustments and reviewer. Use for period close.
 - [hunt-cache-poison](../skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
 - [azure-postgres-ts](../skills/backend/databases/azure_postgres_ts/azure-postgres-ts/SKILL.md) — Use this skill to connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
@@ -7833,6 +7834,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [monte-carlo-validation-notebook](../skills/backend/databases/monte_carlo_validati/monte-carlo-validation-notebook/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo validation notebook. Generates SQL validation notebooks for dbt PR changes with before/after comparison queries.
 
+## Monthly Closing Statements (1 skills)
+
+- [monthly-closing-statements](../skills/backend/api-frameworks/monthly_closing_stat/monthly-closing-statements/SKILL.md) — Use this skill to design, implement, and operate production workflows for monthly closing statements. Monthly closing register: period dates, cash/bank/party/inventory/TDS reconciliation flags, profit, receivables, payables, working capital, open adjustments and reviewer. Use for period close.
+
 ## Multi-Agent Protocols (1 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
@@ -8209,7 +8214,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1478 skills)
+## Python (1479 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8783,6 +8788,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [javascript-pro](../skills/backend/api-frameworks/javascript_pro/javascript-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript pro. Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.
 - [longbridge-market-data](../skills/backend/api-frameworks/longbridge_market_da/longbridge-market-data/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge market data. Real-time quotes, K-line charts, order book, trade ticks, intraday capital flow, market sentiment temperature, trading session schedule, security lists, exchange rates, and IPO calendar for HK/US/A-share/SG via Longbridge. Also covers ADR premium an...
 - [minecraft-bukkit-pro](../skills/backend/api-frameworks/minecraft_bukkit_pro/minecraft-bukkit-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for minecraft bukkit pro. Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.
+- [monthly-closing-statements](../skills/backend/api-frameworks/monthly_closing_stat/monthly-closing-statements/SKILL.md) — Use this skill to design, implement, and operate production workflows for monthly closing statements. Monthly closing register: period dates, cash/bank/party/inventory/TDS reconciliation flags, profit, receivables, payables, working capital, open adjustments and reviewer. Use for period close.
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
 - [hunt-cache-poison](../skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.
 - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.

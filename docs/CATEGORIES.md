@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,557** skills across structured domains, categories, and subcategories.
+Master navigation for **1,558** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (538 skills)
 
@@ -1142,7 +1142,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (91 skills)
+## Backend (92 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1166,7 +1166,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (31 skills)
+### Api Frameworks (32 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -1229,6 +1229,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [longbridge-market-data](../skills/backend/api-frameworks/longbridge_market_da/longbridge-market-data/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge market data. Real-time quotes, K-line charts, order book, trade ticks, intraday capital flow, market sentiment temperature, trading session schedule, security lists, exchange rates, and IPO calendar for HK/US/A-share/SG via Longbridge. Also covers ADR premium an...
 - **Minecraft_Bukkit_Pro** (1):
   - [minecraft-bukkit-pro](../skills/backend/api-frameworks/minecraft_bukkit_pro/minecraft-bukkit-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for minecraft bukkit pro. Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.
+- **Monthly_Closing_Stat** (1):
+  - [monthly-closing-statements](../skills/backend/api-frameworks/monthly_closing_stat/monthly-closing-statements/SKILL.md) — Use this skill to design, implement, and operate production workflows for monthly closing statements. Monthly closing register: period dates, cash/bank/party/inventory/TDS reconciliation flags, profit, receivables, payables, working capital, open adjustments and reviewer. Use for period close.
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)

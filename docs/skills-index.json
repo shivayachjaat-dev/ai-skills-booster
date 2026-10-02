@@ -12834,6 +12834,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monthly-closing-statements",
+    "path": "skills/backend/api-frameworks/monthly_closing_stat/monthly-closing-statements",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "monthly_closing_stat",
+    "description": "Use this skill to design, implement, and operate production workflows for monthly closing statements. Monthly closing register: period dates, cash/bank/party/inventory/TDS reconciliation flags, profit, receivables, payables, working capital, open adjustments and reviewer. Use for period close.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "monthly",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monthly Closing Statements",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",

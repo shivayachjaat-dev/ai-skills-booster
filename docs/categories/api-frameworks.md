@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **31 skills** available in this category.
+> **32 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -35,3 +35,4 @@
 | [javascript-pro](../../skills/backend/api-frameworks/javascript_pro/javascript-pro/SKILL.md) | `javascript_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for javascript pro. Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility. |
 | [longbridge-market-data](../../skills/backend/api-frameworks/longbridge_market_da/longbridge-market-data/SKILL.md) | `longbridge_market_da` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for longbridge market data. Real-time quotes, K-line charts, order book, trade ticks, intraday capital flow, market sentiment temperature, trading session schedule, security lists, exchange rates, and IPO calendar for HK/US/A-share/SG via Longbridge. Also covers ADR premium an... |
 | [minecraft-bukkit-pro](../../skills/backend/api-frameworks/minecraft_bukkit_pro/minecraft-bukkit-pro/SKILL.md) | `minecraft_bukkit_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for minecraft bukkit pro. Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. |
+| [monthly-closing-statements](../../skills/backend/api-frameworks/monthly_closing_stat/monthly-closing-statements/SKILL.md) | `monthly_closing_stat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monthly closing statements. Monthly closing register: period dates, cash/bank/party/inventory/TDS reconciliation flags, profit, receivables, payables, working capital, open adjustments and reviewer. Use for period close. |
