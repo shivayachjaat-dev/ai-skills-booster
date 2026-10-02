@@ -18275,6 +18275,28 @@
     "maturity": "stable"
   },
   {
+    "name": "helm-chart-scaffolding",
+    "path": "skills/frontend/ui-ux/helm_chart_scaffoldi/helm-chart-scaffolding",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "helm_chart_scaffoldi",
+    "description": "Use this skill to design, implement, and operate production workflows for helm chart scaffolding. Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "helm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Helm Chart Scaffolding",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
