@@ -9037,6 +9037,28 @@
     "maturity": "stable"
   },
   {
+    "name": "k8s-manifest-generator",
+    "path": "skills/ai-engineering/models/k8s_manifest_generat/k8s-manifest-generator",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "k8s_manifest_generat",
+    "description": "Use this skill to design, implement, and operate production workflows for k8s manifest generator. Step-by-step guidance for creating production-ready Kubernetes manifests including Deployments, Services, ConfigMaps, Secrets, and PersistentVolumeClaims.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "k8s",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "K8S Manifest Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
