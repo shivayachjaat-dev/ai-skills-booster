@@ -12128,6 +12128,28 @@
     "maturity": "stable"
   },
   {
+    "name": "internal-communication",
+    "path": "skills/business/operations/internal_communicati/internal-communication",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "internal_communicati",
+    "description": "Use this skill to design, implement, and operate production workflows for internal communication. Internal communication log: title, type, date, department, host and attendees, agenda, action items, follow-up date, meeting link and delivery status. Use for internal comms tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "internal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Internal Communication",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

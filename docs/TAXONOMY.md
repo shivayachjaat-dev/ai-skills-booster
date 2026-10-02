@@ -571,7 +571,8 @@ AI_Skills_Booster/
 │   │   ├── gamification_engine/ (1 skills)
 │   │   ├── gbp_local_seo_intent/ (1 skills)
 │   │   ├── health_wellness/ (1 skills)
-│   │   └── intern_program/ (1 skills)
+│   │   ├── intern_program/ (1 skills)
+│   │   └── internal_communicati/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/
