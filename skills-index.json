@@ -6241,6 +6241,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-search-documents-ts",
+    "path": "skills/frontend/ui-ux/azure_search_documen/azure-search-documents-ts",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "azure_search_documen",
+    "description": "Use this skill to build search applications with vector, hybrid, and semantic search capabilities.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Search Documents Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

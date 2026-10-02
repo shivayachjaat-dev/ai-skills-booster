@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 348 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 349 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -269,6 +269,7 @@
 | [azure-eventgrid-java](skills/frontend/ui-ux/azure_eventgrid_java/azure-eventgrid-java/SKILL.md) | `frontend` | `ui-ux` | `azure_eventgrid_java` | `advanced` | `stable` | Use this skill to build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub patterns, or integrating with Azure services via events. |
 | [azure-eventhub-java](skills/frontend/ui-ux/azure_eventhub_java/azure-eventhub-java/SKILL.md) | `frontend` | `ui-ux` | `azure_eventhub_java` | `advanced` | `stable` | Use this skill to build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures. |
 | [azure-functions-devsec](skills/frontend/ui-ux/azure_functions_devs/azure-functions-devsec/SKILL.md) | `frontend` | `ui-ux` | `azure_functions_devs` | `advanced` | `stable` | Use this skill to build serverless applications on Azure Functions. Configure triggers, |
+| [azure-search-documents-ts](skills/frontend/ui-ux/azure_search_documen/azure-search-documents-ts/SKILL.md) | `frontend` | `ui-ux` | `azure_search_documen` | `advanced` | `stable` | Use this skill to build search applications with vector, hybrid, and semantic search capabilities. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |
