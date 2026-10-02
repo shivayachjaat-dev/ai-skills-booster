@@ -14633,6 +14633,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dali-short-address-commissioner",
+    "path": "skills/software-engineering/architecture/patterns/dali-short-address-commissioner",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to commissions DALI and DALI-2 (IEC 62386) lighting buses: short-address assignment (0-63), 24-bit binary search collision resolution, groups, and DT8 color control. Trigger phrases: commission dali, dali short address, dali collision resolution, dali bus addressing, dali-2 setup.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "dali",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dali Short Address Commissioner",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
