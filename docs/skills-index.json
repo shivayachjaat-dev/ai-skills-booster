@@ -10783,6 +10783,28 @@
     "maturity": "stable"
   },
   {
+    "name": "changelog-automation",
+    "path": "skills/software-engineering/architecture/patterns/changelog-automation",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "changelog",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Changelog Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

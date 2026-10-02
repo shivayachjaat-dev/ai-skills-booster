@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,3 +28,4 @@
 | [c4-context](../../skills/software-engineering/architecture/patterns/c4-context/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies. |
 | [canvas-design](../../skills/software-engineering/architecture/patterns/canvas-design/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to these are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files. |
 | [cc-skill-continuous-learning](../../skills/software-engineering/architecture/patterns/cc-skill-continuous-learning/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to turn a completed debugging session or repeated user correction into a small, evidence-backed procedure. Use for explicit requests to capture reusable lessons; does not automatically extract or save memories. |
+| [changelog-automation](../../skills/software-engineering/architecture/patterns/changelog-automation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions. |
