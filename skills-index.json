@@ -8223,6 +8223,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-tool-builder",
+    "path": "skills/ai-engineering/models/hugging_face_tool_bu/hugging-face-tool-builder",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "hugging_face_tool_bu",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face tool builder. Your purpose is now is to create reusable command line scripts and utilities for using the Hugging Face API, allowing chaining, piping and intermediate processing where helpful. You can access the API directly, as well as use the hf command line ...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Tool Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
