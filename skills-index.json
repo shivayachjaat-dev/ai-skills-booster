@@ -6073,6 +6073,28 @@
     "maturity": "stable"
   },
   {
+    "name": "database",
+    "path": "skills/backend/databases/database/database",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "database",
+    "description": "Use this skill to database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.",
+    "tags": [
+      "backend",
+      "databases",
+      "database",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Database",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

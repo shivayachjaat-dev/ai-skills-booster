@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **669** skills across structured domains, categories, and subcategories.
+Master navigation for **670** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (241 skills)
 
@@ -550,7 +550,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (48 skills)
+## Backend (49 skills)
 
 ### Api Design (5 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -620,7 +620,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (6 skills)
+### Databases (7 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -633,6 +633,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [azure-resource-manager-sql-dotnet](../skills/backend/databases/azure_resource_manag/azure-resource-manager-sql-dotnet/SKILL.md) — Use this skill to azure Resource Manager SDK for Azure SQL in .NET.
 - **Cc_Skill_Clickhouse_** (1):
   - [cc-skill-clickhouse-io](../skills/backend/databases/cc_skill_clickhouse_/cc-skill-clickhouse-io/SKILL.md) — Use this skill to clickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
+- **Database** (1):
+  - [database](../skills/backend/databases/database/database/SKILL.md) — Use this skill to database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)

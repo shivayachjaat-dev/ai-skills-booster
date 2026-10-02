@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 669 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 670 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -274,6 +274,7 @@
 | [azure-resource-manager-postgresql-dotnet](skills/backend/databases/azure_resource_manag/azure-resource-manager-postgresql-dotnet/SKILL.md) | `backend` | `databases` | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments. |
 | [azure-resource-manager-sql-dotnet](skills/backend/databases/azure_resource_manag/azure-resource-manager-sql-dotnet/SKILL.md) | `backend` | `databases` | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Azure SQL in .NET. |
 | [cc-skill-clickhouse-io](skills/backend/databases/cc_skill_clickhouse_/cc-skill-clickhouse-io/SKILL.md) | `backend` | `databases` | `cc_skill_clickhouse_` | `advanced` | `stable` | Use this skill to clickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. |
+| [database](skills/backend/databases/database/database/SKILL.md) | `backend` | `databases` | `database` | `advanced` | `stable` | Use this skill to database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering. |
 | [openapi-documentation-generator-and-swagger-ui](skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui/SKILL.md) | `backend` | `documentation` | `openapi-generator` | `intermediate` | `stable` | Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export. |
 | [fastapi-async-api-design](skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) | `backend` | `fastapi` | `async-architecture` | `advanced` | `stable` | Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation. |
 | [apollo-federation-subgraph-architecture](skills/backend/graphql/federation/apollo-federation-subgraph-architecture/SKILL.md) | `backend` | `graphql` | `federation` | `advanced` | `stable` | Use this skill when designing, composing, and operating distributed GraphQL schemas using Apollo Federation v2. It guides the agent through defining entity keys (@key), entity resolvers (__resolveReference), sharing types (@shareable), migrating fields across subgraphs (@override), schema composition with Rover CLI, and Gateway/Router routing. |
