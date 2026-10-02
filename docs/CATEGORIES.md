@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **606** skills across structured domains, categories, and subcategories.
+Master navigation for **607** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (214 skills)
+## Ai Engineering (215 skills)
 
 ### Agents (26 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -138,7 +138,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (147 skills)
+### Models (148 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -424,6 +424,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [context-fundamentals](../skills/ai-engineering/models/context_fundamentals/context-fundamentals/SKILL.md) — Use this skill to context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs.
 - **Context_Manager** (1):
   - [context-manager](../skills/ai-engineering/models/context_manager/context-manager/SKILL.md) — Use this skill to elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems.
+- **Context_Optimization** (1):
+  - [context-optimization](../skills/ai-engineering/models/context_optimization/context-optimization/SKILL.md) — Use this skill to context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

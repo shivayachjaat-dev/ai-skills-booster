@@ -4285,6 +4285,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-optimization",
+    "path": "skills/ai-engineering/models/context_optimization/context-optimization",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "context_optimization",
+    "description": "Use this skill to context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Optimization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
