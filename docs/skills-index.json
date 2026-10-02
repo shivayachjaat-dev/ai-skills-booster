@@ -6121,6 +6121,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-identity-dotnet",
+    "path": "skills/security/authentication/azure_identity_dotne/azure-identity-dotnet",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "azure_identity_dotne",
+    "description": "Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.",
+    "tags": [
+      "security",
+      "authentication",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Identity Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
