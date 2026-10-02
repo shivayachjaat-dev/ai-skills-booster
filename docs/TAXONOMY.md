@@ -26,6 +26,7 @@ AI_Skills_Booster/
 │   │   ├── data_structure_proto/ (1 skills)
 │   │   ├── delegate_setup/ (1 skills)
 │   │   ├── dispatching_parallel/ (1 skills)
+│   │   ├── ditto/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── forensic-audit/ (1 skills)
 │   │   ├── geo_audit/ (1 skills)

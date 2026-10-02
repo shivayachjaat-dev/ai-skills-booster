@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (406 skills)
+## AI Engineer (407 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -26,6 +26,7 @@ Curated workflows organized by professional role and specialization.
 - [data-structure-protocol](../skills/ai-engineering/agents/data_structure_proto/data-structure-protocol/SKILL.md) — `ai-engineering`: Use this skill to give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo.
 - [delegate-setup](../skills/ai-engineering/agents/delegate_setup/delegate-setup/SKILL.md) — `ai-engineering`: Use this skill to configure approved delegation lanes across installed implementer CLIs,
 - [dispatching-parallel-agents](../skills/ai-engineering/agents/dispatching_parallel/dispatching-parallel-agents/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for dispatching parallel agents. Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
+- [ditto](../skills/ai-engineering/agents/ditto/ditto/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for ditto. Use when a user asks to mine or update a private, evidence-backed work profile from local Claude Code, Codex, Copilot CLI, or OpenCode sessions.
 - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — `ai-engineering`: Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — `ai-engineering`: Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
 - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — `ai-engineering`: Use this skill to full website GEO+SEO audit with parallel subagent delegation.
