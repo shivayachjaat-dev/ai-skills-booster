@@ -11281,6 +11281,28 @@
     "maturity": "stable"
   },
   {
+    "name": "neon-ai-gateway",
+    "path": "skills/ai-engineering/models/neon_ai_gateway/neon-ai-gateway",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "neon_ai_gateway",
+    "description": "Use this skill to design, implement, and operate production workflows for neon ai gateway. One API and one credential for frontier and open-source LLMs, built into your Neon branch and powered by Databricks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "neon",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Neon Ai Gateway",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
