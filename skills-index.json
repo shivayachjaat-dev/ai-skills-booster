@@ -3735,6 +3735,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-simplifier",
+    "path": "skills/ai-engineering/models/code_simplifier/code-simplifier",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "code_simplifier",
+    "description": "Use this skill to simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to \"simplify code\", \"clean up code\", \"refactor for clarity\", \"improve readability\", or review recently modified code for elegance. Focuses on project-specifi",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Simplifier",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

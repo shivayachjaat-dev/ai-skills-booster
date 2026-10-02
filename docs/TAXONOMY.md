@@ -172,6 +172,7 @@ AI_Skills_Booster/
 │   │   ├── code_review_checklis/ (1 skills)
 │   │   ├── code_reviewer/ (1 skills)
 │   │   ├── code_showcase_system/ (1 skills)
+│   │   ├── code_simplifier/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
