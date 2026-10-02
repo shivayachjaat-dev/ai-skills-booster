@@ -710,6 +710,28 @@
     "maturity": "stable"
   },
   {
+    "name": "computer-vision-expert",
+    "path": "skills/ai-engineering/computer-vision/computer_vision_expe/computer-vision-expert",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "computer_vision_expe",
+    "description": "Use this skill to sOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis.",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "computer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Computer Vision Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "context-window-engineering",
     "path": "skills/ai-engineering/context/optimization/context-window-engineering",
     "domain": "ai-engineering",
