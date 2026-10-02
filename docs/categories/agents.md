@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **25 skills** available in this category.
+> **26 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -20,6 +20,7 @@
 | [cmux](../../skills/ai-engineering/agents/cmux/cmux/SKILL.md) | `cmux` | `advanced` | `stable` | Use this skill to control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows. |
 | [commandcode-delegate](../../skills/ai-engineering/agents/commandcode_delegate/commandcode-delegate/SKILL.md) | `commandcode_delegate` | `advanced` | `stable` | Use this skill to delegate coding tasks to the Command Code CLI (`cmd`) only when the user |
 | [context-agent](../../skills/ai-engineering/agents/context_agent/context-agent/SKILL.md) | `context_agent` | `advanced` | `stable` | Use this skill to agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tarefas pendentes e carrega briefing automatico na sessao seguinte. |
+| [context-engineering](../../skills/ai-engineering/agents/context_engineering/context-engineering/SKILL.md) | `context_engineering` | `advanced` | `stable` | Use this skill to optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project. |
 | [ai-agent-chaos-testing-and-fault-injection](../../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) | `fault-injection` | `advanced` | `stable` | Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies. |
 | [ai-agent-session-audit-and-forensic-replay](../../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) | `forensic-audit` | `advanced` | `stable` | Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays. |
 | [agent-project-memory](../../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) | `memory` | `advanced` | `stable` | Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects. |

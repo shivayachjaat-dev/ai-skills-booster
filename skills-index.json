@@ -364,6 +364,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-engineering",
+    "path": "skills/ai-engineering/agents/context_engineering/context-engineering",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "context_engineering",
+    "description": "Use this skill to optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Engineering",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-chaos-testing-and-fault-injection",
     "path": "skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection",
     "domain": "ai-engineering",

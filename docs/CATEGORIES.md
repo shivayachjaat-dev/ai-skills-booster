@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **600** skills across structured domains, categories, and subcategories.
+Master navigation for **601** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (211 skills)
+## Ai Engineering (212 skills)
 
-### Agents (25 skills)
+### Agents (26 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -39,6 +39,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [commandcode-delegate](../skills/ai-engineering/agents/commandcode_delegate/commandcode-delegate/SKILL.md) — Use this skill to delegate coding tasks to the Command Code CLI (`cmd`) only when the user
 - **Context_Agent** (1):
   - [context-agent](../skills/ai-engineering/agents/context_agent/context-agent/SKILL.md) — Use this skill to agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tarefas pendentes e carrega briefing automatico na sessao seguinte.
+- **Context_Engineering** (1):
+  - [context-engineering](../skills/ai-engineering/agents/context_engineering/context-engineering/SKILL.md) — Use this skill to optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):
