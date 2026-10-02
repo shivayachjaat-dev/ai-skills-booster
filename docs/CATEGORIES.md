@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **33** skills across structured domains, categories, and subcategories.
+Master navigation for **34** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -146,7 +146,7 @@ Category index: [`docs/categories/ecosystem.md`](categories/ecosystem.md)
 - **Creation** (1):
   - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 
-## Security (5 skills)
+## Security (6 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -171,6 +171,12 @@ Category index: [`docs/categories/code-review.md`](categories/code-review.md)
 
 - **Github** (1):
   - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
+
+### Incident Response (1 skills)
+Category index: [`docs/categories/incident-response.md`](categories/incident-response.md)
+
+- **Triage** (1):
+  - [incident-response-and-triage](../skills/security/incident-response/triage/incident-response-and-triage/SKILL.md) — Use this skill when triaging, containing, and investigating active production security incidents and data breaches. It guides the agent through the PICERL framework (Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned), evidence preservation without anti-forensic contamination, forensic log isolation, and root-cause analysis.
 
 ### Secret Management (1 skills)
 Category index: [`docs/categories/secret-management.md`](categories/secret-management.md)

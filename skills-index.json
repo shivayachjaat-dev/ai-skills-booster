@@ -638,6 +638,31 @@
     "maturity": "stable"
   },
   {
+    "name": "incident-response-and-triage",
+    "path": "skills/security/incident-response/triage/incident-response-and-triage",
+    "domain": "security",
+    "category": "incident-response",
+    "subcategory": "triage",
+    "description": "Use this skill when triaging, containing, and investigating active production security incidents and data breaches. It guides the agent through the PICERL framework (Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned), evidence preservation without anti-forensic contamination, forensic log isolation, and root-cause analysis.",
+    "tags": [
+      "security",
+      "incident-response",
+      "forensics",
+      "triage",
+      "devsecops",
+      "threat-containment"
+    ],
+    "technologies": [
+      "Linux",
+      "Git",
+      "Syslog",
+      "Auditd",
+      "Memory Forensics"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "secret-leak-detection-and-remediation",
     "path": "skills/security/secret-management/detection/secret-leak-detection-and-remediation",
     "domain": "security",
