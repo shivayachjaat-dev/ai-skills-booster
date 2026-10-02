@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **43 skills** available in this category.
+> **44 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -47,3 +47,4 @@
 | [connection-auth-rules](../../skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules/SKILL.md) | `connection_auth_rule` | `advanced` | `stable` | Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches |
 | [copilot-sdk](../../skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) | `copilot_sdk` | `advanced` | `stable` | Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET. |
 | [cqrs-implementation](../../skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation/SKILL.md) | `cqrs_implementation` | `advanced` | `stable` | Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems. |
+| [crossframe-casebook](../../skills/frontend/ui-ux/crossframe_casebook/crossframe-casebook/SKILL.md) | `crossframe_casebook` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes. |

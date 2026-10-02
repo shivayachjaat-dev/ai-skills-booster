@@ -10773,6 +10773,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-casebook",
+    "path": "skills/frontend/ui-ux/crossframe_casebook/crossframe-casebook",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "crossframe_casebook",
+    "description": "Use this skill to use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Casebook",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
