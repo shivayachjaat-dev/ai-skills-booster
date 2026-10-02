@@ -920,7 +920,8 @@ AI_Skills_Booster/
 │   ├── android/
 │   │   └── jetpack-compose/ (1 skills)
 │   ├── app-development/
-│   │   └── flutter_expert/ (1 skills)
+│   │   ├── flutter_expert/ (1 skills)
+│   │   └── mobile_games/ (1 skills)
 │   └── ios/
 │   │   └── app-clips/ (1 skills)
 ├── multimedia/

@@ -18374,6 +18374,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mobile-games",
+    "path": "skills/mobile/app-development/mobile_games/mobile-games",
+    "domain": "mobile",
+    "category": "app-development",
+    "subcategory": "mobile_games",
+    "description": "Use this skill to design, implement, and operate production workflows for mobile games. Mobile game development principles. Touch input, battery, performance, app stores.",
+    "tags": [
+      "mobile",
+      "app-development",
+      "mobile",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mobile Games",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ios-app-clip-architecture",
     "path": "skills/mobile/ios/app-clips/ios-app-clip-architecture",
     "domain": "mobile",
