@@ -16031,6 +16031,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-refactor",
+    "path": "skills/frontend/ui-ux/fp_refactor/fp-refactor",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "fp_refactor",
+    "description": "Use this skill to design, implement, and operate production workflows for fp refactor. Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Refactor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
