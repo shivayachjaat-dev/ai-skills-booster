@@ -685,6 +685,8 @@ AI_Skills_Booster/
 │   │   └── architecture/ (1 skills)
 │   ├── state-management/
 │   │   └── zustand/ (1 skills)
+│   ├── styling/
+│   │   └── fixing_motion_perfor/ (1 skills)
 │   ├── ui-development/
 │   │   ├── cc_skill_frontend_pa/ (1 skills)
 │   │   ├── ckw_design/ (1 skills)

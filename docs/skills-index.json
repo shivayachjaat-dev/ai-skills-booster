@@ -13545,6 +13545,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fixing-motion-performance",
+    "path": "skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance",
+    "domain": "frontend",
+    "category": "styling",
+    "subcategory": "fixing_motion_perfor",
+    "description": "Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
+    "tags": [
+      "frontend",
+      "styling",
+      "fixing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fixing Motion Performance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cc-skill-frontend-patterns",
     "path": "skills/frontend/ui-development/cc_skill_frontend_pa/cc-skill-frontend-patterns",
     "domain": "frontend",
