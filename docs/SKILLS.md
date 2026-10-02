@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,117 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,118 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -792,6 +792,7 @@
 | [gitops-workflow](skills/frontend/ui-ux/gitops_workflow/gitops-workflow/SKILL.md) | `frontend` | `ui-ux` | `gitops_workflow` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments. |
 | [glasser](skills/frontend/ui-ux/glasser/glasser/SKILL.md) | `frontend` | `ui-ux` | `glasser` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for glasser. Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration. |
 | [go-concurrency-patterns](skills/frontend/ui-ux/go_concurrency_patte/go-concurrency-patterns/SKILL.md) | `frontend` | `ui-ux` | `go_concurrency_patte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for go concurrency patterns. Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions. |
+| [godot-4-migration](skills/frontend/ui-ux/godot_4_migration/godot-4-migration/SKILL.md) | `frontend` | `ui-ux` | `godot_4_migration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for godot 4 migration. Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

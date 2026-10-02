@@ -17747,6 +17747,28 @@
     "maturity": "stable"
   },
   {
+    "name": "godot-4-migration",
+    "path": "skills/frontend/ui-ux/godot_4_migration/godot-4-migration",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "godot_4_migration",
+    "description": "Use this skill to design, implement, and operate production workflows for godot 4 migration. Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "godot",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Godot 4 Migration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
