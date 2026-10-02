@@ -44,6 +44,7 @@ AI_Skills_Booster/
 │   │   ├── grok_delegate/ (1 skills)
 │   │   ├── handoff/ (1 skills)
 │   │   ├── hosted_agents/ (1 skills)
+│   │   ├── idea_evaluator/ (1 skills)
 │   │   ├── lintlang_audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)

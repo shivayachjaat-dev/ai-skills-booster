@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,267 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,268 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -44,6 +44,7 @@
 | [grok-delegate](skills/ai-engineering/agents/grok_delegate/grok-delegate/SKILL.md) | `ai-engineering` | `agents` | `grok_delegate` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for grok delegate. Delegate coding tasks to the Grok Build CLI only when the user explicitly |
 | [handoff](skills/ai-engineering/agents/handoff/handoff/SKILL.md) | `ai-engineering` | `agents` | `handoff` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for handoff. Compact the current conversation into a handoff document for another agent to pick up. |
 | [hosted-agents](skills/ai-engineering/agents/hosted_agents/hosted-agents/SKILL.md) | `ai-engineering` | `agents` | `hosted_agents` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hosted agents. Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments. |
+| [idea-evaluator](skills/ai-engineering/agents/idea_evaluator/idea-evaluator/SKILL.md) | `ai-engineering` | `agents` | `idea_evaluator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea evaluator. Evaluates an idea by hosting a multi-turn debate between a Pro and Con agent, delivering a final verdict on whether it's worth pursuing. |
 | [lintlang-audit](skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) | `ai-engineering` | `agents` | `lintlang_audit` | `advanced` | `stable` | Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files. |
 | [agent-project-memory](skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) | `ai-engineering` | `agents` | `memory` | `advanced` | `stable` | Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects. |
 | [agent-memory-recall-and-retention-discipline](skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) | `ai-engineering` | `agents` | `memory-discipline` | `advanced` | `stable` | Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences. |
