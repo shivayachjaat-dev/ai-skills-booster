@@ -94,6 +94,32 @@
     "maturity": "stable"
   },
   {
+    "name": "deepeval-unit-testing-llm-apps",
+    "path": "skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps",
+    "domain": "ai-engineering",
+    "category": "evaluation",
+    "subcategory": "deepeval",
+    "description": "Use this skill when designing, authoring, and automating CI/CD unit testing suites for Large Language Model applications using DeepEval. It guides the agent through defining LLM test cases (LLMTestCase), configuring G-Eval custom criteria metrics, hallucination and answer relevancy scoring, integrating with pytest, and setting regression assertions.",
+    "tags": [
+      "deepeval",
+      "llm-testing",
+      "ai-evaluation",
+      "pytest",
+      "unit-testing",
+      "g-eval",
+      "ci-cd"
+    ],
+    "technologies": [
+      "DeepEval",
+      "pytest",
+      "OpenAI",
+      "Python",
+      "GitHub Actions"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "promptfoo-llm-eval-benchmarking",
     "path": "skills/ai-engineering/evaluation/promptfoo/promptfoo-llm-eval-benchmarking",
     "domain": "ai-engineering",
