@@ -4688,6 +4688,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-microsoft-playwright-testing-ts",
+    "path": "skills/devops/cloud-infrastructure/azure_microsoft_play/azure-microsoft-playwright-testing-ts",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_microsoft_play",
+    "description": "Use this skill to run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Microsoft Playwright Testing Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
