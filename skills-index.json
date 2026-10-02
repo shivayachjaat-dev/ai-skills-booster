@@ -3559,6 +3559,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-documentation-doc-generate",
+    "path": "skills/ai-engineering/models/code_documentation_d/code-documentation-doc-generate",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "code_documentation_d",
+    "description": "Use this skill to you are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Documentation Doc Generate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
