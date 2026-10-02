@@ -304,6 +304,7 @@ AI_Skills_Booster/
 │   │   ├── fact_check_x_complet/ (1 skills)
 │   │   ├── faf_context/ (1 skills)
 │   │   ├── faf_expert/ (1 skills)
+│   │   ├── faf_go/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)
