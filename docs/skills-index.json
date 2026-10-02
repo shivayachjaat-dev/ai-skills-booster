@@ -9045,6 +9045,28 @@
     "maturity": "stable"
   },
   {
+    "name": "binary-diff",
+    "path": "skills/software-engineering/architecture/patterns/binary-diff",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to cross-version binary symbol migration: diff updated binaries, recover function names without PDBs, and propagate annotations after software updates using BinDiff-style tooling.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "binary",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Binary Diff",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

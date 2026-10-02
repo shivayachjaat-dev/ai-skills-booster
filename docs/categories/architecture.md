@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **13 skills** available in this category.
+> **14 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,3 +17,4 @@
 | [bevy-ecs-expert](../../skills/software-engineering/architecture/patterns/bevy-ecs-expert/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling. |
 | [billing-automation](../../skills/software-engineering/architecture/patterns/billing-automation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation. |
 | [binary-analysis-patterns](../../skills/software-engineering/architecture/patterns/binary-analysis-patterns/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic. |
+| [binary-diff](../../skills/software-engineering/architecture/patterns/binary-diff/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to cross-version binary symbol migration: diff updated binaries, recover function names without PDBs, and propagate annotations after software updates using BinDiff-style tooling. |
