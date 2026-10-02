@@ -1,0 +1,11 @@
+name: full-stack-developer
+title: Full Stack Developer Starter Pack
+description: Foundational skills for modern web architecture, frontend optimization, backend APIs, and database efficiency.
+skills:
+  - react-component-architecture
+  - api-and-interface-design
+  - postgres-query-performance-analysis
+  - playwright-e2e-testing
+  - browser-performance-profiling
+  - docker-container-optimization
+  - github-pr-code-review

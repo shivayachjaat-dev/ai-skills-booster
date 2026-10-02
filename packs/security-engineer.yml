@@ -1,0 +1,10 @@
+name: security-engineer
+title: Security Engineer Starter Pack
+description: Defensive skills for code security audits, secret detection, supply chain defense, and vulnerability triage.
+skills:
+  - github-pr-security-review
+  - secret-leak-detection-and-remediation
+  - dependency-vulnerability-audit
+  - owasp-api-security-top-10
+  - prompt-injection-defense
+  - container-security-hardening

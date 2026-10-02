@@ -1,0 +1,54 @@
+name: Skill Proposal
+description: Propose a new agent skill for AI Skills Booster
+title: "[Skill]: <skill-name>"
+labels: ["skill-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new Agent Skill! Ensure the proposed skill represents a distinct workflow, not a duplicate or generic wrapper.
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill Name
+      description: Use kebab-case (e.g. `postgres-query-performance-analysis`)
+      placeholder: my-new-skill
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - ai-engineering
+        - software-engineering
+        - security
+        - devops
+        - databases
+        - frontend
+        - backend
+        - testing
+        - browser-automation
+        - data-analytics
+        - research
+        - product-business
+        - programming-languages
+        - mcp
+        - git-github
+        - specialist
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Skill Description
+      description: Answer: What does it do? When should the agent use it? What problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Proposed Workflow & Decision Points
+      description: Outline the step-by-step agent instructions and edge cases.
+    validations:
+      required: true

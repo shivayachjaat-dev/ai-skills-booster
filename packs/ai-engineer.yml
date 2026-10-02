@@ -1,0 +1,12 @@
+name: ai-engineer
+title: AI & Agent Engineering Starter Pack
+description: Essential skills for building, testing, evaluating, and operating autonomous AI agents and RAG pipelines.
+skills:
+  - rag-retrieval-evaluation
+  - agent-project-memory
+  - mcp-server-scaffold
+  - prompt-injection-defense
+  - llm-cost-and-latency-optimization
+  - agent-tool-use-reliability
+  - context-window-engineering
+  - model-evaluation-and-benchmarking

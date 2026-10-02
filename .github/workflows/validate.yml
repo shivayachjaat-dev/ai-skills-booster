@@ -1,0 +1,30 @@
+name: Validate Skills & Catalog
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Skill Validator
+        run: |
+          python scripts/validate.py
+
+      - name: Run Duplicate Detector
+        run: |
+          python scripts/detect_duplicates.py
+
+      - name: Verify Catalog Consistency
+        run: |
+          python scripts/generate_catalog.py --check
