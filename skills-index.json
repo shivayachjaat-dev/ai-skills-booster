@@ -1218,6 +1218,31 @@
     "maturity": "stable"
   },
   {
+    "name": "event-sourcing-and-cqrs-architecture",
+    "path": "skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture",
+    "domain": "software-engineering",
+    "category": "design-patterns",
+    "subcategory": "event-sourcing",
+    "description": "Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.",
+    "tags": [
+      "event-sourcing",
+      "cqrs",
+      "architecture",
+      "domain-driven-design",
+      "event-driven",
+      "aggregates"
+    ],
+    "technologies": [
+      "Python",
+      "PostgreSQL",
+      "EventStoreDB",
+      "Kafka",
+      "Domain-Driven Design"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "legacy-system-strangler-migration",
     "path": "skills/software-engineering/modernization/migration/legacy-system-strangler-migration",
     "domain": "software-engineering",

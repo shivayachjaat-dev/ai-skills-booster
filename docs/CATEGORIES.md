@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **55** skills across structured domains, categories, and subcategories.
+Master navigation for **56** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (7 skills)
 
@@ -291,7 +291,7 @@ Category index: [`docs/categories/vulnerability-scanning.md`](categories/vulnera
 - **Trivy** (1):
   - [container-vulnerability-scanning-trivy](../skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy/SKILL.md) — Use this skill when auditing, scanning, and enforcing security policies across container images, filesystems, and Software Bill of Materials (SBOM) using Aqua Security Trivy. It guides the agent through CI/CD gate automation, severity threshold enforcement (CRITICAL/HIGH), CVE filtering via .trivyignore, and generating CycloneDX SBOMs.
 
-## Software Engineering (5 skills)
+## Software Engineering (6 skills)
 
 ### Architecture (1 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
@@ -304,6 +304,12 @@ Category index: [`docs/categories/debugging.md`](categories/debugging.md)
 
 - **Recovery** (1):
   - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
+
+### Design Patterns (1 skills)
+Category index: [`docs/categories/design-patterns.md`](categories/design-patterns.md)
+
+- **Event Sourcing** (1):
+  - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
 
 ### Modernization (1 skills)
 Category index: [`docs/categories/modernization.md`](categories/modernization.md)

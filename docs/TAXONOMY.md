@@ -107,6 +107,8 @@ AI_Skills_Booster/
 │   │   └── interfaces/ (1 skills)
 │   ├── debugging/
 │   │   └── recovery/ (1 skills)
+│   ├── design-patterns/
+│   │   └── event-sourcing/ (1 skills)
 │   ├── modernization/
 │   │   └── migration/ (1 skills)
 │   ├── refactoring/

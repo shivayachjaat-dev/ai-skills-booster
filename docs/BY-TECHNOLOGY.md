@@ -104,6 +104,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [docker-container-optimization](../skills/devops/containers/optimization/docker-container-optimization/SKILL.md) — Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.
 
+## Domain-Driven Design (1 skills)
+
+- [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
+
 ## DuckDB (1 skills)
 
 - [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
@@ -121,6 +125,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Erlang (1 skills)
 
 - [rabbitmq-reliable-messaging-patterns](../skills/backend/message-queues/rabbitmq/rabbitmq-reliable-messaging-patterns/SKILL.md) — Use this skill when designing, building, and operating mission-critical message queuing architectures with RabbitMQ (AMQP 0-9-1). It guides the agent through publisher confirms (ACK/NACK), queue and message durability, dead letter exchanges (DLX) for poisoned messages, consumer manual acknowledgments with prefetch limits, and consumer idempotency.
+
+## EventStoreDB (1 skills)
+
+- [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
 
 ## Express.js (1 skills)
 
@@ -265,6 +273,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
 
+## Kafka (1 skills)
+
+- [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
+
 ## Kiali (1 skills)
 
 - [istio-service-mesh-traffic-routing](../skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing/SKILL.md) — Use this skill when implementing advanced traffic management, security policies, and canary deployments using the Istio Service Mesh. It guides the agent through VirtualService routing rules, DestinationRule subset definitions, mutual TLS (mTLS) PeerAuthentication enforcement, fault injection, and Envoy sidecar proxy tuning.
@@ -400,12 +412,13 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## PostgreSQL (4 skills)
+## PostgreSQL (5 skills)
 
 - [database-migration-safety](../skills/databases/migrations/zero-downtime/database-migration-safety/SKILL.md) — Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.
 - [prisma-schema-migration-and-relations](../skills/databases/orm/prisma/prisma-schema-migration-and-relations/SKILL.md) — Use this skill when architecting database schemas, managing relational migrations, and optimizing database queries using Prisma ORM (TypeScript/Node.js). It covers complex relationship modeling (1:1, 1:N, M:N explicit join tables), zero-downtime migration workflows (`prisma migrate dev/deploy`), connection pooling with PgBouncer, and avoiding N+1 query traps.
 - [postgres-query-performance-analysis](../skills/databases/postgresql/performance/postgres-query-performance-analysis/SKILL.md) — Use this skill when diagnosing, analyzing, and optimizing slow PostgreSQL queries. It guides the agent through running and interpreting EXPLAIN (ANALYZE, BUFFERS), identifying sequential table scans, resolving missing indexes, fixing high buffer reads, eliminating N+1 query patterns, and tuning query planner configurations.
 - [vault-secrets-management](../skills/security/secrets/vault/vault-secrets-management/SKILL.md) — Use this skill when architecting and managing enterprise secrets using HashiCorp Vault. It guides the agent through dynamic database credentials generation, lease management and renewal, Kubernetes ServiceAccount authentication, PKI on-demand certificate issuance, transit encryption, and disaster recovery replication.
+- [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
 
 ## Prisma (2 skills)
 
@@ -438,7 +451,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (23 skills)
+## Python (24 skills)
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
@@ -460,6 +473,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [prompt-injection-defense](../skills/security/ai-security/defense/prompt-injection-defense/SKILL.md) — Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.
 - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
+- [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
 - [legacy-system-strangler-migration](../skills/software-engineering/modernization/migration/legacy-system-strangler-migration/SKILL.md) — Use this skill when incrementally modernizing, decomposing, and replacing legacy monoliths or deprecated backend systems without risky all-at-once cutovers. It guides the agent through the Strangler Fig pattern, reverse proxy intercept routing, parallel run shadow verification, database synchronization, and progressive decommission.
 - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
