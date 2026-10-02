@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **50 skills** available in this category.
+> **51 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -54,3 +54,4 @@
 | [conductor-validator](../../skills/software-engineering/architecture/patterns/conductor-validator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to validates Conductor project artifacts for completeness, |
 | [context-guardian](../../skills/software-engineering/architecture/patterns/context-guardian/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao. |
 | [context-management-context-restore](../../skills/software-engineering/architecture/patterns/context-management-context-restore/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with context management context restore |
+| [context-management-context-save](../../skills/software-engineering/architecture/patterns/context-management-context-save/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with context management context save |

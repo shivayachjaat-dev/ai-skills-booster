@@ -13467,6 +13467,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-management-context-save",
+    "path": "skills/software-engineering/architecture/patterns/context-management-context-save",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to use when working with context management context save",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Management Context Save",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
