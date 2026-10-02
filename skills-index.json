@@ -2635,6 +2635,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brand-guidelines",
+    "path": "skills/ai-engineering/models/brand_guidelines/brand-guidelines",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "brand_guidelines",
+    "description": "Use this skill to write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "brand",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brand Guidelines",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

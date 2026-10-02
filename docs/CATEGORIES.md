@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **413** skills across structured domains, categories, and subcategories.
+Master navigation for **414** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (137 skills)
+## Ai Engineering (138 skills)
 
 ### Agents (17 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -116,7 +116,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (83 skills)
+### Models (84 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -274,6 +274,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [brain-to-docs](../skills/ai-engineering/models/brain_to_docs/brain-to-docs/SKILL.md) — Use this skill to interview the user to turn project vision and decisions into README and ADR documentation.
 - **Brainstorming** (1):
   - [brainstorming](../skills/ai-engineering/models/brainstorming/brainstorming/SKILL.md) — Use this skill to use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration.
+- **Brand_Guidelines** (1):
+  - [brand-guidelines](../skills/ai-engineering/models/brand_guidelines/brand-guidelines/SKILL.md) — Use this skill to write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

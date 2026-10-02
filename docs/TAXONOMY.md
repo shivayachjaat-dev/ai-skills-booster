@@ -122,6 +122,7 @@ AI_Skills_Booster/
 │   │   ├── boost_asio_pro/ (1 skills)
 │   │   ├── brain_to_docs/ (1 skills)
 │   │   ├── brainstorming/ (1 skills)
+│   │   ├── brand_guidelines/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
