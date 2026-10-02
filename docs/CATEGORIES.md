@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,573** skills across structured domains, categories, and subcategories.
+Master navigation for **1,574** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (546 skills)
+## Ai Engineering (547 skills)
 
-### Agents (63 skills)
+### Agents (64 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -121,6 +121,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [multi-advisor](../skills/ai-engineering/agents/multi_advisor/multi-advisor/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi advisor. Conselho de especialistas — consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas e agentes tecnicos simultaneamente, cada um pela sua otica unica, e consolida em sintese deciso...
 - **Multi_Agent_Patterns** (1):
   - [multi-agent-patterns](../skills/ai-engineering/agents/multi_agent_patterns/multi-agent-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent patterns. This skill should be used when the user asks to "design multi-agent system", "implement supervisor pattern", "create swarm architecture", "coordinate multiple agents", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or...
+- **N8N_Binary_And_Data** (1):
+  - [n8n-binary-and-data](../skills/ai-engineering/agents/n8n_binary_and_data/n8n-binary-and-data/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n binary and data. Handle n8n files and binary data across uploads, downloads, transforms, multimodal inputs, agent tools, and chat surfaces.
 - **Observability** (1):
   - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
 - **Orchestration** (1):

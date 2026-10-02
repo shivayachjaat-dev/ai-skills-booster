@@ -1277,6 +1277,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-binary-and-data",
+    "path": "skills/ai-engineering/agents/n8n_binary_and_data/n8n-binary-and-data",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "n8n_binary_and_data",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n binary and data. Handle n8n files and binary data across uploads, downloads, transforms, multimodal inputs, agent tools, and chat surfaces.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Binary And Data",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-observability-and-trace-evaluation",
     "path": "skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation",
     "domain": "ai-engineering",
