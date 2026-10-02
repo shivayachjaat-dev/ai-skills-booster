@@ -3679,6 +3679,36 @@
     "maturity": "stable"
   },
   {
+    "name": "tamper-evident-audit-logging-and-siem-integration",
+    "path": "skills/security/compliance/audit-logging/tamper-evident-audit-logging-and-siem-integration",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "audit-logging",
+    "description": "Use this skill to design and implement immutable, tamper-evident audit logging architectures with enterprise SIEM integration. It covers cryptographic HMAC hash chains, structured Common Event Format (CEF) and Elastic Common Schema (ECS) event modeling, automated PII redaction, secure multi-region syslog forwarding (TLS/mTLS), and retention compliance for SOC2, ISO 27001, and HIPAA.",
+    "tags": [
+      "security",
+      "compliance",
+      "audit-logging",
+      "siem",
+      "tamper-evident",
+      "hmac",
+      "soc2",
+      "hipaa",
+      "ecs"
+    ],
+    "technologies": [
+      "Python",
+      "Elasticsearch",
+      "Splunk",
+      "HMAC",
+      "SHA256",
+      "Syslog",
+      "mTLS"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "envelope-encryption-kms-pattern",
     "path": "skills/security/cryptography/envelope-encryption/envelope-encryption-kms-pattern",
     "domain": "security",

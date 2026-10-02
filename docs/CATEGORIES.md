@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **180** skills across structured domains, categories, and subcategories.
+Master navigation for **181** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (33 skills)
 
@@ -711,7 +711,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (29 skills)
+## Security (30 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -770,6 +770,12 @@ Category index: [`docs/categories/code-review.md`](categories/code-review.md)
 
 - **Github** (1):
   - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
+
+### Compliance (1 skills)
+Category index: [`docs/categories/compliance.md`](categories/compliance.md)
+
+- **Audit Logging** (1):
+  - [tamper-evident-audit-logging-and-siem-integration](../skills/security/compliance/audit-logging/tamper-evident-audit-logging-and-siem-integration/SKILL.md) — Use this skill to design and implement immutable, tamper-evident audit logging architectures with enterprise SIEM integration. It covers cryptographic HMAC hash chains, structured Common Event Format (CEF) and Elastic Common Schema (ECS) event modeling, automated PII redaction, secure multi-region syslog forwarding (TLS/mTLS), and retention compliance for SOC2, ISO 27001, and HIPAA.
 
 ### Cryptography (1 skills)
 Category index: [`docs/categories/cryptography.md`](categories/cryptography.md)

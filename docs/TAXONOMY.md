@@ -275,6 +275,8 @@ AI_Skills_Booster/
 │   │   └── anti-reversing/ (1 skills)
 │   ├── code-review/
 │   │   └── github/ (1 skills)
+│   ├── compliance/
+│   │   └── audit-logging/ (1 skills)
 │   ├── cryptography/
 │   │   └── envelope-encryption/ (1 skills)
 │   ├── identity-governance/
