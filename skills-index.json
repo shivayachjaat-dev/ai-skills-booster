@@ -5583,6 +5583,28 @@
     "maturity": "stable"
   },
   {
+    "name": "developer-seo",
+    "path": "skills/ai-engineering/models/developer_seo/developer-seo",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "developer_seo",
+    "description": "Use this skill to design, implement, and operate production workflows for developer seo. SEO strategy for technical queries and developer audiences. Covers keyword research for \\\"how to X in language\\\" queries, error message SEO, Stack Overflow-style content, technical long-tail keywords, and competing with official documentation sites.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "developer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Developer Seo",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

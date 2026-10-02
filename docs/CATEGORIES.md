@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **825** skills across structured domains, categories, and subcategories.
+Master navigation for **826** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (285 skills)
+## Ai Engineering (286 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -164,7 +164,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (202 skills)
+### Models (203 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -542,6 +542,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [developer-churn](../skills/ai-engineering/models/developer_churn/developer-churn/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer churn. When the user wants to understand, reduce, or recover from developer churn. Trigger phrases include "why developers leave," "churn rate," "win-back campaign," "at-risk users," "developer retention," "preventing churn," or "competitor switching.
 - **Developer_Newsletter** (1):
   - [developer-newsletter](../skills/ai-engineering/models/developer_newsletter/developer-newsletter/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer newsletter. When the user wants to create, write, or improve a newsletter for developer audiences. Trigger phrases include "newsletter," "email marketing," "developer email," "weekly digest," "dev newsletter," "email subscribers," "newsletter growth," or "email l...
+- **Developer_Seo** (1):
+  - [developer-seo](../skills/ai-engineering/models/developer_seo/developer-seo/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer seo. SEO strategy for technical queries and developer audiences. Covers keyword research for \"how to X in language\" queries, error message SEO, Stack Overflow-style content, technical long-tail keywords, and competing with official documentation sites.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):
