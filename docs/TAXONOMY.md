@@ -199,7 +199,8 @@ AI_Skills_Booster/
 │   ├── databases/
 │   │   ├── asset_it_management/ (1 skills)
 │   │   ├── azure_postgres_ts/ (1 skills)
-│   │   └── azure_resource_manag/ (3 skills)
+│   │   ├── azure_resource_manag/ (3 skills)
+│   │   └── cc_skill_clickhouse_/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/

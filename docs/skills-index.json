@@ -4225,6 +4225,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cc-skill-clickhouse-io",
+    "path": "skills/backend/databases/cc_skill_clickhouse_/cc-skill-clickhouse-io",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "cc_skill_clickhouse_",
+    "description": "Use this skill to clickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.",
+    "tags": [
+      "backend",
+      "databases",
+      "cc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cc Skill Clickhouse Io",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
