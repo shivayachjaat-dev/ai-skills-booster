@@ -7761,6 +7761,28 @@
     "maturity": "stable"
   },
   {
+    "name": "goal-loop",
+    "path": "skills/ai-engineering/models/goal_loop/goal-loop",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "goal_loop",
+    "description": "Use this skill to design, implement, and operate production workflows for goal loop. Draft and explain persistent goal-loop prompts for long-running agent work with clear stop conditions.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "goal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Goal Loop",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

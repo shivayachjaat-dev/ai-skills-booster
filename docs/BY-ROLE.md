@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (516 skills)
+## AI Engineer (517 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -343,6 +343,7 @@ Curated workflows organized by professional role and specialization.
 - [global-chat-agent-discovery](../skills/ai-engineering/models/global_chat_agent_di/global-chat-agent-discovery/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for global chat agent discovery. Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.
 - [gmail-automation](../skills/ai-engineering/models/gmail_automation/gmail-automation/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for gmail automation. Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.
 - [go-in-depth](../skills/ai-engineering/models/go_in_depth/go-in-depth/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for go in depth. Go in depth harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.
+- [goal-loop](../skills/ai-engineering/models/goal_loop/goal-loop/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for goal loop. Draft and explain persistent goal-loop prompts for long-running agent work with clear stop conditions.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — `ai-engineering`: Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — `ai-engineering`: Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
