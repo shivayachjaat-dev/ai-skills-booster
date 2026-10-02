@@ -296,6 +296,32 @@
     "maturity": "stable"
   },
   {
+    "name": "clickhouse-time-series-analytics",
+    "path": "skills/databases/clickhouse/time-series/clickhouse-time-series-analytics",
+    "domain": "databases",
+    "category": "clickhouse",
+    "subcategory": "time-series",
+    "description": "Use this skill when designing, partitioning, and querying massive time-series event logs and telemetry in ClickHouse. It guides the agent through selecting MergeTree table engines, primary key and sorting key design, TTL data aging policies, materialized views for real-time aggregations, and high-throughput batched ingestion.",
+    "tags": [
+      "clickhouse",
+      "databases",
+      "time-series",
+      "olap",
+      "analytics",
+      "sql",
+      "telemetry"
+    ],
+    "technologies": [
+      "ClickHouse",
+      "SQL",
+      "MergeTree",
+      "Docker",
+      "Python"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "duckdb-embedded-analytics",
     "path": "skills/databases/duckdb/analytics/duckdb-embedded-analytics",
     "domain": "databases",

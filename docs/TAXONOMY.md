@@ -29,6 +29,8 @@ AI_Skills_Booster/
 │   └── experimentation/
 │   │   └── ab-testing/ (1 skills)
 ├── databases/
+│   ├── clickhouse/
+│   │   └── time-series/ (1 skills)
 │   ├── duckdb/
 │   │   └── analytics/ (1 skills)
 │   ├── migrations/

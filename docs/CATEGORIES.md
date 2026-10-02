@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **39** skills across structured domains, categories, and subcategories.
+Master navigation for **40** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -76,7 +76,13 @@ Category index: [`docs/categories/experimentation.md`](categories/experimentatio
 - **Ab Testing** (1):
   - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 
-## Databases (4 skills)
+## Databases (5 skills)
+
+### Clickhouse (1 skills)
+Category index: [`docs/categories/clickhouse.md`](categories/clickhouse.md)
+
+- **Time Series** (1):
+  - [clickhouse-time-series-analytics](../skills/databases/clickhouse/time-series/clickhouse-time-series-analytics/SKILL.md) — Use this skill when designing, partitioning, and querying massive time-series event logs and telemetry in ClickHouse. It guides the agent through selecting MergeTree table engines, primary key and sorting key design, TTL data aging policies, materialized views for real-time aggregations, and high-throughput batched ingestion.
 
 ### Duckdb (1 skills)
 Category index: [`docs/categories/duckdb.md`](categories/duckdb.md)
