@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,582** skills across structured domains, categories, and subcategories.
+Master navigation for **1,583** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (550 skills)
+## Ai Engineering (551 skills)
 
-### Agents (64 skills)
+### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -123,6 +123,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [multi-agent-patterns](../skills/ai-engineering/agents/multi_agent_patterns/multi-agent-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent patterns. This skill should be used when the user asks to "design multi-agent system", "implement supervisor pattern", "create swarm architecture", "coordinate multiple agents", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or...
 - **N8N_Binary_And_Data** (1):
   - [n8n-binary-and-data](../skills/ai-engineering/agents/n8n_binary_and_data/n8n-binary-and-data/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n binary and data. Handle n8n files and binary data across uploads, downloads, transforms, multimodal inputs, agent tools, and chat surfaces.
+- **N8N_Subworkflows** (1):
+  - [n8n-subworkflows](../skills/ai-engineering/agents/n8n_subworkflows/n8n-subworkflows/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n subworkflows. Build reusable n8n sub-workflows with typed inputs, all-vs-each execution, discoverable naming, and agent-tool exposure.
 - **Observability** (1):
   - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
 - **Orchestration** (1):

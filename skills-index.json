@@ -1299,6 +1299,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-subworkflows",
+    "path": "skills/ai-engineering/agents/n8n_subworkflows/n8n-subworkflows",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "n8n_subworkflows",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n subworkflows. Build reusable n8n sub-workflows with typed inputs, all-vs-each execution, discoverable naming, and agent-tool exposure.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Subworkflows",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-observability-and-trace-evaluation",
     "path": "skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation",
     "domain": "ai-engineering",
