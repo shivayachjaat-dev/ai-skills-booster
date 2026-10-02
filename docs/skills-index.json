@@ -19935,6 +19935,28 @@
     "maturity": "stable"
   },
   {
+    "name": "employment-contract-templates",
+    "path": "skills/software-engineering/architecture/patterns/employment-contract-templates",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for employment contract templates. Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "employment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Employment Contract Templates",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
