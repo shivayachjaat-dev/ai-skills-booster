@@ -3513,6 +3513,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ask-questions-if-underspecified",
+    "path": "skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "ask_questions_if_und",
+    "description": "Use this skill to clarify requirements before implementing. Use when serious doubts arise.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "ask",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ask Questions If Underspecified",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
