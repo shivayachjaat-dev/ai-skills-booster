@@ -6727,6 +6727,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fal-image-edit",
+    "path": "skills/ai-engineering/models/fal_image_edit/fal-image-edit",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "fal_image_edit",
+    "description": "Use this skill to design, implement, and operate production workflows for fal image edit. AI-powered image editing with style transfer and object removal",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "fal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fal Image Edit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
