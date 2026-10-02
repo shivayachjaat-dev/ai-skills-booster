@@ -572,7 +572,8 @@ AI_Skills_Booster/
 │   │   ├── incident_responder/ (1 skills)
 │   │   ├── instagram/ (1 skills)
 │   │   ├── javascript_pro/ (1 skills)
-│   │   └── longbridge_market_da/ (1 skills)
+│   │   ├── longbridge_market_da/ (1 skills)
+│   │   └── minecraft_bukkit_pro/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/

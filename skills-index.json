@@ -12526,6 +12526,28 @@
     "maturity": "stable"
   },
   {
+    "name": "minecraft-bukkit-pro",
+    "path": "skills/backend/api-frameworks/minecraft_bukkit_pro/minecraft-bukkit-pro",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "minecraft_bukkit_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for minecraft bukkit pro. Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "minecraft",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Minecraft Bukkit Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
