@@ -11105,6 +11105,28 @@
     "maturity": "stable"
   },
   {
+    "name": "music-generation-studio",
+    "path": "skills/ai-engineering/models/music_generation_stu/music-generation-studio",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "music_generation_stu",
+    "description": "Use this skill to design, implement, and operate production workflows for music generation studio. Install and use the official AI Music Generator package, pinned by digest, for paid hosted work on the Beatra service.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "music",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Music Generation Studio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

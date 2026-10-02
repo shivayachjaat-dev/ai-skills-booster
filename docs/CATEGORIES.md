@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,570** skills across structured domains, categories, and subcategories.
+Master navigation for **1,571** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (544 skills)
+## Ai Engineering (545 skills)
 
 ### Agents (63 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -272,7 +272,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Multi_Tenant_Llm_Hos** (1):
   - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 
-### Models (396 skills)
+### Models (397 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1042,6 +1042,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [multi-agent-brainstorming](../skills/ai-engineering/models/multi_agent_brainsto/multi-agent-brainstorming/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent brainstorming. Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.
 - **Multi_Agent_Task_Orc** (1):
   - [multi-agent-task-orchestrator](../skills/ai-engineering/models/multi_agent_task_orc/multi-agent-task-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent task orchestrator. Route tasks to specialized AI agents with anti-duplication, quality gates, and 30-minute heartbeat monitoring
+- **Music_Generation_Stu** (1):
+  - [music-generation-studio](../skills/ai-engineering/models/music_generation_stu/music-generation-studio/SKILL.md) — Use this skill to design, implement, and operate production workflows for music generation studio. Install and use the official AI Music Generator package, pinned by digest, for paid hosted work on the Beatra service.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
