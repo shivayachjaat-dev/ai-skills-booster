@@ -28207,6 +28207,28 @@
     "maturity": "stable"
   },
   {
+    "name": "improve-codebase-architecture",
+    "path": "skills/software-engineering/architecture/patterns/improve-codebase-architecture",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for improve codebase architecture. Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "improve",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Improve Codebase Architecture",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
