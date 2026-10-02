@@ -1343,6 +1343,32 @@
     "maturity": "stable"
   },
   {
+    "name": "spiffe-spire-workload-identity",
+    "path": "skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity",
+    "domain": "security",
+    "category": "zero-trust",
+    "subcategory": "spiffe-spire",
+    "description": "Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.",
+    "tags": [
+      "spiffe",
+      "spire",
+      "zero-trust",
+      "workload-identity",
+      "mtls",
+      "security",
+      "pki"
+    ],
+    "technologies": [
+      "SPIFFE",
+      "SPIRE",
+      "Kubernetes",
+      "X.509 SVID",
+      "Go"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-and-interface-design",
     "path": "skills/software-engineering/architecture/interfaces/api-and-interface-design",
     "domain": "software-engineering",

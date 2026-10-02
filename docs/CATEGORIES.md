@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **63** skills across structured domains, categories, and subcategories.
+Master navigation for **64** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (9 skills)
 
@@ -271,7 +271,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (10 skills)
+## Security (11 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -332,6 +332,12 @@ Category index: [`docs/categories/vulnerability-scanning.md`](categories/vulnera
 
 - **Trivy** (1):
   - [container-vulnerability-scanning-trivy](../skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy/SKILL.md) — Use this skill when auditing, scanning, and enforcing security policies across container images, filesystems, and Software Bill of Materials (SBOM) using Aqua Security Trivy. It guides the agent through CI/CD gate automation, severity threshold enforcement (CRITICAL/HIGH), CVE filtering via .trivyignore, and generating CycloneDX SBOMs.
+
+### Zero Trust (1 skills)
+Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
+
+- **Spiffe Spire** (1):
+  - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
 ## Software Engineering (6 skills)
 
