@@ -7057,6 +7057,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-pipe-ref",
+    "path": "skills/ai-engineering/models/fp_pipe_ref/fp-pipe-ref",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "fp_pipe_ref",
+    "description": "Use this skill to design, implement, and operate production workflows for fp pipe ref. Quick reference for pipe and flow. Use when user needs to chain functions, compose operations, or build data pipelines in fp-ts.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Pipe Ref",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

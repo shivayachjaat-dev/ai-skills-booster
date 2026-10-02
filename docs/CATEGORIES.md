@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,007** skills across structured domains, categories, and subcategories.
+Master navigation for **1,008** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (351 skills)
+## Ai Engineering (352 skills)
 
 ### Agents (43 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -186,7 +186,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (254 skills)
+### Models (255 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -676,6 +676,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [flowhunt-skill](../skills/ai-engineering/models/flowhunt_skill/flowhunt-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for flowhunt skill. Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.
 - **Fp_Either_Ref** (1):
   - [fp-either-ref](../skills/ai-engineering/models/fp_either_ref/fp-either-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp either ref. Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.
+- **Fp_Pipe_Ref** (1):
+  - [fp-pipe-ref](../skills/ai-engineering/models/fp_pipe_ref/fp-pipe-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp pipe ref. Quick reference for pipe and flow. Use when user needs to chain functions, compose operations, or build data pipelines in fp-ts.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
