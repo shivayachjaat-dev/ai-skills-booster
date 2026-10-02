@@ -976,6 +976,31 @@
     "maturity": "stable"
   },
   {
+    "name": "airflow-dag-orchestration-and-lineage",
+    "path": "skills/data-analytics/orchestration/airflow/airflow-dag-orchestration-and-lineage",
+    "domain": "data-analytics",
+    "category": "orchestration",
+    "subcategory": "airflow",
+    "description": "Use this skill to design, write, test, and deploy production-grade Apache Airflow DAGs with data lineage tracking, idempotent task execution, dynamic task mapping, OpenLineage metadata emission, and robust error retry strategies.",
+    "tags": [
+      "airflow",
+      "data-pipelines",
+      "dag",
+      "openlineage",
+      "taskflow-api",
+      "orchestration"
+    ],
+    "technologies": [
+      "Apache Airflow >= 2.8.0",
+      "Python",
+      "OpenLineage",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "clickhouse-time-series-analytics",
     "path": "skills/databases/clickhouse/time-series/clickhouse-time-series-analytics",
     "domain": "databases",

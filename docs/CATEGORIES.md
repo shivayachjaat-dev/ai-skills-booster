@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **114** skills across structured domains, categories, and subcategories.
+Master navigation for **115** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (18 skills)
 
@@ -178,7 +178,7 @@ Category index: [`docs/categories/procurement.md`](categories/procurement.md)
 - **Software Selection** (1):
   - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
 
-## Data Analytics (4 skills)
+## Data Analytics (5 skills)
 
 ### Dashboards (1 skills)
 Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
@@ -203,6 +203,12 @@ Category index: [`docs/categories/experimentation.md`](categories/experimentatio
 
 - **Ab Testing** (1):
   - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
+
+### Orchestration (1 skills)
+Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)
+
+- **Airflow** (1):
+  - [airflow-dag-orchestration-and-lineage](../skills/data-analytics/orchestration/airflow/airflow-dag-orchestration-and-lineage/SKILL.md) — Use this skill to design, write, test, and deploy production-grade Apache Airflow DAGs with data lineage tracking, idempotent task execution, dynamic task mapping, OpenLineage metadata emission, and robust error retry strategies.
 
 ## Databases (11 skills)
 
