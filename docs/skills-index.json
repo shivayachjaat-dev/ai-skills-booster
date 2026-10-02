@@ -13643,6 +13643,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-react",
+    "path": "skills/frontend/frameworks/fp_react/fp-react",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "fp_react",
+    "description": "Use this skill to design, implement, and operate production workflows for fp react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Works with React 18/19, Next.js 14/15.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp React",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
