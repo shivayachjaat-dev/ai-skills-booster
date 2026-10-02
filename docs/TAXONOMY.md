@@ -59,6 +59,7 @@ AI_Skills_Booster/
 │   │   ├── asset_inventory/ (1 skills)
 │   │   ├── attendance/ (1 skills)
 │   │   ├── audit_agent_run_evid/ (1 skills)
+│   │   ├── auto_research/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

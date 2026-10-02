@@ -1073,6 +1073,28 @@
     "maturity": "stable"
   },
   {
+    "name": "auto-research",
+    "path": "skills/ai-engineering/models/auto_research/auto-research",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "auto_research",
+    "description": "Use this skill to research uncertain questions with an explicit, user-approved web search or ChatGPT consultation, then present options and wait for implementation approval.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "auto",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Auto Research",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

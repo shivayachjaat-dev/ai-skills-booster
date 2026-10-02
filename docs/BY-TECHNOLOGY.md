@@ -355,6 +355,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [incident-response-and-triage](../skills/security/incident-response/triage/incident-response-and-triage/SKILL.md) — Use this skill when triaging, containing, and investigating active production security incidents and data breaches. It guides the agent through the PICERL framework (Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned), evidence preservation without anti-forensic contamination, forensic log isolation, and root-cause analysis.
 
+## Auto Research (1 skills)
+
+- [auto-research](../skills/ai-engineering/models/auto_research/auto-research/SKILL.md) — Use this skill to research uncertain questions with an explicit, user-approved web search or ChatGPT consultation, then present options and wait for implementation approval.
+
 ## AutoAWQ (1 skills)
 
 - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
@@ -397,7 +401,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (35 skills)
+## Bash (36 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -419,6 +423,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [asset-inventory](../skills/ai-engineering/models/asset_inventory/asset-inventory/SKILL.md) — Use this skill to maintain IT asset inventory and configuration management database. Track
 - [attendance](../skills/ai-engineering/models/attendance/attendance/SKILL.md) — Use this skill to daily attendance register: check-in and check-out, hours worked, work mode, late minutes, leave and regularisation flags, as CSV, SQL, JSON Schema or Notion on request. Use for payroll input.
 - [audit-agent-run-evidence](../skills/ai-engineering/models/audit_agent_run_evid/audit-agent-run-evidence/SKILL.md) — Use this skill to use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success.
+- [auto-research](../skills/ai-engineering/models/auto_research/auto-research/SKILL.md) — Use this skill to research uncertain questions with an explicit, user-approved web search or ChatGPT consultation, then present options and wait for implementation approval.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
 - [atlas-cloud-media](../skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) — Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling.
@@ -1672,7 +1677,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (138 skills)
+## Python (139 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -1715,6 +1720,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [asset-inventory](../skills/ai-engineering/models/asset_inventory/asset-inventory/SKILL.md) — Use this skill to maintain IT asset inventory and configuration management database. Track
 - [attendance](../skills/ai-engineering/models/attendance/attendance/SKILL.md) — Use this skill to daily attendance register: check-in and check-out, hours worked, work mode, late minutes, leave and regularisation flags, as CSV, SQL, JSON Schema or Notion on request. Use for payroll input.
 - [audit-agent-run-evidence](../skills/ai-engineering/models/audit_agent_run_evid/audit-agent-run-evidence/SKILL.md) — Use this skill to use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success.
+- [auto-research](../skills/ai-engineering/models/auto_research/auto-research/SKILL.md) — Use this skill to research uncertain questions with an explicit, user-approved web search or ChatGPT consultation, then present options and wait for implementation approval.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
