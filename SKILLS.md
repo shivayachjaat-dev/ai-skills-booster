@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,024 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,025 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -625,6 +625,7 @@
 | [design-taste-frontend](skills/frontend/ui-development/design_taste_fronten/design-taste-frontend/SKILL.md) | `frontend` | `ui-development` | `design_taste_fronten` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design taste frontend. Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules. |
 | [development](skills/frontend/ui-development/development/development/SKILL.md) | `frontend` | `ui-development` | `development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery. |
 | [emil-design-eng](skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) | `frontend` | `ui-development` | `emil_design_eng` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance. |
+| [frontend-api-integration-patterns](skills/frontend/ui-development/frontend_api_integra/frontend-api-integration-patterns/SKILL.md) | `frontend` | `ui-development` | `frontend_api_integra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend api integration patterns. Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management. |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |

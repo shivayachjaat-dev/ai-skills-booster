@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **6 skills** available in this category.
+> **7 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,3 +10,4 @@
 | [design-taste-frontend](../../skills/frontend/ui-development/design_taste_fronten/design-taste-frontend/SKILL.md) | `design_taste_fronten` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design taste frontend. Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules. |
 | [development](../../skills/frontend/ui-development/development/development/SKILL.md) | `development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery. |
 | [emil-design-eng](../../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) | `emil_design_eng` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance. |
+| [frontend-api-integration-patterns](../../skills/frontend/ui-development/frontend_api_integra/frontend-api-integration-patterns/SKILL.md) | `frontend_api_integra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend api integration patterns. Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management. |

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,024** skills across structured domains, categories, and subcategories.
+Master navigation for **1,025** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (358 skills)
 
@@ -1539,7 +1539,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (192 skills)
+## Frontend (193 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1625,7 +1625,7 @@ Category index: [`docs/categories/styling.md`](categories/styling.md)
 - **Fixing_Motion_Perfor** (1):
   - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-### Ui Development (6 skills)
+### Ui Development (7 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -1640,6 +1640,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [development](../skills/frontend/ui-development/development/development/SKILL.md) — Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
+- **Frontend_Api_Integra** (1):
+  - [frontend-api-integration-patterns](../skills/frontend/ui-development/frontend_api_integra/frontend-api-integration-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend api integration patterns. Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management.
 
 ### Ui Ux (102 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)

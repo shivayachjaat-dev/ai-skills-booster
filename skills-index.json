@@ -14073,6 +14073,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-api-integration-patterns",
+    "path": "skills/frontend/ui-development/frontend_api_integra/frontend-api-integration-patterns",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_api_integra",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend api integration patterns. Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Api Integration Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
