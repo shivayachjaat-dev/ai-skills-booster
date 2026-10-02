@@ -2339,6 +2339,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-agent-prompt-injection-and-sandbox-defense",
+    "path": "skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense",
+    "domain": "security",
+    "category": "ai-security",
+    "subcategory": "sandbox-defense",
+    "description": "Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.",
+    "tags": [
+      "prompt-injection",
+      "ai-security",
+      "sandboxing",
+      "jailbreak-defense",
+      "ssrf-protection",
+      "owasp-top-10-llm"
+    ],
+    "technologies": [
+      "Docker",
+      "Python",
+      "eBPF",
+      "Network Policies",
+      "Input Sanitization"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cors-csrf-web-security-hardening",
     "path": "skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening",
     "domain": "security",

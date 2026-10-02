@@ -250,7 +250,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
 
-## Docker (16 skills)
+## Docker (17 skills)
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - [rabbitmq-reliable-messaging-patterns](../skills/backend/message-queues/rabbitmq/rabbitmq-reliable-messaging-patterns/SKILL.md) — Use this skill when designing, building, and operating mission-critical message queuing architectures with RabbitMQ (AMQP 0-9-1). It guides the agent through publisher confirms (ACK/NACK), queue and message durability, dead letter exchanges (DLX) for poisoned messages, consumer manual acknowledgments with prefetch limits, and consumer idempotency.
@@ -265,6 +265,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [github-actions-reusable-workflows-and-composite-actions](../skills/devops/continuous-integration/github-reusable-workflows/github-actions-reusable-workflows-and-composite-actions/SKILL.md) — Use this skill when designing, architecting, and standardizing enterprise CI/CD pipelines using GitHub Actions Reusable Workflows (workflow_call) and Composite Actions. It covers modular parameter passing, secret inheritance, matrix job fan-out, action packaging with action.yaml, and cross-repository pipeline governance.
 - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
 - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
+- [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
 - [cosign-container-image-signing](../skills/security/supply-chain/cosign/cosign-container-image-signing/SKILL.md) — Use this skill when designing, implementing, and enforcing cryptographic container image signing and verification using Sigstore Cosign. It covers keyless signing via OIDC (GitHub Actions/GitLab CI), public/private keypair signing, SBOM attestation attachment, and enforcing Kubernetes admission policies with Kyverno or Gatekeeper.
 - [container-vulnerability-scanning-trivy](../skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy/SKILL.md) — Use this skill when auditing, scanning, and enforcing security policies across container images, filesystems, and Software Bill of Materials (SBOM) using Aqua Security Trivy. It guides the agent through CI/CD gate automation, severity threshold enforcement (CRITICAL/HIGH), CVE filtering via .trivyignore, and generating CycloneDX SBOMs.
 - [legacy-system-strangler-migration](../skills/software-engineering/modernization/migration/legacy-system-strangler-migration/SKILL.md) — Use this skill when incrementally modernizing, decomposing, and replacing legacy monoliths or deprecated backend systems without risky all-at-once cutovers. It guides the agent through the Strangler Fig pattern, reverse proxy intercept routing, parallel run shadow verification, database synchronization, and progressive decommission.
@@ -578,6 +579,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
 
+## Input Sanitization (1 skills)
+
+- [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
+
 ## InstantSearch.js (1 skills)
 
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
@@ -800,6 +805,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Neo4j 5+ (1 skills)
 
 - [neo4j-graph-data-modeling-and-cypher](../skills/databases/nosql/neo4j/neo4j-graph-data-modeling-and-cypher/SKILL.md) — Use this skill when designing, indexing, and querying labeled property graphs using Neo4j 5+ and Cypher query language. It guides the agent through node and relationship property modeling, index and constraint declarations, variable-length path traversal, aggregation with WITH clauses, and optimizing Cypher queries using PROFILE and EXPLAIN.
+
+## Network Policies (1 skills)
+
+- [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
 
 ## Next.js 14+ (1 skills)
 
@@ -1024,7 +1033,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (64 skills)
+## Python (65 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
@@ -1075,6 +1084,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [mcp-server-scaffold](../skills/mcp/server-development/scaffolding/mcp-server-scaffold/SKILL.md) — Use this skill when scaffolding, implementing, and validating a Model Context Protocol (MCP) server from scratch using TypeScript or Python. It guides the agent through configuring tool schemas, resource providers, prompt templates, stdio/SSE transports, error boundaries, and integration tests.
 - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 - [prompt-injection-defense](../skills/security/ai-security/defense/prompt-injection-defense/SKILL.md) — Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.
+- [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
 - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
 - [rbac-access-matrix-policy-design](../skills/security/authorization/rbac/rbac-access-matrix-policy-design/SKILL.md) — Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware.
 - [identity-access-review-and-certification](../skills/security/identity-governance/access-review/identity-access-review-and-certification/SKILL.md) — Use this skill when designing, automating, and conducting periodic Identity Access Reviews, user entitlement certifications, and least-privilege compliance audits. It covers generating access certification campaigns, flagging dormant accounts, detecting toxic permission combinations (Segregation of Duties - SoD), and producing audit evidence for SOC2/ISO27001.
@@ -1562,6 +1572,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## dbt (1 skills)
 
 - [snowflake-data-warehouse-modeling](../skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling/SKILL.md) — Use this skill when architecting, modeling, and optimizing enterprise data warehouses in Snowflake. It guides the agent through multi-cluster virtual warehouse sizing, micro-partition clustering keys, zero-copy cloning for staging environments, time travel data recovery, and continuous ingestion with Snowpipe.
+
+## eBPF (1 skills)
+
+- [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
 
 ## email-validator (1 skills)
 

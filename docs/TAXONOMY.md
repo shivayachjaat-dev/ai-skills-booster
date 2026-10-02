@@ -178,7 +178,8 @@ AI_Skills_Booster/
 │   │   └── memory-safety/ (1 skills)
 ├── security/
 │   ├── ai-security/
-│   │   └── defense/ (1 skills)
+│   │   ├── defense/ (1 skills)
+│   │   └── sandbox-defense/ (1 skills)
 │   ├── application-security/
 │   │   ├── cors-csrf/ (1 skills)
 │   │   └── security-headers/ (1 skills)
