@@ -1310,6 +1310,7 @@ AI_Skills_Booster/
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── linkerd_patterns/ (1 skills)
 │   │   ├── linux_hardening/ (1 skills)
+│   │   ├── macos_reverse/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)
 │   │   └── security_auditor/ (1 skills)

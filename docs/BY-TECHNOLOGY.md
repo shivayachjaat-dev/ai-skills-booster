@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1270 skills)
+## Bash (1271 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2126,6 +2126,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [linkerd-patterns](../skills/security/appsec/linkerd_patterns/linkerd-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkerd patterns. Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.
 - [linux-hardening](../skills/security/appsec/linux_hardening/linux-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for linux hardening. Apply CIS benchmarks and secure Linux servers.
+- [macos-reverse](../skills/security/appsec/macos_reverse/macos-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos reverse. Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
@@ -7217,6 +7218,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [macos-menubar-tuist-app](../skills/frontend/ui-ux/macos_menubar_tuist_/macos-menubar-tuist-app/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos menubar tuist app. Build, refactor, or review SwiftUI macOS menubar apps that use Tuist.
 
+## Macos Reverse (1 skills)
+
+- [macos-reverse](../skills/security/appsec/macos_reverse/macos-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos reverse. Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.
+
 ## Markdown (6 skills)
 
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
@@ -7702,7 +7707,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1373 skills)
+## Python (1374 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8836,6 +8841,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [linkerd-patterns](../skills/security/appsec/linkerd_patterns/linkerd-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkerd patterns. Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.
 - [linux-hardening](../skills/security/appsec/linux_hardening/linux-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for linux hardening. Apply CIS benchmarks and secure Linux servers.
+- [macos-reverse](../skills/security/appsec/macos_reverse/macos-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos reverse. Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.

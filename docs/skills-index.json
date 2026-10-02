@@ -26710,6 +26710,28 @@
     "maturity": "stable"
   },
   {
+    "name": "macos-reverse",
+    "path": "skills/security/appsec/macos_reverse/macos-reverse",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "macos_reverse",
+    "description": "Use this skill to design, implement, and operate production workflows for macos reverse. Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.",
+    "tags": [
+      "security",
+      "appsec",
+      "macos",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Macos Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-dependency-drift-audit",
     "path": "skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit",
     "domain": "security",
