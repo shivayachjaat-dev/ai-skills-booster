@@ -11069,6 +11069,28 @@
     "maturity": "stable"
   },
   {
+    "name": "citation-management",
+    "path": "skills/software-engineering/architecture/patterns/citation-management",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to manage citations systematically throughout the research and writing process.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "citation",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Citation Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
