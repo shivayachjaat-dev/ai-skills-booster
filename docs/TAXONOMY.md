@@ -95,6 +95,7 @@ AI_Skills_Booster/
 │   │   ├── azure_ai_voicelive_t/ (1 skills)
 │   │   ├── azure_communication_/ (2 skills)
 │   │   ├── azure_containerregis/ (1 skills)
+│   │   ├── azure_cosmos_rust/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
