@@ -12885,6 +12885,28 @@
     "maturity": "stable"
   },
   {
+    "name": "developer-advocacy",
+    "path": "skills/frontend/ui-ux/developer_advocacy/developer-advocacy",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "developer_advocacy",
+    "description": "Use this skill to design, implement, and operate production workflows for developer advocacy. When the user wants to do developer advocacy activities including conference talks, live coding, podcasts, and building in public.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "developer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Developer Advocacy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
