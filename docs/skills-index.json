@@ -9991,6 +9991,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bun-development",
+    "path": "skills/software-engineering/architecture/patterns/bun-development",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun).",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "bun",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bun Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
