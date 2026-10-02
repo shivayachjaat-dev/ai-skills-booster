@@ -13572,6 +13572,28 @@
     "maturity": "stable"
   },
   {
+    "name": "marketing-plan",
+    "path": "skills/business/growth/marketing_plan/marketing-plan",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "marketing_plan",
+    "description": "Use this skill to design, implement, and operate production workflows for marketing plan. When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product.",
+    "tags": [
+      "business",
+      "growth",
+      "marketing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Marketing Plan",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",

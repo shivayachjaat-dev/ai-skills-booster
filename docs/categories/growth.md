@@ -1,6 +1,6 @@
 # Category Index: Growth
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [developer-audience-context](../../skills/business/growth/developer_audience_c/developer-audience-context/SKILL.md) | `developer_audience_c` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for developer audience context. When the user wants to establish or update their developer audience context. Also use when starting any other developer marketing skill to ensure foundational context is loaded. |
 | [github-presence](../../skills/business/growth/github_presence/github-presence/SKILL.md) | `github_presence` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for github presence. When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include "GitHub README," "README optimization," "GitHub profile," "GitHub stars," "GitHub discoverability," "awesome lists," or "GitHub marketing. |
 | [marketing-ideas](../../skills/business/growth/marketing_ideas/marketing-ideas/SKILL.md) | `marketing_ideas` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing ideas. Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system. |
+| [marketing-plan](../../skills/business/growth/marketing_plan/marketing-plan/SKILL.md) | `marketing_plan` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing plan. When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. |

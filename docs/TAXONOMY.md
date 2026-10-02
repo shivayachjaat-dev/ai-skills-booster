@@ -632,7 +632,8 @@ AI_Skills_Booster/
 │   │   ├── cro/ (1 skills)
 │   │   ├── developer_audience_c/ (1 skills)
 │   │   ├── github_presence/ (1 skills)
-│   │   └── marketing_ideas/ (1 skills)
+│   │   ├── marketing_ideas/ (1 skills)
+│   │   └── marketing_plan/ (1 skills)
 │   ├── human-resources/
 │   │   ├── alumni-tracker/ (1 skills)
 │   │   └── performance-management/ (1 skills)
