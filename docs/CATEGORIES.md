@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **276** skills across structured domains, categories, and subcategories.
+Master navigation for **277** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (95 skills)
 
@@ -597,7 +597,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (32 skills)
+## Devops (33 skills)
 
 ### Ci Cd (5 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -613,7 +613,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (6 skills)
+### Cloud Infrastructure (7 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -626,8 +626,9 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [aws-skills](../skills/devops/cloud-infrastructure/aws_skills/aws-skills/SKILL.md) — Use this skill to aWS development with infrastructure automation and cloud architecture patterns
 - **Aws_Sst_Development** (1):
   - [aws-sst-development](../skills/devops/cloud-infrastructure/aws_sst_development/aws-sst-development/SKILL.md) — Use this skill to sST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework.
-- **Azure_Appconfigurati** (1):
+- **Azure_Appconfigurati** (2):
   - [azure-appconfiguration-java](../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-java/SKILL.md) — Use this skill to azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.
+  - [azure-appconfiguration-ts](../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-ts/SKILL.md) — Use this skill to centralized configuration management with feature flags and dynamic refresh.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)

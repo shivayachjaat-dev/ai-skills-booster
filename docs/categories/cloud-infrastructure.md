@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **6 skills** available in this category.
+> **7 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,3 +10,4 @@
 | [aws-skills](../../skills/devops/cloud-infrastructure/aws_skills/aws-skills/SKILL.md) | `aws_skills` | `advanced` | `stable` | Use this skill to aWS development with infrastructure automation and cloud architecture patterns |
 | [aws-sst-development](../../skills/devops/cloud-infrastructure/aws_sst_development/aws-sst-development/SKILL.md) | `aws_sst_development` | `advanced` | `stable` | Use this skill to sST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework. |
 | [azure-appconfiguration-java](../../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-java/SKILL.md) | `azure_appconfigurati` | `advanced` | `stable` | Use this skill to azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots. |
+| [azure-appconfiguration-ts](../../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-ts/SKILL.md) | `azure_appconfigurati` | `advanced` | `stable` | Use this skill to centralized configuration management with feature flags and dynamic refresh. |

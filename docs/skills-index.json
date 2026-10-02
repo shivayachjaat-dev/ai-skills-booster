@@ -3918,6 +3918,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-appconfiguration-ts",
+    "path": "skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-ts",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_appconfigurati",
+    "description": "Use this skill to centralized configuration management with feature flags and dynamic refresh.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Appconfiguration Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
