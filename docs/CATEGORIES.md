@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,109** skills across structured domains, categories, and subcategories.
+Master navigation for **1,110** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (383 skills)
+## Ai Engineering (384 skills)
 
 ### Agents (46 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -198,7 +198,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (278 skills)
+### Models (279 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -736,6 +736,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [github-workflow-automation](../skills/ai-engineering/models/github_workflow_auto/github-workflow-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for github workflow automation. Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices.
 - **Global_Chat_Agent_Di** (1):
   - [global-chat-agent-discovery](../skills/ai-engineering/models/global_chat_agent_di/global-chat-agent-discovery/SKILL.md) — Use this skill to design, implement, and operate production workflows for global chat agent discovery. Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.
+- **Gmail_Automation** (1):
+  - [gmail-automation](../skills/ai-engineering/models/gmail_automation/gmail-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for gmail automation. Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

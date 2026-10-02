@@ -7717,6 +7717,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gmail-automation",
+    "path": "skills/ai-engineering/models/gmail_automation/gmail-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "gmail_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for gmail automation. Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "gmail",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gmail Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

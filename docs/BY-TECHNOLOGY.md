@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (927 skills)
+## Bash (928 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1393,6 +1393,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [github-actions-debugger](../skills/ai-engineering/models/github_actions_debug/github-actions-debugger/SKILL.md) — Use this skill to design, implement, and operate production workflows for github actions debugger. Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions.
 - [github-workflow-automation](../skills/ai-engineering/models/github_workflow_auto/github-workflow-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for github workflow automation. Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices.
 - [global-chat-agent-discovery](../skills/ai-engineering/models/global_chat_agent_di/global-chat-agent-discovery/SKILL.md) — Use this skill to design, implement, and operate production workflows for global chat agent discovery. Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.
+- [gmail-automation](../skills/ai-engineering/models/gmail_automation/gmail-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for gmail automation. Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -5076,6 +5077,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [global-chat-agent-discovery](../skills/ai-engineering/models/global_chat_agent_di/global-chat-agent-discovery/SKILL.md) — Use this skill to design, implement, and operate production workflows for global chat agent discovery. Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.
 
+## Gmail Automation (1 skills)
+
+- [gmail-automation](../skills/ai-engineering/models/gmail_automation/gmail-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for gmail automation. Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.
+
 ## Go (7 skills)
 
 - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
@@ -5997,7 +6002,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1030 skills)
+## Python (1031 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6342,6 +6347,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [github-actions-debugger](../skills/ai-engineering/models/github_actions_debug/github-actions-debugger/SKILL.md) — Use this skill to design, implement, and operate production workflows for github actions debugger. Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions.
 - [github-workflow-automation](../skills/ai-engineering/models/github_workflow_auto/github-workflow-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for github workflow automation. Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices.
 - [global-chat-agent-discovery](../skills/ai-engineering/models/global_chat_agent_di/global-chat-agent-discovery/SKILL.md) — Use this skill to design, implement, and operate production workflows for global chat agent discovery. Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.
+- [gmail-automation](../skills/ai-engineering/models/gmail_automation/gmail-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for gmail automation. Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
