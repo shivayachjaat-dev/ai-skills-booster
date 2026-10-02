@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **955** skills across structured domains, categories, and subcategories.
+Master navigation for **956** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (334 skills)
+## Ai Engineering (335 skills)
 
 ### Agents (41 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -182,7 +182,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (241 skills)
+### Models (242 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -640,6 +640,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [faf-expert](../skills/ai-engineering/models/faf_expert/faf-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for faf expert. Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync.
 - **Faf_Go** (1):
   - [faf-go](../skills/ai-engineering/models/faf_go/faf-go/SKILL.md) — Use this skill to design, implement, and operate production workflows for faf go. Guided interview to Gold Code (100% AI-Readiness). Use when helping users improve their .faf file through questions. Leverages Claude Code's AskUserQuestion for seamless integration. Just type /faf-go and answer questions till done.
+- **Faf_Wizard** (1):
+  - [faf-wizard](../skills/ai-engineering/models/faf_wizard/faf-wizard/SKILL.md) — Use this skill to design, implement, and operate production workflows for faf wizard. Done-for-you .faf generator. One-click AI context for any project - new, legacy, or famous. Auto-detects stack, scores readiness, works everywhere.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):
