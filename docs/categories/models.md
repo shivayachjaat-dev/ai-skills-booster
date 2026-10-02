@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **76 skills** available in this category.
+> **77 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -79,4 +79,5 @@
 | [beatra-ai-video-studio](../../skills/ai-engineering/models/beatra_ai_video_stud/beatra-ai-video-studio/SKILL.md) | `beatra_ai_video_stud` | `advanced` | `stable` | Use this skill to install and use the official Beatra AI Video Studio package, pinned by digest, for paid text-to-video, image-to-video, and video edit or extend jobs on the hosted Beatra service. |
 | [beautiful-prose](../../skills/ai-engineering/models/beautiful_prose/beautiful-prose/SKILL.md) | `beautiful_prose` | `advanced` | `stable` | Use this skill to a hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be clean, exact, concrete, and free of AI cadence, filler, or therapeutic tone. |
 | [before-you-build](../../skills/ai-engineering/models/before_you_build/before-you-build/SKILL.md) | `before_you_build` | `advanced` | `stable` | Use this skill to review product risk before coding by checking demand, alternatives, channels, switching costs, and failure signals. |
+| [behavioral-modes](../../skills/ai-engineering/models/behavioral_modes/behavioral-modes/SKILL.md) | `behavioral_modes` | `advanced` | `stable` | Use this skill to aI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

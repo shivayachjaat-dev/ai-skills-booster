@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **394** skills across structured domains, categories, and subcategories.
+Master navigation for **395** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (128 skills)
+## Ai Engineering (129 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -114,7 +114,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (76 skills)
+### Models (77 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -258,6 +258,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [beautiful-prose](../skills/ai-engineering/models/beautiful_prose/beautiful-prose/SKILL.md) — Use this skill to a hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be clean, exact, concrete, and free of AI cadence, filler, or therapeutic tone.
 - **Before_You_Build** (1):
   - [before-you-build](../skills/ai-engineering/models/before_you_build/before-you-build/SKILL.md) — Use this skill to review product risk before coding by checking demand, alternatives, channels, switching costs, and failure signals.
+- **Behavioral_Modes** (1):
+  - [behavioral-modes](../skills/ai-engineering/models/behavioral_modes/behavioral-modes/SKILL.md) — Use this skill to aI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
