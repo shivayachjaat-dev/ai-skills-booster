@@ -470,6 +470,7 @@ AI_Skills_Booster/
 │   │   ├── lore/ (1 skills)
 │   │   ├── m365_agents_py/ (1 skills)
 │   │   ├── m365_entra_attack/ (1 skills)
+│   │   ├── magic_animator/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

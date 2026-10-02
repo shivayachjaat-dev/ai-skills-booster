@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1272 skills)
+## Bash (1273 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1516,6 +1516,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [lore](../skills/ai-engineering/models/lore/lore/SKILL.md) — Use this skill to design, implement, and operate production workflows for lore. Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query.
 - [m365-agents-py](../skills/ai-engineering/models/m365_agents_py/m365-agents-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents py. Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.
 - [m365-entra-attack](../skills/ai-engineering/models/m365_entra_attack/m365-entra-attack/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 entra attack. Microsoft 365 / Entra ID red-team attack chain
+- [magic-animator](../skills/ai-engineering/models/magic_animator/magic-animator/SKILL.md) — Use this skill to design, implement, and operate production workflows for magic animator. AI-powered animation tool for creating motion in logos, UI, icons, and social media assets.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -7227,6 +7228,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [macos-spm-app-packaging](../skills/frontend/ui-ux/macos_spm_app_packag/macos-spm-app-packaging/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos spm app packaging. Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects.
 
+## Magic Animator (1 skills)
+
+- [magic-animator](../skills/ai-engineering/models/magic_animator/magic-animator/SKILL.md) — Use this skill to design, implement, and operate production workflows for magic animator. AI-powered animation tool for creating motion in logos, UI, icons, and social media assets.
+
 ## Markdown (6 skills)
 
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
@@ -7712,7 +7717,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1375 skills)
+## Python (1376 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8176,6 +8181,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [lore](../skills/ai-engineering/models/lore/lore/SKILL.md) — Use this skill to design, implement, and operate production workflows for lore. Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query.
 - [m365-agents-py](../skills/ai-engineering/models/m365_agents_py/m365-agents-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents py. Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.
 - [m365-entra-attack](../skills/ai-engineering/models/m365_entra_attack/m365-entra-attack/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 entra attack. Microsoft 365 / Entra ID red-team attack chain
+- [magic-animator](../skills/ai-engineering/models/magic_animator/magic-animator/SKILL.md) — Use this skill to design, implement, and operate production workflows for magic animator. AI-powered animation tool for creating motion in logos, UI, icons, and social media assets.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
