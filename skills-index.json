@@ -7209,6 +7209,28 @@
     "maturity": "stable"
   },
   {
+    "name": "blog-writing-guide",
+    "path": "skills/frontend/ui-ux/blog_writing_guide/blog-writing-guide",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "blog_writing_guide",
+    "description": "Use this skill to this skill enforces Sentry's blog writing standards across every post \u2014 whether you're helping an engineer write their first blog post or a marketer draft a product announcement.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "blog",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Blog Writing Guide",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
