@@ -138,6 +138,7 @@ AI_Skills_Booster/
 │   │   ├── bumblebee/ (1 skills)
 │   │   ├── business_analyst/ (1 skills)
 │   │   ├── business_email_templ/ (1 skills)
+│   │   ├── buywhere_product_cat/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **97 skills** available in this category.
+> **98 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -100,4 +100,5 @@
 | [bumblebee](../../skills/ai-engineering/models/bumblebee/bumblebee/SKILL.md) | `bumblebee` | `advanced` | `stable` | Use this skill to run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs. |
 | [business-analyst](../../skills/ai-engineering/models/business_analyst/business-analyst/SKILL.md) | `business_analyst` | `advanced` | `stable` | Use this skill to master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. |
 | [business-email-template](../../skills/ai-engineering/models/business_email_templ/business-email-template/SKILL.md) | `business_email_templ` | `advanced` | `stable` | Use this skill to business email template register: trigger, sender and recipient type, subject pattern, body structure, personalisation tokens and send checks. Use for repeatable outbound email. |
+| [buywhere-product-catalog](../../skills/ai-engineering/models/buywhere_product_cat/buywhere-product-catalog/SKILL.md) | `buywhere_product_cat` | `advanced` | `stable` | Use this skill to use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

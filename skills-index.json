@@ -2987,6 +2987,28 @@
     "maturity": "stable"
   },
   {
+    "name": "buywhere-product-catalog",
+    "path": "skills/ai-engineering/models/buywhere_product_cat/buywhere-product-catalog",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "buywhere_product_cat",
+    "description": "Use this skill to use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "buywhere",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Buywhere Product Catalog",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
