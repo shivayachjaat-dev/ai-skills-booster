@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **375 skills** available in this category.
+> **376 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -372,6 +372,7 @@
 | [maintain-codex-wiki](../../skills/ai-engineering/models/maintain_codex_wiki/maintain-codex-wiki/SKILL.md) | `maintain_codex_wiki` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for maintain codex wiki. Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and deterministic checks. |
 | [market-sizing-analysis](../../skills/ai-engineering/models/market_sizing_analys/market-sizing-analysis/SKILL.md) | `market_sizing_analys` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for market sizing analysis. Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities. |
 | [markstream-vue](../../skills/ai-engineering/models/markstream_vue/markstream-vue/SKILL.md) | `markstream_vue` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream vue. Integrate markstream-vue into plain Vue 3 with renderer modes, code and DOM choices, streaming state, virtualization, optional peers, and scoped components. |
+| [maxia](../../skills/ai-engineering/models/maxia/maxia/SKILL.md) | `maxia` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for maxia. Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug detection. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

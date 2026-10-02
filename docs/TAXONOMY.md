@@ -479,6 +479,7 @@ AI_Skills_Booster/
 │   │   ├── maintain_codex_wiki/ (1 skills)
 │   │   ├── market_sizing_analys/ (1 skills)
 │   │   ├── markstream_vue/ (1 skills)
+│   │   ├── maxia/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

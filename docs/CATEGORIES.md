@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,494** skills across structured domains, categories, and subcategories.
+Master navigation for **1,495** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (517 skills)
+## Ai Engineering (518 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -262,7 +262,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Mac_Mini_Llm_Lab** (1):
   - [mac-mini-llm-lab](../skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) — Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access,
 
-### Models (375 skills)
+### Models (376 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -990,6 +990,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [market-sizing-analysis](../skills/ai-engineering/models/market_sizing_analys/market-sizing-analysis/SKILL.md) — Use this skill to design, implement, and operate production workflows for market sizing analysis. Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities.
 - **Markstream_Vue** (1):
   - [markstream-vue](../skills/ai-engineering/models/markstream_vue/markstream-vue/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue. Integrate markstream-vue into plain Vue 3 with renderer modes, code and DOM choices, streaming state, virtualization, optional peers, and scoped components.
+- **Maxia** (1):
+  - [maxia](../skills/ai-engineering/models/maxia/maxia/SKILL.md) — Use this skill to design, implement, and operate production workflows for maxia. Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug detection.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
