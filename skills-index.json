@@ -18055,6 +18055,28 @@
     "maturity": "stable"
   },
   {
+    "name": "graphql-architect",
+    "path": "skills/frontend/ui-ux/graphql_architect/graphql-architect",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "graphql_architect",
+    "description": "Use this skill to design, implement, and operate production workflows for graphql architect. Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "graphql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Graphql Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
