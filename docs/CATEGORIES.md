@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **560** skills across structured domains, categories, and subcategories.
+Master navigation for **561** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (195 skills)
+## Ai Engineering (196 skills)
 
 ### Agents (23 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -130,7 +130,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (132 skills)
+### Models (133 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -386,6 +386,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [codex-review](../skills/ai-engineering/models/codex_review/codex-review/SKILL.md) — Use this skill to professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.
 - **Cohesivity** (1):
   - [cohesivity](../skills/ai-engineering/models/cohesivity/cohesivity/SKILL.md) — Use this skill to provision headless backend services for AI agents through Cohesivity: hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when a trusted .cohesivity file exists or the user approves a new backend.
+- **Cold_Email** (1):
+  - [cold-email](../skills/ai-engineering/models/cold_email/cold-email/SKILL.md) — Use this skill to write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR outreach, personalized opening lines, subject lines, CTAs, and multi-touch follow-up sequences.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

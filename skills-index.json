@@ -3867,6 +3867,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cold-email",
+    "path": "skills/ai-engineering/models/cold_email/cold-email",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cold_email",
+    "description": "Use this skill to write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR outreach, personalized opening lines, subject lines, CTAs, and multi-touch follow-up sequences.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cold",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cold Email",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

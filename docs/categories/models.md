@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **132 skills** available in this category.
+> **133 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -135,4 +135,5 @@
 | [codex-delegate](../../skills/ai-engineering/models/codex_delegate/codex-delegate/SKILL.md) | `codex_delegate` | `advanced` | `stable` | Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly |
 | [codex-review](../../skills/ai-engineering/models/codex_review/codex-review/SKILL.md) | `codex_review` | `advanced` | `stable` | Use this skill to professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring. |
 | [cohesivity](../../skills/ai-engineering/models/cohesivity/cohesivity/SKILL.md) | `cohesivity` | `advanced` | `stable` | Use this skill to provision headless backend services for AI agents through Cohesivity: hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when a trusted .cohesivity file exists or the user approves a new backend. |
+| [cold-email](../../skills/ai-engineering/models/cold_email/cold-email/SKILL.md) | `cold_email` | `advanced` | `stable` | Use this skill to write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR outreach, personalized opening lines, subject lines, CTAs, and multi-touch follow-up sequences. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
