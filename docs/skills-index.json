@@ -6268,6 +6268,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cro-engineering-workflow",
+    "path": "skills/business/growth/cro/cro-engineering-workflow",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "cro",
+    "description": "Use this skill to when the user wants to optimize, improve, or increase conversions on any marketing page or form \u2014 including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms.",
+    "tags": [
+      "business",
+      "growth",
+      "cro",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cro Engineering Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",

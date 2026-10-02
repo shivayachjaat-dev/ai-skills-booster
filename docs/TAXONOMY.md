@@ -303,7 +303,8 @@ AI_Skills_Booster/
 │   ├── growth/
 │   │   ├── competitor_ad_intell/ (1 skills)
 │   │   ├── content_creator/ (1 skills)
-│   │   └── copy_editing/ (1 skills)
+│   │   ├── copy_editing/ (1 skills)
+│   │   └── cro/ (1 skills)
 │   ├── human-resources/
 │   │   ├── alumni-tracker/ (1 skills)
 │   │   └── performance-management/ (1 skills)
