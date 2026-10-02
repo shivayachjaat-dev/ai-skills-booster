@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **160 skills** available in this category.
+> **161 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -163,4 +163,5 @@
 | [crossframe-teach](../../skills/ai-engineering/models/crossframe_teach/crossframe-teach/SKILL.md) | `crossframe_teach` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame concepts, misreading boundaries, plain-language examples, signals, or exercises. |
 | [crypto-bd-agent](../../skills/ai-engineering/models/crypto_bd_agent/crypto-bd-agent/SKILL.md) | `crypto_bd_agent` | `advanced` | `stable` | Use this skill to production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges. |
 | [csharp-pro](../../skills/ai-engineering/models/csharp_pro/csharp-pro/SKILL.md) | `csharp_pro` | `advanced` | `stable` | Use this skill to write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing. |
+| [customer-support](../../skills/ai-engineering/models/customer_support/customer-support/SKILL.md) | `customer_support` | `advanced` | `stable` | Use this skill to elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

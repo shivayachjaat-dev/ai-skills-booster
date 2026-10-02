@@ -4637,6 +4637,28 @@
     "maturity": "stable"
   },
   {
+    "name": "customer-support",
+    "path": "skills/ai-engineering/models/customer_support/customer-support",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "customer_support",
+    "description": "Use this skill to elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "customer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Customer Support",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
