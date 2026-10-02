@@ -412,6 +412,7 @@ AI_Skills_Booster/
 │   │   ├── itil_expert/ (1 skills)
 │   │   ├── jev_social/ (1 skills)
 │   │   ├── js_reverse/ (1 skills)
+│   │   ├── junta_leiloeiros/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

@@ -9015,6 +9015,28 @@
     "maturity": "stable"
   },
   {
+    "name": "junta-leiloeiros",
+    "path": "skills/ai-engineering/models/junta_leiloeiros/junta-leiloeiros",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "junta_leiloeiros",
+    "description": "Use this skill to design, implement, and operate production workflows for junta leiloeiros. Coleta e consulta dados de leiloeiros oficiais de todas as 27 Juntas Comerciais do Brasil. Scraper multi-UF, banco SQLite, API FastAPI e exportacao CSV/JSON.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "junta",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Junta Leiloeiros",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
