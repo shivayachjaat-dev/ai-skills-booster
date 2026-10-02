@@ -4600,6 +4600,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-mgmt-fabric-dotnet",
+    "path": "skills/devops/cloud-infrastructure/azure_mgmt_fabric_do/azure-mgmt-fabric-dotnet",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_mgmt_fabric_do",
+    "description": "Use this skill to azure Resource Manager SDK for Fabric in .NET.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Mgmt Fabric Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
