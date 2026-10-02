@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,391** skills across structured domains, categories, and subcategories.
+Master navigation for **1,392** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (471 skills)
+## Ai Engineering (472 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -230,7 +230,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Langfuse** (1):
   - [langfuse](../skills/ai-engineering/llm-ops/langfuse/langfuse/SKILL.md) — Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform.
 
-### Models (346 skills)
+### Models (347 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -902,6 +902,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [leiloeiro-risco](../skills/ai-engineering/models/leiloeiro_risco/leiloeiro-risco/SKILL.md) — Use this skill to design, implement, and operate production workflows for leiloeiro risco. Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais, stress test 4 cenarios e ROI ponderado por risco.
 - **Lightning_Architectu** (1):
   - [lightning-architecture-review](../skills/ai-engineering/models/lightning_architectu/lightning-architecture-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for lightning architecture review. Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain footprint, consensus requirements, HTLC/PTLC compatibility, liveness, and watchtower s...
+- **Lightning_Factory_Ex** (1):
+  - [lightning-factory-explainer](../skills/ai-engineering/models/lightning_factory_ex/lightning-factory-explainer/SKILL.md) — Use this skill to design, implement, and operate production workflows for lightning factory explainer. Explain Bitcoin Lightning channel factories and the SuperScalar protocol — scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeout-signature trees, MuSig2, and Taproot. No soft fork required.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

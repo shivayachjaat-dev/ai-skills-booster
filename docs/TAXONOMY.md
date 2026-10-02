@@ -436,6 +436,7 @@ AI_Skills_Booster/
 │   │   ├── leiloeiro_mercado/ (1 skills)
 │   │   ├── leiloeiro_risco/ (1 skills)
 │   │   ├── lightning_architectu/ (1 skills)
+│   │   ├── lightning_factory_ex/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

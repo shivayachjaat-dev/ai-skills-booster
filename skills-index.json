@@ -9543,6 +9543,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lightning-factory-explainer",
+    "path": "skills/ai-engineering/models/lightning_factory_ex/lightning-factory-explainer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "lightning_factory_ex",
+    "description": "Use this skill to design, implement, and operate production workflows for lightning factory explainer. Explain Bitcoin Lightning channel factories and the SuperScalar protocol \u2014 scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeout-signature trees, MuSig2, and Taproot. No soft fork required.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "lightning",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lightning Factory Explainer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
