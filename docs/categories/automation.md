@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,3 +15,4 @@
 | [docs-generator](../../skills/testing/automation/docs_generator/docs-generator/SKILL.md) | `docs_generator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docs generator. Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF write-ups, and signature-analysis documentation with evidence-backed structure. |
 | [e2e-testing](../../skills/testing/automation/e2e_testing/e2e-testing/SKILL.md) | `e2e_testing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for e2e testing. End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration. |
 | [framework-migration-deps-upgrade](../../skills/testing/automation/framework_migration_/framework-migration-deps-upgrade/SKILL.md) | `framework_migration_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for framework migration deps upgrade. You are a dependency management expert specializing in safe, incremental upgrades of project dependencies. Plan and execute dependency updates with minimal risk, proper testing, and clear migration pa |
+| [idea-refine](../../skills/testing/automation/idea_refine/idea-refine/SKILL.md) | `idea_refine` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea refine. Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging ... |

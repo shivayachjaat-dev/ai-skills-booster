@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,271** skills across structured domains, categories, and subcategories.
+Master navigation for **1,272** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (426 skills)
 
@@ -2992,7 +2992,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (18 skills)
+## Testing (19 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -3012,7 +3012,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (11 skills)
+### Automation (12 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -3037,6 +3037,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [e2e-testing](../skills/testing/automation/e2e_testing/e2e-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for e2e testing. End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration.
 - **Framework_Migration_** (1):
   - [framework-migration-deps-upgrade](../skills/testing/automation/framework_migration_/framework-migration-deps-upgrade/SKILL.md) — Use this skill to design, implement, and operate production workflows for framework migration deps upgrade. You are a dependency management expert specializing in safe, incremental upgrades of project dependencies. Plan and execute dependency updates with minimal risk, proper testing, and clear migration pa
+- **Idea_Refine** (1):
+  - [idea-refine](../skills/testing/automation/idea_refine/idea-refine/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea refine. Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging ...
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

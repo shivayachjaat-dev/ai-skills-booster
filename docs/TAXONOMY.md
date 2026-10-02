@@ -1281,7 +1281,8 @@ AI_Skills_Booster/
 │   │   ├── deployment_validatio/ (1 skills)
 │   │   ├── docs_generator/ (1 skills)
 │   │   ├── e2e_testing/ (1 skills)
-│   │   └── framework_migration_/ (1 skills)
+│   │   ├── framework_migration_/ (1 skills)
+│   │   └── idea_refine/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/
