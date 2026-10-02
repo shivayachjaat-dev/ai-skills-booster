@@ -1095,6 +1095,7 @@ AI_Skills_Booster/
 │   │   ├── clerk_auth/ (1 skills)
 │   │   ├── content_strategy/ (1 skills)
 │   │   ├── digital_forensics/ (1 skills)
+│   │   ├── hubspot_integration/ (1 skills)
 │   │   └── oauth2/ (1 skills)
 │   ├── authorization/
 │   │   └── rbac/ (1 skills)

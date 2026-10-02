@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (997 skills)
+## Bash (998 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1902,6 +1902,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [clerk-auth](../skills/security/authentication/clerk_auth/clerk-auth/SKILL.md) — Use this skill to expert patterns for Clerk auth implementation, middleware,
 - [content-strategy](../skills/security/authentication/content_strategy/content-strategy/SKILL.md) — Use this skill to plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program.
 - [digital-forensics](../skills/security/authentication/digital_forensics/digital-forensics/SKILL.md) — Use this skill to design, implement, and operate production workflows for digital forensics. Authorized digital forensics: memory dumps, disk timelines, PCAP investigation, artifact triage, and incident-response evidence preservation.
+- [hubspot-integration](../skills/security/authentication/hubspot_integration/hubspot-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for hubspot integration. Expert patterns for HubSpot CRM integration including OAuth
 - [brooks-audit](../skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) — Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.
 - [busabase](../skills/security/compliance/busabase/busabase/SKILL.md) — Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history.
 - [fix-review](../skills/security/compliance/fix_review/fix-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for fix review. Verify fix commits address audit findings without new bugs
@@ -5596,6 +5597,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [hubspot-automation](../skills/software-engineering/architecture/patterns/hubspot-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hubspot automation. Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration.
 
+## Hubspot Integration (1 skills)
+
+- [hubspot-integration](../skills/security/authentication/hubspot_integration/hubspot-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for hubspot integration. Expert patterns for HubSpot CRM integration including OAuth
+
 ## HuggingFace (3 skills)
 
 - [ragas-rag-triad-evaluation](../skills/ai-engineering/evaluation/ragas-rag-evaluation/ragas-rag-triad-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and auditing Retrieval-Augmented Generation (RAG) pipelines using RAGAS and the RAG Triad framework. It guides the agent through calculating Faithfulness (hallucination detection), Answer Relevance, Context Precision, and Context Recall, building synthetic evaluation datasets, and CI automated regression gating.
@@ -6347,7 +6352,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1100 skills)
+## Python (1101 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7261,6 +7266,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [clerk-auth](../skills/security/authentication/clerk_auth/clerk-auth/SKILL.md) — Use this skill to expert patterns for Clerk auth implementation, middleware,
 - [content-strategy](../skills/security/authentication/content_strategy/content-strategy/SKILL.md) — Use this skill to plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program.
 - [digital-forensics](../skills/security/authentication/digital_forensics/digital-forensics/SKILL.md) — Use this skill to design, implement, and operate production workflows for digital forensics. Authorized digital forensics: memory dumps, disk timelines, PCAP investigation, artifact triage, and incident-response evidence preservation.
+- [hubspot-integration](../skills/security/authentication/hubspot_integration/hubspot-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for hubspot integration. Expert patterns for HubSpot CRM integration including OAuth
 - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
 - [rbac-access-matrix-policy-design](../skills/security/authorization/rbac/rbac-access-matrix-policy-design/SKILL.md) — Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware.
 - [binary-anti-reversing-and-code-obfuscation](../skills/security/binary-defense/anti-reversing/binary-anti-reversing-and-code-obfuscation/SKILL.md) — Use this skill to evaluate, implement, and audit software intellectual property protections against reverse engineering, decompilation, and debugger tampering. It covers symbol stripping, control-flow flattening, anti-debugging API hooks (ptrace, IsDebuggerPresent), integrity hash checks, and security trade-off analysis.

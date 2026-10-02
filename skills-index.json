@@ -21895,6 +21895,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hubspot-integration",
+    "path": "skills/security/authentication/hubspot_integration/hubspot-integration",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "hubspot_integration",
+    "description": "Use this skill to design, implement, and operate production workflows for hubspot integration. Expert patterns for HubSpot CRM integration including OAuth",
+    "tags": [
+      "security",
+      "authentication",
+      "hubspot",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hubspot Integration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
