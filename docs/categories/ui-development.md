@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **30 skills** available in this category.
+> **31 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -34,3 +34,4 @@
 | [markstream-nuxt](../../skills/frontend/ui-development/markstream_nuxt/markstream-nuxt/SKILL.md) | `markstream_nuxt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream nuxt. Integrate markstream-vue into Nuxt 3 or 4 with SSR-safe client boundaries, renderer modes, explicit CSS, and browser-only optional peers. |
 | [markstream-react](../../skills/frontend/ui-development/markstream_react/markstream-react/SKILL.md) | `markstream_react` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream react. Integrate the beta markstream-react renderer into React 18+ or Next.js with correct client/server entrypoints, CSS, streaming state, and component overrides. |
 | [markstream-svelte](../../skills/frontend/ui-development/markstream_svelte/markstream-svelte/SKILL.md) | `markstream_svelte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream svelte. Integrate the beta markstream-svelte renderer into Svelte 5 or SvelteKit with runes, explicit CSS, smooth streaming, workers, and SSR-safe boundaries. |
+| [markstream-vue2](../../skills/frontend/ui-development/markstream_vue2/markstream-vue2/SKILL.md) | `markstream_vue2` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream vue2. Integrate markstream-vue2 into Vue 2.6 or 2.7 with correct Composition API decisions, CSS, streaming state, optional peers, and scoped overrides. |
