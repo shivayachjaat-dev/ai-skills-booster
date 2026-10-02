@@ -19661,6 +19661,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hono",
+    "path": "skills/frontend/web-architecture/hono/hono",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "hono",
+    "description": "Use this skill to design, implement, and operate production workflows for hono. Build ultra-fast web APIs and full-stack apps with Hono \u2014 runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "hono",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hono",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "isometric-design",
     "path": "skills/frontend/web-architecture/isometric_design/isometric-design",
     "domain": "frontend",

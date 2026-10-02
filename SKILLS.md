@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,174 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,175 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -879,6 +879,7 @@
 | [hasdata-cli](skills/frontend/web-architecture/hasdata_cli/hasdata-cli/SKILL.md) | `frontend` | `web-architecture` | `hasdata_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hasdata cli. Command-line access to search, scraping, and structured web data. |
 | [high-contrast](skills/frontend/web-architecture/high_contrast/high-contrast/SKILL.md) | `frontend` | `web-architecture` | `high_contrast` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact. |
 | [holographic-ui](skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) | `frontend` | `web-architecture` | `holographic_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements. |
+| [hono](skills/frontend/web-architecture/hono/hono/SKILL.md) | `frontend` | `web-architecture` | `hono` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hono. Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime. |
 | [isometric-design](skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) | `frontend` | `web-architecture` | `isometric_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations. |
 | [layered-design](skills/frontend/web-architecture/layered_design/layered-design/SKILL.md) | `frontend` | `web-architecture` | `layered_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for layered design. Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content. |
 | [material-design](skills/frontend/web-architecture/material_design/material-design/SKILL.md) | `frontend` | `web-architecture` | `material_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for material design. Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components. |
