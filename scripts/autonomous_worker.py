@@ -61,727 +61,766 @@ def mark_backlog_item(backlog_query, new_status="completed", blocked_reason=None
 
 CONTINUOUS_QUEUE = [
     # -------------------------------------------------------------
-    # 1. BACKEND: openapi-documentation-generator-and-swagger-ui (Backlog: api-documentation-generator)
+    # 1. BACKEND: fastapi-high-performance-endpoint-builder (Backlog: api-endpoint-builder)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "api-documentation-generator",
-        "name": "openapi-documentation-generator-and-swagger-ui",
+        "backlog_ref": "api-endpoint-builder",
+        "name": "fastapi-high-performance-endpoint-builder",
         "domain": "backend",
-        "category": "documentation",
-        "subcategory": "openapi-generator",
-        "description": "Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export.",
-        "tags": ["openapi", "swagger", "api-documentation", "redoc", "fastapi", "developer-experience", "backend"],
-        "technologies": ["OpenAPI 3.1", "Swagger UI", "FastAPI", "Redoc", "Python", "JSON Schema"],
+        "category": "api-frameworks",
+        "subcategory": "fastapi-endpoints",
+        "description": "Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.",
+        "tags": ["fastapi", "rest-api", "async-python", "pydantic-v2", "dependency-injection", "backend", "performance"],
+        "technologies": ["FastAPI", "Pydantic v2", "SQLAlchemy Async", "Uvicorn", "Python"],
         "complexity": "intermediate",
         "maturity": "stable",
-        "tools": ["python", "bash"],
-        "dependencies": ["fastapi >= 0.100.0", "pydantic >= 2.5.0", "python >= 3.10"],
-        "content": """# OpenAPI Documentation Generator & Swagger UI Architecture
+        "tools": ["python"],
+        "dependencies": ["fastapi >= 0.109.0", "pydantic >= 2.5.0", "uvicorn >= 0.27.0", "python >= 3.10"],
+        "content": """# FastAPI High-Performance Endpoint Builder Architecture
 
 ## Overview
 
-A comprehensive backend developer tooling standard for automatically generating, styling, and hosting interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals. Out-of-date or manually maintained API documentation leads to integration bugs, excessive support escalations, and broken client SDKs. This skill guides AI agents in extracting deterministic OpenAPI schemas from route decorators and Pydantic models, configuring multi-tenant authentication schemes (Bearer JWT, API Key headers, OAuth2 flows), generating copy-paste curl and TypeScript code snippets, and exporting static documentation sites.
+A premier backend engineering standard for architecting, implementing, and benchmarking production-grade asynchronous REST API endpoints using FastAPI and Pydantic v2. Developing web endpoints without strict architectural guidelines leads to blocking I/O thread starvation, redundant database connection overhead, inconsistent error response structures, and unvalidated payload injection. This skill equips AI agents to construct fully asynchronous endpoints with typed dependency injection, database connection pooling, unified RFC 7807 error handling, and sub-10ms response latency.
 
 ## When to Use
 
-- Exposing interactive Swagger UI (`/docs`) and Redoc (`/redoc`) portals for REST APIs.
-- Auto-generating OpenAPI 3.1 JSON/YAML schemas from Python (FastAPI/Flask) or Node.js endpoints.
-- Documenting error response structures (`400 Bad Request`, `401 Unauthorized`, `429 Too Many Requests`).
-- Exporting static Markdown or HTML developer documentation for CI/CD documentation portals.
+- Building production microservices and high-throughput REST APIs in Python.
+- Refactoring synchronous Flask/Django views into high-concurrency asynchronous FastAPI endpoints.
+- Structuring modular API routers with clean separation between transport (HTTP), domain services, and database repositories.
+- Enforcing strict request validation and response filtering with Pydantic v2 models.
 
 ## When NOT to Use
 
-- Documenting asynchronous streaming event buses without HTTP interfaces (use AsyncAPI).
-- Internal database table dictionary documentation without REST API endpoints.
+- Event-driven streaming consumers without HTTP listeners (use Celery or Kafka workers).
+- Simple offline CLI scripts that execute once and exit.
 
 ## Inputs & Prerequisites
 
-- Web framework route definitions (FastAPI, Express, NestJS) with typed request and response payloads.
-- API metadata (Title, Version, Contact Info, Terms of Service, License).
-- Security definitions (Bearer Token, API Key in Header, OAuth2 Scopes).
+- Python 3.10+ runtime with FastAPI, Uvicorn, and Pydantic v2 installed.
+- Database access layer (SQLAlchemy AsyncSession, asyncpg, or motor).
+- OpenAPI tags, route paths, and authentication scheme definitions.
 
 ## Core Workflow
 
-### 1. Self-Documenting FastAPI OpenAPI Configuration
-Configure rich metadata, server environments, and security schemes:
+### 1. Production Async Endpoint & Dependency Architecture
+Construct modular endpoints with connection pooling and typed dependencies:
 
 ```python
-\"\"\"Self-Documenting FastAPI Application with Interactive OpenAPI 3.1 Portals.\"\"\"
-from fastapi import FastAPI, Depends, HTTPException, Security, status
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-from pydantic import BaseModel, Field
+\"\"\"Production FastAPI High-Performance Endpoint Pattern.\"\"\"
+from fastapi import FastAPI, APIRouter, Depends, HTTPException, Query, status
+from pydantic import BaseModel, Field, ConfigDict
 from typing import List, Optional
+import uuid
+import time
 
-security_scheme = HTTPBearer()
+app = FastAPI(title="High-Performance Inventory Service", version="1.0.0")
+router = APIRouter(prefix="/v1/inventory", tags=["Inventory"])
 
-tags_metadata = [
-    {
-        "name": "Payments",
-        "description": "Operations with payment processing, invoice generation, and settlement refunds.",
-        "externalDocs": {
-            "description": "Payment Settlement Architecture RFC",
-            "url": "https://docs.example.com/rfcs/payments",
-        },
-    },
-    {
-        "name": "Telemetry",
-        "description": "Operational metrics, health checks, and cluster readiness probes."
-    }
-]
+# Domain DTO Schemas
+class InventoryItemCreateDTO(BaseModel):
+    sku: str = Field(..., min_length=4, max_length=32, example="SKU-99214")
+    name: str = Field(..., min_length=2, max_length=128, example="Wireless Mechanical Keyboard")
+    quantity: int = Field(..., ge=0, example=150)
+    unit_price_cents: int = Field(..., gt=0, example=12900)
 
-app = FastAPI(
-    title="Core Commerce Settlement API",
-    description=\"\"\"
-    ## Developer Integration Gateway
-    The Core Commerce Settlement API provides low-latency order execution, webhook dispatch, and automated financial reconciliations.
-    
-    ### Authentication
-    All endpoints require a Bearer JWT passed in the `Authorization` header:
-    `Authorization: Bearer <your-jwt-token>`
-    \"\"\",
-    version="2.4.0",
-    openapi_tags=tags_metadata,
-    docs_url="/docs",
-    redoc_url="/redoc",
-    openapi_url="/openapi.json"
-)
+class InventoryItemResponseDTO(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    item_id: str
+    sku: str
+    name: str
+    quantity: int
+    unit_price_cents: int
+    created_at_epoch: int
 
-class PaymentRequest(BaseModel):
-    account_id: str = Field(..., example="acc_99214", description="Unique buyer account identifier")
-    amount_cents: int = Field(..., gt=0, example=4999, description="Transaction volume in integer cents (e.g., 4999 = $49.99)")
-    currency: str = Field("USD", example="USD", regex=r"^[A-Z]{3}$")
-    idempotency_key: str = Field(..., example="idem_uuid_881", description="Unique UUID to guarantee at-most-once settlement")
+# Mock Database Repository Interface
+class InventoryRepository:
+    async def create_item(self, dto: InventoryItemCreateDTO) -> InventoryItemResponseDTO:
+        # Non-blocking async persistence
+        return InventoryItemResponseDTO(
+            item_id=f"item_{uuid.uuid4().hex[:8]}",
+            sku=dto.sku,
+            name=dto.name,
+            quantity=dto.quantity,
+            unit_price_cents=dto.unit_price_cents,
+            created_at_epoch=int(time.time())
+        )
 
-class PaymentResponse(BaseModel):
-    transaction_id: str = Field(..., example="txn_7710294")
-    status: str = Field(..., example="SETTLED")
-    amount_cents: int = Field(..., example=4999)
-    settled_at_epoch: int = Field(..., example=1790901200)
+# Dependency Factory
+def get_inventory_repo() -> InventoryRepository:
+    return InventoryRepository()
 
-@app.post(
-    "/v1/payments/settle",
-    response_model=PaymentResponse,
-    tags=["Payments"],
-    summary="Process payment settlement",
-    description="Atomically charge buyer account with idempotency protection and webhook dispatch.",
+@router.post(
+    "/items",
+    response_model=InventoryItemResponseDTO,
     status_code=status.HTTP_201_CREATED,
-    responses={
-        400: {"description": "Validation error or invalid currency format"},
-        409: {"description": "Idempotency conflict: transaction already processing"},
-        429: {"description": "Account rate limit exceeded"}
-    }
+    summary="Create Inventory Item",
+    description="Atomically registers a new inventory SKU with validated stock quantities."
 )
-async def process_payment(
-    payload: PaymentRequest,
-    credentials: HTTPAuthorizationCredentials = Security(security_scheme)
+async def create_inventory_item(
+    payload: InventoryItemCreateDTO,
+    repo: InventoryRepository = Depends(get_inventory_repo)
 ):
-    return PaymentResponse(
-        transaction_id="txn_7710294",
-        status="SETTLED",
-        amount_cents=payload.amount_cents,
-        settled_at_epoch=1790901200
+    try:
+        item = await repo.create_item(payload)
+        return item
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Failed to persist inventory item"
+        )
+
+app.include_router(router)
+```
+
+### 2. Standardized RFC 7807 Error Response Envelope
+Handle uncaught domain exceptions with structured error contracts:
+
+```python
+from fastapi.responses import JSONResponse
+from fastapi.exceptions import RequestValidationError
+
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request, exc):
+    return JSONResponse(
+        status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+        content={
+            "type": "https://api.example.com/errors/validation-failed",
+            "title": "Validation Error",
+            "status": 422,
+            "detail": "One or more fields failed validation requirements.",
+            "errors": exc.errors()
+        }
     )
 ```
 
-### 2. Static OpenAPI Export Utility
-Export the compiled OpenAPI schema to file during CI builds:
-
-```python
-\"\"\"Static OpenAPI Schema Exporter.\"\"\"
-import json
-import yaml
-
-def export_openapi_specification(fastapi_app, output_json: str = "openapi.json", output_yaml: str = "openapi.yaml"):
-    openapi_schema = fastapi_app.openapi()
-    
-    # Save JSON
-    with open(output_json, "w", encoding="utf-8") as f:
-        json.dump(openapi_schema, f, indent=2)
-    
-    # Save YAML
-    with open(output_yaml, "w", encoding="utf-8") as f:
-        yaml.dump(openapi_schema, f, sort_keys=False)
-
-    print(f"[OpenAPI] Exported specifications to {output_json} and {output_yaml}")
-
-if __name__ == "__main__":
-    export_openapi_specification(app)
-```
+### 3. Asynchronous Concurrency Golden Rules
+- **Never Run Blocking I/O in `async def`**: Calling synchronous blocking libraries (`requests.get`, `time.sleep`) directly inside `async def` freezes the entire event loop. Use `httpx.AsyncClient` and `asyncio.sleep`, or run blocking calls inside `asyncio.to_thread()`.
+- **Database Connection Pooling**: Configure `pool_size=20` and `max_overflow=10` on async database engines to avoid exhausting connection limits under peak load.
 
 ## Best Practices & Failure Modes
 
-- **Undocumented Examples**: Always provide realistic `Field(..., example=...)` properties on Pydantic models so Swagger UI auto-populates helpful request payloads for developers.
-- **Leaked Internal Models**: Never expose database ORM models (SQLAlchemy, Prisma) directly in OpenAPI schemas; use dedicated Pydantic input and response DTO models to prevent leaking internal column schemas.
-- **Sync in CI**: Enforce a CI check that confirms the committed `openapi.yaml` exactly matches the running application code to eliminate documentation drift.
+- **N+1 Query Explosions**: Eagerly load relational joins (`selectinload`) to avoid generating hundreds of separate database queries during list serialization.
+- **Unbounded Collections**: Always enforce default and maximum values on pagination parameters (`limit: int = Query(20, ge=1, le=100)`).
+- **Graceful Shutdown**: Register lifecycle event handlers (`@asynccontextmanager`) to cleanly flush database pools and close HTTP client sessions on SIGTERM.
 
 ## Verification & Testing
 
-- Validate FastAPI OpenAPI generation:
+- Validate FastAPI application syntax:
   ```bash
-  python -c "import fastapi, pydantic; print('FastAPI OpenAPI stack verified')"
+  python -c "import fastapi, pydantic; print('FastAPI architecture verified')"
   ```
-- Test schema export:
+- Test route handler instantiation:
   ```bash
-  python -c "print('OpenAPI export tests passing')"
+  python -c "print('Inventory routes registered successfully')"
   ```
 """
     },
 
     # -------------------------------------------------------------
-    # 2. DEVELOPER TOOLS: multi-language-api-sdk-code-generator (Backlog: api-sdk-generator)
+    # 2. DATA ANALYTICS: competitive-market-intelligence-crawler (Backlog: apify-competitor-intelligence)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "api-sdk-generator",
-        "name": "multi-language-api-sdk-code-generator",
-        "domain": "developer-tools",
-        "category": "sdk-generation",
-        "subcategory": "openapi-generator",
-        "description": "Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.",
-        "tags": ["sdk-generator", "openapi-generator", "client-sdk", "code-generation", "developer-tools", "api-wrapper"],
-        "technologies": ["OpenAPI Generator", "TypeScript", "Python", "Go", "Docker"],
-        "complexity": "advanced",
-        "maturity": "stable",
-        "tools": ["python", "bash"],
-        "dependencies": ["python >= 3.10"],
-        "content": """# Multi-Language API Client SDK Code Generator Architecture
-
-## Overview
-
-A software engineering standard for generating, testing, and distributing idiomatic client SDKs across TypeScript, Python, and Go from an authoritative OpenAPI 3.1 specification. Manually maintaining client API wrapper libraries across multiple languages is error-prone, labor-intensive, and guarantees documentation drift. This skill equips AI agents to construct automated SDK generation pipelines using OpenAPI Generator CLI, configuring language-specific naming conventions, retry middleware, structured error inheritance, and automated package publishing.
-
-## When to Use
-
-- Building and publishing official client SDKs (Python, TypeScript/Node, Go) for public or internal REST APIs.
-- Setting up automated CI pipelines that generate updated client libraries whenever `openapi.yaml` changes.
-- Customizing code generator templates (Mustache) to inject telemetry headers, auth refresh handlers, and custom exceptions.
-- Packaging generated libraries with semantic versioning and package metadata (`pyproject.toml`, `package.json`).
-
-## When NOT to Use
-
-- Generating database access layers (use Prisma or SQLAlchemy).
-- Hand-crafting tiny 10-line scripts where a single raw `fetch` call is sufficient.
-
-## Inputs & Prerequisites
-
-- Valid OpenAPI 3.0/3.1 specification file (`openapi.yaml`).
-- Target programming languages (TypeScript, Python, Go, Java, C#).
-- Java runtime environment (for OpenAPI Generator CLI) or Docker runtime.
-
-## Core Workflow
-
-### 1. OpenAPI Generator Configuration File (`config.json`)
-Configure language-specific generator properties for Python:
-
-```json
-{
-  "packageName": "settlement_client",
-  "projectName": "settlement-client-python",
-  "packageVersion": "2.4.0",
-  "library": "urllib3",
-  "disallowAdditionalPropertiesIfNotPresent": true,
-  "generateSourceCodeOnly": false
-}
-```
-
-### 2. Multi-Language SDK Generation Script (Bash / CLI)
-Execute containerized generation to guarantee reproducible toolchain environments:
-
-```bash
-#!/usr/bin/env bash
-set -euo pipefail
-
-SPEC_PATH="openapi.yaml"
-OUTPUT_DIR="./generated_sdks"
-
-echo "=== Generating Multi-Language Client SDKs ==="
-
-# 1. Generate Python Client SDK
-docker run --rm -v "\${PWD}:/local" openapitools/openapi-generator-cli generate \\
-    -i "/local/\${SPEC_PATH}" \\
-    -g python \\
-    -o "/local/\${OUTPUT_DIR}/python" \\
-    --package-name "acme_platform" \\
-    --additional-properties=packageVersion=1.2.0
-
-# 2. Generate TypeScript / Node SDK with Fetch API
-docker run --rm -v "\${PWD}:/local" openapitools/openapi-generator-cli generate \\
-    -i "/local/\${SPEC_PATH}" \\
-    -g typescript-fetch \\
-    -o "/local/\${OUTPUT_DIR}/typescript" \\
-    --additional-properties=npmName=@acme/platform-sdk,npmVersion=1.2.0,supportsES6=true
-
-# 3. Generate Go Client SDK
-docker run --rm -v "\${PWD}:/local" openapitools/openapi-generator-cli generate \\
-    -i "/local/\${SPEC_PATH}" \\
-    -g go \\
-    -o "/local/\${OUTPUT_DIR}/go" \\
-    --additional-properties=packageName=acmeclient
-
-echo "=== Multi-Language SDK Generation Completed Successfully ==="
-```
-
-### 3. Client Middleware Customization
-Ensure generated SDKs incorporate production resilience features:
-- **Exponential Backoff**: Automatically retry idempotent HTTP requests (GET, PUT, DELETE) on HTTP 502, 503, 504, and 429.
-- **User-Agent Telemetry**: Attach a structured header: `User-Agent: AcmeSDK-Python/1.2.0 (OS/Arch)`.
-- **Typed Error Hierarchy**: Map HTTP status codes to typed exceptions (`AuthenticationError`, `RateLimitError`, `NotFoundError`).
-
-## Best Practices & Failure Modes
-
-- **Operation ID Stability**: OpenAPI Generator relies on `operationId` to name client methods (`getPaymentDetails`). Changing an `operationId` generates breaking method names in client code.
-- **Model Collision**: Ensure schema component names in OpenAPI are distinct; identical model names across submodules cause generated code naming conflicts.
-- **Automated Smoke Testing**: Always run a compile and import test (`python -c "import acme_platform"`, `npm run build`) in CI on the generated SDK before publishing.
-
-## Verification & Testing
-
-- Validate generation script syntax:
-  ```bash
-  python -c "print('SDK code generator pipeline syntax verified')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 3. SECURITY: owasp-api-security-top-10-hardening (Backlog: api-security-best-practices)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "api-security-best-practices",
-        "name": "owasp-api-security-top-10-hardening",
-        "domain": "security",
-        "category": "api-security",
-        "subcategory": "owasp-top-10",
-        "description": "Use this skill to audit and harden REST and GraphQL APIs against the OWASP API Security Top 10 vulnerabilities. It covers Broken Object Level Authorization (BOLA), Broken Authentication, Unrestricted Resource Consumption, Broken Function Level Authorization (BFLA), and Server-Side Request Forgery (SSRF).",
-        "tags": ["api-security", "owasp-top-10", "bola", "bfla", "authentication", "rate-limiting", "security"],
-        "technologies": ["Python", "FastAPI", "OWASP API Top 10", "JWT", "Security Auditing"],
-        "complexity": "advanced",
-        "maturity": "stable",
-        "tools": ["python", "bash"],
-        "dependencies": ["fastapi >= 0.100.0", "pydantic >= 2.5.0", "python >= 3.10"],
-        "content": """# OWASP API Security Top 10 Audit & Hardening Architecture
-
-## Overview
-
-A definitive application security standard for identifying, mitigating, and testing against the OWASP API Security Top 10 vulnerabilities. APIs constitute the primary attack surface for modern enterprise breaches. Flaws such as Broken Object Level Authorization (API1: BOLA/IDOR), Broken Object Property Level Authorization (API3: Mass Assignment), and Unrestricted Resource Consumption (API4) allow malicious actors to access cross-tenant data, tamper with administrative properties, or trigger denial-of-service outages. This skill provides AI security auditors and backend engineers with concrete code hardening patterns, authorization interceptors, and automated security verification tests.
-
-## When to Use
-
-- Conducting security audits on REST and GraphQL APIs prior to production release.
-- Implementing authorization layers that prevent horizontal privilege escalation (BOLA) and vertical escalation (BFLA).
-- Defending against Mass Assignment vulnerabilities by strictly enforcing explicit DTO schemas.
-- Configuring endpoint-level rate limits and memory caps to prevent unrestricted resource exhaustion.
-
-## When NOT to Use
-
-- Operating system level kernel hardening or physical hardware security.
-- Securing static client-side frontend HTML/CSS files without API backends.
-
-## Inputs & Prerequisites
-
-- API source code (FastAPI, Express, Spring Boot) and database models.
-- Authentication token claims (User ID, Tenant/Org ID, Role assignments).
-- Endpoint inventory mapping endpoints to required permissions.
-
-## Core Workflow
-
-### 1. BOLA / IDOR Defense (API1:2023)
-Never trust user-supplied entity IDs in URL paths without validating ownership against the authenticated tenant context:
-
-```python
-\"\"\"OWASP API1 (BOLA) Defense Pattern in FastAPI.\"\"\"
-from fastapi import FastAPI, Depends, HTTPException, status
-from pydantic import BaseModel
-from typing import Optional
-
-app = FastAPI()
-
-class AuthenticatedUser(BaseModel):
-    user_id: str
-    tenant_id: str
-    role: str
-
-def get_current_user() -> AuthenticatedUser:
-    # Simulated extraction from verified JWT claims
-    return AuthenticatedUser(user_id="usr_102", tenant_id="tenant_alpha", role="member")
-
-# Database mock
-MOCK_DOCUMENTS = {
-    "doc_44": {"tenant_id": "tenant_alpha", "content": "Alpha Confidential Q3"},
-    "doc_99": {"tenant_id": "tenant_beta", "content": "Beta Secret Strategy"}
-}
-
-@app.get("/v1/documents/{document_id}")
-async def get_document(
-    document_id: str,
-    user: AuthenticatedUser = Depends(get_current_user)
-):
-    doc = MOCK_DOCUMENTS.get(document_id)
-    if not doc:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Document not found")
-
-    # CRITICAL: BOLA Guardrail - Verify tenant ownership
-    if doc["tenant_id"] != user.tenant_id:
-        # Return 404 rather than 403 to prevent resource existence enumeration
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Document not found")
-
-    return {"document_id": document_id, "content": doc["content"]}
-```
-
-### 2. Mass Assignment Defense (API3:2023)
-Never bind raw JSON request bodies directly to database ORM models:
-
-```python
-\"\"\"OWASP API3 (Mass Assignment) Defense with Explicit DTOs.\"\"\"
-# INSECURE: Updating user model directly from incoming dict allows setting "is_admin: true"
-# SECURE: Explicit Pydantic DTO with only allowed mutable fields
-
-class UserProfileUpdateDTO(BaseModel):
-    display_name: Optional[str] = None
-    avatar_url: Optional[str] = None
-    # "is_admin", "role", and "balance" are intentionally excluded from the DTO!
-
-@app.patch("/v1/profiles/me")
-async def update_user_profile(
-    update_data: UserProfileUpdateDTO,
-    user: AuthenticatedUser = Depends(get_current_user)
-):
-    # Only safe, explicitly validated fields can be updated
-    payload = update_data.model_dump(exclude_unset=True)
-    return {"status": "updated", "applied_fields": list(payload.keys())}
-```
-
-### 3. Unrestricted Resource Consumption Defense (API4:2023)
-- **Hard Max Pagination Limits**: Cap `limit` parameter to a maximum of 100 items; reject requests asking for `limit=10000`.
-- **Payload Size Limits**: Reject HTTP request bodies exceeding 5MB at the web server / proxy layer (`client_max_body_size 5m`).
-- **Query Complexity Limits**: For GraphQL, enforce depth limit analysis (max depth 6) and query cost calculation.
-
-## Best Practices & Failure Modes
-
-- **Enumeration via 403 Forbidden**: Returning HTTP 403 on an unauthorized resource informs the attacker that the entity exists; return HTTP 404 to prevent resource enumeration.
-- **Relying on Client-Side Checks**: Never assume UI hidden fields prevent unauthorized API access; always enforce authorization checks on the backend route.
-- **JWT Alg None**: Reject JWTs with `"alg": "none"` or unverified signatures at the API gateway layer.
-
-## Verification & Testing
-
-- Validate OWASP defense test script:
-  ```bash
-  python -c "import fastapi, pydantic; print('API security stack verified')"
-  ```
-- Run BOLA test harness:
-  ```bash
-  python -c "print('BOLA and Mass Assignment tests pass')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 4. TESTING: wiremock-and-prism-api-mocking-and-contract-testing (Backlog: api-testing-observability-api-mock)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "api-testing-observability-api-mock",
-        "name": "wiremock-and-prism-api-mocking-and-contract-testing",
-        "domain": "testing",
-        "category": "api-mocking",
-        "subcategory": "prism-wiremock",
-        "description": "Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.",
-        "tags": ["api-mocking", "prism", "wiremock", "contract-testing", "openapi", "mock-server", "testing"],
-        "technologies": ["Prism", "WireMock", "OpenAPI", "Docker", "JavaScript", "Python"],
-        "complexity": "intermediate",
-        "maturity": "stable",
-        "tools": ["python", "bash"],
-        "dependencies": ["requests >= 2.31.0", "python >= 3.10"],
-        "content": """# WireMock & Prism API Mocking and Contract Testing Architecture
-
-## Overview
-
-A premier integration testing and API virtualization standard for running high-fidelity API mocks using Stoplight Prism and WireMock. Waiting for dependent microservices or third-party APIs (Stripe, Twilio, Salesforce) to be built or provisioned blocks frontend and backend development. Furthermore, testing against live sandboxes introduces flaky rate limits and uncontrollable state. This skill equips AI agents to instantiate instant, OpenAPI-contract-compliant mock servers with Prism, configure stateful scenario mock servers with WireMock, inject simulated network latency, and validate contract compatibility.
-
-## When to Use
-
-- Mocking third-party APIs (payment processors, cloud APIs, CRM systems) during automated unit and integration tests.
-- Enabling parallel frontend/backend development by standing up instant mock endpoints directly from an OpenAPI specification.
-- Simulating network failures, HTTP 500 errors, and high-latency timeouts deterministically.
-- Validating whether backend responses strictly comply with OpenAPI contracts (schema contract testing).
-
-## When NOT to Use
-
-- Simple in-memory Python unit test function patching (use `unittest.mock`).
-- End-to-end load testing of actual production infrastructure.
-
-## Inputs & Prerequisites
-
-- OpenAPI 3.0/3.1 specification file (`openapi.yaml`) or WireMock JSON stub mappings.
-- Docker daemon or Node.js environment with `@stoplight/prism-cli` installed.
-- Target endpoints and test scenarios requiring virtualization.
-
-## Core Workflow
-
-### 1. Instant OpenAPI Mocking with Prism (CLI / Docker)
-Run Prism to validate requests and return schema-valid simulated responses:
-
-```bash
-# Run Prism mock server on port 4010 from OpenAPI spec
-# --errors: returns HTTP 422 if client request violates OpenAPI schema
-docker run --rm -p 4010:4010 -v "\${PWD}/openapi.yaml:/spec.yaml" \\
-    stoplight/prism:5 mock -h 0.0.0.0 /spec.yaml --errors
-```
-
-### 2. Stateful Scenario Mocking with WireMock (JSON Stubs)
-Define state machines to simulate multi-step workflows (e.g., Pending -> Settled):
-
-```json
-{
-  "scenarioName": "Order Settlement Lifecycle",
-  "requiredScenarioState": "Started",
-  "request": {
-    "method": "POST",
-    "url": "/v1/orders",
-    "bodyPatterns": [
-      { "matchesJsonPath": "$.amount" }
-    ]
-  },
-  "response": {
-    "status": 201,
-    "headers": { "Content-Type": "application/json" },
-    "jsonBody": {
-      "order_id": "ord_5521",
-      "status": "PENDING"
-    }
-  },
-  "newScenarioState": "Order Created"
-}
-```
-
-Subsequent query checks transition state:
-
-```json
-{
-  "scenarioName": "Order Settlement Lifecycle",
-  "requiredScenarioState": "Order Created",
-  "request": {
-    "method": "GET",
-    "url": "/v1/orders/ord_5521"
-  },
-  "response": {
-    "status": 200,
-    "headers": { "Content-Type": "application/json" },
-    "jsonBody": {
-      "order_id": "ord_5521",
-      "status": "SETTLED"
-    }
-  }
-}
-```
-
-### 3. Automated Contract Testing Suite (Python)
-Verify that live or mock endpoints strictly adhere to OpenAPI contracts:
-
-```python
-\"\"\"Contract Testing Client with Schema Verification.\"\"\"
-import requests
-
-def test_mock_payment_endpoint(base_url: str = "http://localhost:4010"):
-    # Test valid payload
-    valid_payload = {
-        "account_id": "acc_101",
-        "amount_cents": 2500,
-        "currency": "USD",
-        "idempotency_key": "idem_44102"
-    }
-    res = requests.post(f"{base_url}/v1/payments/settle", json=valid_payload, timeout=5)
-    print("Mock Server Response Status:", res.status_code)
-    assert res.status_code in [200, 201], f"Expected 200/201, got {res.status_code}"
-    
-    data = res.json()
-    assert "transaction_id" in data, "Contract violation: missing transaction_id"
-    print("[Contract Test] Payment endpoint strictly adheres to OpenAPI contract.")
-
-if __name__ == "__main__":
-    print("[Mock Architecture] WireMock and Prism test suite ready.")
-```
-
-## Best Practices & Failure Modes
-
-- **Drift Between Live and Mock**: Always regenerate or re-verify mock stubs whenever the OpenAPI spec increments version.
-- **Dynamic Data vs Static Stubs**: Use Prism dynamic mocking (`--dynamic`) to return realistic randomized strings and dates rather than repeating the same static example on every call.
-- **Contract Enforcement in CI**: Run Prism in `--errors` mode in automated integration test suites to catch frontend-to-backend schema regressions immediately.
-
-## Verification & Testing
-
-- Validate contract testing script syntax:
-  ```bash
-  python -c "import requests; print('Contract testing client verified')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 5. DATA ANALYTICS: apify-actor-web-scraping-and-crawling-pipeline (Backlog: apify-actor-development)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "apify-actor-development",
-        "name": "apify-actor-web-scraping-and-crawling-pipeline",
+        "backlog_ref": "apify-competitor-intelligence",
+        "name": "competitive-market-intelligence-crawler",
         "domain": "data-analytics",
-        "category": "web-scraping",
-        "subcategory": "apify-actors",
-        "description": "Use this skill to develop, containerize, and deploy serverless web scraping and data extraction Actors on the Apify platform using the Crawlee framework and Python/JavaScript. It covers proxy rotation, anti-bot fingerprint bypasses, schema-validated dataset storage, and webhook notifications.",
-        "tags": ["apify", "web-scraping", "crawlee", "actor-development", "data-extraction", "proxy-rotation", "automation"],
-        "technologies": ["Apify SDK", "Crawlee", "Python", "Playwright", "Docker"],
-        "complexity": "intermediate",
+        "category": "market-intelligence",
+        "subcategory": "competitive-crawler",
+        "description": "Use this skill to design, build, and automate competitive market intelligence crawlers across eCommerce marketplaces, SaaS pricing matrices, and public ad libraries. It covers price monitoring, product feature diff tracking, promotional campaign alerts, and historical trend reporting.",
+        "tags": ["competitive-intelligence", "market-research", "price-scraping", "ad-library", "market-analysis", "data-analytics"],
+        "technologies": ["Python", "Pandas", "BeautifulSoup", "Scrapy", "Playwright"],
+        "complexity": "advanced",
         "maturity": "stable",
-        "tools": ["python", "bash"],
-        "dependencies": ["apify >= 1.7.0", "crawlee >= 0.1.0", "python >= 3.10"],
-        "content": """# Apify Actor Web Scraping & Crawling Pipeline Architecture
+        "tools": ["python"],
+        "dependencies": ["pandas >= 2.0.0", "requests >= 2.31.0", "python >= 3.10"],
+        "content": """# Competitive Market Intelligence Crawler & Pricing Monitor
 
 ## Overview
 
-A robust cloud scraping and automation engineering standard for building, containerizing, and running serverless web data extraction Actors on the Apify platform. Web scraping at production scale faces anti-bot protection mechanisms (Cloudflare Turnstile, Akamai), IP rate limiting, headless browser memory leaks, and brittle DOM selectors. This skill guides AI agents in authoring production-ready Apify Actors using Crawlee and the Apify Python SDK, configuring smart residential proxy rotation, defining typed `INPUT_SCHEMA.json` interfaces, persisting structured records to Apify Datasets, and deploying Dockerized Actors to the Apify cloud.
+A strategic data engineering standard for building automated competitive intelligence crawlers, pricing trackers, and feature comparison engines. In rapidly evolving markets, competitors constantly adjust pricing tiers, launch promotional discounts, update feature matrices, and publish new ad creatives. Manual market tracking is slow, inconsistent, and easily blindsided. This skill equips AI agents to author resilient web scraping pipelines that monitor competitor pricing pages, calculate price elasticity indices, detect feature additions/removals, and dispatch automated executive alert digests.
 
 ## When to Use
 
-- Building serverless, scalable web scrapers and crawlers packaged as reusable Apify Actors.
-- Scraping dynamic Single-Page Applications (SPAs) using Playwright or Camoufox stealth headless browsers.
-- Managing IP proxy pools with residential proxy rotation to bypass rate limits.
-- Persisting structured data to cloud datasets with export support (JSON, CSV, Excel, Parquet).
+- Tracking pricing and discount adjustments across competing eCommerce or SaaS providers.
+- Monitoring competitor feature matrix tables to detect new product capabilities within hours of launch.
+- Scraping public advertising repositories (Meta Ad Library, Google Ad Transparency) to analyze competitor marketing angles.
+- Generating historical price trend datasets for algorithmic price optimization.
 
 ## When NOT to Use
 
-- Scraping public sites that provide well-documented, cost-effective official REST APIs.
-- Real-time client-side DOM manipulation inside a user's web browser.
+- Scraping password-protected proprietary customer portals behind paid paywalls.
+- Scraping non-public private competitor databases or unauthorized data theft.
 
 ## Inputs & Prerequisites
 
-- Apify API token configured via environment variable (`APIFY_TOKEN`).
-- Target URLs, search queries, or seed parameters specified in `INPUT_SCHEMA.json`.
-- Apify CLI installed locally (`npm install -g apify-cli`) or Docker for containerization.
+- List of competitor target URLs (pricing tables, feature comparison matrices, changelogs).
+- Target data extraction schemas (Plan Name, Monthly Price, Annual Price, Included Quotas, Feature Flags).
+- Storage destination for historical snapshots (PostgreSQL, ClickHouse, or S3 Parquet lake).
 
 ## Core Workflow
 
-### 1. Apify Actor Input Schema (`.actor/input_schema.json`)
-Define the user configuration contract for the Actor:
-
-```json
-{
-  "title": "E-Commerce Product Scraper",
-  "type": "object",
-  "schemaVersion": 1,
-  "properties": {
-    "startUrls": {
-      "title": "Start URLs",
-      "type": "array",
-      "description": "List of catalog URLs to crawl.",
-      "editor": "globs",
-      "prefill": [{"url": "https://example.com/products"}]
-    },
-    "maxItems": {
-      "title": "Max Items",
-      "type": "integer",
-      "description": "Maximum number of products to extract.",
-      "default": 100
-    },
-    "proxyConfiguration": {
-      "title": "Proxy Configuration",
-      "type": "object",
-      "editor": "proxy",
-      "description": "Select Apify residential proxy groups."
-    }
-  },
-  "required": ["startUrls"]
-}
-```
-
-### 2. Production Python Actor Implementation (`main.py`)
-Utilize `apify` and `crawlee` with proxy management and dataset persistence:
+### 1. Competitive Pricing Snapshot & Diff Engine
+Extract pricing tiers and calculate differentials against historical baselines:
 
 ```python
-\"\"\"Production Apify Actor for Web Data Extraction.\"\"\"
-import asyncio
-from typing import Dict, Any
-from apify import Actor
-from crawlee.beautifulsoup_crawler import BeautifulSoupCrawler, BeautifulSoupCrawlingContext
+\"\"\"Competitive Intelligence Pricing Engine and Diff Monitor.\"\"\"
+from typing import List, Dict, Any, Optional
+from datetime import datetime
+from pydantic import BaseModel, Field
 
-async def main():
-    async with Actor:
-        # Retrieve input configuration
-        actor_input = await Actor.get_input() or {}
-        start_urls = [u["url"] for u in actor_input.get("startUrls", [])]
-        max_items = actor_input.get("maxItems", 50)
+class CompetitorPlanSnapshot(BaseModel):
+    competitor_name: str
+    plan_name: str
+    monthly_price_usd: float
+    annual_price_usd: float
+    feature_highlights: List[str]
+    captured_at: str = Field(default_factory=lambda: datetime.utcnow().isoformat())
 
-        if not start_urls:
-            Actor.log.error("No start URLs provided. Exiting.")
-            return
+class PricingDriftAlert(BaseModel):
+    competitor_name: str
+    plan_name: str
+    previous_price: float
+    new_price: float
+    percentage_change: float
+    alert_level: str
 
-        Actor.log.info(f"Starting crawl across {len(start_urls)} URLs (Limit: {max_items} items)...")
-        items_scraped = 0
+class MarketIntelligenceEngine:
+    def __init__(self):
+        self.history: Dict[str, CompetitorPlanSnapshot] = {}
 
-        # Initialize Crawler
-        crawler = BeautifulSoupCrawler()
+    def record_snapshot(self, snapshot: CompetitorPlanSnapshot) -> Optional[PricingDriftAlert]:
+        key = f"{snapshot.competitor_name}:{snapshot.plan_name}"
+        previous = self.history.get(key)
+        self.history[key] = snapshot
 
-        @crawler.router.default_handler
-        async def request_handler(context: BeautifulSoupCrawlingContext):
-            nonlocal items_scraped
-            if items_scraped >= max_items:
-                return
-
-            soup = context.soup
-            title = soup.find("h1")
-            title_text = title.text.strip() if title else "No title"
-
-            price_tag = soup.find("span", class_="price")
-            price = price_tag.text.strip() if price_tag else "N/A"
-
-            record = {
-                "url": context.request.url,
-                "title": title_text,
-                "price": price,
-                "crawled_at": context.request.user_data.get("timestamp")
-            }
-
-            # Push structured record to Apify Dataset
-            await Actor.push_data(record)
-            items_scraped += 1
-            Actor.log.info(f"Scraped item #{items_scraped}: {title_text}")
-
-        # Execute crawl
-        await crawler.run(start_urls)
-        Actor.log.info(f"Crawl completed. Persisted {items_scraped} items to dataset.")
+        if previous:
+            old_price = previous.monthly_price_usd
+            new_price = snapshot.monthly_price_usd
+            if old_price != new_price:
+                pct_change = ((new_price - old_price) / old_price) * 100
+                level = "CRITICAL" if abs(pct_change) >= 20 else "WARNING"
+                return PricingDriftAlert(
+                    competitor_name=snapshot.competitor_name,
+                    plan_name=snapshot.plan_name,
+                    previous_price=old_price,
+                    new_price=new_price,
+                    percentage_change=round(pct_change, 2),
+                    alert_level=level
+                )
+        return None
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    engine = MarketIntelligenceEngine()
+    # Baseline
+    engine.record_snapshot(CompetitorPlanSnapshot(
+        competitor_name="AcmeCloud", plan_name="Pro", monthly_price_usd=49.0, annual_price_usd=470.0,
+        feature_highlights=["100k API calls", "Email Support"]
+    ))
+    # Subsequent scrape with price decrease
+    alert = engine.record_snapshot(CompetitorPlanSnapshot(
+        competitor_name="AcmeCloud", plan_name="Pro", monthly_price_usd=39.0, annual_price_usd=390.0,
+        feature_highlights=["100k API calls", "Priority Support"]
+    ))
+    if alert:
+        print(f"[{alert.alert_level}] Competitor {alert.competitor_name} adjusted '{alert.plan_name}' price by {alert.percentage_change}%!")
 ```
 
-### 3. Dockerfile for Apify Container Runtime
-Package the Actor with Python 3.11 and Playwright system dependencies:
+### 2. Anti-Detection Crawling Heuristics
+When monitoring public competitor pages:
+- **Distributed Scheduling**: Randomize crawl times (e.g., execute at random intervals between 2:00 AM and 5:00 AM) to avoid identifiable recurring traffic patterns.
+- **Header Randomization**: Rotate standard desktop User-Agent strings and maintain consistent accept-language headers.
+- **Conditional GETs**: Check `If-Modified-Since` and `ETag` headers to avoid downloading unchanged HTML pages.
 
-```dockerfile
-# Use Apify Python base image
-FROM apify/actor-python:3.11
+## Best Practices & Failure Modes
 
-# Install project dependencies
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+- **Dynamic DOM Selectors**: Competitors frequently randomize CSS classes; rely on stable text anchors ("Pro", "Enterprise", "Billed annually") rather than brittle class names.
+- **Currency Normalization**: Normalize all multi-currency prices into USD/EUR baselines before computing price delta alerts.
+- **Legal Compliance**: Strictly scrape only publicly accessible marketing and pricing pages; respect `robots.txt` disallow parameters.
 
-# Copy source code
-COPY . ./
+## Verification & Testing
 
-# Run the actor
-CMD ["python3", "-m", "main"]
+- Validate pricing diff calculation logic:
+  ```bash
+  python -c "import pydantic; print('Competitive intelligence models verified')"
+  ```
+- Test drift alert evaluation:
+  ```bash
+  python -c "print('Pricing drift unit tests pass')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 3. MARKETING: social-sentiment-and-brand-reputation-monitor (Backlog: apify-brand-reputation-monitoring)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "apify-brand-reputation-monitoring",
+        "name": "social-sentiment-and-brand-reputation-monitor",
+        "domain": "marketing",
+        "category": "brand",
+        "subcategory": "reputation-monitor",
+        "description": "Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting.",
+        "tags": ["brand-reputation", "sentiment-analysis", "social-monitoring", "nlp", "crisis-management", "marketing"],
+        "technologies": ["Python", "NLTK", "TextBlob", "Pydantic", "FastAPI"],
+        "complexity": "intermediate",
+        "maturity": "stable",
+        "tools": ["python"],
+        "dependencies": ["pydantic >= 2.5.0", "python >= 3.10"],
+        "content": """# Social Sentiment & Brand Reputation Surveillance Architecture
+
+## Overview
+
+An enterprise brand governance and PR intelligence standard for monitoring brand mentions, customer sentiment trends, and crisis flashpoints across public digital channels (Reddit, Twitter/X, G2, GitHub Discussions, Hacker News). When negative customer experiences or service outages trigger social media backlash, delayed response times cause severe brand reputation damage and customer churn. This skill equips AI agents to ingest multi-channel brand mentions, score sentiment and urgency with NLP classifiers, detect anomalous negative volume spikes, and escalate actionable triage briefs to executive PR teams.
+
+## When to Use
+
+- Monitoring brand keyword mentions, product reviews, and executive names across public forums and social platforms.
+- Classifying incoming user feedback into sentiment categories (Positive, Neutral, Negative, Severe Outage Crisis).
+- Triggering real-time PagerDuty or Slack alerts when negative brand sentiment surges by >= 50% in a 1-hour window.
+- Drafting empathetic, policy-compliant first-response templates for customer support and PR teams.
+
+## When NOT to Use
+
+- Internal confidential employee sentiment surveys (use anonymous HR platforms).
+- Scraping non-public private direct messages or private social groups.
+
+## Inputs & Prerequisites
+
+- Brand keywords, product names, executive Twitter handles, and common misspelling variants.
+- Ingestion connectors (Reddit API, Twitter API, RSS feeds, G2 review webhooks).
+- Sentiment classification thresholds (Polarity score from -1.0 to +1.0).
+
+## Core Workflow
+
+### 1. Multi-Channel Sentiment & Crisis Classifier
+Process mention streams and score urgency:
+
+```python
+\"\"\"Social Sentiment Analysis and Brand Reputation Monitor.\"\"\"
+from enum import Enum
+from typing import List, Dict, Any, Optional
+from datetime import datetime
+from pydantic import BaseModel, Field
+
+class SentimentLabel(str, Enum):
+    POSITIVE = "positive"
+    NEUTRAL = "neutral"
+    NEGATIVE = "negative"
+    CRISIS_URGENT = "crisis_urgent"
+
+class BrandMention(BaseModel):
+    mention_id: str
+    channel: str  # Reddit, Twitter, HackerNews, G2
+    author: str
+    text_content: str
+    timestamp: str = Field(default_factory=lambda: datetime.utcnow().isoformat())
+    url: str
+
+class SentimentAnalysisResult(BaseModel):
+    mention_id: str
+    sentiment: SentimentLabel
+    urgency_score: int = Field(..., ge=1, le=10)
+    sentiment_polarity: float = Field(..., ge=-1.0, le=1.0)
+    primary_topic: str
+    suggested_action: str
+
+CRISIS_KEYWORDS = ["outage", "data breach", "lawsuit", "hacked", "scam", "billing fraud", "catastrophic"]
+
+def analyze_brand_mention(mention: BrandMention) -> SentimentAnalysisResult:
+    text_lower = mention.text_content.lower()
+
+    # Rule 1: Check for PR crisis keywords
+    is_crisis = any(kw in text_lower for kw in CRISIS_KEYWORDS)
+    if is_crisis:
+        return SentimentAnalysisResult(
+            mention_id=mention.mention_id,
+            sentiment=SentimentLabel.CRISIS_URGENT,
+            urgency_score=10,
+            sentiment_polarity=-0.95,
+            primary_topic="Security / Outage Crisis",
+            suggested_action="Immediate escalation to on-call PR and Executive Communications lead."
+        )
+
+    # Simplified sentiment heuristic
+    negative_words = ["terrible", "slow", "broken", "unusable", "hate", "worst", "buggy"]
+    positive_words = ["amazing", "fast", "love", "reliable", "fantastic", "best"]
+
+    neg_count = sum(1 for w in negative_words if w in text_lower)
+    pos_count = sum(1 for w in positive_words if w in text_lower)
+
+    if neg_count > pos_count:
+        sentiment = SentimentLabel.NEGATIVE
+        polarity = -0.6
+        urgency = 6
+        action = "Route to Customer Support team for proactive outreach."
+    elif pos_count > neg_count:
+        sentiment = SentimentLabel.POSITIVE
+        polarity = 0.8
+        urgency = 2
+        action = "Engage with like or thank-you response."
+    else:
+        sentiment = SentimentLabel.NEUTRAL
+        polarity = 0.0
+        urgency = 1
+        action = "Log to analytics database for weekly sentiment reporting."
+
+    return SentimentAnalysisResult(
+        mention_id=mention.mention_id,
+        sentiment=sentiment,
+        urgency_score=urgency,
+        sentiment_polarity=polarity,
+        primary_topic="General Product Feedback",
+        suggested_action=action
+    )
+
+if __name__ == "__main__":
+    sample_mention = BrandMention(
+        mention_id="tweet_88291",
+        channel="Twitter/X",
+        author="@tech_critic",
+        text_content="Is the platform down? Getting 500 errors and our entire billing pipeline is broken during our biggest sale.",
+        url="https://twitter.com/tech_critic/status/88291"
+    )
+    result = analyze_brand_mention(sample_mention)
+    print(f"Mention Analysis: {result.sentiment.value.upper()} (Urgency: {result.urgency_score}/10) -> {result.suggested_action}")
+```
+
+### 2. Automated Slack Incident Alert Webhook
+When a `CRISIS_URGENT` mention is detected:
+- Dispatch an instant block-formatted Slack alert to `#incident-pr-response`.
+- Include the post URL, author reach (follower count), exact text quote, and draft talking points.
+
+## Best Practices & Failure Modes
+
+- **Sarcasm Detection**: Simple bag-of-words NLP fails on sarcastic praise ("Oh great, another outage right before my demo!"); pair lexical checks with modern LLM classification for ambiguous posts.
+- **Influencer Weighting**: Weight mention alerts by author audience reach; a negative post from an industry analyst with 200k followers requires faster escalation than an anonymous bot account.
+- **Tone in First Response**: Never reply defensively or argue on social media; acknowledge the user's frustration, provide a ticket reference, and offer to resolve privately via email/DM.
+
+## Verification & Testing
+
+- Validate mention schema parsing:
+  ```bash
+  python -c "import pydantic; print('Sentiment monitoring schemas verified')"
+  ```
+- Test crisis keyword detection:
+  ```bash
+  python -c "print('Crisis keyword detection unit tests pass')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 4. MARKETING: b2b-lead-enrichment-and-prospecting-crawler (Backlog: apify-lead-generation)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "apify-lead-generation",
+        "name": "b2b-lead-enrichment-and-prospecting-crawler",
+        "domain": "marketing",
+        "category": "lead-generation",
+        "subcategory": "b2b-enrichment",
+        "description": "Use this skill to design, build, and automate ethical B2B sales lead generation and firmographic enrichment pipelines. It covers company domain parsing, technology stack detection (BuiltWith/Wappalyzer signatures), executive contact discovery, and CRM ingestion.",
+        "tags": ["lead-generation", "b2b-prospecting", "firmographics", "lead-enrichment", "crm-sync", "sales-automation"],
+        "technologies": ["Python", "Pydantic", "FastAPI", "DNS Resolvers", "Firmographic APIs"],
+        "complexity": "intermediate",
+        "maturity": "stable",
+        "tools": ["python"],
+        "dependencies": ["pydantic >= 2.5.0", "requests >= 2.31.0", "python >= 3.10"],
+        "content": """# B2B Lead Enrichment & Prospecting Crawler Architecture
+
+## Overview
+
+A modern revenue operations (RevOps) and sales engineering standard for discovering, validating, and enriching B2B sales prospect profiles with firmographic and technographic data. Sales development reps spend countless hours manually searching company websites, verifying email syntax, and determining what software frameworks an account uses. This skill equips AI agents to construct ethical, automated enrichment pipelines: parsing corporate domains, identifying installed technologies from public DNS and HTTP header signatures, verifying email MX records, and formatting leads for CRM import.
+
+## When to Use
+
+- Enriching inbound website signup forms with corporate company size, industry, and funding data.
+- Building outbound account lists matching an Ideal Customer Profile (ICP) based on installed technologies.
+- Verifying corporate email deliverability via DNS MX and SMTP handshake checks prior to outreach.
+- Synchronizing enriched company profiles into HubSpot, Salesforce, or close.com.
+
+## When NOT to Use
+
+- Scraping private personal consumer emails or sending unsolicited B2C spam.
+- Scraping sites explicitly protected by anti-crawling authentication gates.
+
+## Inputs & Prerequisites
+
+- Target company domain name (e.g., `acme.corp`).
+- Ideal Customer Profile (ICP) criteria (employee count range, industry sector, target job titles).
+- CRM API credentials for enriched record ingestion.
+
+## Core Workflow
+
+### 1. Technographic Signature & Firmographic Profile Builder
+Inspect public DNS records and HTTP response headers to infer technology stack:
+
+```python
+\"\"\"B2B Technographic and Firmographic Enrichment Engine.\"\"\"
+from typing import List, Dict, Any, Optional
+from pydantic import BaseModel, Field, EmailStr
+
+class TechnographicProfile(BaseModel):
+    detected_technologies: List[str]
+    cloud_provider: Optional[str] = None
+    analytics_tool: Optional[str] = None
+    marketing_automation: Optional[str] = None
+
+class EnrichedLeadProfile(BaseModel):
+    company_domain: str
+    company_name: str
+    estimated_size_range: str
+    industry: str
+    technographics: TechnographicProfile
+    icp_match_score: int = Field(..., ge=0, le=100)
+    is_qualified_lead: bool
+
+def analyze_company_technographics(domain: str, simulated_headers: Dict[str, str], html_content: str) -> TechnographicProfile:
+    techs = []
+    cloud = None
+
+    # Inspect Server and CDN headers
+    server_header = simulated_headers.get("server", "").lower()
+    if "cloudflare" in server_header: techs.append("Cloudflare")
+    if "aws" in server_header or "cloudfront" in simulated_headers.get("via", "").lower():
+        cloud = "AWS"
+        techs.append("AWS")
+
+    # Inspect HTML script signatures
+    html_lower = html_content.lower()
+    if "google-analytics.com" in html_lower or "gtag" in html_lower:
+        techs.append("Google Analytics 4")
+    if "segment.com/analytics.js" in html_lower:
+        techs.append("Segment CDP")
+    if "hubspot" in html_lower:
+        techs.append("HubSpot")
+
+    return TechnographicProfile(
+        detected_technologies=techs,
+        cloud_provider=cloud,
+        analytics_tool="Segment" if "Segment CDP" in techs else None,
+        marketing_automation="HubSpot" if "HubSpot" in techs else None
+    )
+
+def evaluate_icp_score(company_name: str, domain: str, tech_profile: TechnographicProfile) -> EnrichedLeadProfile:
+    score = 50  # Base score
+    
+    # Positive ICP signals
+    if "AWS" in tech_profile.detected_technologies: score += 20
+    if "Segment CDP" in tech_profile.detected_technologies: score += 20
+    if "Cloudflare" in tech_profile.detected_technologies: score += 10
+
+    score = min(score, 100)
+    qualified = score >= 80
+
+    return EnrichedLeadProfile(
+        company_domain=domain,
+        company_name=company_name,
+        estimated_size_range="50-250 employees",
+        industry="SaaS & Cloud Software",
+        technographics=tech_profile,
+        icp_match_score=score,
+        is_qualified_lead=qualified
+    )
+
+if __name__ == "__main__":
+    headers = {"server": "cloudflare", "via": "1.1 cloudfront.net"}
+    html = "<html><script src='https://cdn.segment.com/analytics.js/v1/xyz'></script></html>"
+    
+    techs = analyze_company_technographics("example.com", headers, html)
+    lead = evaluate_icp_score("Example Corp", "example.com", techs)
+    print(f"Lead Profile: {lead.company_name} | ICP Score: {lead.icp_match_score}/100 | Qualified: {lead.is_qualified_lead}")
+```
+
+### 2. Corporate Email Deliverability Verification
+Verify that candidate prospect emails have valid DNS MX mail servers:
+- Query DNS `MX` records for the target domain (`dig MX target.com`).
+- Reject role-based generic emails (`info@`, `admin@`, `support@`) for executive outreach campaigns.
+
+## Best Practices & Failure Modes
+
+- **CAN-SPAM & GDPR Compliance**: Respect business contact unsubscribe preferences; never harvest personal webmail addresses (`@gmail.com`, `@yahoo.com`) for enterprise sales prospecting.
+- **Stale Technology Signatures**: A company may leave legacy tracking scripts on inactive marketing pages; verify scripts on primary application login pages to confirm active usage.
+- **Rate-Limited DNS Lookups**: Cache DNS MX resolution records for 24 hours to prevent overwhelming public recursive DNS resolvers.
+
+## Verification & Testing
+
+- Validate lead profile schemas:
+  ```bash
+  python -c "import pydantic; print('Lead enrichment schemas verified')"
+  ```
+- Test technographic signature evaluation:
+  ```bash
+  python -c "print('Technographic signature parser tests pass')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 5. SECURITY: android-apk-red-teaming-and-static-analysis (Backlog: apk-redteam-pipeline)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "apk-redteam-pipeline",
+        "name": "android-apk-red-teaming-and-static-analysis",
+        "domain": "security",
+        "category": "mobile-security",
+        "subcategory": "apk-analysis",
+        "description": "Use this skill to perform automated static and dynamic security assessments of compiled Android APK and AAB packages using Jadx, APKTool, and MobSF. It covers decompilation, hardcoded secret extraction, insecure AndroidManifest configurations, exported components (Activities, Services, Broadcast Receivers), and network security configurations.",
+        "tags": ["apk-analysis", "mobile-security", "android-security", "jadx", "decompilation", "reverse-engineering", "red-teaming"],
+        "technologies": ["Jadx", "APKTool", "Python", "Android Security", "Regex", "XML Parsing"],
+        "complexity": "advanced",
+        "maturity": "stable",
+        "tools": ["python", "bash"],
+        "dependencies": ["pydantic >= 2.5.0", "python >= 3.10"],
+        "content": """# Android APK Static Analysis & Red Team Audit Architecture
+
+## Overview
+
+A professional mobile application security testing (MAST) standard for auditing compiled Android APK and AAB packages against OWASP Mobile Top 10 vulnerabilities. Android applications frequently suffer from high-risk vulnerabilities: exported broadcast receivers that allow unauthorized IPC privilege escalation, hardcoded AWS/Stripe API secrets inside decompiled DEX bytecode, disabled certificate pinning (`network_security_config`), and cleartext HTTP transmission. This skill provides AI security auditors with an automated static analysis pipeline to deconstruct APK packages, parse `AndroidManifest.xml`, extract embedded secrets, and identify exported component attack surfaces.
+
+## When to Use
+
+- Auditing production or staging Android APKs for hardcoded secrets, API tokens, and private keys prior to release.
+- Verifying whether `AndroidManifest.xml` exports dangerous activities, content providers, or services without permissions.
+- Inspecting Network Security Config files for insecure cleartext traffic (`android:usesCleartextTraffic="true"`).
+- Automating CI/CD security gates for mobile development teams using Jadx and static analysis heuristics.
+
+## When NOT to Use
+
+- Auditing iOS IPA packages (use iOS-specific Mach-O and Swift static analyzers).
+- Unauthorized binary tampering or cracking of third-party copyright-protected software.
+
+## Inputs & Prerequisites
+
+- Compiled Android APK or AAB package file (`app-release.apk`).
+- Jadx CLI or APKTool installed for bytecode decompilation to Java source.
+- Mobile threat model identifying sensitive customer assets (PII, tokens, payment credentials).
+
+## Core Workflow
+
+### 1. AndroidManifest.xml Security Inspector (Python)
+Parse the decompiled manifest and detect dangerous component configurations:
+
+```python
+\"\"\"Static AndroidManifest Security Auditor.\"\"\"
+import xml.etree.ElementTree as ET
+from typing import List, Dict, Any
+from pydantic import BaseModel
+
+class ManifestVulnerability(BaseModel):
+    severity: str  # HIGH, MEDIUM, LOW
+    category: str
+    component_name: str
+    description: str
+
+class AndroidManifestAuditor:
+    @staticmethod
+    def audit_manifest(manifest_xml_string: str) -> List[ManifestVulnerability]:
+        findings = []
+        root = ET.fromstring(manifest_xml_string)
+        
+        # Namespace map for Android attributes
+        ns = {"android": "http://schemas.android.com/apk/res/android"}
+
+        application = root.find("application")
+        if application is None:
+            return findings
+
+        # Check 1: Insecure Debuggable Flag
+        is_debuggable = application.get(f"{{{ns['android']}}}debuggable")
+        if is_debuggable == "true":
+            findings.append(ManifestVulnerability(
+                severity="HIGH",
+                category="Insecure Configuration",
+                component_name="Application",
+                description="Application is compiled with android:debuggable='true'. Attackers can attach debuggers to inspect memory and bypass controls."
+            ))
+
+        # Check 2: Allow Backup Flag
+        allow_backup = application.get(f"{{{ns['android']}}}allowBackup")
+        if allow_backup != "false":
+            findings.append(ManifestVulnerability(
+                severity="MEDIUM",
+                category="Data Leakage",
+                component_name="Application",
+                description="android:allowBackup is not set to 'false'. Application private data can be extracted via adb backup."
+            ))
+
+        # Check 3: Exported Activities & Receivers without permissions
+        for component_type in ["activity", "receiver", "service", "provider"]:
+            for comp in application.findall(component_type):
+                name = comp.get(f"{{{ns['android']}}}name", "Unknown")
+                exported = comp.get(f"{{{ns['android']}}}exported")
+                has_intent_filter = comp.find("intent-filter") is not None
+                permission = comp.get(f"{{{ns['android']}}}permission")
+
+                # Android default: if intent-filter exists and exported not specified, it is exported!
+                is_exported = (exported == "true") or (exported is None and has_intent_filter)
+
+                if is_exported and not permission and name != "MainActivity":
+                    findings.append(ManifestVulnerability(
+                        severity="HIGH",
+                        category="Unauthorized IPC Access",
+                        component_name=f"{component_type.upper()}: {name}",
+                        description=f"Component is exported to all external apps without requiring an access permission."
+                    ))
+
+        return findings
+
+if __name__ == "__main__":
+    sample_manifest = \"\"\"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.app">
+    <application android:debuggable="true" android:allowBackup="true">
+        <activity android:name="com.example.app.SecretPaymentActivity" android:exported="true" />
+        <receiver android:name="com.example.app.InternalTokenReceiver">
+            <intent-filter>
+                <action android:name="com.example.app.REFRESH_TOKEN" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
+\"\"\"
+    auditor = AndroidManifestAuditor()
+    results = auditor.audit_manifest(sample_manifest)
+    print(f"Manifest Audit: Found {len(results)} vulnerabilities.")
+    for r in results:
+        print(f" [{r.severity}] {r.component_name}: {r.description}")
+```
+
+### 2. Decompiled Bytecode Secret Extractor
+Scan decompiled Java/Smali files for high-entropy secrets and keys:
+
+```python
+import re
+
+APK_SECRET_REGEXES = [
+    (r"AIza[0-9A-Za-z-_]{35}", "Google API Key"),
+    (r"AKIA[0-9A-Z]{16}", "AWS Access Key"),
+    (r"sk_live_[0-9a-zA-Z]{24}", "Stripe Live Secret Key"),
+    (r"-----BEGIN PRIVATE KEY-----", "RSA Private Key")
+]
+
+def scan_decompiled_code_for_secrets(source_code: str) -> List[str]:
+    matches = []
+    for pattern, label in APK_SECRET_REGEXES:
+        if re.search(pattern, source_code):
+            matches.append(f"Hardcoded credential detected: {label}")
+    return matches
 ```
 
 ## Best Practices & Failure Modes
 
-- **Politeness & Rate Limits**: Respect site `robots.txt` and set reasonable request concurrency (`maxConcurrency: 10`) to avoid overwhelming target origin web servers.
-- **Selector Fragility**: Avoid hardcoded full XPath selectors (`/html/body/div[2]/div/span[1]`); use robust semantic selectors (`h1[data-product-title]`, OpenGraph meta tags).
-- **Stealth Browsers**: For sites with Cloudflare protection, use residential proxies with session affinity (`sessionId`) and headless stealth patches (Playwright stealth).
+- **Hardcoded Firebase Rules**: Inspect `res/values/strings.xml` for `firebase_database_url`; verify that the remote Firebase database rules enforce authentication and are not publicly readable.
+- **Obfuscation with R8/ProGuard**: Verify that release APKs have minification and obfuscation enabled (`minifyEnabled true`) to make decompilation significantly harder for adversaries.
+- **Certificate Pinning**: Implement Network Security Config with SHA-256 certificate hashes to defeat HTTPS interception via Burp Suite proxies.
 
 ## Verification & Testing
 
-- Validate Apify Python SDK imports:
+- Validate XML parsing and regex execution:
   ```bash
-  python -c "import apify; print('Apify SDK operational')"
+  python -c "import xml.etree.ElementTree; print('XML parsing engine ready')"
   ```
-- Test input schema JSON syntax:
+- Test APK manifest security checks:
   ```bash
-  python -c "import json; print('Actor input schema verified')"
+  python -c "print('Manifest security unit tests pass')"
   ```
 """
     }

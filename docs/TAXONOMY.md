@@ -52,6 +52,8 @@ AI_Skills_Booster/
 │   ├── api-design/
 │   │   ├── api-analyzer/ (1 skills)
 │   │   └── rate-limiting/ (1 skills)
+│   ├── api-frameworks/
+│   │   └── fastapi-endpoints/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/

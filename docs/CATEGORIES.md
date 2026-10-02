@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **160** skills across structured domains, categories, and subcategories.
+Master navigation for **161** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -122,7 +122,7 @@ Category index: [`docs/categories/vector-databases.md`](categories/vector-databa
 - **Indexing** (1):
   - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
-## Backend (16 skills)
+## Backend (17 skills)
 
 ### Api Design (2 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -131,6 +131,12 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
   - [rest-and-graphql-api-spec-analyzer](../skills/backend/api-design/api-analyzer/rest-and-graphql-api-spec-analyzer/SKILL.md) — Use this skill to statically audit, lint, and validate REST, OpenAPI 3.1, and GraphQL schema specifications against architectural best practices. It checks for consistent HTTP verb usage, snake/camel case casing conventions, missing pagination contracts, unversioned breaking changes, and rate limiting headers.
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
+
+### Api Frameworks (1 skills)
+Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
+
+- **Fastapi Endpoints** (1):
+  - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)
