@@ -6143,6 +6143,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-identity-java",
+    "path": "skills/security/authentication/azure_identity_java/azure-identity-java",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "azure_identity_java",
+    "description": "Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).",
+    "tags": [
+      "security",
+      "authentication",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Identity Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
