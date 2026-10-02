@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,392** skills across structured domains, categories, and subcategories.
+Master navigation for **1,393** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (472 skills)
 
@@ -1545,7 +1545,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (33 skills)
+## Developer Tools (34 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1573,7 +1573,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **It_Manager_Hospital** (1):
   - [it-manager-hospital](../skills/developer-tools/cli-utilities/it_manager_hospital/it-manager-hospital/SKILL.md) — Use this skill to design, implement, and operate production workflows for it manager hospital. World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS/PEP ecosystems.
 
-### Productivity (22 skills)
+### Productivity (23 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1620,6 +1620,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [intercom-automation](../skills/developer-tools/productivity/intercom_automation/intercom-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for intercom automation. Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas.
 - **Jira_Automation** (1):
   - [jira-automation](../skills/developer-tools/productivity/jira_automation/jira-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for jira automation. Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas.
+- **Linear_Automation** (1):
+  - [linear-automation](../skills/developer-tools/productivity/linear_automation/linear-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for linear automation. Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

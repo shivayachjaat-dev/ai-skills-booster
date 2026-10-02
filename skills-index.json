@@ -14997,6 +14997,28 @@
     "maturity": "stable"
   },
   {
+    "name": "linear-automation",
+    "path": "skills/developer-tools/productivity/linear_automation/linear-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "linear_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for linear automation. Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "linear",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Linear Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
