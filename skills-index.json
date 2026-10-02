@@ -7277,6 +7277,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gdb-cli",
+    "path": "skills/ai-engineering/models/gdb_cli/gdb-cli",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "gdb_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for gdb cli. GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "gdb",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gdb Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

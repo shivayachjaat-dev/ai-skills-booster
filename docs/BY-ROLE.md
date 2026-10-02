@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (490 skills)
+## AI Engineer (491 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -321,6 +321,7 @@ Curated workflows organized by professional role and specialization.
 - [frontend-ui-dark-ts](../skills/ai-engineering/models/frontend_ui_dark_ts/frontend-ui-dark-ts/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for frontend ui dark ts. A modern dark-themed React UI system using Tailwind CSS and Framer Motion. Designed for dashboards, admin panels, and data-rich applications with glassmorphism effects and tasteful animations.
 - [frontend-ui-engineering](../skills/ai-engineering/models/frontend_ui_engineer/frontend-ui-engineering/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for frontend ui engineering. Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.
 - [gcp-cloud-sql](../skills/ai-engineering/models/gcp_cloud_sql/gcp-cloud-sql/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for gcp cloud sql. Provision Cloud SQL and Spanner databases. Configure high availability,
+- [gdb-cli](../skills/ai-engineering/models/gdb_cli/gdb-cli/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for gdb cli. GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — `ai-engineering`: Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — `ai-engineering`: Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.

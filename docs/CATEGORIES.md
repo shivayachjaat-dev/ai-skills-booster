@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,060** skills across structured domains, categories, and subcategories.
+Master navigation for **1,061** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (363 skills)
+## Ai Engineering (364 skills)
 
 ### Agents (43 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -188,7 +188,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (263 skills)
+### Models (264 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -696,6 +696,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [frontend-ui-engineering](../skills/ai-engineering/models/frontend_ui_engineer/frontend-ui-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend ui engineering. Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.
 - **Gcp_Cloud_Sql** (1):
   - [gcp-cloud-sql](../skills/ai-engineering/models/gcp_cloud_sql/gcp-cloud-sql/SKILL.md) — Use this skill to design, implement, and operate production workflows for gcp cloud sql. Provision Cloud SQL and Spanner databases. Configure high availability,
+- **Gdb_Cli** (1):
+  - [gdb-cli](../skills/ai-engineering/models/gdb_cli/gdb-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for gdb cli. GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
