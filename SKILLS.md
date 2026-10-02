@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 610 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 611 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -50,6 +50,7 @@
 | [andrej-karpathy](skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) | `ai-engineering` | `llm-ops` | `andrej_karpathy` | `advanced` | `stable` | Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria. |
 | [bullmq-specialist](skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) | `ai-engineering` | `llm-ops` | `bullmq_specialist` | `advanced` | `stable` | Use this skill to bullMQ expert for Redis-backed job queues, background processing, |
 | [context-window-management](skills/ai-engineering/llm-ops/context_window_manag/context-window-management/SKILL.md) | `ai-engineering` | `llm-ops` | `context_window_manag` | `advanced` | `stable` | Use this skill to strategies for managing LLM context windows including |
+| [conversation-memory](skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) | `ai-engineering` | `llm-ops` | `conversation_memory` | `advanced` | `stable` | Use this skill to persistent memory systems for LLM conversations including |
 | [agentfolio](skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) | `ai-engineering` | `models` | `agentfolio` | `advanced` | `stable` | Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory. |
 | [ai-agent-development](skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) | `ai-engineering` | `models` | `ai_agent_development` | `advanced` | `stable` | Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. |
 | [ai-analyzer](skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) | `ai-engineering` | `models` | `ai_analyzer` | `advanced` | `stable` | Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |

@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (326 skills)
+## AI Engineer (327 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -46,6 +46,7 @@ Curated workflows organized by professional role and specialization.
 - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — `ai-engineering`: Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — `ai-engineering`: Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 - [context-window-management](../skills/ai-engineering/llm-ops/context_window_manag/context-window-management/SKILL.md) — `ai-engineering`: Use this skill to strategies for managing LLM context windows including
+- [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — `ai-engineering`: Use this skill to persistent memory systems for LLM conversations including
 - [agentfolio](../skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) — `ai-engineering`: Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
 - [ai-agent-development](../skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) — `ai-engineering`: Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.
 - [ai-analyzer](../skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) — `ai-engineering`: Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。

@@ -1095,6 +1095,28 @@
     "maturity": "stable"
   },
   {
+    "name": "conversation-memory",
+    "path": "skills/ai-engineering/llm-ops/conversation_memory/conversation-memory",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "conversation_memory",
+    "description": "Use this skill to persistent memory systems for LLM conversations including",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "conversation",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Conversation Memory",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

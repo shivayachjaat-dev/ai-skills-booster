@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **610** skills across structured domains, categories, and subcategories.
+Master navigation for **611** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (216 skills)
+## Ai Engineering (217 skills)
 
 ### Agents (26 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -130,7 +130,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (3 skills)
+### Llm Ops (4 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -139,6 +139,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 - **Context_Window_Manag** (1):
   - [context-window-management](../skills/ai-engineering/llm-ops/context_window_manag/context-window-management/SKILL.md) — Use this skill to strategies for managing LLM context windows including
+- **Conversation_Memory** (1):
+  - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
 ### Models (148 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
