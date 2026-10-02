@@ -354,6 +354,7 @@ AI_Skills_Booster/
 │   │   ├── github_workflow_auto/ (1 skills)
 │   │   ├── global_chat_agent_di/ (1 skills)
 │   │   ├── gmail_automation/ (1 skills)
+│   │   ├── go_in_depth/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

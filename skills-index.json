@@ -7739,6 +7739,28 @@
     "maturity": "stable"
   },
   {
+    "name": "go-in-depth",
+    "path": "skills/ai-engineering/models/go_in_depth/go-in-depth",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "go_in_depth",
+    "description": "Use this skill to design, implement, and operate production workflows for go in depth. Go in depth harness \u2014 fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "go",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Go In Depth",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
