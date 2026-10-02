@@ -18187,6 +18187,28 @@
     "maturity": "stable"
   },
   {
+    "name": "grpc-golang",
+    "path": "skills/frontend/ui-ux/grpc_golang/grpc-golang",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "grpc_golang",
+    "description": "Use this skill to design, implement, and operate production workflows for grpc golang. Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "grpc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Grpc Golang",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

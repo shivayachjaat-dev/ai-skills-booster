@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,141** skills across structured domains, categories, and subcategories.
+Master navigation for **1,142** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (397 skills)
 
@@ -1657,7 +1657,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (225 skills)
+## Frontend (226 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1787,7 +1787,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Full_Output_Enforcem** (1):
   - [full-output-enforcement](../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) — Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
 
-### Ui Ux (120 skills)
+### Ui Ux (121 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2022,6 +2022,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [graphql-architect](../skills/frontend/ui-ux/graphql_architect/graphql-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql architect. Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.
 - **Grilling** (1):
   - [grilling](../skills/frontend/ui-ux/grilling/grilling/SKILL.md) — Use this skill to design, implement, and operate production workflows for grilling. Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.
+- **Grpc_Golang** (1):
+  - [grpc-golang](../skills/frontend/ui-ux/grpc_golang/grpc-golang/SKILL.md) — Use this skill to design, implement, and operate production workflows for grpc golang. Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

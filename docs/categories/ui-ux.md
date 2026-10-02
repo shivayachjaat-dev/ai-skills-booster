@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **120 skills** available in this category.
+> **121 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -120,6 +120,7 @@
 | [google-drive-automation](../../skills/frontend/ui-ux/google_drive_automat/google-drive-automation/SKILL.md) | `google_drive_automat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google drive automation. Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write access. |
 | [graphql-architect](../../skills/frontend/ui-ux/graphql_architect/graphql-architect/SKILL.md) | `graphql_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for graphql architect. Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems. |
 | [grilling](../../skills/frontend/ui-ux/grilling/grilling/SKILL.md) | `grilling` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for grilling. Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases. |
+| [grpc-golang](../../skills/frontend/ui-ux/grpc_golang/grpc-golang/SKILL.md) | `grpc_golang` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for grpc golang. Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
