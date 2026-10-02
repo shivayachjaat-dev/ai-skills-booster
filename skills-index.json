@@ -25909,6 +25909,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-edi-connector",
+    "path": "skills/frontend/ui-ux/odoo_edi_connector/odoo-edi-connector",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_edi_connector",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo edi connector. Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Edi Connector",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
