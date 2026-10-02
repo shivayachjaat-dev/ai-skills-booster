@@ -11355,6 +11355,28 @@
     "maturity": "stable"
   },
   {
+    "name": "clean-code",
+    "path": "skills/software-engineering/architecture/patterns/clean-code",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to this skill embodies the principles of \\\"Clean Code\\\" by Robert C. Martin (Uncle Bob). Use it to transform \\\"code that works\\\" into \\\"code that is clean.\\",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "clean",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Clean Code",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
