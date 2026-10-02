@@ -31353,6 +31353,28 @@
     "maturity": "stable"
   },
   {
+    "name": "logic-review",
+    "path": "skills/software-engineering/architecture/patterns/logic-review",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for logic review. Find logic bugs in a single file or function via semi-formal execution tracing (Premises \u2192 Trace \u2192 Divergence \u2192 Trigger \u2192 Remedy).",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "logic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Logic Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",

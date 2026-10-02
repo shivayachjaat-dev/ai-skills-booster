@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **167 skills** available in this category.
+> **168 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -169,5 +169,6 @@
 | [ledger-tasks-yylo](../../skills/software-engineering/architecture/patterns/ledger-tasks-yylo/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ledger tasks yylo. Use YYLO Ledger task management: create, list, search, get, mark, update, |
 | [legacy-modernizer](../../skills/software-engineering/architecture/patterns/legacy-modernizer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for legacy modernizer. Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility. |
 | [lightning-channel-factories](../../skills/software-engineering/architecture/patterns/lightning-channel-factories/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lightning channel factories. Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers Decker-Wattenhofer, timeout trees, MuSig2 key aggregation, HTLC/PTLC forwarding, and wat... |
+| [logic-review](../../skills/software-engineering/architecture/patterns/logic-review/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for logic review. Find logic bugs in a single file or function via semi-formal execution tracing (Premises → Trace → Divergence → Trigger → Remedy). |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
