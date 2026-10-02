@@ -12939,6 +12939,28 @@
     "maturity": "stable"
   },
   {
+    "name": "conductor-manage",
+    "path": "skills/software-engineering/architecture/patterns/conductor-manage",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to manage track lifecycle: archive, restore, delete, rename, and cleanup",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "conductor",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Conductor Manage",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
