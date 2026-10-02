@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (637 skills)
+## AI Engineer (638 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -93,6 +93,7 @@ Curated workflows organized by professional role and specialization.
 - [llm-gateway](../skills/ai-engineering/llm-ops/llm_gateway/llm-gateway/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm gateway. Deploy an API gateway for LLM traffic with load balancing, rate limiting,
 - [llm-inference-scaling](../skills/ai-engineering/llm-ops/llm_inference_scalin/llm-inference-scaling/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm inference scaling. Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU
 - [llm-ops](../skills/ai-engineering/llm-ops/llm_ops/llm-ops/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm ops. LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao.
+- [llm-prompt-optimizer](../skills/ai-engineering/llm-ops/llm_prompt_optimizer/llm-prompt-optimizer/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for llm prompt optimizer. Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage.
 - [agentfolio](../skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) — `ai-engineering`: Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
 - [ai-agent-development](../skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) — `ai-engineering`: Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.
 - [ai-analyzer](../skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) — `ai-engineering`: Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。

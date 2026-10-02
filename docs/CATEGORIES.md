@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,418** skills across structured domains, categories, and subcategories.
+Master navigation for **1,419** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (489 skills)
+## Ai Engineering (490 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -214,7 +214,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (16 skills)
+### Llm Ops (17 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -249,6 +249,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [llm-inference-scaling](../skills/ai-engineering/llm-ops/llm_inference_scalin/llm-inference-scaling/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm inference scaling. Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU
 - **Llm_Ops** (1):
   - [llm-ops](../skills/ai-engineering/llm-ops/llm_ops/llm-ops/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm ops. LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao.
+- **Llm_Prompt_Optimizer** (1):
+  - [llm-prompt-optimizer](../skills/ai-engineering/llm-ops/llm_prompt_optimizer/llm-prompt-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm prompt optimizer. Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage.
 
 ### Models (354 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)

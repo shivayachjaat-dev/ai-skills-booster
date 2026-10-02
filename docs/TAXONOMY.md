@@ -114,7 +114,8 @@ AI_Skills_Booster/
 │   │   ├── llm_fine_tuning/ (1 skills)
 │   │   ├── llm_gateway/ (1 skills)
 │   │   ├── llm_inference_scalin/ (1 skills)
-│   │   └── llm_ops/ (1 skills)
+│   │   ├── llm_ops/ (1 skills)
+│   │   └── llm_prompt_optimizer/ (1 skills)
 │   ├── models/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)

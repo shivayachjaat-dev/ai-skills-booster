@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **16 skills** available in this category.
+> **17 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -20,3 +20,4 @@
 | [llm-gateway](../../skills/ai-engineering/llm-ops/llm_gateway/llm-gateway/SKILL.md) | `llm_gateway` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm gateway. Deploy an API gateway for LLM traffic with load balancing, rate limiting, |
 | [llm-inference-scaling](../../skills/ai-engineering/llm-ops/llm_inference_scalin/llm-inference-scaling/SKILL.md) | `llm_inference_scalin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm inference scaling. Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU |
 | [llm-ops](../../skills/ai-engineering/llm-ops/llm_ops/llm-ops/SKILL.md) | `llm_ops` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm ops. LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao. |
+| [llm-prompt-optimizer](../../skills/ai-engineering/llm-ops/llm_prompt_optimizer/llm-prompt-optimizer/SKILL.md) | `llm_prompt_optimizer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm prompt optimizer. Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage. |

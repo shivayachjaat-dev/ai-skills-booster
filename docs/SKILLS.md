@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,418 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,419 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -105,6 +105,7 @@
 | [llm-gateway](skills/ai-engineering/llm-ops/llm_gateway/llm-gateway/SKILL.md) | `ai-engineering` | `llm-ops` | `llm_gateway` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm gateway. Deploy an API gateway for LLM traffic with load balancing, rate limiting, |
 | [llm-inference-scaling](skills/ai-engineering/llm-ops/llm_inference_scalin/llm-inference-scaling/SKILL.md) | `ai-engineering` | `llm-ops` | `llm_inference_scalin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm inference scaling. Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU |
 | [llm-ops](skills/ai-engineering/llm-ops/llm_ops/llm-ops/SKILL.md) | `ai-engineering` | `llm-ops` | `llm_ops` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm ops. LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao. |
+| [llm-prompt-optimizer](skills/ai-engineering/llm-ops/llm_prompt_optimizer/llm-prompt-optimizer/SKILL.md) | `ai-engineering` | `llm-ops` | `llm_prompt_optimizer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm prompt optimizer. Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage. |
 | [agentfolio](skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) | `ai-engineering` | `models` | `agentfolio` | `advanced` | `stable` | Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory. |
 | [ai-agent-development](skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) | `ai-engineering` | `models` | `ai_agent_development` | `advanced` | `stable` | Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. |
 | [ai-analyzer](skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) | `ai-engineering` | `models` | `ai_analyzer` | `advanced` | `stable` | Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |

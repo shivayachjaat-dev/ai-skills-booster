@@ -2305,6 +2305,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-prompt-optimizer",
+    "path": "skills/ai-engineering/llm-ops/llm_prompt_optimizer/llm-prompt-optimizer",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llm_prompt_optimizer",
+    "description": "Use this skill to design, implement, and operate production workflows for llm prompt optimizer. Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage.",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Prompt Optimizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",
