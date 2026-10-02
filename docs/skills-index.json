@@ -7079,6 +7079,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-taskeither-ref",
+    "path": "skills/ai-engineering/models/fp_taskeither_ref/fp-taskeither-ref",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "fp_taskeither_ref",
+    "description": "Use this skill to design, implement, and operate production workflows for fp taskeither ref. Quick reference for TaskEither. Use when user needs async error handling, API calls, or Promise-based operations that can fail.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Taskeither Ref",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

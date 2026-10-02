@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (829 skills)
+## Bash (830 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1360,6 +1360,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [flowhunt-skill](../skills/ai-engineering/models/flowhunt_skill/flowhunt-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for flowhunt skill. Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.
 - [fp-either-ref](../skills/ai-engineering/models/fp_either_ref/fp-either-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp either ref. Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.
 - [fp-pipe-ref](../skills/ai-engineering/models/fp_pipe_ref/fp-pipe-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp pipe ref. Quick reference for pipe and flow. Use when user needs to chain functions, compose operations, or build data pipelines in fp-ts.
+- [fp-taskeither-ref](../skills/ai-engineering/models/fp_taskeither_ref/fp-taskeither-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp taskeither ref. Quick reference for TaskEither. Use when user needs async error handling, API calls, or Promise-based operations that can fail.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -4513,6 +4514,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [fp-refactor](../skills/frontend/ui-ux/fp_refactor/fp-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp refactor. Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns
 
+## Fp Taskeither Ref (1 skills)
+
+- [fp-taskeither-ref](../skills/ai-engineering/models/fp_taskeither_ref/fp-taskeither-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp taskeither ref. Quick reference for TaskEither. Use when user needs async error handling, API calls, or Promise-based operations that can fail.
+
 ## FreeRTOS (1 skills)
 
 - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
@@ -5511,7 +5516,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (932 skills)
+## Python (933 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5827,6 +5832,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [flowhunt-skill](../skills/ai-engineering/models/flowhunt_skill/flowhunt-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for flowhunt skill. Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.
 - [fp-either-ref](../skills/ai-engineering/models/fp_either_ref/fp-either-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp either ref. Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.
 - [fp-pipe-ref](../skills/ai-engineering/models/fp_pipe_ref/fp-pipe-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp pipe ref. Quick reference for pipe and flow. Use when user needs to chain functions, compose operations, or build data pipelines in fp-ts.
+- [fp-taskeither-ref](../skills/ai-engineering/models/fp_taskeither_ref/fp-taskeither-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp taskeither ref. Quick reference for TaskEither. Use when user needs async error handling, API calls, or Promise-based operations that can fail.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
