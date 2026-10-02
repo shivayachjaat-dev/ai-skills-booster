@@ -9023,6 +9023,28 @@
     "maturity": "stable"
   },
   {
+    "name": "binary-analysis-patterns",
+    "path": "skills/software-engineering/architecture/patterns/binary-analysis-patterns",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "binary",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Binary Analysis Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

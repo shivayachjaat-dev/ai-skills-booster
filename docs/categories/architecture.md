@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **12 skills** available in this category.
+> **13 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -16,3 +16,4 @@
 | [bash-pro](../../skills/software-engineering/architecture/patterns/bash-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to master of defensive Bash scripting for production automation, CI/CD |
 | [bevy-ecs-expert](../../skills/software-engineering/architecture/patterns/bevy-ecs-expert/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling. |
 | [billing-automation](../../skills/software-engineering/architecture/patterns/billing-automation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation. |
+| [binary-analysis-patterns](../../skills/software-engineering/architecture/patterns/binary-analysis-patterns/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic. |
