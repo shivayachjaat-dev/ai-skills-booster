@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (463 skills)
+## Bash (464 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1232,6 +1232,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [crossframe-review](../skills/ai-engineering/models/crossframe_review/crossframe-review/SKILL.md) — Use this skill to use when explicit CrossFrame output needs review for reasoning fidelity, evidence boundaries, source anchors, concept drift, article collapse, or repair steps.
 - [crossframe-teach](../skills/ai-engineering/models/crossframe_teach/crossframe-teach/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame concepts, misreading boundaries, plain-language examples, signals, or exercises.
 - [crypto-bd-agent](../skills/ai-engineering/models/crypto_bd_agent/crypto-bd-agent/SKILL.md) — Use this skill to production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges.
+- [csharp-pro](../skills/ai-engineering/models/csharp_pro/csharp-pro/SKILL.md) — Use this skill to write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
 - [axiom](../skills/ai-engineering/rag/axiom/axiom/SKILL.md) — Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.
@@ -2721,6 +2722,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [envelope-encryption-kms-pattern](../skills/security/cryptography/envelope-encryption/envelope-encryption-kms-pattern/SKILL.md) — Use this skill when architecting and implementing cryptographic envelope encryption for sensitive data at rest using cloud Key Management Services (AWS KMS, GCP KMS, Azure Key Vault) or HashiCorp Vault. It guides the agent through two-tier key hierarchies (KEK and DEK), AES-256-GCM authenticated encryption, DEK caching with TTL limits, and key rotation.
 
+## Csharp Pro (1 skills)
+
+- [csharp-pro](../skills/ai-engineering/models/csharp_pro/csharp-pro/SKILL.md) — Use this skill to write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.
+
 ## CycloneDX (2 skills)
 
 - [software-supply-chain-sbom-audit](../skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit/SKILL.md) — Use this skill when auditing, generating, and verifying Software Bill of Materials (SBOM) and scanning software supply chains for CVE vulnerabilities and non-compliant open-source licenses. It guides the agent through generating CycloneDX/SPDX SBOMs with Syft, scanning for known exploits with Grype, validating software licenses, and enforcing CI/CD gates.
@@ -3812,7 +3817,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (566 skills)
+## Python (567 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4016,6 +4021,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [crossframe-review](../skills/ai-engineering/models/crossframe_review/crossframe-review/SKILL.md) — Use this skill to use when explicit CrossFrame output needs review for reasoning fidelity, evidence boundaries, source anchors, concept drift, article collapse, or repair steps.
 - [crossframe-teach](../skills/ai-engineering/models/crossframe_teach/crossframe-teach/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame concepts, misreading boundaries, plain-language examples, signals, or exercises.
 - [crypto-bd-agent](../skills/ai-engineering/models/crypto_bd_agent/crypto-bd-agent/SKILL.md) — Use this skill to production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges.
+- [csharp-pro](../skills/ai-engineering/models/csharp_pro/csharp-pro/SKILL.md) — Use this skill to write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.

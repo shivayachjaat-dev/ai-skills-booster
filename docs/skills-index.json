@@ -4615,6 +4615,28 @@
     "maturity": "stable"
   },
   {
+    "name": "csharp-pro",
+    "path": "skills/ai-engineering/models/csharp_pro/csharp-pro",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "csharp_pro",
+    "description": "Use this skill to write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "csharp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Csharp Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
