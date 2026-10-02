@@ -1579,6 +1579,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-ml-py",
+    "path": "skills/ai-engineering/models/azure_ai_ml_py/azure-ai-ml-py",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_ml_py",
+    "description": "Use this skill to azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Ml Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
