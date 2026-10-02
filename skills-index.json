@@ -18637,6 +18637,28 @@
     "maturity": "stable"
   },
   {
+    "name": "distributed-tracing",
+    "path": "skills/software-engineering/architecture/patterns/distributed-tracing",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for distributed tracing. Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "distributed",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Distributed Tracing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
