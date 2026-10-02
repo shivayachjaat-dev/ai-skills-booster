@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 531 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 532 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -278,6 +278,7 @@
 | [canva-automation](skills/developer-tools/productivity/canva_automation/canva-automation/SKILL.md) | `developer-tools` | `productivity` | `canva_automation` | `advanced` | `stable` | Use this skill to automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas. |
 | [clickup-automation](skills/developer-tools/productivity/clickup_automation/clickup-automation/SKILL.md) | `developer-tools` | `productivity` | `clickup_automation` | `advanced` | `stable` | Use this skill to automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas. |
 | [close-automation](skills/developer-tools/productivity/close_automation/close-automation/SKILL.md) | `developer-tools` | `productivity` | `close_automation` | `advanced` | `stable` | Use this skill to automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas. |
+| [coda-automation](skills/developer-tools/productivity/coda_automation/coda-automation/SKILL.md) | `developer-tools` | `productivity` | `coda_automation` | `advanced` | `stable` | Use this skill to automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas. |
 | [agents-md-repository-context-specification](skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) | `developer-tools` | `repository-specs` | `agents-md` | `intermediate` | `stable` | Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants. |
 | [multi-language-api-sdk-code-generator](skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) | `developer-tools` | `sdk-generation` | `openapi-generator` | `advanced` | `stable` | Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning. |
 | [aws-cost-optimization](skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) | `devops` | `ci-cd` | `aws_cost_optimizatio` | `advanced` | `stable` | Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning, |

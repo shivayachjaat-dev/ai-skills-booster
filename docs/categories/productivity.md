@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [canva-automation](../../skills/developer-tools/productivity/canva_automation/canva-automation/SKILL.md) | `canva_automation` | `advanced` | `stable` | Use this skill to automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas. |
 | [clickup-automation](../../skills/developer-tools/productivity/clickup_automation/clickup-automation/SKILL.md) | `clickup_automation` | `advanced` | `stable` | Use this skill to automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas. |
 | [close-automation](../../skills/developer-tools/productivity/close_automation/close-automation/SKILL.md) | `close_automation` | `advanced` | `stable` | Use this skill to automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas. |
+| [coda-automation](../../skills/developer-tools/productivity/coda_automation/coda-automation/SKILL.md) | `coda_automation` | `advanced` | `stable` | Use this skill to automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas. |

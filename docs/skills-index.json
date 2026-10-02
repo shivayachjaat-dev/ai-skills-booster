@@ -6307,6 +6307,28 @@
     "maturity": "stable"
   },
   {
+    "name": "coda-automation",
+    "path": "skills/developer-tools/productivity/coda_automation/coda-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "coda_automation",
+    "description": "Use this skill to automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "coda",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Coda Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
