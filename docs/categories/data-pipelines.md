@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,4 +13,5 @@
 | [dwarf-expert](../../skills/data-analytics/data-pipelines/dwarf_expert/dwarf-expert/SKILL.md) | `dwarf_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dwarf expert. Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWAR... |
 | [fp-data-transforms](../../skills/data-analytics/data-pipelines/fp_data_transforms/fp-data-transforms/SKILL.md) | `fp_data_transforms` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp data transforms. Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access |
 | [go-rust-reverse](../../skills/data-analytics/data-pipelines/go_rust_reverse/go-rust-reverse/SKILL.md) | `go_rust_reverse` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for go rust reverse. Reverse engineer stripped Go and Rust binaries: runtime recognition, pclntab/module metadata recovery, panic-string analysis, and idiomatic decompilation strategies. |
+| [graphql](../../skills/data-analytics/data-pipelines/graphql/graphql/SKILL.md) | `graphql` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for graphql. GraphQL gives clients exactly the data they need - no more, no |
 | [polars-high-throughput-data-pipeline](../../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) | `polars` | `advanced` | `stable` | Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations. |

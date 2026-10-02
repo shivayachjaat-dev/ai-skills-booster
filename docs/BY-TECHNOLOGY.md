@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (950 skills)
+## Bash (951 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1517,6 +1517,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dwarf-expert](../skills/data-analytics/data-pipelines/dwarf_expert/dwarf-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for dwarf expert. Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWAR...
 - [fp-data-transforms](../skills/data-analytics/data-pipelines/fp_data_transforms/fp-data-transforms/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp data transforms. Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access
 - [go-rust-reverse](../skills/data-analytics/data-pipelines/go_rust_reverse/go-rust-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for go rust reverse. Reverse engineer stripped Go and Rust binaries: runtime recognition, pclntab/module metadata recovery, panic-string analysis, and idiomatic decompilation strategies.
+- [graphql](../skills/data-analytics/data-pipelines/graphql/graphql/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql. GraphQL gives clients exactly the data they need - no more, no
 - [chatexport-need-miner](../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) — Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
 - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
@@ -5270,6 +5271,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
 
+## Graphql (1 skills)
+
+- [graphql](../skills/data-analytics/data-pipelines/graphql/graphql/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql. GraphQL gives clients exactly the data they need - no more, no
+
 ## Graphviz (1 skills)
 
 - [threat-modeling-and-attack-tree-construction](../skills/security/threat-modeling/attack-trees/threat-modeling-and-attack-tree-construction/SKILL.md) — Use this skill to systematically model adversary capabilities and visualize attack vectors using hierarchical AND/OR attack trees. It covers root goal definition, node decomposition, probability and cost quantification, STRIDE mapping, residual risk scoring (DREAD/CVSS), and mapping defensive countermeasures directly to leaf-node vectors.
@@ -6112,7 +6117,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1053 skills)
+## Python (1054 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6606,6 +6611,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dwarf-expert](../skills/data-analytics/data-pipelines/dwarf_expert/dwarf-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for dwarf expert. Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWAR...
 - [fp-data-transforms](../skills/data-analytics/data-pipelines/fp_data_transforms/fp-data-transforms/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp data transforms. Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access
 - [go-rust-reverse](../skills/data-analytics/data-pipelines/go_rust_reverse/go-rust-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for go rust reverse. Reverse engineer stripped Go and Rust binaries: runtime recognition, pclntab/module metadata recovery, panic-string analysis, and idiomatic decompilation strategies.
+- [graphql](../skills/data-analytics/data-pipelines/graphql/graphql/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql. GraphQL gives clients exactly the data they need - no more, no
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 - [airtable-api-data-sync-and-webhook-automation](../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) — Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.

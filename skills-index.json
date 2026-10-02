@@ -11308,6 +11308,28 @@
     "maturity": "stable"
   },
   {
+    "name": "graphql",
+    "path": "skills/data-analytics/data-pipelines/graphql/graphql",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "graphql",
+    "description": "Use this skill to design, implement, and operate production workflows for graphql. GraphQL gives clients exactly the data they need - no more, no",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "graphql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Graphql",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",
