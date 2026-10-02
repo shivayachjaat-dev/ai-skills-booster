@@ -563,7 +563,8 @@ AI_Skills_Booster/
 │   │   ├── copilot_sdk/ (1 skills)
 │   │   ├── cqrs_implementation/ (1 skills)
 │   │   ├── crossframe_casebook/ (1 skills)
-│   │   └── crossframe_debate/ (1 skills)
+│   │   ├── crossframe_debate/ (1 skills)
+│   │   └── crossframe_dialogue/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)

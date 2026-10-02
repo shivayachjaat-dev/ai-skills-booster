@@ -10817,6 +10817,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-dialogue",
+    "path": "skills/frontend/ui-ux/crossframe_dialogue/crossframe-dialogue",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "crossframe_dialogue",
+    "description": "Use this skill to use when CrossFrame Suite routes explicit Chinese reader replies, editor responses, consultation-style short answers, or boundary-aware structural advice.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Dialogue",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
