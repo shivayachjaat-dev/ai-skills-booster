@@ -8419,6 +8419,28 @@
     "maturity": "stable"
   },
   {
+    "name": "check-identity-pack",
+    "path": "skills/frontend/ui-ux/check_identity_pack/check-identity-pack",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "check_identity_pack",
+    "description": "Use this skill to run an AFP 100-point or AUSTRAC safe-harbour identity check over a set of documents, and report exactly what's missing. Use when the user asks to check identity documents, verify someone's ID for onboarding, or assess whether a document pack satisfies Australian identity requiremen",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "check",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Check Identity Pack",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
