@@ -18517,6 +18517,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-components-status",
+    "path": "skills/frontend/ui-ux/hig_components_statu/hig-components-status",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hig_components_statu",
+    "description": "Use this skill to design, implement, and operate production workflows for hig components status. Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Components Status",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

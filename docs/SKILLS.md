@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,165 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,166 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -827,6 +827,7 @@
 | [hig-components-dialogs](skills/frontend/ui-ux/hig_components_dialo/hig-components-dialogs/SKILL.md) | `frontend` | `ui-ux` | `hig_components_dialo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig components dialogs. Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views. |
 | [hig-components-layout](skills/frontend/ui-ux/hig_components_layou/hig-components-layout/SKILL.md) | `frontend` | `ui-ux` | `hig_components_layou` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig components layout. Apple Human Interface Guidelines for layout and navigation components. |
 | [hig-components-search](skills/frontend/ui-ux/hig_components_searc/hig-components-search/SKILL.md) | `frontend` | `ui-ux` | `hig_components_searc` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig components search. Apple HIG guidance for navigation-related components including search fields, page controls, and path controls. |
+| [hig-components-status](skills/frontend/ui-ux/hig_components_statu/hig-components-status/SKILL.md) | `frontend` | `ui-ux` | `hig_components_statu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig components status. Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
