@@ -19347,6 +19347,28 @@
     "maturity": "stable"
   },
   {
+    "name": "docs-generator",
+    "path": "skills/testing/automation/docs_generator/docs-generator",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "docs_generator",
+    "description": "Use this skill to design, implement, and operate production workflows for docs generator. Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF write-ups, and signature-analysis documentation with evidence-backed structure.",
+    "tags": [
+      "testing",
+      "automation",
+      "docs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Docs Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

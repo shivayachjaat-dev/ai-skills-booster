@@ -925,7 +925,8 @@ AI_Skills_Booster/
 │   │   ├── code_showcase_testin/ (1 skills)
 │   │   ├── cucumber_skill/ (1 skills)
 │   │   ├── dependency_upgrade/ (1 skills)
-│   │   └── deployment_validatio/ (1 skills)
+│   │   ├── deployment_validatio/ (1 skills)
+│   │   └── docs_generator/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/
