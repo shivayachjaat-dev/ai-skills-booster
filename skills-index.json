@@ -26239,6 +26239,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-xml-views-builder",
+    "path": "skills/frontend/ui-ux/odoo_xml_views_build/odoo-xml-views-builder",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_xml_views_build",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo xml views builder. Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Xml Views Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
