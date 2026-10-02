@@ -14771,6 +14771,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cucumber-skill",
+    "path": "skills/testing/automation/cucumber_skill/cucumber-skill",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "cucumber_skill",
+    "description": "Use this skill to generates Cucumber BDD tests with Gherkin feature files and step definitions in Java, JavaScript, or Ruby. Use when user mentions \\\"Cucumber\\\", \\\"Gherkin\\\", \\\"Feature/Scenario\\\", \\\"Given/When/Then\\\", \\\"BDD\\\".",
+    "tags": [
+      "testing",
+      "automation",
+      "cucumber",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cucumber Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

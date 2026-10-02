@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (465 skills)
+## Bash (466 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1516,6 +1516,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [browser-testing-with-devtools](../skills/testing/automation/browser_testing_with/browser-testing-with-devtools/SKILL.md) — Use this skill to test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, accessibility, and performance traces.
 - [circleci-automation](../skills/testing/automation/circleci_automation/circleci-automation/SKILL.md) — Use this skill to automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.
 - [code-showcase-testing-patterns](../skills/testing/automation/code_showcase_testin/code-showcase-testing-patterns/SKILL.md) — Use this skill to jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.
+- [cucumber-skill](../skills/testing/automation/cucumber_skill/cucumber-skill/SKILL.md) — Use this skill to generates Cucumber BDD tests with Gherkin feature files and step definitions in Java, JavaScript, or Ruby. Use when user mentions \"Cucumber\", \"Gherkin\", \"Feature/Scenario\", \"Given/When/Then\", \"BDD\".
 
 ## Bash Defensive Patterns (1 skills)
 
@@ -2731,6 +2732,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [csv-manual-export](../skills/business/operations/csv_manual_export/csv-manual-export/SKILL.md) — Use this skill to cSV Manual Export: a UTF-8 CSV template from a confirmed field list, empty by default, with no invented columns or values. Use for an import, staging or handoff file.
 
+## Cucumber Skill (1 skills)
+
+- [cucumber-skill](../skills/testing/automation/cucumber_skill/cucumber-skill/SKILL.md) — Use this skill to generates Cucumber BDD tests with Gherkin feature files and step definitions in Java, JavaScript, or Ruby. Use when user mentions \"Cucumber\", \"Gherkin\", \"Feature/Scenario\", \"Given/When/Then\", \"BDD\".
+
 ## CycloneDX (2 skills)
 
 - [software-supply-chain-sbom-audit](../skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit/SKILL.md) — Use this skill when auditing, generating, and verifying Software Bill of Materials (SBOM) and scanning software supply chains for CVE vulnerabilities and non-compliant open-source licenses. It guides the agent through generating CycloneDX/SPDX SBOMs with Syft, scanning for known exploits with Grype, validating software licenses, and enforcing CI/CD gates.
@@ -3822,7 +3827,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (568 skills)
+## Python (569 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4391,6 +4396,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [browser-testing-with-devtools](../skills/testing/automation/browser_testing_with/browser-testing-with-devtools/SKILL.md) — Use this skill to test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, accessibility, and performance traces.
 - [circleci-automation](../skills/testing/automation/circleci_automation/circleci-automation/SKILL.md) — Use this skill to automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.
 - [code-showcase-testing-patterns](../skills/testing/automation/code_showcase_testin/code-showcase-testing-patterns/SKILL.md) — Use this skill to jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.
+- [cucumber-skill](../skills/testing/automation/cucumber_skill/cucumber-skill/SKILL.md) — Use this skill to generates Cucumber BDD tests with Gherkin feature files and step definitions in Java, JavaScript, or Ruby. Use when user mentions \"Cucumber\", \"Gherkin\", \"Feature/Scenario\", \"Given/When/Then\", \"BDD\".
 - [appium-mobile-automation-and-cross-device-testing](../skills/testing/mobile-testing/appium-cross-device/appium-mobile-automation-and-cross-device-testing/SKILL.md) — Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.
 
 ## Python AST (1 skills)
