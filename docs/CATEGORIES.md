@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,419** skills across structured domains, categories, and subcategories.
+Master navigation for **1,420** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (490 skills)
+## Ai Engineering (491 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -252,7 +252,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Llm_Prompt_Optimizer** (1):
   - [llm-prompt-optimizer](../skills/ai-engineering/llm-ops/llm_prompt_optimizer/llm-prompt-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm prompt optimizer. Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage.
 
-### Models (354 skills)
+### Models (355 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -938,6 +938,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [llm-application-dev-prompt-optimize](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-prompt-optimize/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev prompt optimize. You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques including constitutional AI, chain-of-thought reasoning, and model-specific optimizati
 - **Llm_Council** (1):
   - [llm-council](../skills/ai-engineering/models/llm_council/llm-council/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm council. Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer.
+- **Llm_Security** (1):
+  - [llm-security](../skills/ai-engineering/models/llm_security/llm-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm security. Authorized security assessment of LLM applications and AI agents: prompt injection, tool abuse, RAG exposure, memory poisoning, system-prompt extraction, and agent-compliance engineering per OWASP LLM/ASI Top 10.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

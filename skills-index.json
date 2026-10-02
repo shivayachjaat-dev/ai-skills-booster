@@ -9961,6 +9961,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-security",
+    "path": "skills/ai-engineering/models/llm_security/llm-security",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "llm_security",
+    "description": "Use this skill to design, implement, and operate production workflows for llm security. Authorized security assessment of LLM applications and AI agents: prompt injection, tool abuse, RAG exposure, memory poisoning, system-prompt extraction, and agent-compliance engineering per OWASP LLM/ASI Top 10.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Security",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

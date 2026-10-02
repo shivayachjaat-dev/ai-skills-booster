@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1237 skills)
+## Bash (1238 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1499,6 +1499,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [llm-application-dev-langchain-agent](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-langchain-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev langchain agent. You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph.
 - [llm-application-dev-prompt-optimize](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-prompt-optimize/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev prompt optimize. You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques including constitutional AI, chain-of-thought reasoning, and model-specific optimizati
 - [llm-council](../skills/ai-engineering/models/llm_council/llm-council/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm council. Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer.
+- [llm-security](../skills/ai-engineering/models/llm_security/llm-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm security. Authorized security assessment of LLM applications and AI agents: prompt injection, tool abuse, RAG exposure, memory poisoning, system-prompt extraction, and agent-compliance engineering per OWASP LLM/ASI Top 10.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -7023,6 +7024,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [llm-prompt-optimizer](../skills/ai-engineering/llm-ops/llm_prompt_optimizer/llm-prompt-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm prompt optimizer. Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage.
 
+## Llm Security (1 skills)
+
+- [llm-security](../skills/ai-engineering/models/llm_security/llm-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm security. Authorized security assessment of LLM applications and AI agents: prompt injection, tool abuse, RAG exposure, memory poisoning, system-prompt extraction, and agent-compliance engineering per OWASP LLM/ASI Top 10.
+
 ## Local Legal Seo Audit (1 skills)
 
 - [local-legal-seo-audit](../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) — Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.
@@ -7537,7 +7542,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1340 skills)
+## Python (1341 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7984,6 +7989,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [llm-application-dev-langchain-agent](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-langchain-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev langchain agent. You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph.
 - [llm-application-dev-prompt-optimize](../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-prompt-optimize/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm application dev prompt optimize. You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques including constitutional AI, chain-of-thought reasoning, and model-specific optimizati
 - [llm-council](../skills/ai-engineering/models/llm_council/llm-council/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm council. Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer.
+- [llm-security](../skills/ai-engineering/models/llm_security/llm-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm security. Authorized security assessment of LLM applications and AI agents: prompt injection, tool abuse, RAG exposure, memory poisoning, system-prompt extraction, and agent-compliance engineering per OWASP LLM/ASI Top 10.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
