@@ -281,7 +281,8 @@ AI_Skills_Booster/
 │   ├── operations/
 │   │   ├── board_governance/ (1 skills)
 │   │   ├── brand_kit_print_coll/ (1 skills)
-│   │   └── buddy_program_manage/ (1 skills)
+│   │   ├── buddy_program_manage/ (1 skills)
+│   │   └── competency_matrix/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/

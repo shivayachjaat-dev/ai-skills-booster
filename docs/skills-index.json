@@ -5748,6 +5748,28 @@
     "maturity": "stable"
   },
   {
+    "name": "competency-matrix",
+    "path": "skills/business/operations/competency_matrix/competency-matrix",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "competency_matrix",
+    "description": "Use this skill to competency matrix of expected proficiency by job title and grade, with assessment method and linked skill area. Use for role frameworks and hiring bars.",
+    "tags": [
+      "business",
+      "operations",
+      "competency",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Competency Matrix",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
