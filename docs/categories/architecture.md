@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **162 skills** available in this category.
+> **163 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -164,5 +164,6 @@
 | [json-canvas](../../skills/software-engineering/architecture/patterns/json-canvas/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for json canvas. Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian. |
 | [julia-pro](../../skills/software-engineering/architecture/patterns/julia-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for julia pro. Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. |
 | [latex-paper-conversion](../../skills/software-engineering/architecture/patterns/latex-paper-conversion/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for latex paper conversion. This skill should be used when the user asks to convert an academic paper in LaTeX from one format (e.g., Springer, IPOL) to another format (e.g., MDPI, IEEE, Nature). It automates extraction, injection, fixing formatting, and compiling. |
+| [ledger-tasks-yylo](../../skills/software-engineering/architecture/patterns/ledger-tasks-yylo/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ledger tasks yylo. Use YYLO Ledger task management: create, list, search, get, mark, update, |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

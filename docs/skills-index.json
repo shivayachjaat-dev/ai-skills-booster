@@ -30099,6 +30099,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ledger-tasks-yylo",
+    "path": "skills/software-engineering/architecture/patterns/ledger-tasks-yylo",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for ledger tasks yylo. Use YYLO Ledger task management: create, list, search, get, mark, update,",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "ledger",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ledger Tasks Yylo",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",

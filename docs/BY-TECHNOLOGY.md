@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1189 skills)
+## Bash (1190 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2243,6 +2243,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [json-canvas](../skills/software-engineering/architecture/patterns/json-canvas/SKILL.md) — Use this skill to design, implement, and operate production workflows for json canvas. Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.
 - [julia-pro](../skills/software-engineering/architecture/patterns/julia-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for julia pro. Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices.
 - [latex-paper-conversion](../skills/software-engineering/architecture/patterns/latex-paper-conversion/SKILL.md) — Use this skill to design, implement, and operate production workflows for latex paper conversion. This skill should be used when the user asks to convert an academic paper in LaTeX from one format (e.g., Springer, IPOL) to another format (e.g., MDPI, IEEE, Nature). It automates extraction, injection, fixing formatting, and compiling.
+- [ledger-tasks-yylo](../skills/software-engineering/architecture/patterns/ledger-tasks-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for ledger tasks yylo. Use YYLO Ledger task management: create, list, search, get, mark, update,
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -6755,6 +6756,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [leave-management](../skills/business/operations/leave_management/leave-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for leave management. Leave register: request, leave type, employee and department, manager and approver, start and end dates, days requested, leave balances, handover notes and status. Use for leave tracking.
 
+## Ledger Tasks Yylo (1 skills)
+
+- [ledger-tasks-yylo](../skills/software-engineering/architecture/patterns/ledger-tasks-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for ledger tasks yylo. Use YYLO Ledger task management: create, list, search, get, mark, update,
+
 ## Lighthouse (1 skills)
 
 - [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
@@ -7301,7 +7306,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1292 skills)
+## Python (1293 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8569,6 +8574,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [json-canvas](../skills/software-engineering/architecture/patterns/json-canvas/SKILL.md) — Use this skill to design, implement, and operate production workflows for json canvas. Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.
 - [julia-pro](../skills/software-engineering/architecture/patterns/julia-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for julia pro. Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices.
 - [latex-paper-conversion](../skills/software-engineering/architecture/patterns/latex-paper-conversion/SKILL.md) — Use this skill to design, implement, and operate production workflows for latex paper conversion. This skill should be used when the user asks to convert an academic paper in LaTeX from one format (e.g., Springer, IPOL) to another format (e.g., MDPI, IEEE, Nature). It automates extraction, injection, fixing formatting, and compiling.
+- [ledger-tasks-yylo](../skills/software-engineering/architecture/patterns/ledger-tasks-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for ledger tasks yylo. Use YYLO Ledger task management: create, list, search, get, mark, update,
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
