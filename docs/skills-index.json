@@ -3713,6 +3713,33 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-iam-least-privilege-and-governance-architecture",
+    "path": "skills/security/cloud-security/aws-iam/aws-iam-least-privilege-and-governance-architecture",
+    "domain": "security",
+    "category": "cloud-security",
+    "subcategory": "aws-iam",
+    "description": "Use this skill to design, implement, and audit enterprise AWS IAM architectures adhering to least-privilege principles. It covers IAM permission boundaries, Service Control Policies (SCPs) in AWS Organizations, cross-account assume-role delegation with external IDs, ABAC (Attribute-Based Access Control) tagging policies, IAM Access Analyzer integration, and credential rotation.",
+    "tags": [
+      "security",
+      "aws",
+      "iam",
+      "cloud-security",
+      "least-privilege",
+      "abac",
+      "scps",
+      "permission-boundaries"
+    ],
+    "technologies": [
+      "AWS IAM",
+      "AWS Organizations",
+      "AWS Access Analyzer",
+      "Python",
+      "JSON"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-security-review",
     "path": "skills/security/code-review/github/github-pr-security-review",
     "domain": "security",

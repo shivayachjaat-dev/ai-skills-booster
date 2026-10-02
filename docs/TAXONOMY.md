@@ -277,6 +277,8 @@ AI_Skills_Booster/
 │   │   └── rbac/ (1 skills)
 │   ├── binary-defense/
 │   │   └── anti-reversing/ (1 skills)
+│   ├── cloud-security/
+│   │   └── aws-iam/ (1 skills)
 │   ├── code-review/
 │   │   └── github/ (1 skills)
 │   ├── compliance/

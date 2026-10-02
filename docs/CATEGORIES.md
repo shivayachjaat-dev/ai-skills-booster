@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **184** skills across structured domains, categories, and subcategories.
+Master navigation for **185** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (33 skills)
 
@@ -721,7 +721,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (31 skills)
+## Security (32 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -774,6 +774,12 @@ Category index: [`docs/categories/binary-defense.md`](categories/binary-defense.
 
 - **Anti Reversing** (1):
   - [binary-anti-reversing-and-code-obfuscation](../skills/security/binary-defense/anti-reversing/binary-anti-reversing-and-code-obfuscation/SKILL.md) — Use this skill to evaluate, implement, and audit software intellectual property protections against reverse engineering, decompilation, and debugger tampering. It covers symbol stripping, control-flow flattening, anti-debugging API hooks (ptrace, IsDebuggerPresent), integrity hash checks, and security trade-off analysis.
+
+### Cloud Security (1 skills)
+Category index: [`docs/categories/cloud-security.md`](categories/cloud-security.md)
+
+- **Aws Iam** (1):
+  - [aws-iam-least-privilege-and-governance-architecture](../skills/security/cloud-security/aws-iam/aws-iam-least-privilege-and-governance-architecture/SKILL.md) — Use this skill to design, implement, and audit enterprise AWS IAM architectures adhering to least-privilege principles. It covers IAM permission boundaries, Service Control Policies (SCPs) in AWS Organizations, cross-account assume-role delegation with external IDs, ABAC (Attribute-Based Access Control) tagging policies, IAM Access Analyzer integration, and credential rotation.
 
 ### Code Review (1 skills)
 Category index: [`docs/categories/code-review.md`](categories/code-review.md)
