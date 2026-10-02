@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **451** skills across structured domains, categories, and subcategories.
+Master navigation for **452** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (153 skills)
 
@@ -958,7 +958,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (44 skills)
+## Frontend (45 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1074,7 +1074,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Business_Continuity** (1):
   - [business-continuity](../skills/frontend/ui-ux/business_continuity/business-continuity/SKILL.md) — Use this skill to develop business continuity plans and impact analysis. Implement BCP
 
-### Web Architecture (7 skills)
+### Web Architecture (8 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **Antigravity_Design_E** (1):
@@ -1090,6 +1090,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [browser-harness](../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) — Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation.
 - **Burp_Suite_Testing** (1):
   - [burp-suite-testing](../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) — Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.
+- **Business_Website_Set** (1):
+  - [business-website-setup](../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) — Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.
 
 ## Marketing (8 skills)
 

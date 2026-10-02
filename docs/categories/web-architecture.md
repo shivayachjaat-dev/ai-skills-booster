@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [brand-growth-system-builder](../../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) | `brand_growth_system_` | `advanced` | `stable` | Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows. |
 | [browser-harness](../../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) | `browser_harness` | `advanced` | `stable` | Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation. |
 | [burp-suite-testing](../../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) | `burp_suite_testing` | `advanced` | `stable` | Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows. |
+| [business-website-setup](../../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) | `business_website_set` | `advanced` | `stable` | Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews. |
