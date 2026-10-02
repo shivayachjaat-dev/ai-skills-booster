@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **14 skills** available in this category.
+> **15 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -18,3 +18,4 @@
 | [azure-eventhub-rust](../../skills/devops/cloud-infrastructure/azure_eventhub_rust/azure-eventhub-rust/SKILL.md) | `azure_eventhub_rust` | `advanced` | `stable` | Use this skill to azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion. |
 | [azure-eventhub-ts](../../skills/devops/cloud-infrastructure/azure_eventhub_ts/azure-eventhub-ts/SKILL.md) | `azure_eventhub_ts` | `advanced` | `stable` | Use this skill to high-throughput event streaming and real-time data ingestion. |
 | [azure-functions](../../skills/devops/cloud-infrastructure/azure_functions/azure-functions/SKILL.md) | `azure_functions` | `advanced` | `stable` | Use this skill to expert patterns for Azure Functions development including isolated |
+| [azure-keyvault-certificates-rust](../../skills/devops/cloud-infrastructure/azure_keyvault_certi/azure-keyvault-certificates-rust/SKILL.md) | `azure_keyvault_certi` | `advanced` | `stable` | Use this skill to azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates. |

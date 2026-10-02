@@ -4314,6 +4314,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-keyvault-certificates-rust",
+    "path": "skills/devops/cloud-infrastructure/azure_keyvault_certi/azure-keyvault-certificates-rust",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_keyvault_certi",
+    "description": "Use this skill to azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Keyvault Certificates Rust",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

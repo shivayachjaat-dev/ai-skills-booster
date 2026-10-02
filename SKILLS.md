@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 307 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 308 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -187,6 +187,7 @@
 | [azure-eventhub-rust](skills/devops/cloud-infrastructure/azure_eventhub_rust/azure-eventhub-rust/SKILL.md) | `devops` | `cloud-infrastructure` | `azure_eventhub_rust` | `advanced` | `stable` | Use this skill to azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion. |
 | [azure-eventhub-ts](skills/devops/cloud-infrastructure/azure_eventhub_ts/azure-eventhub-ts/SKILL.md) | `devops` | `cloud-infrastructure` | `azure_eventhub_ts` | `advanced` | `stable` | Use this skill to high-throughput event streaming and real-time data ingestion. |
 | [azure-functions](skills/devops/cloud-infrastructure/azure_functions/azure-functions/SKILL.md) | `devops` | `cloud-infrastructure` | `azure_functions` | `advanced` | `stable` | Use this skill to expert patterns for Azure Functions development including isolated |
+| [azure-keyvault-certificates-rust](skills/devops/cloud-infrastructure/azure_keyvault_certi/azure-keyvault-certificates-rust/SKILL.md) | `devops` | `cloud-infrastructure` | `azure_keyvault_certi` | `advanced` | `stable` | Use this skill to azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates. |
 | [helm-chart-architecture-and-lifecycle](skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle/SKILL.md) | `devops` | `container-orchestration` | `helm` | `intermediate` | `stable` | Use this skill when architecting, authoring, and managing production-grade Kubernetes packages with Helm 3+. It guides the agent through chart file structures, named template helpers (_helpers.tpl), strict values schema validation using values.schema.json, dependency subcharts, test suites (helm test), and semantic versioning release workflows. |
 | [apple-silicon-container-runtime-optimization](skills/devops/containers/apple-silicon/apple-silicon-container-runtime-optimization/SKILL.md) | `devops` | `containers` | `apple-silicon` | `intermediate` | `stable` | Use this skill to build, optimize, and manage lightweight OCI Linux containers and microVM runtimes on Apple Silicon (ARM64 macOS) using native virtualization frameworks, Rosetta 2 multi-arch emulation, Colima, and OrbStack. It covers cross-platform multi-arch image compilation (buildx), bind-mount I/O caching, and GPU acceleration. |
 | [docker-container-optimization](skills/devops/containers/optimization/docker-container-optimization/SKILL.md) | `devops` | `containers` | `optimization` | `intermediate` | `stable` | Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout. |
