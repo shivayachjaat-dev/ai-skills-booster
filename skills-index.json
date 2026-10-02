@@ -2468,6 +2468,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-keyvault-secrets-rust",
+    "path": "skills/backend/api-frameworks/azure_keyvault_secre/azure-keyvault-secrets-rust",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "azure_keyvault_secre",
+    "description": "Use this skill to azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: \"keyvault secrets rust\", \"SecretClient rust\", \"get secret rust\", \"set secret rust\".",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Keyvault Secrets Rust",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",
