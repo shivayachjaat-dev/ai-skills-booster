@@ -8993,6 +8993,28 @@
     "maturity": "stable"
   },
   {
+    "name": "js-reverse",
+    "path": "skills/ai-engineering/models/js_reverse/js-reverse",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "js_reverse",
+    "description": "Use this skill to design, implement, and operate production workflows for js reverse. Front-end JavaScript reverse engineering: locate signature chains, analyze encrypted request parameters, sample runtime behavior, and reproduce logic locally in Node for evidence-based output.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "js",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Js Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
