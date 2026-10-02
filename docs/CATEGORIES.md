@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,598** skills across structured domains, categories, and subcategories.
+Master navigation for **1,599** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (555 skills)
 
@@ -1176,7 +1176,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (97 skills)
+## Backend (98 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1397,7 +1397,7 @@ Category index: [`docs/categories/python.md`](categories/python.md)
 - **Async Concurrency** (1):
   - [asyncio-concurrency-and-event-loop-architecture](../skills/backend/python/async-concurrency/asyncio-concurrency-and-event-loop-architecture/SKILL.md) — Use this skill to design, implement, and debug high-performance asynchronous Python systems using standard asyncio. It covers structured concurrency with asyncio.TaskGroup (Python 3.11+), resilient cancellation semantics, worker queues with backpressure, thread/process pool offloading with run_in_executor, event loop latency profiling, and avoiding blocking I/O pitfalls.
 
-### Python Services (11 skills)
+### Python Services (12 skills)
 Category index: [`docs/categories/python-services.md`](categories/python-services.md)
 
 - **Azure_Appconfigurati** (1):
@@ -1422,6 +1422,8 @@ Category index: [`docs/categories/python-services.md`](categories/python-service
   - [matplotlib](../skills/backend/python-services/matplotlib/matplotlib/SKILL.md) — Use this skill to design, implement, and operate production workflows for matplotlib. Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots.
 - **N8N_Code_Python** (1):
   - [n8n-code-python](../skills/backend/python-services/n8n_code_python/n8n-code-python/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code python. Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.
+- **Networkx** (1):
+  - [networkx](../skills/backend/python-services/networkx/networkx/SKILL.md) — Use this skill to design, implement, and operate production workflows for networkx. NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs.
 
 ### Realtime (1 skills)
 Category index: [`docs/categories/realtime.md`](categories/realtime.md)

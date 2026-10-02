@@ -14464,6 +14464,28 @@
     "maturity": "stable"
   },
   {
+    "name": "networkx",
+    "path": "skills/backend/python-services/networkx/networkx",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "networkx",
+    "description": "Use this skill to design, implement, and operate production workflows for networkx. NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs.",
+    "tags": [
+      "backend",
+      "python-services",
+      "networkx",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Networkx",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

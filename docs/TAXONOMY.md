@@ -668,7 +668,8 @@ AI_Skills_Booster/
 │   │   ├── azure_monitor_query_/ (1 skills)
 │   │   ├── azure_servicebus_py/ (1 skills)
 │   │   ├── matplotlib/ (1 skills)
-│   │   └── n8n_code_python/ (1 skills)
+│   │   ├── n8n_code_python/ (1 skills)
+│   │   └── networkx/ (1 skills)
 │   ├── realtime/
 │   │   └── websocket/ (1 skills)
 │   └── resilience/

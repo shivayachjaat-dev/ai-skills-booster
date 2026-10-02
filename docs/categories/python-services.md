@@ -1,6 +1,6 @@
 # Category Index: Python Services
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,3 +15,4 @@
 | [azure-servicebus-py](../../skills/backend/python-services/azure_servicebus_py/azure-servicebus-py/SKILL.md) | `azure_servicebus_py` | `advanced` | `stable` | Use this skill to azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns. |
 | [matplotlib](../../skills/backend/python-services/matplotlib/matplotlib/SKILL.md) | `matplotlib` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for matplotlib. Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots. |
 | [n8n-code-python](../../skills/backend/python-services/n8n_code_python/n8n-code-python/SKILL.md) | `n8n_code_python` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n code python. Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes. |
+| [networkx](../../skills/backend/python-services/networkx/networkx/SKILL.md) | `networkx` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for networkx. NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs. |
