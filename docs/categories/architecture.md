@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **140 skills** available in this category.
+> **141 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -142,5 +142,6 @@
 | [hubspot-automation](../../skills/software-engineering/architecture/patterns/hubspot-automation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hubspot automation. Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration. |
 | [hugging-face-jobs](../../skills/software-engineering/architecture/patterns/hugging-face-jobs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face jobs. Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence. |
 | [hugo-to-markdown](../../skills/software-engineering/architecture/patterns/hugo-to-markdown/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugo to markdown. Convert Hugo documentation sites and Hugo-managed content into standard Markdown. |
+| [i-have-adhd](../../skills/software-engineering/architecture/patterns/i-have-adhd/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for i have adhd. Shape output for ADHD readers: next action first, numbered steps, restated |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
