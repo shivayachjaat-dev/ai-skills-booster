@@ -1,6 +1,6 @@
 # Category Index: Authentication
 
-> **5 skills** available in this category.
+> **6 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -8,4 +8,5 @@
 | [azure-identity-dotnet](../../skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) | `azure_identity_dotne` | `advanced` | `stable` | Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. |
 | [azure-identity-java](../../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) | `azure_identity_java` | `advanced` | `stable` | Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD). |
 | [azure-identity-rust](../../skills/security/authentication/azure_identity_rust/azure-identity-rust/SKILL.md) | `azure_identity_rust` | `advanced` | `stable` | Use this skill to azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication. |
+| [azure-identity-ts](../../skills/security/authentication/azure_identity_ts/azure-identity-ts/SKILL.md) | `azure_identity_ts` | `advanced` | `stable` | Use this skill to authenticate to Azure services with various credential types. |
 | [oauth2-jwt-authentication-flow](../../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) | `oauth2` | `advanced` | `stable` | Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists. |

@@ -6209,6 +6209,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-identity-ts",
+    "path": "skills/security/authentication/azure_identity_ts/azure-identity-ts",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "azure_identity_ts",
+    "description": "Use this skill to authenticate to Azure services with various credential types.",
+    "tags": [
+      "security",
+      "authentication",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Identity Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
