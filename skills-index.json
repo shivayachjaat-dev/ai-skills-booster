@@ -10467,6 +10467,28 @@
     "maturity": "stable"
   },
   {
+    "name": "maintain-codex-wiki",
+    "path": "skills/ai-engineering/models/maintain_codex_wiki/maintain-codex-wiki",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "maintain_codex_wiki",
+    "description": "Use this skill to design, implement, and operate production workflows for maintain codex wiki. Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and deterministic checks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "maintain",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Maintain Codex Wiki",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

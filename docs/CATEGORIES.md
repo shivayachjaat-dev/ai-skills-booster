@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,461** skills across structured domains, categories, and subcategories.
+Master navigation for **1,462** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (513 skills)
+## Ai Engineering (514 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -262,7 +262,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Mac_Mini_Llm_Lab** (1):
   - [mac-mini-llm-lab](../skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) — Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access,
 
-### Models (372 skills)
+### Models (373 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -984,6 +984,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [mailtrap-setting-up-sending-domain](../skills/ai-engineering/models/mailtrap_setting_up_/mailtrap-setting-up-sending-domain/SKILL.md) — Use this skill to design, implement, and operate production workflows for mailtrap setting up sending domain. Add or verify a Mailtrap sending domain, troubleshoot DNS propagation, publish SPF/DKIM/DMARC records, and complete compliance.
 - **Mailtrap_Testing_Wit** (1):
   - [mailtrap-testing-with-sandbox](../skills/ai-engineering/models/mailtrap_testing_wit/mailtrap-testing-with-sandbox/SKILL.md) — Use this skill to design, implement, and operate production workflows for mailtrap testing with sandbox. Capture outbound email in Mailtrap Email Sandbox for development, staging, CI, HTML inspection, spam checks, and fake inbox tests.
+- **Maintain_Codex_Wiki** (1):
+  - [maintain-codex-wiki](../skills/ai-engineering/models/maintain_codex_wiki/maintain-codex-wiki/SKILL.md) — Use this skill to design, implement, and operate production workflows for maintain codex wiki. Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and deterministic checks.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
