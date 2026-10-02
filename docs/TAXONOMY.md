@@ -614,7 +614,8 @@ AI_Skills_Booster/
 │   │   ├── dbos_golang/ (1 skills)
 │   │   ├── dbos_python/ (1 skills)
 │   │   ├── dbos_typescript/ (1 skills)
-│   │   └── dbt_transformation_p/ (1 skills)
+│   │   ├── dbt_transformation_p/ (1 skills)
+│   │   └── decision_navigator/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)

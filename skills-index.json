@@ -11961,6 +11961,28 @@
     "maturity": "stable"
   },
   {
+    "name": "decision-navigator",
+    "path": "skills/frontend/ui-ux/decision_navigator/decision-navigator",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "decision_navigator",
+    "description": "Use this skill to guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "decision",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Decision Navigator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
