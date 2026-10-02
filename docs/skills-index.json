@@ -13237,6 +13237,28 @@
     "maturity": "stable"
   },
   {
+    "name": "glassmorphism",
+    "path": "skills/frontend/web-architecture/glassmorphism/glassmorphism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "glassmorphism",
+    "description": "Use this skill to design, implement, and operate production workflows for glassmorphism. Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "glassmorphism",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Glassmorphism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

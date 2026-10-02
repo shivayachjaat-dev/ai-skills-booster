@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **778** skills across structured domains, categories, and subcategories.
+Master navigation for **779** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (272 skills)
 
@@ -1301,7 +1301,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (113 skills)
+## Frontend (114 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1511,7 +1511,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (31 skills)
+### Web Architecture (32 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1567,6 +1567,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [flat-design-2](../skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.
 - **Frutiger_Aero** (1):
   - [frutiger-aero](../skills/frontend/web-architecture/frutiger_aero/frutiger-aero/SKILL.md) — Use this skill to design, implement, and operate production workflows for frutiger aero. Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.
+- **Glassmorphism** (1):
+  - [glassmorphism](../skills/frontend/web-architecture/glassmorphism/glassmorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for glassmorphism. Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel.
 - **Production_Audit** (1):
   - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - **Security_Audit** (1):
