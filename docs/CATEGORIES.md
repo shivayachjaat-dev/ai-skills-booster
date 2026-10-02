@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,456** skills across structured domains, categories, and subcategories.
+Master navigation for **1,457** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (508 skills)
+## Ai Engineering (509 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -262,7 +262,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Mac_Mini_Llm_Lab** (1):
   - [mac-mini-llm-lab](../skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) — Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access,
 
-### Models (367 skills)
+### Models (368 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -974,6 +974,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [m365-entra-attack](../skills/ai-engineering/models/m365_entra_attack/m365-entra-attack/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 entra attack. Microsoft 365 / Entra ID red-team attack chain
 - **Magic_Animator** (1):
   - [magic-animator](../skills/ai-engineering/models/magic_animator/magic-animator/SKILL.md) — Use this skill to design, implement, and operate production workflows for magic animator. AI-powered animation tool for creating motion in logos, UI, icons, and social media assets.
+- **Mailchimp_Automation** (1):
+  - [mailchimp-automation](../skills/ai-engineering/models/mailchimp_automation/mailchimp-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for mailchimp automation. Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

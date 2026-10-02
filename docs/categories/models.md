@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **367 skills** available in this category.
+> **368 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -364,6 +364,7 @@
 | [m365-agents-py](../../skills/ai-engineering/models/m365_agents_py/m365-agents-py/SKILL.md) | `m365_agents_py` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for m365 agents py. Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth. |
 | [m365-entra-attack](../../skills/ai-engineering/models/m365_entra_attack/m365-entra-attack/SKILL.md) | `m365_entra_attack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for m365 entra attack. Microsoft 365 / Entra ID red-team attack chain |
 | [magic-animator](../../skills/ai-engineering/models/magic_animator/magic-animator/SKILL.md) | `magic_animator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for magic animator. AI-powered animation tool for creating motion in logos, UI, icons, and social media assets. |
+| [mailchimp-automation](../../skills/ai-engineering/models/mailchimp_automation/mailchimp-automation/SKILL.md) | `mailchimp_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mailchimp automation. Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

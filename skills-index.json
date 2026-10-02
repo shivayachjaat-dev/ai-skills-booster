@@ -10357,6 +10357,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mailchimp-automation",
+    "path": "skills/ai-engineering/models/mailchimp_automation/mailchimp-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "mailchimp_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for mailchimp automation. Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "mailchimp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mailchimp Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
