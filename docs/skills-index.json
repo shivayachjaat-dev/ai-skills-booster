@@ -6095,6 +6095,28 @@
     "maturity": "stable"
   },
   {
+    "name": "database-admin",
+    "path": "skills/backend/databases/database_admin/database-admin",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "database_admin",
+    "description": "Use this skill to expert database administrator specializing in modern cloud databases, automation, and reliability engineering.",
+    "tags": [
+      "backend",
+      "databases",
+      "database",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Database Admin",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
