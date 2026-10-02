@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 342 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 343 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -217,6 +217,7 @@
 | [azure-monitor-opentelemetry-ts](skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-ts/SKILL.md) | `devops` | `cloud-infrastructure` | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to auto-instrument Node.js applications with distributed tracing, metrics, and logs. |
 | [azure-resource-manager-cosmosdb-dotnet](skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-cosmosdb-dotnet/SKILL.md) | `devops` | `cloud-infrastructure` | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Cosmos DB in .NET. |
 | [azure-resource-manager-durabletask-dotnet](skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-durabletask-dotnet/SKILL.md) | `devops` | `cloud-infrastructure` | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Durable Task Scheduler in .NET. |
+| [azure-resource-manager-playwright-dotnet](skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-playwright-dotnet/SKILL.md) | `devops` | `cloud-infrastructure` | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Microsoft Playwright Testing in .NET. |
 | [helm-chart-architecture-and-lifecycle](skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle/SKILL.md) | `devops` | `container-orchestration` | `helm` | `intermediate` | `stable` | Use this skill when architecting, authoring, and managing production-grade Kubernetes packages with Helm 3+. It guides the agent through chart file structures, named template helpers (_helpers.tpl), strict values schema validation using values.schema.json, dependency subcharts, test suites (helm test), and semantic versioning release workflows. |
 | [apple-silicon-container-runtime-optimization](skills/devops/containers/apple-silicon/apple-silicon-container-runtime-optimization/SKILL.md) | `devops` | `containers` | `apple-silicon` | `intermediate` | `stable` | Use this skill to build, optimize, and manage lightweight OCI Linux containers and microVM runtimes on Apple Silicon (ARM64 macOS) using native virtualization frameworks, Rosetta 2 multi-arch emulation, Colima, and OrbStack. It covers cross-platform multi-arch image compilation (buildx), bind-mount I/O caching, and GPU acceleration. |
 | [docker-container-optimization](skills/devops/containers/optimization/docker-container-optimization/SKILL.md) | `devops` | `containers` | `optimization` | `intermediate` | `stable` | Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout. |

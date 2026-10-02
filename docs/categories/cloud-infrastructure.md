@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **28 skills** available in this category.
+> **29 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,3 +32,4 @@
 | [azure-monitor-opentelemetry-ts](../../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-ts/SKILL.md) | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to auto-instrument Node.js applications with distributed tracing, metrics, and logs. |
 | [azure-resource-manager-cosmosdb-dotnet](../../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-cosmosdb-dotnet/SKILL.md) | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Cosmos DB in .NET. |
 | [azure-resource-manager-durabletask-dotnet](../../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-durabletask-dotnet/SKILL.md) | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Durable Task Scheduler in .NET. |
+| [azure-resource-manager-playwright-dotnet](../../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-playwright-dotnet/SKILL.md) | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Microsoft Playwright Testing in .NET. |
