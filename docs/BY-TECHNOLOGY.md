@@ -241,6 +241,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
 - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
+## Flagger (1 skills)
+
+- [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
+
 ## Flower (1 skills)
 
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
@@ -406,8 +410,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
 
-## Istio (2 skills)
+## Istio (3 skills)
 
+- [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
 - [istio-service-mesh-traffic-routing](../skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing/SKILL.md) — Use this skill when implementing advanced traffic management, security policies, and canary deployments using the Istio Service Mesh. It guides the agent through VirtualService routing rules, DestinationRule subset definitions, mutual TLS (mTLS) PeerAuthentication enforcement, fault injection, and Envoy sidecar proxy tuning.
 - [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
 
@@ -447,9 +452,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [istio-service-mesh-traffic-routing](../skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing/SKILL.md) — Use this skill when implementing advanced traffic management, security policies, and canary deployments using the Istio Service Mesh. It guides the agent through VirtualService routing rules, DestinationRule subset definitions, mutual TLS (mTLS) PeerAuthentication enforcement, fault injection, and Envoy sidecar proxy tuning.
 
-## Kubernetes (8 skills)
+## Kubernetes (9 skills)
 
 - [helm-chart-architecture-and-lifecycle](../skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle/SKILL.md) — Use this skill when architecting, authoring, and managing production-grade Kubernetes packages with Helm 3+. It guides the agent through chart file structures, named template helpers (_helpers.tpl), strict values schema validation using values.schema.json, dependency subcharts, test suites (helm test), and semantic versioning release workflows.
+- [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
 - [argocd-gitops-continuous-delivery](../skills/devops/gitops/argo-cd/argocd-gitops-continuous-delivery/SKILL.md) — Use this skill when designing, configuring, and operating GitOps continuous delivery workflows on Kubernetes using Argo CD. It guides the agent through Application and ApplicationSet CRD declarations, automated self-healing and pruning sync policies, sync waves and resource hooks, multi-tenant RBAC, and repository secrets integration.
 - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
 - [grafana-loki-log-aggregation](../skills/devops/observability/grafana-loki/grafana-loki-log-aggregation/SKILL.md) — Use this skill when designing, configuring, and querying horizontally scalable log aggregation systems using Grafana Loki and Promtail / Grafana Alloy. It guides the agent through label cardinality management to prevent index explosion, authoring LogQL queries and metric extractions, configuring structured metadata, and creating LogQL alerting rules.
@@ -680,8 +686,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
 - [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
 
-## Prometheus (2 skills)
+## Prometheus (3 skills)
 
+- [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
 - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
 - [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
 
@@ -925,6 +932,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## SimpleWebAuthn (1 skills)
 
 - [webauthn-fido2-passkey-authentication](../skills/security/zero-trust/mfa-webauthn/webauthn-fido2-passkey-authentication/SKILL.md) — Use this skill when designing, implementing, and securing passwordless authentication and multi-factor authentication (MFA) using WebAuthn, FIDO2, and Passkeys. It covers registration and authentication ceremony state machines, cryptographic challenge verification, public key credential storage, authenticator attestation, and signature counter verification.
+
+## Slack Webhooks (1 skills)
+
+- [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
 
 ## Snowflake (1 skills)
 

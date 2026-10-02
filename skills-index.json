@@ -1053,6 +1053,32 @@
     "maturity": "stable"
   },
   {
+    "name": "flagger-canary-progressive-delivery",
+    "path": "skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery",
+    "domain": "devops",
+    "category": "continuous-delivery",
+    "subcategory": "flagger",
+    "description": "Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.",
+    "tags": [
+      "flagger",
+      "canary",
+      "progressive-delivery",
+      "kubernetes",
+      "istio",
+      "gitops",
+      "devops"
+    ],
+    "technologies": [
+      "Flagger",
+      "Kubernetes",
+      "Istio",
+      "Prometheus",
+      "Slack Webhooks"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-reusable-workflows-and-composite-actions",
     "path": "skills/devops/continuous-integration/github-reusable-workflows/github-actions-reusable-workflows-and-composite-actions",
     "domain": "devops",

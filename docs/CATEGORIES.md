@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **87** skills across structured domains, categories, and subcategories.
+Master navigation for **88** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (13 skills)
 
@@ -216,7 +216,7 @@ Category index: [`docs/categories/time-series.md`](categories/time-series.md)
 - **Timescaledb** (1):
   - [timescaledb-hypertables-and-retention](../skills/databases/time-series/timescaledb/timescaledb-hypertables-and-retention/SKILL.md) — Use this skill when architecting, partitioning, and optimizing high-throughput time-series databases with TimescaleDB on PostgreSQL. It guides the agent through hypertable creation, chunk time interval sizing, continuous aggregates with automatic refresh policies, column-oriented compression policies, and data retention drops.
 
-## Devops (14 skills)
+## Devops (15 skills)
 
 ### Ci Cd (1 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -235,6 +235,12 @@ Category index: [`docs/categories/containers.md`](categories/containers.md)
 
 - **Optimization** (1):
   - [docker-container-optimization](../skills/devops/containers/optimization/docker-container-optimization/SKILL.md) — Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.
+
+### Continuous Delivery (1 skills)
+Category index: [`docs/categories/continuous-delivery.md`](categories/continuous-delivery.md)
+
+- **Flagger** (1):
+  - [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
 
 ### Continuous Integration (1 skills)
 Category index: [`docs/categories/continuous-integration.md`](categories/continuous-integration.md)
