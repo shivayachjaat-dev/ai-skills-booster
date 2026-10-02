@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 466 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 467 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -244,6 +244,7 @@
 | [avalonia-cross-platform-desktop-ui-architecture](skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) | `desktop` | `frameworks` | `avalonia-dotnet` | `advanced` | `stable` | Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux. |
 | [ai-native-cli-tool-architecture-with-typer](skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) | `developer-tools` | `cli` | `typer-architecture` | `intermediate` | `stable` | Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas. |
 | [ask-copilot](skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) | `developer-tools` | `cli-utilities` | `ask_copilot` | `advanced` | `stable` | Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction. |
+| [career-ops](skills/developer-tools/cli-utilities/career_ops/career-ops/SKILL.md) | `developer-tools` | `cli-utilities` | `career_ops` | `advanced` | `stable` | Use this skill to multi-CLI job-search command center: evaluate offers, scan portals, |
 | [asana-automation](skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) | `developer-tools` | `productivity` | `asana_automation` | `advanced` | `stable` | Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas. |
 | [bamboohr-automation](skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) | `developer-tools` | `productivity` | `bamboohr_automation` | `advanced` | `stable` | Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas. |
 | [basecamp-automation](skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) | `developer-tools` | `productivity` | `basecamp_automation` | `advanced` | `stable` | Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas. |

@@ -5559,6 +5559,28 @@
     "maturity": "stable"
   },
   {
+    "name": "career-ops",
+    "path": "skills/developer-tools/cli-utilities/career_ops/career-ops",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "career_ops",
+    "description": "Use this skill to multi-CLI job-search command center: evaluate offers, scan portals,",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "career",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Career Ops",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",

@@ -301,7 +301,8 @@ AI_Skills_Booster/
 │   ├── cli/
 │   │   └── typer-architecture/ (1 skills)
 │   ├── cli-utilities/
-│   │   └── ask_copilot/ (1 skills)
+│   │   ├── ask_copilot/ (1 skills)
+│   │   └── career_ops/ (1 skills)
 │   ├── productivity/
 │   │   ├── asana_automation/ (1 skills)
 │   │   ├── bamboohr_automation/ (1 skills)
