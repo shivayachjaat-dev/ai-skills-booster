@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,353 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,354 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -418,6 +418,7 @@
 | [klaviyo-automation](skills/ai-engineering/models/klaviyo_automation/klaviyo-automation/SKILL.md) | `ai-engineering` | `models` | `klaviyo_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for klaviyo automation. Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas. |
 | [kpi-tracker](skills/ai-engineering/models/kpi_tracker/kpi-tracker/SKILL.md) | `ai-engineering` | `models` | `kpi_tracker` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kpi tracker. KPI register: metric by level, department, job title and employee, linked OKR, unit and direction, target against actual, achievement and weight percentages, period and owner. Use for scorecards. |
 | [kubernetes-architect](skills/ai-engineering/models/kubernetes_architect/kubernetes-architect/SKILL.md) | `ai-engineering` | `models` | `kubernetes_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kubernetes architect. Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. |
+| [kubernetes-deployment](skills/ai-engineering/models/kubernetes_deploymen/kubernetes-deployment/SKILL.md) | `ai-engineering` | `models` | `kubernetes_deploymen` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kubernetes deployment. Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

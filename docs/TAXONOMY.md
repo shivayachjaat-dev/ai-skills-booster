@@ -420,6 +420,7 @@ AI_Skills_Booster/
 │   │   ├── klaviyo_automation/ (1 skills)
 │   │   ├── kpi_tracker/ (1 skills)
 │   │   ├── kubernetes_architect/ (1 skills)
+│   │   ├── kubernetes_deploymen/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
