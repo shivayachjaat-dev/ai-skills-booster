@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **99** skills across structured domains, categories, and subcategories.
+Master navigation for **100** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -527,7 +527,13 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (3 skills)
+## Testing (4 skills)
+
+### Acceptance Testing (1 skills)
+Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
+
+- **Bdd Orchestration** (1):
+  - [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

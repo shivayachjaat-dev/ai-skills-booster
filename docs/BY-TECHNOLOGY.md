@@ -299,6 +299,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [threejs-3d-web-experience](../skills/frontend/3d-graphics/threejs/threejs-3d-web-experience/SKILL.md) — Use this skill when designing, implementing, and optimizing interactive 3D web experiences using Three.js and React Three Fiber (R3F). It guides the agent through scene graph architecture, GLTF/GLB model loading and compression (Draco/Meshopt), custom GLSL shaders, camera controls (OrbitControls), lighting and shadows, and 60 FPS mobile performance optimization.
 
+## Gherkin (1 skills)
+
+- [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
+
 ## Git (8 skills)
 
 - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
@@ -314,7 +318,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
 
-## GitHub Actions (6 skills)
+## GitHub Actions (7 skills)
 
 - [deepeval-unit-testing-llm-apps](../skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps/SKILL.md) — Use this skill when designing, authoring, and automating CI/CD unit testing suites for Large Language Model applications using DeepEval. It guides the agent through defining LLM test cases (LLMTestCase), configuring G-Eval custom criteria metrics, hallucination and answer relevancy scoring, integrating with pytest, and setting regression assertions.
 - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
@@ -322,6 +326,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
 - [software-supply-chain-sbom-audit](../skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit/SKILL.md) — Use this skill when auditing, generating, and verifying Software Bill of Materials (SBOM) and scanning software supply chains for CVE vulnerabilities and non-compliant open-source licenses. It guides the agent through generating CycloneDX/SPDX SBOMs with Syft, scanning for known exploits with Grype, validating software licenses, and enforcing CI/CD gates.
 - [container-vulnerability-scanning-trivy](../skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy/SKILL.md) — Use this skill when auditing, scanning, and enforcing security policies across container images, filesystems, and Software Bill of Materials (SBOM) using Aqua Security Trivy. It guides the agent through CI/CD gate automation, severity threshold enforcement (CRITICAL/HIGH), CVE filtering via .trivyignore, and generating CycloneDX SBOMs.
+- [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
 
 ## GitOps (1 skills)
 
@@ -725,9 +730,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [prisma-schema-migration-and-relations](../skills/databases/orm/prisma/prisma-schema-migration-and-relations/SKILL.md) — Use this skill when architecting database schemas, managing relational migrations, and optimizing database queries using Prisma ORM (TypeScript/Node.js). It covers complex relationship modeling (1:1, 1:N, M:N explicit join tables), zero-downtime migration workflows (`prisma migrate dev/deploy`), connection pooling with PgBouncer, and avoiding N+1 query traps.
 
-## Playwright (2 skills)
+## Playwright (3 skills)
 
 - [wcag-accessibility-audit](../skills/frontend/accessibility/wcag/wcag-accessibility-audit/SKILL.md) — Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.
+- [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
 - [playwright-e2e-testing](../skills/testing/e2e/playwright/playwright-e2e-testing/SKILL.md) — Use this skill when authoring, debugging, and maintaining end-to-end (E2E) automated browser test suites using Playwright. It guides the agent through resilient locator strategies (user-facing role/text), page object models, network mocking, authenticated session caching, parallel execution, and flaky test elimination.
 
 ## Polars (1 skills)
@@ -837,6 +843,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [legacy-system-strangler-migration](../skills/software-engineering/modernization/migration/legacy-system-strangler-migration/SKILL.md) — Use this skill when incrementally modernizing, decomposing, and replacing legacy monoliths or deprecated backend systems without risky all-at-once cutovers. It guides the agent through the Strangler Fig pattern, reverse proxy intercept routing, parallel run shadow verification, database synchronization, and progressive decommission.
 - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
+
+## Python Behave (1 skills)
+
+- [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
 
 ## Python OTel SDK (1 skills)
 
@@ -1271,9 +1281,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [promptfoo-llm-eval-benchmarking](../skills/ai-engineering/evaluation/promptfoo/promptfoo-llm-eval-benchmarking/SKILL.md) — Use this skill when designing, executing, and automating LLM prompt evaluations and adversarial red-teaming benchmarks using promptfoo. It guides the agent through defining test matrices (providers x prompts x variables), configuring deterministic and LLM-as-a-judge assertions, running red-team vulnerability scans, and integrating evaluations into CI/CD pipelines.
 
-## pytest (1 skills)
+## pytest (2 skills)
 
 - [deepeval-unit-testing-llm-apps](../skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps/SKILL.md) — Use this skill when designing, authoring, and automating CI/CD unit testing suites for Large Language Model applications using DeepEval. It guides the agent through defining LLM test cases (LLMTestCase), configuring G-Eval custom criteria metrics, hallucination and answer relevancy scoring, integrating with pytest, and setting regression assertions.
+- [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
 
 ## shadcn/ui (1 skills)
 

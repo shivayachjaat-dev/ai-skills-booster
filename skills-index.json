@@ -2410,6 +2410,32 @@
     "maturity": "stable"
   },
   {
+    "name": "e2e-acceptance-testing-orchestrator",
+    "path": "skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator",
+    "domain": "testing",
+    "category": "acceptance-testing",
+    "subcategory": "bdd-orchestration",
+    "description": "Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.",
+    "tags": [
+      "acceptance-testing",
+      "bdd",
+      "cucumber",
+      "gherkin",
+      "playwright",
+      "testing",
+      "qa"
+    ],
+    "technologies": [
+      "Gherkin",
+      "Python Behave",
+      "Playwright",
+      "pytest",
+      "GitHub Actions"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

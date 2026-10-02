@@ -187,6 +187,8 @@ AI_Skills_Booster/
 │   └── resilience/
 │   │   └── circuit-breaker/ (1 skills)
 ├── testing/
+│   ├── acceptance-testing/
+│   │   └── bdd-orchestration/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/
