@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,3 +19,4 @@
 | [expo-brownfield](../../skills/frontend/frameworks/expo_brownfield/expo-brownfield/SKILL.md) | `expo_brownfield` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo brownfield. Integrate Expo and React Native into an existing native iOS or Android app. Use when the user mentions brownfield, embedding React Native in a native app, AAR/XCFramework, or adding Expo to an existing Kotlin/Swift project. Covers both the isolated approac... |
 | [expo-ui](../../skills/frontend/frameworks/expo_ui/expo-ui/SKILL.md) | `expo_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo ui. Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android rendered from React in an Expo or React Native app. |
 | [fp-react](../../skills/frontend/frameworks/fp_react/fp-react/SKILL.md) | `fp_react` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Works with React 18/19, Next.js 14/15. |
+| [fp-ts-react](../../skills/frontend/frameworks/fp_ts_react/fp-ts-react/SKILL.md) | `fp_ts_react` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp ts react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15. |

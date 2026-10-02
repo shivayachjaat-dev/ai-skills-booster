@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,014** skills across structured domains, categories, and subcategories.
+Master navigation for **1,015** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (355 skills)
 
@@ -1531,7 +1531,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (189 skills)
+## Frontend (190 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1557,7 +1557,7 @@ Category index: [`docs/categories/design-systems.md`](categories/design-systems.
 - **Clean Ui Anti Slop** (1):
   - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
-### Frameworks (12 skills)
+### Frameworks (13 skills)
 Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 
 - **Angular** (1):
@@ -1584,6 +1584,8 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
   - [expo-ui](../skills/frontend/frameworks/expo_ui/expo-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo ui. Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android rendered from React in an Expo or React Native app.
 - **Fp_React** (1):
   - [fp-react](../skills/frontend/frameworks/fp_react/fp-react/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Works with React 18/19, Next.js 14/15.
+- **Fp_Ts_React** (1):
+  - [fp-ts-react](../skills/frontend/frameworks/fp_ts_react/fp-ts-react/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.
 
 ### Nextjs (1 skills)
 Category index: [`docs/categories/nextjs.md`](categories/nextjs.md)

@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (832 skills)
+## Bash (833 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1558,6 +1558,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [expo-brownfield](../skills/frontend/frameworks/expo_brownfield/expo-brownfield/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo brownfield. Integrate Expo and React Native into an existing native iOS or Android app. Use when the user mentions brownfield, embedding React Native in a native app, AAR/XCFramework, or adding Expo to an existing Kotlin/Swift project. Covers both the isolated approac...
 - [expo-ui](../skills/frontend/frameworks/expo_ui/expo-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo ui. Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android rendered from React in an Expo or React Native app.
 - [fp-react](../skills/frontend/frameworks/fp_react/fp-react/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Works with React 18/19, Next.js 14/15.
+- [fp-ts-react](../skills/frontend/frameworks/fp_ts_react/fp-ts-react/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.
 - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 - [cc-skill-frontend-patterns](../skills/frontend/ui-development/cc_skill_frontend_pa/cc-skill-frontend-patterns/SKILL.md) — Use this skill to frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
 - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
@@ -4528,6 +4529,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [fp-ts-pragmatic](../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.
 
+## Fp Ts React (1 skills)
+
+- [fp-ts-react](../skills/frontend/frameworks/fp_ts_react/fp-ts-react/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.
+
 ## FreeRTOS (1 skills)
 
 - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
@@ -5526,7 +5531,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (935 skills)
+## Python (936 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6086,6 +6091,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [expo-brownfield](../skills/frontend/frameworks/expo_brownfield/expo-brownfield/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo brownfield. Integrate Expo and React Native into an existing native iOS or Android app. Use when the user mentions brownfield, embedding React Native in a native app, AAR/XCFramework, or adding Expo to an existing Kotlin/Swift project. Covers both the isolated approac...
 - [expo-ui](../skills/frontend/frameworks/expo_ui/expo-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo ui. Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android rendered from React in an Expo or React Native app.
 - [fp-react](../skills/frontend/frameworks/fp_react/fp-react/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Works with React 18/19, Next.js 14/15.
+- [fp-ts-react](../skills/frontend/frameworks/fp_ts_react/fp-ts-react/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.
 - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 - [cc-skill-frontend-patterns](../skills/frontend/ui-development/cc_skill_frontend_pa/cc-skill-frontend-patterns/SKILL.md) — Use this skill to frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
 - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c

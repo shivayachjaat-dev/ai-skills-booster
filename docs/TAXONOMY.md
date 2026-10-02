@@ -688,7 +688,8 @@ AI_Skills_Booster/
 │   │   ├── discord_automation/ (1 skills)
 │   │   ├── expo_brownfield/ (1 skills)
 │   │   ├── expo_ui/ (1 skills)
-│   │   └── fp_react/ (1 skills)
+│   │   ├── fp_react/ (1 skills)
+│   │   └── fp_ts_react/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/
