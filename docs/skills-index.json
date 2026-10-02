@@ -3315,6 +3315,28 @@
     "maturity": "stable"
   },
   {
+    "name": "antigravity-design-expert",
+    "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "antigravity_design_e",
+    "description": "Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "antigravity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Antigravity Design Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",

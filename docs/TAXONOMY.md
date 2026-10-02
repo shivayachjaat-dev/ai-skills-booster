@@ -234,8 +234,10 @@ AI_Skills_Booster/
 │   │   └── architecture/ (1 skills)
 │   ├── state-management/
 │   │   └── zustand/ (1 skills)
-│   └── ui-ux/
+│   ├── ui-ux/
 │   │   └── anti_sleep/ (1 skills)
+│   └── web-architecture/
+│   │   └── antigravity_design_e/ (1 skills)
 ├── marketing/
 │   ├── aso/
 │   │   └── app-store-optimization/ (1 skills)
