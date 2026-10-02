@@ -25821,6 +25821,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-accounting-setup",
+    "path": "skills/frontend/ui-ux/odoo_accounting_setu/odoo-accounting-setup",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_accounting_setu",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo accounting setup. Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Accounting Setup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

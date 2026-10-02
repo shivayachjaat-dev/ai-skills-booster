@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **189 skills** available in this category.
+> **190 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -190,6 +190,7 @@
 | [nx-workspace-patterns](../../skills/frontend/ui-ux/nx_workspace_pattern/nx-workspace-patterns/SKILL.md) | `nx_workspace_pattern` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nx workspace patterns. Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands. |
 | [observability-cloud-planning](../../skills/frontend/ui-ux/observability_cloud_/observability-cloud-planning/SKILL.md) | `observability_cloud_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for observability cloud planning. Build a cloud, SLO, and incident-readiness register after intake. Use when an SME needs monitoring scope, alert ownership, cost limits, or service planning. |
 | [observability-engineer](../../skills/frontend/ui-ux/observability_engine/observability-engineer/SKILL.md) | `observability_engine` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for observability engineer. Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows. |
+| [odoo-accounting-setup](../../skills/frontend/ui-ux/odoo_accounting_setu/odoo-accounting-setup/SKILL.md) | `odoo_accounting_setu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo accounting setup. Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

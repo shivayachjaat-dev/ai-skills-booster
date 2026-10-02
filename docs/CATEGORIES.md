@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,638** skills across structured domains, categories, and subcategories.
+Master navigation for **1,639** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (567 skills)
 
@@ -2173,7 +2173,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (324 skills)
+## Frontend (325 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2339,7 +2339,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (189 skills)
+### Ui Ux (190 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2714,6 +2714,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [observability-cloud-planning](../skills/frontend/ui-ux/observability_cloud_/observability-cloud-planning/SKILL.md) — Use this skill to design, implement, and operate production workflows for observability cloud planning. Build a cloud, SLO, and incident-readiness register after intake. Use when an SME needs monitoring scope, alert ownership, cost limits, or service planning.
 - **Observability_Engine** (1):
   - [observability-engineer](../skills/frontend/ui-ux/observability_engine/observability-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for observability engineer. Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.
+- **Odoo_Accounting_Setu** (1):
+  - [odoo-accounting-setup](../skills/frontend/ui-ux/odoo_accounting_setu/odoo-accounting-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo accounting setup. Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):

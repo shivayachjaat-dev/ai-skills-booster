@@ -1245,6 +1245,7 @@ AI_Skills_Booster/
 │   │   ├── nx_workspace_pattern/ (1 skills)
 │   │   ├── observability_cloud_/ (1 skills)
 │   │   ├── observability_engine/ (1 skills)
+│   │   ├── odoo_accounting_setu/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
