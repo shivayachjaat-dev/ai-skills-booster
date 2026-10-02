@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **169** skills across structured domains, categories, and subcategories.
+Master navigation for **170** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -495,7 +495,7 @@ Category index: [`docs/categories/sre.md`](categories/sre.md)
 - **Incident Remediation** (1):
   - [ai-sre-autonomous-incident-triage-and-remediation](../skills/devops/sre/incident-remediation/ai-sre-autonomous-incident-triage-and-remediation/SKILL.md) — Use this skill to design and deploy autonomous AI-driven Site Reliability Engineering (SRE) incident response and triage workflows. It covers alerting webhook ingestion (PagerDuty, Datadog), automated log/trace correlation, blast-radius assessment, safe auto-remediation playbooks, and blameless post-mortem drafting.
 
-## Frontend (8 skills)
+## Frontend (9 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -532,6 +532,12 @@ Category index: [`docs/categories/nextjs.md`](categories/nextjs.md)
 
 - **Architecture** (1):
   - [nextjs-app-router-architecture](../skills/frontend/nextjs/architecture/nextjs-app-router-architecture/SKILL.md) — Use this skill when architecting and developing full-stack web applications with Next.js App Router (version 14+ / 15+). It guides the agent through React Server Components (RSC) vs Client Components boundaries, Server Actions with Zod validation, streaming SSR with Suspense boundaries, parallel and intercepting routes, dynamic segment caching, and revalidation (ISR).
+
+### Performance (1 skills)
+Category index: [`docs/categories/performance.md`](categories/performance.md)
+
+- **Web Vitals** (1):
+  - [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
 
 ### React (1 skills)
 Category index: [`docs/categories/react.md`](categories/react.md)

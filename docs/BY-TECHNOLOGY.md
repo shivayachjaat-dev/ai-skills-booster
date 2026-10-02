@@ -250,9 +250,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
-## CSS3 (1 skills)
+## CSS3 (2 skills)
 
 - [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
+- [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
 
 ## CSV (1 skills)
 
@@ -277,6 +278,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Chroma (1 skills)
 
 - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
+
+## Chrome DevTools (1 skills)
+
+- [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
 
 ## Chromium (1 skills)
 
@@ -683,10 +688,11 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 
-## HTML5 (3 skills)
+## HTML5 (4 skills)
 
 - [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
 - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
+- [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
 - [ai-search-engine-optimization-and-schema-markup](../skills/marketing/seo/ai-search-optimization/ai-search-engine-optimization-and-schema-markup/SKILL.md) — Use this skill to optimize digital content and technical architecture for Generative Engine Optimization (GEO) and AI search citations across Google AI Overviews, Perplexity, ChatGPT Search, and Claude. It covers structured JSON-LD schema markup, information gain density, entity authority graphs, and machine-readable markdown tables.
 
 ## HTML5 Canvas (1 skills)
@@ -819,10 +825,11 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
 
-## JavaScript (5 skills)
+## JavaScript (6 skills)
 
 - [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
 - [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
+- [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
 - [p5js-generative-algorithmic-art-canvas](../skills/multimedia/generative-art/p5js/p5js-generative-algorithmic-art-canvas/SKILL.md) — Use this skill to design, write, and render interactive generative algorithmic art, creative coding animations, and mathematical visualizations using p5.js and HTML5 Canvas. It covers noise field mathematics (Perlin/Simplex), particle physics, vector math, and high-DPI export.
 - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
@@ -908,6 +915,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Langfuse (1 skills)
 
 - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
+
+## Lighthouse (1 skills)
+
+- [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
 
 ## Linux (5 skills)
 
@@ -1973,6 +1984,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## WCAG AA (1 skills)
 
 - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
+
+## Web Vitals API (1 skills)
+
+- [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
 
 ## WebAuthn (1 skills)
 

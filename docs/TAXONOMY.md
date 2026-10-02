@@ -191,6 +191,8 @@ AI_Skills_Booster/
 │   │   └── angular/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
+│   ├── performance/
+│   │   └── web-vitals/ (1 skills)
 │   ├── react/
 │   │   └── architecture/ (1 skills)
 │   └── state-management/

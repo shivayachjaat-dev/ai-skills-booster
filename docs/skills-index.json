@@ -2656,6 +2656,33 @@
     "maturity": "stable"
   },
   {
+    "name": "full-stack-web-vitals-and-performance-optimization",
+    "path": "skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization",
+    "domain": "frontend",
+    "category": "performance",
+    "subcategory": "web-vitals",
+    "description": "Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.",
+    "tags": [
+      "web-vitals",
+      "performance-optimization",
+      "lcp",
+      "inp",
+      "cls",
+      "lighthouse",
+      "frontend"
+    ],
+    "technologies": [
+      "Web Vitals API",
+      "Lighthouse",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Chrome DevTools"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "react-component-architecture",
     "path": "skills/frontend/react/architecture/react-component-architecture",
     "domain": "frontend",
