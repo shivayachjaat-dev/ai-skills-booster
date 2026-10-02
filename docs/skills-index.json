@@ -18341,6 +18341,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hf-cli",
+    "path": "skills/frontend/ui-ux/hf_cli/hf-cli",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hf_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for hf cli. Curated upstream guidance for Hf Cli; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hf",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hf Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

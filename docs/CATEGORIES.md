@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,155** skills across structured domains, categories, and subcategories.
+Master navigation for **1,156** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (398 skills)
 
@@ -1667,7 +1667,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (229 skills)
+## Frontend (230 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1797,7 +1797,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Full_Output_Enforcem** (1):
   - [full-output-enforcement](../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) — Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
 
-### Ui Ux (122 skills)
+### Ui Ux (123 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2036,6 +2036,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [grpc-golang](../skills/frontend/ui-ux/grpc_golang/grpc-golang/SKILL.md) — Use this skill to design, implement, and operate production workflows for grpc golang. Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport.
 - **Helm_Chart_Scaffoldi** (1):
   - [helm-chart-scaffolding](../skills/frontend/ui-ux/helm_chart_scaffoldi/helm-chart-scaffolding/SKILL.md) — Use this skill to design, implement, and operate production workflows for helm chart scaffolding. Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications.
+- **Hf_Cli** (1):
+  - [hf-cli](../skills/frontend/ui-ux/hf_cli/hf-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for hf cli. Curated upstream guidance for Hf Cli; use when the workflow matches the user goal.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):
