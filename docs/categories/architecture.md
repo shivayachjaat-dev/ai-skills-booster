@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **57 skills** available in this category.
+> **58 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -61,3 +61,4 @@
 | [crossframe](../../skills/software-engineering/architecture/patterns/crossframe/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when the user explicitly invokes CrossFrame or 跨尺度结构诊断 for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution. |
 | [crossframe-critical](../../skills/software-engineering/architecture/patterns/crossframe-critical/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use only when the user explicitly names crossframe-critical for a Chinese structural critique dossier, article plan, or long-form critical essay. |
 | [crossframe-essay](../../skills/software-engineering/architecture/patterns/crossframe-essay/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when explicit CrossFrame work needs a Chinese critical insight essay, commentary, concept essay, public piece, or structure-to-article draft after diagnosis. |
+| [customer-research](../../skills/software-engineering/architecture/patterns/customer-research/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to when the user wants to conduct, analyze, or synthesize customer research. |
