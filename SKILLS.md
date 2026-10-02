@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 247 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 248 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -63,6 +63,7 @@
 | [azd-deployment](skills/ai-engineering/models/azd_deployment/azd-deployment/SKILL.md) | `ai-engineering` | `models` | `azd_deployment` | `advanced` | `stable` | Use this skill to deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure. |
 | [azure-ai-agents-persistent-dotnet](skills/ai-engineering/models/azure_ai_agents_pers/azure-ai-agents-persistent-dotnet/SKILL.md) | `ai-engineering` | `models` | `azure_ai_agents_pers` | `advanced` | `stable` | Use this skill to azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. |
 | [azure-ai-agents-persistent-java](skills/ai-engineering/models/azure_ai_agents_pers/azure-ai-agents-persistent-java/SKILL.md) | `ai-engineering` | `models` | `azure_ai_agents_pers` | `advanced` | `stable` | Use this skill to azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. |
+| [azure-ai-anomalydetector-java](skills/ai-engineering/models/azure_ai_anomalydete/azure-ai-anomalydetector-java/SKILL.md) | `ai-engineering` | `models` | `azure_ai_anomalydete` | `advanced` | `stable` | Use this skill to build anomaly detection applications with Azure AI Anomaly Detector SDK for Java. Use when implementing univariate/multivariate anomaly detection, time-series analysis, or AI-powered monitoring. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |

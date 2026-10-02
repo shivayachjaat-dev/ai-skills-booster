@@ -73,6 +73,7 @@ AI_Skills_Booster/
 │   │   ├── awt_e2e_testing/ (1 skills)
 │   │   ├── azd_deployment/ (1 skills)
 │   │   ├── azure_ai_agents_pers/ (2 skills)
+│   │   ├── azure_ai_anomalydete/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
