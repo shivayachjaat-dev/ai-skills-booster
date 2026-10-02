@@ -173,6 +173,8 @@ AI_Skills_Booster/
 ├── devops/
 │   ├── ci-cd/
 │   │   └── optimization/ (1 skills)
+│   ├── cloud-infrastructure/
+│   │   └── amazon_alexa/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

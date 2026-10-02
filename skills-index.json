@@ -2422,6 +2422,28 @@
     "maturity": "stable"
   },
   {
+    "name": "amazon-alexa",
+    "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "amazon_alexa",
+    "description": "Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "amazon",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Amazon Alexa",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
