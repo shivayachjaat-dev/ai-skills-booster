@@ -286,7 +286,8 @@ AI_Skills_Booster/
 │   │   ├── azure_monitor_ingest/ (1 skills)
 │   │   ├── azure_monitor_opente/ (2 skills)
 │   │   ├── azure_resource_manag/ (4 skills)
-│   │   └── azure_servicebus_dot/ (1 skills)
+│   │   ├── azure_servicebus_dot/ (1 skills)
+│   │   └── azure_servicebus_rus/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

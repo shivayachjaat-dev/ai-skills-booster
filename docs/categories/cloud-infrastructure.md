@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **31 skills** available in this category.
+> **32 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -35,3 +35,4 @@
 | [azure-resource-manager-playwright-dotnet](../../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-playwright-dotnet/SKILL.md) | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Microsoft Playwright Testing in .NET. |
 | [azure-resource-manager-redis-dotnet](../../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-redis-dotnet/SKILL.md) | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Redis in .NET. |
 | [azure-servicebus-dotnet](../../skills/devops/cloud-infrastructure/azure_servicebus_dot/azure-servicebus-dotnet/SKILL.md) | `azure_servicebus_dot` | `advanced` | `stable` | Use this skill to azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions. |
+| [azure-servicebus-rust](../../skills/devops/cloud-infrastructure/azure_servicebus_rus/azure-servicebus-rust/SKILL.md) | `azure_servicebus_rus` | `advanced` | `stable` | Use this skill to azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions. Triggers: "service bus rust", "ServiceBusClient rust", "send message servicebus rust", "receive message servicebus rust", "queue rust messaging", "topic subscription rust". |

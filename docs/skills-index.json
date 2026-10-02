@@ -5172,6 +5172,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-servicebus-rust",
+    "path": "skills/devops/cloud-infrastructure/azure_servicebus_rus/azure-servicebus-rust",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_servicebus_rus",
+    "description": "Use this skill to azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions. Triggers: \"service bus rust\", \"ServiceBusClient rust\", \"send message servicebus rust\", \"receive message servicebus rust\", \"queue rust messaging\", \"topic subscription rust\".",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Servicebus Rust",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
