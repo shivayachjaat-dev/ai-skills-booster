@@ -558,6 +558,31 @@
     "maturity": "stable"
   },
   {
+    "name": "legacy-system-strangler-migration",
+    "path": "skills/software-engineering/modernization/migration/legacy-system-strangler-migration",
+    "domain": "software-engineering",
+    "category": "modernization",
+    "subcategory": "migration",
+    "description": "Use this skill when incrementally modernizing, decomposing, and replacing legacy monoliths or deprecated backend systems without risky all-at-once cutovers. It guides the agent through the Strangler Fig pattern, reverse proxy intercept routing, parallel run shadow verification, database synchronization, and progressive decommission.",
+    "tags": [
+      "software-engineering",
+      "modernization",
+      "architecture",
+      "strangler-fig",
+      "refactoring",
+      "legacy-migration"
+    ],
+    "technologies": [
+      "Nginx",
+      "Envoy",
+      "Docker",
+      "Python",
+      "TypeScript"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "code-simplification",
     "path": "skills/software-engineering/refactoring/simplification/code-simplification",
     "domain": "software-engineering",

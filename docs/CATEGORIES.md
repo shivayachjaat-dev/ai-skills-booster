@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **25** skills across structured domains, categories, and subcategories.
+Master navigation for **26** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -142,7 +142,7 @@ Category index: [`docs/categories/secret-management.md`](categories/secret-manag
 - **Detection** (1):
   - [secret-leak-detection-and-remediation](../skills/security/secret-management/detection/secret-leak-detection-and-remediation/SKILL.md) — Use this skill when detecting, containing, revoking, and purging secrets committed to Git repositories or build artifacts. It guides the agent through scanning history with TruffleHog/Gitleaks, executing emergency credential revocation, rewriting Git history with git-filter-repo, and installing pre-commit guardrails.
 
-## Software Engineering (3 skills)
+## Software Engineering (4 skills)
 
 ### Architecture (1 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
@@ -155,6 +155,12 @@ Category index: [`docs/categories/debugging.md`](categories/debugging.md)
 
 - **Recovery** (1):
   - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
+
+### Modernization (1 skills)
+Category index: [`docs/categories/modernization.md`](categories/modernization.md)
+
+- **Migration** (1):
+  - [legacy-system-strangler-migration](../skills/software-engineering/modernization/migration/legacy-system-strangler-migration/SKILL.md) — Use this skill when incrementally modernizing, decomposing, and replacing legacy monoliths or deprecated backend systems without risky all-at-once cutovers. It guides the agent through the Strangler Fig pattern, reverse proxy intercept routing, parallel run shadow verification, database synchronization, and progressive decommission.
 
 ### Refactoring (1 skills)
 Category index: [`docs/categories/refactoring.md`](categories/refactoring.md)
