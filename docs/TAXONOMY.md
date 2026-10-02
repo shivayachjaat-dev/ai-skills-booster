@@ -380,7 +380,8 @@ AI_Skills_Booster/
 │   │   ├── azure_search_documen/ (1 skills)
 │   │   ├── backend_development_/ (1 skills)
 │   │   ├── backtesting_framewor/ (1 skills)
-│   │   └── baseline_ui/ (1 skills)
+│   │   ├── baseline_ui/ (1 skills)
+│   │   └── bash_defensive_patte/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)

@@ -6857,6 +6857,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bash-defensive-patterns",
+    "path": "skills/frontend/ui-ux/bash_defensive_patte/bash-defensive-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "bash_defensive_patte",
+    "description": "Use this skill to master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "bash",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bash Defensive Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

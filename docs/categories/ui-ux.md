@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **17 skills** available in this category.
+> **18 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -21,3 +21,4 @@
 | [backend-development-feature-development](../../skills/frontend/ui-ux/backend_development_/backend-development-feature-development/SKILL.md) | `backend_development_` | `advanced` | `stable` | Use this skill to orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services. |
 | [backtesting-frameworks](../../skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks/SKILL.md) | `backtesting_framewor` | `advanced` | `stable` | Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates. |
 | [baseline-ui](../../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) | `baseline_ui` | `advanced` | `stable` | Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass. |
+| [bash-defensive-patterns](../../skills/frontend/ui-ux/bash_defensive_patte/bash-defensive-patterns/SKILL.md) | `bash_defensive_patte` | `advanced` | `stable` | Use this skill to master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety. |
