@@ -124,6 +124,7 @@ AI_Skills_Booster/
 │   │   ├── brain_to_docs/ (1 skills)
 │   │   ├── brainstorming/ (1 skills)
 │   │   ├── brand_guidelines/ (1 skills)
+│   │   ├── break_ai_fix_loops/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

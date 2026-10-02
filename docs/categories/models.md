@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **84 skills** available in this category.
+> **85 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -87,4 +87,5 @@
 | [brain-to-docs](../../skills/ai-engineering/models/brain_to_docs/brain-to-docs/SKILL.md) | `brain_to_docs` | `advanced` | `stable` | Use this skill to interview the user to turn project vision and decisions into README and ADR documentation. |
 | [brainstorming](../../skills/ai-engineering/models/brainstorming/brainstorming/SKILL.md) | `brainstorming` | `advanced` | `stable` | Use this skill to use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration. |
 | [brand-guidelines](../../skills/ai-engineering/models/brand_guidelines/brand-guidelines/SKILL.md) | `brand_guidelines` | `advanced` | `stable` | Use this skill to write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones. |
+| [break-ai-fix-loops](../../skills/ai-engineering/models/break_ai_fix_loops/break-ai-fix-loops/SKILL.md) | `break_ai_fix_loops` | `advanced` | `stable` | Use this skill to stop ineffective AI coding repair loops with stable failure fingerprints, a three-attempt budget, real-path proof, negative controls, and tested rollback. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

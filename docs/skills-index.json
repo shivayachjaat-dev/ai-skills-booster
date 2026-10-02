@@ -2679,6 +2679,28 @@
     "maturity": "stable"
   },
   {
+    "name": "break-ai-fix-loops",
+    "path": "skills/ai-engineering/models/break_ai_fix_loops/break-ai-fix-loops",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "break_ai_fix_loops",
+    "description": "Use this skill to stop ineffective AI coding repair loops with stable failure fingerprints, a three-attempt budget, real-path proof, negative controls, and tested rollback.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "break",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Break Ai Fix Loops",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
