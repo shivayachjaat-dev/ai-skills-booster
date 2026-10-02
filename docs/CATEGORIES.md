@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,679** skills across structured domains, categories, and subcategories.
+Master navigation for **1,680** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (575 skills)
+## Ai Engineering (576 skills)
 
-### Agents (66 skills)
+### Agents (67 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -129,6 +129,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
 - **Omp_Delegate** (1):
   - [omp-delegate](../skills/ai-engineering/agents/omp_delegate/omp-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for omp delegate. Delegate coding tasks to Oh My Pi (`omp`) only when the user explicitly
+- **Ontoly_Software_Grap** (1):
+  - [ontoly-software-graph](../skills/ai-engineering/agents/ontoly_software_grap/ontoly-software-graph/SKILL.md) — Use this skill to design, implement, and operate production workflows for ontoly software graph. Use Ontoly's deterministic Software Graph, MCP server, and agent skills for architecture review, request tracing, impact analysis, and dependency analysis.
 - **Orchestration** (1):
   - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 - **Orchestration Optimization** (1):
