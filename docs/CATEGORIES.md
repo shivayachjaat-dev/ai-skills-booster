@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **965** skills across structured domains, categories, and subcategories.
+Master navigation for **966** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (342 skills)
 
@@ -1487,7 +1487,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (176 skills)
+## Frontend (177 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1769,7 +1769,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (58 skills)
+### Web Architecture (59 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1825,6 +1825,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [duotone-design](../skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.
 - **Expo_Deployment** (1):
   - [expo-deployment](../skills/frontend/web-architecture/expo_deployment/expo-deployment/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo deployment. Deploy Expo apps with EAS: build and submit iOS and Android releases, configure build and submit profiles, manage versions and store metadata, and deploy web bundles or API routes.
+- **Fastapi_Pro** (1):
+  - [fastapi-pro](../skills/frontend/web-architecture/fastapi_pro/fastapi-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for fastapi pro. Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.
 - **Flat_Design** (1):
   - [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
 - **Flat_Design_2** (1):

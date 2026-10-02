@@ -16075,6 +16075,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fastapi-pro",
+    "path": "skills/frontend/web-architecture/fastapi_pro/fastapi-pro",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "fastapi_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for fastapi pro. Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "fastapi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fastapi Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "flat-design",
     "path": "skills/frontend/web-architecture/flat_design/flat-design",
     "domain": "frontend",
