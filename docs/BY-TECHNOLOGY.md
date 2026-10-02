@@ -59,6 +59,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
 
+## Angular >= 17 (1 skills)
+
+- [angular-signals-standalone-components-and-state](../skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state/SKILL.md) — Use this skill to design, build, and optimize enterprise Angular applications using modern Signals, standalone components, inject() dependency injection, fine-grained reactivity, and Vite-powered builds.
+
 ## Ansible 2.15+ (1 skills)
 
 - [ansible-idempotent-configuration-management](../skills/devops/infrastructure-as-code/ansible/ansible-idempotent-configuration-management/SKILL.md) — Use this skill when designing, authoring, and executing automated server configuration management playbooks and roles using Ansible. It guides the agent through enforcing strict task idempotency, structuring reusable Ansible roles, managing encrypted secrets with Ansible Vault, organizing inventory variables, and testing with Molecule.
@@ -1404,6 +1408,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 
+## RxJS (1 skills)
+
+- [angular-signals-standalone-components-and-state](../skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state/SKILL.md) — Use this skill to design, build, and optimize enterprise Angular applications using modern Signals, standalone components, inject() dependency injection, fine-grained reactivity, and Vite-powered builds.
+
 ## SHA-256 (1 skills)
 
 - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
@@ -1509,6 +1517,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## SentenceTransformers (1 skills)
 
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
+
+## Signals (1 skills)
+
+- [angular-signals-standalone-components-and-state](../skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state/SKILL.md) — Use this skill to design, build, and optimize enterprise Angular applications using modern Signals, standalone components, inject() dependency injection, fine-grained reactivity, and Vite-powered builds.
 
 ## Sigstore (1 skills)
 
@@ -1637,7 +1649,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 
-## TypeScript (23 skills)
+## TypeScript (24 skills)
 
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
 - [drizzle-orm-schema-and-relational-queries](../skills/backend/database-drivers/drizzle/drizzle-orm-schema-and-relational-queries/SKILL.md) — Use this skill when designing database schemas, managing type-safe migrations, and querying SQL databases with Drizzle ORM in TypeScript. It guides the agent through pgTable declarations, relations API (1:1, 1:N, M:N), Drizzle Kit migrations (generate/migrate), prepared statements for maximum performance, and serverless pooling.
@@ -1648,6 +1660,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [prisma-schema-migration-and-relations](../skills/databases/orm/prisma/prisma-schema-migration-and-relations/SKILL.md) — Use this skill when architecting database schemas, managing relational migrations, and optimizing database queries using Prisma ORM (TypeScript/Node.js). It covers complex relationship modeling (1:1, 1:N, M:N explicit join tables), zero-downtime migration workflows (`prisma migrate dev/deploy`), connection pooling with PgBouncer, and avoiding N+1 query traps.
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
 - [threejs-3d-web-experience](../skills/frontend/3d-graphics/threejs/threejs-3d-web-experience/SKILL.md) — Use this skill when designing, implementing, and optimizing interactive 3D web experiences using Three.js and React Three Fiber (R3F). It guides the agent through scene graph architecture, GLTF/GLB model loading and compression (Draco/Meshopt), custom GLSL shaders, camera controls (OrbitControls), lighting and shadows, and 60 FPS mobile performance optimization.
+- [angular-signals-standalone-components-and-state](../skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state/SKILL.md) — Use this skill to design, build, and optimize enterprise Angular applications using modern Signals, standalone components, inject() dependency injection, fine-grained reactivity, and Vite-powered builds.
 - [nextjs-app-router-architecture](../skills/frontend/nextjs/architecture/nextjs-app-router-architecture/SKILL.md) — Use this skill when architecting and developing full-stack web applications with Next.js App Router (version 14+ / 15+). It guides the agent through React Server Components (RSC) vs Client Components boundaries, Server Actions with Zod validation, streaming SSR with Suspense boundaries, parallel and intercepting routes, dynamic segment caching, and revalidation (ISR).
 - [react-component-architecture](../skills/frontend/react/architecture/react-component-architecture/SKILL.md) — Use this skill when designing, refactoring, and structuring scalable React component hierarchies. It enforces clean separation of concerns between presentational components and stateful containers, headless UI patterns, compound components, strict TypeScript prop contracts, and memoization boundaries.
 - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
@@ -1691,8 +1704,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
 
-## Vite (1 skills)
+## Vite (2 skills)
 
+- [angular-signals-standalone-components-and-state](../skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state/SKILL.md) — Use this skill to design, build, and optimize enterprise Angular applications using modern Signals, standalone components, inject() dependency injection, fine-grained reactivity, and Vite-powered builds.
 - [cypress-component-testing](../skills/testing/component/cypress/cypress-component-testing/SKILL.md) — Use this skill when authoring, running, and debugging isolated component tests using Cypress Component Testing for React, Vue, or Angular. It guides the agent through mounting components in real browser DOMs, asserting visual states, stubbing network requests via cy.intercept, simulating user events, and verifying CSS animations without firing up full backend environments.
 
 ## VoyageAI (1 skills)

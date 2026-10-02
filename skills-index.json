@@ -2248,6 +2248,31 @@
     "maturity": "stable"
   },
   {
+    "name": "angular-signals-standalone-components-and-state",
+    "path": "skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "angular",
+    "description": "Use this skill to design, build, and optimize enterprise Angular applications using modern Signals, standalone components, inject() dependency injection, fine-grained reactivity, and Vite-powered builds.",
+    "tags": [
+      "angular",
+      "signals",
+      "standalone-components",
+      "typescript",
+      "frontend",
+      "fine-grained-reactivity"
+    ],
+    "technologies": [
+      "Angular >= 17",
+      "TypeScript",
+      "RxJS",
+      "Signals",
+      "Vite"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
