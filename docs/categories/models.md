@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **127 skills** available in this category.
+> **128 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -130,4 +130,5 @@
 | [code-reviewer](../../skills/ai-engineering/models/code_reviewer/code-reviewer/SKILL.md) | `code_reviewer` | `advanced` | `stable` | Use this skill to elite code review expert specializing in modern AI-powered code |
 | [code-showcase-systematic-debugging](../../skills/ai-engineering/models/code_showcase_system/code-showcase-systematic-debugging/SKILL.md) | `code_showcase_system` | `advanced` | `stable` | Use this skill to four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST. |
 | [code-simplifier](../../skills/ai-engineering/models/code_simplifier/code-simplifier/SKILL.md) | `code_simplifier` | `advanced` | `stable` | Use this skill to simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specifi |
+| [codebase-cleanup-deps-audit](../../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) | `codebase_cleanup_dep` | `advanced` | `stable` | Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

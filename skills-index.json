@@ -3757,6 +3757,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codebase-cleanup-deps-audit",
+    "path": "skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "codebase_cleanup_dep",
+    "description": "Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "codebase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codebase Cleanup Deps Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
