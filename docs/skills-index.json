@@ -95,6 +95,30 @@
     "maturity": "stable"
   },
   {
+    "name": "ab-test-experiment-design",
+    "path": "skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design",
+    "domain": "data-analytics",
+    "category": "experimentation",
+    "subcategory": "ab-testing",
+    "description": "Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.",
+    "tags": [
+      "ab-testing",
+      "experimentation",
+      "statistics",
+      "data-analytics",
+      "metrics",
+      "product-growth"
+    ],
+    "technologies": [
+      "Python",
+      "SciPy",
+      "Statsmodels",
+      "SQL"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "postgres-query-performance-analysis",
     "path": "skills/databases/postgresql/performance/postgres-query-performance-analysis",
     "domain": "databases",

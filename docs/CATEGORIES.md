@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **17** skills across structured domains, categories, and subcategories.
+Master navigation for **18** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (3 skills)
 
@@ -22,13 +22,19 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 
-## Data Analytics (1 skills)
+## Data Analytics (2 skills)
 
 ### Data Pipelines (1 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Polars** (1):
   - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
+
+### Experimentation (1 skills)
+Category index: [`docs/categories/experimentation.md`](categories/experimentation.md)
+
+- **Ab Testing** (1):
+  - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 
 ## Databases (1 skills)
 

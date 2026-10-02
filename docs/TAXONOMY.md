@@ -10,8 +10,10 @@ AI_Skills_Booster/
 │   └── rag/
 │   │   └── evaluation/ (1 skills)
 ├── data-analytics/
-│   └── data-pipelines/
+│   ├── data-pipelines/
 │   │   └── polars/ (1 skills)
+│   └── experimentation/
+│   │   └── ab-testing/ (1 skills)
 ├── databases/
 │   └── postgresql/
 │   │   └── performance/ (1 skills)
