@@ -13765,6 +13765,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tile-design",
+    "path": "skills/frontend/web-architecture/tile_design/tile-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "tile_design",
+    "description": "Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "tile",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tile Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "web3-audit",
     "path": "skills/frontend/web-architecture/web3_audit/web3-audit",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **799** skills across structured domains, categories, and subcategories.
+Master navigation for **800** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (274 skills)
 
@@ -1305,7 +1305,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (132 skills)
+## Frontend (133 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1515,7 +1515,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (50 skills)
+### Web Architecture (51 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1615,6 +1615,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [swiss-design](../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.
 - **Synthwave** (1):
   - [synthwave](../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) — Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.
+- **Tile_Design** (1):
+  - [tile-design](../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.
 - **Web3_Audit** (1):
   - [web3-audit](../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) — Use this skill to smart contract security audit
 
