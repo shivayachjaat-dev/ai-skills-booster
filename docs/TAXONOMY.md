@@ -492,7 +492,8 @@ AI_Skills_Booster/
 │   │   ├── cc_skill_coding_stan/ (1 skills)
 │   │   ├── code_showcase_react_/ (1 skills)
 │   │   ├── codebase_to_wordpres/ (1 skills)
-│   │   └── context7_auto_resear/ (1 skills)
+│   │   ├── context7_auto_resear/ (1 skills)
+│   │   └── convex_backend/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/

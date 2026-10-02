@@ -9375,6 +9375,28 @@
     "maturity": "stable"
   },
   {
+    "name": "convex-backend",
+    "path": "skills/frontend/frameworks/convex_backend/convex-backend",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "convex_backend",
+    "description": "Use this skill to build reactive backends with Convex functions, schema validation, auth",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "convex",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Convex Backend",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

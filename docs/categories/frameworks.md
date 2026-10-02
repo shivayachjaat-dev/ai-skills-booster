@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [code-showcase-react-ui-patterns](../../skills/frontend/frameworks/code_showcase_react_/code-showcase-react-ui-patterns/SKILL.md) | `code_showcase_react_` | `advanced` | `stable` | Use this skill to modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states. |
 | [codebase-to-wordpress-converter](../../skills/frontend/frameworks/codebase_to_wordpres/codebase-to-wordpress-converter/SKILL.md) | `codebase_to_wordpres` | `advanced` | `stable` | Use this skill to expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme. |
 | [context7-auto-research](../../skills/frontend/frameworks/context7_auto_resear/context7-auto-research/SKILL.md) | `context7_auto_resear` | `advanced` | `stable` | Use this skill to automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library. |
+| [convex-backend](../../skills/frontend/frameworks/convex_backend/convex-backend/SKILL.md) | `convex_backend` | `advanced` | `stable` | Use this skill to build reactive backends with Convex functions, schema validation, auth |
