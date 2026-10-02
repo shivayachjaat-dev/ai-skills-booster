@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **406** skills across structured domains, categories, and subcategories.
+Master navigation for **407** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (133 skills)
+## Ai Engineering (134 skills)
 
 ### Agents (17 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -116,7 +116,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (79 skills)
+### Models (80 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -266,6 +266,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [biopython](../skills/ai-engineering/models/biopython/biopython/SKILL.md) — Use this skill to biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, database access, structural bioinformatics, phylogenetics, and many other bioinformatics tasks.
 - **Blockchain_Developer** (1):
   - [blockchain-developer](../skills/ai-engineering/models/blockchain_developer/blockchain-developer/SKILL.md) — Use this skill to build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.
+- **Blueprint** (1):
+  - [blueprint](../skills/ai-engineering/models/blueprint/blueprint/SKILL.md) — Use this skill to turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh agent in a new session can pick up any step without reading prior steps.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
