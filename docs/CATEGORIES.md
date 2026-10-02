@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,649** skills across structured domains, categories, and subcategories.
+Master navigation for **1,650** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (569 skills)
 
@@ -2179,7 +2179,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (330 skills)
+## Frontend (331 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2345,7 +2345,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (195 skills)
+### Ui Ux (196 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2732,6 +2732,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [odoo-manufacturing-advisor](../skills/frontend/ui-ux/odoo_manufacturing_a/odoo-manufacturing-advisor/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo manufacturing advisor. Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows.
 - **Odoo_Migration_Helpe** (1):
   - [odoo-migration-helper](../skills/frontend/ui-ux/odoo_migration_helpe/odoo-migration-helper/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo migration helper. Step-by-step guide for migrating Odoo custom modules between versions (v14→v15→v16→v17). Covers API changes, deprecated methods, and view migration.
+- **Odoo_Module_Develope** (1):
+  - [odoo-module-developer](../skills/frontend/ui-ux/odoo_module_develope/odoo-module-developer/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo module developer. Expert guide for creating custom Odoo modules. Covers __manifest__.py, model inheritance, ORM patterns, and module structure best practices.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):

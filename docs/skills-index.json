@@ -26019,6 +26019,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-module-developer",
+    "path": "skills/frontend/ui-ux/odoo_module_develope/odoo-module-developer",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_module_develope",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo module developer. Expert guide for creating custom Odoo modules. Covers __manifest__.py, model inheritance, ORM patterns, and module structure best practices.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Module Developer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
