@@ -10291,6 +10291,28 @@
     "maturity": "stable"
   },
   {
+    "name": "m365-entra-attack",
+    "path": "skills/ai-engineering/models/m365_entra_attack/m365-entra-attack",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "m365_entra_attack",
+    "description": "Use this skill to design, implement, and operate production workflows for m365 entra attack. Microsoft 365 / Entra ID red-team attack chain",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "m365",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "M365 Entra Attack",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

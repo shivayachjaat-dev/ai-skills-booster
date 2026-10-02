@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,448 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,449 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -468,6 +468,7 @@
 | [loopy](skills/ai-engineering/models/loopy/loopy/SKILL.md) | `ai-engineering` | `models` | `loopy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for loopy. Discover, find, compare, audit, repair, adapt, craft, run, debrief, and prepare repeatable AI-agent loops for publication. |
 | [lore](skills/ai-engineering/models/lore/lore/SKILL.md) | `ai-engineering` | `models` | `lore` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lore. Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query. |
 | [m365-agents-py](skills/ai-engineering/models/m365_agents_py/m365-agents-py/SKILL.md) | `ai-engineering` | `models` | `m365_agents_py` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for m365 agents py. Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth. |
+| [m365-entra-attack](skills/ai-engineering/models/m365_entra_attack/m365-entra-attack/SKILL.md) | `ai-engineering` | `models` | `m365_entra_attack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for m365 entra attack. Microsoft 365 / Entra ID red-team attack chain |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

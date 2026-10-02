@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,448** skills across structured domains, categories, and subcategories.
+Master navigation for **1,449** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (505 skills)
+## Ai Engineering (506 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -260,7 +260,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Llmops_Platform_Engi** (1):
   - [llmops-platform-engineering](../skills/ai-engineering/llm-ops/llmops_platform_engi/llmops-platform-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for llmops platform engineering. Build production LLMOps platforms with CI/CD, model promotion workflows,
 
-### Models (365 skills)
+### Models (366 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -968,6 +968,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [lore](../skills/ai-engineering/models/lore/lore/SKILL.md) — Use this skill to design, implement, and operate production workflows for lore. Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query.
 - **M365_Agents_Py** (1):
   - [m365-agents-py](../skills/ai-engineering/models/m365_agents_py/m365-agents-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 agents py. Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.
+- **M365_Entra_Attack** (1):
+  - [m365-entra-attack](../skills/ai-engineering/models/m365_entra_attack/m365-entra-attack/SKILL.md) — Use this skill to design, implement, and operate production workflows for m365 entra attack. Microsoft 365 / Entra ID red-team attack chain
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
