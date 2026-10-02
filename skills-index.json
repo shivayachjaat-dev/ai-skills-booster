@@ -4274,6 +4274,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brand-kit-print-collateral",
+    "path": "skills/business/operations/brand_kit_print_coll/brand-kit-print-collateral",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "brand_kit_print_coll",
+    "description": "Use this skill to print collateral spec: item, finished and trim size, bleed, colour mode, stock and GSM, finish, safe margin, print method, quantity and unit cost. Use for cards and letterhead.",
+    "tags": [
+      "business",
+      "operations",
+      "brand",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brand Kit Print Collateral",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
