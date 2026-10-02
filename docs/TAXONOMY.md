@@ -50,6 +50,7 @@ AI_Skills_Booster/
 │   ├── audio-processing/
 │   │   ├── azure_speech_to_text/ (1 skills)
 │   │   ├── game_audio/ (1 skills)
+│   │   ├── gemini_api_dev/ (1 skills)
 │   │   └── speech-recognition/ (1 skills)
 │   ├── communication/
 │   │   ├── agent-email/ (1 skills)
