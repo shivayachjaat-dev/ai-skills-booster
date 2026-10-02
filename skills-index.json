@@ -450,6 +450,31 @@
     "maturity": "stable"
   },
   {
+    "name": "prisma-schema-migration-and-relations",
+    "path": "skills/databases/orm/prisma/prisma-schema-migration-and-relations",
+    "domain": "databases",
+    "category": "orm",
+    "subcategory": "prisma",
+    "description": "Use this skill when architecting database schemas, managing relational migrations, and optimizing database queries using Prisma ORM (TypeScript/Node.js). It covers complex relationship modeling (1:1, 1:N, M:N explicit join tables), zero-downtime migration workflows (`prisma migrate dev/deploy`), connection pooling with PgBouncer, and avoiding N+1 query traps.",
+    "tags": [
+      "prisma",
+      "orm",
+      "typescript",
+      "database",
+      "migrations",
+      "postgresql"
+    ],
+    "technologies": [
+      "Prisma",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "PgBouncer"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "postgres-query-performance-analysis",
     "path": "skills/databases/postgresql/performance/postgres-query-performance-analysis",
     "domain": "databases",

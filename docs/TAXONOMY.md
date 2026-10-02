@@ -40,6 +40,8 @@ AI_Skills_Booster/
 │   │   └── analytics/ (1 skills)
 │   ├── migrations/
 │   │   └── zero-downtime/ (1 skills)
+│   ├── orm/
+│   │   └── prisma/ (1 skills)
 │   ├── postgresql/
 │   │   └── performance/ (1 skills)
 │   └── redis/

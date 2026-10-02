@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **50** skills across structured domains, categories, and subcategories.
+Master navigation for **51** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (6 skills)
 
@@ -90,7 +90,7 @@ Category index: [`docs/categories/experimentation.md`](categories/experimentatio
 - **Ab Testing** (1):
   - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 
-## Databases (5 skills)
+## Databases (6 skills)
 
 ### Clickhouse (1 skills)
 Category index: [`docs/categories/clickhouse.md`](categories/clickhouse.md)
@@ -109,6 +109,12 @@ Category index: [`docs/categories/migrations.md`](categories/migrations.md)
 
 - **Zero Downtime** (1):
   - [database-migration-safety](../skills/databases/migrations/zero-downtime/database-migration-safety/SKILL.md) — Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.
+
+### Orm (1 skills)
+Category index: [`docs/categories/orm.md`](categories/orm.md)
+
+- **Prisma** (1):
+  - [prisma-schema-migration-and-relations](../skills/databases/orm/prisma/prisma-schema-migration-and-relations/SKILL.md) — Use this skill when architecting database schemas, managing relational migrations, and optimizing database queries using Prisma ORM (TypeScript/Node.js). It covers complex relationship modeling (1:1, 1:N, M:N explicit join tables), zero-downtime migration workflows (`prisma migrate dev/deploy`), connection pooling with PgBouncer, and avoiding N+1 query traps.
 
 ### Postgresql (1 skills)
 Category index: [`docs/categories/postgresql.md`](categories/postgresql.md)
