@@ -32959,6 +32959,28 @@
     "maturity": "stable"
   },
   {
+    "name": "meeting-notes",
+    "path": "skills/software-engineering/architecture/patterns/meeting-notes",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for meeting notes. Turns raw meeting notes into structured minutes: conclusion first, then decisions / action items / open questions; every action item must have an owner and a deadline. Use when the user pastes meeting transcripts or rough notes and asks for minutes or a summ...",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "meeting",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Meeting Notes",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",

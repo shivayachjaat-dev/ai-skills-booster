@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **178 skills** available in this category.
+> **179 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -180,5 +180,6 @@
 | [mathguard](../../skills/software-engineering/architecture/patterns/mathguard/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mathguard. Math-heavy escalation for n >= 10^6 — Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins. |
 | [mdpr-skill](../../skills/software-engineering/architecture/patterns/mdpr-skill/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mdpr skill. Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries. |
 | [meeting-distiller-pro](../../skills/software-engineering/architecture/patterns/meeting-distiller-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for meeting distiller pro. Transform messy meeting notes and transcripts into structured action |
+| [meeting-notes](../../skills/software-engineering/architecture/patterns/meeting-notes/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for meeting notes. Turns raw meeting notes into structured minutes: conclusion first, then decisions / action items / open questions; every action item must have an owner and a deadline. Use when the user pastes meeting transcripts or rough notes and asks for minutes or a summ... |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
