@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,001** skills across structured domains, categories, and subcategories.
+Master navigation for **1,002** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (350 skills)
 
@@ -768,7 +768,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (69 skills)
+## Backend (70 skills)
 
 ### Api Design (7 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -788,7 +788,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (20 skills)
+### Api Frameworks (21 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -829,6 +829,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 - **Fastapi_Router_Py** (1):
   - [fastapi-router-py](../skills/backend/api-frameworks/fastapi_router_py/fastapi-router-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for fastapi router py. Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes.
+- **Fp_Async** (1):
+  - [fp-async](../skills/backend/api-frameworks/fp_async/fp-async/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp async. Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)

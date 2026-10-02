@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **20 skills** available in this category.
+> **21 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -24,3 +24,4 @@
 | [fal-platform](../../skills/backend/api-frameworks/fal_platform/fal-platform/SKILL.md) | `fal_platform` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fal platform. Platform APIs for model management, pricing, and usage tracking |
 | [fastapi-high-performance-endpoint-builder](../../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) | `fastapi-endpoints` | `intermediate` | `stable` | Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation. |
 | [fastapi-router-py](../../skills/backend/api-frameworks/fastapi_router_py/fastapi-router-py/SKILL.md) | `fastapi_router_py` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fastapi router py. Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes. |
+| [fp-async](../../skills/backend/api-frameworks/fp_async/fp-async/SKILL.md) | `fp_async` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp async. Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples |

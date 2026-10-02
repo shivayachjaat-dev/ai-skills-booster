@@ -8412,6 +8412,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-async",
+    "path": "skills/backend/api-frameworks/fp_async/fp-async",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "fp_async",
+    "description": "Use this skill to design, implement, and operate production workflows for fp async. Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Async",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
