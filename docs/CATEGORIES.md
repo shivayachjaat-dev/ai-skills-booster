@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **161** skills across structured domains, categories, and subcategories.
+Master navigation for **162** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -256,7 +256,7 @@ Category index: [`docs/categories/presentation.md`](categories/presentation.md)
 - **Marp Slides** (1):
   - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 
-## Data Analytics (9 skills)
+## Data Analytics (10 skills)
 
 ### Dashboards (1 skills)
 Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
@@ -293,6 +293,12 @@ Category index: [`docs/categories/financial.md`](categories/financial.md)
 
 - **Alpha Vantage** (1):
   - [financial-market-data-and-alpha-vantage-time-series](../skills/data-analytics/financial/alpha-vantage/financial-market-data-and-alpha-vantage-time-series/SKILL.md) — Use this skill to fetch, clean, and analyze global equities, FX, cryptocurrency, and macroeconomic time series using the Alpha Vantage API. It covers technical indicator calculations (RSI, MACD, Bollinger Bands), rate limiting, and Pandas data pipeline integration.
+
+### Market Intelligence (1 skills)
+Category index: [`docs/categories/market-intelligence.md`](categories/market-intelligence.md)
+
+- **Competitive Crawler** (1):
+  - [competitive-market-intelligence-crawler](../skills/data-analytics/market-intelligence/competitive-crawler/competitive-market-intelligence-crawler/SKILL.md) — Use this skill to design, build, and automate competitive market intelligence crawlers across eCommerce marketplaces, SaaS pricing matrices, and public ad libraries. It covers price monitoring, product feature diff tracking, promotional campaign alerts, and historical trend reporting.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)

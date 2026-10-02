@@ -108,6 +108,8 @@ AI_Skills_Booster/
 │   │   └── ab-testing/ (1 skills)
 │   ├── financial/
 │   │   └── alpha-vantage/ (1 skills)
+│   ├── market-intelligence/
+│   │   └── competitive-crawler/ (1 skills)
 │   ├── orchestration/
 │   │   └── airflow/ (1 skills)
 │   ├── product-analytics/

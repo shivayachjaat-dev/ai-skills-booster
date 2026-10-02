@@ -1538,6 +1538,31 @@
     "maturity": "stable"
   },
   {
+    "name": "competitive-market-intelligence-crawler",
+    "path": "skills/data-analytics/market-intelligence/competitive-crawler/competitive-market-intelligence-crawler",
+    "domain": "data-analytics",
+    "category": "market-intelligence",
+    "subcategory": "competitive-crawler",
+    "description": "Use this skill to design, build, and automate competitive market intelligence crawlers across eCommerce marketplaces, SaaS pricing matrices, and public ad libraries. It covers price monitoring, product feature diff tracking, promotional campaign alerts, and historical trend reporting.",
+    "tags": [
+      "competitive-intelligence",
+      "market-research",
+      "price-scraping",
+      "ad-library",
+      "market-analysis",
+      "data-analytics"
+    ],
+    "technologies": [
+      "Python",
+      "Pandas",
+      "BeautifulSoup",
+      "Scrapy",
+      "Playwright"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "airflow-dag-orchestration-and-lineage",
     "path": "skills/data-analytics/orchestration/airflow/airflow-dag-orchestration-and-lineage",
     "domain": "data-analytics",
