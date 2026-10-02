@@ -19265,6 +19265,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-rce",
+    "path": "skills/frontend/ui-ux/hunt_rce/hunt-rce",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hunt_rce",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt rce. Hunting skill for rce vulnerabilities. Built from 67 public bug bounty",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Rce",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
