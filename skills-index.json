@@ -877,6 +877,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hosted-agents",
+    "path": "skills/ai-engineering/agents/hosted_agents/hosted-agents",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "hosted_agents",
+    "description": "Use this skill to design, implement, and operate production workflows for hosted agents. Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "hosted",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hosted Agents",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",

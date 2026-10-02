@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,175** skills across structured domains, categories, and subcategories.
+Master navigation for **1,176** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (400 skills)
+## Ai Engineering (401 skills)
 
-### Agents (48 skills)
+### Agents (49 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -85,6 +85,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [grok-delegate](../skills/ai-engineering/agents/grok_delegate/grok-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for grok delegate. Delegate coding tasks to the Grok Build CLI only when the user explicitly
 - **Handoff** (1):
   - [handoff](../skills/ai-engineering/agents/handoff/handoff/SKILL.md) — Use this skill to design, implement, and operate production workflows for handoff. Compact the current conversation into a handoff document for another agent to pick up.
+- **Hosted_Agents** (1):
+  - [hosted-agents](../skills/ai-engineering/agents/hosted_agents/hosted-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for hosted agents. Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments.
 - **Lintlang_Audit** (1):
   - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - **Memory** (1):
