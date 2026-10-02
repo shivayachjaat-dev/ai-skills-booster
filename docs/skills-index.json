@@ -19605,6 +19605,28 @@
     "maturity": "stable"
   },
   {
+    "name": "edr-bypass-re",
+    "path": "skills/software-engineering/architecture/patterns/edr-bypass-re",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for edr bypass re. Reverse engineer EDR internals (user-mode hook tables, ETW, AMSI) and study bypass techniques such as direct syscalls, Hell's Gate, and call-stack spoofing. Lab-only red-team research.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "edr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Edr Bypass Re",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
