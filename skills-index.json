@@ -13941,6 +13941,28 @@
     "maturity": "stable"
   },
   {
+    "name": "django-pro",
+    "path": "skills/frontend/web-architecture/django_pro/django-pro",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "django_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for django pro. Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "django",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Django Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "duotone-design",
     "path": "skills/frontend/web-architecture/duotone_design/duotone-design",
     "domain": "frontend",
