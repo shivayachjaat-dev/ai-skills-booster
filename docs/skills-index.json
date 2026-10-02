@@ -1302,6 +1302,28 @@
     "maturity": "stable"
   },
   {
+    "name": "atlas-cloud-media",
+    "path": "skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "atlas_cloud_media",
+    "description": "Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "atlas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Atlas Cloud Media",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",

@@ -78,6 +78,7 @@ AI_Skills_Booster/
 │   │   ├── api-analyzer/ (1 skills)
 │   │   └── rate-limiting/ (1 skills)
 │   ├── api-frameworks/
+│   │   ├── atlas_cloud_media/ (1 skills)
 │   │   └── fastapi-endpoints/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
