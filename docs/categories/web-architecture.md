@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **54 skills** available in this category.
+> **55 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -58,3 +58,4 @@
 | [vibrant-maximalism](../../skills/frontend/web-architecture/vibrant_maximalism/vibrant-maximalism/SKILL.md) | `vibrant_maximalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vibrant maximalism. Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and "more is more". |
 | [web3-audit](../../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) | `web3_audit` | `advanced` | `stable` | Use this skill to smart contract security audit |
 | [widget-based-design](../../skills/frontend/web-architecture/widget_based_design/widget-based-design/SKILL.md) | `widget_based_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for widget based design. Web and App implementation guide for Widget-Based Design. Trigger when user wants modular blocks, iOS Home Screen aesthetics, and customizable mini-apps. |
+| [y2k-design](../../skills/frontend/web-architecture/y2k_design/y2k-design/SKILL.md) | `y2k_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for y2k design. Web and App implementation guide for Y2K Design. Trigger when user wants chrome effects, futuristic 2000s look, blob shapes, and tech optimism. |

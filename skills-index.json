@@ -13897,6 +13897,28 @@
     "maturity": "stable"
   },
   {
+    "name": "y2k-design",
+    "path": "skills/frontend/web-architecture/y2k_design/y2k-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "y2k_design",
+    "description": "Use this skill to design, implement, and operate production workflows for y2k design. Web and App implementation guide for Y2K Design. Trigger when user wants chrome effects, futuristic 2000s look, blob shapes, and tech optimism.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "y2k",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Y2K Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",
