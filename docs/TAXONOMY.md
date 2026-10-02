@@ -6,6 +6,7 @@ AI_Skills_Booster/
 │   ├── agents/
 │   │   ├── autogen/ (1 skills)
 │   │   ├── benchmarking/ (1 skills)
+│   │   ├── fault-injection/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   └── orchestration/ (1 skills)
 │   ├── context/
