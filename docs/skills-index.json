@@ -12895,6 +12895,28 @@
     "maturity": "stable"
   },
   {
+    "name": "concise-planning",
+    "path": "skills/software-engineering/architecture/patterns/concise-planning",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "concise",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Concise Planning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

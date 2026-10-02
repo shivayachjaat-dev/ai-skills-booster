@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **41 skills** available in this category.
+> **42 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -45,3 +45,4 @@
 | [complexity-cuts](../../skills/software-engineering/architecture/patterns/complexity-cuts/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard. |
 | [composition-patterns](../../skills/software-engineering/architecture/patterns/composition-patterns/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with composition-patterns tasks or workflows |
 | [comprehensive-review-full-review](../../skills/software-engineering/architecture/patterns/comprehensive-review-full-review/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with comprehensive review full review |
+| [concise-planning](../../skills/software-engineering/architecture/patterns/concise-planning/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist. |
