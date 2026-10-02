@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **177 skills** available in this category.
+> **178 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -179,5 +179,6 @@
 | [marlin-bed-leveling](../../skills/software-engineering/architecture/patterns/marlin-bed-leveling/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marlin bed leveling. Calibrates Marlin 2.x 3D printer firmware bed leveling: Unified Bed Leveling (UBL), Bilinear ABL, M420 S1 post-homing, Z-probe offsets, G26 mesh prints, and EEPROM slots. Trigger phrases: marlin bed leveling, ubl calibration, m420 s1, z probe offset, g... |
 | [mathguard](../../skills/software-engineering/architecture/patterns/mathguard/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mathguard. Math-heavy escalation for n >= 10^6 — Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins. |
 | [mdpr-skill](../../skills/software-engineering/architecture/patterns/mdpr-skill/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mdpr skill. Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries. |
+| [meeting-distiller-pro](../../skills/software-engineering/architecture/patterns/meeting-distiller-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for meeting distiller pro. Transform messy meeting notes and transcripts into structured action |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

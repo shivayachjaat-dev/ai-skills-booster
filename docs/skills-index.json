@@ -32937,6 +32937,28 @@
     "maturity": "stable"
   },
   {
+    "name": "meeting-distiller-pro",
+    "path": "skills/software-engineering/architecture/patterns/meeting-distiller-pro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for meeting distiller pro. Transform messy meeting notes and transcripts into structured action",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "meeting",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Meeting Distiller Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
