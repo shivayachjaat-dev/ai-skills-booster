@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **29 skills** available in this category.
+> **30 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -33,3 +33,4 @@
 | [miro-automation](../../skills/developer-tools/productivity/miro_automation/miro-automation/SKILL.md) | `miro_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas. |
 | [mixpanel-automation](../../skills/developer-tools/productivity/mixpanel_automation/mixpanel-automation/SKILL.md) | `mixpanel_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mixpanel automation. Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas. |
 | [monday-automation](../../skills/developer-tools/productivity/monday_automation/monday-automation/SKILL.md) | `monday_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monday automation. Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas. |
+| [one-drive-automation](../../skills/developer-tools/productivity/one_drive_automation/one-drive-automation/SKILL.md) | `one_drive_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for one drive automation. Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first for current schemas. |

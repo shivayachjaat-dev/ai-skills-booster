@@ -18275,6 +18275,28 @@
     "maturity": "stable"
   },
   {
+    "name": "one-drive-automation",
+    "path": "skills/developer-tools/productivity/one_drive_automation/one-drive-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "one_drive_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for one drive automation. Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "one",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "One Drive Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
