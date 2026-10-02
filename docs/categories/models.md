@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **72 skills** available in this category.
+> **73 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -75,4 +75,5 @@
 | [bdi-mental-states](../../skills/ai-engineering/models/bdi_mental_states/bdi-mental-states/SKILL.md) | `bdi_mental_states` | `advanced` | `stable` | Use this skill to this skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transform RDF to beliefs", "build cognitive agent", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbol |
 | [bdistill-behavioral-xray](../../skills/ai-engineering/models/bdistill_behavioral_/bdistill-behavioral-xray/SKILL.md) | `bdistill_behavioral_` | `advanced` | `stable` | Use this skill to x-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed. |
 | [bdistill-knowledge-extraction](../../skills/ai-engineering/models/bdistill_knowledge_e/bdistill-knowledge-extraction/SKILL.md) | `bdistill_knowledge_e` | `advanced` | `stable` | Use this skill to extract structured domain knowledge from AI models in-session or from local open-source models via Ollama. No API key needed. |
+| [beatra](../../skills/ai-engineering/models/beatra/beatra/SKILL.md) | `beatra` | `advanced` | `stable` | Use this skill to install and use the official AI Media Generator package, pinned by digest, for paid hosted work on the Beatra service. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

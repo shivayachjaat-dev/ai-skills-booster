@@ -110,6 +110,7 @@ AI_Skills_Booster/
 │   │   ├── bdi_mental_states/ (1 skills)
 │   │   ├── bdistill_behavioral_/ (1 skills)
 │   │   ├── bdistill_knowledge_e/ (1 skills)
+│   │   ├── beatra/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

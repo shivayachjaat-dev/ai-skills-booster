@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **390** skills across structured domains, categories, and subcategories.
+Master navigation for **391** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (124 skills)
+## Ai Engineering (125 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -114,7 +114,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (72 skills)
+### Models (73 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -250,6 +250,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [bdistill-behavioral-xray](../skills/ai-engineering/models/bdistill_behavioral_/bdistill-behavioral-xray/SKILL.md) — Use this skill to x-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed.
 - **Bdistill_Knowledge_E** (1):
   - [bdistill-knowledge-extraction](../skills/ai-engineering/models/bdistill_knowledge_e/bdistill-knowledge-extraction/SKILL.md) — Use this skill to extract structured domain knowledge from AI models in-session or from local open-source models via Ollama. No API key needed.
+- **Beatra** (1):
+  - [beatra](../skills/ai-engineering/models/beatra/beatra/SKILL.md) — Use this skill to install and use the official AI Media Generator package, pinned by digest, for paid hosted work on the Beatra service.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

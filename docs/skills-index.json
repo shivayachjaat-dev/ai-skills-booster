@@ -2371,6 +2371,28 @@
     "maturity": "stable"
   },
   {
+    "name": "beatra",
+    "path": "skills/ai-engineering/models/beatra/beatra",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "beatra",
+    "description": "Use this skill to install and use the official AI Media Generator package, pinned by digest, for paid hosted work on the Beatra service.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "beatra",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Beatra",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
