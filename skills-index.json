@@ -13712,6 +13712,28 @@
     "maturity": "stable"
   },
   {
+    "name": "logo-image-design",
+    "path": "skills/business/operations/logo_image_design/logo-image-design",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "logo_image_design",
+    "description": "Use this skill to design, implement, and operate production workflows for logo image design. Brand asset register: asset type, format, dimensions and aspect ratio, colour mode, background variant, clear space, approved and prohibited uses, rights owner and licence. Use for brand control.",
+    "tags": [
+      "business",
+      "operations",
+      "logo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Logo Image Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

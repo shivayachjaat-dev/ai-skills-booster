@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **23 skills** available in this category.
+> **24 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -27,3 +27,4 @@
 | [leave-management](../../skills/business/operations/leave_management/leave-management/SKILL.md) | `leave_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leave management. Leave register: request, leave type, employee and department, manager and approver, start and end dates, days requested, leave balances, handover notes and status. Use for leave tracking. |
 | [lex-engineering-workflow](../../skills/business/operations/lex/lex-engineering-workflow/SKILL.md) | `lex` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lex engineering workflow. Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding. |
 | [linktree-link-hub](../../skills/business/operations/linktree_link_hub/linktree-link-hub/SKILL.md) | `linktree_link_hub` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linktree link hub. Link-in-bio register: label, destination URL, link type, priority order, audience, click tracking, UTM source, schedule, click count and status. Use for link hub tracking. |
+| [logo-image-design](../../skills/business/operations/logo_image_design/logo-image-design/SKILL.md) | `logo_image_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for logo image design. Brand asset register: asset type, format, dimensions and aspect ratio, colour mode, background variant, clear space, approved and prohibited uses, rights owner and licence. Use for brand control. |

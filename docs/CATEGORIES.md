@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,430** skills across structured domains, categories, and subcategories.
+Master navigation for **1,431** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (497 skills)
 
@@ -1295,7 +1295,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (35 skills)
+## Business (36 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1333,7 +1333,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (23 skills)
+### Operations (24 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1382,6 +1382,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [lex-engineering-workflow](../skills/business/operations/lex/lex-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for lex engineering workflow. Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.
 - **Linktree_Link_Hub** (1):
   - [linktree-link-hub](../skills/business/operations/linktree_link_hub/linktree-link-hub/SKILL.md) — Use this skill to design, implement, and operate production workflows for linktree link hub. Link-in-bio register: label, destination URL, link type, priority order, audience, click tracking, UTM source, schedule, click count and status. Use for link hub tracking.
+- **Logo_Image_Design** (1):
+  - [logo-image-design](../skills/business/operations/logo_image_design/logo-image-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for logo image design. Brand asset register: asset type, format, dimensions and aspect ratio, colour mode, background variant, clear space, approved and prohibited uses, rights owner and licence. Use for brand control.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)
