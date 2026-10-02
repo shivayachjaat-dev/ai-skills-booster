@@ -2220,6 +2220,31 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-arm-and-bicep-infrastructure-as-code",
+    "path": "skills/devops/infrastructure/azure-bicep/azure-arm-and-bicep-infrastructure-as-code",
+    "domain": "devops",
+    "category": "infrastructure",
+    "subcategory": "azure-bicep",
+    "description": "Use this skill to design, validate, and deploy modular Azure infrastructure using Bicep and ARM templates. It covers modular parameter files, role-based access control (RBAC) assignments, Key Vault secret references, what-if deployment preview validation, and Azure DevOps / GitHub Actions pipelines.",
+    "tags": [
+      "bicep",
+      "arm-templates",
+      "azure",
+      "infrastructure-as-code",
+      "devops",
+      "cloud-governance"
+    ],
+    "technologies": [
+      "Azure Bicep",
+      "ARM Templates",
+      "Azure CLI",
+      "GitHub Actions",
+      "PowerShell"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ansible-idempotent-configuration-management",
     "path": "skills/devops/infrastructure-as-code/ansible/ansible-idempotent-configuration-management",
     "domain": "devops",

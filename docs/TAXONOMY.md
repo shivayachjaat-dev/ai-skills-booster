@@ -162,6 +162,8 @@ AI_Skills_Booster/
 │   │   └── argo-cd/ (1 skills)
 │   ├── iac/
 │   │   └── terraform/ (1 skills)
+│   ├── infrastructure/
+│   │   └── azure-bicep/ (1 skills)
 │   ├── infrastructure-as-code/
 │   │   ├── ansible/ (1 skills)
 │   │   └── terraform-modules/ (1 skills)
