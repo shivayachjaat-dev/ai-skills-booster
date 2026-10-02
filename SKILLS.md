@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,532 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,533 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -785,6 +785,7 @@
 | [load-balancing](skills/devops/ci-cd/load_balancing/load-balancing/SKILL.md) | `devops` | `ci-cd` | `load_balancing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for load balancing. Configure load balancers and traffic distribution. Implement health checks |
 | [loki-logging](skills/devops/ci-cd/loki_logging/loki-logging/SKILL.md) | `devops` | `ci-cd` | `loki_logging` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for loki logging. Configure Grafana Loki for log aggregation and analysis. |
 | [mdm-device-management](skills/devops/ci-cd/mdm_device_managemen/mdm-device-management/SKILL.md) | `devops` | `ci-cd` | `mdm_device_managemen` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mdm device management. Manage and secure company devices with MDM solutions |
+| [model-registry-governance](skills/devops/ci-cd/model_registry_gover/model-registry-governance/SKILL.md) | `devops` | `ci-cd` | `model_registry_gover` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for model registry governance. Establish model registry standards, governance controls, metadata schemas, |
 | [github-actions-ci-pipeline-optimization](skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `devops` | `ci-cd` | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |

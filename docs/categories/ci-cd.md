@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **36 skills** available in this category.
+> **37 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -39,4 +39,5 @@
 | [load-balancing](../../skills/devops/ci-cd/load_balancing/load-balancing/SKILL.md) | `load_balancing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for load balancing. Configure load balancers and traffic distribution. Implement health checks |
 | [loki-logging](../../skills/devops/ci-cd/loki_logging/loki-logging/SKILL.md) | `loki_logging` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for loki logging. Configure Grafana Loki for log aggregation and analysis. |
 | [mdm-device-management](../../skills/devops/ci-cd/mdm_device_managemen/mdm-device-management/SKILL.md) | `mdm_device_managemen` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mdm device management. Manage and secure company devices with MDM solutions |
+| [model-registry-governance](../../skills/devops/ci-cd/model_registry_gover/model-registry-governance/SKILL.md) | `model_registry_gover` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for model registry governance. Establish model registry standards, governance controls, metadata schemas, |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
