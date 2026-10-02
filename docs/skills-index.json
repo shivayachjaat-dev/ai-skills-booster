@@ -5363,6 +5363,28 @@
     "maturity": "stable"
   },
   {
+    "name": "design-orchestration",
+    "path": "skills/ai-engineering/models/design_orchestration/design-orchestration",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "design_orchestration",
+    "description": "Use this skill to design, implement, and operate production workflows for design orchestration. Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "design",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Design Orchestration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
