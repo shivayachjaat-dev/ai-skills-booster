@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,293** skills across structured domains, categories, and subcategories.
+Master navigation for **1,294** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (434 skills)
 
@@ -1263,7 +1263,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (26 skills)
+## Data Analytics (27 skills)
 
 ### Analytics Engineering (1 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1277,7 +1277,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (15 skills)
+### Data Pipelines (16 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -1308,6 +1308,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [ida-reverse](../skills/data-analytics/data-pipelines/ida_reverse/ida-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for ida reverse. Reverse engineer binaries with IDA Pro: decompilation, disassembly, data-flow tracking, cross-references, and IDA MCP automation for deep static analysis of PE/ELF/Mach-O targets.
 - **Infinity** (1):
   - [infinity](../skills/data-analytics/data-pipelines/infinity/infinity/SKILL.md) — Use this skill to design, implement, and operate production workflows for infinity. Enforces a strict input boundary protocol (detect, classify, filter, verify) to ensure untrusted data never reaches business logic raw.
+- **Ingest_Youtube** (1):
+  - [ingest-youtube](../skills/data-analytics/data-pipelines/ingest_youtube/ingest-youtube/SKILL.md) — Use this skill to design, implement, and operate production workflows for ingest youtube. Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs.
 - **Polars** (1):
   - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 

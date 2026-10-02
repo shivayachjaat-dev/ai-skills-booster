@@ -12518,6 +12518,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ingest-youtube",
+    "path": "skills/data-analytics/data-pipelines/ingest_youtube/ingest-youtube",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "ingest_youtube",
+    "description": "Use this skill to design, implement, and operate production workflows for ingest youtube. Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "ingest",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ingest Youtube",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

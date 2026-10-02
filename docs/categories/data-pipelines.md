@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -18,4 +18,5 @@
 | [hugging-face-cli](../../skills/data-analytics/data-pipelines/hugging_face_cli/hugging-face-cli/SKILL.md) | `hugging_face_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face cli. Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. |
 | [ida-reverse](../../skills/data-analytics/data-pipelines/ida_reverse/ida-reverse/SKILL.md) | `ida_reverse` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ida reverse. Reverse engineer binaries with IDA Pro: decompilation, disassembly, data-flow tracking, cross-references, and IDA MCP automation for deep static analysis of PE/ELF/Mach-O targets. |
 | [infinity](../../skills/data-analytics/data-pipelines/infinity/infinity/SKILL.md) | `infinity` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for infinity. Enforces a strict input boundary protocol (detect, classify, filter, verify) to ensure untrusted data never reaches business logic raw. |
+| [ingest-youtube](../../skills/data-analytics/data-pipelines/ingest_youtube/ingest-youtube/SKILL.md) | `ingest_youtube` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ingest youtube. Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs. |
 | [polars-high-throughput-data-pipeline](../../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) | `polars` | `advanced` | `stable` | Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations. |
