@@ -7044,6 +7044,28 @@
     "maturity": "stable"
   },
   {
+    "name": "docs-guard",
+    "path": "skills/backend/api-frameworks/docs_guard/docs-guard",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "docs_guard",
+    "description": "Use this skill to design, implement, and operate production workflows for docs guard. Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs, tutorials, and documentation sites.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "docs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Docs Guard",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",

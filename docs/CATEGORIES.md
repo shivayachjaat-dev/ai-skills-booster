@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **856** skills across structured domains, categories, and subcategories.
+Master navigation for **857** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (296 skills)
 
@@ -660,7 +660,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (61 skills)
+## Backend (62 skills)
 
 ### Api Design (5 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -676,7 +676,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (15 skills)
+### Api Frameworks (16 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -705,6 +705,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [developer-signup-flow](../skills/backend/api-frameworks/developer_signup_flo/developer-signup-flow/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer signup flow. Design frictionless signup experiences for developers including GitHub OAuth, API key generation, and onboarding personalization.
 - **Devops_Troubleshoote** (1):
   - [devops-troubleshooter](../skills/backend/api-frameworks/devops_troubleshoote/devops-troubleshooter/SKILL.md) — Use this skill to design, implement, and operate production workflows for devops troubleshooter. Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
+- **Docs_Guard** (1):
+  - [docs-guard](../skills/backend/api-frameworks/docs_guard/docs-guard/SKILL.md) — Use this skill to design, implement, and operate production workflows for docs guard. Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs, tutorials, and documentation sites.
 - **Fastapi Endpoints** (1):
   - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 
