@@ -38,6 +38,8 @@ AI_Skills_Booster/
 │   │   └── vllm-mesh/ (1 skills)
 │   ├── inference-optimization/
 │   │   └── vllm/ (1 skills)
+│   ├── llm-ops/
+│   │   └── andrej_karpathy/ (1 skills)
 │   ├── models/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)

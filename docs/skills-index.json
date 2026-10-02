@@ -655,6 +655,28 @@
     "maturity": "stable"
   },
   {
+    "name": "andrej-karpathy",
+    "path": "skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "andrej_karpathy",
+    "description": "Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "andrej",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Andrej Karpathy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",
