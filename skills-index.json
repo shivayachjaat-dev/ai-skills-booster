@@ -3082,6 +3082,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-skills",
+    "path": "skills/devops/cloud-infrastructure/aws_skills/aws-skills",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "aws_skills",
+    "description": "Use this skill to aWS development with infrastructure automation and cloud architecture patterns",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Skills",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
