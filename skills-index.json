@@ -20551,6 +20551,28 @@
     "maturity": "stable"
   },
   {
+    "name": "executing-plans",
+    "path": "skills/software-engineering/architecture/patterns/executing-plans",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for executing plans. Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "executing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Executing Plans",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",

@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **96 skills** available in this category.
+> **97 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -99,4 +99,5 @@
 | [error-diagnostics-smart-debug](../../skills/software-engineering/architecture/patterns/error-diagnostics-smart-debug/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error diagnostics smart debug. Use when working with error diagnostics smart debug |
 | [event-staffing-compliance](../../skills/software-engineering/architecture/patterns/event-staffing-compliance/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for event staffing compliance. Assess worker-classification and compliance risk for temporary event staffing in the US and Canada — W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP. |
 | [evolution](../../skills/software-engineering/architecture/patterns/evolution/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for evolution. This skill enables makepad-skills to self-improve continuously during development. |
+| [executing-plans](../../skills/software-engineering/architecture/patterns/executing-plans/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for executing plans. Use when you have a written implementation plan to execute in a separate session with review checkpoints |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
