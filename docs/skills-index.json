@@ -10187,6 +10187,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-datasets",
+    "path": "skills/backend/databases/hugging_face_dataset/hugging-face-datasets",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "hugging_face_dataset",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face datasets. Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset querying/transformation. Designed to work alongside HF MCP server for comprehensive dataset wor...",
+    "tags": [
+      "backend",
+      "databases",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Datasets",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

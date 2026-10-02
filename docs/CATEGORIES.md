@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,182** skills across structured domains, categories, and subcategories.
+Master navigation for **1,183** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (403 skills)
 
@@ -874,7 +874,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (73 skills)
+## Backend (74 skills)
 
 ### Api Design (8 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -970,7 +970,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (18 skills)
+### Databases (19 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -1006,6 +1006,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [django-perf-review](../skills/backend/databases/django_perf_review/django-perf-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for django perf review. Django performance code review. Use when asked to "review Django performance", "find N+1 queries", "optimize Django", "check queryset performance", "database performance", "Django ORM issues", or audit Django code for performance problems.
 - **Food_Database_Query** (1):
   - [food-database-query](../skills/backend/databases/food_database_query/food-database-query/SKILL.md) — Use this skill to design, implement, and operate production workflows for food database query. Food Database Query
+- **Hugging_Face_Dataset** (1):
+  - [hugging-face-datasets](../skills/backend/databases/hugging_face_dataset/hugging-face-datasets/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face datasets. Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset querying/transformation. Designed to work alongside HF MCP server for comprehensive dataset wor...
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)
