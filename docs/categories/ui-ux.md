@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **4 skills** available in this category.
+> **5 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -8,3 +8,4 @@
 | [ask-questions-if-underspecified](../../skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](../../skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |
 | [automated-triage](../../skills/frontend/ui-ux/automated_triage/automated-triage/SKILL.md) | `automated_triage` | `advanced` | `stable` | Use this skill to triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule. |
+| [aws-lambda](../../skills/frontend/ui-ux/aws_lambda/aws-lambda/SKILL.md) | `aws_lambda` | `advanced` | `stable` | Use this skill to build and deploy serverless functions on AWS Lambda. Configure triggers, |

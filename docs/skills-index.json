@@ -3931,6 +3931,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-lambda",
+    "path": "skills/frontend/ui-ux/aws_lambda/aws-lambda",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "aws_lambda",
+    "description": "Use this skill to build and deploy serverless functions on AWS Lambda. Configure triggers,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Lambda",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

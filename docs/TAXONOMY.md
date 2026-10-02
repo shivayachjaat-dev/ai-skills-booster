@@ -266,7 +266,8 @@ AI_Skills_Booster/
 │   │   ├── anti_sleep/ (1 skills)
 │   │   ├── ask_questions_if_und/ (1 skills)
 │   │   ├── audit_context_buildi/ (1 skills)
-│   │   └── automated_triage/ (1 skills)
+│   │   ├── automated_triage/ (1 skills)
+│   │   └── aws_lambda/ (1 skills)
 │   └── web-architecture/
 │   │   └── antigravity_design_e/ (1 skills)
 ├── marketing/
