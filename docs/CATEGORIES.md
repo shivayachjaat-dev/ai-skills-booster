@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **962** skills across structured domains, categories, and subcategories.
+Master navigation for **963** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (340 skills)
+## Ai Engineering (341 skills)
 
 ### Agents (41 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -182,7 +182,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (247 skills)
+### Models (248 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -652,6 +652,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [fal-upscale](../skills/ai-engineering/models/fal_upscale/fal-upscale/SKILL.md) — Use this skill to design, implement, and operate production workflows for fal upscale. Upscale and enhance image and video resolution using AI
 - **Fal_Workflow** (1):
   - [fal-workflow](../skills/ai-engineering/models/fal_workflow/fal-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for fal workflow. Generate workflow JSON files for chaining AI models
+- **Falsify** (1):
+  - [falsify](../skills/ai-engineering/models/falsify/falsify/SKILL.md) — Use this skill to design, implement, and operate production workflows for falsify. The scientific thinking protocol for AI agents. Use when facing complex, ambiguous, or high-stakes questions where guessing is costly: hypothesis → attempt to break it → evidence → calibrated conclusion.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):
