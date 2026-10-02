@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **572** skills across structured domains, categories, and subcategories.
+Master navigation for **573** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (198 skills)
+## Ai Engineering (199 skills)
 
 ### Agents (24 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -132,7 +132,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (134 skills)
+### Models (135 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -392,6 +392,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [cold-email](../skills/ai-engineering/models/cold_email/cold-email/SKILL.md) — Use this skill to write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR outreach, personalized opening lines, subject lines, CTAs, and multi-touch follow-up sequences.
 - **Company_Email_Accoun** (1):
   - [company-email-accounts](../skills/ai-engineering/models/company_email_accoun/company-email-accounts/SKILL.md) — Use this skill to mailbox and licence register: employee, account type, aliases, groups, tool, licence cost, 2FA and password policy state, and access-review dates. Use for account provisioning.
+- **Compile_Knowledge** (1):
+  - [compile-knowledge](../skills/ai-engineering/models/compile_knowledge/compile-knowledge/SKILL.md) — Use this skill to compile durable, non-obvious findings into an interlinked markdown knowledge store — atomic files, [[wiki-links]], a maintained index — so an agent gets smarter across sessions instead of relearning the same facts.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

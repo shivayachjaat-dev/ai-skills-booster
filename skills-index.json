@@ -3933,6 +3933,28 @@
     "maturity": "stable"
   },
   {
+    "name": "compile-knowledge",
+    "path": "skills/ai-engineering/models/compile_knowledge/compile-knowledge",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "compile_knowledge",
+    "description": "Use this skill to compile durable, non-obvious findings into an interlinked markdown knowledge store \u2014 atomic files, [[wiki-links]], a maintained index \u2014 so an agent gets smarter across sessions instead of relearning the same facts.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "compile",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Compile Knowledge",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

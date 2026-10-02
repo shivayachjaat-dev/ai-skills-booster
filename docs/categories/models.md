@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **134 skills** available in this category.
+> **135 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -137,4 +137,5 @@
 | [cohesivity](../../skills/ai-engineering/models/cohesivity/cohesivity/SKILL.md) | `cohesivity` | `advanced` | `stable` | Use this skill to provision headless backend services for AI agents through Cohesivity: hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when a trusted .cohesivity file exists or the user approves a new backend. |
 | [cold-email](../../skills/ai-engineering/models/cold_email/cold-email/SKILL.md) | `cold_email` | `advanced` | `stable` | Use this skill to write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR outreach, personalized opening lines, subject lines, CTAs, and multi-touch follow-up sequences. |
 | [company-email-accounts](../../skills/ai-engineering/models/company_email_accoun/company-email-accounts/SKILL.md) | `company_email_accoun` | `advanced` | `stable` | Use this skill to mailbox and licence register: employee, account type, aliases, groups, tool, licence cost, 2FA and password policy state, and access-review dates. Use for account provisioning. |
+| [compile-knowledge](../../skills/ai-engineering/models/compile_knowledge/compile-knowledge/SKILL.md) | `compile_knowledge` | `advanced` | `stable` | Use this skill to compile durable, non-obvious findings into an interlinked markdown knowledge store — atomic files, [[wiki-links]], a maintained index — so an agent gets smarter across sessions instead of relearning the same facts. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
