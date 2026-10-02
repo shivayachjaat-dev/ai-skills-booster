@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **92 skills** available in this category.
+> **93 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -95,4 +95,5 @@
 | [brooks-review](../../skills/ai-engineering/models/brooks_review/brooks-review/SKILL.md) | `brooks_review` | `advanced` | `stable` | Use this skill to pR code review that surfaces decay risks, design smells, and maintainability issues with concrete Symptom → Source → Consequence → Remedy findings, drawing on twelve classic engineering books. |
 | [brooks-test](../../skills/ai-engineering/models/brooks_test/brooks-test/SKILL.md) | `brooks_test` | `advanced` | `stable` | Use this skill to review test-suite quality using established testing literature; identify brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance risks. |
 | [browser-automation](../../skills/ai-engineering/models/browser_automation/browser-automation/SKILL.md) | `browser_automation` | `advanced` | `stable` | Use this skill to build reliable browser checks using observed UI state, semantic locators, bounded waits, isolated test data and explicit outcome verification. |
+| [budget-cash-flow](../../skills/ai-engineering/models/budget_cash_flow/budget-cash-flow/SKILL.md) | `budget_cash_flow` | `advanced` | `stable` | Use this skill to budget against actual by department, category and period, with budget and actual amounts, variance, percentage used and linked expenses. Use for budget tracking or cash-flow reviews. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

@@ -2855,6 +2855,28 @@
     "maturity": "stable"
   },
   {
+    "name": "budget-cash-flow",
+    "path": "skills/ai-engineering/models/budget_cash_flow/budget-cash-flow",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "budget_cash_flow",
+    "description": "Use this skill to budget against actual by department, category and period, with budget and actual amounts, variance, percentage used and linked expenses. Use for budget tracking or cash-flow reviews.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "budget",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Budget Cash Flow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

@@ -132,6 +132,7 @@ AI_Skills_Booster/
 │   │   ├── brooks_review/ (1 skills)
 │   │   ├── brooks_test/ (1 skills)
 │   │   ├── browser_automation/ (1 skills)
+│   │   ├── budget_cash_flow/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **434** skills across structured domains, categories, and subcategories.
+Master navigation for **435** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (147 skills)
+## Ai Engineering (148 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -118,7 +118,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (92 skills)
+### Models (93 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -294,6 +294,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [brooks-test](../skills/ai-engineering/models/brooks_test/brooks-test/SKILL.md) — Use this skill to review test-suite quality using established testing literature; identify brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance risks.
 - **Browser_Automation** (1):
   - [browser-automation](../skills/ai-engineering/models/browser_automation/browser-automation/SKILL.md) — Use this skill to build reliable browser checks using observed UI state, semantic locators, bounded waits, isolated test data and explicit outcome verification.
+- **Budget_Cash_Flow** (1):
+  - [budget-cash-flow](../skills/ai-engineering/models/budget_cash_flow/budget-cash-flow/SKILL.md) — Use this skill to budget against actual by department, category and period, with budget and actual amounts, variance, percentage used and linked expenses. Use for budget tracking or cash-flow reviews.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
