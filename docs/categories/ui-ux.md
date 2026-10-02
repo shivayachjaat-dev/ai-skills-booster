@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **145 skills** available in this category.
+> **146 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -145,6 +145,7 @@
 | [ios-developer](../../skills/frontend/ui-ux/ios_developer/ios-developer/SKILL.md) | `ios_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ios developer. Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization. |
 | [istio-traffic-management](../../skills/frontend/ui-ux/istio_traffic_manage/istio-traffic-management/SKILL.md) | `istio_traffic_manage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for istio traffic management. Comprehensive guide to Istio traffic management for production service mesh deployments. |
 | [javascript-testing-patterns](../../skills/frontend/ui-ux/javascript_testing_p/javascript-testing-patterns/SKILL.md) | `javascript_testing_p` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for javascript testing patterns. Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices. |
+| [jobgpt](../../skills/frontend/ui-ux/jobgpt/jobgpt/SKILL.md) | `jobgpt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for jobgpt. Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

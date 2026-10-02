@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,333** skills across structured domains, categories, and subcategories.
+Master navigation for **1,334** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (443 skills)
 
@@ -1813,7 +1813,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (260 skills)
+## Frontend (261 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1951,7 +1951,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Javascript_Typescrip** (1):
   - [javascript-typescript-typescript-scaffold](../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N
 
-### Ui Ux (145 skills)
+### Ui Ux (146 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2236,6 +2236,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [istio-traffic-management](../skills/frontend/ui-ux/istio_traffic_manage/istio-traffic-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for istio traffic management. Comprehensive guide to Istio traffic management for production service mesh deployments.
 - **Javascript_Testing_P** (1):
   - [javascript-testing-patterns](../skills/frontend/ui-ux/javascript_testing_p/javascript-testing-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript testing patterns. Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices.
+- **Jobgpt** (1):
+  - [jobgpt](../skills/frontend/ui-ux/jobgpt/jobgpt/SKILL.md) — Use this skill to design, implement, and operate production workflows for jobgpt. Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):
