@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,321** skills across structured domains, categories, and subcategories.
+Master navigation for **1,322** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (438 skills)
+## Ai Engineering (439 skills)
 
 ### Agents (55 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -220,7 +220,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (320 skills)
+### Models (321 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -842,6 +842,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [inventory-demand-planning](../skills/ai-engineering/models/inventory_demand_pla/inventory-demand-planning/SKILL.md) — Use this skill to design, implement, and operate production workflows for inventory demand planning. Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.
 - **Issue_Grievance_Trac** (1):
   - [issue-grievance-tracker](../skills/ai-engineering/models/issue_grievance_trac/issue-grievance-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for issue grievance tracker. Grievance register: issue type, raised by or anonymous, person or team concerned, department, date raised, policy reference, severity, assignee, action taken and status. Use for complaint handling.
+- **Iterate_Pr** (1):
+  - [iterate-pr](../skills/ai-engineering/models/iterate_pr/iterate-pr/SKILL.md) — Use this skill to design, implement, and operate production workflows for iterate pr. Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

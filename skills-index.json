@@ -8883,6 +8883,28 @@
     "maturity": "stable"
   },
   {
+    "name": "iterate-pr",
+    "path": "skills/ai-engineering/models/iterate_pr/iterate-pr",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "iterate_pr",
+    "description": "Use this skill to design, implement, and operate production workflows for iterate pr. Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "iterate",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Iterate Pr",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

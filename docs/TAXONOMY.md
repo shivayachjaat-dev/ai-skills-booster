@@ -406,6 +406,7 @@ AI_Skills_Booster/
 │   │   ├── instructree/ (1 skills)
 │   │   ├── inventory_demand_pla/ (1 skills)
 │   │   ├── issue_grievance_trac/ (1 skills)
+│   │   ├── iterate_pr/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
