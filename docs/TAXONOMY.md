@@ -1103,6 +1103,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_brute_force/ (1 skills)
 │   │   ├── hunt_business_logic/ (1 skills)
 │   │   ├── hunt_captcha_bypass/ (1 skills)
+│   │   ├── hunt_cicd/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)
