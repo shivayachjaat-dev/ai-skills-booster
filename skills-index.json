@@ -21519,6 +21519,28 @@
     "maturity": "stable"
   },
   {
+    "name": "file-organizer",
+    "path": "skills/software-engineering/architecture/patterns/file-organizer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for file organizer. 6. Reduces Clutter: Identifies old files you probably don't need anymore",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "file",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "File Organizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
