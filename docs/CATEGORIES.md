@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,122** skills across structured domains, categories, and subcategories.
+Master navigation for **1,123** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (386 skills)
+## Ai Engineering (387 skills)
 
 ### Agents (46 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -198,7 +198,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (281 skills)
+### Models (282 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -742,6 +742,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [go-in-depth](../skills/ai-engineering/models/go_in_depth/go-in-depth/SKILL.md) — Use this skill to design, implement, and operate production workflows for go in depth. Go in depth harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.
 - **Goal_Loop** (1):
   - [goal-loop](../skills/ai-engineering/models/goal_loop/goal-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for goal loop. Draft and explain persistent goal-loop prompts for long-running agent work with clear stop conditions.
+- **Google_Docs_Automati** (1):
+  - [google-docs-automation](../skills/ai-engineering/models/google_docs_automati/google-docs-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google docs automation. Read and edit Google Docs through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

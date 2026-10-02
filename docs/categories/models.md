@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **281 skills** available in this category.
+> **282 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -279,6 +279,7 @@
 | [gmail-automation](../../skills/ai-engineering/models/gmail_automation/gmail-automation/SKILL.md) | `gmail_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gmail automation. Lightweight Gmail integration with standalone OAuth authentication. No MCP server required. |
 | [go-in-depth](../../skills/ai-engineering/models/go_in_depth/go-in-depth/SKILL.md) | `go_in_depth` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for go in depth. Go in depth harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report. |
 | [goal-loop](../../skills/ai-engineering/models/goal_loop/goal-loop/SKILL.md) | `goal_loop` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for goal loop. Draft and explain persistent goal-loop prompts for long-running agent work with clear stop conditions. |
+| [google-docs-automation](../../skills/ai-engineering/models/google_docs_automati/google-docs-automation/SKILL.md) | `google_docs_automati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google docs automation. Read and edit Google Docs through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

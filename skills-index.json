@@ -7783,6 +7783,28 @@
     "maturity": "stable"
   },
   {
+    "name": "google-docs-automation",
+    "path": "skills/ai-engineering/models/google_docs_automati/google-docs-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "google_docs_automati",
+    "description": "Use this skill to design, implement, and operate production workflows for google docs automation. Read and edit Google Docs through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "google",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Google Docs Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
