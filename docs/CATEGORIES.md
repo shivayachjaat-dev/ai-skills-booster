@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,039** skills across structured domains, categories, and subcategories.
+Master navigation for **1,040** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (360 skills)
+## Ai Engineering (361 skills)
 
 ### Agents (43 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -186,7 +186,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (261 skills)
+### Models (262 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -690,6 +690,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [frontend-design](../skills/ai-engineering/models/frontend_design/frontend-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend design. Design and implement a distinctive frontend within the product’s existing brand, accessibility, performance and framework constraints.
 - **Frontend_Ui_Dark_Ts** (1):
   - [frontend-ui-dark-ts](../skills/ai-engineering/models/frontend_ui_dark_ts/frontend-ui-dark-ts/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend ui dark ts. A modern dark-themed React UI system using Tailwind CSS and Framer Motion. Designed for dashboards, admin panels, and data-rich applications with glassmorphism effects and tasteful animations.
+- **Frontend_Ui_Engineer** (1):
+  - [frontend-ui-engineering](../skills/ai-engineering/models/frontend_ui_engineer/frontend-ui-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend ui engineering. Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
