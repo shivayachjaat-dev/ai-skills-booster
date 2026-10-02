@@ -7726,6 +7726,28 @@
     "maturity": "stable"
   },
   {
+    "name": "exa-search",
+    "path": "skills/backend/api-frameworks/exa_search/exa-search",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "exa_search",
+    "description": "Use this skill to design, implement, and operate production workflows for exa search. Semantic search, similar content discovery, and structured research using Exa API. Use when you need semantic/embeddings-based search, finding similar content, or searching by category (company, people, research papers, etc.).",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "exa",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Exa Search",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",
