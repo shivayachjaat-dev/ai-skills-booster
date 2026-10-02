@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **89 skills** available in this category.
+> **90 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -92,4 +92,5 @@
 | [employment-contract-templates](../../skills/software-engineering/architecture/patterns/employment-contract-templates/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for employment contract templates. Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies. |
 | [energy-procurement](../../skills/software-engineering/architecture/patterns/energy-procurement/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for energy procurement. Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management. |
 | [eol-resistor-calculator](../../skills/software-engineering/architecture/patterns/eol-resistor-calculator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eol resistor calculator. Calculates and validates end-of-line (EOL, SEOL, DEOL, TEOL) resistor loops for intrusion alarm panels (Honeywell, DSC, Paradox, Bosch) with wire gauge drop and state tables. Trigger phrases: eol resistor, deol wiring, alarm zone resistor, calculat... |
+| [error-debugging-error-analysis](../../skills/software-engineering/architecture/patterns/error-debugging-error-analysis/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error debugging error analysis. You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
