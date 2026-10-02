@@ -14095,6 +14095,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-architecture",
+    "path": "skills/frontend/ui-development/frontend_architectur/frontend-architecture",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_architectur",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend architecture. A portable, framework-agnostic architecture style for any React or React Native frontend. Organizes apps into feature modules with page/screen directories, a strict server-state vs UI-state split, barrel-only cross-module imports, co-located styles, ...",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Architecture",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
