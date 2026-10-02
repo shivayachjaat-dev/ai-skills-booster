@@ -4426,6 +4426,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-audit",
+    "path": "skills/backend/api-frameworks/code_audit/code-audit",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "code_audit",
+    "description": "Use this skill to authorized source-code security review and SAST workflows: Semgrep and CodeQL pattern hunting, dangerous API identification, and fix verification.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",
