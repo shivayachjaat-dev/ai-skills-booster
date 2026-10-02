@@ -6045,6 +6045,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ecommerce-listing-image-set",
+    "path": "skills/ai-engineering/models/ecommerce_listing_im/ecommerce-listing-image-set",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ecommerce_listing_im",
+    "description": "Use this skill to design, implement, and operate production workflows for ecommerce listing image set. Install and use the official Ecommerce Product Images package, pinned by digest, for paid hosted work on the Beatra service.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ecommerce",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ecommerce Listing Image Set",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

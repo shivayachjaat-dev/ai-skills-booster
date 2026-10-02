@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **888** skills across structured domains, categories, and subcategories.
+Master navigation for **889** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (307 skills)
+## Ai Engineering (308 skills)
 
 ### Agents (37 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -172,7 +172,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (219 skills)
+### Models (220 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -584,6 +584,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [e2e-testing-patterns](../skills/ai-engineering/models/e2e_testing_patterns/e2e-testing-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for e2e testing patterns. Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.
 - **Earllm_Build** (1):
   - [earllm-build](../skills/ai-engineering/models/earllm_build/earllm-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for earllm build. Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline.
+- **Ecommerce_Listing_Im** (1):
+  - [ecommerce-listing-image-set](../skills/ai-engineering/models/ecommerce_listing_im/ecommerce-listing-image-set/SKILL.md) — Use this skill to design, implement, and operate production workflows for ecommerce listing image set. Install and use the official Ecommerce Product Images package, pinned by digest, for paid hosted work on the Beatra service.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):

@@ -277,6 +277,7 @@ AI_Skills_Booster/
 │   │   ├── dropthehassle_publis/ (1 skills)
 │   │   ├── e2e_testing_patterns/ (1 skills)
 │   │   ├── earllm_build/ (1 skills)
+│   │   ├── ecommerce_listing_im/ (1 skills)
 │   │   ├── editorial_design/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)

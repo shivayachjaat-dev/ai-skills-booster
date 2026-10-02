@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (706 skills)
+## Bash (707 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1313,6 +1313,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dropthehassle-publish](../skills/ai-engineering/models/dropthehassle_publis/dropthehassle-publish/SKILL.md) — Use this skill to design, implement, and operate production workflows for dropthehassle publish. Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money.
 - [e2e-testing-patterns](../skills/ai-engineering/models/e2e_testing_patterns/e2e-testing-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for e2e testing patterns. Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.
 - [earllm-build](../skills/ai-engineering/models/earllm_build/earllm-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for earllm build. Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline.
+- [ecommerce-listing-image-set](../skills/ai-engineering/models/ecommerce_listing_im/ecommerce-listing-image-set/SKILL.md) — Use this skill to design, implement, and operate production workflows for ecommerce listing image set. Install and use the official Ecommerce Product Images package, pinned by digest, for paid hosted work on the Beatra service.
 - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
@@ -3771,6 +3772,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ecl-harness-engineer](../skills/ai-engineering/agents/ecl_harness_engineer/ecl-harness-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for ecl harness engineer. Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs.
 
+## Ecommerce Listing Image Set (1 skills)
+
+- [ecommerce-listing-image-set](../skills/ai-engineering/models/ecommerce_listing_im/ecommerce-listing-image-set/SKILL.md) — Use this skill to design, implement, and operate production workflows for ecommerce listing image set. Install and use the official Ecommerce Product Images package, pinned by digest, for paid hosted work on the Beatra service.
+
 ## Editorial Design (1 skills)
 
 - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
@@ -4896,7 +4901,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (809 skills)
+## Python (810 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5165,6 +5170,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dropthehassle-publish](../skills/ai-engineering/models/dropthehassle_publis/dropthehassle-publish/SKILL.md) — Use this skill to design, implement, and operate production workflows for dropthehassle publish. Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money.
 - [e2e-testing-patterns](../skills/ai-engineering/models/e2e_testing_patterns/e2e-testing-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for e2e testing patterns. Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.
 - [earllm-build](../skills/ai-engineering/models/earllm_build/earllm-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for earllm build. Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline.
+- [ecommerce-listing-image-set](../skills/ai-engineering/models/ecommerce_listing_im/ecommerce-listing-image-set/SKILL.md) — Use this skill to design, implement, and operate production workflows for ecommerce listing image set. Install and use the official Ecommerce Product Images package, pinned by digest, for paid hosted work on the Beatra service.
 - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.

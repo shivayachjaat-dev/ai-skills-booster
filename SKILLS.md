@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 888 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 889 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -275,6 +275,7 @@
 | [dropthehassle-publish](skills/ai-engineering/models/dropthehassle_publis/dropthehassle-publish/SKILL.md) | `ai-engineering` | `models` | `dropthehassle_publis` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dropthehassle publish. Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money. |
 | [e2e-testing-patterns](skills/ai-engineering/models/e2e_testing_patterns/e2e-testing-patterns/SKILL.md) | `ai-engineering` | `models` | `e2e_testing_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for e2e testing patterns. Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do. |
 | [earllm-build](skills/ai-engineering/models/earllm_build/earllm-build/SKILL.md) | `ai-engineering` | `models` | `earllm_build` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for earllm build. Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline. |
+| [ecommerce-listing-image-set](skills/ai-engineering/models/ecommerce_listing_im/ecommerce-listing-image-set/SKILL.md) | `ai-engineering` | `models` | `ecommerce_listing_im` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ecommerce listing image set. Install and use the official Ecommerce Product Images package, pinned by digest, for paid hosted work on the Beatra service. |
 | [editorial-design](skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `ai-engineering` | `models` | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
