@@ -354,6 +354,7 @@ AI_Skills_Booster/
 │   │   ├── cloud_devops/ (1 skills)
 │   │   ├── cloudflare_pages/ (1 skills)
 │   │   ├── cloudflare_r2/ (1 skills)
+│   │   ├── cloudflare_zero_trus/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
