@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,3 +28,4 @@
 | [jira-automation](../../skills/developer-tools/productivity/jira_automation/jira-automation/SKILL.md) | `jira_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for jira automation. Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas. |
 | [linear-automation](../../skills/developer-tools/productivity/linear_automation/linear-automation/SKILL.md) | `linear_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linear automation. Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas. |
 | [linkedin-automation](../../skills/developer-tools/productivity/linkedin_automation/linkedin-automation/SKILL.md) | `linkedin_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linkedin automation. Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas. |
+| [make-automation](../../skills/developer-tools/productivity/make_automation/make-automation/SKILL.md) | `make_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for make automation. Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas. |

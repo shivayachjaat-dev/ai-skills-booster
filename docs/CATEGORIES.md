@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,462** skills across structured domains, categories, and subcategories.
+Master navigation for **1,463** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (514 skills)
 
@@ -1635,7 +1635,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (36 skills)
+## Developer Tools (37 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1665,7 +1665,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Linkedin_Cli** (1):
   - [linkedin-cli](../skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.
 
-### Productivity (24 skills)
+### Productivity (25 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1716,6 +1716,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [linear-automation](../skills/developer-tools/productivity/linear_automation/linear-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for linear automation. Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas.
 - **Linkedin_Automation** (1):
   - [linkedin-automation](../skills/developer-tools/productivity/linkedin_automation/linkedin-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin automation. Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas.
+- **Make_Automation** (1):
+  - [make-automation](../skills/developer-tools/productivity/make_automation/make-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for make automation. Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

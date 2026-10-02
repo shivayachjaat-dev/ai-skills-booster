@@ -16075,6 +16075,28 @@
     "maturity": "stable"
   },
   {
+    "name": "make-automation",
+    "path": "skills/developer-tools/productivity/make_automation/make-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "make_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for make automation. Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "make",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Make Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
