@@ -11589,6 +11589,28 @@
     "maturity": "stable"
   },
   {
+    "name": "okta-attack",
+    "path": "skills/ai-engineering/models/okta_attack/okta-attack",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "okta_attack",
+    "description": "Use this skill to design, implement, and operate production workflows for okta attack. Okta-as-IdP red-team attack chain",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "okta",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Okta Attack",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,668** skills across structured domains, categories, and subcategories.
+Master navigation for **1,669** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (571 skills)
+## Ai Engineering (572 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -278,7 +278,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Odoo_Ecommerce_Confi** (1):
   - [odoo-ecommerce-configurator](../skills/ai-engineering/llm-ops/odoo_ecommerce_confi/odoo-ecommerce-configurator/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo ecommerce configurator. Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow.
 
-### Models (415 skills)
+### Models (416 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1086,6 +1086,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [odoo-orm-expert](../skills/ai-engineering/models/odoo_orm_expert/odoo-orm-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo orm expert. Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques.
 - **Odoo_Qweb_Templates** (1):
   - [odoo-qweb-templates](../skills/ai-engineering/models/odoo_qweb_templates/odoo-qweb-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo qweb templates. Expert in Odoo QWeb templating for PDF reports, email templates, and website pages. Covers t-if, t-foreach, t-field, and report actions.
+- **Okta_Attack** (1):
+  - [okta-attack](../skills/ai-engineering/models/okta_attack/okta-attack/SKILL.md) — Use this skill to design, implement, and operate production workflows for okta attack. Okta-as-IdP red-team attack chain
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

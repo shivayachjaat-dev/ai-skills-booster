@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,668 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,669 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -527,6 +527,7 @@
 | [obsidian-clipper-template-creator](skills/ai-engineering/models/obsidian_clipper_tem/obsidian-clipper-template-creator/SKILL.md) | `ai-engineering` | `models` | `obsidian_clipper_tem` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for obsidian clipper template creator. Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format clipped content. |
 | [odoo-orm-expert](skills/ai-engineering/models/odoo_orm_expert/odoo-orm-expert/SKILL.md) | `ai-engineering` | `models` | `odoo_orm_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo orm expert. Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques. |
 | [odoo-qweb-templates](skills/ai-engineering/models/odoo_qweb_templates/odoo-qweb-templates/SKILL.md) | `ai-engineering` | `models` | `odoo_qweb_templates` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo qweb templates. Expert in Odoo QWeb templating for PDF reports, email templates, and website pages. Covers t-if, t-foreach, t-field, and report actions. |
+| [okta-attack](skills/ai-engineering/models/okta_attack/okta-attack/SKILL.md) | `ai-engineering` | `models` | `okta_attack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for okta attack. Okta-as-IdP red-team attack chain |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
