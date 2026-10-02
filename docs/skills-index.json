@@ -27546,6 +27546,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mcp-server-security",
+    "path": "skills/security/appsec/mcp_server_security/mcp-server-security",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "mcp_server_security",
+    "description": "Use this skill to design, implement, and operate production workflows for mcp server security. Secure Model Context Protocol (MCP) servers with transport encryption,",
+    "tags": [
+      "security",
+      "appsec",
+      "mcp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mcp Server Security",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "meme-coin-audit",
     "path": "skills/security/appsec/meme_coin_audit/meme-coin-audit",
     "domain": "security",

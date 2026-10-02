@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **85 skills** available in this category.
+> **86 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -87,5 +87,6 @@
 | [linux-hardening](../../skills/security/appsec/linux_hardening/linux-hardening/SKILL.md) | `linux_hardening` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linux hardening. Apply CIS benchmarks and secure Linux servers. |
 | [macos-reverse](../../skills/security/appsec/macos_reverse/macos-reverse/SKILL.md) | `macos_reverse` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for macos reverse. Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis. |
 | [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
+| [mcp-server-security](../../skills/security/appsec/mcp_server_security/mcp-server-security/SKILL.md) | `mcp_server_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mcp server security. Secure Model Context Protocol (MCP) servers with transport encryption, |
 | [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |

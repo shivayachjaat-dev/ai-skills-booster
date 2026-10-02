@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1315 skills)
+## Bash (1316 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2164,6 +2164,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [linux-hardening](../skills/security/appsec/linux_hardening/linux-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for linux hardening. Apply CIS benchmarks and secure Linux servers.
 - [macos-reverse](../skills/security/appsec/macos_reverse/macos-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos reverse. Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
+- [mcp-server-security](../skills/security/appsec/mcp_server_security/mcp-server-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp server security. Secure Model Context Protocol (MCP) servers with transport encryption,
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
@@ -7480,6 +7481,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
 
+## Mcp Server Security (1 skills)
+
+- [mcp-server-security](../skills/security/appsec/mcp_server_security/mcp-server-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp server security. Secure Model Context Protocol (MCP) servers with transport encryption,
+
 ## Meilisearch (1 skills)
 
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
@@ -7924,7 +7929,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1418 skills)
+## Python (1419 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9096,6 +9101,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [linux-hardening](../skills/security/appsec/linux_hardening/linux-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for linux hardening. Apply CIS benchmarks and secure Linux servers.
 - [macos-reverse](../skills/security/appsec/macos_reverse/macos-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos reverse. Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
+- [mcp-server-security](../skills/security/appsec/mcp_server_security/mcp-server-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp server security. Secure Model Context Protocol (MCP) servers with transport encryption,
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.

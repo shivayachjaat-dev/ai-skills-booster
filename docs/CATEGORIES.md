@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,497** skills across structured domains, categories, and subcategories.
+Master navigation for **1,498** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (519 skills)
 
@@ -2770,7 +2770,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (151 skills)
+## Security (152 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2800,7 +2800,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (85 skills)
+### Appsec (86 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -2968,6 +2968,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [macos-reverse](../skills/security/appsec/macos_reverse/macos-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for macos reverse. Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.
 - **Mcp_Dependency_Drift** (1):
   - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
+- **Mcp_Server_Security** (1):
+  - [mcp-server-security](../skills/security/appsec/mcp_server_security/mcp-server-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp server security. Secure Model Context Protocol (MCP) servers with transport encryption,
 - **Meme_Coin_Audit** (1):
   - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
 - **Security_Auditor** (1):

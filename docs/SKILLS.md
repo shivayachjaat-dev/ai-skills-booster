@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,497 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,498 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1234,6 +1234,7 @@
 | [linux-hardening](skills/security/appsec/linux_hardening/linux-hardening/SKILL.md) | `security` | `appsec` | `linux_hardening` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linux hardening. Apply CIS benchmarks and secure Linux servers. |
 | [macos-reverse](skills/security/appsec/macos_reverse/macos-reverse/SKILL.md) | `security` | `appsec` | `macos_reverse` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for macos reverse. Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
+| [mcp-server-security](skills/security/appsec/mcp_server_security/mcp-server-security/SKILL.md) | `security` | `appsec` | `mcp_server_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mcp server security. Secure Model Context Protocol (MCP) servers with transport encryption, |
 | [meme-coin-audit](skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `security` | `appsec` | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
 | [security-auditor](skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security` | `appsec` | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |
