@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **20 skills** available in this category.
+> **21 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -23,4 +23,5 @@
 | [cross-platform-contract-propagation-audit](../../skills/ai-engineering/rag/cross_platform_contr/cross-platform-contract-propagation-audit/SKILL.md) | `cross_platform_contr` | `advanced` | `stable` | Use this skill to use when auditing whether a field, enum, flag, or API contract propagates consistently across storage, services, clients, analytics, and tests. |
 | [document-management-system](../../skills/ai-engineering/rag/document_management_/document-management-system/SKILL.md) | `document_management_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for document management system. Document register: type, owner, upload and signed dates, version, storage link, confidentiality and signature-required flag. Use for document control. |
 | [rag-retrieval-evaluation](../../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |
+| [file-uploads](../../skills/ai-engineering/rag/file_uploads/file-uploads/SKILL.md) | `file_uploads` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for file uploads. Expert at handling file uploads and cloud storage. Covers S3, |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

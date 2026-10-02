@@ -7550,6 +7550,28 @@
     "maturity": "stable"
   },
   {
+    "name": "file-uploads",
+    "path": "skills/ai-engineering/rag/file_uploads/file-uploads",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "file_uploads",
+    "description": "Use this skill to design, implement, and operate production workflows for file uploads. Expert at handling file uploads and cloud storage. Covers S3,",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "file",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "File Uploads",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

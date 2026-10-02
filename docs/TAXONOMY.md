@@ -345,6 +345,7 @@ AI_Skills_Booster/
 │   │   ├── cross_platform_contr/ (1 skills)
 │   │   ├── document_management_/ (1 skills)
 │   │   ├── evaluation/ (1 skills)
+│   │   ├── file_uploads/ (1 skills)
 │   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)
