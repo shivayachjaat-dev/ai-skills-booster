@@ -8245,6 +8245,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-trackio",
+    "path": "skills/ai-engineering/models/hugging_face_trackio/hugging-face-trackio",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "hugging_face_trackio",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face trackio. Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI).",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Trackio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
