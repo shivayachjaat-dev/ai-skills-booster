@@ -5625,6 +5625,28 @@
     "maturity": "stable"
   },
   {
+    "name": "canva-automation",
+    "path": "skills/developer-tools/productivity/canva_automation/canva-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "canva_automation",
+    "description": "Use this skill to automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "canva",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Canva Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
