@@ -9103,6 +9103,28 @@
     "maturity": "stable"
   },
   {
+    "name": "klaviyo-automation",
+    "path": "skills/ai-engineering/models/klaviyo_automation/klaviyo-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "klaviyo_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for klaviyo automation. Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "klaviyo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Klaviyo Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

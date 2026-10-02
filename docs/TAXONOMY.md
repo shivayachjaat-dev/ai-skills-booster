@@ -416,6 +416,7 @@ AI_Skills_Booster/
 │   │   ├── junta_leiloeiros/ (1 skills)
 │   │   ├── k8s_manifest_generat/ (1 skills)
 │   │   ├── kaizen/ (1 skills)
+│   │   ├── klaviyo_automation/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
