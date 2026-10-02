@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **29 skills** available in this category.
+> **30 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -33,3 +33,4 @@
 | [incident-responder](../../skills/backend/api-frameworks/incident_responder/incident-responder/SKILL.md) | `incident_responder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incident responder. Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. |
 | [instagram](../../skills/backend/api-frameworks/instagram/instagram/SKILL.md) | `instagram` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for instagram. Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator. |
 | [javascript-pro](../../skills/backend/api-frameworks/javascript_pro/javascript-pro/SKILL.md) | `javascript_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for javascript pro. Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility. |
+| [longbridge-market-data](../../skills/backend/api-frameworks/longbridge_market_da/longbridge-market-data/SKILL.md) | `longbridge_market_da` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for longbridge market data. Real-time quotes, K-line charts, order book, trade ticks, intraday capital flow, market sentiment temperature, trading session schedule, security lists, exchange rates, and IPO calendar for HK/US/A-share/SG via Longbridge. Also covers ADR premium an... |

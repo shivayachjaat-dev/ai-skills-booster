@@ -11888,6 +11888,28 @@
     "maturity": "stable"
   },
   {
+    "name": "longbridge-market-data",
+    "path": "skills/backend/api-frameworks/longbridge_market_da/longbridge-market-data",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "longbridge_market_da",
+    "description": "Use this skill to design, implement, and operate production workflows for longbridge market data. Real-time quotes, K-line charts, order book, trade ticks, intraday capital flow, market sentiment temperature, trading session schedule, security lists, exchange rates, and IPO calendar for HK/US/A-share/SG via Longbridge. Also covers ADR premium an...",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "longbridge",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Longbridge Market Data",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
