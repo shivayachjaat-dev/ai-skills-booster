@@ -144,6 +144,8 @@ AI_Skills_Booster/
 │   │   └── kafka/ (1 skills)
 │   ├── python/
 │   │   └── async-concurrency/ (1 skills)
+│   ├── python-services/
+│   │   └── azure_appconfigurati/ (1 skills)
 │   ├── realtime/
 │   │   └── websocket/ (1 skills)
 │   └── resilience/
