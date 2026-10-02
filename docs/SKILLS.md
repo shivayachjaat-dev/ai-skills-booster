@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 773 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 774 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -242,6 +242,7 @@
 | [dei-dashboard](skills/ai-engineering/models/dei_dashboard/dei-dashboard/SKILL.md) | `ai-engineering` | `models` | `dei_dashboard` | `advanced` | `stable` | Use this skill to diversity, equity and inclusion dashboard: metric by department and period, value against target, group size and minimum-threshold flag. Use for DEI reporting. |
 | [dependency-management-deps-audit](skills/ai-engineering/models/dependency_managemen/dependency-management-deps-audit/SKILL.md) | `ai-engineering` | `models` | `dependency_managemen` | `advanced` | `stable` | Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies. |
 | [deprecation-and-migration](skills/ai-engineering/models/deprecation_and_migr/deprecation-and-migration/SKILL.md) | `ai-engineering` | `models` | `deprecation_and_migr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deprecation and migration. Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code. |
+| [editorial-design](skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `ai-engineering` | `models` | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |

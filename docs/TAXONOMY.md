@@ -244,6 +244,7 @@ AI_Skills_Booster/
 │   │   ├── dei_dashboard/ (1 skills)
 │   │   ├── dependency_managemen/ (1 skills)
 │   │   ├── deprecation_and_migr/ (1 skills)
+│   │   ├── editorial_design/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
