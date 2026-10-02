@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **48 skills** available in this category.
+> **49 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -52,3 +52,4 @@
 | [conductor-revert](../../skills/software-engineering/architecture/patterns/conductor-revert/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to git-aware undo by logical work unit (track, phase, or task) |
 | [conductor-status](../../skills/software-engineering/architecture/patterns/conductor-status/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to display project status, active tracks, and next actions |
 | [conductor-validator](../../skills/software-engineering/architecture/patterns/conductor-validator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to validates Conductor project artifacts for completeness, |
+| [context-guardian](../../skills/software-engineering/architecture/patterns/context-guardian/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao. |

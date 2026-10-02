@@ -13423,6 +13423,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-guardian",
+    "path": "skills/software-engineering/architecture/patterns/context-guardian",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Guardian",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
