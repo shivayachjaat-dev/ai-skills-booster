@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **42 skills** available in this category.
+> **43 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@
 | [minimalism](../../skills/frontend/web-architecture/minimalism/minimalism/SKILL.md) | `minimalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for minimalism. Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy. |
 | [monochromatic-ui](../../skills/frontend/web-architecture/monochromatic_ui/monochromatic-ui/SKILL.md) | `monochromatic_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monochromatic ui. Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline. |
 | [neo-brutalism](../../skills/frontend/web-architecture/neo_brutalism/neo-brutalism/SKILL.md) | `neo_brutalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look. |
+| [neumorphism](../../skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) | `neumorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation. |
 | [production-audit](../../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](../../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](../../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |

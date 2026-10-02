@@ -13479,6 +13479,28 @@
     "maturity": "stable"
   },
   {
+    "name": "neumorphism",
+    "path": "skills/frontend/web-architecture/neumorphism/neumorphism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "neumorphism",
+    "description": "Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "neumorphism",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Neumorphism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

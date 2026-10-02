@@ -684,6 +684,7 @@ AI_Skills_Booster/
 │   │   ├── minimalism/ (1 skills)
 │   │   ├── monochromatic_ui/ (1 skills)
 │   │   ├── neo_brutalism/ (1 skills)
+│   │   ├── neumorphism/ (1 skills)
 │   │   ├── production_audit/ (1 skills)
 │   │   ├── security_audit/ (1 skills)
 │   │   ├── seo_aeo_content_qual/ (1 skills)
