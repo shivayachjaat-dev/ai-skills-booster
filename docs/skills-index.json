@@ -408,6 +408,28 @@
     "maturity": "stable"
   },
   {
+    "name": "data-engineering-data-driven-feature",
+    "path": "skills/ai-engineering/agents/data_engineering_dat/data-engineering-data-driven-feature",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "data_engineering_dat",
+    "description": "Use this skill to build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "data",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Data Engineering Data Driven Feature",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-chaos-testing-and-fault-injection",
     "path": "skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection",
     "domain": "ai-engineering",

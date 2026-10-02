@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **661** skills across structured domains, categories, and subcategories.
+Master navigation for **662** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (238 skills)
+## Ai Engineering (239 skills)
 
-### Agents (27 skills)
+### Agents (28 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -43,6 +43,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [context-engineering](../skills/ai-engineering/agents/context_engineering/context-engineering/SKILL.md) — Use this skill to optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.
 - **Copilot_Delegate** (1):
   - [copilot-delegate](../skills/ai-engineering/agents/copilot_delegate/copilot-delegate/SKILL.md) — Use this skill to delegate coding tasks to the GitHub Copilot CLI (`copilot`) only when
+- **Data_Engineering_Dat** (1):
+  - [data-engineering-data-driven-feature](../skills/ai-engineering/agents/data_engineering_dat/data-engineering-data-driven-feature/SKILL.md) — Use this skill to build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation.
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):
