@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **58 skills** available in this category.
+> **61 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -62,3 +62,6 @@
 | [dbt-transformation-patterns](../../skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns/SKILL.md) | `dbt_transformation_p` | `advanced` | `stable` | Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing. |
 | [decision-navigator](../../skills/frontend/ui-ux/decision_navigator/decision-navigator/SKILL.md) | `decision_navigator` | `advanced` | `stable` | Use this skill to guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps. |
 | [defi-protocol-templates](../../skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates/SKILL.md) | `defi_protocol_templa` | `advanced` | `stable` | Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols. |
+| [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
+| [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
+| [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

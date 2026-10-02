@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **12 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -16,3 +16,7 @@
 | [cloud-penetration-testing](../../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) | `cloud_penetration_te` | `advanced` | `stable` | Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP). |
 | [comfyui-gateway](../../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) | `comfyui_gateway` | `advanced` | `stable` | Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64). |
 | [defuddle](../../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) | `defuddle` | `advanced` | `stable` | Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. |
+| [production-audit](../../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
+| [security-audit](../../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
+| [seo-aeo-content-quality-auditor](../../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |
+| [web3-audit](../../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) | `web3_audit` | `advanced` | `stable` | Use this skill to smart contract security audit |

@@ -525,6 +525,50 @@
     "maturity": "stable"
   },
   {
+    "name": "geo-audit",
+    "path": "skills/ai-engineering/agents/geo_audit/geo-audit",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "geo_audit",
+    "description": "Use this skill to full website GEO+SEO audit with parallel subagent delegation.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "geo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geo Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "lintlang-audit",
+    "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "lintlang_audit",
+    "description": "Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "lintlang",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lintlang Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agent-project-memory",
     "path": "skills/ai-engineering/agents/memory/agent-project-memory",
     "domain": "ai-engineering",
@@ -691,6 +735,28 @@
       "Redis",
       "Cron",
       "Asyncio"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "skill-security-audit",
+    "path": "skills/ai-engineering/agents/skill_security_audit/skill-security-audit",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "skill_security_audit",
+    "description": "Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Security Audit",
+      "Python",
+      "Bash"
     ],
     "complexity": "advanced",
     "maturity": "stable"
@@ -3982,7 +4048,7 @@
     "domain": "ai-engineering",
     "category": "models",
     "subcategory": "codebase_cleanup_dep",
-    "description": "Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.",
+    "description": "Use this skill to audit, identify, and eliminate dead code, unused dependencies, obsolete configuration files, and unreferenced assets across a codebase to reduce technical debt and build times.",
     "tags": [
       "ai-engineering",
       "models",
@@ -5099,6 +5165,116 @@
     "maturity": "stable"
   },
   {
+    "name": "dependency-management-deps-audit",
+    "path": "skills/ai-engineering/models/dependency_managemen/dependency-management-deps-audit",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "dependency_managemen",
+    "description": "Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "dependency",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dependency Management Deps Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "fda-food-safety-auditor",
+    "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "fda_food_safety_audi",
+    "description": "Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "fda",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fda Food Safety Auditor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "fda-medtech-compliance-auditor",
+    "path": "skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "fda_medtech_complian",
+    "description": "Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "fda",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fda Medtech Compliance Auditor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "skill-audit",
+    "path": "skills/ai-engineering/models/skill_audit/skill-audit",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "skill_audit",
+    "description": "Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "supply-chain-risk-auditor",
+    "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "supply_chain_risk_au",
+    "description": "Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "supply",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Supply Chain Risk Auditor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
@@ -5114,6 +5290,50 @@
     ],
     "technologies": [
       "Templates",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "vibe-code-auditor",
+    "path": "skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "vibe_code_auditor",
+    "description": "Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "vibe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Vibe Code Auditor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "wcag-audit-patterns",
+    "path": "skills/ai-engineering/models/wcag_audit_patterns/wcag-audit-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "wcag_audit_patterns",
+    "description": "Use this skill to comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "wcag",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Wcag Audit Patterns",
       "Python",
       "Bash"
     ],
@@ -5565,6 +5785,28 @@
       "Vector Databases",
       "Embeddings",
       "Ragas"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "soroban-contract-audit",
+    "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "soroban_contract_aud",
+    "description": "Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "soroban",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Soroban Contract Audit",
+      "Python",
+      "Bash"
     ],
     "complexity": "advanced",
     "maturity": "stable"
@@ -12093,6 +12335,72 @@
     "maturity": "stable"
   },
   {
+    "name": "marketplace-rbac-audit",
+    "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "marketplace_rbac_aud",
+    "description": "Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "marketplace",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Marketplace Rbac Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "seo-content-auditor",
+    "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "seo_content_auditor",
+    "description": "Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Content Auditor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "swiftui-performance-audit",
+    "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "swiftui_performance_",
+    "description": "Use this skill to audit SwiftUI performance issues from code review and profiling evidence.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "swiftui",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Swiftui Performance Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
@@ -12350,6 +12658,94 @@
     ],
     "technologies": [
       "Defuddle",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "production-audit",
+    "path": "skills/frontend/web-architecture/production_audit/production-audit",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "production_audit",
+    "description": "Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "production",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Production Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "security-audit",
+    "path": "skills/frontend/web-architecture/security_audit/security-audit",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "security_audit",
+    "description": "Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "seo-aeo-content-quality-auditor",
+    "path": "skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "seo_aeo_content_qual",
+    "description": "Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Aeo Content Quality Auditor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "web3-audit",
+    "path": "skills/frontend/web-architecture/web3_audit/web3-audit",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "web3_audit",
+    "description": "Use this skill to smart contract security audit",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "web3",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Web3 Audit",
       "Python",
       "Bash"
     ],
@@ -12982,6 +13378,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-security-audit",
+    "path": "skills/security/appsec/aws_security_audit/aws-security-audit",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "aws_security_audit",
+    "description": "Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices",
+    "tags": [
+      "security",
+      "appsec",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Security Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-keyvault",
     "path": "skills/security/appsec/azure_keyvault/azure-keyvault",
     "domain": "security",
@@ -13283,6 +13701,116 @@
     ],
     "technologies": [
       "Cyber Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "gcp-audit-logs",
+    "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "gcp_audit_logs",
+    "description": "Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and",
+    "tags": [
+      "security",
+      "appsec",
+      "gcp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gcp Audit Logs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "laravel-security-audit",
+    "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "laravel_security_aud",
+    "description": "Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.",
+    "tags": [
+      "security",
+      "appsec",
+      "laravel",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Laravel Security Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "mcp-dependency-drift-audit",
+    "path": "skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "mcp_dependency_drift",
+    "description": "Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.",
+    "tags": [
+      "security",
+      "appsec",
+      "mcp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mcp Dependency Drift Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "meme-coin-audit",
+    "path": "skills/security/appsec/meme_coin_audit/meme-coin-audit",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "meme_coin_audit",
+    "description": "Use this skill to meme coin and token security audit",
+    "tags": [
+      "security",
+      "appsec",
+      "meme",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Meme Coin Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "security-auditor",
+    "path": "skills/security/appsec/security_auditor/security-auditor",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "security_auditor",
+    "description": "Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.",
+    "tags": [
+      "security",
+      "appsec",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Auditor",
       "Python",
       "Bash"
     ],
@@ -13707,6 +14235,204 @@
     ],
     "technologies": [
       "Busabase",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "indexing-issue-auditor",
+    "path": "skills/security/compliance/indexing_issue_audit/indexing-issue-auditor",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "indexing_issue_audit",
+    "description": "Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.",
+    "tags": [
+      "security",
+      "compliance",
+      "indexing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Indexing Issue Auditor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "local-legal-seo-audit",
+    "path": "skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "local_legal_seo_audi",
+    "description": "Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.",
+    "tags": [
+      "security",
+      "compliance",
+      "local",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Local Legal Seo Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "production-code-audit",
+    "path": "skills/security/compliance/production_code_audi/production-code-audit",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "production_code_audi",
+    "description": "Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations",
+    "tags": [
+      "security",
+      "compliance",
+      "production",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Production Code Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "project-skill-audit",
+    "path": "skills/security/compliance/project_skill_audit/project-skill-audit",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "project_skill_audit",
+    "description": "Use this skill to audit a project and recommend the highest-value skills to add or update.",
+    "tags": [
+      "security",
+      "compliance",
+      "project",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Project Skill Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "seo-audit",
+    "path": "skills/security/compliance/seo_audit/seo-audit",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "seo_audit",
+    "description": "Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.",
+    "tags": [
+      "security",
+      "compliance",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "soroban-oracle-data-feed-audit",
+    "path": "skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "soroban_oracle_data_",
+    "description": "Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.",
+    "tags": [
+      "security",
+      "compliance",
+      "soroban",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Soroban Oracle Data Feed Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "ux-audit",
+    "path": "skills/security/compliance/ux_audit/ux-audit",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "ux_audit",
+    "description": "Use this skill to audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices",
+    "tags": [
+      "security",
+      "compliance",
+      "ux",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ux Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "wp-site-health-auditor",
+    "path": "skills/security/compliance/wp_site_health_audit/wp-site-health-auditor",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "wp_site_health_audit",
+    "description": "Use this skill to turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements, or critical issue reports.",
+    "tags": [
+      "security",
+      "compliance",
+      "wp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Wp Site Health Auditor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "zeroize-audit",
+    "path": "skills/security/compliance/zeroize_audit/zeroize-audit",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "zeroize_audit",
+    "description": "Use this skill to detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.",
+    "tags": [
+      "security",
+      "compliance",
+      "zeroize",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Zeroize Audit",
       "Python",
       "Bash"
     ],
@@ -15726,6 +16452,28 @@
     ],
     "technologies": [
       "Dependency Analysis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
+    "name": "hig-inputs",
+    "path": "skills/software-engineering/architecture/patterns/hig-inputs",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Inputs",
       "Python",
       "Bash"
     ],

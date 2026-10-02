@@ -27,13 +27,16 @@ AI_Skills_Booster/
 │   │   ├── delegate_setup/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── forensic-audit/ (1 skills)
+│   │   ├── geo_audit/ (1 skills)
+│   │   ├── lintlang_audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)
 │   │   ├── observability/ (1 skills)
 │   │   ├── orchestration/ (1 skills)
 │   │   ├── orchestration-optimization/ (1 skills)
 │   │   ├── process-management/ (1 skills)
-│   │   └── scheduling/ (1 skills)
+│   │   ├── scheduling/ (1 skills)
+│   │   └── skill_security_audit/ (1 skills)
 │   ├── audio-processing/
 │   │   ├── azure_speech_to_text/ (1 skills)
 │   │   └── speech-recognition/ (1 skills)
@@ -234,7 +237,14 @@ AI_Skills_Booster/
 │   │   ├── deep_research_framew/ (1 skills)
 │   │   ├── deepapi/ (1 skills)
 │   │   ├── dei_dashboard/ (1 skills)
-│   │   └── templates/ (1 skills)
+│   │   ├── dependency_managemen/ (1 skills)
+│   │   ├── fda_food_safety_audi/ (1 skills)
+│   │   ├── fda_medtech_complian/ (1 skills)
+│   │   ├── skill_audit/ (1 skills)
+│   │   ├── supply_chain_risk_au/ (1 skills)
+│   │   ├── templates/ (1 skills)
+│   │   ├── vibe_code_auditor/ (1 skills)
+│   │   └── wcag_audit_patterns/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
 │   ├── quantization/
@@ -254,7 +264,8 @@ AI_Skills_Booster/
 │   │   ├── cloudflare_workers_e/ (1 skills)
 │   │   ├── convex/ (1 skills)
 │   │   ├── cross_platform_contr/ (1 skills)
-│   │   └── evaluation/ (1 skills)
+│   │   ├── evaluation/ (1 skills)
+│   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)
 │   ├── tools/
@@ -620,7 +631,10 @@ AI_Skills_Booster/
 │   │   ├── dbos_typescript/ (1 skills)
 │   │   ├── dbt_transformation_p/ (1 skills)
 │   │   ├── decision_navigator/ (1 skills)
-│   │   └── defi_protocol_templa/ (1 skills)
+│   │   ├── defi_protocol_templa/ (1 skills)
+│   │   ├── marketplace_rbac_aud/ (1 skills)
+│   │   ├── seo_content_auditor/ (1 skills)
+│   │   └── swiftui_performance_/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)
@@ -632,7 +646,11 @@ AI_Skills_Booster/
 │   │   ├── client_secret_exposu/ (1 skills)
 │   │   ├── cloud_penetration_te/ (1 skills)
 │   │   ├── comfyui_gateway/ (1 skills)
-│   │   └── defuddle/ (1 skills)
+│   │   ├── defuddle/ (1 skills)
+│   │   ├── production_audit/ (1 skills)
+│   │   ├── security_audit/ (1 skills)
+│   │   ├── seo_aeo_content_qual/ (1 skills)
+│   │   └── web3_audit/ (1 skills)
 ├── marketing/
 │   ├── aso/
 │   │   └── app-store-optimization/ (1 skills)
@@ -686,6 +704,7 @@ AI_Skills_Booster/
 │   ├── appsec/
 │   │   ├── aws_ec2/ (1 skills)
 │   │   ├── aws_secrets_manager/ (1 skills)
+│   │   ├── aws_security_audit/ (1 skills)
 │   │   ├── azure_keyvault/ (1 skills)
 │   │   ├── azure_monitor_audit/ (1 skills)
 │   │   ├── azure_security_keyva/ (2 skills)
@@ -698,7 +717,12 @@ AI_Skills_Booster/
 │   │   ├── cis_benchmarks/ (1 skills)
 │   │   ├── code_review_sensei/ (1 skills)
 │   │   ├── codebase_audit_pre_p/ (1 skills)
-│   │   └── cyber_audit/ (1 skills)
+│   │   ├── cyber_audit/ (1 skills)
+│   │   ├── gcp_audit_logs/ (1 skills)
+│   │   ├── laravel_security_aud/ (1 skills)
+│   │   ├── mcp_dependency_drift/ (1 skills)
+│   │   ├── meme_coin_audit/ (1 skills)
+│   │   └── security_auditor/ (1 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/
@@ -723,7 +747,16 @@ AI_Skills_Booster/
 │   ├── compliance/
 │   │   ├── audit-logging/ (1 skills)
 │   │   ├── brooks_audit/ (1 skills)
-│   │   └── busabase/ (1 skills)
+│   │   ├── busabase/ (1 skills)
+│   │   ├── indexing_issue_audit/ (1 skills)
+│   │   ├── local_legal_seo_audi/ (1 skills)
+│   │   ├── production_code_audi/ (1 skills)
+│   │   ├── project_skill_audit/ (1 skills)
+│   │   ├── seo_audit/ (1 skills)
+│   │   ├── soroban_oracle_data_/ (1 skills)
+│   │   ├── ux_audit/ (1 skills)
+│   │   ├── wp_site_health_audit/ (1 skills)
+│   │   └── zeroize_audit/ (1 skills)
 │   ├── cryptography/
 │   │   ├── azure_keyvault_keys_/ (2 skills)
 │   │   ├── constant_time_analys/ (1 skills)
@@ -764,7 +797,7 @@ AI_Skills_Booster/
 │   │   ├── adr-governance/ (1 skills)
 │   │   ├── hexagonal/ (1 skills)
 │   │   ├── interfaces/ (1 skills)
-│   │   └── patterns/ (63 skills)
+│   │   └── patterns/ (64 skills)
 │   ├── code-review/
 │   │   └── pr-feedback/ (1 skills)
 │   ├── debugging/

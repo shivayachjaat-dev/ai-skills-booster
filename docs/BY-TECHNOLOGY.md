@@ -449,6 +449,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
 
+## Aws Security Audit (1 skills)
+
+- [aws-security-audit](../skills/security/appsec/aws_security_audit/aws-security-audit/SKILL.md) — Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices
+
 ## Aws Serverless (1 skills)
 
 - [aws-serverless](../skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) — Use this skill to specialized skill for building production-ready serverless
@@ -1049,7 +1053,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (526 skills)
+## Bash (560 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1068,7 +1072,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [data-engineering-data-driven-feature](../skills/ai-engineering/agents/data_engineering_dat/data-engineering-data-driven-feature/SKILL.md) — Use this skill to build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation.
 - [data-structure-protocol](../skills/ai-engineering/agents/data_structure_proto/data-structure-protocol/SKILL.md) — Use this skill to give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo.
 - [delegate-setup](../skills/ai-engineering/agents/delegate_setup/delegate-setup/SKILL.md) — Use this skill to configure approved delegation lanes across installed implementer CLIs,
+- [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
+- [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
+- [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [aws-rds](../skills/ai-engineering/computer-vision/aws_rds/aws-rds/SKILL.md) — Use this skill to provision and manage RDS databases. Configure backups, replication, and
 - [azure-sql](../skills/ai-engineering/computer-vision/azure_sql/azure-sql/SKILL.md) — Use this skill to provision Azure SQL Database and Cosmos DB. Configure security, backups,
@@ -1203,7 +1210,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [code-reviewer](../skills/ai-engineering/models/code_reviewer/code-reviewer/SKILL.md) — Use this skill to elite code review expert specializing in modern AI-powered code
 - [code-showcase-systematic-debugging](../skills/ai-engineering/models/code_showcase_system/code-showcase-systematic-debugging/SKILL.md) — Use this skill to four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST.
 - [code-simplifier](../skills/ai-engineering/models/code_simplifier/code-simplifier/SKILL.md) — Use this skill to simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specifi
-- [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+- [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to audit, identify, and eliminate dead code, unused dependencies, obsolete configuration files, and unreferenced assets across a codebase to reduce technical debt and build times.
 - [codebase-design](../skills/ai-engineering/models/codebase_design/codebase-design/SKILL.md) — Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.
 - [codex-delegate](../skills/ai-engineering/models/codex_delegate/codex-delegate/SKILL.md) — Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly
 - [codex-review](../skills/ai-engineering/models/codex_review/codex-review/SKILL.md) — Use this skill to professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.
@@ -1254,7 +1261,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [deep-research-framework](../skills/ai-engineering/models/deep_research_framew/deep-research-framework/SKILL.md) — Use this skill to framework for deep research reports: define the question and tier sources first, cross-verify, then write conclusion-first reports with explicit uncertainty statements. Use when the user asks for a research report, topic investigation, or competitive analysis.
 - [deepapi](../skills/ai-engineering/models/deepapi/deepapi/SKILL.md) — Use this skill to use DeepAPI for supported scraping, research, and email workflows with explicit credentials and approval.
 - [dei-dashboard](../skills/ai-engineering/models/dei_dashboard/dei-dashboard/SKILL.md) — Use this skill to diversity, equity and inclusion dashboard: metric by department and period, value against target, group size and minimum-threshold flag. Use for DEI reporting.
+- [dependency-management-deps-audit](../skills/ai-engineering/models/dependency_managemen/dependency-management-deps-audit/SKILL.md) — Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+- [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
+- [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
+- [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
+- [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
+- [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
+- [wcag-audit-patterns](../skills/ai-engineering/models/wcag_audit_patterns/wcag-audit-patterns/SKILL.md) — Use this skill to comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
 - [axiom](../skills/ai-engineering/rag/axiom/axiom/SKILL.md) — Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.
 - [azure-data-tables-java](../skills/ai-engineering/rag/azure_data_tables_ja/azure-data-tables-java/SKILL.md) — Use this skill to build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API.
@@ -1272,6 +1286,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cloudflare-workers-expert](../skills/ai-engineering/rag/cloudflare_workers_e/cloudflare-workers-expert/SKILL.md) — Use this skill to expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage.
 - [convex](../skills/ai-engineering/rag/convex/convex/SKILL.md) — Use this skill to convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment.
 - [cross-platform-contract-propagation-audit](../skills/ai-engineering/rag/cross_platform_contr/cross-platform-contract-propagation-audit/SKILL.md) — Use this skill to use when auditing whether a field, enum, flag, or API contract propagates consistently across storage, services, clients, analytics, and tests.
+- [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [backend-architect](../skills/backend/api-design/backend_architect/backend-architect/SKILL.md) — Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
 - [backend-security-coder](../skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) — Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
 - [cc-skill-backend-patterns](../skills/backend/api-design/cc_skill_backend_pat/cc-skill-backend-patterns/SKILL.md) — Use this skill to backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
@@ -1464,6 +1479,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dbt-transformation-patterns](../skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns/SKILL.md) — Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.
 - [decision-navigator](../skills/frontend/ui-ux/decision_navigator/decision-navigator/SKILL.md) — Use this skill to guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps.
 - [defi-protocol-templates](../skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates/SKILL.md) — Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.
+- [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
+- [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
+- [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
@@ -1476,8 +1494,13 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cloud-penetration-testing](../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) — Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).
 - [comfyui-gateway](../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) — Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).
 - [defuddle](../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) — Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.
+- [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
+- [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
+- [seo-aeo-content-quality-auditor](../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) — Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified.
+- [web3-audit](../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) — Use this skill to smart contract security audit
 - [aws-ec2](../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) — Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
+- [aws-security-audit](../skills/security/appsec/aws_security_audit/aws-security-audit/SKILL.md) — Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices
 - [azure-keyvault](../skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) — Use this skill to manage secrets and certificates in Azure Key Vault. Configure access
 - [azure-monitor-audit](../skills/security/appsec/azure_monitor_audit/azure-monitor-audit/SKILL.md) — Use this skill to configure Azure Monitor and Activity Log for auditing. Set up diagnostic
 - [azure-security-keyvault-keys-dotnet](../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-dotnet/SKILL.md) — Use this skill to azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification.
@@ -1492,6 +1515,11 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [code-review-sensei](../skills/security/appsec/code_review_sensei/code-review-sensei/SKILL.md) — Use this skill to expert code reviewer that catches bugs, security issues, performance
 - [codebase-audit-pre-push](../skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push/SKILL.md) — Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.
 - [cyber-audit](../skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) — Use this skill to run read-only exposure checks for security advisories and write a structured local audit report.
+- [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
+- [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
+- [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
+- [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
+- [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
 - [azure-identity-dotnet](../skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) — Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.
 - [azure-identity-java](../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) — Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).
@@ -1503,6 +1531,15 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [content-strategy](../skills/security/authentication/content_strategy/content-strategy/SKILL.md) — Use this skill to plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program.
 - [brooks-audit](../skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) — Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.
 - [busabase](../skills/security/compliance/busabase/busabase/SKILL.md) — Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history.
+- [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
+- [local-legal-seo-audit](../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) — Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.
+- [production-code-audit](../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) — Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations
+- [project-skill-audit](../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) — Use this skill to audit a project and recommend the highest-value skills to add or update.
+- [seo-audit](../skills/security/compliance/seo_audit/seo-audit/SKILL.md) — Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.
+- [soroban-oracle-data-feed-audit](../skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit/SKILL.md) — Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.
+- [ux-audit](../skills/security/compliance/ux_audit/ux-audit/SKILL.md) — Use this skill to audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices
+- [wp-site-health-auditor](../skills/security/compliance/wp_site_health_audit/wp-site-health-auditor/SKILL.md) — Use this skill to turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements, or critical issue reports.
+- [zeroize-audit](../skills/security/compliance/zeroize_audit/zeroize-audit/SKILL.md) — Use this skill to detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.
 - [azure-keyvault-keys-rust](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-rust/SKILL.md) — Use this skill to azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: "keyvault keys rust", "KeyClient rust", "create key rust", "encrypt rust", "sign rust".
 - [azure-keyvault-keys-ts](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-ts/SKILL.md) — Use this skill to manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating keys.
 - [constant-time-analysis](../skills/security/cryptography/constant_time_analys/constant-time-analysis/SKILL.md) — Use this skill to analyze cryptographic code to detect operations that leak secret data through execution timing variations.
@@ -1570,6 +1607,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [deep-research](../skills/software-engineering/architecture/patterns/deep-research/SKILL.md) — Use this skill to run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.
 - [defi-yield-strategy-allocator](../skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator/SKILL.md) — Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.
 - [dependency-analysis](../skills/software-engineering/architecture/patterns/dependency-analysis/SKILL.md) — Use this skill to analyze internal and package dependencies using Ontoly graph traversal.
+- [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [bash-scripting](../skills/testing/automation/bash_scripting/bash-scripting/SKILL.md) — Use this skill to bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
 - [brooks-sweep](../skills/testing/automation/brooks_sweep/brooks-sweep/SKILL.md) — Use this skill to full-sweep mode: runs a unified analysis across all quality dimensions — code decay, architecture, tech debt, and test quality — then applies fixes directly to the codebase. Safe changes are auto-applied; risky changes are confirmed before execution.
@@ -2374,7 +2412,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 ## Codebase Cleanup Deps Audit (1 skills)
 
-- [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+- [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to audit, identify, and eliminate dead code, unused dependencies, obsolete configuration files, and unreferenced assets across a codebase to reduce technical debt and build times.
 
 ## Codebase Design (1 skills)
 
@@ -3073,6 +3111,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 
+## Dependency Management Deps Audit (1 skills)
+
+- [dependency-management-deps-audit](../skills/ai-engineering/models/dependency_managemen/dependency-management-deps-audit/SKILL.md) — Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+
 ## Django (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -3213,6 +3255,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 - [rbac-access-matrix-policy-design](../skills/security/authorization/rbac/rbac-access-matrix-policy-design/SKILL.md) — Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware.
 
+## Fda Food Safety Auditor (1 skills)
+
+- [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
+
+## Fda Medtech Compliance Auditor (1 skills)
+
+- [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
+
 ## Feature Matrices (1 skills)
 
 - [competitor-alternative-page-architecture](../skills/marketing/seo/competitor-alternatives/competitor-alternative-page-architecture/SKILL.md) — Use this skill to design, write, and structure high-converting, honest competitor alternative and comparison pages (e.g., 'Best [Competitor] Alternatives in 2026'). It covers objective feature matrix tables, search intent capture, migration guides, and conversion rate optimization (CRO).
@@ -3260,6 +3310,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Garak (1 skills)
 
 - [ai-llm-red-teaming-and-jailbreak-assessment](../skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment/SKILL.md) — Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.
+
+## Gcp Audit Logs (1 skills)
+
+- [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
+
+## Geo Audit (1 skills)
+
+- [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
 
 ## Gherkin (1 skills)
 
@@ -3460,6 +3518,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [helm-chart-architecture-and-lifecycle](../skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle/SKILL.md) — Use this skill when architecting, authoring, and managing production-grade Kubernetes packages with Helm 3+. It guides the agent through chart file structures, named template helpers (_helpers.tpl), strict values schema validation using values.schema.json, dependency subcharts, test suites (helm test), and semantic versioning release workflows.
 
+## Hig Inputs (1 skills)
+
+- [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
+
 ## HuggingFace (3 skills)
 
 - [ragas-rag-triad-evaluation](../skills/ai-engineering/evaluation/ragas-rag-evaluation/ragas-rag-triad-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and auditing Retrieval-Augmented Generation (RAG) pipelines using RAGAS and the RAG Triad framework. It guides the agent through calculating Faithfulness (hallucination detection), Answer Relevance, Context Precision, and Context Recall, building synthetic evaluation datasets, and CI automated regression gating.
@@ -3485,6 +3547,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Impacket (1 skills)
 
 - [active-directory-security-assessment](../skills/security/penetration-testing/active-directory/active-directory-security-assessment/SKILL.md) — Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.
+
+## Indexing Issue Auditor (1 skills)
+
+- [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
 
 ## Infracost (1 skills)
 
@@ -3649,9 +3715,17 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
 
+## Laravel Security Audit (1 skills)
+
+- [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
+
 ## Lighthouse (1 skills)
 
 - [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
+
+## Lintlang Audit (1 skills)
+
+- [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 
 ## Linux (5 skills)
 
@@ -3676,6 +3750,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## LlamaIndex (1 skills)
 
 - [ragas-rag-triad-evaluation](../skills/ai-engineering/evaluation/ragas-rag-evaluation/ragas-rag-triad-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and auditing Retrieval-Augmented Generation (RAG) pipelines using RAGAS and the RAG Triad framework. It guides the agent through calculating Faithfulness (hallucination detection), Answer Relevance, Context Precision, and Context Recall, building synthetic evaluation datasets, and CI automated regression gating.
+
+## Local Legal Seo Audit (1 skills)
+
+- [local-legal-seo-audit](../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) — Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.
 
 ## LogQL (1 skills)
 
@@ -3711,6 +3789,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 - [architecture-decision-records-and-rfc-governance](../skills/software-engineering/architecture/adr-governance/architecture-decision-records-and-rfc-governance/SKILL.md) — Use this skill to author, review, and maintain standardized Architecture Decision Records (ADRs) and Requests for Comments (RFCs) across engineering organizations. It captures context, decision drivers, evaluated alternatives with tradeoff matrices, compliance implications, and status lifecycles (Proposed, Accepted, Deprecated, Superseded).
 
+## Marketplace Rbac Audit (1 skills)
+
+- [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
+
 ## Markov Chains (1 skills)
 
 - [cross-channel-ad-campaign-analytics](../skills/marketing/paid-advertising/campaign-analytics/cross-channel-ad-campaign-analytics/SKILL.md) — Use this skill when analyzing, attributing, and optimizing multi-channel paid advertising campaigns across Google Ads, Meta Ads, LinkedIn, and programmatic channels. It guides the agent through calculating Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), attribution modeling (First-Touch, Last-Touch, Data-Driven Markov), statistical significance in spend allocation, and budget rebalancing.
@@ -3727,9 +3809,17 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [astropy-computational-astronomy-and-coordinate-systems](../skills/data-analytics/scientific-computing/astronomy-physics/astropy-computational-astronomy-and-coordinate-systems/SKILL.md) — Use this skill to perform computational astronomy, astrophysical data analysis, and celestial mechanics using Astropy. It covers celestial coordinate transformations (ICRS, Galactic, FK5, AltAz), FITS image and table I/O with WCS header mapping, physical units and dimensional quantities, time standards (UTC, TDB, Julian Dates), and cosmological parameter modeling.
 
+## Mcp Dependency Drift Audit (1 skills)
+
+- [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
+
 ## Meilisearch (1 skills)
 
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
+
+## Meme Coin Audit (1 skills)
+
+- [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
 
 ## Memory Forensics (1 skills)
 
@@ -4050,6 +4140,18 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [amplitude-product-analytics-and-funnel-tracking](../skills/data-analytics/product-analytics/amplitude/amplitude-product-analytics-and-funnel-tracking/SKILL.md) — Use this skill to design, instrument, and automate product analytics event tracking, user identification, conversion funnels, and retention cohort analysis using Amplitude's HTTP API and SDKs. It enforces event naming taxonomies, user property schemas, and GDPR identity deletion.
 
+## Production Audit (1 skills)
+
+- [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
+
+## Production Code Audit (1 skills)
+
+- [production-code-audit](../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) — Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations
+
+## Project Skill Audit (1 skills)
+
+- [project-skill-audit](../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) — Use this skill to audit a project and recommend the highest-value skills to add or update.
+
 ## PromQL (2 skills)
 
 - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
@@ -4127,7 +4229,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (629 skills)
+## Python (663 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4152,12 +4254,15 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [delegate-setup](../skills/ai-engineering/agents/delegate_setup/delegate-setup/SKILL.md) — Use this skill to configure approved delegation lanes across installed implementer CLIs,
 - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
+- [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
+- [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - [agent-memory-recall-and-retention-discipline](../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) — Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences.
 - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
 - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 - [multi-agent-workload-distribution-and-cost-optimization](../skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization/SKILL.md) — Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.
 - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
+- [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
@@ -4302,7 +4407,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [code-reviewer](../skills/ai-engineering/models/code_reviewer/code-reviewer/SKILL.md) — Use this skill to elite code review expert specializing in modern AI-powered code
 - [code-showcase-systematic-debugging](../skills/ai-engineering/models/code_showcase_system/code-showcase-systematic-debugging/SKILL.md) — Use this skill to four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST.
 - [code-simplifier](../skills/ai-engineering/models/code_simplifier/code-simplifier/SKILL.md) — Use this skill to simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specifi
-- [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+- [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to audit, identify, and eliminate dead code, unused dependencies, obsolete configuration files, and unreferenced assets across a codebase to reduce technical debt and build times.
 - [codebase-design](../skills/ai-engineering/models/codebase_design/codebase-design/SKILL.md) — Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.
 - [codex-delegate](../skills/ai-engineering/models/codex_delegate/codex-delegate/SKILL.md) — Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly
 - [codex-review](../skills/ai-engineering/models/codex_review/codex-review/SKILL.md) — Use this skill to professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.
@@ -4353,7 +4458,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [deep-research-framework](../skills/ai-engineering/models/deep_research_framew/deep-research-framework/SKILL.md) — Use this skill to framework for deep research reports: define the question and tier sources first, cross-verify, then write conclusion-first reports with explicit uncertainty statements. Use when the user asks for a research report, topic investigation, or competitive analysis.
 - [deepapi](../skills/ai-engineering/models/deepapi/deepapi/SKILL.md) — Use this skill to use DeepAPI for supported scraping, research, and email workflows with explicit credentials and approval.
 - [dei-dashboard](../skills/ai-engineering/models/dei_dashboard/dei-dashboard/SKILL.md) — Use this skill to diversity, equity and inclusion dashboard: metric by department and period, value against target, group size and minimum-threshold flag. Use for DEI reporting.
+- [dependency-management-deps-audit](../skills/ai-engineering/models/dependency_managemen/dependency-management-deps-audit/SKILL.md) — Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+- [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
+- [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
+- [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
+- [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
+- [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
+- [wcag-audit-patterns](../skills/ai-engineering/models/wcag_audit_patterns/wcag-audit-patterns/SKILL.md) — Use this skill to comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.
 - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
 - [axiom](../skills/ai-engineering/rag/axiom/axiom/SKILL.md) — Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.
@@ -4373,6 +4485,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [convex](../skills/ai-engineering/rag/convex/convex/SKILL.md) — Use this skill to convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment.
 - [cross-platform-contract-propagation-audit](../skills/ai-engineering/rag/cross_platform_contr/cross-platform-contract-propagation-audit/SKILL.md) — Use this skill to use when auditing whether a field, enum, flag, or API contract propagates consistently across storage, services, clients, analytics, and tests.
 - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
+- [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
 - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
@@ -4609,6 +4722,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dbt-transformation-patterns](../skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns/SKILL.md) — Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.
 - [decision-navigator](../skills/frontend/ui-ux/decision_navigator/decision-navigator/SKILL.md) — Use this skill to guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps.
 - [defi-protocol-templates](../skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates/SKILL.md) — Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.
+- [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
+- [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
+- [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
@@ -4621,6 +4737,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cloud-penetration-testing](../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) — Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).
 - [comfyui-gateway](../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) — Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).
 - [defuddle](../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) — Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.
+- [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
+- [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
+- [seo-aeo-content-quality-auditor](../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) — Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified.
+- [web3-audit](../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) — Use this skill to smart contract security audit
 - [app-store-optimization-and-metadata-strategy](../skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) — Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata.
 - [social-sentiment-and-brand-reputation-monitor](../skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor/SKILL.md) — Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting.
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.
@@ -4637,6 +4757,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [owasp-api-security-top-10-hardening](../skills/security/api-security/owasp-top-10/owasp-api-security-top-10-hardening/SKILL.md) — Use this skill to audit and harden REST and GraphQL APIs against the OWASP API Security Top 10 vulnerabilities. It covers Broken Object Level Authorization (BOLA), Broken Authentication, Unrestricted Resource Consumption, Broken Function Level Authorization (BFLA), and Server-Side Request Forgery (SSRF).
 - [aws-ec2](../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) — Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
+- [aws-security-audit](../skills/security/appsec/aws_security_audit/aws-security-audit/SKILL.md) — Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices
 - [azure-keyvault](../skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) — Use this skill to manage secrets and certificates in Azure Key Vault. Configure access
 - [azure-monitor-audit](../skills/security/appsec/azure_monitor_audit/azure-monitor-audit/SKILL.md) — Use this skill to configure Azure Monitor and Activity Log for auditing. Set up diagnostic
 - [azure-security-keyvault-keys-dotnet](../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-dotnet/SKILL.md) — Use this skill to azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification.
@@ -4651,6 +4772,11 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [code-review-sensei](../skills/security/appsec/code_review_sensei/code-review-sensei/SKILL.md) — Use this skill to expert code reviewer that catches bugs, security issues, performance
 - [codebase-audit-pre-push](../skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push/SKILL.md) — Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.
 - [cyber-audit](../skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) — Use this skill to run read-only exposure checks for security advisories and write a structured local audit report.
+- [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
+- [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
+- [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
+- [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
+- [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
 - [azure-identity-dotnet](../skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) — Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.
 - [azure-identity-java](../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) — Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).
@@ -4667,6 +4793,15 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [tamper-evident-audit-logging-and-siem-integration](../skills/security/compliance/audit-logging/tamper-evident-audit-logging-and-siem-integration/SKILL.md) — Use this skill to design and implement immutable, tamper-evident audit logging architectures with enterprise SIEM integration. It covers cryptographic HMAC hash chains, structured Common Event Format (CEF) and Elastic Common Schema (ECS) event modeling, automated PII redaction, secure multi-region syslog forwarding (TLS/mTLS), and retention compliance for SOC2, ISO 27001, and HIPAA.
 - [brooks-audit](../skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) — Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.
 - [busabase](../skills/security/compliance/busabase/busabase/SKILL.md) — Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history.
+- [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
+- [local-legal-seo-audit](../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) — Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.
+- [production-code-audit](../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) — Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations
+- [project-skill-audit](../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) — Use this skill to audit a project and recommend the highest-value skills to add or update.
+- [seo-audit](../skills/security/compliance/seo_audit/seo-audit/SKILL.md) — Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.
+- [soroban-oracle-data-feed-audit](../skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit/SKILL.md) — Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.
+- [ux-audit](../skills/security/compliance/ux_audit/ux-audit/SKILL.md) — Use this skill to audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices
+- [wp-site-health-auditor](../skills/security/compliance/wp_site_health_audit/wp-site-health-auditor/SKILL.md) — Use this skill to turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements, or critical issue reports.
+- [zeroize-audit](../skills/security/compliance/zeroize_audit/zeroize-audit/SKILL.md) — Use this skill to detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.
 - [azure-keyvault-keys-rust](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-rust/SKILL.md) — Use this skill to azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: "keyvault keys rust", "KeyClient rust", "create key rust", "encrypt rust", "sign rust".
 - [azure-keyvault-keys-ts](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-ts/SKILL.md) — Use this skill to manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating keys.
 - [constant-time-analysis](../skills/security/cryptography/constant_time_analys/constant-time-analysis/SKILL.md) — Use this skill to analyze cryptographic code to detect operations that leak secret data through execution timing variations.
@@ -4742,6 +4877,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [deep-research](../skills/software-engineering/architecture/patterns/deep-research/SKILL.md) — Use this skill to run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.
 - [defi-yield-strategy-allocator](../skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator/SKILL.md) — Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.
 - [dependency-analysis](../skills/software-engineering/architecture/patterns/dependency-analysis/SKILL.md) — Use this skill to analyze internal and package dependencies using Ontoly graph traversal.
+- [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
 - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
@@ -5060,10 +5196,18 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [scylladb-high-throughput-nosql-architecture](../skills/databases/nosql/scylladb/scylladb-high-throughput-nosql-architecture/SKILL.md) — Use this skill when architecting, modeling, and operating distributed, ultra-low-latency NoSQL databases with ScyllaDB (Apache Cassandra compatible). It guides the agent through shard-per-core asynchronous architecture, CQL partition and clustering key design, tuning consistency levels (LOCAL_QUORUM), tombstone prevention, and driver connection pooling.
 
+## Security Audit (1 skills)
+
+- [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
+
 ## Security Auditing (2 skills)
 
 - [owasp-api-security-top-10-hardening](../skills/security/api-security/owasp-top-10/owasp-api-security-top-10-hardening/SKILL.md) — Use this skill to audit and harden REST and GraphQL APIs against the OWASP API Security Top 10 vulnerabilities. It covers Broken Object Level Authorization (BOLA), Broken Authentication, Unrestricted Resource Consumption, Broken Function Level Authorization (BFLA), and Server-Side Request Forgery (SSRF).
 - [ai-llm-red-teaming-and-jailbreak-assessment](../skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment/SKILL.md) — Use this skill to conduct adversarial red team assessments against LLM applications, RAG pipelines, and agent systems. It tests for direct/indirect prompt injection, role-play jailbreaks, system prompt exfiltration, training data extraction, and tool permission escalation.
+
+## Security Auditor (1 skills)
+
+- [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 
 ## Security Guardrails (1 skills)
 
@@ -5080,6 +5224,18 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## SentenceTransformers (1 skills)
 
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
+
+## Seo Aeo Content Quality Auditor (1 skills)
+
+- [seo-aeo-content-quality-auditor](../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) — Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified.
+
+## Seo Audit (1 skills)
+
+- [seo-audit](../skills/security/compliance/seo_audit/seo-audit/SKILL.md) — Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.
+
+## Seo Content Auditor (1 skills)
+
+- [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 
 ## Sigma (1 skills)
 
@@ -5101,6 +5257,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [webauthn-fido2-passkey-authentication](../skills/security/zero-trust/mfa-webauthn/webauthn-fido2-passkey-authentication/SKILL.md) — Use this skill when designing, implementing, and securing passwordless authentication and multi-factor authentication (MFA) using WebAuthn, FIDO2, and Passkeys. It covers registration and authentication ceremony state machines, cryptographic challenge verification, public key credential storage, authenticator attestation, and signature counter verification.
 
+## Skill Audit (1 skills)
+
+- [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
+
+## Skill Security Audit (1 skills)
+
+- [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
+
 ## Slack Webhooks (1 skills)
 
 - [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
@@ -5112,6 +5276,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Snowpipe (1 skills)
 
 - [snowflake-data-warehouse-modeling](../skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling/SKILL.md) — Use this skill when architecting, modeling, and optimizing enterprise data warehouses in Snowflake. It guides the agent through multi-cluster virtual warehouse sizing, micro-partition clustering keys, zero-copy cloning for staging environments, time travel data recovery, and continuous ingestion with Snowpipe.
+
+## Soroban Contract Audit (1 skills)
+
+- [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
+
+## Soroban Oracle Data Feed Audit (1 skills)
+
+- [soroban-oracle-data-feed-audit](../skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit/SKILL.md) — Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.
 
 ## Spectral Graph Theory (1 skills)
 
@@ -5141,6 +5313,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
+## Supply Chain Risk Auditor (1 skills)
+
+- [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
+
 ## Swagger UI (1 skills)
 
 - [openapi-documentation-generator-and-swagger-ui](../skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui/SKILL.md) — Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export.
@@ -5152,6 +5328,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## SwiftUI (1 skills)
 
 - [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
+
+## Swiftui Performance Audit (1 skills)
+
+- [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
 ## Syft (1 skills)
 
@@ -5301,6 +5481,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.
 
+## Ux Audit (1 skills)
+
+- [ux-audit](../skills/security/compliance/ux_audit/ux-audit/SKILL.md) — Use this skill to audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices
+
 ## Vector Databases (1 skills)
 
 - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
@@ -5321,6 +5505,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
 
+## Vibe Code Auditor (1 skills)
+
+- [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
+
 ## Vite (3 skills)
 
 - [angular-signals-standalone-components-and-state](../skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state/SKILL.md) — Use this skill to design, build, and optimize enterprise Angular applications using modern Signals, standalone components, inject() dependency injection, fine-grained reactivity, and Vite-powered builds.
@@ -5339,9 +5527,17 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
+## Wcag Audit Patterns (1 skills)
+
+- [wcag-audit-patterns](../skills/ai-engineering/models/wcag_audit_patterns/wcag-audit-patterns/SKILL.md) — Use this skill to comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.
+
 ## Web Vitals API (1 skills)
 
 - [full-stack-web-vitals-and-performance-optimization](../skills/frontend/performance/web-vitals/full-stack-web-vitals-and-performance-optimization/SKILL.md) — Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.
+
+## Web3 Audit (1 skills)
+
+- [web3-audit](../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) — Use this skill to smart contract security audit
 
 ## WebAuthn (1 skills)
 
@@ -5384,6 +5580,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
+## Wp Site Health Auditor (1 skills)
+
+- [wp-site-health-auditor](../skills/security/compliance/wp_site_health_audit/wp-site-health-auditor/SKILL.md) — Use this skill to turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements, or critical issue reports.
+
 ## X.509 SVID (1 skills)
 
 - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
@@ -5415,6 +5615,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## YARA-L (1 skills)
 
 - [mitre-attack-chain-and-lateral-movement-simulation](../skills/security/red-teaming/attack-simulation/mitre-attack-chain-and-lateral-movement-simulation/SKILL.md) — Use this skill to model, simulate, and defend against multi-stage adversary attack chains across enterprise environments using the MITRE ATT&CK framework. It covers initial access emulation, execution vectors, credential dumping (LSASS, DPAPI), lateral movement (WMI, WinRM, Pass-the-Hash, Kerberoasting), command-and-control (C2) beacon analysis, and engineering Blue Team detection rules in Sigma and YARA-L.
+
+## Zeroize Audit (1 skills)
+
+- [zeroize-audit](../skills/security/compliance/zeroize_audit/zeroize-audit/SKILL.md) — Use this skill to detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.
 
 ## Zod (2 skills)
 

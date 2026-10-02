@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,3 +22,4 @@
 | [convex](../../skills/ai-engineering/rag/convex/convex/SKILL.md) | `convex` | `advanced` | `stable` | Use this skill to convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment. |
 | [cross-platform-contract-propagation-audit](../../skills/ai-engineering/rag/cross_platform_contr/cross-platform-contract-propagation-audit/SKILL.md) | `cross_platform_contr` | `advanced` | `stable` | Use this skill to use when auditing whether a field, enum, flag, or API contract propagates consistently across storage, services, clients, analytics, and tests. |
 | [rag-retrieval-evaluation](../../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |
+| [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

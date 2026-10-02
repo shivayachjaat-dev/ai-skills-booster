@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **67 skills** available in this category.
+> **68 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -71,3 +71,4 @@
 | [deep-research](../../skills/software-engineering/architecture/patterns/deep-research/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports. |
 | [defi-yield-strategy-allocator](../../skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers. |
 | [dependency-analysis](../../skills/software-engineering/architecture/patterns/dependency-analysis/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to analyze internal and package dependencies using Ontoly graph traversal. |
+| [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

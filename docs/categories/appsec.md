@@ -1,11 +1,12 @@
 # Category Index: Appsec
 
-> **16 skills** available in this category.
+> **22 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
 | [aws-ec2](../../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) | `aws_ec2` | `advanced` | `stable` | Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security |
 | [aws-secrets-manager](../../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) | `aws_secrets_manager` | `advanced` | `stable` | Use this skill to store and rotate secrets in AWS Secrets Manager. |
+| [aws-security-audit](../../skills/security/appsec/aws_security_audit/aws-security-audit/SKILL.md) | `aws_security_audit` | `advanced` | `stable` | Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices |
 | [azure-keyvault](../../skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) | `azure_keyvault` | `advanced` | `stable` | Use this skill to manage secrets and certificates in Azure Key Vault. Configure access |
 | [azure-monitor-audit](../../skills/security/appsec/azure_monitor_audit/azure-monitor-audit/SKILL.md) | `azure_monitor_audit` | `advanced` | `stable` | Use this skill to configure Azure Monitor and Activity Log for auditing. Set up diagnostic |
 | [azure-security-keyvault-keys-dotnet](../../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-dotnet/SKILL.md) | `azure_security_keyva` | `advanced` | `stable` | Use this skill to azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification. |
@@ -20,3 +21,8 @@
 | [code-review-sensei](../../skills/security/appsec/code_review_sensei/code-review-sensei/SKILL.md) | `code_review_sensei` | `advanced` | `stable` | Use this skill to expert code reviewer that catches bugs, security issues, performance |
 | [codebase-audit-pre-push](../../skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push/SKILL.md) | `codebase_audit_pre_p` | `advanced` | `stable` | Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness. |
 | [cyber-audit](../../skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) | `cyber_audit` | `advanced` | `stable` | Use this skill to run read-only exposure checks for security advisories and write a structured local audit report. |
+| [gcp-audit-logs](../../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) | `gcp_audit_logs` | `advanced` | `stable` | Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and |
+| [laravel-security-audit](../../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
+| [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
+| [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
+| [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
