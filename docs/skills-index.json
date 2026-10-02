@@ -16170,6 +16170,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nft-standards",
+    "path": "skills/data-analytics/data-pipelines/nft_standards/nft-standards",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "nft_standards",
+    "description": "Use this skill to design, implement, and operate production workflows for nft standards. Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "nft",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nft Standards",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

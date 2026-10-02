@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **25 skills** available in this category.
+> **26 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,4 +28,5 @@
 | [neon-postgres-egress-optimizer](../../skills/data-analytics/data-pipelines/neon_postgres_egress/neon-postgres-egress-optimizer/SKILL.md) | `neon_postgres_egress` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon postgres egress optimizer. Diagnose and fix excessive Postgres egress (network data transfer) in a codebase. |
 | [nexrad-product-access](../../skills/data-analytics/data-pipelines/nexrad_product_acces/nexrad-product-access/SKILL.md) | `nexrad_product_acces` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nexrad product access. Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation. |
 | [nextjs-best-practices](../../skills/data-analytics/data-pipelines/nextjs_best_practice/nextjs-best-practices/SKILL.md) | `nextjs_best_practice` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nextjs best practices. Next.js App Router principles. Server Components, data fetching, routing patterns. |
+| [nft-standards](../../skills/data-analytics/data-pipelines/nft_standards/nft-standards/SKILL.md) | `nft_standards` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nft standards. Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features. |
 | [polars-high-throughput-data-pipeline](../../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) | `polars` | `advanced` | `stable` | Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations. |
