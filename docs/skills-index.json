@@ -32255,6 +32255,28 @@
     "maturity": "stable"
   },
   {
+    "name": "makepad-widgets",
+    "path": "skills/software-engineering/architecture/patterns/makepad-widgets",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for makepad widgets. Version: makepad-widgets (dev branch) | Last Updated: 2026-01-19 > > Check for updates: https://crates.io/crates/makepad-widgets",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "makepad",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Makepad Widgets",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
