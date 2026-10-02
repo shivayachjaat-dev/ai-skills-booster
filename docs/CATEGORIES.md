@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **995** skills across structured domains, categories, and subcategories.
+Master navigation for **996** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (348 skills)
+## Ai Engineering (349 skills)
 
 ### Agents (42 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -184,7 +184,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (252 skills)
+### Models (253 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -670,6 +670,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [film-crew](../skills/ai-engineering/models/film_crew/film-crew/SKILL.md) — Use this skill to design, implement, and operate production workflows for film crew. Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedanc...
 - **Floating_Ui** (1):
   - [floating-ui](../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.
+- **Flowhunt_Skill** (1):
+  - [flowhunt-skill](../skills/ai-engineering/models/flowhunt_skill/flowhunt-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for flowhunt skill. Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

@@ -6991,6 +6991,28 @@
     "maturity": "stable"
   },
   {
+    "name": "flowhunt-skill",
+    "path": "skills/ai-engineering/models/flowhunt_skill/flowhunt-skill",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "flowhunt_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for flowhunt skill. Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "flowhunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Flowhunt Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

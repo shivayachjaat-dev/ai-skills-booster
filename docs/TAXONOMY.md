@@ -320,6 +320,7 @@ AI_Skills_Booster/
 │   │   ├── fedora_hyprland_inst/ (1 skills)
 │   │   ├── film_crew/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)
+│   │   ├── flowhunt_skill/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

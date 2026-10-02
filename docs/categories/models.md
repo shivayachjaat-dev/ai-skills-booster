@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **252 skills** available in this category.
+> **253 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -250,6 +250,7 @@
 | [fedora-hyprland-installer](../../skills/ai-engineering/models/fedora_hyprland_inst/fedora-hyprland-installer/SKILL.md) | `fedora_hyprland_inst` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fedora hyprland installer. Install, configure, verify, repair, update, and uninstall Hyprland on Fedora Linux with GPU-aware detection (NVIDIA/AMD/Intel). |
 | [film-crew](../../skills/ai-engineering/models/film_crew/film-crew/SKILL.md) | `film_crew` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for film crew. Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedanc... |
 | [floating-ui](../../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) | `floating_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. |
+| [flowhunt-skill](../../skills/ai-engineering/models/flowhunt_skill/flowhunt-skill/SKILL.md) | `flowhunt_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flowhunt skill. Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
