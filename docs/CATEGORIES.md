@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,472** skills across structured domains, categories, and subcategories.
+Master navigation for **1,473** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (514 skills)
 
@@ -2730,7 +2730,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (150 skills)
+## Security (151 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -3104,11 +3104,13 @@ Category index: [`docs/categories/supply-chain.md`](categories/supply-chain.md)
 - **Cosign** (1):
   - [cosign-container-image-signing](../skills/security/supply-chain/cosign/cosign-container-image-signing/SKILL.md) — Use this skill when designing, implementing, and enforcing cryptographic container image signing and verification using Sigstore Cosign. It covers keyless signing via OIDC (GitHub Actions/GitLab CI), public/private keypair signing, SBOM attestation attachment, and enforcing Kubernetes admission policies with Kyverno or Gatekeeper.
 
-### Threat Modeling (2 skills)
+### Threat Modeling (3 skills)
 Category index: [`docs/categories/threat-modeling.md`](categories/threat-modeling.md)
 
 - **Attack Trees** (1):
   - [threat-modeling-and-attack-tree-construction](../skills/security/threat-modeling/attack-trees/threat-modeling-and-attack-tree-construction/SKILL.md) — Use this skill to systematically model adversary capabilities and visualize attack vectors using hierarchical AND/OR attack trees. It covers root goal definition, node decomposition, probability and cost quantification, STRIDE mapping, residual risk scoring (DREAD/CVSS), and mapping defensive countermeasures directly to leaf-node vectors.
+- **Malware_Analyst** (1):
+  - [malware-analyst](../skills/security/threat-modeling/malware_analyst/malware-analyst/SKILL.md) — Use this skill to design, implement, and operate production workflows for malware analyst. Expert malware analyst specializing in defensive malware research, threat intelligence, and incident response. Masters sandbox analysis, behavioral analysis, and malware family identification.
 - **Stride** (1):
   - [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
 

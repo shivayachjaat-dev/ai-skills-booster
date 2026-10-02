@@ -1400,6 +1400,7 @@ AI_Skills_Booster/
 │   │   └── cosign/ (1 skills)
 │   ├── threat-modeling/
 │   │   ├── attack-trees/ (1 skills)
+│   │   ├── malware_analyst/ (1 skills)
 │   │   └── stride/ (1 skills)
 │   ├── vulnerability-management/
 │   │   └── dependency-check/ (1 skills)

@@ -28395,6 +28395,28 @@
     "maturity": "stable"
   },
   {
+    "name": "malware-analyst",
+    "path": "skills/security/threat-modeling/malware_analyst/malware-analyst",
+    "domain": "security",
+    "category": "threat-modeling",
+    "subcategory": "malware_analyst",
+    "description": "Use this skill to design, implement, and operate production workflows for malware analyst. Expert malware analyst specializing in defensive malware research, threat intelligence, and incident response. Masters sandbox analysis, behavioral analysis, and malware family identification.",
+    "tags": [
+      "security",
+      "threat-modeling",
+      "malware",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Malware Analyst",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "stride-threat-modeling-and-security-audit",
     "path": "skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit",
     "domain": "security",
