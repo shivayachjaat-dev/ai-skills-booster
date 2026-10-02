@@ -4777,6 +4777,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-cosmos-java",
+    "path": "skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "azure_cosmos_java",
+    "description": "Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Cosmos Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

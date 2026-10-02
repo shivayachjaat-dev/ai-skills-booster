@@ -657,6 +657,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-cosmos-db-py](../skills/frontend/ui-ux/azure_cosmos_db_py/azure-cosmos-db-py/SKILL.md) — Use this skill to build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.
 
+## Azure Cosmos Java (1 skills)
+
+- [azure-cosmos-java](../skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java/SKILL.md) — Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.
+
 ## Azure Identity (1 skills)
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
@@ -669,7 +673,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (103 skills)
+## Bash (104 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -756,6 +760,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-appconfiguration-ts](../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-ts/SKILL.md) — Use this skill to centralized configuration management with feature flags and dynamic refresh.
 - [azure-communication-sms-java](../skills/devops/cloud-infrastructure/azure_communication_/azure-communication-sms-java/SKILL.md) — Use this skill to send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports.
 - [azure-compute-batch-java](../skills/devops/cloud-infrastructure/azure_compute_batch_/azure-compute-batch-java/SKILL.md) — Use this skill to azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.
+- [azure-cosmos-java](../skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java/SKILL.md) — Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.
 - [anti-sleep](../skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) — Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.
 - [ask-questions-if-underspecified](../skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) — Use this skill to clarify requirements before implementing. Use when serious doubts arise.
 - [audit-context-building](../skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) — Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.
@@ -2012,7 +2017,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (206 skills)
+## Python (207 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2166,6 +2171,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [aws-cdk-v2-infrastructure-as-code-architecture](../skills/devops/infrastructure/aws-cdk/aws-cdk-v2-infrastructure-as-code-architecture/SKILL.md) — Use this skill to design, build, and deploy production AWS cloud infrastructure using the AWS Cloud Development Kit (CDK v2) in TypeScript and Python. It covers L1/L2/L3 construct composition, multi-account multi-region pipelines (cdk-pipelines), automated compliance enforcement with CDK Aspects (IAspect), unit and snapshot testing with @aws-cdk/assertions, and drift remediation.
 - [azure-application-insights-telemetry-and-distributed-tracing](../skills/devops/observability/application-insights/azure-application-insights-telemetry-and-distributed-tracing/SKILL.md) — Use this skill to instrument web applications, browser frontends, and Node.js/Python microservices with Azure Application Insights telemetry SDKs. It covers distributed W3C trace propagation, custom business event tracking, client-side unhandled exception telemetry, and Kusto (KQL) query diagnostics.
 - [ai-sre-autonomous-incident-triage-and-remediation](../skills/devops/sre/incident-remediation/ai-sre-autonomous-incident-triage-and-remediation/SKILL.md) — Use this skill to design and deploy autonomous AI-driven Site Reliability Engineering (SRE) incident response and triage workflows. It covers alerting webhook ingestion (PagerDuty, Datadog), automated log/trace correlation, blast-radius assessment, safe auto-remediation playbooks, and blameless post-mortem drafting.
+- [azure-cosmos-java](../skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java/SKILL.md) — Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.
 - [anti-sleep](../skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) — Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.
 - [ask-questions-if-underspecified](../skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) — Use this skill to clarify requirements before implementing. Use when serious doubts arise.
 - [audit-context-building](../skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) — Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.
