@@ -12027,6 +12027,28 @@
     "maturity": "stable"
   },
   {
+    "name": "defi-protocol-templates",
+    "path": "skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "defi_protocol_templa",
+    "description": "Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "defi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Defi Protocol Templates",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

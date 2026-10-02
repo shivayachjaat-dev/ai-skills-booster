@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **702** skills across structured domains, categories, and subcategories.
+Master navigation for **703** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (251 skills)
 
@@ -1259,7 +1259,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (86 skills)
+## Frontend (87 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1337,7 +1337,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Ckw_Design** (1):
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 
-### Ui Ux (57 skills)
+### Ui Ux (58 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1454,6 +1454,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [dbt-transformation-patterns](../skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns/SKILL.md) — Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.
 - **Decision_Navigator** (1):
   - [decision-navigator](../skills/frontend/ui-ux/decision_navigator/decision-navigator/SKILL.md) — Use this skill to guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps.
+- **Defi_Protocol_Templa** (1):
+  - [defi-protocol-templates](../skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates/SKILL.md) — Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.
 
 ### Web Architecture (11 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)

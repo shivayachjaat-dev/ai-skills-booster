@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 702 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 703 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -532,6 +532,7 @@
 | [dbos-typescript](skills/frontend/ui-ux/dbos_typescript/dbos-typescript/SKILL.md) | `frontend` | `ui-ux` | `dbos_typescript` | `advanced` | `stable` | Use this skill to guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control. |
 | [dbt-transformation-patterns](skills/frontend/ui-ux/dbt_transformation_p/dbt-transformation-patterns/SKILL.md) | `frontend` | `ui-ux` | `dbt_transformation_p` | `advanced` | `stable` | Use this skill to production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing. |
 | [decision-navigator](skills/frontend/ui-ux/decision_navigator/decision-navigator/SKILL.md) | `frontend` | `ui-ux` | `decision_navigator` | `advanced` | `stable` | Use this skill to guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps. |
+| [defi-protocol-templates](skills/frontend/ui-ux/defi_protocol_templa/defi-protocol-templates/SKILL.md) | `frontend` | `ui-ux` | `defi_protocol_templa` | `advanced` | `stable` | Use this skill to implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |
