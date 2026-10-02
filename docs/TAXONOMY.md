@@ -522,6 +522,8 @@ AI_Skills_Booster/
 │   └── illustration/
 │   │   └── technical-diagrams/ (1 skills)
 ├── data-analytics/
+│   ├── analytics-engineering/
+│   │   └── google_analytics_aut/ (1 skills)
 │   ├── dashboards/
 │   │   └── operational-metrics/ (1 skills)
 │   ├── data-pipelines/

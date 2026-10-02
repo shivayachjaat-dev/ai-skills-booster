@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,120** skills across structured domains, categories, and subcategories.
+Master navigation for **1,121** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (386 skills)
 
@@ -1147,7 +1147,13 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (20 skills)
+## Data Analytics (21 skills)
+
+### Analytics Engineering (1 skills)
+Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
+
+- **Google_Analytics_Aut** (1):
+  - [google-analytics-automation](../skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.
 
 ### Dashboards (1 skills)
 Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)

@@ -10886,6 +10886,28 @@
     "maturity": "stable"
   },
   {
+    "name": "google-analytics-automation",
+    "path": "skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation",
+    "domain": "data-analytics",
+    "category": "analytics-engineering",
+    "subcategory": "google_analytics_aut",
+    "description": "Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.",
+    "tags": [
+      "data-analytics",
+      "analytics-engineering",
+      "google",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Google Analytics Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "real-time-operational-metrics-dashboard",
     "path": "skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard",
     "domain": "data-analytics",
