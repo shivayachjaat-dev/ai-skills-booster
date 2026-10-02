@@ -10465,6 +10465,28 @@
     "maturity": "stable"
   },
   {
+    "name": "copilot-sdk",
+    "path": "skills/frontend/ui-ux/copilot_sdk/copilot-sdk",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "copilot_sdk",
+    "description": "Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "copilot",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Copilot Sdk",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

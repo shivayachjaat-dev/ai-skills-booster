@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **41 skills** available in this category.
+> **42 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -45,3 +45,4 @@
 | [community-building](../../skills/frontend/ui-ux/community_building/community-building/SKILL.md) | `community_building` | `advanced` | `stable` | Use this skill to when the user wants to build, grow, or improve a developer community on Discord, Slack, or forums. |
 | [competitor-alternatives](../../skills/frontend/ui-ux/competitor_alternati/competitor-alternatives/SKILL.md) | `competitor_alternati` | `advanced` | `stable` | Use this skill to you are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively. |
 | [connection-auth-rules](../../skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules/SKILL.md) | `connection_auth_rule` | `advanced` | `stable` | Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches |
+| [copilot-sdk](../../skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) | `copilot_sdk` | `advanced` | `stable` | Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET. |

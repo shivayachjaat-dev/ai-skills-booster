@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **615** skills across structured domains, categories, and subcategories.
+Master navigation for **616** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (219 skills)
 
@@ -1150,7 +1150,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (70 skills)
+## Frontend (71 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1228,7 +1228,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Ckw_Design** (1):
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 
-### Ui Ux (41 skills)
+### Ui Ux (42 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1313,6 +1313,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [competitor-alternatives](../skills/frontend/ui-ux/competitor_alternati/competitor-alternatives/SKILL.md) — Use this skill to you are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively.
 - **Connection_Auth_Rule** (1):
   - [connection-auth-rules](../skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules/SKILL.md) — Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches
+- **Copilot_Sdk** (1):
+  - [copilot-sdk](../skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) — Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET.
 
 ### Web Architecture (11 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
