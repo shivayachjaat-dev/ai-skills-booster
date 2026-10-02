@@ -4710,6 +4710,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-monitor-ingestion-java",
+    "path": "skills/devops/cloud-infrastructure/azure_monitor_ingest/azure-monitor-ingestion-java",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_monitor_ingest",
+    "description": "Use this skill to azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Monitor Ingestion Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
