@@ -21,6 +21,8 @@ AI_Skills_Booster/
 │   │   └── vllm/ (1 skills)
 │   ├── rag/
 │   │   └── evaluation/ (1 skills)
+│   ├── synthetic-data/
+│   │   └── synth-data-pipeline/ (1 skills)
 │   └── vector-databases/
 │   │   └── indexing/ (1 skills)
 ├── backend/

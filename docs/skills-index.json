@@ -271,6 +271,31 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-synthetic-data-generation-pipeline",
+    "path": "skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline",
+    "domain": "ai-engineering",
+    "category": "synthetic-data",
+    "subcategory": "synth-data-pipeline",
+    "description": "Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.",
+    "tags": [
+      "synthetic-data",
+      "self-instruct",
+      "evol-instruct",
+      "llm-training",
+      "fine-tuning",
+      "ai-data"
+    ],
+    "technologies": [
+      "Python",
+      "HuggingFace Datasets",
+      "SentenceTransformers",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "vector-database-rag-indexing",
     "path": "skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing",
     "domain": "ai-engineering",

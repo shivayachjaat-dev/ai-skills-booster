@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **83** skills across structured domains, categories, and subcategories.
+Master navigation for **84** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (12 skills)
+## Ai Engineering (13 skills)
 
 ### Agents (3 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -53,6 +53,12 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
+
+### Synthetic Data (1 skills)
+Category index: [`docs/categories/synthetic-data.md`](categories/synthetic-data.md)
+
+- **Synth Data Pipeline** (1):
+  - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
 
 ### Vector Databases (1 skills)
 Category index: [`docs/categories/vector-databases.md`](categories/vector-databases.md)
