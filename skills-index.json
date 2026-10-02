@@ -1486,6 +1486,33 @@
     "maturity": "stable"
   },
   {
+    "name": "threejs-3d-web-experience",
+    "path": "skills/frontend/3d-graphics/threejs/threejs-3d-web-experience",
+    "domain": "frontend",
+    "category": "3d-graphics",
+    "subcategory": "threejs",
+    "description": "Use this skill when designing, implementing, and optimizing interactive 3D web experiences using Three.js and React Three Fiber (R3F). It guides the agent through scene graph architecture, GLTF/GLB model loading and compression (Draco/Meshopt), custom GLSL shaders, camera controls (OrbitControls), lighting and shadows, and 60 FPS mobile performance optimization.",
+    "tags": [
+      "threejs",
+      "webgl",
+      "3d",
+      "react-three-fiber",
+      "r3f",
+      "shaders",
+      "frontend"
+    ],
+    "technologies": [
+      "Three.js",
+      "React Three Fiber",
+      "WebGL",
+      "GLSL",
+      "GLTF",
+      "TypeScript"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "wcag-accessibility-audit",
     "path": "skills/frontend/accessibility/wcag/wcag-accessibility-audit",
     "domain": "frontend",

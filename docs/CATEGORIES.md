@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **96** skills across structured domains, categories, and subcategories.
+Master navigation for **97** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -313,7 +313,13 @@ Category index: [`docs/categories/service-mesh.md`](categories/service-mesh.md)
 - **Istio** (1):
   - [istio-service-mesh-traffic-routing](../skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing/SKILL.md) — Use this skill when implementing advanced traffic management, security policies, and canary deployments using the Istio Service Mesh. It guides the agent through VirtualService routing rules, DestinationRule subset definitions, mutual TLS (mTLS) PeerAuthentication enforcement, fault injection, and Envoy sidecar proxy tuning.
 
-## Frontend (4 skills)
+## Frontend (5 skills)
+
+### 3D Graphics (1 skills)
+Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
+
+- **Threejs** (1):
+  - [threejs-3d-web-experience](../skills/frontend/3d-graphics/threejs/threejs-3d-web-experience/SKILL.md) — Use this skill when designing, implementing, and optimizing interactive 3D web experiences using Three.js and React Three Fiber (R3F). It guides the agent through scene graph architecture, GLTF/GLB model loading and compression (Draco/Meshopt), custom GLSL shaders, camera controls (OrbitControls), lighting and shadows, and 60 FPS mobile performance optimization.
 
 ### Accessibility (1 skills)
 Category index: [`docs/categories/accessibility.md`](categories/accessibility.md)

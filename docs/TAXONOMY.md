@@ -112,6 +112,8 @@ AI_Skills_Booster/
 │   └── service-mesh/
 │   │   └── istio/ (1 skills)
 ├── frontend/
+│   ├── 3d-graphics/
+│   │   └── threejs/ (1 skills)
 │   ├── accessibility/
 │   │   └── wcag/ (1 skills)
 │   ├── nextjs/
