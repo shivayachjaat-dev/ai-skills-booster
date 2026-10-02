@@ -22948,6 +22948,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-sharepoint",
+    "path": "skills/security/appsec/hunt_sharepoint/hunt-sharepoint",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_sharepoint",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt sharepoint. Hunt Microsoft SharePoint Server (2013/2016/2019/Subscription Edition)",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Sharepoint",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
