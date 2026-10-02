@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **392** skills across structured domains, categories, and subcategories.
+Master navigation for **393** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (126 skills)
+## Ai Engineering (127 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -114,7 +114,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (74 skills)
+### Models (75 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -254,6 +254,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [beatra](../skills/ai-engineering/models/beatra/beatra/SKILL.md) — Use this skill to install and use the official AI Media Generator package, pinned by digest, for paid hosted work on the Beatra service.
 - **Beatra_Ai_Video_Stud** (1):
   - [beatra-ai-video-studio](../skills/ai-engineering/models/beatra_ai_video_stud/beatra-ai-video-studio/SKILL.md) — Use this skill to install and use the official Beatra AI Video Studio package, pinned by digest, for paid text-to-video, image-to-video, and video edit or extend jobs on the hosted Beatra service.
+- **Beautiful_Prose** (1):
+  - [beautiful-prose](../skills/ai-engineering/models/beautiful_prose/beautiful-prose/SKILL.md) — Use this skill to a hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be clean, exact, concrete, and free of AI cadence, filler, or therapeutic tone.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

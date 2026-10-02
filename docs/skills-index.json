@@ -2415,6 +2415,28 @@
     "maturity": "stable"
   },
   {
+    "name": "beautiful-prose",
+    "path": "skills/ai-engineering/models/beautiful_prose/beautiful-prose",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "beautiful_prose",
+    "description": "Use this skill to a hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be clean, exact, concrete, and free of AI cadence, filler, or therapeutic tone.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "beautiful",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Beautiful Prose",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
