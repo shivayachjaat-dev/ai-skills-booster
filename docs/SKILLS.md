@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,244 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,245 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -454,6 +454,7 @@
 | [github](skills/backend/api-frameworks/github/github/SKILL.md) | `backend` | `api-frameworks` | `github` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for github. Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries. |
 | [hugging-face-papers](skills/backend/api-frameworks/hugging_face_papers/hugging-face-papers/SKILL.md) | `backend` | `api-frameworks` | `hugging_face_papers` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face papers. Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. |
 | [hunt-api-misconfig](skills/backend/api-frameworks/hunt_api_misconfig/hunt-api-misconfig/SKILL.md) | `backend` | `api-frameworks` | `hunt_api_misconfig` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt api misconfig. Hunt API security misconfiguration |
+| [hunt-shadow-api](skills/backend/api-frameworks/hunt_shadow_api/hunt-shadow-api/SKILL.md) | `backend` | `api-frameworks` | `hunt_shadow_api` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt shadow api. Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper |
 | [celery-distributed-task-processing](skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) | `backend` | `background-tasks` | `celery` | `advanced` | `stable` | Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization. |
 | [hunt-cache-poison](skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) | `backend` | `caching` | `hunt_cache_poison` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities. |
 | [redis-streams-event-processing](skills/backend/caching/redis-streams/redis-streams-event-processing/SKILL.md) | `backend` | `caching` | `redis-streams` | `advanced` | `stable` | Use this skill when architecting, implementing, and operating event-driven stream processing systems using Redis Streams. It guides the agent through appending events with XADD, managing competing Consumer Groups with XREADGROUP, tracking the Pending Entries List (PEL), dead-lettering abandoned messages via XAUTOCLAIM, and stream memory trimming with MAXLEN. |

@@ -10018,6 +10018,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-shadow-api",
+    "path": "skills/backend/api-frameworks/hunt_shadow_api/hunt-shadow-api",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "hunt_shadow_api",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt shadow api. Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Shadow Api",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
