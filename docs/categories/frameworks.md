@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,3 +13,4 @@
 | [cc-skill-coding-standards](../../skills/frontend/frameworks/cc_skill_coding_stan/cc-skill-coding-standards/SKILL.md) | `cc_skill_coding_stan` | `advanced` | `stable` | Use this skill to universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development. |
 | [code-showcase-react-ui-patterns](../../skills/frontend/frameworks/code_showcase_react_/code-showcase-react-ui-patterns/SKILL.md) | `code_showcase_react_` | `advanced` | `stable` | Use this skill to modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states. |
 | [codebase-to-wordpress-converter](../../skills/frontend/frameworks/codebase_to_wordpres/codebase-to-wordpress-converter/SKILL.md) | `codebase_to_wordpres` | `advanced` | `stable` | Use this skill to expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme. |
+| [context7-auto-research](../../skills/frontend/frameworks/context7_auto_resear/context7-auto-research/SKILL.md) | `context7_auto_resear` | `advanced` | `stable` | Use this skill to automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library. |

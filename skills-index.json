@@ -9265,6 +9265,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context7-auto-research",
+    "path": "skills/frontend/frameworks/context7_auto_resear/context7-auto-research",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "context7_auto_resear",
+    "description": "Use this skill to automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "context7",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context7 Auto Research",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
