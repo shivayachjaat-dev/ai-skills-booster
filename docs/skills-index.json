@@ -11289,6 +11289,28 @@
     "maturity": "stable"
   },
   {
+    "name": "claude-scientific-skills",
+    "path": "skills/software-engineering/architecture/patterns/claude-scientific-skills",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to scientific research and analysis skills",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "claude",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Claude Scientific Skills",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
