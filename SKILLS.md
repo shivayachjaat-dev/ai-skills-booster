@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 251 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 252 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -67,6 +67,7 @@
 | [azure-ai-contentsafety-java](skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-java/SKILL.md) | `ai-engineering` | `models` | `azure_ai_contentsafe` | `advanced` | `stable` | Use this skill to build content moderation applications using the Azure AI Content Safety SDK for Java. |
 | [azure-ai-contentsafety-py](skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-py/SKILL.md) | `ai-engineering` | `models` | `azure_ai_contentsafe` | `advanced` | `stable` | Use this skill to azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification. |
 | [azure-ai-contentsafety-ts](skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-ts/SKILL.md) | `ai-engineering` | `models` | `azure_ai_contentsafe` | `advanced` | `stable` | Use this skill to analyze text and images for harmful content with customizable blocklists. |
+| [azure-ai-contentunderstanding-py](skills/ai-engineering/models/azure_ai_contentunde/azure-ai-contentunderstanding-py/SKILL.md) | `ai-engineering` | `models` | `azure_ai_contentunde` | `advanced` | `stable` | Use this skill to azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |

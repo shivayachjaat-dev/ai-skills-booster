@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **251** skills across structured domains, categories, and subcategories.
+Master navigation for **252** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (73 skills)
+## Ai Engineering (74 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (33 skills)
+### Models (34 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -174,6 +174,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-ai-contentsafety-java](../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-java/SKILL.md) — Use this skill to build content moderation applications using the Azure AI Content Safety SDK for Java.
   - [azure-ai-contentsafety-py](../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-py/SKILL.md) — Use this skill to azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.
   - [azure-ai-contentsafety-ts](../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-ts/SKILL.md) — Use this skill to analyze text and images for harmful content with customizable blocklists.
+- **Azure_Ai_Contentunde** (1):
+  - [azure-ai-contentunderstanding-py](../skills/ai-engineering/models/azure_ai_contentunde/azure-ai-contentunderstanding-py/SKILL.md) — Use this skill to azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

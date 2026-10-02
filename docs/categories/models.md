@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **33 skills** available in this category.
+> **34 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -36,4 +36,5 @@
 | [azure-ai-contentsafety-java](../../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-java/SKILL.md) | `azure_ai_contentsafe` | `advanced` | `stable` | Use this skill to build content moderation applications using the Azure AI Content Safety SDK for Java. |
 | [azure-ai-contentsafety-py](../../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-py/SKILL.md) | `azure_ai_contentsafe` | `advanced` | `stable` | Use this skill to azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification. |
 | [azure-ai-contentsafety-ts](../../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-ts/SKILL.md) | `azure_ai_contentsafe` | `advanced` | `stable` | Use this skill to analyze text and images for harmful content with customizable blocklists. |
+| [azure-ai-contentunderstanding-py](../../skills/ai-engineering/models/azure_ai_contentunde/azure-ai-contentunderstanding-py/SKILL.md) | `azure_ai_contentunde` | `advanced` | `stable` | Use this skill to azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
