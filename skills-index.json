@@ -23961,6 +23961,28 @@
     "maturity": "stable"
   },
   {
+    "name": "git-pr-workflows-onboard",
+    "path": "skills/software-engineering/architecture/patterns/git-pr-workflows-onboard",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for git pr workflows onboard. You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies. You",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "git",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Git Pr Workflows Onboard",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",

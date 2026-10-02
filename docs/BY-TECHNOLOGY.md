@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (908 skills)
+## Bash (909 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1964,6 +1964,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [gh-review-requests](../skills/software-engineering/architecture/patterns/gh-review-requests/SKILL.md) — Use this skill to design, implement, and operate production workflows for gh review requests. Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to "find PRs I need to review", "show my review requests", "what needs my review", "fetch GitHub review requests", ...
 - [git-hooks-automation](../skills/software-engineering/architecture/patterns/git-hooks-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for git hooks automation. Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate code quality gates, formatting, linting, and commit message enforcement before code reaches CI.
 - [git-pr-review](../skills/software-engineering/architecture/patterns/git-pr-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for git pr review. Generate a concise and structured PR description from commit history with minimal token usage
+- [git-pr-workflows-onboard](../skills/software-engineering/architecture/patterns/git-pr-workflows-onboard/SKILL.md) — Use this skill to design, implement, and operate production workflows for git pr workflows onboard. You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies. You
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
@@ -4950,6 +4951,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [git-pr-workflows-git-workflow](../skills/ai-engineering/agents/git_pr_workflows_git/git-pr-workflows-git-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for git pr workflows git workflow. Orchestrate review, tests, commits, branch pushes, and pull-request creation with parallel agents. Use when completed changes must move through validation into a PR or guarded merge.
 
+## Git Pr Workflows Onboard (1 skills)
+
+- [git-pr-workflows-onboard](../skills/software-engineering/architecture/patterns/git-pr-workflows-onboard/SKILL.md) — Use this skill to design, implement, and operate production workflows for git pr workflows onboard. You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies. You
+
 ## GitHub (1 skills)
 
 - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
@@ -5902,7 +5907,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1011 skills)
+## Python (1012 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6891,6 +6896,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [gh-review-requests](../skills/software-engineering/architecture/patterns/gh-review-requests/SKILL.md) — Use this skill to design, implement, and operate production workflows for gh review requests. Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to "find PRs I need to review", "show my review requests", "what needs my review", "fetch GitHub review requests", ...
 - [git-hooks-automation](../skills/software-engineering/architecture/patterns/git-hooks-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for git hooks automation. Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate code quality gates, formatting, linting, and commit message enforcement before code reaches CI.
 - [git-pr-review](../skills/software-engineering/architecture/patterns/git-pr-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for git pr review. Generate a concise and structured PR description from commit history with minimal token usage
+- [git-pr-workflows-onboard](../skills/software-engineering/architecture/patterns/git-pr-workflows-onboard/SKILL.md) — Use this skill to design, implement, and operate production workflows for git pr workflows onboard. You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies. You
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
