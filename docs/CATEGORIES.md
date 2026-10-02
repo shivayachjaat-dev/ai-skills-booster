@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,013** skills across structured domains, categories, and subcategories.
+Master navigation for **1,014** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (354 skills)
+## Ai Engineering (355 skills)
 
 ### Agents (43 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -705,7 +705,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (23 skills)
+### Rag (24 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -749,6 +749,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [five-axis-code-review](../skills/ai-engineering/rag/five_axis_code_revie/five-axis-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for five axis code review. Five-axis code review checklist (correctness, security, readability, performance, test coverage) producing actionable comments instead of style nitpicks. Use when the user asks to review code, a diff, or a pull request.
 - **Fp_Pragmatic** (1):
   - [fp-pragmatic](../skills/ai-engineering/rag/fp_pragmatic/fp-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp pragmatic. A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
+- **Fp_Ts_Pragmatic** (1):
+  - [fp-ts-pragmatic](../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 

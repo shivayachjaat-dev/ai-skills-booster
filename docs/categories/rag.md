@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **23 skills** available in this category.
+> **24 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -26,4 +26,5 @@
 | [file-uploads](../../skills/ai-engineering/rag/file_uploads/file-uploads/SKILL.md) | `file_uploads` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for file uploads. Expert at handling file uploads and cloud storage. Covers S3, |
 | [five-axis-code-review](../../skills/ai-engineering/rag/five_axis_code_revie/five-axis-code-review/SKILL.md) | `five_axis_code_revie` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for five axis code review. Five-axis code review checklist (correctness, security, readability, performance, test coverage) producing actionable comments instead of style nitpicks. Use when the user asks to review code, a diff, or a pull request. |
 | [fp-pragmatic](../../skills/ai-engineering/rag/fp_pragmatic/fp-pragmatic/SKILL.md) | `fp_pragmatic` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp pragmatic. A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead |
+| [fp-ts-pragmatic](../../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) | `fp_ts_pragmatic` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library. |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

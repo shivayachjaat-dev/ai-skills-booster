@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (831 skills)
+## Bash (832 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1388,6 +1388,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [file-uploads](../skills/ai-engineering/rag/file_uploads/file-uploads/SKILL.md) — Use this skill to design, implement, and operate production workflows for file uploads. Expert at handling file uploads and cloud storage. Covers S3,
 - [five-axis-code-review](../skills/ai-engineering/rag/five_axis_code_revie/five-axis-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for five axis code review. Five-axis code review checklist (correctness, security, readability, performance, test coverage) producing actionable comments instead of style nitpicks. Use when the user asks to review code, a diff, or a pull request.
 - [fp-pragmatic](../skills/ai-engineering/rag/fp_pragmatic/fp-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp pragmatic. A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
+- [fp-ts-pragmatic](../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [backend-architect](../skills/backend/api-design/backend_architect/backend-architect/SKILL.md) — Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
 - [backend-security-coder](../skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) — Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
@@ -4523,6 +4524,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [fp-ts-errors](../skills/software-engineering/architecture/patterns/fp-ts-errors/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts errors. Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts.
 
+## Fp Ts Pragmatic (1 skills)
+
+- [fp-ts-pragmatic](../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.
+
 ## FreeRTOS (1 skills)
 
 - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
@@ -5521,7 +5526,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (934 skills)
+## Python (935 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5867,6 +5872,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [file-uploads](../skills/ai-engineering/rag/file_uploads/file-uploads/SKILL.md) — Use this skill to design, implement, and operate production workflows for file uploads. Expert at handling file uploads and cloud storage. Covers S3,
 - [five-axis-code-review](../skills/ai-engineering/rag/five_axis_code_revie/five-axis-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for five axis code review. Five-axis code review checklist (correctness, security, readability, performance, test coverage) producing actionable comments instead of style nitpicks. Use when the user asks to review code, a diff, or a pull request.
 - [fp-pragmatic](../skills/ai-engineering/rag/fp_pragmatic/fp-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp pragmatic. A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
+- [fp-ts-pragmatic](../skills/ai-engineering/rag/fp_ts_pragmatic/fp-ts-pragmatic/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp ts pragmatic. A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
