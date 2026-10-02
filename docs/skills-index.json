@@ -8707,6 +8707,28 @@
     "maturity": "stable"
   },
   {
+    "name": "image-studio",
+    "path": "skills/ai-engineering/models/image_studio/image-studio",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "image_studio",
+    "description": "Use this skill to design, implement, and operate production workflows for image studio. Studio de geracao de imagens inteligente \u2014 roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "image",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Image Studio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
