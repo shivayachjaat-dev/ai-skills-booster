@@ -7040,6 +7040,28 @@
     "maturity": "stable"
   },
   {
+    "name": "data-storytelling",
+    "path": "skills/data-analytics/data-pipelines/data_storytelling/data-storytelling",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "data_storytelling",
+    "description": "Use this skill to transform raw data into compelling narratives that drive decisions and inspire action.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "data",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Data Storytelling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",
