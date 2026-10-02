@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **458** skills across structured domains, categories, and subcategories.
+Master navigation for **459** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (154 skills)
+## Ai Engineering (155 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -120,7 +120,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (98 skills)
+### Models (99 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -308,6 +308,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [business-email-template](../skills/ai-engineering/models/business_email_templ/business-email-template/SKILL.md) — Use this skill to business email template register: trigger, sender and recipient type, subject pattern, body structure, personalisation tokens and send checks. Use for repeatable outbound email.
 - **Buywhere_Product_Cat** (1):
   - [buywhere-product-catalog](../skills/ai-engineering/models/buywhere_product_cat/buywhere-product-catalog/SKILL.md) — Use this skill to use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents.
+- **C4_Container** (1):
+  - [c4-container](../skills/ai-engineering/models/c4_container/c4-container/SKILL.md) — Use this skill to expert C4 Container-level documentation specialist.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -3009,6 +3009,28 @@
     "maturity": "stable"
   },
   {
+    "name": "c4-container",
+    "path": "skills/ai-engineering/models/c4_container/c4-container",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "c4_container",
+    "description": "Use this skill to expert C4 Container-level documentation specialist.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "c4",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "C4 Container",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
