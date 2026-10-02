@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **154 skills** available in this category.
+> **155 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -157,4 +157,5 @@
 | [cred-omega](../../skills/ai-engineering/models/cred_omega/cred-omega/SKILL.md) | `cred_omega` | `advanced` | `stable` | Use this skill to cISO operacional enterprise para gestao total de credenciais e segredos. |
 | [credit-cycle-analysis](../../skills/ai-engineering/models/credit_cycle_analysi/credit-cycle-analysis/SKILL.md) | `credit_cycle_analysi` | `advanced` | `stable` | Use this skill to debtor and creditor credit-cycle analysis: weighted collection or payment days, ageing buckets, credit limit utilisation and gap against benchmark. Use for working-capital review. |
 | [crewai](../../skills/ai-engineering/models/crewai/crewai/SKILL.md) | `crewai` | `advanced` | `stable` | Use this skill to expert in CrewAI - the leading role-based multi-agent framework |
+| [cross-chain-relayer-audit](../../skills/ai-engineering/models/cross_chain_relayer_/cross-chain-relayer-audit/SKILL.md) | `cross_chain_relayer_` | `advanced` | `stable` | Use this skill to cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **630** skills across structured domains, categories, and subcategories.
+Master navigation for **631** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (225 skills)
+## Ai Engineering (226 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (154 skills)
+### Models (155 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -444,6 +444,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [credit-cycle-analysis](../skills/ai-engineering/models/credit_cycle_analysi/credit-cycle-analysis/SKILL.md) — Use this skill to debtor and creditor credit-cycle analysis: weighted collection or payment days, ageing buckets, credit limit utilisation and gap against benchmark. Use for working-capital review.
 - **Crewai** (1):
   - [crewai](../skills/ai-engineering/models/crewai/crewai/SKILL.md) — Use this skill to expert in CrewAI - the leading role-based multi-agent framework
+- **Cross_Chain_Relayer_** (1):
+  - [cross-chain-relayer-audit](../skills/ai-engineering/models/cross_chain_relayer_/cross-chain-relayer-audit/SKILL.md) — Use this skill to cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

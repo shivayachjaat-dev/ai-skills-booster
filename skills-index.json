@@ -4505,6 +4505,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cross-chain-relayer-audit",
+    "path": "skills/ai-engineering/models/cross_chain_relayer_/cross-chain-relayer-audit",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cross_chain_relayer_",
+    "description": "Use this skill to cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cross",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cross Chain Relayer Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

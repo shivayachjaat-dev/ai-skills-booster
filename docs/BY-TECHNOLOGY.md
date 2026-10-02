@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (448 skills)
+## Bash (449 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1227,6 +1227,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cred-omega](../skills/ai-engineering/models/cred_omega/cred-omega/SKILL.md) — Use this skill to cISO operacional enterprise para gestao total de credenciais e segredos.
 - [credit-cycle-analysis](../skills/ai-engineering/models/credit_cycle_analysi/credit-cycle-analysis/SKILL.md) — Use this skill to debtor and creditor credit-cycle analysis: weighted collection or payment days, ageing buckets, credit limit utilisation and gap against benchmark. Use for working-capital review.
 - [crewai](../skills/ai-engineering/models/crewai/crewai/SKILL.md) — Use this skill to expert in CrewAI - the leading role-based multi-agent framework
+- [cross-chain-relayer-audit](../skills/ai-engineering/models/cross_chain_relayer_/cross-chain-relayer-audit/SKILL.md) — Use this skill to cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
 - [axiom](../skills/ai-engineering/rag/axiom/axiom/SKILL.md) — Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.
@@ -2638,6 +2639,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [cron-doctor](../skills/devops/ci-cd/cron_doctor/cron-doctor/SKILL.md) — Use this skill to diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29.
 
+## Cross Chain Relayer Audit (1 skills)
+
+- [cross-chain-relayer-audit](../skills/ai-engineering/models/cross_chain_relayer_/cross-chain-relayer-audit/SKILL.md) — Use this skill to cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs.
+
 ## Cryptography (1 skills)
 
 - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
@@ -3737,7 +3742,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (551 skills)
+## Python (552 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3936,6 +3941,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cred-omega](../skills/ai-engineering/models/cred_omega/cred-omega/SKILL.md) — Use this skill to cISO operacional enterprise para gestao total de credenciais e segredos.
 - [credit-cycle-analysis](../skills/ai-engineering/models/credit_cycle_analysi/credit-cycle-analysis/SKILL.md) — Use this skill to debtor and creditor credit-cycle analysis: weighted collection or payment days, ageing buckets, credit limit utilisation and gap against benchmark. Use for working-capital review.
 - [crewai](../skills/ai-engineering/models/crewai/crewai/SKILL.md) — Use this skill to expert in CrewAI - the leading role-based multi-agent framework
+- [cross-chain-relayer-audit](../skills/ai-engineering/models/cross_chain_relayer_/cross-chain-relayer-audit/SKILL.md) — Use this skill to cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
