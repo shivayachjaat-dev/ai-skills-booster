@@ -10458,6 +10458,28 @@
     "maturity": "stable"
   },
   {
+    "name": "instagram",
+    "path": "skills/backend/api-frameworks/instagram/instagram",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "instagram",
+    "description": "Use this skill to design, implement, and operate production workflows for instagram. Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "instagram",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Instagram",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",

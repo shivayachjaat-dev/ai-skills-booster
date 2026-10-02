@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **27 skills** available in this category.
+> **28 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -31,3 +31,4 @@
 | [hunt-api-misconfig](../../skills/backend/api-frameworks/hunt_api_misconfig/hunt-api-misconfig/SKILL.md) | `hunt_api_misconfig` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt api misconfig. Hunt API security misconfiguration |
 | [hunt-shadow-api](../../skills/backend/api-frameworks/hunt_shadow_api/hunt-shadow-api/SKILL.md) | `hunt_shadow_api` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt shadow api. Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper |
 | [incident-responder](../../skills/backend/api-frameworks/incident_responder/incident-responder/SKILL.md) | `incident_responder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incident responder. Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. |
+| [instagram](../../skills/backend/api-frameworks/instagram/instagram/SKILL.md) | `instagram` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for instagram. Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator. |
