@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **596** skills across structured domains, categories, and subcategories.
+Master navigation for **597** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (207 skills)
+## Ai Engineering (208 skills)
 
-### Agents (24 skills)
+### Agents (25 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -37,6 +37,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [cmux](../skills/ai-engineering/agents/cmux/cmux/SKILL.md) — Use this skill to control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows.
 - **Commandcode_Delegate** (1):
   - [commandcode-delegate](../skills/ai-engineering/agents/commandcode_delegate/commandcode-delegate/SKILL.md) — Use this skill to delegate coding tasks to the Command Code CLI (`cmd`) only when the user
+- **Context_Agent** (1):
+  - [context-agent](../skills/ai-engineering/agents/context_agent/context-agent/SKILL.md) — Use this skill to agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tarefas pendentes e carrega briefing automatico na sessao seguinte.
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):

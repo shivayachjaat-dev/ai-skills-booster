@@ -342,6 +342,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-agent",
+    "path": "skills/ai-engineering/agents/context_agent/context-agent",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "context_agent",
+    "description": "Use this skill to agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tarefas pendentes e carrega briefing automatico na sessao seguinte.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Agent",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-chaos-testing-and-fault-injection",
     "path": "skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection",
     "domain": "ai-engineering",
