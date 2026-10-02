@@ -12856,6 +12856,28 @@
     "maturity": "stable"
   },
   {
+    "name": "muapi-media",
+    "path": "skills/backend/api-frameworks/muapi_media/muapi-media",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "muapi_media",
+    "description": "Use this skill to design, implement, and operate production workflows for muapi media. Generate images and videos with MuAPI's schema-driven asynchronous media API while protecting keys, polling, and output downloads.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "muapi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Muapi Media",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
