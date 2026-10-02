@@ -1905,6 +1905,32 @@
     "maturity": "stable"
   },
   {
+    "name": "software-supply-chain-sbom-audit",
+    "path": "skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit",
+    "domain": "security",
+    "category": "vulnerability-management",
+    "subcategory": "dependency-check",
+    "description": "Use this skill when auditing, generating, and verifying Software Bill of Materials (SBOM) and scanning software supply chains for CVE vulnerabilities and non-compliant open-source licenses. It guides the agent through generating CycloneDX/SPDX SBOMs with Syft, scanning for known exploits with Grype, validating software licenses, and enforcing CI/CD gates.",
+    "tags": [
+      "sbom",
+      "supply-chain",
+      "security",
+      "syft",
+      "grype",
+      "cyclonedx",
+      "devsecops"
+    ],
+    "technologies": [
+      "Syft",
+      "Grype",
+      "CycloneDX",
+      "SPDX",
+      "GitHub Actions"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "container-vulnerability-scanning-trivy",
     "path": "skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy",
     "domain": "security",
