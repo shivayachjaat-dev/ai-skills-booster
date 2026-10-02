@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,055 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,056 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -330,6 +330,7 @@
 | [frontend-design](skills/ai-engineering/models/frontend_design/frontend-design/SKILL.md) | `ai-engineering` | `models` | `frontend_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend design. Design and implement a distinctive frontend within the product’s existing brand, accessibility, performance and framework constraints. |
 | [frontend-ui-dark-ts](skills/ai-engineering/models/frontend_ui_dark_ts/frontend-ui-dark-ts/SKILL.md) | `ai-engineering` | `models` | `frontend_ui_dark_ts` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend ui dark ts. A modern dark-themed React UI system using Tailwind CSS and Framer Motion. Designed for dashboards, admin panels, and data-rich applications with glassmorphism effects and tasteful animations. |
 | [frontend-ui-engineering](skills/ai-engineering/models/frontend_ui_engineer/frontend-ui-engineering/SKILL.md) | `ai-engineering` | `models` | `frontend_ui_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend ui engineering. Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated. |
+| [gcp-cloud-sql](skills/ai-engineering/models/gcp_cloud_sql/gcp-cloud-sql/SKILL.md) | `ai-engineering` | `models` | `gcp_cloud_sql` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp cloud sql. Provision Cloud SQL and Spanner databases. Configure high availability, |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

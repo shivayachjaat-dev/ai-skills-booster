@@ -332,6 +332,7 @@ AI_Skills_Booster/
 │   │   ├── frontend_design/ (1 skills)
 │   │   ├── frontend_ui_dark_ts/ (1 skills)
 │   │   ├── frontend_ui_engineer/ (1 skills)
+│   │   ├── gcp_cloud_sql/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
