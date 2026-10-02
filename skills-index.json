@@ -33949,6 +33949,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-performance-diagnosis",
+    "path": "skills/software-engineering/architecture/patterns/monte-carlo-performance-diagnosis",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo performance diagnosis. Diagnoses pipeline performance issues -- slow jobs, expensive queries, latency trends -- using Monte Carlo's cross-platform observability. Uses a tiered investigation approach: discover problems, bridge to affected tables, then drill into...",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Performance Diagnosis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
