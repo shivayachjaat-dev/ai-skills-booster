@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **16 skills** available in this category.
+> **17 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -20,3 +20,4 @@
 | [azure-functions](../../skills/devops/cloud-infrastructure/azure_functions/azure-functions/SKILL.md) | `azure_functions` | `advanced` | `stable` | Use this skill to expert patterns for Azure Functions development including isolated |
 | [azure-keyvault-certificates-rust](../../skills/devops/cloud-infrastructure/azure_keyvault_certi/azure-keyvault-certificates-rust/SKILL.md) | `azure_keyvault_certi` | `advanced` | `stable` | Use this skill to azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates. |
 | [azure-keyvault-secrets-ts](../../skills/devops/cloud-infrastructure/azure_keyvault_secre/azure-keyvault-secrets-ts/SKILL.md) | `azure_keyvault_secre` | `advanced` | `stable` | Use this skill to manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values. |
+| [azure-maps-search-dotnet](../../skills/devops/cloud-infrastructure/azure_maps_search_do/azure-maps-search-dotnet/SKILL.md) | `azure_maps_search_do` | `advanced` | `stable` | Use this skill to azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data. |
