@@ -2789,6 +2789,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brooks-review",
+    "path": "skills/ai-engineering/models/brooks_review/brooks-review",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "brooks_review",
+    "description": "Use this skill to pR code review that surfaces decay risks, design smells, and maintainability issues with concrete Symptom \u2192 Source \u2192 Consequence \u2192 Remedy findings, drawing on twelve classic engineering books.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "brooks",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brooks Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
