@@ -7805,6 +7805,28 @@
     "maturity": "stable"
   },
   {
+    "name": "google-no-code",
+    "path": "skills/ai-engineering/models/google_no_code/google-no-code",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "google_no_code",
+    "description": "Use this skill to design, implement, and operate production workflows for google no code. Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic questions \u2014 no code editor required.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "google",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Google No Code",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

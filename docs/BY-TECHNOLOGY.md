@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (942 skills)
+## Bash (943 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1397,6 +1397,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [go-in-depth](../skills/ai-engineering/models/go_in_depth/go-in-depth/SKILL.md) — Use this skill to design, implement, and operate production workflows for go in depth. Go in depth harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.
 - [goal-loop](../skills/ai-engineering/models/goal_loop/goal-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for goal loop. Draft and explain persistent goal-loop prompts for long-running agent work with clear stop conditions.
 - [google-docs-automation](../skills/ai-engineering/models/google_docs_automati/google-docs-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google docs automation. Read and edit Google Docs through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.
+- [google-no-code](../skills/ai-engineering/models/google_no_code/google-no-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for google no code. Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic questions — no code editor required.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -5193,6 +5194,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [google-drive-automation](../skills/frontend/ui-ux/google_drive_automat/google-drive-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google drive automation. Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write access.
 
+## Google No Code (1 skills)
+
+- [google-no-code](../skills/ai-engineering/models/google_no_code/google-no-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for google no code. Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic questions — no code editor required.
+
 ## Google Play Developer API (1 skills)
 
 - [app-store-optimization-and-metadata-strategy](../skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) — Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata.
@@ -6072,7 +6077,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1045 skills)
+## Python (1046 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6421,6 +6426,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [go-in-depth](../skills/ai-engineering/models/go_in_depth/go-in-depth/SKILL.md) — Use this skill to design, implement, and operate production workflows for go in depth. Go in depth harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.
 - [goal-loop](../skills/ai-engineering/models/goal_loop/goal-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for goal loop. Draft and explain persistent goal-loop prompts for long-running agent work with clear stop conditions.
 - [google-docs-automation](../skills/ai-engineering/models/google_docs_automati/google-docs-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google docs automation. Read and edit Google Docs through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.
+- [google-no-code](../skills/ai-engineering/models/google_no_code/google-no-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for google no code. Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic questions — no code editor required.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
