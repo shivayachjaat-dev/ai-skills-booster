@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **641** skills across structured domains, categories, and subcategories.
+Master navigation for **642** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (228 skills)
+## Ai Engineering (229 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (156 skills)
+### Models (157 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -448,6 +448,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [cross-chain-relayer-audit](../skills/ai-engineering/models/cross_chain_relayer_/cross-chain-relayer-audit/SKILL.md) — Use this skill to cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs.
 - **Crossframe_Org** (1):
   - [crossframe-org](../skills/ai-engineering/models/crossframe_org/crossframe-org/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives.
+- **Crossframe_Review** (1):
+  - [crossframe-review](../skills/ai-engineering/models/crossframe_review/crossframe-review/SKILL.md) — Use this skill to use when explicit CrossFrame output needs review for reasoning fidelity, evidence boundaries, source anchors, concept drift, article collapse, or repair steps.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -4549,6 +4549,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-review",
+    "path": "skills/ai-engineering/models/crossframe_review/crossframe-review",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "crossframe_review",
+    "description": "Use this skill to use when explicit CrossFrame output needs review for reasoning fidelity, evidence boundaries, source anchors, concept drift, article collapse, or repair steps.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
