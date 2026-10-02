@@ -2525,6 +2525,28 @@
     "maturity": "stable"
   },
   {
+    "name": "multi-tenant-llm-hosting",
+    "path": "skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "multi_tenant_llm_hos",
+    "description": "Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "multi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Multi Tenant Llm Hosting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

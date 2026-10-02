@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **20 skills** available in this category.
+> **21 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -24,3 +24,4 @@
 | [llmops-platform-engineering](../../skills/ai-engineering/llm-ops/llmops_platform_engi/llmops-platform-engineering/SKILL.md) | `llmops_platform_engi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llmops platform engineering. Build production LLMOps platforms with CI/CD, model promotion workflows, |
 | [mac-mini-llm-lab](../../skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) | `mac_mini_llm_lab` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access, |
 | [mcp-builder](../../skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) | `mcp_builder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks. |
+| [multi-tenant-llm-hosting](../../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) | `multi_tenant_llm_hos` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation, |

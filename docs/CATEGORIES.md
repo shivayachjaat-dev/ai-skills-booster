@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,569** skills across structured domains, categories, and subcategories.
+Master navigation for **1,570** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (543 skills)
+## Ai Engineering (544 skills)
 
 ### Agents (63 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -226,7 +226,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (20 skills)
+### Llm Ops (21 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -269,6 +269,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [mac-mini-llm-lab](../skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) — Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access,
 - **Mcp_Builder** (1):
   - [mcp-builder](../skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
+- **Multi_Tenant_Llm_Hos** (1):
+  - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 
 ### Models (396 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)

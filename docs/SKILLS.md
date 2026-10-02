@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,569 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,570 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -115,6 +115,7 @@
 | [llmops-platform-engineering](skills/ai-engineering/llm-ops/llmops_platform_engi/llmops-platform-engineering/SKILL.md) | `ai-engineering` | `llm-ops` | `llmops_platform_engi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llmops platform engineering. Build production LLMOps platforms with CI/CD, model promotion workflows, |
 | [mac-mini-llm-lab](skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) | `ai-engineering` | `llm-ops` | `mac_mini_llm_lab` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access, |
 | [mcp-builder](skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) | `ai-engineering` | `llm-ops` | `mcp_builder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks. |
+| [multi-tenant-llm-hosting](skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) | `ai-engineering` | `llm-ops` | `multi_tenant_llm_hos` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation, |
 | [agentfolio](skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) | `ai-engineering` | `models` | `agentfolio` | `advanced` | `stable` | Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory. |
 | [ai-agent-development](skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) | `ai-engineering` | `models` | `ai_agent_development` | `advanced` | `stable` | Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. |
 | [ai-analyzer](skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) | `ai-engineering` | `models` | `ai_analyzer` | `advanced` | `stable` | Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |
