@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 429 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 430 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -334,6 +334,7 @@
 | [bazel-build-optimization](skills/frontend/ui-ux/bazel_build_optimiza/bazel-build-optimization/SKILL.md) | `frontend` | `ui-ux` | `bazel_build_optimiza` | `advanced` | `stable` | Use this skill to optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases. |
 | [blog-writing-guide](skills/frontend/ui-ux/blog_writing_guide/blog-writing-guide/SKILL.md) | `frontend` | `ui-ux` | `blog_writing_guide` | `advanced` | `stable` | Use this skill to this skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement. |
 | [brand-guidelines-anthropic](skills/frontend/ui-ux/brand_guidelines_ant/brand-guidelines-anthropic/SKILL.md) | `frontend` | `ui-ux` | `brand_guidelines_ant` | `advanced` | `stable` | Use this skill to to access Anthropic's official brand identity and style resources, use this skill. |
+| [browser-extension-builder](skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) | `frontend` | `ui-ux` | `browser_extension_bu` | `advanced` | `stable` | Use this skill to expert in building browser extensions that solve real problems - |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |

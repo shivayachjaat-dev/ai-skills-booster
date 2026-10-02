@@ -7671,6 +7671,28 @@
     "maturity": "stable"
   },
   {
+    "name": "browser-extension-builder",
+    "path": "skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "browser_extension_bu",
+    "description": "Use this skill to expert in building browser extensions that solve real problems -",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "browser",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Browser Extension Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

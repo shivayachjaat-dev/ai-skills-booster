@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **22 skills** available in this category.
+> **23 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -26,3 +26,4 @@
 | [bazel-build-optimization](../../skills/frontend/ui-ux/bazel_build_optimiza/bazel-build-optimization/SKILL.md) | `bazel_build_optimiza` | `advanced` | `stable` | Use this skill to optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases. |
 | [blog-writing-guide](../../skills/frontend/ui-ux/blog_writing_guide/blog-writing-guide/SKILL.md) | `blog_writing_guide` | `advanced` | `stable` | Use this skill to this skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement. |
 | [brand-guidelines-anthropic](../../skills/frontend/ui-ux/brand_guidelines_ant/brand-guidelines-anthropic/SKILL.md) | `brand_guidelines_ant` | `advanced` | `stable` | Use this skill to to access Anthropic's official brand identity and style resources, use this skill. |
+| [browser-extension-builder](../../skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) | `browser_extension_bu` | `advanced` | `stable` | Use this skill to expert in building browser extensions that solve real problems - |

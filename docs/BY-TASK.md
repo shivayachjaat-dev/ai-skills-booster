@@ -2,7 +2,7 @@
 
 Find the exact agent skill according to what task you need completed.
 
-## Build & Create (193 skills)
+## Build & Create (194 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering/agents`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — `ai-engineering/agents`: Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -153,6 +153,7 @@ Find the exact agent skill according to what task you need completed.
 - [backtesting-frameworks](../skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks/SKILL.md) — `frontend/ui-ux`: Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.
 - [bats-testing-patterns](../skills/frontend/ui-ux/bats_testing_pattern/bats-testing-patterns/SKILL.md) — `frontend/ui-ux`: Use this skill to master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities.
 - [bazel-build-optimization](../skills/frontend/ui-ux/bazel_build_optimiza/bazel-build-optimization/SKILL.md) — `frontend/ui-ux`: Use this skill to optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.
+- [browser-extension-builder](../skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) — `frontend/ui-ux`: Use this skill to expert in building browser extensions that solve real problems -
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — `frontend/web-architecture`: Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — `frontend/web-architecture`: Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [brand-growth-system-builder](../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) — `frontend/web-architecture`: Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows.
