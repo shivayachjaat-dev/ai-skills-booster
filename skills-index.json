@@ -6271,6 +6271,28 @@
     "maturity": "stable"
   },
   {
+    "name": "database-optimizer",
+    "path": "skills/backend/databases/database_optimizer/database-optimizer",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "database_optimizer",
+    "description": "Use this skill to expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.",
+    "tags": [
+      "backend",
+      "databases",
+      "database",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Database Optimizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

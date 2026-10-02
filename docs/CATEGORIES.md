@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **678** skills across structured domains, categories, and subcategories.
+Master navigation for **679** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (242 skills)
 
@@ -552,7 +552,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (56 skills)
+## Backend (57 skills)
 
 ### Api Design (5 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -622,7 +622,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (14 skills)
+### Databases (15 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -650,6 +650,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
 - **Database_Migrations_** (2):
   - [database-migrations-migration-observability](../skills/backend/databases/database_migrations_/database-migrations-migration-observability/SKILL.md) — Use this skill to migration monitoring, CDC, and observability infrastructure
   - [database-migrations-sql-migrations](../skills/backend/databases/database_migrations_/database-migrations-sql-migrations/SKILL.md) — Use this skill to sQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity and rollback plans.
+- **Database_Optimizer** (1):
+  - [database-optimizer](../skills/backend/databases/database_optimizer/database-optimizer/SKILL.md) — Use this skill to expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)
