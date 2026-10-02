@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **490** skills across structured domains, categories, and subcategories.
+Master navigation for **491** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (164 skills)
 
@@ -798,9 +798,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (64 skills)
+## Devops (65 skills)
 
-### Ci Cd (10 skills)
+### Ci Cd (11 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -821,6 +821,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [brendangregg-use-tsa](../skills/devops/ci-cd/brendangregg_use_tsa/brendangregg-use-tsa/SKILL.md) — Use this skill to methodical performance troubleshooting and root-cause analysis with Brendan Gregg's USE and TSA methods, plus evidence-backed RCA and postmortem reports.
 - **Cdn_Setup** (1):
   - [cdn-setup](../skills/devops/ci-cd/cdn_setup/cdn-setup/SKILL.md) — Use this skill to configure CDNs for content delivery. Set up CloudFront, Cloudflare, and
+- **Circleci** (1):
+  - [circleci](../skills/devops/ci-cd/circleci/circleci/SKILL.md) — Use this skill to configure CircleCI workflows and orbs for continuous integration and
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
