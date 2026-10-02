@@ -294,6 +294,7 @@ AI_Skills_Booster/
 │   │   ├── ethical_hacking_meth/ (1 skills)
 │   │   ├── event_sourcing_archi/ (1 skills)
 │   │   ├── event_staffing_order/ (1 skills)
+│   │   ├── events_activities/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)

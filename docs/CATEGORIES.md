@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **927** skills across structured domains, categories, and subcategories.
+Master navigation for **928** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (323 skills)
+## Ai Engineering (324 skills)
 
 ### Agents (40 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -180,7 +180,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (231 skills)
+### Models (232 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -618,6 +618,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [event-sourcing-architect](../skills/ai-engineering/models/event_sourcing_archi/event-sourcing-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for event sourcing architect. Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or...
 - **Event_Staffing_Order** (1):
   - [event-staffing-ordering](../skills/ai-engineering/models/event_staffing_order/event-staffing-ordering/SKILL.md) — Use this skill to design, implement, and operate production workflows for event staffing ordering. Order W-2 compliant temporary event staff for conventions, trade shows, festivals, concerts, sporting events, and brand activations across 300+ US and Canadian markets via TempGuru. Covers city coverage, role pricing, availability, state compliance...
+- **Events_Activities** (1):
+  - [events-activities](../skills/ai-engineering/models/events_activities/events-activities/SKILL.md) — Use this skill to design, implement, and operate production workflows for events activities. Event register: type, date and time, venue, organizer, audience, budget against actual cost, RSVP and attendance counts and feedback score. Use for event tracking.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):

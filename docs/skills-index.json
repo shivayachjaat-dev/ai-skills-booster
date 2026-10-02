@@ -6419,6 +6419,28 @@
     "maturity": "stable"
   },
   {
+    "name": "events-activities",
+    "path": "skills/ai-engineering/models/events_activities/events-activities",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "events_activities",
+    "description": "Use this skill to design, implement, and operate production workflows for events activities. Event register: type, date and time, venue, organizer, audience, budget against actual cost, RSVP and attendance counts and feedback score. Use for event tracking.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "events",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Events Activities",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
