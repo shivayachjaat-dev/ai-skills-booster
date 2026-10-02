@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1342 skills)
+## Bash (1343 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1693,6 +1693,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [it-manager-pro](../skills/data-analytics/data-pipelines/it_manager_pro/it-manager-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for it manager pro. Elite IT Management Advisor specializing in data-driven strategy, executive communication, and human-centric leadership for the 2026 digital era.
 - [lemmaly](../skills/data-analytics/data-pipelines/lemmaly/lemmaly/SKILL.md) — Use this skill to design, implement, and operate production workflows for lemmaly. Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.
 - [longbridge-fundamentals](../skills/data-analytics/data-pipelines/longbridge_fundament/longbridge-fundamentals/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge fundamentals. Financial statements, business segments, dividends, valuation multiples (PE/PB/PS), industry comparison, operating data, corporate actions, company and executive profiles, cross-stock comparison, and valuation ranking via Longbridge.
+- [ml-pipeline-workflow](../skills/data-analytics/data-pipelines/ml_pipeline_workflow/ml-pipeline-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for ml pipeline workflow. Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.
 - [chatexport-need-miner](../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) — Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
 - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
@@ -7656,6 +7657,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ml-engineer](../skills/frontend/ui-ux/ml_engineer/ml-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for ml engineer. Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring.
 
+## Ml Pipeline Workflow (1 skills)
+
+- [ml-pipeline-workflow](../skills/data-analytics/data-pipelines/ml_pipeline_workflow/ml-pipeline-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for ml pipeline workflow. Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.
+
 ## Mobile Games (1 skills)
 
 - [mobile-games](../skills/mobile/app-development/mobile_games/mobile-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for mobile games. Mobile game development principles. Touch input, battery, performance, app stores.
@@ -8056,7 +8061,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1445 skills)
+## Python (1446 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8722,6 +8727,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [it-manager-pro](../skills/data-analytics/data-pipelines/it_manager_pro/it-manager-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for it manager pro. Elite IT Management Advisor specializing in data-driven strategy, executive communication, and human-centric leadership for the 2026 digital era.
 - [lemmaly](../skills/data-analytics/data-pipelines/lemmaly/lemmaly/SKILL.md) — Use this skill to design, implement, and operate production workflows for lemmaly. Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.
 - [longbridge-fundamentals](../skills/data-analytics/data-pipelines/longbridge_fundament/longbridge-fundamentals/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge fundamentals. Financial statements, business segments, dividends, valuation multiples (PE/PB/PS), industry comparison, operating data, corporate actions, company and executive profiles, cross-stock comparison, and valuation ranking via Longbridge.
+- [ml-pipeline-workflow](../skills/data-analytics/data-pipelines/ml_pipeline_workflow/ml-pipeline-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for ml pipeline workflow. Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 - [airtable-api-data-sync-and-webhook-automation](../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) — Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.

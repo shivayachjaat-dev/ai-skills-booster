@@ -15092,6 +15092,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ml-pipeline-workflow",
+    "path": "skills/data-analytics/data-pipelines/ml_pipeline_workflow/ml-pipeline-workflow",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "ml_pipeline_workflow",
+    "description": "Use this skill to design, implement, and operate production workflows for ml pipeline workflow. Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "ml",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ml Pipeline Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

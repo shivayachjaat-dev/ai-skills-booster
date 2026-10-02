@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,524** skills across structured domains, categories, and subcategories.
+Master navigation for **1,525** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (528 skills)
 
@@ -1485,7 +1485,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (31 skills)
+## Data Analytics (32 skills)
 
 ### Analytics Engineering (1 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1499,7 +1499,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (20 skills)
+### Data Pipelines (21 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -1540,6 +1540,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [lemmaly](../skills/data-analytics/data-pipelines/lemmaly/lemmaly/SKILL.md) — Use this skill to design, implement, and operate production workflows for lemmaly. Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.
 - **Longbridge_Fundament** (1):
   - [longbridge-fundamentals](../skills/data-analytics/data-pipelines/longbridge_fundament/longbridge-fundamentals/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge fundamentals. Financial statements, business segments, dividends, valuation multiples (PE/PB/PS), industry comparison, operating data, corporate actions, company and executive profiles, cross-stock comparison, and valuation ranking via Longbridge.
+- **Ml_Pipeline_Workflow** (1):
+  - [ml-pipeline-workflow](../skills/data-analytics/data-pipelines/ml_pipeline_workflow/ml-pipeline-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for ml pipeline workflow. Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.
 - **Polars** (1):
   - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 

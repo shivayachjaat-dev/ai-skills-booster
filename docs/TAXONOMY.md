@@ -714,6 +714,7 @@ AI_Skills_Booster/
 │   │   ├── it_manager_pro/ (1 skills)
 │   │   ├── lemmaly/ (1 skills)
 │   │   ├── longbridge_fundament/ (1 skills)
+│   │   ├── ml_pipeline_workflow/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
