@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,167** skills across structured domains, categories, and subcategories.
+Master navigation for **1,168** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (399 skills)
 
@@ -1671,7 +1671,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (237 skills)
+## Frontend (238 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1801,7 +1801,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Full_Output_Enforcem** (1):
   - [full-output-enforcement](../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) — Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
 
-### Ui Ux (130 skills)
+### Ui Ux (131 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2056,6 +2056,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [hig-components-status](../skills/frontend/ui-ux/hig_components_statu/hig-components-status/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components status. Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings.
 - **Hig_Components_Syste** (1):
   - [hig-components-system](../skills/frontend/ui-ux/hig_components_syste/hig-components-system/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components system. Apple HIG guidance for system experience components: widgets, live activities, notifications, complications, home screen quick actions, top shelf, watch faces, app clips, and app shortcuts.
+- **Hig_Foundations** (1):
+  - [hig-foundations](../skills/frontend/ui-ux/hig_foundations/hig-foundations/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig foundations. Apple Human Interface Guidelines design foundations.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

@@ -18561,6 +18561,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-foundations",
+    "path": "skills/frontend/ui-ux/hig_foundations/hig-foundations",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hig_foundations",
+    "description": "Use this skill to design, implement, and operate production workflows for hig foundations. Apple Human Interface Guidelines design foundations.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Foundations",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
