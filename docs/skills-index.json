@@ -6454,6 +6454,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-keyvault-keys-ts",
+    "path": "skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-ts",
+    "domain": "security",
+    "category": "cryptography",
+    "subcategory": "azure_keyvault_keys_",
+    "description": "Use this skill to manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating keys.",
+    "tags": [
+      "security",
+      "cryptography",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Keyvault Keys Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "envelope-encryption-kms-pattern",
     "path": "skills/security/cryptography/envelope-encryption/envelope-encryption-kms-pattern",
     "domain": "security",
