@@ -24215,6 +24215,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monorepo-architect",
+    "path": "skills/frontend/ui-ux/monorepo_architect/monorepo-architect",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "monorepo_architect",
+    "description": "Use this skill to design, implement, and operate production workflows for monorepo architect. Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "monorepo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monorepo Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
