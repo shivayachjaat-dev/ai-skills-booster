@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1490 skills)
+## Bash (1491 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2139,6 +2139,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [odoo-purchase-workflow](../skills/frontend/ui-ux/odoo_purchase_workfl/odoo-purchase-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo purchase workflow. Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching.
 - [odoo-sales-crm-expert](../skills/frontend/ui-ux/odoo_sales_crm_exper/odoo-sales-crm-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo sales crm expert. Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting.
 - [odoo-xml-views-builder](../skills/frontend/ui-ux/odoo_xml_views_build/odoo-xml-views-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo xml views builder. Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax.
+- [on-call-handoff-patterns](../skills/frontend/ui-ux/on_call_handoff_patt/on-call-handoff-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for on call handoff patterns. Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -8519,6 +8520,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [omp-delegate](../skills/ai-engineering/agents/omp_delegate/omp-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for omp delegate. Delegate coding tasks to Oh My Pi (`omp`) only when the user explicitly
 
+## On Call Handoff Patterns (1 skills)
+
+- [on-call-handoff-patterns](../skills/frontend/ui-ux/on_call_handoff_patt/on-call-handoff-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for on call handoff patterns. Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
+
 ## Open Policy Agent (OPA) (1 skills)
 
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
@@ -8784,7 +8789,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1593 skills)
+## Python (1594 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9917,6 +9922,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [odoo-purchase-workflow](../skills/frontend/ui-ux/odoo_purchase_workfl/odoo-purchase-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo purchase workflow. Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching.
 - [odoo-sales-crm-expert](../skills/frontend/ui-ux/odoo_sales_crm_exper/odoo-sales-crm-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo sales crm expert. Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting.
 - [odoo-xml-views-builder](../skills/frontend/ui-ux/odoo_xml_views_build/odoo-xml-views-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo xml views builder. Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax.
+- [on-call-handoff-patterns](../skills/frontend/ui-ux/on_call_handoff_patt/on-call-handoff-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for on call handoff patterns. Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.

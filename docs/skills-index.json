@@ -26415,6 +26415,28 @@
     "maturity": "stable"
   },
   {
+    "name": "on-call-handoff-patterns",
+    "path": "skills/frontend/ui-ux/on_call_handoff_patt/on-call-handoff-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "on_call_handoff_patt",
+    "description": "Use this skill to design, implement, and operate production workflows for on call handoff patterns. Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "on",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "On Call Handoff Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

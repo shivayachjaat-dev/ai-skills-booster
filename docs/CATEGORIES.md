@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,672** skills across structured domains, categories, and subcategories.
+Master navigation for **1,673** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (575 skills)
 
@@ -2203,7 +2203,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (336 skills)
+## Frontend (337 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2369,7 +2369,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (201 skills)
+### Ui Ux (202 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2768,6 +2768,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [odoo-sales-crm-expert](../skills/frontend/ui-ux/odoo_sales_crm_exper/odoo-sales-crm-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo sales crm expert. Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting.
 - **Odoo_Xml_Views_Build** (1):
   - [odoo-xml-views-builder](../skills/frontend/ui-ux/odoo_xml_views_build/odoo-xml-views-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo xml views builder. Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax.
+- **On_Call_Handoff_Patt** (1):
+  - [on-call-handoff-patterns](../skills/frontend/ui-ux/on_call_handoff_patt/on-call-handoff-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for on call handoff patterns. Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
