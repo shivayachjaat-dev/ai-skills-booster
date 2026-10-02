@@ -12738,6 +12738,28 @@
     "maturity": "stable"
   },
   {
+    "name": "it-manager-pro",
+    "path": "skills/data-analytics/data-pipelines/it_manager_pro/it-manager-pro",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "it_manager_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for it manager pro. Elite IT Management Advisor specializing in data-driven strategy, executive communication, and human-centric leadership for the 2026 digital era.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "it",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "It Manager Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",
