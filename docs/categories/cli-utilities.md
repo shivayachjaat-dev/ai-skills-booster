@@ -1,6 +1,6 @@
 # Category Index: Cli Utilities
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [it-manager-hospital](../../skills/developer-tools/cli-utilities/it_manager_hospital/it-manager-hospital/SKILL.md) | `it_manager_hospital` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for it manager hospital. World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS/PEP ecosystems. |
 | [linkedin-cli](../../skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli/SKILL.md) | `linkedin_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator. |
 | [n8n-multi-instance](../../skills/developer-tools/cli-utilities/n8n_multi_instance/n8n-multi-instance/SKILL.md) | `n8n_multi_instance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n multi instance. Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes. |
+| [obsidian-cli](../../skills/developer-tools/cli-utilities/obsidian_cli/obsidian-cli/SKILL.md) | `obsidian_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for obsidian cli. Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line. |

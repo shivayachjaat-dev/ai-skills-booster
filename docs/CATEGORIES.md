@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,634** skills across structured domains, categories, and subcategories.
+Master navigation for **1,635** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (566 skills)
 
@@ -1789,7 +1789,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (42 skills)
+## Developer Tools (43 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1797,7 +1797,7 @@ Category index: [`docs/categories/cli.md`](categories/cli.md)
 - **Typer Architecture** (1):
   - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
 
-### Cli Utilities (10 skills)
+### Cli Utilities (11 skills)
 Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md)
 
 - **Ask_Copilot** (1):
@@ -1820,6 +1820,8 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
   - [linkedin-cli](../skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.
 - **N8N_Multi_Instance** (1):
   - [n8n-multi-instance](../skills/developer-tools/cli-utilities/n8n_multi_instance/n8n-multi-instance/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n multi instance. Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes.
+- **Obsidian_Cli** (1):
+  - [obsidian-cli](../skills/developer-tools/cli-utilities/obsidian_cli/obsidian-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for obsidian cli. Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line.
 
 ### Productivity (29 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)

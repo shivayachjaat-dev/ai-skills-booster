@@ -17263,6 +17263,28 @@
     "maturity": "stable"
   },
   {
+    "name": "obsidian-cli",
+    "path": "skills/developer-tools/cli-utilities/obsidian_cli/obsidian-cli",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "obsidian_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for obsidian cli. Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line.",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "obsidian",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Obsidian Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",
