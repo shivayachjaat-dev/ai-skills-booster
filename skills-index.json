@@ -25909,6 +25909,28 @@
     "maturity": "stable"
   },
   {
+    "name": "multi-platform-apps-multi-platform",
+    "path": "skills/frontend/web-architecture/multi_platform_apps_/multi-platform-apps-multi-platform",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "multi_platform_apps_",
+    "description": "Use this skill to design, implement, and operate production workflows for multi platform apps multi platform. Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "multi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Multi Platform Apps Multi Platform",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "neo-brutalism",
     "path": "skills/frontend/web-architecture/neo_brutalism/neo-brutalism",
     "domain": "frontend",
