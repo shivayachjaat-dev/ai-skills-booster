@@ -2502,6 +2502,35 @@
     "maturity": "stable"
   },
   {
+    "name": "arm-cortex-m-embedded-firmware-architecture",
+    "path": "skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture",
+    "domain": "embedded",
+    "category": "firmware",
+    "subcategory": "arm-cortex-m",
+    "description": "Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.",
+    "tags": [
+      "embedded",
+      "arm-cortex-m",
+      "firmware",
+      "freertos",
+      "cmsis",
+      "bare-metal",
+      "stm32",
+      "microcontrollers"
+    ],
+    "technologies": [
+      "ARM Cortex-M",
+      "C",
+      "C++",
+      "FreeRTOS",
+      "CMSIS",
+      "DMA",
+      "NVIC"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "threejs-3d-web-experience",
     "path": "skills/frontend/3d-graphics/threejs/threejs-3d-web-experience",
     "domain": "frontend",

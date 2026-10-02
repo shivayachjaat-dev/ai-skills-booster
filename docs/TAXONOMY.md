@@ -178,6 +178,9 @@ AI_Skills_Booster/
 │   │   └── istio/ (1 skills)
 │   └── sre/
 │   │   └── incident-remediation/ (1 skills)
+├── embedded/
+│   └── firmware/
+│   │   └── arm-cortex-m/ (1 skills)
 ├── frontend/
 │   ├── 3d-graphics/
 │   │   └── threejs/ (1 skills)

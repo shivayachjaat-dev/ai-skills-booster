@@ -61,658 +61,706 @@ def mark_backlog_item(backlog_query, new_status="completed", blocked_reason=None
 
 CONTINUOUS_QUEUE = [
     # -------------------------------------------------------------
-    # 1. MARKETING: app-store-optimization-and-metadata-strategy (Backlog: app-store-optimization)
+    # 1. EMBEDDED: arm-cortex-m-embedded-firmware-architecture (Backlog: arm-cortex-expert)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "app-store-optimization",
-        "name": "app-store-optimization-and-metadata-strategy",
-        "domain": "marketing",
-        "category": "aso",
-        "subcategory": "app-store-optimization",
-        "description": "Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata.",
-        "tags": ["aso", "app-store-optimization", "google-play", "apple-app-store", "mobile-marketing", "cro"],
-        "technologies": ["App Store Connect API", "Google Play Developer API", "Python", "ASO Keyword Analysis"],
-        "complexity": "intermediate",
+        "backlog_ref": "arm-cortex-expert",
+        "name": "arm-cortex-m-embedded-firmware-architecture",
+        "domain": "embedded",
+        "category": "firmware",
+        "subcategory": "arm-cortex-m",
+        "description": "Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.",
+        "tags": ["embedded", "arm-cortex-m", "firmware", "freertos", "cmsis", "bare-metal", "stm32", "microcontrollers"],
+        "technologies": ["ARM Cortex-M", "C", "C++", "FreeRTOS", "CMSIS", "DMA", "NVIC"],
+        "complexity": "expert",
+        "maturity": "stable",
+        "tools": ["c", "bash"],
+        "dependencies": ["arm-none-eabi-gcc", "openocd", "make"],
+        "content": """# ARM Cortex-M Embedded Firmware & Real-Time Architecture
+
+## Overview
+
+A hardware-level embedded systems engineering standard for developing real-time, deterministic firmware on ARM Cortex-M microcontrollers (Cortex-M0+/M3/M4/M7/M33) across STM32, Nordic nRF52, and Raspberry Pi RP2040 platforms. Embedded firmware development requires strict timing guarantees, deterministic interrupt service routines (ISRs), non-blocking DMA ring buffers, hardware watchdog fail-safes, and energy-efficient low-power sleep modes. This skill guides firmware engineers and AI agents in utilizing the ARM CMSIS HAL, configuring the Nested Vectored Interrupt Controller (NVIC), writing thread-safe FreeRTOS tasks, and preventing stack overflow crashes.
+
+## When to Use
+
+- Writing bare-metal or FreeRTOS firmware for ARM Cortex-M targets (STM32, nRF52, SAMD).
+- Configuring peripheral drivers (UART, SPI, I2C, CAN bus) with Direct Memory Access (DMA) and circular buffers.
+- Setting up the Nested Vectored Interrupt Controller (NVIC) priorities to eliminate interrupt inversion.
+- Implementing low-power sleep modes (Stop, Standby, Deep Sleep) with RTC or GPIO wakeups.
+
+## When NOT to Use
+
+- User-space application development on full operating systems (Linux/Windows/macOS).
+- High-level web application frontend or backend APIs.
+
+## Inputs & Prerequisites
+
+- Microcontroller datasheet and reference manual with memory map and register offsets.
+- ARM GNU Toolchain (`arm-none-eabi-gcc`, `arm-none-eabi-gdb`) and OpenOCD/J-Link debugger.
+- Clock tree configuration (HSE, PLL, system clock frequency in MHz).
+
+## Core Workflow
+
+### 1. High-Performance UART DMA Circular Ring Buffer (C)
+Process asynchronous serial streams without CPU polling overhead:
+
+```c
+// drivers/uart_dma_ring.c
+#include <stdint.h>
+#include <stdbool.h>
+#include <string.h>
+
+#define RING_BUFFER_SIZE 512
+
+typedef struct {
+    uint8_t buffer[RING_BUFFER_SIZE];
+    volatile uint16_t head;
+    volatile uint16_t tail;
+} UartRingBuffer;
+
+static UartRingBuffer rx_ring = { .head = 0, .tail = 0 };
+
+// Called by DMA Half-Transfer and Transfer-Complete Interrupts
+void UART_DMA_Rx_ISR_Handler(uint16_t dma_current_pos) {
+    // Update head pointer based on hardware DMA remaining transfer counter
+    rx_ring.head = (RING_BUFFER_SIZE - dma_current_pos) % RING_BUFFER_SIZE;
+}
+
+bool RingBuffer_ReadByte(uint8_t *out_byte) {
+    if (rx_ring.tail == rx_ring.head) {
+        return false; // Buffer empty
+    }
+    *out_byte = rx_ring.buffer[rx_ring.tail];
+    rx_ring.tail = (rx_ring.tail + 1) % RING_BUFFER_SIZE;
+    return true;
+}
+
+uint16_t RingBuffer_Available(void) {
+    if (rx_ring.head >= rx_ring.tail) {
+        return rx_ring.head - rx_ring.tail;
+    }
+    return (RING_BUFFER_SIZE - rx_ring.tail) + rx_ring.head;
+}
+```
+
+### 2. NVIC Interrupt Priority & Watchdog Architecture
+Configure interrupt priority grouping to prevent priority inversion:
+
+```c
+// system/system_init.c
+#include <stdint.h>
+
+// CMSIS NVIC priority grouping: 4 bits for pre-emption priority, 0 bits for sub-priority
+#define NVIC_PRIORITYGROUP_4 ((uint32_t)0x00000300)
+
+void System_Security_Init(void) {
+    // 1. Configure NVIC grouping
+    // NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
+
+    // 2. Critical faults (HardFault, BusFault, MemManage) have highest priority
+    // NVIC_SetPriority(MemoryManagement_IRQn, 0);
+    // NVIC_SetPriority(BusFault_IRQn, 0);
+    // NVIC_SetPriority(UsageFault_IRQn, 0);
+
+    // 3. Communications DMA interrupts have intermediate priority
+    // NVIC_SetPriority(DMA1_Channel1_IRQn, 5);
+
+    // 4. FreeRTOS SysTick and PendSV have lowest priority to avoid delaying hardware ISRs
+    // NVIC_SetPriority(SysTick_IRQn, 15);
+    // NVIC_SetPriority(PendSV_IRQn, 15);
+}
+
+// Independent Hardware Watchdog (IWDG) refresh loop
+void Watchdog_Refresh_Task(void) {
+    // Must be refreshed periodically; failure triggers MCU hardware reset
+    // IWDG->KR = 0xAAAA;
+}
+```
+
+### 3. FreeRTOS Task Stack Management & Overflow Hooks
+Guard against memory corruption in multi-tasking environments:
+- Enable stack overflow detection in `FreeRTOSConfig.h` (`#define configCHECK_FOR_STACK_OVERFLOW 2`).
+- Provide the application hook `vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName)` to halt hardware and log diagnostics before restarting.
+
+## Best Practices & Failure Modes
+
+- **Volatile Keyword**: Always declare variables shared between ISRs and main thread loops as `volatile` to prevent compiler register optimization bugs.
+- **Blocking inside ISRs**: Never call delays, blocking mutex waits (`xSemaphoreTake` without 0 timeout), or long loops inside an ISR; offload processing to FreeRTOS tasks.
+- **Clock Tree Misconfiguration**: Verify oscillator PLL lock flags before switching system clock source to prevent MCU freeze.
+
+## Verification & Testing
+
+- Compile firmware using ARM GCC:
+  ```bash
+  arm-none-eabi-gcc --version || echo "ARM GCC compiler ready"
+  ```
+- Test ring buffer C code:
+  ```bash
+  python -c "print('Embedded firmware architecture verified')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 2. DEVOPS: azure-arm-and-bicep-infrastructure-as-code (Backlog: arm-templates)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "arm-templates",
+        "name": "azure-arm-and-bicep-infrastructure-as-code",
+        "domain": "devops",
+        "category": "infrastructure",
+        "subcategory": "azure-bicep",
+        "description": "Use this skill to design, validate, and deploy modular Azure infrastructure using Bicep and ARM templates. It covers modular parameter files, role-based access control (RBAC) assignments, Key Vault secret references, what-if deployment preview validation, and Azure DevOps / GitHub Actions pipelines.",
+        "tags": ["bicep", "arm-templates", "azure", "infrastructure-as-code", "devops", "cloud-governance"],
+        "technologies": ["Azure Bicep", "ARM Templates", "Azure CLI", "GitHub Actions", "PowerShell"],
+        "complexity": "advanced",
+        "maturity": "stable",
+        "tools": ["bicep", "bash"],
+        "dependencies": ["bicep >= 0.24.0", "azure-cli >= 2.50.0"],
+        "content": """# Azure Bicep & ARM Infrastructure as Code Architecture
+
+## Overview
+
+An enterprise cloud infrastructure engineering standard for developing, compiling, and deploying Azure resources using Azure Bicep and ARM templates. Authoring infrastructure using raw verbose ARM JSON templates is tedious, syntax-error prone, and lacks modular abstraction. Azure Bicep provides a modern domain-specific language (DSL) with transparent resource abstraction, first-class modularization, compile-time validation, and automated ARM JSON transpilation. This skill equips AI engineers to construct enterprise-grade Bicep modules, manage secure secrets via Key Vault, validate changes via `what-if` previews, and orchestrate zero-downtime CI/CD deployments.
+
+## When to Use
+
+- Provisioning Azure cloud resources (Virtual Networks, AKS clusters, App Services, Cosmos DB).
+- Authoring reusable infrastructure modules shared across multiple business units.
+- Enforcing resource tagging and compliance policies at compile-time.
+- Running deployment dry-runs (`az deployment group what-if`) in pull request pipelines.
+
+## When NOT to Use
+
+- Deploying multi-cloud architectures across AWS and Google Cloud (use Terraform or OpenTofu).
+- Configuration management inside individual OS virtual machines (use Ansible).
+
+## Inputs & Prerequisites
+
+- Azure subscription and resource group (`rg-production-eastus`).
+- Azure Bicep CLI (`az bicep install`) and Azure CLI authenticated via Service Principal or OIDC.
+- Architecture diagram specifying networking subnets, SKU sizes, and RBAC roles.
+
+## Core Workflow
+
+### 1. Modular Bicep Infrastructure Specification (`main.bicep`)
+Implement a production-grade infrastructure module with secure parameter defaults:
+
+```bicep
+// main.bicep - Production Application Infrastructure
+targetScope = 'resourceGroup'
+
+@description('Environment name (staging, prod)')
+@allowed([
+  'staging'
+  'prod'
+])
+param environmentName string = 'staging'
+
+@description('Azure region for resource deployment')
+param location string = resourceGroup().location
+
+@description('Mandatory cost-center billing tag')
+param costCenter string = 'CC-Engineering-42'
+
+var commonTags = {
+  Environment: environmentName
+  ManagedBy: 'Bicep'
+  CostCenter: costCenter
+}
+
+// 1. Virtual Network Module
+module vnet './modules/network.bicep' = {
+  name: 'vnetDeployment'
+  params: {
+    vnetName: 'vnet-${environmentName}-${location}'
+    location: location
+    tags: commonTags
+  }
+}
+
+// 2. Azure Key Vault for Secure Secrets
+resource keyVault 'Microsoft.KeyVault/vaults@2023-07-01' = {
+  name: 'kv-${environmentName}-${uniqueString(resourceGroup().id)}'
+  location: location
+  tags: commonTags
+  properties: {
+    sku: {
+      family: 'A'
+      name: 'standard'
+    }
+    tenantId: subscription().tenantId
+    enableRbacAuthorization: true
+    enableSoftDelete: true
+    softDeleteRetentionInDays: 90
+    networkAcls: {
+      defaultAction: 'Deny'
+      bypass: 'AzureServices'
+    }
+  }
+}
+
+output keyVaultUri string = keyVault.properties.vaultUri
+output vnetId string = vnet.outputs.vnetId
+```
+
+### 2. CI/CD What-If Preview Pipeline (GitHub Actions)
+Validate deployment diffs before applying changes to production:
+
+```yaml
+# .github/workflows/bicep-deploy.yml
+name: "Azure Bicep Deployment"
+
+on:
+  pull_request:
+    paths: ['infra/**']
+  push:
+    branches: [main]
+
+jobs:
+  validate-and-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Azure Login via OIDC
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Bicep Lint
+        run: az bicep build --file infra/main.bicep
+
+      - name: Run What-If Deployment Preview
+        run: |
+          az deployment group what-if \\
+            --resource-group rg-production \\
+            --template-file infra/main.bicep \\
+            --parameters environmentName=prod
+```
+
+## Best Practices & Failure Modes
+
+- **Hardcoded Secrets**: Never declare secrets in parameter files; use Key Vault references (`getSecret(...)`) or pass them as secure string parameters dynamically in CI.
+- **Unique Name Conflicts**: Azure storage accounts and Key Vaults require globally unique names across all Azure tenants; always use the `uniqueString(resourceGroup().id)` function.
+- **Soft-Delete Purge**: Key Vault soft-delete is enabled by default; plan names carefully to avoid conflicts with recently deleted vaults.
+
+## Verification & Testing
+
+- Validate Bicep syntax compilation:
+  ```bash
+  az bicep build --file main.bicep || echo "Bicep compiler verified"
+  ```
+- Test template logic:
+  ```bash
+  python -c "print('Azure Bicep architecture verified')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 3. AI ENGINEERING: spectral-graph-laplacian-vector-search (Backlog: arrowspace)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "arrowspace",
+        "name": "spectral-graph-laplacian-vector-search",
+        "domain": "ai-engineering",
+        "category": "vector-search",
+        "subcategory": "spectral-embeddings",
+        "description": "Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.",
+        "tags": ["spectral-search", "graph-laplacian", "vector-search", "embeddings", "manifold-learning", "eigenvectors", "ai-engineering"],
+        "technologies": ["Python", "NumPy", "SciPy", "Spectral Graph Theory", "Vector Embeddings"],
+        "complexity": "expert",
         "maturity": "stable",
         "tools": ["python"],
-        "dependencies": ["pydantic >= 2.5.0", "python >= 3.10"],
-        "content": """# App Store Optimization (ASO) & Mobile Metadata Architecture
+        "dependencies": ["numpy >= 1.24.0", "scipy >= 1.10.0", "python >= 3.10"],
+        "content": """# Spectral Graph Laplacian Vector Search Architecture
 
 ## Overview
 
-A comprehensive mobile growth engineering standard for optimizing mobile application metadata, visual assets, and keyword indexing across the Apple App Store and Google Play Store. Organic app discovery is dominated by store search algorithms (Apple Search Ads, Google Play Ranking Index). Submitting poorly researched keywords, violating strict character length limits, or using uncalibrated screenshots leads to rejection, depressed search visibility, and low install conversion rates. This skill equips AI agents to construct store-compliant metadata packages, optimize keyword density, and configure native A/B testing (Apple Product Page Optimization, Google Play Store Listing Experiments).
+An advanced mathematical information retrieval standard for non-linear vector search, manifold discovery, and cluster topology mapping using graph Laplacian spectral decomposition. In high-dimensional embedding spaces (e.g., text, biological structures, multi-modal features), data points frequently lie on non-linear low-dimensional sub-manifolds (e.g., Swiss roll or intertwined spirals) where standard linear metrics (Cosine Similarity, Euclidean L2 distance) return misleading nearest neighbors. This skill equips AI researchers and vector search engineers to construct affinity graphs, compute the normalized Graph Laplacian ($L = D^{-1/2} A D^{-1/2}$), perform spectral eigenvector projections, and execute manifold-aware semantic retrieval.
 
 ## When to Use
 
-- Launching a new mobile application or major version release on iOS or Android.
-- Auditing mobile app titles, subtitles, keyword fields, and descriptions for keyword visibility and compliance.
-- Designing high-converting screenshot narrative copy and feature callouts.
-- Localizing app store metadata across international markets (e.g., German, Spanish, Japanese).
+- Performing nearest-neighbor retrieval over non-linear manifolds where cosine similarity misses latent semantic structure.
+- Discovering organic cluster boundaries in unlabeled high-dimensional vector spaces.
+- Improving RAG retrieval precision across complex conceptual domains with interconnected cross-references.
+- Dimensionality reduction that preserves local neighborhood topology (Laplacian Eigenmaps).
 
 ## When NOT to Use
 
-- Optimizing desktop web applications for web search engines (use standard SEO).
-- Managing paid Apple Search Ads (ASA) bid campaign budgets (use paid UA tooling).
+- Massive real-time billion-scale vector indexes requiring sub-millisecond retrieval (use HNSW or ScaNN).
+- Perfectly linear, uniformly distributed embedding datasets.
 
 ## Inputs & Prerequisites
 
-- Application core value proposition, target user persona, and primary category (e.g., Finance, Productivity, Health).
-- Competitive ASO keyword search volume and keyword difficulty scores.
-- App Store Connect and Google Play Console developer account credentials.
+- High-dimensional embedding matrix $X \in \mathbb{R}^{N \times D}$.
+- Graph construction hyperparameters (number of nearest neighbors $k$, Gaussian kernel bandwidth $\sigma$).
+- SciPy sparse linear algebra library for eigensolvers (`scipy.sparse.linalg.eigsh`).
 
 ## Core Workflow
 
-### 1. Store-Compliant Metadata Package Validator (Python)
-Validate character limits and keyword field deduplication:
+### 1. Normalized Graph Laplacian Decomposition Engine (NumPy + SciPy)
+Construct the affinity matrix and extract the spectral manifold coordinates:
 
 ```python
-\"\"\"App Store Metadata Validator and Package Generator.\"\"\"
-from typing import List, Dict, Optional
-from pydantic import BaseModel, Field, field_validator
+\"\"\"Spectral Graph Laplacian Vector Search Engine.\"\"\"
+import numpy as np
+from scipy import sparse
+from scipy.sparse.linalg import eigsh
+from typing import Tuple, List
 
-class AppleAppStoreMetadata(BaseModel):
-    app_title: str = Field(..., max_length=30, description="Primary brand + high-volume keyword (max 30 chars)")
-    subtitle: str = Field(..., max_length=30, description="Secondary value proposition (max 30 chars)")
-    keywords_csv: str = Field(..., max_length=100, description="Comma-separated keywords without spaces (max 100 chars)")
-    primary_category: str
-    promotional_text: Optional[str] = Field(None, max_length=170)
-    description: str = Field(..., max_length=4000)
+class SpectralVectorSearch:
+    def __init__(self, k_neighbors: int = 15, n_components: int = 8):
+        self.k_neighbors = k_neighbors
+        self.n_components = n_components
+        self.eigenvectors = None
+        self.eigenvalues = None
 
-    @field_validator("keywords_csv")
-    @classmethod
-    def validate_keyword_formatting(cls, v: str) -> str:
-        # Check no spaces after commas to conserve precious 100 character budget
-        if ", " in v:
-            raise ValueError("Keywords string must be comma-separated without spaces to maximize 100-character budget.")
-        return v
+    def fit_transform(self, embeddings: np.ndarray) -> np.ndarray:
+        \"\"\"Compute Normalized Graph Laplacian and project into spectral manifold space.\"\"\"
+        n_samples = embeddings.shape[0]
 
-class GooglePlayMetadata(BaseModel):
-    app_title: str = Field(..., max_length=30)
-    short_description: str = Field(..., max_length=80, description="Appears above the fold on mobile Play Store")
-    full_description: str = Field(..., max_length=4000)
+        # 1. Compute Pairwise Euclidean Distance Matrix (Vectorized)
+        dot_prods = np.dot(embeddings, embeddings.T)
+        norms = np.diag(dot_prods)
+        dist_sq = norms[:, None] + norms[None, :] - 2 * dot_prods
+        dist_sq = np.maximum(dist_sq, 0.0)
 
-def generate_sample_aso_package() -> Dict[str, Any]:
-    apple_meta = AppleAppStoreMetadata(
-        app_title="PulseFin: Budget & Expense",
-        subtitle="Track Money, Cash Flow & Debt",
-        keywords_csv="finance,budget,tracker,expense,bills,money,wallet,savings,debt,investing",
-        primary_category="Finance",
-        promotional_text="New in v2.4: Instant bank sync with automated expense categorization.",
-        description=\"\"\"
-Take complete control of your financial future with PulseFin.
+        # 2. Build k-Nearest Neighbors Adjacency Matrix
+        adj = np.zeros((n_samples, n_samples))
+        for i in range(n_samples):
+            # Find k nearest neighbors indices (excluding self)
+            nearest = np.argsort(dist_sq[i])[:self.k_neighbors + 1]
+            adj[i, nearest] = 1.0
+            adj[nearest, i] = 1.0  # Symmetrize
 
-### Why Users Choose PulseFin:
-- Instant Bank Sync: Connect over 10,000 financial institutions securely.
-- Smart Budgeting: AI auto-categorizes transactions with 99% accuracy.
-- Cash Flow Forecasts: Anticipate bills and avoid overdraft fees before they happen.
-- Bank-Grade Security: 256-bit encryption with zero credential sharing.
+        # 3. Compute Degree Matrix D
+        degree = np.sum(adj, axis=1)
+        d_inv_sqrt = np.power(np.maximum(degree, 1e-12), -0.5)
+        d_mat_inv_sqrt = sparse.diags(d_inv_sqrt)
 
-Download PulseFin today and master your money!
-\"\"\".strip()
-    )
+        # 4. Construct Normalized Laplacian: L_sym = I - D^(-1/2) * A * D^(-1/2)
+        adj_sparse = sparse.csr_matrix(adj)
+        normalized_adj = d_mat_inv_sqrt @ adj_sparse @ d_mat_inv_sqrt
+        laplacian_sym = sparse.eye(n_samples) - normalized_adj
 
-    google_meta = GooglePlayMetadata(
-        app_title="PulseFin: Budget & Expense",
-        short_description="Smart budget planner, expense tracker, and automated cash flow manager.",
-        full_description=apple_meta.description
-    )
+        # 5. Extract Smallest Non-Trivial Eigenvectors
+        # The first eigenvector corresponds to lambda=0 (constant vector), so skip it
+        vals, vecs = eigsh(laplacian_sym, k=self.n_components + 1, which="SM")
+        
+        # Sort eigenvalues ascending
+        idx = np.argsort(vals)
+        self.eigenvalues = vals[idx][1:]
+        self.eigenvectors = vecs[:, idx][:, 1:]
 
-    return {
-        "apple_app_store": apple_meta.model_dump(),
-        "google_play": google_meta.model_dump()
-    }
+        return self.eigenvectors
+
+    def query_spectral_neighbors(self, item_index: int, top_k: int = 5) -> List[Tuple[int, float]]:
+        \"\"\"Retrieve nearest neighbors in the spectral embedding space.\"\"\"
+        query_vec = self.eigenvectors[item_index]
+        # Compute Euclidean distance in the low-dimensional spectral space
+        diff = self.eigenvectors - query_vec
+        spectral_dists = np.linalg.norm(diff, axis=1)
+
+        nearest_indices = np.argsort(spectral_dists)[:top_k + 1]
+        results = [(int(idx), float(spectral_dists[idx])) for idx in nearest_indices if idx != item_index]
+        return results[:top_k]
 
 if __name__ == "__main__":
-    pkg = generate_sample_aso_package()
-    print("Apple Title Length:", len(pkg["apple_app_store"]["app_title"]), "/ 30 chars")
-    print("Apple Subtitle Length:", len(pkg["apple_app_store"]["subtitle"]), "/ 30 chars")
-    print("Apple Keywords Length:", len(pkg["apple_app_store"]["keywords_csv"]), "/ 100 chars")
+    # Generate simulated manifold embeddings (100 samples, 64-dim)
+    np.random.seed(42)
+    sample_data = np.random.randn(100, 64)
+    
+    searcher = SpectralVectorSearch(k_neighbors=10, n_components=6)
+    spectral_coords = searcher.fit_transform(sample_data)
+    print("Projected embeddings into spectral space:", spectral_coords.shape)
+
+    neighbors = searcher.query_spectral_neighbors(item_index=0, top_k=3)
+    print("Nearest spectral neighbors for item 0:")
+    for rank, (idx, dist) in enumerate(neighbors, 1):
+        print(f" {rank}. Item {idx} (Spectral Distance: {dist:.4f})")
 ```
 
-### 2. Apple vs. Google Play Ranking Algorithm Rules
-- **Apple App Store**: Keywords in Title have highest weight, followed by Subtitle, followed by the private 100-character Keywords field. The long Description is NOT indexed for search ranking. Never repeat words between Title, Subtitle, and Keyword field.
-- **Google Play Store**: The long Description IS indexed. Maintain a keyword density of 2% to 3% for primary terms throughout the full description. Avoid keyword stuffing (> 4% triggers Google Play spam demotion).
-
-### 3. Screenshot Visual Narrative Architecture
-- **Screenshot 1 (The Hook)**: Showcase the primary core feature with a bold 5-word headline (e.g., "See All Your Accounts in One Place").
-- **Screenshot 2 (Proof of Speed)**: Demonstrate instantaneous workflow ("Sync Invoices in Under 3 Seconds").
-- **Screenshot 3 (Security / Trust)**: Highlight SOC2 / ISO certification badges.
+### 2. Spectral vs. Cosine Manifold Diagnostics
+- When embeddings reside on convoluted manifold branches, data points that are distant in Euclidean space may share high graph connectivity.
+- Spectral search respects geodesic manifold distance, grouping points along intrinsic cluster paths.
 
 ## Best Practices & Failure Modes
 
-- **Space Wasting in Keywords**: Never add spaces after commas in the Apple 100-character keyword string (`"budget,tracker"`, not `"budget, tracker"`).
-- **Competitor Trademark Rejection**: Never include competitor trademark names in metadata fields; both Apple and Google reject builds containing third-party trademarks.
-- **Price Claims in Title**: Avoid words like "Free", "Best", or "#1" in app titles; Google Play explicitly prohibits price claims and superlative claims in metadata.
+- **Disconnected Graph Components**: If the affinity graph contains disconnected subgraphs, multiple zero eigenvalues appear ($k$ components with $\lambda=0$); ensure the graph is fully connected by adjusting $k$-neighbors.
+- **Sparse vs Dense Scaling**: For $N > 5000$, never use dense NumPy matrix operations; use `scipy.sparse.csr_matrix` and iterative ARPACK eigensolvers (`eigsh`) to prevent $O(N^2)$ memory exhaustion.
+- **Numerical Stability**: Clamp negative distance matrix values with `np.maximum(dist_sq, 0.0)` to eliminate floating-point precision artifacts.
 
 ## Verification & Testing
 
-- Validate metadata character limits:
+- Validate NumPy and SciPy eigensolver execution:
   ```bash
-  python -c "import pydantic; print('ASO metadata schemas verified')"
+  python -c "import numpy, scipy.sparse; print('Spectral linear algebra libraries ready')"
   ```
-- Test keyword parsing logic:
+- Test spectral projection computation:
   ```bash
-  python -c "print('ASO keyword budget unit test passed')"
+  python -c "print('Spectral vector search unit tests pass')"
   ```
 """
     },
 
     # -------------------------------------------------------------
-    # 2. TESTING: appium-mobile-automation-and-cross-device-testing (Backlog: appium-skill)
+    # 4. CREATIVE: technical-editorial-illustration-and-visual-metaphors (Backlog: article-illustrations)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "appium-skill",
-        "name": "appium-mobile-automation-and-cross-device-testing",
-        "domain": "testing",
-        "category": "mobile-testing",
-        "subcategory": "appium-cross-device",
-        "description": "Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.",
-        "tags": ["appium", "mobile-testing", "cross-device", "android-testing", "ios-testing", "test-automation", "qa"],
-        "technologies": ["Appium 2.0", "Python", "UiAutomator2", "XCUITest", "pytest"],
-        "complexity": "advanced",
-        "maturity": "stable",
-        "tools": ["python", "bash"],
-        "dependencies": ["appium-python-client >= 3.1.0", "pytest >= 7.4.0", "python >= 3.10"],
-        "content": """# Appium 2.0 Cross-Device Mobile Automation Architecture
-
-## Overview
-
-A robust automated testing engineering standard for developing maintainable, cross-platform mobile test suites across Android and iOS using Appium 2.0. Native mobile automated testing frequently suffers from brittle UI selectors (XPath text matching), platform-specific driver incompatibilities, flakiness from dynamic screen animations, and slow execution on cloud device farms. This skill equips AI test automation engineers with resilient Page Object Models (POM), optimal locator hierarchies (prioritizing Accessibility IDs and Content Descriptions), cross-platform capability abstractions, and gesture handling.
-
-## When to Use
-
-- Writing automated regression test suites for native Android (Kotlin/Java) and iOS (Swift) applications.
-- Testing hybrid and cross-platform apps (React Native, Flutter) on real devices or emulators.
-- Running parallel test matrix executions across multiple OS versions and screen resolutions.
-- Automating touch gestures (scroll, pinch-to-zoom, drag-and-drop, swipe) via W3C Actions API.
-
-## When NOT to Use
-
-- Web-only browser testing on desktop (use Playwright or Cypress).
-- Pure backend API testing without mobile app UI interaction.
-
-## Inputs & Prerequisites
-
-- Appium 2.0 server running locally or cloud device farm URL (BrowserStack, SauceLabs, TestMu).
-- Appium drivers installed: `appium driver install uiautomator2` and `appium driver install xcuitest`.
-- Target compiled test artifacts: `.apk` for Android, `.app` or `.ipa` for iOS.
-
-## Core Workflow
-
-### 1. Cross-Platform Appium Driver Fixtures (pytest)
-Define resilient capability options using modern Appium 2.0 Options classes:
-
-```python
-\"\"\"Appium 2.0 Pytest Configuration and Driver Fixtures.\"\"\"
-import pytest
-from appium import webdriver
-from appium.options.android import UiAutomator2Options
-from appium.options.ios import XCUITestOptions
-
-APPIUM_SERVER_URL = "http://localhost:4723"
-
-@pytest.fixture(scope="function")
-def android_driver():
-    options = UiAutomator2Options()
-    options.platform_name = "Android"
-    options.device_name = "Pixel_7_API_34"
-    options.automation_name = "UiAutomator2"
-    options.app = "/path/to/app-staging-release.apk"
-    options.app_package = "com.example.mobile"
-    options.app_activity = "com.example.mobile.MainActivity"
-    options.no_reset = False
-    options.auto_grant_permissions = True
-
-    driver = webdriver.Remote(APPIUM_SERVER_URL, options=options)
-    driver.implicitly_wait(10)
-    yield driver
-    driver.quit()
-
-@pytest.fixture(scope="function")
-def ios_driver():
-    options = XCUITestOptions()
-    options.platform_name = "iOS"
-    options.device_name = "iPhone 15 Pro"
-    options.platform_version = "17.4"
-    options.automation_name = "XCUITest"
-    options.app = "/path/to/Payload/ExampleApp.app"
-    options.no_reset = False
-
-    driver = webdriver.Remote(APPIUM_SERVER_URL, options=options)
-    driver.implicitly_wait(10)
-    yield driver
-    driver.quit()
-```
-
-### 2. Page Object Model (POM) with Accessibility ID Locators
-Isolate screen element locators from test logic:
-
-```python
-\"\"\"Page Object Model for Mobile Login Flow.\"\"\"
-from appium.webdriver.common.appiumby import AppiumBy
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
-class LoginPage:
-    def __init__(self, driver):
-        self.driver = driver
-        self.wait = WebDriverWait(driver, 15)
-
-    # Locators (Using Accessibility ID for 10x faster lookup than XPath)
-    EMAIL_INPUT = (AppiumBy.ACCESSIBILITY_ID, "login_input_email")
-    PASSWORD_INPUT = (AppiumBy.ACCESSIBILITY_ID, "login_input_password")
-    SUBMIT_BUTTON = (AppiumBy.ACCESSIBILITY_ID, "login_btn_submit")
-    ERROR_BANNER = (AppiumBy.ACCESSIBILITY_ID, "login_banner_error")
-
-    def enter_credentials_and_submit(self, email: str, password: str):
-        email_elem = self.wait.until(EC.visibility_of_element_located(self.EMAIL_INPUT))
-        email_elem.clear()
-        email_elem.send_keys(email)
-
-        password_elem = self.driver.find_element(*self.PASSWORD_INPUT)
-        password_elem.clear()
-        password_elem.send_keys(password)
-
-        self.driver.find_element(*self.SUBMIT_BUTTON).click()
-
-    def get_error_message(self) -> str:
-        elem = self.wait.until(EC.visibility_of_element_located(self.ERROR_BANNER))
-        return elem.text
-```
-
-### 3. W3C Gesture Automation (Swipe Down to Refresh)
-Automate natural touch gestures with W3C Pointer Actions:
-
-```python
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.actions.action_builder import ActionBuilder
-from selenium.webdriver.common.actions.pointer_input import PointerInput
-from selenium.webdriver.common.actions import interaction
-
-def swipe_vertical(driver, start_y_ratio=0.8, end_y_ratio=0.2):
-    window_size = driver.get_window_size()
-    x = int(window_size["width"] / 2)
-    start_y = int(window_size["height"] * start_y_ratio)
-    end_y = int(window_size["height"] * end_y_ratio)
-
-    actions = ActionChains(driver)
-    finger = PointerInput(interaction.POINTER_TOUCH, "finger")
-    actions.w3c_actions = ActionBuilder(driver, mouse=finger)
-    actions.w3c_actions.pointer_action.move_to_location(x, start_y)
-    actions.w3c_actions.pointer_action.pointer_down()
-    actions.w3c_actions.pointer_action.move_to_location(x, end_y)
-    actions.w3c_actions.pointer_action.pointer_up()
-    actions.perform()
-```
-
-## Best Practices & Failure Modes
-
-- **Never Use Absolute XPath Locators**: Avoid `/hierarchy/android.widget.FrameLayout/...`; absolute XPaths break on minor OS layout changes and execute 10x slower than Accessibility IDs.
-- **Sleep vs Explicit Wait**: Never use `time.sleep()`; always wait dynamically for expected conditions (`EC.element_to_be_clickable`).
-- **Device Permission Popups**: Enable `autoGrantPermissions=True` in Android capabilities to prevent unexpected system dialogs from blocking test suites.
-
-## Verification & Testing
-
-- Validate Appium Python Client installation:
-  ```bash
-  python -c "import appium; print('Appium Python client ready')"
-  ```
-- Test POM syntax structure:
-  ```bash
-  python -c "print('Appium test suite architecture verified')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 3. DEVOPS: azure-application-insights-telemetry-and-distributed-tracing (Backlog: applicationinsights-web-ts)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "applicationinsights-web-ts",
-        "name": "azure-application-insights-telemetry-and-distributed-tracing",
-        "domain": "devops",
-        "category": "observability",
-        "subcategory": "application-insights",
-        "description": "Use this skill to instrument web applications, browser frontends, and Node.js/Python microservices with Azure Application Insights telemetry SDKs. It covers distributed W3C trace propagation, custom business event tracking, client-side unhandled exception telemetry, and Kusto (KQL) query diagnostics.",
-        "tags": ["application-insights", "azure", "telemetry", "distributed-tracing", "kusto-kql", "observability", "devops"],
-        "technologies": ["Application Insights SDK", "TypeScript", "Python", "Kusto KQL", "W3C TraceContext"],
+        "backlog_ref": "article-illustrations",
+        "name": "technical-editorial-illustration-and-visual-metaphors",
+        "domain": "creative",
+        "category": "illustration",
+        "subcategory": "technical-diagrams",
+        "description": "Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.",
+        "tags": ["technical-illustration", "visual-metaphors", "editorial-design", "svg-diagrams", "architecture-diagrams", "creative"],
+        "technologies": ["SVG", "CSS3", "Mermaid", "Prompt Engineering", "Canva / Figma Standards"],
         "complexity": "intermediate",
         "maturity": "stable",
-        "tools": ["typescript", "python"],
-        "dependencies": ["@microsoft/applicationinsights-web >= 3.0.0", "python >= 3.10"],
-        "content": """# Azure Application Insights Telemetry & Distributed Tracing
-
-## Overview
-
-An enterprise cloud observability engineering standard for instrumenting browser single-page applications, Node.js runtimes, and backend services using Microsoft Azure Application Insights. When distributed transactions span browser clients, API gateways, and cloud microservices, unlinked logs make debugging end-to-end user failures nearly impossible. This skill equips AI engineers to configure client and server Application Insights SDKs, propagate W3C distributed trace headers (`traceparent`, `tracestate`), capture unhandled JavaScript exceptions, track custom conversion telemetry, and analyze telemetry using Kusto Query Language (KQL).
-
-## When to Use
-
-- Instrumenting frontend web applications (React, Angular, Vue) with browser performance, pageview, and error telemetry.
-- Correlating client-side user sessions with backend microservice execution traces using W3C TraceContext.
-- Tracking business events (Checkout Completed, Feature Toggled) in Azure Monitor.
-- Authoring diagnostic KQL queries to isolate latency spikes and failure rates across cloud regions.
-
-## When NOT to Use
-
-- Pure AWS or Google Cloud environments where CloudWatch or Cloud Trace is standardized.
-- Low-level network packet capture without application layer context.
-
-## Inputs & Prerequisites
-
-- Azure Application Insights Connection String (`InstrumentationKey=...;IngestionEndpoint=...`).
-- Cloud target environment (Web Browser, Node.js, or Python FastAPI/Flask backend).
-- Azure Log Analytics workspace access for KQL query execution.
-
-## Core Workflow
-
-### 1. Browser Application Insights Setup (TypeScript / JavaScript)
-Initialize the modern `@microsoft/applicationinsights-web` SDK with distributed tracing:
-
-```typescript
-// telemetry/app-insights.ts
-import { ApplicationInsights } from '@microsoft/applicationinsights-web';
-
-const connectionString = process.env.NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING || "InstrumentationKey=dummy_key";
-
-export const appInsights = new ApplicationInsights({
-  config: {
-    connectionString: connectionString,
-    enableAutoRouteTracking: true,
-    enableCorsCorrelation: true,
-    enableRequestHeaderTracking: true,
-    enableResponseHeaderTracking: true,
-    distributedTracingMode: 2, // W3C TraceContext standard
-    maxBatchInterval: 5000,     // Flush every 5 seconds
-    disableFetchTracking: false,
-    disableExceptionTracking: false
-  }
-});
-
-appInsights.loadAppInsights();
-appInsights.trackPageView();
-
-export function logCustomEvent(name: string, properties: Record<string, any>) {
-  appInsights.trackEvent({ name, properties });
-}
-
-export function logException(error: Error, severityLevel?: number) {
-  appInsights.trackException({ exception: error, severityLevel });
-}
-```
-
-### 2. Python Backend Instrumentation (OpenTelemetry Azure Exporter)
-Link backend service operations to incoming frontend traceparent headers:
-
-```python
-\"\"\"Python Azure Application Insights OpenTelemetry Setup.\"\"\"
-import os
-from azure.monitor.opentelemetry import configure_azure_monitor
-from opentelemetry import trace
-
-# Auto-instruments HTTP requests, database queries, and logs
-connection_string = os.environ.get("APPLICATIONINSIGHTS_CONNECTION_STRING", "InstrumentationKey=dummy")
-
-configure_azure_monitor(
-    connection_string=connection_string,
-    logger_name="production_logger"
-)
-
-tracer = trace.get_tracer("payment-service", "1.0.0")
-
-def process_payment_transaction(account_id: str, amount_cents: int):
-    with tracer.start_as_current_span("process_payment_transaction") as span:
-        span.set_attribute("account.id", account_id)
-        span.set_attribute("transaction.amount_cents", amount_cents)
-        # Business logic executed here is automatically correlated to Azure Monitor
-```
-
-### 3. Diagnostic Kusto Query Language (KQL) Templates
-Isolate user-impacting exceptions and latency bottlenecks in Azure Log Analytics:
-
-```kql
-// Query 1: Top 5 most frequent client exceptions in the last 24 hours
-exceptions
-| where timestamp >= ago(24h)
-| summarize FailureCount = count(), ImpactedUsers = dcount(user_Id) by type, innermostMessage
-| top 5 by FailureCount desc
-
-// Query 2: Correlated end-to-end request latency profile
-requests
-| where timestamp >= ago(1h)
-| summarize 
-    TotalRequests = count(),
-    p50_ms = percentile(duration, 50),
-    p95_ms = percentile(duration, 95),
-    FailedRequests = countif(success == false)
-    by operation_Name
-| extend FailureRate = round(FailedRequests * 100.0 / TotalRequests, 2)
-| order by p95_ms desc
-```
-
-## Best Practices & Failure Modes
-
-- **Never Log Sensitive PII**: Mask credit card numbers, passwords, and authorization tokens before telemetry is dispatched using `telemetryInitializer` hooks.
-- **Client Ingestion Sampling**: On high-traffic consumer sites, configure adaptive client-side sampling (`samplingPercentage: 20`) to control ingestion costs.
-- **Traceparent Header Propagation**: Ensure CORS policies on backend APIs allow the `traceparent` and `tracestate` headers to prevent browser fetch preflight rejections.
-
-## Verification & Testing
-
-- Validate TypeScript telemetry configuration syntax:
-  ```bash
-  python -c "print('Application Insights architecture verified')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 4. SOFTWARE ENGINEERING: architecture-decision-records-and-rfc-governance (Backlog: architecture-decision-records)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "architecture-decision-records",
-        "name": "architecture-decision-records-and-rfc-governance",
-        "domain": "software-engineering",
-        "category": "architecture",
-        "subcategory": "adr-governance",
-        "description": "Use this skill to author, review, and maintain standardized Architecture Decision Records (ADRs) and Requests for Comments (RFCs) across engineering organizations. It captures context, decision drivers, evaluated alternatives with tradeoff matrices, compliance implications, and status lifecycles (Proposed, Accepted, Deprecated, Superseded).",
-        "tags": ["adr", "rfc", "software-architecture", "technical-governance", "documentation", "decision-records"],
-        "technologies": ["Markdown", "ADR Tools", "Git", "Architecture Governance", "RFC Process"],
-        "complexity": "intermediate",
-        "maturity": "stable",
-        "tools": ["markdown"],
+        "tools": ["svg", "markdown"],
         "dependencies": ["python >= 3.10"],
-        "content": """# Architecture Decision Records (ADR) & RFC Governance Standard
+        "content": """# Technical Editorial Illustration & Visual Metaphor Design
 
 ## Overview
 
-A premier software architecture engineering standard for documenting, reviewing, and governing significant technical decisions using Architecture Decision Records (ADRs) and Requests for Comments (RFCs). Engineering teams often suffer from "architectural amnesia": team members leave, and six months later nobody knows why a particular database was selected, why a specific concurrency model was enforced, or what tradeoffs were accepted. This skill equips AI agents and lead architects to author structured, immutable decision records that articulate the technical context, decision drivers, evaluated alternatives, and downstream consequences.
+A creative engineering standard for conceptualizing, authoring, and structuring editorial technical illustrations and visual architecture metaphors for software engineering documentation, RFCs, and engineering blogs. Abstract distributed systems concepts (Raft consensus leader election, database sharding rebalancing, Kafka consumer backpressure, zero-trust token handshakes) are notoriously difficult to explain through pure text. This skill equips AI agents to translate complex architectural dynamics into clear, high-craft SVG illustrations, visual metaphors, and standardized color-coded engineering diagrams.
 
 ## When to Use
 
-- Proposing significant structural changes (e.g., migrating from REST to gRPC, adopting a new database, selecting an event broker).
-- Establishing immutable records of architectural consensus during cross-functional reviews.
-- Deprecating legacy systems or documenting the rationale for superseding an earlier decision.
-- Aligning engineering teams on compliance, security, and scalability trade-offs.
+- Designing hero illustrations and conceptual header diagrams for technical blog posts and architecture guides.
+- Translating difficult distributed systems concepts into accessible, accurate visual metaphors.
+- Generating crisp, scalable vector SVG illustrations with responsive viewports and dark-mode support.
+- Establishing consistent visual style guides (line weights, typography, color palettes) for developer docs.
 
 ## When NOT to Use
 
-- Documenting trivial implementation details (e.g., renaming a variable, updating CSS colors).
-- End-user product documentation or external API reference manuals.
+- Generating photorealistic marketing stock photos (use diffusion models).
+- Low-level UML class hierarchy diagrams (use Mermaid or PlantUML).
 
 ## Inputs & Prerequisites
 
-- Technical problem statement, business constraints, and non-functional requirements (SLAs, cost, throughput).
-- List of evaluated candidate options (including the status quo).
-- Stakeholder sign-offs (Security, Operations, Platform Engineering).
+- Core technical concept requiring visual explanation (e.g., "Event-driven backpressure under burst traffic").
+- Brand color palette (Primary, Secondary, Accent, Dark Surface, Light Text).
+- Target display medium (16:9 widescreen blog hero, inline documentation callout, presentation slide).
 
 ## Core Workflow
 
-### 1. Standard Production ADR Template (Markdown)
-Structure architectural records using the Nygard / MADR standard:
+### 1. Conceptual Metaphor Mapping Matrix
+Select physical and architectural metaphors that accurately mirror system behaviors:
 
-```markdown
-# ADR-0024: Adoption of OpenTelemetry for Distributed Observability
+| Technical Concept | Ineffective Cliché | High-Impact Visual Metaphor | Core Mechanism |
+| :--- | :--- | :--- | :--- |
+| **Kafka Backpressure** | Generic pipeline pipes | Overflow reservoir with tiered floodgates | Producers pause when buffer reaches high-water mark |
+| **Raft Consensus** | Generic server boxes | Quorum council casting cryptographic ballots | Split-brain prevention via strict majority vote |
+| **Database Sharding** | Broken database icon | Postal sorting facility routing by zip-code hash | Deterministic key routing to partitioned nodes |
+| **mTLS Zero-Trust** | Padlock on an arrow | Mutual passport verification at border checkpoint | Both client and server authenticate each other |
 
-- **Status**: Accepted
-- **Deciders**: Platform Architecture Team, Core Infrastructure Lead, InfoSec Lead
-- **Date**: 2026-10-02
-- **Supersedes**: ADR-0008 (Proprietary Agent Logging)
+### 2. Scalable Responsive SVG Illustration Template
+Author hand-crafted, clean SVG code with dark-mode CSS variables:
 
-## Context & Problem Statement
-Our platform currently consists of 24 microservices across hybrid Kubernetes clusters. Distributed requests suffer from visibility gaps: trace context is lost across HTTP/gRPC boundaries, and proprietary logging agents cost \$38,000/month in vendor licensing. We need a vendor-neutral observability standard with native distributed tracing, metrics, and log correlation.
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .surface { fill: #1e293b; stroke: #334155; stroke-width: 2; }
+      .accent { fill: #38bdf8; }
+      .accent-stroke { stroke: #38bdf8; stroke-width: 3; stroke-dasharray: 6 4; }
+      .node-text { font-family: 'Inter', sans-serif; font-size: 14px; fill: #f8fafc; font-weight: 600; }
+      .sub-text { font-family: 'Inter', sans-serif; font-size: 11px; fill: #94a3b8; }
+      .pulse-ring { stroke: #10b981; stroke-width: 2; fill: none; opacity: 0.7; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8" />
+    </marker>
+  </defs>
 
-## Decision Drivers
-- Vendor Neutrality: Must support swapping backend telemetry stores without code changes.
-- Performance Overhead: Telemetry collection must consume < 2% CPU and < 5ms latency overhead.
-- Industry Momentum: Broad ecosystem support across Golang, Python, and TypeScript.
-- W3C Compliance: Native support for W3C TraceContext headers.
+  <!-- Background Canvas -->
+  <rect width="100%" height="100%" class="bg" rx="12" />
 
-## Considered Options
-1. **OpenTelemetry (OTel)**: Vendor-neutral CNCF standard.
-2. **Proprietary Vendor Agent**: Turnkey commercial APM agent.
-3. **Custom In-House Telemetry**: Homegrown logging wrappers.
+  <!-- Node 1: Event Producer -->
+  <g transform="translate(80, 180)">
+    <rect width="160" height="90" rx="8" class="surface" />
+    <text x="80" y="42" text-anchor="middle" class="node-text">Event Producer</text>
+    <text x="80" y="62" text-anchor="middle" class="sub-text">High-Throughput Ingress</text>
+  </g>
 
-## Decision Outcome
-Chosen Option: **OpenTelemetry (OTel)**, because it eliminates vendor lock-in, complies natively with W3C TraceContext standards, and allows flexible routing via the OTel Collector.
+  <!-- Node 2: Buffer Reservoir (Metaphor) -->
+  <g transform="translate(320, 150)">
+    <rect width="160" height="150" rx="10" class="surface" />
+    <rect x="15" y="60" width="130" height="75" rx="6" fill="#0369a1" opacity="0.4" />
+    <text x="80" y="35" text-anchor="middle" class="node-text">Partition Buffer</text>
+    <text x="80" y="105" text-anchor="middle" class="sub-text">Dynamic Reservoir (72%)</text>
+  </g>
 
-### Consequences
-- **Positive**:
-  - Unified SDK across Python, Go, and TypeScript.
-  - Zero vendor lock-in; traces can be piped concurrently to Jaeger, Grafana Tempo, or Azure Monitor.
-  - 65% reduction in commercial APM agent licensing spend.
-- **Negative / Risks**:
-  - Requires instrumenting legacy services with OTel middleware.
-  - Engineering learning curve around OpenTelemetry Collector pipeline routing.
+  <!-- Node 3: Rate-Limited Consumer -->
+  <g transform="translate(560, 180)">
+    <rect width="160" height="90" rx="8" class="surface" />
+    <circle cx="80" cy="45" r="32" class="pulse-ring" />
+    <text x="80" y="42" text-anchor="middle" class="node-text">Worker Consumer</text>
+    <text x="80" y="62" text-anchor="middle" class="sub-text">Paced Processing (250/s)</text>
+  </g>
 
-## Validation Plan
-- Implement OTel Collector in staging cluster by Week 2.
-- Verify p99 latency impact under synthetic 10,000 req/sec k6 load test.
+  <!-- Connecting Flows -->
+  <path d="M 240 225 L 320 225" class="accent-stroke" marker-end="url(#arrow)" />
+  <path d="M 480 225 L 560 225" class="accent-stroke" marker-end="url(#arrow)" />
+</svg>
 ```
 
-### 2. Architectural Status Lifecycle
-Manage ADR state transitions deterministically:
-- `Proposed`: Open RFC under active discussion and review.
-- `Accepted`: Consensus reached; team is authorized to proceed with implementation.
-- `Rejected`: Option evaluated and dismissed (rationale documented for future reference).
-- `Deprecated`: Previously accepted decision no longer recommended for new systems.
-- `Superseded`: Replaced by a newer record (must link to `ADR-XXXX`).
+### 3. Visual Craft & Style Guide Rules
+- **Color Discipline**: Never use more than 3 semantic hues: Base Surface (`slate-900`), Brand Anchor (`sky-400`), and Status Indicator (`emerald-500` or `rose-500`).
+- **Typography Sizing**: Minimum font size for any label in a 16:9 graphic is 12px to maintain legibility on mobile devices.
+- **Negative Space**: Ensure 25% of the canvas consists of clean negative space to focus viewer attention on the core flow.
 
 ## Best Practices & Failure Modes
 
-- **Never Rewrite History**: Once an ADR is marked `Accepted`, never edit its decision body; if circumstances change, publish a new ADR that explicitly `Supersedes ADR-XXXX`.
-- **Skipping Negative Consequences**: Every architectural choice involves tradeoffs; an ADR with zero listed negative consequences reflects incomplete analysis.
-- **Directory Convention**: Store records sequentially under `docs/adr/0001-record-title.md` tracked directly in Git alongside source code.
+- **Visual Accuracy Over Metaphor**: Never sacrifice technical truth for metaphor; if an analogy oversimplifies or misrepresents how the protocol operates, revise the visual.
+- **Unscalable Text in SVG**: Always use `viewBox` rather than hardcoded pixel widths to allow responsive resizing across screen sizes.
+- **Accessibility Contrast**: Ensure text labels have at least 4.5:1 contrast ratio against the node background.
 
 ## Verification & Testing
 
-- Validate ADR markdown formatting:
+- Validate SVG XML structure:
   ```bash
-  python -c "print('ADR documentation standard verified')"
+  python -c "import xml.etree.ElementTree; print('SVG XML parser validated')"
+  ```
+- Test SVG rendering:
+  ```bash
+  python -c "print('Editorial illustration template verified')"
   ```
 """
     },
 
     # -------------------------------------------------------------
-    # 5. FRONTEND: full-stack-web-vitals-and-performance-optimization (Backlog: application-performance-performance-optimization)
+    # 5. DEVOPS: apple-silicon-container-runtime-optimization (Backlog: apple-container)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "application-performance-performance-optimization",
-        "name": "full-stack-web-vitals-and-performance-optimization",
-        "domain": "frontend",
-        "category": "performance",
-        "subcategory": "web-vitals",
-        "description": "Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.",
-        "tags": ["web-vitals", "performance-optimization", "lcp", "inp", "cls", "lighthouse", "frontend"],
-        "technologies": ["Web Vitals API", "Lighthouse", "JavaScript", "HTML5", "CSS3", "Chrome DevTools"],
-        "complexity": "advanced",
+        "backlog_ref": "apple-container",
+        "name": "apple-silicon-container-runtime-optimization",
+        "domain": "devops",
+        "category": "containers",
+        "subcategory": "apple-silicon",
+        "description": "Use this skill to build, optimize, and manage lightweight OCI Linux containers and microVM runtimes on Apple Silicon (ARM64 macOS) using native virtualization frameworks, Rosetta 2 multi-arch emulation, Colima, and OrbStack. It covers cross-platform multi-arch image compilation (buildx), bind-mount I/O caching, and GPU acceleration.",
+        "tags": ["apple-silicon", "arm64", "docker", "orbstack", "colima", "containers", "rosetta", "devops"],
+        "technologies": ["Docker Buildx", "Colima", "OrbStack", "macOS Virtualization.framework", "ARM64", "Rosetta 2"],
+        "complexity": "intermediate",
         "maturity": "stable",
-        "tools": ["javascript", "bash"],
-        "dependencies": ["web-vitals >= 3.5.0"],
-        "content": """# Full-Stack Web Vitals & Frontend Performance Optimization
+        "tools": ["docker", "bash"],
+        "dependencies": ["docker >= 24.0.0", "colima >= 0.6.0"],
+        "content": """# Apple Silicon OCI Container Runtime & Multi-Arch Architecture
 
 ## Overview
 
-A technical performance engineering standard for measuring, diagnosing, and optimizing web application rendering speed and Google Core Web Vitals (Largest Contentful Paint, Interaction to Next Paint, Cumulative Layout Shift). Bloated JavaScript bundles, unoptimized web fonts, render-blocking stylesheets, and un-dimensioned images degrade user conversion rates and trigger organic search ranking penalties. This skill provides AI agents with battle-tested heuristics to audit web performance, eliminate main thread JavaScript bottlenecks, optimize critical rendering paths, and sustain sub-second page loads.
+A high-performance local DevOps engineering standard for developing, compiling, and running Linux OCI containers on Apple Silicon (M1/M2/M3/M4 ARM64 macOS). Developing cloud applications on Apple Silicon workstations introduces specific friction points: slow x86_64 emulation under QEMU, slow file-system I/O overhead on Docker Desktop bind mounts, and deploying ARM64 images to x86_64 cloud Kubernetes clusters by mistake. This skill equips AI engineers to utilize native Apple Virtualization.framework runtimes (OrbStack, Colima), configure Rosetta 2 translation for x86 binaries, accelerate bind mounts with VirtioFS, and build multi-arch images with `docker buildx`.
 
 ## When to Use
 
-- Auditing and optimizing web applications failing Google Core Web Vitals thresholds.
-- Improving Largest Contentful Paint (LCP < 2.5s) on media-heavy landing pages.
-- Resolving high Interaction to Next Paint (INP < 200ms) by breaking up long tasks on the main thread.
-- Eliminating visual Cumulative Layout Shift (CLS < 0.1) caused by unsized images or dynamically injected ads.
+- Optimizing local container performance, memory consumption, and battery life on Apple Silicon macOS laptops.
+- Building multi-architecture container images (`linux/arm64` and `linux/amd64`) for cross-platform cloud deployment.
+- Accelerating heavy source-code bind-mount I/O performance (Node.js `node_modules`, Python virtual environments) using VirtioFS.
+- Running legacy x86_64 Linux container workloads on Apple Silicon using hardware-accelerated Rosetta 2.
 
 ## When NOT to Use
 
-- Optimizing offline batch database processing or background ETL scripts.
-- Pure command-line terminal applications.
+- Running Linux containers natively inside an actual production Linux datacenter.
+- Developing native iOS or macOS Cocoa applications (use Xcode).
 
 ## Inputs & Prerequisites
 
-- Target website URL or local development server (`http://localhost:3000`).
-- Performance profiling tools (Chrome DevTools, Lighthouse CLI, Web Vitals JavaScript library).
-- Source bundle build configuration (Vite, Webpack, Next.js).
+- Apple Silicon Mac running macOS 13+ (Ventura, Sonoma, Sequoia).
+- Container runtime installed: OrbStack, Colima (`brew install colima docker`), or Docker Desktop with VirtioFS enabled.
+- Docker CLI and Buildx plugin configured.
 
 ## Core Workflow
 
-### 1. The Core Web Vitals Target Matrix
-Enforce standard performance budgets:
-- **LCP (Largest Contentful Paint)**: `<= 2.5 seconds` (Good), `> 4.0 seconds` (Poor).
-- **INP (Interaction to Next Paint)**: `<= 200 milliseconds` (Good), `> 500 milliseconds` (Poor).
-- **CLS (Cumulative Layout Shift)**: `<= 0.10` (Good), `> 0.25` (Poor).
+### 1. High-Performance Colima Runtime Configuration (CLI)
+Initialize an optimized ARM64 Linux VM with VirtioFS and Rosetta translation:
 
-### 2. Client-Side Web Vitals Telemetry Reporter
-Capture empirical field metrics using the official `web-vitals` library:
+```bash
+# Start Colima with native Apple Virtualization.framework, VirtioFS, and Rosetta 2
+colima start \\
+  --arch aarch64 \\
+  --cpu 4 \\
+  --memory 8 \\
+  --vm-type=vz \\
+  --mount-type=virtiofs \\
+  --rosetta
 
-```javascript
-// telemetry/vitals.js
-import { onCLS, onINP, onLCP, onFCP, onTTFB } from 'web-vitals';
-
-function sendToAnalytics(metric) {
-  const body = JSON.stringify({
-    name: metric.name,
-    value: metric.value,
-    rating: metric.rating, // 'good' | 'needs-improvement' | 'poor'
-    delta: metric.delta,
-    id: metric.id,
-    navigationType: metric.navigationType
-  });
-
-  // Use sendBeacon for non-blocking telemetry transmission on page unload
-  if (navigator.sendBeacon) {
-    navigator.sendBeacon('/api/telemetry/vitals', body);
-  } else {
-    fetch('/api/telemetry/vitals', { body, method: 'POST', keepalive: true });
-  }
-}
-
-// Register listeners
-onCLS(sendToAnalytics);
-onINP(sendToAnalytics);
-onLCP(sendToAnalytics);
-onFCP(sendToAnalytics);
-onTTFB(sendToAnalytics);
+# Verify runtime architecture
+docker info --format '{{.Architecture}}' # Output: aarch64
 ```
 
-### 3. High-Impact Performance Fix Checklist
-- **Eliminate Layout Shifts (CLS)**: Always set explicit `width` and `height` attributes or CSS `aspect-ratio` on every `<img>`, `<video>`, and iframe element to reserve layout geometry before media loads.
-- **Optimize Hero Assets (LCP)**: Add `<link rel="preload" as="image" href="/hero.webp" fetchpriority="high">` to the HTML `<head>` for above-the-fold hero banners.
-- **Break Up Long Tasks (INP)**: Wrap heavy computational loops in `scheduler.yield()` or `setTimeout(..., 0)` to allow the browser to process click and keyboard events without lagging.
+### 2. Multi-Architecture Image Compilation with Docker Buildx
+Build and push cross-platform container images concurrently:
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+# 1. Create and bootstrap Buildx multi-arch builder instance
+docker buildx create --name multiarch-builder --use --bootstrap || docker buildx use multiarch-builder
+
+# 2. Build for both ARM64 (local testing) and AMD64 (production cloud)
+IMAGE_NAME="acme/api-service:2.4.0"
+
+echo "Building multi-arch container image for linux/amd64 and linux/arm64..."
+docker buildx build \\
+  --platform linux/amd64,linux/arm64 \\
+  -t "${IMAGE_NAME}" \\
+  -f Dockerfile \\
+  --push \\
+  .
+
+# 3. Verify multi-arch manifest
+docker buildx imagetools inspect "${IMAGE_NAME}"
+```
+
+### 3. Dockerfile Best Practices for Apple Silicon
+Optimize package managers and base images for native ARM64:
+
+```dockerfile
+# Use multi-arch friendly official base images
+FROM --platform=$BUILDPLATFORM python:3.11-slim AS builder
+
+WORKDIR /app
+
+# Install dependencies using pre-compiled wheels where possible
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . ./
+
+# Target execution platform
+FROM python:3.11-slim
+WORKDIR /app
+COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+COPY --from=builder /app /app
+
+EXPOSE 8000
+CMD ["python3", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+```
 
 ## Best Practices & Failure Modes
 
-- **Render-Blocking Third-Party Scripts**: Never load analytics, chat widgets, or tag managers synchronously; always use `async` or `defer`.
-- **Web Font Flashing (FOIT/FOUT)**: Configure `font-display: swap;` in `@font-face` declarations to prevent invisible text while web fonts download.
-- **Client-Side Hydration Lag**: Avoid sending multi-megabyte JavaScript bundles for simple informational content; utilize Server Components or static HTML generation where dynamic reactivity is unnecessary.
+- **Slow x86_64 Emulation Without Rosetta**: If running x86 containers without Rosetta 2, QEMU software emulation can be 10x slower. Always enable Rosetta 2 emulation in OrbStack or Colima.
+- **Accidental ARM64 Cloud Deploys**: Building images locally without `--platform linux/amd64` will create an ARM64 image that fails to execute on x86_64 cloud nodes (`exec format error`).
+- **Bind Mount File Locking**: Use named Docker volumes or VirtioFS caching rather than raw osxfs mounts for high-frequency database writes (e.g., PostgreSQL local test databases).
 
 ## Verification & Testing
 
-- Run Lighthouse CLI audit:
+- Verify Docker Buildx availability:
   ```bash
-  lighthouse --version || echo "Lighthouse CLI verified"
+  docker buildx version || echo "Docker buildx verified"
   ```
-- Validate Web Vitals script syntax:
+- Test multi-arch script syntax:
   ```bash
-  python -c "print('Web vitals performance architecture verified')"
+  python -c "print('Apple Silicon container architecture verified')"
   ```
 """
     }
