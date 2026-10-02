@@ -12807,6 +12807,28 @@
     "maturity": "stable"
   },
   {
+    "name": "composition-patterns",
+    "path": "skills/software-engineering/architecture/patterns/composition-patterns",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to use when working with composition-patterns tasks or workflows",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "composition",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Composition Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
