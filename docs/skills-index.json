@@ -7759,6 +7759,28 @@
     "maturity": "stable"
   },
   {
+    "name": "building-native-ui",
+    "path": "skills/frontend/ui-ux/building_native_ui/building-native-ui",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "building_native_ui",
+    "description": "Use this skill to complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "building",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Building Native Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

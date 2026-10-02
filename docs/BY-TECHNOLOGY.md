@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (258 skills)
+## Bash (259 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1267,6 +1267,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [blog-writing-guide](../skills/frontend/ui-ux/blog_writing_guide/blog-writing-guide/SKILL.md) — Use this skill to this skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement.
 - [brand-guidelines-anthropic](../skills/frontend/ui-ux/brand_guidelines_ant/brand-guidelines-anthropic/SKILL.md) — Use this skill to to access Anthropic's official brand identity and style resources, use this skill.
 - [browser-extension-builder](../skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) — Use this skill to expert in building browser extensions that solve real problems -
+- [building-native-ui](../skills/frontend/ui-ux/building_native_ui/building-native-ui/SKILL.md) — Use this skill to complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
@@ -1561,6 +1562,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Bugs Are Annoying (1 skills)
 
 - [bugs-are-annoying](../skills/security/appsec/bugs_are_annoying/bugs-are-annoying/SKILL.md) — Use this skill to adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews.
+
+## Building Native Ui (1 skills)
+
+- [building-native-ui](../skills/frontend/ui-ux/building_native_ui/building-native-ui/SKILL.md) — Use this skill to complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.
 
 ## C (1 skills)
 
@@ -2787,7 +2792,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (361 skills)
+## Python (362 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3072,6 +3077,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [blog-writing-guide](../skills/frontend/ui-ux/blog_writing_guide/blog-writing-guide/SKILL.md) — Use this skill to this skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement.
 - [brand-guidelines-anthropic](../skills/frontend/ui-ux/brand_guidelines_ant/brand-guidelines-anthropic/SKILL.md) — Use this skill to to access Anthropic's official brand identity and style resources, use this skill.
 - [browser-extension-builder](../skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) — Use this skill to expert in building browser extensions that solve real problems -
+- [building-native-ui](../skills/frontend/ui-ux/building_native_ui/building-native-ui/SKILL.md) — Use this skill to complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
