@@ -20387,6 +20387,28 @@
     "maturity": "stable"
   },
   {
+    "name": "javascript-testing-patterns",
+    "path": "skills/frontend/ui-ux/javascript_testing_p/javascript-testing-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "javascript_testing_p",
+    "description": "Use this skill to design, implement, and operate production workflows for javascript testing patterns. Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "javascript",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Javascript Testing Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

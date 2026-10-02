@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,326** skills across structured domains, categories, and subcategories.
+Master navigation for **1,327** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (440 skills)
 
@@ -1805,7 +1805,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (257 skills)
+## Frontend (258 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1939,7 +1939,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Industrial_Brutalist** (1):
   - [industrial-brutalist-ui](../skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.
 
-### Ui Ux (144 skills)
+### Ui Ux (145 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2222,6 +2222,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [ios-developer](../skills/frontend/ui-ux/ios_developer/ios-developer/SKILL.md) — Use this skill to design, implement, and operate production workflows for ios developer. Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.
 - **Istio_Traffic_Manage** (1):
   - [istio-traffic-management](../skills/frontend/ui-ux/istio_traffic_manage/istio-traffic-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for istio traffic management. Comprehensive guide to Istio traffic management for production service mesh deployments.
+- **Javascript_Testing_P** (1):
+  - [javascript-testing-patterns](../skills/frontend/ui-ux/javascript_testing_p/javascript-testing-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript testing patterns. Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

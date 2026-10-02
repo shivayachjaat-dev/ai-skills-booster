@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,326 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,327 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -912,6 +912,7 @@
 | [invariant-guard](skills/frontend/ui-ux/invariant_guard/invariant-guard/SKILL.md) | `frontend` | `ui-ux` | `invariant_guard` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for invariant guard. Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps. |
 | [ios-developer](skills/frontend/ui-ux/ios_developer/ios-developer/SKILL.md) | `frontend` | `ui-ux` | `ios_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ios developer. Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization. |
 | [istio-traffic-management](skills/frontend/ui-ux/istio_traffic_manage/istio-traffic-management/SKILL.md) | `frontend` | `ui-ux` | `istio_traffic_manage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for istio traffic management. Comprehensive guide to Istio traffic management for production service mesh deployments. |
+| [javascript-testing-patterns](skills/frontend/ui-ux/javascript_testing_p/javascript-testing-patterns/SKILL.md) | `frontend` | `ui-ux` | `javascript_testing_p` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for javascript testing patterns. Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
