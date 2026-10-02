@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **112 skills** available in this category.
+> **113 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -115,4 +115,5 @@
 | [claude-api](../../skills/ai-engineering/models/claude_api/claude-api/SKILL.md) | `claude_api` | `advanced` | `stable` | Use this skill to build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-sci |
 | [clean-code-guard](../../skills/ai-engineering/models/clean_code_guard/clean-code-guard/SKILL.md) | `clean_code_guard` | `advanced` | `stable` | Use this skill to review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks. |
 | [clients-accounts](../../skills/ai-engineering/models/clients_accounts/clients-accounts/SKILL.md) | `clients_accounts` | `advanced` | `stable` | Use this skill to client and account register: contacts, billing address, tax ID and basis, payment terms, invoice totals, amounts paid and outstanding balance. Use for account tracking. |
+| [closed-loop-delivery](../../skills/ai-engineering/models/closed_loop_delivery/closed-loop-delivery/SKILL.md) | `closed_loop_delivery` | `advanced` | `stable` | Use this skill to use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

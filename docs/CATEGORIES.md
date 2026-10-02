@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **515** skills across structured domains, categories, and subcategories.
+Master navigation for **516** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (173 skills)
+## Ai Engineering (174 skills)
 
 ### Agents (22 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -128,7 +128,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (112 skills)
+### Models (113 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -344,6 +344,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [clean-code-guard](../skills/ai-engineering/models/clean_code_guard/clean-code-guard/SKILL.md) — Use this skill to review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks.
 - **Clients_Accounts** (1):
   - [clients-accounts](../skills/ai-engineering/models/clients_accounts/clients-accounts/SKILL.md) — Use this skill to client and account register: contacts, billing address, tax ID and basis, payment terms, invoice totals, amounts paid and outstanding balance. Use for account tracking.
+- **Closed_Loop_Delivery** (1):
+  - [closed-loop-delivery](../skills/ai-engineering/models/closed_loop_delivery/closed-loop-delivery/SKILL.md) — Use this skill to use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

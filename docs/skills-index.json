@@ -3405,6 +3405,28 @@
     "maturity": "stable"
   },
   {
+    "name": "closed-loop-delivery",
+    "path": "skills/ai-engineering/models/closed_loop_delivery/closed-loop-delivery",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "closed_loop_delivery",
+    "description": "Use this skill to use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "closed",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Closed Loop Delivery",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
