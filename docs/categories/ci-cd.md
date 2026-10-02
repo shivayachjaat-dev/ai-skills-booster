@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **19 skills** available in this category.
+> **20 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,4 +22,5 @@
 | [cron-doctor](../../skills/devops/ci-cd/cron_doctor/cron-doctor/SKILL.md) | `cron_doctor` | `advanced` | `stable` | Use this skill to diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29. |
 | [datadog](../../skills/devops/ci-cd/datadog/datadog/SKILL.md) | `datadog` | `advanced` | `stable` | Use this skill to implement Datadog monitoring and APM for infrastructure and applications. |
 | [debate-review](../../skills/devops/ci-cd/debate_review/debate-review/SKILL.md) | `debate_review` | `advanced` | `stable` | Use this skill to two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or |
+| [devops-deploy](../../skills/devops/ci-cd/devops_deploy/devops-deploy/SKILL.md) | `devops_deploy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devops deploy. DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento. |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |

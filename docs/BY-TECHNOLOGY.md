@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (646 skills)
+## Bash (647 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1413,6 +1413,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cron-doctor](../skills/devops/ci-cd/cron_doctor/cron-doctor/SKILL.md) — Use this skill to diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29.
 - [datadog](../skills/devops/ci-cd/datadog/datadog/SKILL.md) — Use this skill to implement Datadog monitoring and APM for infrastructure and applications.
 - [debate-review](../skills/devops/ci-cd/debate_review/debate-review/SKILL.md) — Use this skill to two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or
+- [devops-deploy](../skills/devops/ci-cd/devops_deploy/devops-deploy/SKILL.md) — Use this skill to design, implement, and operate production workflows for devops deploy. DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento.
 - [amazon-alexa](../skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) — Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
 - [aws-cost-cleanup](../skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) — Use this skill to automated cleanup of unused AWS resources to reduce costs
 - [aws-cost-optimizer](../skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) — Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer
@@ -3413,6 +3414,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [development](../skills/frontend/ui-development/development/development/SKILL.md) — Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.
 
+## Devops Deploy (1 skills)
+
+- [devops-deploy](../skills/devops/ci-cd/devops_deploy/devops-deploy/SKILL.md) — Use this skill to design, implement, and operate production workflows for devops deploy. DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento.
+
 ## Django (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -4599,7 +4604,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (749 skills)
+## Python (750 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5010,6 +5015,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cron-doctor](../skills/devops/ci-cd/cron_doctor/cron-doctor/SKILL.md) — Use this skill to diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29.
 - [datadog](../skills/devops/ci-cd/datadog/datadog/SKILL.md) — Use this skill to implement Datadog monitoring and APM for infrastructure and applications.
 - [debate-review](../skills/devops/ci-cd/debate_review/debate-review/SKILL.md) — Use this skill to two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or
+- [devops-deploy](../skills/devops/ci-cd/devops_deploy/devops-deploy/SKILL.md) — Use this skill to design, implement, and operate production workflows for devops deploy. DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento.
 - [amazon-alexa](../skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) — Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
 - [aws-cost-cleanup](../skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) — Use this skill to automated cleanup of unused AWS resources to reduce costs
 - [aws-cost-optimizer](../skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) — Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer
