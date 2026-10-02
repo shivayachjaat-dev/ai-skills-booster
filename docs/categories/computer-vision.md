@@ -1,6 +1,6 @@
 # Category Index: Computer Vision
 
-> **5 skills** available in this category.
+> **6 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -9,3 +9,4 @@
 | [color-blocking](../../skills/ai-engineering/computer-vision/color_blocking/color-blocking/SKILL.md) | `color_blocking` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for color blocking. Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids. |
 | [computer-vision-expert](../../skills/ai-engineering/computer-vision/computer_vision_expe/computer-vision-expert/SKILL.md) | `computer_vision_expe` | `advanced` | `stable` | Use this skill to sOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis. |
 | [spatial-computing-ui](../../skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui/SKILL.md) | `spatial_computing_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spatial computing ui. Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style. |
+| [spatial-design](../../skills/ai-engineering/computer-vision/spatial_design/spatial-design/SKILL.md) | `spatial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spatial design. Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics. |

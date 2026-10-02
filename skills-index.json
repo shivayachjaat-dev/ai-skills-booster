@@ -974,6 +974,28 @@
     "maturity": "stable"
   },
   {
+    "name": "spatial-design",
+    "path": "skills/ai-engineering/computer-vision/spatial_design/spatial-design",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "spatial_design",
+    "description": "Use this skill to design, implement, and operate production workflows for spatial design. Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics.",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "spatial",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Spatial Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "context-window-engineering",
     "path": "skills/ai-engineering/context/optimization/context-window-engineering",
     "domain": "ai-engineering",

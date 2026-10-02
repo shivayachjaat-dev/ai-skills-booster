@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **796** skills across structured domains, categories, and subcategories.
+Master navigation for **797** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (273 skills)
+## Ai Engineering (274 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -90,7 +90,7 @@ Category index: [`docs/categories/communication.md`](categories/communication.md
 - **Voice Telephony** (1):
   - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 
-### Computer Vision (5 skills)
+### Computer Vision (6 skills)
 Category index: [`docs/categories/computer-vision.md`](categories/computer-vision.md)
 
 - **Aws_Rds** (1):
@@ -103,6 +103,8 @@ Category index: [`docs/categories/computer-vision.md`](categories/computer-visio
   - [computer-vision-expert](../skills/ai-engineering/computer-vision/computer_vision_expe/computer-vision-expert/SKILL.md) — Use this skill to sOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis.
 - **Spatial_Computing_Ui** (1):
   - [spatial-computing-ui](../skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for spatial computing ui. Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style.
+- **Spatial_Design** (1):
+  - [spatial-design](../skills/ai-engineering/computer-vision/spatial_design/spatial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for spatial design. Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics.
 
 ### Context (1 skills)
 Category index: [`docs/categories/context.md`](categories/context.md)
