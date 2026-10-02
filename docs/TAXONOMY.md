@@ -128,6 +128,7 @@ AI_Skills_Booster/
 │   ├── vulnerability-scanning/
 │   │   └── trivy/ (1 skills)
 │   └── zero-trust/
+│   │   ├── mfa-webauthn/ (1 skills)
 │   │   └── spiffe-spire/ (1 skills)
 ├── software-engineering/
 │   ├── architecture/

@@ -1497,6 +1497,32 @@
     "maturity": "stable"
   },
   {
+    "name": "webauthn-fido2-passkey-authentication",
+    "path": "skills/security/zero-trust/mfa-webauthn/webauthn-fido2-passkey-authentication",
+    "domain": "security",
+    "category": "zero-trust",
+    "subcategory": "mfa-webauthn",
+    "description": "Use this skill when designing, implementing, and securing passwordless authentication and multi-factor authentication (MFA) using WebAuthn, FIDO2, and Passkeys. It covers registration and authentication ceremony state machines, cryptographic challenge verification, public key credential storage, authenticator attestation, and signature counter verification.",
+    "tags": [
+      "webauthn",
+      "fido2",
+      "passkeys",
+      "authentication",
+      "security",
+      "mfa",
+      "cryptography"
+    ],
+    "technologies": [
+      "WebAuthn",
+      "FIDO2",
+      "SimpleWebAuthn",
+      "TypeScript",
+      "Python py_webauthn"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "spiffe-spire-workload-identity",
     "path": "skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity",
     "domain": "security",
