@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,387** skills across structured domains, categories, and subcategories.
+Master navigation for **1,388** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (469 skills)
 
@@ -2984,9 +2984,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (171 skills)
+## Software Engineering (172 skills)
 
-### Architecture (164 skills)
+### Architecture (165 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -2995,7 +2995,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (161):
+- **Patterns** (162):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -3137,6 +3137,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [identity-mirror](../skills/software-engineering/architecture/patterns/identity-mirror/SKILL.md) — Use this skill to design, implement, and operate production workflows for identity mirror. One sentence - what this skill does and when to invoke it
   - [image-generator](../skills/software-engineering/architecture/patterns/image-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for image generator. Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editi...
   - [implement](../skills/software-engineering/architecture/patterns/implement/SKILL.md) — Use this skill to design, implement, and operate production workflows for implement. Implement a piece of work based on a PRD or set of issues.
+  - [impress](../skills/software-engineering/architecture/patterns/impress/SKILL.md) — Use this skill to design, implement, and operate production workflows for impress. Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.
   - [improve-codebase-architecture](../skills/software-engineering/architecture/patterns/improve-codebase-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for improve codebase architecture. Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
   - [incident-runbook-templates](../skills/software-engineering/architecture/patterns/incident-runbook-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident runbook templates. Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.
   - [incremental-implementation](../skills/software-engineering/architecture/patterns/incremental-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for incremental implementation. Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.

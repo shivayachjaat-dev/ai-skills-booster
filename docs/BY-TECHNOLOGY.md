@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1205 skills)
+## Bash (1206 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2245,6 +2245,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [identity-mirror](../skills/software-engineering/architecture/patterns/identity-mirror/SKILL.md) — Use this skill to design, implement, and operate production workflows for identity mirror. One sentence - what this skill does and when to invoke it
 - [image-generator](../skills/software-engineering/architecture/patterns/image-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for image generator. Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editi...
 - [implement](../skills/software-engineering/architecture/patterns/implement/SKILL.md) — Use this skill to design, implement, and operate production workflows for implement. Implement a piece of work based on a PRD or set of issues.
+- [impress](../skills/software-engineering/architecture/patterns/impress/SKILL.md) — Use this skill to design, implement, and operate production workflows for impress. Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.
 - [improve-codebase-architecture](../skills/software-engineering/architecture/patterns/improve-codebase-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for improve codebase architecture. Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
 - [incident-runbook-templates](../skills/software-engineering/architecture/patterns/incident-runbook-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident runbook templates. Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.
 - [incremental-implementation](../skills/software-engineering/architecture/patterns/incremental-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for incremental implementation. Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.
@@ -6258,6 +6259,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [implement](../skills/software-engineering/architecture/patterns/implement/SKILL.md) — Use this skill to design, implement, and operate production workflows for implement. Implement a piece of work based on a PRD or set of issues.
 
+## Impress (1 skills)
+
+- [impress](../skills/software-engineering/architecture/patterns/impress/SKILL.md) — Use this skill to design, implement, and operate production workflows for impress. Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.
+
 ## Improve Codebase Architecture (1 skills)
 
 - [improve-codebase-architecture](../skills/software-engineering/architecture/patterns/improve-codebase-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for improve codebase architecture. Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
@@ -7381,7 +7386,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1308 skills)
+## Python (1309 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8647,6 +8652,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [identity-mirror](../skills/software-engineering/architecture/patterns/identity-mirror/SKILL.md) — Use this skill to design, implement, and operate production workflows for identity mirror. One sentence - what this skill does and when to invoke it
 - [image-generator](../skills/software-engineering/architecture/patterns/image-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for image generator. Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editi...
 - [implement](../skills/software-engineering/architecture/patterns/implement/SKILL.md) — Use this skill to design, implement, and operate production workflows for implement. Implement a piece of work based on a PRD or set of issues.
+- [impress](../skills/software-engineering/architecture/patterns/impress/SKILL.md) — Use this skill to design, implement, and operate production workflows for impress. Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.
 - [improve-codebase-architecture](../skills/software-engineering/architecture/patterns/improve-codebase-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for improve codebase architecture. Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
 - [incident-runbook-templates](../skills/software-engineering/architecture/patterns/incident-runbook-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident runbook templates. Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.
 - [incremental-implementation](../skills/software-engineering/architecture/patterns/incremental-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for incremental implementation. Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.

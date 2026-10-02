@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **165 skills** available in this category.
+> **166 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -149,6 +149,7 @@
 | [identity-mirror](../../skills/software-engineering/architecture/patterns/identity-mirror/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for identity mirror. One sentence - what this skill does and when to invoke it |
 | [image-generator](../../skills/software-engineering/architecture/patterns/image-generator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for image generator. Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editi... |
 | [implement](../../skills/software-engineering/architecture/patterns/implement/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for implement. Implement a piece of work based on a PRD or set of issues. |
+| [impress](../../skills/software-engineering/architecture/patterns/impress/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for impress. Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress. |
 | [improve-codebase-architecture](../../skills/software-engineering/architecture/patterns/improve-codebase-architecture/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for improve codebase architecture. Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. |
 | [incident-runbook-templates](../../skills/software-engineering/architecture/patterns/incident-runbook-templates/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incident runbook templates. Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication. |
 | [incremental-implementation](../../skills/software-engineering/architecture/patterns/incremental-implementation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incremental implementation. Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step. |

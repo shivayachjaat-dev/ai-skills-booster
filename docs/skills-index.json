@@ -30055,6 +30055,28 @@
     "maturity": "stable"
   },
   {
+    "name": "impress",
+    "path": "skills/software-engineering/architecture/patterns/impress",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for impress. Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "impress",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Impress",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "improve-codebase-architecture",
     "path": "skills/software-engineering/architecture/patterns/improve-codebase-architecture",
     "domain": "software-engineering",
