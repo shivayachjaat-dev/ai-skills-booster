@@ -26085,6 +26085,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-project-timesheet",
+    "path": "skills/frontend/ui-ux/odoo_project_timeshe/odoo-project-timesheet",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_project_timeshe",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo project timesheet. Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Project Timesheet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
