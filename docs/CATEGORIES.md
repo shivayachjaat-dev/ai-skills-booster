@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,385** skills across structured domains, categories, and subcategories.
+Master navigation for **1,386** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (469 skills)
 
@@ -1355,7 +1355,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (29 skills)
+## Data Analytics (30 skills)
 
 ### Analytics Engineering (1 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1369,11 +1369,13 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (18 skills)
+### Data Pipelines (19 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
   - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
+- **Calc** (1):
+  - [calc](../skills/data-analytics/data-pipelines/calc/calc/SKILL.md) — Use this skill to design, implement, and operate production workflows for calc. Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.
 - **Data_Engineering_Dat** (1):
   - [data-engineering-data-pipeline](../skills/data-analytics/data-pipelines/data_engineering_dat/data-engineering-data-pipeline/SKILL.md) — Use this skill to you are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.
 - **Data_Scientist** (1):

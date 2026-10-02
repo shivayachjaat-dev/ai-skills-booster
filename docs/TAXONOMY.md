@@ -632,6 +632,7 @@ AI_Skills_Booster/
 │   │   └── operational-metrics/ (1 skills)
 │   ├── data-pipelines/
 │   │   ├── box_automation/ (1 skills)
+│   │   ├── calc/ (1 skills)
 │   │   ├── data_engineering_dat/ (1 skills)
 │   │   ├── data_scientist/ (1 skills)
 │   │   ├── data_storytelling/ (1 skills)

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,385 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,386 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -597,6 +597,7 @@
 | [google-analytics-automation](skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation/SKILL.md) | `data-analytics` | `analytics-engineering` | `google_analytics_aut` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas. |
 | [real-time-operational-metrics-dashboard](skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) | `data-analytics` | `dashboards` | `operational-metrics` | `intermediate` | `stable` | Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase. |
 | [box-automation](skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) | `data-analytics` | `data-pipelines` | `box_automation` | `advanced` | `stable` | Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit. |
+| [calc](skills/data-analytics/data-pipelines/calc/calc/SKILL.md) | `data-analytics` | `data-pipelines` | `calc` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for calc. Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc. |
 | [data-engineering-data-pipeline](skills/data-analytics/data-pipelines/data_engineering_dat/data-engineering-data-pipeline/SKILL.md) | `data-analytics` | `data-pipelines` | `data_engineering_dat` | `advanced` | `stable` | Use this skill to you are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing. |
 | [data-scientist](skills/data-analytics/data-pipelines/data_scientist/data-scientist/SKILL.md) | `data-analytics` | `data-pipelines` | `data_scientist` | `advanced` | `stable` | Use this skill to expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence. |
 | [data-storytelling](skills/data-analytics/data-pipelines/data_storytelling/data-storytelling/SKILL.md) | `data-analytics` | `data-pipelines` | `data_storytelling` | `advanced` | `stable` | Use this skill to transform raw data into compelling narratives that drive decisions and inspire action. |

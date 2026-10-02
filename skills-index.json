@@ -13244,6 +13244,28 @@
     "maturity": "stable"
   },
   {
+    "name": "calc",
+    "path": "skills/data-analytics/data-pipelines/calc/calc",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "calc",
+    "description": "Use this skill to design, implement, and operate production workflows for calc. Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "calc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Calc",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "data-engineering-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/data_engineering_dat/data-engineering-data-pipeline",
     "domain": "data-analytics",
