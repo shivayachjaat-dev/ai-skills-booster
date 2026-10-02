@@ -4190,5 +4190,31 @@
     ],
     "complexity": "advanced",
     "maturity": "stable"
+  },
+  {
+    "name": "appium-mobile-automation-and-cross-device-testing",
+    "path": "skills/testing/mobile-testing/appium-cross-device/appium-mobile-automation-and-cross-device-testing",
+    "domain": "testing",
+    "category": "mobile-testing",
+    "subcategory": "appium-cross-device",
+    "description": "Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.",
+    "tags": [
+      "appium",
+      "mobile-testing",
+      "cross-device",
+      "android-testing",
+      "ios-testing",
+      "test-automation",
+      "qa"
+    ],
+    "technologies": [
+      "Appium 2.0",
+      "Python",
+      "UiAutomator2",
+      "XCUITest",
+      "pytest"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
   }
 ]

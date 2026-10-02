@@ -313,6 +313,8 @@ AI_Skills_Booster/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/
 │   │   └── playwright/ (1 skills)
-│   └── load-testing/
+│   ├── load-testing/
 │   │   └── k6/ (1 skills)
+│   └── mobile-testing/
+│   │   └── appium-cross-device/ (1 skills)
 ```

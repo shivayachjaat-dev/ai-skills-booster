@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 166 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 167 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -170,3 +170,4 @@
 | [cypress-component-testing](skills/testing/component/cypress/cypress-component-testing/SKILL.md) | `testing` | `component` | `cypress` | `intermediate` | `stable` | Use this skill when authoring, running, and debugging isolated component tests using Cypress Component Testing for React, Vue, or Angular. It guides the agent through mounting components in real browser DOMs, asserting visual states, stubbing network requests via cy.intercept, simulating user events, and verifying CSS animations without firing up full backend environments. |
 | [playwright-e2e-testing](skills/testing/e2e/playwright/playwright-e2e-testing/SKILL.md) | `testing` | `e2e` | `playwright` | `advanced` | `stable` | Use this skill when authoring, debugging, and maintaining end-to-end (E2E) automated browser test suites using Playwright. It guides the agent through resilient locator strategies (user-facing role/text), page object models, network mocking, authenticated session caching, parallel execution, and flaky test elimination. |
 | [k6-api-load-testing](skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) | `testing` | `load-testing` | `k6` | `advanced` | `stable` | Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks. |
+| [appium-mobile-automation-and-cross-device-testing](skills/testing/mobile-testing/appium-cross-device/appium-mobile-automation-and-cross-device-testing/SKILL.md) | `testing` | `mobile-testing` | `appium-cross-device` | `advanced` | `stable` | Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution. |
