@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **20 skills** available in this category.
+> **21 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -24,3 +24,4 @@
 | [c-pro](../../skills/software-engineering/architecture/patterns/c-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to write efficient C code with proper memory management, pointer |
 | [c4-architecture-c4-architecture](../../skills/software-engineering/architecture/patterns/c4-architecture-c4-architecture/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach. |
 | [c4-code](../../skills/software-engineering/architecture/patterns/c4-code/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure. |
+| [c4-component](../../skills/software-engineering/architecture/patterns/c4-component/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships. |
