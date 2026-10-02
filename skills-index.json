@@ -10489,6 +10489,28 @@
     "maturity": "stable"
   },
   {
+    "name": "market-sizing-analysis",
+    "path": "skills/ai-engineering/models/market_sizing_analys/market-sizing-analysis",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "market_sizing_analys",
+    "description": "Use this skill to design, implement, and operate production workflows for market sizing analysis. Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "market",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Market Sizing Analysis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,474** skills across structured domains, categories, and subcategories.
+Master navigation for **1,475** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (514 skills)
+## Ai Engineering (515 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -262,7 +262,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Mac_Mini_Llm_Lab** (1):
   - [mac-mini-llm-lab](../skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) — Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access,
 
-### Models (373 skills)
+### Models (374 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -986,6 +986,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [mailtrap-testing-with-sandbox](../skills/ai-engineering/models/mailtrap_testing_wit/mailtrap-testing-with-sandbox/SKILL.md) — Use this skill to design, implement, and operate production workflows for mailtrap testing with sandbox. Capture outbound email in Mailtrap Email Sandbox for development, staging, CI, HTML inspection, spam checks, and fake inbox tests.
 - **Maintain_Codex_Wiki** (1):
   - [maintain-codex-wiki](../skills/ai-engineering/models/maintain_codex_wiki/maintain-codex-wiki/SKILL.md) — Use this skill to design, implement, and operate production workflows for maintain codex wiki. Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and deterministic checks.
+- **Market_Sizing_Analys** (1):
+  - [market-sizing-analysis](../skills/ai-engineering/models/market_sizing_analys/market-sizing-analysis/SKILL.md) — Use this skill to design, implement, and operate production workflows for market sizing analysis. Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

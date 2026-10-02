@@ -477,6 +477,7 @@ AI_Skills_Booster/
 │   │   ├── mailtrap_setting_up_/ (1 skills)
 │   │   ├── mailtrap_testing_wit/ (1 skills)
 │   │   ├── maintain_codex_wiki/ (1 skills)
+│   │   ├── market_sizing_analys/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
