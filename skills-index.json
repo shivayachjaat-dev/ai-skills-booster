@@ -7607,6 +7607,28 @@
     "maturity": "stable"
   },
   {
+    "name": "git-commit-message",
+    "path": "skills/ai-engineering/models/git_commit_message/git-commit-message",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "git_commit_message",
+    "description": "Use this skill to design, implement, and operate production workflows for git commit message. Generates conventional-commit messages from staged changes: type prefix + English imperative subject (\u226450 chars) + optional body explaining why. Use when the user asks to write, generate, or polish a git commit message.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "git",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Git Commit Message",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

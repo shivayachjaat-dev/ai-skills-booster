@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,086** skills across structured domains, categories, and subcategories.
+Master navigation for **1,087** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (378 skills)
+## Ai Engineering (379 skills)
 
 ### Agents (45 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -196,7 +196,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (274 skills)
+### Models (275 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -726,6 +726,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ghidra-reverse](../skills/ai-engineering/models/ghidra_reverse/ghidra-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for ghidra reverse. Free/open reverse engineering with Ghidra (headless or GUI): decompilation, cross-references, scripting, and optional Ghidra MCP workflows when IDA is unavailable.
 - **Git_Advanced_Workflo** (1):
   - [git-advanced-workflows](../skills/ai-engineering/models/git_advanced_workflo/git-advanced-workflows/SKILL.md) — Use this skill to design, implement, and operate production workflows for git advanced workflows. Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence.
+- **Git_Commit_Message** (1):
+  - [git-commit-message](../skills/ai-engineering/models/git_commit_message/git-commit-message/SKILL.md) — Use this skill to design, implement, and operate production workflows for git commit message. Generates conventional-commit messages from staged changes: type prefix + English imperative subject (≤50 chars) + optional body explaining why. Use when the user asks to write, generate, or polish a git commit message.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
