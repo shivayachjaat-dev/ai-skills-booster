@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,362** skills across structured domains, categories, and subcategories.
+Master navigation for **1,363** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (458 skills)
 
@@ -1851,7 +1851,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (263 skills)
+## Frontend (264 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1989,7 +1989,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Javascript_Typescrip** (1):
   - [javascript-typescript-typescript-scaffold](../skills/frontend/ui-development/javascript_typescrip/javascript-typescript-typescript-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript typescript typescript scaffold. You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N
 
-### Ui Ux (148 skills)
+### Ui Ux (149 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2280,6 +2280,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [json-schema-manual](../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) — Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract.
 - **K8S_Security_Policie** (1):
   - [k8s-security-policies](../skills/frontend/ui-ux/k8s_security_policie/k8s-security-policies/SKILL.md) — Use this skill to design, implement, and operate production workflows for k8s security policies. Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.
+- **Langgraph** (1):
+  - [langgraph](../skills/frontend/ui-ux/langgraph/langgraph/SKILL.md) — Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

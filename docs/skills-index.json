@@ -21025,6 +21025,28 @@
     "maturity": "stable"
   },
   {
+    "name": "langgraph",
+    "path": "skills/frontend/ui-ux/langgraph/langgraph",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "langgraph",
+    "description": "Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "langgraph",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Langgraph",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
