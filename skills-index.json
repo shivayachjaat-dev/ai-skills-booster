@@ -4334,6 +4334,28 @@
     "maturity": "stable"
   },
   {
+    "name": "box-automation",
+    "path": "skills/data-analytics/data-pipelines/box_automation/box-automation",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "box_automation",
+    "description": "Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "box",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Box Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

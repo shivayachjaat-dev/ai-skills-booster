@@ -226,6 +226,7 @@ AI_Skills_Booster/
 │   ├── dashboards/
 │   │   └── operational-metrics/ (1 skills)
 │   ├── data-pipelines/
+│   │   ├── box_automation/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
