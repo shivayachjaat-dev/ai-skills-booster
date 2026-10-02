@@ -24919,6 +24919,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-validation-expert",
+    "path": "skills/frontend/ui-ux/n8n_validation_exper/n8n-validation-expert",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "n8n_validation_exper",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n validation expert. Expert guide for interpreting and fixing n8n validation errors.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Validation Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

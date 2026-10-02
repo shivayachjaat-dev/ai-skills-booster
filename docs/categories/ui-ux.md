@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **181 skills** available in this category.
+> **182 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -182,6 +182,7 @@
 | [monte-carlo-monitor-creation](../../skills/frontend/ui-ux/monte_carlo_monitor_/monte-carlo-monitor-creation/SKILL.md) | `monte_carlo_monitor_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo monitor creation. Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment. |
 | [monte-carlo-push-ingestion](../../skills/frontend/ui-ux/monte_carlo_push_ing/monte-carlo-push-ingestion/SKILL.md) | `monte_carlo_push_ing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo push ingestion. Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse. |
 | [n8n-mcp-tools-expert](../../skills/frontend/ui-ux/n8n_mcp_tools_expert/n8n-mcp-tools-expert/SKILL.md) | `n8n_mcp_tools_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n mcp tools expert. Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns. |
+| [n8n-validation-expert](../../skills/frontend/ui-ux/n8n_validation_exper/n8n-validation-expert/SKILL.md) | `n8n_validation_exper` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n validation expert. Expert guide for interpreting and fixing n8n validation errors. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
