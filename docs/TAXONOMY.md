@@ -107,6 +107,9 @@ AI_Skills_Booster/
 │   │   └── meilisearch/ (1 skills)
 │   └── time-series/
 │   │   └── timescaledb/ (1 skills)
+├── developer-tools/
+│   └── repository-specs/
+│   │   └── agents-md/ (1 skills)
 ├── devops/
 │   ├── ci-cd/
 │   │   └── optimization/ (1 skills)

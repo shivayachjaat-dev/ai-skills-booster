@@ -376,8 +376,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
 
-## Git (9 skills)
+## Git (10 skills)
 
+- [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 - [github-actions-reusable-workflows-and-composite-actions](../skills/devops/continuous-integration/github-reusable-workflows/github-actions-reusable-workflows-and-composite-actions/SKILL.md) — Use this skill when designing, architecting, and standardizing enterprise CI/CD pipelines using GitHub Actions Reusable Workflows (workflow_call) and Composite Actions. It covers modular parameter passing, secret inheritance, matrix job fan-out, action packaging with action.yaml, and cross-repository pipeline governance.
 - [terraform-infrastructure-as-code](../skills/devops/iac/terraform/terraform-infrastructure-as-code/SKILL.md) — Use this skill when writing, refactoring, and maintaining Infrastructure as Code (IaC) using Terraform / OpenTofu. It guides the agent through remote state management with S3/DynamoDB locking, modular component design, variable validation rules, drift detection, resource tagging standards, and blast radius containment.
@@ -703,10 +704,11 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [elasticsearch-dsl-search-and-aggregations](../skills/databases/search/elasticsearch/elasticsearch-dsl-search-and-aggregations/SKILL.md) — Use this skill when architecting, indexing, and querying complex search and analytical systems using Elasticsearch 8+ and Elasticsearch-DSL. It guides the agent through explicit index mapping design (analyzers, keyword vs text fields), boolean compound queries (must, filter, should), multi-match cross-field queries, and multi-level nested aggregations.
 
-## Markdown (3 skills)
+## Markdown (4 skills)
 
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
+- [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 
 ## Markov Chains (1 skills)
@@ -896,6 +898,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [llm-lora-fine-tuning-pipeline](../skills/ai-engineering/fine-tuning/peft-lora/llm-lora-fine-tuning-pipeline/SKILL.md) — Use this skill when designing, training, and evaluating parameter-efficient fine-tuning (PEFT) pipelines for Large Language Models using LoRA and QLoRA. It guides the agent through 4-bit/8-bit quantization via bitsandbytes, LoRA hyperparameter configuration (rank r, alpha, target modules), dataset preparation and token masking, SFTTrainer orchestration, and adapter weight merging.
 
+## Package Managers (1 skills)
+
+- [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
+
 ## Pandas (3 skills)
 
 - [internal-financial-audit-and-controls](../skills/business/finance/audit-controls/internal-financial-audit-and-controls/SKILL.md) — Use this skill when designing, testing, and automating internal financial accounting controls, journal entry audit trails, and reconciliation workflows compliant with SOX 404, GAAP, and IFRS. It guides the agent through general ledger reconciliation, manual journal entry approval thresholds, segregation of duties in treasury, and anomaly detection.
@@ -999,7 +1005,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (60 skills)
+## Python (61 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
@@ -1039,6 +1045,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
 - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 - [elasticsearch-dsl-search-and-aggregations](../skills/databases/search/elasticsearch/elasticsearch-dsl-search-and-aggregations/SKILL.md) — Use this skill when architecting, indexing, and querying complex search and analytical systems using Elasticsearch 8+ and Elasticsearch-DSL. It guides the agent through explicit index mapping design (analyzers, keyword vs text fields), boolean compound queries (must, filter, should), multi-match cross-field queries, and multi-level nested aggregations.
+- [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.
 - [activecampaign-marketing-automation-and-webhook-sync](../skills/marketing/crm/activecampaign-automation/activecampaign-marketing-automation-and-webhook-sync/SKILL.md) — Use this skill to design, automate, and synchronize marketing automation workflows, contact lifecycle tagging, email drip sequences, and webhook event listeners with ActiveCampaign via its REST v3 API and event webhooks.
@@ -1188,6 +1195,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Rekor (1 skills)
 
 - [cosign-container-image-signing](../skills/security/supply-chain/cosign/cosign-container-image-signing/SKILL.md) — Use this skill when designing, implementing, and enforcing cryptographic container image signing and verification using Sigstore Cosign. It covers keyless signing via OIDC (GitHub Actions/GitLab CI), public/private keypair signing, SBOM attestation attachment, and enforcing Kubernetes admission policies with Kyverno or Gatekeeper.
+
+## Repo Auditing (1 skills)
+
+- [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 
 ## Resilience4j (1 skills)
 

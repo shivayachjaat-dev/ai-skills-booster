@@ -1454,6 +1454,31 @@
     "maturity": "stable"
   },
   {
+    "name": "agents-md-repository-context-specification",
+    "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
+    "domain": "developer-tools",
+    "category": "repository-specs",
+    "subcategory": "agents-md",
+    "description": "Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.",
+    "tags": [
+      "agents-md",
+      "claude-md",
+      "repository-guidelines",
+      "ai-context",
+      "developer-experience",
+      "documentation"
+    ],
+    "technologies": [
+      "Markdown",
+      "Python",
+      "Git",
+      "Package Managers",
+      "Repo Auditing"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
