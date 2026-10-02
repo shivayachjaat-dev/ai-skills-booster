@@ -740,7 +740,8 @@ AI_Skills_Booster/
 │   │   ├── linktree_link_hub/ (1 skills)
 │   │   ├── logo_image_design/ (1 skills)
 │   │   ├── notification_reminde/ (1 skills)
-│   │   └── notion_manual_import/ (1 skills)
+│   │   ├── notion_manual_import/ (1 skills)
+│   │   └── offboarding_exit/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/
