@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,511** skills across structured domains, categories, and subcategories.
+Master navigation for **1,512** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (525 skills)
 
@@ -2788,7 +2788,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (152 skills)
+## Security (153 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2818,7 +2818,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (86 skills)
+### Appsec (87 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -2990,6 +2990,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [mcp-server-security](../skills/security/appsec/mcp_server_security/mcp-server-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp server security. Secure Model Context Protocol (MCP) servers with transport encryption,
 - **Meme_Coin_Audit** (1):
   - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
+- **Metasploit_Framework** (1):
+  - [metasploit-framework](../skills/security/appsec/metasploit_framework/metasploit-framework/SKILL.md) — Use this skill to design, implement, and operate production workflows for metasploit framework. ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited.
 - **Security_Auditor** (1):
   - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 

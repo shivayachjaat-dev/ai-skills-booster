@@ -27788,6 +27788,28 @@
     "maturity": "stable"
   },
   {
+    "name": "metasploit-framework",
+    "path": "skills/security/appsec/metasploit_framework/metasploit-framework",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "metasploit_framework",
+    "description": "Use this skill to design, implement, and operate production workflows for metasploit framework. \u26a0\ufe0f AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited.",
+    "tags": [
+      "security",
+      "appsec",
+      "metasploit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Metasploit Framework",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
