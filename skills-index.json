@@ -7123,6 +7123,28 @@
     "maturity": "stable"
   },
   {
+    "name": "free-tier-strategy",
+    "path": "skills/ai-engineering/models/free_tier_strategy/free-tier-strategy",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "free_tier_strategy",
+    "description": "Use this skill to design, implement, and operate production workflows for free tier strategy. Design free tiers that convert to paid without creating resentment or abuse. Trigger phrases: free tier design, freemium model, free trial strategy, free tier limits, developer free plan, open source commercial, feature gating, upgrade triggers, free ti...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "free",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Free Tier Strategy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
