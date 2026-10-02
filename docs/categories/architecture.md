@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **149 skills** available in this category.
+> **150 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -151,5 +151,6 @@
 | [improve-codebase-architecture](../../skills/software-engineering/architecture/patterns/improve-codebase-architecture/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for improve codebase architecture. Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. |
 | [incident-runbook-templates](../../skills/software-engineering/architecture/patterns/incident-runbook-templates/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incident runbook templates. Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication. |
 | [incremental-implementation](../../skills/software-engineering/architecture/patterns/incremental-implementation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incremental implementation. Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step. |
+| [inngest](../../skills/software-engineering/architecture/patterns/inngest/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for inngest. Inngest expert for serverless-first background jobs, event-driven |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
