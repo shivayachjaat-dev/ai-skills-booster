@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,521 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,522 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -489,6 +489,7 @@
 | [mesh-memory](skills/ai-engineering/models/mesh_memory/mesh-memory/SKILL.md) | `ai-engineering` | `models` | `mesh_memory` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mesh memory. Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessions by meaning, not keyword. Postgres + pgvector with auto-tagging. |
 | [minimalist-ui](skills/ai-engineering/models/minimalist_ui/minimalist-ui/SKILL.md) | `ai-engineering` | `models` | `minimalist_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for minimalist ui. Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts. |
 | [mirrord](skills/ai-engineering/models/mirrord/mirrord/SKILL.md) | `ai-engineering` | `models` | `mirrord` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mirrord. Run a local process inside a live Kubernetes cluster's network, env and traffic with mirrord, so changes are tested against real services without deploying. |
+| [mise-configurator](skills/ai-engineering/models/mise_configurator/mise-configurator/SKILL.md) | `ai-engineering` | `models` | `mise_configurator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mise configurator. Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

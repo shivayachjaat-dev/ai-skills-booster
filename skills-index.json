@@ -10753,6 +10753,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mise-configurator",
+    "path": "skills/ai-engineering/models/mise_configurator/mise-configurator",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "mise_configurator",
+    "description": "Use this skill to design, implement, and operate production workflows for mise configurator. Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "mise",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mise Configurator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
