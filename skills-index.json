@@ -6901,6 +6901,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bazel-build-optimization",
+    "path": "skills/frontend/ui-ux/bazel_build_optimiza/bazel-build-optimization",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "bazel_build_optimiza",
+    "description": "Use this skill to optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "bazel",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bazel Build Optimization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
