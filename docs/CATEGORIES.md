@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,684** skills across structured domains, categories, and subcategories.
+Master navigation for **1,685** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (578 skills)
+## Ai Engineering (579 skills)
 
 ### Agents (67 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -284,7 +284,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (419 skills)
+### Models (420 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1100,6 +1100,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [open-dynamic-workflows](../skills/ai-engineering/models/open_dynamic_workflo/open-dynamic-workflows/SKILL.md) — Use this skill to design, implement, and operate production workflows for open dynamic workflows. Plan, orchestrate, and adversarially verify parallel AI coding agents with a dynamic multi-agent workflow engine.
 - **Openapi_Spec_Generat** (1):
   - [openapi-spec-generation](../skills/ai-engineering/models/openapi_spec_generat/openapi-spec-generation/SKILL.md) — Use this skill to design, implement, and operate production workflows for openapi spec generation. Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.
+- **Openclaw_Deployment_** (1):
+  - [openclaw-deployment-hardening](../skills/ai-engineering/models/openclaw_deployment_/openclaw-deployment-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for openclaw deployment hardening. Secure OpenClaw deployments with preflight hardening checks, CI/CD guardrails,
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

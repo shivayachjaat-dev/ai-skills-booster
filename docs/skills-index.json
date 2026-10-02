@@ -11743,6 +11743,28 @@
     "maturity": "stable"
   },
   {
+    "name": "openclaw-deployment-hardening",
+    "path": "skills/ai-engineering/models/openclaw_deployment_/openclaw-deployment-hardening",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "openclaw_deployment_",
+    "description": "Use this skill to design, implement, and operate production workflows for openclaw deployment hardening. Secure OpenClaw deployments with preflight hardening checks, CI/CD guardrails,",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "openclaw",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Openclaw Deployment Hardening",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
