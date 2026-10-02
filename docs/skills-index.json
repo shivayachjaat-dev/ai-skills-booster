@@ -1009,6 +1009,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ios-debugger-agent",
+    "path": "skills/ai-engineering/agents/ios_debugger_agent/ios-debugger-agent",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "ios_debugger_agent",
+    "description": "Use this skill to design, implement, and operate production workflows for ios debugger agent. Debug the current iOS project on a booted simulator with XcodeBuildMCP.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "ios",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ios Debugger Agent",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",
