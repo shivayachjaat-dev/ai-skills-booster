@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,205** skills across structured domains, categories, and subcategories.
+Master navigation for **1,206** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (414 skills)
 
@@ -896,7 +896,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (76 skills)
+## Backend (77 skills)
 
 ### Api Design (8 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -976,9 +976,11 @@ Category index: [`docs/categories/background-tasks.md`](categories/background-ta
 - **Celery** (1):
   - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
 
-### Caching (1 skills)
+### Caching (2 skills)
 Category index: [`docs/categories/caching.md`](categories/caching.md)
 
+- **Hunt_Cache_Poison** (1):
+  - [hunt-cache-poison](../skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.
 - **Redis Streams** (1):
   - [redis-streams-event-processing](../skills/backend/caching/redis-streams/redis-streams-event-processing/SKILL.md) — Use this skill when architecting, implementing, and operating event-driven stream processing systems using Redis Streams. It guides the agent through appending events with XADD, managing competing Consumer Groups with XREADGROUP, tracking the Pending Entries List (PEL), dead-lettering abandoned messages via XAUTOCLAIM, and stream memory trimming with MAXLEN.
 

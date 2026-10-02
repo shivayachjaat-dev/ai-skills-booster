@@ -9977,6 +9977,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-cache-poison",
+    "path": "skills/backend/caching/hunt_cache_poison/hunt-cache-poison",
+    "domain": "backend",
+    "category": "caching",
+    "subcategory": "hunt_cache_poison",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.",
+    "tags": [
+      "backend",
+      "caching",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Cache Poison",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "redis-streams-event-processing",
     "path": "skills/backend/caching/redis-streams/redis-streams-event-processing",
     "domain": "backend",
