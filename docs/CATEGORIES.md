@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **22** skills across structured domains, categories, and subcategories.
+Master navigation for **23** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (3 skills)
 
@@ -108,13 +108,19 @@ Category index: [`docs/categories/ecosystem.md`](categories/ecosystem.md)
 - **Creation** (1):
   - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 
-## Security (3 skills)
+## Security (4 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
 
 - **Defense** (1):
   - [prompt-injection-defense](../skills/security/ai-security/defense/prompt-injection-defense/SKILL.md) — Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.
+
+### Authentication (1 skills)
+Category index: [`docs/categories/authentication.md`](categories/authentication.md)
+
+- **Oauth2** (1):
+  - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
 
 ### Code Review (1 skills)
 Category index: [`docs/categories/code-review.md`](categories/code-review.md)

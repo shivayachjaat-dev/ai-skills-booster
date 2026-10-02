@@ -388,6 +388,33 @@
     "maturity": "stable"
   },
   {
+    "name": "oauth2-jwt-authentication-flow",
+    "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "oauth2",
+    "description": "Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.",
+    "tags": [
+      "security",
+      "authentication",
+      "oauth2",
+      "jwt",
+      "oidc",
+      "auth",
+      "tokens"
+    ],
+    "technologies": [
+      "OAuth 2.1",
+      "JWT",
+      "Node.js",
+      "Python",
+      "Redis",
+      "TypeScript"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-security-review",
     "path": "skills/security/code-review/github/github-pr-security-review",
     "domain": "security",

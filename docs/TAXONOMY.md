@@ -43,6 +43,8 @@ AI_Skills_Booster/
 ├── security/
 │   ├── ai-security/
 │   │   └── defense/ (1 skills)
+│   ├── authentication/
+│   │   └── oauth2/ (1 skills)
 │   ├── code-review/
 │   │   └── github/ (1 skills)
 │   └── secret-management/
