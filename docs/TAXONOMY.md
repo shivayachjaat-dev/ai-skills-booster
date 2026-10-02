@@ -383,6 +383,7 @@ AI_Skills_Booster/
 │   │   ├── huggingface_local_mo/ (1 skills)
 │   │   ├── huggingface_spaces/ (1 skills)
 │   │   ├── huggingface_zerogpu/ (1 skills)
+│   │   ├── humanize_chinese/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

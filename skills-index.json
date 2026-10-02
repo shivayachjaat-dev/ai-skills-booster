@@ -8377,6 +8377,28 @@
     "maturity": "stable"
   },
   {
+    "name": "humanize-chinese",
+    "path": "skills/ai-engineering/models/humanize_chinese/humanize-chinese",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "humanize_chinese",
+    "description": "Use this skill to design, implement, and operate production workflows for humanize chinese. Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to \u53bbAI\u5473, \u964dAIGC, \u53bb\u9664AI\u75d5\u8ff9, \u8bba\u6587\u964d\u91cd, \u77e5\u7f51\u68c0\u6d4b, \u7ef4\u666e\u68c0\u6d4b, humanize chinese, detect AI text, or make Chinese ...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "humanize",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Humanize Chinese",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
