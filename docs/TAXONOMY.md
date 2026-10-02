@@ -960,6 +960,7 @@ AI_Skills_Booster/
 │   │   ├── busabase/ (1 skills)
 │   │   ├── fix_review/ (1 skills)
 │   │   ├── fixing_accessibility/ (1 skills)
+│   │   ├── fixing_metadata/ (1 skills)
 │   │   ├── indexing_issue_audit/ (1 skills)
 │   │   ├── local_legal_seo_audi/ (1 skills)
 │   │   ├── production_code_audi/ (1 skills)

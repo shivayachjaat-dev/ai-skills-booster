@@ -18906,6 +18906,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fixing-metadata",
+    "path": "skills/security/compliance/fixing_metadata/fixing-metadata",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "fixing_metadata",
+    "description": "Use this skill to design, implement, and operate production workflows for fixing metadata. Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives.",
+    "tags": [
+      "security",
+      "compliance",
+      "fixing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fixing Metadata",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "indexing-issue-auditor",
     "path": "skills/security/compliance/indexing_issue_audit/indexing-issue-auditor",
     "domain": "security",
