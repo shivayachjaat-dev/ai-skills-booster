@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,426** skills across structured domains, categories, and subcategories.
+Master navigation for **1,427** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (495 skills)
+## Ai Engineering (496 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -254,7 +254,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Llmops_Platform_Engi** (1):
   - [llmops-platform-engineering](../skills/ai-engineering/llm-ops/llmops_platform_engi/llmops-platform-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for llmops platform engineering. Build production LLMOps platforms with CI/CD, model promotion workflows,
 
-### Models (358 skills)
+### Models (359 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -948,6 +948,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [logic-explain](../skills/ai-engineering/models/logic_explain/logic-explain/SKILL.md) — Use this skill to design, implement, and operate production workflows for logic explain. Explain what a specific piece of code actually does for a given input by producing a step-by-step execution trace (interprocedural, with name resolution and type transitions).
 - **Logic_Fix_All** (1):
   - [logic-fix-all](../skills/ai-engineering/models/logic_fix_all/logic-fix-all/SKILL.md) — Use this skill to design, implement, and operate production workflows for logic fix all. Autonomous repository-wide audit-and-fix pipeline: health → review → locate/explain → fix → diff-verify → iterate until clean. Starts with a mandatory consent prompt (token-intensive); after consent runs hands-free.
+- **Logic_Lens** (1):
+  - [logic-lens](../skills/ai-engineering/models/logic_lens/logic-lens/SKILL.md) — Use this skill to design, implement, and operate production workflows for logic lens. AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frameworks to detect bugs, anti-patterns, and security risks beyond what linters catch.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

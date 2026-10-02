@@ -10071,6 +10071,28 @@
     "maturity": "stable"
   },
   {
+    "name": "logic-lens",
+    "path": "skills/ai-engineering/models/logic_lens/logic-lens",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "logic_lens",
+    "description": "Use this skill to design, implement, and operate production workflows for logic lens. AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frameworks to detect bugs, anti-patterns, and security risks beyond what linters catch.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "logic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Logic Lens",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
