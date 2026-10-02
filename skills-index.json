@@ -13325,6 +13325,28 @@
     "maturity": "stable"
   },
   {
+    "name": "isometric-design",
+    "path": "skills/frontend/web-architecture/isometric_design/isometric-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "isometric_design",
+    "description": "Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "isometric",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Isometric Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

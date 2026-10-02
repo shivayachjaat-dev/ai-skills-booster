@@ -677,6 +677,7 @@ AI_Skills_Booster/
 │   │   ├── gradient_design/ (1 skills)
 │   │   ├── high_contrast/ (1 skills)
 │   │   ├── holographic_ui/ (1 skills)
+│   │   ├── isometric_design/ (1 skills)
 │   │   ├── production_audit/ (1 skills)
 │   │   ├── security_audit/ (1 skills)
 │   │   ├── seo_aeo_content_qual/ (1 skills)

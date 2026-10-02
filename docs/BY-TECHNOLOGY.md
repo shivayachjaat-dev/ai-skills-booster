@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (600 skills)
+## Bash (601 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1536,6 +1536,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [gradient-design](../skills/frontend/web-architecture/gradient_design/gradient-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for gradient design. Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.
 - [high-contrast](../skills/frontend/web-architecture/high_contrast/high-contrast/SKILL.md) — Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.
 - [holographic-ui](../skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.
+- [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
 - [seo-aeo-content-quality-auditor](../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) — Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified.
@@ -3768,6 +3769,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
 
+## Isometric Design (1 skills)
+
+- [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
+
 ## Istio (4 skills)
 
 - [llm-inference-service-mesh-and-vllm-routing](../skills/ai-engineering/inference/vllm-mesh/llm-inference-service-mesh-and-vllm-routing/SKILL.md) — Use this skill to design, deploy, and manage Kubernetes service mesh architectures (Istio, Envoy) tailored for distributed LLM inference clusters running vLLM, TensorRT-LLM, or Triton. It covers KV-cache-aware routing, P99 latency SLA circuit breaking, streaming SSE backpressure, and mTLS pod-to-pod security.
@@ -4429,7 +4434,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (703 skills)
+## Python (704 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4967,6 +4972,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [gradient-design](../skills/frontend/web-architecture/gradient_design/gradient-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for gradient design. Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.
 - [high-contrast](../skills/frontend/web-architecture/high_contrast/high-contrast/SKILL.md) — Use this skill to design, implement, and operate production workflows for high contrast. Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.
 - [holographic-ui](../skills/frontend/web-architecture/holographic_ui/holographic-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for holographic ui. Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.
+- [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
 - [seo-aeo-content-quality-auditor](../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) — Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified.
