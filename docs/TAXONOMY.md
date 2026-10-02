@@ -325,7 +325,8 @@ AI_Skills_Booster/
 │   │   ├── cors-csrf/ (1 skills)
 │   │   └── security-headers/ (1 skills)
 │   ├── appsec/
-│   │   └── aws_ec2/ (1 skills)
+│   │   ├── aws_ec2/ (1 skills)
+│   │   └── aws_secrets_manager/ (1 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/

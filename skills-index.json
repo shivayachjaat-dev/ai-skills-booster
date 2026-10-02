@@ -4644,6 +4644,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-secrets-manager",
+    "path": "skills/security/appsec/aws_secrets_manager/aws-secrets-manager",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "aws_secrets_manager",
+    "description": "Use this skill to store and rotate secrets in AWS Secrets Manager.",
+    "tags": [
+      "security",
+      "appsec",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Secrets Manager",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
