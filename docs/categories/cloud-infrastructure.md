@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **33 skills** available in this category.
+> **34 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -37,3 +37,4 @@
 | [azure-servicebus-dotnet](../../skills/devops/cloud-infrastructure/azure_servicebus_dot/azure-servicebus-dotnet/SKILL.md) | `azure_servicebus_dot` | `advanced` | `stable` | Use this skill to azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions. |
 | [azure-servicebus-rust](../../skills/devops/cloud-infrastructure/azure_servicebus_rus/azure-servicebus-rust/SKILL.md) | `azure_servicebus_rus` | `advanced` | `stable` | Use this skill to azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions. Triggers: "service bus rust", "ServiceBusClient rust", "send message servicebus rust", "receive message servicebus rust", "queue rust messaging", "topic subscription rust". |
 | [azure-servicebus-ts](../../skills/devops/cloud-infrastructure/azure_servicebus_ts/azure-servicebus-ts/SKILL.md) | `azure_servicebus_ts` | `advanced` | `stable` | Use this skill to enterprise messaging with queues, topics, and subscriptions. |
+| [cloud-architect](../../skills/devops/cloud-infrastructure/cloud_architect/cloud-architect/SKILL.md) | `cloud_architect` | `advanced` | `stable` | Use this skill to expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. |

@@ -7196,6 +7196,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cloud-architect",
+    "path": "skills/devops/cloud-infrastructure/cloud_architect/cloud-architect",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "cloud_architect",
+    "description": "Use this skill to expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "cloud",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cloud Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

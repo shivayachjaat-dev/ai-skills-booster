@@ -376,7 +376,8 @@ AI_Skills_Booster/
 │   │   ├── azure_resource_manag/ (4 skills)
 │   │   ├── azure_servicebus_dot/ (1 skills)
 │   │   ├── azure_servicebus_rus/ (1 skills)
-│   │   └── azure_servicebus_ts/ (1 skills)
+│   │   ├── azure_servicebus_ts/ (1 skills)
+│   │   └── cloud_architect/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/
