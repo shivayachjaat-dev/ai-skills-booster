@@ -514,6 +514,7 @@ AI_Skills_Booster/
 │   │   ├── n8n_node_configurati/ (1 skills)
 │   │   ├── nanobanana_ppt_skill/ (1 skills)
 │   │   ├── neon_ai_gateway/ (1 skills)
+│   │   ├── network_101/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

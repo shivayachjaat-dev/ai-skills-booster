@@ -11303,6 +11303,28 @@
     "maturity": "stable"
   },
   {
+    "name": "network-101",
+    "path": "skills/ai-engineering/models/network_101/network-101",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "network_101",
+    "description": "Use this skill to design, implement, and operate production workflows for network 101. Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "network",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Network 101",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

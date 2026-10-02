@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,596** skills across structured domains, categories, and subcategories.
+Master navigation for **1,597** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (554 skills)
+## Ai Engineering (555 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -276,7 +276,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Multi_Tenant_Llm_Hos** (1):
   - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 
-### Models (403 skills)
+### Models (404 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1060,6 +1060,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [nanobanana-ppt-skills](../skills/ai-engineering/models/nanobanana_ppt_skill/nanobanana-ppt-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for nanobanana ppt skills. AI-powered PPT generation with document analysis and styled images
 - **Neon_Ai_Gateway** (1):
   - [neon-ai-gateway](../skills/ai-engineering/models/neon_ai_gateway/neon-ai-gateway/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon ai gateway. One API and one credential for frontier and open-source LLMs, built into your Neon branch and powered by Databricks.
+- **Network_101** (1):
+  - [network-101](../skills/ai-engineering/models/network_101/network-101/SKILL.md) — Use this skill to design, implement, and operate production workflows for network 101. Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

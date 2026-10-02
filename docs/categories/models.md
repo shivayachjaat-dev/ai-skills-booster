@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **403 skills** available in this category.
+> **404 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -400,6 +400,7 @@
 | [n8n-node-configuration](../../skills/ai-engineering/models/n8n_node_configurati/n8n-node-configuration/SKILL.md) | `n8n_node_configurati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n node configuration. Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type. |
 | [nanobanana-ppt-skills](../../skills/ai-engineering/models/nanobanana_ppt_skill/nanobanana-ppt-skills/SKILL.md) | `nanobanana_ppt_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nanobanana ppt skills. AI-powered PPT generation with document analysis and styled images |
 | [neon-ai-gateway](../../skills/ai-engineering/models/neon_ai_gateway/neon-ai-gateway/SKILL.md) | `neon_ai_gateway` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon ai gateway. One API and one credential for frontier and open-source LLMs, built into your Neon branch and powered by Databricks. |
+| [network-101](../../skills/ai-engineering/models/network_101/network-101/SKILL.md) | `network_101` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for network 101. Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

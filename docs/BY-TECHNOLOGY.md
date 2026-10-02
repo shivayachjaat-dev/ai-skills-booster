@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1414 skills)
+## Bash (1415 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1560,6 +1560,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-node-configuration](../skills/ai-engineering/models/n8n_node_configurati/n8n-node-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n node configuration. Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type.
 - [nanobanana-ppt-skills](../skills/ai-engineering/models/nanobanana_ppt_skill/nanobanana-ppt-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for nanobanana ppt skills. AI-powered PPT generation with document analysis and styled images
 - [neon-ai-gateway](../skills/ai-engineering/models/neon_ai_gateway/neon-ai-gateway/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon ai gateway. One API and one credential for frontier and open-source LLMs, built into your Neon branch and powered by Databricks.
+- [network-101](../skills/ai-engineering/models/network_101/network-101/SKILL.md) — Use this skill to design, implement, and operate production workflows for network 101. Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -8064,6 +8065,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [nestjs-expert](../skills/backend/databases/nestjs_expert/nestjs-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for nestjs expert. You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems.
 
+## Network 101 (1 skills)
+
+- [network-101](../skills/ai-engineering/models/network_101/network-101/SKILL.md) — Use this skill to design, implement, and operate production workflows for network 101. Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems.
+
 ## Network Policies (1 skills)
 
 - [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
@@ -8404,7 +8409,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1517 skills)
+## Python (1518 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8912,6 +8917,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-node-configuration](../skills/ai-engineering/models/n8n_node_configurati/n8n-node-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n node configuration. Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type.
 - [nanobanana-ppt-skills](../skills/ai-engineering/models/nanobanana_ppt_skill/nanobanana-ppt-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for nanobanana ppt skills. AI-powered PPT generation with document analysis and styled images
 - [neon-ai-gateway](../skills/ai-engineering/models/neon_ai_gateway/neon-ai-gateway/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon ai gateway. One API and one credential for frontier and open-source LLMs, built into your Neon branch and powered by Databricks.
+- [network-101](../skills/ai-engineering/models/network_101/network-101/SKILL.md) — Use this skill to design, implement, and operate production workflows for network 101. Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
