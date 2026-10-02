@@ -655,6 +655,28 @@
     "maturity": "stable"
   },
   {
+    "name": "agentfolio",
+    "path": "skills/ai-engineering/models/agentfolio/agentfolio",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "agentfolio",
+    "description": "Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "agentfolio",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Agentfolio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",

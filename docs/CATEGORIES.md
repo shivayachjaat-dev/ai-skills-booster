@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **185** skills across structured domains, categories, and subcategories.
+Master navigation for **186** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (33 skills)
+## Ai Engineering (34 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -91,6 +91,12 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
+
+### Models (1 skills)
+Category index: [`docs/categories/models.md`](categories/models.md)
+
+- **Agentfolio** (1):
+  - [agentfolio](../skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) — Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)
