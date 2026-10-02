@@ -1262,6 +1262,7 @@ AI_Skills_Booster/
 │   │   ├── iso27001_compliance/ (1 skills)
 │   │   ├── kubernetes_hardening/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
+│   │   ├── linkerd_patterns/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)
 │   │   └── security_auditor/ (1 skills)

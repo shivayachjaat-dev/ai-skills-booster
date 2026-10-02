@@ -25610,6 +25610,28 @@
     "maturity": "stable"
   },
   {
+    "name": "linkerd-patterns",
+    "path": "skills/security/appsec/linkerd_patterns/linkerd-patterns",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "linkerd_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for linkerd patterns. Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.",
+    "tags": [
+      "security",
+      "appsec",
+      "linkerd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Linkerd Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-dependency-drift-audit",
     "path": "skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit",
     "domain": "security",

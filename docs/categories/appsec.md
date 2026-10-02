@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **82 skills** available in this category.
+> **83 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -83,6 +83,7 @@
 | [iso27001-compliance](../../skills/security/appsec/iso27001_compliance/iso27001-compliance/SKILL.md) | `iso27001_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for iso27001 compliance. Implement ISO 27001 Information Security Management System. Configure |
 | [kubernetes-hardening](../../skills/security/appsec/kubernetes_hardening/kubernetes-hardening/SKILL.md) | `kubernetes_hardening` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kubernetes hardening. Implement Kubernetes security contexts, Pod Security Standards, and network |
 | [laravel-security-audit](../../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
+| [linkerd-patterns](../../skills/security/appsec/linkerd_patterns/linkerd-patterns/SKILL.md) | `linkerd_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linkerd patterns. Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes. |
 | [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
