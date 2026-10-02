@@ -45,7 +45,8 @@ AI_Skills_Booster/
 │   │   ├── ai_dev_jobs_mcp/ (1 skills)
 │   │   ├── ai_engineer/ (1 skills)
 │   │   ├── ai_loop/ (1 skills)
-│   │   └── ai_ml/ (1 skills)
+│   │   ├── ai_ml/ (1 skills)
+│   │   └── ai_product/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
 │   ├── quantization/

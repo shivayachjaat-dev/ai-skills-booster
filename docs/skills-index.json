@@ -809,6 +809,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-product",
+    "path": "skills/ai-engineering/models/ai_product/ai-product",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ai_product",
+    "description": "Use this skill to every product will be AI-powered. The question is whether you'll",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ai Product",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",
