@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **586** skills across structured domains, categories, and subcategories.
+Master navigation for **587** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (202 skills)
 
@@ -846,7 +846,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (14 skills)
+## Developer Tools (15 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -862,7 +862,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Career_Ops** (1):
   - [career-ops](../skills/developer-tools/cli-utilities/career_ops/career-ops/SKILL.md) — Use this skill to multi-CLI job-search command center: evaluate offers, scan portals,
 
-### Productivity (9 skills)
+### Productivity (10 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -883,6 +883,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [coda-automation](../skills/developer-tools/productivity/coda_automation/coda-automation/SKILL.md) — Use this skill to automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas.
 - **Competitor_Tracking** (1):
   - [competitor-tracking](../skills/developer-tools/productivity/competitor_tracking/competitor-tracking/SKILL.md) — Use this skill to systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors.
+- **Confluence_Automatio** (1):
+  - [confluence-automation](../skills/developer-tools/productivity/confluence_automatio/confluence-automation/SKILL.md) — Use this skill to automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

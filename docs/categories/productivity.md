@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,3 +13,4 @@
 | [close-automation](../../skills/developer-tools/productivity/close_automation/close-automation/SKILL.md) | `close_automation` | `advanced` | `stable` | Use this skill to automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas. |
 | [coda-automation](../../skills/developer-tools/productivity/coda_automation/coda-automation/SKILL.md) | `coda_automation` | `advanced` | `stable` | Use this skill to automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas. |
 | [competitor-tracking](../../skills/developer-tools/productivity/competitor_tracking/competitor-tracking/SKILL.md) | `competitor_tracking` | `advanced` | `stable` | Use this skill to systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors. |
+| [confluence-automation](../../skills/developer-tools/productivity/confluence_automatio/confluence-automation/SKILL.md) | `confluence_automatio` | `advanced` | `stable` | Use this skill to automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas. |
