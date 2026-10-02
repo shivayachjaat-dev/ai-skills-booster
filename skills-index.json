@@ -13105,6 +13105,28 @@
     "maturity": "stable"
   },
   {
+    "name": "duotone-design",
+    "path": "skills/frontend/web-architecture/duotone_design/duotone-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "duotone_design",
+    "description": "Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "duotone",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Duotone Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

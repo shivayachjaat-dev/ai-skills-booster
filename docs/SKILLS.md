@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 772 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 773 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -581,6 +581,7 @@
 | [dashboard-design](skills/frontend/web-architecture/dashboard_design/dashboard-design/SKILL.md) | `frontend` | `web-architecture` | `dashboard_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dashboard design. Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens. |
 | [data-dense-design](skills/frontend/web-architecture/data_dense_design/data-dense-design/SKILL.md) | `frontend` | `web-architecture` | `data_dense_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for data dense design. Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs). |
 | [defuddle](skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) | `frontend` | `web-architecture` | `defuddle` | `advanced` | `stable` | Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. |
+| [duotone-design](skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) | `frontend` | `web-architecture` | `duotone_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics. |
 | [production-audit](skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `frontend` | `web-architecture` | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `frontend` | `web-architecture` | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `frontend` | `web-architecture` | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |
