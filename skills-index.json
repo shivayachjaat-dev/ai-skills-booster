@@ -11171,6 +11171,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-code-tool",
+    "path": "skills/ai-engineering/models/n8n_code_tool/n8n-code-tool",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "n8n_code_tool",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n code tool. Write and debug JavaScript or Python for the AI-callable n8n Custom Code Tool, including schemas, sandbox limits, and return formats.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Code Tool",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,576** skills across structured domains, categories, and subcategories.
+Master navigation for **1,577** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (547 skills)
+## Ai Engineering (548 skills)
 
 ### Agents (64 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -274,7 +274,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Multi_Tenant_Llm_Hos** (1):
   - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 
-### Models (398 skills)
+### Models (399 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1048,6 +1048,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [music-generation-studio](../skills/ai-engineering/models/music_generation_stu/music-generation-studio/SKILL.md) — Use this skill to design, implement, and operate production workflows for music generation studio. Install and use the official AI Music Generator package, pinned by digest, for paid hosted work on the Beatra service.
 - **N8N_Agents** (1):
   - [n8n-agents](../skills/ai-engineering/models/n8n_agents/n8n-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n agents. Design n8n AI agents, chains, classifiers, extractors, tool calling, memory, RAG, structured output, and human-review flows.
+- **N8N_Code_Tool** (1):
+  - [n8n-code-tool](../skills/ai-engineering/models/n8n_code_tool/n8n-code-tool/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code tool. Write and debug JavaScript or Python for the AI-callable n8n Custom Code Tool, including schemas, sandbox limits, and return formats.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

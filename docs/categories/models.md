@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **398 skills** available in this category.
+> **399 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -395,6 +395,7 @@
 | [multi-agent-task-orchestrator](../../skills/ai-engineering/models/multi_agent_task_orc/multi-agent-task-orchestrator/SKILL.md) | `multi_agent_task_orc` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi agent task orchestrator. Route tasks to specialized AI agents with anti-duplication, quality gates, and 30-minute heartbeat monitoring |
 | [music-generation-studio](../../skills/ai-engineering/models/music_generation_stu/music-generation-studio/SKILL.md) | `music_generation_stu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for music generation studio. Install and use the official AI Music Generator package, pinned by digest, for paid hosted work on the Beatra service. |
 | [n8n-agents](../../skills/ai-engineering/models/n8n_agents/n8n-agents/SKILL.md) | `n8n_agents` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n agents. Design n8n AI agents, chains, classifiers, extractors, tool calling, memory, RAG, structured output, and human-review flows. |
+| [n8n-code-tool](../../skills/ai-engineering/models/n8n_code_tool/n8n-code-tool/SKILL.md) | `n8n_code_tool` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n code tool. Write and debug JavaScript or Python for the AI-callable n8n Custom Code Tool, including schemas, sandbox limits, and return formats. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
