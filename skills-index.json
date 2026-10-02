@@ -28317,6 +28317,28 @@
     "maturity": "stable"
   },
   {
+    "name": "incident-runbook-templates",
+    "path": "skills/software-engineering/architecture/patterns/incident-runbook-templates",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for incident runbook templates. Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "incident",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Incident Runbook Templates",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
