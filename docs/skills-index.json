@@ -23511,6 +23511,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mcp-tool-developer",
+    "path": "skills/frontend/ui-ux/mcp_tool_developer/mcp-tool-developer",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "mcp_tool_developer",
+    "description": "Use this skill to design, implement, and operate production workflows for mcp tool developer. Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publishing.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "mcp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mcp Tool Developer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
