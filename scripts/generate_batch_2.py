@@ -50,7 +50,7 @@ A comprehensive container engineering workflow designed to reduce image footprin
 ## Inputs & Prerequisites
 
 - Existing `Dockerfile` or `compose.yml`.
-- Application source repository and dependency manifests.
+- Application codebase and dependency manifests.
 - Docker daemon running locally or in CI runner.
 
 ## Core Workflow

@@ -55,7 +55,6 @@ Find any skill within seconds using our multi-dimensional indexes:
 | **By Technology** | [docs/BY-TECHNOLOGY.md](docs/BY-TECHNOLOGY.md) | Grouped by stack (Python, TypeScript, PostgreSQL, Docker, React, K8s, etc.) |
 | **By Role** | [docs/BY-ROLE.md](docs/BY-ROLE.md) | Curated for AI Engineers, DevOps, Security Engineers, Full Stack, QA |
 | **Repository Stats** | [docs/STATISTICS.md](docs/STATISTICS.md) | Automated statistics on domains, complexity, maturity, scripts, and evals |
-| **Provenance** | [docs/PROVENANCE.md](docs/PROVENANCE.md) | Attribution and lineage across open-source ecosystems |
 
 ---
 

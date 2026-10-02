@@ -123,7 +123,13 @@ def create_and_ship_skill(skill_spec):
         print(f"[Factory] Catalog generation FAILED:\n{out}")
         return False
 
-    # Step 4: Git add
+    # Step 4: Run Public Disclosure & Privacy Scan
+    ok, out = run_cmd("python scripts/check_public_disclosure.py")
+    if not ok:
+        print(f"[Factory] Public disclosure scan FAILED:\n{out}")
+        return False
+
+    # Step 5: Git add
     ok, out = run_cmd("git add .")
     if not ok:
         return False

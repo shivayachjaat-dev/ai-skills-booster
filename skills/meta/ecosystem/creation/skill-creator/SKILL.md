@@ -7,7 +7,7 @@ subcategory: creation
 tags:
   - meta
   - skill-creation
-  - agent-skills
+  - skills-framework
   - authoring
   - taxonomy
 technologies:

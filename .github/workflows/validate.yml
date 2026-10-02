@@ -27,4 +27,8 @@ jobs:
 
       - name: Verify Catalog Consistency
         run: |
-          python scripts/generate_catalog.py --check
+          python scripts/generate_catalog.py
+
+      - name: Run Public Disclosure & Privacy Check
+        run: |
+          python scripts/check_public_disclosure.py

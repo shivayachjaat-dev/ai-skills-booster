@@ -124,7 +124,6 @@ def scan_all_skills():
                 "has_scripts": os.path.exists(os.path.join(root, "scripts")),
                 "has_evals": os.path.exists(os.path.join(root, "evals")),
                 "has_references": os.path.exists(os.path.join(root, "references")),
-                "source": "AI_Skills_Booster",
                 "license": "MIT",
                 "updated_at": datetime.now(timezone.utc).isoformat()
             })

@@ -24,7 +24,7 @@ SKILLS_QUEUE = [
         "category": "ecosystem",
         "subcategory": "creation",
         "description": "Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.",
-        "tags": ["meta", "skill-creation", "agent-skills", "authoring", "taxonomy"],
+        "tags": ["meta", "skill-creation", "skills-framework", "authoring", "taxonomy"],
         "technologies": ["Python", "Markdown", "YAML", "Git"],
         "complexity": "advanced",
         "maturity": "stable",

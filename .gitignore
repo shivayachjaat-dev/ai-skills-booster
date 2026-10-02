@@ -52,10 +52,9 @@ yarn-error.log*
 tmp/
 temp/
 
-# Internal backlogs, audit reports & scratch files
-*backlog*.json
-docs/*backlog*
-docs/AUDIT_REPORT.md
-docs/audit_report.md
-scripts/audit_references.py
+# Internal backlogs, scratch & local reports
+*backlog*
+*audit*
 scratch/
+local/
+*.local.*
