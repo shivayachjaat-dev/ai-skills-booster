@@ -2058,6 +2058,32 @@
     "maturity": "stable"
   },
   {
+    "name": "privileged-access-and-admin-account-register",
+    "path": "skills/security/identity-governance/admin-register/privileged-access-and-admin-account-register",
+    "domain": "security",
+    "category": "identity-governance",
+    "subcategory": "admin-register",
+    "description": "Use this skill when cataloging, auditing, and enforcing governance policies over privileged administrator accounts and break-glass emergency credentials across SaaS, cloud infrastructure, and internal systems. It guides the agent through structuring an Admin Access Register, enforcing mandatory MFA/WebAuthn, designated backup owners, and access justification logs.",
+    "tags": [
+      "privileged-access",
+      "admin-accounts",
+      "iam",
+      "pam",
+      "soc2",
+      "security",
+      "governance"
+    ],
+    "technologies": [
+      "Python",
+      "JSON",
+      "Audit Logging",
+      "Identity Governance",
+      "KMS"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "incident-response-and-triage",
     "path": "skills/security/incident-response/triage/incident-response-and-triage",
     "domain": "security",
