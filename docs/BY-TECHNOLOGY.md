@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1435 skills)
+## Bash (1436 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2488,6 +2488,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-code-javascript](../skills/software-engineering/architecture/patterns/n8n-code-javascript/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code javascript. Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes.
 - [nerdzao-elite](../skills/software-engineering/architecture/patterns/nerdzao-elite/SKILL.md) — Use this skill to design, implement, and operate production workflows for nerdzao elite. Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation.
 - [nerdzao-elite-gemini-high](../skills/software-engineering/architecture/patterns/nerdzao-elite-gemini-high/SKILL.md) — Use this skill to design, implement, and operate production workflows for nerdzao elite gemini high. Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para Gemini 3.1 Pro High. Workflow completo com foco em qualidade máxima e eficiência de tokens.
+- [not-a-vibe-coder](../skills/software-engineering/architecture/patterns/not-a-vibe-coder/SKILL.md) — Use this skill to design, implement, and operate production workflows for not a vibe coder. Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases.
 - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
@@ -8205,6 +8206,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [nosql-expert](../skills/frontend/ui-ux/nosql_expert/nosql-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for nosql expert. Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.
 
+## Not A Vibe Coder (1 skills)
+
+- [not-a-vibe-coder](../skills/software-engineering/architecture/patterns/not-a-vibe-coder/SKILL.md) — Use this skill to design, implement, and operate production workflows for not a vibe coder. Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases.
+
 ## NumPy (4 skills)
 
 - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
@@ -8509,7 +8514,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1538 skills)
+## Python (1539 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10018,6 +10023,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-code-javascript](../skills/software-engineering/architecture/patterns/n8n-code-javascript/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code javascript. Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes.
 - [nerdzao-elite](../skills/software-engineering/architecture/patterns/nerdzao-elite/SKILL.md) — Use this skill to design, implement, and operate production workflows for nerdzao elite. Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation.
 - [nerdzao-elite-gemini-high](../skills/software-engineering/architecture/patterns/nerdzao-elite-gemini-high/SKILL.md) — Use this skill to design, implement, and operate production workflows for nerdzao elite gemini high. Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para Gemini 3.1 Pro High. Workflow completo com foco em qualidade máxima e eficiência de tokens.
+- [not-a-vibe-coder](../skills/software-engineering/architecture/patterns/not-a-vibe-coder/SKILL.md) — Use this skill to design, implement, and operate production workflows for not a vibe coder. Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases.
 - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.

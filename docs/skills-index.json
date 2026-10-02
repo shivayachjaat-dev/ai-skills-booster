@@ -35401,6 +35401,28 @@
     "maturity": "stable"
   },
   {
+    "name": "not-a-vibe-coder",
+    "path": "skills/software-engineering/architecture/patterns/not-a-vibe-coder",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for not a vibe coder. Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "not",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Not A Vibe Coder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
