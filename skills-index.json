@@ -6558,6 +6558,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-monitor-audit",
+    "path": "skills/security/appsec/azure_monitor_audit/azure-monitor-audit",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "azure_monitor_audit",
+    "description": "Use this skill to configure Azure Monitor and Activity Log for auditing. Set up diagnostic",
+    "tags": [
+      "security",
+      "appsec",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Monitor Audit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

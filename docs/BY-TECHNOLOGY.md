@@ -837,6 +837,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-microsoft-playwright-testing-ts](../skills/devops/cloud-infrastructure/azure_microsoft_play/azure-microsoft-playwright-testing-ts/SKILL.md) — Use this skill to run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.
 
+## Azure Monitor Audit (1 skills)
+
+- [azure-monitor-audit](../skills/security/appsec/azure_monitor_audit/azure-monitor-audit/SKILL.md) — Use this skill to configure Azure Monitor and Activity Log for auditing. Set up diagnostic
+
 ## Azure OpenAI (1 skills)
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
@@ -845,7 +849,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (147 skills)
+## Bash (148 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -982,6 +986,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [aws-ec2](../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) — Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
 - [azure-keyvault](../skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) — Use this skill to manage secrets and certificates in Azure Key Vault. Configure access
+- [azure-monitor-audit](../skills/security/appsec/azure_monitor_audit/azure-monitor-audit/SKILL.md) — Use this skill to configure Azure Monitor and Activity Log for auditing. Set up diagnostic
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
 - [azure-identity-dotnet](../skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) — Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.
 - [azure-identity-java](../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) — Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).
@@ -2232,7 +2237,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (250 skills)
+## Python (251 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2450,6 +2455,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [aws-ec2](../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) — Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
 - [azure-keyvault](../skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) — Use this skill to manage secrets and certificates in Azure Key Vault. Configure access
+- [azure-monitor-audit](../skills/security/appsec/azure_monitor_audit/azure-monitor-audit/SKILL.md) — Use this skill to configure Azure Monitor and Activity Log for auditing. Set up diagnostic
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
 - [azure-identity-dotnet](../skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) — Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.
 - [azure-identity-java](../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) — Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).
