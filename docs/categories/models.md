@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **129 skills** available in this category.
+> **130 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -132,4 +132,5 @@
 | [code-simplifier](../../skills/ai-engineering/models/code_simplifier/code-simplifier/SKILL.md) | `code_simplifier` | `advanced` | `stable` | Use this skill to simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specifi |
 | [codebase-cleanup-deps-audit](../../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) | `codebase_cleanup_dep` | `advanced` | `stable` | Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies. |
 | [codebase-design](../../skills/ai-engineering/models/codebase_design/codebase-design/SKILL.md) | `codebase_design` | `advanced` | `stable` | Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary. |
+| [codex-delegate](../../skills/ai-engineering/models/codex_delegate/codex-delegate/SKILL.md) | `codex_delegate` | `advanced` | `stable` | Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

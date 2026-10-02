@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **556** skills across structured domains, categories, and subcategories.
+Master navigation for **557** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (192 skills)
+## Ai Engineering (193 skills)
 
 ### Agents (23 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -130,7 +130,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (129 skills)
+### Models (130 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -380,6 +380,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [codebase-cleanup-deps-audit](../skills/ai-engineering/models/codebase_cleanup_dep/codebase-cleanup-deps-audit/SKILL.md) — Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
 - **Codebase_Design** (1):
   - [codebase-design](../skills/ai-engineering/models/codebase_design/codebase-design/SKILL.md) — Use this skill to shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.
+- **Codex_Delegate** (1):
+  - [codex-delegate](../skills/ai-engineering/models/codex_delegate/codex-delegate/SKILL.md) — Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -3801,6 +3801,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codex-delegate",
+    "path": "skills/ai-engineering/models/codex_delegate/codex-delegate",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "codex_delegate",
+    "description": "Use this skill to delegate coding tasks to the OpenAI Codex CLI only when the user explicitly",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "codex",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codex Delegate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
