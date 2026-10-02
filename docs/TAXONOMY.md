@@ -359,6 +359,7 @@ AI_Skills_Booster/
 │   │   ├── google_docs_automati/ (1 skills)
 │   │   ├── google_no_code/ (1 skills)
 │   │   ├── google_sheets_automa/ (1 skills)
+│   │   ├── google_slides_automa/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

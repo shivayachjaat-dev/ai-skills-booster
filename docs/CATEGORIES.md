@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,126** skills across structured domains, categories, and subcategories.
+Master navigation for **1,127** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (389 skills)
+## Ai Engineering (390 skills)
 
 ### Agents (46 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -198,7 +198,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (284 skills)
+### Models (285 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -748,6 +748,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [google-no-code](../skills/ai-engineering/models/google_no_code/google-no-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for google no code. Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic questions — no code editor required.
 - **Google_Sheets_Automa** (1):
   - [google-sheets-automation](../skills/ai-engineering/models/google_sheets_automa/google-sheets-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google sheets automation. Read and edit Google Sheets through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.
+- **Google_Slides_Automa** (1):
+  - [google-slides-automation](../skills/ai-engineering/models/google_slides_automa/google-slides-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google slides automation. Read and edit Google Slides through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
