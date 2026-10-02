@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (648 skills)
+## Bash (649 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1337,6 +1337,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [claude-monitor](../skills/backend/api-frameworks/claude_monitor/claude-monitor/SKILL.md) — Use this skill to monitor de performance do Claude Code e sistema local. Diagnostica lentidao, mede CPU/RAM/disco, verifica API latency e gera relatorios de saude do sistema.
 - [code-audit](../skills/backend/api-frameworks/code_audit/code-audit/SKILL.md) — Use this skill to authorized source-code security review and SAST workflows: Semgrep and CodeQL pattern hunting, dangerous API identification, and fix verification.
 - [developer-signup-flow](../skills/backend/api-frameworks/developer_signup_flo/developer-signup-flow/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer signup flow. Design frictionless signup experiences for developers including GitHub OAuth, API key generation, and onboarding personalization.
+- [devops-troubleshooter](../skills/backend/api-frameworks/devops_troubleshoote/devops-troubleshooter/SKILL.md) — Use this skill to design, implement, and operate production workflows for devops troubleshooter. Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
 - [azure-postgres-ts](../skills/backend/databases/azure_postgres_ts/azure-postgres-ts/SKILL.md) — Use this skill to connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
 - [azure-resource-manager-mysql-dotnet](../skills/backend/databases/azure_resource_manag/azure-resource-manager-mysql-dotnet/SKILL.md) — Use this skill to azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments.
@@ -3423,6 +3424,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [devops-pipeline-builder](../skills/frontend/ui-ux/devops_pipeline_buil/devops-pipeline-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for devops pipeline builder. Design and implement CI/CD pipelines, Docker configurations, deployment
 
+## Devops Troubleshooter (1 skills)
+
+- [devops-troubleshooter](../skills/backend/api-frameworks/devops_troubleshoote/devops-troubleshooter/SKILL.md) — Use this skill to design, implement, and operate production workflows for devops troubleshooter. Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
+
 ## Django (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -4609,7 +4614,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (751 skills)
+## Python (752 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4909,6 +4914,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [claude-monitor](../skills/backend/api-frameworks/claude_monitor/claude-monitor/SKILL.md) — Use this skill to monitor de performance do Claude Code e sistema local. Diagnostica lentidao, mede CPU/RAM/disco, verifica API latency e gera relatorios de saude do sistema.
 - [code-audit](../skills/backend/api-frameworks/code_audit/code-audit/SKILL.md) — Use this skill to authorized source-code security review and SAST workflows: Semgrep and CodeQL pattern hunting, dangerous API identification, and fix verification.
 - [developer-signup-flow](../skills/backend/api-frameworks/developer_signup_flo/developer-signup-flow/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer signup flow. Design frictionless signup experiences for developers including GitHub OAuth, API key generation, and onboarding personalization.
+- [devops-troubleshooter](../skills/backend/api-frameworks/devops_troubleshoote/devops-troubleshooter/SKILL.md) — Use this skill to design, implement, and operate production workflows for devops troubleshooter. Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
 - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
 - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.

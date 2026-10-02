@@ -315,6 +315,7 @@ AI_Skills_Booster/
 │   │   ├── claude_monitor/ (1 skills)
 │   │   ├── code_audit/ (1 skills)
 │   │   ├── developer_signup_flo/ (1 skills)
+│   │   ├── devops_troubleshoote/ (1 skills)
 │   │   └── fastapi-endpoints/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)

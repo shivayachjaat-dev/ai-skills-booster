@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **14 skills** available in this category.
+> **15 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,4 +17,5 @@
 | [claude-monitor](../../skills/backend/api-frameworks/claude_monitor/claude-monitor/SKILL.md) | `claude_monitor` | `advanced` | `stable` | Use this skill to monitor de performance do Claude Code e sistema local. Diagnostica lentidao, mede CPU/RAM/disco, verifica API latency e gera relatorios de saude do sistema. |
 | [code-audit](../../skills/backend/api-frameworks/code_audit/code-audit/SKILL.md) | `code_audit` | `advanced` | `stable` | Use this skill to authorized source-code security review and SAST workflows: Semgrep and CodeQL pattern hunting, dangerous API identification, and fix verification. |
 | [developer-signup-flow](../../skills/backend/api-frameworks/developer_signup_flo/developer-signup-flow/SKILL.md) | `developer_signup_flo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for developer signup flow. Design frictionless signup experiences for developers including GitHub OAuth, API key generation, and onboarding personalization. |
+| [devops-troubleshooter](../../skills/backend/api-frameworks/devops_troubleshoote/devops-troubleshooter/SKILL.md) | `devops_troubleshoote` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devops troubleshooter. Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. |
 | [fastapi-high-performance-endpoint-builder](../../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) | `fastapi-endpoints` | `intermediate` | `stable` | Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation. |

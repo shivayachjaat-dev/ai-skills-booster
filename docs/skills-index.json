@@ -6802,6 +6802,28 @@
     "maturity": "stable"
   },
   {
+    "name": "devops-troubleshooter",
+    "path": "skills/backend/api-frameworks/devops_troubleshoote/devops-troubleshooter",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "devops_troubleshoote",
+    "description": "Use this skill to design, implement, and operate production workflows for devops troubleshooter. Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "devops",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Devops Troubleshooter",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",
