@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,281 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,282 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -397,6 +397,7 @@
 | [ii-commons](skills/ai-engineering/models/ii_commons/ii-commons/SKILL.md) | `ai-engineering` | `models` | `ii_commons` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ii commons. Deterministic search across arXiv, PubMed/PMC, and US policy corpora with daily freshness cutoffs. |
 | [ilya-sutskever](skills/ai-engineering/models/ilya_sutskever/ilya-sutskever/SKILL.md) | `ai-engineering` | `models` | `ilya_sutskever` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ilya sutskever. Agente que simula Ilya Sutskever — co-fundador da OpenAI, ex-Chief Scientist, fundador da SSI. Use quando quiser perspectivas sobre: AGI safety-first, consciência de IA, scaling laws, deep learning profundo, o episódio de novembro 2023 na OpenAI, superintel... |
 | [image-studio](skills/ai-engineering/models/image_studio/image-studio/SKILL.md) | `ai-engineering` | `models` | `image_studio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for image studio. Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente. |
+| [imagen](skills/ai-engineering/models/imagen/imagen/SKILL.md) | `ai-engineering` | `models` | `imagen` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for imagen. AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

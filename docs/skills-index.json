@@ -8729,6 +8729,28 @@
     "maturity": "stable"
   },
   {
+    "name": "imagen",
+    "path": "skills/ai-engineering/models/imagen/imagen",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "imagen",
+    "description": "Use this skill to design, implement, and operate production workflows for imagen. AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "imagen",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Imagen",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,281** skills across structured domains, categories, and subcategories.
+Master navigation for **1,282** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (431 skills)
+## Ai Engineering (432 skills)
 
 ### Agents (53 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -216,7 +216,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (315 skills)
+### Models (316 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -828,6 +828,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ilya-sutskever](../skills/ai-engineering/models/ilya_sutskever/ilya-sutskever/SKILL.md) — Use this skill to design, implement, and operate production workflows for ilya sutskever. Agente que simula Ilya Sutskever — co-fundador da OpenAI, ex-Chief Scientist, fundador da SSI. Use quando quiser perspectivas sobre: AGI safety-first, consciência de IA, scaling laws, deep learning profundo, o episódio de novembro 2023 na OpenAI, superintel...
 - **Image_Studio** (1):
   - [image-studio](../skills/ai-engineering/models/image_studio/image-studio/SKILL.md) — Use this skill to design, implement, and operate production workflows for image studio. Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.
+- **Imagen** (1):
+  - [imagen](../skills/ai-engineering/models/imagen/imagen/SKILL.md) — Use this skill to design, implement, and operate production workflows for imagen. AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
