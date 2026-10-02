@@ -7319,6 +7319,28 @@
     "maturity": "stable"
   },
   {
+    "name": "convertkit-automation",
+    "path": "skills/developer-tools/productivity/convertkit_automatio/convertkit-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "convertkit_automatio",
+    "description": "Use this skill to automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "convertkit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Convertkit Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

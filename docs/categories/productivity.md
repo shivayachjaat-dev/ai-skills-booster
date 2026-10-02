@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [coda-automation](../../skills/developer-tools/productivity/coda_automation/coda-automation/SKILL.md) | `coda_automation` | `advanced` | `stable` | Use this skill to automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas. |
 | [competitor-tracking](../../skills/developer-tools/productivity/competitor_tracking/competitor-tracking/SKILL.md) | `competitor_tracking` | `advanced` | `stable` | Use this skill to systematic competitor analysis for developer tools. Track features, pricing, positioning, content strategy, and community sentiment for direct and indirect competitors. |
 | [confluence-automation](../../skills/developer-tools/productivity/confluence_automatio/confluence-automation/SKILL.md) | `confluence_automatio` | `advanced` | `stable` | Use this skill to automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas. |
+| [convertkit-automation](../../skills/developer-tools/productivity/convertkit_automatio/convertkit-automation/SKILL.md) | `convertkit_automatio` | `advanced` | `stable` | Use this skill to automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas. |
