@@ -5979,6 +5979,28 @@
     "maturity": "stable"
   },
   {
+    "name": "e2e-testing-patterns",
+    "path": "skills/ai-engineering/models/e2e_testing_patterns/e2e-testing-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "e2e_testing_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for e2e testing patterns. Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "e2e",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "E2E Testing Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
