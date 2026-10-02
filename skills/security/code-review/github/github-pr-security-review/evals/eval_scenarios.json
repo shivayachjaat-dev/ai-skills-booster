@@ -1,0 +1,13 @@
+[
+  {
+    "id": "scenario-1-leaked-token",
+    "prompt": "Review PR #42 which adds Stripe integration to payment-service",
+    "expected_trigger": true,
+    "expected_findings": ["hardcoded secret in config", "missing input validation"]
+  },
+  {
+    "id": "scenario-2-readme-typo",
+    "prompt": "Fix typo in documentation README.md",
+    "expected_trigger": false
+  }
+]
