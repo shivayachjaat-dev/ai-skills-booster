@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (586 skills)
+## Bash (587 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1521,6 +1521,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [comfyui-gateway](../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) — Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).
 - [command-center-ui](../skills/frontend/web-architecture/command_center_ui/command-center-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for command center ui. Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps.
 - [cyber-y2k](../skills/frontend/web-architecture/cyber_y2k/cyber-y2k/SKILL.md) — Use this skill to design, implement, and operate production workflows for cyber y2k. Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics.
+- [cyberpunk-ui](../skills/frontend/web-architecture/cyberpunk_ui/cyberpunk-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for cyberpunk ui. Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces.
 - [defuddle](../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) — Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
@@ -2956,6 +2957,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [cyber-y2k](../skills/frontend/web-architecture/cyber_y2k/cyber-y2k/SKILL.md) — Use this skill to design, implement, and operate production workflows for cyber y2k. Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics.
 
+## Cyberpunk Ui (1 skills)
+
+- [cyberpunk-ui](../skills/frontend/web-architecture/cyberpunk_ui/cyberpunk-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for cyberpunk ui. Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces.
+
 ## CycloneDX (2 skills)
 
 - [software-supply-chain-sbom-audit](../skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit/SKILL.md) — Use this skill when auditing, generating, and verifying Software Bill of Materials (SBOM) and scanning software supply chains for CVE vulnerabilities and non-compliant open-source licenses. It guides the agent through generating CycloneDX/SPDX SBOMs with Syft, scanning for known exploits with Grype, validating software licenses, and enforcing CI/CD gates.
@@ -4359,7 +4364,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (689 skills)
+## Python (690 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4882,6 +4887,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [comfyui-gateway](../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) — Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).
 - [command-center-ui](../skills/frontend/web-architecture/command_center_ui/command-center-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for command center ui. Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps.
 - [cyber-y2k](../skills/frontend/web-architecture/cyber_y2k/cyber-y2k/SKILL.md) — Use this skill to design, implement, and operate production workflows for cyber y2k. Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics.
+- [cyberpunk-ui](../skills/frontend/web-architecture/cyberpunk_ui/cyberpunk-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for cyberpunk ui. Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces.
 - [defuddle](../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) — Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.

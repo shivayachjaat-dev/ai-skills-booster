@@ -662,6 +662,7 @@ AI_Skills_Booster/
 │   │   ├── comfyui_gateway/ (1 skills)
 │   │   ├── command_center_ui/ (1 skills)
 │   │   ├── cyber_y2k/ (1 skills)
+│   │   ├── cyberpunk_ui/ (1 skills)
 │   │   ├── defuddle/ (1 skills)
 │   │   ├── production_audit/ (1 skills)
 │   │   ├── security_audit/ (1 skills)

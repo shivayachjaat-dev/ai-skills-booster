@@ -12995,6 +12995,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cyberpunk-ui",
+    "path": "skills/frontend/web-architecture/cyberpunk_ui/cyberpunk-ui",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "cyberpunk_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for cyberpunk ui. Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "cyberpunk",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cyberpunk Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "defuddle",
     "path": "skills/frontend/web-architecture/defuddle/defuddle",
     "domain": "frontend",
