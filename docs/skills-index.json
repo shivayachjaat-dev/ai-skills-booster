@@ -9477,6 +9477,28 @@
     "maturity": "stable"
   },
   {
+    "name": "leiloeiro-mercado",
+    "path": "skills/ai-engineering/models/leiloeiro_mercado/leiloeiro-mercado",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "leiloeiro_mercado",
+    "description": "Use this skill to design, implement, and operate production workflows for leiloeiro mercado. Analise de mercado imobiliario para leiloes. Liquidez, desagio tipico, ROI, estrategias de saida (flip/reforma/renda), Selic 2025 e benchmark CDI/FII.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "leiloeiro",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Leiloeiro Mercado",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
