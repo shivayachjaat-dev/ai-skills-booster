@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **6 skills** available in this category.
+> **7 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,3 +10,4 @@
 | [azure-web-pubsub-ts](../../skills/frontend/web-architecture/azure_web_pubsub_ts/azure-web-pubsub-ts/SKILL.md) | `azure_web_pubsub_ts` | `advanced` | `stable` | Use this skill to real-time messaging with WebSocket connections and pub/sub patterns. |
 | [brand-growth-system-builder](../../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) | `brand_growth_system_` | `advanced` | `stable` | Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows. |
 | [browser-harness](../../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) | `browser_harness` | `advanced` | `stable` | Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation. |
+| [burp-suite-testing](../../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) | `burp_suite_testing` | `advanced` | `stable` | Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows. |

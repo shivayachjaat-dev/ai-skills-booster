@@ -7957,6 +7957,28 @@
     "maturity": "stable"
   },
   {
+    "name": "burp-suite-testing",
+    "path": "skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "burp_suite_testing",
+    "description": "Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "burp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Burp Suite Testing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",
