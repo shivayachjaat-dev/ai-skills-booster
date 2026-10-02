@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 359 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 360 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -100,6 +100,7 @@
 | [azure-monitor-query-java](skills/ai-engineering/models/azure_monitor_query_/azure-monitor-query-java/SKILL.md) | `ai-engineering` | `models` | `azure_monitor_query_` | `advanced` | `stable` | Use this skill to azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources. |
 | [azure-search-documents-dotnet](skills/ai-engineering/models/azure_search_documen/azure-search-documents-dotnet/SKILL.md) | `ai-engineering` | `models` | `azure_search_documen` | `advanced` | `stable` | Use this skill to azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search. |
 | [azure-search-documents-py](skills/ai-engineering/models/azure_search_documen/azure-search-documents-py/SKILL.md) | `ai-engineering` | `models` | `azure_search_documen` | `advanced` | `stable` | Use this skill to azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets. |
+| [azure-storage-blob-py](skills/ai-engineering/models/azure_storage_blob_p/azure-storage-blob-py/SKILL.md) | `ai-engineering` | `models` | `azure_storage_blob_p` | `advanced` | `stable` | Use this skill to azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |

@@ -102,6 +102,7 @@ AI_Skills_Booster/
 │   │   ├── azure_mgmt_arizeaiob/ (1 skills)
 │   │   ├── azure_monitor_query_/ (1 skills)
 │   │   ├── azure_search_documen/ (2 skills)
+│   │   ├── azure_storage_blob_p/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
