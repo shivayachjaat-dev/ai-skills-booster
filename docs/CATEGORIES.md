@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,073** skills across structured domains, categories, and subcategories.
+Master navigation for **1,074** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (370 skills)
+## Ai Engineering (371 skills)
 
 ### Agents (44 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -192,7 +192,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (268 skills)
+### Models (269 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -710,6 +710,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [geo-brand-mentions](../skills/ai-engineering/models/geo_brand_mentions/geo-brand-mentions/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo brand mentions. Brand mention and authority scanner for AI visibility.
 - **Geo_Citability** (1):
   - [geo-citability](../skills/ai-engineering/models/geo_citability/geo-citability/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo citability. AI citability scoring and optimization.
+- **Geo_Content** (1):
+  - [geo-content](../skills/ai-engineering/models/geo_content/geo-content/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo content. Content quality and E-E-A-T assessment for AI citability — evaluate experience,
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

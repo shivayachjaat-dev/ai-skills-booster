@@ -7431,6 +7431,28 @@
     "maturity": "stable"
   },
   {
+    "name": "geo-content",
+    "path": "skills/ai-engineering/models/geo_content/geo-content",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "geo_content",
+    "description": "Use this skill to design, implement, and operate production workflows for geo content. Content quality and E-E-A-T assessment for AI citability \u2014 evaluate experience,",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "geo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geo Content",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
