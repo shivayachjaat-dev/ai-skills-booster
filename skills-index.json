@@ -4263,6 +4263,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-manager",
+    "path": "skills/ai-engineering/models/context_manager/context-manager",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "context_manager",
+    "description": "Use this skill to elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Manager",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
