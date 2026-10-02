@@ -7088,6 +7088,28 @@
     "maturity": "stable"
   },
   {
+    "name": "documentation",
+    "path": "skills/backend/api-frameworks/documentation/documentation",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "documentation",
+    "description": "Use this skill to design, implement, and operate production workflows for documentation. Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "documentation",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Documentation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",

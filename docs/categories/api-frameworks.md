@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **16 skills** available in this category.
+> **17 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,4 +19,5 @@
 | [developer-signup-flow](../../skills/backend/api-frameworks/developer_signup_flo/developer-signup-flow/SKILL.md) | `developer_signup_flo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for developer signup flow. Design frictionless signup experiences for developers including GitHub OAuth, API key generation, and onboarding personalization. |
 | [devops-troubleshooter](../../skills/backend/api-frameworks/devops_troubleshoote/devops-troubleshooter/SKILL.md) | `devops_troubleshoote` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devops troubleshooter. Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. |
 | [docs-guard](../../skills/backend/api-frameworks/docs_guard/docs-guard/SKILL.md) | `docs_guard` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docs guard. Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs, tutorials, and documentation sites. |
+| [documentation](../../skills/backend/api-frameworks/documentation/documentation/SKILL.md) | `documentation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for documentation. Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing. |
 | [fastapi-high-performance-endpoint-builder](../../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) | `fastapi-endpoints` | `intermediate` | `stable` | Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation. |
