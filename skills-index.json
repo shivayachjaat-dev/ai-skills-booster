@@ -5385,6 +5385,28 @@
     "maturity": "stable"
   },
   {
+    "name": "floating-ui",
+    "path": "skills/ai-engineering/models/floating_ui/floating-ui",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "floating_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "floating",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Floating Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
