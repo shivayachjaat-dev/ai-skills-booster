@@ -21707,6 +21707,28 @@
     "maturity": "stable"
   },
   {
+    "name": "linux-shell-scripting",
+    "path": "skills/frontend/ui-ux/linux_shell_scriptin/linux-shell-scripting",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "linux_shell_scriptin",
+    "description": "Use this skill to design, implement, and operate production workflows for linux shell scripting. Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration ...",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "linux",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Linux Shell Scripting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

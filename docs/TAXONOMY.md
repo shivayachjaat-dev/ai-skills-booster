@@ -1060,6 +1060,7 @@ AI_Skills_Booster/
 │   │   ├── learn/ (1 skills)
 │   │   ├── leiloeiro_avaliacao/ (1 skills)
 │   │   ├── lesson_generator/ (1 skills)
+│   │   ├── linux_shell_scriptin/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
