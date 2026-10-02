@@ -165,6 +165,7 @@ AI_Skills_Booster/
 │   │   ├── co_marketing/ (1 skills)
 │   │   ├── code_documentation_c/ (1 skills)
 │   │   ├── code_documentation_d/ (1 skills)
+│   │   ├── code_of_conduct/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

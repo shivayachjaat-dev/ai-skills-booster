@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **119 skills** available in this category.
+> **120 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -122,4 +122,5 @@
 | [co-marketing](../../skills/ai-engineering/models/co_marketing/co-marketing/SKILL.md) | `co_marketing` | `advanced` | `stable` | Use this skill to when the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. |
 | [code-documentation-code-explain](../../skills/ai-engineering/models/code_documentation_c/code-documentation-code-explain/SKILL.md) | `code_documentation_c` | `advanced` | `stable` | Use this skill to you are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations for developers at all levels. |
 | [code-documentation-doc-generate](../../skills/ai-engineering/models/code_documentation_d/code-documentation-doc-generate/SKILL.md) | `code_documentation_d` | `advanced` | `stable` | Use this skill to you are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices. |
+| [code-of-conduct](../../skills/ai-engineering/models/code_of_conduct/code-of-conduct/SKILL.md) | `code_of_conduct` | `advanced` | `stable` | Use this skill to build a human-reviewed conduct register after context-first intake. Use when an SME needs policy acknowledgements, complaint handling, and breach follow-up. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

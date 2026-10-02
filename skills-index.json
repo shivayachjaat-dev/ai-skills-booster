@@ -3581,6 +3581,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-of-conduct",
+    "path": "skills/ai-engineering/models/code_of_conduct/code-of-conduct",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "code_of_conduct",
+    "description": "Use this skill to build a human-reviewed conduct register after context-first intake. Use when an SME needs policy acknowledgements, complaint handling, and breach follow-up.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Of Conduct",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
