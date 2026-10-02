@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,138** skills across structured domains, categories, and subcategories.
+Master navigation for **1,139** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (394 skills)
+## Ai Engineering (395 skills)
 
 ### Agents (46 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -198,7 +198,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (289 skills)
+### Models (290 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -758,6 +758,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [gpu-server-management](../skills/ai-engineering/models/gpu_server_managemen/gpu-server-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for gpu server management. Set up and manage NVIDIA GPU servers for AI workloads
 - **Graceful_Shutdown** (1):
   - [graceful-shutdown](../skills/ai-engineering/models/graceful_shutdown/graceful-shutdown/SKILL.md) — Use this skill to design, implement, and operate production workflows for graceful shutdown. Implement graceful shutdown for servers and workers: drain connections, finish in-flight work, release resources, and exit cleanly on SIGTERM/SIGINT.
+- **Grok_Build** (1):
+  - [grok-build](../skills/ai-engineering/models/grok_build/grok-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for grok build. Delegate well-specified implementation tasks to xAI's Grok Build CLI running headlessly while the orchestrating agent plans, writes task specs, reviews every diff, and owns the result.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

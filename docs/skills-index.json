@@ -7959,6 +7959,28 @@
     "maturity": "stable"
   },
   {
+    "name": "grok-build",
+    "path": "skills/ai-engineering/models/grok_build/grok-build",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "grok_build",
+    "description": "Use this skill to design, implement, and operate production workflows for grok build. Delegate well-specified implementation tasks to xAI's Grok Build CLI running headlessly while the orchestrating agent plans, writes task specs, reviews every diff, and owns the result.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "grok",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Grok Build",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
