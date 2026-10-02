@@ -1480,6 +1480,28 @@
     "maturity": "stable"
   },
   {
+    "name": "identity-access-management",
+    "path": "skills/ai-engineering/computer-vision/identity_access_mana/identity-access-management",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "identity_access_mana",
+    "description": "Use this skill to design, implement, and operate production workflows for identity access management. Set up and manage SSO, SCIM provisioning, and MFA for startup teams using",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "identity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Identity Access Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "spatial-computing-ui",
     "path": "skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui",
     "domain": "ai-engineering",

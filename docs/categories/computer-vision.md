@@ -1,6 +1,6 @@
 # Category Index: Computer Vision
 
-> **8 skills** available in this category.
+> **9 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,5 +10,6 @@
 | [computer-vision-expert](../../skills/ai-engineering/computer-vision/computer_vision_expe/computer-vision-expert/SKILL.md) | `computer_vision_expe` | `advanced` | `stable` | Use this skill to sOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis. |
 | [deterministic-design](../../skills/ai-engineering/computer-vision/deterministic_design/deterministic-design/SKILL.md) | `deterministic_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deterministic design. Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The m... |
 | [elixir-pro](../../skills/ai-engineering/computer-vision/elixir_pro/elixir-pro/SKILL.md) | `elixir_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for elixir pro. Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems. |
+| [identity-access-management](../../skills/ai-engineering/computer-vision/identity_access_mana/identity-access-management/SKILL.md) | `identity_access_mana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for identity access management. Set up and manage SSO, SCIM provisioning, and MFA for startup teams using |
 | [spatial-computing-ui](../../skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui/SKILL.md) | `spatial_computing_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spatial computing ui. Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style. |
 | [spatial-design](../../skills/ai-engineering/computer-vision/spatial_design/spatial-design/SKILL.md) | `spatial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spatial design. Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics. |
