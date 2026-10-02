@@ -789,6 +789,28 @@
     "maturity": "stable"
   },
   {
+    "name": "geoffrey-hinton",
+    "path": "skills/ai-engineering/agents/geoffrey_hinton/geoffrey-hinton",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "geoffrey_hinton",
+    "description": "Use this skill to design, implement, and operate production workflows for geoffrey hinton. Agente que simula Geoffrey Hinton \u2014 Godfather of Deep Learning, Pr\u00eamio Turing 2018, criador do backpropagation e das Deep Belief Networks.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "geoffrey",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geoffrey Hinton",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",

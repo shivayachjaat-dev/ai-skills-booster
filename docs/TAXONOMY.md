@@ -39,6 +39,7 @@ AI_Skills_Booster/
 │   │   ├── forensic-audit/ (1 skills)
 │   │   ├── gemini_interactions_/ (1 skills)
 │   │   ├── geo_audit/ (1 skills)
+│   │   ├── geoffrey_hinton/ (1 skills)
 │   │   ├── lintlang_audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)
