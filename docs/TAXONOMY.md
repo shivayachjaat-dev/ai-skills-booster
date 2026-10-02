@@ -232,8 +232,10 @@ AI_Skills_Booster/
 │   │   └── web-vitals/ (1 skills)
 │   ├── react/
 │   │   └── architecture/ (1 skills)
-│   └── state-management/
+│   ├── state-management/
 │   │   └── zustand/ (1 skills)
+│   └── ui-ux/
+│   │   └── anti_sleep/ (1 skills)
 ├── marketing/
 │   ├── aso/
 │   │   └── app-store-optimization/ (1 skills)

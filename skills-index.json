@@ -3293,6 +3293,28 @@
     "maturity": "stable"
   },
   {
+    "name": "anti-sleep",
+    "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "anti_sleep",
+    "description": "Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "anti",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Anti Sleep",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",
