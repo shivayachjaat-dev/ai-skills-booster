@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1094 skills)
+## Bash (1095 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1877,6 +1877,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hono](../skills/frontend/web-architecture/hono/hono/SKILL.md) — Use this skill to design, implement, and operate production workflows for hono. Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.
 - [hugging-face-gradio](../skills/frontend/web-architecture/hugging_face_gradio/hugging-face-gradio/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face gradio. Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.
 - [hunt-websocket](../skills/frontend/web-architecture/hunt_websocket/hunt-websocket/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt websocket. Hunt WebSocket vulnerabilities
+- [idor-testing](../skills/frontend/web-architecture/idor_testing/idor-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for idor testing. Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications.
 - [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
 - [layered-design](../skills/frontend/web-architecture/layered_design/layered-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for layered design. Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content.
 - [material-design](../skills/frontend/web-architecture/material_design/material-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for material design. Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components.
@@ -6103,6 +6104,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [identity-mirror](../skills/software-engineering/architecture/patterns/identity-mirror/SKILL.md) — Use this skill to design, implement, and operate production workflows for identity mirror. One sentence - what this skill does and when to invoke it
 
+## Idor Testing (1 skills)
+
+- [idor-testing](../skills/frontend/web-architecture/idor_testing/idor-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for idor testing. Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications.
+
 ## Impacket (1 skills)
 
 - [active-directory-security-assessment](../skills/security/penetration-testing/active-directory/active-directory-security-assessment/SKILL.md) — Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.
@@ -6832,7 +6837,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1197 skills)
+## Python (1198 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7707,6 +7712,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hono](../skills/frontend/web-architecture/hono/hono/SKILL.md) — Use this skill to design, implement, and operate production workflows for hono. Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.
 - [hugging-face-gradio](../skills/frontend/web-architecture/hugging_face_gradio/hugging-face-gradio/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face gradio. Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.
 - [hunt-websocket](../skills/frontend/web-architecture/hunt_websocket/hunt-websocket/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt websocket. Hunt WebSocket vulnerabilities
+- [idor-testing](../skills/frontend/web-architecture/idor_testing/idor-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for idor testing. Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications.
 - [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
 - [layered-design](../skills/frontend/web-architecture/layered_design/layered-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for layered design. Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content.
 - [material-design](../skills/frontend/web-architecture/material_design/material-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for material design. Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components.

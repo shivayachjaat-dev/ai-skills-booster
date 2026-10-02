@@ -20739,6 +20739,28 @@
     "maturity": "stable"
   },
   {
+    "name": "idor-testing",
+    "path": "skills/frontend/web-architecture/idor_testing/idor-testing",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "idor_testing",
+    "description": "Use this skill to design, implement, and operate production workflows for idor testing. Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "idor",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Idor Testing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "isometric-design",
     "path": "skills/frontend/web-architecture/isometric_design/isometric-design",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **68 skills** available in this category.
+> **69 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -48,6 +48,7 @@
 | [hono](../../skills/frontend/web-architecture/hono/hono/SKILL.md) | `hono` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hono. Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime. |
 | [hugging-face-gradio](../../skills/frontend/web-architecture/hugging_face_gradio/hugging-face-gradio/SKILL.md) | `hugging_face_gradio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face gradio. Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots. |
 | [hunt-websocket](../../skills/frontend/web-architecture/hunt_websocket/hunt-websocket/SKILL.md) | `hunt_websocket` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt websocket. Hunt WebSocket vulnerabilities |
+| [idor-testing](../../skills/frontend/web-architecture/idor_testing/idor-testing/SKILL.md) | `idor_testing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idor testing. Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications. |
 | [isometric-design](../../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) | `isometric_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations. |
 | [layered-design](../../skills/frontend/web-architecture/layered_design/layered-design/SKILL.md) | `layered_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for layered design. Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content. |
 | [material-design](../../skills/frontend/web-architecture/material_design/material-design/SKILL.md) | `material_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for material design. Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components. |
