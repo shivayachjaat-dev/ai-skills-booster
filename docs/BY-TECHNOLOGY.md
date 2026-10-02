@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (814 skills)
+## Bash (815 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1713,6 +1713,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [web3-audit](../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) — Use this skill to smart contract security audit
 - [widget-based-design](../skills/frontend/web-architecture/widget_based_design/widget-based-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for widget based design. Web and App implementation guide for Widget-Based Design. Trigger when user wants modular blocks, iOS Home Screen aesthetics, and customizable mini-apps.
 - [y2k-design](../skills/frontend/web-architecture/y2k_design/y2k-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for y2k design. Web and App implementation guide for Y2K Design. Trigger when user wants chrome effects, futuristic 2000s look, blob shapes, and tech optimism.
+- [flutter-expert](../skills/mobile/app-development/flutter_expert/flutter-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for flutter expert. Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
 - [aws-ec2](../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) — Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
 - [aws-security-audit](../skills/security/appsec/aws_security_audit/aws-security-audit/SKILL.md) — Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices
@@ -4438,6 +4439,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [flowhunt-skill](../skills/ai-engineering/models/flowhunt_skill/flowhunt-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for flowhunt skill. Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.
 
+## Flutter Expert (1 skills)
+
+- [flutter-expert](../skills/mobile/app-development/flutter_expert/flutter-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for flutter expert. Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
+
 ## FreeRTOS (1 skills)
 
 - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
@@ -5436,7 +5441,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (917 skills)
+## Python (918 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6160,6 +6165,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ai-search-engine-optimization-and-schema-markup](../skills/marketing/seo/ai-search-optimization/ai-search-engine-optimization-and-schema-markup/SKILL.md) — Use this skill to optimize digital content and technical architecture for Generative Engine Optimization (GEO) and AI search citations across Google AI Overviews, Perplexity, ChatGPT Search, and Claude. It covers structured JSON-LD schema markup, information gain density, entity authority graphs, and machine-readable markdown tables.
 - [mcp-server-scaffold](../skills/mcp/server-development/scaffolding/mcp-server-scaffold/SKILL.md) — Use this skill when scaffolding, implementing, and validating a Model Context Protocol (MCP) server from scratch using TypeScript or Python. It guides the agent through configuring tool schemas, resource providers, prompt templates, stdio/SSE transports, error boundaries, and integration tests.
 - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
+- [flutter-expert](../skills/mobile/app-development/flutter_expert/flutter-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for flutter expert. Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
 - [multilingual-audio-dubbing-and-srt-sync](../skills/multimedia/audio/multilingual-dubbing/multilingual-audio-dubbing-and-srt-sync/SKILL.md) — Use this skill to design and automate end-to-end multilingual audio dubbing, subtitle translation, and SRT timestamp alignment pipelines using Whisper, ElevenLabs, and FFmpeg. It covers speech synthesis matching, audio ducking, subtitle timecode synchronization, and video stream multiplexing.
 - [ai-image-generation-prompt-and-asset-pipeline](../skills/multimedia/image-generation/asset-pipeline/ai-image-generation-prompt-and-asset-pipeline/SKILL.md) — Use this skill to design programmatic image generation and brand asset pipelines using Flux, Stable Diffusion, and OpenAI DALL-E APIs. It enforces structured prompt expansion, seed determinism, negative prompt hygiene, aspect ratio constraints, and automated WebP optimization.
 - [prompt-injection-defense](../skills/security/ai-security/defense/prompt-injection-defense/SKILL.md) — Use this skill when auditing, hardening, and protecting LLM applications and agent pipelines against direct and indirect prompt injection attacks. It guides the agent through untrusted data boundary separation, XML tagging, dual-model verification, output validation guardrails, and tool execution privilege sandboxing.

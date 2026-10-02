@@ -17494,6 +17494,28 @@
     "maturity": "stable"
   },
   {
+    "name": "flutter-expert",
+    "path": "skills/mobile/app-development/flutter_expert/flutter-expert",
+    "domain": "mobile",
+    "category": "app-development",
+    "subcategory": "flutter_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for flutter expert. Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.",
+    "tags": [
+      "mobile",
+      "app-development",
+      "flutter",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Flutter Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ios-app-clip-architecture",
     "path": "skills/mobile/ios/app-clips/ios-app-clip-architecture",
     "domain": "mobile",
