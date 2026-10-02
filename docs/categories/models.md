@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **25 skills** available in this category.
+> **26 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,4 +28,5 @@
 | [aws-cloudtrail](../../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) | `aws_cloudtrail` | `advanced` | `stable` | Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails |
 | [aws-cost-operations](../../skills/ai-engineering/models/aws_cost_operations/aws-cost-operations/SKILL.md) | `aws_cost_operations` | `advanced` | `stable` | Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture. |
 | [aws-ecs-fargate](../../skills/ai-engineering/models/aws_ecs_fargate/aws-ecs-fargate/SKILL.md) | `aws_ecs_fargate` | `advanced` | `stable` | Use this skill to deploy containers on ECS and Fargate. Configure task definitions, services, |
+| [awt-e2e-testing](../../skills/ai-engineering/models/awt_e2e_testing/awt-e2e-testing/SKILL.md) | `awt_e2e_testing` | `advanced` | `stable` | Use this skill to aI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **241** skills across structured domains, categories, and subcategories.
+Master navigation for **242** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (63 skills)
+## Ai Engineering (64 skills)
 
 ### Agents (15 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -108,7 +108,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (25 skills)
+### Models (26 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -159,6 +159,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [aws-cost-operations](../skills/ai-engineering/models/aws_cost_operations/aws-cost-operations/SKILL.md) — Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture.
 - **Aws_Ecs_Fargate** (1):
   - [aws-ecs-fargate](../skills/ai-engineering/models/aws_ecs_fargate/aws-ecs-fargate/SKILL.md) — Use this skill to deploy containers on ECS and Fargate. Configure task definitions, services,
+- **Awt_E2E_Testing** (1):
+  - [awt-e2e-testing](../skills/ai-engineering/models/awt_e2e_testing/awt-e2e-testing/SKILL.md) — Use this skill to aI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

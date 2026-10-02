@@ -1271,6 +1271,28 @@
     "maturity": "stable"
   },
   {
+    "name": "awt-e2e-testing",
+    "path": "skills/ai-engineering/models/awt_e2e_testing/awt-e2e-testing",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "awt_e2e_testing",
+    "description": "Use this skill to aI-powered E2E web testing \u2014 eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "awt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Awt E2E Testing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
