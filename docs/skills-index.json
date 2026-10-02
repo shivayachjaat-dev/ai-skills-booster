@@ -29812,6 +29812,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nodejs-best-practices",
+    "path": "skills/security/appsec/nodejs_best_practice/nodejs-best-practices",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "nodejs_best_practice",
+    "description": "Use this skill to design, implement, and operate production workflows for nodejs best practices. Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
+    "tags": [
+      "security",
+      "appsec",
+      "nodejs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nodejs Best Practices",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
