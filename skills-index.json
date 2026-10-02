@@ -776,6 +776,32 @@
     "maturity": "stable"
   },
   {
+    "name": "timescaledb-hypertables-and-retention",
+    "path": "skills/databases/time-series/timescaledb/timescaledb-hypertables-and-retention",
+    "domain": "databases",
+    "category": "time-series",
+    "subcategory": "timescaledb",
+    "description": "Use this skill when architecting, partitioning, and optimizing high-throughput time-series databases with TimescaleDB on PostgreSQL. It guides the agent through hypertable creation, chunk time interval sizing, continuous aggregates with automatic refresh policies, column-oriented compression policies, and data retention drops.",
+    "tags": [
+      "timescaledb",
+      "postgresql",
+      "time-series",
+      "database",
+      "analytics",
+      "sql",
+      "iot"
+    ],
+    "technologies": [
+      "TimescaleDB",
+      "PostgreSQL",
+      "SQL",
+      "Python asyncpg",
+      "Docker"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",

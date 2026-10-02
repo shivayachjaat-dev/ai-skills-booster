@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **74** skills across structured domains, categories, and subcategories.
+Master navigation for **75** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (11 skills)
 
@@ -136,7 +136,7 @@ Category index: [`docs/categories/experimentation.md`](categories/experimentatio
 - **Ab Testing** (1):
   - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 
-## Databases (7 skills)
+## Databases (8 skills)
 
 ### Clickhouse (1 skills)
 Category index: [`docs/categories/clickhouse.md`](categories/clickhouse.md)
@@ -179,6 +179,12 @@ Category index: [`docs/categories/search.md`](categories/search.md)
 
 - **Meilisearch** (1):
   - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
+
+### Time Series (1 skills)
+Category index: [`docs/categories/time-series.md`](categories/time-series.md)
+
+- **Timescaledb** (1):
+  - [timescaledb-hypertables-and-retention](../skills/databases/time-series/timescaledb/timescaledb-hypertables-and-retention/SKILL.md) — Use this skill when architecting, partitioning, and optimizing high-throughput time-series databases with TimescaleDB on PostgreSQL. It guides the agent through hypertable creation, chunk time interval sizing, continuous aggregates with automatic refresh policies, column-oriented compression policies, and data retention drops.
 
 ## Devops (12 skills)
 
