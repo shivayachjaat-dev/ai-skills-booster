@@ -31815,6 +31815,28 @@
     "maturity": "stable"
   },
   {
+    "name": "machine-learning-ops-ml-pipeline",
+    "path": "skills/software-engineering/architecture/patterns/machine-learning-ops-ml-pipeline",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for machine learning ops ml pipeline. Design and implement a complete ML pipeline for: $ARGUMENTS",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "machine",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Machine Learning Ops Ml Pipeline",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
