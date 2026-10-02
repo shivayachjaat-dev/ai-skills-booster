@@ -6617,6 +6617,28 @@
     "maturity": "stable"
   },
   {
+    "name": "faf-expert",
+    "path": "skills/ai-engineering/models/faf_expert/faf-expert",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "faf_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for faf expert. Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "faf",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Faf Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",

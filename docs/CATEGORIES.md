@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **953** skills across structured domains, categories, and subcategories.
+Master navigation for **954** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (332 skills)
+## Ai Engineering (333 skills)
 
 ### Agents (41 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -182,7 +182,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (239 skills)
+### Models (240 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -636,6 +636,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [fact-check-x-complete](../skills/ai-engineering/models/fact_check_x_complet/fact-check-x-complete/SKILL.md) — Use this skill to design, implement, and operate production workflows for fact check x complete. Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.
 - **Faf_Context** (1):
   - [faf-context](../skills/ai-engineering/models/faf_context/faf-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for faf context. Get your project to 100% ✪ AI-readiness, fast — the AI auto-detects your stack and only asks for what it can't know (your goal and the human "why"). Least typing, maximum context. For time-conscious builders; feeds into faf-expert for depth.
+- **Faf_Expert** (1):
+  - [faf-expert](../skills/ai-engineering/models/faf_expert/faf-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for faf expert. Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):
