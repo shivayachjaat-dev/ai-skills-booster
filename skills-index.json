@@ -2239,6 +2239,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-gateway",
+    "path": "skills/ai-engineering/llm-ops/llm_gateway/llm-gateway",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llm_gateway",
+    "description": "Use this skill to design, implement, and operate production workflows for llm gateway. Deploy an API gateway for LLM traffic with load balancing, rate limiting,",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Gateway",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",
