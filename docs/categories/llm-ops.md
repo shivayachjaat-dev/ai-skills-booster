@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,3 +19,4 @@
 | [llm-fine-tuning](../../skills/ai-engineering/llm-ops/llm_fine_tuning/llm-fine-tuning/SKILL.md) | `llm_fine_tuning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm fine tuning. Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full |
 | [llm-gateway](../../skills/ai-engineering/llm-ops/llm_gateway/llm-gateway/SKILL.md) | `llm_gateway` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm gateway. Deploy an API gateway for LLM traffic with load balancing, rate limiting, |
 | [llm-inference-scaling](../../skills/ai-engineering/llm-ops/llm_inference_scalin/llm-inference-scaling/SKILL.md) | `llm_inference_scalin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm inference scaling. Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU |
+| [llm-ops](../../skills/ai-engineering/llm-ops/llm_ops/llm-ops/SKILL.md) | `llm_ops` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm ops. LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao. |

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,417** skills across structured domains, categories, and subcategories.
+Master navigation for **1,418** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (488 skills)
+## Ai Engineering (489 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -214,7 +214,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (15 skills)
+### Llm Ops (16 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -247,6 +247,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [llm-gateway](../skills/ai-engineering/llm-ops/llm_gateway/llm-gateway/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm gateway. Deploy an API gateway for LLM traffic with load balancing, rate limiting,
 - **Llm_Inference_Scalin** (1):
   - [llm-inference-scaling](../skills/ai-engineering/llm-ops/llm_inference_scalin/llm-inference-scaling/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm inference scaling. Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU
+- **Llm_Ops** (1):
+  - [llm-ops](../skills/ai-engineering/llm-ops/llm_ops/llm-ops/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm ops. LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao.
 
 ### Models (354 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
