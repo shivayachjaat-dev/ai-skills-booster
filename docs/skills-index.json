@@ -3845,6 +3845,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cohesivity",
+    "path": "skills/ai-engineering/models/cohesivity/cohesivity",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cohesivity",
+    "description": "Use this skill to provision headless backend services for AI agents through Cohesivity: hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when a trusted .cohesivity file exists or the user approves a new backend.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cohesivity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cohesivity",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
