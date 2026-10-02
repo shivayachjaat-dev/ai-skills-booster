@@ -9057,6 +9057,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cloudflare-workers",
+    "path": "skills/frontend/ui-ux/cloudflare_workers/cloudflare-workers",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "cloudflare_workers",
+    "description": "Use this skill to build and deploy edge functions with Cloudflare Workers and Wrangler.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "cloudflare",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cloudflare Workers",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

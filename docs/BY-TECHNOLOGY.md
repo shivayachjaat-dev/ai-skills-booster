@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (342 skills)
+## Bash (343 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1326,6 +1326,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ci-cd-and-automation](../skills/frontend/ui-ux/ci_cd_and_automation/ci-cd-and-automation/SKILL.md) — Use this skill to automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.
 - [claude-ally-health](../skills/frontend/ui-ux/claude_ally_health/claude-ally-health/SKILL.md) — Use this skill to a health assistant skill for medical information analysis, symptom tracking, and wellness guidance.
 - [claude-d3js-skill](../skills/frontend/ui-ux/claude_d3js_skill/claude-d3js-skill/SKILL.md) — Use this skill to this skill provides guidance for creating sophisticated, interactive data visualisations using d3.js.
+- [cloudflare-workers](../skills/frontend/ui-ux/cloudflare_workers/cloudflare-workers/SKILL.md) — Use this skill to build and deploy edge functions with Cloudflare Workers and Wrangler.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
@@ -2075,6 +2076,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Cloudflare Security Audit (1 skills)
 
 - [cloudflare-security-audit](../skills/ai-engineering/models/cloudflare_security_/cloudflare-security-audit/SKILL.md) — Use this skill to audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting.
+
+## Cloudflare Workers (1 skills)
+
+- [cloudflare-workers](../skills/frontend/ui-ux/cloudflare_workers/cloudflare-workers/SKILL.md) — Use this skill to build and deploy edge functions with Cloudflare Workers and Wrangler.
 
 ## Colima (1 skills)
 
@@ -3207,7 +3212,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (445 skills)
+## Python (446 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3551,6 +3556,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ci-cd-and-automation](../skills/frontend/ui-ux/ci_cd_and_automation/ci-cd-and-automation/SKILL.md) — Use this skill to automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.
 - [claude-ally-health](../skills/frontend/ui-ux/claude_ally_health/claude-ally-health/SKILL.md) — Use this skill to a health assistant skill for medical information analysis, symptom tracking, and wellness guidance.
 - [claude-d3js-skill](../skills/frontend/ui-ux/claude_d3js_skill/claude-d3js-skill/SKILL.md) — Use this skill to this skill provides guidance for creating sophisticated, interactive data visualisations using d3.js.
+- [cloudflare-workers](../skills/frontend/ui-ux/cloudflare_workers/cloudflare-workers/SKILL.md) — Use this skill to build and deploy edge functions with Cloudflare Workers and Wrangler.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
