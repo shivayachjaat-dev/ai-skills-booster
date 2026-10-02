@@ -2892,6 +2892,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-identity-py",
+    "path": "skills/backend/python-services/azure_identity_py/azure-identity-py",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "azure_identity_py",
+    "description": "Use this skill to azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, and token caching.",
+    "tags": [
+      "backend",
+      "python-services",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Identity Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

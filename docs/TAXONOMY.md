@@ -153,7 +153,8 @@ AI_Skills_Booster/
 │   ├── python-services/
 │   │   ├── azure_appconfigurati/ (1 skills)
 │   │   ├── azure_eventgrid_py/ (1 skills)
-│   │   └── azure_eventhub_py/ (1 skills)
+│   │   ├── azure_eventhub_py/ (1 skills)
+│   │   └── azure_identity_py/ (1 skills)
 │   ├── realtime/
 │   │   └── websocket/ (1 skills)
 │   └── resilience/
