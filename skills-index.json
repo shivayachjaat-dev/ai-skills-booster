@@ -6391,6 +6391,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codex-profiles",
+    "path": "skills/desktop/frameworks/codex_profiles/codex-profiles",
+    "domain": "desktop",
+    "category": "frameworks",
+    "subcategory": "codex_profiles",
+    "description": "Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.",
+    "tags": [
+      "desktop",
+      "frameworks",
+      "codex",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codex Profiles",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-native-cli-tool-architecture-with-typer",
     "path": "skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer",
     "domain": "developer-tools",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **557** skills across structured domains, categories, and subcategories.
+Master navigation for **558** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (193 skills)
 
@@ -808,15 +808,17 @@ Category index: [`docs/categories/time-series.md`](categories/time-series.md)
 - **Timescaledb** (1):
   - [timescaledb-hypertables-and-retention](../skills/databases/time-series/timescaledb/timescaledb-hypertables-and-retention/SKILL.md) — Use this skill when architecting, partitioning, and optimizing high-throughput time-series databases with TimescaleDB on PostgreSQL. It guides the agent through hypertable creation, chunk time interval sizing, continuous aggregates with automatic refresh policies, column-oriented compression policies, and data retention drops.
 
-## Desktop (2 skills)
+## Desktop (3 skills)
 
-### Frameworks (2 skills)
+### Frameworks (3 skills)
 Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 
 - **Avalonia Dotnet** (1):
   - [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
 - **Chatexport_Need_Mine** (1):
   - [chatexport-need-miner](../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) — Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
+- **Codex_Profiles** (1):
+  - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
 ## Developer Tools (13 skills)
 

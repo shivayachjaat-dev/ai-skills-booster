@@ -336,7 +336,8 @@ AI_Skills_Booster/
 ├── desktop/
 │   └── frameworks/
 │   │   ├── avalonia-dotnet/ (1 skills)
-│   │   └── chatexport_need_mine/ (1 skills)
+│   │   ├── chatexport_need_mine/ (1 skills)
+│   │   └── codex_profiles/ (1 skills)
 ├── developer-tools/
 │   ├── cli/
 │   │   └── typer-architecture/ (1 skills)
