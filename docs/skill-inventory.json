@@ -34,7 +34,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.266768+00:00"
+    "updated_at": "2026-10-02T13:16:59.303865+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -72,7 +72,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.267810+00:00"
+    "updated_at": "2026-10-02T13:16:59.304867+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -109,7 +109,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.267810+00:00"
+    "updated_at": "2026-10-02T13:16:59.305339+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -147,7 +147,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.267810+00:00"
+    "updated_at": "2026-10-02T13:16:59.305339+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -185,7 +185,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.268811+00:00"
+    "updated_at": "2026-10-02T13:16:59.305339+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -224,7 +224,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.268811+00:00"
+    "updated_at": "2026-10-02T13:16:59.306608+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -263,7 +263,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.269811+00:00"
+    "updated_at": "2026-10-02T13:16:59.306608+00:00"
   },
   {
     "name": "skill-creator",
@@ -300,7 +300,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.269811+00:00"
+    "updated_at": "2026-10-02T13:16:59.307607+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -337,7 +337,46 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.271450+00:00"
+    "updated_at": "2026-10-02T13:16:59.307607+00:00"
+  },
+  {
+    "name": "secret-leak-detection-and-remediation",
+    "slug": "secret-leak-detection-and-remediation",
+    "path": "skills/security/secret-management/detection/secret-leak-detection-and-remediation",
+    "domain": "security",
+    "category": "secret-management",
+    "subcategory": "detection",
+    "description": "Use this skill when detecting, containing, revoking, and purging secrets committed to Git repositories or build artifacts. It guides the agent through scanning history with TruffleHog/Gitleaks, executing emergency credential revocation, rewriting Git history with git-filter-repo, and installing pre-commit guardrails.",
+    "tags": [
+      "security",
+      "secrets",
+      "git",
+      "credential-hygiene",
+      "devsecops",
+      "incident-response"
+    ],
+    "technologies": [
+      "Git",
+      "Gitleaks",
+      "TruffleHog",
+      "git-filter-repo"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "git",
+      "gitleaks",
+      "python"
+    ],
+    "dependencies": [
+      "git >= 2.30"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "source": "AI_Skills_Booster",
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:16:59.308604+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -376,7 +415,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.271450+00:00"
+    "updated_at": "2026-10-02T13:16:59.308604+00:00"
   },
   {
     "name": "playwright-e2e-testing",
@@ -415,6 +454,6 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:16:55.272519+00:00"
+    "updated_at": "2026-10-02T13:16:59.309604+00:00"
   }
 ]

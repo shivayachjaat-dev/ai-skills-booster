@@ -212,6 +212,30 @@
     "maturity": "stable"
   },
   {
+    "name": "secret-leak-detection-and-remediation",
+    "path": "skills/security/secret-management/detection/secret-leak-detection-and-remediation",
+    "domain": "security",
+    "category": "secret-management",
+    "subcategory": "detection",
+    "description": "Use this skill when detecting, containing, revoking, and purging secrets committed to Git repositories or build artifacts. It guides the agent through scanning history with TruffleHog/Gitleaks, executing emergency credential revocation, rewriting Git history with git-filter-repo, and installing pre-commit guardrails.",
+    "tags": [
+      "security",
+      "secrets",
+      "git",
+      "credential-hygiene",
+      "devsecops",
+      "incident-response"
+    ],
+    "technologies": [
+      "Git",
+      "Gitleaks",
+      "TruffleHog",
+      "git-filter-repo"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-and-interface-design",
     "path": "skills/software-engineering/architecture/interfaces/api-and-interface-design",
     "domain": "software-engineering",

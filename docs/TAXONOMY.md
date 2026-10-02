@@ -25,8 +25,10 @@ AI_Skills_Booster/
 │   └── ecosystem/
 │   │   └── creation/ (1 skills)
 ├── security/
-│   └── code-review/
+│   ├── code-review/
 │   │   └── github/ (1 skills)
+│   └── secret-management/
+│   │   └── detection/ (1 skills)
 ├── software-engineering/
 │   └── architecture/
 │   │   └── interfaces/ (1 skills)
