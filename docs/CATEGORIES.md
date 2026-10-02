@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **517** skills across structured domains, categories, and subcategories.
+Master navigation for **518** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (174 skills)
 
@@ -824,9 +824,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (66 skills)
+## Devops (67 skills)
 
-### Ci Cd (11 skills)
+### Ci Cd (12 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -849,6 +849,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [cdn-setup](../skills/devops/ci-cd/cdn_setup/cdn-setup/SKILL.md) — Use this skill to configure CDNs for content delivery. Set up CloudFront, Cloudflare, and
 - **Circleci** (1):
   - [circleci](../skills/devops/ci-cd/circleci/circleci/SKILL.md) — Use this skill to configure CircleCI workflows and orbs for continuous integration and
+- **Cloud_Devops** (1):
+  - [cloud-devops](../skills/devops/ci-cd/cloud_devops/cloud-devops/SKILL.md) — Use this skill to cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development.
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 

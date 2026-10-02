@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,4 +14,5 @@
 | [brendangregg-use-tsa](../../skills/devops/ci-cd/brendangregg_use_tsa/brendangregg-use-tsa/SKILL.md) | `brendangregg_use_tsa` | `advanced` | `stable` | Use this skill to methodical performance troubleshooting and root-cause analysis with Brendan Gregg's USE and TSA methods, plus evidence-backed RCA and postmortem reports. |
 | [cdn-setup](../../skills/devops/ci-cd/cdn_setup/cdn-setup/SKILL.md) | `cdn_setup` | `advanced` | `stable` | Use this skill to configure CDNs for content delivery. Set up CloudFront, Cloudflare, and |
 | [circleci](../../skills/devops/ci-cd/circleci/circleci/SKILL.md) | `circleci` | `advanced` | `stable` | Use this skill to configure CircleCI workflows and orbs for continuous integration and |
+| [cloud-devops](../../skills/devops/ci-cd/cloud_devops/cloud-devops/SKILL.md) | `cloud_devops` | `advanced` | `stable` | Use this skill to cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development. |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
