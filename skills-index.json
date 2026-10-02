@@ -3984,6 +3984,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-communication-sms-java",
+    "path": "skills/devops/cloud-infrastructure/azure_communication_/azure-communication-sms-java",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_communication_",
+    "description": "Use this skill to send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Communication Sms Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

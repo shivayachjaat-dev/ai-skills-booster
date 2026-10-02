@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [aws-sst-development](../../skills/devops/cloud-infrastructure/aws_sst_development/aws-sst-development/SKILL.md) | `aws_sst_development` | `advanced` | `stable` | Use this skill to sST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework. |
 | [azure-appconfiguration-java](../../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-java/SKILL.md) | `azure_appconfigurati` | `advanced` | `stable` | Use this skill to azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots. |
 | [azure-appconfiguration-ts](../../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-ts/SKILL.md) | `azure_appconfigurati` | `advanced` | `stable` | Use this skill to centralized configuration management with feature flags and dynamic refresh. |
+| [azure-communication-sms-java](../../skills/devops/cloud-infrastructure/azure_communication_/azure-communication-sms-java/SKILL.md) | `azure_communication_` | `advanced` | `stable` | Use this skill to send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports. |

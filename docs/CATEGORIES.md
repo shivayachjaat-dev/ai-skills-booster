@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **281** skills across structured domains, categories, and subcategories.
+Master navigation for **282** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (97 skills)
 
@@ -600,7 +600,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (33 skills)
+## Devops (34 skills)
 
 ### Ci Cd (5 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -616,7 +616,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (7 skills)
+### Cloud Infrastructure (8 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -632,6 +632,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
 - **Azure_Appconfigurati** (2):
   - [azure-appconfiguration-java](../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-java/SKILL.md) — Use this skill to azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.
   - [azure-appconfiguration-ts](../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-ts/SKILL.md) — Use this skill to centralized configuration management with feature flags and dynamic refresh.
+- **Azure_Communication_** (1):
+  - [azure-communication-sms-java](../skills/devops/cloud-infrastructure/azure_communication_/azure-communication-sms-java/SKILL.md) — Use this skill to send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)
