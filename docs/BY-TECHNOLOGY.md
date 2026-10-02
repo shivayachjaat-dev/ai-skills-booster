@@ -272,6 +272,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
 
+## Expo (1 skills)
+
+- [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
+
 ## Express.js (2 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -977,6 +981,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [nextjs-app-router-architecture](../skills/frontend/nextjs/architecture/nextjs-app-router-architecture/SKILL.md) — Use this skill when architecting and developing full-stack web applications with Next.js App Router (version 14+ / 15+). It guides the agent through React Server Components (RSC) vs Client Components boundaries, Server Actions with Zod validation, streaming SSR with Suspense boundaries, parallel and intercepting routes, dynamic segment caching, and revalidation (ISR).
 
+## React Native (1 skills)
+
+- [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
+
 ## React Three Fiber (1 skills)
 
 - [threejs-3d-web-experience](../skills/frontend/3d-graphics/threejs/threejs-3d-web-experience/SKILL.md) — Use this skill when designing, implementing, and optimizing interactive 3D web experiences using Three.js and React Three Fiber (R3F). It guides the agent through scene graph architecture, GLTF/GLB model loading and compression (Draco/Meshopt), custom GLSL shaders, camera controls (OrbitControls), lighting and shadows, and 60 FPS mobile performance optimization.
@@ -1109,6 +1117,14 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Statsmodels (1 skills)
 
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
+
+## Swift (1 skills)
+
+- [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
+
+## SwiftUI (1 skills)
+
+- [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
 
 ## Syft (1 skills)
 
@@ -1246,6 +1262,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
+## Xcode (1 skills)
+
+- [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
+
 ## YAML (5 skills)
 
 - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
@@ -1297,6 +1317,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## hvac (1 skills)
 
 - [vault-secrets-management](../skills/security/secrets/vault/vault-secrets-management/SKILL.md) — Use this skill when architecting and managing enterprise secrets using HashiCorp Vault. It guides the agent through dynamic database credentials generation, lease management and renewal, Kubernetes ServiceAccount authentication, PKI on-demand certificate issuance, transit encryption, and disaster recovery replication.
+
+## iOS SDK (1 skills)
+
+- [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
 
 ## iptables (1 skills)
 

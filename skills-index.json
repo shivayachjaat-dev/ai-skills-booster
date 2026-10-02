@@ -1708,6 +1708,33 @@
     "maturity": "stable"
   },
   {
+    "name": "ios-app-clip-architecture",
+    "path": "skills/mobile/ios/app-clips/ios-app-clip-architecture",
+    "domain": "mobile",
+    "category": "ios",
+    "subcategory": "app-clips",
+    "description": "Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.",
+    "tags": [
+      "ios",
+      "app-clips",
+      "apple",
+      "mobile",
+      "swift",
+      "expo",
+      "react-native"
+    ],
+    "technologies": [
+      "iOS SDK",
+      "Swift",
+      "SwiftUI",
+      "Expo",
+      "React Native",
+      "Xcode"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "golang-goroutine-concurrency-patterns",
     "path": "skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns",
     "domain": "programming-languages",

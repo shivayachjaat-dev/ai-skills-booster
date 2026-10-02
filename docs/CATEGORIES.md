@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **104** skills across structured domains, categories, and subcategories.
+Master navigation for **105** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -374,6 +374,14 @@ Category index: [`docs/categories/ecosystem.md`](categories/ecosystem.md)
 
 - **Creation** (1):
   - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
+
+## Mobile (1 skills)
+
+### Ios (1 skills)
+Category index: [`docs/categories/ios.md`](categories/ios.md)
+
+- **App Clips** (1):
+  - [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
 
 ## Programming Languages (2 skills)
 
