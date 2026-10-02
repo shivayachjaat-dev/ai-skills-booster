@@ -29395,6 +29395,28 @@
     "maturity": "stable"
   },
   {
+    "name": "json-canvas",
+    "path": "skills/software-engineering/architecture/patterns/json-canvas",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for json canvas. Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "json",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Json Canvas",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
