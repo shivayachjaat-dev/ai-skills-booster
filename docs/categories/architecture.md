@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **40 skills** available in this category.
+> **41 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -44,3 +44,4 @@
 | [competitor-profiling](../../skills/software-engineering/architecture/patterns/competitor-profiling/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to when the user wants to research, profile, or analyze competitors from their URLs. |
 | [complexity-cuts](../../skills/software-engineering/architecture/patterns/complexity-cuts/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard. |
 | [composition-patterns](../../skills/software-engineering/architecture/patterns/composition-patterns/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with composition-patterns tasks or workflows |
+| [comprehensive-review-full-review](../../skills/software-engineering/architecture/patterns/comprehensive-review-full-review/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with comprehensive review full review |

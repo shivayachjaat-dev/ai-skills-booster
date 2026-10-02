@@ -12829,6 +12829,28 @@
     "maturity": "stable"
   },
   {
+    "name": "comprehensive-review-full-review",
+    "path": "skills/software-engineering/architecture/patterns/comprehensive-review-full-review",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to use when working with comprehensive review full review",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "comprehensive",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Comprehensive Review Full Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
