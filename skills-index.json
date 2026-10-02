@@ -4006,6 +4006,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-compute-batch-java",
+    "path": "skills/devops/cloud-infrastructure/azure_compute_batch_/azure-compute-batch-java",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_compute_batch_",
+    "description": "Use this skill to azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Compute Batch Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

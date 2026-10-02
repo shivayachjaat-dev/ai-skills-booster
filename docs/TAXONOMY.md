@@ -242,7 +242,8 @@ AI_Skills_Booster/
 │   │   ├── aws_skills/ (1 skills)
 │   │   ├── aws_sst_development/ (1 skills)
 │   │   ├── azure_appconfigurati/ (2 skills)
-│   │   └── azure_communication_/ (1 skills)
+│   │   ├── azure_communication_/ (1 skills)
+│   │   └── azure_compute_batch_/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

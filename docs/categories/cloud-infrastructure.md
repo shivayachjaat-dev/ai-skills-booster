@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **8 skills** available in this category.
+> **9 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -12,3 +12,4 @@
 | [azure-appconfiguration-java](../../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-java/SKILL.md) | `azure_appconfigurati` | `advanced` | `stable` | Use this skill to azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots. |
 | [azure-appconfiguration-ts](../../skills/devops/cloud-infrastructure/azure_appconfigurati/azure-appconfiguration-ts/SKILL.md) | `azure_appconfigurati` | `advanced` | `stable` | Use this skill to centralized configuration management with feature flags and dynamic refresh. |
 | [azure-communication-sms-java](../../skills/devops/cloud-infrastructure/azure_communication_/azure-communication-sms-java/SKILL.md) | `azure_communication_` | `advanced` | `stable` | Use this skill to send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports. |
+| [azure-compute-batch-java](../../skills/devops/cloud-infrastructure/azure_compute_batch_/azure-compute-batch-java/SKILL.md) | `azure_compute_batch_` | `advanced` | `stable` | Use this skill to azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes. |
