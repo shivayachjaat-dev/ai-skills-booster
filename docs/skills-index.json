@@ -9732,6 +9732,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-papers",
+    "path": "skills/backend/api-frameworks/hugging_face_papers/hugging-face-papers",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "hugging_face_papers",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face papers. Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Papers",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",

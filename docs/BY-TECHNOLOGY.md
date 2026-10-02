@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1006 skills)
+## Bash (1007 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1473,6 +1473,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fp-async](../skills/backend/api-frameworks/fp_async/fp-async/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp async. Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples
 - [gemini-api-integration](../skills/backend/api-frameworks/gemini_api_integrati/gemini-api-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini api integration. Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices.
 - [github](../skills/backend/api-frameworks/github/github/SKILL.md) — Use this skill to design, implement, and operate production workflows for github. Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries.
+- [hugging-face-papers](../skills/backend/api-frameworks/hugging_face_papers/hugging-face-papers/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face papers. Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
 - [azure-postgres-ts](../skills/backend/databases/azure_postgres_ts/azure-postgres-ts/SKILL.md) — Use this skill to connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
 - [azure-resource-manager-mysql-dotnet](../skills/backend/databases/azure_resource_manag/azure-resource-manager-mysql-dotnet/SKILL.md) — Use this skill to azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments.
@@ -5641,6 +5642,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [hugging-face-paper-publisher](../skills/ai-engineering/models/hugging_face_paper_p/hugging-face-paper-publisher/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face paper publisher. Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.
 
+## Hugging Face Papers (1 skills)
+
+- [hugging-face-papers](../skills/backend/api-frameworks/hugging_face_papers/hugging-face-papers/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face papers. Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page.
+
 ## HuggingFace (3 skills)
 
 - [ragas-rag-triad-evaluation](../skills/ai-engineering/evaluation/ragas-rag-evaluation/ragas-rag-triad-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and auditing Retrieval-Augmented Generation (RAG) pipelines using RAGAS and the RAG Triad framework. It guides the agent through calculating Faithfulness (hallucination detection), Answer Relevance, Context Precision, and Context Recall, building synthetic evaluation datasets, and CI automated regression gating.
@@ -6392,7 +6397,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1109 skills)
+## Python (1110 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6825,6 +6830,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fp-async](../skills/backend/api-frameworks/fp_async/fp-async/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp async. Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples
 - [gemini-api-integration](../skills/backend/api-frameworks/gemini_api_integrati/gemini-api-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini api integration. Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices.
 - [github](../skills/backend/api-frameworks/github/github/SKILL.md) — Use this skill to design, implement, and operate production workflows for github. Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries.
+- [hugging-face-papers](../skills/backend/api-frameworks/hugging_face_papers/hugging-face-papers/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face papers. Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page.
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
 - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
