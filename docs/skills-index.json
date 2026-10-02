@@ -1183,6 +1183,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-cloudtrail",
+    "path": "skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "aws_cloudtrail",
+    "description": "Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Cloudtrail",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

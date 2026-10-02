@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **22 skills** available in this category.
+> **23 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -25,4 +25,5 @@
 | [autonomous-agents](../../skills/ai-engineering/models/autonomous_agents/autonomous-agents/SKILL.md) | `autonomous_agents` | `advanced` | `stable` | Use this skill to autonomous agents are AI systems that can independently decompose |
 | [avoid-ai-writing](../../skills/ai-engineering/models/avoid_ai_writing/avoid-ai-writing/SKILL.md) | `avoid_ai_writing` | `advanced` | `stable` | Use this skill to audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table |
 | [aws-agentic-ai](../../skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) | `aws_agentic_ai` | `advanced` | `stable` | Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations. |
+| [aws-cloudtrail](../../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) | `aws_cloudtrail` | `advanced` | `stable` | Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

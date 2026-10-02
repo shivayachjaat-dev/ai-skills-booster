@@ -64,6 +64,7 @@ AI_Skills_Booster/
 │   │   ├── autonomous_agents/ (1 skills)
 │   │   ├── avoid_ai_writing/ (1 skills)
 │   │   ├── aws_agentic_ai/ (1 skills)
+│   │   ├── aws_cloudtrail/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
