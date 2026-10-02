@@ -2437,6 +2437,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mcp-builder",
+    "path": "skills/ai-engineering/llm-ops/mcp_builder/mcp-builder",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "mcp_builder",
+    "description": "Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "mcp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mcp Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

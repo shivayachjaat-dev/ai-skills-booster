@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,495** skills across structured domains, categories, and subcategories.
+Master navigation for **1,496** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (518 skills)
+## Ai Engineering (519 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -220,7 +220,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (19 skills)
+### Llm Ops (20 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -261,6 +261,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [llmops-platform-engineering](../skills/ai-engineering/llm-ops/llmops_platform_engi/llmops-platform-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for llmops platform engineering. Build production LLMOps platforms with CI/CD, model promotion workflows,
 - **Mac_Mini_Llm_Lab** (1):
   - [mac-mini-llm-lab](../skills/ai-engineering/llm-ops/mac_mini_llm_lab/mac-mini-llm-lab/SKILL.md) — Use this skill to design, implement, and operate production workflows for mac mini llm lab. Configure a Mac mini as a reliable local LLM server with remote access,
+- **Mcp_Builder** (1):
+  - [mcp-builder](../skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
 
 ### Models (376 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
