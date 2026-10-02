@@ -11312,6 +11312,28 @@
     "maturity": "stable"
   },
   {
+    "name": "marketing-psychology",
+    "path": "skills/ai-engineering/rag/marketing_psychology/marketing-psychology",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "marketing_psychology",
+    "description": "Use this skill to design, implement, and operate production workflows for marketing psychology. Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "marketing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Marketing Psychology",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
