@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **94 skills** available in this category.
+> **95 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -97,4 +97,5 @@
 | [error-diagnostics-error-analysis](../../skills/software-engineering/architecture/patterns/error-diagnostics-error-analysis/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error diagnostics error analysis. You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions. |
 | [error-diagnostics-error-trace](../../skills/software-engineering/architecture/patterns/error-diagnostics-error-trace/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error diagnostics error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, |
 | [error-diagnostics-smart-debug](../../skills/software-engineering/architecture/patterns/error-diagnostics-smart-debug/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error diagnostics smart debug. Use when working with error diagnostics smart debug |
+| [event-staffing-compliance](../../skills/software-engineering/architecture/patterns/event-staffing-compliance/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for event staffing compliance. Assess worker-classification and compliance risk for temporary event staffing in the US and Canada — W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

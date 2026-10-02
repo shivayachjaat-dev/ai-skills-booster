@@ -20375,6 +20375,28 @@
     "maturity": "stable"
   },
   {
+    "name": "event-staffing-compliance",
+    "path": "skills/software-engineering/architecture/patterns/event-staffing-compliance",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for event staffing compliance. Assess worker-classification and compliance risk for temporary event staffing in the US and Canada \u2014 W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "event",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Event Staffing Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
