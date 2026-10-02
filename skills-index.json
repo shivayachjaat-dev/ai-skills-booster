@@ -2613,6 +2613,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ollama-stack",
+    "path": "skills/ai-engineering/llm-ops/ollama_stack/ollama-stack",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "ollama_stack",
+    "description": "Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "ollama",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ollama Stack",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

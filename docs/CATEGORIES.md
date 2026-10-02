@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,669** skills across structured domains, categories, and subcategories.
+Master navigation for **1,670** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (572 skills)
+## Ai Engineering (573 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -230,7 +230,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (22 skills)
+### Llm Ops (23 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -277,6 +277,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 - **Odoo_Ecommerce_Confi** (1):
   - [odoo-ecommerce-configurator](../skills/ai-engineering/llm-ops/odoo_ecommerce_confi/odoo-ecommerce-configurator/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo ecommerce configurator. Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow.
+- **Ollama_Stack** (1):
+  - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
 ### Models (416 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
