@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **16 skills** available in this category.
+> **17 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,4 +19,5 @@
 | [cloudflare-r2](../../skills/devops/ci-cd/cloudflare_r2/cloudflare-r2/SKILL.md) | `cloudflare_r2` | `advanced` | `stable` | Use this skill to manage Cloudflare R2 buckets, lifecycle, and signed URLs. Use for low-egress |
 | [cloudflare-zero-trust](../../skills/devops/ci-cd/cloudflare_zero_trus/cloudflare-zero-trust/SKILL.md) | `cloudflare_zero_trus` | `advanced` | `stable` | Use this skill to protect internal apps with Cloudflare Access, device posture, and Zero |
 | [cloudformation](../../skills/devops/ci-cd/cloudformation/cloudformation/SKILL.md) | `cloudformation` | `advanced` | `stable` | Use this skill to deploy AWS resources with CloudFormation templates. Create stacks, use |
+| [cron-doctor](../../skills/devops/ci-cd/cron_doctor/cron-doctor/SKILL.md) | `cron_doctor` | `advanced` | `stable` | Use this skill to diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29. |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |

@@ -7941,6 +7941,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cron-doctor",
+    "path": "skills/devops/ci-cd/cron_doctor/cron-doctor",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "cron_doctor",
+    "description": "Use this skill to diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29.",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "cron",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cron Doctor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
