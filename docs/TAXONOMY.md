@@ -924,6 +924,7 @@ AI_Skills_Booster/
 │   │   ├── enterprise_vpn_attac/ (1 skills)
 │   │   ├── evidence_hygiene/ (1 skills)
 │   │   ├── find_bugs/ (1 skills)
+│   │   ├── firewall_config/ (1 skills)
 │   │   ├── gcp_audit_logs/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)

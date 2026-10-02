@@ -18240,6 +18240,28 @@
     "maturity": "stable"
   },
   {
+    "name": "firewall-config",
+    "path": "skills/security/appsec/firewall_config/firewall-config",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "firewall_config",
+    "description": "Use this skill to design, implement, and operate production workflows for firewall config. Configure iptables, nftables, and cloud firewalls. Implement network",
+    "tags": [
+      "security",
+      "appsec",
+      "firewall",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Firewall Config",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gcp-audit-logs",
     "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
     "domain": "security",
