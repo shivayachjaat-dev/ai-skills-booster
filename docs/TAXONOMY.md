@@ -61,6 +61,8 @@ AI_Skills_Booster/
 │   │   └── sqlalchemy/ (1 skills)
 │   ├── database-migrations/
 │   │   └── alembic/ (1 skills)
+│   ├── documentation/
+│   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/
 │   │   └── async-architecture/ (1 skills)
 │   ├── graphql/

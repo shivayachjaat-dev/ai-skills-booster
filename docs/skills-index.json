@@ -955,6 +955,33 @@
     "maturity": "stable"
   },
   {
+    "name": "openapi-documentation-generator-and-swagger-ui",
+    "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
+    "domain": "backend",
+    "category": "documentation",
+    "subcategory": "openapi-generator",
+    "description": "Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export.",
+    "tags": [
+      "openapi",
+      "swagger",
+      "api-documentation",
+      "redoc",
+      "fastapi",
+      "developer-experience",
+      "backend"
+    ],
+    "technologies": [
+      "OpenAPI 3.1",
+      "Swagger UI",
+      "FastAPI",
+      "Redoc",
+      "Python",
+      "JSON Schema"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-async-api-design",
     "path": "skills/backend/fastapi/async-architecture/fastapi-async-api-design",
     "domain": "backend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **155** skills across structured domains, categories, and subcategories.
+Master navigation for **156** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -122,7 +122,7 @@ Category index: [`docs/categories/vector-databases.md`](categories/vector-databa
 - **Indexing** (1):
   - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
-## Backend (15 skills)
+## Backend (16 skills)
 
 ### Api Design (2 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -157,6 +157,12 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
+
+### Documentation (1 skills)
+Category index: [`docs/categories/documentation.md`](categories/documentation.md)
+
+- **Openapi Generator** (1):
+  - [openapi-documentation-generator-and-swagger-ui](../skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui/SKILL.md) — Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export.
 
 ### Fastapi (1 skills)
 Category index: [`docs/categories/fastapi.md`](categories/fastapi.md)
