@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,089** skills across structured domains, categories, and subcategories.
+Master navigation for **1,090** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (379 skills)
+## Ai Engineering (380 skills)
 
-### Agents (45 skills)
+### Agents (46 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -79,6 +79,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
 - **Geoffrey_Hinton** (1):
   - [geoffrey-hinton](../skills/ai-engineering/agents/geoffrey_hinton/geoffrey-hinton/SKILL.md) — Use this skill to design, implement, and operate production workflows for geoffrey hinton. Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das Deep Belief Networks.
+- **Git_Pr_Workflows_Git** (1):
+  - [git-pr-workflows-git-workflow](../skills/ai-engineering/agents/git_pr_workflows_git/git-pr-workflows-git-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for git pr workflows git workflow. Orchestrate review, tests, commits, branch pushes, and pull-request creation with parallel agents. Use when completed changes must move through validation into a PR or guarded merge.
 - **Lintlang_Audit** (1):
   - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - **Memory** (1):

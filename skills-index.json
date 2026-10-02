@@ -811,6 +811,28 @@
     "maturity": "stable"
   },
   {
+    "name": "git-pr-workflows-git-workflow",
+    "path": "skills/ai-engineering/agents/git_pr_workflows_git/git-pr-workflows-git-workflow",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "git_pr_workflows_git",
+    "description": "Use this skill to design, implement, and operate production workflows for git pr workflows git workflow. Orchestrate review, tests, commits, branch pushes, and pull-request creation with parallel agents. Use when completed changes must move through validation into a PR or guarded merge.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "git",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Git Pr Workflows Git Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",
