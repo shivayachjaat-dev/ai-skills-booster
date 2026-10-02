@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1415 skills)
+## Bash (1416 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2250,6 +2250,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
 - [metasploit-framework](../skills/security/appsec/metasploit_framework/metasploit-framework/SKILL.md) — Use this skill to design, implement, and operate production workflows for metasploit framework. ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited.
 - [mid-engagement-ir-detection](../skills/security/appsec/mid_engagement_ir_de/mid-engagement-ir-detection/SKILL.md) — Use this skill to design, implement, and operate production workflows for mid engagement ir detection. Methodology for detecting client SOC patches, attacker activity, and
+- [network-engineer](../skills/security/appsec/network_engineer/network-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for network engineer. Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
@@ -8069,6 +8070,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [network-101](../skills/ai-engineering/models/network_101/network-101/SKILL.md) — Use this skill to design, implement, and operate production workflows for network 101. Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems.
 
+## Network Engineer (1 skills)
+
+- [network-engineer](../skills/security/appsec/network_engineer/network-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for network engineer. Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
+
 ## Network Policies (1 skills)
 
 - [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
@@ -8409,7 +8414,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1518 skills)
+## Python (1519 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9667,6 +9672,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
 - [metasploit-framework](../skills/security/appsec/metasploit_framework/metasploit-framework/SKILL.md) — Use this skill to design, implement, and operate production workflows for metasploit framework. ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited.
 - [mid-engagement-ir-detection](../skills/security/appsec/mid_engagement_ir_de/mid-engagement-ir-detection/SKILL.md) — Use this skill to design, implement, and operate production workflows for mid engagement ir detection. Methodology for detecting client SOC patches, attacker activity, and
+- [network-engineer](../skills/security/appsec/network_engineer/network-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for network engineer. Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.

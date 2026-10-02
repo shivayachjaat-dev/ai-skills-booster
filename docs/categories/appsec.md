@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **89 skills** available in this category.
+> **90 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -91,5 +91,6 @@
 | [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
 | [metasploit-framework](../../skills/security/appsec/metasploit_framework/metasploit-framework/SKILL.md) | `metasploit_framework` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for metasploit framework. ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited. |
 | [mid-engagement-ir-detection](../../skills/security/appsec/mid_engagement_ir_de/mid-engagement-ir-detection/SKILL.md) | `mid_engagement_ir_de` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mid engagement ir detection. Methodology for detecting client SOC patches, attacker activity, and |
+| [network-engineer](../../skills/security/appsec/network_engineer/network-engineer/SKILL.md) | `network_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for network engineer. Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](../../skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |

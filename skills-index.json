@@ -29438,6 +29438,28 @@
     "maturity": "stable"
   },
   {
+    "name": "network-engineer",
+    "path": "skills/security/appsec/network_engineer/network-engineer",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "network_engineer",
+    "description": "Use this skill to design, implement, and operate production workflows for network engineer. Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.",
+    "tags": [
+      "security",
+      "appsec",
+      "network",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Network Engineer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",

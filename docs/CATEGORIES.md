@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,597** skills across structured domains, categories, and subcategories.
+Master navigation for **1,598** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (555 skills)
 
@@ -2934,7 +2934,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (155 skills)
+## Security (156 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2964,7 +2964,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (89 skills)
+### Appsec (90 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -3140,6 +3140,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [metasploit-framework](../skills/security/appsec/metasploit_framework/metasploit-framework/SKILL.md) — Use this skill to design, implement, and operate production workflows for metasploit framework. ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited.
 - **Mid_Engagement_Ir_De** (1):
   - [mid-engagement-ir-detection](../skills/security/appsec/mid_engagement_ir_de/mid-engagement-ir-detection/SKILL.md) — Use this skill to design, implement, and operate production workflows for mid engagement ir detection. Methodology for detecting client SOC patches, attacker activity, and
+- **Network_Engineer** (1):
+  - [network-engineer](../skills/security/appsec/network_engineer/network-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for network engineer. Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
 - **Security_Auditor** (1):
   - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - **Security_Checklist** (1):
