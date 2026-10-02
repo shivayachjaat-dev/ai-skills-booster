@@ -293,6 +293,8 @@ AI_Skills_Booster/
 │   │   └── bdd-orchestration/ (1 skills)
 │   ├── agent-qa/
 │   │   └── test-authoring/ (1 skills)
+│   ├── api-mocking/
+│   │   └── prism-wiremock/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/

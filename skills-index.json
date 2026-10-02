@@ -3913,6 +3913,33 @@
     "maturity": "stable"
   },
   {
+    "name": "wiremock-and-prism-api-mocking-and-contract-testing",
+    "path": "skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing",
+    "domain": "testing",
+    "category": "api-mocking",
+    "subcategory": "prism-wiremock",
+    "description": "Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.",
+    "tags": [
+      "api-mocking",
+      "prism",
+      "wiremock",
+      "contract-testing",
+      "openapi",
+      "mock-server",
+      "testing"
+    ],
+    "technologies": [
+      "Prism",
+      "WireMock",
+      "OpenAPI",
+      "Docker",
+      "JavaScript",
+      "Python"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

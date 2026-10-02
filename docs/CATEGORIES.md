@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **158** skills across structured domains, categories, and subcategories.
+Master navigation for **159** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -809,7 +809,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (5 skills)
+## Testing (6 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -822,6 +822,12 @@ Category index: [`docs/categories/agent-qa.md`](categories/agent-qa.md)
 
 - **Test Authoring** (1):
   - [ai-agent-qa-test-authoring-and-regression-triage](../skills/testing/agent-qa/test-authoring/ai-agent-qa-test-authoring-and-regression-triage/SKILL.md) — Use this skill to author, execute, and triage end-to-end automated test suites for AI agents. It establishes deterministic evaluation fixtures, trajectory regression tracking, tool mocking, flakiness score analysis, and automated failure post-mortem triaging.
+
+### Api Mocking (1 skills)
+Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
+
+- **Prism Wiremock** (1):
+  - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)
