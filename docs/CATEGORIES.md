@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,257** skills across structured domains, categories, and subcategories.
+Master navigation for **1,258** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (418 skills)
 
@@ -1481,7 +1481,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (88 skills)
+## Devops (89 skills)
 
 ### Ci Cd (30 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -1547,7 +1547,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (37 skills)
+### Cloud Infrastructure (38 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -1619,6 +1619,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [cost-optimization](../skills/devops/cloud-infrastructure/cost_optimization/cost-optimization/SKILL.md) — Use this skill to strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.
 - **Hf_Cloud_Aws_Context** (1):
   - [hf-cloud-aws-context-discovery](../skills/devops/cloud-infrastructure/hf_cloud_aws_context/hf-cloud-aws-context-discovery/SKILL.md) — Use this skill to design, implement, and operate production workflows for hf cloud aws context discovery. Discover the effective local AWS profile, region, account, and caller identity before any AWS task without exposing credentials.
+- **Hybrid_Cloud_Archite** (1):
+  - [hybrid-cloud-architect](../skills/devops/cloud-infrastructure/hybrid_cloud_archite/hybrid-cloud-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for hybrid cloud architect. Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)

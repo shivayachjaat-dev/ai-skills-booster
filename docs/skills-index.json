@@ -14852,6 +14852,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hybrid-cloud-architect",
+    "path": "skills/devops/cloud-infrastructure/hybrid_cloud_archite/hybrid-cloud-architect",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "hybrid_cloud_archite",
+    "description": "Use this skill to design, implement, and operate production workflows for hybrid cloud architect. Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "hybrid",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hybrid Cloud Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
