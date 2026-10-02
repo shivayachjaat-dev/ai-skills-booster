@@ -17571,6 +17571,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gitops-workflow",
+    "path": "skills/frontend/ui-ux/gitops_workflow/gitops-workflow",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "gitops_workflow",
+    "description": "Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "gitops",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gitops Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

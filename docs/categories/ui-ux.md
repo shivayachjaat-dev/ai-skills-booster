@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **111 skills** available in this category.
+> **112 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -111,6 +111,7 @@
 | [github-actions-templates](../../skills/frontend/ui-ux/github_actions_templ/github-actions-templates/SKILL.md) | `github_actions_templ` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for github actions templates. Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications. |
 | [gitlab-ci](../../skills/frontend/ui-ux/gitlab_ci/gitlab-ci/SKILL.md) | `gitlab_ci` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gitlab ci. Configure GitLab CI/CD pipelines and runners for automated building, |
 | [gitlab-ci-patterns](../../skills/frontend/ui-ux/gitlab_ci_patterns/gitlab-ci-patterns/SKILL.md) | `gitlab_ci_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gitlab ci patterns. Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment. |
+| [gitops-workflow](../../skills/frontend/ui-ux/gitops_workflow/gitops-workflow/SKILL.md) | `gitops_workflow` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
