@@ -9138,6 +9138,28 @@
     "maturity": "stable"
   },
   {
+    "name": "github",
+    "path": "skills/backend/api-frameworks/github/github",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "github",
+    "description": "Use this skill to design, implement, and operate production workflows for github. Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "github",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Github",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",

@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **22 skills** available in this category.
+> **23 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -26,3 +26,4 @@
 | [fastapi-router-py](../../skills/backend/api-frameworks/fastapi_router_py/fastapi-router-py/SKILL.md) | `fastapi_router_py` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fastapi router py. Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes. |
 | [fp-async](../../skills/backend/api-frameworks/fp_async/fp-async/SKILL.md) | `fp_async` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp async. Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples |
 | [gemini-api-integration](../../skills/backend/api-frameworks/gemini_api_integrati/gemini-api-integration/SKILL.md) | `gemini_api_integrati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gemini api integration. Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices. |
+| [github](../../skills/backend/api-frameworks/github/github/SKILL.md) | `github` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for github. Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries. |

@@ -420,7 +420,8 @@ AI_Skills_Booster/
 │   │   ├── fastapi-endpoints/ (1 skills)
 │   │   ├── fastapi_router_py/ (1 skills)
 │   │   ├── fp_async/ (1 skills)
-│   │   └── gemini_api_integrati/ (1 skills)
+│   │   ├── gemini_api_integrati/ (1 skills)
+│   │   └── github/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/
