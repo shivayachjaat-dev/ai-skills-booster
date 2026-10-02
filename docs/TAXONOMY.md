@@ -79,6 +79,8 @@ AI_Skills_Booster/
 │   │   └── helm/ (1 skills)
 │   ├── containers/
 │   │   └── optimization/ (1 skills)
+│   ├── continuous-integration/
+│   │   └── github-reusable-workflows/ (1 skills)
 │   ├── gitops/
 │   │   └── argo-cd/ (1 skills)
 │   ├── iac/

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **82** skills across structured domains, categories, and subcategories.
+Master navigation for **83** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (12 skills)
 
@@ -202,7 +202,7 @@ Category index: [`docs/categories/time-series.md`](categories/time-series.md)
 - **Timescaledb** (1):
   - [timescaledb-hypertables-and-retention](../skills/databases/time-series/timescaledb/timescaledb-hypertables-and-retention/SKILL.md) — Use this skill when architecting, partitioning, and optimizing high-throughput time-series databases with TimescaleDB on PostgreSQL. It guides the agent through hypertable creation, chunk time interval sizing, continuous aggregates with automatic refresh policies, column-oriented compression policies, and data retention drops.
 
-## Devops (13 skills)
+## Devops (14 skills)
 
 ### Ci Cd (1 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -221,6 +221,12 @@ Category index: [`docs/categories/containers.md`](categories/containers.md)
 
 - **Optimization** (1):
   - [docker-container-optimization](../skills/devops/containers/optimization/docker-container-optimization/SKILL.md) — Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.
+
+### Continuous Integration (1 skills)
+Category index: [`docs/categories/continuous-integration.md`](categories/continuous-integration.md)
+
+- **Github Reusable Workflows** (1):
+  - [github-actions-reusable-workflows-and-composite-actions](../skills/devops/continuous-integration/github-reusable-workflows/github-actions-reusable-workflows-and-composite-actions/SKILL.md) — Use this skill when designing, architecting, and standardizing enterprise CI/CD pipelines using GitHub Actions Reusable Workflows (workflow_call) and Composite Actions. It covers modular parameter passing, secret inheritance, matrix job fan-out, action packaging with action.yaml, and cross-repository pipeline governance.
 
 ### Gitops (1 skills)
 Category index: [`docs/categories/gitops.md`](categories/gitops.md)

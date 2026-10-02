@@ -976,6 +976,31 @@
     "maturity": "stable"
   },
   {
+    "name": "github-actions-reusable-workflows-and-composite-actions",
+    "path": "skills/devops/continuous-integration/github-reusable-workflows/github-actions-reusable-workflows-and-composite-actions",
+    "domain": "devops",
+    "category": "continuous-integration",
+    "subcategory": "github-reusable-workflows",
+    "description": "Use this skill when designing, architecting, and standardizing enterprise CI/CD pipelines using GitHub Actions Reusable Workflows (workflow_call) and Composite Actions. It covers modular parameter passing, secret inheritance, matrix job fan-out, action packaging with action.yaml, and cross-repository pipeline governance.",
+    "tags": [
+      "github-actions",
+      "ci-cd",
+      "reusable-workflows",
+      "composite-actions",
+      "devops",
+      "automation"
+    ],
+    "technologies": [
+      "GitHub Actions",
+      "YAML",
+      "Git",
+      "Docker",
+      "Node.js"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "argocd-gitops-continuous-delivery",
     "path": "skills/devops/gitops/argo-cd/argocd-gitops-continuous-delivery",
     "domain": "devops",
