@@ -2525,6 +2525,32 @@
     "maturity": "stable"
   },
   {
+    "name": "p5js-generative-algorithmic-art-canvas",
+    "path": "skills/multimedia/generative-art/p5js/p5js-generative-algorithmic-art-canvas",
+    "domain": "multimedia",
+    "category": "generative-art",
+    "subcategory": "p5js",
+    "description": "Use this skill to design, write, and render interactive generative algorithmic art, creative coding animations, and mathematical visualizations using p5.js and HTML5 Canvas. It covers noise field mathematics (Perlin/Simplex), particle physics, vector math, and high-DPI export.",
+    "tags": [
+      "generative-art",
+      "creative-coding",
+      "p5js",
+      "canvas",
+      "mathematical-art",
+      "perlin-noise",
+      "multimedia"
+    ],
+    "technologies": [
+      "p5.js",
+      "JavaScript",
+      "HTML5 Canvas",
+      "Vector Math",
+      "Perlin Noise"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-image-generation-prompt-and-asset-pipeline",
     "path": "skills/multimedia/image-generation/asset-pipeline/ai-image-generation-prompt-and-asset-pipeline",
     "domain": "multimedia",

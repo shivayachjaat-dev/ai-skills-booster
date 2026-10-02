@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **142** skills across structured domains, categories, and subcategories.
+Master navigation for **143** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -521,13 +521,19 @@ Category index: [`docs/categories/ios.md`](categories/ios.md)
 - **App Clips** (1):
   - [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
 
-## Multimedia (2 skills)
+## Multimedia (3 skills)
 
 ### Audio (1 skills)
 Category index: [`docs/categories/audio.md`](categories/audio.md)
 
 - **Multilingual Dubbing** (1):
   - [multilingual-audio-dubbing-and-srt-sync](../skills/multimedia/audio/multilingual-dubbing/multilingual-audio-dubbing-and-srt-sync/SKILL.md) — Use this skill to design and automate end-to-end multilingual audio dubbing, subtitle translation, and SRT timestamp alignment pipelines using Whisper, ElevenLabs, and FFmpeg. It covers speech synthesis matching, audio ducking, subtitle timecode synchronization, and video stream multiplexing.
+
+### Generative Art (1 skills)
+Category index: [`docs/categories/generative-art.md`](categories/generative-art.md)
+
+- **P5Js** (1):
+  - [p5js-generative-algorithmic-art-canvas](../skills/multimedia/generative-art/p5js/p5js-generative-algorithmic-art-canvas/SKILL.md) — Use this skill to design, write, and render interactive generative algorithmic art, creative coding animations, and mathematical visualizations using p5.js and HTML5 Canvas. It covers noise field mathematics (Perlin/Simplex), particle physics, vector math, and high-DPI export.
 
 ### Image Generation (1 skills)
 Category index: [`docs/categories/image-generation.md`](categories/image-generation.md)

@@ -190,6 +190,8 @@ AI_Skills_Booster/
 ├── multimedia/
 │   ├── audio/
 │   │   └── multilingual-dubbing/ (1 skills)
+│   ├── generative-art/
+│   │   └── p5js/ (1 skills)
 │   └── image-generation/
 │   │   └── asset-pipeline/ (1 skills)
 ├── programming-languages/
