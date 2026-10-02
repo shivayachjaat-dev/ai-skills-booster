@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **49** skills across structured domains, categories, and subcategories.
+Master navigation for **50** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (6 skills)
 
@@ -32,7 +32,7 @@ Category index: [`docs/categories/vector-databases.md`](categories/vector-databa
 - **Indexing** (1):
   - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
-## Backend (6 skills)
+## Backend (7 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -57,6 +57,12 @@ Category index: [`docs/categories/grpc.md`](categories/grpc.md)
 
 - **Services** (1):
   - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
+
+### Message Queues (1 skills)
+Category index: [`docs/categories/message-queues.md`](categories/message-queues.md)
+
+- **Rabbitmq** (1):
+  - [rabbitmq-reliable-messaging-patterns](../skills/backend/message-queues/rabbitmq/rabbitmq-reliable-messaging-patterns/SKILL.md) — Use this skill when designing, building, and operating mission-critical message queuing architectures with RabbitMQ (AMQP 0-9-1). It guides the agent through publisher confirms (ACK/NACK), queue and message durability, dead letter exchanges (DLX) for poisoned messages, consumer manual acknowledgments with prefetch limits, and consumer idempotency.
 
 ### Messaging (1 skills)
 Category index: [`docs/categories/messaging.md`](categories/messaging.md)

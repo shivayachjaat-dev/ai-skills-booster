@@ -248,6 +248,31 @@
     "maturity": "stable"
   },
   {
+    "name": "rabbitmq-reliable-messaging-patterns",
+    "path": "skills/backend/message-queues/rabbitmq/rabbitmq-reliable-messaging-patterns",
+    "domain": "backend",
+    "category": "message-queues",
+    "subcategory": "rabbitmq",
+    "description": "Use this skill when designing, building, and operating mission-critical message queuing architectures with RabbitMQ (AMQP 0-9-1). It guides the agent through publisher confirms (ACK/NACK), queue and message durability, dead letter exchanges (DLX) for poisoned messages, consumer manual acknowledgments with prefetch limits, and consumer idempotency.",
+    "tags": [
+      "rabbitmq",
+      "amqp",
+      "message-queues",
+      "event-driven",
+      "dead-letter-queue",
+      "pika"
+    ],
+    "technologies": [
+      "RabbitMQ",
+      "AMQP 0-9-1",
+      "Python Pika",
+      "Erlang",
+      "Docker"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kafka-event-driven-architecture",
     "path": "skills/backend/messaging/kafka/kafka-event-driven-architecture",
     "domain": "backend",
