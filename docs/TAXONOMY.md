@@ -80,6 +80,7 @@ AI_Skills_Booster/
 │   │   ├── elixir_pro/ (1 skills)
 │   │   ├── identity_access_mana/ (1 skills)
 │   │   ├── liuguang_banlan_ui/ (1 skills)
+│   │   ├── lookdev_auto/ (1 skills)
 │   │   ├── spatial_computing_ui/ (1 skills)
 │   │   └── spatial_design/ (1 skills)
 │   ├── context/

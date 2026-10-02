@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,439** skills across structured domains, categories, and subcategories.
+Master navigation for **1,440** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (498 skills)
+## Ai Engineering (499 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -146,7 +146,7 @@ Category index: [`docs/categories/communication.md`](categories/communication.md
 - **Voice Telephony** (1):
   - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 
-### Computer Vision (10 skills)
+### Computer Vision (11 skills)
 Category index: [`docs/categories/computer-vision.md`](categories/computer-vision.md)
 
 - **Aws_Rds** (1):
@@ -165,6 +165,8 @@ Category index: [`docs/categories/computer-vision.md`](categories/computer-visio
   - [identity-access-management](../skills/ai-engineering/computer-vision/identity_access_mana/identity-access-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for identity access management. Set up and manage SSO, SCIM provisioning, and MFA for startup teams using
 - **Liuguang_Banlan_Ui** (1):
   - [liuguang-banlan-ui](../skills/ai-engineering/computer-vision/liuguang_banlan_ui/liuguang-banlan-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for liuguang banlan ui. Builds two parameterized UI modes—流光溢彩白 (iridescent white) and 五彩斑斓黑 (colorful black)—with OKLCH, WebGL/CSS fallback, vision gating, screenshot QA, and total/per-color intensity reports. Use when a UI request names either mode or needs measured color pa...
+- **Lookdev_Auto** (1):
+  - [lookdev-auto](../skills/ai-engineering/computer-vision/lookdev_auto/lookdev-auto/SKILL.md) — Use this skill to design, implement, and operate production workflows for lookdev auto. Automated visual tuning: a vision or video model rates rendered variants in a loop. Render several labeled variants into one artifact, ask the model to rate them and suggest better values, render the suggestions, ask it to pick the best, repeat until good — t...
 - **Spatial_Computing_Ui** (1):
   - [spatial-computing-ui](../skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for spatial computing ui. Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style.
 - **Spatial_Design** (1):

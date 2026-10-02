@@ -1656,6 +1656,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lookdev-auto",
+    "path": "skills/ai-engineering/computer-vision/lookdev_auto/lookdev-auto",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "lookdev_auto",
+    "description": "Use this skill to design, implement, and operate production workflows for lookdev auto. Automated visual tuning: a vision or video model rates rendered variants in a loop. Render several labeled variants into one artifact, ask the model to rate them and suggest better values, render the suggestions, ask it to pick the best, repeat until good \u2014 t...",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "lookdev",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lookdev Auto",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "spatial-computing-ui",
     "path": "skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui",
     "domain": "ai-engineering",
