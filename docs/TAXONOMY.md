@@ -8,6 +8,7 @@ AI_Skills_Booster/
 │   │   ├── antigravity_skill_or/ (1 skills)
 │   │   ├── aomi_transact/ (1 skills)
 │   │   ├── autogen/ (1 skills)
+│   │   ├── ax_extract_workflow/ (1 skills)
 │   │   ├── azure-foundry/ (1 skills)
 │   │   ├── benchmarking/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)

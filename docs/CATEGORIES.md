@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **242** skills across structured domains, categories, and subcategories.
+Master navigation for **243** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (64 skills)
+## Ai Engineering (65 skills)
 
-### Agents (15 skills)
+### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -15,6 +15,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
 - **Autogen** (1):
   - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
+- **Ax_Extract_Workflow** (1):
+  - [ax-extract-workflow](../skills/ai-engineering/agents/ax_extract_workflow/ax-extract-workflow/SKILL.md) — Use this skill to reconstruct workflow behind a past coding-agent artifact using local ax sessions/commits/skills/tool traces. Use when asked how X was built.
 - **Azure Foundry** (1):
   - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
 - **Benchmarking** (1):
