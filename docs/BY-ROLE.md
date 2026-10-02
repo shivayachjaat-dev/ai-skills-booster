@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (260 skills)
+## AI Engineer (261 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -135,6 +135,7 @@ Curated workflows organized by professional role and specialization.
 - [buywhere-product-catalog](../skills/ai-engineering/models/buywhere_product_cat/buywhere-product-catalog/SKILL.md) — `ai-engineering`: Use this skill to use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents.
 - [c4-container](../skills/ai-engineering/models/c4_container/c4-container/SKILL.md) — `ai-engineering`: Use this skill to expert C4 Container-level documentation specialist.
 - [cal-com-automation](../skills/ai-engineering/models/cal_com_automation/cal-com-automation/SKILL.md) — `ai-engineering`: Use this skill to automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.
+- [calendly-automation](../skills/ai-engineering/models/calendly_automation/calendly-automation/SKILL.md) — `ai-engineering`: Use this skill to automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — `ai-engineering`: Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — `ai-engineering`: Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.

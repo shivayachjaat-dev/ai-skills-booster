@@ -141,6 +141,7 @@ AI_Skills_Booster/
 │   │   ├── buywhere_product_cat/ (1 skills)
 │   │   ├── c4_container/ (1 skills)
 │   │   ├── cal_com_automation/ (1 skills)
+│   │   ├── calendly_automation/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

@@ -3053,6 +3053,28 @@
     "maturity": "stable"
   },
   {
+    "name": "calendly-automation",
+    "path": "skills/ai-engineering/models/calendly_automation/calendly-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "calendly_automation",
+    "description": "Use this skill to automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "calendly",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Calendly Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

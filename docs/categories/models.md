@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **100 skills** available in this category.
+> **101 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -103,4 +103,5 @@
 | [buywhere-product-catalog](../../skills/ai-engineering/models/buywhere_product_cat/buywhere-product-catalog/SKILL.md) | `buywhere_product_cat` | `advanced` | `stable` | Use this skill to use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents. |
 | [c4-container](../../skills/ai-engineering/models/c4_container/c4-container/SKILL.md) | `c4_container` | `advanced` | `stable` | Use this skill to expert C4 Container-level documentation specialist. |
 | [cal-com-automation](../../skills/ai-engineering/models/cal_com_automation/cal-com-automation/SKILL.md) | `cal_com_automation` | `advanced` | `stable` | Use this skill to automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas. |
+| [calendly-automation](../../skills/ai-engineering/models/calendly_automation/calendly-automation/SKILL.md) | `calendly_automation` | `advanced` | `stable` | Use this skill to automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
