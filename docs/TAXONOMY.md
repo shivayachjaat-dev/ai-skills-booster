@@ -15,6 +15,9 @@ AI_Skills_Booster/
 │   │   └── optimization/ (1 skills)
 │   └── kubernetes/
 │   │   └── troubleshooting/ (1 skills)
+├── frontend/
+│   └── react/
+│   │   └── architecture/ (1 skills)
 ├── mcp/
 │   └── server-development/
 │   │   └── scaffolding/ (1 skills)

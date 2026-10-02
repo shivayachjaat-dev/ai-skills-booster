@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **9** skills across structured domains, categories, and subcategories.
+Master navigation for **10** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (2 skills)
 
@@ -37,6 +37,14 @@ Category index: [`docs/categories/kubernetes.md`](categories/kubernetes.md)
 
 - **Troubleshooting** (1):
   - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
+
+## Frontend (1 skills)
+
+### React (1 skills)
+Category index: [`docs/categories/react.md`](categories/react.md)
+
+- **Architecture** (1):
+  - [react-component-architecture](../skills/frontend/react/architecture/react-component-architecture/SKILL.md) — Use this skill when designing, refactoring, and structuring scalable React component hierarchies. It enforces clean separation of concerns between presentational components and stateful containers, headless UI patterns, compound components, strict TypeScript prop contracts, and memoization boundaries.
 
 ## Mcp (1 skills)
 

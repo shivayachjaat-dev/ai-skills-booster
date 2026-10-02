@@ -119,6 +119,30 @@
     "maturity": "stable"
   },
   {
+    "name": "react-component-architecture",
+    "path": "skills/frontend/react/architecture/react-component-architecture",
+    "domain": "frontend",
+    "category": "react",
+    "subcategory": "architecture",
+    "description": "Use this skill when designing, refactoring, and structuring scalable React component hierarchies. It enforces clean separation of concerns between presentational components and stateful containers, headless UI patterns, compound components, strict TypeScript prop contracts, and memoization boundaries.",
+    "tags": [
+      "react",
+      "frontend",
+      "component-architecture",
+      "typescript",
+      "ui-patterns",
+      "design-systems"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-server-scaffold",
     "path": "skills/mcp/server-development/scaffolding/mcp-server-scaffold",
     "domain": "mcp",
