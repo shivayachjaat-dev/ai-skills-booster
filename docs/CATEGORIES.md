@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **130** skills across structured domains, categories, and subcategories.
+Master navigation for **131** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (27 skills)
 
@@ -304,7 +304,13 @@ Category index: [`docs/categories/time-series.md`](categories/time-series.md)
 - **Timescaledb** (1):
   - [timescaledb-hypertables-and-retention](../skills/databases/time-series/timescaledb/timescaledb-hypertables-and-retention/SKILL.md) — Use this skill when architecting, partitioning, and optimizing high-throughput time-series databases with TimescaleDB on PostgreSQL. It guides the agent through hypertable creation, chunk time interval sizing, continuous aggregates with automatic refresh policies, column-oriented compression policies, and data retention drops.
 
-## Developer Tools (1 skills)
+## Developer Tools (2 skills)
+
+### Cli (1 skills)
+Category index: [`docs/categories/cli.md`](categories/cli.md)
+
+- **Typer Architecture** (1):
+  - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

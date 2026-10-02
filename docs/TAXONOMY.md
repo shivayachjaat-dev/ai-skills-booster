@@ -112,6 +112,8 @@ AI_Skills_Booster/
 │   └── time-series/
 │   │   └── timescaledb/ (1 skills)
 ├── developer-tools/
+│   ├── cli/
+│   │   └── typer-architecture/ (1 skills)
 │   └── repository-specs/
 │   │   └── agents-md/ (1 skills)
 ├── devops/
