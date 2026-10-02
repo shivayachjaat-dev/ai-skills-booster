@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,219 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,220 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -999,6 +999,7 @@
 | [hunt-file-upload](skills/security/appsec/hunt_file_upload/hunt-file-upload/SKILL.md) | `security` | `appsec` | `hunt_file_upload` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt file upload. Hunt file upload bugs |
 | [hunt-fintech-graphql](skills/security/appsec/hunt_fintech_graphql/hunt-fintech-graphql/SKILL.md) | `security` | `appsec` | `hunt_fintech_graphql` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt fintech graphql. Hunt fintech-specific GraphQL vulnerabilities |
 | [hunt-forgot-password](skills/security/appsec/hunt_forgot_password/hunt-forgot-password/SKILL.md) | `security` | `appsec` | `hunt_forgot_password` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt forgot password. Hunt Forgot Password / Account Recovery Authentication Flaws |
+| [hunt-graphql](skills/security/appsec/hunt_graphql/hunt-graphql/SKILL.md) | `security` | `appsec` | `hunt_graphql` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt graphql. Hunting skill for graphql vulnerabilities. |
 | [laravel-security-audit](skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `security` | `appsec` | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `security` | `appsec` | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
