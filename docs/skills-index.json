@@ -11017,6 +11017,28 @@
     "maturity": "stable"
   },
   {
+    "name": "multi-agent-brainstorming",
+    "path": "skills/ai-engineering/models/multi_agent_brainsto/multi-agent-brainstorming",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "multi_agent_brainsto",
+    "description": "Use this skill to design, implement, and operate production workflows for multi agent brainstorming. Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "multi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Multi Agent Brainstorming",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

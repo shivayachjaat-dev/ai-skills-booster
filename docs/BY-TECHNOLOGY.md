@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1381 skills)
+## Bash (1382 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1547,6 +1547,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [monte-carlo-monitoring-advisor](../skills/ai-engineering/models/monte_carlo_monitori/monte-carlo-monitoring-advisor/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo monitoring advisor. Analyze data coverage, create monitors for warehouse tables and AI agents. Covers coverage gaps, use-case analysis, data monitor creation, and agent observability.
 - [monte-carlo-remediation](../skills/ai-engineering/models/monte_carlo_remediat/monte-carlo-remediation/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo remediation. Investigate and remediate data quality alerts using Monte Carlo MCP tools. Runs root cause analysis, assesses blast radius, discovers available tools (MCP/CLI/API), proposes and executes fixes, or escalates with full context when uncertain.
 - [multi-agent-architect](../skills/ai-engineering/models/multi_agent_architec/multi-agent-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent architect. Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.
+- [multi-agent-brainstorming](../skills/ai-engineering/models/multi_agent_brainsto/multi-agent-brainstorming/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent brainstorming. Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -7863,6 +7864,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [multi-agent-architect](../skills/ai-engineering/models/multi_agent_architec/multi-agent-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent architect. Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.
 
+## Multi Agent Brainstorming (1 skills)
+
+- [multi-agent-brainstorming](../skills/ai-engineering/models/multi_agent_brainsto/multi-agent-brainstorming/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent brainstorming. Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.
+
 ## Multi-Agent Protocols (1 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
@@ -8239,7 +8244,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1484 skills)
+## Python (1485 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8734,6 +8739,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [monte-carlo-monitoring-advisor](../skills/ai-engineering/models/monte_carlo_monitori/monte-carlo-monitoring-advisor/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo monitoring advisor. Analyze data coverage, create monitors for warehouse tables and AI agents. Covers coverage gaps, use-case analysis, data monitor creation, and agent observability.
 - [monte-carlo-remediation](../skills/ai-engineering/models/monte_carlo_remediat/monte-carlo-remediation/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo remediation. Investigate and remediate data quality alerts using Monte Carlo MCP tools. Runs root cause analysis, assesses blast radius, discovers available tools (MCP/CLI/API), proposes and executes fixes, or escalates with full context when uncertain.
 - [multi-agent-architect](../skills/ai-engineering/models/multi_agent_architec/multi-agent-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent architect. Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.
+- [multi-agent-brainstorming](../skills/ai-engineering/models/multi_agent_brainsto/multi-agent-brainstorming/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent brainstorming. Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
