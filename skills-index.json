@@ -4417,6 +4417,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cpp-pro",
+    "path": "skills/ai-engineering/models/cpp_pro/cpp-pro",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "cpp_pro",
+    "description": "Use this skill to write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "cpp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cpp Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

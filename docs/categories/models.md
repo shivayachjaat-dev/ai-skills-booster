@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **150 skills** available in this category.
+> **151 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -153,4 +153,5 @@
 | [context-optimization](../../skills/ai-engineering/models/context_optimization/context-optimization/SKILL.md) | `context_optimization` | `advanced` | `stable` | Use this skill to context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity. |
 | [copywriting](../../skills/ai-engineering/models/copywriting/copywriting/SKILL.md) | `copywriting` | `advanced` | `stable` | Use this skill to write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules. |
 | [course-upskilling-requests](../../skills/ai-engineering/models/course_upskilling_re/course-upskilling-requests/SKILL.md) | `course_upskilling_re` | `advanced` | `stable` | Use this skill to training request register: course, provider, cost, duration, budget line, the three approval steps, service bond and completion evidence. Use for upskilling approvals. |
+| [cpp-pro](../../skills/ai-engineering/models/cpp_pro/cpp-pro/SKILL.md) | `cpp_pro` | `advanced` | `stable` | Use this skill to write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
