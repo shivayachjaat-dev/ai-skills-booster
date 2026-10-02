@@ -4021,6 +4021,28 @@
     "maturity": "stable"
   },
   {
+    "name": "constraint-driven-development",
+    "path": "skills/ai-engineering/models/constraint_driven_de/constraint-driven-development",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "constraint_driven_de",
+    "description": "Use this skill to write the project quality bar as enforced CONSTRAINTS.md so agents stop",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "constraint",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Constraint Driven Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

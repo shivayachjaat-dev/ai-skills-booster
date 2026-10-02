@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **137 skills** available in this category.
+> **138 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -140,4 +140,5 @@
 | [compile-knowledge](../../skills/ai-engineering/models/compile_knowledge/compile-knowledge/SKILL.md) | `compile_knowledge` | `advanced` | `stable` | Use this skill to compile durable, non-obvious findings into an interlinked markdown knowledge store — atomic files, [[wiki-links]], a maintained index — so an agent gets smarter across sessions instead of relearning the same facts. |
 | [computer-use-agents](../../skills/ai-engineering/models/computer_use_agents/computer-use-agents/SKILL.md) | `computer_use_agents` | `advanced` | `stable` | Use this skill to build AI agents that interact with computers like humans do - |
 | [conductor-setup](../../skills/ai-engineering/models/conductor_setup/conductor-setup/SKILL.md) | `conductor_setup` | `advanced` | `stable` | Use this skill to configure a Rails project to work with Conductor (parallel coding agents) |
+| [constraint-driven-development](../../skills/ai-engineering/models/constraint_driven_de/constraint-driven-development/SKILL.md) | `constraint_driven_de` | `advanced` | `stable` | Use this skill to write the project quality bar as enforced CONSTRAINTS.md so agents stop |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
