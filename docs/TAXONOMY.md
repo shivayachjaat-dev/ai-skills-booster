@@ -450,7 +450,8 @@ AI_Skills_Booster/
 │   │   ├── angular/ (1 skills)
 │   │   ├── astro-islands/ (1 skills)
 │   │   ├── azure_cosmos_java/ (1 skills)
-│   │   └── cc_skill_coding_stan/ (1 skills)
+│   │   ├── cc_skill_coding_stan/ (1 skills)
+│   │   └── code_showcase_react_/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/

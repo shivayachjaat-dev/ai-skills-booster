@@ -8473,6 +8473,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-showcase-react-ui-patterns",
+    "path": "skills/frontend/frameworks/code_showcase_react_/code-showcase-react-ui-patterns",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "code_showcase_react_",
+    "description": "Use this skill to modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Showcase React Ui Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
