@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **13 skills** available in this category.
+> **14 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,3 +17,4 @@
 | [find-matching-tenders](../../skills/business/operations/find_matching_tender/find-matching-tenders/SKILL.md) | `find_matching_tender` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for find matching tenders. Find open AU/NZ government tenders matching what a company does, ranked by fit with why and gap analysis. Use when the user asks to find tenders, bid opportunities, government contracts, or RFPs for their business (or a client's). |
 | [gamification-engine](../../skills/business/operations/gamification_engine/gamification-engine/SKILL.md) | `gamification_engine` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gamification engine. Gamification points register: player and department, points balance and points earned this month, level, badges, source module and last-updated date. Use for points and badge tracking. |
 | [gbp-local-seo-intent](../../skills/business/operations/gbp_local_seo_intent/gbp-local-seo-intent/SKILL.md) | `gbp_local_seo_intent` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gbp local seo intent. Google Business Profile register: element, primary and supporting keywords, search intent, landing page, post dates, review rating and reply status, visibility and status. Use for local SEO. |
+| [health-wellness](../../skills/business/operations/health_wellness/health-wellness/SKILL.md) | `health_wellness` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for health wellness. Wellbeing check-in register: anonymous flag, department, check-in date, wellbeing score, stress and energy levels, support and resource flags, confidentiality and status. Use for wellness programmes. |

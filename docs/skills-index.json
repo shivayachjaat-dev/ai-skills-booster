@@ -11050,6 +11050,28 @@
     "maturity": "stable"
   },
   {
+    "name": "health-wellness",
+    "path": "skills/business/operations/health_wellness/health-wellness",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "health_wellness",
+    "description": "Use this skill to design, implement, and operate production workflows for health wellness. Wellbeing check-in register: anonymous flag, department, check-in date, wellbeing score, stress and energy levels, support and resource flags, confidentiality and status. Use for wellness programmes.",
+    "tags": [
+      "business",
+      "operations",
+      "health",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Health Wellness",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

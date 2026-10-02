@@ -522,7 +522,8 @@ AI_Skills_Booster/
 │   │   ├── expense_accounting/ (1 skills)
 │   │   ├── find_matching_tender/ (1 skills)
 │   │   ├── gamification_engine/ (1 skills)
-│   │   └── gbp_local_seo_intent/ (1 skills)
+│   │   ├── gbp_local_seo_intent/ (1 skills)
+│   │   └── health_wellness/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/
