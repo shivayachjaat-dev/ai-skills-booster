@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **84 skills** available in this category.
+> **85 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -87,4 +87,5 @@
 | [doubt-driven-development](../../skills/software-engineering/architecture/patterns/doubt-driven-development/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for doubt driven development. Subjects every non-trivial decision to a fresh-context adversarial review before it stands. |
 | [dx-optimizer](../../skills/software-engineering/architecture/patterns/dx-optimizer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dx optimizer. Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed. |
 | [edr-bypass-re](../../skills/software-engineering/architecture/patterns/edr-bypass-re/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for edr bypass re. Reverse engineer EDR internals (user-mode hook tables, ETW, AMSI) and study bypass techniques such as direct syscalls, Hell's Gate, and call-stack spoofing. Lab-only red-team research. |
+| [emergency-card](../../skills/software-engineering/architecture/patterns/emergency-card/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for emergency card. 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问"紧急信息"、"医疗卡片"、"急救信息"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。 |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
