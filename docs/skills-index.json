@@ -17527,6 +17527,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gitlab-ci",
+    "path": "skills/frontend/ui-ux/gitlab_ci/gitlab-ci",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "gitlab_ci",
+    "description": "Use this skill to design, implement, and operate production workflows for gitlab ci. Configure GitLab CI/CD pipelines and runners for automated building,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "gitlab",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gitlab Ci",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
