@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [azure-communication-sms-java](../../skills/devops/cloud-infrastructure/azure_communication_/azure-communication-sms-java/SKILL.md) | `azure_communication_` | `advanced` | `stable` | Use this skill to send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports. |
 | [azure-compute-batch-java](../../skills/devops/cloud-infrastructure/azure_compute_batch_/azure-compute-batch-java/SKILL.md) | `azure_compute_batch_` | `advanced` | `stable` | Use this skill to azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes. |
 | [azure-eventgrid-dotnet](../../skills/devops/cloud-infrastructure/azure_eventgrid_dotn/azure-eventgrid-dotnet/SKILL.md) | `azure_eventgrid_dotn` | `advanced` | `stable` | Use this skill to azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents. |
+| [azure-eventhub-dotnet](../../skills/devops/cloud-infrastructure/azure_eventhub_dotne/azure-eventhub-dotnet/SKILL.md) | `azure_eventhub_dotne` | `advanced` | `stable` | Use this skill to azure Event Hubs SDK for .NET. |

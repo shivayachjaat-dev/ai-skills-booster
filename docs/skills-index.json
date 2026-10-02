@@ -4182,6 +4182,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-eventhub-dotnet",
+    "path": "skills/devops/cloud-infrastructure/azure_eventhub_dotne/azure-eventhub-dotnet",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_eventhub_dotne",
+    "description": "Use this skill to azure Event Hubs SDK for .NET.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Eventhub Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

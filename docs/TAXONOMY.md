@@ -250,7 +250,8 @@ AI_Skills_Booster/
 │   │   ├── azure_appconfigurati/ (2 skills)
 │   │   ├── azure_communication_/ (1 skills)
 │   │   ├── azure_compute_batch_/ (1 skills)
-│   │   └── azure_eventgrid_dotn/ (1 skills)
+│   │   ├── azure_eventgrid_dotn/ (1 skills)
+│   │   └── azure_eventhub_dotne/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/
