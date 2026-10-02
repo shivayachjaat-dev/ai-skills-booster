@@ -8399,6 +8399,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-jwt-crypto",
+    "path": "skills/ai-engineering/models/hunt_jwt_crypto/hunt-jwt-crypto",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "hunt_jwt_crypto",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt jwt crypto. Hunt JWT cryptographic failures",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Jwt Crypto",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

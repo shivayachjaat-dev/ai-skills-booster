@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **305 skills** available in this category.
+> **306 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -303,6 +303,7 @@
 | [huggingface-spaces](../../skills/ai-engineering/models/huggingface_spaces/huggingface-spaces/SKILL.md) | `huggingface_spaces` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for huggingface spaces. Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants. |
 | [huggingface-zerogpu](../../skills/ai-engineering/models/huggingface_zerogpu/huggingface-zerogpu/SKILL.md) | `huggingface_zerogpu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for huggingface zerogpu. AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. |
 | [humanize-chinese](../../skills/ai-engineering/models/humanize_chinese/humanize-chinese/SKILL.md) | `humanize_chinese` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for humanize chinese. Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to 去AI味, 降AIGC, 去除AI痕迹, 论文降重, 知网检测, 维普检测, humanize chinese, detect AI text, or make Chinese ... |
+| [hunt-jwt-crypto](../../skills/ai-engineering/models/hunt_jwt_crypto/hunt-jwt-crypto/SKILL.md) | `hunt_jwt_crypto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt jwt crypto. Hunt JWT cryptographic failures |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
