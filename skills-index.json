@@ -12665,6 +12665,28 @@
     "maturity": "stable"
   },
   {
+    "name": "helpdesk-automation",
+    "path": "skills/developer-tools/productivity/helpdesk_automation/helpdesk-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "helpdesk_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for helpdesk automation. Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "helpdesk",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Helpdesk Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

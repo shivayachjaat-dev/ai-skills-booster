@@ -626,7 +626,8 @@ AI_Skills_Booster/
 │   │   ├── dropbox_automation/ (1 skills)
 │   │   ├── figma_automation/ (1 skills)
 │   │   ├── freshdesk_automation/ (1 skills)
-│   │   └── gitlab_automation/ (1 skills)
+│   │   ├── gitlab_automation/ (1 skills)
+│   │   └── helpdesk_automation/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/

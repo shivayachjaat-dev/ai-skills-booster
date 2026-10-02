@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,3 +22,4 @@
 | [figma-automation](../../skills/developer-tools/productivity/figma_automation/figma-automation/SKILL.md) | `figma_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for figma automation. Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas. |
 | [freshdesk-automation](../../skills/developer-tools/productivity/freshdesk_automation/freshdesk-automation/SKILL.md) | `freshdesk_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for freshdesk automation. Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas. |
 | [gitlab-automation](../../skills/developer-tools/productivity/gitlab_automation/gitlab-automation/SKILL.md) | `gitlab_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gitlab automation. Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio). Always search tools first for current schemas. |
+| [helpdesk-automation](../../skills/developer-tools/productivity/helpdesk_automation/helpdesk-automation/SKILL.md) | `helpdesk_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for helpdesk automation. Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for current schemas. |
