@@ -19617,6 +19617,28 @@
     "maturity": "stable"
   },
   {
+    "name": "markstream-migration",
+    "path": "skills/frontend/ui-development/markstream_migration/markstream-migration",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "markstream_migration",
+    "description": "Use this skill to design, implement, and operate production workflows for markstream migration. Audit and migrate an existing Markdown renderer to Markstream while preserving custom renderers, security policy, streaming behavior, and explicit parity gaps.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "markstream",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Markstream Migration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
