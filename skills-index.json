@@ -10511,6 +10511,28 @@
     "maturity": "stable"
   },
   {
+    "name": "markstream-vue",
+    "path": "skills/ai-engineering/models/markstream_vue/markstream-vue",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "markstream_vue",
+    "description": "Use this skill to design, implement, and operate production workflows for markstream vue. Integrate markstream-vue into plain Vue 3 with renderer modes, code and DOM choices, streaming state, virtualization, optional peers, and scoped components.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "markstream",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Markstream Vue",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

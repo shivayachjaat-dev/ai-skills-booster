@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1304 skills)
+## Bash (1305 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1524,6 +1524,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [mailtrap-testing-with-sandbox](../skills/ai-engineering/models/mailtrap_testing_wit/mailtrap-testing-with-sandbox/SKILL.md) — Use this skill to design, implement, and operate production workflows for mailtrap testing with sandbox. Capture outbound email in Mailtrap Email Sandbox for development, staging, CI, HTML inspection, spam checks, and fake inbox tests.
 - [maintain-codex-wiki](../skills/ai-engineering/models/maintain_codex_wiki/maintain-codex-wiki/SKILL.md) — Use this skill to design, implement, and operate production workflows for maintain codex wiki. Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and deterministic checks.
 - [market-sizing-analysis](../skills/ai-engineering/models/market_sizing_analys/market-sizing-analysis/SKILL.md) — Use this skill to design, implement, and operate production workflows for market sizing analysis. Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities.
+- [markstream-vue](../skills/ai-engineering/models/markstream_vue/markstream-vue/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue. Integrate markstream-vue into plain Vue 3 with renderer modes, code and DOM choices, streaming state, virtualization, optional peers, and scoped components.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -7404,6 +7405,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [markstream-svelte](../skills/frontend/ui-development/markstream_svelte/markstream-svelte/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream svelte. Integrate the beta markstream-svelte renderer into Svelte 5 or SvelteKit with runes, explicit CSS, smooth streaming, workers, and SSR-safe boundaries.
 
+## Markstream Vue (1 skills)
+
+- [markstream-vue](../skills/ai-engineering/models/markstream_vue/markstream-vue/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue. Integrate markstream-vue into plain Vue 3 with renderer modes, code and DOM choices, streaming state, virtualization, optional peers, and scoped components.
+
 ## Marp CLI (1 skills)
 
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
@@ -7872,7 +7877,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1407 skills)
+## Python (1408 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8344,6 +8349,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [mailtrap-testing-with-sandbox](../skills/ai-engineering/models/mailtrap_testing_wit/mailtrap-testing-with-sandbox/SKILL.md) — Use this skill to design, implement, and operate production workflows for mailtrap testing with sandbox. Capture outbound email in Mailtrap Email Sandbox for development, staging, CI, HTML inspection, spam checks, and fake inbox tests.
 - [maintain-codex-wiki](../skills/ai-engineering/models/maintain_codex_wiki/maintain-codex-wiki/SKILL.md) — Use this skill to design, implement, and operate production workflows for maintain codex wiki. Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and deterministic checks.
 - [market-sizing-analysis](../skills/ai-engineering/models/market_sizing_analys/market-sizing-analysis/SKILL.md) — Use this skill to design, implement, and operate production workflows for market sizing analysis. Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities.
+- [markstream-vue](../skills/ai-engineering/models/markstream_vue/markstream-vue/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue. Integrate markstream-vue into plain Vue 3 with renderer modes, code and DOM choices, streaming state, virtualization, optional peers, and scoped components.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
