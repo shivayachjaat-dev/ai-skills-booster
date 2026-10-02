@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 234 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 235 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -126,6 +126,7 @@
 | [agents-md-repository-context-specification](skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) | `developer-tools` | `repository-specs` | `agents-md` | `intermediate` | `stable` | Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants. |
 | [multi-language-api-sdk-code-generator](skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) | `developer-tools` | `sdk-generation` | `openapi-generator` | `advanced` | `stable` | Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning. |
 | [aws-cost-optimization](skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) | `devops` | `ci-cd` | `aws_cost_optimizatio` | `advanced` | `stable` | Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning, |
+| [aws-s3](skills/devops/ci-cd/aws_s3/aws-s3/SKILL.md) | `devops` | `ci-cd` | `aws_s3` | `advanced` | `stable` | Use this skill to configure S3 buckets, policies, and lifecycle rules. Implement versioning, |
 | [github-actions-ci-pipeline-optimization](skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `devops` | `ci-cd` | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |
