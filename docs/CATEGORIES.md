@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,325** skills across structured domains, categories, and subcategories.
+Master navigation for **1,326** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (440 skills)
 
@@ -948,7 +948,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (83 skills)
+## Backend (84 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -972,7 +972,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (28 skills)
+### Api Frameworks (29 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -1029,6 +1029,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [incident-responder](../skills/backend/api-frameworks/incident_responder/incident-responder/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident responder. Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.
 - **Instagram** (1):
   - [instagram](../skills/backend/api-frameworks/instagram/instagram/SKILL.md) — Use this skill to design, implement, and operate production workflows for instagram. Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator.
+- **Javascript_Pro** (1):
+  - [javascript-pro](../skills/backend/api-frameworks/javascript_pro/javascript-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript pro. Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)

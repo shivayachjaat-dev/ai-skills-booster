@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1143 skills)
+## Bash (1144 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1513,6 +1513,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hunt-shadow-api](../skills/backend/api-frameworks/hunt_shadow_api/hunt-shadow-api/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt shadow api. Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper
 - [incident-responder](../skills/backend/api-frameworks/incident_responder/incident-responder/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident responder. Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.
 - [instagram](../skills/backend/api-frameworks/instagram/instagram/SKILL.md) — Use this skill to design, implement, and operate production workflows for instagram. Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator.
+- [javascript-pro](../skills/backend/api-frameworks/javascript_pro/javascript-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript pro. Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.
 - [hunt-cache-poison](../skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
 - [azure-postgres-ts](../skills/backend/databases/azure_postgres_ts/azure-postgres-ts/SKILL.md) — Use this skill to connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
@@ -6437,6 +6438,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [javascript-mastery](../skills/software-engineering/architecture/patterns/javascript-mastery/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript mastery. 33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts).
 
+## Javascript Pro (1 skills)
+
+- [javascript-pro](../skills/backend/api-frameworks/javascript_pro/javascript-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript pro. Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.
+
 ## Jest (1 skills)
 
 - [aws-cdk-v2-infrastructure-as-code-architecture](../skills/devops/infrastructure/aws-cdk/aws-cdk-v2-infrastructure-as-code-architecture/SKILL.md) — Use this skill to design, build, and deploy production AWS cloud infrastructure using the AWS Cloud Development Kit (CDK v2) in TypeScript and Python. It covers L1/L2/L3 construct composition, multi-account multi-region pipelines (cdk-pipelines), automated compliance enforcement with CDK Aspects (IAspect), unit and snapshot testing with @aws-cdk/assertions, and drift remediation.
@@ -7077,7 +7082,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1246 skills)
+## Python (1247 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7550,6 +7555,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hunt-shadow-api](../skills/backend/api-frameworks/hunt_shadow_api/hunt-shadow-api/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt shadow api. Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper
 - [incident-responder](../skills/backend/api-frameworks/incident_responder/incident-responder/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident responder. Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.
 - [instagram](../skills/backend/api-frameworks/instagram/instagram/SKILL.md) — Use this skill to design, implement, and operate production workflows for instagram. Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator.
+- [javascript-pro](../skills/backend/api-frameworks/javascript_pro/javascript-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript pro. Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
 - [hunt-cache-poison](../skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.
 - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.

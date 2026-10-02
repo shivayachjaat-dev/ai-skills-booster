@@ -10612,6 +10612,28 @@
     "maturity": "stable"
   },
   {
+    "name": "javascript-pro",
+    "path": "skills/backend/api-frameworks/javascript_pro/javascript-pro",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "javascript_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for javascript pro. Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "javascript",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Javascript Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
