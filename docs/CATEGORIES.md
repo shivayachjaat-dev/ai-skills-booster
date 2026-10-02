@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,394** skills across structured domains, categories, and subcategories.
+Master navigation for **1,395** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (472 skills)
 
@@ -1545,7 +1545,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (35 skills)
+## Developer Tools (36 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1553,7 +1553,7 @@ Category index: [`docs/categories/cli.md`](categories/cli.md)
 - **Typer Architecture** (1):
   - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
 
-### Cli Utilities (8 skills)
+### Cli Utilities (9 skills)
 Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md)
 
 - **Ask_Copilot** (1):
@@ -1572,6 +1572,8 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
   - [graphql-schema](../skills/developer-tools/cli-utilities/graphql_schema/graphql-schema/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.
 - **It_Manager_Hospital** (1):
   - [it-manager-hospital](../skills/developer-tools/cli-utilities/it_manager_hospital/it-manager-hospital/SKILL.md) — Use this skill to design, implement, and operate production workflows for it manager hospital. World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS/PEP ecosystems.
+- **Linkedin_Cli** (1):
+  - [linkedin-cli](../skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.
 
 ### Productivity (24 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)

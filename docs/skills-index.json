@@ -14513,6 +14513,28 @@
     "maturity": "stable"
   },
   {
+    "name": "linkedin-cli",
+    "path": "skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "linkedin_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "linkedin",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Linkedin Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",
