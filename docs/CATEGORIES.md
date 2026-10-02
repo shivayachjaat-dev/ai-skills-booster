@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **656** skills across structured domains, categories, and subcategories.
+Master navigation for **657** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (235 skills)
+## Ai Engineering (236 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (163 skills)
+### Models (164 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -462,6 +462,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [cypress-skill](../skills/ai-engineering/models/cypress_skill/cypress-skill/SKILL.md) — Use this skill to generates production-grade Cypress E2E and component tests in JavaScript or TypeScript. Supports local execution and TestMu AI cloud. Use when the user asks to write Cypress tests, set up Cypress, test with cy commands, or mentions \"Cypress\", \"cy.visit\", \"cy.get\", \"cy.interc
 - **Daily** (1):
   - [daily](../skills/ai-engineering/models/daily/daily/SKILL.md) — Use this skill to documentation and capabilities reference for Daily
+- **Daily_Gift** (1):
+  - [daily-gift](../skills/ai-engineering/models/daily_gift/daily-gift/SKILL.md) — Use this skill to relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

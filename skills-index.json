@@ -4703,6 +4703,28 @@
     "maturity": "stable"
   },
   {
+    "name": "daily-gift",
+    "path": "skills/ai-engineering/models/daily_gift/daily-gift",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "daily_gift",
+    "description": "Use this skill to relationship-aware daily gift engine with five-stage creative pipeline \u2014 editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "daily",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Daily Gift",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
