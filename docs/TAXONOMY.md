@@ -95,8 +95,10 @@ AI_Skills_Booster/
 │   │   └── recovery/ (1 skills)
 │   ├── modernization/
 │   │   └── migration/ (1 skills)
-│   └── refactoring/
+│   ├── refactoring/
 │   │   └── simplification/ (1 skills)
+│   └── resilience/
+│   │   └── circuit-breaker/ (1 skills)
 ├── testing/
 │   ├── component/
 │   │   └── cypress/ (1 skills)

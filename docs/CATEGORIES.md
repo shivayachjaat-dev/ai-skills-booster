@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **46** skills across structured domains, categories, and subcategories.
+Master navigation for **47** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (6 skills)
 
@@ -248,7 +248,7 @@ Category index: [`docs/categories/secrets.md`](categories/secrets.md)
 - **Vault** (1):
   - [vault-secrets-management](../skills/security/secrets/vault/vault-secrets-management/SKILL.md) — Use this skill when architecting and managing enterprise secrets using HashiCorp Vault. It guides the agent through dynamic database credentials generation, lease management and renewal, Kubernetes ServiceAccount authentication, PKI on-demand certificate issuance, transit encryption, and disaster recovery replication.
 
-## Software Engineering (4 skills)
+## Software Engineering (5 skills)
 
 ### Architecture (1 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
@@ -273,6 +273,12 @@ Category index: [`docs/categories/refactoring.md`](categories/refactoring.md)
 
 - **Simplification** (1):
   - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
+
+### Resilience (1 skills)
+Category index: [`docs/categories/resilience.md`](categories/resilience.md)
+
+- **Circuit Breaker** (1):
+  - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
 ## Testing (3 skills)
 

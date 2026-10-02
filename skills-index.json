@@ -1063,6 +1063,31 @@
     "maturity": "stable"
   },
   {
+    "name": "microservices-resilience-circuit-breaker",
+    "path": "skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker",
+    "domain": "software-engineering",
+    "category": "resilience",
+    "subcategory": "circuit-breaker",
+    "description": "Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.",
+    "tags": [
+      "resilience",
+      "circuit-breaker",
+      "microservices",
+      "fault-tolerance",
+      "retry",
+      "fallback"
+    ],
+    "technologies": [
+      "Python",
+      "Go",
+      "Resilience4j",
+      "Envoy",
+      "Polly"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",
