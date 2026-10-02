@@ -9521,6 +9521,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lightning-architecture-review",
+    "path": "skills/ai-engineering/models/lightning_architectu/lightning-architecture-review",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "lightning_architectu",
+    "description": "Use this skill to design, implement, and operate production workflows for lightning architecture review. Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain footprint, consensus requirements, HTLC/PTLC compatibility, liveness, and watchtower s...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "lightning",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lightning Architecture Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
