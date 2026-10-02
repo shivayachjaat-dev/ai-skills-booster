@@ -145,6 +145,31 @@
     "maturity": "stable"
   },
   {
+    "name": "graphql-schema-evolution",
+    "path": "skills/backend/graphql/schema-design/graphql-schema-evolution",
+    "domain": "backend",
+    "category": "graphql",
+    "subcategory": "schema-design",
+    "description": "Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.",
+    "tags": [
+      "graphql",
+      "schema-design",
+      "backend",
+      "api",
+      "dataloader",
+      "typescript"
+    ],
+    "technologies": [
+      "GraphQL",
+      "TypeScript",
+      "DataLoader",
+      "Apollo Server",
+      "GraphQL Yoga"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

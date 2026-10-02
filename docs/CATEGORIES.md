@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **26** skills across structured domains, categories, and subcategories.
+Master navigation for **27** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -24,7 +24,7 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 
-## Backend (2 skills)
+## Backend (3 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -37,6 +37,12 @@ Category index: [`docs/categories/fastapi.md`](categories/fastapi.md)
 
 - **Async Architecture** (1):
   - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.
+
+### Graphql (1 skills)
+Category index: [`docs/categories/graphql.md`](categories/graphql.md)
+
+- **Schema Design** (1):
+  - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
 
 ## Data Analytics (2 skills)
 

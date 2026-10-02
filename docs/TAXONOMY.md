@@ -13,8 +13,10 @@ AI_Skills_Booster/
 ├── backend/
 │   ├── api-design/
 │   │   └── rate-limiting/ (1 skills)
-│   └── fastapi/
+│   ├── fastapi/
 │   │   └── async-architecture/ (1 skills)
+│   └── graphql/
+│   │   └── schema-design/ (1 skills)
 ├── data-analytics/
 │   ├── data-pipelines/
 │   │   └── polars/ (1 skills)
