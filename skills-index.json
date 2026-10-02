@@ -6249,6 +6249,28 @@
     "maturity": "stable"
   },
   {
+    "name": "database-migrations-sql-migrations",
+    "path": "skills/backend/databases/database_migrations_/database-migrations-sql-migrations",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "database_migrations_",
+    "description": "Use this skill to sQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity and rollback plans.",
+    "tags": [
+      "backend",
+      "databases",
+      "database",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Database Migrations Sql Migrations",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

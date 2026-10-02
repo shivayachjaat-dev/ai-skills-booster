@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **14 skills** available in this category.
+> **15 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,4 +17,5 @@
 | [database-design](../../skills/backend/databases/database_design/database-design/SKILL.md) | `database_design` | `advanced` | `stable` | Use this skill to database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases. |
 | [database-migration](../../skills/backend/databases/database_migration/database-migration/SKILL.md) | `database_migration` | `advanced` | `stable` | Use this skill to master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies and zero-downtime deployments. |
 | [database-migrations-migration-observability](../../skills/backend/databases/database_migrations_/database-migrations-migration-observability/SKILL.md) | `database_migrations_` | `advanced` | `stable` | Use this skill to migration monitoring, CDC, and observability infrastructure |
+| [database-migrations-sql-migrations](../../skills/backend/databases/database_migrations_/database-migrations-sql-migrations/SKILL.md) | `database_migrations_` | `advanced` | `stable` | Use this skill to sQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity and rollback plans. |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |
