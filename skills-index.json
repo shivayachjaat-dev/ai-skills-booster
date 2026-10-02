@@ -2173,6 +2173,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-cost-optimization",
+    "path": "skills/ai-engineering/llm-ops/llm_cost_optimizatio/llm-cost-optimization",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llm_cost_optimizatio",
+    "description": "Use this skill to design, implement, and operate production workflows for llm cost optimization. Reduce LLM API and infrastructure costs through model selection, prompt",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Cost Optimization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

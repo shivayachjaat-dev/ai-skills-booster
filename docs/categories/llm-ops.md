@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [llm-app-patterns](../../skills/ai-engineering/llm-ops/llm_app_patterns/llm-app-patterns/SKILL.md) | `llm_app_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm app patterns. Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries. |
 | [llm-app-security](../../skills/ai-engineering/llm-ops/llm_app_security/llm-app-security/SKILL.md) | `llm_app_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm app security. Secure LLM-powered applications with input validation, output controls, |
 | [llm-caching](../../skills/ai-engineering/llm-ops/llm_caching/llm-caching/SKILL.md) | `llm_caching` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm caching. Implement multi-layer LLM caching with exact match, semantic similarity, |
+| [llm-cost-optimization](../../skills/ai-engineering/llm-ops/llm_cost_optimizatio/llm-cost-optimization/SKILL.md) | `llm_cost_optimizatio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm cost optimization. Reduce LLM API and infrastructure costs through model selection, prompt |

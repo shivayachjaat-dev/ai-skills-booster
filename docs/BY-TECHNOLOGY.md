@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1229 skills)
+## Bash (1230 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1145,6 +1145,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [llm-app-patterns](../skills/ai-engineering/llm-ops/llm_app_patterns/llm-app-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm app patterns. Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries.
 - [llm-app-security](../skills/ai-engineering/llm-ops/llm_app_security/llm-app-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm app security. Secure LLM-powered applications with input validation, output controls,
 - [llm-caching](../skills/ai-engineering/llm-ops/llm_caching/llm-caching/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm caching. Implement multi-layer LLM caching with exact match, semantic similarity,
+- [llm-cost-optimization](../skills/ai-engineering/llm-ops/llm_cost_optimizatio/llm-cost-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm cost optimization. Reduce LLM API and infrastructure costs through model selection, prompt
 - [agentfolio](../skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) — Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
 - [ai-agent-development](../skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) — Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.
 - [ai-analyzer](../skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) — Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
@@ -6983,6 +6984,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [llm-caching](../skills/ai-engineering/llm-ops/llm_caching/llm-caching/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm caching. Implement multi-layer LLM caching with exact match, semantic similarity,
 
+## Llm Cost Optimization (1 skills)
+
+- [llm-cost-optimization](../skills/ai-engineering/llm-ops/llm_cost_optimizatio/llm-cost-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm cost optimization. Reduce LLM API and infrastructure costs through model selection, prompt
+
 ## Local Legal Seo Audit (1 skills)
 
 - [local-legal-seo-audit](../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) — Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.
@@ -7497,7 +7502,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1332 skills)
+## Python (1333 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7590,6 +7595,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [llm-app-patterns](../skills/ai-engineering/llm-ops/llm_app_patterns/llm-app-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm app patterns. Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries.
 - [llm-app-security](../skills/ai-engineering/llm-ops/llm_app_security/llm-app-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm app security. Secure LLM-powered applications with input validation, output controls,
 - [llm-caching](../skills/ai-engineering/llm-ops/llm_caching/llm-caching/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm caching. Implement multi-layer LLM caching with exact match, semantic similarity,
+- [llm-cost-optimization](../skills/ai-engineering/llm-ops/llm_cost_optimizatio/llm-cost-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm cost optimization. Reduce LLM API and infrastructure costs through model selection, prompt
 - [agentfolio](../skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) — Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
 - [ai-agent-development](../skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) — Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.
 - [ai-analyzer](../skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) — Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
