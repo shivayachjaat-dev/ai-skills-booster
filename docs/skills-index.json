@@ -3889,6 +3889,34 @@
     "maturity": "stable"
   },
   {
+    "name": "mitre-attack-chain-and-lateral-movement-simulation",
+    "path": "skills/security/red-teaming/attack-simulation/mitre-attack-chain-and-lateral-movement-simulation",
+    "domain": "security",
+    "category": "red-teaming",
+    "subcategory": "attack-simulation",
+    "description": "Use this skill to model, simulate, and defend against multi-stage adversary attack chains across enterprise environments using the MITRE ATT&CK framework. It covers initial access emulation, execution vectors, credential dumping (LSASS, DPAPI), lateral movement (WMI, WinRM, Pass-the-Hash, Kerberoasting), command-and-control (C2) beacon analysis, and engineering Blue Team detection rules in Sigma and YARA-L.",
+    "tags": [
+      "security",
+      "red-teaming",
+      "mitre-attack",
+      "lateral-movement",
+      "kerberoasting",
+      "pass-the-hash",
+      "adversary-simulation",
+      "sigma-rules"
+    ],
+    "technologies": [
+      "Python",
+      "MITRE ATT&CK",
+      "Sigma",
+      "YARA-L",
+      "PowerShell",
+      "Bash"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-llm-red-teaming-and-jailbreak-assessment",
     "path": "skills/security/red-teaming/llm-jailbreak/ai-llm-red-teaming-and-jailbreak-assessment",
     "domain": "security",

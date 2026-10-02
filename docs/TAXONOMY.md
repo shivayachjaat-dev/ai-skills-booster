@@ -291,6 +291,7 @@ AI_Skills_Booster/
 │   ├── penetration-testing/
 │   │   └── active-directory/ (1 skills)
 │   ├── red-teaming/
+│   │   ├── attack-simulation/ (1 skills)
 │   │   └── llm-jailbreak/ (1 skills)
 │   ├── secret-management/
 │   │   └── detection/ (1 skills)
