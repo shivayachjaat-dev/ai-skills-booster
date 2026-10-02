@@ -1130,8 +1130,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [redis-streams-event-processing](../skills/backend/caching/redis-streams/redis-streams-event-processing/SKILL.md) — Use this skill when architecting, implementing, and operating event-driven stream processing systems using Redis Streams. It guides the agent through appending events with XADD, managing competing Consumer Groups with XREADGROUP, tracking the Pending Entries List (PEL), dead-lettering abandoned messages via XAUTOCLAIM, and stream memory trimming with MAXLEN.
 
-## NumPy (2 skills)
+## NumPy (3 skills)
 
+- [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 - [financial-market-data-and-alpha-vantage-time-series](../skills/data-analytics/financial/alpha-vantage/financial-market-data-and-alpha-vantage-time-series/SKILL.md) — Use this skill to fetch, clean, and analyze global equities, FX, cryptocurrency, and macroeconomic time series using the Alpha Vantage API. It covers technical indicator calculations (RSI, MACD, Bollinger Bands), rate limiting, and Pandas data pipeline integration.
 - [cross-channel-ad-campaign-analytics](../skills/marketing/paid-advertising/campaign-analytics/cross-channel-ad-campaign-analytics/SKILL.md) — Use this skill when analyzing, attributing, and optimizing multi-channel paid advertising campaigns across Google Ads, Meta Ads, LinkedIn, and programmatic channels. It guides the agent through calculating Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), attribution modeling (First-Touch, Last-Touch, Data-Driven Markov), statistical significance in spend allocation, and budget rebalancing.
 
@@ -1399,7 +1400,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (97 skills)
+## Python (98 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
@@ -1426,6 +1427,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
+- [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 - [rest-and-graphql-api-spec-analyzer](../skills/backend/api-design/api-analyzer/rest-and-graphql-api-spec-analyzer/SKILL.md) — Use this skill to statically audit, lint, and validate REST, OpenAPI 3.1, and GraphQL schema specifications against architectural best practices. It checks for consistent HTTP verb usage, snake/camel case casing conventions, missing pagination contracts, unversioned breaking changes, and rate limiting headers.
 - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
@@ -1768,8 +1770,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-search-engine-optimization-and-schema-markup](../skills/marketing/seo/ai-search-optimization/ai-search-engine-optimization-and-schema-markup/SKILL.md) — Use this skill to optimize digital content and technical architecture for Generative Engine Optimization (GEO) and AI search citations across Google AI Overviews, Perplexity, ChatGPT Search, and Claude. It covers structured JSON-LD schema markup, information gain density, entity authority graphs, and machine-readable markdown tables.
 
-## SciPy (1 skills)
+## SciPy (2 skills)
 
+- [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 
 ## Scoring Matrices (1 skills)
@@ -1828,6 +1831,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Snowpipe (1 skills)
 
 - [snowflake-data-warehouse-modeling](../skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling/SKILL.md) — Use this skill when architecting, modeling, and optimizing enterprise data warehouses in Snowflake. It guides the agent through multi-cluster virtual warehouse sizing, micro-partition clustering keys, zero-copy cloning for staging environments, time travel data recovery, and continuous ingestion with Snowpipe.
+
+## Spectral Graph Theory (1 skills)
+
+- [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
 ## Spectral Linter (1 skills)
 
@@ -2000,6 +2007,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Vector Databases (1 skills)
 
 - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
+
+## Vector Embeddings (1 skills)
+
+- [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
 ## Vector Math (1 skills)
 

@@ -779,6 +779,32 @@
     "maturity": "stable"
   },
   {
+    "name": "spectral-graph-laplacian-vector-search",
+    "path": "skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search",
+    "domain": "ai-engineering",
+    "category": "vector-search",
+    "subcategory": "spectral-embeddings",
+    "description": "Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.",
+    "tags": [
+      "spectral-search",
+      "graph-laplacian",
+      "vector-search",
+      "embeddings",
+      "manifold-learning",
+      "eigenvectors",
+      "ai-engineering"
+    ],
+    "technologies": [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "Spectral Graph Theory",
+      "Vector Embeddings"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "rest-and-graphql-api-spec-analyzer",
     "path": "skills/backend/api-design/api-analyzer/rest-and-graphql-api-spec-analyzer",
     "domain": "backend",

@@ -46,8 +46,10 @@ AI_Skills_Booster/
 │   │   └── synth-data-pipeline/ (1 skills)
 │   ├── tools/
 │   │   └── tool-builder/ (1 skills)
-│   └── vector-databases/
+│   ├── vector-databases/
 │   │   └── indexing/ (1 skills)
+│   └── vector-search/
+│   │   └── spectral-embeddings/ (1 skills)
 ├── backend/
 │   ├── api-design/
 │   │   ├── api-analyzer/ (1 skills)

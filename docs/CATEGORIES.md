@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **172** skills across structured domains, categories, and subcategories.
+Master navigation for **173** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (31 skills)
+## Ai Engineering (32 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -121,6 +121,12 @@ Category index: [`docs/categories/vector-databases.md`](categories/vector-databa
 
 - **Indexing** (1):
   - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
+
+### Vector Search (1 skills)
+Category index: [`docs/categories/vector-search.md`](categories/vector-search.md)
+
+- **Spectral Embeddings** (1):
+  - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
 ## Backend (17 skills)
 
