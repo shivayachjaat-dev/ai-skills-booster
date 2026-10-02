@@ -577,6 +577,32 @@
     "maturity": "stable"
   },
   {
+    "name": "kubeflow-and-ray-ai-pipeline-orchestration",
+    "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
+    "domain": "ai-engineering",
+    "category": "orchestration",
+    "subcategory": "kubeflow-ray",
+    "description": "Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.",
+    "tags": [
+      "kubeflow",
+      "ray",
+      "ml-pipelines",
+      "distributed-training",
+      "kfp",
+      "gpu-scheduling",
+      "mlops"
+    ],
+    "technologies": [
+      "Kubeflow Pipelines v2",
+      "Ray Train",
+      "Python",
+      "Docker",
+      "MLflow"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "llm-quantization-gguf-and-awq",
     "path": "skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq",
     "domain": "ai-engineering",

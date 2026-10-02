@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **132** skills across structured domains, categories, and subcategories.
+Master navigation for **133** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (28 skills)
+## Ai Engineering (29 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -81,6 +81,12 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
+
+### Orchestration (1 skills)
+Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)
+
+- **Kubeflow Ray** (1):
+  - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 
 ### Quantization (1 skills)
 Category index: [`docs/categories/quantization.md`](categories/quantization.md)
