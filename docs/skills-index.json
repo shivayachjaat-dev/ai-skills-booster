@@ -8963,6 +8963,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bash-scripting",
+    "path": "skills/testing/automation/bash_scripting/bash-scripting",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "bash_scripting",
+    "description": "Use this skill to bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.",
+    "tags": [
+      "testing",
+      "automation",
+      "bash",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bash Scripting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

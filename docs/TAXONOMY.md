@@ -521,6 +521,8 @@ AI_Skills_Booster/
 │   │   └── test-authoring/ (1 skills)
 │   ├── api-mocking/
 │   │   └── prism-wiremock/ (1 skills)
+│   ├── automation/
+│   │   └── bash_scripting/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/
