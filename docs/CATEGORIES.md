@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,352** skills across structured domains, categories, and subcategories.
+Master navigation for **1,353** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (451 skills)
+## Ai Engineering (452 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -228,7 +228,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (329 skills)
+### Models (330 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -868,6 +868,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [klaviyo-automation](../skills/ai-engineering/models/klaviyo_automation/klaviyo-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for klaviyo automation. Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas.
 - **Kpi_Tracker** (1):
   - [kpi-tracker](../skills/ai-engineering/models/kpi_tracker/kpi-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for kpi tracker. KPI register: metric by level, department, job title and employee, linked OKR, unit and direction, target against actual, achievement and weight percentages, period and owner. Use for scorecards.
+- **Kubernetes_Architect** (1):
+  - [kubernetes-architect](../skills/ai-engineering/models/kubernetes_architect/kubernetes-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubernetes architect. Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

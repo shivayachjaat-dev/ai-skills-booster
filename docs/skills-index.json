@@ -9169,6 +9169,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kubernetes-architect",
+    "path": "skills/ai-engineering/models/kubernetes_architect/kubernetes-architect",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "kubernetes_architect",
+    "description": "Use this skill to design, implement, and operate production workflows for kubernetes architect. Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "kubernetes",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kubernetes Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
