@@ -29109,6 +29109,28 @@
     "maturity": "stable"
   },
   {
+    "name": "javascript-mastery",
+    "path": "skills/software-engineering/architecture/patterns/javascript-mastery",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for javascript mastery. 33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts).",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "javascript",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Javascript Mastery",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
