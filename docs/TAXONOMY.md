@@ -457,6 +457,7 @@ AI_Skills_Booster/
 │   │   ├── llm_security/ (1 skills)
 │   │   ├── local_llm_expert/ (1 skills)
 │   │   ├── logic_explain/ (1 skills)
+│   │   ├── logic_fix_all/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

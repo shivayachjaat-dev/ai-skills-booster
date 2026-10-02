@@ -10049,6 +10049,28 @@
     "maturity": "stable"
   },
   {
+    "name": "logic-fix-all",
+    "path": "skills/ai-engineering/models/logic_fix_all/logic-fix-all",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "logic_fix_all",
+    "description": "Use this skill to design, implement, and operate production workflows for logic fix all. Autonomous repository-wide audit-and-fix pipeline: health \u2192 review \u2192 locate/explain \u2192 fix \u2192 diff-verify \u2192 iterate until clean. Starts with a mandatory consent prompt (token-intensive); after consent runs hands-free.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "logic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Logic Fix All",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
