@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,328** skills across structured domains, categories, and subcategories.
+Master navigation for **1,329** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (440 skills)
+## Ai Engineering (441 skills)
 
-### Agents (55 skills)
+### Agents (56 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -99,6 +99,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [infinite-gratitude](../skills/ai-engineering/agents/infinite_gratitude/infinite-gratitude/SKILL.md) — Use this skill to design, implement, and operate production workflows for infinite gratitude. Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).
 - **Ios_Debugger_Agent** (1):
   - [ios-debugger-agent](../skills/ai-engineering/agents/ios_debugger_agent/ios-debugger-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for ios debugger agent. Debug the current iOS project on a booted simulator with XcodeBuildMCP.
+- **Jenkins** (1):
+  - [jenkins](../skills/ai-engineering/agents/jenkins/jenkins/SKILL.md) — Use this skill to design, implement, and operate production workflows for jenkins. Create and manage Jenkins CI/CD pipelines, configure agents, manage plugins,
 - **Lintlang_Audit** (1):
   - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - **Memory** (1):

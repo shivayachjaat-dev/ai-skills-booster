@@ -1031,6 +1031,28 @@
     "maturity": "stable"
   },
   {
+    "name": "jenkins",
+    "path": "skills/ai-engineering/agents/jenkins/jenkins",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "jenkins",
+    "description": "Use this skill to design, implement, and operate production workflows for jenkins. Create and manage Jenkins CI/CD pipelines, configure agents, manage plugins,",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "jenkins",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Jenkins",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",

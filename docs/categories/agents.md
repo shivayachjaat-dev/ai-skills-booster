@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **55 skills** available in this category.
+> **56 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -50,6 +50,7 @@
 | [idea-to-blueprint](../../skills/ai-engineering/agents/idea_to_blueprint/idea-to-blueprint/SKILL.md) | `idea_to_blueprint` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea to blueprint. Turn a raw product, app, bot or feature idea into one evidence-backed build blueprint (researched stack, epics, Given/When/Then criteria, tests) that coding agents build one epic per session. |
 | [infinite-gratitude](../../skills/ai-engineering/agents/infinite_gratitude/infinite-gratitude/SKILL.md) | `infinite_gratitude` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for infinite gratitude. Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies). |
 | [ios-debugger-agent](../../skills/ai-engineering/agents/ios_debugger_agent/ios-debugger-agent/SKILL.md) | `ios_debugger_agent` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ios debugger agent. Debug the current iOS project on a booted simulator with XcodeBuildMCP. |
+| [jenkins](../../skills/ai-engineering/agents/jenkins/jenkins/SKILL.md) | `jenkins` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for jenkins. Create and manage Jenkins CI/CD pipelines, configure agents, manage plugins, |
 | [lintlang-audit](../../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) | `lintlang_audit` | `advanced` | `stable` | Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files. |
 | [agent-project-memory](../../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) | `memory` | `advanced` | `stable` | Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects. |
 | [agent-memory-recall-and-retention-discipline](../../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) | `memory-discipline` | `advanced` | `stable` | Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences. |
