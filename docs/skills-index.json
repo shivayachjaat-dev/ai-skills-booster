@@ -2283,6 +2283,28 @@
     "maturity": "stable"
   },
   {
+    "name": "backend-dev-guidelines",
+    "path": "skills/ai-engineering/models/backend_dev_guidelin/backend-dev-guidelines",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "backend_dev_guidelin",
+    "description": "Use this skill to you are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "backend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Backend Dev Guidelines",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

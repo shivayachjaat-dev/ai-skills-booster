@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **372** skills across structured domains, categories, and subcategories.
+Master navigation for **373** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (120 skills)
+## Ai Engineering (121 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -114,7 +114,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (68 skills)
+### Models (69 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -242,6 +242,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-storage-blob-ts](../skills/ai-engineering/models/azure_storage_blob_t/azure-storage-blob-ts/SKILL.md) — Use this skill to azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.
 - **Azure_Vms** (1):
   - [azure-vms](../skills/ai-engineering/models/azure_vms/azure-vms/SKILL.md) — Use this skill to manage Azure Virtual Machines and scale sets. Configure availability
+- **Backend_Dev_Guidelin** (1):
+  - [backend-dev-guidelines](../skills/ai-engineering/models/backend_dev_guidelin/backend-dev-guidelines/SKILL.md) — Use this skill to you are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
