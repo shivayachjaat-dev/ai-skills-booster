@@ -64,6 +64,7 @@ AI_Skills_Booster/
 │   │   ├── n8n_binary_and_data/ (1 skills)
 │   │   ├── n8n_subworkflows/ (1 skills)
 │   │   ├── observability/ (1 skills)
+│   │   ├── omp_delegate/ (1 skills)
 │   │   ├── orchestration/ (1 skills)
 │   │   ├── orchestration-optimization/ (1 skills)
 │   │   ├── process-management/ (1 skills)

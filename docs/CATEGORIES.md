@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,671** skills across structured domains, categories, and subcategories.
+Master navigation for **1,672** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (574 skills)
+## Ai Engineering (575 skills)
 
-### Agents (65 skills)
+### Agents (66 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -127,6 +127,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [n8n-subworkflows](../skills/ai-engineering/agents/n8n_subworkflows/n8n-subworkflows/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n subworkflows. Build reusable n8n sub-workflows with typed inputs, all-vs-each execution, discoverable naming, and agent-tool exposure.
 - **Observability** (1):
   - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
+- **Omp_Delegate** (1):
+  - [omp-delegate](../skills/ai-engineering/agents/omp_delegate/omp-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for omp delegate. Delegate coding tasks to Oh My Pi (`omp`) only when the user explicitly
 - **Orchestration** (1):
   - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 - **Orchestration Optimization** (1):
