@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **30 skills** available in this category.
+> **31 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -30,6 +30,7 @@
 | [duotone-design](../../skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) | `duotone_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics. |
 | [flat-design](../../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) | `flat_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors. |
 | [flat-design-2](../../skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) | `flat_design_2` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability. |
+| [frutiger-aero](../../skills/frontend/web-architecture/frutiger_aero/frutiger-aero/SKILL.md) | `frutiger_aero` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frutiger aero. Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs. |
 | [production-audit](../../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](../../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](../../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |

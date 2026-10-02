@@ -13215,6 +13215,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frutiger-aero",
+    "path": "skills/frontend/web-architecture/frutiger_aero/frutiger-aero",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "frutiger_aero",
+    "description": "Use this skill to design, implement, and operate production workflows for frutiger aero. Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "frutiger",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frutiger Aero",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

@@ -672,6 +672,7 @@ AI_Skills_Booster/
 │   │   ├── duotone_design/ (1 skills)
 │   │   ├── flat_design/ (1 skills)
 │   │   ├── flat_design_2/ (1 skills)
+│   │   ├── frutiger_aero/ (1 skills)
 │   │   ├── production_audit/ (1 skills)
 │   │   ├── security_audit/ (1 skills)
 │   │   ├── seo_aeo_content_qual/ (1 skills)
