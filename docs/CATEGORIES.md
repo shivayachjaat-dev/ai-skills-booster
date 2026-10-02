@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **115** skills across structured domains, categories, and subcategories.
+Master navigation for **116** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (18 skills)
 
@@ -177,6 +177,14 @@ Category index: [`docs/categories/procurement.md`](categories/procurement.md)
 
 - **Software Selection** (1):
   - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
+
+## Content (1 skills)
+
+### Presentation (1 skills)
+Category index: [`docs/categories/presentation.md`](categories/presentation.md)
+
+- **Marp Slides** (1):
+  - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 
 ## Data Analytics (5 skills)
 

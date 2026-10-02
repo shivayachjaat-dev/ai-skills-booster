@@ -876,6 +876,32 @@
     "maturity": "stable"
   },
   {
+    "name": "marp-and-python-pptx-slide-deck-generator",
+    "path": "skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator",
+    "domain": "content",
+    "category": "presentation",
+    "subcategory": "marp-slides",
+    "description": "Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.",
+    "tags": [
+      "marp",
+      "presentation",
+      "slides",
+      "pptx",
+      "markdown",
+      "executive-deck",
+      "documentation"
+    ],
+    "technologies": [
+      "Marp CLI",
+      "python-pptx",
+      "Markdown",
+      "HTML/CSS",
+      "Python"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "real-time-operational-metrics-dashboard",
     "path": "skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard",
     "domain": "data-analytics",

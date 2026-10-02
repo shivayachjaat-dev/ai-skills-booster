@@ -65,6 +65,9 @@ AI_Skills_Booster/
 │   │   └── performance-management/ (1 skills)
 │   └── procurement/
 │   │   └── software-selection/ (1 skills)
+├── content/
+│   └── presentation/
+│   │   └── marp-slides/ (1 skills)
 ├── data-analytics/
 │   ├── dashboards/
 │   │   └── operational-metrics/ (1 skills)
