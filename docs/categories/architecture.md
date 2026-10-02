@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **73 skills** available in this category.
+> **74 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -76,4 +76,5 @@
 | [defi-yield-strategy-allocator](../../skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers. |
 | [dependency-analysis](../../skills/software-engineering/architecture/patterns/dependency-analysis/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to analyze internal and package dependencies using Ontoly graph traversal. |
 | [deployment-engineer](../../skills/software-engineering/architecture/patterns/deployment-engineer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deployment engineer. Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation. |
+| [deployment-pipeline-design](../../skills/software-engineering/architecture/patterns/deployment-pipeline-design/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deployment pipeline design. Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

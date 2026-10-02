@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **752** skills across structured domains, categories, and subcategories.
+Master navigation for **753** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (265 skills)
 
@@ -1900,9 +1900,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (79 skills)
+## Software Engineering (80 skills)
 
-### Architecture (72 skills)
+### Architecture (73 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -1911,7 +1911,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (69):
+- **Patterns** (70):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -1980,6 +1980,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [defi-yield-strategy-allocator](../skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator/SKILL.md) — Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.
   - [dependency-analysis](../skills/software-engineering/architecture/patterns/dependency-analysis/SKILL.md) — Use this skill to analyze internal and package dependencies using Ontoly graph traversal.
   - [deployment-engineer](../skills/software-engineering/architecture/patterns/deployment-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for deployment engineer. Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
+  - [deployment-pipeline-design](../skills/software-engineering/architecture/patterns/deployment-pipeline-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for deployment pipeline design. Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.
   - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 
 ### Code Review (1 skills)

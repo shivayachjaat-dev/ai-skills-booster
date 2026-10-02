@@ -16657,6 +16657,28 @@
     "maturity": "stable"
   },
   {
+    "name": "deployment-pipeline-design",
+    "path": "skills/software-engineering/architecture/patterns/deployment-pipeline-design",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for deployment pipeline design. Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "deployment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Deployment Pipeline Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
