@@ -9134,6 +9134,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-rag-vector",
+    "path": "skills/ai-engineering/rag/hunt_rag_vector/hunt-rag-vector",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "hunt_rag_vector",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt rag vector. Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Rag Vector",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
