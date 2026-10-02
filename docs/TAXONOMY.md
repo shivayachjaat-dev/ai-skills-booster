@@ -55,7 +55,8 @@ AI_Skills_Booster/
 │   │   ├── akf_trust_metadata/ (1 skills)
 │   │   ├── antigravity_maintain/ (1 skills)
 │   │   ├── antigravity_workflow/ (1 skills)
-│   │   └── app_builder/ (1 skills)
+│   │   ├── app_builder/ (1 skills)
+│   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
 │   ├── quantization/

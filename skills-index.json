@@ -1007,6 +1007,28 @@
     "maturity": "stable"
   },
   {
+    "name": "templates",
+    "path": "skills/ai-engineering/models/templates/templates",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "templates",
+    "description": "Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "templates",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Templates",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",
