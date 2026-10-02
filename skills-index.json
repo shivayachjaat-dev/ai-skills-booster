@@ -26337,6 +26337,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugo-to-markdown",
+    "path": "skills/software-engineering/architecture/patterns/hugo-to-markdown",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for hugo to markdown. Convert Hugo documentation sites and Hugo-managed content into standard Markdown.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "hugo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugo To Markdown",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
