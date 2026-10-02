@@ -1,6 +1,14 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1** skills across structured domains, categories, and subcategories.
+Master navigation for **2** skills across structured domains, categories, and subcategories.
+
+## Meta (1 skills)
+
+### Ecosystem (1 skills)
+Category index: [`docs/categories/ecosystem.md`](categories/ecosystem.md)
+
+- **Creation** (1):
+  - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 
 ## Security (1 skills)
 
