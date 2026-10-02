@@ -48,6 +48,7 @@ AI_Skills_Booster/
 │   │   ├── azure_sql/ (1 skills)
 │   │   ├── color_blocking/ (1 skills)
 │   │   ├── computer_vision_expe/ (1 skills)
+│   │   ├── deterministic_design/ (1 skills)
 │   │   ├── spatial_computing_ui/ (1 skills)
 │   │   └── spatial_design/ (1 skills)
 │   ├── context/

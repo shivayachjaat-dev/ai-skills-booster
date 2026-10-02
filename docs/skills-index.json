@@ -952,6 +952,28 @@
     "maturity": "stable"
   },
   {
+    "name": "deterministic-design",
+    "path": "skills/ai-engineering/computer-vision/deterministic_design/deterministic-design",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "deterministic_design",
+    "description": "Use this skill to design, implement, and operate production workflows for deterministic design. Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The m...",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "deterministic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Deterministic Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "spatial-computing-ui",
     "path": "skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui",
     "domain": "ai-engineering",
