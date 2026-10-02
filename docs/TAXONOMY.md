@@ -72,6 +72,8 @@ AI_Skills_Booster/
 │   └── refactoring/
 │   │   └── simplification/ (1 skills)
 ├── testing/
-│   └── e2e/
+│   ├── e2e/
 │   │   └── playwright/ (1 skills)
+│   └── load-testing/
+│   │   └── k6/ (1 skills)
 ```

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 31 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 32 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -35,3 +35,4 @@
 | [legacy-system-strangler-migration](skills/software-engineering/modernization/migration/legacy-system-strangler-migration/SKILL.md) | `software-engineering` | `modernization` | `migration` | `expert` | `stable` | Use this skill when incrementally modernizing, decomposing, and replacing legacy monoliths or deprecated backend systems without risky all-at-once cutovers. It guides the agent through the Strangler Fig pattern, reverse proxy intercept routing, parallel run shadow verification, database synchronization, and progressive decommission. |
 | [code-simplification](skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) | `software-engineering` | `refactoring` | `simplification` | `intermediate` | `stable` | Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow. |
 | [playwright-e2e-testing](skills/testing/e2e/playwright/playwright-e2e-testing/SKILL.md) | `testing` | `e2e` | `playwright` | `advanced` | `stable` | Use this skill when authoring, debugging, and maintaining end-to-end (E2E) automated browser test suites using Playwright. It guides the agent through resilient locator strategies (user-facing role/text), page object models, network mocking, authenticated session caching, parallel execution, and flaky test elimination. |
+| [k6-api-load-testing](skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) | `testing` | `load-testing` | `k6` | `advanced` | `stable` | Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks. |

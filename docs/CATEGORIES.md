@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **31** skills across structured domains, categories, and subcategories.
+Master navigation for **32** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -198,10 +198,16 @@ Category index: [`docs/categories/refactoring.md`](categories/refactoring.md)
 - **Simplification** (1):
   - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 
-## Testing (1 skills)
+## Testing (2 skills)
 
 ### E2E (1 skills)
 Category index: [`docs/categories/e2e.md`](categories/e2e.md)
 
 - **Playwright** (1):
   - [playwright-e2e-testing](../skills/testing/e2e/playwright/playwright-e2e-testing/SKILL.md) — Use this skill when authoring, debugging, and maintaining end-to-end (E2E) automated browser test suites using Playwright. It guides the agent through resilient locator strategies (user-facing role/text), page object models, network mocking, authenticated session caching, parallel execution, and flaky test elimination.
+
+### Load Testing (1 skills)
+Category index: [`docs/categories/load-testing.md`](categories/load-testing.md)
+
+- **K6** (1):
+  - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
