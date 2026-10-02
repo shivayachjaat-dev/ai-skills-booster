@@ -18527,6 +18527,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lovable-cleanup",
+    "path": "skills/frontend/frameworks/lovable_cleanup/lovable-cleanup",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "lovable_cleanup",
+    "description": "Use this skill to design, implement, and operate production workflows for lovable cleanup. Audits and strips Lovable scaffolding from Vite + React projects \u2014 removes lovable-tagger, swaps placeholder assets, prunes unused Radix deps, cleans generated docs, and neutralizes stale favicon/CDN caching so the codebase ships as yours.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "lovable",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lovable Cleanup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
