@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,528** skills across structured domains, categories, and subcategories.
+Master navigation for **1,529** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (530 skills)
 
@@ -2760,7 +2760,7 @@ Category index: [`docs/categories/ecosystem.md`](categories/ecosystem.md)
 - **Creation** (1):
   - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 
-## Mobile (4 skills)
+## Mobile (5 skills)
 
 ### Android (1 skills)
 Category index: [`docs/categories/android.md`](categories/android.md)
@@ -2768,11 +2768,13 @@ Category index: [`docs/categories/android.md`](categories/android.md)
 - **Jetpack Compose** (1):
   - [android-jetpack-compose-architecture-and-ui-testing](../skills/mobile/android/jetpack-compose/android-jetpack-compose-architecture-and-ui-testing/SKILL.md) — Use this skill to design, architect, and test modern Android applications using Jetpack Compose, Kotlin Coroutines, StateFlow, Material 3, and automated Compose UI tests. It covers unidirectional data flow (UDF), ViewModel state hoisting, preview fixtures, and Semantics-based UI journey testing.
 
-### App Development (2 skills)
+### App Development (3 skills)
 Category index: [`docs/categories/app-development.md`](categories/app-development.md)
 
 - **Flutter_Expert** (1):
   - [flutter-expert](../skills/mobile/app-development/flutter_expert/flutter-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for flutter expert. Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
+- **Mobile_Design** (1):
+  - [mobile-design](../skills/mobile/app-development/mobile_design/mobile-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for mobile design. (Mobile-First · Touch-First · Platform-Respectful)
 - **Mobile_Games** (1):
   - [mobile-games](../skills/mobile/app-development/mobile_games/mobile-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for mobile games. Mobile game development principles. Touch input, battery, performance, app stores.
 

@@ -25898,6 +25898,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mobile-design",
+    "path": "skills/mobile/app-development/mobile_design/mobile-design",
+    "domain": "mobile",
+    "category": "app-development",
+    "subcategory": "mobile_design",
+    "description": "Use this skill to design, implement, and operate production workflows for mobile design. (Mobile-First \u00b7 Touch-First \u00b7 Platform-Respectful)",
+    "tags": [
+      "mobile",
+      "app-development",
+      "mobile",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mobile Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "mobile-games",
     "path": "skills/mobile/app-development/mobile_games/mobile-games",
     "domain": "mobile",
