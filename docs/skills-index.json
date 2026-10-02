@@ -9439,6 +9439,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-spa-api",
+    "path": "skills/backend/api-design/hunt_spa_api/hunt-spa-api",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "hunt_spa_api",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt spa api. Discover a single-page-app's hidden backend API from its public JS bundle,",
+    "tags": [
+      "backend",
+      "api-design",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Spa Api",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-rate-limiting-and-throttling",
     "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
     "domain": "backend",

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,247 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,248 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -428,6 +428,7 @@
 | [dotnet-architect](skills/backend/api-design/dotnet_architect/dotnet-architect/SKILL.md) | `backend` | `api-design` | `dotnet_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dotnet architect. Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns. |
 | [firebase](skills/backend/api-design/firebase/firebase/SKILL.md) | `backend` | `api-design` | `firebase` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for firebase. Firebase gives you a complete backend in minutes - auth, database, |
 | [fp-backend](skills/backend/api-design/fp_backend/fp-backend/SKILL.md) | `backend` | `api-design` | `fp_backend` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp backend. Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection |
+| [hunt-spa-api](skills/backend/api-design/hunt_spa_api/hunt-spa-api/SKILL.md) | `backend` | `api-design` | `hunt_spa_api` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt spa api. Discover a single-page-app's hidden backend API from its public JS bundle, |
 | [api-rate-limiting-and-throttling](skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) | `backend` | `api-design` | `rate-limiting` | `advanced` | `stable` | Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions. |
 | [atlas-cloud-media](skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) | `backend` | `api-frameworks` | `atlas_cloud_media` | `advanced` | `stable` | Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling. |
 | [aws-mcp-setup](skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) | `backend` | `api-frameworks` | `aws_mcp_setup` | `advanced` | `stable` | Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration. |
