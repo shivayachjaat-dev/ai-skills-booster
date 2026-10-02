@@ -837,7 +837,8 @@ AI_Skills_Booster/
 │   │   ├── frontend_seo/ (1 skills)
 │   │   ├── frontend_slides/ (1 skills)
 │   │   ├── full_output_enforcem/ (1 skills)
-│   │   └── high_end_visual_desi/ (1 skills)
+│   │   ├── high_end_visual_desi/ (1 skills)
+│   │   └── industrial_brutalist/ (1 skills)
 │   ├── ui-ux/
 │   │   ├── anti_sleep/ (1 skills)
 │   │   ├── ask_questions_if_und/ (1 skills)

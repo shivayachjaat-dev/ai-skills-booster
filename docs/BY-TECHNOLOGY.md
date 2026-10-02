@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1108 skills)
+## Bash (1109 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1700,6 +1700,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [frontend-slides](../skills/frontend/ui-development/frontend_slides/frontend-slides/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend slides. Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.
 - [full-output-enforcement](../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) — Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
 - [high-end-visual-design](../skills/frontend/ui-development/high_end_visual_desi/high-end-visual-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for high end visual design. Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.
+- [industrial-brutalist-ui](../skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.
 - [anti-sleep](../skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) — Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.
 - [ask-questions-if-underspecified](../skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) — Use this skill to clarify requirements before implementing. Use when serious doubts arise.
 - [audit-context-building](../skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) — Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.
@@ -6181,6 +6182,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
 
+## Industrial Brutalist Ui (1 skills)
+
+- [industrial-brutalist-ui](../skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.
+
 ## Infracost (1 skills)
 
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
@@ -6902,7 +6907,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1211 skills)
+## Python (1212 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7600,6 +7605,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [frontend-slides](../skills/frontend/ui-development/frontend_slides/frontend-slides/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend slides. Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.
 - [full-output-enforcement](../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) — Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
 - [high-end-visual-design](../skills/frontend/ui-development/high_end_visual_desi/high-end-visual-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for high end visual design. Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.
+- [industrial-brutalist-ui](../skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.
 - [anti-sleep](../skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) — Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.
 - [ask-questions-if-underspecified](../skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) — Use this skill to clarify requirements before implementing. Use when serious doubts arise.
 - [audit-context-building](../skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) — Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.

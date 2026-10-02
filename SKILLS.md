@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,290 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,291 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -751,6 +751,7 @@
 | [frontend-slides](skills/frontend/ui-development/frontend_slides/frontend-slides/SKILL.md) | `frontend` | `ui-development` | `frontend_slides` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend slides. Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. |
 | [full-output-enforcement](skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) | `frontend` | `ui-development` | `full_output_enforcem` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code. |
 | [high-end-visual-design](skills/frontend/ui-development/high_end_visual_desi/high-end-visual-design/SKILL.md) | `frontend` | `ui-development` | `high_end_visual_desi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for high end visual design. Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions. |
+| [industrial-brutalist-ui](skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui/SKILL.md) | `frontend` | `ui-development` | `industrial_brutalist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data. |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |

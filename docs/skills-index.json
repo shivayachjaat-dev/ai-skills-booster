@@ -16845,6 +16845,28 @@
     "maturity": "stable"
   },
   {
+    "name": "industrial-brutalist-ui",
+    "path": "skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "industrial_brutalist",
+    "description": "Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "industrial",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Industrial Brutalist Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
