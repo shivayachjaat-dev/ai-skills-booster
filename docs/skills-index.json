@@ -1053,6 +1053,28 @@
     "maturity": "stable"
   },
   {
+    "name": "jev-use",
+    "path": "skills/ai-engineering/agents/jev_use/jev-use",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "jev_use",
+    "description": "Use this skill to design, implement, and operate production workflows for jev use. Route enumerable judgment steps - did it work, which option, how risky, is this safe to run - to the Jev judgment model through the jev_judge and jev_gate MCP tools, batched into one call per state.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "jev",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Jev Use",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",

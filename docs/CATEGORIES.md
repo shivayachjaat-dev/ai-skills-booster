@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,331** skills across structured domains, categories, and subcategories.
+Master navigation for **1,332** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (442 skills)
+## Ai Engineering (443 skills)
 
-### Agents (56 skills)
+### Agents (57 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -101,6 +101,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [ios-debugger-agent](../skills/ai-engineering/agents/ios_debugger_agent/ios-debugger-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for ios debugger agent. Debug the current iOS project on a booted simulator with XcodeBuildMCP.
 - **Jenkins** (1):
   - [jenkins](../skills/ai-engineering/agents/jenkins/jenkins/SKILL.md) — Use this skill to design, implement, and operate production workflows for jenkins. Create and manage Jenkins CI/CD pipelines, configure agents, manage plugins,
+- **Jev_Use** (1):
+  - [jev-use](../skills/ai-engineering/agents/jev_use/jev-use/SKILL.md) — Use this skill to design, implement, and operate production workflows for jev use. Route enumerable judgment steps - did it work, which option, how risky, is this safe to run - to the Jev judgment model through the jev_judge and jev_gate MCP tools, batched into one call per state.
 - **Lintlang_Audit** (1):
   - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - **Memory** (1):
