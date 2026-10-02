@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **644** skills across structured domains, categories, and subcategories.
+Master navigation for **645** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (230 skills)
+## Ai Engineering (231 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (158 skills)
+### Models (159 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -452,6 +452,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [crossframe-review](../skills/ai-engineering/models/crossframe_review/crossframe-review/SKILL.md) — Use this skill to use when explicit CrossFrame output needs review for reasoning fidelity, evidence boundaries, source anchors, concept drift, article collapse, or repair steps.
 - **Crossframe_Teach** (1):
   - [crossframe-teach](../skills/ai-engineering/models/crossframe_teach/crossframe-teach/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame concepts, misreading boundaries, plain-language examples, signals, or exercises.
+- **Crypto_Bd_Agent** (1):
+  - [crypto-bd-agent](../skills/ai-engineering/models/crypto_bd_agent/crypto-bd-agent/SKILL.md) — Use this skill to production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

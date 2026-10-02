@@ -4593,6 +4593,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crypto-bd-agent",
+    "path": "skills/ai-engineering/models/crypto_bd_agent/crypto-bd-agent",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "crypto_bd_agent",
+    "description": "Use this skill to production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "crypto",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crypto Bd Agent",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
