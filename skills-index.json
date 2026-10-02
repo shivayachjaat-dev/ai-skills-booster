@@ -13386,6 +13386,28 @@
     "maturity": "stable"
   },
   {
+    "name": "matplotlib",
+    "path": "skills/backend/python-services/matplotlib/matplotlib",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "matplotlib",
+    "description": "Use this skill to design, implement, and operate production workflows for matplotlib. Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots.",
+    "tags": [
+      "backend",
+      "python-services",
+      "matplotlib",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Matplotlib",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",
