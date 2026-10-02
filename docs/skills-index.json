@@ -25698,6 +25698,28 @@
     "maturity": "stable"
   },
   {
+    "name": "linux-hardening",
+    "path": "skills/security/appsec/linux_hardening/linux-hardening",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "linux_hardening",
+    "description": "Use this skill to design, implement, and operate production workflows for linux hardening. Apply CIS benchmarks and secure Linux servers.",
+    "tags": [
+      "security",
+      "appsec",
+      "linux",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Linux Hardening",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-dependency-drift-audit",
     "path": "skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit",
     "domain": "security",

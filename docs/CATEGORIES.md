@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,401** skills across structured domains, categories, and subcategories.
+Master navigation for **1,402** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (474 skills)
 
@@ -2610,7 +2610,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (147 skills)
+## Security (148 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2640,7 +2640,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (83 skills)
+### Appsec (84 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -2802,6 +2802,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - **Linkerd_Patterns** (1):
   - [linkerd-patterns](../skills/security/appsec/linkerd_patterns/linkerd-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkerd patterns. Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.
+- **Linux_Hardening** (1):
+  - [linux-hardening](../skills/security/appsec/linux_hardening/linux-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for linux hardening. Apply CIS benchmarks and secure Linux servers.
 - **Mcp_Dependency_Drift** (1):
   - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
 - **Meme_Coin_Audit** (1):
