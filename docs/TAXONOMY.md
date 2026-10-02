@@ -75,7 +75,8 @@ AI_Skills_Booster/
 │   ├── iac/
 │   │   └── terraform/ (1 skills)
 │   ├── infrastructure-as-code/
-│   │   └── ansible/ (1 skills)
+│   │   ├── ansible/ (1 skills)
+│   │   └── terraform-modules/ (1 skills)
 │   ├── kubernetes/
 │   │   └── troubleshooting/ (1 skills)
 │   ├── monitoring/

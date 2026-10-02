@@ -901,6 +901,32 @@
     "maturity": "stable"
   },
   {
+    "name": "terraform-module-design-and-testing",
+    "path": "skills/devops/infrastructure-as-code/terraform-modules/terraform-module-design-and-testing",
+    "domain": "devops",
+    "category": "infrastructure-as-code",
+    "subcategory": "terraform-modules",
+    "description": "Use this skill when architecting, authoring, and testing reusable Infrastructure as Code (IaC) modules with Terraform and OpenTofu. It guides the agent through root and child module contracts, custom input variable validations, structured outputs, dynamic blocks, version pinning, and automated integration testing using Terratest in Go.",
+    "tags": [
+      "terraform",
+      "opentofu",
+      "iac",
+      "modules",
+      "terratest",
+      "cloud-engineering",
+      "aws"
+    ],
+    "technologies": [
+      "Terraform >= 1.5",
+      "OpenTofu",
+      "Go Terratest",
+      "AWS Provider",
+      "HCL"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubernetes-crashloop-debugging",
     "path": "skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging",
     "domain": "devops",

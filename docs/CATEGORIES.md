@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **72** skills across structured domains, categories, and subcategories.
+Master navigation for **73** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (10 skills)
 
@@ -178,7 +178,7 @@ Category index: [`docs/categories/search.md`](categories/search.md)
 - **Meilisearch** (1):
   - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
 
-## Devops (11 skills)
+## Devops (12 skills)
 
 ### Ci Cd (1 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -210,11 +210,13 @@ Category index: [`docs/categories/iac.md`](categories/iac.md)
 - **Terraform** (1):
   - [terraform-infrastructure-as-code](../skills/devops/iac/terraform/terraform-infrastructure-as-code/SKILL.md) — Use this skill when writing, refactoring, and maintaining Infrastructure as Code (IaC) using Terraform / OpenTofu. It guides the agent through remote state management with S3/DynamoDB locking, modular component design, variable validation rules, drift detection, resource tagging standards, and blast radius containment.
 
-### Infrastructure As Code (1 skills)
+### Infrastructure As Code (2 skills)
 Category index: [`docs/categories/infrastructure-as-code.md`](categories/infrastructure-as-code.md)
 
 - **Ansible** (1):
   - [ansible-idempotent-configuration-management](../skills/devops/infrastructure-as-code/ansible/ansible-idempotent-configuration-management/SKILL.md) — Use this skill when designing, authoring, and executing automated server configuration management playbooks and roles using Ansible. It guides the agent through enforcing strict task idempotency, structuring reusable Ansible roles, managing encrypted secrets with Ansible Vault, organizing inventory variables, and testing with Molecule.
+- **Terraform Modules** (1):
+  - [terraform-module-design-and-testing](../skills/devops/infrastructure-as-code/terraform-modules/terraform-module-design-and-testing/SKILL.md) — Use this skill when architecting, authoring, and testing reusable Infrastructure as Code (IaC) modules with Terraform and OpenTofu. It guides the agent through root and child module contracts, custom input variable validations, structured outputs, dynamic blocks, version pinning, and automated integration testing using Terratest in Go.
 
 ### Kubernetes (1 skills)
 Category index: [`docs/categories/kubernetes.md`](categories/kubernetes.md)
