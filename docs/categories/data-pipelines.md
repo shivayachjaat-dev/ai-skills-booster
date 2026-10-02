@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **12 skills** available in this category.
+> **13 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,4 +15,5 @@
 | [go-rust-reverse](../../skills/data-analytics/data-pipelines/go_rust_reverse/go-rust-reverse/SKILL.md) | `go_rust_reverse` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for go rust reverse. Reverse engineer stripped Go and Rust binaries: runtime recognition, pclntab/module metadata recovery, panic-string analysis, and idiomatic decompilation strategies. |
 | [graphql](../../skills/data-analytics/data-pipelines/graphql/graphql/SKILL.md) | `graphql` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for graphql. GraphQL gives clients exactly the data they need - no more, no |
 | [helium-mcp](../../skills/data-analytics/data-pipelines/helium_mcp/helium-mcp/SKILL.md) | `helium_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for helium mcp. Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and semantic meme search across 3.2M+ articles and 5,000+ sources |
+| [hugging-face-cli](../../skills/data-analytics/data-pipelines/hugging_face_cli/hugging-face-cli/SKILL.md) | `hugging_face_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face cli. Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. |
 | [polars-high-throughput-data-pipeline](../../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) | `polars` | `advanced` | `stable` | Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations. |
