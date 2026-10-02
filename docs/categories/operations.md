@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **16 skills** available in this category.
+> **17 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -20,3 +20,4 @@
 | [health-wellness](../../skills/business/operations/health_wellness/health-wellness/SKILL.md) | `health_wellness` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for health wellness. Wellbeing check-in register: anonymous flag, department, check-in date, wellbeing score, stress and energy levels, support and resource flags, confidentiality and status. Use for wellness programmes. |
 | [intern-program](../../skills/business/operations/intern_program/intern-program/SKILL.md) | `intern_program` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for intern program. Internship register: intern and department, supervisor and mentor, institution, start and end dates, stipend, learning goals, mid-term and final scores, conversion flags. Use for intern tracking. |
 | [internal-communication](../../skills/business/operations/internal_communicati/internal-communication/SKILL.md) | `internal_communicati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for internal communication. Internal communication log: title, type, date, department, host and attendees, agenda, action items, follow-up date, meeting link and delivery status. Use for internal comms tracking. |
+| [inventory-stock-reconciliation](../../skills/business/operations/inventory_stock_reco/inventory-stock-reconciliation/SKILL.md) | `inventory_stock_reco` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for inventory stock reconciliation. Stock reconciliation register: count date, item, warehouse, book vs physical quantity, variance quantity and value, variance reason, damage and expiry, adjustment and approval. Use for stock counts. |

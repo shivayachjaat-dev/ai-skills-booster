@@ -12172,6 +12172,28 @@
     "maturity": "stable"
   },
   {
+    "name": "inventory-stock-reconciliation",
+    "path": "skills/business/operations/inventory_stock_reco/inventory-stock-reconciliation",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "inventory_stock_reco",
+    "description": "Use this skill to design, implement, and operate production workflows for inventory stock reconciliation. Stock reconciliation register: count date, item, warehouse, book vs physical quantity, variance quantity and value, variance reason, damage and expiry, adjustment and approval. Use for stock counts.",
+    "tags": [
+      "business",
+      "operations",
+      "inventory",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Inventory Stock Reconciliation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
