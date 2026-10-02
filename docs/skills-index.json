@@ -2475,6 +2475,31 @@
     "maturity": "stable"
   },
   {
+    "name": "competitor-alternative-page-architecture",
+    "path": "skills/marketing/seo/competitor-alternatives/competitor-alternative-page-architecture",
+    "domain": "marketing",
+    "category": "seo",
+    "subcategory": "competitor-alternatives",
+    "description": "Use this skill to design, write, and structure high-converting, honest competitor alternative and comparison pages (e.g., 'Best [Competitor] Alternatives in 2026'). It covers objective feature matrix tables, search intent capture, migration guides, and conversion rate optimization (CRO).",
+    "tags": [
+      "competitor-alternatives",
+      "seo",
+      "cro",
+      "product-marketing",
+      "comparison-matrix",
+      "search-intent"
+    ],
+    "technologies": [
+      "Markdown",
+      "HTML",
+      "CRO Principles",
+      "Feature Matrices",
+      "SEO Analysis"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-server-scaffold",
     "path": "skills/mcp/server-development/scaffolding/mcp-server-scaffold",
     "domain": "mcp",

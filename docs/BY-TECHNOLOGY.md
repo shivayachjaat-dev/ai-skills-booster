@@ -181,6 +181,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [scylladb-high-throughput-nosql-architecture](../skills/databases/nosql/scylladb/scylladb-high-throughput-nosql-architecture/SKILL.md) — Use this skill when architecting, modeling, and operating distributed, ultra-low-latency NoSQL databases with ScyllaDB (Apache Cassandra compatible). It guides the agent through shard-per-core asynchronous architecture, CQL partition and clustering key design, tuning consistency levels (LOCAL_QUORUM), tombstone prevention, and driver connection pooling.
 
+## CRO Principles (1 skills)
+
+- [competitor-alternative-page-architecture](../skills/marketing/seo/competitor-alternatives/competitor-alternative-page-architecture/SKILL.md) — Use this skill to design, write, and structure high-converting, honest competitor alternative and comparison pages (e.g., 'Best [Competitor] Alternatives in 2026'). It covers objective feature matrix tables, search intent capture, migration guides, and conversion rate optimization (CRO).
+
 ## CSS (1 skills)
 
 - [wcag-accessibility-audit](../skills/frontend/accessibility/wcag/wcag-accessibility-audit/SKILL.md) — Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.
@@ -392,6 +396,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 - [rbac-access-matrix-policy-design](../skills/security/authorization/rbac/rbac-access-matrix-policy-design/SKILL.md) — Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware.
 
+## Feature Matrices (1 skills)
+
+- [competitor-alternative-page-architecture](../skills/marketing/seo/competitor-alternatives/competitor-alternative-page-architecture/SKILL.md) — Use this skill to design, write, and structure high-converting, honest competitor alternative and comparison pages (e.g., 'Best [Competitor] Alternatives in 2026'). It covers objective feature matrix tables, search intent capture, migration guides, and conversion rate optimization (CRO).
+
 ## Financial Modeling (1 skills)
 
 - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
@@ -557,9 +565,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [activecampaign-marketing-automation-and-webhook-sync](../skills/marketing/crm/activecampaign-automation/activecampaign-marketing-automation-and-webhook-sync/SKILL.md) — Use this skill to design, automate, and synchronize marketing automation workflows, contact lifecycle tagging, email drip sequences, and webhook event listeners with ActiveCampaign via its REST v3 API and event webhooks.
 
-## HTML (1 skills)
+## HTML (2 skills)
 
 - [wcag-accessibility-audit](../skills/frontend/accessibility/wcag/wcag-accessibility-audit/SKILL.md) — Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.
+- [competitor-alternative-page-architecture](../skills/marketing/seo/competitor-alternatives/competitor-alternative-page-architecture/SKILL.md) — Use this skill to design, write, and structure high-converting, honest competitor alternative and comparison pages (e.g., 'Best [Competitor] Alternatives in 2026'). It covers objective feature matrix tables, search intent capture, migration guides, and conversion rate optimization (CRO).
 
 ## HTML/CSS (1 skills)
 
@@ -818,11 +827,12 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [kubeflow-and-ray-ai-pipeline-orchestration](../skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) — Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking.
 
-## Markdown (4 skills)
+## Markdown (5 skills)
 
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
+- [competitor-alternative-page-architecture](../skills/marketing/seo/competitor-alternatives/competitor-alternative-page-architecture/SKILL.md) — Use this skill to design, write, and structure high-converting, honest competitor alternative and comparison pages (e.g., 'Best [Competitor] Alternatives in 2026'). It covers objective feature matrix tables, search intent capture, migration guides, and conversion rate optimization (CRO).
 - [skill-creator](../skills/meta/ecosystem/creation/skill-creator/SKILL.md) — Use this skill when designing, authoring, and structuring new Agent Skills for AI coding agents. It guides the agent through problem formulation, three-level taxonomy classification, frontmatter schema validation, step-by-step workflow authoring, edge case identification, and automated evaluation generation.
 
 ## Markov Chains (1 skills)
@@ -1419,6 +1429,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## RxJS (1 skills)
 
 - [angular-signals-standalone-components-and-state](../skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state/SKILL.md) — Use this skill to design, build, and optimize enterprise Angular applications using modern Signals, standalone components, inject() dependency injection, fine-grained reactivity, and Vite-powered builds.
+
+## SEO Analysis (1 skills)
+
+- [competitor-alternative-page-architecture](../skills/marketing/seo/competitor-alternatives/competitor-alternative-page-architecture/SKILL.md) — Use this skill to design, write, and structure high-converting, honest competitor alternative and comparison pages (e.g., 'Best [Competitor] Alternatives in 2026'). It covers objective feature matrix tables, search intent capture, migration guides, and conversion rate optimization (CRO).
 
 ## SHA-256 (1 skills)
 

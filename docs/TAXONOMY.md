@@ -181,7 +181,8 @@ AI_Skills_Booster/
 │   ├── paid-advertising/
 │   │   └── campaign-analytics/ (1 skills)
 │   └── seo/
-│   │   └── ai-search-optimization/ (1 skills)
+│   │   ├── ai-search-optimization/ (1 skills)
+│   │   └── competitor-alternatives/ (1 skills)
 ├── mcp/
 │   └── server-development/
 │   │   └── scaffolding/ (1 skills)

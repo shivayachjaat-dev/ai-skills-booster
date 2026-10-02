@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **146** skills across structured domains, categories, and subcategories.
+Master navigation for **147** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -483,7 +483,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-## Marketing (4 skills)
+## Marketing (5 skills)
 
 ### Creative (1 skills)
 Category index: [`docs/categories/creative.md`](categories/creative.md)
@@ -503,11 +503,13 @@ Category index: [`docs/categories/paid-advertising.md`](categories/paid-advertis
 - **Campaign Analytics** (1):
   - [cross-channel-ad-campaign-analytics](../skills/marketing/paid-advertising/campaign-analytics/cross-channel-ad-campaign-analytics/SKILL.md) — Use this skill when analyzing, attributing, and optimizing multi-channel paid advertising campaigns across Google Ads, Meta Ads, LinkedIn, and programmatic channels. It guides the agent through calculating Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), attribution modeling (First-Touch, Last-Touch, Data-Driven Markov), statistical significance in spend allocation, and budget rebalancing.
 
-### Seo (1 skills)
+### Seo (2 skills)
 Category index: [`docs/categories/seo.md`](categories/seo.md)
 
 - **Ai Search Optimization** (1):
   - [ai-search-engine-optimization-and-schema-markup](../skills/marketing/seo/ai-search-optimization/ai-search-engine-optimization-and-schema-markup/SKILL.md) — Use this skill to optimize digital content and technical architecture for Generative Engine Optimization (GEO) and AI search citations across Google AI Overviews, Perplexity, ChatGPT Search, and Claude. It covers structured JSON-LD schema markup, information gain density, entity authority graphs, and machine-readable markdown tables.
+- **Competitor Alternatives** (1):
+  - [competitor-alternative-page-architecture](../skills/marketing/seo/competitor-alternatives/competitor-alternative-page-architecture/SKILL.md) — Use this skill to design, write, and structure high-converting, honest competitor alternative and comparison pages (e.g., 'Best [Competitor] Alternatives in 2026'). It covers objective feature matrix tables, search intent capture, migration guides, and conversion rate optimization (CRO).
 
 ## Mcp (1 skills)
 
