@@ -165,13 +165,18 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [opentelemetry-distributed-tracing](../skills/devops/observability/opentelemetry/opentelemetry-distributed-tracing/SKILL.md) — Use this skill when designing, instrumenting, and troubleshooting end-to-end distributed tracing across microservices using OpenTelemetry (OTel). It covers W3C tracecontext propagation, OTLP gRPC/HTTP exporters, head-based and tail-based sampling strategies, span attributes standardization (semantic conventions), and collector deployment.
 
+## Go prometheus/client_golang (1 skills)
+
+- [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
+
 ## Golang (1 skills)
 
 - [golang-goroutine-concurrency-patterns](../skills/programming-languages/golang/concurrency/golang-goroutine-concurrency-patterns/SKILL.md) — Use this skill when designing, implementing, and debugging concurrent systems in Go. It guides the agent through worker pool patterns, context cancellation propagation (context.Context), channel synchronization (buffered vs unbuffered), race condition prevention using the Go race detector (-race), errgroup error aggregation, and graceful shutdown.
 
-## Grafana (1 skills)
+## Grafana (2 skills)
 
 - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
+- [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
 
 ## Grafana k6 (1 skills)
 
@@ -401,13 +406,15 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [database-migration-safety](../skills/databases/migrations/zero-downtime/database-migration-safety/SKILL.md) — Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.
 - [prisma-schema-migration-and-relations](../skills/databases/orm/prisma/prisma-schema-migration-and-relations/SKILL.md) — Use this skill when architecting database schemas, managing relational migrations, and optimizing database queries using Prisma ORM (TypeScript/Node.js). It covers complex relationship modeling (1:1, 1:N, M:N explicit join tables), zero-downtime migration workflows (`prisma migrate dev/deploy`), connection pooling with PgBouncer, and avoiding N+1 query traps.
 
-## PromQL (1 skills)
+## PromQL (2 skills)
 
 - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
+- [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
 
-## Prometheus (1 skills)
+## Prometheus (2 skills)
 
 - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
+- [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
 
 ## Protocol Buffers (1 skills)
 
@@ -458,6 +465,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Python Pika (1 skills)
 
 - [rabbitmq-reliable-messaging-patterns](../skills/backend/message-queues/rabbitmq/rabbitmq-reliable-messaging-patterns/SKILL.md) — Use this skill when designing, building, and operating mission-critical message queuing architectures with RabbitMQ (AMQP 0-9-1). It guides the agent through publisher confirms (ACK/NACK), queue and message durability, dead letter exchanges (DLX) for poisoned messages, consumer manual acknowledgments with prefetch limits, and consumer idempotency.
+
+## Python prometheus_client (1 skills)
+
+- [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
 
 ## Qdrant (1 skills)
 

@@ -674,6 +674,31 @@
     "maturity": "stable"
   },
   {
+    "name": "prometheus-metrics-instrumentation",
+    "path": "skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation",
+    "domain": "devops",
+    "category": "monitoring",
+    "subcategory": "prometheus",
+    "description": "Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).",
+    "tags": [
+      "prometheus",
+      "metrics",
+      "monitoring",
+      "promql",
+      "observability",
+      "grafana"
+    ],
+    "technologies": [
+      "Prometheus",
+      "PromQL",
+      "Python prometheus_client",
+      "Grafana",
+      "Go prometheus/client_golang"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "opentelemetry-distributed-tracing",
     "path": "skills/devops/observability/opentelemetry/opentelemetry-distributed-tracing",
     "domain": "devops",

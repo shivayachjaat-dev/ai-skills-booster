@@ -58,7 +58,7 @@ AI_Skills_Booster/
 │   ├── kubernetes/
 │   │   └── troubleshooting/ (1 skills)
 │   ├── monitoring/
-│   │   └── prometheus/ (1 skills)
+│   │   └── prometheus/ (2 skills)
 │   ├── observability/
 │   │   └── opentelemetry/ (1 skills)
 │   └── service-mesh/
