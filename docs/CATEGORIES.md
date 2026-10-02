@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,269** skills across structured domains, categories, and subcategories.
+Master navigation for **1,270** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (424 skills)
+## Ai Engineering (425 skills)
 
-### Agents (51 skills)
+### Agents (52 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -91,6 +91,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [idea-evaluator](../skills/ai-engineering/agents/idea_evaluator/idea-evaluator/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea evaluator. Evaluates an idea by hosting a multi-turn debate between a Pro and Con agent, delivering a final verdict on whether it's worth pursuing.
 - **Idea_Evaluator_Con** (1):
   - [idea-evaluator-con](../skills/ai-engineering/agents/idea_evaluator_con/idea-evaluator-con/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea evaluator con. The Con Agent persona for idea evaluation. Critiques an idea by identifying potential flaws, risks, and market challenges.
+- **Idea_Evaluator_Pro** (1):
+  - [idea-evaluator-pro](../skills/ai-engineering/agents/idea_evaluator_pro/idea-evaluator-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea evaluator pro. The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and potential.
 - **Lintlang_Audit** (1):
   - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - **Memory** (1):

@@ -46,6 +46,7 @@ AI_Skills_Booster/
 │   │   ├── hosted_agents/ (1 skills)
 │   │   ├── idea_evaluator/ (1 skills)
 │   │   ├── idea_evaluator_con/ (1 skills)
+│   │   ├── idea_evaluator_pro/ (1 skills)
 │   │   ├── lintlang_audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)

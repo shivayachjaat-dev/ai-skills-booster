@@ -943,6 +943,28 @@
     "maturity": "stable"
   },
   {
+    "name": "idea-evaluator-pro",
+    "path": "skills/ai-engineering/agents/idea_evaluator_pro/idea-evaluator-pro",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "idea_evaluator_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for idea evaluator pro. The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and potential.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "idea",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Idea Evaluator Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",
