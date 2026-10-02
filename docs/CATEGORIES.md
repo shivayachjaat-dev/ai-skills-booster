@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,536** skills across structured domains, categories, and subcategories.
+Master navigation for **1,537** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (533 skills)
+## Ai Engineering (534 skills)
 
 ### Agents (61 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -266,7 +266,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Mcp_Builder** (1):
   - [mcp-builder](../skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
 
-### Models (389 skills)
+### Models (390 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1022,6 +1022,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [model-supply-chain-security](../skills/ai-engineering/models/model_supply_chain_s/model-supply-chain-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for model supply chain security. Secure the AI model supply chain with artifact signing, provenance attestation,
 - **Modellix** (1):
   - [modellix](../skills/ai-engineering/models/modellix/modellix/SKILL.md) — Use this skill to design, implement, and operate production workflows for modellix. Integrate the Modellix API/CLI for async AI image, video, and speech generation or transcription (model run --wait, task download).
+- **Modern_Javascript_Pa** (1):
+  - [modern-javascript-patterns](../skills/ai-engineering/models/modern_javascript_pa/modern-javascript-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for modern javascript patterns. Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

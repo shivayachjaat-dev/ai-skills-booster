@@ -10885,6 +10885,28 @@
     "maturity": "stable"
   },
   {
+    "name": "modern-javascript-patterns",
+    "path": "skills/ai-engineering/models/modern_javascript_pa/modern-javascript-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "modern_javascript_pa",
+    "description": "Use this skill to design, implement, and operate production workflows for modern javascript patterns. Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "modern",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Modern Javascript Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
