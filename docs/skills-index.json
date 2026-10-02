@@ -5581,6 +5581,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-messaging-webpubsub-java",
+    "path": "skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "azure_messaging_webp",
+    "description": "Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Messaging Webpubsub Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "app-store-optimization-and-metadata-strategy",
     "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
     "domain": "marketing",
