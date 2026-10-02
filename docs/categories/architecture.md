@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **54 skills** available in this category.
+> **55 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -58,3 +58,4 @@
 | [create-branch](../../skills/software-engineering/architecture/patterns/create-branch/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a new branch", or when starting new work on the default branch. |
 | [create-issue-gate](../../skills/software-engineering/architecture/patterns/create-issue-gate/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution. |
 | [create-pr](../../skills/software-engineering/architecture/patterns/create-pr/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to alias for pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name. Redirects to the canonical PR writing workflow. |
+| [crossframe](../../skills/software-engineering/architecture/patterns/crossframe/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when the user explicitly invokes CrossFrame or 跨尺度结构诊断 for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution. |

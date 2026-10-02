@@ -14083,6 +14083,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe",
+    "path": "skills/software-engineering/architecture/patterns/crossframe",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to use when the user explicitly invokes CrossFrame or \u8de8\u5c3a\u5ea6\u7ed3\u6784\u8bca\u65ad for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
