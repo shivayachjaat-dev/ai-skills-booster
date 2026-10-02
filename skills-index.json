@@ -1889,6 +1889,31 @@
     "maturity": "stable"
   },
   {
+    "name": "activecampaign-marketing-automation-and-webhook-sync",
+    "path": "skills/marketing/crm/activecampaign-automation/activecampaign-marketing-automation-and-webhook-sync",
+    "domain": "marketing",
+    "category": "crm",
+    "subcategory": "activecampaign-automation",
+    "description": "Use this skill to design, automate, and synchronize marketing automation workflows, contact lifecycle tagging, email drip sequences, and webhook event listeners with ActiveCampaign via its REST v3 API and event webhooks.",
+    "tags": [
+      "activecampaign",
+      "marketing-automation",
+      "crm",
+      "webhooks",
+      "email-marketing",
+      "lifecycle"
+    ],
+    "technologies": [
+      "ActiveCampaign REST API v3",
+      "Python",
+      "FastAPI",
+      "Webhooks",
+      "HMAC"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "cross-channel-ad-campaign-analytics",
     "path": "skills/marketing/paid-advertising/campaign-analytics/cross-channel-ad-campaign-analytics",
     "domain": "marketing",

@@ -144,6 +144,8 @@ AI_Skills_Booster/
 ├── marketing/
 │   ├── creative/
 │   │   └── ad-creative/ (1 skills)
+│   ├── crm/
+│   │   └── activecampaign-automation/ (1 skills)
 │   └── paid-advertising/
 │   │   └── campaign-analytics/ (1 skills)
 ├── mcp/
