@@ -2180,6 +2180,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-data-tables-java",
+    "path": "skills/ai-engineering/rag/azure_data_tables_ja/azure-data-tables-java",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "azure_data_tables_ja",
+    "description": "Use this skill to build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Data Tables Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",
