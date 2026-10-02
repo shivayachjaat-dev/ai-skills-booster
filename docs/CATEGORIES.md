@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **54** skills across structured domains, categories, and subcategories.
+Master navigation for **55** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (7 skills)
 
@@ -82,13 +82,19 @@ Category index: [`docs/categories/realtime.md`](categories/realtime.md)
 - **Websocket** (1):
   - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
 
-## Data Analytics (2 skills)
+## Data Analytics (3 skills)
 
 ### Data Pipelines (1 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Polars** (1):
   - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
+
+### Data Warehouse (1 skills)
+Category index: [`docs/categories/data-warehouse.md`](categories/data-warehouse.md)
+
+- **Snowflake** (1):
+  - [snowflake-data-warehouse-modeling](../skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling/SKILL.md) — Use this skill when architecting, modeling, and optimizing enterprise data warehouses in Snowflake. It guides the agent through multi-cluster virtual warehouse sizing, micro-partition clustering keys, zero-copy cloning for staging environments, time travel data recovery, and continuous ingestion with Snowpipe.
 
 ### Experimentation (1 skills)
 Category index: [`docs/categories/experimentation.md`](categories/experimentation.md)

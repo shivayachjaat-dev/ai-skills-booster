@@ -374,6 +374,31 @@
     "maturity": "stable"
   },
   {
+    "name": "snowflake-data-warehouse-modeling",
+    "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
+    "domain": "data-analytics",
+    "category": "data-warehouse",
+    "subcategory": "snowflake",
+    "description": "Use this skill when architecting, modeling, and optimizing enterprise data warehouses in Snowflake. It guides the agent through multi-cluster virtual warehouse sizing, micro-partition clustering keys, zero-copy cloning for staging environments, time travel data recovery, and continuous ingestion with Snowpipe.",
+    "tags": [
+      "snowflake",
+      "data-warehouse",
+      "analytics",
+      "sql",
+      "snowpipe",
+      "data-modeling"
+    ],
+    "technologies": [
+      "Snowflake",
+      "SQL",
+      "Snowpipe",
+      "Python snowflake-connector",
+      "dbt"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ab-test-experiment-design",
     "path": "skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design",
     "domain": "data-analytics",
