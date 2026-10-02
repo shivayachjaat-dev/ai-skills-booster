@@ -8289,6 +8289,28 @@
     "maturity": "stable"
   },
   {
+    "name": "huggingface-best",
+    "path": "skills/ai-engineering/models/huggingface_best/huggingface-best",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "huggingface_best",
+    "description": "Use this skill to design, implement, and operate production workflows for huggingface best. Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "huggingface",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Huggingface Best",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

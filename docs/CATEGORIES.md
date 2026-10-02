@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,192** skills across structured domains, categories, and subcategories.
+Master navigation for **1,193** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (409 skills)
+## Ai Engineering (410 skills)
 
 ### Agents (49 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -206,7 +206,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (300 skills)
+### Models (301 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -788,6 +788,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [hugging-face-trackio](../skills/ai-engineering/models/hugging_face_trackio/hugging-face-trackio/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face trackio. Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI).
 - **Hugging_Face_Vision_** (1):
   - [hugging-face-vision-trainer](../skills/ai-engineering/models/hugging_face_vision_/hugging-face-vision-trainer/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face vision trainer. Train object detection, image classification, and SAM or SAM2 segmentation models locally or on Hugging Face Jobs, with dataset validation and results saved to the Hub.
+- **Huggingface_Best** (1):
+  - [huggingface-best](../skills/ai-engineering/models/huggingface_best/huggingface-best/SKILL.md) — Use this skill to design, implement, and operate production workflows for huggingface best. Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
