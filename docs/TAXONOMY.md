@@ -180,6 +180,7 @@ AI_Skills_Booster/
 │   │   ├── codex_review/ (1 skills)
 │   │   ├── cohesivity/ (1 skills)
 │   │   ├── cold_email/ (1 skills)
+│   │   ├── company_email_accoun/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
