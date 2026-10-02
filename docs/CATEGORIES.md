@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **582** skills across structured domains, categories, and subcategories.
+Master navigation for **583** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (201 skills)
 
@@ -1621,9 +1621,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (51 skills)
+## Software Engineering (52 skills)
 
-### Architecture (44 skills)
+### Architecture (45 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -1632,7 +1632,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (41):
+- **Patterns** (42):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -1674,6 +1674,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [conductor-implement](../skills/software-engineering/architecture/patterns/conductor-implement/SKILL.md) — Use this skill to execute tasks from a track's implementation plan following TDD workflow
   - [conductor-manage](../skills/software-engineering/architecture/patterns/conductor-manage/SKILL.md) — Use this skill to manage track lifecycle: archive, restore, delete, rename, and cleanup
   - [conductor-new-track](../skills/software-engineering/architecture/patterns/conductor-new-track/SKILL.md) — Use this skill to create a new track with specification and phased implementation plan
+  - [conductor-revert](../skills/software-engineering/architecture/patterns/conductor-revert/SKILL.md) — Use this skill to git-aware undo by logical work unit (track, phase, or task)
 
 ### Code Review (1 skills)
 Category index: [`docs/categories/code-review.md`](categories/code-review.md)
