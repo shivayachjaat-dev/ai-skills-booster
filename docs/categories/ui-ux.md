@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **90 skills** available in this category.
+> **91 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -91,6 +91,7 @@
 | [expo-api-routes](../../skills/frontend/ui-ux/expo_api_routes/expo-api-routes/SKILL.md) | `expo_api_routes` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo api routes. Guidelines for creating API routes in Expo Router with EAS Hosting |
 | [expo-cicd-workflows](../../skills/frontend/ui-ux/expo_cicd_workflows/expo-cicd-workflows/SKILL.md) | `expo_cicd_workflows` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo cicd workflows. Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation. |
 | [expo-dev-client](../../skills/frontend/ui-ux/expo_dev_client/expo-dev-client/SKILL.md) | `expo_dev_client` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo dev client. Build Expo app for development |
+| [expo-module](../../skills/frontend/ui-ux/expo_module/expo-module/SKILL.md) | `expo_module` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo module. Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native views, shared objects, config plugins, lifecycle hooks, autolinking, and type system. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

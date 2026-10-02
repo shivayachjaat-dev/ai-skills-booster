@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **942** skills across structured domains, categories, and subcategories.
+Master navigation for **943** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (327 skills)
 
@@ -1453,7 +1453,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (172 skills)
+## Frontend (173 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1543,7 +1543,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
-### Ui Ux (90 skills)
+### Ui Ux (91 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1720,6 +1720,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [expo-cicd-workflows](../skills/frontend/ui-ux/expo_cicd_workflows/expo-cicd-workflows/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo cicd workflows. Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.
 - **Expo_Dev_Client** (1):
   - [expo-dev-client](../skills/frontend/ui-ux/expo_dev_client/expo-dev-client/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo dev client. Build Expo app for development
+- **Expo_Module** (1):
+  - [expo-module](../skills/frontend/ui-ux/expo_module/expo-module/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo module. Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native views, shared objects, config plugins, lifecycle hooks, autolinking, and type system.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):
