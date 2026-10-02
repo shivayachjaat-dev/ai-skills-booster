@@ -20221,6 +20221,28 @@
     "maturity": "stable"
   },
   {
+    "name": "error-diagnostics-smart-debug",
+    "path": "skills/software-engineering/architecture/patterns/error-diagnostics-smart-debug",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for error diagnostics smart debug. Use when working with error diagnostics smart debug",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "error",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Error Diagnostics Smart Debug",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
