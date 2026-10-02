@@ -529,6 +529,7 @@ AI_Skills_Booster/
 │   │   ├── odoo_orm_expert/ (1 skills)
 │   │   ├── odoo_qweb_templates/ (1 skills)
 │   │   ├── okta_attack/ (1 skills)
+│   │   ├── omentir_linkedin_out/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
