@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,140** skills across structured domains, categories, and subcategories.
+Master navigation for **1,141** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (396 skills)
+## Ai Engineering (397 skills)
 
 ### Agents (47 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -200,7 +200,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (290 skills)
+### Models (291 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -762,6 +762,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [graceful-shutdown](../skills/ai-engineering/models/graceful_shutdown/graceful-shutdown/SKILL.md) — Use this skill to design, implement, and operate production workflows for graceful shutdown. Implement graceful shutdown for servers and workers: drain connections, finish in-flight work, release resources, and exit cleanly on SIGTERM/SIGINT.
 - **Grok_Build** (1):
   - [grok-build](../skills/ai-engineering/models/grok_build/grok-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for grok build. Delegate well-specified implementation tasks to xAI's Grok Build CLI running headlessly while the orchestrating agent plans, writes task specs, reviews every diff, and owns the result.
+- **Growth_Engine** (1):
+  - [growth-engine](../skills/ai-engineering/models/growth_engine/growth-engine/SKILL.md) — Use this skill to design, implement, and operate production workflows for growth engine. Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

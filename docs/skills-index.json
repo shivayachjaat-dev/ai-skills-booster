@@ -8003,6 +8003,28 @@
     "maturity": "stable"
   },
   {
+    "name": "growth-engine",
+    "path": "skills/ai-engineering/models/growth_engine/growth-engine",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "growth_engine",
+    "description": "Use this skill to design, implement, and operate production workflows for growth engine. Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "growth",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Growth Engine",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
