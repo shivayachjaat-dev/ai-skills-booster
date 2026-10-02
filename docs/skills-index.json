@@ -4835,6 +4835,28 @@
     "maturity": "stable"
   },
   {
+    "name": "database-cloud-optimization-cost-optimize",
+    "path": "skills/ai-engineering/models/database_cloud_optim/database-cloud-optimization-cost-optimize",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "database_cloud_optim",
+    "description": "Use this skill to you are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and implement cost-effective architectures across AWS, Azure, and GCP.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "database",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Database Cloud Optimization Cost Optimize",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
