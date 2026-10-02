@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 847 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 848 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -445,6 +445,7 @@
 | [datadog](skills/devops/ci-cd/datadog/datadog/SKILL.md) | `devops` | `ci-cd` | `datadog` | `advanced` | `stable` | Use this skill to implement Datadog monitoring and APM for infrastructure and applications. |
 | [debate-review](skills/devops/ci-cd/debate_review/debate-review/SKILL.md) | `devops` | `ci-cd` | `debate_review` | `advanced` | `stable` | Use this skill to two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or |
 | [devops-deploy](skills/devops/ci-cd/devops_deploy/devops-deploy/SKILL.md) | `devops` | `ci-cd` | `devops_deploy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devops deploy. DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento. |
+| [dns-management](skills/devops/ci-cd/dns_management/dns-management/SKILL.md) | `devops` | `ci-cd` | `dns_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dns management. Configure DNS zones and records. Manage Route53, Cloud DNS, and self-hosted |
 | [github-actions-ci-pipeline-optimization](skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `devops` | `ci-cd` | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |
