@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **465** skills across structured domains, categories, and subcategories.
+Master navigation for **466** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (158 skills)
+## Ai Engineering (159 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -120,7 +120,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (102 skills)
+### Models (103 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -316,6 +316,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [calendly-automation](../skills/ai-engineering/models/calendly_automation/calendly-automation/SKILL.md) — Use this skill to automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.
 - **Candidate_Talent_Poo** (1):
   - [candidate-talent-pool](../skills/ai-engineering/models/candidate_talent_poo/candidate-talent-pool/SKILL.md) — Use this skill to candidate and prospect pool: contact details, experience, skills, consent status and date, referral source and last contact. Use for talent pipelines and re-engagement.
+- **Capacity_Workload_Pl** (1):
+  - [capacity-workload-planner](../skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner/SKILL.md) — Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

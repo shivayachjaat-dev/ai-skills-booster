@@ -3097,6 +3097,28 @@
     "maturity": "stable"
   },
   {
+    "name": "capacity-workload-planner",
+    "path": "skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "capacity_workload_pl",
+    "description": "Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "capacity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Capacity Workload Planner",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

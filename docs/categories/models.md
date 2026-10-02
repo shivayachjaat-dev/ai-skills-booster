@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **102 skills** available in this category.
+> **103 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -105,4 +105,5 @@
 | [cal-com-automation](../../skills/ai-engineering/models/cal_com_automation/cal-com-automation/SKILL.md) | `cal_com_automation` | `advanced` | `stable` | Use this skill to automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas. |
 | [calendly-automation](../../skills/ai-engineering/models/calendly_automation/calendly-automation/SKILL.md) | `calendly_automation` | `advanced` | `stable` | Use this skill to automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas. |
 | [candidate-talent-pool](../../skills/ai-engineering/models/candidate_talent_poo/candidate-talent-pool/SKILL.md) | `candidate_talent_poo` | `advanced` | `stable` | Use this skill to candidate and prospect pool: contact details, experience, skills, consent status and date, referral source and last contact. Use for talent pipelines and re-engagement. |
+| [capacity-workload-planner](../../skills/ai-engineering/models/capacity_workload_pl/capacity-workload-planner/SKILL.md) | `capacity_workload_pl` | `advanced` | `stable` | Use this skill to weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
