@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **377** skills across structured domains, categories, and subcategories.
+Master navigation for **378** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (121 skills)
 
@@ -650,7 +650,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Avalonia Dotnet** (1):
   - [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
 
-## Developer Tools (5 skills)
+## Developer Tools (6 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -664,11 +664,13 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Ask_Copilot** (1):
   - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
 
-### Productivity (1 skills)
+### Productivity (2 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
   - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
+- **Bamboohr_Automation** (1):
+  - [bamboohr-automation](../skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) — Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

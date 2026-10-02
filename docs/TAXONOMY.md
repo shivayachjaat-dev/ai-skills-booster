@@ -260,7 +260,8 @@ AI_Skills_Booster/
 │   ├── cli-utilities/
 │   │   └── ask_copilot/ (1 skills)
 │   ├── productivity/
-│   │   └── asana_automation/ (1 skills)
+│   │   ├── asana_automation/ (1 skills)
+│   │   └── bamboohr_automation/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/

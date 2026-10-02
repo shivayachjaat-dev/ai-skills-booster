@@ -4657,6 +4657,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bamboohr-automation",
+    "path": "skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "bamboohr_automation",
+    "description": "Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "bamboohr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bamboohr Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
