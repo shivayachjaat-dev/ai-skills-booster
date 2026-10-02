@@ -5018,6 +5018,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-resource-manager-redis-dotnet",
+    "path": "skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-redis-dotnet",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_resource_manag",
+    "description": "Use this skill to azure Resource Manager SDK for Redis in .NET.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Resource Manager Redis Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
