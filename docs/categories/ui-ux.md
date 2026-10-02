@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **38 skills** available in this category.
+> **39 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,3 +42,4 @@
 | [claude-d3js-skill](../../skills/frontend/ui-ux/claude_d3js_skill/claude-d3js-skill/SKILL.md) | `claude_d3js_skill` | `advanced` | `stable` | Use this skill to this skill provides guidance for creating sophisticated, interactive data visualisations using d3.js. |
 | [cloudflare-workers](../../skills/frontend/ui-ux/cloudflare_workers/cloudflare-workers/SKILL.md) | `cloudflare_workers` | `advanced` | `stable` | Use this skill to build and deploy edge functions with Cloudflare Workers and Wrangler. |
 | [code-showcase-core-components](../../skills/frontend/ui-ux/code_showcase_core_c/code-showcase-core-components/SKILL.md) | `code_showcase_core_c` | `advanced` | `stable` | Use this skill to core component library and design system patterns. Use when building UI, using design tokens, or working with the component library. |
+| [community-building](../../skills/frontend/ui-ux/community_building/community-building/SKILL.md) | `community_building` | `advanced` | `stable` | Use this skill to when the user wants to build, grow, or improve a developer community on Discord, Slack, or forums. |
