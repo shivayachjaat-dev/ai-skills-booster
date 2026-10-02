@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (823 skills)
+## Bash (824 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1878,6 +1878,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [filesystem-context](../skills/software-engineering/architecture/patterns/filesystem-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for filesystem context. Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading.
 - [fitness-analyzer](../skills/software-engineering/architecture/patterns/fitness-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for fitness analyzer. 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。
 - [form-cro](../skills/software-engineering/architecture/patterns/form-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for form cro. Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms.
+- [fp-errors](../skills/software-engineering/architecture/patterns/fp-errors/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp errors. Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [bash-scripting](../skills/testing/automation/bash_scripting/bash-scripting/SKILL.md) — Use this skill to bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
@@ -4483,6 +4484,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [fp-either-ref](../skills/ai-engineering/models/fp_either_ref/fp-either-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp either ref. Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.
 
+## Fp Errors (1 skills)
+
+- [fp-errors](../skills/software-engineering/architecture/patterns/fp-errors/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp errors. Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
+
 ## FreeRTOS (1 skills)
 
 - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
@@ -5481,7 +5486,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (926 skills)
+## Python (927 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6388,6 +6393,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [filesystem-context](../skills/software-engineering/architecture/patterns/filesystem-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for filesystem context. Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading.
 - [fitness-analyzer](../skills/software-engineering/architecture/patterns/fitness-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for fitness analyzer. 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。
 - [form-cro](../skills/software-engineering/architecture/patterns/form-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for form cro. Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms.
+- [fp-errors](../skills/software-engineering/architecture/patterns/fp-errors/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp errors. Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.

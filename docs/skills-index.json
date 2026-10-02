@@ -22157,6 +22157,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-errors",
+    "path": "skills/software-engineering/architecture/patterns/fp-errors",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for fp errors. Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Errors",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",

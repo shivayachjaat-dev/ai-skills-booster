@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,005** skills across structured domains, categories, and subcategories.
+Master navigation for **1,006** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (351 skills)
 
@@ -2346,9 +2346,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (110 skills)
+## Software Engineering (111 skills)
 
-### Architecture (103 skills)
+### Architecture (104 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -2357,7 +2357,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (100):
+- **Patterns** (101):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -2457,6 +2457,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [filesystem-context](../skills/software-engineering/architecture/patterns/filesystem-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for filesystem context. Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading.
   - [fitness-analyzer](../skills/software-engineering/architecture/patterns/fitness-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for fitness analyzer. 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。
   - [form-cro](../skills/software-engineering/architecture/patterns/form-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for form cro. Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms.
+  - [fp-errors](../skills/software-engineering/architecture/patterns/fp-errors/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp errors. Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
   - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 
 ### Code Review (1 skills)
