@@ -20431,6 +20431,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-websocket",
+    "path": "skills/frontend/web-architecture/hunt_websocket/hunt-websocket",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "hunt_websocket",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt websocket. Hunt WebSocket vulnerabilities",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Websocket",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "isometric-design",
     "path": "skills/frontend/web-architecture/isometric_design/isometric-design",
     "domain": "frontend",
