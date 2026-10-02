@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (793 skills)
+## Bash (794 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1470,6 +1470,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [distributed-debugging-debug-trace](../skills/developer-tools/productivity/distributed_debuggin/distributed-debugging-debug-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for distributed debugging debug trace. You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for...
 - [docusign-automation](../skills/developer-tools/productivity/docusign_automation/docusign-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for docusign automation. Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas.
 - [dropbox-automation](../skills/developer-tools/productivity/dropbox_automation/dropbox-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for dropbox automation. Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.
+- [figma-automation](../skills/developer-tools/productivity/figma_automation/figma-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for figma automation. Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,
 - [aws-s3](../skills/devops/ci-cd/aws_s3/aws-s3/SKILL.md) — Use this skill to configure S3 buckets, policies, and lifecycle rules. Implement versioning,
 - [aws-vpc](../skills/devops/ci-cd/aws_vpc/aws-vpc/SKILL.md) — Use this skill to design and implement VPCs and networking. Configure subnets, route tables,
@@ -4305,6 +4306,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ffuf-web-fuzzing](../skills/frontend/web-architecture/ffuf_web_fuzzing/ffuf-web-fuzzing/SKILL.md) — Use this skill to design, implement, and operate production workflows for ffuf web fuzzing. Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
 
+## Figma Automation (1 skills)
+
+- [figma-automation](../skills/developer-tools/productivity/figma_automation/figma-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for figma automation. Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas.
+
 ## Financial Modeling (1 skills)
 
 - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
@@ -5331,7 +5336,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (896 skills)
+## Python (897 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5797,6 +5802,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [distributed-debugging-debug-trace](../skills/developer-tools/productivity/distributed_debuggin/distributed-debugging-debug-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for distributed debugging debug trace. You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for...
 - [docusign-automation](../skills/developer-tools/productivity/docusign_automation/docusign-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for docusign automation. Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas.
 - [dropbox-automation](../skills/developer-tools/productivity/dropbox_automation/dropbox-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for dropbox automation. Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.
+- [figma-automation](../skills/developer-tools/productivity/figma_automation/figma-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for figma automation. Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas.
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,

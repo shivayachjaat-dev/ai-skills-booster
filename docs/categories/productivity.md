@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,3 +19,4 @@
 | [distributed-debugging-debug-trace](../../skills/developer-tools/productivity/distributed_debuggin/distributed-debugging-debug-trace/SKILL.md) | `distributed_debuggin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for distributed debugging debug trace. You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for... |
 | [docusign-automation](../../skills/developer-tools/productivity/docusign_automation/docusign-automation/SKILL.md) | `docusign_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docusign automation. Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas. |
 | [dropbox-automation](../../skills/developer-tools/productivity/dropbox_automation/dropbox-automation/SKILL.md) | `dropbox_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dropbox automation. Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas. |
+| [figma-automation](../../skills/developer-tools/productivity/figma_automation/figma-automation/SKILL.md) | `figma_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for figma automation. Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas. |

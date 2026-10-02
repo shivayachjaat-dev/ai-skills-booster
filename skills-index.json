@@ -10971,6 +10971,28 @@
     "maturity": "stable"
   },
   {
+    "name": "figma-automation",
+    "path": "skills/developer-tools/productivity/figma_automation/figma-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "figma_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for figma automation. Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "figma",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Figma Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
