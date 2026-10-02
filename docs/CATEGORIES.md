@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,299** skills across structured domains, categories, and subcategories.
+Master navigation for **1,300** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (435 skills)
 
@@ -1445,7 +1445,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (30 skills)
+## Developer Tools (31 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1471,7 +1471,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Graphql_Schema** (1):
   - [graphql-schema](../skills/developer-tools/cli-utilities/graphql_schema/graphql-schema/SKILL.md) — Use this skill to design, implement, and operate production workflows for graphql schema. GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.
 
-### Productivity (20 skills)
+### Productivity (21 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1514,6 +1514,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [helpdesk-automation](../skills/developer-tools/productivity/helpdesk_automation/helpdesk-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for helpdesk automation. Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for current schemas.
 - **Instagram_Automation** (1):
   - [instagram-automation](../skills/developer-tools/productivity/instagram_automation/instagram-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for instagram automation. Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas.
+- **Intercom_Automation** (1):
+  - [intercom-automation](../skills/developer-tools/productivity/intercom_automation/intercom-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for intercom automation. Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

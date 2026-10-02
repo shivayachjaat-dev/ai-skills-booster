@@ -13831,6 +13831,28 @@
     "maturity": "stable"
   },
   {
+    "name": "intercom-automation",
+    "path": "skills/developer-tools/productivity/intercom_automation/intercom-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "intercom_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for intercom automation. Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "intercom",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Intercom Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

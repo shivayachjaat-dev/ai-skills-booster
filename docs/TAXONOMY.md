@@ -679,7 +679,8 @@ AI_Skills_Booster/
 │   │   ├── freshdesk_automation/ (1 skills)
 │   │   ├── gitlab_automation/ (1 skills)
 │   │   ├── helpdesk_automation/ (1 skills)
-│   │   └── instagram_automation/ (1 skills)
+│   │   ├── instagram_automation/ (1 skills)
+│   │   └── intercom_automation/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/
