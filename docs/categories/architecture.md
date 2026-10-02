@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **179 skills** available in this category.
+> **180 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -181,5 +181,6 @@
 | [mdpr-skill](../../skills/software-engineering/architecture/patterns/mdpr-skill/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mdpr skill. Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries. |
 | [meeting-distiller-pro](../../skills/software-engineering/architecture/patterns/meeting-distiller-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for meeting distiller pro. Transform messy meeting notes and transcripts into structured action |
 | [meeting-notes](../../skills/software-engineering/architecture/patterns/meeting-notes/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for meeting notes. Turns raw meeting notes into structured minutes: conclusion first, then decisions / action items / open questions; every action item must have an owner and a deadline. Use when the user pastes meeting transcripts or rough notes and asks for minutes or a summ... |
+| [mental-health-analyzer](../../skills/software-engineering/architecture/patterns/mental-health-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mental health analyzer. 分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。 |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
