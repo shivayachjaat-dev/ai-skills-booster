@@ -10233,6 +10233,28 @@
     "maturity": "stable"
   },
   {
+    "name": "c4-architecture-c4-architecture",
+    "path": "skills/software-engineering/architecture/patterns/c4-architecture-c4-architecture",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "c4",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "C4 Architecture C4 Architecture",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
