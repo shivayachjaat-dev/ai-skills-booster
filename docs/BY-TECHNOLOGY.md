@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1370 skills)
+## Bash (1371 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1640,6 +1640,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hunt-nosqli](../skills/backend/databases/hunt_nosqli/hunt-nosqli/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt nosqli. Hunt NoSQL Injection
 - [hunt-sqli](../skills/backend/databases/hunt_sqli/hunt-sqli/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt sqli. Hunting skill for sqli vulnerabilities.
 - [mongodb](../skills/backend/databases/mongodb/mongodb/SKILL.md) — Use this skill to design, implement, and operate production workflows for mongodb. Administer MongoDB databases. Configure replica sets, sharding, and backups.
+- [monte-carlo-prevent](../skills/backend/databases/monte_carlo_prevent/monte-carlo-prevent/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo prevent. Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits.
 - [azure-appconfiguration-py](../skills/backend/python-services/azure_appconfigurati/azure-appconfiguration-py/SKILL.md) — Use this skill to azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
 - [azure-eventgrid-py](../skills/backend/python-services/azure_eventgrid_py/azure-eventgrid-py/SKILL.md) — Use this skill to azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
 - [azure-eventhub-py](../skills/backend/python-services/azure_eventhub_py/azure-eventhub-py/SKILL.md) — Use this skill to azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing.
@@ -7808,6 +7809,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [monte-carlo-performance-diagnosis](../skills/software-engineering/architecture/patterns/monte-carlo-performance-diagnosis/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo performance diagnosis. Diagnoses pipeline performance issues -- slow jobs, expensive queries, latency trends -- using Monte Carlo's cross-platform observability. Uses a tiered investigation approach: discover problems, bridge to affected tables, then drill into...
 
+## Monte Carlo Prevent (1 skills)
+
+- [monte-carlo-prevent](../skills/backend/databases/monte_carlo_prevent/monte-carlo-prevent/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo prevent. Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits.
+
 ## Multi-Agent Protocols (1 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
@@ -8184,7 +8189,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1473 skills)
+## Python (1474 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8782,6 +8787,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hunt-nosqli](../skills/backend/databases/hunt_nosqli/hunt-nosqli/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt nosqli. Hunt NoSQL Injection
 - [hunt-sqli](../skills/backend/databases/hunt_sqli/hunt-sqli/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt sqli. Hunting skill for sqli vulnerabilities.
 - [mongodb](../skills/backend/databases/mongodb/mongodb/SKILL.md) — Use this skill to design, implement, and operate production workflows for mongodb. Administer MongoDB databases. Configure replica sets, sharding, and backups.
+- [monte-carlo-prevent](../skills/backend/databases/monte_carlo_prevent/monte-carlo-prevent/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo prevent. Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits.
 - [openapi-documentation-generator-and-swagger-ui](../skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui/SKILL.md) — Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export.
 - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.
 - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.

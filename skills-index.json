@@ -13443,6 +13443,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-prevent",
+    "path": "skills/backend/databases/monte_carlo_prevent/monte-carlo-prevent",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "monte_carlo_prevent",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo prevent. Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits.",
+    "tags": [
+      "backend",
+      "databases",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Prevent",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

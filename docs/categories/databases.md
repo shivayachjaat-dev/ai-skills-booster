@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -27,4 +27,5 @@
 | [hunt-nosqli](../../skills/backend/databases/hunt_nosqli/hunt-nosqli/SKILL.md) | `hunt_nosqli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt nosqli. Hunt NoSQL Injection |
 | [hunt-sqli](../../skills/backend/databases/hunt_sqli/hunt-sqli/SKILL.md) | `hunt_sqli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt sqli. Hunting skill for sqli vulnerabilities. |
 | [mongodb](../../skills/backend/databases/mongodb/mongodb/SKILL.md) | `mongodb` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mongodb. Administer MongoDB databases. Configure replica sets, sharding, and backups. |
+| [monte-carlo-prevent](../../skills/backend/databases/monte_carlo_prevent/monte-carlo-prevent/SKILL.md) | `monte_carlo_prevent` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo prevent. Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits. |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |

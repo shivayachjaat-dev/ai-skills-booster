@@ -615,7 +615,8 @@ AI_Skills_Booster/
 │   │   ├── hugging_face_dataset/ (1 skills)
 │   │   ├── hunt_nosqli/ (1 skills)
 │   │   ├── hunt_sqli/ (1 skills)
-│   │   └── mongodb/ (1 skills)
+│   │   ├── mongodb/ (1 skills)
+│   │   └── monte_carlo_prevent/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/
