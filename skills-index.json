@@ -1410,6 +1410,28 @@
     "maturity": "stable"
   },
   {
+    "name": "axiom",
+    "path": "skills/ai-engineering/rag/axiom/axiom",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "axiom",
+    "description": "Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility \u00d7 impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "axiom",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Axiom",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",
