@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **168** skills across structured domains, categories, and subcategories.
+Master navigation for **169** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -805,11 +805,13 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (9 skills)
+## Software Engineering (10 skills)
 
-### Architecture (2 skills)
+### Architecture (3 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
+- **Adr Governance** (1):
+  - [architecture-decision-records-and-rfc-governance](../skills/software-engineering/architecture/adr-governance/architecture-decision-records-and-rfc-governance/SKILL.md) — Use this skill to author, review, and maintain standardized Architecture Decision Records (ADRs) and Requests for Comments (RFCs) across engineering organizations. It captures context, decision drivers, evaluated alternatives with tradeoff matrices, compliance implications, and status lifecycles (Proposed, Accepted, Deprecated, Superseded).
 - **Hexagonal** (1):
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):

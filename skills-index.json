@@ -3848,6 +3848,31 @@
     "maturity": "stable"
   },
   {
+    "name": "architecture-decision-records-and-rfc-governance",
+    "path": "skills/software-engineering/architecture/adr-governance/architecture-decision-records-and-rfc-governance",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "adr-governance",
+    "description": "Use this skill to author, review, and maintain standardized Architecture Decision Records (ADRs) and Requests for Comments (RFCs) across engineering organizations. It captures context, decision drivers, evaluated alternatives with tradeoff matrices, compliance implications, and status lifecycles (Proposed, Accepted, Deprecated, Superseded).",
+    "tags": [
+      "adr",
+      "rfc",
+      "software-architecture",
+      "technical-governance",
+      "documentation",
+      "decision-records"
+    ],
+    "technologies": [
+      "Markdown",
+      "ADR Tools",
+      "Git",
+      "Architecture Governance",
+      "RFC Process"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "hexagonal-ports-and-adapters-architecture",
     "path": "skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture",
     "domain": "software-engineering",

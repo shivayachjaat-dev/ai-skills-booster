@@ -288,6 +288,7 @@ AI_Skills_Booster/
 │   │   └── spiffe-spire/ (1 skills)
 ├── software-engineering/
 │   ├── architecture/
+│   │   ├── adr-governance/ (1 skills)
 │   │   ├── hexagonal/ (1 skills)
 │   │   └── interfaces/ (1 skills)
 │   ├── code-review/
