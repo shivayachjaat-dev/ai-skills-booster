@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **416** skills across structured domains, categories, and subcategories.
+Master navigation for **417** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (138 skills)
+## Ai Engineering (139 skills)
 
-### Agents (17 skills)
+### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -23,6 +23,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - **Bill_Gates** (1):
   - [bill-gates](../skills/ai-engineering/agents/bill_gates/bill-gates/SKILL.md) — Use this skill to agente que simula Bill Gates — cofundador da Microsoft, arquiteto da industria de software comercial, estrategista tecnologico global, investidor sistemico e filantropo baseado em dados.
+- **Brave_Man** (1):
+  - [brave-man](../skills/ai-engineering/agents/brave_man/brave-man/SKILL.md) — Use this skill to runs a structured clarifying interview for new project requests before building. Instead of writing code, it outputs a fully specified prompt.md for a fresh agent session to execute, preventing expensive mistakes.
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):

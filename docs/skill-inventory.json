@@ -35,7 +35,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.790945+00:00"
+    "updated_at": "2026-10-02T16:28:48.574250+00:00"
   },
   {
     "name": "antigravity-skill-orchestrator",
@@ -70,7 +70,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.790945+00:00"
+    "updated_at": "2026-10-02T16:28:48.574250+00:00"
   },
   {
     "name": "aomi-transact",
@@ -105,7 +105,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.792451+00:00"
+    "updated_at": "2026-10-02T16:28:48.575249+00:00"
   },
   {
     "name": "multi-agent-debate-and-reflection",
@@ -143,7 +143,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.793458+00:00"
+    "updated_at": "2026-10-02T16:28:48.575249+00:00"
   },
   {
     "name": "ax-extract-workflow",
@@ -178,7 +178,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.793458+00:00"
+    "updated_at": "2026-10-02T16:28:48.575249+00:00"
   },
   {
     "name": "azure-ai-foundry-persistent-agents",
@@ -217,7 +217,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.794459+00:00"
+    "updated_at": "2026-10-02T16:28:48.576249+00:00"
   },
   {
     "name": "ai-agent-benchmark-evaluation",
@@ -255,7 +255,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.794459+00:00"
+    "updated_at": "2026-10-02T16:28:48.576249+00:00"
   },
   {
     "name": "bill-gates",
@@ -290,7 +290,42 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.795465+00:00"
+    "updated_at": "2026-10-02T16:28:48.577250+00:00"
+  },
+  {
+    "name": "brave-man",
+    "slug": "brave-man",
+    "path": "skills/ai-engineering/agents/brave_man/brave-man",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "brave_man",
+    "description": "Use this skill to runs a structured clarifying interview for new project requests before building. Instead of writing code, it outputs a fully specified prompt.md for a fresh agent session to execute, preventing expensive mistakes.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "brave",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brave Man",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable",
+    "tools": [
+      "python",
+      "bash"
+    ],
+    "dependencies": [
+      "python@>=3.10"
+    ],
+    "has_scripts": true,
+    "has_evals": false,
+    "has_references": true,
+    "license": "MIT",
+    "updated_at": "2026-10-02T16:28:48.577250+00:00"
   },
   {
     "name": "ai-agent-chaos-testing-and-fault-injection",
@@ -329,7 +364,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.795465+00:00"
+    "updated_at": "2026-10-02T16:28:48.578250+00:00"
   },
   {
     "name": "ai-agent-session-audit-and-forensic-replay",
@@ -369,7 +404,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.796465+00:00"
+    "updated_at": "2026-10-02T16:28:48.578250+00:00"
   },
   {
     "name": "agent-project-memory",
@@ -405,7 +440,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.796465+00:00"
+    "updated_at": "2026-10-02T16:28:48.578250+00:00"
   },
   {
     "name": "agent-memory-recall-and-retention-discipline",
@@ -443,7 +478,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.797465+00:00"
+    "updated_at": "2026-10-02T16:28:48.579250+00:00"
   },
   {
     "name": "ai-agent-observability-and-trace-evaluation",
@@ -482,7 +517,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.798474+00:00"
+    "updated_at": "2026-10-02T16:28:48.579250+00:00"
   },
   {
     "name": "multi-agent-consensus-protocol",
@@ -518,7 +553,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.798474+00:00"
+    "updated_at": "2026-10-02T16:28:48.579250+00:00"
   },
   {
     "name": "multi-agent-workload-distribution-and-cost-optimization",
@@ -556,7 +591,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.799467+00:00"
+    "updated_at": "2026-10-02T16:28:48.580249+00:00"
   },
   {
     "name": "multi-agent-tmux-process-orchestrator",
@@ -594,7 +629,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.800467+00:00"
+    "updated_at": "2026-10-02T16:28:48.581248+00:00"
   },
   {
     "name": "ai-agent-cron-and-autonomous-job-scheduling",
@@ -633,7 +668,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.800467+00:00"
+    "updated_at": "2026-10-02T16:28:48.581248+00:00"
   },
   {
     "name": "azure-speech-to-text-rest-py",
@@ -668,7 +703,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.801465+00:00"
+    "updated_at": "2026-10-02T16:28:48.582253+00:00"
   },
   {
     "name": "whisper-speech-to-text-and-diarization-pipeline",
@@ -712,7 +747,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.802465+00:00"
+    "updated_at": "2026-10-02T16:28:48.582253+00:00"
   },
   {
     "name": "ai-agent-email-inbox-and-smtp-automation",
@@ -751,7 +786,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.802977+00:00"
+    "updated_at": "2026-10-02T16:28:48.583296+00:00"
   },
   {
     "name": "ai-agent-voice-telephony-and-sms-integration",
@@ -791,7 +826,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.802977+00:00"
+    "updated_at": "2026-10-02T16:28:48.583296+00:00"
   },
   {
     "name": "aws-rds",
@@ -826,7 +861,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.803979+00:00"
+    "updated_at": "2026-10-02T16:28:48.584296+00:00"
   },
   {
     "name": "azure-sql",
@@ -861,7 +896,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.804986+00:00"
+    "updated_at": "2026-10-02T16:28:48.584296+00:00"
   },
   {
     "name": "context-window-engineering",
@@ -896,7 +931,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.804986+00:00"
+    "updated_at": "2026-10-02T16:28:48.585296+00:00"
   },
   {
     "name": "ai-anti-sycophancy-and-truthful-reflection",
@@ -934,7 +969,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.805986+00:00"
+    "updated_at": "2026-10-02T16:28:48.585296+00:00"
   },
   {
     "name": "deepeval-unit-testing-llm-apps",
@@ -975,7 +1010,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.805986+00:00"
+    "updated_at": "2026-10-02T16:28:48.586295+00:00"
   },
   {
     "name": "llm-prompt-regression-testing-and-eval-harness",
@@ -1014,7 +1049,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.806985+00:00"
+    "updated_at": "2026-10-02T16:28:48.587294+00:00"
   },
   {
     "name": "promptfoo-llm-eval-benchmarking",
@@ -1052,7 +1087,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.806985+00:00"
+    "updated_at": "2026-10-02T16:28:48.587294+00:00"
   },
   {
     "name": "ragas-rag-triad-evaluation",
@@ -1090,7 +1125,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.806985+00:00"
+    "updated_at": "2026-10-02T16:28:48.588294+00:00"
   },
   {
     "name": "llm-lora-fine-tuning-pipeline",
@@ -1132,7 +1167,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.807985+00:00"
+    "updated_at": "2026-10-02T16:28:48.588294+00:00"
   },
   {
     "name": "llm-guardrails-input-output-moderation",
@@ -1170,7 +1205,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.807985+00:00"
+    "updated_at": "2026-10-02T16:28:48.588294+00:00"
   },
   {
     "name": "llm-inference-service-mesh-and-vllm-routing",
@@ -1211,7 +1246,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.808985+00:00"
+    "updated_at": "2026-10-02T16:28:48.589295+00:00"
   },
   {
     "name": "vllm-high-throughput-inference-serving",
@@ -1252,7 +1287,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.808985+00:00"
+    "updated_at": "2026-10-02T16:28:48.589295+00:00"
   },
   {
     "name": "andrej-karpathy",
@@ -1287,7 +1322,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.809985+00:00"
+    "updated_at": "2026-10-02T16:28:48.590296+00:00"
   },
   {
     "name": "agentfolio",
@@ -1322,7 +1357,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.810986+00:00"
+    "updated_at": "2026-10-02T16:28:48.591296+00:00"
   },
   {
     "name": "ai-agent-development",
@@ -1357,7 +1392,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.810986+00:00"
+    "updated_at": "2026-10-02T16:28:48.592296+00:00"
   },
   {
     "name": "ai-analyzer",
@@ -1392,7 +1427,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.812491+00:00"
+    "updated_at": "2026-10-02T16:28:48.592296+00:00"
   },
   {
     "name": "ai-dev-jobs-mcp",
@@ -1427,7 +1462,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.812491+00:00"
+    "updated_at": "2026-10-02T16:28:48.593328+00:00"
   },
   {
     "name": "ai-engineer",
@@ -1462,7 +1497,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.813497+00:00"
+    "updated_at": "2026-10-02T16:28:48.594327+00:00"
   },
   {
     "name": "ai-loop",
@@ -1497,7 +1532,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.814497+00:00"
+    "updated_at": "2026-10-02T16:28:48.594327+00:00"
   },
   {
     "name": "ai-ml",
@@ -1532,7 +1567,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.814497+00:00"
+    "updated_at": "2026-10-02T16:28:48.595328+00:00"
   },
   {
     "name": "ai-product",
@@ -1567,7 +1602,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.815501+00:00"
+    "updated_at": "2026-10-02T16:28:48.596333+00:00"
   },
   {
     "name": "ai-studio-image",
@@ -1602,7 +1637,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.816498+00:00"
+    "updated_at": "2026-10-02T16:28:48.596333+00:00"
   },
   {
     "name": "akf-trust-metadata",
@@ -1637,7 +1672,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.817499+00:00"
+    "updated_at": "2026-10-02T16:28:48.598337+00:00"
   },
   {
     "name": "antigravity-maintainer-batch-release",
@@ -1672,7 +1707,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.817499+00:00"
+    "updated_at": "2026-10-02T16:28:48.599334+00:00"
   },
   {
     "name": "antigravity-workflows",
@@ -1707,7 +1742,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.818498+00:00"
+    "updated_at": "2026-10-02T16:28:48.599334+00:00"
   },
   {
     "name": "app-builder",
@@ -1742,7 +1777,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.819500+00:00"
+    "updated_at": "2026-10-02T16:28:48.600334+00:00"
   },
   {
     "name": "asset-inventory",
@@ -1777,7 +1812,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.819500+00:00"
+    "updated_at": "2026-10-02T16:28:48.601334+00:00"
   },
   {
     "name": "attendance",
@@ -1812,7 +1847,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.820499+00:00"
+    "updated_at": "2026-10-02T16:28:48.601334+00:00"
   },
   {
     "name": "audit-agent-run-evidence",
@@ -1847,7 +1882,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.821502+00:00"
+    "updated_at": "2026-10-02T16:28:48.602334+00:00"
   },
   {
     "name": "auto-research",
@@ -1882,7 +1917,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.823641+00:00"
+    "updated_at": "2026-10-02T16:28:48.603847+00:00"
   },
   {
     "name": "autonomous-agent-patterns",
@@ -1917,7 +1952,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.823012+00:00"
+    "updated_at": "2026-10-02T16:28:48.603847+00:00"
   },
   {
     "name": "autonomous-agents",
@@ -1952,7 +1987,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.822498+00:00"
+    "updated_at": "2026-10-02T16:28:48.602839+00:00"
   },
   {
     "name": "avoid-ai-writing",
@@ -1987,7 +2022,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.824659+00:00"
+    "updated_at": "2026-10-02T16:28:48.604845+00:00"
   },
   {
     "name": "aws-agentic-ai",
@@ -2022,7 +2057,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.824659+00:00"
+    "updated_at": "2026-10-02T16:28:48.604845+00:00"
   },
   {
     "name": "aws-cloudtrail",
@@ -2057,7 +2092,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.825646+00:00"
+    "updated_at": "2026-10-02T16:28:48.605845+00:00"
   },
   {
     "name": "aws-cost-operations",
@@ -2092,7 +2127,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.825646+00:00"
+    "updated_at": "2026-10-02T16:28:48.606351+00:00"
   },
   {
     "name": "aws-ecs-fargate",
@@ -2127,7 +2162,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.826678+00:00"
+    "updated_at": "2026-10-02T16:28:48.607357+00:00"
   },
   {
     "name": "awt-e2e-testing",
@@ -2162,7 +2197,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.826678+00:00"
+    "updated_at": "2026-10-02T16:28:48.607357+00:00"
   },
   {
     "name": "azd-deployment",
@@ -2197,7 +2232,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.827678+00:00"
+    "updated_at": "2026-10-02T16:28:48.608357+00:00"
   },
   {
     "name": "azure-ai-agents-persistent-dotnet",
@@ -2232,7 +2267,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.827678+00:00"
+    "updated_at": "2026-10-02T16:28:48.609357+00:00"
   },
   {
     "name": "azure-ai-agents-persistent-java",
@@ -2267,7 +2302,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.828678+00:00"
+    "updated_at": "2026-10-02T16:28:48.609357+00:00"
   },
   {
     "name": "azure-ai-anomalydetector-java",
@@ -2302,7 +2337,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.828678+00:00"
+    "updated_at": "2026-10-02T16:28:48.610356+00:00"
   },
   {
     "name": "azure-ai-contentsafety-java",
@@ -2337,7 +2372,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.829678+00:00"
+    "updated_at": "2026-10-02T16:28:48.610356+00:00"
   },
   {
     "name": "azure-ai-contentsafety-py",
@@ -2372,7 +2407,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.829678+00:00"
+    "updated_at": "2026-10-02T16:28:48.611363+00:00"
   },
   {
     "name": "azure-ai-contentsafety-ts",
@@ -2407,7 +2442,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.830678+00:00"
+    "updated_at": "2026-10-02T16:28:48.611363+00:00"
   },
   {
     "name": "azure-ai-contentunderstanding-py",
@@ -2442,7 +2477,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.831681+00:00"
+    "updated_at": "2026-10-02T16:28:48.612864+00:00"
   },
   {
     "name": "azure-ai-document-intelligence-dotnet",
@@ -2477,7 +2512,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.832680+00:00"
+    "updated_at": "2026-10-02T16:28:48.612864+00:00"
   },
   {
     "name": "azure-ai-document-intelligence-ts",
@@ -2512,7 +2547,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.833186+00:00"
+    "updated_at": "2026-10-02T16:28:48.613871+00:00"
   },
   {
     "name": "azure-ai-formrecognizer-java",
@@ -2547,7 +2582,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.834192+00:00"
+    "updated_at": "2026-10-02T16:28:48.614872+00:00"
   },
   {
     "name": "azure-ai-language-conversations-py",
@@ -2582,7 +2617,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.835200+00:00"
+    "updated_at": "2026-10-02T16:28:48.615869+00:00"
   },
   {
     "name": "azure-ai-ml-py",
@@ -2617,7 +2652,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.835200+00:00"
+    "updated_at": "2026-10-02T16:28:48.615869+00:00"
   },
   {
     "name": "azure-ai-openai-dotnet",
@@ -2652,7 +2687,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.836200+00:00"
+    "updated_at": "2026-10-02T16:28:48.616891+00:00"
   },
   {
     "name": "azure-ai-projects-dotnet",
@@ -2687,7 +2722,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.836200+00:00"
+    "updated_at": "2026-10-02T16:28:48.617872+00:00"
   },
   {
     "name": "azure-ai-projects-java",
@@ -2722,7 +2757,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.837200+00:00"
+    "updated_at": "2026-10-02T16:28:48.617872+00:00"
   },
   {
     "name": "azure-ai-projects-py",
@@ -2757,7 +2792,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.837200+00:00"
+    "updated_at": "2026-10-02T16:28:48.618872+00:00"
   },
   {
     "name": "azure-ai-projects-ts",
@@ -2792,7 +2827,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.838200+00:00"
+    "updated_at": "2026-10-02T16:28:48.618872+00:00"
   },
   {
     "name": "azure-ai-textanalytics-py",
@@ -2827,7 +2862,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.838200+00:00"
+    "updated_at": "2026-10-02T16:28:48.618872+00:00"
   },
   {
     "name": "azure-ai-transcription-py",
@@ -2862,7 +2897,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.839199+00:00"
+    "updated_at": "2026-10-02T16:28:48.619872+00:00"
   },
   {
     "name": "azure-ai-translation-document-py",
@@ -2897,7 +2932,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.839199+00:00"
+    "updated_at": "2026-10-02T16:28:48.619872+00:00"
   },
   {
     "name": "azure-ai-translation-text-py",
@@ -2932,7 +2967,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.840199+00:00"
+    "updated_at": "2026-10-02T16:28:48.620872+00:00"
   },
   {
     "name": "azure-ai-translation-ts",
@@ -2967,7 +3002,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.840199+00:00"
+    "updated_at": "2026-10-02T16:28:48.620872+00:00"
   },
   {
     "name": "azure-ai-vision-imageanalysis-java",
@@ -3002,7 +3037,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.840199+00:00"
+    "updated_at": "2026-10-02T16:28:48.620872+00:00"
   },
   {
     "name": "azure-ai-vision-imageanalysis-py",
@@ -3037,7 +3072,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.841199+00:00"
+    "updated_at": "2026-10-02T16:28:48.620872+00:00"
   },
   {
     "name": "azure-ai-voicelive-dotnet",
@@ -3072,7 +3107,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.841199+00:00"
+    "updated_at": "2026-10-02T16:28:48.622379+00:00"
   },
   {
     "name": "azure-ai-voicelive-java",
@@ -3107,7 +3142,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.842199+00:00"
+    "updated_at": "2026-10-02T16:28:48.622379+00:00"
   },
   {
     "name": "azure-ai-voicelive-py",
@@ -3142,7 +3177,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.842704+00:00"
+    "updated_at": "2026-10-02T16:28:48.623385+00:00"
   },
   {
     "name": "azure-ai-voicelive-ts",
@@ -3177,7 +3212,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.842704+00:00"
+    "updated_at": "2026-10-02T16:28:48.624388+00:00"
   },
   {
     "name": "azure-communication-callautomation-java",
@@ -3212,7 +3247,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.843712+00:00"
+    "updated_at": "2026-10-02T16:28:48.624388+00:00"
   },
   {
     "name": "azure-communication-callingserver-java",
@@ -3247,7 +3282,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.844711+00:00"
+    "updated_at": "2026-10-02T16:28:48.624388+00:00"
   },
   {
     "name": "azure-containerregistry-py",
@@ -3282,7 +3317,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.844711+00:00"
+    "updated_at": "2026-10-02T16:28:48.625387+00:00"
   },
   {
     "name": "azure-cosmos-rust",
@@ -3317,7 +3352,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.845720+00:00"
+    "updated_at": "2026-10-02T16:28:48.625387+00:00"
   },
   {
     "name": "azure-cosmos-ts",
@@ -3352,7 +3387,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.846717+00:00"
+    "updated_at": "2026-10-02T16:28:48.626387+00:00"
   },
   {
     "name": "azure-mgmt-arizeaiobservabilityeval-dotnet",
@@ -3387,7 +3422,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.846717+00:00"
+    "updated_at": "2026-10-02T16:28:48.626387+00:00"
   },
   {
     "name": "azure-monitor-query-java",
@@ -3422,7 +3457,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.847717+00:00"
+    "updated_at": "2026-10-02T16:28:48.627388+00:00"
   },
   {
     "name": "azure-search-documents-dotnet",
@@ -3457,7 +3492,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.848718+00:00"
+    "updated_at": "2026-10-02T16:28:48.627388+00:00"
   },
   {
     "name": "azure-search-documents-py",
@@ -3492,7 +3527,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.848718+00:00"
+    "updated_at": "2026-10-02T16:28:48.628388+00:00"
   },
   {
     "name": "azure-storage-blob-py",
@@ -3527,7 +3562,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.849719+00:00"
+    "updated_at": "2026-10-02T16:28:48.628388+00:00"
   },
   {
     "name": "azure-storage-blob-rust",
@@ -3562,7 +3597,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.850718+00:00"
+    "updated_at": "2026-10-02T16:28:48.629387+00:00"
   },
   {
     "name": "azure-storage-blob-ts",
@@ -3597,7 +3632,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.850718+00:00"
+    "updated_at": "2026-10-02T16:28:48.629387+00:00"
   },
   {
     "name": "azure-vms",
@@ -3632,7 +3667,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.852227+00:00"
+    "updated_at": "2026-10-02T16:28:48.629387+00:00"
   },
   {
     "name": "backend-dev-guidelines",
@@ -3667,7 +3702,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.853237+00:00"
+    "updated_at": "2026-10-02T16:28:48.630387+00:00"
   },
   {
     "name": "bdi-mental-states",
@@ -3702,7 +3737,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.855244+00:00"
+    "updated_at": "2026-10-02T16:28:48.632387+00:00"
   },
   {
     "name": "bdistill-behavioral-xray",
@@ -3737,7 +3772,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.854234+00:00"
+    "updated_at": "2026-10-02T16:28:48.631387+00:00"
   },
   {
     "name": "bdistill-knowledge-extraction",
@@ -3772,7 +3807,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.854234+00:00"
+    "updated_at": "2026-10-02T16:28:48.631387+00:00"
   },
   {
     "name": "beatra",
@@ -3807,7 +3842,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.855244+00:00"
+    "updated_at": "2026-10-02T16:28:48.634570+00:00"
   },
   {
     "name": "beatra-ai-video-studio",
@@ -3842,7 +3877,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.856242+00:00"
+    "updated_at": "2026-10-02T16:28:48.634570+00:00"
   },
   {
     "name": "beautiful-prose",
@@ -3877,7 +3912,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.856242+00:00"
+    "updated_at": "2026-10-02T16:28:48.635576+00:00"
   },
   {
     "name": "before-you-build",
@@ -3912,7 +3947,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.857243+00:00"
+    "updated_at": "2026-10-02T16:28:48.635576+00:00"
   },
   {
     "name": "behavioral-modes",
@@ -3947,7 +3982,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.857243+00:00"
+    "updated_at": "2026-10-02T16:28:48.636575+00:00"
   },
   {
     "name": "biopython",
@@ -3982,7 +4017,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.858242+00:00"
+    "updated_at": "2026-10-02T16:28:48.636575+00:00"
   },
   {
     "name": "blockchain-developer",
@@ -4017,7 +4052,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.858242+00:00"
+    "updated_at": "2026-10-02T16:28:48.637576+00:00"
   },
   {
     "name": "blueprint",
@@ -4052,7 +4087,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.859242+00:00"
+    "updated_at": "2026-10-02T16:28:48.638575+00:00"
   },
   {
     "name": "boost-asio-pro",
@@ -4087,7 +4122,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.859242+00:00"
+    "updated_at": "2026-10-02T16:28:48.638575+00:00"
   },
   {
     "name": "brain-to-docs",
@@ -4122,7 +4157,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.860242+00:00"
+    "updated_at": "2026-10-02T16:28:48.640575+00:00"
   },
   {
     "name": "brainstorming",
@@ -4157,7 +4192,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.860242+00:00"
+    "updated_at": "2026-10-02T16:28:48.639576+00:00"
   },
   {
     "name": "brand-guidelines",
@@ -4192,7 +4227,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.861242+00:00"
+    "updated_at": "2026-10-02T16:28:48.640575+00:00"
   },
   {
     "name": "templates",
@@ -4227,7 +4262,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.861242+00:00"
+    "updated_at": "2026-10-02T16:28:48.641576+00:00"
   },
   {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
@@ -4268,7 +4303,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.862242+00:00"
+    "updated_at": "2026-10-02T16:28:48.642575+00:00"
   },
   {
     "name": "llm-quantization-gguf-and-awq",
@@ -4307,7 +4342,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.862242+00:00"
+    "updated_at": "2026-10-02T16:28:48.643081+00:00"
   },
   {
     "name": "appdeploy",
@@ -4342,7 +4377,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.863427+00:00"
+    "updated_at": "2026-10-02T16:28:48.644090+00:00"
   },
   {
     "name": "axiom",
@@ -4377,7 +4412,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.863427+00:00"
+    "updated_at": "2026-10-02T16:28:48.644090+00:00"
   },
   {
     "name": "azure-data-tables-java",
@@ -4412,7 +4447,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.865431+00:00"
+    "updated_at": "2026-10-02T16:28:48.644090+00:00"
   },
   {
     "name": "azure-data-tables-py",
@@ -4447,7 +4482,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.866438+00:00"
+    "updated_at": "2026-10-02T16:28:48.645597+00:00"
   },
   {
     "name": "azure-keyvault-py",
@@ -4482,7 +4517,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.867442+00:00"
+    "updated_at": "2026-10-02T16:28:48.646607+00:00"
   },
   {
     "name": "azure-storage-blob-java",
@@ -4517,7 +4552,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.867442+00:00"
+    "updated_at": "2026-10-02T16:28:48.647608+00:00"
   },
   {
     "name": "azure-storage-file-datalake-py",
@@ -4552,7 +4587,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.868443+00:00"
+    "updated_at": "2026-10-02T16:28:48.647608+00:00"
   },
   {
     "name": "azure-storage-file-share-py",
@@ -4587,7 +4622,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.869438+00:00"
+    "updated_at": "2026-10-02T16:28:48.648604+00:00"
   },
   {
     "name": "azure-storage-file-share-ts",
@@ -4622,7 +4657,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.869438+00:00"
+    "updated_at": "2026-10-02T16:28:48.648604+00:00"
   },
   {
     "name": "azure-storage-queue-py",
@@ -4657,7 +4692,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.870456+00:00"
+    "updated_at": "2026-10-02T16:28:48.649604+00:00"
   },
   {
     "name": "azure-storage-queue-rust",
@@ -4692,7 +4727,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.870456+00:00"
+    "updated_at": "2026-10-02T16:28:48.649604+00:00"
   },
   {
     "name": "azure-storage-queue-ts",
@@ -4727,7 +4762,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.871437+00:00"
+    "updated_at": "2026-10-02T16:28:48.650605+00:00"
   },
   {
     "name": "block-storage",
@@ -4762,7 +4797,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.872456+00:00"
+    "updated_at": "2026-10-02T16:28:48.650605+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -4799,7 +4834,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.872456+00:00"
+    "updated_at": "2026-10-02T16:28:48.651607+00:00"
   },
   {
     "name": "llm-synthetic-data-generation-pipeline",
@@ -4837,7 +4872,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.873490+00:00"
+    "updated_at": "2026-10-02T16:28:48.651607+00:00"
   },
   {
     "name": "ai-agent-custom-tool-builder-and-schema-generator",
@@ -4876,7 +4911,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.874487+00:00"
+    "updated_at": "2026-10-02T16:28:48.652606+00:00"
   },
   {
     "name": "vector-database-rag-indexing",
@@ -4916,7 +4951,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.874487+00:00"
+    "updated_at": "2026-10-02T16:28:48.652606+00:00"
   },
   {
     "name": "spectral-graph-laplacian-vector-search",
@@ -4956,7 +4991,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.874487+00:00"
+    "updated_at": "2026-10-02T16:28:48.653937+00:00"
   },
   {
     "name": "rest-and-graphql-api-spec-analyzer",
@@ -4996,7 +5031,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.876010+00:00"
+    "updated_at": "2026-10-02T16:28:48.653937+00:00"
   },
   {
     "name": "backend-architect",
@@ -5031,7 +5066,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.877014+00:00"
+    "updated_at": "2026-10-02T16:28:48.654939+00:00"
   },
   {
     "name": "backend-security-coder",
@@ -5066,7 +5101,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.877014+00:00"
+    "updated_at": "2026-10-02T16:28:48.654939+00:00"
   },
   {
     "name": "api-rate-limiting-and-throttling",
@@ -5105,7 +5140,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.878037+00:00"
+    "updated_at": "2026-10-02T16:28:48.655936+00:00"
   },
   {
     "name": "atlas-cloud-media",
@@ -5140,7 +5175,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.878037+00:00"
+    "updated_at": "2026-10-02T16:28:48.655936+00:00"
   },
   {
     "name": "aws-mcp-setup",
@@ -5175,7 +5210,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.879015+00:00"
+    "updated_at": "2026-10-02T16:28:48.656938+00:00"
   },
   {
     "name": "azure-keyvault-secrets-rust",
@@ -5210,7 +5245,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.880017+00:00"
+    "updated_at": "2026-10-02T16:28:48.656938+00:00"
   },
   {
     "name": "azure-mgmt-apicenter-dotnet",
@@ -5245,7 +5280,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.880017+00:00"
+    "updated_at": "2026-10-02T16:28:48.657938+00:00"
   },
   {
     "name": "azure-mgmt-apicenter-py",
@@ -5280,7 +5315,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.881016+00:00"
+    "updated_at": "2026-10-02T16:28:48.657938+00:00"
   },
   {
     "name": "azure-mgmt-apimanagement-dotnet",
@@ -5315,7 +5350,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.881016+00:00"
+    "updated_at": "2026-10-02T16:28:48.657938+00:00"
   },
   {
     "name": "azure-mgmt-apimanagement-py",
@@ -5350,7 +5385,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.882524+00:00"
+    "updated_at": "2026-10-02T16:28:48.658938+00:00"
   },
   {
     "name": "azure-monitor-ingestion-py",
@@ -5385,7 +5420,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.882524+00:00"
+    "updated_at": "2026-10-02T16:28:48.658938+00:00"
   },
   {
     "name": "azure-security-keyvault-secrets-java",
@@ -5420,7 +5455,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.883530+00:00"
+    "updated_at": "2026-10-02T16:28:48.659939+00:00"
   },
   {
     "name": "fastapi-high-performance-endpoint-builder",
@@ -5461,7 +5496,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.883530+00:00"
+    "updated_at": "2026-10-02T16:28:48.659939+00:00"
   },
   {
     "name": "celery-distributed-task-processing",
@@ -5500,7 +5535,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.884532+00:00"
+    "updated_at": "2026-10-02T16:28:48.660938+00:00"
   },
   {
     "name": "redis-streams-event-processing",
@@ -5537,7 +5572,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.885538+00:00"
+    "updated_at": "2026-10-02T16:28:48.660938+00:00"
   },
   {
     "name": "drizzle-orm-schema-and-relational-queries",
@@ -5577,7 +5612,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.885538+00:00"
+    "updated_at": "2026-10-02T16:28:48.660938+00:00"
   },
   {
     "name": "sqlalchemy-async-session-management",
@@ -5616,7 +5651,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.885538+00:00"
+    "updated_at": "2026-10-02T16:28:48.660938+00:00"
   },
   {
     "name": "alembic-zero-downtime-migrations",
@@ -5655,7 +5690,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.886539+00:00"
+    "updated_at": "2026-10-02T16:28:48.662445+00:00"
   },
   {
     "name": "asset-it-management",
@@ -5690,7 +5725,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.886539+00:00"
+    "updated_at": "2026-10-02T16:28:48.662445+00:00"
   },
   {
     "name": "azure-postgres-ts",
@@ -5725,7 +5760,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.889051+00:00"
+    "updated_at": "2026-10-02T16:28:48.663452+00:00"
   },
   {
     "name": "azure-resource-manager-mysql-dotnet",
@@ -5760,7 +5795,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.889051+00:00"
+    "updated_at": "2026-10-02T16:28:48.664454+00:00"
   },
   {
     "name": "azure-resource-manager-postgresql-dotnet",
@@ -5795,7 +5830,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.890059+00:00"
+    "updated_at": "2026-10-02T16:28:48.664454+00:00"
   },
   {
     "name": "azure-resource-manager-sql-dotnet",
@@ -5830,7 +5865,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.890059+00:00"
+    "updated_at": "2026-10-02T16:28:48.665961+00:00"
   },
   {
     "name": "openapi-documentation-generator-and-swagger-ui",
@@ -5872,7 +5907,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.891058+00:00"
+    "updated_at": "2026-10-02T16:28:48.666972+00:00"
   },
   {
     "name": "fastapi-async-api-design",
@@ -5912,7 +5947,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.891058+00:00"
+    "updated_at": "2026-10-02T16:28:48.667970+00:00"
   },
   {
     "name": "apollo-federation-subgraph-architecture",
@@ -5951,7 +5986,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.891058+00:00"
+    "updated_at": "2026-10-02T16:28:48.668970+00:00"
   },
   {
     "name": "graphql-schema-evolution",
@@ -5991,7 +6026,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.891058+00:00"
+    "updated_at": "2026-10-02T16:28:48.668970+00:00"
   },
   {
     "name": "grpc-service-implementation",
@@ -6033,7 +6068,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.892566+00:00"
+    "updated_at": "2026-10-02T16:28:48.669970+00:00"
   },
   {
     "name": "rabbitmq-reliable-messaging-patterns",
@@ -6071,7 +6106,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.892566+00:00"
+    "updated_at": "2026-10-02T16:28:48.669970+00:00"
   },
   {
     "name": "kafka-event-driven-architecture",
@@ -6109,7 +6144,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.893573+00:00"
+    "updated_at": "2026-10-02T16:28:48.670970+00:00"
   },
   {
     "name": "asyncio-concurrency-and-event-loop-architecture",
@@ -6149,7 +6184,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.894572+00:00"
+    "updated_at": "2026-10-02T16:28:48.670970+00:00"
   },
   {
     "name": "azure-appconfiguration-py",
@@ -6184,7 +6219,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.894572+00:00"
+    "updated_at": "2026-10-02T16:28:48.672477+00:00"
   },
   {
     "name": "azure-eventgrid-py",
@@ -6219,7 +6254,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.895577+00:00"
+    "updated_at": "2026-10-02T16:28:48.673485+00:00"
   },
   {
     "name": "azure-eventhub-py",
@@ -6254,7 +6289,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.896577+00:00"
+    "updated_at": "2026-10-02T16:28:48.673485+00:00"
   },
   {
     "name": "azure-identity-py",
@@ -6289,7 +6324,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.898580+00:00"
+    "updated_at": "2026-10-02T16:28:48.674484+00:00"
   },
   {
     "name": "azure-mgmt-botservice-py",
@@ -6324,7 +6359,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.900581+00:00"
+    "updated_at": "2026-10-02T16:28:48.675493+00:00"
   },
   {
     "name": "azure-mgmt-fabric-py",
@@ -6359,7 +6394,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.902579+00:00"
+    "updated_at": "2026-10-02T16:28:48.676491+00:00"
   },
   {
     "name": "azure-monitor-opentelemetry-exporter-py",
@@ -6394,7 +6429,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.903086+00:00"
+    "updated_at": "2026-10-02T16:28:48.676491+00:00"
   },
   {
     "name": "azure-monitor-query-py",
@@ -6429,7 +6464,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.904095+00:00"
+    "updated_at": "2026-10-02T16:28:48.677493+00:00"
   },
   {
     "name": "azure-servicebus-py",
@@ -6464,7 +6499,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.905094+00:00"
+    "updated_at": "2026-10-02T16:28:48.677493+00:00"
   },
   {
     "name": "websocket-realtime-communication",
@@ -6504,7 +6539,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.906101+00:00"
+    "updated_at": "2026-10-02T16:28:48.678493+00:00"
   },
   {
     "name": "distributed-rate-limiting-token-bucket",
@@ -6543,7 +6578,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.906101+00:00"
+    "updated_at": "2026-10-02T16:28:48.678493+00:00"
   },
   {
     "name": "internal-financial-audit-and-controls",
@@ -6581,7 +6616,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.907100+00:00"
+    "updated_at": "2026-10-02T16:28:48.679492+00:00"
   },
   {
     "name": "corporate-alumni-and-talent-rehire-network",
@@ -6619,7 +6654,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.907100+00:00"
+    "updated_at": "2026-10-02T16:28:48.679492+00:00"
   },
   {
     "name": "employee-360-feedback-review-system",
@@ -6655,7 +6690,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.907100+00:00"
+    "updated_at": "2026-10-02T16:28:48.680491+00:00"
   },
   {
     "name": "company-announcement-and-internal-comms-portal",
@@ -6694,7 +6729,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.908100+00:00"
+    "updated_at": "2026-10-02T16:28:48.680491+00:00"
   },
   {
     "name": "board-governance",
@@ -6729,7 +6764,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.908100+00:00"
+    "updated_at": "2026-10-02T16:28:48.681496+00:00"
   },
   {
     "name": "brand-kit-print-collateral",
@@ -6764,7 +6799,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.909100+00:00"
+    "updated_at": "2026-10-02T16:28:48.682490+00:00"
   },
   {
     "name": "enterprise-software-selection-and-rfp",
@@ -6801,7 +6836,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.909100+00:00"
+    "updated_at": "2026-10-02T16:28:48.682995+00:00"
   },
   {
     "name": "ai-saas-wrapper-architecture-and-stripe-metering",
@@ -6840,7 +6875,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.910100+00:00"
+    "updated_at": "2026-10-02T16:28:48.683586+00:00"
   },
   {
     "name": "marp-and-python-pptx-slide-deck-generator",
@@ -6881,7 +6916,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.910605+00:00"
+    "updated_at": "2026-10-02T16:28:48.684593+00:00"
   },
   {
     "name": "technical-editorial-illustration-and-visual-metaphors",
@@ -6919,7 +6954,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.910605+00:00"
+    "updated_at": "2026-10-02T16:28:48.684593+00:00"
   },
   {
     "name": "real-time-operational-metrics-dashboard",
@@ -6958,7 +6993,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.911611+00:00"
+    "updated_at": "2026-10-02T16:28:48.685593+00:00"
   },
   {
     "name": "box-automation",
@@ -6993,7 +7028,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.911611+00:00"
+    "updated_at": "2026-10-02T16:28:48.686098+00:00"
   },
   {
     "name": "polars-high-throughput-data-pipeline",
@@ -7031,7 +7066,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.913119+00:00"
+    "updated_at": "2026-10-02T16:28:48.687106+00:00"
   },
   {
     "name": "snowflake-data-warehouse-modeling",
@@ -7069,7 +7104,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.913612+00:00"
+    "updated_at": "2026-10-02T16:28:48.687106+00:00"
   },
   {
     "name": "airtable-api-data-sync-and-webhook-automation",
@@ -7108,7 +7143,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.914126+00:00"
+    "updated_at": "2026-10-02T16:28:48.688106+00:00"
   },
   {
     "name": "ab-test-experiment-design",
@@ -7146,7 +7181,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.914126+00:00"
+    "updated_at": "2026-10-02T16:28:48.689106+00:00"
   },
   {
     "name": "financial-market-data-and-alpha-vantage-time-series",
@@ -7186,7 +7221,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.915634+00:00"
+    "updated_at": "2026-10-02T16:28:48.689106+00:00"
   },
   {
     "name": "competitive-market-intelligence-crawler",
@@ -7225,7 +7260,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.915634+00:00"
+    "updated_at": "2026-10-02T16:28:48.690105+00:00"
   },
   {
     "name": "airflow-dag-orchestration-and-lineage",
@@ -7265,7 +7300,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.916645+00:00"
+    "updated_at": "2026-10-02T16:28:48.691105+00:00"
   },
   {
     "name": "amplitude-product-analytics-and-funnel-tracking",
@@ -7304,7 +7339,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.917642+00:00"
+    "updated_at": "2026-10-02T16:28:48.691105+00:00"
   },
   {
     "name": "astropy-computational-astronomy-and-coordinate-systems",
@@ -7346,7 +7381,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.918642+00:00"
+    "updated_at": "2026-10-02T16:28:48.691105+00:00"
   },
   {
     "name": "apify-actor-web-scraping-and-crawling-pipeline",
@@ -7387,7 +7422,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.918642+00:00"
+    "updated_at": "2026-10-02T16:28:48.692613+00:00"
   },
   {
     "name": "clickhouse-time-series-analytics",
@@ -7426,7 +7461,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.919642+00:00"
+    "updated_at": "2026-10-02T16:28:48.692613+00:00"
   },
   {
     "name": "duckdb-embedded-analytics",
@@ -7465,7 +7500,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.920641+00:00"
+    "updated_at": "2026-10-02T16:28:48.693620+00:00"
   },
   {
     "name": "database-migration-safety",
@@ -7504,7 +7539,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.920641+00:00"
+    "updated_at": "2026-10-02T16:28:48.693620+00:00"
   },
   {
     "name": "neo4j-graph-data-modeling-and-cypher",
@@ -7541,7 +7576,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.921641+00:00"
+    "updated_at": "2026-10-02T16:28:48.694620+00:00"
   },
   {
     "name": "scylladb-high-throughput-nosql-architecture",
@@ -7581,7 +7616,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.921641+00:00"
+    "updated_at": "2026-10-02T16:28:48.694620+00:00"
   },
   {
     "name": "prisma-schema-migration-and-relations",
@@ -7620,7 +7655,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.921641+00:00"
+    "updated_at": "2026-10-02T16:28:48.695626+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -7656,7 +7691,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.922641+00:00"
+    "updated_at": "2026-10-02T16:28:48.695626+00:00"
   },
   {
     "name": "redis-caching-patterns",
@@ -7694,7 +7729,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.923147+00:00"
+    "updated_at": "2026-10-02T16:28:48.696625+00:00"
   },
   {
     "name": "algolia-search-indexing-and-faceted-search",
@@ -7733,7 +7768,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.924153+00:00"
+    "updated_at": "2026-10-02T16:28:48.696625+00:00"
   },
   {
     "name": "elasticsearch-dsl-search-and-aggregations",
@@ -7773,7 +7808,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.924153+00:00"
+    "updated_at": "2026-10-02T16:28:48.697625+00:00"
   },
   {
     "name": "meilisearch-full-text-search-integration",
@@ -7811,7 +7846,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.925154+00:00"
+    "updated_at": "2026-10-02T16:28:48.697625+00:00"
   },
   {
     "name": "timescaledb-hypertables-and-retention",
@@ -7850,7 +7885,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.925154+00:00"
+    "updated_at": "2026-10-02T16:28:48.698628+00:00"
   },
   {
     "name": "avalonia-cross-platform-desktop-ui-architecture",
@@ -7892,7 +7927,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.926160+00:00"
+    "updated_at": "2026-10-02T16:28:48.699626+00:00"
   },
   {
     "name": "ai-native-cli-tool-architecture-with-typer",
@@ -7934,7 +7969,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.927161+00:00"
+    "updated_at": "2026-10-02T16:28:48.699626+00:00"
   },
   {
     "name": "ask-copilot",
@@ -7969,7 +8004,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.928163+00:00"
+    "updated_at": "2026-10-02T16:28:48.700629+00:00"
   },
   {
     "name": "asana-automation",
@@ -8004,7 +8039,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.929161+00:00"
+    "updated_at": "2026-10-02T16:28:48.700629+00:00"
   },
   {
     "name": "bamboohr-automation",
@@ -8039,7 +8074,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.929161+00:00"
+    "updated_at": "2026-10-02T16:28:48.701629+00:00"
   },
   {
     "name": "basecamp-automation",
@@ -8074,7 +8109,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.930160+00:00"
+    "updated_at": "2026-10-02T16:28:48.701629+00:00"
   },
   {
     "name": "bitbucket-automation",
@@ -8109,7 +8144,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.931161+00:00"
+    "updated_at": "2026-10-02T16:28:48.702629+00:00"
   },
   {
     "name": "agents-md-repository-context-specification",
@@ -8147,7 +8182,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.932668+00:00"
+    "updated_at": "2026-10-02T16:28:48.703141+00:00"
   },
   {
     "name": "multi-language-api-sdk-code-generator",
@@ -8185,7 +8220,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.933647+00:00"
+    "updated_at": "2026-10-02T16:28:48.703141+00:00"
   },
   {
     "name": "aws-cost-optimization",
@@ -8220,7 +8255,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.934657+00:00"
+    "updated_at": "2026-10-02T16:28:48.704144+00:00"
   },
   {
     "name": "aws-s3",
@@ -8255,7 +8290,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.936163+00:00"
+    "updated_at": "2026-10-02T16:28:48.705657+00:00"
   },
   {
     "name": "aws-vpc",
@@ -8290,7 +8325,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.936163+00:00"
+    "updated_at": "2026-10-02T16:28:48.706171+00:00"
   },
   {
     "name": "azure-aks",
@@ -8325,7 +8360,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.937171+00:00"
+    "updated_at": "2026-10-02T16:28:48.706171+00:00"
   },
   {
     "name": "azure-networking",
@@ -8360,7 +8395,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.938171+00:00"
+    "updated_at": "2026-10-02T16:28:48.707196+00:00"
   },
   {
     "name": "backup-recovery",
@@ -8395,7 +8430,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.939173+00:00"
+    "updated_at": "2026-10-02T16:28:48.707196+00:00"
   },
   {
     "name": "blue-green-deploy",
@@ -8430,7 +8465,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.939173+00:00"
+    "updated_at": "2026-10-02T16:28:48.708179+00:00"
   },
   {
     "name": "github-actions-ci-pipeline-optimization",
@@ -8469,7 +8504,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.940171+00:00"
+    "updated_at": "2026-10-02T16:28:48.708179+00:00"
   },
   {
     "name": "amazon-alexa",
@@ -8504,7 +8539,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.941174+00:00"
+    "updated_at": "2026-10-02T16:28:48.709180+00:00"
   },
   {
     "name": "aws-cost-cleanup",
@@ -8539,7 +8574,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.941174+00:00"
+    "updated_at": "2026-10-02T16:28:48.710181+00:00"
   },
   {
     "name": "aws-cost-optimizer",
@@ -8574,7 +8609,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.942680+00:00"
+    "updated_at": "2026-10-02T16:28:48.710691+00:00"
   },
   {
     "name": "aws-skills",
@@ -8609,7 +8644,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.942680+00:00"
+    "updated_at": "2026-10-02T16:28:48.710691+00:00"
   },
   {
     "name": "aws-sst-development",
@@ -8644,7 +8679,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.943688+00:00"
+    "updated_at": "2026-10-02T16:28:48.710691+00:00"
   },
   {
     "name": "azure-appconfiguration-java",
@@ -8679,7 +8714,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.944687+00:00"
+    "updated_at": "2026-10-02T16:28:48.712195+00:00"
   },
   {
     "name": "azure-appconfiguration-ts",
@@ -8714,7 +8749,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.944687+00:00"
+    "updated_at": "2026-10-02T16:28:48.712195+00:00"
   },
   {
     "name": "azure-communication-sms-java",
@@ -8749,7 +8784,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.945696+00:00"
+    "updated_at": "2026-10-02T16:28:48.712195+00:00"
   },
   {
     "name": "azure-compute-batch-java",
@@ -8784,7 +8819,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.945696+00:00"
+    "updated_at": "2026-10-02T16:28:48.713201+00:00"
   },
   {
     "name": "azure-eventgrid-dotnet",
@@ -8819,7 +8854,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.946695+00:00"
+    "updated_at": "2026-10-02T16:28:48.714202+00:00"
   },
   {
     "name": "azure-eventhub-dotnet",
@@ -8854,7 +8889,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.947692+00:00"
+    "updated_at": "2026-10-02T16:28:48.714202+00:00"
   },
   {
     "name": "azure-eventhub-rust",
@@ -8889,7 +8924,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.947692+00:00"
+    "updated_at": "2026-10-02T16:28:48.715208+00:00"
   },
   {
     "name": "azure-eventhub-ts",
@@ -8924,7 +8959,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.948697+00:00"
+    "updated_at": "2026-10-02T16:28:48.716207+00:00"
   },
   {
     "name": "azure-functions",
@@ -8959,7 +8994,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.948697+00:00"
+    "updated_at": "2026-10-02T16:28:48.717207+00:00"
   },
   {
     "name": "azure-keyvault-certificates-rust",
@@ -8994,7 +9029,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.949695+00:00"
+    "updated_at": "2026-10-02T16:28:48.718208+00:00"
   },
   {
     "name": "azure-keyvault-secrets-ts",
@@ -9029,7 +9064,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.949695+00:00"
+    "updated_at": "2026-10-02T16:28:48.718208+00:00"
   },
   {
     "name": "azure-maps-search-dotnet",
@@ -9064,7 +9099,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.950692+00:00"
+    "updated_at": "2026-10-02T16:28:48.719208+00:00"
   },
   {
     "name": "azure-mgmt-applicationinsights-dotnet",
@@ -9099,7 +9134,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.950692+00:00"
+    "updated_at": "2026-10-02T16:28:48.720209+00:00"
   },
   {
     "name": "azure-mgmt-botservice-dotnet",
@@ -9134,7 +9169,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.952200+00:00"
+    "updated_at": "2026-10-02T16:28:48.720879+00:00"
   },
   {
     "name": "azure-mgmt-fabric-dotnet",
@@ -9169,7 +9204,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.953521+00:00"
+    "updated_at": "2026-10-02T16:28:48.720879+00:00"
   },
   {
     "name": "azure-mgmt-mongodbatlas-dotnet",
@@ -9204,7 +9239,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.954208+00:00"
+    "updated_at": "2026-10-02T16:28:48.720879+00:00"
   },
   {
     "name": "azure-mgmt-weightsandbiases-dotnet",
@@ -9239,7 +9274,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.954208+00:00"
+    "updated_at": "2026-10-02T16:28:48.722398+00:00"
   },
   {
     "name": "azure-microsoft-playwright-testing-ts",
@@ -9274,7 +9309,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.954208+00:00"
+    "updated_at": "2026-10-02T16:28:48.723406+00:00"
   },
   {
     "name": "azure-monitor-ingestion-java",
@@ -9309,7 +9344,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.955713+00:00"
+    "updated_at": "2026-10-02T16:28:48.724406+00:00"
   },
   {
     "name": "azure-monitor-opentelemetry-exporter-java",
@@ -9344,7 +9379,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.955713+00:00"
+    "updated_at": "2026-10-02T16:28:48.724406+00:00"
   },
   {
     "name": "azure-monitor-opentelemetry-ts",
@@ -9379,7 +9414,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.956719+00:00"
+    "updated_at": "2026-10-02T16:28:48.725413+00:00"
   },
   {
     "name": "azure-resource-manager-cosmosdb-dotnet",
@@ -9414,7 +9449,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.956719+00:00"
+    "updated_at": "2026-10-02T16:28:48.725413+00:00"
   },
   {
     "name": "azure-resource-manager-durabletask-dotnet",
@@ -9449,7 +9484,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.957723+00:00"
+    "updated_at": "2026-10-02T16:28:48.726416+00:00"
   },
   {
     "name": "azure-resource-manager-playwright-dotnet",
@@ -9484,7 +9519,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.957723+00:00"
+    "updated_at": "2026-10-02T16:28:48.726416+00:00"
   },
   {
     "name": "azure-resource-manager-redis-dotnet",
@@ -9519,7 +9554,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.958722+00:00"
+    "updated_at": "2026-10-02T16:28:48.727413+00:00"
   },
   {
     "name": "azure-servicebus-dotnet",
@@ -9554,7 +9589,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.958722+00:00"
+    "updated_at": "2026-10-02T16:28:48.727413+00:00"
   },
   {
     "name": "azure-servicebus-rust",
@@ -9589,7 +9624,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.959721+00:00"
+    "updated_at": "2026-10-02T16:28:48.728414+00:00"
   },
   {
     "name": "azure-servicebus-ts",
@@ -9624,7 +9659,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.959721+00:00"
+    "updated_at": "2026-10-02T16:28:48.728414+00:00"
   },
   {
     "name": "helm-chart-architecture-and-lifecycle",
@@ -9663,7 +9698,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.960719+00:00"
+    "updated_at": "2026-10-02T16:28:48.729414+00:00"
   },
   {
     "name": "apple-silicon-container-runtime-optimization",
@@ -9705,7 +9740,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.960719+00:00"
+    "updated_at": "2026-10-02T16:28:48.729414+00:00"
   },
   {
     "name": "docker-container-optimization",
@@ -9742,7 +9777,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.960719+00:00"
+    "updated_at": "2026-10-02T16:28:48.729414+00:00"
   },
   {
     "name": "flagger-canary-progressive-delivery",
@@ -9782,7 +9817,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.962224+00:00"
+    "updated_at": "2026-10-02T16:28:48.730415+00:00"
   },
   {
     "name": "github-actions-reusable-workflows-and-composite-actions",
@@ -9820,7 +9855,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.963231+00:00"
+    "updated_at": "2026-10-02T16:28:48.731414+00:00"
   },
   {
     "name": "cloud-cost-finops-and-devsecops-guardrails",
@@ -9861,7 +9896,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.963231+00:00"
+    "updated_at": "2026-10-02T16:28:48.731414+00:00"
   },
   {
     "name": "argocd-gitops-continuous-delivery",
@@ -9900,7 +9935,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.965230+00:00"
+    "updated_at": "2026-10-02T16:28:48.732413+00:00"
   },
   {
     "name": "terraform-infrastructure-as-code",
@@ -9940,7 +9975,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.965230+00:00"
+    "updated_at": "2026-10-02T16:28:48.732918+00:00"
   },
   {
     "name": "aws-cdk-v2-infrastructure-as-code-architecture",
@@ -9983,7 +10018,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.967238+00:00"
+    "updated_at": "2026-10-02T16:28:48.732918+00:00"
   },
   {
     "name": "azure-arm-and-bicep-infrastructure-as-code",
@@ -10022,7 +10057,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.968237+00:00"
+    "updated_at": "2026-10-02T16:28:48.733926+00:00"
   },
   {
     "name": "ansible-idempotent-configuration-management",
@@ -10061,7 +10096,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.968237+00:00"
+    "updated_at": "2026-10-02T16:28:48.733926+00:00"
   },
   {
     "name": "terraform-module-design-and-testing",
@@ -10101,7 +10136,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.969237+00:00"
+    "updated_at": "2026-10-02T16:28:48.734933+00:00"
   },
   {
     "name": "kubernetes-crashloop-debugging",
@@ -10138,7 +10173,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.970235+00:00"
+    "updated_at": "2026-10-02T16:28:48.735933+00:00"
   },
   {
     "name": "prometheus-grafana-observability",
@@ -10177,7 +10212,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.970235+00:00"
+    "updated_at": "2026-10-02T16:28:48.735933+00:00"
   },
   {
     "name": "prometheus-metrics-instrumentation",
@@ -10215,7 +10250,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.970235+00:00"
+    "updated_at": "2026-10-02T16:28:48.735933+00:00"
   },
   {
     "name": "azure-application-insights-telemetry-and-distributed-tracing",
@@ -10255,7 +10290,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.971237+00:00"
+    "updated_at": "2026-10-02T16:28:48.736932+00:00"
   },
   {
     "name": "grafana-loki-log-aggregation",
@@ -10295,7 +10330,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.971237+00:00"
+    "updated_at": "2026-10-02T16:28:48.736932+00:00"
   },
   {
     "name": "opentelemetry-distributed-tracing",
@@ -10334,7 +10369,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.972237+00:00"
+    "updated_at": "2026-10-02T16:28:48.737933+00:00"
   },
   {
     "name": "opentelemetry-collector-pipeline-routing",
@@ -10373,7 +10408,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.972237+00:00"
+    "updated_at": "2026-10-02T16:28:48.737933+00:00"
   },
   {
     "name": "istio-service-mesh-traffic-routing",
@@ -10412,7 +10447,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.972743+00:00"
+    "updated_at": "2026-10-02T16:28:48.738931+00:00"
   },
   {
     "name": "ai-sre-autonomous-incident-triage-and-remediation",
@@ -10453,7 +10488,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.973751+00:00"
+    "updated_at": "2026-10-02T16:28:48.739932+00:00"
   },
   {
     "name": "arm-cortex-m-embedded-firmware-architecture",
@@ -10497,7 +10532,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.973751+00:00"
+    "updated_at": "2026-10-02T16:28:48.739932+00:00"
   },
   {
     "name": "threejs-3d-web-experience",
@@ -10539,7 +10574,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.974757+00:00"
+    "updated_at": "2026-10-02T16:28:48.740931+00:00"
   },
   {
     "name": "wcag-accessibility-audit",
@@ -10579,7 +10614,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.974757+00:00"
+    "updated_at": "2026-10-02T16:28:48.740931+00:00"
   },
   {
     "name": "animejs-declarative-web-animation-system",
@@ -10617,7 +10652,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.975758+00:00"
+    "updated_at": "2026-10-02T16:28:48.742437+00:00"
   },
   {
     "name": "clean-anti-slop-ui-ux-design-system",
@@ -10656,7 +10691,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.976798+00:00"
+    "updated_at": "2026-10-02T16:28:48.742437+00:00"
   },
   {
     "name": "angular-signals-standalone-components-and-state",
@@ -10695,7 +10730,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.976798+00:00"
+    "updated_at": "2026-10-02T16:28:48.743454+00:00"
   },
   {
     "name": "astro-content-and-islands-web-architecture",
@@ -10739,7 +10774,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.977805+00:00"
+    "updated_at": "2026-10-02T16:28:48.743454+00:00"
   },
   {
     "name": "azure-cosmos-java",
@@ -10774,7 +10809,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.977805+00:00"
+    "updated_at": "2026-10-02T16:28:48.744444+00:00"
   },
   {
     "name": "nextjs-app-router-architecture",
@@ -10814,7 +10849,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.978805+00:00"
+    "updated_at": "2026-10-02T16:28:48.744444+00:00"
   },
   {
     "name": "full-stack-web-vitals-and-performance-optimization",
@@ -10854,7 +10889,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.978805+00:00"
+    "updated_at": "2026-10-02T16:28:48.745447+00:00"
   },
   {
     "name": "react-component-architecture",
@@ -10892,7 +10927,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.979807+00:00"
+    "updated_at": "2026-10-02T16:28:48.745447+00:00"
   },
   {
     "name": "zustand-state-management-patterns",
@@ -10930,7 +10965,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.979807+00:00"
+    "updated_at": "2026-10-02T16:28:48.746445+00:00"
   },
   {
     "name": "anti-sleep",
@@ -10965,7 +11000,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.980804+00:00"
+    "updated_at": "2026-10-02T16:28:48.747443+00:00"
   },
   {
     "name": "ask-questions-if-underspecified",
@@ -11000,7 +11035,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.982321+00:00"
+    "updated_at": "2026-10-02T16:28:48.747443+00:00"
   },
   {
     "name": "audit-context-building",
@@ -11035,7 +11070,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.983333+00:00"
+    "updated_at": "2026-10-02T16:28:48.748446+00:00"
   },
   {
     "name": "automated-triage",
@@ -11070,7 +11105,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.984333+00:00"
+    "updated_at": "2026-10-02T16:28:48.750443+00:00"
   },
   {
     "name": "aws-lambda",
@@ -11105,7 +11140,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.984333+00:00"
+    "updated_at": "2026-10-02T16:28:48.750443+00:00"
   },
   {
     "name": "aws-serverless",
@@ -11140,7 +11175,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.985332+00:00"
+    "updated_at": "2026-10-02T16:28:48.751443+00:00"
   },
   {
     "name": "aws-serverless-eda",
@@ -11175,7 +11210,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.985332+00:00"
+    "updated_at": "2026-10-02T16:28:48.752447+00:00"
   },
   {
     "name": "azure-communication-chat-java",
@@ -11210,7 +11245,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.986331+00:00"
+    "updated_at": "2026-10-02T16:28:48.753565+00:00"
   },
   {
     "name": "azure-cosmos-db-py",
@@ -11245,7 +11280,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.987349+00:00"
+    "updated_at": "2026-10-02T16:28:48.753565+00:00"
   },
   {
     "name": "azure-devops",
@@ -11280,7 +11315,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.987349+00:00"
+    "updated_at": "2026-10-02T16:28:48.754574+00:00"
   },
   {
     "name": "azure-eventgrid-java",
@@ -11315,7 +11350,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.987349+00:00"
+    "updated_at": "2026-10-02T16:28:48.755574+00:00"
   },
   {
     "name": "azure-eventhub-java",
@@ -11350,7 +11385,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.988853+00:00"
+    "updated_at": "2026-10-02T16:28:48.755574+00:00"
   },
   {
     "name": "azure-functions-devsec",
@@ -11385,7 +11420,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.989859+00:00"
+    "updated_at": "2026-10-02T16:28:48.756727+00:00"
   },
   {
     "name": "azure-search-documents-ts",
@@ -11420,7 +11455,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.989859+00:00"
+    "updated_at": "2026-10-02T16:28:48.757727+00:00"
   },
   {
     "name": "backend-development-feature-development",
@@ -11455,7 +11490,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.990860+00:00"
+    "updated_at": "2026-10-02T16:28:48.758728+00:00"
   },
   {
     "name": "backtesting-frameworks",
@@ -11490,7 +11525,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.990860+00:00"
+    "updated_at": "2026-10-02T16:28:48.758728+00:00"
   },
   {
     "name": "baseline-ui",
@@ -11525,7 +11560,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.990860+00:00"
+    "updated_at": "2026-10-02T16:28:48.759727+00:00"
   },
   {
     "name": "bash-defensive-patterns",
@@ -11560,7 +11595,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.992366+00:00"
+    "updated_at": "2026-10-02T16:28:48.760727+00:00"
   },
   {
     "name": "bats-testing-patterns",
@@ -11595,7 +11630,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.993373+00:00"
+    "updated_at": "2026-10-02T16:28:48.760727+00:00"
   },
   {
     "name": "bazel-build-optimization",
@@ -11630,7 +11665,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.994380+00:00"
+    "updated_at": "2026-10-02T16:28:48.760727+00:00"
   },
   {
     "name": "blog-writing-guide",
@@ -11665,7 +11700,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.994380+00:00"
+    "updated_at": "2026-10-02T16:28:48.762233+00:00"
   },
   {
     "name": "brand-guidelines-anthropic",
@@ -11700,7 +11735,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.995372+00:00"
+    "updated_at": "2026-10-02T16:28:48.762233+00:00"
   },
   {
     "name": "antigravity-design-expert",
@@ -11735,7 +11770,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.996372+00:00"
+    "updated_at": "2026-10-02T16:28:48.763242+00:00"
   },
   {
     "name": "azure-messaging-webpubsub-java",
@@ -11770,7 +11805,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.996372+00:00"
+    "updated_at": "2026-10-02T16:28:48.765241+00:00"
   },
   {
     "name": "azure-messaging-webpubsubservice-py",
@@ -11805,7 +11840,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.997372+00:00"
+    "updated_at": "2026-10-02T16:28:48.766247+00:00"
   },
   {
     "name": "azure-web-pubsub-ts",
@@ -11840,7 +11875,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.998375+00:00"
+    "updated_at": "2026-10-02T16:28:48.766247+00:00"
   },
   {
     "name": "brand-growth-system-builder",
@@ -11875,7 +11910,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:37.998375+00:00"
+    "updated_at": "2026-10-02T16:28:48.767250+00:00"
   },
   {
     "name": "app-store-optimization-and-metadata-strategy",
@@ -11912,7 +11947,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.000376+00:00"
+    "updated_at": "2026-10-02T16:28:48.768265+00:00"
   },
   {
     "name": "social-sentiment-and-brand-reputation-monitor",
@@ -11950,7 +11985,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.001379+00:00"
+    "updated_at": "2026-10-02T16:28:48.768265+00:00"
   },
   {
     "name": "high-converting-ad-creative-design",
@@ -11989,7 +12024,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.001379+00:00"
+    "updated_at": "2026-10-02T16:28:48.769246+00:00"
   },
   {
     "name": "activecampaign-marketing-automation-and-webhook-sync",
@@ -12029,7 +12064,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.002376+00:00"
+    "updated_at": "2026-10-02T16:28:48.770245+00:00"
   },
   {
     "name": "b2b-lead-enrichment-and-prospecting-crawler",
@@ -12068,7 +12103,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.002376+00:00"
+    "updated_at": "2026-10-02T16:28:48.770245+00:00"
   },
   {
     "name": "cross-channel-ad-campaign-analytics",
@@ -12107,7 +12142,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.003766+00:00"
+    "updated_at": "2026-10-02T16:28:48.771270+00:00"
   },
   {
     "name": "ai-search-engine-optimization-and-schema-markup",
@@ -12146,7 +12181,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.004766+00:00"
+    "updated_at": "2026-10-02T16:28:48.771270+00:00"
   },
   {
     "name": "competitor-alternative-page-architecture",
@@ -12183,7 +12218,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.004766+00:00"
+    "updated_at": "2026-10-02T16:28:48.772246+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -12221,7 +12256,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.005771+00:00"
+    "updated_at": "2026-10-02T16:28:48.772751+00:00"
   },
   {
     "name": "skill-creator",
@@ -12257,7 +12292,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.005771+00:00"
+    "updated_at": "2026-10-02T16:28:48.772751+00:00"
   },
   {
     "name": "android-jetpack-compose-architecture-and-ui-testing",
@@ -12297,7 +12332,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.006771+00:00"
+    "updated_at": "2026-10-02T16:28:48.773560+00:00"
   },
   {
     "name": "ios-app-clip-architecture",
@@ -12337,7 +12372,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.006771+00:00"
+    "updated_at": "2026-10-02T16:28:48.773560+00:00"
   },
   {
     "name": "multilingual-audio-dubbing-and-srt-sync",
@@ -12379,7 +12414,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.007772+00:00"
+    "updated_at": "2026-10-02T16:28:48.774565+00:00"
   },
   {
     "name": "p5js-generative-algorithmic-art-canvas",
@@ -12418,7 +12453,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.007772+00:00"
+    "updated_at": "2026-10-02T16:28:48.774565+00:00"
   },
   {
     "name": "ai-image-generation-prompt-and-asset-pipeline",
@@ -12458,7 +12493,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.008771+00:00"
+    "updated_at": "2026-10-02T16:28:48.774565+00:00"
   },
   {
     "name": "golang-goroutine-concurrency-patterns",
@@ -12495,7 +12530,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.009772+00:00"
+    "updated_at": "2026-10-02T16:28:48.775566+00:00"
   },
   {
     "name": "rust-memory-safety-and-lifetimes",
@@ -12532,7 +12567,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.009772+00:00"
+    "updated_at": "2026-10-02T16:28:48.776069+00:00"
   },
   {
     "name": "ai-code-generation-guardrails-and-ast-validation",
@@ -12571,7 +12606,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.010772+00:00"
+    "updated_at": "2026-10-02T16:28:48.777075+00:00"
   },
   {
     "name": "prompt-injection-defense",
@@ -12606,7 +12641,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.012305+00:00"
+    "updated_at": "2026-10-02T16:28:48.777075+00:00"
   },
   {
     "name": "ai-agent-prompt-injection-and-sandbox-defense",
@@ -12644,7 +12679,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.012305+00:00"
+    "updated_at": "2026-10-02T16:28:48.777075+00:00"
   },
   {
     "name": "owasp-api-security-top-10-hardening",
@@ -12685,7 +12720,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.013311+00:00"
+    "updated_at": "2026-10-02T16:28:48.778074+00:00"
   },
   {
     "name": "cors-csrf-web-security-hardening",
@@ -12724,7 +12759,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.013311+00:00"
+    "updated_at": "2026-10-02T16:28:48.778074+00:00"
   },
   {
     "name": "http-security-headers-hardening",
@@ -12763,7 +12798,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.014312+00:00"
+    "updated_at": "2026-10-02T16:28:48.779074+00:00"
   },
   {
     "name": "aws-ec2",
@@ -12798,7 +12833,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.015321+00:00"
+    "updated_at": "2026-10-02T16:28:48.779074+00:00"
   },
   {
     "name": "aws-secrets-manager",
@@ -12833,7 +12868,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.015321+00:00"
+    "updated_at": "2026-10-02T16:28:48.779074+00:00"
   },
   {
     "name": "azure-keyvault",
@@ -12868,7 +12903,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.016319+00:00"
+    "updated_at": "2026-10-02T16:28:48.780074+00:00"
   },
   {
     "name": "azure-monitor-audit",
@@ -12903,7 +12938,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.017319+00:00"
+    "updated_at": "2026-10-02T16:28:48.780074+00:00"
   },
   {
     "name": "azure-security-keyvault-keys-dotnet",
@@ -12938,7 +12973,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.018319+00:00"
+    "updated_at": "2026-10-02T16:28:48.781076+00:00"
   },
   {
     "name": "azure-security-keyvault-keys-java",
@@ -12973,7 +13008,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.019320+00:00"
+    "updated_at": "2026-10-02T16:28:48.781076+00:00"
   },
   {
     "name": "bb-methodology",
@@ -13008,7 +13043,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.019320+00:00"
+    "updated_at": "2026-10-02T16:28:48.782584+00:00"
   },
   {
     "name": "zero-trust-network-architecture",
@@ -13046,7 +13081,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.020340+00:00"
+    "updated_at": "2026-10-02T16:28:48.782584+00:00"
   },
   {
     "name": "azure-communication-common-java",
@@ -13081,7 +13116,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.021338+00:00"
+    "updated_at": "2026-10-02T16:28:48.783593+00:00"
   },
   {
     "name": "azure-identity-dotnet",
@@ -13116,7 +13151,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.021338+00:00"
+    "updated_at": "2026-10-02T16:28:48.783593+00:00"
   },
   {
     "name": "azure-identity-java",
@@ -13151,7 +13186,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.022317+00:00"
+    "updated_at": "2026-10-02T16:28:48.784590+00:00"
   },
   {
     "name": "azure-identity-rust",
@@ -13186,7 +13221,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.022821+00:00"
+    "updated_at": "2026-10-02T16:28:48.784590+00:00"
   },
   {
     "name": "azure-identity-ts",
@@ -13221,7 +13256,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.022821+00:00"
+    "updated_at": "2026-10-02T16:28:48.785590+00:00"
   },
   {
     "name": "oauth2-jwt-authentication-flow",
@@ -13263,7 +13298,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.023826+00:00"
+    "updated_at": "2026-10-02T16:28:48.786590+00:00"
   },
   {
     "name": "rbac-access-matrix-policy-design",
@@ -13301,7 +13336,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.024835+00:00"
+    "updated_at": "2026-10-02T16:28:48.786590+00:00"
   },
   {
     "name": "binary-anti-reversing-and-code-obfuscation",
@@ -13341,7 +13376,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.024835+00:00"
+    "updated_at": "2026-10-02T16:28:48.787590+00:00"
   },
   {
     "name": "aws-iam-least-privilege-and-governance-architecture",
@@ -13383,7 +13418,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.025833+00:00"
+    "updated_at": "2026-10-02T16:28:48.787590+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -13419,7 +13454,7 @@
     "has_evals": true,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.025833+00:00"
+    "updated_at": "2026-10-02T16:28:48.788590+00:00"
   },
   {
     "name": "tamper-evident-audit-logging-and-siem-integration",
@@ -13463,7 +13498,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.026835+00:00"
+    "updated_at": "2026-10-02T16:28:48.789590+00:00"
   },
   {
     "name": "azure-keyvault-keys-rust",
@@ -13498,7 +13533,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.026835+00:00"
+    "updated_at": "2026-10-02T16:28:48.789590+00:00"
   },
   {
     "name": "azure-keyvault-keys-ts",
@@ -13533,7 +13568,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.027832+00:00"
+    "updated_at": "2026-10-02T16:28:48.790590+00:00"
   },
   {
     "name": "envelope-encryption-kms-pattern",
@@ -13570,7 +13605,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.027832+00:00"
+    "updated_at": "2026-10-02T16:28:48.791591+00:00"
   },
   {
     "name": "identity-access-review-and-certification",
@@ -13607,7 +13642,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.028833+00:00"
+    "updated_at": "2026-10-02T16:28:48.791591+00:00"
   },
   {
     "name": "privileged-access-and-admin-account-register",
@@ -13645,7 +13680,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.028833+00:00"
+    "updated_at": "2026-10-02T16:28:48.792590+00:00"
   },
   {
     "name": "incident-response-and-triage",
@@ -13683,7 +13718,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.028833+00:00"
+    "updated_at": "2026-10-02T16:28:48.793095+00:00"
   },
   {
     "name": "android-apk-red-teaming-and-static-analysis",
@@ -13724,7 +13759,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.029833+00:00"
+    "updated_at": "2026-10-02T16:28:48.793095+00:00"
   },
   {
     "name": "wireguard-site-to-site-mesh-vpn",
@@ -13765,7 +13800,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.029833+00:00"
+    "updated_at": "2026-10-02T16:28:48.794106+00:00"
   },
   {
     "name": "active-directory-security-assessment",
@@ -13805,7 +13840,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.030834+00:00"
+    "updated_at": "2026-10-02T16:28:48.794106+00:00"
   },
   {
     "name": "mitre-attack-chain-and-lateral-movement-simulation",
@@ -13846,7 +13881,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.030834+00:00"
+    "updated_at": "2026-10-02T16:28:48.795105+00:00"
   },
   {
     "name": "ai-llm-red-teaming-and-jailbreak-assessment",
@@ -13885,7 +13920,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.032340+00:00"
+    "updated_at": "2026-10-02T16:28:48.795105+00:00"
   },
   {
     "name": "secret-leak-detection-and-remediation",
@@ -13923,7 +13958,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.032340+00:00"
+    "updated_at": "2026-10-02T16:28:48.796102+00:00"
   },
   {
     "name": "vault-secrets-management",
@@ -13961,7 +13996,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.032340+00:00"
+    "updated_at": "2026-10-02T16:28:48.797102+00:00"
   },
   {
     "name": "cosign-container-image-signing",
@@ -14002,7 +14037,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.033350+00:00"
+    "updated_at": "2026-10-02T16:28:48.797102+00:00"
   },
   {
     "name": "threat-modeling-and-attack-tree-construction",
@@ -14043,7 +14078,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.034348+00:00"
+    "updated_at": "2026-10-02T16:28:48.798105+00:00"
   },
   {
     "name": "stride-threat-modeling-and-security-audit",
@@ -14083,7 +14118,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.034348+00:00"
+    "updated_at": "2026-10-02T16:28:48.799102+00:00"
   },
   {
     "name": "software-supply-chain-sbom-audit",
@@ -14124,7 +14159,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.034348+00:00"
+    "updated_at": "2026-10-02T16:28:48.800105+00:00"
   },
   {
     "name": "container-vulnerability-scanning-trivy",
@@ -14163,7 +14198,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.035350+00:00"
+    "updated_at": "2026-10-02T16:28:48.801104+00:00"
   },
   {
     "name": "hashicorp-boundary-secure-remote-access",
@@ -14202,7 +14237,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.035350+00:00"
+    "updated_at": "2026-10-02T16:28:48.801104+00:00"
   },
   {
     "name": "webauthn-fido2-passkey-authentication",
@@ -14243,7 +14278,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.036350+00:00"
+    "updated_at": "2026-10-02T16:28:48.801104+00:00"
   },
   {
     "name": "spiffe-spire-workload-identity",
@@ -14283,7 +14318,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.036350+00:00"
+    "updated_at": "2026-10-02T16:28:48.802612+00:00"
   },
   {
     "name": "architecture-decision-records-and-rfc-governance",
@@ -14320,7 +14355,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.037350+00:00"
+    "updated_at": "2026-10-02T16:28:48.803619+00:00"
   },
   {
     "name": "hexagonal-ports-and-adapters-architecture",
@@ -14355,7 +14390,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.037350+00:00"
+    "updated_at": "2026-10-02T16:28:48.803619+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -14393,7 +14428,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.037350+00:00"
+    "updated_at": "2026-10-02T16:28:48.804617+00:00"
   },
   {
     "name": "artifact-yylo",
@@ -14428,7 +14463,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.038349+00:00"
+    "updated_at": "2026-10-02T16:28:48.804617+00:00"
   },
   {
     "name": "ask-matt",
@@ -14463,7 +14498,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.038349+00:00"
+    "updated_at": "2026-10-02T16:28:48.806123+00:00"
   },
   {
     "name": "awareness-stage-mapper",
@@ -14498,7 +14533,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.039348+00:00"
+    "updated_at": "2026-10-02T16:28:48.807129+00:00"
   },
   {
     "name": "babysit-pr",
@@ -14533,7 +14568,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.039348+00:00"
+    "updated_at": "2026-10-02T16:28:48.807129+00:00"
   },
   {
     "name": "bash-linux",
@@ -14568,7 +14603,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.039348+00:00"
+    "updated_at": "2026-10-02T16:28:48.808129+00:00"
   },
   {
     "name": "bash-pro",
@@ -14603,7 +14638,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.040349+00:00"
+    "updated_at": "2026-10-02T16:28:48.808129+00:00"
   },
   {
     "name": "bevy-ecs-expert",
@@ -14638,7 +14673,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.040349+00:00"
+    "updated_at": "2026-10-02T16:28:48.809129+00:00"
   },
   {
     "name": "billing-automation",
@@ -14673,7 +14708,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.041347+00:00"
+    "updated_at": "2026-10-02T16:28:48.809129+00:00"
   },
   {
     "name": "binary-analysis-patterns",
@@ -14708,7 +14743,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.041347+00:00"
+    "updated_at": "2026-10-02T16:28:48.810128+00:00"
   },
   {
     "name": "binary-diff",
@@ -14743,7 +14778,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.042346+00:00"
+    "updated_at": "2026-10-02T16:28:48.811128+00:00"
   },
   {
     "name": "github-pr-review-feedback-resolver",
@@ -14782,7 +14817,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.043458+00:00"
+    "updated_at": "2026-10-02T16:28:48.811128+00:00"
   },
   {
     "name": "debugging-and-error-recovery",
@@ -14820,7 +14855,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.043458+00:00"
+    "updated_at": "2026-10-02T16:28:48.811128+00:00"
   },
   {
     "name": "event-sourcing-and-cqrs-architecture",
@@ -14857,7 +14892,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.044463+00:00"
+    "updated_at": "2026-10-02T16:28:48.812634+00:00"
   },
   {
     "name": "distributed-saga-orchestration-pattern",
@@ -14893,7 +14928,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.044463+00:00"
+    "updated_at": "2026-10-02T16:28:48.812634+00:00"
   },
   {
     "name": "legacy-system-strangler-migration",
@@ -14931,7 +14966,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.044463+00:00"
+    "updated_at": "2026-10-02T16:28:48.813572+00:00"
   },
   {
     "name": "code-simplification",
@@ -14966,7 +15001,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.044463+00:00"
+    "updated_at": "2026-10-02T16:28:48.814577+00:00"
   },
   {
     "name": "microservices-resilience-circuit-breaker",
@@ -15004,7 +15039,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.045971+00:00"
+    "updated_at": "2026-10-02T16:28:48.815580+00:00"
   },
   {
     "name": "e2e-acceptance-testing-orchestrator",
@@ -15045,7 +15080,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.045971+00:00"
+    "updated_at": "2026-10-02T16:28:48.816088+00:00"
   },
   {
     "name": "ai-agent-qa-test-authoring-and-regression-triage",
@@ -15085,7 +15120,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.046980+00:00"
+    "updated_at": "2026-10-02T16:28:48.816088+00:00"
   },
   {
     "name": "wiremock-and-prism-api-mocking-and-contract-testing",
@@ -15126,7 +15161,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.046980+00:00"
+    "updated_at": "2026-10-02T16:28:48.817100+00:00"
   },
   {
     "name": "bash-scripting",
@@ -15161,7 +15196,7 @@
     "has_evals": false,
     "has_references": true,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.047979+00:00"
+    "updated_at": "2026-10-02T16:28:48.817100+00:00"
   },
   {
     "name": "cypress-component-testing",
@@ -15200,7 +15235,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.048977+00:00"
+    "updated_at": "2026-10-02T16:28:48.818097+00:00"
   },
   {
     "name": "playwright-e2e-testing",
@@ -15238,7 +15273,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.049978+00:00"
+    "updated_at": "2026-10-02T16:28:48.818097+00:00"
   },
   {
     "name": "k6-api-load-testing",
@@ -15276,7 +15311,7 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.050977+00:00"
+    "updated_at": "2026-10-02T16:28:48.820100+00:00"
   },
   {
     "name": "appium-mobile-automation-and-cross-device-testing",
@@ -15317,6 +15352,6 @@
     "has_evals": false,
     "has_references": false,
     "license": "MIT",
-    "updated_at": "2026-10-02T16:28:38.052488+00:00"
+    "updated_at": "2026-10-02T16:28:48.820100+00:00"
   }
 ]

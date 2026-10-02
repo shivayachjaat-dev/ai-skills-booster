@@ -188,6 +188,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brave-man",
+    "path": "skills/ai-engineering/agents/brave_man/brave-man",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "brave_man",
+    "description": "Use this skill to runs a structured clarifying interview for new project requests before building. Instead of writing code, it outputs a fully specified prompt.md for a fresh agent session to execute, preventing expensive mistakes.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "brave",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brave Man",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-chaos-testing-and-fault-injection",
     "path": "skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection",
     "domain": "ai-engineering",
