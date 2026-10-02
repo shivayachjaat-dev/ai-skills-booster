@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **890** skills across structured domains, categories, and subcategories.
+Master navigation for **891** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (308 skills)
 
@@ -1407,7 +1407,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (158 skills)
+## Frontend (159 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1493,7 +1493,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Development** (1):
   - [development](../skills/frontend/ui-development/development/development/SKILL.md) — Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.
 
-### Ui Ux (79 skills)
+### Ui Ux (80 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1648,6 +1648,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [eas-simulator](../skills/frontend/ui-ux/eas_simulator/eas-simulator/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas simulator. Curated upstream guidance for Eas Simulator; use when the workflow matches the user goal.
 - **Eas_Workflows** (1):
   - [eas-workflows](../skills/frontend/ui-ux/eas_workflows/eas-workflows/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas workflows. Curated upstream guidance for Eas Workflows; use when the workflow matches the user goal.
+- **Electron_Development** (1):
+  - [electron-development](../skills/frontend/ui-ux/electron_development/electron-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for electron development. Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

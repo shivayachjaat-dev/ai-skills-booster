@@ -14161,6 +14161,28 @@
     "maturity": "stable"
   },
   {
+    "name": "electron-development",
+    "path": "skills/frontend/ui-ux/electron_development/electron-development",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "electron_development",
+    "description": "Use this skill to design, implement, and operate production workflows for electron development. Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "electron",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Electron Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
