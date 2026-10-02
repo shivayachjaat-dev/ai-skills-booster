@@ -2833,6 +2833,28 @@
     "maturity": "stable"
   },
   {
+    "name": "browser-automation",
+    "path": "skills/ai-engineering/models/browser_automation/browser-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "browser_automation",
+    "description": "Use this skill to build reliable browser checks using observed UI state, semantic locators, bounded waits, isolated test data and explicit outcome verification.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "browser",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Browser Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
