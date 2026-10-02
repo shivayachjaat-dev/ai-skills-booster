@@ -14271,6 +14271,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-observability",
+    "path": "skills/frontend/ui-development/frontend_observabili/frontend-observability",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "frontend_observabili",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend observability. A portable, framework-agnostic field-side observability system for any React or React Native app.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Observability",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
