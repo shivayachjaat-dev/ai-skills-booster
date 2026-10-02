@@ -19538,6 +19538,28 @@
     "maturity": "stable"
   },
   {
+    "name": "noaa-radar-satellite-fetching",
+    "path": "skills/devops/cloud-infrastructure/noaa_radar_satellite/noaa-radar-satellite-fetching",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "noaa_radar_satellite",
+    "description": "Use this skill to design, implement, and operate production workflows for noaa radar satellite fetching. Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "noaa",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Noaa Radar Satellite Fetching",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

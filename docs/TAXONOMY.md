@@ -936,7 +936,8 @@ AI_Skills_Booster/
 │   │   ├── hybrid_cloud_archite/ (1 skills)
 │   │   ├── hybrid_cloud_network/ (1 skills)
 │   │   ├── java_pro/ (1 skills)
-│   │   └── multi_cloud_architec/ (1 skills)
+│   │   ├── multi_cloud_architec/ (1 skills)
+│   │   └── noaa_radar_satellite/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

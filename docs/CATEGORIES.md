@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,613** skills across structured domains, categories, and subcategories.
+Master navigation for **1,614** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (562 skills)
 
@@ -1879,7 +1879,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (101 skills)
+## Devops (102 skills)
 
 ### Ci Cd (39 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -1963,7 +1963,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (41 skills)
+### Cloud Infrastructure (42 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -2043,6 +2043,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [java-pro](../skills/devops/cloud-infrastructure/java_pro/java-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for java pro. Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.
 - **Multi_Cloud_Architec** (1):
   - [multi-cloud-architecture](../skills/devops/cloud-infrastructure/multi_cloud_architec/multi-cloud-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi cloud architecture. Decision framework and patterns for architecting applications across AWS, Azure, and GCP.
+- **Noaa_Radar_Satellite** (1):
+  - [noaa-radar-satellite-fetching](../skills/devops/cloud-infrastructure/noaa_radar_satellite/noaa-radar-satellite-fetching/SKILL.md) — Use this skill to design, implement, and operate production workflows for noaa radar satellite fetching. Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)
