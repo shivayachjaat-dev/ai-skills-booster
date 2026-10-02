@@ -10649,6 +10649,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-sqli",
+    "path": "skills/backend/databases/hunt_sqli/hunt-sqli",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "hunt_sqli",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt sqli. Hunting skill for sqli vulnerabilities.",
+    "tags": [
+      "backend",
+      "databases",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Sqli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
