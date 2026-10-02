@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **351 skills** available in this category.
+> **352 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -348,6 +348,7 @@
 | [lint-and-validate](../../skills/ai-engineering/models/lint_and_validate/lint-and-validate/SKILL.md) | `lint_and_validate` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lint and validate. Run configured lint and type checks, distinguish failures from checks that did not run, and report concrete validation results. |
 | [linux-troubleshooting](../../skills/ai-engineering/models/linux_troubleshootin/linux-troubleshooting/SKILL.md) | `linux_troubleshootin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linux troubleshooting. Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures. |
 | [llm-application-dev-ai-assistant](../../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-ai-assistant/SKILL.md) | `llm_application_dev_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm application dev ai assistant. You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur |
+| [llm-application-dev-langchain-agent](../../skills/ai-engineering/models/llm_application_dev_/llm-application-dev-langchain-agent/SKILL.md) | `llm_application_dev_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm application dev langchain agent. You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
