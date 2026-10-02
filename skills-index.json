@@ -2063,6 +2063,28 @@
     "maturity": "stable"
   },
   {
+    "name": "langfuse",
+    "path": "skills/ai-engineering/llm-ops/langfuse/langfuse",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "langfuse",
+    "description": "Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform.",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "langfuse",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Langfuse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",
