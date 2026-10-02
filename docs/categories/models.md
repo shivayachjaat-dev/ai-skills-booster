@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **208 skills** available in this category.
+> **209 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -202,6 +202,7 @@
 | [doc2math](../../skills/ai-engineering/models/doc2math/doc2math/SKILL.md) | `doc2math` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for doc2math. Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints, objectives, and uncertainty. |
 | [docker-compose](../../skills/ai-engineering/models/docker_compose/docker-compose/SKILL.md) | `docker_compose` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docker compose. Define and run multi-container Docker applications using Docker Compose. |
 | [docker-expert](../../skills/ai-engineering/models/docker_expert/docker-expert/SKILL.md) | `docker_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docker expert. You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices. |
+| [docker-management](../../skills/ai-engineering/models/docker_management/docker-management/SKILL.md) | `docker_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docker management. Build, optimize, and troubleshoot Docker containers and images. |
 | [editorial-design](../../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |

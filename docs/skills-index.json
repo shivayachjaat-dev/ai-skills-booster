@@ -5759,6 +5759,28 @@
     "maturity": "stable"
   },
   {
+    "name": "docker-management",
+    "path": "skills/ai-engineering/models/docker_management/docker-management",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "docker_management",
+    "description": "Use this skill to design, implement, and operate production workflows for docker management. Build, optimize, and troubleshoot Docker containers and images.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "docker",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Docker Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
