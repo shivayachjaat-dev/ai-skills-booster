@@ -18429,6 +18429,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-components-content",
+    "path": "skills/frontend/ui-ux/hig_components_conte/hig-components-content",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hig_components_conte",
+    "description": "Use this skill to design, implement, and operate production workflows for hig components content. Apple Human Interface Guidelines for content display components.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Components Content",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

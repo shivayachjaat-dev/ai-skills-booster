@@ -911,6 +911,7 @@ AI_Skills_Booster/
 │   │   ├── helm_chart_scaffoldi/ (1 skills)
 │   │   ├── hf_cli/ (1 skills)
 │   │   ├── hf_mem/ (1 skills)
+│   │   ├── hig_components_conte/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
