@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,3 +19,4 @@
 | [cis-benchmarks](../../skills/security/appsec/cis_benchmarks/cis-benchmarks/SKILL.md) | `cis_benchmarks` | `advanced` | `stable` | Use this skill to audit and remediate CIS benchmark violations. |
 | [code-review-sensei](../../skills/security/appsec/code_review_sensei/code-review-sensei/SKILL.md) | `code_review_sensei` | `advanced` | `stable` | Use this skill to expert code reviewer that catches bugs, security issues, performance |
 | [codebase-audit-pre-push](../../skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push/SKILL.md) | `codebase_audit_pre_p` | `advanced` | `stable` | Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness. |
+| [cyber-audit](../../skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) | `cyber_audit` | `advanced` | `stable` | Use this skill to run read-only exposure checks for security advisories and write a structured local audit report. |

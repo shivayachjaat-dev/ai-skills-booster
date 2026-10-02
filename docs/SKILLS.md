@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 653 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 654 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -538,6 +538,7 @@
 | [cis-benchmarks](skills/security/appsec/cis_benchmarks/cis-benchmarks/SKILL.md) | `security` | `appsec` | `cis_benchmarks` | `advanced` | `stable` | Use this skill to audit and remediate CIS benchmark violations. |
 | [code-review-sensei](skills/security/appsec/code_review_sensei/code-review-sensei/SKILL.md) | `security` | `appsec` | `code_review_sensei` | `advanced` | `stable` | Use this skill to expert code reviewer that catches bugs, security issues, performance |
 | [codebase-audit-pre-push](skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push/SKILL.md) | `security` | `appsec` | `codebase_audit_pre_p` | `advanced` | `stable` | Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness. |
+| [cyber-audit](skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) | `security` | `appsec` | `cyber_audit` | `advanced` | `stable` | Use this skill to run read-only exposure checks for security advisories and write a structured local audit report. |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |
 | [azure-communication-common-java](skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) | `security` | `authentication` | `azure_communication_` | `advanced` | `stable` | Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services. |
 | [azure-identity-dotnet](skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) | `security` | `authentication` | `azure_identity_dotne` | `advanced` | `stable` | Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. |
