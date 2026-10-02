@@ -29967,6 +29967,28 @@
     "maturity": "stable"
   },
   {
+    "name": "latex-paper-conversion",
+    "path": "skills/software-engineering/architecture/patterns/latex-paper-conversion",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for latex paper conversion. This skill should be used when the user asks to convert an academic paper in LaTeX from one format (e.g., Springer, IPOL) to another format (e.g., MDPI, IEEE, Nature). It automates extraction, injection, fixing formatting, and compiling.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "latex",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Latex Paper Conversion",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
