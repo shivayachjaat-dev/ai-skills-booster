@@ -8911,6 +8911,28 @@
     "maturity": "stable"
   },
   {
+    "name": "food-database-query",
+    "path": "skills/backend/databases/food_database_query/food-database-query",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "food_database_query",
+    "description": "Use this skill to design, implement, and operate production workflows for food database query. Food Database Query",
+    "tags": [
+      "backend",
+      "databases",
+      "food",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Food Database Query",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

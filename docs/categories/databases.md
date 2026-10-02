@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -21,4 +21,5 @@
 | [database-optimizer](../../skills/backend/databases/database_optimizer/database-optimizer/SKILL.md) | `database_optimizer` | `advanced` | `stable` | Use this skill to expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. |
 | [database-security](../../skills/backend/databases/database_security/database-security/SKILL.md) | `database_security` | `advanced` | `stable` | Use this skill to authorized database security assessment across PostgreSQL, MySQL, MSSQL, MongoDB, and Redis: exposure, authorization gaps, UDF/command execution paths, and misconfiguration review. |
 | [django-perf-review](../../skills/backend/databases/django_perf_review/django-perf-review/SKILL.md) | `django_perf_review` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for django perf review. Django performance code review. Use when asked to "review Django performance", "find N+1 queries", "optimize Django", "check queryset performance", "database performance", "Django ORM issues", or audit Django code for performance problems. |
+| [food-database-query](../../skills/backend/databases/food_database_query/food-database-query/SKILL.md) | `food_database_query` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for food database query. Food Database Query |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |
