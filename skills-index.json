@@ -12851,6 +12851,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-ui",
+    "path": "skills/frontend/frameworks/expo_ui/expo-ui",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "expo_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for expo ui. Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android rendered from React in an Expo or React Native app.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
