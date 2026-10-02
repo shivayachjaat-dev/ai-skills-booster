@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **499** skills across structured domains, categories, and subcategories.
+Master navigation for **500** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (167 skills)
+## Ai Engineering (168 skills)
 
 ### Agents (19 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -122,7 +122,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (109 skills)
+### Models (110 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -332,6 +332,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [cirq](../skills/ai-engineering/models/cirq/cirq/SKILL.md) — Use this skill to cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators.
 - **Claimable_Postgres** (1):
   - [claimable-postgres](../skills/ai-engineering/models/claimable_postgres/claimable-postgres/SKILL.md) — Use this skill to provision instant temporary Postgres databases via Claimable Postgres by Neon (neon.new) with no login, signup, or credit card. Supports REST API, CLI, and SDK.
+- **Claude_Api** (1):
+  - [claude-api](../skills/ai-engineering/models/claude_api/claude-api/SKILL.md) — Use this skill to build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-sci
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **109 skills** available in this category.
+> **110 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -112,4 +112,5 @@
 | [cicd-automation-workflow-automate](../../skills/ai-engineering/models/cicd_automation_work/cicd-automation-workflow-automate/SKILL.md) | `cicd_automation_work` | `advanced` | `stable` | Use this skill to you are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality |
 | [cirq](../../skills/ai-engineering/models/cirq/cirq/SKILL.md) | `cirq` | `advanced` | `stable` | Use this skill to cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators. |
 | [claimable-postgres](../../skills/ai-engineering/models/claimable_postgres/claimable-postgres/SKILL.md) | `claimable_postgres` | `advanced` | `stable` | Use this skill to provision instant temporary Postgres databases via Claimable Postgres by Neon (neon.new) with no login, signup, or credit card. Supports REST API, CLI, and SDK. |
+| [claude-api](../../skills/ai-engineering/models/claude_api/claude-api/SKILL.md) | `claude_api` | `advanced` | `stable` | Use this skill to build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-sci |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

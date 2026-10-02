@@ -3273,6 +3273,28 @@
     "maturity": "stable"
   },
   {
+    "name": "claude-api",
+    "path": "skills/ai-engineering/models/claude_api/claude-api",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "claude_api",
+    "description": "Use this skill to build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-sci",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "claude",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Claude Api",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
