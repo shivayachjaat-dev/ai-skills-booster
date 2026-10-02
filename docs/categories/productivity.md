@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **6 skills** available in this category.
+> **7 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,3 +10,4 @@
 | [bitbucket-automation](../../skills/developer-tools/productivity/bitbucket_automation/bitbucket-automation/SKILL.md) | `bitbucket_automation` | `advanced` | `stable` | Use this skill to automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas. |
 | [canva-automation](../../skills/developer-tools/productivity/canva_automation/canva-automation/SKILL.md) | `canva_automation` | `advanced` | `stable` | Use this skill to automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas. |
 | [clickup-automation](../../skills/developer-tools/productivity/clickup_automation/clickup-automation/SKILL.md) | `clickup_automation` | `advanced` | `stable` | Use this skill to automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas. |
+| [close-automation](../../skills/developer-tools/productivity/close_automation/close-automation/SKILL.md) | `close_automation` | `advanced` | `stable` | Use this skill to automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas. |

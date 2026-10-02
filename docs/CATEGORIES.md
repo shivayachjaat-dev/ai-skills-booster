@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **514** skills across structured domains, categories, and subcategories.
+Master navigation for **515** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (173 skills)
 
@@ -776,7 +776,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Chatexport_Need_Mine** (1):
   - [chatexport-need-miner](../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) — Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
 
-## Developer Tools (11 skills)
+## Developer Tools (12 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -792,7 +792,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Career_Ops** (1):
   - [career-ops](../skills/developer-tools/cli-utilities/career_ops/career-ops/SKILL.md) — Use this skill to multi-CLI job-search command center: evaluate offers, scan portals,
 
-### Productivity (6 skills)
+### Productivity (7 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -807,6 +807,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [canva-automation](../skills/developer-tools/productivity/canva_automation/canva-automation/SKILL.md) — Use this skill to automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas.
 - **Clickup_Automation** (1):
   - [clickup-automation](../skills/developer-tools/productivity/clickup_automation/clickup-automation/SKILL.md) — Use this skill to automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas.
+- **Close_Automation** (1):
+  - [close-automation](../skills/developer-tools/productivity/close_automation/close-automation/SKILL.md) — Use this skill to automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)
