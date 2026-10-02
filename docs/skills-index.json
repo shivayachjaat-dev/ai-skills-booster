@@ -1141,6 +1141,28 @@
     "maturity": "stable"
   },
   {
+    "name": "m365-agents-dotnet",
+    "path": "skills/ai-engineering/agents/m365_agents_dotnet/m365-agents-dotnet",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "m365_agents_dotnet",
+    "description": "Use this skill to design, implement, and operate production workflows for m365 agents dotnet. Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "m365",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "M365 Agents Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agent-project-memory",
     "path": "skills/ai-engineering/agents/memory/agent-project-memory",
     "domain": "ai-engineering",
