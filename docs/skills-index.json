@@ -14491,6 +14491,28 @@
     "maturity": "stable"
   },
   {
+    "name": "error-debugging-error-trace",
+    "path": "skills/frontend/ui-ux/error_debugging_erro/error-debugging-error-trace",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "error_debugging_erro",
+    "description": "Use this skill to design, implement, and operate production workflows for error debugging error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and r...",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "error",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Error Debugging Error Trace",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

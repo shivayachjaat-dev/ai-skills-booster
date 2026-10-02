@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **912** skills across structured domains, categories, and subcategories.
+Master navigation for **913** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (316 skills)
 
@@ -1427,7 +1427,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (163 skills)
+## Frontend (164 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1515,7 +1515,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
-### Ui Ux (83 skills)
+### Ui Ux (84 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1678,6 +1678,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [enhance-prompt](../skills/frontend/ui-ux/enhance_prompt/enhance-prompt/SKILL.md) — Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.
 - **Environment_Setup_Gu** (1):
   - [environment-setup-guide](../skills/frontend/ui-ux/environment_setup_gu/environment-setup-guide/SKILL.md) — Use this skill to design, implement, and operate production workflows for environment setup guide. Guide developers through setting up development environments with proper tools, dependencies, and configurations
+- **Error_Debugging_Erro** (1):
+  - [error-debugging-error-trace](../skills/frontend/ui-ux/error_debugging_erro/error-debugging-error-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for error debugging error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and r...
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

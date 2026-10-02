@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (730 skills)
+## Bash (731 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1589,6 +1589,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [embedding-strategies](../skills/frontend/ui-ux/embedding_strategies/embedding-strategies/SKILL.md) — Use this skill to design, implement, and operate production workflows for embedding strategies. Guide to selecting and optimizing embedding models for vector search applications.
 - [enhance-prompt](../skills/frontend/ui-ux/enhance_prompt/enhance-prompt/SKILL.md) — Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.
 - [environment-setup-guide](../skills/frontend/ui-ux/environment_setup_gu/environment-setup-guide/SKILL.md) — Use this skill to design, implement, and operate production workflows for environment setup guide. Guide developers through setting up development environments with proper tools, dependencies, and configurations
+- [error-debugging-error-trace](../skills/frontend/ui-ux/error_debugging_erro/error-debugging-error-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for error debugging error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and r...
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -3930,6 +3931,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [error-debugging-error-analysis](../skills/software-engineering/architecture/patterns/error-debugging-error-analysis/SKILL.md) — Use this skill to design, implement, and operate production workflows for error debugging error analysis. You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions.
 
+## Error Debugging Error Trace (1 skills)
+
+- [error-debugging-error-trace](../skills/frontend/ui-ux/error_debugging_erro/error-debugging-error-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for error debugging error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and r...
+
 ## Evals (1 skills)
 
 - [ai-anti-sycophancy-and-truthful-reflection](../skills/ai-engineering/evaluation/anti-sycophancy/ai-anti-sycophancy-and-truthful-reflection/SKILL.md) — Use this skill to evaluate and eliminate sycophantic behavior, uncritical agreement, and false consensus in conversational AI agents. It implements contrarian perspective injection, epistemic uncertainty modeling, disagreement rubrics, and automated sycophancy benchmark audits.
@@ -5016,7 +5021,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (833 skills)
+## Python (834 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5607,6 +5612,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [embedding-strategies](../skills/frontend/ui-ux/embedding_strategies/embedding-strategies/SKILL.md) — Use this skill to design, implement, and operate production workflows for embedding strategies. Guide to selecting and optimizing embedding models for vector search applications.
 - [enhance-prompt](../skills/frontend/ui-ux/enhance_prompt/enhance-prompt/SKILL.md) — Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.
 - [environment-setup-guide](../skills/frontend/ui-ux/environment_setup_gu/environment-setup-guide/SKILL.md) — Use this skill to design, implement, and operate production workflows for environment setup guide. Guide developers through setting up development environments with proper tools, dependencies, and configurations
+- [error-debugging-error-trace](../skills/frontend/ui-ux/error_debugging_erro/error-debugging-error-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for error debugging error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and r...
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.

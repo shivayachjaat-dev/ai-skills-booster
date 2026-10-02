@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **83 skills** available in this category.
+> **84 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -84,6 +84,7 @@
 | [embedding-strategies](../../skills/frontend/ui-ux/embedding_strategies/embedding-strategies/SKILL.md) | `embedding_strategies` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for embedding strategies. Guide to selecting and optimizing embedding models for vector search applications. |
 | [enhance-prompt](../../skills/frontend/ui-ux/enhance_prompt/enhance-prompt/SKILL.md) | `enhance_prompt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results. |
 | [environment-setup-guide](../../skills/frontend/ui-ux/environment_setup_gu/environment-setup-guide/SKILL.md) | `environment_setup_gu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for environment setup guide. Guide developers through setting up development environments with proper tools, dependencies, and configurations |
+| [error-debugging-error-trace](../../skills/frontend/ui-ux/error_debugging_erro/error-debugging-error-trace/SKILL.md) | `error_debugging_erro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for error debugging error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and r... |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
