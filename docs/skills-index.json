@@ -9587,6 +9587,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lint-and-validate",
+    "path": "skills/ai-engineering/models/lint_and_validate/lint-and-validate",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "lint_and_validate",
+    "description": "Use this skill to design, implement, and operate production workflows for lint and validate. Run configured lint and type checks, distinguish failures from checks that did not run, and report concrete validation results.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "lint",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lint And Validate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
