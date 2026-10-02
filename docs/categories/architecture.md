@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **80 skills** available in this category.
+> **81 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -83,4 +83,5 @@
 | [developer-listening](../../skills/software-engineering/architecture/patterns/developer-listening/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for developer listening. Monitor what developers say about your brand, competitors, and the problems they're solving. Track mentions and conversations across GitHub, Hacker News, Reddit, Stack Overflow, Twitter, and Discord. |
 | [devrel-content](../../skills/software-engineering/architecture/patterns/devrel-content/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devrel content. When the user wants to create technical content for developers including blog posts, tutorials, and documentation. |
 | [distributed-tracing](../../skills/software-engineering/architecture/patterns/distributed-tracing/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for distributed tracing. Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices. |
+| [dotnet-reverse](../../skills/software-engineering/architecture/patterns/dotnet-reverse/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dotnet reverse. .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |

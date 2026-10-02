@@ -19187,6 +19187,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dotnet-reverse",
+    "path": "skills/software-engineering/architecture/patterns/dotnet-reverse",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for dotnet reverse. .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "dotnet",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dotnet Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
