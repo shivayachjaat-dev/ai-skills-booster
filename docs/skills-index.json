@@ -22025,6 +22025,28 @@
     "maturity": "stable"
   },
   {
+    "name": "form-cro",
+    "path": "skills/software-engineering/architecture/patterns/form-cro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for form cro. Optimize any form that is NOT signup or account registration \u2014 including lead capture, contact, demo request, application, survey, quote, and checkout forms.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "form",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Form Cro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
