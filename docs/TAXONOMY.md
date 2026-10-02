@@ -218,6 +218,7 @@ AI_Skills_Booster/
 │   │   ├── daily/ (1 skills)
 │   │   ├── daily_gift/ (1 skills)
 │   │   ├── daily_news_report/ (1 skills)
+│   │   ├── data_engineer/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
