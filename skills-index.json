@@ -20556,6 +20556,28 @@
     "maturity": "stable"
   },
   {
+    "name": "geo-technical",
+    "path": "skills/security/compliance/geo_technical/geo-technical",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "geo_technical",
+    "description": "Use this skill to design, implement, and operate production workflows for geo technical. Technical SEO audit with GEO-specific checks \u2014 crawlability, indexability,",
+    "tags": [
+      "security",
+      "compliance",
+      "geo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geo Technical",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "indexing-issue-auditor",
     "path": "skills/security/compliance/indexing_issue_audit/indexing-issue-auditor",
     "domain": "security",

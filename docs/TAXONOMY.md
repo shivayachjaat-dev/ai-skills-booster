@@ -1037,6 +1037,7 @@ AI_Skills_Booster/
 │   │   ├── fixing_accessibility/ (1 skills)
 │   │   ├── fixing_metadata/ (1 skills)
 │   │   ├── geo_report/ (1 skills)
+│   │   ├── geo_technical/ (1 skills)
 │   │   ├── indexing_issue_audit/ (1 skills)
 │   │   ├── local_legal_seo_audi/ (1 skills)
 │   │   ├── production_code_audi/ (1 skills)

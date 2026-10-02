@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,081** skills across structured domains, categories, and subcategories.
+Master navigation for **1,082** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (375 skills)
 
@@ -2186,7 +2186,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (92 skills)
+## Security (93 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2339,7 +2339,7 @@ Category index: [`docs/categories/code-review.md`](categories/code-review.md)
 - **Github** (1):
   - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
 
-### Compliance (16 skills)
+### Compliance (17 skills)
 Category index: [`docs/categories/compliance.md`](categories/compliance.md)
 
 - **Audit Logging** (1):
@@ -2356,6 +2356,8 @@ Category index: [`docs/categories/compliance.md`](categories/compliance.md)
   - [fixing-metadata](../skills/security/compliance/fixing_metadata/fixing-metadata/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing metadata. Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives.
 - **Geo_Report** (1):
   - [geo-report](../skills/security/compliance/geo_report/geo-report/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo report. Generate a professional, client-facing GEO report combining all audit
+- **Geo_Technical** (1):
+  - [geo-technical](../skills/security/compliance/geo_technical/geo-technical/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo technical. Technical SEO audit with GEO-specific checks — crawlability, indexability,
 - **Indexing_Issue_Audit** (1):
   - [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
 - **Local_Legal_Seo_Audi** (1):
