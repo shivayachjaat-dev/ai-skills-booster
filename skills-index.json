@@ -23125,6 +23125,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pc-games",
+    "path": "skills/software-engineering/architecture/patterns/pc-games",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "pc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pc Games",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
