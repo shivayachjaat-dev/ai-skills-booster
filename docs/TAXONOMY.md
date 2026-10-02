@@ -506,6 +506,7 @@ AI_Skills_Booster/
 │   │   ├── multi_agent_brainsto/ (1 skills)
 │   │   ├── multi_agent_task_orc/ (1 skills)
 │   │   ├── music_generation_stu/ (1 skills)
+│   │   ├── n8n_agents/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
