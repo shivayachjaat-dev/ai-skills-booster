@@ -169,7 +169,8 @@ AI_Skills_Booster/
 │   │   ├── azure_mgmt_botservic/ (1 skills)
 │   │   ├── azure_mgmt_fabric_py/ (1 skills)
 │   │   ├── azure_monitor_opente/ (1 skills)
-│   │   └── azure_monitor_query_/ (1 skills)
+│   │   ├── azure_monitor_query_/ (1 skills)
+│   │   └── azure_servicebus_py/ (1 skills)
 │   ├── realtime/
 │   │   └── websocket/ (1 skills)
 │   └── resilience/

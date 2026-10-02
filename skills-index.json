@@ -3354,6 +3354,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-servicebus-py",
+    "path": "skills/backend/python-services/azure_servicebus_py/azure-servicebus-py",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "azure_servicebus_py",
+    "description": "Use this skill to azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.",
+    "tags": [
+      "backend",
+      "python-services",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Servicebus Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

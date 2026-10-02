@@ -1,6 +1,6 @@
 # Category Index: Python Services
 
-> **8 skills** available in this category.
+> **9 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -12,3 +12,4 @@
 | [azure-mgmt-fabric-py](../../skills/backend/python-services/azure_mgmt_fabric_py/azure-mgmt-fabric-py/SKILL.md) | `azure_mgmt_fabric_py` | `advanced` | `stable` | Use this skill to azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources. |
 | [azure-monitor-opentelemetry-exporter-py](../../skills/backend/python-services/azure_monitor_opente/azure-monitor-opentelemetry-exporter-py/SKILL.md) | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights. |
 | [azure-monitor-query-py](../../skills/backend/python-services/azure_monitor_query_/azure-monitor-query-py/SKILL.md) | `azure_monitor_query_` | `advanced` | `stable` | Use this skill to azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics. |
+| [azure-servicebus-py](../../skills/backend/python-services/azure_servicebus_py/azure-servicebus-py/SKILL.md) | `azure_servicebus_py` | `advanced` | `stable` | Use this skill to azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns. |
