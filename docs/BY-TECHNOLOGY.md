@@ -287,6 +287,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 
+## Ask Copilot (1 skills)
+
+- [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
+
 ## Assembly (1 skills)
 
 - [binary-anti-reversing-and-code-obfuscation](../skills/security/binary-defense/anti-reversing/binary-anti-reversing-and-code-obfuscation/SKILL.md) — Use this skill to evaluate, implement, and audit software intellectual property protections against reverse engineering, decompilation, and debugger tampering. It covers symbol stripping, control-flow flattening, anti-debugging API hooks (ptrace, IsDebuggerPresent), integrity hash checks, and security trade-off analysis.
@@ -361,7 +365,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (26 skills)
+## Bash (27 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -382,6 +386,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [app-builder](../skills/ai-engineering/models/app_builder/app-builder/SKILL.md) — Use this skill to main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
+- [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 - [amazon-alexa](../skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) — Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
 - [anti-sleep](../skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) — Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.
@@ -1627,7 +1632,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (129 skills)
+## Python (130 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -1709,6 +1714,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
 - [elasticsearch-dsl-search-and-aggregations](../skills/databases/search/elasticsearch/elasticsearch-dsl-search-and-aggregations/SKILL.md) — Use this skill when architecting, indexing, and querying complex search and analytical systems using Elasticsearch 8+ and Elasticsearch-DSL. It guides the agent through explicit index mapping design (analyzers, keyword vs text fields), boolean compound queries (must, filter, should), multi-match cross-field queries, and multi-level nested aggregations.
 - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
+- [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.

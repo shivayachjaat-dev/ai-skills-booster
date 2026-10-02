@@ -2523,6 +2523,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ask-copilot",
+    "path": "skills/developer-tools/cli-utilities/ask_copilot/ask-copilot",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "ask_copilot",
+    "description": "Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "ask",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ask Copilot",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",

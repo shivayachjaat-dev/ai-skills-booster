@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **208** skills across structured domains, categories, and subcategories.
+Master navigation for **209** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (51 skills)
 
@@ -464,13 +464,19 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Avalonia Dotnet** (1):
   - [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
 
-## Developer Tools (4 skills)
+## Developer Tools (5 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
 
 - **Typer Architecture** (1):
   - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
+
+### Cli Utilities (1 skills)
+Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md)
+
+- **Ask_Copilot** (1):
+  - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
 
 ### Productivity (1 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
