@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,3 +15,4 @@
 | [employee-suggestion-hub](../../skills/business/operations/employee_suggestion_/employee-suggestion-hub/SKILL.md) | `employee_suggestion_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for employee suggestion hub. Suggestion register: submitter or anonymous flag, category, votes, reviewer, decision and response status. Use for employee feedback programs. |
 | [expense-accounting](../../skills/business/operations/expense_accounting/expense-accounting/SKILL.md) | `expense_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expense accounting. Expense accounting register: expense number and date, payee with PAN and VAT, bill reference, document type, amount with VAT, ledger account, approver and status. Use for expense bookkeeping. |
 | [find-matching-tenders](../../skills/business/operations/find_matching_tender/find-matching-tenders/SKILL.md) | `find_matching_tender` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for find matching tenders. Find open AU/NZ government tenders matching what a company does, ranked by fit with why and gap analysis. Use when the user asks to find tenders, bid opportunities, government contracts, or RFPs for their business (or a client's). |
+| [gamification-engine](../../skills/business/operations/gamification_engine/gamification-engine/SKILL.md) | `gamification_engine` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gamification engine. Gamification points register: player and department, points balance and points earned this month, level, badges, source module and last-updated date. Use for points and badge tracking. |

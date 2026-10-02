@@ -10148,6 +10148,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gamification-engine",
+    "path": "skills/business/operations/gamification_engine/gamification-engine",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "gamification_engine",
+    "description": "Use this skill to design, implement, and operate production workflows for gamification engine. Gamification points register: player and department, points balance and points earned this month, level, badges, source module and last-updated date. Use for points and badge tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "gamification",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gamification Engine",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

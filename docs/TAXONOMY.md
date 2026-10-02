@@ -481,7 +481,8 @@ AI_Skills_Booster/
 │   │   ├── disciplinary_pip_tra/ (1 skills)
 │   │   ├── employee_suggestion_/ (1 skills)
 │   │   ├── expense_accounting/ (1 skills)
-│   │   └── find_matching_tender/ (1 skills)
+│   │   ├── find_matching_tender/ (1 skills)
+│   │   └── gamification_engine/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/
