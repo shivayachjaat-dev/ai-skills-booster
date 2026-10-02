@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **908** skills across structured domains, categories, and subcategories.
+Master navigation for **909** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (315 skills)
+## Ai Engineering (316 skills)
 
 ### Agents (38 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -176,7 +176,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (225 skills)
+### Models (226 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -602,6 +602,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [email-systems](../skills/ai-engineering/models/email_systems/email-systems/SKILL.md) — Use this skill to design, implement, and operate production workflows for email systems. Email has the highest ROI of any marketing channel. $36 for every
 - **Emblemai_Crypto_Wall** (1):
   - [emblemai-crypto-wallet](../skills/ai-engineering/models/emblemai_crypto_wall/emblemai-crypto-wallet/SKILL.md) — Use this skill to design, implement, and operate production workflows for emblemai crypto wallet. Crypto wallet management across 7 blockchains via EmblemAI Agent Hustle API. Balance checks, token swaps, portfolio analysis, and transaction execution for Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin.
+- **Entropy_Box** (1):
+  - [entropy-box](../skills/ai-engineering/models/entropy_box/entropy-box/SKILL.md) — Use this skill to design, implement, and operate production workflows for entropy box. Entropy Box knowledge-compiler for embodied-AI: turns bounded requirements into grounded workflows via Solution Consult, Search, Lookup, and Evidence. Do not use it to control physical robots.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):

@@ -286,6 +286,7 @@ AI_Skills_Booster/
 │   │   ├── email_sequence/ (1 skills)
 │   │   ├── email_systems/ (1 skills)
 │   │   ├── emblemai_crypto_wall/ (1 skills)
+│   │   ├── entropy_box/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)

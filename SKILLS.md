@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 908 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 909 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -284,6 +284,7 @@
 | [email-sequence](skills/ai-engineering/models/email_sequence/email-sequence/SKILL.md) | `ai-engineering` | `models` | `email_sequence` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for email sequence. You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion. |
 | [email-systems](skills/ai-engineering/models/email_systems/email-systems/SKILL.md) | `ai-engineering` | `models` | `email_systems` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for email systems. Email has the highest ROI of any marketing channel. $36 for every |
 | [emblemai-crypto-wallet](skills/ai-engineering/models/emblemai_crypto_wall/emblemai-crypto-wallet/SKILL.md) | `ai-engineering` | `models` | `emblemai_crypto_wall` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for emblemai crypto wallet. Crypto wallet management across 7 blockchains via EmblemAI Agent Hustle API. Balance checks, token swaps, portfolio analysis, and transaction execution for Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin. |
+| [entropy-box](skills/ai-engineering/models/entropy_box/entropy-box/SKILL.md) | `ai-engineering` | `models` | `entropy_box` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for entropy box. Entropy Box knowledge-compiler for embodied-AI: turns bounded requirements into grounded workflows via Solution Consult, Search, Lookup, and Evidence. Do not use it to control physical robots. |
 | [fda-food-safety-auditor](skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
 | [floating-ui](skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) | `ai-engineering` | `models` | `floating_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. |
