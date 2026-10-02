@@ -17813,6 +17813,28 @@
     "maturity": "stable"
   },
   {
+    "name": "google-calendar-automation",
+    "path": "skills/frontend/ui-ux/google_calendar_auto/google-calendar-automation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "google_calendar_auto",
+    "description": "Use this skill to design, implement, and operate production workflows for google calendar automation. Lightweight Google Calendar integration with standalone OAuth authentication. No MCP server required.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "google",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Google Calendar Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
