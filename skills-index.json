@@ -2943,6 +2943,28 @@
     "maturity": "stable"
   },
   {
+    "name": "business-analyst",
+    "path": "skills/ai-engineering/models/business_analyst/business-analyst",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "business_analyst",
+    "description": "Use this skill to master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "business",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Business Analyst",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

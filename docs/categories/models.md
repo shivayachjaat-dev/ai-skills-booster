@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **95 skills** available in this category.
+> **96 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -98,4 +98,5 @@
 | [budget-cash-flow](../../skills/ai-engineering/models/budget_cash_flow/budget-cash-flow/SKILL.md) | `budget_cash_flow` | `advanced` | `stable` | Use this skill to budget against actual by department, category and period, with budget and actual amounts, variance, percentage used and linked expenses. Use for budget tracking or cash-flow reviews. |
 | [bug-hunt-swarm](../../skills/ai-engineering/models/bug_hunt_swarm/bug-hunt-swarm/SKILL.md) | `bug_hunt_swarm` | `advanced` | `stable` | Use this skill to parallel read-only multi-agent root-cause investigation for bugs, regressions, crashes, flaky behavior, or unexplained failures. |
 | [bumblebee](../../skills/ai-engineering/models/bumblebee/bumblebee/SKILL.md) | `bumblebee` | `advanced` | `stable` | Use this skill to run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs. |
+| [business-analyst](../../skills/ai-engineering/models/business_analyst/business-analyst/SKILL.md) | `business_analyst` | `advanced` | `stable` | Use this skill to master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
