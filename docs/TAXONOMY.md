@@ -517,7 +517,8 @@ AI_Skills_Booster/
 │   │   ├── claude_d3js_skill/ (1 skills)
 │   │   ├── cloudflare_workers/ (1 skills)
 │   │   ├── code_showcase_core_c/ (1 skills)
-│   │   └── community_building/ (1 skills)
+│   │   ├── community_building/ (1 skills)
+│   │   └── competitor_alternati/ (1 skills)
 │   └── web-architecture/
 │   │   ├── antigravity_design_e/ (1 skills)
 │   │   ├── azure_messaging_webp/ (2 skills)

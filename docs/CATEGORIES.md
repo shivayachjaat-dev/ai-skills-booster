@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **569** skills across structured domains, categories, and subcategories.
+Master navigation for **570** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (198 skills)
 
@@ -1098,7 +1098,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (66 skills)
+## Frontend (67 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1172,7 +1172,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Ckw_Design** (1):
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 
-### Ui Ux (39 skills)
+### Ui Ux (40 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1253,6 +1253,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [code-showcase-core-components](../skills/frontend/ui-ux/code_showcase_core_c/code-showcase-core-components/SKILL.md) — Use this skill to core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
 - **Community_Building** (1):
   - [community-building](../skills/frontend/ui-ux/community_building/community-building/SKILL.md) — Use this skill to when the user wants to build, grow, or improve a developer community on Discord, Slack, or forums.
+- **Competitor_Alternati** (1):
+  - [competitor-alternatives](../skills/frontend/ui-ux/competitor_alternati/competitor-alternatives/SKILL.md) — Use this skill to you are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively.
 
 ### Web Architecture (11 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)

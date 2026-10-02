@@ -9805,6 +9805,28 @@
     "maturity": "stable"
   },
   {
+    "name": "competitor-alternatives",
+    "path": "skills/frontend/ui-ux/competitor_alternati/competitor-alternatives",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "competitor_alternati",
+    "description": "Use this skill to you are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "competitor",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Competitor Alternatives",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
