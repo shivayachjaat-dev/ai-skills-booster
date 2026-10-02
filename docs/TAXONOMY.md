@@ -49,8 +49,10 @@ AI_Skills_Booster/
 │   │   └── terraform/ (1 skills)
 │   ├── kubernetes/
 │   │   └── troubleshooting/ (1 skills)
-│   └── monitoring/
+│   ├── monitoring/
 │   │   └── prometheus/ (1 skills)
+│   └── observability/
+│   │   └── opentelemetry/ (1 skills)
 ├── frontend/
 │   ├── accessibility/
 │   │   └── wcag/ (1 skills)

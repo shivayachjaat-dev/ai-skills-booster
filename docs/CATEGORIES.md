@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **43** skills across structured domains, categories, and subcategories.
+Master navigation for **44** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (5 skills)
 
@@ -110,7 +110,7 @@ Category index: [`docs/categories/redis.md`](categories/redis.md)
 - **Caching** (1):
   - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 
-## Devops (5 skills)
+## Devops (6 skills)
 
 ### Ci Cd (1 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -141,6 +141,12 @@ Category index: [`docs/categories/monitoring.md`](categories/monitoring.md)
 
 - **Prometheus** (1):
   - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
+
+### Observability (1 skills)
+Category index: [`docs/categories/observability.md`](categories/observability.md)
+
+- **Opentelemetry** (1):
+  - [opentelemetry-distributed-tracing](../skills/devops/observability/opentelemetry/opentelemetry-distributed-tracing/SKILL.md) — Use this skill when designing, instrumenting, and troubleshooting end-to-end distributed tracing across microservices using OpenTelemetry (OTel). It covers W3C tracecontext propagation, OTLP gRPC/HTTP exporters, head-based and tail-based sampling strategies, span attributes standardization (semantic conventions), and collector deployment.
 
 ## Frontend (2 skills)
 
