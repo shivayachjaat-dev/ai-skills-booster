@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **811** skills across structured domains, categories, and subcategories.
+Master navigation for **812** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (278 skills)
+## Ai Engineering (279 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -162,7 +162,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (196 skills)
+### Models (197 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -528,6 +528,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [design-philosophy](../skills/ai-engineering/models/design_philosophy/design-philosophy/SKILL.md) — Use this skill to design, implement, and operate production workflows for design philosophy. Visual philosophy and art-direction for frontend. Use when creating high-concept work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable art-like aesthetic.
 - **Design_Spells** (1):
   - [design-spells](../skills/ai-engineering/models/design_spells/design-spells/SKILL.md) — Use this skill to design, implement, and operate production workflows for design spells. Curated micro-interactions and design details that add "magic" and personality to websites and apps.
+- **Design_Thinking** (1):
+  - [design-thinking](../skills/ai-engineering/models/design_thinking/design-thinking/SKILL.md) — Use this skill to design, implement, and operate production workflows for design thinking. Direction and intent for frontend design. Use with design when defining purpose, tone, domain, color world, and review bar; includes cross-domain lens from cinema, architecture, marketing, UX, automotive, industrial design.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):

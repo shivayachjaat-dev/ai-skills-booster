@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **196 skills** available in this category.
+> **197 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -190,6 +190,7 @@
 | [design-orchestration](../../skills/ai-engineering/models/design_orchestration/design-orchestration/SKILL.md) | `design_orchestration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design orchestration. Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. |
 | [design-philosophy](../../skills/ai-engineering/models/design_philosophy/design-philosophy/SKILL.md) | `design_philosophy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design philosophy. Visual philosophy and art-direction for frontend. Use when creating high-concept work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable art-like aesthetic. |
 | [design-spells](../../skills/ai-engineering/models/design_spells/design-spells/SKILL.md) | `design_spells` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design spells. Curated micro-interactions and design details that add "magic" and personality to websites and apps. |
+| [design-thinking](../../skills/ai-engineering/models/design_thinking/design-thinking/SKILL.md) | `design_thinking` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design thinking. Direction and intent for frontend design. Use with design when defining purpose, tone, domain, color world, and review bar; includes cross-domain lens from cinema, architecture, marketing, UX, automotive, industrial design. |
 | [editorial-design](../../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
