@@ -12763,6 +12763,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-brownfield",
+    "path": "skills/frontend/frameworks/expo_brownfield/expo-brownfield",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "expo_brownfield",
+    "description": "Use this skill to design, implement, and operate production workflows for expo brownfield. Integrate Expo and React Native into an existing native iOS or Android app. Use when the user mentions brownfield, embedding React Native in a native app, AAR/XCFramework, or adding Expo to an existing Kotlin/Swift project. Covers both the isolated approac...",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Brownfield",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

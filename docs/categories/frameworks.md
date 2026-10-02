@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **12 skills** available in this category.
+> **13 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -16,3 +16,4 @@
 | [context7-auto-research](../../skills/frontend/frameworks/context7_auto_resear/context7-auto-research/SKILL.md) | `context7_auto_resear` | `advanced` | `stable` | Use this skill to automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library. |
 | [convex-backend](../../skills/frontend/frameworks/convex_backend/convex-backend/SKILL.md) | `convex_backend` | `advanced` | `stable` | Use this skill to build reactive backends with Convex functions, schema validation, auth |
 | [discord-automation](../../skills/frontend/frameworks/discord_automation/discord-automation/SKILL.md) | `discord_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for discord automation. Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas. |
+| [expo-brownfield](../../skills/frontend/frameworks/expo_brownfield/expo-brownfield/SKILL.md) | `expo_brownfield` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo brownfield. Integrate Expo and React Native into an existing native iOS or Android app. Use when the user mentions brownfield, embedding React Native in a native app, AAR/XCFramework, or adding Expo to an existing Kotlin/Swift project. Covers both the isolated approac... |

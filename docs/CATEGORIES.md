@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **937** skills across structured domains, categories, and subcategories.
+Master navigation for **938** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (326 skills)
 
@@ -1451,7 +1451,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (168 skills)
+## Frontend (169 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1477,7 +1477,7 @@ Category index: [`docs/categories/design-systems.md`](categories/design-systems.
 - **Clean Ui Anti Slop** (1):
   - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
-### Frameworks (9 skills)
+### Frameworks (10 skills)
 Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 
 - **Angular** (1):
@@ -1498,6 +1498,8 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
   - [convex-backend](../skills/frontend/frameworks/convex_backend/convex-backend/SKILL.md) — Use this skill to build reactive backends with Convex functions, schema validation, auth
 - **Discord_Automation** (1):
   - [discord-automation](../skills/frontend/frameworks/discord_automation/discord-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for discord automation. Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas.
+- **Expo_Brownfield** (1):
+  - [expo-brownfield](../skills/frontend/frameworks/expo_brownfield/expo-brownfield/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo brownfield. Integrate Expo and React Native into an existing native iOS or Android app. Use when the user mentions brownfield, embedding React Native in a native app, AAR/XCFramework, or adding Expo to an existing Kotlin/Swift project. Covers both the isolated approac...
 
 ### Nextjs (1 skills)
 Category index: [`docs/categories/nextjs.md`](categories/nextjs.md)
