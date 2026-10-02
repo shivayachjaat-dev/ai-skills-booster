@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **395 skills** available in this category.
+> **396 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -392,6 +392,7 @@
 | [monte-carlo-remediation](../../skills/ai-engineering/models/monte_carlo_remediat/monte-carlo-remediation/SKILL.md) | `monte_carlo_remediat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo remediation. Investigate and remediate data quality alerts using Monte Carlo MCP tools. Runs root cause analysis, assesses blast radius, discovers available tools (MCP/CLI/API), proposes and executes fixes, or escalates with full context when uncertain. |
 | [multi-agent-architect](../../skills/ai-engineering/models/multi_agent_architec/multi-agent-architect/SKILL.md) | `multi_agent_architec` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi agent architect. Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows. |
 | [multi-agent-brainstorming](../../skills/ai-engineering/models/multi_agent_brainsto/multi-agent-brainstorming/SKILL.md) | `multi_agent_brainsto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi agent brainstorming. Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation. |
+| [multi-agent-task-orchestrator](../../skills/ai-engineering/models/multi_agent_task_orc/multi-agent-task-orchestrator/SKILL.md) | `multi_agent_task_orc` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi agent task orchestrator. Route tasks to specialized AI agents with anti-duplication, quality gates, and 30-minute heartbeat monitoring |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

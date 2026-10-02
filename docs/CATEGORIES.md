@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,565** skills across structured domains, categories, and subcategories.
+Master navigation for **1,566** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (542 skills)
+## Ai Engineering (543 skills)
 
 ### Agents (63 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -270,7 +270,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Mcp_Builder** (1):
   - [mcp-builder](../skills/ai-engineering/llm-ops/mcp_builder/mcp-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp builder. Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
 
-### Models (395 skills)
+### Models (396 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1038,6 +1038,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [multi-agent-architect](../skills/ai-engineering/models/multi_agent_architec/multi-agent-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent architect. Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.
 - **Multi_Agent_Brainsto** (1):
   - [multi-agent-brainstorming](../skills/ai-engineering/models/multi_agent_brainsto/multi-agent-brainstorming/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent brainstorming. Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.
+- **Multi_Agent_Task_Orc** (1):
+  - [multi-agent-task-orchestrator](../skills/ai-engineering/models/multi_agent_task_orc/multi-agent-task-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi agent task orchestrator. Route tasks to specialized AI agents with anti-duplication, quality gates, and 30-minute heartbeat monitoring
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

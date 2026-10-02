@@ -11061,6 +11061,28 @@
     "maturity": "stable"
   },
   {
+    "name": "multi-agent-task-orchestrator",
+    "path": "skills/ai-engineering/models/multi_agent_task_orc/multi-agent-task-orchestrator",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "multi_agent_task_orc",
+    "description": "Use this skill to design, implement, and operate production workflows for multi agent task orchestrator. Route tasks to specialized AI agents with anti-duplication, quality gates, and 30-minute heartbeat monitoring",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "multi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Multi Agent Task Orchestrator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
