@@ -2080,6 +2080,30 @@
     "maturity": "stable"
   },
   {
+    "name": "distributed-saga-orchestration-pattern",
+    "path": "skills/software-engineering/design-patterns/saga-pattern/distributed-saga-orchestration-pattern",
+    "domain": "software-engineering",
+    "category": "design-patterns",
+    "subcategory": "saga-pattern",
+    "description": "Use this skill when designing, implementing, and coordinating multi-service distributed transactions across microservices using the Saga Pattern (Orchestrator and Choreography). It guides the agent through defining forward actions, reliable compensating rollback transactions, state machine persistence, outbox pattern integration, and handling network partitions.",
+    "tags": [
+      "saga-pattern",
+      "distributed-transactions",
+      "microservices",
+      "orchestration",
+      "software-architecture"
+    ],
+    "technologies": [
+      "Python",
+      "Temporal",
+      "PostgreSQL",
+      "Kafka",
+      "RabbitMQ"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "legacy-system-strangler-migration",
     "path": "skills/software-engineering/modernization/migration/legacy-system-strangler-migration",
     "domain": "software-engineering",

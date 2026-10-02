@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **89** skills across structured domains, categories, and subcategories.
+Master navigation for **90** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (14 skills)
 
@@ -443,7 +443,7 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (7 skills)
+## Software Engineering (8 skills)
 
 ### Architecture (2 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
@@ -459,11 +459,13 @@ Category index: [`docs/categories/debugging.md`](categories/debugging.md)
 - **Recovery** (1):
   - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
 
-### Design Patterns (1 skills)
+### Design Patterns (2 skills)
 Category index: [`docs/categories/design-patterns.md`](categories/design-patterns.md)
 
 - **Event Sourcing** (1):
   - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
+- **Saga Pattern** (1):
+  - [distributed-saga-orchestration-pattern](../skills/software-engineering/design-patterns/saga-pattern/distributed-saga-orchestration-pattern/SKILL.md) — Use this skill when designing, implementing, and coordinating multi-service distributed transactions across microservices using the Saga Pattern (Orchestrator and Choreography). It guides the agent through defining forward actions, reliable compensating rollback transactions, state machine persistence, outbox pattern integration, and handling network partitions.
 
 ### Modernization (1 skills)
 Category index: [`docs/categories/modernization.md`](categories/modernization.md)

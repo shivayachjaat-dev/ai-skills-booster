@@ -453,9 +453,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
 
-## Kafka (1 skills)
+## Kafka (2 skills)
 
 - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
+- [distributed-saga-orchestration-pattern](../skills/software-engineering/design-patterns/saga-pattern/distributed-saga-orchestration-pattern/SKILL.md) — Use this skill when designing, implementing, and coordinating multi-service distributed transactions across microservices using the Saga Pattern (Orchestrator and Choreography). It guides the agent through defining forward actions, reliable compensating rollback transactions, state machine persistence, outbox pattern integration, and handling network partitions.
 
 ## Kiali (1 skills)
 
@@ -672,7 +673,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## PostgreSQL (10 skills)
+## PostgreSQL (11 skills)
 
 - [drizzle-orm-schema-and-relational-queries](../skills/backend/database-drivers/drizzle/drizzle-orm-schema-and-relational-queries/SKILL.md) — Use this skill when designing database schemas, managing type-safe migrations, and querying SQL databases with Drizzle ORM in TypeScript. It guides the agent through pgTable declarations, relations API (1:1, 1:N, M:N), Drizzle Kit migrations (generate/migrate), prepared statements for maximum performance, and serverless pooling.
 - [sqlalchemy-async-session-management](../skills/backend/database-drivers/sqlalchemy/sqlalchemy-async-session-management/SKILL.md) — Use this skill when architecting asynchronous database access layers in Python using SQLAlchemy 2.0+ and asyncpg. It guides the agent through AsyncEngine configuration, connection pooling with pool_pre_ping, scoped async session lifecycles, eager loading strategies (selectinload vs joinedload), and atomic transaction context managers.
@@ -684,6 +685,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [vault-secrets-management](../skills/security/secrets/vault/vault-secrets-management/SKILL.md) — Use this skill when architecting and managing enterprise secrets using HashiCorp Vault. It guides the agent through dynamic database credentials generation, lease management and renewal, Kubernetes ServiceAccount authentication, PKI on-demand certificate issuance, transit encryption, and disaster recovery replication.
 - [hashicorp-boundary-secure-remote-access](../skills/security/zero-trust/boundary/hashicorp-boundary-secure-remote-access/SKILL.md) — Use this skill when designing, configuring, and operating identity-aware secure remote access architectures using HashiCorp Boundary. It guides the agent through defining Scopes (Global, Org, Project), dynamic host catalogs (AWS/K8s), targets (SSH, PostgreSQL, Kubernetes), credential brokering with Vault, and session recording.
 - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
+- [distributed-saga-orchestration-pattern](../skills/software-engineering/design-patterns/saga-pattern/distributed-saga-orchestration-pattern/SKILL.md) — Use this skill when designing, implementing, and coordinating multi-service distributed transactions across microservices using the Saga Pattern (Orchestrator and Choreography). It guides the agent through defining forward actions, reliable compensating rollback transactions, state machine persistence, outbox pattern integration, and handling network partitions.
 
 ## Prisma (2 skills)
 
@@ -728,7 +730,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (32 skills)
+## Python (33 skills)
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
@@ -759,6 +761,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
 - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
+- [distributed-saga-orchestration-pattern](../skills/software-engineering/design-patterns/saga-pattern/distributed-saga-orchestration-pattern/SKILL.md) — Use this skill when designing, implementing, and coordinating multi-service distributed transactions across microservices using the Saga Pattern (Orchestrator and Choreography). It guides the agent through defining forward actions, reliable compensating rollback transactions, state machine persistence, outbox pattern integration, and handling network partitions.
 - [legacy-system-strangler-migration](../skills/software-engineering/modernization/migration/legacy-system-strangler-migration/SKILL.md) — Use this skill when incrementally modernizing, decomposing, and replacing legacy monoliths or deprecated backend systems without risky all-at-once cutovers. It guides the agent through the Strangler Fig pattern, reverse proxy intercept routing, parallel run shadow verification, database synchronization, and progressive decommission.
 - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
@@ -812,10 +815,11 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
 
-## RabbitMQ (2 skills)
+## RabbitMQ (3 skills)
 
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
 - [rabbitmq-reliable-messaging-patterns](../skills/backend/message-queues/rabbitmq/rabbitmq-reliable-messaging-patterns/SKILL.md) — Use this skill when designing, building, and operating mission-critical message queuing architectures with RabbitMQ (AMQP 0-9-1). It guides the agent through publisher confirms (ACK/NACK), queue and message durability, dead letter exchanges (DLX) for poisoned messages, consumer manual acknowledgments with prefetch limits, and consumer idempotency.
+- [distributed-saga-orchestration-pattern](../skills/software-engineering/design-patterns/saga-pattern/distributed-saga-orchestration-pattern/SKILL.md) — Use this skill when designing, implementing, and coordinating multi-service distributed transactions across microservices using the Saga Pattern (Orchestrator and Choreography). It guides the agent through defining forward actions, reliable compensating rollback transactions, state machine persistence, outbox pattern integration, and handling network partitions.
 
 ## Ragas (2 skills)
 
@@ -978,6 +982,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Tempo (1 skills)
 
 - [opentelemetry-distributed-tracing](../skills/devops/observability/opentelemetry/opentelemetry-distributed-tracing/SKILL.md) — Use this skill when designing, instrumenting, and troubleshooting end-to-end distributed tracing across microservices using OpenTelemetry (OTel). It covers W3C tracecontext propagation, OTLP gRPC/HTTP exporters, head-based and tail-based sampling strategies, span attributes standardization (semantic conventions), and collector deployment.
+
+## Temporal (1 skills)
+
+- [distributed-saga-orchestration-pattern](../skills/software-engineering/design-patterns/saga-pattern/distributed-saga-orchestration-pattern/SKILL.md) — Use this skill when designing, implementing, and coordinating multi-service distributed transactions across microservices using the Saga Pattern (Orchestrator and Choreography). It guides the agent through defining forward actions, reliable compensating rollback transactions, state machine persistence, outbox pattern integration, and handling network partitions.
 
 ## TensorRT (1 skills)
 
