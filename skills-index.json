@@ -24796,6 +24796,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kubernetes-hardening",
+    "path": "skills/security/appsec/kubernetes_hardening/kubernetes-hardening",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "kubernetes_hardening",
+    "description": "Use this skill to design, implement, and operate production workflows for kubernetes hardening. Implement Kubernetes security contexts, Pod Security Standards, and network",
+    "tags": [
+      "security",
+      "appsec",
+      "kubernetes",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kubernetes Hardening",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
