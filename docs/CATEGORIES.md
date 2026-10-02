@@ -1,12 +1,14 @@
 # Skill Categories & Directory Map
 
-Master navigation for **93** skills across structured domains, categories, and subcategories.
+Master navigation for **94** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (14 skills)
+## Ai Engineering (15 skills)
 
-### Agents (3 skills)
+### Agents (4 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
+- **Autogen** (1):
+  - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
 - **Benchmarking** (1):
   - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - **Memory** (1):

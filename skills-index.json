@@ -1,5 +1,31 @@
 [
   {
+    "name": "multi-agent-debate-and-reflection",
+    "path": "skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "autogen",
+    "description": "Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.",
+    "tags": [
+      "multi-agent",
+      "agent-debate",
+      "reflection",
+      "autogen",
+      "crewai",
+      "self-correction",
+      "reasoning"
+    ],
+    "technologies": [
+      "Python",
+      "OpenAI",
+      "Anthropic",
+      "AutoGen",
+      "CrewAI"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-benchmark-evaluation",
     "path": "skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation",
     "domain": "ai-engineering",
