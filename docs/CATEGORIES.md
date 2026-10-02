@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,654** skills across structured domains, categories, and subcategories.
+Master navigation for **1,655** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (570 skills)
+## Ai Engineering (571 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -278,7 +278,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Odoo_Ecommerce_Confi** (1):
   - [odoo-ecommerce-configurator](../skills/ai-engineering/llm-ops/odoo_ecommerce_confi/odoo-ecommerce-configurator/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo ecommerce configurator. Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow.
 
-### Models (414 skills)
+### Models (415 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1084,6 +1084,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [obsidian-clipper-template-creator](../skills/ai-engineering/models/obsidian_clipper_tem/obsidian-clipper-template-creator/SKILL.md) — Use this skill to design, implement, and operate production workflows for obsidian clipper template creator. Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format clipped content.
 - **Odoo_Orm_Expert** (1):
   - [odoo-orm-expert](../skills/ai-engineering/models/odoo_orm_expert/odoo-orm-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo orm expert. Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques.
+- **Odoo_Qweb_Templates** (1):
+  - [odoo-qweb-templates](../skills/ai-engineering/models/odoo_qweb_templates/odoo-qweb-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo qweb templates. Expert in Odoo QWeb templating for PDF reports, email templates, and website pages. Covers t-if, t-foreach, t-field, and report actions.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

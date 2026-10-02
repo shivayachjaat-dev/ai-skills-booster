@@ -11567,6 +11567,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-qweb-templates",
+    "path": "skills/ai-engineering/models/odoo_qweb_templates/odoo-qweb-templates",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "odoo_qweb_templates",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo qweb templates. Expert in Odoo QWeb templating for PDF reports, email templates, and website pages. Covers t-if, t-foreach, t-field, and report actions.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Qweb Templates",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
