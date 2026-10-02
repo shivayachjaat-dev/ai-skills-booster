@@ -22323,6 +22323,28 @@
     "maturity": "stable"
   },
   {
+    "name": "longbridge-derivatives",
+    "path": "skills/frontend/ui-ux/longbridge_derivativ/longbridge-derivatives",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "longbridge_derivativ",
+    "description": "Use this skill to design, implement, and operate production workflows for longbridge derivatives. Curated upstream guidance for Longbridge Derivatives; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "longbridge",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Longbridge Derivatives",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
