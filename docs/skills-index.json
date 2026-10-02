@@ -10005,6 +10005,28 @@
     "maturity": "stable"
   },
   {
+    "name": "local-llm-expert",
+    "path": "skills/ai-engineering/models/local_llm_expert/local-llm-expert",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "local_llm_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for local llm expert. Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "local",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Local Llm Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
