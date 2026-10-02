@@ -23853,6 +23853,28 @@
     "maturity": "stable"
   },
   {
+    "name": "identity-federation",
+    "path": "skills/security/authentication/identity_federation/identity-federation",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "identity_federation",
+    "description": "Use this skill to design, implement, and operate production workflows for identity federation. Authorized assessment of federated identity systems: SAML, OIDC, OAuth2 flows, SSO misconfiguration, and token-confusion issues.",
+    "tags": [
+      "security",
+      "authentication",
+      "identity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Identity Federation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
