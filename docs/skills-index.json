@@ -7018,6 +7018,28 @@
     "maturity": "stable"
   },
   {
+    "name": "data-scientist",
+    "path": "skills/data-analytics/data-pipelines/data_scientist/data-scientist",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "data_scientist",
+    "description": "Use this skill to expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "data",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Data Scientist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",
