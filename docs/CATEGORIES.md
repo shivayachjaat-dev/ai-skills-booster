@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **919** skills across structured domains, categories, and subcategories.
+Master navigation for **920** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (318 skills)
+## Ai Engineering (319 skills)
 
 ### Agents (39 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -178,7 +178,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (227 skills)
+### Models (228 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -608,6 +608,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [entropy-box](../skills/ai-engineering/models/entropy_box/entropy-box/SKILL.md) — Use this skill to design, implement, and operate production workflows for entropy box. Entropy Box knowledge-compiler for embodied-AI: turns bounded requirements into grounded workflows via Solution Consult, Search, Lookup, and Evidence. Do not use it to control physical robots.
 - **Error_Handling_Patte** (1):
   - [error-handling-patterns](../skills/ai-engineering/models/error_handling_patte/error-handling-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for error handling patterns. Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.
+- **Esl_Price_Sync** (1):
+  - [esl-price-sync](../skills/ai-engineering/models/esl_price_sync/esl-price-sync/SKILL.md) — Use this skill to design, implement, and operate production workflows for esl price sync. Synchronizes retail prices between ERP/POS systems and Electronic Shelf Labels (SES-imagotag, ZKONG, Pricer, Hanshow, SOLUM) with delta watermarking, idempotency, and battery modeling. Trigger phrases: esl price sync, electronic shelf labels, zkong sync, se...
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):

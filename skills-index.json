@@ -6309,6 +6309,28 @@
     "maturity": "stable"
   },
   {
+    "name": "esl-price-sync",
+    "path": "skills/ai-engineering/models/esl_price_sync/esl-price-sync",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "esl_price_sync",
+    "description": "Use this skill to design, implement, and operate production workflows for esl price sync. Synchronizes retail prices between ERP/POS systems and Electronic Shelf Labels (SES-imagotag, ZKONG, Pricer, Hanshow, SOLUM) with delta watermarking, idempotency, and battery modeling. Trigger phrases: esl price sync, electronic shelf labels, zkong sync, se...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "esl",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Esl Price Sync",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
