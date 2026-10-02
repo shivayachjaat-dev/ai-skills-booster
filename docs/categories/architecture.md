@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **5 skills** available in this category.
+> **6 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -9,3 +9,4 @@
 | [hexagonal-ports-and-adapters-architecture](../../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) | `hexagonal` | `advanced` | `stable` | Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection. |
 | [api-and-interface-design](../../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) | `interfaces` | `advanced` | `stable` | Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles. |
 | [artifact-yylo](../../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional |
+| [ask-matt](../../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo. |
