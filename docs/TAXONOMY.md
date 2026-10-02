@@ -57,6 +57,7 @@ AI_Skills_Booster/
 │   │   ├── antigravity_workflow/ (1 skills)
 │   │   ├── app_builder/ (1 skills)
 │   │   ├── asset_inventory/ (1 skills)
+│   │   ├── attendance/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

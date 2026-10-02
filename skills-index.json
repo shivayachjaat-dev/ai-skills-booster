@@ -1029,6 +1029,28 @@
     "maturity": "stable"
   },
   {
+    "name": "attendance",
+    "path": "skills/ai-engineering/models/attendance/attendance",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "attendance",
+    "description": "Use this skill to daily attendance register: check-in and check-out, hours worked, work mode, late minutes, leave and regularisation flags, as CSV, SQL, JSON Schema or Notion on request. Use for payroll input.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "attendance",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Attendance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

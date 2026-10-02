@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -18,4 +18,5 @@
 | [antigravity-workflows](../../skills/ai-engineering/models/antigravity_workflow/antigravity-workflows/SKILL.md) | `antigravity_workflow` | `advanced` | `stable` | Use this skill to use when asked to ship a SaaS MVP, audit application security, build an AI agent, run browser QA, or design a domain model with multiple skills and verified checkpoints. |
 | [app-builder](../../skills/ai-engineering/models/app_builder/app-builder/SKILL.md) | `app_builder` | `advanced` | `stable` | Use this skill to main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents. |
 | [asset-inventory](../../skills/ai-engineering/models/asset_inventory/asset-inventory/SKILL.md) | `asset_inventory` | `advanced` | `stable` | Use this skill to maintain IT asset inventory and configuration management database. Track |
+| [attendance](../../skills/ai-engineering/models/attendance/attendance/SKILL.md) | `attendance` | `advanced` | `stable` | Use this skill to daily attendance register: check-in and check-out, hours worked, work mode, late minutes, leave and regularisation flags, as CSV, SQL, JSON Schema or Notion on request. Use for payroll input. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
