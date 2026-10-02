@@ -16713,6 +16713,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gcp-cloud-run",
+    "path": "skills/frontend/ui-ux/gcp_cloud_run/gcp-cloud-run",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "gcp_cloud_run",
+    "description": "Use this skill to design, implement, and operate production workflows for gcp cloud run. Specialized skill for building production-ready serverless",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "gcp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gcp Cloud Run",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

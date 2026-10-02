@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,054** skills across structured domains, categories, and subcategories.
+Master navigation for **1,055** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (362 skills)
 
@@ -1553,7 +1553,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (207 skills)
+## Frontend (208 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1683,7 +1683,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Full_Output_Enforcem** (1):
   - [full-output-enforcement](../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) — Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
 
-### Ui Ux (103 skills)
+### Ui Ux (104 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1884,6 +1884,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [fp-types-ref](../skills/frontend/ui-ux/fp_types_ref/fp-types-ref/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp types ref. Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.
 - **Free_Tool_Strategy** (1):
   - [free-tool-strategy](../skills/frontend/ui-ux/free_tool_strategy/free-tool-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for free tool strategy. You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.
+- **Gcp_Cloud_Run** (1):
+  - [gcp-cloud-run](../skills/frontend/ui-ux/gcp_cloud_run/gcp-cloud-run/SKILL.md) — Use this skill to design, implement, and operate production workflows for gcp cloud run. Specialized skill for building production-ready serverless
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):
