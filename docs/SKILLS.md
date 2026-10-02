@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 474 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 475 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -360,6 +360,7 @@
 | [burpsuite-project-parser](skills/frontend/ui-ux/burpsuite_project_pa/burpsuite-project-parser/SKILL.md) | `frontend` | `ui-ux` | `burpsuite_project_pa` | `advanced` | `stable` | Use this skill to searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project. |
 | [business-continuity](skills/frontend/ui-ux/business_continuity/business-continuity/SKILL.md) | `frontend` | `ui-ux` | `business_continuity` | `advanced` | `stable` | Use this skill to develop business continuity plans and impact analysis. Implement BCP |
 | [busybox-on-windows](skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) | `frontend` | `ui-ux` | `busybox_on_windows` | `advanced` | `stable` | Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows. |
+| [cc-skill-project-guidelines-example](skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example/SKILL.md) | `frontend` | `ui-ux` | `cc_skill_project_gui` | `advanced` | `stable` | Use this skill to project Guidelines Skill (Example) |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [azure-messaging-webpubsub-java](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
 | [azure-messaging-webpubsubservice-py](skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) | `frontend` | `web-architecture` | `azure_messaging_webp` | `advanced` | `stable` | Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |

@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **27 skills** available in this category.
+> **28 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -31,3 +31,4 @@
 | [burpsuite-project-parser](../../skills/frontend/ui-ux/burpsuite_project_pa/burpsuite-project-parser/SKILL.md) | `burpsuite_project_pa` | `advanced` | `stable` | Use this skill to searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project. |
 | [business-continuity](../../skills/frontend/ui-ux/business_continuity/business-continuity/SKILL.md) | `business_continuity` | `advanced` | `stable` | Use this skill to develop business continuity plans and impact analysis. Implement BCP |
 | [busybox-on-windows](../../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) | `busybox_on_windows` | `advanced` | `stable` | Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows. |
+| [cc-skill-project-guidelines-example](../../skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example/SKILL.md) | `cc_skill_project_gui` | `advanced` | `stable` | Use this skill to project Guidelines Skill (Example) |

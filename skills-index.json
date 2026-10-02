@@ -8243,6 +8243,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cc-skill-project-guidelines-example",
+    "path": "skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "cc_skill_project_gui",
+    "description": "Use this skill to project Guidelines Skill (Example)",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "cc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cc Skill Project Guidelines Example",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
