@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,467 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,468 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1031,6 +1031,7 @@
 | [makepad-2-0-dsl](skills/frontend/ui-ux/makepad_2_0_dsl/makepad-2-0-dsl/SKILL.md) | `frontend` | `ui-ux` | `makepad_2_0_dsl` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad 2 0 dsl. Makepad 2.0 guidance for dsl; use when building or debugging Makepad UI code. |
 | [makepad-2-0-events](skills/frontend/ui-ux/makepad_2_0_events/makepad-2-0-events/SKILL.md) | `frontend` | `ui-ux` | `makepad_2_0_events` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad 2 0 events. Makepad 2.0 guidance for events; use when building or debugging Makepad UI code. |
 | [makepad-2-0-layout](skills/frontend/ui-ux/makepad_2_0_layout/makepad-2-0-layout/SKILL.md) | `frontend` | `ui-ux` | `makepad_2_0_layout` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad 2 0 layout. Makepad 2.0 guidance for layout; use when building or debugging Makepad UI code. |
+| [makepad-2-0-widgets](skills/frontend/ui-ux/makepad_2_0_widgets/makepad-2-0-widgets/SKILL.md) | `frontend` | `ui-ux` | `makepad_2_0_widgets` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad 2 0 widgets. Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
