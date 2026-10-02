@@ -591,7 +591,8 @@ AI_Skills_Booster/
 │   │   ├── internal_communicati/ (1 skills)
 │   │   ├── inventory_stock_reco/ (1 skills)
 │   │   ├── invoices_billing/ (1 skills)
-│   │   └── knowledge_base/ (1 skills)
+│   │   ├── knowledge_base/ (1 skills)
+│   │   └── kpi_dashboard_design/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/

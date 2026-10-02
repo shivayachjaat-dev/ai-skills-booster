@@ -12568,6 +12568,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kpi-dashboard-design",
+    "path": "skills/business/operations/kpi_dashboard_design/kpi-dashboard-design",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "kpi_dashboard_design",
+    "description": "Use this skill to design, implement, and operate production workflows for kpi dashboard design. Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.",
+    "tags": [
+      "business",
+      "operations",
+      "kpi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kpi Dashboard Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

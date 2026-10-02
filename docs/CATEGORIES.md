@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,350** skills across structured domains, categories, and subcategories.
+Master navigation for **1,351** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (450 skills)
 
@@ -1201,7 +1201,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (31 skills)
+## Business (32 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1239,7 +1239,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (19 skills)
+### Operations (20 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1280,6 +1280,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [invoices-billing](../skills/business/operations/invoices_billing/invoices-billing/SKILL.md) — Use this skill to design, implement, and operate production workflows for invoices billing. Invoice and billing register: invoice number, client, project, issue and due dates, subtotal, discount, tax and withholding, total, payments, balance and aging. Use for billing follow-up.
 - **Knowledge_Base** (1):
   - [knowledge-base](../skills/business/operations/knowledge_base/knowledge-base/SKILL.md) — Use this skill to design, implement, and operate production workflows for knowledge base. Knowledge base register: article title, category, department, owner, tags, summary, linked SOP, audience, last and next review dates and status. Use for documentation management.
+- **Kpi_Dashboard_Design** (1):
+  - [kpi-dashboard-design](../skills/business/operations/kpi_dashboard_design/kpi-dashboard-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for kpi dashboard design. Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)
