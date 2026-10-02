@@ -94,6 +94,32 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-lora-fine-tuning-pipeline",
+    "path": "skills/ai-engineering/fine-tuning/peft-lora/llm-lora-fine-tuning-pipeline",
+    "domain": "ai-engineering",
+    "category": "fine-tuning",
+    "subcategory": "peft-lora",
+    "description": "Use this skill when designing, training, and evaluating parameter-efficient fine-tuning (PEFT) pipelines for Large Language Models using LoRA and QLoRA. It guides the agent through 4-bit/8-bit quantization via bitsandbytes, LoRA hyperparameter configuration (rank r, alpha, target modules), dataset preparation and token masking, SFTTrainer orchestration, and adapter weight merging.",
+    "tags": [
+      "fine-tuning",
+      "lora",
+      "qlora",
+      "peft",
+      "llm",
+      "huggingface",
+      "pytorch"
+    ],
+    "technologies": [
+      "PyTorch",
+      "HuggingFace Transformers",
+      "PEFT",
+      "TRL",
+      "bitsandbytes"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",

@@ -9,6 +9,8 @@ AI_Skills_Booster/
 │   │   └── orchestration/ (1 skills)
 │   ├── context/
 │   │   └── optimization/ (1 skills)
+│   ├── fine-tuning/
+│   │   └── peft-lora/ (1 skills)
 │   ├── rag/
 │   │   └── evaluation/ (1 skills)
 │   └── vector-databases/

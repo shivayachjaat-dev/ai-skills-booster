@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **51** skills across structured domains, categories, and subcategories.
+Master navigation for **52** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (6 skills)
+## Ai Engineering (7 skills)
 
 ### Agents (3 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -19,6 +19,12 @@ Category index: [`docs/categories/context.md`](categories/context.md)
 
 - **Optimization** (1):
   - [context-window-engineering](../skills/ai-engineering/context/optimization/context-window-engineering/SKILL.md) — Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs.
+
+### Fine Tuning (1 skills)
+Category index: [`docs/categories/fine-tuning.md`](categories/fine-tuning.md)
+
+- **Peft Lora** (1):
+  - [llm-lora-fine-tuning-pipeline](../skills/ai-engineering/fine-tuning/peft-lora/llm-lora-fine-tuning-pipeline/SKILL.md) — Use this skill when designing, training, and evaluating parameter-efficient fine-tuning (PEFT) pipelines for Large Language Models using LoRA and QLoRA. It guides the agent through 4-bit/8-bit quantization via bitsandbytes, LoRA hyperparameter configuration (rank r, alpha, target modules), dataset preparation and token masking, SFTTrainer orchestration, and adapter weight merging.
 
 ### Rag (1 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
