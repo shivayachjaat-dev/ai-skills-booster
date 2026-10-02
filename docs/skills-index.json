@@ -4175,6 +4175,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-degradation",
+    "path": "skills/ai-engineering/models/context_degradation/context-degradation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "context_degradation",
+    "description": "Use this skill to language models exhibit predictable degradation patterns as context length increases. Understanding these patterns is essential for diagnosing failures and designing resilient systems.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Degradation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
