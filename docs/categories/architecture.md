@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **154 skills** available in this category.
+> **155 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -156,5 +156,6 @@
 | [internal-comms-anthropic](../../skills/software-engineering/architecture/patterns/internal-comms-anthropic/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for internal comms anthropic. Compatibility alias for internal-comms: draft status updates, newsletters and FAQs from approved sources. |
 | [internal-comms-community](../../skills/software-engineering/architecture/patterns/internal-comms-community/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for internal comms community. Compatibility alias for internal-comms: draft status updates, newsletters and FAQs from approved sources. |
 | [interview-coach](../../skills/software-engineering/architecture/patterns/interview-coach/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for interview coach. Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state. |
+| [interview-me](../../skills/software-engineering/architecture/patterns/interview-me/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for interview me. Draw out what the user actually wants with one-question-at-a-time interviews |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

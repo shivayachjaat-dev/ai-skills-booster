@@ -28713,6 +28713,28 @@
     "maturity": "stable"
   },
   {
+    "name": "interview-me",
+    "path": "skills/software-engineering/architecture/patterns/interview-me",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for interview me. Draw out what the user actually wants with one-question-at-a-time interviews",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "interview",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Interview Me",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
