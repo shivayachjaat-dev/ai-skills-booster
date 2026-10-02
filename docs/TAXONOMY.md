@@ -1039,6 +1039,7 @@ AI_Skills_Booster/
 │   │   ├── langgraph/ (1 skills)
 │   │   ├── launch_strategy/ (1 skills)
 │   │   ├── learn/ (1 skills)
+│   │   ├── leiloeiro_avaliacao/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)

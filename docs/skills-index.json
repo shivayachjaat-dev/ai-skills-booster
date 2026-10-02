@@ -21245,6 +21245,28 @@
     "maturity": "stable"
   },
   {
+    "name": "leiloeiro-avaliacao",
+    "path": "skills/frontend/ui-ux/leiloeiro_avaliacao/leiloeiro-avaliacao",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "leiloeiro_avaliacao",
+    "description": "Use this skill to design, implement, and operate production workflows for leiloeiro avaliacao. Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "leiloeiro",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Leiloeiro Avaliacao",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
