@@ -4461,6 +4461,28 @@
     "maturity": "stable"
   },
   {
+    "name": "credit-cycle-analysis",
+    "path": "skills/ai-engineering/models/credit_cycle_analysi/credit-cycle-analysis",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "credit_cycle_analysi",
+    "description": "Use this skill to debtor and creditor credit-cycle analysis: weighted collection or payment days, ageing buckets, credit limit utilisation and gap against benchmark. Use for working-capital review.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "credit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Credit Cycle Analysis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

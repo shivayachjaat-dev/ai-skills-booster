@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **626** skills across structured domains, categories, and subcategories.
+Master navigation for **627** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (223 skills)
+## Ai Engineering (224 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (152 skills)
+### Models (153 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -440,6 +440,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [cpp-pro](../skills/ai-engineering/models/cpp_pro/cpp-pro/SKILL.md) — Use this skill to write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization.
 - **Cred_Omega** (1):
   - [cred-omega](../skills/ai-engineering/models/cred_omega/cred-omega/SKILL.md) — Use this skill to cISO operacional enterprise para gestao total de credenciais e segredos.
+- **Credit_Cycle_Analysi** (1):
+  - [credit-cycle-analysis](../skills/ai-engineering/models/credit_cycle_analysi/credit-cycle-analysis/SKILL.md) — Use this skill to debtor and creditor credit-cycle analysis: weighted collection or payment days, ageing buckets, credit limit utilisation and gap against benchmark. Use for working-capital review.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
