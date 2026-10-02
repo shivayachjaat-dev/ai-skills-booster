@@ -4197,6 +4197,28 @@
     "maturity": "stable"
   },
   {
+    "name": "context-driven-development",
+    "path": "skills/ai-engineering/models/context_driven_devel/context-driven-development",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "context_driven_devel",
+    "description": "Use this skill to guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through structured project documentation.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "context",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Context Driven Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

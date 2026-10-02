@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **144 skills** available in this category.
+> **145 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -147,4 +147,5 @@
 | [content-marketer](../../skills/ai-engineering/models/content_marketer/content-marketer/SKILL.md) | `content_marketer` | `advanced` | `stable` | Use this skill to elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. |
 | [context-compression](../../skills/ai-engineering/models/context_compression/context-compression/SKILL.md) | `context_compression` | `advanced` | `stable` | Use this skill to when agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request. |
 | [context-degradation](../../skills/ai-engineering/models/context_degradation/context-degradation/SKILL.md) | `context_degradation` | `advanced` | `stable` | Use this skill to language models exhibit predictable degradation patterns as context length increases. Understanding these patterns is essential for diagnosing failures and designing resilient systems. |
+| [context-driven-development](../../skills/ai-engineering/models/context_driven_devel/context-driven-development/SKILL.md) | `context_driven_devel` | `advanced` | `stable` | Use this skill to guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through structured project documentation. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
