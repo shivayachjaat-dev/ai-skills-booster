@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **597** skills across structured domains, categories, and subcategories.
+Master navigation for **598** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (208 skills)
+## Ai Engineering (209 skills)
 
 ### Agents (25 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -136,7 +136,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (142 skills)
+### Models (143 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -412,6 +412,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [container-scanning](../skills/ai-engineering/models/container_scanning/container-scanning/SKILL.md) — Use this skill to scan container images for vulnerabilities using Trivy, Grype, and cloud-native
 - **Content_Marketer** (1):
   - [content-marketer](../skills/ai-engineering/models/content_marketer/content-marketer/SKILL.md) — Use this skill to elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.
+- **Context_Compression** (1):
+  - [context-compression](../skills/ai-engineering/models/context_compression/context-compression/SKILL.md) — Use this skill to when agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
