@@ -13831,6 +13831,28 @@
     "maturity": "stable"
   },
   {
+    "name": "drizzle-orm-expert",
+    "path": "skills/frontend/ui-ux/drizzle_orm_expert/drizzle-orm-expert",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "drizzle_orm_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for drizzle orm expert. Expert in Drizzle ORM for TypeScript \u2014 schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "drizzle",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Drizzle Orm Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

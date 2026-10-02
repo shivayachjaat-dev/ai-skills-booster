@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **871** skills across structured domains, categories, and subcategories.
+Master navigation for **872** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (303 skills)
 
@@ -1389,7 +1389,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (151 skills)
+## Frontend (152 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1475,7 +1475,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Development** (1):
   - [development](../skills/frontend/ui-development/development/development/SKILL.md) — Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.
 
-### Ui Ux (73 skills)
+### Ui Ux (74 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1618,6 +1618,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [dotnet-backend](../skills/frontend/ui-ux/dotnet_backend/dotnet-backend/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet backend. Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.
 - **Dotnet_Backend_Patte** (1):
   - [dotnet-backend-patterns](../skills/frontend/ui-ux/dotnet_backend_patte/dotnet-backend-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet backend patterns. Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).
+- **Drizzle_Orm_Expert** (1):
+  - [drizzle-orm-expert](../skills/frontend/ui-ux/drizzle_orm_expert/drizzle-orm-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for drizzle orm expert. Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

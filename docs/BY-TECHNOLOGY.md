@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (689 skills)
+## Bash (690 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1559,6 +1559,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [doc-coauthoring](../skills/frontend/ui-ux/doc_coauthoring/doc-coauthoring/SKILL.md) — Use this skill to design, implement, and operate production workflows for doc coauthoring. This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing.
 - [dotnet-backend](../skills/frontend/ui-ux/dotnet_backend/dotnet-backend/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet backend. Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.
 - [dotnet-backend-patterns](../skills/frontend/ui-ux/dotnet_backend_patte/dotnet-backend-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet backend patterns. Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).
+- [drizzle-orm-expert](../skills/frontend/ui-ux/drizzle_orm_expert/drizzle-orm-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for drizzle orm expert. Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -3678,6 +3679,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [drizzle-orm-schema-and-relational-queries](../skills/backend/database-drivers/drizzle/drizzle-orm-schema-and-relational-queries/SKILL.md) — Use this skill when designing database schemas, managing type-safe migrations, and querying SQL databases with Drizzle ORM in TypeScript. It guides the agent through pgTable declarations, relations API (1:1, 1:N, M:N), Drizzle Kit migrations (generate/migrate), prepared statements for maximum performance, and serverless pooling.
 
+## Drizzle Orm Expert (1 skills)
+
+- [drizzle-orm-expert](../skills/frontend/ui-ux/drizzle_orm_expert/drizzle-orm-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for drizzle orm expert. Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle.
+
 ## DuckDB (1 skills)
 
 - [duckdb-embedded-analytics](../skills/databases/duckdb/analytics/duckdb-embedded-analytics/SKILL.md) — Use this skill when embedding DuckDB for high-speed local analytical queries (OLAP) directly inside Python or Node.js runtimes. It guides the agent through querying remote Parquet files on S3/HTTP without downloading, executing fast vectorized window aggregations, zero-copy Apache Arrow integration, and replacing heavy database infrastructure for medium-data analytics.
@@ -4811,7 +4816,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (792 skills)
+## Python (793 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5372,6 +5377,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [doc-coauthoring](../skills/frontend/ui-ux/doc_coauthoring/doc-coauthoring/SKILL.md) — Use this skill to design, implement, and operate production workflows for doc coauthoring. This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing.
 - [dotnet-backend](../skills/frontend/ui-ux/dotnet_backend/dotnet-backend/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet backend. Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.
 - [dotnet-backend-patterns](../skills/frontend/ui-ux/dotnet_backend_patte/dotnet-backend-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet backend patterns. Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).
+- [drizzle-orm-expert](../skills/frontend/ui-ux/drizzle_orm_expert/drizzle-orm-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for drizzle orm expert. Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
