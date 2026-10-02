@@ -172,6 +172,8 @@ AI_Skills_Booster/
 │   │   └── wcag/ (1 skills)
 │   ├── animation/
 │   │   └── animejs/ (1 skills)
+│   ├── design-systems/
+│   │   └── clean-ui-anti-slop/ (1 skills)
 │   ├── frameworks/
 │   │   └── angular/ (1 skills)
 │   ├── nextjs/

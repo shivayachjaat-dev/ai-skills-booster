@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **152** skills across structured domains, categories, and subcategories.
+Master navigation for **153** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -459,7 +459,7 @@ Category index: [`docs/categories/sre.md`](categories/sre.md)
 - **Incident Remediation** (1):
   - [ai-sre-autonomous-incident-triage-and-remediation](../skills/devops/sre/incident-remediation/ai-sre-autonomous-incident-triage-and-remediation/SKILL.md) — Use this skill to design and deploy autonomous AI-driven Site Reliability Engineering (SRE) incident response and triage workflows. It covers alerting webhook ingestion (PagerDuty, Datadog), automated log/trace correlation, blast-radius assessment, safe auto-remediation playbooks, and blameless post-mortem drafting.
 
-## Frontend (7 skills)
+## Frontend (8 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -478,6 +478,12 @@ Category index: [`docs/categories/animation.md`](categories/animation.md)
 
 - **Animejs** (1):
   - [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
+
+### Design Systems (1 skills)
+Category index: [`docs/categories/design-systems.md`](categories/design-systems.md)
+
+- **Clean Ui Anti Slop** (1):
+  - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
 ### Frameworks (1 skills)
 Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)

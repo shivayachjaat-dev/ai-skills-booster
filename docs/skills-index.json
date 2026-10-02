@@ -2374,6 +2374,32 @@
     "maturity": "stable"
   },
   {
+    "name": "clean-anti-slop-ui-ux-design-system",
+    "path": "skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system",
+    "domain": "frontend",
+    "category": "design-systems",
+    "subcategory": "clean-ui-anti-slop",
+    "description": "Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.",
+    "tags": [
+      "anti-slop",
+      "design-systems",
+      "ui-ux",
+      "clean-design",
+      "frontend",
+      "accessibility",
+      "tailwind"
+    ],
+    "technologies": [
+      "Tailwind CSS",
+      "CSS Tokens",
+      "TypeScript",
+      "HTML5",
+      "WCAG AA"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "angular-signals-standalone-components-and-state",
     "path": "skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state",
     "domain": "frontend",
