@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,079** skills across structured domains, categories, and subcategories.
+Master navigation for **1,080** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (375 skills)
 
@@ -1279,7 +1279,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (25 skills)
+## Developer Tools (26 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1287,7 +1287,7 @@ Category index: [`docs/categories/cli.md`](categories/cli.md)
 - **Typer Architecture** (1):
   - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
 
-### Cli Utilities (5 skills)
+### Cli Utilities (6 skills)
 Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md)
 
 - **Ask_Copilot** (1):
@@ -1300,6 +1300,8 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
   - [geo-compare](../skills/developer-tools/cli-utilities/geo_compare/geo-compare/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo compare. Monthly delta tracking and progress reporting for GEO clients.
 - **Geo_Proposal** (1):
   - [geo-proposal](../skills/developer-tools/cli-utilities/geo_proposal/geo-proposal/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo proposal. Auto-generate a professional, client-ready GEO service proposal from
+- **Geo_Prospect** (1):
+  - [geo-prospect](../skills/developer-tools/cli-utilities/geo_prospect/geo-prospect/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo prospect. CRM-lite for managing GEO agency prospects and clients.
 
 ### Productivity (17 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
