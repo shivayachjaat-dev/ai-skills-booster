@@ -5693,6 +5693,28 @@
     "maturity": "stable"
   },
   {
+    "name": "doc2math",
+    "path": "skills/ai-engineering/models/doc2math/doc2math",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "doc2math",
+    "description": "Use this skill to design, implement, and operate production workflows for doc2math. Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints, objectives, and uncertainty.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "doc2math",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Doc2Math",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

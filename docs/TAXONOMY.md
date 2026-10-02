@@ -261,6 +261,7 @@ AI_Skills_Booster/
 │   │   ├── developer_seo/ (1 skills)
 │   │   ├── diagnose_android_ove/ (1 skills)
 │   │   ├── diagnosing_bugs/ (1 skills)
+│   │   ├── doc2math/ (1 skills)
 │   │   ├── editorial_design/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
