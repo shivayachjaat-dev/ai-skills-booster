@@ -18407,6 +18407,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hf-mem",
+    "path": "skills/frontend/ui-ux/hf_mem/hf-mem",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hf_mem",
+    "description": "Use this skill to design, implement, and operate production workflows for hf mem. Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hf",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hf Mem",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
