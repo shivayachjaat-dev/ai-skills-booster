@@ -10927,6 +10927,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-suite",
+    "path": "skills/frontend/ui-ux/crossframe_suite/crossframe-suite",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "crossframe_suite",
+    "description": "Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Suite",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

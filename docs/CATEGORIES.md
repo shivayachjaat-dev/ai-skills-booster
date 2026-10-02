@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **642** skills across structured domains, categories, and subcategories.
+Master navigation for **643** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (229 skills)
 
@@ -1178,7 +1178,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (77 skills)
+## Frontend (78 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1256,7 +1256,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Ckw_Design** (1):
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 
-### Ui Ux (48 skills)
+### Ui Ux (49 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1355,6 +1355,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [crossframe-notebook](../skills/frontend/ui-ux/crossframe_notebook/crossframe-notebook/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese notes for books, theories, articles, excerpts, bidirectional reading, absorption, or conflict mapping.
 - **Crossframe_Public** (1):
   - [crossframe-public](../skills/frontend/ui-ux/crossframe_public/crossframe-public/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence.
+- **Crossframe_Suite** (1):
+  - [crossframe-suite](../skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) — Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.
 
 ### Web Architecture (11 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
