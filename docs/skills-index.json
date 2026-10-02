@@ -25733,6 +25733,28 @@
     "maturity": "stable"
   },
   {
+    "name": "moodle-external-api-development",
+    "path": "skills/frontend/web-architecture/moodle_external_api_/moodle-external-api-development",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "moodle_external_api_",
+    "description": "Use this skill to design, implement, and operate production workflows for moodle external api development. This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "moodle",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Moodle External Api Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "neo-brutalism",
     "path": "skills/frontend/web-architecture/neo_brutalism/neo-brutalism",
     "domain": "frontend",
