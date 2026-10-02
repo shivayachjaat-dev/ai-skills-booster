@@ -16060,6 +16060,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nexrad-product-access",
+    "path": "skills/data-analytics/data-pipelines/nexrad_product_acces/nexrad-product-access",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "nexrad_product_acces",
+    "description": "Use this skill to design, implement, and operate production workflows for nexrad product access. Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "nexrad",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nexrad Product Access",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

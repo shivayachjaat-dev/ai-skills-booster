@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **23 skills** available in this category.
+> **24 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -26,4 +26,5 @@
 | [ml-pipeline-workflow](../../skills/data-analytics/data-pipelines/ml_pipeline_workflow/ml-pipeline-workflow/SKILL.md) | `ml_pipeline_workflow` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ml pipeline workflow. Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment. |
 | [monte-carlo-context-detection](../../skills/data-analytics/data-pipelines/monte_carlo_context_/monte-carlo-context-detection/SKILL.md) | `monte_carlo_context_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo context detection. Route data-related requests to the right Monte Carlo skill or workflow. |
 | [neon-postgres-egress-optimizer](../../skills/data-analytics/data-pipelines/neon_postgres_egress/neon-postgres-egress-optimizer/SKILL.md) | `neon_postgres_egress` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon postgres egress optimizer. Diagnose and fix excessive Postgres egress (network data transfer) in a codebase. |
+| [nexrad-product-access](../../skills/data-analytics/data-pipelines/nexrad_product_acces/nexrad-product-access/SKILL.md) | `nexrad_product_acces` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nexrad product access. Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation. |
 | [polars-high-throughput-data-pipeline](../../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) | `polars` | `advanced` | `stable` | Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations. |
