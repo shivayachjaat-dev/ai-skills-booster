@@ -2437,6 +2437,28 @@
     "maturity": "stable"
   },
   {
+    "name": "before-you-build",
+    "path": "skills/ai-engineering/models/before_you_build/before-you-build",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "before_you_build",
+    "description": "Use this skill to review product risk before coding by checking demand, alternatives, channels, switching costs, and failure signals.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "before",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Before You Build",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
