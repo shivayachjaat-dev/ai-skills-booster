@@ -6925,6 +6925,28 @@
     "maturity": "stable"
   },
   {
+    "name": "film-crew",
+    "path": "skills/ai-engineering/models/film_crew/film-crew",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "film_crew",
+    "description": "Use this skill to design, implement, and operate production workflows for film crew. Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedanc...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "film",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Film Crew",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "floating-ui",
     "path": "skills/ai-engineering/models/floating_ui/floating-ui",
     "domain": "ai-engineering",

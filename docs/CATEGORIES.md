@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **979** skills across structured domains, categories, and subcategories.
+Master navigation for **980** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (345 skills)
+## Ai Engineering (346 skills)
 
 ### Agents (41 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -182,7 +182,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (251 skills)
+### Models (252 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -664,6 +664,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [feature-tracking](../skills/ai-engineering/models/feature_tracking/feature-tracking/SKILL.md) — Use this skill to design, implement, and operate production workflows for feature tracking. Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes.
 - **Fedora_Hyprland_Inst** (1):
   - [fedora-hyprland-installer](../skills/ai-engineering/models/fedora_hyprland_inst/fedora-hyprland-installer/SKILL.md) — Use this skill to design, implement, and operate production workflows for fedora hyprland installer. Install, configure, verify, repair, update, and uninstall Hyprland on Fedora Linux with GPU-aware detection (NVIDIA/AMD/Intel).
+- **Film_Crew** (1):
+  - [film-crew](../skills/ai-engineering/models/film_crew/film-crew/SKILL.md) — Use this skill to design, implement, and operate production workflows for film crew. Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedanc...
 - **Floating_Ui** (1):
   - [floating-ui](../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.
 - **Skill_Audit** (1):

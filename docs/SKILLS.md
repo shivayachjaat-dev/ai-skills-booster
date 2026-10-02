@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 979 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 980 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -315,6 +315,7 @@
 | [fda-medtech-compliance-auditor](skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
 | [feature-tracking](skills/ai-engineering/models/feature_tracking/feature-tracking/SKILL.md) | `ai-engineering` | `models` | `feature_tracking` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for feature tracking. Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes. |
 | [fedora-hyprland-installer](skills/ai-engineering/models/fedora_hyprland_inst/fedora-hyprland-installer/SKILL.md) | `ai-engineering` | `models` | `fedora_hyprland_inst` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fedora hyprland installer. Install, configure, verify, repair, update, and uninstall Hyprland on Fedora Linux with GPU-aware detection (NVIDIA/AMD/Intel). |
+| [film-crew](skills/ai-engineering/models/film_crew/film-crew/SKILL.md) | `ai-engineering` | `models` | `film_crew` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for film crew. Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedanc... |
 | [floating-ui](skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) | `ai-engineering` | `models` | `floating_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
