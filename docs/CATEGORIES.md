@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **257** skills across structured domains, categories, and subcategories.
+Master navigation for **258** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (79 skills)
+## Ai Engineering (80 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (39 skills)
+### Models (40 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -185,6 +185,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-ai-language-conversations-py](../skills/ai-engineering/models/azure_ai_language_co/azure-ai-language-conversations-py/SKILL.md) — Use this skill to implement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK. Use when working with ConversationAnalysisClient to analyze conversation intent and entities, building NLP features, or integrating language understanding into applications.
 - **Azure_Ai_Ml_Py** (1):
   - [azure-ai-ml-py](../skills/ai-engineering/models/azure_ai_ml_py/azure-ai-ml-py/SKILL.md) — Use this skill to azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.
+- **Azure_Ai_Openai_Dotn** (1):
+  - [azure-ai-openai-dotnet](../skills/ai-engineering/models/azure_ai_openai_dotn/azure-ai-openai-dotnet/SKILL.md) — Use this skill to azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

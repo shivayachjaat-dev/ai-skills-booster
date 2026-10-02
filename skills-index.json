@@ -1601,6 +1601,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-openai-dotnet",
+    "path": "skills/ai-engineering/models/azure_ai_openai_dotn/azure-ai-openai-dotnet",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_openai_dotn",
+    "description": "Use this skill to azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Openai Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **39 skills** available in this category.
+> **40 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,4 +42,5 @@
 | [azure-ai-formrecognizer-java](../../skills/ai-engineering/models/azure_ai_formrecogni/azure-ai-formrecognizer-java/SKILL.md) | `azure_ai_formrecogni` | `advanced` | `stable` | Use this skill to build document analysis applications using the Azure AI Document Intelligence SDK for Java. |
 | [azure-ai-language-conversations-py](../../skills/ai-engineering/models/azure_ai_language_co/azure-ai-language-conversations-py/SKILL.md) | `azure_ai_language_co` | `advanced` | `stable` | Use this skill to implement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK. Use when working with ConversationAnalysisClient to analyze conversation intent and entities, building NLP features, or integrating language understanding into applications. |
 | [azure-ai-ml-py](../../skills/ai-engineering/models/azure_ai_ml_py/azure-ai-ml-py/SKILL.md) | `azure_ai_ml_py` | `advanced` | `stable` | Use this skill to azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines. |
+| [azure-ai-openai-dotnet](../../skills/ai-engineering/models/azure_ai_openai_dotn/azure-ai-openai-dotnet/SKILL.md) | `azure_ai_openai_dotn` | `advanced` | `stable` | Use this skill to azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
