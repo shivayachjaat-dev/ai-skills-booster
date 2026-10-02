@@ -2883,6 +2883,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-resource-manager-sql-dotnet",
+    "path": "skills/backend/databases/azure_resource_manag/azure-resource-manager-sql-dotnet",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "azure_resource_manag",
+    "description": "Use this skill to azure Resource Manager SDK for Azure SQL in .NET.",
+    "tags": [
+      "backend",
+      "databases",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Resource Manager Sql Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
