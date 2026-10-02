@@ -5407,6 +5407,28 @@
     "maturity": "stable"
   },
   {
+    "name": "design-spells",
+    "path": "skills/ai-engineering/models/design_spells/design-spells",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "design_spells",
+    "description": "Use this skill to design, implement, and operate production workflows for design spells. Curated micro-interactions and design details that add \"magic\" and personality to websites and apps.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "design",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Design Spells",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
