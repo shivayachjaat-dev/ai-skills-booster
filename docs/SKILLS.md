@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 790 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 791 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -600,6 +600,7 @@
 | [neo-brutalism](skills/frontend/web-architecture/neo_brutalism/neo-brutalism/SKILL.md) | `frontend` | `web-architecture` | `neo_brutalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look. |
 | [neumorphism](skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) | `frontend` | `web-architecture` | `neumorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation. |
 | [production-audit](skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `frontend` | `web-architecture` | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
+| [retro-design](skills/frontend/web-architecture/retro_design/retro-design/SKILL.md) | `frontend` | `web-architecture` | `retro_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for retro design. Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts. |
 | [security-audit](skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `frontend` | `web-architecture` | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `frontend` | `web-architecture` | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |
 | [web3-audit](skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) | `frontend` | `web-architecture` | `web3_audit` | `advanced` | `stable` | Use this skill to smart contract security audit |
