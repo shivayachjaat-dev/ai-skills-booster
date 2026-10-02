@@ -18583,6 +18583,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-patterns",
+    "path": "skills/frontend/ui-ux/hig_patterns/hig-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hig_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for hig patterns. Apple Human Interface Guidelines interaction and UX patterns.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
