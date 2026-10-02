@@ -4043,6 +4043,28 @@
     "maturity": "stable"
   },
   {
+    "name": "container-hardening",
+    "path": "skills/ai-engineering/models/container_hardening/container-hardening",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "container_hardening",
+    "description": "Use this skill to secure Docker images and container runtime configurations.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "container",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Container Hardening",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

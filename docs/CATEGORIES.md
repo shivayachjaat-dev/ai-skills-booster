@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **590** skills across structured domains, categories, and subcategories.
+Master navigation for **591** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (203 skills)
+## Ai Engineering (204 skills)
 
 ### Agents (24 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -134,7 +134,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (138 skills)
+### Models (139 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -402,6 +402,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [conductor-setup](../skills/ai-engineering/models/conductor_setup/conductor-setup/SKILL.md) — Use this skill to configure a Rails project to work with Conductor (parallel coding agents)
 - **Constraint_Driven_De** (1):
   - [constraint-driven-development](../skills/ai-engineering/models/constraint_driven_de/constraint-driven-development/SKILL.md) — Use this skill to write the project quality bar as enforced CONSTRAINTS.md so agents stop
+- **Container_Hardening** (1):
+  - [container-hardening](../skills/ai-engineering/models/container_hardening/container-hardening/SKILL.md) — Use this skill to secure Docker images and container runtime configurations.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
