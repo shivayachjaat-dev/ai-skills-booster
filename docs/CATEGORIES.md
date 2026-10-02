@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **419** skills across structured domains, categories, and subcategories.
+Master navigation for **420** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (140 skills)
+## Ai Engineering (141 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -118,7 +118,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (85 skills)
+### Models (86 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -280,6 +280,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [brand-guidelines](../skills/ai-engineering/models/brand_guidelines/brand-guidelines/SKILL.md) — Use this skill to write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones.
 - **Break_Ai_Fix_Loops** (1):
   - [break-ai-fix-loops](../skills/ai-engineering/models/break_ai_fix_loops/break-ai-fix-loops/SKILL.md) — Use this skill to stop ineffective AI coding repair loops with stable failure fingerprints, a three-attempt budget, real-path proof, negative controls, and tested rollback.
+- **Brevo_Automation** (1):
+  - [brevo-automation](../skills/ai-engineering/models/brevo_automation/brevo-automation/SKILL.md) — Use this skill to automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

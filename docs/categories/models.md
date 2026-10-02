@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **85 skills** available in this category.
+> **86 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -88,4 +88,5 @@
 | [brainstorming](../../skills/ai-engineering/models/brainstorming/brainstorming/SKILL.md) | `brainstorming` | `advanced` | `stable` | Use this skill to use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration. |
 | [brand-guidelines](../../skills/ai-engineering/models/brand_guidelines/brand-guidelines/SKILL.md) | `brand_guidelines` | `advanced` | `stable` | Use this skill to write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones. |
 | [break-ai-fix-loops](../../skills/ai-engineering/models/break_ai_fix_loops/break-ai-fix-loops/SKILL.md) | `break_ai_fix_loops` | `advanced` | `stable` | Use this skill to stop ineffective AI coding repair loops with stable failure fingerprints, a three-attempt budget, real-path proof, negative controls, and tested rollback. |
+| [brevo-automation](../../skills/ai-engineering/models/brevo_automation/brevo-automation/SKILL.md) | `brevo_automation` | `advanced` | `stable` | Use this skill to automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

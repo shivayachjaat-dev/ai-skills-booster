@@ -2701,6 +2701,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brevo-automation",
+    "path": "skills/ai-engineering/models/brevo_automation/brevo-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "brevo_automation",
+    "description": "Use this skill to automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "brevo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brevo Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

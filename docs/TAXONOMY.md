@@ -125,6 +125,7 @@ AI_Skills_Booster/
 │   │   ├── brainstorming/ (1 skills)
 │   │   ├── brand_guidelines/ (1 skills)
 │   │   ├── break_ai_fix_loops/ (1 skills)
+│   │   ├── brevo_automation/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
