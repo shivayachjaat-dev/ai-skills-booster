@@ -11066,6 +11066,28 @@
     "maturity": "stable"
   },
   {
+    "name": "go-rust-reverse",
+    "path": "skills/data-analytics/data-pipelines/go_rust_reverse/go-rust-reverse",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "go_rust_reverse",
+    "description": "Use this skill to design, implement, and operate production workflows for go rust reverse. Reverse engineer stripped Go and Rust binaries: runtime recognition, pclntab/module metadata recovery, panic-string analysis, and idiomatic decompilation strategies.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "go",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Go Rust Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

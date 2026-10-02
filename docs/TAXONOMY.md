@@ -532,6 +532,7 @@ AI_Skills_Booster/
 │   │   ├── diagram_generator/ (1 skills)
 │   │   ├── dwarf_expert/ (1 skills)
 │   │   ├── fp_data_transforms/ (1 skills)
+│   │   ├── go_rust_reverse/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
