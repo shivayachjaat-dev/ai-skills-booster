@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,413** skills across structured domains, categories, and subcategories.
+Master navigation for **1,414** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (484 skills)
+## Ai Engineering (485 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -214,7 +214,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (11 skills)
+### Llm Ops (12 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -239,6 +239,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [llm-caching](../skills/ai-engineering/llm-ops/llm_caching/llm-caching/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm caching. Implement multi-layer LLM caching with exact match, semantic similarity,
 - **Llm_Cost_Optimizatio** (1):
   - [llm-cost-optimization](../skills/ai-engineering/llm-ops/llm_cost_optimizatio/llm-cost-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm cost optimization. Reduce LLM API and infrastructure costs through model selection, prompt
+- **Llm_Evaluation** (1):
+  - [llm-evaluation](../skills/ai-engineering/llm-ops/llm_evaluation/llm-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for llm evaluation. Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing.
 
 ### Models (354 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)

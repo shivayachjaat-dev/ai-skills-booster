@@ -2195,6 +2195,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-evaluation",
+    "path": "skills/ai-engineering/llm-ops/llm_evaluation/llm-evaluation",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llm_evaluation",
+    "description": "Use this skill to design, implement, and operate production workflows for llm evaluation. Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing.",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Evaluation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",
