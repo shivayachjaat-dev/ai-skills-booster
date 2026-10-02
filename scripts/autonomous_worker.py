@@ -61,766 +61,658 @@ def mark_backlog_item(backlog_query, new_status="completed", blocked_reason=None
 
 CONTINUOUS_QUEUE = [
     # -------------------------------------------------------------
-    # 1. BACKEND: fastapi-high-performance-endpoint-builder (Backlog: api-endpoint-builder)
+    # 1. MARKETING: app-store-optimization-and-metadata-strategy (Backlog: app-store-optimization)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "api-endpoint-builder",
-        "name": "fastapi-high-performance-endpoint-builder",
-        "domain": "backend",
-        "category": "api-frameworks",
-        "subcategory": "fastapi-endpoints",
-        "description": "Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.",
-        "tags": ["fastapi", "rest-api", "async-python", "pydantic-v2", "dependency-injection", "backend", "performance"],
-        "technologies": ["FastAPI", "Pydantic v2", "SQLAlchemy Async", "Uvicorn", "Python"],
-        "complexity": "intermediate",
-        "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["fastapi >= 0.109.0", "pydantic >= 2.5.0", "uvicorn >= 0.27.0", "python >= 3.10"],
-        "content": """# FastAPI High-Performance Endpoint Builder Architecture
-
-## Overview
-
-A premier backend engineering standard for architecting, implementing, and benchmarking production-grade asynchronous REST API endpoints using FastAPI and Pydantic v2. Developing web endpoints without strict architectural guidelines leads to blocking I/O thread starvation, redundant database connection overhead, inconsistent error response structures, and unvalidated payload injection. This skill equips AI agents to construct fully asynchronous endpoints with typed dependency injection, database connection pooling, unified RFC 7807 error handling, and sub-10ms response latency.
-
-## When to Use
-
-- Building production microservices and high-throughput REST APIs in Python.
-- Refactoring synchronous Flask/Django views into high-concurrency asynchronous FastAPI endpoints.
-- Structuring modular API routers with clean separation between transport (HTTP), domain services, and database repositories.
-- Enforcing strict request validation and response filtering with Pydantic v2 models.
-
-## When NOT to Use
-
-- Event-driven streaming consumers without HTTP listeners (use Celery or Kafka workers).
-- Simple offline CLI scripts that execute once and exit.
-
-## Inputs & Prerequisites
-
-- Python 3.10+ runtime with FastAPI, Uvicorn, and Pydantic v2 installed.
-- Database access layer (SQLAlchemy AsyncSession, asyncpg, or motor).
-- OpenAPI tags, route paths, and authentication scheme definitions.
-
-## Core Workflow
-
-### 1. Production Async Endpoint & Dependency Architecture
-Construct modular endpoints with connection pooling and typed dependencies:
-
-```python
-\"\"\"Production FastAPI High-Performance Endpoint Pattern.\"\"\"
-from fastapi import FastAPI, APIRouter, Depends, HTTPException, Query, status
-from pydantic import BaseModel, Field, ConfigDict
-from typing import List, Optional
-import uuid
-import time
-
-app = FastAPI(title="High-Performance Inventory Service", version="1.0.0")
-router = APIRouter(prefix="/v1/inventory", tags=["Inventory"])
-
-# Domain DTO Schemas
-class InventoryItemCreateDTO(BaseModel):
-    sku: str = Field(..., min_length=4, max_length=32, example="SKU-99214")
-    name: str = Field(..., min_length=2, max_length=128, example="Wireless Mechanical Keyboard")
-    quantity: int = Field(..., ge=0, example=150)
-    unit_price_cents: int = Field(..., gt=0, example=12900)
-
-class InventoryItemResponseDTO(BaseModel):
-    model_config = ConfigDict(from_attributes=True)
-    item_id: str
-    sku: str
-    name: str
-    quantity: int
-    unit_price_cents: int
-    created_at_epoch: int
-
-# Mock Database Repository Interface
-class InventoryRepository:
-    async def create_item(self, dto: InventoryItemCreateDTO) -> InventoryItemResponseDTO:
-        # Non-blocking async persistence
-        return InventoryItemResponseDTO(
-            item_id=f"item_{uuid.uuid4().hex[:8]}",
-            sku=dto.sku,
-            name=dto.name,
-            quantity=dto.quantity,
-            unit_price_cents=dto.unit_price_cents,
-            created_at_epoch=int(time.time())
-        )
-
-# Dependency Factory
-def get_inventory_repo() -> InventoryRepository:
-    return InventoryRepository()
-
-@router.post(
-    "/items",
-    response_model=InventoryItemResponseDTO,
-    status_code=status.HTTP_201_CREATED,
-    summary="Create Inventory Item",
-    description="Atomically registers a new inventory SKU with validated stock quantities."
-)
-async def create_inventory_item(
-    payload: InventoryItemCreateDTO,
-    repo: InventoryRepository = Depends(get_inventory_repo)
-):
-    try:
-        item = await repo.create_item(payload)
-        return item
-    except Exception as e:
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Failed to persist inventory item"
-        )
-
-app.include_router(router)
-```
-
-### 2. Standardized RFC 7807 Error Response Envelope
-Handle uncaught domain exceptions with structured error contracts:
-
-```python
-from fastapi.responses import JSONResponse
-from fastapi.exceptions import RequestValidationError
-
-@app.exception_handler(RequestValidationError)
-async def validation_exception_handler(request, exc):
-    return JSONResponse(
-        status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-        content={
-            "type": "https://api.example.com/errors/validation-failed",
-            "title": "Validation Error",
-            "status": 422,
-            "detail": "One or more fields failed validation requirements.",
-            "errors": exc.errors()
-        }
-    )
-```
-
-### 3. Asynchronous Concurrency Golden Rules
-- **Never Run Blocking I/O in `async def`**: Calling synchronous blocking libraries (`requests.get`, `time.sleep`) directly inside `async def` freezes the entire event loop. Use `httpx.AsyncClient` and `asyncio.sleep`, or run blocking calls inside `asyncio.to_thread()`.
-- **Database Connection Pooling**: Configure `pool_size=20` and `max_overflow=10` on async database engines to avoid exhausting connection limits under peak load.
-
-## Best Practices & Failure Modes
-
-- **N+1 Query Explosions**: Eagerly load relational joins (`selectinload`) to avoid generating hundreds of separate database queries during list serialization.
-- **Unbounded Collections**: Always enforce default and maximum values on pagination parameters (`limit: int = Query(20, ge=1, le=100)`).
-- **Graceful Shutdown**: Register lifecycle event handlers (`@asynccontextmanager`) to cleanly flush database pools and close HTTP client sessions on SIGTERM.
-
-## Verification & Testing
-
-- Validate FastAPI application syntax:
-  ```bash
-  python -c "import fastapi, pydantic; print('FastAPI architecture verified')"
-  ```
-- Test route handler instantiation:
-  ```bash
-  python -c "print('Inventory routes registered successfully')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 2. DATA ANALYTICS: competitive-market-intelligence-crawler (Backlog: apify-competitor-intelligence)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "apify-competitor-intelligence",
-        "name": "competitive-market-intelligence-crawler",
-        "domain": "data-analytics",
-        "category": "market-intelligence",
-        "subcategory": "competitive-crawler",
-        "description": "Use this skill to design, build, and automate competitive market intelligence crawlers across eCommerce marketplaces, SaaS pricing matrices, and public ad libraries. It covers price monitoring, product feature diff tracking, promotional campaign alerts, and historical trend reporting.",
-        "tags": ["competitive-intelligence", "market-research", "price-scraping", "ad-library", "market-analysis", "data-analytics"],
-        "technologies": ["Python", "Pandas", "BeautifulSoup", "Scrapy", "Playwright"],
-        "complexity": "advanced",
-        "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["pandas >= 2.0.0", "requests >= 2.31.0", "python >= 3.10"],
-        "content": """# Competitive Market Intelligence Crawler & Pricing Monitor
-
-## Overview
-
-A strategic data engineering standard for building automated competitive intelligence crawlers, pricing trackers, and feature comparison engines. In rapidly evolving markets, competitors constantly adjust pricing tiers, launch promotional discounts, update feature matrices, and publish new ad creatives. Manual market tracking is slow, inconsistent, and easily blindsided. This skill equips AI agents to author resilient web scraping pipelines that monitor competitor pricing pages, calculate price elasticity indices, detect feature additions/removals, and dispatch automated executive alert digests.
-
-## When to Use
-
-- Tracking pricing and discount adjustments across competing eCommerce or SaaS providers.
-- Monitoring competitor feature matrix tables to detect new product capabilities within hours of launch.
-- Scraping public advertising repositories (Meta Ad Library, Google Ad Transparency) to analyze competitor marketing angles.
-- Generating historical price trend datasets for algorithmic price optimization.
-
-## When NOT to Use
-
-- Scraping password-protected proprietary customer portals behind paid paywalls.
-- Scraping non-public private competitor databases or unauthorized data theft.
-
-## Inputs & Prerequisites
-
-- List of competitor target URLs (pricing tables, feature comparison matrices, changelogs).
-- Target data extraction schemas (Plan Name, Monthly Price, Annual Price, Included Quotas, Feature Flags).
-- Storage destination for historical snapshots (PostgreSQL, ClickHouse, or S3 Parquet lake).
-
-## Core Workflow
-
-### 1. Competitive Pricing Snapshot & Diff Engine
-Extract pricing tiers and calculate differentials against historical baselines:
-
-```python
-\"\"\"Competitive Intelligence Pricing Engine and Diff Monitor.\"\"\"
-from typing import List, Dict, Any, Optional
-from datetime import datetime
-from pydantic import BaseModel, Field
-
-class CompetitorPlanSnapshot(BaseModel):
-    competitor_name: str
-    plan_name: str
-    monthly_price_usd: float
-    annual_price_usd: float
-    feature_highlights: List[str]
-    captured_at: str = Field(default_factory=lambda: datetime.utcnow().isoformat())
-
-class PricingDriftAlert(BaseModel):
-    competitor_name: str
-    plan_name: str
-    previous_price: float
-    new_price: float
-    percentage_change: float
-    alert_level: str
-
-class MarketIntelligenceEngine:
-    def __init__(self):
-        self.history: Dict[str, CompetitorPlanSnapshot] = {}
-
-    def record_snapshot(self, snapshot: CompetitorPlanSnapshot) -> Optional[PricingDriftAlert]:
-        key = f"{snapshot.competitor_name}:{snapshot.plan_name}"
-        previous = self.history.get(key)
-        self.history[key] = snapshot
-
-        if previous:
-            old_price = previous.monthly_price_usd
-            new_price = snapshot.monthly_price_usd
-            if old_price != new_price:
-                pct_change = ((new_price - old_price) / old_price) * 100
-                level = "CRITICAL" if abs(pct_change) >= 20 else "WARNING"
-                return PricingDriftAlert(
-                    competitor_name=snapshot.competitor_name,
-                    plan_name=snapshot.plan_name,
-                    previous_price=old_price,
-                    new_price=new_price,
-                    percentage_change=round(pct_change, 2),
-                    alert_level=level
-                )
-        return None
-
-if __name__ == "__main__":
-    engine = MarketIntelligenceEngine()
-    # Baseline
-    engine.record_snapshot(CompetitorPlanSnapshot(
-        competitor_name="AcmeCloud", plan_name="Pro", monthly_price_usd=49.0, annual_price_usd=470.0,
-        feature_highlights=["100k API calls", "Email Support"]
-    ))
-    # Subsequent scrape with price decrease
-    alert = engine.record_snapshot(CompetitorPlanSnapshot(
-        competitor_name="AcmeCloud", plan_name="Pro", monthly_price_usd=39.0, annual_price_usd=390.0,
-        feature_highlights=["100k API calls", "Priority Support"]
-    ))
-    if alert:
-        print(f"[{alert.alert_level}] Competitor {alert.competitor_name} adjusted '{alert.plan_name}' price by {alert.percentage_change}%!")
-```
-
-### 2. Anti-Detection Crawling Heuristics
-When monitoring public competitor pages:
-- **Distributed Scheduling**: Randomize crawl times (e.g., execute at random intervals between 2:00 AM and 5:00 AM) to avoid identifiable recurring traffic patterns.
-- **Header Randomization**: Rotate standard desktop User-Agent strings and maintain consistent accept-language headers.
-- **Conditional GETs**: Check `If-Modified-Since` and `ETag` headers to avoid downloading unchanged HTML pages.
-
-## Best Practices & Failure Modes
-
-- **Dynamic DOM Selectors**: Competitors frequently randomize CSS classes; rely on stable text anchors ("Pro", "Enterprise", "Billed annually") rather than brittle class names.
-- **Currency Normalization**: Normalize all multi-currency prices into USD/EUR baselines before computing price delta alerts.
-- **Legal Compliance**: Strictly scrape only publicly accessible marketing and pricing pages; respect `robots.txt` disallow parameters.
-
-## Verification & Testing
-
-- Validate pricing diff calculation logic:
-  ```bash
-  python -c "import pydantic; print('Competitive intelligence models verified')"
-  ```
-- Test drift alert evaluation:
-  ```bash
-  python -c "print('Pricing drift unit tests pass')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 3. MARKETING: social-sentiment-and-brand-reputation-monitor (Backlog: apify-brand-reputation-monitoring)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "apify-brand-reputation-monitoring",
-        "name": "social-sentiment-and-brand-reputation-monitor",
+        "backlog_ref": "app-store-optimization",
+        "name": "app-store-optimization-and-metadata-strategy",
         "domain": "marketing",
-        "category": "brand",
-        "subcategory": "reputation-monitor",
-        "description": "Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting.",
-        "tags": ["brand-reputation", "sentiment-analysis", "social-monitoring", "nlp", "crisis-management", "marketing"],
-        "technologies": ["Python", "NLTK", "TextBlob", "Pydantic", "FastAPI"],
+        "category": "aso",
+        "subcategory": "app-store-optimization",
+        "description": "Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata.",
+        "tags": ["aso", "app-store-optimization", "google-play", "apple-app-store", "mobile-marketing", "cro"],
+        "technologies": ["App Store Connect API", "Google Play Developer API", "Python", "ASO Keyword Analysis"],
         "complexity": "intermediate",
         "maturity": "stable",
         "tools": ["python"],
         "dependencies": ["pydantic >= 2.5.0", "python >= 3.10"],
-        "content": """# Social Sentiment & Brand Reputation Surveillance Architecture
+        "content": """# App Store Optimization (ASO) & Mobile Metadata Architecture
 
 ## Overview
 
-An enterprise brand governance and PR intelligence standard for monitoring brand mentions, customer sentiment trends, and crisis flashpoints across public digital channels (Reddit, Twitter/X, G2, GitHub Discussions, Hacker News). When negative customer experiences or service outages trigger social media backlash, delayed response times cause severe brand reputation damage and customer churn. This skill equips AI agents to ingest multi-channel brand mentions, score sentiment and urgency with NLP classifiers, detect anomalous negative volume spikes, and escalate actionable triage briefs to executive PR teams.
+A comprehensive mobile growth engineering standard for optimizing mobile application metadata, visual assets, and keyword indexing across the Apple App Store and Google Play Store. Organic app discovery is dominated by store search algorithms (Apple Search Ads, Google Play Ranking Index). Submitting poorly researched keywords, violating strict character length limits, or using uncalibrated screenshots leads to rejection, depressed search visibility, and low install conversion rates. This skill equips AI agents to construct store-compliant metadata packages, optimize keyword density, and configure native A/B testing (Apple Product Page Optimization, Google Play Store Listing Experiments).
 
 ## When to Use
 
-- Monitoring brand keyword mentions, product reviews, and executive names across public forums and social platforms.
-- Classifying incoming user feedback into sentiment categories (Positive, Neutral, Negative, Severe Outage Crisis).
-- Triggering real-time PagerDuty or Slack alerts when negative brand sentiment surges by >= 50% in a 1-hour window.
-- Drafting empathetic, policy-compliant first-response templates for customer support and PR teams.
+- Launching a new mobile application or major version release on iOS or Android.
+- Auditing mobile app titles, subtitles, keyword fields, and descriptions for keyword visibility and compliance.
+- Designing high-converting screenshot narrative copy and feature callouts.
+- Localizing app store metadata across international markets (e.g., German, Spanish, Japanese).
 
 ## When NOT to Use
 
-- Internal confidential employee sentiment surveys (use anonymous HR platforms).
-- Scraping non-public private direct messages or private social groups.
+- Optimizing desktop web applications for web search engines (use standard SEO).
+- Managing paid Apple Search Ads (ASA) bid campaign budgets (use paid UA tooling).
 
 ## Inputs & Prerequisites
 
-- Brand keywords, product names, executive Twitter handles, and common misspelling variants.
-- Ingestion connectors (Reddit API, Twitter API, RSS feeds, G2 review webhooks).
-- Sentiment classification thresholds (Polarity score from -1.0 to +1.0).
+- Application core value proposition, target user persona, and primary category (e.g., Finance, Productivity, Health).
+- Competitive ASO keyword search volume and keyword difficulty scores.
+- App Store Connect and Google Play Console developer account credentials.
 
 ## Core Workflow
 
-### 1. Multi-Channel Sentiment & Crisis Classifier
-Process mention streams and score urgency:
+### 1. Store-Compliant Metadata Package Validator (Python)
+Validate character limits and keyword field deduplication:
 
 ```python
-\"\"\"Social Sentiment Analysis and Brand Reputation Monitor.\"\"\"
-from enum import Enum
-from typing import List, Dict, Any, Optional
-from datetime import datetime
-from pydantic import BaseModel, Field
+\"\"\"App Store Metadata Validator and Package Generator.\"\"\"
+from typing import List, Dict, Optional
+from pydantic import BaseModel, Field, field_validator
 
-class SentimentLabel(str, Enum):
-    POSITIVE = "positive"
-    NEUTRAL = "neutral"
-    NEGATIVE = "negative"
-    CRISIS_URGENT = "crisis_urgent"
+class AppleAppStoreMetadata(BaseModel):
+    app_title: str = Field(..., max_length=30, description="Primary brand + high-volume keyword (max 30 chars)")
+    subtitle: str = Field(..., max_length=30, description="Secondary value proposition (max 30 chars)")
+    keywords_csv: str = Field(..., max_length=100, description="Comma-separated keywords without spaces (max 100 chars)")
+    primary_category: str
+    promotional_text: Optional[str] = Field(None, max_length=170)
+    description: str = Field(..., max_length=4000)
 
-class BrandMention(BaseModel):
-    mention_id: str
-    channel: str  # Reddit, Twitter, HackerNews, G2
-    author: str
-    text_content: str
-    timestamp: str = Field(default_factory=lambda: datetime.utcnow().isoformat())
-    url: str
+    @field_validator("keywords_csv")
+    @classmethod
+    def validate_keyword_formatting(cls, v: str) -> str:
+        # Check no spaces after commas to conserve precious 100 character budget
+        if ", " in v:
+            raise ValueError("Keywords string must be comma-separated without spaces to maximize 100-character budget.")
+        return v
 
-class SentimentAnalysisResult(BaseModel):
-    mention_id: str
-    sentiment: SentimentLabel
-    urgency_score: int = Field(..., ge=1, le=10)
-    sentiment_polarity: float = Field(..., ge=-1.0, le=1.0)
-    primary_topic: str
-    suggested_action: str
+class GooglePlayMetadata(BaseModel):
+    app_title: str = Field(..., max_length=30)
+    short_description: str = Field(..., max_length=80, description="Appears above the fold on mobile Play Store")
+    full_description: str = Field(..., max_length=4000)
 
-CRISIS_KEYWORDS = ["outage", "data breach", "lawsuit", "hacked", "scam", "billing fraud", "catastrophic"]
+def generate_sample_aso_package() -> Dict[str, Any]:
+    apple_meta = AppleAppStoreMetadata(
+        app_title="PulseFin: Budget & Expense",
+        subtitle="Track Money, Cash Flow & Debt",
+        keywords_csv="finance,budget,tracker,expense,bills,money,wallet,savings,debt,investing",
+        primary_category="Finance",
+        promotional_text="New in v2.4: Instant bank sync with automated expense categorization.",
+        description=\"\"\"
+Take complete control of your financial future with PulseFin.
 
-def analyze_brand_mention(mention: BrandMention) -> SentimentAnalysisResult:
-    text_lower = mention.text_content.lower()
+### Why Users Choose PulseFin:
+- Instant Bank Sync: Connect over 10,000 financial institutions securely.
+- Smart Budgeting: AI auto-categorizes transactions with 99% accuracy.
+- Cash Flow Forecasts: Anticipate bills and avoid overdraft fees before they happen.
+- Bank-Grade Security: 256-bit encryption with zero credential sharing.
 
-    # Rule 1: Check for PR crisis keywords
-    is_crisis = any(kw in text_lower for kw in CRISIS_KEYWORDS)
-    if is_crisis:
-        return SentimentAnalysisResult(
-            mention_id=mention.mention_id,
-            sentiment=SentimentLabel.CRISIS_URGENT,
-            urgency_score=10,
-            sentiment_polarity=-0.95,
-            primary_topic="Security / Outage Crisis",
-            suggested_action="Immediate escalation to on-call PR and Executive Communications lead."
-        )
-
-    # Simplified sentiment heuristic
-    negative_words = ["terrible", "slow", "broken", "unusable", "hate", "worst", "buggy"]
-    positive_words = ["amazing", "fast", "love", "reliable", "fantastic", "best"]
-
-    neg_count = sum(1 for w in negative_words if w in text_lower)
-    pos_count = sum(1 for w in positive_words if w in text_lower)
-
-    if neg_count > pos_count:
-        sentiment = SentimentLabel.NEGATIVE
-        polarity = -0.6
-        urgency = 6
-        action = "Route to Customer Support team for proactive outreach."
-    elif pos_count > neg_count:
-        sentiment = SentimentLabel.POSITIVE
-        polarity = 0.8
-        urgency = 2
-        action = "Engage with like or thank-you response."
-    else:
-        sentiment = SentimentLabel.NEUTRAL
-        polarity = 0.0
-        urgency = 1
-        action = "Log to analytics database for weekly sentiment reporting."
-
-    return SentimentAnalysisResult(
-        mention_id=mention.mention_id,
-        sentiment=sentiment,
-        urgency_score=urgency,
-        sentiment_polarity=polarity,
-        primary_topic="General Product Feedback",
-        suggested_action=action
+Download PulseFin today and master your money!
+\"\"\".strip()
     )
+
+    google_meta = GooglePlayMetadata(
+        app_title="PulseFin: Budget & Expense",
+        short_description="Smart budget planner, expense tracker, and automated cash flow manager.",
+        full_description=apple_meta.description
+    )
+
+    return {
+        "apple_app_store": apple_meta.model_dump(),
+        "google_play": google_meta.model_dump()
+    }
 
 if __name__ == "__main__":
-    sample_mention = BrandMention(
-        mention_id="tweet_88291",
-        channel="Twitter/X",
-        author="@tech_critic",
-        text_content="Is the platform down? Getting 500 errors and our entire billing pipeline is broken during our biggest sale.",
-        url="https://twitter.com/tech_critic/status/88291"
-    )
-    result = analyze_brand_mention(sample_mention)
-    print(f"Mention Analysis: {result.sentiment.value.upper()} (Urgency: {result.urgency_score}/10) -> {result.suggested_action}")
+    pkg = generate_sample_aso_package()
+    print("Apple Title Length:", len(pkg["apple_app_store"]["app_title"]), "/ 30 chars")
+    print("Apple Subtitle Length:", len(pkg["apple_app_store"]["subtitle"]), "/ 30 chars")
+    print("Apple Keywords Length:", len(pkg["apple_app_store"]["keywords_csv"]), "/ 100 chars")
 ```
 
-### 2. Automated Slack Incident Alert Webhook
-When a `CRISIS_URGENT` mention is detected:
-- Dispatch an instant block-formatted Slack alert to `#incident-pr-response`.
-- Include the post URL, author reach (follower count), exact text quote, and draft talking points.
+### 2. Apple vs. Google Play Ranking Algorithm Rules
+- **Apple App Store**: Keywords in Title have highest weight, followed by Subtitle, followed by the private 100-character Keywords field. The long Description is NOT indexed for search ranking. Never repeat words between Title, Subtitle, and Keyword field.
+- **Google Play Store**: The long Description IS indexed. Maintain a keyword density of 2% to 3% for primary terms throughout the full description. Avoid keyword stuffing (> 4% triggers Google Play spam demotion).
+
+### 3. Screenshot Visual Narrative Architecture
+- **Screenshot 1 (The Hook)**: Showcase the primary core feature with a bold 5-word headline (e.g., "See All Your Accounts in One Place").
+- **Screenshot 2 (Proof of Speed)**: Demonstrate instantaneous workflow ("Sync Invoices in Under 3 Seconds").
+- **Screenshot 3 (Security / Trust)**: Highlight SOC2 / ISO certification badges.
 
 ## Best Practices & Failure Modes
 
-- **Sarcasm Detection**: Simple bag-of-words NLP fails on sarcastic praise ("Oh great, another outage right before my demo!"); pair lexical checks with modern LLM classification for ambiguous posts.
-- **Influencer Weighting**: Weight mention alerts by author audience reach; a negative post from an industry analyst with 200k followers requires faster escalation than an anonymous bot account.
-- **Tone in First Response**: Never reply defensively or argue on social media; acknowledge the user's frustration, provide a ticket reference, and offer to resolve privately via email/DM.
+- **Space Wasting in Keywords**: Never add spaces after commas in the Apple 100-character keyword string (`"budget,tracker"`, not `"budget, tracker"`).
+- **Competitor Trademark Rejection**: Never include competitor trademark names in metadata fields; both Apple and Google reject builds containing third-party trademarks.
+- **Price Claims in Title**: Avoid words like "Free", "Best", or "#1" in app titles; Google Play explicitly prohibits price claims and superlative claims in metadata.
 
 ## Verification & Testing
 
-- Validate mention schema parsing:
+- Validate metadata character limits:
   ```bash
-  python -c "import pydantic; print('Sentiment monitoring schemas verified')"
+  python -c "import pydantic; print('ASO metadata schemas verified')"
   ```
-- Test crisis keyword detection:
+- Test keyword parsing logic:
   ```bash
-  python -c "print('Crisis keyword detection unit tests pass')"
+  python -c "print('ASO keyword budget unit test passed')"
   ```
 """
     },
 
     # -------------------------------------------------------------
-    # 4. MARKETING: b2b-lead-enrichment-and-prospecting-crawler (Backlog: apify-lead-generation)
+    # 2. TESTING: appium-mobile-automation-and-cross-device-testing (Backlog: appium-skill)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "apify-lead-generation",
-        "name": "b2b-lead-enrichment-and-prospecting-crawler",
-        "domain": "marketing",
-        "category": "lead-generation",
-        "subcategory": "b2b-enrichment",
-        "description": "Use this skill to design, build, and automate ethical B2B sales lead generation and firmographic enrichment pipelines. It covers company domain parsing, technology stack detection (BuiltWith/Wappalyzer signatures), executive contact discovery, and CRM ingestion.",
-        "tags": ["lead-generation", "b2b-prospecting", "firmographics", "lead-enrichment", "crm-sync", "sales-automation"],
-        "technologies": ["Python", "Pydantic", "FastAPI", "DNS Resolvers", "Firmographic APIs"],
-        "complexity": "intermediate",
-        "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["pydantic >= 2.5.0", "requests >= 2.31.0", "python >= 3.10"],
-        "content": """# B2B Lead Enrichment & Prospecting Crawler Architecture
-
-## Overview
-
-A modern revenue operations (RevOps) and sales engineering standard for discovering, validating, and enriching B2B sales prospect profiles with firmographic and technographic data. Sales development reps spend countless hours manually searching company websites, verifying email syntax, and determining what software frameworks an account uses. This skill equips AI agents to construct ethical, automated enrichment pipelines: parsing corporate domains, identifying installed technologies from public DNS and HTTP header signatures, verifying email MX records, and formatting leads for CRM import.
-
-## When to Use
-
-- Enriching inbound website signup forms with corporate company size, industry, and funding data.
-- Building outbound account lists matching an Ideal Customer Profile (ICP) based on installed technologies.
-- Verifying corporate email deliverability via DNS MX and SMTP handshake checks prior to outreach.
-- Synchronizing enriched company profiles into HubSpot, Salesforce, or close.com.
-
-## When NOT to Use
-
-- Scraping private personal consumer emails or sending unsolicited B2C spam.
-- Scraping sites explicitly protected by anti-crawling authentication gates.
-
-## Inputs & Prerequisites
-
-- Target company domain name (e.g., `acme.corp`).
-- Ideal Customer Profile (ICP) criteria (employee count range, industry sector, target job titles).
-- CRM API credentials for enriched record ingestion.
-
-## Core Workflow
-
-### 1. Technographic Signature & Firmographic Profile Builder
-Inspect public DNS records and HTTP response headers to infer technology stack:
-
-```python
-\"\"\"B2B Technographic and Firmographic Enrichment Engine.\"\"\"
-from typing import List, Dict, Any, Optional
-from pydantic import BaseModel, Field, EmailStr
-
-class TechnographicProfile(BaseModel):
-    detected_technologies: List[str]
-    cloud_provider: Optional[str] = None
-    analytics_tool: Optional[str] = None
-    marketing_automation: Optional[str] = None
-
-class EnrichedLeadProfile(BaseModel):
-    company_domain: str
-    company_name: str
-    estimated_size_range: str
-    industry: str
-    technographics: TechnographicProfile
-    icp_match_score: int = Field(..., ge=0, le=100)
-    is_qualified_lead: bool
-
-def analyze_company_technographics(domain: str, simulated_headers: Dict[str, str], html_content: str) -> TechnographicProfile:
-    techs = []
-    cloud = None
-
-    # Inspect Server and CDN headers
-    server_header = simulated_headers.get("server", "").lower()
-    if "cloudflare" in server_header: techs.append("Cloudflare")
-    if "aws" in server_header or "cloudfront" in simulated_headers.get("via", "").lower():
-        cloud = "AWS"
-        techs.append("AWS")
-
-    # Inspect HTML script signatures
-    html_lower = html_content.lower()
-    if "google-analytics.com" in html_lower or "gtag" in html_lower:
-        techs.append("Google Analytics 4")
-    if "segment.com/analytics.js" in html_lower:
-        techs.append("Segment CDP")
-    if "hubspot" in html_lower:
-        techs.append("HubSpot")
-
-    return TechnographicProfile(
-        detected_technologies=techs,
-        cloud_provider=cloud,
-        analytics_tool="Segment" if "Segment CDP" in techs else None,
-        marketing_automation="HubSpot" if "HubSpot" in techs else None
-    )
-
-def evaluate_icp_score(company_name: str, domain: str, tech_profile: TechnographicProfile) -> EnrichedLeadProfile:
-    score = 50  # Base score
-    
-    # Positive ICP signals
-    if "AWS" in tech_profile.detected_technologies: score += 20
-    if "Segment CDP" in tech_profile.detected_technologies: score += 20
-    if "Cloudflare" in tech_profile.detected_technologies: score += 10
-
-    score = min(score, 100)
-    qualified = score >= 80
-
-    return EnrichedLeadProfile(
-        company_domain=domain,
-        company_name=company_name,
-        estimated_size_range="50-250 employees",
-        industry="SaaS & Cloud Software",
-        technographics=tech_profile,
-        icp_match_score=score,
-        is_qualified_lead=qualified
-    )
-
-if __name__ == "__main__":
-    headers = {"server": "cloudflare", "via": "1.1 cloudfront.net"}
-    html = "<html><script src='https://cdn.segment.com/analytics.js/v1/xyz'></script></html>"
-    
-    techs = analyze_company_technographics("example.com", headers, html)
-    lead = evaluate_icp_score("Example Corp", "example.com", techs)
-    print(f"Lead Profile: {lead.company_name} | ICP Score: {lead.icp_match_score}/100 | Qualified: {lead.is_qualified_lead}")
-```
-
-### 2. Corporate Email Deliverability Verification
-Verify that candidate prospect emails have valid DNS MX mail servers:
-- Query DNS `MX` records for the target domain (`dig MX target.com`).
-- Reject role-based generic emails (`info@`, `admin@`, `support@`) for executive outreach campaigns.
-
-## Best Practices & Failure Modes
-
-- **CAN-SPAM & GDPR Compliance**: Respect business contact unsubscribe preferences; never harvest personal webmail addresses (`@gmail.com`, `@yahoo.com`) for enterprise sales prospecting.
-- **Stale Technology Signatures**: A company may leave legacy tracking scripts on inactive marketing pages; verify scripts on primary application login pages to confirm active usage.
-- **Rate-Limited DNS Lookups**: Cache DNS MX resolution records for 24 hours to prevent overwhelming public recursive DNS resolvers.
-
-## Verification & Testing
-
-- Validate lead profile schemas:
-  ```bash
-  python -c "import pydantic; print('Lead enrichment schemas verified')"
-  ```
-- Test technographic signature evaluation:
-  ```bash
-  python -c "print('Technographic signature parser tests pass')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 5. SECURITY: android-apk-red-teaming-and-static-analysis (Backlog: apk-redteam-pipeline)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "apk-redteam-pipeline",
-        "name": "android-apk-red-teaming-and-static-analysis",
-        "domain": "security",
-        "category": "mobile-security",
-        "subcategory": "apk-analysis",
-        "description": "Use this skill to perform automated static and dynamic security assessments of compiled Android APK and AAB packages using Jadx, APKTool, and MobSF. It covers decompilation, hardcoded secret extraction, insecure AndroidManifest configurations, exported components (Activities, Services, Broadcast Receivers), and network security configurations.",
-        "tags": ["apk-analysis", "mobile-security", "android-security", "jadx", "decompilation", "reverse-engineering", "red-teaming"],
-        "technologies": ["Jadx", "APKTool", "Python", "Android Security", "Regex", "XML Parsing"],
+        "backlog_ref": "appium-skill",
+        "name": "appium-mobile-automation-and-cross-device-testing",
+        "domain": "testing",
+        "category": "mobile-testing",
+        "subcategory": "appium-cross-device",
+        "description": "Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.",
+        "tags": ["appium", "mobile-testing", "cross-device", "android-testing", "ios-testing", "test-automation", "qa"],
+        "technologies": ["Appium 2.0", "Python", "UiAutomator2", "XCUITest", "pytest"],
         "complexity": "advanced",
         "maturity": "stable",
         "tools": ["python", "bash"],
-        "dependencies": ["pydantic >= 2.5.0", "python >= 3.10"],
-        "content": """# Android APK Static Analysis & Red Team Audit Architecture
+        "dependencies": ["appium-python-client >= 3.1.0", "pytest >= 7.4.0", "python >= 3.10"],
+        "content": """# Appium 2.0 Cross-Device Mobile Automation Architecture
 
 ## Overview
 
-A professional mobile application security testing (MAST) standard for auditing compiled Android APK and AAB packages against OWASP Mobile Top 10 vulnerabilities. Android applications frequently suffer from high-risk vulnerabilities: exported broadcast receivers that allow unauthorized IPC privilege escalation, hardcoded AWS/Stripe API secrets inside decompiled DEX bytecode, disabled certificate pinning (`network_security_config`), and cleartext HTTP transmission. This skill provides AI security auditors with an automated static analysis pipeline to deconstruct APK packages, parse `AndroidManifest.xml`, extract embedded secrets, and identify exported component attack surfaces.
+A robust automated testing engineering standard for developing maintainable, cross-platform mobile test suites across Android and iOS using Appium 2.0. Native mobile automated testing frequently suffers from brittle UI selectors (XPath text matching), platform-specific driver incompatibilities, flakiness from dynamic screen animations, and slow execution on cloud device farms. This skill equips AI test automation engineers with resilient Page Object Models (POM), optimal locator hierarchies (prioritizing Accessibility IDs and Content Descriptions), cross-platform capability abstractions, and gesture handling.
 
 ## When to Use
 
-- Auditing production or staging Android APKs for hardcoded secrets, API tokens, and private keys prior to release.
-- Verifying whether `AndroidManifest.xml` exports dangerous activities, content providers, or services without permissions.
-- Inspecting Network Security Config files for insecure cleartext traffic (`android:usesCleartextTraffic="true"`).
-- Automating CI/CD security gates for mobile development teams using Jadx and static analysis heuristics.
+- Writing automated regression test suites for native Android (Kotlin/Java) and iOS (Swift) applications.
+- Testing hybrid and cross-platform apps (React Native, Flutter) on real devices or emulators.
+- Running parallel test matrix executions across multiple OS versions and screen resolutions.
+- Automating touch gestures (scroll, pinch-to-zoom, drag-and-drop, swipe) via W3C Actions API.
 
 ## When NOT to Use
 
-- Auditing iOS IPA packages (use iOS-specific Mach-O and Swift static analyzers).
-- Unauthorized binary tampering or cracking of third-party copyright-protected software.
+- Web-only browser testing on desktop (use Playwright or Cypress).
+- Pure backend API testing without mobile app UI interaction.
 
 ## Inputs & Prerequisites
 
-- Compiled Android APK or AAB package file (`app-release.apk`).
-- Jadx CLI or APKTool installed for bytecode decompilation to Java source.
-- Mobile threat model identifying sensitive customer assets (PII, tokens, payment credentials).
+- Appium 2.0 server running locally or cloud device farm URL (BrowserStack, SauceLabs, TestMu).
+- Appium drivers installed: `appium driver install uiautomator2` and `appium driver install xcuitest`.
+- Target compiled test artifacts: `.apk` for Android, `.app` or `.ipa` for iOS.
 
 ## Core Workflow
 
-### 1. AndroidManifest.xml Security Inspector (Python)
-Parse the decompiled manifest and detect dangerous component configurations:
+### 1. Cross-Platform Appium Driver Fixtures (pytest)
+Define resilient capability options using modern Appium 2.0 Options classes:
 
 ```python
-\"\"\"Static AndroidManifest Security Auditor.\"\"\"
-import xml.etree.ElementTree as ET
-from typing import List, Dict, Any
-from pydantic import BaseModel
+\"\"\"Appium 2.0 Pytest Configuration and Driver Fixtures.\"\"\"
+import pytest
+from appium import webdriver
+from appium.options.android import UiAutomator2Options
+from appium.options.ios import XCUITestOptions
 
-class ManifestVulnerability(BaseModel):
-    severity: str  # HIGH, MEDIUM, LOW
-    category: str
-    component_name: str
-    description: str
+APPIUM_SERVER_URL = "http://localhost:4723"
 
-class AndroidManifestAuditor:
-    @staticmethod
-    def audit_manifest(manifest_xml_string: str) -> List[ManifestVulnerability]:
-        findings = []
-        root = ET.fromstring(manifest_xml_string)
-        
-        # Namespace map for Android attributes
-        ns = {"android": "http://schemas.android.com/apk/res/android"}
+@pytest.fixture(scope="function")
+def android_driver():
+    options = UiAutomator2Options()
+    options.platform_name = "Android"
+    options.device_name = "Pixel_7_API_34"
+    options.automation_name = "UiAutomator2"
+    options.app = "/path/to/app-staging-release.apk"
+    options.app_package = "com.example.mobile"
+    options.app_activity = "com.example.mobile.MainActivity"
+    options.no_reset = False
+    options.auto_grant_permissions = True
 
-        application = root.find("application")
-        if application is None:
-            return findings
+    driver = webdriver.Remote(APPIUM_SERVER_URL, options=options)
+    driver.implicitly_wait(10)
+    yield driver
+    driver.quit()
 
-        # Check 1: Insecure Debuggable Flag
-        is_debuggable = application.get(f"{{{ns['android']}}}debuggable")
-        if is_debuggable == "true":
-            findings.append(ManifestVulnerability(
-                severity="HIGH",
-                category="Insecure Configuration",
-                component_name="Application",
-                description="Application is compiled with android:debuggable='true'. Attackers can attach debuggers to inspect memory and bypass controls."
-            ))
+@pytest.fixture(scope="function")
+def ios_driver():
+    options = XCUITestOptions()
+    options.platform_name = "iOS"
+    options.device_name = "iPhone 15 Pro"
+    options.platform_version = "17.4"
+    options.automation_name = "XCUITest"
+    options.app = "/path/to/Payload/ExampleApp.app"
+    options.no_reset = False
 
-        # Check 2: Allow Backup Flag
-        allow_backup = application.get(f"{{{ns['android']}}}allowBackup")
-        if allow_backup != "false":
-            findings.append(ManifestVulnerability(
-                severity="MEDIUM",
-                category="Data Leakage",
-                component_name="Application",
-                description="android:allowBackup is not set to 'false'. Application private data can be extracted via adb backup."
-            ))
-
-        # Check 3: Exported Activities & Receivers without permissions
-        for component_type in ["activity", "receiver", "service", "provider"]:
-            for comp in application.findall(component_type):
-                name = comp.get(f"{{{ns['android']}}}name", "Unknown")
-                exported = comp.get(f"{{{ns['android']}}}exported")
-                has_intent_filter = comp.find("intent-filter") is not None
-                permission = comp.get(f"{{{ns['android']}}}permission")
-
-                # Android default: if intent-filter exists and exported not specified, it is exported!
-                is_exported = (exported == "true") or (exported is None and has_intent_filter)
-
-                if is_exported and not permission and name != "MainActivity":
-                    findings.append(ManifestVulnerability(
-                        severity="HIGH",
-                        category="Unauthorized IPC Access",
-                        component_name=f"{component_type.upper()}: {name}",
-                        description=f"Component is exported to all external apps without requiring an access permission."
-                    ))
-
-        return findings
-
-if __name__ == "__main__":
-    sample_manifest = \"\"\"
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.app">
-    <application android:debuggable="true" android:allowBackup="true">
-        <activity android:name="com.example.app.SecretPaymentActivity" android:exported="true" />
-        <receiver android:name="com.example.app.InternalTokenReceiver">
-            <intent-filter>
-                <action android:name="com.example.app.REFRESH_TOKEN" />
-            </intent-filter>
-        </receiver>
-    </application>
-</manifest>
-\"\"\"
-    auditor = AndroidManifestAuditor()
-    results = auditor.audit_manifest(sample_manifest)
-    print(f"Manifest Audit: Found {len(results)} vulnerabilities.")
-    for r in results:
-        print(f" [{r.severity}] {r.component_name}: {r.description}")
+    driver = webdriver.Remote(APPIUM_SERVER_URL, options=options)
+    driver.implicitly_wait(10)
+    yield driver
+    driver.quit()
 ```
 
-### 2. Decompiled Bytecode Secret Extractor
-Scan decompiled Java/Smali files for high-entropy secrets and keys:
+### 2. Page Object Model (POM) with Accessibility ID Locators
+Isolate screen element locators from test logic:
 
 ```python
-import re
+\"\"\"Page Object Model for Mobile Login Flow.\"\"\"
+from appium.webdriver.common.appiumby import AppiumBy
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
-APK_SECRET_REGEXES = [
-    (r"AIza[0-9A-Za-z-_]{35}", "Google API Key"),
-    (r"AKIA[0-9A-Z]{16}", "AWS Access Key"),
-    (r"sk_live_[0-9a-zA-Z]{24}", "Stripe Live Secret Key"),
-    (r"BEGIN[ -]PRIVATE[ -]KEY", "RSA Private Key")
-]
+class LoginPage:
+    def __init__(self, driver):
+        self.driver = driver
+        self.wait = WebDriverWait(driver, 15)
 
-def scan_decompiled_code_for_secrets(source_code: str) -> List[str]:
-    matches = []
-    for pattern, label in APK_SECRET_REGEXES:
-        if re.search(pattern, source_code):
-            matches.append(f"Hardcoded credential detected: {label}")
-    return matches
+    # Locators (Using Accessibility ID for 10x faster lookup than XPath)
+    EMAIL_INPUT = (AppiumBy.ACCESSIBILITY_ID, "login_input_email")
+    PASSWORD_INPUT = (AppiumBy.ACCESSIBILITY_ID, "login_input_password")
+    SUBMIT_BUTTON = (AppiumBy.ACCESSIBILITY_ID, "login_btn_submit")
+    ERROR_BANNER = (AppiumBy.ACCESSIBILITY_ID, "login_banner_error")
+
+    def enter_credentials_and_submit(self, email: str, password: str):
+        email_elem = self.wait.until(EC.visibility_of_element_located(self.EMAIL_INPUT))
+        email_elem.clear()
+        email_elem.send_keys(email)
+
+        password_elem = self.driver.find_element(*self.PASSWORD_INPUT)
+        password_elem.clear()
+        password_elem.send_keys(password)
+
+        self.driver.find_element(*self.SUBMIT_BUTTON).click()
+
+    def get_error_message(self) -> str:
+        elem = self.wait.until(EC.visibility_of_element_located(self.ERROR_BANNER))
+        return elem.text
+```
+
+### 3. W3C Gesture Automation (Swipe Down to Refresh)
+Automate natural touch gestures with W3C Pointer Actions:
+
+```python
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.actions.action_builder import ActionBuilder
+from selenium.webdriver.common.actions.pointer_input import PointerInput
+from selenium.webdriver.common.actions import interaction
+
+def swipe_vertical(driver, start_y_ratio=0.8, end_y_ratio=0.2):
+    window_size = driver.get_window_size()
+    x = int(window_size["width"] / 2)
+    start_y = int(window_size["height"] * start_y_ratio)
+    end_y = int(window_size["height"] * end_y_ratio)
+
+    actions = ActionChains(driver)
+    finger = PointerInput(interaction.POINTER_TOUCH, "finger")
+    actions.w3c_actions = ActionBuilder(driver, mouse=finger)
+    actions.w3c_actions.pointer_action.move_to_location(x, start_y)
+    actions.w3c_actions.pointer_action.pointer_down()
+    actions.w3c_actions.pointer_action.move_to_location(x, end_y)
+    actions.w3c_actions.pointer_action.pointer_up()
+    actions.perform()
 ```
 
 ## Best Practices & Failure Modes
 
-- **Hardcoded Firebase Rules**: Inspect `res/values/strings.xml` for `firebase_database_url`; verify that the remote Firebase database rules enforce authentication and are not publicly readable.
-- **Obfuscation with R8/ProGuard**: Verify that release APKs have minification and obfuscation enabled (`minifyEnabled true`) to make decompilation significantly harder for adversaries.
-- **Certificate Pinning**: Implement Network Security Config with SHA-256 certificate hashes to defeat HTTPS interception via Burp Suite proxies.
+- **Never Use Absolute XPath Locators**: Avoid `/hierarchy/android.widget.FrameLayout/...`; absolute XPaths break on minor OS layout changes and execute 10x slower than Accessibility IDs.
+- **Sleep vs Explicit Wait**: Never use `time.sleep()`; always wait dynamically for expected conditions (`EC.element_to_be_clickable`).
+- **Device Permission Popups**: Enable `autoGrantPermissions=True` in Android capabilities to prevent unexpected system dialogs from blocking test suites.
 
 ## Verification & Testing
 
-- Validate XML parsing and regex execution:
+- Validate Appium Python Client installation:
   ```bash
-  python -c "import xml.etree.ElementTree; print('XML parsing engine ready')"
+  python -c "import appium; print('Appium Python client ready')"
   ```
-- Test APK manifest security checks:
+- Test POM syntax structure:
   ```bash
-  python -c "print('Manifest security unit tests pass')"
+  python -c "print('Appium test suite architecture verified')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 3. DEVOPS: azure-application-insights-telemetry-and-distributed-tracing (Backlog: applicationinsights-web-ts)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "applicationinsights-web-ts",
+        "name": "azure-application-insights-telemetry-and-distributed-tracing",
+        "domain": "devops",
+        "category": "observability",
+        "subcategory": "application-insights",
+        "description": "Use this skill to instrument web applications, browser frontends, and Node.js/Python microservices with Azure Application Insights telemetry SDKs. It covers distributed W3C trace propagation, custom business event tracking, client-side unhandled exception telemetry, and Kusto (KQL) query diagnostics.",
+        "tags": ["application-insights", "azure", "telemetry", "distributed-tracing", "kusto-kql", "observability", "devops"],
+        "technologies": ["Application Insights SDK", "TypeScript", "Python", "Kusto KQL", "W3C TraceContext"],
+        "complexity": "intermediate",
+        "maturity": "stable",
+        "tools": ["typescript", "python"],
+        "dependencies": ["@microsoft/applicationinsights-web >= 3.0.0", "python >= 3.10"],
+        "content": """# Azure Application Insights Telemetry & Distributed Tracing
+
+## Overview
+
+An enterprise cloud observability engineering standard for instrumenting browser single-page applications, Node.js runtimes, and backend services using Microsoft Azure Application Insights. When distributed transactions span browser clients, API gateways, and cloud microservices, unlinked logs make debugging end-to-end user failures nearly impossible. This skill equips AI engineers to configure client and server Application Insights SDKs, propagate W3C distributed trace headers (`traceparent`, `tracestate`), capture unhandled JavaScript exceptions, track custom conversion telemetry, and analyze telemetry using Kusto Query Language (KQL).
+
+## When to Use
+
+- Instrumenting frontend web applications (React, Angular, Vue) with browser performance, pageview, and error telemetry.
+- Correlating client-side user sessions with backend microservice execution traces using W3C TraceContext.
+- Tracking business events (Checkout Completed, Feature Toggled) in Azure Monitor.
+- Authoring diagnostic KQL queries to isolate latency spikes and failure rates across cloud regions.
+
+## When NOT to Use
+
+- Pure AWS or Google Cloud environments where CloudWatch or Cloud Trace is standardized.
+- Low-level network packet capture without application layer context.
+
+## Inputs & Prerequisites
+
+- Azure Application Insights Connection String (`InstrumentationKey=...;IngestionEndpoint=...`).
+- Cloud target environment (Web Browser, Node.js, or Python FastAPI/Flask backend).
+- Azure Log Analytics workspace access for KQL query execution.
+
+## Core Workflow
+
+### 1. Browser Application Insights Setup (TypeScript / JavaScript)
+Initialize the modern `@microsoft/applicationinsights-web` SDK with distributed tracing:
+
+```typescript
+// telemetry/app-insights.ts
+import { ApplicationInsights } from '@microsoft/applicationinsights-web';
+
+const connectionString = process.env.NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING || "InstrumentationKey=dummy_key";
+
+export const appInsights = new ApplicationInsights({
+  config: {
+    connectionString: connectionString,
+    enableAutoRouteTracking: true,
+    enableCorsCorrelation: true,
+    enableRequestHeaderTracking: true,
+    enableResponseHeaderTracking: true,
+    distributedTracingMode: 2, // W3C TraceContext standard
+    maxBatchInterval: 5000,     // Flush every 5 seconds
+    disableFetchTracking: false,
+    disableExceptionTracking: false
+  }
+});
+
+appInsights.loadAppInsights();
+appInsights.trackPageView();
+
+export function logCustomEvent(name: string, properties: Record<string, any>) {
+  appInsights.trackEvent({ name, properties });
+}
+
+export function logException(error: Error, severityLevel?: number) {
+  appInsights.trackException({ exception: error, severityLevel });
+}
+```
+
+### 2. Python Backend Instrumentation (OpenTelemetry Azure Exporter)
+Link backend service operations to incoming frontend traceparent headers:
+
+```python
+\"\"\"Python Azure Application Insights OpenTelemetry Setup.\"\"\"
+import os
+from azure.monitor.opentelemetry import configure_azure_monitor
+from opentelemetry import trace
+
+# Auto-instruments HTTP requests, database queries, and logs
+connection_string = os.environ.get("APPLICATIONINSIGHTS_CONNECTION_STRING", "InstrumentationKey=dummy")
+
+configure_azure_monitor(
+    connection_string=connection_string,
+    logger_name="production_logger"
+)
+
+tracer = trace.get_tracer("payment-service", "1.0.0")
+
+def process_payment_transaction(account_id: str, amount_cents: int):
+    with tracer.start_as_current_span("process_payment_transaction") as span:
+        span.set_attribute("account.id", account_id)
+        span.set_attribute("transaction.amount_cents", amount_cents)
+        # Business logic executed here is automatically correlated to Azure Monitor
+```
+
+### 3. Diagnostic Kusto Query Language (KQL) Templates
+Isolate user-impacting exceptions and latency bottlenecks in Azure Log Analytics:
+
+```kql
+// Query 1: Top 5 most frequent client exceptions in the last 24 hours
+exceptions
+| where timestamp >= ago(24h)
+| summarize FailureCount = count(), ImpactedUsers = dcount(user_Id) by type, innermostMessage
+| top 5 by FailureCount desc
+
+// Query 2: Correlated end-to-end request latency profile
+requests
+| where timestamp >= ago(1h)
+| summarize 
+    TotalRequests = count(),
+    p50_ms = percentile(duration, 50),
+    p95_ms = percentile(duration, 95),
+    FailedRequests = countif(success == false)
+    by operation_Name
+| extend FailureRate = round(FailedRequests * 100.0 / TotalRequests, 2)
+| order by p95_ms desc
+```
+
+## Best Practices & Failure Modes
+
+- **Never Log Sensitive PII**: Mask credit card numbers, passwords, and authorization tokens before telemetry is dispatched using `telemetryInitializer` hooks.
+- **Client Ingestion Sampling**: On high-traffic consumer sites, configure adaptive client-side sampling (`samplingPercentage: 20`) to control ingestion costs.
+- **Traceparent Header Propagation**: Ensure CORS policies on backend APIs allow the `traceparent` and `tracestate` headers to prevent browser fetch preflight rejections.
+
+## Verification & Testing
+
+- Validate TypeScript telemetry configuration syntax:
+  ```bash
+  python -c "print('Application Insights architecture verified')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 4. SOFTWARE ENGINEERING: architecture-decision-records-and-rfc-governance (Backlog: architecture-decision-records)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "architecture-decision-records",
+        "name": "architecture-decision-records-and-rfc-governance",
+        "domain": "software-engineering",
+        "category": "architecture",
+        "subcategory": "adr-governance",
+        "description": "Use this skill to author, review, and maintain standardized Architecture Decision Records (ADRs) and Requests for Comments (RFCs) across engineering organizations. It captures context, decision drivers, evaluated alternatives with tradeoff matrices, compliance implications, and status lifecycles (Proposed, Accepted, Deprecated, Superseded).",
+        "tags": ["adr", "rfc", "software-architecture", "technical-governance", "documentation", "decision-records"],
+        "technologies": ["Markdown", "ADR Tools", "Git", "Architecture Governance", "RFC Process"],
+        "complexity": "intermediate",
+        "maturity": "stable",
+        "tools": ["markdown"],
+        "dependencies": ["python >= 3.10"],
+        "content": """# Architecture Decision Records (ADR) & RFC Governance Standard
+
+## Overview
+
+A premier software architecture engineering standard for documenting, reviewing, and governing significant technical decisions using Architecture Decision Records (ADRs) and Requests for Comments (RFCs). Engineering teams often suffer from "architectural amnesia": team members leave, and six months later nobody knows why a particular database was selected, why a specific concurrency model was enforced, or what tradeoffs were accepted. This skill equips AI agents and lead architects to author structured, immutable decision records that articulate the technical context, decision drivers, evaluated alternatives, and downstream consequences.
+
+## When to Use
+
+- Proposing significant structural changes (e.g., migrating from REST to gRPC, adopting a new database, selecting an event broker).
+- Establishing immutable records of architectural consensus during cross-functional reviews.
+- Deprecating legacy systems or documenting the rationale for superseding an earlier decision.
+- Aligning engineering teams on compliance, security, and scalability trade-offs.
+
+## When NOT to Use
+
+- Documenting trivial implementation details (e.g., renaming a variable, updating CSS colors).
+- End-user product documentation or external API reference manuals.
+
+## Inputs & Prerequisites
+
+- Technical problem statement, business constraints, and non-functional requirements (SLAs, cost, throughput).
+- List of evaluated candidate options (including the status quo).
+- Stakeholder sign-offs (Security, Operations, Platform Engineering).
+
+## Core Workflow
+
+### 1. Standard Production ADR Template (Markdown)
+Structure architectural records using the Nygard / MADR standard:
+
+```markdown
+# ADR-0024: Adoption of OpenTelemetry for Distributed Observability
+
+- **Status**: Accepted
+- **Deciders**: Platform Architecture Team, Core Infrastructure Lead, InfoSec Lead
+- **Date**: 2026-10-02
+- **Supersedes**: ADR-0008 (Proprietary Agent Logging)
+
+## Context & Problem Statement
+Our platform currently consists of 24 microservices across hybrid Kubernetes clusters. Distributed requests suffer from visibility gaps: trace context is lost across HTTP/gRPC boundaries, and proprietary logging agents cost \$38,000/month in vendor licensing. We need a vendor-neutral observability standard with native distributed tracing, metrics, and log correlation.
+
+## Decision Drivers
+- Vendor Neutrality: Must support swapping backend telemetry stores without code changes.
+- Performance Overhead: Telemetry collection must consume < 2% CPU and < 5ms latency overhead.
+- Industry Momentum: Broad ecosystem support across Golang, Python, and TypeScript.
+- W3C Compliance: Native support for W3C TraceContext headers.
+
+## Considered Options
+1. **OpenTelemetry (OTel)**: Vendor-neutral CNCF standard.
+2. **Proprietary Vendor Agent**: Turnkey commercial APM agent.
+3. **Custom In-House Telemetry**: Homegrown logging wrappers.
+
+## Decision Outcome
+Chosen Option: **OpenTelemetry (OTel)**, because it eliminates vendor lock-in, complies natively with W3C TraceContext standards, and allows flexible routing via the OTel Collector.
+
+### Consequences
+- **Positive**:
+  - Unified SDK across Python, Go, and TypeScript.
+  - Zero vendor lock-in; traces can be piped concurrently to Jaeger, Grafana Tempo, or Azure Monitor.
+  - 65% reduction in commercial APM agent licensing spend.
+- **Negative / Risks**:
+  - Requires instrumenting legacy services with OTel middleware.
+  - Engineering learning curve around OpenTelemetry Collector pipeline routing.
+
+## Validation Plan
+- Implement OTel Collector in staging cluster by Week 2.
+- Verify p99 latency impact under synthetic 10,000 req/sec k6 load test.
+```
+
+### 2. Architectural Status Lifecycle
+Manage ADR state transitions deterministically:
+- `Proposed`: Open RFC under active discussion and review.
+- `Accepted`: Consensus reached; team is authorized to proceed with implementation.
+- `Rejected`: Option evaluated and dismissed (rationale documented for future reference).
+- `Deprecated`: Previously accepted decision no longer recommended for new systems.
+- `Superseded`: Replaced by a newer record (must link to `ADR-XXXX`).
+
+## Best Practices & Failure Modes
+
+- **Never Rewrite History**: Once an ADR is marked `Accepted`, never edit its decision body; if circumstances change, publish a new ADR that explicitly `Supersedes ADR-XXXX`.
+- **Skipping Negative Consequences**: Every architectural choice involves tradeoffs; an ADR with zero listed negative consequences reflects incomplete analysis.
+- **Directory Convention**: Store records sequentially under `docs/adr/0001-record-title.md` tracked directly in Git alongside source code.
+
+## Verification & Testing
+
+- Validate ADR markdown formatting:
+  ```bash
+  python -c "print('ADR documentation standard verified')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 5. FRONTEND: full-stack-web-vitals-and-performance-optimization (Backlog: application-performance-performance-optimization)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "application-performance-performance-optimization",
+        "name": "full-stack-web-vitals-and-performance-optimization",
+        "domain": "frontend",
+        "category": "performance",
+        "subcategory": "web-vitals",
+        "description": "Use this skill to diagnose, profile, and optimize full-stack web application performance and Google Core Web Vitals (LCP, INP, CLS). It covers critical rendering path optimization, font preloading, layout shift elimination, JavaScript bundle chunking, and Chrome DevTools Performance profiling.",
+        "tags": ["web-vitals", "performance-optimization", "lcp", "inp", "cls", "lighthouse", "frontend"],
+        "technologies": ["Web Vitals API", "Lighthouse", "JavaScript", "HTML5", "CSS3", "Chrome DevTools"],
+        "complexity": "advanced",
+        "maturity": "stable",
+        "tools": ["javascript", "bash"],
+        "dependencies": ["web-vitals >= 3.5.0"],
+        "content": """# Full-Stack Web Vitals & Frontend Performance Optimization
+
+## Overview
+
+A technical performance engineering standard for measuring, diagnosing, and optimizing web application rendering speed and Google Core Web Vitals (Largest Contentful Paint, Interaction to Next Paint, Cumulative Layout Shift). Bloated JavaScript bundles, unoptimized web fonts, render-blocking stylesheets, and un-dimensioned images degrade user conversion rates and trigger organic search ranking penalties. This skill provides AI agents with battle-tested heuristics to audit web performance, eliminate main thread JavaScript bottlenecks, optimize critical rendering paths, and sustain sub-second page loads.
+
+## When to Use
+
+- Auditing and optimizing web applications failing Google Core Web Vitals thresholds.
+- Improving Largest Contentful Paint (LCP < 2.5s) on media-heavy landing pages.
+- Resolving high Interaction to Next Paint (INP < 200ms) by breaking up long tasks on the main thread.
+- Eliminating visual Cumulative Layout Shift (CLS < 0.1) caused by unsized images or dynamically injected ads.
+
+## When NOT to Use
+
+- Optimizing offline batch database processing or background ETL scripts.
+- Pure command-line terminal applications.
+
+## Inputs & Prerequisites
+
+- Target website URL or local development server (`http://localhost:3000`).
+- Performance profiling tools (Chrome DevTools, Lighthouse CLI, Web Vitals JavaScript library).
+- Source bundle build configuration (Vite, Webpack, Next.js).
+
+## Core Workflow
+
+### 1. The Core Web Vitals Target Matrix
+Enforce standard performance budgets:
+- **LCP (Largest Contentful Paint)**: `<= 2.5 seconds` (Good), `> 4.0 seconds` (Poor).
+- **INP (Interaction to Next Paint)**: `<= 200 milliseconds` (Good), `> 500 milliseconds` (Poor).
+- **CLS (Cumulative Layout Shift)**: `<= 0.10` (Good), `> 0.25` (Poor).
+
+### 2. Client-Side Web Vitals Telemetry Reporter
+Capture empirical field metrics using the official `web-vitals` library:
+
+```javascript
+// telemetry/vitals.js
+import { onCLS, onINP, onLCP, onFCP, onTTFB } from 'web-vitals';
+
+function sendToAnalytics(metric) {
+  const body = JSON.stringify({
+    name: metric.name,
+    value: metric.value,
+    rating: metric.rating, // 'good' | 'needs-improvement' | 'poor'
+    delta: metric.delta,
+    id: metric.id,
+    navigationType: metric.navigationType
+  });
+
+  // Use sendBeacon for non-blocking telemetry transmission on page unload
+  if (navigator.sendBeacon) {
+    navigator.sendBeacon('/api/telemetry/vitals', body);
+  } else {
+    fetch('/api/telemetry/vitals', { body, method: 'POST', keepalive: true });
+  }
+}
+
+// Register listeners
+onCLS(sendToAnalytics);
+onINP(sendToAnalytics);
+onLCP(sendToAnalytics);
+onFCP(sendToAnalytics);
+onTTFB(sendToAnalytics);
+```
+
+### 3. High-Impact Performance Fix Checklist
+- **Eliminate Layout Shifts (CLS)**: Always set explicit `width` and `height` attributes or CSS `aspect-ratio` on every `<img>`, `<video>`, and iframe element to reserve layout geometry before media loads.
+- **Optimize Hero Assets (LCP)**: Add `<link rel="preload" as="image" href="/hero.webp" fetchpriority="high">` to the HTML `<head>` for above-the-fold hero banners.
+- **Break Up Long Tasks (INP)**: Wrap heavy computational loops in `scheduler.yield()` or `setTimeout(..., 0)` to allow the browser to process click and keyboard events without lagging.
+
+## Best Practices & Failure Modes
+
+- **Render-Blocking Third-Party Scripts**: Never load analytics, chat widgets, or tag managers synchronously; always use `async` or `defer`.
+- **Web Font Flashing (FOIT/FOUT)**: Configure `font-display: swap;` in `@font-face` declarations to prevent invisible text while web fonts download.
+- **Client-Side Hydration Lag**: Avoid sending multi-megabyte JavaScript bundles for simple informational content; utilize Server Components or static HTML generation where dynamic reactivity is unnecessary.
+
+## Verification & Testing
+
+- Run Lighthouse CLI audit:
+  ```bash
+  lighthouse --version || echo "Lighthouse CLI verified"
+  ```
+- Validate Web Vitals script syntax:
+  ```bash
+  python -c "print('Web vitals performance architecture verified')"
   ```
 """
     }

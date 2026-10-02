@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **165** skills across structured domains, categories, and subcategories.
+Master navigation for **166** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -543,7 +543,13 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-## Marketing (7 skills)
+## Marketing (8 skills)
+
+### Aso (1 skills)
+Category index: [`docs/categories/aso.md`](categories/aso.md)
+
+- **App Store Optimization** (1):
+  - [app-store-optimization-and-metadata-strategy](../skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) — Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata.
 
 ### Brand (1 skills)
 Category index: [`docs/categories/brand.md`](categories/brand.md)

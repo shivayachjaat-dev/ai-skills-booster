@@ -2678,6 +2678,30 @@
     "maturity": "stable"
   },
   {
+    "name": "app-store-optimization-and-metadata-strategy",
+    "path": "skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy",
+    "domain": "marketing",
+    "category": "aso",
+    "subcategory": "app-store-optimization",
+    "description": "Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata.",
+    "tags": [
+      "aso",
+      "app-store-optimization",
+      "google-play",
+      "apple-app-store",
+      "mobile-marketing",
+      "cro"
+    ],
+    "technologies": [
+      "App Store Connect API",
+      "Google Play Developer API",
+      "Python",
+      "ASO Keyword Analysis"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "social-sentiment-and-brand-reputation-monitor",
     "path": "skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor",
     "domain": "marketing",
