@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,201** skills across structured domains, categories, and subcategories.
+Master navigation for **1,202** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (414 skills)
 
@@ -2368,7 +2368,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (98 skills)
+## Security (99 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2398,7 +2398,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (36 skills)
+### Appsec (37 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -2464,6 +2464,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [hipaa-compliance](../skills/security/appsec/hipaa_compliance/hipaa-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for hipaa compliance. Implement HIPAA security and privacy rules. Configure PHI protections
 - **Hunt_Aspnet** (1):
   - [hunt-aspnet](../skills/security/appsec/hunt_aspnet/hunt-aspnet/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt aspnet. Hunt ASP.NET-specific surface
+- **Hunt_Ato** (1):
+  - [hunt-ato](../skills/security/appsec/hunt_ato/hunt-ato/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt ato. Hunt account takeover taxonomy
 - **Laravel_Security_Aud** (1):
   - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - **Mcp_Dependency_Drift** (1):
