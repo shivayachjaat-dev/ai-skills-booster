@@ -20233,6 +20233,28 @@
     "maturity": "stable"
   },
   {
+    "name": "istio-traffic-management",
+    "path": "skills/frontend/ui-ux/istio_traffic_manage/istio-traffic-management",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "istio_traffic_manage",
+    "description": "Use this skill to design, implement, and operate production workflows for istio traffic management. Comprehensive guide to Istio traffic management for production service mesh deployments.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "istio",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Istio Traffic Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
