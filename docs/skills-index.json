@@ -8201,6 +8201,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-paper-publisher",
+    "path": "skills/ai-engineering/models/hugging_face_paper_p/hugging-face-paper-publisher",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "hugging_face_paper_p",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face paper publisher. Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Paper Publisher",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
