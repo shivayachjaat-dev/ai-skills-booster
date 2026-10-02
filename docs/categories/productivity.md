@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **25 skills** available in this category.
+> **26 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -29,3 +29,4 @@
 | [linear-automation](../../skills/developer-tools/productivity/linear_automation/linear-automation/SKILL.md) | `linear_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linear automation. Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas. |
 | [linkedin-automation](../../skills/developer-tools/productivity/linkedin_automation/linkedin-automation/SKILL.md) | `linkedin_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linkedin automation. Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas. |
 | [make-automation](../../skills/developer-tools/productivity/make_automation/make-automation/SKILL.md) | `make_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for make automation. Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas. |
+| [microsoft-teams-automation](../../skills/developer-tools/productivity/microsoft_teams_auto/microsoft-teams-automation/SKILL.md) | `microsoft_teams_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for microsoft teams automation. Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas. |

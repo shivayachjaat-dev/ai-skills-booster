@@ -16405,6 +16405,28 @@
     "maturity": "stable"
   },
   {
+    "name": "microsoft-teams-automation",
+    "path": "skills/developer-tools/productivity/microsoft_teams_auto/microsoft-teams-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "microsoft_teams_auto",
+    "description": "Use this skill to design, implement, and operate production workflows for microsoft teams automation. Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "microsoft",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Microsoft Teams Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

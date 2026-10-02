@@ -794,7 +794,8 @@ AI_Skills_Booster/
 │   │   ├── jira_automation/ (1 skills)
 │   │   ├── linear_automation/ (1 skills)
 │   │   ├── linkedin_automation/ (1 skills)
-│   │   └── make_automation/ (1 skills)
+│   │   ├── make_automation/ (1 skills)
+│   │   └── microsoft_teams_auto/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/
