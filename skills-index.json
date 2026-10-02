@@ -47,6 +47,30 @@
     "maturity": "stable"
   },
   {
+    "name": "multi-agent-consensus-protocol",
+    "path": "skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "orchestration",
+    "description": "Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.",
+    "tags": [
+      "ai-agents",
+      "multi-agent",
+      "orchestration",
+      "consensus",
+      "llm-architecture",
+      "delphi-method"
+    ],
+    "technologies": [
+      "Python",
+      "LangGraph",
+      "AutoGen",
+      "JSON"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "context-window-engineering",
     "path": "skills/ai-engineering/context/optimization/context-window-engineering",
     "domain": "ai-engineering",

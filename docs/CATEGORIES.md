@@ -1,16 +1,18 @@
 # Skill Categories & Directory Map
 
-Master navigation for **40** skills across structured domains, categories, and subcategories.
+Master navigation for **41** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (4 skills)
+## Ai Engineering (5 skills)
 
-### Agents (2 skills)
+### Agents (3 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Benchmarking** (1):
   - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 - **Memory** (1):
   - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
+- **Orchestration** (1):
+  - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 
 ### Context (1 skills)
 Category index: [`docs/categories/context.md`](categories/context.md)
