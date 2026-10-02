@@ -20155,6 +20155,28 @@
     "maturity": "stable"
   },
   {
+    "name": "error-detective",
+    "path": "skills/software-engineering/architecture/patterns/error-detective",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for error detective. Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "error",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Error Detective",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
