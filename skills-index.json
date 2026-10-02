@@ -11103,6 +11103,28 @@
     "maturity": "stable"
   },
   {
+    "name": "design-it",
+    "path": "skills/frontend/ui-development/design_it/design-it",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "design_it",
+    "description": "Use this skill to design, implement, and operate production workflows for design it. Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "design",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Design It",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
