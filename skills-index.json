@@ -2767,6 +2767,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brooks-lint",
+    "path": "skills/ai-engineering/models/brooks_lint/brooks-lint",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "brooks_lint",
+    "description": "Use this skill to aI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "brooks",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brooks Lint",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

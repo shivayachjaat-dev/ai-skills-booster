@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **423** skills across structured domains, categories, and subcategories.
+Master navigation for **424** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (143 skills)
+## Ai Engineering (144 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -118,7 +118,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (88 skills)
+### Models (89 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -286,6 +286,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [brooks-debt](../skills/ai-engineering/models/brooks_debt/brooks-debt/SKILL.md) — Use this skill to tech debt assessment that identifies, classifies, and prioritizes maintainability problems — helping teams build a refactoring roadmap — drawing on twelve classic engineering books.
 - **Brooks_Harness** (1):
   - [brooks-harness](../skills/ai-engineering/models/brooks_harness/brooks-harness/SKILL.md) — Use this skill to maintenance orchestrator for the brooks-lint plugin itself.
+- **Brooks_Lint** (1):
+  - [brooks-lint](../skills/ai-engineering/models/brooks_lint/brooks-lint/SKILL.md) — Use this skill to aI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
