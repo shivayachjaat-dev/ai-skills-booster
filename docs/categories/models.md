@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **201 skills** available in this category.
+> **202 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -195,6 +195,7 @@
 | [devcontainer-setup](../../skills/ai-engineering/models/devcontainer_setup/devcontainer-setup/SKILL.md) | `devcontainer_setup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devcontainer setup. Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code worksp... |
 | [devcontainers-nix](../../skills/ai-engineering/models/devcontainers_nix/devcontainers-nix/SKILL.md) | `devcontainers_nix` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devcontainers nix. Create reproducible development environments with Dev Containers, Nix |
 | [developer-churn](../../skills/ai-engineering/models/developer_churn/developer-churn/SKILL.md) | `developer_churn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for developer churn. When the user wants to understand, reduce, or recover from developer churn. Trigger phrases include "why developers leave," "churn rate," "win-back campaign," "at-risk users," "developer retention," "preventing churn," or "competitor switching. |
+| [developer-newsletter](../../skills/ai-engineering/models/developer_newsletter/developer-newsletter/SKILL.md) | `developer_newsletter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for developer newsletter. When the user wants to create, write, or improve a newsletter for developer audiences. Trigger phrases include "newsletter," "email marketing," "developer email," "weekly digest," "dev newsletter," "email subscribers," "newsletter growth," or "email l... |
 | [editorial-design](../../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |

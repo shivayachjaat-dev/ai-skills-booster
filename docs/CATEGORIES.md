@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **822** skills across structured domains, categories, and subcategories.
+Master navigation for **823** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (284 skills)
+## Ai Engineering (285 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -164,7 +164,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (201 skills)
+### Models (202 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -540,6 +540,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [devcontainers-nix](../skills/ai-engineering/models/devcontainers_nix/devcontainers-nix/SKILL.md) — Use this skill to design, implement, and operate production workflows for devcontainers nix. Create reproducible development environments with Dev Containers, Nix
 - **Developer_Churn** (1):
   - [developer-churn](../skills/ai-engineering/models/developer_churn/developer-churn/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer churn. When the user wants to understand, reduce, or recover from developer churn. Trigger phrases include "why developers leave," "churn rate," "win-back campaign," "at-risk users," "developer retention," "preventing churn," or "competitor switching.
+- **Developer_Newsletter** (1):
+  - [developer-newsletter](../skills/ai-engineering/models/developer_newsletter/developer-newsletter/SKILL.md) — Use this skill to design, implement, and operate production workflows for developer newsletter. When the user wants to create, write, or improve a newsletter for developer audiences. Trigger phrases include "newsletter," "email marketing," "developer email," "weekly digest," "dev newsletter," "email subscribers," "newsletter growth," or "email l...
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):

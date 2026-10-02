@@ -5561,6 +5561,28 @@
     "maturity": "stable"
   },
   {
+    "name": "developer-newsletter",
+    "path": "skills/ai-engineering/models/developer_newsletter/developer-newsletter",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "developer_newsletter",
+    "description": "Use this skill to design, implement, and operate production workflows for developer newsletter. When the user wants to create, write, or improve a newsletter for developer audiences. Trigger phrases include \"newsletter,\" \"email marketing,\" \"developer email,\" \"weekly digest,\" \"dev newsletter,\" \"email subscribers,\" \"newsletter growth,\" or \"email l...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "developer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Developer Newsletter",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
