@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **643** skills across structured domains, categories, and subcategories.
+Master navigation for **644** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (229 skills)
+## Ai Engineering (230 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (157 skills)
+### Models (158 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -450,6 +450,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [crossframe-org](../skills/ai-engineering/models/crossframe_org/crossframe-org/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives.
 - **Crossframe_Review** (1):
   - [crossframe-review](../skills/ai-engineering/models/crossframe_review/crossframe-review/SKILL.md) — Use this skill to use when explicit CrossFrame output needs review for reasoning fidelity, evidence boundaries, source anchors, concept drift, article collapse, or repair steps.
+- **Crossframe_Teach** (1):
+  - [crossframe-teach](../skills/ai-engineering/models/crossframe_teach/crossframe-teach/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame concepts, misreading boundaries, plain-language examples, signals, or exercises.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

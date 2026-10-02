@@ -4571,6 +4571,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-teach",
+    "path": "skills/ai-engineering/models/crossframe_teach/crossframe-teach",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "crossframe_teach",
+    "description": "Use this skill to use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame concepts, misreading boundaries, plain-language examples, signals, or exercises.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Teach",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
