@@ -749,6 +749,7 @@ AI_Skills_Booster/
 │   │   ├── expo_animation/ (1 skills)
 │   │   ├── expo_api_routes/ (1 skills)
 │   │   ├── expo_cicd_workflows/ (1 skills)
+│   │   ├── expo_dev_client/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   └── swiftui_performance_/ (1 skills)

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **940** skills across structured domains, categories, and subcategories.
+Master navigation for **941** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (326 skills)
 
@@ -1451,7 +1451,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (171 skills)
+## Frontend (172 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1541,7 +1541,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
-### Ui Ux (89 skills)
+### Ui Ux (90 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1716,6 +1716,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [expo-api-routes](../skills/frontend/ui-ux/expo_api_routes/expo-api-routes/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo api routes. Guidelines for creating API routes in Expo Router with EAS Hosting
 - **Expo_Cicd_Workflows** (1):
   - [expo-cicd-workflows](../skills/frontend/ui-ux/expo_cicd_workflows/expo-cicd-workflows/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo cicd workflows. Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.
+- **Expo_Dev_Client** (1):
+  - [expo-dev-client](../skills/frontend/ui-ux/expo_dev_client/expo-dev-client/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo dev client. Build Expo app for development
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

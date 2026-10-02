@@ -14909,6 +14909,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-dev-client",
+    "path": "skills/frontend/ui-ux/expo_dev_client/expo-dev-client",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "expo_dev_client",
+    "description": "Use this skill to design, implement, and operate production workflows for expo dev client. Build Expo app for development",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Dev Client",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
