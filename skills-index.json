@@ -16279,6 +16279,28 @@
     "maturity": "stable"
   },
   {
+    "name": "load-balancing",
+    "path": "skills/devops/ci-cd/load_balancing/load-balancing",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "load_balancing",
+    "description": "Use this skill to design, implement, and operate production workflows for load balancing. Configure load balancers and traffic distribution. Implement health checks",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "load",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Load Balancing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",

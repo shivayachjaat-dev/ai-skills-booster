@@ -793,6 +793,7 @@ AI_Skills_Booster/
 │   │   ├── kubernetes_ops/ (1 skills)
 │   │   ├── kustomize/ (1 skills)
 │   │   ├── linux_administration/ (1 skills)
+│   │   ├── load_balancing/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
