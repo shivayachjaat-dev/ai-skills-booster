@@ -198,6 +198,7 @@ AI_Skills_Booster/
 │   │   └── openapi-generator/ (1 skills)
 ├── devops/
 │   ├── ci-cd/
+│   │   ├── aws_cost_optimizatio/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)

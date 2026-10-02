@@ -2881,6 +2881,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-cost-optimization",
+    "path": "skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "aws_cost_optimizatio",
+    "description": "Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Cost Optimization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
