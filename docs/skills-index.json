@@ -952,6 +952,28 @@
     "maturity": "stable"
   },
   {
+    "name": "spatial-computing-ui",
+    "path": "skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "spatial_computing_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for spatial computing ui. Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style.",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "spatial",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Spatial Computing Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "context-window-engineering",
     "path": "skills/ai-engineering/context/optimization/context-window-engineering",
     "domain": "ai-engineering",

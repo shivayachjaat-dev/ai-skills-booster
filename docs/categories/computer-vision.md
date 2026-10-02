@@ -1,6 +1,6 @@
 # Category Index: Computer Vision
 
-> **4 skills** available in this category.
+> **5 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -8,3 +8,4 @@
 | [azure-sql](../../skills/ai-engineering/computer-vision/azure_sql/azure-sql/SKILL.md) | `azure_sql` | `advanced` | `stable` | Use this skill to provision Azure SQL Database and Cosmos DB. Configure security, backups, |
 | [color-blocking](../../skills/ai-engineering/computer-vision/color_blocking/color-blocking/SKILL.md) | `color_blocking` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for color blocking. Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids. |
 | [computer-vision-expert](../../skills/ai-engineering/computer-vision/computer_vision_expe/computer-vision-expert/SKILL.md) | `computer_vision_expe` | `advanced` | `stable` | Use this skill to sOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis. |
+| [spatial-computing-ui](../../skills/ai-engineering/computer-vision/spatial_computing_ui/spatial-computing-ui/SKILL.md) | `spatial_computing_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spatial computing ui. Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style. |
