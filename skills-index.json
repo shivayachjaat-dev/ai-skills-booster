@@ -13648,6 +13648,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-shopify-integration",
+    "path": "skills/backend/api-frameworks/odoo_shopify_integra/odoo-shopify-integration",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "odoo_shopify_integra",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo shopify integration. Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Shopify Integration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",

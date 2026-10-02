@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **35 skills** available in this category.
+> **36 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -39,3 +39,4 @@
 | [muapi-media](../../skills/backend/api-frameworks/muapi_media/muapi-media/SKILL.md) | `muapi_media` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for muapi media. Generate images and videos with MuAPI's schema-driven asynchronous media API while protecting keys, polling, and output downloads. |
 | [newman-cicd-integration](../../skills/backend/api-frameworks/newman_cicd_integrat/newman-cicd-integration/SKILL.md) | `newman_cicd_integrat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for newman cicd integration. Generate ready-to-use CI/CD pipeline configurations that install and run Newman for automated API testing. |
 | [odoo-rpc-api](../../skills/backend/api-frameworks/odoo_rpc_api/odoo-rpc-api/SKILL.md) | `odoo_rpc_api` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo rpc api. Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScript, and curl. |
+| [odoo-shopify-integration](../../skills/backend/api-frameworks/odoo_shopify_integra/odoo-shopify-integration/SKILL.md) | `odoo_shopify_integra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo shopify integration. Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules. |
