@@ -7871,6 +7871,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gpt-taste",
+    "path": "skills/ai-engineering/models/gpt_taste/gpt-taste",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "gpt_taste",
+    "description": "Use this skill to design, implement, and operate production workflows for gpt taste. Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "gpt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gpt Taste",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

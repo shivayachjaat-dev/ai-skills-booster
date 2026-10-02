@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,127 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,128 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -358,6 +358,7 @@
 | [google-no-code](skills/ai-engineering/models/google_no_code/google-no-code/SKILL.md) | `ai-engineering` | `models` | `google_no_code` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google no code. Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic questions — no code editor required. |
 | [google-sheets-automation](skills/ai-engineering/models/google_sheets_automa/google-sheets-automation/SKILL.md) | `ai-engineering` | `models` | `google_sheets_automa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google sheets automation. Read and edit Google Sheets through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification. |
 | [google-slides-automation](skills/ai-engineering/models/google_slides_automa/google-slides-automation/SKILL.md) | `ai-engineering` | `models` | `google_slides_automa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google slides automation. Read and edit Google Slides through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification. |
+| [gpt-taste](skills/ai-engineering/models/gpt_taste/gpt-taste/SKILL.md) | `ai-engineering` | `models` | `gpt_taste` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gpt taste. Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
