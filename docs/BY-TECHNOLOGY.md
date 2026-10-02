@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (803 skills)
+## Bash (804 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1644,6 +1644,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fastapi-templates](../skills/frontend/ui-ux/fastapi_templates/fastapi-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for fastapi templates. Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.
 - [fedramp-compliance](../skills/frontend/ui-ux/fedramp_compliance/fedramp-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fedramp compliance. Implement FedRAMP requirements for federal cloud services. Configure
 - [finishing-a-development-branch](../skills/frontend/ui-ux/finishing_a_developm/finishing-a-development-branch/SKILL.md) — Use this skill to design, implement, and operate production workflows for finishing a development branch. Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup
+- [firebase-app-platform](../skills/frontend/ui-ux/firebase_app_platfor/firebase-app-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for firebase app platform. Build and operate apps on Firebase using Auth, Firestore, Cloud Functions,
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -4359,6 +4360,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [firebase](../skills/backend/api-design/firebase/firebase/SKILL.md) — Use this skill to design, implement, and operate production workflows for firebase. Firebase gives you a complete backend in minutes - auth, database,
 
+## Firebase App Platform (1 skills)
+
+- [firebase-app-platform](../skills/frontend/ui-ux/firebase_app_platfor/firebase-app-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for firebase app platform. Build and operate apps on Firebase using Auth, Firestore, Cloud Functions,
+
 ## Firmographic APIs (1 skills)
 
 - [b2b-lead-enrichment-and-prospecting-crawler](../skills/marketing/lead-generation/b2b-enrichment/b2b-lead-enrichment-and-prospecting-crawler/SKILL.md) — Use this skill to design, build, and automate ethical B2B sales lead generation and firmographic enrichment pipelines. It covers company domain parsing, technology stack detection (BuiltWith/Wappalyzer signatures), executive contact discovery, and CRM ingestion.
@@ -5381,7 +5386,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (906 skills)
+## Python (907 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6027,6 +6032,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fastapi-templates](../skills/frontend/ui-ux/fastapi_templates/fastapi-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for fastapi templates. Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.
 - [fedramp-compliance](../skills/frontend/ui-ux/fedramp_compliance/fedramp-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fedramp compliance. Implement FedRAMP requirements for federal cloud services. Configure
 - [finishing-a-development-branch](../skills/frontend/ui-ux/finishing_a_developm/finishing-a-development-branch/SKILL.md) — Use this skill to design, implement, and operate production workflows for finishing a development branch. Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup
+- [firebase-app-platform](../skills/frontend/ui-ux/firebase_app_platfor/firebase-app-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for firebase app platform. Build and operate apps on Firebase using Auth, Firestore, Cloud Functions,
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.

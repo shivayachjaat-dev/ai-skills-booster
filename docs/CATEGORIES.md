@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **985** skills across structured domains, categories, and subcategories.
+Master navigation for **986** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (347 skills)
 
@@ -1507,7 +1507,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (182 skills)
+## Frontend (183 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1599,7 +1599,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
-### Ui Ux (96 skills)
+### Ui Ux (97 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1788,6 +1788,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [fedramp-compliance](../skills/frontend/ui-ux/fedramp_compliance/fedramp-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fedramp compliance. Implement FedRAMP requirements for federal cloud services. Configure
 - **Finishing_A_Developm** (1):
   - [finishing-a-development-branch](../skills/frontend/ui-ux/finishing_a_developm/finishing-a-development-branch/SKILL.md) — Use this skill to design, implement, and operate production workflows for finishing a development branch. Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup
+- **Firebase_App_Platfor** (1):
+  - [firebase-app-platform](../skills/frontend/ui-ux/firebase_app_platfor/firebase-app-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for firebase app platform. Build and operate apps on Firebase using Auth, Firestore, Cloud Functions,
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

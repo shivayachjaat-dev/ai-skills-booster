@@ -15701,6 +15701,28 @@
     "maturity": "stable"
   },
   {
+    "name": "firebase-app-platform",
+    "path": "skills/frontend/ui-ux/firebase_app_platfor/firebase-app-platform",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "firebase_app_platfor",
+    "description": "Use this skill to design, implement, and operate production workflows for firebase app platform. Build and operate apps on Firebase using Auth, Firestore, Cloud Functions,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "firebase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Firebase App Platform",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
