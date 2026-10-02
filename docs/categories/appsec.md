@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **38 skills** available in this category.
+> **39 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -38,6 +38,7 @@
 | [hunt-aspnet](../../skills/security/appsec/hunt_aspnet/hunt-aspnet/SKILL.md) | `hunt_aspnet` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt aspnet. Hunt ASP.NET-specific surface |
 | [hunt-ato](../../skills/security/appsec/hunt_ato/hunt-ato/SKILL.md) | `hunt_ato` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt ato. Hunt account takeover taxonomy |
 | [hunt-auth-bypass](../../skills/security/appsec/hunt_auth_bypass/hunt-auth-bypass/SKILL.md) | `hunt_auth_bypass` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt auth bypass. Hunting skill for auth bypass vulnerabilities. |
+| [hunt-brute-force](../../skills/security/appsec/hunt_brute_force/hunt-brute-force/SKILL.md) | `hunt_brute_force` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt brute force. Hunt Missing/Weak Rate Limiting |
 | [laravel-security-audit](../../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
