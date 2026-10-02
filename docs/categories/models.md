@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **52 skills** available in this category.
+> **53 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -55,4 +55,5 @@
 | [azure-ai-vision-imageanalysis-java](../../skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-java/SKILL.md) | `azure_ai_vision_imag` | `advanced` | `stable` | Use this skill to build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping. |
 | [azure-ai-vision-imageanalysis-py](../../skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-py/SKILL.md) | `azure_ai_vision_imag` | `advanced` | `stable` | Use this skill to azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks. |
 | [azure-ai-voicelive-dotnet](../../skills/ai-engineering/models/azure_ai_voicelive_d/azure-ai-voicelive-dotnet/SKILL.md) | `azure_ai_voicelive_d` | `advanced` | `stable` | Use this skill to azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication. |
+| [azure-ai-voicelive-java](../../skills/ai-engineering/models/azure_ai_voicelive_j/azure-ai-voicelive-java/SKILL.md) | `azure_ai_voicelive_j` | `advanced` | `stable` | Use this skill to azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

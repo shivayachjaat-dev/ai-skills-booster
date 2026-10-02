@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 270 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 271 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -86,6 +86,7 @@
 | [azure-ai-vision-imageanalysis-java](skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-java/SKILL.md) | `ai-engineering` | `models` | `azure_ai_vision_imag` | `advanced` | `stable` | Use this skill to build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping. |
 | [azure-ai-vision-imageanalysis-py](skills/ai-engineering/models/azure_ai_vision_imag/azure-ai-vision-imageanalysis-py/SKILL.md) | `ai-engineering` | `models` | `azure_ai_vision_imag` | `advanced` | `stable` | Use this skill to azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks. |
 | [azure-ai-voicelive-dotnet](skills/ai-engineering/models/azure_ai_voicelive_d/azure-ai-voicelive-dotnet/SKILL.md) | `ai-engineering` | `models` | `azure_ai_voicelive_d` | `advanced` | `stable` | Use this skill to azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication. |
+| [azure-ai-voicelive-java](skills/ai-engineering/models/azure_ai_voicelive_j/azure-ai-voicelive-java/SKILL.md) | `ai-engineering` | `models` | `azure_ai_voicelive_j` | `advanced` | `stable` | Use this skill to azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |
