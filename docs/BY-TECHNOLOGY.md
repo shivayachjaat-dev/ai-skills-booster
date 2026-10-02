@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (329 skills)
+## Bash (330 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1323,6 +1323,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [browser-harness](../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) — Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation.
 - [burp-suite-testing](../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) — Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.
 - [business-website-setup](../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) — Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.
+- [client-secret-exposure-audit](../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) — Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig.
 - [aws-ec2](../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) — Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
 - [azure-keyvault](../skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) — Use this skill to manage secrets and certificates in Azure Key Vault. Configure access
@@ -2002,6 +2003,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Clickup Automation (1 skills)
 
 - [clickup-automation](../skills/developer-tools/productivity/clickup_automation/clickup-automation/SKILL.md) — Use this skill to automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas.
+
+## Client Secret Exposure Audit (1 skills)
+
+- [client-secret-exposure-audit](../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) — Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig.
 
 ## Clippy (1 skills)
 
@@ -3142,7 +3147,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (432 skills)
+## Python (433 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3483,6 +3488,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [browser-harness](../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) — Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation.
 - [burp-suite-testing](../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) — Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.
 - [business-website-setup](../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) — Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.
+- [client-secret-exposure-audit](../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) — Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig.
 - [app-store-optimization-and-metadata-strategy](../skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) — Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata.
 - [social-sentiment-and-brand-reputation-monitor](../skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor/SKILL.md) — Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting.
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.

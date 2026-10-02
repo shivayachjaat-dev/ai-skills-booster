@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **511** skills across structured domains, categories, and subcategories.
+Master navigation for **512** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (171 skills)
 
@@ -1014,7 +1014,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (58 skills)
+## Frontend (59 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1160,7 +1160,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Claude_D3Js_Skill** (1):
   - [claude-d3js-skill](../skills/frontend/ui-ux/claude_d3js_skill/claude-d3js-skill/SKILL.md) — Use this skill to this skill provides guidance for creating sophisticated, interactive data visualisations using d3.js.
 
-### Web Architecture (8 skills)
+### Web Architecture (9 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **Antigravity_Design_E** (1):
@@ -1178,6 +1178,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [burp-suite-testing](../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) — Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.
 - **Business_Website_Set** (1):
   - [business-website-setup](../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) — Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.
+- **Client_Secret_Exposu** (1):
+  - [client-secret-exposure-audit](../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) — Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig.
 
 ## Marketing (8 skills)
 
