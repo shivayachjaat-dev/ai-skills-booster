@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **13 skills** available in this category.
+> **14 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -16,4 +16,5 @@
 | [azure-storage-queue-py](../../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-py/SKILL.md) | `azure_storage_queue_` | `advanced` | `stable` | Use this skill to azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing. |
 | [azure-storage-queue-rust](../../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-rust/SKILL.md) | `azure_storage_queue_` | `advanced` | `stable` | Use this skill to azure Queue Storage library for Rust. Send, receive, and manage queue messages. Triggers: "queue storage rust", "QueueClient rust", "send message rust", "receive messages rust", "QueueServiceClient rust", "queue rust". |
 | [azure-storage-queue-ts](../../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-ts/SKILL.md) | `azure_storage_queue_` | `advanced` | `stable` | Use this skill to azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues. |
+| [block-storage](../../skills/ai-engineering/rag/block_storage/block-storage/SKILL.md) | `block_storage` | `advanced` | `stable` | Use this skill to manage block storage volumes and LVM. Configure cloud block storage and |
 | [rag-retrieval-evaluation](../../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |

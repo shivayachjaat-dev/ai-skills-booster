@@ -2862,6 +2862,28 @@
     "maturity": "stable"
   },
   {
+    "name": "block-storage",
+    "path": "skills/ai-engineering/rag/block_storage/block-storage",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "block_storage",
+    "description": "Use this skill to manage block storage volumes and LVM. Configure cloud block storage and",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "block",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Block Storage",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",

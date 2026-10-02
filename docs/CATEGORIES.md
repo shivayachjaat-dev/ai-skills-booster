@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **402** skills across structured domains, categories, and subcategories.
+Master navigation for **403** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (131 skills)
+## Ai Engineering (132 skills)
 
 ### Agents (17 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -279,7 +279,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (13 skills)
+### Rag (14 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -303,6 +303,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [azure-storage-queue-py](../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-py/SKILL.md) — Use this skill to azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.
   - [azure-storage-queue-rust](../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-rust/SKILL.md) — Use this skill to azure Queue Storage library for Rust. Send, receive, and manage queue messages. Triggers: "queue storage rust", "QueueClient rust", "send message rust", "receive messages rust", "QueueServiceClient rust", "queue rust".
   - [azure-storage-queue-ts](../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-ts/SKILL.md) — Use this skill to azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.
+- **Block_Storage** (1):
+  - [block-storage](../skills/ai-engineering/rag/block_storage/block-storage/SKILL.md) — Use this skill to manage block storage volumes and LVM. Configure cloud block storage and
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 
