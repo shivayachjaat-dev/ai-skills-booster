@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **155 skills** available in this category.
+> **156 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -158,4 +158,5 @@
 | [credit-cycle-analysis](../../skills/ai-engineering/models/credit_cycle_analysi/credit-cycle-analysis/SKILL.md) | `credit_cycle_analysi` | `advanced` | `stable` | Use this skill to debtor and creditor credit-cycle analysis: weighted collection or payment days, ageing buckets, credit limit utilisation and gap against benchmark. Use for working-capital review. |
 | [crewai](../../skills/ai-engineering/models/crewai/crewai/SKILL.md) | `crewai` | `advanced` | `stable` | Use this skill to expert in CrewAI - the leading role-based multi-agent framework |
 | [cross-chain-relayer-audit](../../skills/ai-engineering/models/cross_chain_relayer_/cross-chain-relayer-audit/SKILL.md) | `cross_chain_relayer_` | `advanced` | `stable` | Use this skill to cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs. |
+| [crossframe-org](../../skills/ai-engineering/models/crossframe_org/crossframe-org/SKILL.md) | `crossframe_org` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

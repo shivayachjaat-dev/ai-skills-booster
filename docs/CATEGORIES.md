@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **639** skills across structured domains, categories, and subcategories.
+Master navigation for **640** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (227 skills)
+## Ai Engineering (228 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (155 skills)
+### Models (156 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -446,6 +446,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [crewai](../skills/ai-engineering/models/crewai/crewai/SKILL.md) — Use this skill to expert in CrewAI - the leading role-based multi-agent framework
 - **Cross_Chain_Relayer_** (1):
   - [cross-chain-relayer-audit](../skills/ai-engineering/models/cross_chain_relayer_/cross-chain-relayer-audit/SKILL.md) — Use this skill to cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs.
+- **Crossframe_Org** (1):
+  - [crossframe-org](../skills/ai-engineering/models/crossframe_org/crossframe-org/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

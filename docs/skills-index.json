@@ -4527,6 +4527,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-org",
+    "path": "skills/ai-engineering/models/crossframe_org/crossframe-org",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "crossframe_org",
+    "description": "Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Org",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
