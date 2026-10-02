@@ -23014,6 +23014,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-springboot",
+    "path": "skills/security/appsec/hunt_springboot/hunt-springboot",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_springboot",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt springboot. Hunt Spring Boot specific vulnerabilities",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Springboot",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",

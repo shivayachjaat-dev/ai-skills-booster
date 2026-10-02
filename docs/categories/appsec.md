@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **71 skills** available in this category.
+> **72 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -71,6 +71,7 @@
 | [hunt-saml](../../skills/security/appsec/hunt_saml/hunt-saml/SKILL.md) | `hunt_saml` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt saml. Hunt SAML / SSO attacks. |
 | [hunt-session](../../skills/security/appsec/hunt_session/hunt-session/SKILL.md) | `hunt_session` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt session. Hunt Session Management vulnerabilities |
 | [hunt-sharepoint](../../skills/security/appsec/hunt_sharepoint/hunt-sharepoint/SKILL.md) | `hunt_sharepoint` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt sharepoint. Hunt Microsoft SharePoint Server (2013/2016/2019/Subscription Edition) |
+| [hunt-springboot](../../skills/security/appsec/hunt_springboot/hunt-springboot/SKILL.md) | `hunt_springboot` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt springboot. Hunt Spring Boot specific vulnerabilities |
 | [laravel-security-audit](../../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
