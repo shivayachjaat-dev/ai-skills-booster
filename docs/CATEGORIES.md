@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **491** skills across structured domains, categories, and subcategories.
+Master navigation for **492** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (164 skills)
 
@@ -1551,7 +1551,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (10 skills)
+## Testing (11 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -1571,7 +1571,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (3 skills)
+### Automation (4 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -1580,6 +1580,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [brooks-sweep](../skills/testing/automation/brooks_sweep/brooks-sweep/SKILL.md) — Use this skill to full-sweep mode: runs a unified analysis across all quality dimensions — code decay, architecture, tech debt, and test quality — then applies fixes directly to the codebase. Safe changes are auto-applied; risky changes are confirmed before execution.
 - **Browser_Testing_With** (1):
   - [browser-testing-with-devtools](../skills/testing/automation/browser_testing_with/browser-testing-with-devtools/SKILL.md) — Use this skill to test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, accessibility, and performance traces.
+- **Circleci_Automation** (1):
+  - [circleci-automation](../skills/testing/automation/circleci_automation/circleci-automation/SKILL.md) — Use this skill to automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

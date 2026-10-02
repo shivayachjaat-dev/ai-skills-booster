@@ -11339,6 +11339,28 @@
     "maturity": "stable"
   },
   {
+    "name": "circleci-automation",
+    "path": "skills/testing/automation/circleci_automation/circleci-automation",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "circleci_automation",
+    "description": "Use this skill to automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.",
+    "tags": [
+      "testing",
+      "automation",
+      "circleci",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Circleci Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",
