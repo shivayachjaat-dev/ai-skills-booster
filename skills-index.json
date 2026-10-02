@@ -32211,6 +32211,28 @@
     "maturity": "stable"
   },
   {
+    "name": "makepad-reference",
+    "path": "skills/software-engineering/architecture/patterns/makepad-reference",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for makepad reference. This category provides reference materials for debugging, code quality, and advanced layout patterns.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "makepad",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Makepad Reference",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",

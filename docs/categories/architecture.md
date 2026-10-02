@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **171 skills** available in this category.
+> **172 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -173,5 +173,6 @@
 | [logistics-exception-management](../../skills/software-engineering/architecture/patterns/logistics-exception-management/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for logistics exception management. Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience. |
 | [loss-aversion-designer](../../skills/software-engineering/architecture/patterns/loss-aversion-designer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for loss aversion designer. One sentence - what this skill does and when to invoke it |
 | [machine-learning-ops-ml-pipeline](../../skills/software-engineering/architecture/patterns/machine-learning-ops-ml-pipeline/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for machine learning ops ml pipeline. Design and implement a complete ML pipeline for: $ARGUMENTS |
+| [makepad-reference](../../skills/software-engineering/architecture/patterns/makepad-reference/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad reference. This category provides reference materials for debugging, code quality, and advanced layout patterns. |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
