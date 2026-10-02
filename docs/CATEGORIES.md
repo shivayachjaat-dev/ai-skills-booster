@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,603** skills across structured domains, categories, and subcategories.
+Master navigation for **1,604** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (557 skills)
+## Ai Engineering (558 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -276,7 +276,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Multi_Tenant_Llm_Hos** (1):
   - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 
-### Models (406 skills)
+### Models (407 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1066,6 +1066,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [new-rails-project](../skills/ai-engineering/models/new_rails_project/new-rails-project/SKILL.md) — Use this skill to design, implement, and operate production workflows for new rails project. Create a new Rails project
 - **Nexrad_Mosaic_Access** (1):
   - [nexrad-mosaic-access](../skills/ai-engineering/models/nexrad_mosaic_access/nexrad-mosaic-access/SKILL.md) — Use this skill to design, implement, and operate production workflows for nexrad mosaic access. Access official NOAA/NCEP MRMS radar and multisensor composites for a region and time; validate product, grid, domain, quality, timestamp, and provenance.
+- **Nexrad_Mosaic_Constr** (1):
+  - [nexrad-mosaic-construction](../skills/ai-engineering/models/nexrad_mosaic_constr/nexrad-mosaic-construction/SKILL.md) — Use this skill to design, implement, and operate production workflows for nexrad mosaic construction. Construct a quality-aware NEXRAD multi-radar mosaic from aligned single-site products with explicit coverage, beam geometry, quality weighting, overlap resolution, and provenance.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

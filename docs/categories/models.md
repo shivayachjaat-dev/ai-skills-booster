@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **406 skills** available in this category.
+> **407 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -403,6 +403,7 @@
 | [network-101](../../skills/ai-engineering/models/network_101/network-101/SKILL.md) | `network_101` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for network 101. Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems. |
 | [new-rails-project](../../skills/ai-engineering/models/new_rails_project/new-rails-project/SKILL.md) | `new_rails_project` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for new rails project. Create a new Rails project |
 | [nexrad-mosaic-access](../../skills/ai-engineering/models/nexrad_mosaic_access/nexrad-mosaic-access/SKILL.md) | `nexrad_mosaic_access` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nexrad mosaic access. Access official NOAA/NCEP MRMS radar and multisensor composites for a region and time; validate product, grid, domain, quality, timestamp, and provenance. |
+| [nexrad-mosaic-construction](../../skills/ai-engineering/models/nexrad_mosaic_constr/nexrad-mosaic-construction/SKILL.md) | `nexrad_mosaic_constr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nexrad mosaic construction. Construct a quality-aware NEXRAD multi-radar mosaic from aligned single-site products with explicit coverage, beam geometry, quality weighting, overlap resolution, and provenance. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
