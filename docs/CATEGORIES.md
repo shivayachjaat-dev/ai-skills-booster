@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **233** skills across structured domains, categories, and subcategories.
+Master navigation for **234** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (62 skills)
+## Ai Engineering (63 skills)
 
 ### Agents (15 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -51,6 +51,12 @@ Category index: [`docs/categories/communication.md`](categories/communication.md
   - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
 - **Voice Telephony** (1):
   - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
+
+### Computer Vision (1 skills)
+Category index: [`docs/categories/computer-vision.md`](categories/computer-vision.md)
+
+- **Aws_Rds** (1):
+  - [aws-rds](../skills/ai-engineering/computer-vision/aws_rds/aws-rds/SKILL.md) — Use this skill to provision and manage RDS databases. Configure backups, replication, and
 
 ### Context (1 skills)
 Category index: [`docs/categories/context.md`](categories/context.md)

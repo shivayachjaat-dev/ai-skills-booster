@@ -446,6 +446,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-rds",
+    "path": "skills/ai-engineering/computer-vision/aws_rds/aws-rds",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "aws_rds",
+    "description": "Use this skill to provision and manage RDS databases. Configure backups, replication, and",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Rds",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "context-window-engineering",
     "path": "skills/ai-engineering/context/optimization/context-window-engineering",
     "domain": "ai-engineering",
