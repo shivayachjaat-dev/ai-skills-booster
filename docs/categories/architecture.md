@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **65 skills** available in this category.
+> **66 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -69,3 +69,4 @@
 | [debugging-toolkit](../../skills/software-engineering/architecture/patterns/debugging-toolkit/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with debugging toolkit smart debug (Alias for debugging-toolkit-smart-debug) |
 | [debugging-toolkit-smart-debug](../../skills/software-engineering/architecture/patterns/debugging-toolkit-smart-debug/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with debugging toolkit smart debug |
 | [deep-research](../../skills/software-engineering/architecture/patterns/deep-research/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports. |
+| [defi-yield-strategy-allocator](../../skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers. |

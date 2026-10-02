@@ -15623,6 +15623,28 @@
     "maturity": "stable"
   },
   {
+    "name": "defi-yield-strategy-allocator",
+    "path": "skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "defi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Defi Yield Strategy Allocator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
