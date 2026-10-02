@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [contract-document-renewal](../../skills/business/operations/contract_document_re/contract-document-renewal/SKILL.md) | `contract_document_re` | `advanced` | `stable` | Use this skill to contract register: counterparty, owner, start and end dates, auto-renewal flag, renewal notice deadline, value and tax basis. Use for renewal tracking and notice deadlines. |
 | [csv-manual-export](../../skills/business/operations/csv_manual_export/csv-manual-export/SKILL.md) | `csv_manual_export` | `advanced` | `stable` | Use this skill to cSV Manual Export: a UTF-8 CSV template from a confirmed field list, empty by default, with no invented columns or values. Use for an import, staging or handoff file. |
 | [culture-retention](../../skills/business/operations/culture_retention/culture-retention/SKILL.md) | `culture_retention` | `advanced` | `stable` | Use this skill to employee survey and retention register: engagement, growth, happiness, work-life balance and manager-relationship scores, key concern and retention risk. Use for culture surveys. |
+| [disciplinary-pip-tracker](../../skills/business/operations/disciplinary_pip_tra/disciplinary-pip-tracker/SKILL.md) | `disciplinary_pip_tra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for disciplinary pip tracker. Disciplinary and performance-improvement case register: case type, linked review or issue, improvement goals, review dates, outcome and confidentiality. Use for PIP tracking. |

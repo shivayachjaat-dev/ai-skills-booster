@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (656 skills)
+## Bash (657 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1377,6 +1377,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [contract-document-renewal](../skills/business/operations/contract_document_re/contract-document-renewal/SKILL.md) — Use this skill to contract register: counterparty, owner, start and end dates, auto-renewal flag, renewal notice deadline, value and tax basis. Use for renewal tracking and notice deadlines.
 - [csv-manual-export](../skills/business/operations/csv_manual_export/csv-manual-export/SKILL.md) — Use this skill to cSV Manual Export: a UTF-8 CSV template from a confirmed field list, empty by default, with no invented columns or values. Use for an import, staging or handoff file.
 - [culture-retention](../skills/business/operations/culture_retention/culture-retention/SKILL.md) — Use this skill to employee survey and retention register: engagement, growth, happiness, work-life balance and manager-relationship scores, key concern and retention risk. Use for culture surveys.
+- [disciplinary-pip-tracker](../skills/business/operations/disciplinary_pip_tra/disciplinary-pip-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for disciplinary pip tracker. Disciplinary and performance-improvement case register: case type, linked review or issue, improvement goals, review dates, outcome and confidentiality. Use for PIP tracking.
 - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
 - [data-engineering-data-pipeline](../skills/data-analytics/data-pipelines/data_engineering_dat/data-engineering-data-pipeline/SKILL.md) — Use this skill to you are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.
 - [data-scientist](../skills/data-analytics/data-pipelines/data_scientist/data-scientist/SKILL.md) — Use this skill to expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence.
@@ -3463,6 +3464,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [disaster-recovery](../skills/security/appsec/disaster_recovery/disaster-recovery/SKILL.md) — Use this skill to design, implement, and operate production workflows for disaster recovery. Implement disaster recovery strategies and runbooks. Configure RPO/RTO
 
+## Disciplinary Pip Tracker (1 skills)
+
+- [disciplinary-pip-tracker](../skills/business/operations/disciplinary_pip_tra/disciplinary-pip-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for disciplinary pip tracker. Disciplinary and performance-improvement case register: case type, linked review or issue, improvement goals, review dates, outcome and confidentiality. Use for PIP tracking.
+
 ## Django (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -4649,7 +4654,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (759 skills)
+## Python (760 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5003,6 +5008,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [contract-document-renewal](../skills/business/operations/contract_document_re/contract-document-renewal/SKILL.md) — Use this skill to contract register: counterparty, owner, start and end dates, auto-renewal flag, renewal notice deadline, value and tax basis. Use for renewal tracking and notice deadlines.
 - [csv-manual-export](../skills/business/operations/csv_manual_export/csv-manual-export/SKILL.md) — Use this skill to cSV Manual Export: a UTF-8 CSV template from a confirmed field list, empty by default, with no invented columns or values. Use for an import, staging or handoff file.
 - [culture-retention](../skills/business/operations/culture_retention/culture-retention/SKILL.md) — Use this skill to employee survey and retention register: engagement, growth, happiness, work-life balance and manager-relationship scores, key concern and retention risk. Use for culture surveys.
+- [disciplinary-pip-tracker](../skills/business/operations/disciplinary_pip_tra/disciplinary-pip-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for disciplinary pip tracker. Disciplinary and performance-improvement case register: case type, linked review or issue, improvement goals, review dates, outcome and confidentiality. Use for PIP tracking.
 - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
 - [ai-saas-wrapper-architecture-and-stripe-metering](../skills/business/saas/ai-metering/ai-saas-wrapper-architecture-and-stripe-metering/SKILL.md) — Use this skill to architect, build, and monetize AI-wrapper SaaS products with usage-based billing, token credit wallets, and Stripe metering. It covers rate-limited API gateway proxies, tenant isolation, credit deduction middleware, and margin preservation against upstream LLM token costs.
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
