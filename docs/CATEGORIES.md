@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **411** skills across structured domains, categories, and subcategories.
+Master navigation for **412** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (136 skills)
+## Ai Engineering (137 skills)
 
 ### Agents (17 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -116,7 +116,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (82 skills)
+### Models (83 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -272,6 +272,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [boost-asio-pro](../skills/ai-engineering/models/boost_asio_pro/boost-asio-pro/SKILL.md) — Use this skill to use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, composed async ops. Covers io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, and pre-C++20 callback style
 - **Brain_To_Docs** (1):
   - [brain-to-docs](../skills/ai-engineering/models/brain_to_docs/brain-to-docs/SKILL.md) — Use this skill to interview the user to turn project vision and decisions into README and ADR documentation.
+- **Brainstorming** (1):
+  - [brainstorming](../skills/ai-engineering/models/brainstorming/brainstorming/SKILL.md) — Use this skill to use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

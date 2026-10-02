@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **82 skills** available in this category.
+> **83 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -85,4 +85,5 @@
 | [blueprint](../../skills/ai-engineering/models/blueprint/blueprint/SKILL.md) | `blueprint` | `advanced` | `stable` | Use this skill to turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh agent in a new session can pick up any step without reading prior steps. |
 | [boost-asio-pro](../../skills/ai-engineering/models/boost_asio_pro/boost-asio-pro/SKILL.md) | `boost_asio_pro` | `advanced` | `stable` | Use this skill to use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, composed async ops. Covers io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, and pre-C++20 callback style |
 | [brain-to-docs](../../skills/ai-engineering/models/brain_to_docs/brain-to-docs/SKILL.md) | `brain_to_docs` | `advanced` | `stable` | Use this skill to interview the user to turn project vision and decisions into README and ADR documentation. |
+| [brainstorming](../../skills/ai-engineering/models/brainstorming/brainstorming/SKILL.md) | `brainstorming` | `advanced` | `stable` | Use this skill to use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

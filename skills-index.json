@@ -2613,6 +2613,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brainstorming",
+    "path": "skills/ai-engineering/models/brainstorming/brainstorming",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "brainstorming",
+    "description": "Use this skill to use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "brainstorming",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brainstorming",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
