@@ -184,6 +184,7 @@ AI_Skills_Booster/
 │   │   ├── company_email_accoun/ (1 skills)
 │   │   ├── compile_knowledge/ (1 skills)
 │   │   ├── computer_use_agents/ (1 skills)
+│   │   ├── conductor_setup/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

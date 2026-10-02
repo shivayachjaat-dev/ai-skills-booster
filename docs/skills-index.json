@@ -3999,6 +3999,28 @@
     "maturity": "stable"
   },
   {
+    "name": "conductor-setup",
+    "path": "skills/ai-engineering/models/conductor_setup/conductor-setup",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "conductor_setup",
+    "description": "Use this skill to configure a Rails project to work with Conductor (parallel coding agents)",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "conductor",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Conductor Setup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
