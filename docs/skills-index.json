@@ -7651,6 +7651,28 @@
     "maturity": "stable"
   },
   {
+    "name": "github-actions-debugger",
+    "path": "skills/ai-engineering/models/github_actions_debug/github-actions-debugger",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "github_actions_debug",
+    "description": "Use this skill to design, implement, and operate production workflows for github actions debugger. Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "github",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Github Actions Debugger",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
