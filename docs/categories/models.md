@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **293 skills** available in this category.
+> **294 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -291,6 +291,7 @@
 | [growth-engine](../../skills/ai-engineering/models/growth_engine/growth-engine/SKILL.md) | `growth_engine` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for growth engine. Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica. |
 | [hf-mcp](../../skills/ai-engineering/models/hf_mcp/hf-mcp/SKILL.md) | `hf_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hf mcp. Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documentation, run compute jobs, and use Gradio Spaces as AI tools. Available when connected to the HF MCP server. |
 | [hig-project-context](../../skills/ai-engineering/models/hig_project_context/hig-project-context/SKILL.md) | `hig_project_context` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig project context. Create or update a shared Apple design context document that other HIG skills use to tailor guidance. |
+| [hosted-agents-v2-py](../../skills/ai-engineering/models/hosted_agents_v2_py/hosted-agents-v2-py/SKILL.md) | `hosted_agents_v2_py` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hosted agents v2 py. Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-based agents in Azure AI Foundry. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

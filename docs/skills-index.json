@@ -8113,6 +8113,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hosted-agents-v2-py",
+    "path": "skills/ai-engineering/models/hosted_agents_v2_py/hosted-agents-v2-py",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "hosted_agents_v2_py",
+    "description": "Use this skill to design, implement, and operate production workflows for hosted agents v2 py. Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-based agents in Azure AI Foundry.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "hosted",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hosted Agents V2 Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
