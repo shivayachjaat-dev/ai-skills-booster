@@ -58,8 +58,10 @@ AI_Skills_Booster/
 │   └── ecosystem/
 │   │   └── creation/ (1 skills)
 ├── programming-languages/
-│   └── golang/
+│   ├── golang/
 │   │   └── concurrency/ (1 skills)
+│   └── rust/
+│   │   └── memory-safety/ (1 skills)
 ├── security/
 │   ├── ai-security/
 │   │   └── defense/ (1 skills)

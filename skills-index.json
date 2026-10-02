@@ -618,6 +618,30 @@
     "maturity": "stable"
   },
   {
+    "name": "rust-memory-safety-and-lifetimes",
+    "path": "skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes",
+    "domain": "programming-languages",
+    "category": "rust",
+    "subcategory": "memory-safety",
+    "description": "Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.",
+    "tags": [
+      "rust",
+      "memory-safety",
+      "borrow-checker",
+      "lifetimes",
+      "systems-programming",
+      "zero-copy"
+    ],
+    "technologies": [
+      "Rust",
+      "Cargo",
+      "Tokio",
+      "Clippy"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "prompt-injection-defense",
     "path": "skills/security/ai-security/defense/prompt-injection-defense",
     "domain": "security",
