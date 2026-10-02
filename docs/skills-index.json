@@ -123,6 +123,31 @@
     "maturity": "stable"
   },
   {
+    "name": "agent-memory-recall-and-retention-discipline",
+    "path": "skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "memory-discipline",
+    "description": "Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences.",
+    "tags": [
+      "agent-memory",
+      "cognitive-architecture",
+      "memory-discipline",
+      "reflection",
+      "state-management",
+      "ai-agents"
+    ],
+    "technologies": [
+      "Python",
+      "Pydantic",
+      "SQLite",
+      "Vector Retrieval",
+      "Memory Protocols"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-consensus-protocol",
     "path": "skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol",
     "domain": "ai-engineering",
