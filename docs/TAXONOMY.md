@@ -60,6 +60,7 @@ AI_Skills_Booster/
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)
 │   │   ├── multi_advisor/ (1 skills)
+│   │   ├── multi_agent_patterns/ (1 skills)
 │   │   ├── observability/ (1 skills)
 │   │   ├── orchestration/ (1 skills)
 │   │   ├── orchestration-optimization/ (1 skills)
