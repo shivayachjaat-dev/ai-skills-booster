@@ -12653,6 +12653,28 @@
     "maturity": "stable"
   },
   {
+    "name": "competitive-landscape",
+    "path": "skills/software-engineering/architecture/patterns/competitive-landscape",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "competitive",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Competitive Landscape",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",

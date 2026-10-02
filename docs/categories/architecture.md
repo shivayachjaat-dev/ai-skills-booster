@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **36 skills** available in this category.
+> **37 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -40,3 +40,4 @@
 | [code-review-excellence](../../skills/software-engineering/architecture/patterns/code-review-excellence/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement. |
 | [codebase-onboarding](../../skills/software-engineering/architecture/patterns/codebase-onboarding/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to onboard a developer to a repository using Ontoly graph summaries. Use |
 | [commit](../../skills/software-engineering/architecture/patterns/commit/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to aLWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task. |
+| [competitive-landscape](../../skills/software-engineering/architecture/patterns/competitive-landscape/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies. |
