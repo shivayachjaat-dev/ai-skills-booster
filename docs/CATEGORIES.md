@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **854** skills across structured domains, categories, and subcategories.
+Master navigation for **855** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (295 skills)
+## Ai Engineering (296 skills)
 
 ### Agents (35 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -168,7 +168,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (210 skills)
+### Models (211 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -562,6 +562,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [docker-management](../skills/ai-engineering/models/docker_management/docker-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for docker management. Build, optimize, and troubleshoot Docker containers and images.
 - **Docs_Architect** (1):
   - [docs-architect](../skills/ai-engineering/models/docs_architect/docs-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for docs architect. Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.
+- **Docs_As_Marketing** (1):
+  - [docs-as-marketing](../skills/ai-engineering/models/docs_as_marketing/docs-as-marketing/SKILL.md) — Use this skill to design, implement, and operate production workflows for docs as marketing. Transform documentation into a powerful marketing channel that attracts, converts, and retains developers.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):

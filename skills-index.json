@@ -5803,6 +5803,28 @@
     "maturity": "stable"
   },
   {
+    "name": "docs-as-marketing",
+    "path": "skills/ai-engineering/models/docs_as_marketing/docs-as-marketing",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "docs_as_marketing",
+    "description": "Use this skill to design, implement, and operate production workflows for docs as marketing. Transform documentation into a powerful marketing channel that attracts, converts, and retains developers.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "docs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Docs As Marketing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
