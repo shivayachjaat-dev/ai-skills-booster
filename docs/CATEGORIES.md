@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **317** skills across structured domains, categories, and subcategories.
+Master navigation for **318** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (103 skills)
 
@@ -278,7 +278,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (27 skills)
+## Backend (28 skills)
 
 ### Api Design (2 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -288,7 +288,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (5 skills)
+### Api Frameworks (6 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -297,8 +297,9 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [aws-mcp-setup](../skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) — Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.
 - **Azure_Keyvault_Secre** (1):
   - [azure-keyvault-secrets-rust](../skills/backend/api-frameworks/azure_keyvault_secre/azure-keyvault-secrets-rust/SKILL.md) — Use this skill to azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: "keyvault secrets rust", "SecretClient rust", "get secret rust", "set secret rust".
-- **Azure_Mgmt_Apicenter** (1):
+- **Azure_Mgmt_Apicenter** (2):
   - [azure-mgmt-apicenter-dotnet](../skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-dotnet/SKILL.md) — Use this skill to azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery.
+  - [azure-mgmt-apicenter-py](../skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-py/SKILL.md) — Use this skill to azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.
 - **Fastapi Endpoints** (1):
   - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 
