@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,562 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,563 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -500,6 +500,7 @@
 | [monetization](skills/ai-engineering/models/monetization/monetization/SKILL.md) | `ai-engineering` | `models` | `monetization` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monetization. Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subscriptions, pricing experiments, freemium, upgrade flows, churn prevention, revenue optimization e modelos de negocio SaaS. |
 | [monte-carlo-monitoring-advisor](skills/ai-engineering/models/monte_carlo_monitori/monte-carlo-monitoring-advisor/SKILL.md) | `ai-engineering` | `models` | `monte_carlo_monitori` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo monitoring advisor. Analyze data coverage, create monitors for warehouse tables and AI agents. Covers coverage gaps, use-case analysis, data monitor creation, and agent observability. |
 | [monte-carlo-remediation](skills/ai-engineering/models/monte_carlo_remediat/monte-carlo-remediation/SKILL.md) | `ai-engineering` | `models` | `monte_carlo_remediat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo remediation. Investigate and remediate data quality alerts using Monte Carlo MCP tools. Runs root cause analysis, assesses blast radius, discovers available tools (MCP/CLI/API), proposes and executes fixes, or escalates with full context when uncertain. |
+| [multi-agent-architect](skills/ai-engineering/models/multi_agent_architec/multi-agent-architect/SKILL.md) | `ai-engineering` | `models` | `multi_agent_architec` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi agent architect. Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
