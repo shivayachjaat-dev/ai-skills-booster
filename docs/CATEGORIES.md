@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,066** skills across structured domains, categories, and subcategories.
+Master navigation for **1,067** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (366 skills)
 
@@ -1569,7 +1569,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (210 skills)
+## Frontend (211 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1699,7 +1699,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Full_Output_Enforcem** (1):
   - [full-output-enforcement](../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) — Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
 
-### Ui Ux (106 skills)
+### Ui Ux (107 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1906,6 +1906,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [gdpr-compliance](../skills/frontend/ui-ux/gdpr_compliance/gdpr-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for gdpr compliance. Implement GDPR data protection requirements. Configure consent management,
 - **Gdpr_Data_Handling** (1):
   - [gdpr-data-handling](../skills/frontend/ui-ux/gdpr_data_handling/gdpr-data-handling/SKILL.md) — Use this skill to design, implement, and operate production workflows for gdpr data handling. Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls.
+- **Gemini_Live_Api_Dev** (1):
+  - [gemini-live-api-dev](../skills/frontend/ui-ux/gemini_live_api_dev/gemini-live-api-dev/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini live api dev. Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

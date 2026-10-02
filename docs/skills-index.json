@@ -16955,6 +16955,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gemini-live-api-dev",
+    "path": "skills/frontend/ui-ux/gemini_live_api_dev/gemini-live-api-dev",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "gemini_live_api_dev",
+    "description": "Use this skill to design, implement, and operate production workflows for gemini live api dev. Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "gemini",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gemini Live Api Dev",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
