@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,291** skills across structured domains, categories, and subcategories.
+Master navigation for **1,292** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (433 skills)
+## Ai Engineering (434 skills)
 
-### Agents (53 skills)
+### Agents (54 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -95,6 +95,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [idea-evaluator-pro](../skills/ai-engineering/agents/idea_evaluator_pro/idea-evaluator-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea evaluator pro. The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and potential.
 - **Idea_To_Blueprint** (1):
   - [idea-to-blueprint](../skills/ai-engineering/agents/idea_to_blueprint/idea-to-blueprint/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea to blueprint. Turn a raw product, app, bot or feature idea into one evidence-backed build blueprint (researched stack, epics, Given/When/Then criteria, tests) that coding agents build one epic per session.
+- **Infinite_Gratitude** (1):
+  - [infinite-gratitude](../skills/ai-engineering/agents/infinite_gratitude/infinite-gratitude/SKILL.md) — Use this skill to design, implement, and operate production workflows for infinite gratitude. Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).
 - **Lintlang_Audit** (1):
   - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - **Memory** (1):

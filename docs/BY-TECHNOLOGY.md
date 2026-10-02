@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1109 skills)
+## Bash (1110 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1109,6 +1109,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [idea-evaluator-con](../skills/ai-engineering/agents/idea_evaluator_con/idea-evaluator-con/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea evaluator con. The Con Agent persona for idea evaluation. Critiques an idea by identifying potential flaws, risks, and market challenges.
 - [idea-evaluator-pro](../skills/ai-engineering/agents/idea_evaluator_pro/idea-evaluator-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea evaluator pro. The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and potential.
 - [idea-to-blueprint](../skills/ai-engineering/agents/idea_to_blueprint/idea-to-blueprint/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea to blueprint. Turn a raw product, app, bot or feature idea into one evidence-backed build blueprint (researched stack, epics, Given/When/Then criteria, tests) that coding agents build one epic per session.
+- [infinite-gratitude](../skills/ai-engineering/agents/infinite_gratitude/infinite-gratitude/SKILL.md) — Use this skill to design, implement, and operate production workflows for infinite gratitude. Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
@@ -6186,6 +6187,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [industrial-brutalist-ui](../skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.
 
+## Infinite Gratitude (1 skills)
+
+- [infinite-gratitude](../skills/ai-engineering/agents/infinite_gratitude/infinite-gratitude/SKILL.md) — Use this skill to design, implement, and operate production workflows for infinite gratitude. Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).
+
 ## Infracost (1 skills)
 
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
@@ -6907,7 +6912,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1212 skills)
+## Python (1213 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6953,6 +6958,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [idea-evaluator-con](../skills/ai-engineering/agents/idea_evaluator_con/idea-evaluator-con/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea evaluator con. The Con Agent persona for idea evaluation. Critiques an idea by identifying potential flaws, risks, and market challenges.
 - [idea-evaluator-pro](../skills/ai-engineering/agents/idea_evaluator_pro/idea-evaluator-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea evaluator pro. The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and potential.
 - [idea-to-blueprint](../skills/ai-engineering/agents/idea_to_blueprint/idea-to-blueprint/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea to blueprint. Turn a raw product, app, bot or feature idea into one evidence-backed build blueprint (researched stack, epics, Given/When/Then criteria, tests) that coding agents build one epic per session.
+- [infinite-gratitude](../skills/ai-engineering/agents/infinite_gratitude/infinite-gratitude/SKILL.md) — Use this skill to design, implement, and operate production workflows for infinite gratitude. Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - [agent-memory-recall-and-retention-discipline](../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) — Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences.

@@ -987,6 +987,28 @@
     "maturity": "stable"
   },
   {
+    "name": "infinite-gratitude",
+    "path": "skills/ai-engineering/agents/infinite_gratitude/infinite-gratitude",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "infinite_gratitude",
+    "description": "Use this skill to design, implement, and operate production workflows for infinite gratitude. Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "infinite",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Infinite Gratitude",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "lintlang-audit",
     "path": "skills/ai-engineering/agents/lintlang_audit/lintlang-audit",
     "domain": "ai-engineering",
