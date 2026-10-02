@@ -19831,6 +19831,28 @@
     "maturity": "stable"
   },
   {
+    "name": "e2e-testing",
+    "path": "skills/testing/automation/e2e_testing/e2e-testing",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "e2e_testing",
+    "description": "Use this skill to design, implement, and operate production workflows for e2e testing. End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration.",
+    "tags": [
+      "testing",
+      "automation",
+      "e2e",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "E2E Testing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

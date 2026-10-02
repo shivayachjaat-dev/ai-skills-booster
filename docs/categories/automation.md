@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,3 +13,4 @@
 | [dependency-upgrade](../../skills/testing/automation/dependency_upgrade/dependency-upgrade/SKILL.md) | `dependency_upgrade` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dependency upgrade. Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches. |
 | [deployment-validation-config-validate](../../skills/testing/automation/deployment_validatio/deployment-validation-config-validate/SKILL.md) | `deployment_validatio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deployment validation config validate. You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configurat |
 | [docs-generator](../../skills/testing/automation/docs_generator/docs-generator/SKILL.md) | `docs_generator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docs generator. Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF write-ups, and signature-analysis documentation with evidence-backed structure. |
+| [e2e-testing](../../skills/testing/automation/e2e_testing/e2e-testing/SKILL.md) | `e2e_testing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for e2e testing. End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration. |

@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (695 skills)
+## Bash (696 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1762,6 +1762,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dependency-upgrade](../skills/testing/automation/dependency_upgrade/dependency-upgrade/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency upgrade. Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.
 - [deployment-validation-config-validate](../skills/testing/automation/deployment_validatio/deployment-validation-config-validate/SKILL.md) — Use this skill to design, implement, and operate production workflows for deployment validation config validate. You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configurat
 - [docs-generator](../skills/testing/automation/docs_generator/docs-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for docs generator. Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF write-ups, and signature-analysis documentation with evidence-backed structure.
+- [e2e-testing](../skills/testing/automation/e2e_testing/e2e-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for e2e testing. End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration.
 
 ## Bash Defensive Patterns (1 skills)
 
@@ -3716,6 +3717,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [dx-optimizer](../skills/software-engineering/architecture/patterns/dx-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for dx optimizer. Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.
 
+## E2E Testing (1 skills)
+
+- [e2e-testing](../skills/testing/automation/e2e_testing/e2e-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for e2e testing. End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration.
+
 ## Editorial Design (1 skills)
 
 - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
@@ -4841,7 +4846,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (798 skills)
+## Python (799 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5640,6 +5645,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dependency-upgrade](../skills/testing/automation/dependency_upgrade/dependency-upgrade/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency upgrade. Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.
 - [deployment-validation-config-validate](../skills/testing/automation/deployment_validatio/deployment-validation-config-validate/SKILL.md) — Use this skill to design, implement, and operate production workflows for deployment validation config validate. You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configurat
 - [docs-generator](../skills/testing/automation/docs_generator/docs-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for docs generator. Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF write-ups, and signature-analysis documentation with evidence-backed structure.
+- [e2e-testing](../skills/testing/automation/e2e_testing/e2e-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for e2e testing. End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration.
 - [appium-mobile-automation-and-cross-device-testing](../skills/testing/mobile-testing/appium-cross-device/appium-mobile-automation-and-cross-device-testing/SKILL.md) — Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.
 
 ## Python AST (1 skills)
