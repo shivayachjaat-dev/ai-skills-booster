@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **119** skills across structured domains, categories, and subcategories.
+Master navigation for **120** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (20 skills)
+## Ai Engineering (21 skills)
 
-### Agents (9 skills)
+### Agents (10 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Autogen** (1):
@@ -23,6 +23,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
 - **Orchestration** (1):
   - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
+- **Orchestration Optimization** (1):
+  - [multi-agent-workload-distribution-and-cost-optimization](../skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization/SKILL.md) — Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.
 - **Process Management** (1):
   - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 

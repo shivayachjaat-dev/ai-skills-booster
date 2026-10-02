@@ -197,6 +197,31 @@
     "maturity": "stable"
   },
   {
+    "name": "multi-agent-workload-distribution-and-cost-optimization",
+    "path": "skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "orchestration-optimization",
+    "description": "Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.",
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "cost-optimization",
+      "workload-distribution",
+      "model-routing",
+      "concurrency"
+    ],
+    "technologies": [
+      "Python",
+      "Asyncio",
+      "Pydantic",
+      "Model Tiering",
+      "Rate Limiting"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-tmux-process-orchestrator",
     "path": "skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator",
     "domain": "ai-engineering",
