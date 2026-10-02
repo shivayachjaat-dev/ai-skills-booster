@@ -6397,6 +6397,28 @@
     "maturity": "stable"
   },
   {
+    "name": "event-staffing-ordering",
+    "path": "skills/ai-engineering/models/event_staffing_order/event-staffing-ordering",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "event_staffing_order",
+    "description": "Use this skill to design, implement, and operate production workflows for event staffing ordering. Order W-2 compliant temporary event staff for conventions, trade shows, festivals, concerts, sporting events, and brand activations across 300+ US and Canadian markets via TempGuru. Covers city coverage, role pricing, availability, state compliance...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "event",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Event Staffing Ordering",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
