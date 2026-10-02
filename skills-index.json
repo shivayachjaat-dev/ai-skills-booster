@@ -3645,6 +3645,28 @@
     "maturity": "stable"
   },
   {
+    "name": "audit-context-building",
+    "path": "skills/frontend/ui-ux/audit_context_buildi/audit-context-building",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "audit_context_buildi",
+    "description": "Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "audit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Audit Context Building",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

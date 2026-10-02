@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 216 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 217 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -151,6 +151,7 @@
 | [zustand-state-management-patterns](skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) | `frontend` | `state-management` | `zustand` | `intermediate` | `stable` | Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows. |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
+| [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [app-store-optimization-and-metadata-strategy](skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) | `marketing` | `aso` | `app-store-optimization` | `intermediate` | `stable` | Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata. |
 | [social-sentiment-and-brand-reputation-monitor](skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor/SKILL.md) | `marketing` | `brand` | `reputation-monitor` | `intermediate` | `stable` | Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting. |
