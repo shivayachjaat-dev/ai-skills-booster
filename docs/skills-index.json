@@ -32673,6 +32673,28 @@
     "maturity": "stable"
   },
   {
+    "name": "marlin-bed-leveling",
+    "path": "skills/software-engineering/architecture/patterns/marlin-bed-leveling",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for marlin bed leveling. Calibrates Marlin 2.x 3D printer firmware bed leveling: Unified Bed Leveling (UBL), Bilinear ABL, M420 S1 post-homing, Z-probe offsets, G26 mesh prints, and EEPROM slots. Trigger phrases: marlin bed leveling, ubl calibration, m420 s1, z probe offset, g...",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "marlin",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Marlin Bed Leveling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",

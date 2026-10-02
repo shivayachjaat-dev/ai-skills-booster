@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1308 skills)
+## Bash (1309 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2364,6 +2364,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [makepad-reference](../skills/software-engineering/architecture/patterns/makepad-reference/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad reference. This category provides reference materials for debugging, code quality, and advanced layout patterns.
 - [makepad-widgets](../skills/software-engineering/architecture/patterns/makepad-widgets/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad widgets. Version: makepad-widgets (dev branch) | Last Updated: 2026-01-19 > > Check for updates: https://crates.io/crates/makepad-widgets
 - [markdown-rendering](../skills/software-engineering/architecture/patterns/markdown-rendering/SKILL.md) — Use this skill to design, implement, and operate production workflows for markdown rendering. Open Markdown reliably in cmux panes and recover from blank rendered surfaces.
+- [marlin-bed-leveling](../skills/software-engineering/architecture/patterns/marlin-bed-leveling/SKILL.md) — Use this skill to design, implement, and operate production workflows for marlin bed leveling. Calibrates Marlin 2.x 3D printer firmware bed leveling: Unified Bed Leveling (UBL), Bilinear ABL, M420 S1 post-homing, Z-probe offsets, G26 mesh prints, and EEPROM slots. Trigger phrases: marlin bed leveling, ubl calibration, m420 s1, z probe offset, g...
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -7424,6 +7425,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
+## Marlin Bed Leveling (1 skills)
+
+- [marlin-bed-leveling](../skills/software-engineering/architecture/patterns/marlin-bed-leveling/SKILL.md) — Use this skill to design, implement, and operate production workflows for marlin bed leveling. Calibrates Marlin 2.x 3D printer firmware bed leveling: Unified Bed Leveling (UBL), Bilinear ABL, M420 S1 post-homing, Z-probe offsets, G26 mesh prints, and EEPROM slots. Trigger phrases: marlin bed leveling, ubl calibration, m420 s1, z probe offset, g...
+
 ## Marp CLI (1 skills)
 
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
@@ -7892,7 +7897,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1411 skills)
+## Python (1412 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9277,6 +9282,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [makepad-reference](../skills/software-engineering/architecture/patterns/makepad-reference/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad reference. This category provides reference materials for debugging, code quality, and advanced layout patterns.
 - [makepad-widgets](../skills/software-engineering/architecture/patterns/makepad-widgets/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad widgets. Version: makepad-widgets (dev branch) | Last Updated: 2026-01-19 > > Check for updates: https://crates.io/crates/makepad-widgets
 - [markdown-rendering](../skills/software-engineering/architecture/patterns/markdown-rendering/SKILL.md) — Use this skill to design, implement, and operate production workflows for markdown rendering. Open Markdown reliably in cmux panes and recover from blank rendered surfaces.
+- [marlin-bed-leveling](../skills/software-engineering/architecture/patterns/marlin-bed-leveling/SKILL.md) — Use this skill to design, implement, and operate production workflows for marlin bed leveling. Calibrates Marlin 2.x 3D printer firmware bed leveling: Unified Bed Leveling (UBL), Bilinear ABL, M420 S1 post-homing, Z-probe offsets, G26 mesh prints, and EEPROM slots. Trigger phrases: marlin bed leveling, ubl calibration, m420 s1, z probe offset, g...
 - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
