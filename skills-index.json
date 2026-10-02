@@ -22156,6 +22156,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-cloud-misconfig",
+    "path": "skills/security/appsec/hunt_cloud_misconfig/hunt-cloud-misconfig",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_cloud_misconfig",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt cloud misconfig. Hunt cloud / infrastructure misconfigurations.",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Cloud Misconfig",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
