@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **112 skills** available in this category.
+> **113 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -116,3 +116,4 @@
 | [game-art](../../skills/software-engineering/architecture/patterns/game-art/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for game art. Game art principles. Visual style selection, asset pipeline, animation workflow. |
 | [game-design](../../skills/software-engineering/architecture/patterns/game-design/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for game design. Game design principles. GDD structure, balancing, player psychology, progression. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
+| [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
