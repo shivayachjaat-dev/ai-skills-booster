@@ -25227,6 +25227,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mobile-security-coder",
+    "path": "skills/frontend/web-architecture/mobile_security_code/mobile-security-coder",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "mobile_security_code",
+    "description": "Use this skill to design, implement, and operate production workflows for mobile security coder. Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "mobile",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mobile Security Coder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "monochromatic-ui",
     "path": "skills/frontend/web-architecture/monochromatic_ui/monochromatic-ui",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **70 skills** available in this category.
+> **71 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -55,6 +55,7 @@
 | [maximalism](../../skills/frontend/web-architecture/maximalism/maximalism/SKILL.md) | `maximalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for maximalism. Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation. |
 | [microsoft-azure-webjobs-extensions-authentication-events-dotnet](../../skills/frontend/web-architecture/microsoft_azure_webj/microsoft-azure-webjobs-extensions-authentication-events-dotnet/SKILL.md) | `microsoft_azure_webj` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for microsoft azure webjobs extensions authentication events dotnet. Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions. |
 | [minimalism](../../skills/frontend/web-architecture/minimalism/minimalism/SKILL.md) | `minimalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for minimalism. Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy. |
+| [mobile-security-coder](../../skills/frontend/web-architecture/mobile_security_code/mobile-security-coder/SKILL.md) | `mobile_security_code` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mobile security coder. Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns. |
 | [monochromatic-ui](../../skills/frontend/web-architecture/monochromatic_ui/monochromatic-ui/SKILL.md) | `monochromatic_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monochromatic ui. Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline. |
 | [neo-brutalism](../../skills/frontend/web-architecture/neo_brutalism/neo-brutalism/SKILL.md) | `neo_brutalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look. |
 | [neumorphism](../../skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) | `neumorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation. |
