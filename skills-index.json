@@ -11457,6 +11457,28 @@
     "maturity": "stable"
   },
   {
+    "name": "not-human-search-mcp",
+    "path": "skills/ai-engineering/models/not_human_search_mcp/not-human-search-mcp",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "not_human_search_mcp",
+    "description": "Use this skill to design, implement, and operate production workflows for not human search mcp. Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the Not Human Search MCP server",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "not",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Not Human Search Mcp",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

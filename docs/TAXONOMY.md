@@ -521,6 +521,7 @@ AI_Skills_Booster/
 │   │   ├── nexrad_radar_visuali/ (1 skills)
 │   │   ├── nika/ (1 skills)
 │   │   ├── nodejs_backend_patte/ (1 skills)
+│   │   ├── not_human_search_mcp/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

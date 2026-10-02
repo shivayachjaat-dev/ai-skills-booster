@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,618** skills across structured domains, categories, and subcategories.
+Master navigation for **1,619** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (563 skills)
+## Ai Engineering (564 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -276,7 +276,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Multi_Tenant_Llm_Hos** (1):
   - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 
-### Models (410 skills)
+### Models (411 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1074,6 +1074,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [nika](../skills/ai-engineering/models/nika/nika/SKILL.md) — Use this skill to design, implement, and operate production workflows for nika. Runs repeatable AI work as checked, budgeted workflow files.
 - **Nodejs_Backend_Patte** (1):
   - [nodejs-backend-patterns](../skills/ai-engineering/models/nodejs_backend_patte/nodejs-backend-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for nodejs backend patterns. Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.
+- **Not_Human_Search_Mcp** (1):
+  - [not-human-search-mcp](../skills/ai-engineering/models/not_human_search_mcp/not-human-search-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for not human search mcp. Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the Not Human Search MCP server
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
