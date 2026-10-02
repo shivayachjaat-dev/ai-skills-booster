@@ -20946,6 +20946,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hardware-security",
+    "path": "skills/security/appsec/hardware_security/hardware-security",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hardware_security",
+    "description": "Use this skill to design, implement, and operate production workflows for hardware security. Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis.",
+    "tags": [
+      "security",
+      "appsec",
+      "hardware",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hardware Security",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
