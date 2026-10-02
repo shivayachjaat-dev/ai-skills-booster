@@ -19771,6 +19771,28 @@
     "maturity": "stable"
   },
   {
+    "name": "markstream-vue2-vite",
+    "path": "skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "markstream_vue2_vite",
+    "description": "Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "markstream",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Markstream Vue2 Vite",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
