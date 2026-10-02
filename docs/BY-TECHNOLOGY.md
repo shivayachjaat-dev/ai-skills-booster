@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1018 skills)
+## Bash (1019 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1906,6 +1906,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hardware-security](../skills/security/appsec/hardware_security/hardware-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for hardware security. Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis.
 - [hashicorp-vault](../skills/security/appsec/hashicorp_vault/hashicorp-vault/SKILL.md) — Use this skill to design, implement, and operate production workflows for hashicorp vault. Manage secrets and PKI with HashiCorp Vault.
 - [hipaa-compliance](../skills/security/appsec/hipaa_compliance/hipaa-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for hipaa compliance. Implement HIPAA security and privacy rules. Configure PHI protections
+- [hunt-aspnet](../skills/security/appsec/hunt_aspnet/hunt-aspnet/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt aspnet. Hunt ASP.NET-specific surface
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit
@@ -5715,6 +5716,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [hunt-api-misconfig](../skills/backend/api-frameworks/hunt_api_misconfig/hunt-api-misconfig/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt api misconfig. Hunt API security misconfiguration
 
+## Hunt Aspnet (1 skills)
+
+- [hunt-aspnet](../skills/security/appsec/hunt_aspnet/hunt-aspnet/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt aspnet. Hunt ASP.NET-specific surface
+
 ## IMAP (1 skills)
 
 - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
@@ -6452,7 +6457,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1121 skills)
+## Python (1122 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7370,6 +7375,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hardware-security](../skills/security/appsec/hardware_security/hardware-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for hardware security. Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis.
 - [hashicorp-vault](../skills/security/appsec/hashicorp_vault/hashicorp-vault/SKILL.md) — Use this skill to design, implement, and operate production workflows for hashicorp vault. Manage secrets and PKI with HashiCorp Vault.
 - [hipaa-compliance](../skills/security/appsec/hipaa_compliance/hipaa-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for hipaa compliance. Implement HIPAA security and privacy rules. Configure PHI protections
+- [hunt-aspnet](../skills/security/appsec/hunt_aspnet/hunt-aspnet/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt aspnet. Hunt ASP.NET-specific surface
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
 - [meme-coin-audit](../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) — Use this skill to meme coin and token security audit

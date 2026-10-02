@@ -21958,6 +21958,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-aspnet",
+    "path": "skills/security/appsec/hunt_aspnet/hunt-aspnet",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_aspnet",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt aspnet. Hunt ASP.NET-specific surface",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Aspnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
