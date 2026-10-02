@@ -14874,6 +14874,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hybrid-cloud-networking",
+    "path": "skills/devops/cloud-infrastructure/hybrid_cloud_network/hybrid-cloud-networking",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "hybrid_cloud_network",
+    "description": "Use this skill to design, implement, and operate production workflows for hybrid cloud networking. Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "hybrid",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hybrid Cloud Networking",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **38 skills** available in this category.
+> **39 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,3 +42,4 @@
 | [cost-optimization](../../skills/devops/cloud-infrastructure/cost_optimization/cost-optimization/SKILL.md) | `cost_optimization` | `advanced` | `stable` | Use this skill to strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP. |
 | [hf-cloud-aws-context-discovery](../../skills/devops/cloud-infrastructure/hf_cloud_aws_context/hf-cloud-aws-context-discovery/SKILL.md) | `hf_cloud_aws_context` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hf cloud aws context discovery. Discover the effective local AWS profile, region, account, and caller identity before any AWS task without exposing credentials. |
 | [hybrid-cloud-architect](../../skills/devops/cloud-infrastructure/hybrid_cloud_archite/hybrid-cloud-architect/SKILL.md) | `hybrid_cloud_archite` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hybrid cloud architect. Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware). |
+| [hybrid-cloud-networking](../../skills/devops/cloud-infrastructure/hybrid_cloud_network/hybrid-cloud-networking/SKILL.md) | `hybrid_cloud_network` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hybrid cloud networking. Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute. |
