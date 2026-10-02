@@ -34477,6 +34477,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-code-javascript",
+    "path": "skills/software-engineering/architecture/patterns/n8n-code-javascript",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n code javascript. Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Code Javascript",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
