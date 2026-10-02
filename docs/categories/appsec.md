@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **87 skills** available in this category.
+> **88 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -90,4 +90,5 @@
 | [mcp-server-security](../../skills/security/appsec/mcp_server_security/mcp-server-security/SKILL.md) | `mcp_server_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mcp server security. Secure Model Context Protocol (MCP) servers with transport encryption, |
 | [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
 | [metasploit-framework](../../skills/security/appsec/metasploit_framework/metasploit-framework/SKILL.md) | `metasploit_framework` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for metasploit framework. ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited. |
+| [mid-engagement-ir-detection](../../skills/security/appsec/mid_engagement_ir_de/mid-engagement-ir-detection/SKILL.md) | `mid_engagement_ir_de` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mid engagement ir detection. Methodology for detecting client SOC patches, attacker activity, and |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |

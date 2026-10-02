@@ -27876,6 +27876,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mid-engagement-ir-detection",
+    "path": "skills/security/appsec/mid_engagement_ir_de/mid-engagement-ir-detection",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "mid_engagement_ir_de",
+    "description": "Use this skill to design, implement, and operate production workflows for mid engagement ir detection. Methodology for detecting client SOC patches, attacker activity, and",
+    "tags": [
+      "security",
+      "appsec",
+      "mid",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mid Engagement Ir Detection",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",

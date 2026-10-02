@@ -1363,6 +1363,7 @@ AI_Skills_Booster/
 │   │   ├── mcp_server_security/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)
 │   │   ├── metasploit_framework/ (1 skills)
+│   │   ├── mid_engagement_ir_de/ (1 skills)
 │   │   └── security_auditor/ (1 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
