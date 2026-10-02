@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **967** skills across structured domains, categories, and subcategories.
+Master navigation for **968** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (342 skills)
 
@@ -1489,7 +1489,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (177 skills)
+## Frontend (178 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1581,7 +1581,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
-### Ui Ux (93 skills)
+### Ui Ux (94 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1764,6 +1764,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [expo-ui-jetpack-compose](../skills/frontend/ui-ux/expo_ui_jetpack_comp/expo-ui-jetpack-compose/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo ui jetpack compose. expo-ui-jetpack-compose
 - **Expo_Ui_Swift_Ui** (1):
   - [expo-ui-swift-ui](../skills/frontend/ui-ux/expo_ui_swift_ui/expo-ui-swift-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo ui swift ui. expo-ui-swift-ui
+- **Fastapi_Templates** (1):
+  - [fastapi-templates](../skills/frontend/ui-ux/fastapi_templates/fastapi-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for fastapi templates. Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 967 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 968 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -687,6 +687,7 @@
 | [expo-module](skills/frontend/ui-ux/expo_module/expo-module/SKILL.md) | `frontend` | `ui-ux` | `expo_module` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo module. Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native views, shared objects, config plugins, lifecycle hooks, autolinking, and type system. |
 | [expo-ui-jetpack-compose](skills/frontend/ui-ux/expo_ui_jetpack_comp/expo-ui-jetpack-compose/SKILL.md) | `frontend` | `ui-ux` | `expo_ui_jetpack_comp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo ui jetpack compose. expo-ui-jetpack-compose |
 | [expo-ui-swift-ui](skills/frontend/ui-ux/expo_ui_swift_ui/expo-ui-swift-ui/SKILL.md) | `frontend` | `ui-ux` | `expo_ui_swift_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo ui swift ui. expo-ui-swift-ui |
+| [fastapi-templates](skills/frontend/ui-ux/fastapi_templates/fastapi-templates/SKILL.md) | `frontend` | `ui-ux` | `fastapi_templates` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fastapi templates. Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

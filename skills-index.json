@@ -15437,6 +15437,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fastapi-templates",
+    "path": "skills/frontend/ui-ux/fastapi_templates/fastapi-templates",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "fastapi_templates",
+    "description": "Use this skill to design, implement, and operate production workflows for fastapi templates. Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "fastapi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fastapi Templates",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
