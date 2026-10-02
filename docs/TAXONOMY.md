@@ -651,6 +651,7 @@ AI_Skills_Booster/
 │   │   ├── brand_growth_system_/ (1 skills)
 │   │   ├── browser_harness/ (1 skills)
 │   │   ├── brutalism/ (1 skills)
+│   │   ├── brutalist_typography/ (1 skills)
 │   │   ├── burp_suite_testing/ (1 skills)
 │   │   ├── business_website_set/ (1 skills)
 │   │   ├── client_secret_exposu/ (1 skills)

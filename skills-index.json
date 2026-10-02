@@ -12753,6 +12753,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brutalist-typography",
+    "path": "skills/frontend/web-architecture/brutalist_typography/brutalist-typography",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "brutalist_typography",
+    "description": "Use this skill to design, implement, and operate production workflows for brutalist typography. Web and App implementation guide for Brutalist Typography. Trigger when user wants huge fonts, raw presentation, and aggressive layout decisions.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "brutalist",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brutalist Typography",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "burp-suite-testing",
     "path": "skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing",
     "domain": "frontend",
