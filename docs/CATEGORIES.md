@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **88** skills across structured domains, categories, and subcategories.
+Master navigation for **89** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (13 skills)
+## Ai Engineering (14 skills)
 
 ### Agents (3 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -47,6 +47,12 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
+
+### Quantization (1 skills)
+Category index: [`docs/categories/quantization.md`](categories/quantization.md)
+
+- **Gguf Llama Cpp** (1):
+  - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
 ### Rag (1 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)

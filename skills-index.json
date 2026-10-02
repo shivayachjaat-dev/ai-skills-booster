@@ -247,6 +247,31 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-quantization-gguf-and-awq",
+    "path": "skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq",
+    "domain": "ai-engineering",
+    "category": "quantization",
+    "subcategory": "gguf-llama-cpp",
+    "description": "Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.",
+    "tags": [
+      "quantization",
+      "gguf",
+      "llama-cpp",
+      "awq",
+      "llm-compression",
+      "ai-engineering"
+    ],
+    "technologies": [
+      "llama.cpp",
+      "AutoAWQ",
+      "GGUF",
+      "PyTorch",
+      "HuggingFace"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",

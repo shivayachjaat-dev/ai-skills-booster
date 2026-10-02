@@ -84,6 +84,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [incident-response-and-triage](../skills/security/incident-response/triage/incident-response-and-triage/SKILL.md) — Use this skill when triaging, containing, and investigating active production security incidents and data breaches. It guides the agent through the PICERL framework (Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned), evidence preservation without anti-forensic contamination, forensic log isolation, and root-cause analysis.
 
+## AutoAWQ (1 skills)
+
+- [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
+
 ## AutoGen (1 skills)
 
 - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
@@ -257,6 +261,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
 
+## GGUF (1 skills)
+
+- [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
+
 ## Git (8 skills)
 
 - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
@@ -393,9 +401,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [helm-chart-architecture-and-lifecycle](../skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle/SKILL.md) — Use this skill when architecting, authoring, and managing production-grade Kubernetes packages with Helm 3+. It guides the agent through chart file structures, named template helpers (_helpers.tpl), strict values schema validation using values.schema.json, dependency subcharts, test suites (helm test), and semantic versioning release workflows.
 
-## HuggingFace (2 skills)
+## HuggingFace (3 skills)
 
 - [ragas-rag-triad-evaluation](../skills/ai-engineering/evaluation/ragas-rag-evaluation/ragas-rag-triad-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and auditing Retrieval-Augmented Generation (RAG) pipelines using RAGAS and the RAG Triad framework. It guides the agent through calculating Faithfulness (hallucination detection), Answer Relevance, Context Precision, and Context Recall, building synthetic evaluation datasets, and CI automated regression gating.
+- [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
 ## HuggingFace Datasets (1 skills)
@@ -700,10 +709,11 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [grpc-service-implementation](../skills/backend/grpc/services/grpc-service-implementation/SKILL.md) — Use this skill when designing, compiling, and implementing high-performance gRPC microservices with Protocol Buffers (proto3). It guides the agent through defining .proto service contracts, bidirectional streaming, gRPC interceptors for auth/logging, deadline/cancellation propagation, HTTP/2 multiplexing, and gRPC status code error handling.
 
-## PyTorch (2 skills)
+## PyTorch (3 skills)
 
 - [llm-lora-fine-tuning-pipeline](../skills/ai-engineering/fine-tuning/peft-lora/llm-lora-fine-tuning-pipeline/SKILL.md) — Use this skill when designing, training, and evaluating parameter-efficient fine-tuning (PEFT) pipelines for Large Language Models using LoRA and QLoRA. It guides the agent through 4-bit/8-bit quantization via bitsandbytes, LoRA hyperparameter configuration (rank r, alpha, target modules), dataset preparation and token masking, SFTTrainer orchestration, and adapter weight merging.
 - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
+- [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
 ## Pydantic (2 skills)
 
@@ -1122,6 +1132,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## kubectl (1 skills)
 
 - [kubernetes-crashloop-debugging](../skills/devops/kubernetes/troubleshooting/kubernetes-crashloop-debugging/SKILL.md) — Use this skill when diagnosing and recovering Kubernetes Pods stuck in CrashLoopBackOff, Error, OOMKilled, or Pending states. It guides the agent through inspecting exit codes, previous container logs, describe events, resource limits, readiness/liveness probe misconfigurations, and volume mount failures.
+
+## llama.cpp (1 skills)
+
+- [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
 ## mTLS (1 skills)
 
