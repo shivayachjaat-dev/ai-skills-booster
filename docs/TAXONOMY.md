@@ -318,7 +318,8 @@ AI_Skills_Booster/
 │   │   ├── aws_serverless_eda/ (1 skills)
 │   │   ├── azure_communication_/ (1 skills)
 │   │   ├── azure_cosmos_db_py/ (1 skills)
-│   │   └── azure_devops/ (1 skills)
+│   │   ├── azure_devops/ (1 skills)
+│   │   └── azure_eventgrid_java/ (1 skills)
 │   └── web-architecture/
 │   │   └── antigravity_design_e/ (1 skills)
 ├── marketing/

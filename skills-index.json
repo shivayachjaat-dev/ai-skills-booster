@@ -5229,6 +5229,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-eventgrid-java",
+    "path": "skills/frontend/ui-ux/azure_eventgrid_java/azure-eventgrid-java",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "azure_eventgrid_java",
+    "description": "Use this skill to build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub patterns, or integrating with Azure services via events.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Eventgrid Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
