@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **502** skills across structured domains, categories, and subcategories.
+Master navigation for **503** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (169 skills)
+## Ai Engineering (170 skills)
 
-### Agents (20 skills)
+### Agents (21 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -29,6 +29,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [clarvia-aeo-check](../skills/ai-engineering/agents/clarvia_aeo_check/clarvia-aeo-check/SKILL.md) — Use this skill to score any MCP server, API, or CLI for agent-readiness using Clarvia AEO (Agent Experience Optimization). Search 15,400+ indexed tools before adding them to your workflow.
 - **Claude_Code_Guide** (1):
   - [claude-code-guide](../skills/ai-engineering/agents/claude_code_guide/claude-code-guide/SKILL.md) — Use this skill to to provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns.
+- **Claude_Delegate** (1):
+  - [claude-delegate](../skills/ai-engineering/agents/claude_delegate/claude-delegate/SKILL.md) — Use this skill to delegate coding tasks to a separate Claude Code CLI process or Claude
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):

@@ -15,6 +15,7 @@ AI_Skills_Booster/
 │   │   ├── brave_man/ (1 skills)
 │   │   ├── clarvia_aeo_check/ (1 skills)
 │   │   ├── claude_code_guide/ (1 skills)
+│   │   ├── claude_delegate/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── forensic-audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
