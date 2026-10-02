@@ -2324,6 +2324,31 @@
     "maturity": "stable"
   },
   {
+    "name": "animejs-declarative-web-animation-system",
+    "path": "skills/frontend/animation/animejs/animejs-declarative-web-animation-system",
+    "domain": "frontend",
+    "category": "animation",
+    "subcategory": "animejs",
+    "description": "Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.",
+    "tags": [
+      "animejs",
+      "web-animation",
+      "svg-animation",
+      "ui-ux",
+      "front-end",
+      "motion-design"
+    ],
+    "technologies": [
+      "anime.js >= 3.2.0",
+      "JavaScript",
+      "SVG",
+      "CSS3",
+      "HTML5"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "angular-signals-standalone-components-and-state",
     "path": "skills/frontend/frameworks/angular/angular-signals-standalone-components-and-state",
     "domain": "frontend",

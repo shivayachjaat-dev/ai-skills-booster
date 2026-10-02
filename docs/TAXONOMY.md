@@ -168,6 +168,8 @@ AI_Skills_Booster/
 │   │   └── threejs/ (1 skills)
 │   ├── accessibility/
 │   │   └── wcag/ (1 skills)
+│   ├── animation/
+│   │   └── animejs/ (1 skills)
 │   ├── frameworks/
 │   │   └── angular/ (1 skills)
 │   ├── nextjs/

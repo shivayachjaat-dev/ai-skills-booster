@@ -193,6 +193,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [wcag-accessibility-audit](../skills/frontend/accessibility/wcag/wcag-accessibility-audit/SKILL.md) — Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.
 
+## CSS3 (1 skills)
+
+- [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
+
 ## CSV (1 skills)
 
 - [corporate-alumni-and-talent-rehire-network](../skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network/SKILL.md) — Use this skill to design, maintain, and automate corporate alumni talent registers, re-hire eligibility tracking, and boomerang employee engagement workflows. It covers structured employee exit registers, skill taxonomy mapping, re-engagement cadences, and compliance auditing.
@@ -586,8 +590,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 
-## HTML5 (1 skills)
+## HTML5 (2 skills)
 
+- [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
 - [ai-search-engine-optimization-and-schema-markup](../skills/marketing/seo/ai-search-optimization/ai-search-engine-optimization-and-schema-markup/SKILL.md) — Use this skill to optimize digital content and technical architecture for Generative Engine Optimization (GEO) and AI search citations across Google AI Overviews, Perplexity, ChatGPT Search, and Claude. It covers structured JSON-LD schema markup, information gain density, entity authority graphs, and machine-readable markdown tables.
 
 ## HTML5 Canvas (1 skills)
@@ -714,9 +719,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
 
-## JavaScript (3 skills)
+## JavaScript (4 skills)
 
 - [algolia-search-indexing-and-faceted-search](../skills/databases/search/algolia/algolia-search-indexing-and-faceted-search/SKILL.md) — Use this skill to design, configure, and optimize high-speed faceted search engines and indexing pipelines using Algolia. It covers index settings configuration, searchable/custom-ranking attributes, multi-facet filtering, typo-tolerance tuning, and webhook indexing hooks.
+- [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
 - [p5js-generative-algorithmic-art-canvas](../skills/multimedia/generative-art/p5js/p5js-generative-algorithmic-art-canvas/SKILL.md) — Use this skill to design, write, and render interactive generative algorithmic art, creative coding animations, and mathematical visualizations using p5.js and HTML5 Canvas. It covers noise field mathematics (Perlin/Simplex), particle physics, vector math, and high-DPI export.
 - [k6-api-load-testing](../skills/testing/load-testing/k6/k6-api-load-testing/SKILL.md) — Use this skill when designing, executing, and analyzing performance and stress load test suites for backend APIs using Grafana k6. It guides the agent through defining Virtual User (VU) ramping stages, establishing SLA performance thresholds (P95/P99 latency, error rate), simulating realistic traffic patterns, and identifying database concurrency bottlenecks.
 
@@ -1525,6 +1531,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
 
+## SVG (1 skills)
+
+- [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
+
 ## Schema.org (1 skills)
 
 - [ai-search-engine-optimization-and-schema-markup](../skills/marketing/seo/ai-search-optimization/ai-search-engine-optimization-and-schema-markup/SKILL.md) — Use this skill to optimize digital content and technical architecture for Generative Engine Optimization (GEO) and AI search citations across Google AI Overviews, Perplexity, ChatGPT Search, and Claude. It covers structured JSON-LD schema markup, information gain density, entity authority graphs, and machine-readable markdown tables.
@@ -1813,6 +1823,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Zustand (1 skills)
 
 - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
+
+## anime.js >= 3.2.0 (1 skills)
+
+- [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
 
 ## asyncpg (1 skills)
 

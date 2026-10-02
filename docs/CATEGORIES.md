@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **149** skills across structured domains, categories, and subcategories.
+Master navigation for **150** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -453,7 +453,7 @@ Category index: [`docs/categories/sre.md`](categories/sre.md)
 - **Incident Remediation** (1):
   - [ai-sre-autonomous-incident-triage-and-remediation](../skills/devops/sre/incident-remediation/ai-sre-autonomous-incident-triage-and-remediation/SKILL.md) — Use this skill to design and deploy autonomous AI-driven Site Reliability Engineering (SRE) incident response and triage workflows. It covers alerting webhook ingestion (PagerDuty, Datadog), automated log/trace correlation, blast-radius assessment, safe auto-remediation playbooks, and blameless post-mortem drafting.
 
-## Frontend (6 skills)
+## Frontend (7 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -466,6 +466,12 @@ Category index: [`docs/categories/accessibility.md`](categories/accessibility.md
 
 - **Wcag** (1):
   - [wcag-accessibility-audit](../skills/frontend/accessibility/wcag/wcag-accessibility-audit/SKILL.md) — Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.
+
+### Animation (1 skills)
+Category index: [`docs/categories/animation.md`](categories/animation.md)
+
+- **Animejs** (1):
+  - [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
 
 ### Frameworks (1 skills)
 Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
