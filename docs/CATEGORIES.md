@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **131** skills across structured domains, categories, and subcategories.
+Master navigation for **132** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (27 skills)
+## Ai Engineering (28 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -69,6 +69,12 @@ Category index: [`docs/categories/guardrails.md`](categories/guardrails.md)
 
 - **Input Output Moderation** (1):
   - [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
+
+### Inference (1 skills)
+Category index: [`docs/categories/inference.md`](categories/inference.md)
+
+- **Vllm Mesh** (1):
+  - [llm-inference-service-mesh-and-vllm-routing](../skills/ai-engineering/inference/vllm-mesh/llm-inference-service-mesh-and-vllm-routing/SKILL.md) — Use this skill to design, deploy, and manage Kubernetes service mesh architectures (Istio, Envoy) tailored for distributed LLM inference clusters running vLLM, TensorRT-LLM, or Triton. It covers KV-cache-aware routing, P99 latency SLA circuit breaking, streaming SSE backpressure, and mTLS pod-to-pod security.
 
 ### Inference Optimization (1 skills)
 Category index: [`docs/categories/inference-optimization.md`](categories/inference-optimization.md)

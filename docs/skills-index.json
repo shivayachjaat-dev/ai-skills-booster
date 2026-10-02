@@ -524,6 +524,33 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-inference-service-mesh-and-vllm-routing",
+    "path": "skills/ai-engineering/inference/vllm-mesh/llm-inference-service-mesh-and-vllm-routing",
+    "domain": "ai-engineering",
+    "category": "inference",
+    "subcategory": "vllm-mesh",
+    "description": "Use this skill to design, deploy, and manage Kubernetes service mesh architectures (Istio, Envoy) tailored for distributed LLM inference clusters running vLLM, TensorRT-LLM, or Triton. It covers KV-cache-aware routing, P99 latency SLA circuit breaking, streaming SSE backpressure, and mTLS pod-to-pod security.",
+    "tags": [
+      "service-mesh",
+      "vllm",
+      "llm-inference",
+      "istio",
+      "envoy",
+      "kubernetes",
+      "gpu-routing"
+    ],
+    "technologies": [
+      "vLLM",
+      "Istio",
+      "Envoy",
+      "Kubernetes",
+      "Python",
+      "Prometheus"
+    ],
+    "complexity": "expert",
+    "maturity": "stable"
+  },
+  {
     "name": "vllm-high-throughput-inference-serving",
     "path": "skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving",
     "domain": "ai-engineering",

@@ -30,6 +30,8 @@ AI_Skills_Booster/
 │   │   └── peft-lora/ (1 skills)
 │   ├── guardrails/
 │   │   └── input-output-moderation/ (1 skills)
+│   ├── inference/
+│   │   └── vllm-mesh/ (1 skills)
 │   ├── inference-optimization/
 │   │   └── vllm/ (1 skills)
 │   ├── quantization/
