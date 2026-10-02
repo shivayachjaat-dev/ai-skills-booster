@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **657** skills across structured domains, categories, and subcategories.
+Master navigation for **658** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (236 skills)
+## Ai Engineering (237 skills)
 
 ### Agents (27 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -144,7 +144,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (164 skills)
+### Models (165 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -464,6 +464,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [daily](../skills/ai-engineering/models/daily/daily/SKILL.md) — Use this skill to documentation and capabilities reference for Daily
 - **Daily_Gift** (1):
   - [daily-gift](../skills/ai-engineering/models/daily_gift/daily-gift/SKILL.md) — Use this skill to relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video
+- **Daily_News_Report** (1):
+  - [daily-news-report](../skills/ai-engineering/models/daily_news_report/daily-news-report/SKILL.md) — Use this skill to scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

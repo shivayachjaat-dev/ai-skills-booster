@@ -4725,6 +4725,28 @@
     "maturity": "stable"
   },
   {
+    "name": "daily-news-report",
+    "path": "skills/ai-engineering/models/daily_news_report/daily-news-report",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "daily_news_report",
+    "description": "Use this skill to scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "daily",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Daily News Report",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

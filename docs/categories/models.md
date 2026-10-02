@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **164 skills** available in this category.
+> **165 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -167,4 +167,5 @@
 | [cypress-skill](../../skills/ai-engineering/models/cypress_skill/cypress-skill/SKILL.md) | `cypress_skill` | `advanced` | `stable` | Use this skill to generates production-grade Cypress E2E and component tests in JavaScript or TypeScript. Supports local execution and TestMu AI cloud. Use when the user asks to write Cypress tests, set up Cypress, test with cy commands, or mentions \"Cypress\", \"cy.visit\", \"cy.get\", \"cy.interc |
 | [daily](../../skills/ai-engineering/models/daily/daily/SKILL.md) | `daily` | `advanced` | `stable` | Use this skill to documentation and capabilities reference for Daily |
 | [daily-gift](../../skills/ai-engineering/models/daily_gift/daily-gift/SKILL.md) | `daily_gift` | `advanced` | `stable` | Use this skill to relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video |
+| [daily-news-report](../../skills/ai-engineering/models/daily_news_report/daily-news-report/SKILL.md) | `daily_news_report` | `advanced` | `stable` | Use this skill to scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
