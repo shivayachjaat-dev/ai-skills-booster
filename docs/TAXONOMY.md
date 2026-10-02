@@ -18,6 +18,8 @@ AI_Skills_Booster/
 │   └── experimentation/
 │   │   └── ab-testing/ (1 skills)
 ├── databases/
+│   ├── migrations/
+│   │   └── zero-downtime/ (1 skills)
 │   └── postgresql/
 │   │   └── performance/ (1 skills)
 ├── devops/

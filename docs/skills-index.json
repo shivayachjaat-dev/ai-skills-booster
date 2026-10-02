@@ -144,6 +144,32 @@
     "maturity": "stable"
   },
   {
+    "name": "database-migration-safety",
+    "path": "skills/databases/migrations/zero-downtime/database-migration-safety",
+    "domain": "databases",
+    "category": "migrations",
+    "subcategory": "zero-downtime",
+    "description": "Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.",
+    "tags": [
+      "databases",
+      "migrations",
+      "zero-downtime",
+      "postgresql",
+      "mysql",
+      "sql",
+      "devops"
+    ],
+    "technologies": [
+      "PostgreSQL",
+      "MySQL",
+      "SQL",
+      "Liquibase",
+      "Prisma"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "postgres-query-performance-analysis",
     "path": "skills/databases/postgresql/performance/postgres-query-performance-analysis",
     "domain": "databases",

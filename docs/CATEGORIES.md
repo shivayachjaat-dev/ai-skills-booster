@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **20** skills across structured domains, categories, and subcategories.
+Master navigation for **21** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (3 skills)
 
@@ -44,7 +44,13 @@ Category index: [`docs/categories/experimentation.md`](categories/experimentatio
 - **Ab Testing** (1):
   - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 
-## Databases (1 skills)
+## Databases (2 skills)
+
+### Migrations (1 skills)
+Category index: [`docs/categories/migrations.md`](categories/migrations.md)
+
+- **Zero Downtime** (1):
+  - [database-migration-safety](../skills/databases/migrations/zero-downtime/database-migration-safety/SKILL.md) — Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.
 
 ### Postgresql (1 skills)
 Category index: [`docs/categories/postgresql.md`](categories/postgresql.md)
