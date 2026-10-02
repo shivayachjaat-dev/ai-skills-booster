@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **148** skills across structured domains, categories, and subcategories.
+Master navigation for **149** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -234,7 +234,7 @@ Category index: [`docs/categories/presentation.md`](categories/presentation.md)
 - **Marp Slides** (1):
   - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 
-## Data Analytics (7 skills)
+## Data Analytics (8 skills)
 
 ### Dashboards (1 skills)
 Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
@@ -277,6 +277,12 @@ Category index: [`docs/categories/orchestration.md`](categories/orchestration.md
 
 - **Airflow** (1):
   - [airflow-dag-orchestration-and-lineage](../skills/data-analytics/orchestration/airflow/airflow-dag-orchestration-and-lineage/SKILL.md) — Use this skill to design, write, test, and deploy production-grade Apache Airflow DAGs with data lineage tracking, idempotent task execution, dynamic task mapping, OpenLineage metadata emission, and robust error retry strategies.
+
+### Product Analytics (1 skills)
+Category index: [`docs/categories/product-analytics.md`](categories/product-analytics.md)
+
+- **Amplitude** (1):
+  - [amplitude-product-analytics-and-funnel-tracking](../skills/data-analytics/product-analytics/amplitude/amplitude-product-analytics-and-funnel-tracking/SKILL.md) — Use this skill to design, instrument, and automate product analytics event tracking, user identification, conversion funnels, and retention cohort analysis using Amplitude's HTTP API and SDKs. It enforces event naming taxonomies, user property schemas, and GDPR identity deletion.
 
 ## Databases (12 skills)
 

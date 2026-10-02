@@ -100,8 +100,10 @@ AI_Skills_Booster/
 │   │   └── ab-testing/ (1 skills)
 │   ├── financial/
 │   │   └── alpha-vantage/ (1 skills)
-│   └── orchestration/
+│   ├── orchestration/
 │   │   └── airflow/ (1 skills)
+│   └── product-analytics/
+│   │   └── amplitude/ (1 skills)
 ├── databases/
 │   ├── clickhouse/
 │   │   └── time-series/ (1 skills)

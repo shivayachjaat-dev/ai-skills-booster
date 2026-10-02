@@ -1434,6 +1434,31 @@
     "maturity": "stable"
   },
   {
+    "name": "amplitude-product-analytics-and-funnel-tracking",
+    "path": "skills/data-analytics/product-analytics/amplitude/amplitude-product-analytics-and-funnel-tracking",
+    "domain": "data-analytics",
+    "category": "product-analytics",
+    "subcategory": "amplitude",
+    "description": "Use this skill to design, instrument, and automate product analytics event tracking, user identification, conversion funnels, and retention cohort analysis using Amplitude's HTTP API and SDKs. It enforces event naming taxonomies, user property schemas, and GDPR identity deletion.",
+    "tags": [
+      "amplitude",
+      "product-analytics",
+      "event-tracking",
+      "funnel-analysis",
+      "retention-cohorts",
+      "telemetry"
+    ],
+    "technologies": [
+      "Amplitude API v2",
+      "Python",
+      "Pydantic",
+      "TypeScript",
+      "Product Analytics"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "clickhouse-time-series-analytics",
     "path": "skills/databases/clickhouse/time-series/clickhouse-time-series-analytics",
     "domain": "databases",
