@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **761** skills across structured domains, categories, and subcategories.
+Master navigation for **762** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (267 skills)
 
@@ -1291,7 +1291,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (101 skills)
+## Frontend (102 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1501,7 +1501,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (19 skills)
+### Web Architecture (20 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1521,6 +1521,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [brand-growth-system-builder](../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) — Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows.
 - **Browser_Harness** (1):
   - [browser-harness](../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) — Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation.
+- **Brutalism** (1):
+  - [brutalism](../skills/frontend/web-architecture/brutalism/brutalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for brutalism. Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.
 - **Burp_Suite_Testing** (1):
   - [burp-suite-testing](../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) — Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.
 - **Business_Website_Set** (1):

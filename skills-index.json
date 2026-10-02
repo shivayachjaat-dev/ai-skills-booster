@@ -12731,6 +12731,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brutalism",
+    "path": "skills/frontend/web-architecture/brutalism/brutalism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "brutalism",
+    "description": "Use this skill to design, implement, and operate production workflows for brutalism. Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "brutalism",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brutalism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "burp-suite-testing",
     "path": "skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing",
     "domain": "frontend",

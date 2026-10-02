@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (579 skills)
+## Bash (580 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1509,6 +1509,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [bento-ui](../skills/frontend/web-architecture/bento_ui/bento-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for bento ui. Web and App implementation guide for Bento UI. Trigger when user wants modular grid cards, Apple-like dashboard style, or sections arranged like a bento box.
 - [brand-growth-system-builder](../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) — Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows.
 - [browser-harness](../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) — Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation.
+- [brutalism](../skills/frontend/web-architecture/brutalism/brutalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for brutalism. Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.
 - [burp-suite-testing](../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) — Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.
 - [business-website-setup](../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) — Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.
 - [client-secret-exposure-audit](../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) — Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig.
@@ -1882,6 +1883,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Browser Testing With Devtools (1 skills)
 
 - [browser-testing-with-devtools](../skills/testing/automation/browser_testing_with/browser-testing-with-devtools/SKILL.md) — Use this skill to test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, accessibility, and performance traces.
+
+## Brutalism (1 skills)
+
+- [brutalism](../skills/frontend/web-architecture/brutalism/brutalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for brutalism. Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.
 
 ## Buddy Program Manager (1 skills)
 
@@ -4324,7 +4329,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (682 skills)
+## Python (683 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4835,6 +4840,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [bento-ui](../skills/frontend/web-architecture/bento_ui/bento-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for bento ui. Web and App implementation guide for Bento UI. Trigger when user wants modular grid cards, Apple-like dashboard style, or sections arranged like a bento box.
 - [brand-growth-system-builder](../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) — Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows.
 - [browser-harness](../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) — Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation.
+- [brutalism](../skills/frontend/web-architecture/brutalism/brutalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for brutalism. Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.
 - [burp-suite-testing](../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) — Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.
 - [business-website-setup](../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) — Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.
 - [client-secret-exposure-audit](../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) — Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig.

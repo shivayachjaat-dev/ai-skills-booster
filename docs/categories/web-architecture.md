@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **19 skills** available in this category.
+> **20 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,6 +13,7 @@
 | [bento-ui](../../skills/frontend/web-architecture/bento_ui/bento-ui/SKILL.md) | `bento_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for bento ui. Web and App implementation guide for Bento UI. Trigger when user wants modular grid cards, Apple-like dashboard style, or sections arranged like a bento box. |
 | [brand-growth-system-builder](../../skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder/SKILL.md) | `brand_growth_system_` | `advanced` | `stable` | Use this skill to route requests across 13 brand and growth modules. Use when an SME needs help choosing branding, website, local SEO, content, or cloud-planning workflows. |
 | [browser-harness](../../skills/frontend/web-architecture/browser_harness/browser-harness/SKILL.md) | `browser_harness` | `advanced` | `stable` | Use this skill to drive an existing browser through CDP for authenticated, visual, or interactive web automation. |
+| [brutalism](../../skills/frontend/web-architecture/brutalism/brutalism/SKILL.md) | `brutalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for brutalism. Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions. |
 | [burp-suite-testing](../../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) | `burp_suite_testing` | `advanced` | `stable` | Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows. |
 | [business-website-setup](../../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) | `business_website_set` | `advanced` | `stable` | Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews. |
 | [client-secret-exposure-audit](../../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) | `client_secret_exposu` | `advanced` | `stable` | Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig. |
