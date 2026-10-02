@@ -801,6 +801,32 @@
     "maturity": "stable"
   },
   {
+    "name": "elasticsearch-dsl-search-and-aggregations",
+    "path": "skills/databases/search/elasticsearch/elasticsearch-dsl-search-and-aggregations",
+    "domain": "databases",
+    "category": "search",
+    "subcategory": "elasticsearch",
+    "description": "Use this skill when architecting, indexing, and querying complex search and analytical systems using Elasticsearch 8+ and Elasticsearch-DSL. It guides the agent through explicit index mapping design (analyzers, keyword vs text fields), boolean compound queries (must, filter, should), multi-match cross-field queries, and multi-level nested aggregations.",
+    "tags": [
+      "elasticsearch",
+      "search",
+      "analytics",
+      "aggregations",
+      "nosql",
+      "python",
+      "elk"
+    ],
+    "technologies": [
+      "Elasticsearch 8+",
+      "Elasticsearch-DSL",
+      "Python",
+      "JSON",
+      "Lucene"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "meilisearch-full-text-search-integration",
     "path": "skills/databases/search/meilisearch/meilisearch-full-text-search-integration",
     "domain": "databases",

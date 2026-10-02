@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **79** skills across structured domains, categories, and subcategories.
+Master navigation for **80** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (12 skills)
 
@@ -144,7 +144,7 @@ Category index: [`docs/categories/experimentation.md`](categories/experimentatio
 - **Ab Testing** (1):
   - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 
-## Databases (8 skills)
+## Databases (9 skills)
 
 ### Clickhouse (1 skills)
 Category index: [`docs/categories/clickhouse.md`](categories/clickhouse.md)
@@ -182,9 +182,11 @@ Category index: [`docs/categories/redis.md`](categories/redis.md)
 - **Caching** (1):
   - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 
-### Search (1 skills)
+### Search (2 skills)
 Category index: [`docs/categories/search.md`](categories/search.md)
 
+- **Elasticsearch** (1):
+  - [elasticsearch-dsl-search-and-aggregations](../skills/databases/search/elasticsearch/elasticsearch-dsl-search-and-aggregations/SKILL.md) — Use this skill when architecting, indexing, and querying complex search and analytical systems using Elasticsearch 8+ and Elasticsearch-DSL. It guides the agent through explicit index mapping design (analyzers, keyword vs text fields), boolean compound queries (must, filter, should), multi-match cross-field queries, and multi-level nested aggregations.
 - **Meilisearch** (1):
   - [meilisearch-full-text-search-integration](../skills/databases/search/meilisearch/meilisearch-full-text-search-integration/SKILL.md) — Use this skill when designing, indexing, and querying lightning-fast, typo-tolerant full-text search systems using Meilisearch. It guides the agent through index configuration, searchable vs filterable attributes, custom ranking rules, document batching, faceted navigation, and building search-as-you-type frontend experiences.
 

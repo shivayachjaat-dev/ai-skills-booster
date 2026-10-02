@@ -66,6 +66,7 @@ AI_Skills_Booster/
 │   ├── redis/
 │   │   └── caching/ (1 skills)
 │   ├── search/
+│   │   ├── elasticsearch/ (1 skills)
 │   │   └── meilisearch/ (1 skills)
 │   └── time-series/
 │   │   └── timescaledb/ (1 skills)
