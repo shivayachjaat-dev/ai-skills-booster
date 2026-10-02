@@ -6650,6 +6650,28 @@
     "maturity": "stable"
   },
   {
+    "name": "culture-retention",
+    "path": "skills/business/operations/culture_retention/culture-retention",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "culture_retention",
+    "description": "Use this skill to employee survey and retention register: engagement, growth, happiness, work-life balance and manager-relationship scores, key concern and retention risk. Use for culture surveys.",
+    "tags": [
+      "business",
+      "operations",
+      "culture",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Culture Retention",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
