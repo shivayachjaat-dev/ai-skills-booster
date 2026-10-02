@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **57 skills** available in this category.
+> **58 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -60,4 +60,5 @@
 | [azure-ai-voicelive-ts](../../skills/ai-engineering/models/azure_ai_voicelive_t/azure-ai-voicelive-ts/SKILL.md) | `azure_ai_voicelive_t` | `advanced` | `stable` | Use this skill to azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication. |
 | [azure-communication-callautomation-java](../../skills/ai-engineering/models/azure_communication_/azure-communication-callautomation-java/SKILL.md) | `azure_communication_` | `advanced` | `stable` | Use this skill to build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions. |
 | [azure-communication-callingserver-java](../../skills/ai-engineering/models/azure_communication_/azure-communication-callingserver-java/SKILL.md) | `azure_communication_` | `advanced` | `stable` | Use this skill to ⚠️ DEPRECATED: This SDK has been renamed to Call Automation. For new projects, use azure-communication-callautomation instead. This skill is for maintaining legacy code only. |
+| [azure-containerregistry-py](../../skills/ai-engineering/models/azure_containerregis/azure-containerregistry-py/SKILL.md) | `azure_containerregis` | `advanced` | `stable` | Use this skill to azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

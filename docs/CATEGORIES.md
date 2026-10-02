@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **283** skills across structured domains, categories, and subcategories.
+Master navigation for **284** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (97 skills)
+## Ai Engineering (98 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (57 skills)
+### Models (58 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -217,6 +217,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
 - **Azure_Communication_** (2):
   - [azure-communication-callautomation-java](../skills/ai-engineering/models/azure_communication_/azure-communication-callautomation-java/SKILL.md) — Use this skill to build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions.
   - [azure-communication-callingserver-java](../skills/ai-engineering/models/azure_communication_/azure-communication-callingserver-java/SKILL.md) — Use this skill to ⚠️ DEPRECATED: This SDK has been renamed to Call Automation. For new projects, use azure-communication-callautomation instead. This skill is for maintaining legacy code only.
+- **Azure_Containerregis** (1):
+  - [azure-containerregistry-py](../skills/ai-engineering/models/azure_containerregis/azure-containerregistry-py/SKILL.md) — Use this skill to azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
