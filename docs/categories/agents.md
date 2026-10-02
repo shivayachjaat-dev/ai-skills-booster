@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **19 skills** available in this category.
+> **20 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,6 +14,7 @@
 | [bill-gates](../../skills/ai-engineering/agents/bill_gates/bill-gates/SKILL.md) | `bill_gates` | `advanced` | `stable` | Use this skill to agente que simula Bill Gates — cofundador da Microsoft, arquiteto da industria de software comercial, estrategista tecnologico global, investidor sistemico e filantropo baseado em dados. |
 | [brave-man](../../skills/ai-engineering/agents/brave_man/brave-man/SKILL.md) | `brave_man` | `advanced` | `stable` | Use this skill to runs a structured clarifying interview for new project requests before building. Instead of writing code, it outputs a fully specified prompt.md for a fresh agent session to execute, preventing expensive mistakes. |
 | [clarvia-aeo-check](../../skills/ai-engineering/agents/clarvia_aeo_check/clarvia-aeo-check/SKILL.md) | `clarvia_aeo_check` | `advanced` | `stable` | Use this skill to score any MCP server, API, or CLI for agent-readiness using Clarvia AEO (Agent Experience Optimization). Search 15,400+ indexed tools before adding them to your workflow. |
+| [claude-code-guide](../../skills/ai-engineering/agents/claude_code_guide/claude-code-guide/SKILL.md) | `claude_code_guide` | `advanced` | `stable` | Use this skill to to provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns. |
 | [ai-agent-chaos-testing-and-fault-injection](../../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) | `fault-injection` | `advanced` | `stable` | Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies. |
 | [ai-agent-session-audit-and-forensic-replay](../../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) | `forensic-audit` | `advanced` | `stable` | Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays. |
 | [agent-project-memory](../../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) | `memory` | `advanced` | `stable` | Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects. |
