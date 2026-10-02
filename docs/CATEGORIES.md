@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,307** skills across structured domains, categories, and subcategories.
+Master navigation for **1,308** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (435 skills)
 
@@ -1783,7 +1783,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (253 skills)
+## Frontend (254 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1917,7 +1917,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Industrial_Brutalist** (1):
   - [industrial-brutalist-ui](../skills/frontend/ui-development/industrial_brutalist/industrial-brutalist-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for industrial brutalist ui. Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.
 
-### Ui Ux (140 skills)
+### Ui Ux (141 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2192,6 +2192,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [hunt-source-leak](../skills/frontend/ui-ux/hunt_source_leak/hunt-source-leak/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt source leak. Hunt source code and build artifact leakage
 - **Interactive_Portfoli** (1):
   - [interactive-portfolio](../skills/frontend/ui-ux/interactive_portfoli/interactive-portfolio/SKILL.md) — Use this skill to design, implement, and operate production workflows for interactive portfolio. Expert in building portfolios that actually land jobs and clients -
+- **Interview_Style_Doc_** (1):
+  - [interview-style-doc-building](../skills/frontend/ui-ux/interview_style_doc_/interview-style-doc-building/SKILL.md) — Use this skill to design, implement, and operate production workflows for interview style doc building. Build structured strategy documents by asking one question at a time and patching the file.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

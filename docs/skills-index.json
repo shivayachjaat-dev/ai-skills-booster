@@ -20057,6 +20057,28 @@
     "maturity": "stable"
   },
   {
+    "name": "interview-style-doc-building",
+    "path": "skills/frontend/ui-ux/interview_style_doc_/interview-style-doc-building",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "interview_style_doc_",
+    "description": "Use this skill to design, implement, and operate production workflows for interview style doc building. Build structured strategy documents by asking one question at a time and patching the file.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "interview",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Interview Style Doc Building",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

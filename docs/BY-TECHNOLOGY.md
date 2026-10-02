@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1125 skills)
+## Bash (1126 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1846,6 +1846,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hunt-rce](../skills/frontend/ui-ux/hunt_rce/hunt-rce/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt rce. Hunting skill for rce vulnerabilities. Built from 67 public bug bounty
 - [hunt-source-leak](../skills/frontend/ui-ux/hunt_source_leak/hunt-source-leak/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt source leak. Hunt source code and build artifact leakage
 - [interactive-portfolio](../skills/frontend/ui-ux/interactive_portfoli/interactive-portfolio/SKILL.md) — Use this skill to design, implement, and operate production workflows for interactive portfolio. Expert in building portfolios that actually land jobs and clients -
+- [interview-style-doc-building](../skills/frontend/ui-ux/interview_style_doc_/interview-style-doc-building/SKILL.md) — Use this skill to design, implement, and operate production workflows for interview style doc building. Build structured strategy documents by asking one question at a time and patching the file.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -6282,6 +6283,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [interview-me](../skills/software-engineering/architecture/patterns/interview-me/SKILL.md) — Use this skill to design, implement, and operate production workflows for interview me. Draw out what the user actually wants with one-question-at-a-time interviews
 
+## Interview Style Doc Building (1 skills)
+
+- [interview-style-doc-building](../skills/frontend/ui-ux/interview_style_doc_/interview-style-doc-building/SKILL.md) — Use this skill to design, implement, and operate production workflows for interview style doc building. Build structured strategy documents by asking one question at a time and patching the file.
+
 ## Isometric Design (1 skills)
 
 - [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
@@ -6987,7 +6992,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1228 skills)
+## Python (1229 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7831,6 +7836,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hunt-rce](../skills/frontend/ui-ux/hunt_rce/hunt-rce/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt rce. Hunting skill for rce vulnerabilities. Built from 67 public bug bounty
 - [hunt-source-leak](../skills/frontend/ui-ux/hunt_source_leak/hunt-source-leak/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt source leak. Hunt source code and build artifact leakage
 - [interactive-portfolio](../skills/frontend/ui-ux/interactive_portfoli/interactive-portfolio/SKILL.md) — Use this skill to design, implement, and operate production workflows for interactive portfolio. Expert in building portfolios that actually land jobs and clients -
+- [interview-style-doc-building](../skills/frontend/ui-ux/interview_style_doc_/interview-style-doc-building/SKILL.md) — Use this skill to design, implement, and operate production workflows for interview style doc building. Build structured strategy documents by asking one question at a time and patching the file.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
