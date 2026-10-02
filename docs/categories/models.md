@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **246 skills** available in this category.
+> **247 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -241,6 +241,7 @@
 | [fal-generate](../../skills/ai-engineering/models/fal_generate/fal-generate/SKILL.md) | `fal_generate` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fal generate. Generate images and videos using fal.ai AI models |
 | [fal-image-edit](../../skills/ai-engineering/models/fal_image_edit/fal-image-edit/SKILL.md) | `fal_image_edit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fal image edit. AI-powered image editing with style transfer and object removal |
 | [fal-upscale](../../skills/ai-engineering/models/fal_upscale/fal-upscale/SKILL.md) | `fal_upscale` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fal upscale. Upscale and enhance image and video resolution using AI |
+| [fal-workflow](../../skills/ai-engineering/models/fal_workflow/fal-workflow/SKILL.md) | `fal_workflow` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fal workflow. Generate workflow JSON files for chaining AI models |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
 | [floating-ui](../../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) | `floating_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. |
