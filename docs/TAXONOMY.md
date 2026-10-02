@@ -610,6 +610,7 @@ AI_Skills_Booster/
 │   │   ├── gcp_cloud_functions/ (1 skills)
 │   │   ├── gcp_compute/ (1 skills)
 │   │   ├── gcp_gke/ (1 skills)
+│   │   ├── gcp_networking/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
