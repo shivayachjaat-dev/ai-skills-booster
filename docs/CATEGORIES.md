@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **928** skills across structured domains, categories, and subcategories.
+Master navigation for **929** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (324 skills)
 
@@ -1934,7 +1934,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (82 skills)
+## Security (83 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -1964,7 +1964,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (26 skills)
+### Appsec (27 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -2008,6 +2008,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [disaster-recovery](../skills/security/appsec/disaster_recovery/disaster-recovery/SKILL.md) — Use this skill to design, implement, and operate production workflows for disaster recovery. Implement disaster recovery strategies and runbooks. Configure RPO/RTO
 - **Enterprise_Vpn_Attac** (1):
   - [enterprise-vpn-attack](../skills/security/appsec/enterprise_vpn_attac/enterprise-vpn-attack/SKILL.md) — Use this skill to design, implement, and operate production workflows for enterprise vpn attack. External SSL VPN / remote-access appliance attack matrix
+- **Evidence_Hygiene** (1):
+  - [evidence-hygiene](../skills/security/appsec/evidence_hygiene/evidence-hygiene/SKILL.md) — Use this skill to design, implement, and operate production workflows for evidence hygiene. Evidence-capture and PoC-redaction discipline for bug-bounty submissions
 - **Gcp_Audit_Logs** (1):
   - [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
 - **Laravel_Security_Aud** (1):

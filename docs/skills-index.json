@@ -17096,6 +17096,28 @@
     "maturity": "stable"
   },
   {
+    "name": "evidence-hygiene",
+    "path": "skills/security/appsec/evidence_hygiene/evidence-hygiene",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "evidence_hygiene",
+    "description": "Use this skill to design, implement, and operate production workflows for evidence hygiene. Evidence-capture and PoC-redaction discipline for bug-bounty submissions",
+    "tags": [
+      "security",
+      "appsec",
+      "evidence",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Evidence Hygiene",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gcp-audit-logs",
     "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
     "domain": "security",
