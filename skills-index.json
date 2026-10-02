@@ -8056,6 +8056,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fal-platform",
+    "path": "skills/backend/api-frameworks/fal_platform/fal-platform",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "fal_platform",
+    "description": "Use this skill to design, implement, and operate production workflows for fal platform. Platform APIs for model management, pricing, and usage tracking",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "fal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fal Platform",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-high-performance-endpoint-builder",
     "path": "skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder",
     "domain": "backend",

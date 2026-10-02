@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **959** skills across structured domains, categories, and subcategories.
+Master navigation for **960** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (338 skills)
 
@@ -744,7 +744,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (65 skills)
+## Backend (66 skills)
 
 ### Api Design (6 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -762,7 +762,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (18 skills)
+### Api Frameworks (19 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -797,6 +797,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [documentation](../skills/backend/api-frameworks/documentation/documentation/SKILL.md) — Use this skill to design, implement, and operate production workflows for documentation. Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing.
 - **Exa_Search** (1):
   - [exa-search](../skills/backend/api-frameworks/exa_search/exa-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for exa search. Semantic search, similar content discovery, and structured research using Exa API. Use when you need semantic/embeddings-based search, finding similar content, or searching by category (company, people, research papers, etc.).
+- **Fal_Platform** (1):
+  - [fal-platform](../skills/backend/api-frameworks/fal_platform/fal-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for fal platform. Platform APIs for model management, pricing, and usage tracking
 - **Fastapi Endpoints** (1):
   - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 

@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -21,4 +21,5 @@
 | [docs-guard](../../skills/backend/api-frameworks/docs_guard/docs-guard/SKILL.md) | `docs_guard` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docs guard. Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs, tutorials, and documentation sites. |
 | [documentation](../../skills/backend/api-frameworks/documentation/documentation/SKILL.md) | `documentation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for documentation. Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing. |
 | [exa-search](../../skills/backend/api-frameworks/exa_search/exa-search/SKILL.md) | `exa_search` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for exa search. Semantic search, similar content discovery, and structured research using Exa API. Use when you need semantic/embeddings-based search, finding similar content, or searching by category (company, people, research papers, etc.). |
+| [fal-platform](../../skills/backend/api-frameworks/fal_platform/fal-platform/SKILL.md) | `fal_platform` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fal platform. Platform APIs for model management, pricing, and usage tracking |
 | [fastapi-high-performance-endpoint-builder](../../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) | `fastapi-endpoints` | `intermediate` | `stable` | Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation. |

@@ -372,6 +372,7 @@ AI_Skills_Booster/
 │   │   ├── docs_guard/ (1 skills)
 │   │   ├── documentation/ (1 skills)
 │   │   ├── exa_search/ (1 skills)
+│   │   ├── fal_platform/ (1 skills)
 │   │   └── fastapi-endpoints/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
