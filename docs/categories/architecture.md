@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **38 skills** available in this category.
+> **39 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,3 +42,4 @@
 | [commit](../../skills/software-engineering/architecture/patterns/commit/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to aLWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task. |
 | [competitive-landscape](../../skills/software-engineering/architecture/patterns/competitive-landscape/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies. |
 | [competitor-profiling](../../skills/software-engineering/architecture/patterns/competitor-profiling/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to when the user wants to research, profile, or analyze competitors from their URLs. |
+| [complexity-cuts](../../skills/software-engineering/architecture/patterns/complexity-cuts/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard. |

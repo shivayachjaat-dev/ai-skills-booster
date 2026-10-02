@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **573** skills across structured domains, categories, and subcategories.
+Master navigation for **574** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (199 skills)
 
@@ -1617,9 +1617,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (44 skills)
+## Software Engineering (45 skills)
 
-### Architecture (37 skills)
+### Architecture (38 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -1628,7 +1628,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (34):
+- **Patterns** (35):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -1663,6 +1663,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [commit](../skills/software-engineering/architecture/patterns/commit/SKILL.md) — Use this skill to aLWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task.
   - [competitive-landscape](../skills/software-engineering/architecture/patterns/competitive-landscape/SKILL.md) — Use this skill to comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies.
   - [competitor-profiling](../skills/software-engineering/architecture/patterns/competitor-profiling/SKILL.md) — Use this skill to when the user wants to research, profile, or analyze competitors from their URLs.
+  - [complexity-cuts](../skills/software-engineering/architecture/patterns/complexity-cuts/SKILL.md) — Use this skill to lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard.
 
 ### Code Review (1 skills)
 Category index: [`docs/categories/code-review.md`](categories/code-review.md)

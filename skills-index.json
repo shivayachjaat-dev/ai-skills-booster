@@ -12785,6 +12785,28 @@
     "maturity": "stable"
   },
   {
+    "name": "complexity-cuts",
+    "path": "skills/software-engineering/architecture/patterns/complexity-cuts",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "complexity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Complexity Cuts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
