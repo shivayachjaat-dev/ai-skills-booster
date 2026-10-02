@@ -27767,6 +27767,28 @@
     "maturity": "stable"
   },
   {
+    "name": "i18n-localization",
+    "path": "skills/software-engineering/architecture/patterns/i18n-localization",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for i18n localization. Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "i18n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "I18N Localization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
