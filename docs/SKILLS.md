@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,169 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,170 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -831,6 +831,7 @@
 | [hig-components-system](skills/frontend/ui-ux/hig_components_syste/hig-components-system/SKILL.md) | `frontend` | `ui-ux` | `hig_components_syste` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig components system. Apple HIG guidance for system experience components: widgets, live activities, notifications, complications, home screen quick actions, top shelf, watch faces, app clips, and app shortcuts. |
 | [hig-foundations](skills/frontend/ui-ux/hig_foundations/hig-foundations/SKILL.md) | `frontend` | `ui-ux` | `hig_foundations` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig foundations. Apple Human Interface Guidelines design foundations. |
 | [hig-patterns](skills/frontend/ui-ux/hig_patterns/hig-patterns/SKILL.md) | `frontend` | `ui-ux` | `hig_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig patterns. Apple Human Interface Guidelines interaction and UX patterns. |
+| [hig-platforms](skills/frontend/ui-ux/hig_platforms/hig-platforms/SKILL.md) | `frontend` | `ui-ux` | `hig_platforms` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig platforms. Apple Human Interface Guidelines for platform-specific design. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

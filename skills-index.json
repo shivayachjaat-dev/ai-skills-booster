@@ -18605,6 +18605,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-platforms",
+    "path": "skills/frontend/ui-ux/hig_platforms/hig-platforms",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hig_platforms",
+    "description": "Use this skill to design, implement, and operate production workflows for hig platforms. Apple Human Interface Guidelines for platform-specific design.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Platforms",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
