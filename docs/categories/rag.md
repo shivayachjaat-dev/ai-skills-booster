@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,4 +13,5 @@
 | [azure-storage-file-datalake-py](../../skills/ai-engineering/rag/azure_storage_file_d/azure-storage-file-datalake-py/SKILL.md) | `azure_storage_file_d` | `advanced` | `stable` | Use this skill to azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations. |
 | [azure-storage-file-share-py](../../skills/ai-engineering/rag/azure_storage_file_s/azure-storage-file-share-py/SKILL.md) | `azure_storage_file_s` | `advanced` | `stable` | Use this skill to azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud. |
 | [azure-storage-file-share-ts](../../skills/ai-engineering/rag/azure_storage_file_s/azure-storage-file-share-ts/SKILL.md) | `azure_storage_file_s` | `advanced` | `stable` | Use this skill to azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations. |
+| [azure-storage-queue-py](../../skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-py/SKILL.md) | `azure_storage_queue_` | `advanced` | `stable` | Use this skill to azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing. |
 | [rag-retrieval-evaluation](../../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |

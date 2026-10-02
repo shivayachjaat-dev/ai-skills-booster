@@ -2532,6 +2532,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-storage-queue-py",
+    "path": "skills/ai-engineering/rag/azure_storage_queue_/azure-storage-queue-py",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "azure_storage_queue_",
+    "description": "Use this skill to azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Storage Queue Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",
