@@ -5715,6 +5715,28 @@
     "maturity": "stable"
   },
   {
+    "name": "docker-compose",
+    "path": "skills/ai-engineering/models/docker_compose/docker-compose",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "docker_compose",
+    "description": "Use this skill to design, implement, and operate production workflows for docker compose. Define and run multi-container Docker applications using Docker Compose.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "docker",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Docker Compose",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

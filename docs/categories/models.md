@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **206 skills** available in this category.
+> **207 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -200,6 +200,7 @@
 | [diagnose-android-overheating](../../skills/ai-engineering/models/diagnose_android_ove/diagnose-android-overheating/SKILL.md) | `diagnose_android_ove` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for diagnose android overheating. Use when diagnosing Android overheating, idle heat, thermal throttling, charging or radio heat, or abnormal battery drain with read-only ADB evidence and approval gates. |
 | [diagnosing-bugs](../../skills/ai-engineering/models/diagnosing_bugs/diagnosing-bugs/SKILL.md) | `diagnosing_bugs` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for diagnosing bugs. Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow. |
 | [doc2math](../../skills/ai-engineering/models/doc2math/doc2math/SKILL.md) | `doc2math` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for doc2math. Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints, objectives, and uncertainty. |
+| [docker-compose](../../skills/ai-engineering/models/docker_compose/docker-compose/SKILL.md) | `docker_compose` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docker compose. Define and run multi-container Docker applications using Docker Compose. |
 | [editorial-design](../../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
