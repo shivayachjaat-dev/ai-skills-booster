@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **250** skills across structured domains, categories, and subcategories.
+Master navigation for **251** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (72 skills)
+## Ai Engineering (73 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (32 skills)
+### Models (33 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -170,9 +170,10 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-ai-agents-persistent-java](../skills/ai-engineering/models/azure_ai_agents_pers/azure-ai-agents-persistent-java/SKILL.md) — Use this skill to azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.
 - **Azure_Ai_Anomalydete** (1):
   - [azure-ai-anomalydetector-java](../skills/ai-engineering/models/azure_ai_anomalydete/azure-ai-anomalydetector-java/SKILL.md) — Use this skill to build anomaly detection applications with Azure AI Anomaly Detector SDK for Java. Use when implementing univariate/multivariate anomaly detection, time-series analysis, or AI-powered monitoring.
-- **Azure_Ai_Contentsafe** (2):
+- **Azure_Ai_Contentsafe** (3):
   - [azure-ai-contentsafety-java](../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-java/SKILL.md) — Use this skill to build content moderation applications using the Azure AI Content Safety SDK for Java.
   - [azure-ai-contentsafety-py](../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-py/SKILL.md) — Use this skill to azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.
+  - [azure-ai-contentsafety-ts](../skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-ts/SKILL.md) — Use this skill to analyze text and images for harmful content with customizable blocklists.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

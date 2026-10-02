@@ -74,7 +74,7 @@ AI_Skills_Booster/
 │   │   ├── azd_deployment/ (1 skills)
 │   │   ├── azure_ai_agents_pers/ (2 skills)
 │   │   ├── azure_ai_anomalydete/ (1 skills)
-│   │   ├── azure_ai_contentsafe/ (2 skills)
+│   │   ├── azure_ai_contentsafe/ (3 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

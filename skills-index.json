@@ -1447,6 +1447,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-contentsafety-ts",
+    "path": "skills/ai-engineering/models/azure_ai_contentsafe/azure-ai-contentsafety-ts",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_contentsafe",
+    "description": "Use this skill to analyze text and images for harmful content with customizable blocklists.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Contentsafety Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
