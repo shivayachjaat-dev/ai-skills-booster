@@ -1053,7 +1053,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (569 skills)
+## Bash (570 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1615,6 +1615,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [deep-research](../skills/software-engineering/architecture/patterns/deep-research/SKILL.md) — Use this skill to run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.
 - [defi-yield-strategy-allocator](../skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator/SKILL.md) — Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.
 - [dependency-analysis](../skills/software-engineering/architecture/patterns/dependency-analysis/SKILL.md) — Use this skill to analyze internal and package dependencies using Ontoly graph traversal.
+- [deployment-engineer](../skills/software-engineering/architecture/patterns/deployment-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for deployment engineer. Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [bash-scripting](../skills/testing/automation/bash_scripting/bash-scripting/SKILL.md) — Use this skill to bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
@@ -3160,6 +3161,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [dependency-upgrade](../skills/testing/automation/dependency_upgrade/dependency-upgrade/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency upgrade. Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.
 
+## Deployment Engineer (1 skills)
+
+- [deployment-engineer](../skills/software-engineering/architecture/patterns/deployment-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for deployment engineer. Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
+
 ## Django (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -4274,7 +4279,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (672 skills)
+## Python (673 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4930,6 +4935,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [deep-research](../skills/software-engineering/architecture/patterns/deep-research/SKILL.md) — Use this skill to run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.
 - [defi-yield-strategy-allocator](../skills/software-engineering/architecture/patterns/defi-yield-strategy-allocator/SKILL.md) — Use this skill to multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.
 - [dependency-analysis](../skills/software-engineering/architecture/patterns/dependency-analysis/SKILL.md) — Use this skill to analyze internal and package dependencies using Ontoly graph traversal.
+- [deployment-engineer](../skills/software-engineering/architecture/patterns/deployment-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for deployment engineer. Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
