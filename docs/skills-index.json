@@ -6441,6 +6441,28 @@
     "maturity": "stable"
   },
   {
+    "name": "examprep-ai",
+    "path": "skills/ai-engineering/models/examprep_ai/examprep-ai",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "examprep_ai",
+    "description": "Use this skill to design, implement, and operate production workflows for examprep ai. Exam preparation assistant that converts syllabi, past papers, or notes into a ranked High Score Roadmap. Covers theory, numericals, MCQs, coding, and lab prep, ordered Easy \u2192 Medium \u2192 Hard. Use for last-minute revision, important topics, and question prediction.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "examprep",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Examprep Ai",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
