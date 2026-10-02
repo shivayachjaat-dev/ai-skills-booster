@@ -13391,6 +13391,28 @@
     "maturity": "stable"
   },
   {
+    "name": "maximalism",
+    "path": "skills/frontend/web-architecture/maximalism/maximalism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "maximalism",
+    "description": "Use this skill to design, implement, and operate production workflows for maximalism. Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "maximalism",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Maximalism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

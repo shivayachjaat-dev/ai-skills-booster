@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **38 skills** available in this category.
+> **39 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -38,6 +38,7 @@
 | [isometric-design](../../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) | `isometric_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations. |
 | [layered-design](../../skills/frontend/web-architecture/layered_design/layered-design/SKILL.md) | `layered_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for layered design. Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content. |
 | [material-design](../../skills/frontend/web-architecture/material_design/material-design/SKILL.md) | `material_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for material design. Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components. |
+| [maximalism](../../skills/frontend/web-architecture/maximalism/maximalism/SKILL.md) | `maximalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for maximalism. Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation. |
 | [production-audit](../../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [security-audit](../../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](../../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |
