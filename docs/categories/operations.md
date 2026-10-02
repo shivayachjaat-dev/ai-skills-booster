@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **28 skills** available in this category.
+> **29 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,3 +32,4 @@
 | [notion-manual-import](../../skills/business/operations/notion_manual_import/notion-manual-import/SKILL.md) | `notion_manual_import` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for notion manual import. Notion Manual Import: the Notion step for any module - CSV, property mapping, import steps and verification for the field list the active module confirmed. Use whenever the user picks Notion. |
 | [offboarding-exit](../../skills/business/operations/offboarding_exit/offboarding-exit/SKILL.md) | `offboarding_exit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for offboarding exit. Offboarding register: exit type, employee and manager, notice and final day, reason, handover owner, and done flags for knowledge transfer, assets, access and settlement. Use for exit tracking. |
 | [offer-appointment](../../skills/business/operations/offer_appointment/offer-appointment/SKILL.md) | `offer_appointment` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for offer appointment. Offer register: candidate, position, department, employment type, offered salary and currency, offer date and expiry, joining date, probation, approver and sign-off. Use for offer tracking. |
+| [okr-system](../../skills/business/operations/okr_system/okr-system/SKILL.md) | `okr_system` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for okr system. OKR register: objective, owner and level, department, quarter and year, up to three key results with progress percentages, parent OKR and overall progress. Use for objective tracking. |

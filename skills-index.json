@@ -15934,6 +15934,28 @@
     "maturity": "stable"
   },
   {
+    "name": "okr-system",
+    "path": "skills/business/operations/okr_system/okr-system",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "okr_system",
+    "description": "Use this skill to design, implement, and operate production workflows for okr system. OKR register: objective, owner and level, department, quarter and year, up to three key results with progress percentages, parent OKR and overall progress. Use for objective tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "okr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Okr System",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

@@ -742,7 +742,8 @@ AI_Skills_Booster/
 │   │   ├── notification_reminde/ (1 skills)
 │   │   ├── notion_manual_import/ (1 skills)
 │   │   ├── offboarding_exit/ (1 skills)
-│   │   └── offer_appointment/ (1 skills)
+│   │   ├── offer_appointment/ (1 skills)
+│   │   └── okr_system/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/
