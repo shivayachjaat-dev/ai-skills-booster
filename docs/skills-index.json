@@ -2523,6 +2523,28 @@
     "maturity": "stable"
   },
   {
+    "name": "asana-automation",
+    "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "asana_automation",
+    "description": "Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "asana",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Asana Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

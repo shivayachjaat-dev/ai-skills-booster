@@ -175,6 +175,8 @@ AI_Skills_Booster/
 ├── developer-tools/
 │   ├── cli/
 │   │   └── typer-architecture/ (1 skills)
+│   ├── productivity/
+│   │   └── asana_automation/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/
