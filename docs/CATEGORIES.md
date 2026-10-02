@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,046** skills across structured domains, categories, and subcategories.
+Master navigation for **1,047** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (362 skills)
 
@@ -2412,9 +2412,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (117 skills)
+## Software Engineering (118 skills)
 
-### Architecture (110 skills)
+### Architecture (111 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -2423,7 +2423,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (107):
+- **Patterns** (108):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -2530,6 +2530,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [free-design-resources](../skills/software-engineering/architecture/patterns/free-design-resources/SKILL.md) — Use this skill to design, implement, and operate production workflows for free design resources. Design resource register: resource and provider, licence type, commercial-use and attribution rules, export format, lock-in risk, free tier limit and accessibility notes. Use for tool vetting.
   - [full-stack-orchestration-full-stack-feature](../skills/software-engineering/architecture/patterns/full-stack-orchestration-full-stack-feature/SKILL.md) — Use this skill to design, implement, and operate production workflows for full stack orchestration full stack feature. Use when working with full stack orchestration full stack feature
   - [game-art](../skills/software-engineering/architecture/patterns/game-art/SKILL.md) — Use this skill to design, implement, and operate production workflows for game art. Game art principles. Visual style selection, asset pipeline, animation workflow.
+  - [game-design](../skills/software-engineering/architecture/patterns/game-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for game design. Game design principles. GDD structure, balancing, player psychology, progression.
   - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 
 ### Code Review (1 skills)

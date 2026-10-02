@@ -23037,6 +23037,28 @@
     "maturity": "stable"
   },
   {
+    "name": "game-design",
+    "path": "skills/software-engineering/architecture/patterns/game-design",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for game design. Game design principles. GDD structure, balancing, player psychology, progression.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "game",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Game Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
