@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,538 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,539 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -496,6 +496,7 @@
 | [model-supply-chain-security](skills/ai-engineering/models/model_supply_chain_s/model-supply-chain-security/SKILL.md) | `ai-engineering` | `models` | `model_supply_chain_s` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for model supply chain security. Secure the AI model supply chain with artifact signing, provenance attestation, |
 | [modellix](skills/ai-engineering/models/modellix/modellix/SKILL.md) | `ai-engineering` | `models` | `modellix` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for modellix. Integrate the Modellix API/CLI for async AI image, video, and speech generation or transcription (model run --wait, task download). |
 | [modern-javascript-patterns](skills/ai-engineering/models/modern_javascript_pa/modern-javascript-patterns/SKILL.md) | `ai-engineering` | `models` | `modern_javascript_pa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for modern javascript patterns. Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code. |
+| [monetization](skills/ai-engineering/models/monetization/monetization/SKILL.md) | `ai-engineering` | `models` | `monetization` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monetization. Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subscriptions, pricing experiments, freemium, upgrade flows, churn prevention, revenue optimization e modelos de negocio SaaS. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

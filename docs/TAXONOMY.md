@@ -496,6 +496,7 @@ AI_Skills_Booster/
 │   │   ├── model_supply_chain_s/ (1 skills)
 │   │   ├── modellix/ (1 skills)
 │   │   ├── modern_javascript_pa/ (1 skills)
+│   │   ├── monetization/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

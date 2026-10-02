@@ -10907,6 +10907,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monetization",
+    "path": "skills/ai-engineering/models/monetization/monetization",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "monetization",
+    "description": "Use this skill to design, implement, and operate production workflows for monetization. Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subscriptions, pricing experiments, freemium, upgrade flows, churn prevention, revenue optimization e modelos de negocio SaaS.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "monetization",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monetization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
