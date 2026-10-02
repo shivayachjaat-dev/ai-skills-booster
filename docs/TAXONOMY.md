@@ -78,6 +78,8 @@ AI_Skills_Booster/
 │   │   └── rabbitmq/ (1 skills)
 │   ├── messaging/
 │   │   └── kafka/ (1 skills)
+│   ├── python/
+│   │   └── async-concurrency/ (1 skills)
 │   ├── realtime/
 │   │   └── websocket/ (1 skills)
 │   └── resilience/

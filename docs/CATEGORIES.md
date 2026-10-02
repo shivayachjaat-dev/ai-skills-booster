@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **177** skills across structured domains, categories, and subcategories.
+Master navigation for **178** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (32 skills)
 
@@ -128,7 +128,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (17 skills)
+## Backend (18 skills)
 
 ### Api Design (2 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -207,6 +207,12 @@ Category index: [`docs/categories/messaging.md`](categories/messaging.md)
 
 - **Kafka** (1):
   - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
+
+### Python (1 skills)
+Category index: [`docs/categories/python.md`](categories/python.md)
+
+- **Async Concurrency** (1):
+  - [asyncio-concurrency-and-event-loop-architecture](../skills/backend/python/async-concurrency/asyncio-concurrency-and-event-loop-architecture/SKILL.md) — Use this skill to design, implement, and debug high-performance asynchronous Python systems using standard asyncio. It covers structured concurrency with asyncio.TaskGroup (Python 3.11+), resilient cancellation semantics, worker queues with backpressure, thread/process pool offloading with run_in_executor, event loop latency profiling, and avoiding blocking I/O pitfalls.
 
 ### Realtime (1 skills)
 Category index: [`docs/categories/realtime.md`](categories/realtime.md)
