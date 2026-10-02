@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,485 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,486 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -880,6 +880,7 @@
 | [markstream-migration](skills/frontend/ui-development/markstream_migration/markstream-migration/SKILL.md) | `frontend` | `ui-development` | `markstream_migration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream migration. Audit and migrate an existing Markdown renderer to Markstream while preserving custom renderers, security policy, streaming behavior, and explicit parity gaps. |
 | [markstream-nuxt](skills/frontend/ui-development/markstream_nuxt/markstream-nuxt/SKILL.md) | `frontend` | `ui-development` | `markstream_nuxt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream nuxt. Integrate markstream-vue into Nuxt 3 or 4 with SSR-safe client boundaries, renderer modes, explicit CSS, and browser-only optional peers. |
 | [markstream-react](skills/frontend/ui-development/markstream_react/markstream-react/SKILL.md) | `frontend` | `ui-development` | `markstream_react` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream react. Integrate the beta markstream-react renderer into React 18+ or Next.js with correct client/server entrypoints, CSS, streaming state, and component overrides. |
+| [markstream-svelte](skills/frontend/ui-development/markstream_svelte/markstream-svelte/SKILL.md) | `frontend` | `ui-development` | `markstream_svelte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream svelte. Integrate the beta markstream-svelte renderer into Svelte 5 or SvelteKit with runes, explicit CSS, smooth streaming, workers, and SSR-safe boundaries. |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |

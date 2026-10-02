@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,485** skills across structured domains, categories, and subcategories.
+Master navigation for **1,486** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (516 skills)
 
@@ -2001,7 +2001,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (289 skills)
+## Frontend (290 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2091,7 +2091,7 @@ Category index: [`docs/categories/styling.md`](categories/styling.md)
 - **Fixing_Motion_Perfor** (1):
   - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-### Ui Development (29 skills)
+### Ui Development (30 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -2152,6 +2152,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [markstream-nuxt](../skills/frontend/ui-development/markstream_nuxt/markstream-nuxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream nuxt. Integrate markstream-vue into Nuxt 3 or 4 with SSR-safe client boundaries, renderer modes, explicit CSS, and browser-only optional peers.
 - **Markstream_React** (1):
   - [markstream-react](../skills/frontend/ui-development/markstream_react/markstream-react/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream react. Integrate the beta markstream-react renderer into React 18+ or Next.js with correct client/server entrypoints, CSS, streaming state, and component overrides.
+- **Markstream_Svelte** (1):
+  - [markstream-svelte](../skills/frontend/ui-development/markstream_svelte/markstream-svelte/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream svelte. Integrate the beta markstream-svelte renderer into Svelte 5 or SvelteKit with runes, explicit CSS, smooth streaming, workers, and SSR-safe boundaries.
 
 ### Ui Ux (167 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
