@@ -4965,6 +4965,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-communication-chat-java",
+    "path": "skills/frontend/ui-ux/azure_communication_/azure-communication-chat-java",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "azure_communication_",
+    "description": "Use this skill to build real-time chat applications with thread management, messaging, participants, and read receipts.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Communication Chat Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **279** skills across structured domains, categories, and subcategories.
+Master navigation for **280** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (97 skills)
 
@@ -738,7 +738,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (18 skills)
+## Frontend (19 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -796,7 +796,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-### Ui Ux (7 skills)
+### Ui Ux (8 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -813,6 +813,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [aws-serverless](../skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) — Use this skill to specialized skill for building production-ready serverless
 - **Aws_Serverless_Eda** (1):
   - [aws-serverless-eda](../skills/frontend/ui-ux/aws_serverless_eda/aws-serverless-eda/SKILL.md) — Use this skill to aWS serverless and event-driven architecture expert based on Well-Architected Framework. Use when building serverless APIs, Lambda functions, REST APIs, microservices, or async workflows.
+- **Azure_Communication_** (1):
+  - [azure-communication-chat-java](../skills/frontend/ui-ux/azure_communication_/azure-communication-chat-java/SKILL.md) — Use this skill to build real-time chat applications with thread management, messaging, participants, and read receipts.
 
 ### Web Architecture (1 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)

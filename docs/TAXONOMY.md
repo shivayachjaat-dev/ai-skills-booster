@@ -306,7 +306,8 @@ AI_Skills_Booster/
 │   │   ├── automated_triage/ (1 skills)
 │   │   ├── aws_lambda/ (1 skills)
 │   │   ├── aws_serverless/ (1 skills)
-│   │   └── aws_serverless_eda/ (1 skills)
+│   │   ├── aws_serverless_eda/ (1 skills)
+│   │   └── azure_communication_/ (1 skills)
 │   └── web-architecture/
 │   │   └── antigravity_design_e/ (1 skills)
 ├── marketing/
