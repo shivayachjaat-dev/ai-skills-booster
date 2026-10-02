@@ -479,7 +479,8 @@ AI_Skills_Booster/
 │   │   ├── competitor_tracking/ (1 skills)
 │   │   ├── confluence_automatio/ (1 skills)
 │   │   ├── convertkit_automatio/ (1 skills)
-│   │   └── debugging_strategies/ (1 skills)
+│   │   ├── debugging_strategies/ (1 skills)
+│   │   └── distributed_debuggin/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/

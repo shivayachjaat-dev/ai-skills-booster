@@ -9453,6 +9453,28 @@
     "maturity": "stable"
   },
   {
+    "name": "distributed-debugging-debug-trace",
+    "path": "skills/developer-tools/productivity/distributed_debuggin/distributed-debugging-debug-trace",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "distributed_debuggin",
+    "description": "Use this skill to design, implement, and operate production workflows for distributed debugging debug trace. You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for...",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "distributed",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Distributed Debugging Debug Trace",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **842** skills across structured domains, categories, and subcategories.
+Master navigation for **843** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (289 skills)
 
@@ -1069,7 +1069,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (17 skills)
+## Developer Tools (18 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1085,7 +1085,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Career_Ops** (1):
   - [career-ops](../skills/developer-tools/cli-utilities/career_ops/career-ops/SKILL.md) — Use this skill to multi-CLI job-search command center: evaluate offers, scan portals,
 
-### Productivity (12 skills)
+### Productivity (13 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1112,6 +1112,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [convertkit-automation](../skills/developer-tools/productivity/convertkit_automatio/convertkit-automation/SKILL.md) — Use this skill to automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas.
 - **Debugging_Strategies** (1):
   - [debugging-strategies](../skills/developer-tools/productivity/debugging_strategies/debugging-strategies/SKILL.md) — Use this skill to transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.
+- **Distributed_Debuggin** (1):
+  - [distributed-debugging-debug-trace](../skills/developer-tools/productivity/distributed_debuggin/distributed-debugging-debug-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for distributed debugging debug trace. You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for...
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

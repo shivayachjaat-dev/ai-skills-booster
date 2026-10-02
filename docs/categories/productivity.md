@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **12 skills** available in this category.
+> **13 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -16,3 +16,4 @@
 | [confluence-automation](../../skills/developer-tools/productivity/confluence_automatio/confluence-automation/SKILL.md) | `confluence_automatio` | `advanced` | `stable` | Use this skill to automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas. |
 | [convertkit-automation](../../skills/developer-tools/productivity/convertkit_automatio/convertkit-automation/SKILL.md) | `convertkit_automatio` | `advanced` | `stable` | Use this skill to automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas. |
 | [debugging-strategies](../../skills/developer-tools/productivity/debugging_strategies/debugging-strategies/SKILL.md) | `debugging_strategies` | `advanced` | `stable` | Use this skill to transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches. |
+| [distributed-debugging-debug-trace](../../skills/developer-tools/productivity/distributed_debuggin/distributed-debugging-debug-trace/SKILL.md) | `distributed_debuggin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for distributed debugging debug trace. You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for... |
