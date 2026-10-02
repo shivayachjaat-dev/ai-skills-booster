@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (982 skills)
+## Bash (983 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1775,6 +1775,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hig-components-content](../skills/frontend/ui-ux/hig_components_conte/hig-components-content/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components content. Apple Human Interface Guidelines for content display components.
 - [hig-components-dialogs](../skills/frontend/ui-ux/hig_components_dialo/hig-components-dialogs/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components dialogs. Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views.
 - [hig-components-layout](../skills/frontend/ui-ux/hig_components_layou/hig-components-layout/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components layout. Apple Human Interface Guidelines for layout and navigation components.
+- [hig-components-search](../skills/frontend/ui-ux/hig_components_searc/hig-components-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components search. Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
@@ -5509,6 +5510,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [hig-components-menus](../skills/software-engineering/architecture/patterns/hig-components-menus/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components menus. Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 
+## Hig Components Search (1 skills)
+
+- [hig-components-search](../skills/frontend/ui-ux/hig_components_searc/hig-components-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components search. Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.
+
 ## Hig Inputs (1 skills)
 
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
@@ -6272,7 +6277,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1085 skills)
+## Python (1086 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7045,6 +7050,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [hig-components-content](../skills/frontend/ui-ux/hig_components_conte/hig-components-content/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components content. Apple Human Interface Guidelines for content display components.
 - [hig-components-dialogs](../skills/frontend/ui-ux/hig_components_dialo/hig-components-dialogs/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components dialogs. Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views.
 - [hig-components-layout](../skills/frontend/ui-ux/hig_components_layou/hig-components-layout/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components layout. Apple Human Interface Guidelines for layout and navigation components.
+- [hig-components-search](../skills/frontend/ui-ux/hig_components_searc/hig-components-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig components search. Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.

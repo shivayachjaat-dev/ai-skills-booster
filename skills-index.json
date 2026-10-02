@@ -18495,6 +18495,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hig-components-search",
+    "path": "skills/frontend/ui-ux/hig_components_searc/hig-components-search",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hig_components_searc",
+    "description": "Use this skill to design, implement, and operate production workflows for hig components search. Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hig",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hig Components Search",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
