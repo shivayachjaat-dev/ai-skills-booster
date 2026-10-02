@@ -6096,6 +6096,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-keyvault",
+    "path": "skills/security/appsec/azure_keyvault/azure-keyvault",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "azure_keyvault",
+    "description": "Use this skill to manage secrets and certificates in Azure Key Vault. Configure access",
+    "tags": [
+      "security",
+      "appsec",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Keyvault",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
