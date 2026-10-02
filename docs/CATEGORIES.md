@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,349** skills across structured domains, categories, and subcategories.
+Master navigation for **1,350** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (450 skills)
 
@@ -3126,7 +3126,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (20 skills)
+## Testing (21 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -3146,7 +3146,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (13 skills)
+### Automation (14 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -3175,6 +3175,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [idea-refine](../skills/testing/automation/idea_refine/idea-refine/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea refine. Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging ...
 - **Junit_5_Skill** (1):
   - [junit-5-skill](../skills/testing/automation/junit_5_skill/junit-5-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for junit 5 skill. Generates production-grade JUnit 5 unit and integration tests in Java. Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and nested tests. Use when user mentions \"JUnit\", \"JUnit 5\", \"@Test\", \"assertEquals\", \"Assertions\"...
+- **Kotlin_Coroutines_Ex** (1):
+  - [kotlin-coroutines-expert](../skills/testing/automation/kotlin_coroutines_ex/kotlin-coroutines-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotlin coroutines expert. Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)
