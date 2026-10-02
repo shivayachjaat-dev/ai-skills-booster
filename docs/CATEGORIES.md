@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,578** skills across structured domains, categories, and subcategories.
+Master navigation for **1,579** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (549 skills)
 
@@ -2105,7 +2105,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (312 skills)
+## Frontend (313 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2631,7 +2631,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (74 skills)
+### Web Architecture (75 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -2745,6 +2745,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [multi-platform-apps-multi-platform](../skills/frontend/web-architecture/multi_platform_apps_/multi-platform-apps-multi-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi platform apps multi platform. Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.
 - **Multi_Source_Search** (1):
   - [multi-source-search](../skills/frontend/web-architecture/multi_source_search/multi-source-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi source search. Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps.
+- **N8N_Expression_Synta** (1):
+  - [n8n-expression-syntax](../skills/frontend/web-architecture/n8n_expression_synta/n8n-expression-syntax/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n expression syntax. Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, or working with webhook data in workflows.
 - **Neo_Brutalism** (1):
   - [neo-brutalism](../skills/frontend/web-architecture/neo_brutalism/neo-brutalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.
 - **Neumorphism** (1):

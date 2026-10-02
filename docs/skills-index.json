@@ -26129,6 +26129,28 @@
     "maturity": "stable"
   },
   {
+    "name": "n8n-expression-syntax",
+    "path": "skills/frontend/web-architecture/n8n_expression_synta/n8n-expression-syntax",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "n8n_expression_synta",
+    "description": "Use this skill to design, implement, and operate production workflows for n8n expression syntax. Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, or working with webhook data in workflows.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "n8n",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "N8N Expression Syntax",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "neo-brutalism",
     "path": "skills/frontend/web-architecture/neo_brutalism/neo-brutalism",
     "domain": "frontend",
