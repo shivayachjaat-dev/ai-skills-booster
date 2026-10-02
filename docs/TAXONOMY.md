@@ -224,6 +224,7 @@ AI_Skills_Booster/
 │   │   ├── data_export_engine/ (1 skills)
 │   │   ├── database_cloud_optim/ (1 skills)
 │   │   ├── day_book/ (1 skills)
+│   │   ├── ddd_strategic_design/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

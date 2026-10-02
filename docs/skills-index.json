@@ -4879,6 +4879,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ddd-strategic-design",
+    "path": "skills/ai-engineering/models/ddd_strategic_design/ddd-strategic-design",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ddd_strategic_design",
+    "description": "Use this skill to design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ddd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ddd Strategic Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

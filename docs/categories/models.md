@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **169 skills** available in this category.
+> **170 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -172,4 +172,5 @@
 | [data-export-engine](../../skills/ai-engineering/models/data_export_engine/data-export-engine/SKILL.md) | `data_export_engine` | `advanced` | `stable` | Use this skill to data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails. |
 | [database-cloud-optimization-cost-optimize](../../skills/ai-engineering/models/database_cloud_optim/database-cloud-optimization-cost-optimize/SKILL.md) | `database_cloud_optim` | `advanced` | `stable` | Use this skill to you are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and implement cost-effective architectures across AWS, Azure, and GCP. |
 | [day-book](../../skills/ai-engineering/models/day_book/day-book/SKILL.md) | `day_book` | `advanced` | `stable` | Use this skill to daily cash, bank and digital day book: opening and closing balances per book, in/out movements, debit/credit presentation and reconciliation status. Use for daily bookkeeping. |
+| [ddd-strategic-design](../../skills/ai-engineering/models/ddd_strategic_design/ddd-strategic-design/SKILL.md) | `ddd_strategic_design` | `advanced` | `stable` | Use this skill to design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
