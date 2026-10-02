@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,181** skills across structured domains, categories, and subcategories.
+Master navigation for **1,182** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (402 skills)
+## Ai Engineering (403 skills)
 
 ### Agents (49 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -204,7 +204,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (294 skills)
+### Models (295 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -774,6 +774,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [hig-project-context](../skills/ai-engineering/models/hig_project_context/hig-project-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for hig project context. Create or update a shared Apple design context document that other HIG skills use to tailor guidance.
 - **Hosted_Agents_V2_Py** (1):
   - [hosted-agents-v2-py](../skills/ai-engineering/models/hosted_agents_v2_py/hosted-agents-v2-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for hosted agents v2 py. Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-based agents in Azure AI Foundry.
+- **Hugging_Face_Communi** (1):
+  - [hugging-face-community-evals](../skills/ai-engineering/models/hugging_face_communi/hugging-face-community-evals/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face community evals. Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

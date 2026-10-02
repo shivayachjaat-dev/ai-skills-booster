@@ -8135,6 +8135,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hugging-face-community-evals",
+    "path": "skills/ai-engineering/models/hugging_face_communi/hugging-face-community-evals",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "hugging_face_communi",
+    "description": "Use this skill to design, implement, and operate production workflows for hugging face community evals. Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "hugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hugging Face Community Evals",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

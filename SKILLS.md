@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,181 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,182 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -370,6 +370,7 @@
 | [hf-mcp](skills/ai-engineering/models/hf_mcp/hf-mcp/SKILL.md) | `ai-engineering` | `models` | `hf_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hf mcp. Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documentation, run compute jobs, and use Gradio Spaces as AI tools. Available when connected to the HF MCP server. |
 | [hig-project-context](skills/ai-engineering/models/hig_project_context/hig-project-context/SKILL.md) | `ai-engineering` | `models` | `hig_project_context` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig project context. Create or update a shared Apple design context document that other HIG skills use to tailor guidance. |
 | [hosted-agents-v2-py](skills/ai-engineering/models/hosted_agents_v2_py/hosted-agents-v2-py/SKILL.md) | `ai-engineering` | `models` | `hosted_agents_v2_py` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hosted agents v2 py. Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-based agents in Azure AI Foundry. |
+| [hugging-face-community-evals](skills/ai-engineering/models/hugging_face_communi/hugging-face-community-evals/SKILL.md) | `ai-engineering` | `models` | `hugging_face_communi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face community evals. Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
