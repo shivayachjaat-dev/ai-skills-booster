@@ -8894,6 +8894,28 @@
     "maturity": "stable"
   },
   {
+    "name": "employee-suggestion-hub",
+    "path": "skills/business/operations/employee_suggestion_/employee-suggestion-hub",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "employee_suggestion_",
+    "description": "Use this skill to design, implement, and operate production workflows for employee suggestion hub. Suggestion register: submitter or anonymous flag, category, votes, reviewer, decision and response status. Use for employee feedback programs.",
+    "tags": [
+      "business",
+      "operations",
+      "employee",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Employee Suggestion Hub",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
