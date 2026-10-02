@@ -162,6 +162,7 @@ AI_Skills_Booster/
 │   │   ├── cloud_iam_deep/ (1 skills)
 │   │   ├── cloud_k8s/ (1 skills)
 │   │   ├── cloudflare_security_/ (1 skills)
+│   │   ├── co_marketing/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

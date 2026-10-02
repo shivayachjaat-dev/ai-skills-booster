@@ -3515,6 +3515,28 @@
     "maturity": "stable"
   },
   {
+    "name": "co-marketing",
+    "path": "skills/ai-engineering/models/co_marketing/co-marketing",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "co_marketing",
+    "description": "Use this skill to when the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "co",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Co Marketing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
