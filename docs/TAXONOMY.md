@@ -325,7 +325,8 @@ AI_Skills_Booster/
 │   │   ├── bamboohr_automation/ (1 skills)
 │   │   ├── basecamp_automation/ (1 skills)
 │   │   ├── bitbucket_automation/ (1 skills)
-│   │   └── canva_automation/ (1 skills)
+│   │   ├── canva_automation/ (1 skills)
+│   │   └── clickup_automation/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/

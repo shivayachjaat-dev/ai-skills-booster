@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **5 skills** available in this category.
+> **6 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -9,3 +9,4 @@
 | [basecamp-automation](../../skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) | `basecamp_automation` | `advanced` | `stable` | Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas. |
 | [bitbucket-automation](../../skills/developer-tools/productivity/bitbucket_automation/bitbucket-automation/SKILL.md) | `bitbucket_automation` | `advanced` | `stable` | Use this skill to automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas. |
 | [canva-automation](../../skills/developer-tools/productivity/canva_automation/canva-automation/SKILL.md) | `canva_automation` | `advanced` | `stable` | Use this skill to automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas. |
+| [clickup-automation](../../skills/developer-tools/productivity/clickup_automation/clickup-automation/SKILL.md) | `clickup_automation` | `advanced` | `stable` | Use this skill to automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas. |

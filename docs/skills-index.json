@@ -6065,6 +6065,28 @@
     "maturity": "stable"
   },
   {
+    "name": "clickup-automation",
+    "path": "skills/developer-tools/productivity/clickup_automation/clickup-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "clickup_automation",
+    "description": "Use this skill to automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "clickup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Clickup Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
