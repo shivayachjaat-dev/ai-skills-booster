@@ -201,6 +201,8 @@ AI_Skills_Booster/
 │   │   └── ad-creative/ (1 skills)
 │   ├── crm/
 │   │   └── activecampaign-automation/ (1 skills)
+│   ├── lead-generation/
+│   │   └── b2b-enrichment/ (1 skills)
 │   ├── paid-advertising/
 │   │   └── campaign-analytics/ (1 skills)
 │   └── seo/

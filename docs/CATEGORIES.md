@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **163** skills across structured domains, categories, and subcategories.
+Master navigation for **164** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -543,7 +543,7 @@ Category index: [`docs/categories/state-management.md`](categories/state-managem
 - **Zustand** (1):
   - [zustand-state-management-patterns](../skills/frontend/state-management/zustand/zustand-state-management-patterns/SKILL.md) — Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.
 
-## Marketing (6 skills)
+## Marketing (7 skills)
 
 ### Brand (1 skills)
 Category index: [`docs/categories/brand.md`](categories/brand.md)
@@ -562,6 +562,12 @@ Category index: [`docs/categories/crm.md`](categories/crm.md)
 
 - **Activecampaign Automation** (1):
   - [activecampaign-marketing-automation-and-webhook-sync](../skills/marketing/crm/activecampaign-automation/activecampaign-marketing-automation-and-webhook-sync/SKILL.md) — Use this skill to design, automate, and synchronize marketing automation workflows, contact lifecycle tagging, email drip sequences, and webhook event listeners with ActiveCampaign via its REST v3 API and event webhooks.
+
+### Lead Generation (1 skills)
+Category index: [`docs/categories/lead-generation.md`](categories/lead-generation.md)
+
+- **B2B Enrichment** (1):
+  - [b2b-lead-enrichment-and-prospecting-crawler](../skills/marketing/lead-generation/b2b-enrichment/b2b-lead-enrichment-and-prospecting-crawler/SKILL.md) — Use this skill to design, build, and automate ethical B2B sales lead generation and firmographic enrichment pipelines. It covers company domain parsing, technology stack detection (BuiltWith/Wappalyzer signatures), executive contact discovery, and CRM ingestion.
 
 ### Paid Advertising (1 skills)
 Category index: [`docs/categories/paid-advertising.md`](categories/paid-advertising.md)

@@ -2754,6 +2754,31 @@
     "maturity": "stable"
   },
   {
+    "name": "b2b-lead-enrichment-and-prospecting-crawler",
+    "path": "skills/marketing/lead-generation/b2b-enrichment/b2b-lead-enrichment-and-prospecting-crawler",
+    "domain": "marketing",
+    "category": "lead-generation",
+    "subcategory": "b2b-enrichment",
+    "description": "Use this skill to design, build, and automate ethical B2B sales lead generation and firmographic enrichment pipelines. It covers company domain parsing, technology stack detection (BuiltWith/Wappalyzer signatures), executive contact discovery, and CRM ingestion.",
+    "tags": [
+      "lead-generation",
+      "b2b-prospecting",
+      "firmographics",
+      "lead-enrichment",
+      "crm-sync",
+      "sales-automation"
+    ],
+    "technologies": [
+      "Python",
+      "Pydantic",
+      "FastAPI",
+      "DNS Resolvers",
+      "Firmographic APIs"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "cross-channel-ad-campaign-analytics",
     "path": "skills/marketing/paid-advertising/campaign-analytics/cross-channel-ad-campaign-analytics",
     "domain": "marketing",
