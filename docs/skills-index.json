@@ -15799,6 +15799,28 @@
     "maturity": "stable"
   },
   {
+    "name": "codebase-cleanup-tech-debt",
+    "path": "skills/software-engineering/architecture/patterns/codebase-cleanup-tech-debt",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for codebase cleanup tech debt. Identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "codebase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Codebase Cleanup Tech Debt",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "codebase-onboarding",
     "path": "skills/software-engineering/architecture/patterns/codebase-onboarding",
     "domain": "software-engineering",

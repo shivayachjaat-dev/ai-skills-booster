@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 745 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 746 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -695,6 +695,7 @@
 | [code-refactoring-context-restore](skills/software-engineering/architecture/patterns/code-refactoring-context-restore/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to use when working with code refactoring context restore |
 | [code-refactoring-tech-debt](skills/software-engineering/architecture/patterns/code-refactoring-tech-debt/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions. |
 | [code-review-excellence](skills/software-engineering/architecture/patterns/code-review-excellence/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement. |
+| [codebase-cleanup-tech-debt](skills/software-engineering/architecture/patterns/codebase-cleanup-tech-debt/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for codebase cleanup tech debt. Identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions. |
 | [codebase-onboarding](skills/software-engineering/architecture/patterns/codebase-onboarding/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to onboard a developer to a repository using Ontoly graph summaries. Use |
 | [commit](skills/software-engineering/architecture/patterns/commit/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to aLWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task. |
 | [competitive-landscape](skills/software-engineering/architecture/patterns/competitive-landscape/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies. |
