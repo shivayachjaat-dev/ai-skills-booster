@@ -2107,6 +2107,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-app-patterns",
+    "path": "skills/ai-engineering/llm-ops/llm_app_patterns/llm-app-patterns",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llm_app_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for llm app patterns. Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries.",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm App Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

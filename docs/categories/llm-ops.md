@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [geo-llmstxt](../../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) | `geo_llmstxt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping |
 | [hugging-face-evaluation](../../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) | `hugging_face_evaluat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ... |
 | [langfuse](../../skills/ai-engineering/llm-ops/langfuse/langfuse/SKILL.md) | `langfuse` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for langfuse. Expert in Langfuse - the open-source LLM observability platform. |
+| [llm-app-patterns](../../skills/ai-engineering/llm-ops/llm_app_patterns/llm-app-patterns/SKILL.md) | `llm_app_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm app patterns. Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries. |
