@@ -31661,6 +31661,28 @@
     "maturity": "stable"
   },
   {
+    "name": "loss-aversion-designer",
+    "path": "skills/software-engineering/architecture/patterns/loss-aversion-designer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for loss aversion designer. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "loss",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Loss Aversion Designer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
