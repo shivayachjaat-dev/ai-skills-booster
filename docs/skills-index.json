@@ -5517,6 +5517,28 @@
     "maturity": "stable"
   },
   {
+    "name": "devcontainers-nix",
+    "path": "skills/ai-engineering/models/devcontainers_nix/devcontainers-nix",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "devcontainers_nix",
+    "description": "Use this skill to design, implement, and operate production workflows for devcontainers nix. Create reproducible development environments with Dev Containers, Nix",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "devcontainers",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Devcontainers Nix",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **199 skills** available in this category.
+> **200 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -193,6 +193,7 @@
 | [design-thinking](../../skills/ai-engineering/models/design_thinking/design-thinking/SKILL.md) | `design_thinking` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design thinking. Direction and intent for frontend design. Use with design when defining purpose, tone, domain, color world, and review bar; includes cross-domain lens from cinema, architecture, marketing, UX, automotive, industrial design. |
 | [detect-ai-text](../../skills/ai-engineering/models/detect_ai_text/detect-ai-text/SKILL.md) | `detect_ai_text` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for detect ai text. Estimate whether a document's prose was written by AI, with the linguistic tells and honest abstention on non-prose. Use when the user asks whether an essay, report, CV, submission, or article was AI-generated — for triage, not proof. |
 | [devcontainer-setup](../../skills/ai-engineering/models/devcontainer_setup/devcontainer-setup/SKILL.md) | `devcontainer_setup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devcontainer setup. Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code worksp... |
+| [devcontainers-nix](../../skills/ai-engineering/models/devcontainers_nix/devcontainers-nix/SKILL.md) | `devcontainers_nix` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devcontainers nix. Create reproducible development environments with Dev Containers, Nix |
 | [editorial-design](../../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
