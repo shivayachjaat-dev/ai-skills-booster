@@ -13509,6 +13509,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-validation-notebook",
+    "path": "skills/backend/databases/monte_carlo_validati/monte-carlo-validation-notebook",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "monte_carlo_validati",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo validation notebook. Generates SQL validation notebooks for dbt PR changes with before/after comparison queries.",
+    "tags": [
+      "backend",
+      "databases",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Validation Notebook",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

@@ -618,7 +618,8 @@ AI_Skills_Booster/
 │   │   ├── hunt_nosqli/ (1 skills)
 │   │   ├── hunt_sqli/ (1 skills)
 │   │   ├── mongodb/ (1 skills)
-│   │   └── monte_carlo_prevent/ (1 skills)
+│   │   ├── monte_carlo_prevent/ (1 skills)
+│   │   └── monte_carlo_validati/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/
