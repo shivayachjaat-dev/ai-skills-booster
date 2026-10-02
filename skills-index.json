@@ -28185,6 +28185,28 @@
     "maturity": "stable"
   },
   {
+    "name": "implement",
+    "path": "skills/software-engineering/architecture/patterns/implement",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for implement. Implement a piece of work based on a PRD or set of issues.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "implement",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Implement",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
