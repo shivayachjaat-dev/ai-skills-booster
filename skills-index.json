@@ -31375,6 +31375,28 @@
     "maturity": "stable"
   },
   {
+    "name": "logistics-exception-management",
+    "path": "skills/software-engineering/architecture/patterns/logistics-exception-management",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for logistics exception management. Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "logistics",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Logistics Exception Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
