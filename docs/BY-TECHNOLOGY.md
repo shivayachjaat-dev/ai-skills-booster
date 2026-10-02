@@ -1025,11 +1025,15 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [backend-security-coder](../skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) — Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
 
+## Backtesting Frameworks (1 skills)
+
+- [backtesting-frameworks](../skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks/SKILL.md) — Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.
+
 ## Bandit (1 skills)
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (193 skills)
+## Bash (194 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1201,6 +1205,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-functions-devsec](../skills/frontend/ui-ux/azure_functions_devs/azure-functions-devsec/SKILL.md) — Use this skill to build serverless applications on Azure Functions. Configure triggers,
 - [azure-search-documents-ts](../skills/frontend/ui-ux/azure_search_documen/azure-search-documents-ts/SKILL.md) — Use this skill to build search applications with vector, hybrid, and semantic search capabilities.
 - [backend-development-feature-development](../skills/frontend/ui-ux/backend_development_/backend-development-feature-development/SKILL.md) — Use this skill to orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.
+- [backtesting-frameworks](../skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks/SKILL.md) — Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
@@ -2462,7 +2467,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (296 skills)
+## Python (297 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2701,6 +2706,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-functions-devsec](../skills/frontend/ui-ux/azure_functions_devs/azure-functions-devsec/SKILL.md) — Use this skill to build serverless applications on Azure Functions. Configure triggers,
 - [azure-search-documents-ts](../skills/frontend/ui-ux/azure_search_documen/azure-search-documents-ts/SKILL.md) — Use this skill to build search applications with vector, hybrid, and semantic search capabilities.
 - [backend-development-feature-development](../skills/frontend/ui-ux/backend_development_/backend-development-feature-development/SKILL.md) — Use this skill to orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.
+- [backtesting-frameworks](../skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks/SKILL.md) — Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
 - [azure-messaging-webpubsub-java](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsub-java/SKILL.md) — Use this skill to build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
 - [azure-messaging-webpubsubservice-py](../skills/frontend/web-architecture/azure_messaging_webp/azure-messaging-webpubsubservice-py/SKILL.md) — Use this skill to azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.

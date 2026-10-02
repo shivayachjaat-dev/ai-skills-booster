@@ -6747,6 +6747,28 @@
     "maturity": "stable"
   },
   {
+    "name": "backtesting-frameworks",
+    "path": "skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "backtesting_framewor",
+    "description": "Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "backtesting",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Backtesting Frameworks",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
