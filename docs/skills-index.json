@@ -24863,6 +24863,28 @@
     "maturity": "stable"
   },
   {
+    "name": "grafana-dashboards",
+    "path": "skills/software-engineering/architecture/patterns/grafana-dashboards",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for grafana dashboards. Create and manage production-ready Grafana dashboards for comprehensive system observability.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "grafana",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Grafana Dashboards",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
