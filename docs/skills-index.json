@@ -94,6 +94,31 @@
     "maturity": "stable"
   },
   {
+    "name": "promptfoo-llm-eval-benchmarking",
+    "path": "skills/ai-engineering/evaluation/promptfoo/promptfoo-llm-eval-benchmarking",
+    "domain": "ai-engineering",
+    "category": "evaluation",
+    "subcategory": "promptfoo",
+    "description": "Use this skill when designing, executing, and automating LLM prompt evaluations and adversarial red-teaming benchmarks using promptfoo. It guides the agent through defining test matrices (providers x prompts x variables), configuring deterministic and LLM-as-a-judge assertions, running red-team vulnerability scans, and integrating evaluations into CI/CD pipelines.",
+    "tags": [
+      "promptfoo",
+      "llm-eval",
+      "prompt-engineering",
+      "benchmarking",
+      "red-teaming",
+      "ai-testing"
+    ],
+    "technologies": [
+      "promptfoo",
+      "OpenAI",
+      "Anthropic",
+      "Python",
+      "Node.js"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "ragas-rag-triad-evaluation",
     "path": "skills/ai-engineering/evaluation/ragas-rag-evaluation/ragas-rag-triad-evaluation",
     "domain": "ai-engineering",

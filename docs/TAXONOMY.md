@@ -10,6 +10,7 @@ AI_Skills_Booster/
 │   ├── context/
 │   │   └── optimization/ (1 skills)
 │   ├── evaluation/
+│   │   ├── promptfoo/ (1 skills)
 │   │   └── ragas-rag-evaluation/ (1 skills)
 │   ├── fine-tuning/
 │   │   └── peft-lora/ (1 skills)
