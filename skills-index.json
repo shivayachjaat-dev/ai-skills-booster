@@ -22596,6 +22596,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-lfi",
+    "path": "skills/security/appsec/hunt_lfi/hunt-lfi",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "hunt_lfi",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt lfi. Hunt Local File Inclusion (LFI), Remote File Inclusion (RFI), and Path",
+    "tags": [
+      "security",
+      "appsec",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Lfi",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "laravel-security-audit",
     "path": "skills/security/appsec/laravel_security_aud/laravel-security-audit",
     "domain": "security",
