@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1250 skills)
+## Bash (1251 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2325,6 +2325,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [idea-refine](../skills/testing/automation/idea_refine/idea-refine/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea refine. Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging ...
 - [junit-5-skill](../skills/testing/automation/junit_5_skill/junit-5-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for junit 5 skill. Generates production-grade JUnit 5 unit and integration tests in Java. Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and nested tests. Use when user mentions \"JUnit\", \"JUnit 5\", \"@Test\", \"assertEquals\", \"Assertions\"...
 - [kotlin-coroutines-expert](../skills/testing/automation/kotlin_coroutines_ex/kotlin-coroutines-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotlin coroutines expert. Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.
+- [longbridge-content](../skills/testing/automation/longbridge_content/longbridge-content/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge content. Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge.
 
 ## Bash Defensive Patterns (1 skills)
 
@@ -7096,6 +7097,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [loki-logging](../skills/devops/ci-cd/loki_logging/loki-logging/SKILL.md) — Use this skill to design, implement, and operate production workflows for loki logging. Configure Grafana Loki for log aggregation and analysis.
 
+## Longbridge Content (1 skills)
+
+- [longbridge-content](../skills/testing/automation/longbridge_content/longbridge-content/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge content. Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge.
+
 ## Lua (2 skills)
 
 - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
@@ -7602,7 +7607,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1353 skills)
+## Python (1354 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8956,6 +8961,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [idea-refine](../skills/testing/automation/idea_refine/idea-refine/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea refine. Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging ...
 - [junit-5-skill](../skills/testing/automation/junit_5_skill/junit-5-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for junit 5 skill. Generates production-grade JUnit 5 unit and integration tests in Java. Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and nested tests. Use when user mentions \"JUnit\", \"JUnit 5\", \"@Test\", \"assertEquals\", \"Assertions\"...
 - [kotlin-coroutines-expert](../skills/testing/automation/kotlin_coroutines_ex/kotlin-coroutines-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotlin coroutines expert. Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.
+- [longbridge-content](../skills/testing/automation/longbridge_content/longbridge-content/SKILL.md) — Use this skill to design, implement, and operate production workflows for longbridge content. Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge.
 - [appium-mobile-automation-and-cross-device-testing](../skills/testing/mobile-testing/appium-cross-device/appium-mobile-automation-and-cross-device-testing/SKILL.md) — Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.
 
 ## Python AST (1 skills)

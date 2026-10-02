@@ -1414,7 +1414,8 @@ AI_Skills_Booster/
 │   │   ├── framework_migration_/ (1 skills)
 │   │   ├── idea_refine/ (1 skills)
 │   │   ├── junit_5_skill/ (1 skills)
-│   │   └── kotlin_coroutines_ex/ (1 skills)
+│   │   ├── kotlin_coroutines_ex/ (1 skills)
+│   │   └── longbridge_content/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/

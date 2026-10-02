@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **14 skills** available in this category.
+> **15 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -18,3 +18,4 @@
 | [idea-refine](../../skills/testing/automation/idea_refine/idea-refine/SKILL.md) | `idea_refine` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea refine. Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging ... |
 | [junit-5-skill](../../skills/testing/automation/junit_5_skill/junit-5-skill/SKILL.md) | `junit_5_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for junit 5 skill. Generates production-grade JUnit 5 unit and integration tests in Java. Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and nested tests. Use when user mentions \"JUnit\", \"JUnit 5\", \"@Test\", \"assertEquals\", \"Assertions\"... |
 | [kotlin-coroutines-expert](../../skills/testing/automation/kotlin_coroutines_ex/kotlin-coroutines-expert/SKILL.md) | `kotlin_coroutines_ex` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kotlin coroutines expert. Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing. |
+| [longbridge-content](../../skills/testing/automation/longbridge_content/longbridge-content/SKILL.md) | `longbridge_content` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for longbridge content. Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge. |

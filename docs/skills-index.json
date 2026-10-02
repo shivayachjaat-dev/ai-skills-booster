@@ -32041,6 +32041,28 @@
     "maturity": "stable"
   },
   {
+    "name": "longbridge-content",
+    "path": "skills/testing/automation/longbridge_content/longbridge-content",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "longbridge_content",
+    "description": "Use this skill to design, implement, and operate production workflows for longbridge content. Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge.",
+    "tags": [
+      "testing",
+      "automation",
+      "longbridge",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Longbridge Content",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",
