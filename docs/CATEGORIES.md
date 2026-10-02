@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **90** skills across structured domains, categories, and subcategories.
+Master navigation for **91** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (14 skills)
 
@@ -72,7 +72,7 @@ Category index: [`docs/categories/vector-databases.md`](categories/vector-databa
 - **Indexing** (1):
   - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
-## Backend (13 skills)
+## Backend (14 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -143,6 +143,12 @@ Category index: [`docs/categories/realtime.md`](categories/realtime.md)
 
 - **Websocket** (1):
   - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
+
+### Resilience (1 skills)
+Category index: [`docs/categories/resilience.md`](categories/resilience.md)
+
+- **Rate Limiter Token Bucket** (1):
+  - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
 ## Data Analytics (3 skills)
 

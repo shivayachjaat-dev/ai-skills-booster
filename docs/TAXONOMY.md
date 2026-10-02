@@ -50,8 +50,10 @@ AI_Skills_Booster/
 │   │   └── rabbitmq/ (1 skills)
 │   ├── messaging/
 │   │   └── kafka/ (1 skills)
-│   └── realtime/
+│   ├── realtime/
 │   │   └── websocket/ (1 skills)
+│   └── resilience/
+│   │   └── rate-limiter-token-bucket/ (1 skills)
 ├── data-analytics/
 │   ├── data-pipelines/
 │   │   └── polars/ (1 skills)

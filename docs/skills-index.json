@@ -677,6 +677,32 @@
     "maturity": "stable"
   },
   {
+    "name": "distributed-rate-limiting-token-bucket",
+    "path": "skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket",
+    "domain": "backend",
+    "category": "resilience",
+    "subcategory": "rate-limiter-token-bucket",
+    "description": "Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).",
+    "tags": [
+      "rate-limiting",
+      "token-bucket",
+      "redis",
+      "lua",
+      "resilience",
+      "api-gateway",
+      "fastapi"
+    ],
+    "technologies": [
+      "Redis",
+      "Lua",
+      "Python",
+      "FastAPI",
+      "Go"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",
