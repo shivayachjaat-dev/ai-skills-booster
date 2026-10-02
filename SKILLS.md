@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,123 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,124 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -797,6 +797,7 @@
 | [godot-4-migration](skills/frontend/ui-ux/godot_4_migration/godot-4-migration/SKILL.md) | `frontend` | `ui-ux` | `godot_4_migration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for godot 4 migration. Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports. |
 | [godot-gdscript-patterns](skills/frontend/ui-ux/godot_gdscript_patte/godot-gdscript-patterns/SKILL.md) | `frontend` | `ui-ux` | `godot_gdscript_patte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for godot gdscript patterns. Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices. |
 | [google-calendar-automation](skills/frontend/ui-ux/google_calendar_auto/google-calendar-automation/SKILL.md) | `frontend` | `ui-ux` | `google_calendar_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google calendar automation. Lightweight Google Calendar integration with standalone OAuth authentication. No MCP server required. |
+| [google-drive-automation](skills/frontend/ui-ux/google_drive_automat/google-drive-automation/SKILL.md) | `frontend` | `ui-ux` | `google_drive_automat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google drive automation. Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write access. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

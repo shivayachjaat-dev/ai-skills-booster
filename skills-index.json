@@ -17857,6 +17857,28 @@
     "maturity": "stable"
   },
   {
+    "name": "google-drive-automation",
+    "path": "skills/frontend/ui-ux/google_drive_automat/google-drive-automation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "google_drive_automat",
+    "description": "Use this skill to design, implement, and operate production workflows for google drive automation. Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write access.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "google",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Google Drive Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
