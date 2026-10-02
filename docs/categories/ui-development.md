@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **20 skills** available in this category.
+> **21 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -24,3 +24,4 @@
 | [frontend-seo](../../skills/frontend/ui-development/frontend_seo/frontend-seo/SKILL.md) | `frontend_seo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend seo. A portable, framework-agnostic SEO system for any React or React Native-for-web frontend. |
 | [frontend-slides](../../skills/frontend/ui-development/frontend_slides/frontend-slides/SKILL.md) | `frontend_slides` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend slides. Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. |
 | [full-output-enforcement](../../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) | `full_output_enforcem` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code. |
+| [high-end-visual-design](../../skills/frontend/ui-development/high_end_visual_desi/high-end-visual-design/SKILL.md) | `high_end_visual_desi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for high end visual design. Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions. |

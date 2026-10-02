@@ -15811,6 +15811,28 @@
     "maturity": "stable"
   },
   {
+    "name": "high-end-visual-design",
+    "path": "skills/frontend/ui-development/high_end_visual_desi/high-end-visual-design",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "high_end_visual_desi",
+    "description": "Use this skill to design, implement, and operate production workflows for high end visual design. Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "high",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "High End Visual Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

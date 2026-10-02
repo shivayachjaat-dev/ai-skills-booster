@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,172** skills across structured domains, categories, and subcategories.
+Master navigation for **1,173** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (400 skills)
 
@@ -1673,7 +1673,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (240 skills)
+## Frontend (241 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1759,7 +1759,7 @@ Category index: [`docs/categories/styling.md`](categories/styling.md)
 - **Fixing_Motion_Perfor** (1):
   - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-### Ui Development (20 skills)
+### Ui Development (21 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -1802,6 +1802,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [frontend-slides](../skills/frontend/ui-development/frontend_slides/frontend-slides/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend slides. Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.
 - **Full_Output_Enforcem** (1):
   - [full-output-enforcement](../skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) — Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
+- **High_End_Visual_Desi** (1):
+  - [high-end-visual-design](../skills/frontend/ui-development/high_end_visual_desi/high-end-visual-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for high end visual design. Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.
 
 ### Ui Ux (133 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
