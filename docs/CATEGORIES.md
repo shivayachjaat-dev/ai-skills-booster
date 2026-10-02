@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **939** skills across structured domains, categories, and subcategories.
+Master navigation for **940** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (326 skills)
 
@@ -1451,7 +1451,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (170 skills)
+## Frontend (171 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1723,7 +1723,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (57 skills)
+### Web Architecture (58 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1777,6 +1777,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [dsh-deepread](../skills/frontend/web-architecture/dsh_deepread/dsh-deepread/SKILL.md) — Use this skill to design, implement, and operate production workflows for dsh deepread. Use for evidence-first reading of articles, books, PDFs, web pages, or document sets, with knowledge maps and Feynman checks.
 - **Duotone_Design** (1):
   - [duotone-design](../skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.
+- **Expo_Deployment** (1):
+  - [expo-deployment](../skills/frontend/web-architecture/expo_deployment/expo-deployment/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo deployment. Deploy Expo apps with EAS: build and submit iOS and Android releases, configure build and submit profiles, manage versions and store metadata, and deploy web bundles or API routes.
 - **Flat_Design** (1):
   - [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
 - **Flat_Design_2** (1):

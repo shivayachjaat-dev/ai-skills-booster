@@ -15547,6 +15547,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-deployment",
+    "path": "skills/frontend/web-architecture/expo_deployment/expo-deployment",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "expo_deployment",
+    "description": "Use this skill to design, implement, and operate production workflows for expo deployment. Deploy Expo apps with EAS: build and submit iOS and Android releases, configure build and submit profiles, manage versions and store metadata, and deploy web bundles or API routes.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Deployment",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "flat-design",
     "path": "skills/frontend/web-architecture/flat_design/flat-design",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **57 skills** available in this category.
+> **58 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -30,6 +30,7 @@
 | [django-pro](../../skills/frontend/web-architecture/django_pro/django-pro/SKILL.md) | `django_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for django pro. Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment. |
 | [dsh-deepread](../../skills/frontend/web-architecture/dsh_deepread/dsh-deepread/SKILL.md) | `dsh_deepread` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dsh deepread. Use for evidence-first reading of articles, books, PDFs, web pages, or document sets, with knowledge maps and Feynman checks. |
 | [duotone-design](../../skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) | `duotone_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics. |
+| [expo-deployment](../../skills/frontend/web-architecture/expo_deployment/expo-deployment/SKILL.md) | `expo_deployment` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo deployment. Deploy Expo apps with EAS: build and submit iOS and Android releases, configure build and submit profiles, manage versions and store metadata, and deploy web bundles or API routes. |
 | [flat-design](../../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) | `flat_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors. |
 | [flat-design-2](../../skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) | `flat_design_2` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability. |
 | [frutiger-aero](../../skills/frontend/web-architecture/frutiger_aero/frutiger-aero/SKILL.md) | `frutiger_aero` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frutiger aero. Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs. |
