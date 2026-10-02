@@ -89,6 +89,7 @@ AI_Skills_Booster/
 │   │   └── rate-limiting/ (1 skills)
 │   ├── api-frameworks/
 │   │   ├── atlas_cloud_media/ (1 skills)
+│   │   ├── aws_mcp_setup/ (1 skills)
 │   │   └── fastapi-endpoints/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
