@@ -13391,6 +13391,28 @@
     "maturity": "stable"
   },
   {
+    "name": "doc-coauthoring",
+    "path": "skills/frontend/ui-ux/doc_coauthoring/doc-coauthoring",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "doc_coauthoring",
+    "description": "Use this skill to design, implement, and operate production workflows for doc coauthoring. This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "doc",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Doc Coauthoring",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
