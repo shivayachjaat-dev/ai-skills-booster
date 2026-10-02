@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **139** skills across structured domains, categories, and subcategories.
+Master navigation for **140** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (30 skills)
 
@@ -198,7 +198,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (3 skills)
+## Business (4 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -217,6 +217,12 @@ Category index: [`docs/categories/procurement.md`](categories/procurement.md)
 
 - **Software Selection** (1):
   - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
+
+### Saas (1 skills)
+Category index: [`docs/categories/saas.md`](categories/saas.md)
+
+- **Ai Metering** (1):
+  - [ai-saas-wrapper-architecture-and-stripe-metering](../skills/business/saas/ai-metering/ai-saas-wrapper-architecture-and-stripe-metering/SKILL.md) — Use this skill to architect, build, and monetize AI-wrapper SaaS products with usage-based billing, token credit wallets, and Stripe metering. It covers rate-limited API gateway proxies, tenant isolation, credit deduction middleware, and margin preservation against upstream LLM token costs.
 
 ## Content (1 skills)
 

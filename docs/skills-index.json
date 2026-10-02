@@ -1182,6 +1182,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-saas-wrapper-architecture-and-stripe-metering",
+    "path": "skills/business/saas/ai-metering/ai-saas-wrapper-architecture-and-stripe-metering",
+    "domain": "business",
+    "category": "saas",
+    "subcategory": "ai-metering",
+    "description": "Use this skill to architect, build, and monetize AI-wrapper SaaS products with usage-based billing, token credit wallets, and Stripe metering. It covers rate-limited API gateway proxies, tenant isolation, credit deduction middleware, and margin preservation against upstream LLM token costs.",
+    "tags": [
+      "ai-saas",
+      "stripe-metering",
+      "token-billing",
+      "credit-wallet",
+      "api-gateway",
+      "business-models"
+    ],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Stripe API",
+      "Redis",
+      "Usage-Based Billing"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marp-and-python-pptx-slide-deck-generator",
     "path": "skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator",
     "domain": "content",

@@ -79,8 +79,10 @@ AI_Skills_Booster/
 │   │   └── audit-controls/ (1 skills)
 │   ├── human-resources/
 │   │   └── performance-management/ (1 skills)
-│   └── procurement/
+│   ├── procurement/
 │   │   └── software-selection/ (1 skills)
+│   └── saas/
+│   │   └── ai-metering/ (1 skills)
 ├── content/
 │   └── presentation/
 │   │   └── marp-slides/ (1 skills)
