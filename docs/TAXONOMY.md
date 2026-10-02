@@ -531,6 +531,7 @@ AI_Skills_Booster/
 │   │   ├── debate_review/ (1 skills)
 │   │   ├── devops_deploy/ (1 skills)
 │   │   ├── dns_management/ (1 skills)
+│   │   ├── ebpf_observability/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)

@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **21 skills** available in this category.
+> **22 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -24,4 +24,5 @@
 | [debate-review](../../skills/devops/ci-cd/debate_review/debate-review/SKILL.md) | `debate_review` | `advanced` | `stable` | Use this skill to two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or |
 | [devops-deploy](../../skills/devops/ci-cd/devops_deploy/devops-deploy/SKILL.md) | `devops_deploy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for devops deploy. DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento. |
 | [dns-management](../../skills/devops/ci-cd/dns_management/dns-management/SKILL.md) | `dns_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dns management. Configure DNS zones and records. Manage Route53, Cloud DNS, and self-hosted |
+| [ebpf-observability](../../skills/devops/ci-cd/ebpf_observability/ebpf-observability/SKILL.md) | `ebpf_observability` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ebpf observability. Use eBPF for deep kernel-level observability — trace syscalls, network |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
