@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (957 skills)
+## Bash (958 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1102,6 +1102,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
 - [geoffrey-hinton](../skills/ai-engineering/agents/geoffrey_hinton/geoffrey-hinton/SKILL.md) — Use this skill to design, implement, and operate production workflows for geoffrey hinton. Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das Deep Belief Networks.
 - [git-pr-workflows-git-workflow](../skills/ai-engineering/agents/git_pr_workflows_git/git-pr-workflows-git-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for git pr workflows git workflow. Orchestrate review, tests, commits, branch pushes, and pull-request creation with parallel agents. Use when completed changes must move through validation into a PR or guarded merge.
+- [grok-delegate](../skills/ai-engineering/agents/grok_delegate/grok-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for grok delegate. Delegate coding tasks to the Grok Build CLI only when the user explicitly
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
@@ -5309,6 +5310,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [grok-build](../skills/ai-engineering/models/grok_build/grok-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for grok build. Delegate well-specified implementation tasks to xAI's Grok Build CLI running headlessly while the orchestrating agent plans, writes task specs, reviews every diff, and owns the result.
 
+## Grok Delegate (1 skills)
+
+- [grok-delegate](../skills/ai-engineering/agents/grok_delegate/grok-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for grok delegate. Delegate coding tasks to the Grok Build CLI only when the user explicitly
+
 ## Grype (1 skills)
 
 - [software-supply-chain-sbom-audit](../skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit/SKILL.md) — Use this skill when auditing, generating, and verifying Software Bill of Materials (SBOM) and scanning software supply chains for CVE vulnerabilities and non-compliant open-source licenses. It guides the agent through generating CycloneDX/SPDX SBOMs with Syft, scanning for known exploits with Grype, validating software licenses, and enforcing CI/CD gates.
@@ -6147,7 +6152,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1060 skills)
+## Python (1061 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6186,6 +6191,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
 - [geoffrey-hinton](../skills/ai-engineering/agents/geoffrey_hinton/geoffrey-hinton/SKILL.md) — Use this skill to design, implement, and operate production workflows for geoffrey hinton. Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das Deep Belief Networks.
 - [git-pr-workflows-git-workflow](../skills/ai-engineering/agents/git_pr_workflows_git/git-pr-workflows-git-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for git pr workflows git workflow. Orchestrate review, tests, commits, branch pushes, and pull-request creation with parallel agents. Use when completed changes must move through validation into a PR or guarded merge.
+- [grok-delegate](../skills/ai-engineering/agents/grok_delegate/grok-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for grok delegate. Delegate coding tasks to the Grok Build CLI only when the user explicitly
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - [agent-memory-recall-and-retention-discipline](../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) — Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences.
