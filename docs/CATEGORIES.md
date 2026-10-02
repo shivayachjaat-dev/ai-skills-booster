@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **765** skills across structured domains, categories, and subcategories.
+Master navigation for **766** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (268 skills)
+## Ai Engineering (269 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -90,13 +90,15 @@ Category index: [`docs/categories/communication.md`](categories/communication.md
 - **Voice Telephony** (1):
   - [ai-agent-voice-telephony-and-sms-integration](../skills/ai-engineering/communication/voice-telephony/ai-agent-voice-telephony-and-sms-integration/SKILL.md) — Use this skill to design, orchestrate, and deploy voice-enabled AI agents and SMS notification pipelines using Twilio, WebRTC, and real-time audio streaming. It covers inbound call IVR trees, WebSocket audio streaming, latency optimization, conversational interruption handling, and SMS delivery receipts.
 
-### Computer Vision (3 skills)
+### Computer Vision (4 skills)
 Category index: [`docs/categories/computer-vision.md`](categories/computer-vision.md)
 
 - **Aws_Rds** (1):
   - [aws-rds](../skills/ai-engineering/computer-vision/aws_rds/aws-rds/SKILL.md) — Use this skill to provision and manage RDS databases. Configure backups, replication, and
 - **Azure_Sql** (1):
   - [azure-sql](../skills/ai-engineering/computer-vision/azure_sql/azure-sql/SKILL.md) — Use this skill to provision Azure SQL Database and Cosmos DB. Configure security, backups,
+- **Color_Blocking** (1):
+  - [color-blocking](../skills/ai-engineering/computer-vision/color_blocking/color-blocking/SKILL.md) — Use this skill to design, implement, and operate production workflows for color blocking. Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids.
 - **Computer_Vision_Expe** (1):
   - [computer-vision-expert](../skills/ai-engineering/computer-vision/computer_vision_expe/computer-vision-expert/SKILL.md) — Use this skill to sOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis.
 

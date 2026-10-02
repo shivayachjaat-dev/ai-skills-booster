@@ -908,6 +908,28 @@
     "maturity": "stable"
   },
   {
+    "name": "color-blocking",
+    "path": "skills/ai-engineering/computer-vision/color_blocking/color-blocking",
+    "domain": "ai-engineering",
+    "category": "computer-vision",
+    "subcategory": "color_blocking",
+    "description": "Use this skill to design, implement, and operate production workflows for color blocking. Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids.",
+    "tags": [
+      "ai-engineering",
+      "computer-vision",
+      "color",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Color Blocking",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "computer-vision-expert",
     "path": "skills/ai-engineering/computer-vision/computer_vision_expe/computer-vision-expert",
     "domain": "ai-engineering",

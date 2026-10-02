@@ -46,6 +46,7 @@ AI_Skills_Booster/
 │   ├── computer-vision/
 │   │   ├── aws_rds/ (1 skills)
 │   │   ├── azure_sql/ (1 skills)
+│   │   ├── color_blocking/ (1 skills)
 │   │   └── computer_vision_expe/ (1 skills)
 │   ├── context/
 │   │   └── optimization/ (1 skills)
