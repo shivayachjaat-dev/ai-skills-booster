@@ -16471,6 +16471,28 @@
     "maturity": "stable"
   },
   {
+    "name": "miro-automation",
+    "path": "skills/developer-tools/productivity/miro_automation/miro-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "miro_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "miro",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Miro Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

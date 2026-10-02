@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **26 skills** available in this category.
+> **27 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -30,3 +30,4 @@
 | [linkedin-automation](../../skills/developer-tools/productivity/linkedin_automation/linkedin-automation/SKILL.md) | `linkedin_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linkedin automation. Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas. |
 | [make-automation](../../skills/developer-tools/productivity/make_automation/make-automation/SKILL.md) | `make_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for make automation. Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas. |
 | [microsoft-teams-automation](../../skills/developer-tools/productivity/microsoft_teams_auto/microsoft-teams-automation/SKILL.md) | `microsoft_teams_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for microsoft teams automation. Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas. |
+| [miro-automation](../../skills/developer-tools/productivity/miro_automation/miro-automation/SKILL.md) | `miro_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas. |

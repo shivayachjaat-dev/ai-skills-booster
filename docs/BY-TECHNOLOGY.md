@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1337 skills)
+## Bash (1338 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1728,6 +1728,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [linkedin-automation](../skills/developer-tools/productivity/linkedin_automation/linkedin-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin automation. Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas.
 - [make-automation](../skills/developer-tools/productivity/make_automation/make-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for make automation. Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas.
 - [microsoft-teams-automation](../skills/developer-tools/productivity/microsoft_teams_auto/microsoft-teams-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for microsoft teams automation. Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas.
+- [miro-automation](../skills/developer-tools/productivity/miro_automation/miro-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,
 - [aws-s3](../skills/devops/ci-cd/aws_s3/aws-s3/SKILL.md) — Use this skill to configure S3 buckets, policies, and lifecycle rules. Implement versioning,
 - [aws-vpc](../skills/devops/ci-cd/aws_vpc/aws-vpc/SKILL.md) — Use this skill to design and implement VPCs and networking. Configure subnets, route tables,
@@ -7631,6 +7632,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [minimalist-ui](../skills/ai-engineering/models/minimalist_ui/minimalist-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for minimalist ui. Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts.
 
+## Miro Automation (1 skills)
+
+- [miro-automation](../skills/developer-tools/productivity/miro_automation/miro-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas.
+
 ## Mobile Games (1 skills)
 
 - [mobile-games](../skills/mobile/app-development/mobile_games/mobile-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for mobile games. Mobile game development principles. Touch input, battery, performance, app stores.
@@ -8031,7 +8036,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1440 skills)
+## Python (1441 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8747,6 +8752,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [linkedin-automation](../skills/developer-tools/productivity/linkedin_automation/linkedin-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin automation. Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas.
 - [make-automation](../skills/developer-tools/productivity/make_automation/make-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for make automation. Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas.
 - [microsoft-teams-automation](../skills/developer-tools/productivity/microsoft_teams_auto/microsoft-teams-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for microsoft teams automation. Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas.
+- [miro-automation](../skills/developer-tools/productivity/miro_automation/miro-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas.
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,

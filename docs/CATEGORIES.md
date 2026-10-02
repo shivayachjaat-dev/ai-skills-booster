@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,519** skills across structured domains, categories, and subcategories.
+Master navigation for **1,520** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (526 skills)
 
@@ -1667,7 +1667,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (38 skills)
+## Developer Tools (39 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1697,7 +1697,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Linkedin_Cli** (1):
   - [linkedin-cli](../skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.
 
-### Productivity (26 skills)
+### Productivity (27 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1752,6 +1752,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [make-automation](../skills/developer-tools/productivity/make_automation/make-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for make automation. Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas.
 - **Microsoft_Teams_Auto** (1):
   - [microsoft-teams-automation](../skills/developer-tools/productivity/microsoft_teams_auto/microsoft-teams-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for microsoft teams automation. Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas.
+- **Miro_Automation** (1):
+  - [miro-automation](../skills/developer-tools/productivity/miro_automation/miro-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for miro automation. Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)
