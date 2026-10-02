@@ -298,6 +298,7 @@ AI_Skills_Booster/
 │   │   ├── examprep_ai/ (1 skills)
 │   │   ├── expense_management/ (1 skills)
 │   │   ├── expo_examples/ (1 skills)
+│   │   ├── expo_tailwind_setup/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)

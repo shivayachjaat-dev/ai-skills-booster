@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (762 skills)
+## Bash (763 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1334,6 +1334,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [examprep-ai](../skills/ai-engineering/models/examprep_ai/examprep-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for examprep ai. Exam preparation assistant that converts syllabi, past papers, or notes into a ranked High Score Roadmap. Covers theory, numericals, MCQs, coding, and lab prep, ordered Easy → Medium → Hard. Use for last-minute revision, important topics, and question prediction.
 - [expense-management](../skills/ai-engineering/models/expense_management/expense-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for expense management. Expense claim register: claim id, employee and department, amount and tax, approver and level, category, cost centre, budget line, receipt flag and status. Use for claim approvals.
 - [expo-examples](../skills/ai-engineering/models/expo_examples/expo-examples/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo examples. Expo's official example projects — the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind, and more).
+- [expo-tailwind-setup](../skills/ai-engineering/models/expo_tailwind_setup/expo-tailwind-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo tailwind setup. Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
 - [floating-ui](../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.
@@ -4102,6 +4103,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [expo-observe](../skills/developer-tools/cli-utilities/expo_observe/expo-observe/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo observe. Set up and query EAS Observe for Expo apps, including root integration, interactive markers, route metrics, CLI summaries, traces, logs, and performance diagnosis.
 
+## Expo Tailwind Setup (1 skills)
+
+- [expo-tailwind-setup](../skills/ai-engineering/models/expo_tailwind_setup/expo-tailwind-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo tailwind setup. Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
+
 ## Express.js (2 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -5176,7 +5181,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (865 skills)
+## Python (866 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5466,6 +5471,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [examprep-ai](../skills/ai-engineering/models/examprep_ai/examprep-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for examprep ai. Exam preparation assistant that converts syllabi, past papers, or notes into a ranked High Score Roadmap. Covers theory, numericals, MCQs, coding, and lab prep, ordered Easy → Medium → Hard. Use for last-minute revision, important topics, and question prediction.
 - [expense-management](../skills/ai-engineering/models/expense_management/expense-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for expense management. Expense claim register: claim id, employee and department, amount and tax, approver and level, category, cost centre, budget line, receipt flag and status. Use for claim approvals.
 - [expo-examples](../skills/ai-engineering/models/expo_examples/expo-examples/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo examples. Expo's official example projects — the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind, and more).
+- [expo-tailwind-setup](../skills/ai-engineering/models/expo_tailwind_setup/expo-tailwind-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo tailwind setup. Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
 - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - [fda-medtech-compliance-auditor](../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) — Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.
 - [floating-ui](../skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **944** skills across structured domains, categories, and subcategories.
+Master navigation for **945** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (327 skills)
+## Ai Engineering (328 skills)
 
 ### Agents (40 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -180,7 +180,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (235 skills)
+### Models (236 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -626,6 +626,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [expense-management](../skills/ai-engineering/models/expense_management/expense-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for expense management. Expense claim register: claim id, employee and department, amount and tax, approver and level, category, cost centre, budget line, receipt flag and status. Use for claim approvals.
 - **Expo_Examples** (1):
   - [expo-examples](../skills/ai-engineering/models/expo_examples/expo-examples/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo examples. Expo's official example projects — the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind, and more).
+- **Expo_Tailwind_Setup** (1):
+  - [expo-tailwind-setup](../skills/ai-engineering/models/expo_tailwind_setup/expo-tailwind-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for expo tailwind setup. Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):
