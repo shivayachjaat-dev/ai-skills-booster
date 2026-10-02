@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **29** skills across structured domains, categories, and subcategories.
+Master navigation for **30** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (4 skills)
 
@@ -24,7 +24,7 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 
-## Backend (5 skills)
+## Backend (6 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -55,6 +55,12 @@ Category index: [`docs/categories/messaging.md`](categories/messaging.md)
 
 - **Kafka** (1):
   - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
+
+### Realtime (1 skills)
+Category index: [`docs/categories/realtime.md`](categories/realtime.md)
+
+- **Websocket** (1):
+  - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
 
 ## Data Analytics (2 skills)
 

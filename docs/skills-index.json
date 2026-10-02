@@ -222,6 +222,31 @@
     "maturity": "stable"
   },
   {
+    "name": "websocket-realtime-communication",
+    "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
+    "domain": "backend",
+    "category": "realtime",
+    "subcategory": "websocket",
+    "description": "Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.",
+    "tags": [
+      "websocket",
+      "realtime",
+      "backend",
+      "networking",
+      "redis",
+      "concurrency"
+    ],
+    "technologies": [
+      "WebSocket",
+      "Node.js",
+      "Python",
+      "Redis",
+      "TypeScript"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

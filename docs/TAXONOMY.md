@@ -19,8 +19,10 @@ AI_Skills_Booster/
 │   │   └── schema-design/ (1 skills)
 │   ├── grpc/
 │   │   └── services/ (1 skills)
-│   └── messaging/
+│   ├── messaging/
 │   │   └── kafka/ (1 skills)
+│   └── realtime/
+│   │   └── websocket/ (1 skills)
 ├── data-analytics/
 │   ├── data-pipelines/
 │   │   └── polars/ (1 skills)
