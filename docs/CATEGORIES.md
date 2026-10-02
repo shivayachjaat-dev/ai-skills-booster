@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,659** skills across structured domains, categories, and subcategories.
+Master navigation for **1,660** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (571 skills)
 
@@ -3452,9 +3452,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (204 skills)
+## Software Engineering (205 skills)
 
-### Architecture (197 skills)
+### Architecture (198 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -3463,7 +3463,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (194):
+- **Patterns** (195):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -3654,6 +3654,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [obsidian-markdown](../skills/software-engineering/architecture/patterns/obsidian-markdown/SKILL.md) — Use this skill to design, implement, and operate production workflows for obsidian markdown. Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidia...
   - [occupational-health-analyzer](../skills/software-engineering/architecture/patterns/occupational-health-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for occupational health analyzer. 分析职业健康数据、识别工作相关健康风险、评估职业健康状况、提供个性化职业健康建议。支持与睡眠、运动、心理健康等其他健康数据的关联分析。
   - [odoo-l10n-compliance](../skills/software-engineering/architecture/patterns/odoo-l10n-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo l10n compliance. Country-specific Odoo localization: tax configuration, e-invoicing (CFDI, FatturaPA, SAF-T), fiscal reporting, and country chart of accounts setup.
+  - [odoo-upgrade-advisor](../skills/software-engineering/architecture/patterns/odoo-upgrade-advisor/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo upgrade advisor. Step-by-step Odoo version upgrade advisor: pre-upgrade checklist, community vs enterprise upgrade path, OCA module compatibility, and post-upgrade validation.
   - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
   - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
   - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.

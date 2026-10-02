@@ -36303,6 +36303,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-upgrade-advisor",
+    "path": "skills/software-engineering/architecture/patterns/odoo-upgrade-advisor",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo upgrade advisor. Step-by-step Odoo version upgrade advisor: pre-upgrade checklist, community vs enterprise upgrade path, OCA module compatibility, and post-upgrade validation.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Upgrade Advisor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
