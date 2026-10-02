@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,504** skills across structured domains, categories, and subcategories.
+Master navigation for **1,505** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (520 skills)
 
@@ -2013,7 +2013,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (296 skills)
+## Frontend (297 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2173,7 +2173,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (170 skills)
+### Ui Ux (171 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2510,6 +2510,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [mcp-builder-ms](../skills/frontend/ui-ux/mcp_builder_ms/mcp-builder-ms/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp builder ms. Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).
 - **Mcp_Tool_Developer** (1):
   - [mcp-tool-developer](../skills/frontend/ui-ux/mcp_tool_developer/mcp-tool-developer/SKILL.md) — Use this skill to design, implement, and operate production workflows for mcp tool developer. Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publishing.
+- **Memory_Forensics** (1):
+  - [memory-forensics](../skills/frontend/ui-ux/memory_forensics/memory-forensics/SKILL.md) — Use this skill to design, implement, and operate production workflows for memory forensics. Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):

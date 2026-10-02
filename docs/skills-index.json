@@ -23577,6 +23577,28 @@
     "maturity": "stable"
   },
   {
+    "name": "memory-forensics",
+    "path": "skills/frontend/ui-ux/memory_forensics/memory-forensics",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "memory_forensics",
+    "description": "Use this skill to design, implement, and operate production workflows for memory forensics. Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "memory",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Memory Forensics",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
