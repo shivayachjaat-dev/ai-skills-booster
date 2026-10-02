@@ -10863,6 +10863,28 @@
     "maturity": "stable"
   },
   {
+    "name": "modellix",
+    "path": "skills/ai-engineering/models/modellix/modellix",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "modellix",
+    "description": "Use this skill to design, implement, and operate production workflows for modellix. Integrate the Modellix API/CLI for async AI image, video, and speech generation or transcription (model run --wait, task download).",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "modellix",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Modellix",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
