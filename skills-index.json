@@ -699,6 +699,31 @@
     "maturity": "stable"
   },
   {
+    "name": "helm-chart-architecture-and-lifecycle",
+    "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
+    "domain": "devops",
+    "category": "container-orchestration",
+    "subcategory": "helm",
+    "description": "Use this skill when architecting, authoring, and managing production-grade Kubernetes packages with Helm 3+. It guides the agent through chart file structures, named template helpers (_helpers.tpl), strict values schema validation using values.schema.json, dependency subcharts, test suites (helm test), and semantic versioning release workflows.",
+    "tags": [
+      "helm",
+      "kubernetes",
+      "devops",
+      "package-management",
+      "helm3",
+      "charts"
+    ],
+    "technologies": [
+      "Helm 3+",
+      "Kubernetes",
+      "JSON Schema",
+      "YAML",
+      "Go Templates"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "docker-container-optimization",
     "path": "skills/devops/containers/optimization/docker-container-optimization",
     "domain": "devops",
