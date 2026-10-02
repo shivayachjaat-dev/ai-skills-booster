@@ -5451,6 +5451,28 @@
     "maturity": "stable"
   },
   {
+    "name": "detect-ai-text",
+    "path": "skills/ai-engineering/models/detect_ai_text/detect-ai-text",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "detect_ai_text",
+    "description": "Use this skill to design, implement, and operate production workflows for detect ai text. Estimate whether a document's prose was written by AI, with the linguistic tells and honest abstention on non-prose. Use when the user asks whether an essay, report, CV, submission, or article was AI-generated \u2014 for triage, not proof.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "detect",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Detect Ai Text",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

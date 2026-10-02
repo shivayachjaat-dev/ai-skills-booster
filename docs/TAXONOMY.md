@@ -250,6 +250,7 @@ AI_Skills_Booster/
 │   │   ├── design_philosophy/ (1 skills)
 │   │   ├── design_spells/ (1 skills)
 │   │   ├── design_thinking/ (1 skills)
+│   │   ├── detect_ai_text/ (1 skills)
 │   │   ├── editorial_design/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)

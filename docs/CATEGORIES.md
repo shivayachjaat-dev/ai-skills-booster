@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **813** skills across structured domains, categories, and subcategories.
+Master navigation for **814** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (279 skills)
+## Ai Engineering (280 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -162,7 +162,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (197 skills)
+### Models (198 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -530,6 +530,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [design-spells](../skills/ai-engineering/models/design_spells/design-spells/SKILL.md) — Use this skill to design, implement, and operate production workflows for design spells. Curated micro-interactions and design details that add "magic" and personality to websites and apps.
 - **Design_Thinking** (1):
   - [design-thinking](../skills/ai-engineering/models/design_thinking/design-thinking/SKILL.md) — Use this skill to design, implement, and operate production workflows for design thinking. Direction and intent for frontend design. Use with design when defining purpose, tone, domain, color world, and review bar; includes cross-domain lens from cinema, architecture, marketing, UX, automotive, industrial design.
+- **Detect_Ai_Text** (1):
+  - [detect-ai-text](../skills/ai-engineering/models/detect_ai_text/detect-ai-text/SKILL.md) — Use this skill to design, implement, and operate production workflows for detect ai text. Estimate whether a document's prose was written by AI, with the linguistic tells and honest abstention on non-prose. Use when the user asks whether an essay, report, CV, submission, or article was AI-generated — for triage, not proof.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):
