@@ -15290,6 +15290,28 @@
     "maturity": "stable"
   },
   {
+    "name": "monte-carlo-context-detection",
+    "path": "skills/data-analytics/data-pipelines/monte_carlo_context_/monte-carlo-context-detection",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "monte_carlo_context_",
+    "description": "Use this skill to design, implement, and operate production workflows for monte carlo context detection. Route data-related requests to the right Monte Carlo skill or workflow.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "monte",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Monte Carlo Context Detection",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",
