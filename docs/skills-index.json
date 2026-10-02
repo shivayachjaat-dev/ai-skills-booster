@@ -5128,6 +5128,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-servicebus-dotnet",
+    "path": "skills/devops/cloud-infrastructure/azure_servicebus_dot/azure-servicebus-dotnet",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_servicebus_dot",
+    "description": "Use this skill to azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Servicebus Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

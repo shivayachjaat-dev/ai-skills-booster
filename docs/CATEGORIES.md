@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **352** skills across structured domains, categories, and subcategories.
+Master navigation for **353** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (107 skills)
 
@@ -651,7 +651,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (57 skills)
+## Devops (58 skills)
 
 ### Ci Cd (6 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -669,7 +669,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (30 skills)
+### Cloud Infrastructure (31 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -727,6 +727,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [azure-resource-manager-durabletask-dotnet](../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-durabletask-dotnet/SKILL.md) — Use this skill to azure Resource Manager SDK for Durable Task Scheduler in .NET.
   - [azure-resource-manager-playwright-dotnet](../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-playwright-dotnet/SKILL.md) — Use this skill to azure Resource Manager SDK for Microsoft Playwright Testing in .NET.
   - [azure-resource-manager-redis-dotnet](../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-redis-dotnet/SKILL.md) — Use this skill to azure Resource Manager SDK for Redis in .NET.
+- **Azure_Servicebus_Dot** (1):
+  - [azure-servicebus-dotnet](../skills/devops/cloud-infrastructure/azure_servicebus_dot/azure-servicebus-dotnet/SKILL.md) — Use this skill to azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)
