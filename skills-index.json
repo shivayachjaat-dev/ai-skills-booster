@@ -6463,6 +6463,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expense-management",
+    "path": "skills/ai-engineering/models/expense_management/expense-management",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "expense_management",
+    "description": "Use this skill to design, implement, and operate production workflows for expense management. Expense claim register: claim id, employee and department, amount and tax, approver and level, category, cost centre, budget line, receipt flag and status. Use for claim approvals.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "expense",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expense Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",

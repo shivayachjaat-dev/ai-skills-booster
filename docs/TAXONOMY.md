@@ -296,6 +296,7 @@ AI_Skills_Booster/
 │   │   ├── event_staffing_order/ (1 skills)
 │   │   ├── events_activities/ (1 skills)
 │   │   ├── examprep_ai/ (1 skills)
+│   │   ├── expense_management/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **934** skills across structured domains, categories, and subcategories.
+Master navigation for **935** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (325 skills)
+## Ai Engineering (326 skills)
 
 ### Agents (40 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -180,7 +180,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (233 skills)
+### Models (234 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -622,6 +622,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [events-activities](../skills/ai-engineering/models/events_activities/events-activities/SKILL.md) — Use this skill to design, implement, and operate production workflows for events activities. Event register: type, date and time, venue, organizer, audience, budget against actual cost, RSVP and attendance counts and feedback score. Use for event tracking.
 - **Examprep_Ai** (1):
   - [examprep-ai](../skills/ai-engineering/models/examprep_ai/examprep-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for examprep ai. Exam preparation assistant that converts syllabi, past papers, or notes into a ranked High Score Roadmap. Covers theory, numericals, MCQs, coding, and lab prep, ordered Easy → Medium → Hard. Use for last-minute revision, important topics, and question prediction.
+- **Expense_Management** (1):
+  - [expense-management](../skills/ai-engineering/models/expense_management/expense-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for expense management. Expense claim register: claim id, employee and department, amount and tax, approver and level, category, cost centre, budget line, receipt flag and status. Use for claim approvals.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):
