@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 509 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 510 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -437,6 +437,7 @@
 | [azure-identity-ts](skills/security/authentication/azure_identity_ts/azure-identity-ts/SKILL.md) | `security` | `authentication` | `azure_identity_ts` | `advanced` | `stable` | Use this skill to authenticate to Azure services with various credential types. |
 | [browser-act](skills/security/authentication/browser_act/browser-act/SKILL.md) | `security` | `authentication` | `browser_act` | `advanced` | `stable` | Use this skill to use BrowserAct for authenticated browser automation, JS-rendered extraction, screenshots, parallel sessions, verification handling, and human handoff. |
 | [browser-extension-reverse](skills/security/authentication/browser_extension_re/browser-extension-reverse/SKILL.md) | `security` | `authentication` | `browser_extension_re` | `advanced` | `stable` | Use this skill to authorized reverse engineering of Chrome/Firefox extensions: manifest analysis, background workers, content scripts, and extension-based credential or data-exposure research. |
+| [clerk-auth](skills/security/authentication/clerk_auth/clerk-auth/SKILL.md) | `security` | `authentication` | `clerk_auth` | `advanced` | `stable` | Use this skill to expert patterns for Clerk auth implementation, middleware, |
 | [oauth2-jwt-authentication-flow](skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) | `security` | `authentication` | `oauth2` | `advanced` | `stable` | Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists. |
 | [rbac-access-matrix-policy-design](skills/security/authorization/rbac/rbac-access-matrix-policy-design/SKILL.md) | `security` | `authorization` | `rbac` | `intermediate` | `stable` | Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware. |
 | [binary-anti-reversing-and-code-obfuscation](skills/security/binary-defense/anti-reversing/binary-anti-reversing-and-code-obfuscation/SKILL.md) | `security` | `binary-defense` | `anti-reversing` | `expert` | `stable` | Use this skill to evaluate, implement, and audit software intellectual property protections against reverse engineering, decompilation, and debugger tampering. It covers symbol stripping, control-flow flattening, anti-debugging API hooks (ptrace, IsDebuggerPresent), integrity hash checks, and security trade-off analysis. |

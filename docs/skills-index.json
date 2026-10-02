@@ -10015,6 +10015,28 @@
     "maturity": "stable"
   },
   {
+    "name": "clerk-auth",
+    "path": "skills/security/authentication/clerk_auth/clerk-auth",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "clerk_auth",
+    "description": "Use this skill to expert patterns for Clerk auth implementation, middleware,",
+    "tags": [
+      "security",
+      "authentication",
+      "clerk",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Clerk Auth",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
