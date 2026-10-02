@@ -6974,6 +6974,28 @@
     "maturity": "stable"
   },
   {
+    "name": "data-engineering-data-pipeline",
+    "path": "skills/data-analytics/data-pipelines/data_engineering_dat/data-engineering-data-pipeline",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "data_engineering_dat",
+    "description": "Use this skill to you are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "data",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Data Engineering Data Pipeline",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

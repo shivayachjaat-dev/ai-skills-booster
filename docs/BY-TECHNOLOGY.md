@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (480 skills)
+## Bash (481 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1300,6 +1300,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [csv-manual-export](../skills/business/operations/csv_manual_export/csv-manual-export/SKILL.md) — Use this skill to cSV Manual Export: a UTF-8 CSV template from a confirmed field list, empty by default, with no invented columns or values. Use for an import, staging or handoff file.
 - [culture-retention](../skills/business/operations/culture_retention/culture-retention/SKILL.md) — Use this skill to employee survey and retention register: engagement, growth, happiness, work-life balance and manager-relationship scores, key concern and retention risk. Use for culture surveys.
 - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
+- [data-engineering-data-pipeline](../skills/data-analytics/data-pipelines/data_engineering_dat/data-engineering-data-pipeline/SKILL.md) — Use this skill to you are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.
 - [chatexport-need-miner](../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) — Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
 - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
@@ -2831,6 +2832,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [data-engineering-data-driven-feature](../skills/ai-engineering/agents/data_engineering_dat/data-engineering-data-driven-feature/SKILL.md) — Use this skill to build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation.
 
+## Data Engineering Data Pipeline (1 skills)
+
+- [data-engineering-data-pipeline](../skills/data-analytics/data-pipelines/data_engineering_dat/data-engineering-data-pipeline/SKILL.md) — Use this skill to you are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.
+
 ## DataLoader (1 skills)
 
 - [graphql-schema-evolution](../skills/backend/graphql/schema-design/graphql-schema-evolution/SKILL.md) — Use this skill when designing, versioning, and evolving GraphQL schemas without breaking existing mobile and web clients. It guides the agent through schema-first SDL design, non-breaking deprecation directives (@deprecated), resolving the N+1 query problem using DataLoader, input union patterns, and automated breaking-change detection in CI.
@@ -3897,7 +3902,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (583 skills)
+## Python (584 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4194,6 +4199,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
+- [data-engineering-data-pipeline](../skills/data-analytics/data-pipelines/data_engineering_dat/data-engineering-data-pipeline/SKILL.md) — Use this skill to you are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 - [airtable-api-data-sync-and-webhook-automation](../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) — Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
