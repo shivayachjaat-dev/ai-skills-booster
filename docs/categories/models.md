@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **21 skills** available in this category.
+> **22 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -24,4 +24,5 @@
 | [autonomous-agent-patterns](../../skills/ai-engineering/models/autonomous_agent_pat/autonomous-agent-patterns/SKILL.md) | `autonomous_agent_pat` | `advanced` | `stable` | Use this skill to design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/openai/codex). |
 | [autonomous-agents](../../skills/ai-engineering/models/autonomous_agents/autonomous-agents/SKILL.md) | `autonomous_agents` | `advanced` | `stable` | Use this skill to autonomous agents are AI systems that can independently decompose |
 | [avoid-ai-writing](../../skills/ai-engineering/models/avoid_ai_writing/avoid-ai-writing/SKILL.md) | `avoid_ai_writing` | `advanced` | `stable` | Use this skill to audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table |
+| [aws-agentic-ai](../../skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) | `aws_agentic_ai` | `advanced` | `stable` | Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

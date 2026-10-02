@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **223** skills across structured domains, categories, and subcategories.
+Master navigation for **224** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (58 skills)
+## Ai Engineering (59 skills)
 
 ### Agents (15 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -102,7 +102,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (21 skills)
+### Models (22 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -145,6 +145,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [autonomous-agents](../skills/ai-engineering/models/autonomous_agents/autonomous-agents/SKILL.md) — Use this skill to autonomous agents are AI systems that can independently decompose
 - **Avoid_Ai_Writing** (1):
   - [avoid-ai-writing](../skills/ai-engineering/models/avoid_ai_writing/avoid-ai-writing/SKILL.md) — Use this skill to audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table
+- **Aws_Agentic_Ai** (1):
+  - [aws-agentic-ai](../skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) — Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

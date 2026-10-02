@@ -1161,6 +1161,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-agentic-ai",
+    "path": "skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "aws_agentic_ai",
+    "description": "Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Agentic Ai",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

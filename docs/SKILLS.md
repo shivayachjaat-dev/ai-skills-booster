@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 223 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 224 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -53,6 +53,7 @@
 | [autonomous-agent-patterns](skills/ai-engineering/models/autonomous_agent_pat/autonomous-agent-patterns/SKILL.md) | `ai-engineering` | `models` | `autonomous_agent_pat` | `advanced` | `stable` | Use this skill to design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/openai/codex). |
 | [autonomous-agents](skills/ai-engineering/models/autonomous_agents/autonomous-agents/SKILL.md) | `ai-engineering` | `models` | `autonomous_agents` | `advanced` | `stable` | Use this skill to autonomous agents are AI systems that can independently decompose |
 | [avoid-ai-writing](skills/ai-engineering/models/avoid_ai_writing/avoid-ai-writing/SKILL.md) | `ai-engineering` | `models` | `avoid_ai_writing` | `advanced` | `stable` | Use this skill to audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table |
+| [aws-agentic-ai](skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) | `ai-engineering` | `models` | `aws_agentic_ai` | `advanced` | `stable` | Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |
