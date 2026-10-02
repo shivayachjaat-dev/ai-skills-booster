@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,315 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,316 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1078,6 +1078,7 @@
 | [incident-management](skills/security/appsec/incident_management/incident-management/SKILL.md) | `security` | `appsec` | `incident_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incident management. Implement incident management processes and escalation procedures. Configure |
 | [incident-response](skills/security/appsec/incident_response/incident-response/SKILL.md) | `security` | `appsec` | `incident_response` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incident response. Handle security incidents with IR playbooks and procedures. |
 | [ios-redteam-pipeline](skills/security/appsec/ios_redteam_pipeline/ios-redteam-pipeline/SKILL.md) | `security` | `appsec` | `ios_redteam_pipeline` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ios redteam pipeline. End-to-end iOS red-team pipeline |
+| [iso27001-compliance](skills/security/appsec/iso27001_compliance/iso27001-compliance/SKILL.md) | `security` | `appsec` | `iso27001_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for iso27001 compliance. Implement ISO 27001 Information Security Management System. Configure |
 | [laravel-security-audit](skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `security` | `appsec` | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `security` | `appsec` | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
