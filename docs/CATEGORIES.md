@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **929** skills across structured domains, categories, and subcategories.
+Master navigation for **930** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (324 skills)
 
@@ -2204,9 +2204,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (101 skills)
+## Software Engineering (102 skills)
 
-### Architecture (94 skills)
+### Architecture (95 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -2215,7 +2215,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (91):
+- **Patterns** (92):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -2306,6 +2306,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [error-diagnostics-error-trace](../skills/software-engineering/architecture/patterns/error-diagnostics-error-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for error diagnostics error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging,
   - [error-diagnostics-smart-debug](../skills/software-engineering/architecture/patterns/error-diagnostics-smart-debug/SKILL.md) — Use this skill to design, implement, and operate production workflows for error diagnostics smart debug. Use when working with error diagnostics smart debug
   - [event-staffing-compliance](../skills/software-engineering/architecture/patterns/event-staffing-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for event staffing compliance. Assess worker-classification and compliance risk for temporary event staffing in the US and Canada — W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP.
+  - [evolution](../skills/software-engineering/architecture/patterns/evolution/SKILL.md) — Use this skill to design, implement, and operate production workflows for evolution. This skill enables makepad-skills to self-improve continuously during development.
   - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 
 ### Code Review (1 skills)

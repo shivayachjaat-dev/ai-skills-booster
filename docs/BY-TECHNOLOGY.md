@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (747 skills)
+## Bash (748 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1802,6 +1802,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [error-diagnostics-error-trace](../skills/software-engineering/architecture/patterns/error-diagnostics-error-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for error diagnostics error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging,
 - [error-diagnostics-smart-debug](../skills/software-engineering/architecture/patterns/error-diagnostics-smart-debug/SKILL.md) — Use this skill to design, implement, and operate production workflows for error diagnostics smart debug. Use when working with error diagnostics smart debug
 - [event-staffing-compliance](../skills/software-engineering/architecture/patterns/event-staffing-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for event staffing compliance. Assess worker-classification and compliance risk for temporary event staffing in the US and Canada — W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP.
+- [evolution](../skills/software-engineering/architecture/patterns/evolution/SKILL.md) — Use this skill to design, implement, and operate production workflows for evolution. This skill enables makepad-skills to self-improve continuously during development.
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [bash-scripting](../skills/testing/automation/bash_scripting/bash-scripting/SKILL.md) — Use this skill to bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
@@ -4023,6 +4024,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [evidence-hygiene](../skills/security/appsec/evidence_hygiene/evidence-hygiene/SKILL.md) — Use this skill to design, implement, and operate production workflows for evidence hygiene. Evidence-capture and PoC-redaction discipline for bug-bounty submissions
 
+## Evolution (1 skills)
+
+- [evolution](../skills/software-engineering/architecture/patterns/evolution/SKILL.md) — Use this skill to design, implement, and operate production workflows for evolution. This skill enables makepad-skills to self-improve continuously during development.
+
 ## Expo (1 skills)
 
 - [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
@@ -5101,7 +5106,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (850 skills)
+## Python (851 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5932,6 +5937,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [error-diagnostics-error-trace](../skills/software-engineering/architecture/patterns/error-diagnostics-error-trace/SKILL.md) — Use this skill to design, implement, and operate production workflows for error diagnostics error trace. You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging,
 - [error-diagnostics-smart-debug](../skills/software-engineering/architecture/patterns/error-diagnostics-smart-debug/SKILL.md) — Use this skill to design, implement, and operate production workflows for error diagnostics smart debug. Use when working with error diagnostics smart debug
 - [event-staffing-compliance](../skills/software-engineering/architecture/patterns/event-staffing-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for event staffing compliance. Assess worker-classification and compliance risk for temporary event staffing in the US and Canada — W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP.
+- [evolution](../skills/software-engineering/architecture/patterns/evolution/SKILL.md) — Use this skill to design, implement, and operate production workflows for evolution. This skill enables makepad-skills to self-improve continuously during development.
 - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
