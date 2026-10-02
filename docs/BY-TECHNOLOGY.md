@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (436 skills)
+## Bash (437 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1343,6 +1343,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-servicebus-ts](../skills/devops/cloud-infrastructure/azure_servicebus_ts/azure-servicebus-ts/SKILL.md) — Use this skill to enterprise messaging with queues, topics, and subscriptions.
 - [cloud-architect](../skills/devops/cloud-infrastructure/cloud_architect/cloud-architect/SKILL.md) — Use this skill to expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.
 - [cloudformation-best-practices](../skills/devops/cloud-infrastructure/cloudformation_best_/cloudformation-best-practices/SKILL.md) — Use this skill to cloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates.
+- [cost-optimization](../skills/devops/cloud-infrastructure/cost_optimization/cost-optimization/SKILL.md) — Use this skill to strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.
 - [azure-cosmos-java](../skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java/SKILL.md) — Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.
 - [cc-skill-coding-standards](../skills/frontend/frameworks/cc_skill_coding_stan/cc-skill-coding-standards/SKILL.md) — Use this skill to universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
 - [code-showcase-react-ui-patterns](../skills/frontend/frameworks/code_showcase_react_/code-showcase-react-ui-patterns/SKILL.md) — Use this skill to modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
@@ -2566,6 +2567,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [llm-prompt-regression-testing-and-eval-harness](../skills/ai-engineering/evaluation/prompt-regression/llm-prompt-regression-testing-and-eval-harness/SKILL.md) — Use this skill to design, execute, and automate prompt regression test matrices and LLM-as-a-judge evaluation harnesses. It covers golden dataset curation, semantic embedding drift measurement, factual consistency scoring, and CI/CD gate automation before deploying prompt or model updates.
 
+## Cost Optimization (1 skills)
+
+- [cost-optimization](../skills/devops/cloud-infrastructure/cost_optimization/cost-optimization/SKILL.md) — Use this skill to strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.
+
 ## Crawlee (1 skills)
 
 - [apify-actor-web-scraping-and-crawling-pipeline](../skills/data-analytics/web-scraping/apify-actors/apify-actor-web-scraping-and-crawling-pipeline/SKILL.md) — Use this skill to develop, containerize, and deploy serverless web scraping and data extraction Actors on the Apify platform using the Crawlee framework and Python/JavaScript. It covers proxy rotation, anti-bot fingerprint bypasses, schema-validated dataset storage, and webhook notifications.
@@ -3677,7 +3682,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (539 skills)
+## Python (540 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4034,6 +4039,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-servicebus-ts](../skills/devops/cloud-infrastructure/azure_servicebus_ts/azure-servicebus-ts/SKILL.md) — Use this skill to enterprise messaging with queues, topics, and subscriptions.
 - [cloud-architect](../skills/devops/cloud-infrastructure/cloud_architect/cloud-architect/SKILL.md) — Use this skill to expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.
 - [cloudformation-best-practices](../skills/devops/cloud-infrastructure/cloudformation_best_/cloudformation-best-practices/SKILL.md) — Use this skill to cloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates.
+- [cost-optimization](../skills/devops/cloud-infrastructure/cost_optimization/cost-optimization/SKILL.md) — Use this skill to strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
 - [aws-cdk-v2-infrastructure-as-code-architecture](../skills/devops/infrastructure/aws-cdk/aws-cdk-v2-infrastructure-as-code-architecture/SKILL.md) — Use this skill to design, build, and deploy production AWS cloud infrastructure using the AWS Cloud Development Kit (CDK v2) in TypeScript and Python. It covers L1/L2/L3 construct composition, multi-account multi-region pipelines (cdk-pipelines), automated compliance enforcement with CDK Aspects (IAspect), unit and snapshot testing with @aws-cdk/assertions, and drift remediation.
 - [azure-application-insights-telemetry-and-distributed-tracing](../skills/devops/observability/application-insights/azure-application-insights-telemetry-and-distributed-tracing/SKILL.md) — Use this skill to instrument web applications, browser frontends, and Node.js/Python microservices with Azure Application Insights telemetry SDKs. It covers distributed W3C trace propagation, custom business event tracking, client-side unhandled exception telemetry, and Kusto (KQL) query diagnostics.

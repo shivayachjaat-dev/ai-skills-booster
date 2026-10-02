@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **618** skills across structured domains, categories, and subcategories.
+Master navigation for **619** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (220 skills)
 
@@ -942,7 +942,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (72 skills)
+## Devops (73 skills)
 
 ### Ci Cd (16 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -980,7 +980,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (35 skills)
+### Cloud Infrastructure (36 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -1048,6 +1048,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [cloud-architect](../skills/devops/cloud-infrastructure/cloud_architect/cloud-architect/SKILL.md) — Use this skill to expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.
 - **Cloudformation_Best_** (1):
   - [cloudformation-best-practices](../skills/devops/cloud-infrastructure/cloudformation_best_/cloudformation-best-practices/SKILL.md) — Use this skill to cloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates.
+- **Cost_Optimization** (1):
+  - [cost-optimization](../skills/devops/cloud-infrastructure/cost_optimization/cost-optimization/SKILL.md) — Use this skill to strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)

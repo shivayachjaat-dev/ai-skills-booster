@@ -8604,6 +8604,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cost-optimization",
+    "path": "skills/devops/cloud-infrastructure/cost_optimization/cost-optimization",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "cost_optimization",
+    "description": "Use this skill to strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "cost",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cost Optimization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
