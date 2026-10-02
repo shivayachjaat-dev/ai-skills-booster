@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **7 skills** available in this category.
+> **8 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@
 | [artifact-yylo](../../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional |
 | [ask-matt](../../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo. |
 | [awareness-stage-mapper](../../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to one sentence - what this skill does and when to invoke it |
+| [babysit-pr](../../skills/software-engineering/architecture/patterns/babysit-pr/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to babysit a pull request through its bot review rounds: verify, fix, reply, |
