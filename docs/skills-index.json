@@ -26298,6 +26298,28 @@
     "maturity": "stable"
   },
   {
+    "name": "linkedin-profile-optimizer",
+    "path": "skills/security/compliance/linkedin_profile_opt/linkedin-profile-optimizer",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "linkedin_profile_opt",
+    "description": "Use this skill to design, implement, and operate production workflows for linkedin profile optimizer. High-intent expert for LinkedIn profile checks and SEO optimization. Silently audits and rewrites profiles, delivering only the finished, ready-to-paste result.",
+    "tags": [
+      "security",
+      "compliance",
+      "linkedin",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Linkedin Profile Optimizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "local-legal-seo-audit",
     "path": "skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit",
     "domain": "security",

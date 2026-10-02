@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,396 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,397 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1176,6 +1176,7 @@
 | [geo-report](skills/security/compliance/geo_report/geo-report/SKILL.md) | `security` | `compliance` | `geo_report` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo report. Generate a professional, client-facing GEO report combining all audit |
 | [geo-technical](skills/security/compliance/geo_technical/geo-technical/SKILL.md) | `security` | `compliance` | `geo_technical` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geo technical. Technical SEO audit with GEO-specific checks — crawlability, indexability, |
 | [indexing-issue-auditor](skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) | `security` | `compliance` | `indexing_issue_audit` | `advanced` | `stable` | Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors. |
+| [linkedin-profile-optimizer](skills/security/compliance/linkedin_profile_opt/linkedin-profile-optimizer/SKILL.md) | `security` | `compliance` | `linkedin_profile_opt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linkedin profile optimizer. High-intent expert for LinkedIn profile checks and SEO optimization. Silently audits and rewrites profiles, delivering only the finished, ready-to-paste result. |
 | [local-legal-seo-audit](skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) | `security` | `compliance` | `local_legal_seo_audi` | `advanced` | `stable` | Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages. |
 | [production-code-audit](skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) | `security` | `compliance` | `production_code_audi` | `advanced` | `stable` | Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations |
 | [project-skill-audit](skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) | `security` | `compliance` | `project_skill_audit` | `advanced` | `stable` | Use this skill to audit a project and recommend the highest-value skills to add or update. |

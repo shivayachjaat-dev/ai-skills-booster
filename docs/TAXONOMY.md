@@ -1299,6 +1299,7 @@ AI_Skills_Booster/
 │   │   ├── geo_report/ (1 skills)
 │   │   ├── geo_technical/ (1 skills)
 │   │   ├── indexing_issue_audit/ (1 skills)
+│   │   ├── linkedin_profile_opt/ (1 skills)
 │   │   ├── local_legal_seo_audi/ (1 skills)
 │   │   ├── production_code_audi/ (1 skills)
 │   │   ├── project_skill_audit/ (1 skills)

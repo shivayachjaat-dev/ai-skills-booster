@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1214 skills)
+## Bash (1215 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2099,6 +2099,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [geo-report](../skills/security/compliance/geo_report/geo-report/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo report. Generate a professional, client-facing GEO report combining all audit
 - [geo-technical](../skills/security/compliance/geo_technical/geo-technical/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo technical. Technical SEO audit with GEO-specific checks — crawlability, indexability,
 - [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
+- [linkedin-profile-optimizer](../skills/security/compliance/linkedin_profile_opt/linkedin-profile-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin profile optimizer. High-intent expert for LinkedIn profile checks and SEO optimization. Silently audits and rewrites profiles, delivering only the finished, ready-to-paste result.
 - [local-legal-seo-audit](../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) — Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.
 - [production-code-audit](../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) — Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations
 - [project-skill-audit](../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) — Use this skill to audit a project and recommend the highest-value skills to add or update.
@@ -6880,6 +6881,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [linkedin-post-writer](../skills/ai-engineering/models/linkedin_post_writer/linkedin-post-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin post writer. Draft LinkedIn posts from 16 tested hook formulas mapped to engagement goals (comments, reposts, likes, saves), with 2026 algorithm formatting rules and an AI-tell scrub pass before publishing.
 
+## Linkedin Profile Optimizer (1 skills)
+
+- [linkedin-profile-optimizer](../skills/security/compliance/linkedin_profile_opt/linkedin-profile-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin profile optimizer. High-intent expert for LinkedIn profile checks and SEO optimization. Silently audits and rewrites profiles, delivering only the finished, ready-to-paste result.
+
 ## Lintlang Audit (1 skills)
 
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
@@ -7422,7 +7427,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1317 skills)
+## Python (1318 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8534,6 +8539,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [geo-report](../skills/security/compliance/geo_report/geo-report/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo report. Generate a professional, client-facing GEO report combining all audit
 - [geo-technical](../skills/security/compliance/geo_technical/geo-technical/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo technical. Technical SEO audit with GEO-specific checks — crawlability, indexability,
 - [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
+- [linkedin-profile-optimizer](../skills/security/compliance/linkedin_profile_opt/linkedin-profile-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin profile optimizer. High-intent expert for LinkedIn profile checks and SEO optimization. Silently audits and rewrites profiles, delivering only the finished, ready-to-paste result.
 - [local-legal-seo-audit](../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) — Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.
 - [production-code-audit](../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) — Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations
 - [project-skill-audit](../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) — Use this skill to audit a project and recommend the highest-value skills to add or update.
