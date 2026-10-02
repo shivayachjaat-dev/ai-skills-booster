@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **31 skills** available in this category.
+> **32 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -34,4 +34,5 @@
 | [marketing-psychology](../../skills/ai-engineering/rag/marketing_psychology/marketing-psychology/SKILL.md) | `marketing_psychology` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing psychology. Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system. |
 | [monte-carlo-storage-cost-analysis](../../skills/ai-engineering/rag/monte_carlo_storage_/monte-carlo-storage-cost-analysis/SKILL.md) | `monte_carlo_storage_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo storage cost analysis. Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs MCP tool. Classifies waste patterns and table categories, computes safety tiers, and handles category drill-downs and lineage follow-ups. |
 | [neon-object-storage](../../skills/ai-engineering/rag/neon_object_storage/neon-object-storage/SKILL.md) | `neon_object_storage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon object storage. S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch. |
+| [nextjs-seo-indexing](../../skills/ai-engineering/rag/nextjs_seo_indexing/nextjs-seo-indexing/SKILL.md) | `nextjs_seo_indexing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nextjs seo indexing. Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical tags, noindex audits, sitemap health, static rendering, and internal linking. |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

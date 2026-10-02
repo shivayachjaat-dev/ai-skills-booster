@@ -12280,6 +12280,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nextjs-seo-indexing",
+    "path": "skills/ai-engineering/rag/nextjs_seo_indexing/nextjs-seo-indexing",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "nextjs_seo_indexing",
+    "description": "Use this skill to design, implement, and operate production workflows for nextjs seo indexing. Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical tags, noindex audits, sitemap health, static rendering, and internal linking.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "nextjs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nextjs Seo Indexing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
