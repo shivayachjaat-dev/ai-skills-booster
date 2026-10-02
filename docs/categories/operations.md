@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **12 skills** available in this category.
+> **13 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -16,3 +16,4 @@
 | [expense-accounting](../../skills/business/operations/expense_accounting/expense-accounting/SKILL.md) | `expense_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expense accounting. Expense accounting register: expense number and date, payee with PAN and VAT, bill reference, document type, amount with VAT, ledger account, approver and status. Use for expense bookkeeping. |
 | [find-matching-tenders](../../skills/business/operations/find_matching_tender/find-matching-tenders/SKILL.md) | `find_matching_tender` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for find matching tenders. Find open AU/NZ government tenders matching what a company does, ranked by fit with why and gap analysis. Use when the user asks to find tenders, bid opportunities, government contracts, or RFPs for their business (or a client's). |
 | [gamification-engine](../../skills/business/operations/gamification_engine/gamification-engine/SKILL.md) | `gamification_engine` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gamification engine. Gamification points register: player and department, points balance and points earned this month, level, badges, source module and last-updated date. Use for points and badge tracking. |
+| [gbp-local-seo-intent](../../skills/business/operations/gbp_local_seo_intent/gbp-local-seo-intent/SKILL.md) | `gbp_local_seo_intent` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gbp local seo intent. Google Business Profile register: element, primary and supporting keywords, search intent, landing page, post dates, review rating and reply status, visibility and status. Use for local SEO. |

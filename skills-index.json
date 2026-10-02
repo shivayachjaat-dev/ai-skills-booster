@@ -10170,6 +10170,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gbp-local-seo-intent",
+    "path": "skills/business/operations/gbp_local_seo_intent/gbp-local-seo-intent",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "gbp_local_seo_intent",
+    "description": "Use this skill to design, implement, and operate production workflows for gbp local seo intent. Google Business Profile register: element, primary and supporting keywords, search intent, landing page, post dates, review rating and reply status, visibility and status. Use for local SEO.",
+    "tags": [
+      "business",
+      "operations",
+      "gbp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gbp Local Seo Intent",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
