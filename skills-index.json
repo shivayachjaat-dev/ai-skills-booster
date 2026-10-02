@@ -13457,6 +13457,28 @@
     "maturity": "stable"
   },
   {
+    "name": "neo-brutalism",
+    "path": "skills/frontend/web-architecture/neo_brutalism/neo-brutalism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "neo_brutalism",
+    "description": "Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "neo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Neo Brutalism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
