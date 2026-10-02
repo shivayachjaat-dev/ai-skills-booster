@@ -78,8 +78,10 @@ AI_Skills_Booster/
 │   │   └── github/ (1 skills)
 │   ├── incident-response/
 │   │   └── triage/ (1 skills)
-│   └── secret-management/
+│   ├── secret-management/
 │   │   └── detection/ (1 skills)
+│   └── secrets/
+│   │   └── vault/ (1 skills)
 ├── software-engineering/
 │   ├── architecture/
 │   │   └── interfaces/ (1 skills)

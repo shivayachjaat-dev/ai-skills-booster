@@ -863,6 +863,31 @@
     "maturity": "stable"
   },
   {
+    "name": "vault-secrets-management",
+    "path": "skills/security/secrets/vault/vault-secrets-management",
+    "domain": "security",
+    "category": "secrets",
+    "subcategory": "vault",
+    "description": "Use this skill when architecting and managing enterprise secrets using HashiCorp Vault. It guides the agent through dynamic database credentials generation, lease management and renewal, Kubernetes ServiceAccount authentication, PKI on-demand certificate issuance, transit encryption, and disaster recovery replication.",
+    "tags": [
+      "vault",
+      "hashicorp-vault",
+      "secrets-management",
+      "security",
+      "dynamic-secrets",
+      "pki"
+    ],
+    "technologies": [
+      "HashiCorp Vault",
+      "Kubernetes",
+      "PostgreSQL",
+      "OpenSSL",
+      "hvac"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-and-interface-design",
     "path": "skills/software-engineering/architecture/interfaces/api-and-interface-design",
     "domain": "software-engineering",

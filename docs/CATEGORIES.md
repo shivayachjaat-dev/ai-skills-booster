@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **42** skills across structured domains, categories, and subcategories.
+Master navigation for **43** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (5 skills)
 
@@ -186,7 +186,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (6 skills)
+## Security (7 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -223,6 +223,12 @@ Category index: [`docs/categories/secret-management.md`](categories/secret-manag
 
 - **Detection** (1):
   - [secret-leak-detection-and-remediation](../skills/security/secret-management/detection/secret-leak-detection-and-remediation/SKILL.md) — Use this skill when detecting, containing, revoking, and purging secrets committed to Git repositories or build artifacts. It guides the agent through scanning history with TruffleHog/Gitleaks, executing emergency credential revocation, rewriting Git history with git-filter-repo, and installing pre-commit guardrails.
+
+### Secrets (1 skills)
+Category index: [`docs/categories/secrets.md`](categories/secrets.md)
+
+- **Vault** (1):
+  - [vault-secrets-management](../skills/security/secrets/vault/vault-secrets-management/SKILL.md) — Use this skill when architecting and managing enterprise secrets using HashiCorp Vault. It guides the agent through dynamic database credentials generation, lease management and renewal, Kubernetes ServiceAccount authentication, PKI on-demand certificate issuance, transit encryption, and disaster recovery replication.
 
 ## Software Engineering (4 skills)
 
