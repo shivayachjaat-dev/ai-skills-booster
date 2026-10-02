@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **142 skills** available in this category.
+> **143 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -144,5 +144,6 @@
 | [hugo-to-markdown](../../skills/software-engineering/architecture/patterns/hugo-to-markdown/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugo to markdown. Convert Hugo documentation sites and Hugo-managed content into standard Markdown. |
 | [i-have-adhd](../../skills/software-engineering/architecture/patterns/i-have-adhd/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for i have adhd. Shape output for ADHD readers: next action first, numbered steps, restated |
 | [i18n-localization](../../skills/software-engineering/architecture/patterns/i18n-localization/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for i18n localization. Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support. |
+| [idea-darwin](../../skills/software-engineering/architecture/patterns/idea-darwin/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for idea darwin. Darwinian idea evolution engine — toss rough ideas onto an evolution island, let them compete, crossbreed, and mutate through structured rounds to surface your strongest concepts. |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

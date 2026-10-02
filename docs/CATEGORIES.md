@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,266** skills across structured domains, categories, and subcategories.
+Master navigation for **1,267** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (422 skills)
 
@@ -2794,9 +2794,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (148 skills)
+## Software Engineering (149 skills)
 
-### Architecture (141 skills)
+### Architecture (142 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -2805,7 +2805,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (138):
+- **Patterns** (139):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -2942,6 +2942,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hugo-to-markdown](../skills/software-engineering/architecture/patterns/hugo-to-markdown/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugo to markdown. Convert Hugo documentation sites and Hugo-managed content into standard Markdown.
   - [i-have-adhd](../skills/software-engineering/architecture/patterns/i-have-adhd/SKILL.md) — Use this skill to design, implement, and operate production workflows for i have adhd. Shape output for ADHD readers: next action first, numbered steps, restated
   - [i18n-localization](../skills/software-engineering/architecture/patterns/i18n-localization/SKILL.md) — Use this skill to design, implement, and operate production workflows for i18n localization. Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.
+  - [idea-darwin](../skills/software-engineering/architecture/patterns/idea-darwin/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea darwin. Darwinian idea evolution engine — toss rough ideas onto an evolution island, let them compete, crossbreed, and mutate through structured rounds to surface your strongest concepts.
   - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
   - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 

@@ -27855,6 +27855,28 @@
     "maturity": "stable"
   },
   {
+    "name": "idea-darwin",
+    "path": "skills/software-engineering/architecture/patterns/idea-darwin",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for idea darwin. Darwinian idea evolution engine \u2014 toss rough ideas onto an evolution island, let them compete, crossbreed, and mutate through structured rounds to surface your strongest concepts.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "idea",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Idea Darwin",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
