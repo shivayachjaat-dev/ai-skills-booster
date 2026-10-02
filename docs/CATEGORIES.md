@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,620** skills across structured domains, categories, and subcategories.
+Master navigation for **1,621** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (564 skills)
 
@@ -1194,7 +1194,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (99 skills)
+## Backend (100 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1316,7 +1316,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (28 skills)
+### Databases (29 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -1372,6 +1372,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [neon-functions](../skills/backend/databases/neon_functions/neon-functions/SKILL.md) — Use this skill to design, implement, and operate production workflows for neon functions. Long-running, serverless Node.js HTTP functions deployed onto your Neon branch, with DATABASE_URL injected automatically and compute that runs next to your data.
 - **Nestjs_Expert** (1):
   - [nestjs-expert](../skills/backend/databases/nestjs_expert/nestjs-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for nestjs expert. You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems.
+- **Notion_Automation** (1):
+  - [notion-automation](../skills/backend/databases/notion_automation/notion-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for notion automation. Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas.
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)

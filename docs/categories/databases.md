@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **29 skills** available in this category.
+> **30 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,4 +32,5 @@
 | [mysql](../../skills/backend/databases/mysql/mysql/SKILL.md) | `mysql` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mysql. Administer MySQL/MariaDB databases. Configure replication and optimize |
 | [neon-functions](../../skills/backend/databases/neon_functions/neon-functions/SKILL.md) | `neon_functions` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neon functions. Long-running, serverless Node.js HTTP functions deployed onto your Neon branch, with DATABASE_URL injected automatically and compute that runs next to your data. |
 | [nestjs-expert](../../skills/backend/databases/nestjs_expert/nestjs-expert/SKILL.md) | `nestjs_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nestjs expert. You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems. |
+| [notion-automation](../../skills/backend/databases/notion_automation/notion-automation/SKILL.md) | `notion_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for notion automation. Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas. |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |

@@ -651,7 +651,8 @@ AI_Skills_Booster/
 │   │   ├── monte_carlo_validati/ (1 skills)
 │   │   ├── mysql/ (1 skills)
 │   │   ├── neon_functions/ (1 skills)
-│   │   └── nestjs_expert/ (1 skills)
+│   │   ├── nestjs_expert/ (1 skills)
+│   │   └── notion_automation/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/

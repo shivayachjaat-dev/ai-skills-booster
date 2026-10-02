@@ -14235,6 +14235,28 @@
     "maturity": "stable"
   },
   {
+    "name": "notion-automation",
+    "path": "skills/backend/databases/notion_automation/notion-automation",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "notion_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for notion automation. Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas.",
+    "tags": [
+      "backend",
+      "databases",
+      "notion",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Notion Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
