@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **101** skills across structured domains, categories, and subcategories.
+Master navigation for **102** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -151,6 +151,14 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
+
+## Business (1 skills)
+
+### Human Resources (1 skills)
+Category index: [`docs/categories/human-resources.md`](categories/human-resources.md)
+
+- **Performance Management** (1):
+  - [employee-360-feedback-review-system](../skills/business/human-resources/performance-management/employee-360-feedback-review-system/SKILL.md) — Use this skill when designing, configuring, and operating multi-rater 360-degree performance feedback systems. It guides the agent through peer reviewer nomination workflows, role-specific competency rubrics, anonymous vs attributed visibility rules, cognitive bias mitigation (recency and halo effects), and synthesis reporting.
 
 ## Data Analytics (3 skills)
 

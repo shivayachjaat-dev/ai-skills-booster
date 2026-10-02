@@ -729,6 +729,30 @@
     "maturity": "stable"
   },
   {
+    "name": "employee-360-feedback-review-system",
+    "path": "skills/business/human-resources/performance-management/employee-360-feedback-review-system",
+    "domain": "business",
+    "category": "human-resources",
+    "subcategory": "performance-management",
+    "description": "Use this skill when designing, configuring, and operating multi-rater 360-degree performance feedback systems. It guides the agent through peer reviewer nomination workflows, role-specific competency rubrics, anonymous vs attributed visibility rules, cognitive bias mitigation (recency and halo effects), and synthesis reporting.",
+    "tags": [
+      "360-feedback",
+      "hr",
+      "performance-review",
+      "talent-management",
+      "competencies",
+      "people-ops"
+    ],
+    "technologies": [
+      "Python",
+      "JSON",
+      "PostgreSQL",
+      "Data Analytics"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

@@ -55,6 +55,9 @@ AI_Skills_Booster/
 │   │   └── websocket/ (1 skills)
 │   └── resilience/
 │   │   └── rate-limiter-token-bucket/ (1 skills)
+├── business/
+│   └── human-resources/
+│   │   └── performance-management/ (1 skills)
 ├── data-analytics/
 │   ├── data-pipelines/
 │   │   └── polars/ (1 skills)
