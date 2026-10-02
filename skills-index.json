@@ -25919,6 +25919,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hubspot-automation",
+    "path": "skills/software-engineering/architecture/patterns/hubspot-automation",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for hubspot automation. Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "hubspot",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hubspot Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
