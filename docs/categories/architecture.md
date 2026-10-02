@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **157 skills** available in this category.
+> **158 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -159,5 +159,6 @@
 | [interview-me](../../skills/software-engineering/architecture/patterns/interview-me/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for interview me. Draw out what the user actually wants with one-question-at-a-time interviews |
 | [issues](../../skills/software-engineering/architecture/patterns/issues/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for issues. Interact with GitHub issues - create, list, and view issues. |
 | [javascript-mastery](../../skills/software-engineering/architecture/patterns/javascript-mastery/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for javascript mastery. 33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts). |
+| [jobs-to-be-done-analyst](../../skills/software-engineering/architecture/patterns/jobs-to-be-done-analyst/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for jobs to be done analyst. One sentence - what this skill does and when to invoke it |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

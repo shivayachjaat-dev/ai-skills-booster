@@ -29329,6 +29329,28 @@
     "maturity": "stable"
   },
   {
+    "name": "jobs-to-be-done-analyst",
+    "path": "skills/software-engineering/architecture/patterns/jobs-to-be-done-analyst",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for jobs to be done analyst. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "jobs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Jobs To Be Done Analyst",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
