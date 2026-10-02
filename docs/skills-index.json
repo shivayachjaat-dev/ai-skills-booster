@@ -29351,6 +29351,28 @@
     "maturity": "stable"
   },
   {
+    "name": "jq-engineering-workflow",
+    "path": "skills/software-engineering/architecture/patterns/jq-engineering-workflow",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for jq engineering workflow. Expert jq usage for JSON querying, filtering, transformation, and pipeline integration. Practical patterns for real shell workflows.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "jq",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Jq Engineering Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
