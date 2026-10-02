@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **49 skills** available in this category.
+> **50 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -52,4 +52,5 @@
 | [skeuomorphism](../../skills/frontend/web-architecture/skeuomorphism/skeuomorphism/SKILL.md) | `skeuomorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skeuomorphism. Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors. |
 | [soft-pastel](../../skills/frontend/web-architecture/soft_pastel/soft-pastel/SKILL.md) | `soft_pastel` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for soft pastel. Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics. |
 | [swiss-design](../../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) | `swiss_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment. |
+| [synthwave](../../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) | `synthwave` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics. |
 | [web3-audit](../../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) | `web3_audit` | `advanced` | `stable` | Use this skill to smart contract security audit |

@@ -696,6 +696,7 @@ AI_Skills_Booster/
 │   │   ├── skeuomorphism/ (1 skills)
 │   │   ├── soft_pastel/ (1 skills)
 │   │   ├── swiss_design/ (1 skills)
+│   │   ├── synthwave/ (1 skills)
 │   │   └── web3_audit/ (1 skills)
 ├── marketing/
 │   ├── aso/

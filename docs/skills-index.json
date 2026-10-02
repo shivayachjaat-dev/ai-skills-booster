@@ -13743,6 +13743,28 @@
     "maturity": "stable"
   },
   {
+    "name": "synthwave",
+    "path": "skills/frontend/web-architecture/synthwave/synthwave",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "synthwave",
+    "description": "Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "synthwave",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Synthwave",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "web3-audit",
     "path": "skills/frontend/web-architecture/web3_audit/web3-audit",
     "domain": "frontend",
