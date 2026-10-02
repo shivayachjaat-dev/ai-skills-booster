@@ -831,6 +831,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-studio-image",
+    "path": "skills/ai-engineering/models/ai_studio_image/ai-studio-image",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ai_studio_image",
+    "description": "Use this skill to geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ai",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ai Studio Image",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "kubeflow-and-ray-ai-pipeline-orchestration",
     "path": "skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration",
     "domain": "ai-engineering",

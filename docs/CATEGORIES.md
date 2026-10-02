@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **193** skills across structured domains, categories, and subcategories.
+Master navigation for **194** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (41 skills)
+## Ai Engineering (42 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -92,7 +92,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Models (8 skills)
+### Models (9 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -111,6 +111,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [ai-ml](../skills/ai-engineering/models/ai_ml/ai-ml/SKILL.md) — Use this skill to aI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.
 - **Ai_Product** (1):
   - [ai-product](../skills/ai-engineering/models/ai_product/ai-product/SKILL.md) — Use this skill to every product will be AI-powered. The question is whether you'll
+- **Ai_Studio_Image** (1):
+  - [ai-studio-image](../skills/ai-engineering/models/ai_studio_image/ai-studio-image/SKILL.md) — Use this skill to geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.
 
 ### Orchestration (1 skills)
 Category index: [`docs/categories/orchestration.md`](categories/orchestration.md)
