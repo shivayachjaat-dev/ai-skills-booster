@@ -13259,6 +13259,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gradient-design",
+    "path": "skills/frontend/web-architecture/gradient_design/gradient-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "gradient_design",
+    "description": "Use this skill to design, implement, and operate production workflows for gradient design. Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "gradient",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gradient Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
