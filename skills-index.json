@@ -2877,6 +2877,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bug-hunt-swarm",
+    "path": "skills/ai-engineering/models/bug_hunt_swarm/bug-hunt-swarm",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "bug_hunt_swarm",
+    "description": "Use this skill to parallel read-only multi-agent root-cause investigation for bugs, regressions, crashes, flaky behavior, or unexplained failures.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "bug",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bug Hunt Swarm",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
