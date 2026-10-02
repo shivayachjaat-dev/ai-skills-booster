@@ -6865,6 +6865,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dotnet-architect",
+    "path": "skills/backend/api-design/dotnet_architect/dotnet-architect",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "dotnet_architect",
+    "description": "Use this skill to design, implement, and operate production workflows for dotnet architect. Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns.",
+    "tags": [
+      "backend",
+      "api-design",
+      "dotnet",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dotnet Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-rate-limiting-and-throttling",
     "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
     "domain": "backend",
