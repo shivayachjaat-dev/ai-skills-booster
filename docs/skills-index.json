@@ -16845,6 +16845,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gdpr-compliance",
+    "path": "skills/frontend/ui-ux/gdpr_compliance/gdpr-compliance",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "gdpr_compliance",
+    "description": "Use this skill to design, implement, and operate production workflows for gdpr compliance. Implement GDPR data protection requirements. Configure consent management,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "gdpr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gdpr Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
