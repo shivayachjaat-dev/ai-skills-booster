@@ -1113,6 +1113,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_dom/ (1 skills)
 │   │   ├── hunt_exceptional_con/ (1 skills)
 │   │   ├── hunt_file_upload/ (1 skills)
+│   │   ├── hunt_fintech_graphql/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)

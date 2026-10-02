@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **51 skills** available in this category.
+> **52 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -51,6 +51,7 @@
 | [hunt-dom](../../skills/security/appsec/hunt_dom/hunt-dom/SKILL.md) | `hunt_dom` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt dom. Hunt client-side DOM vulnerabilities |
 | [hunt-exceptional-conditions](../../skills/security/appsec/hunt_exceptional_con/hunt-exceptional-conditions/SKILL.md) | `hunt_exceptional_con` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt exceptional conditions. Hunt mishandling of exceptional conditions |
 | [hunt-file-upload](../../skills/security/appsec/hunt_file_upload/hunt-file-upload/SKILL.md) | `hunt_file_upload` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt file upload. Hunt file upload bugs |
+| [hunt-fintech-graphql](../../skills/security/appsec/hunt_fintech_graphql/hunt-fintech-graphql/SKILL.md) | `hunt_fintech_graphql` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt fintech graphql. Hunt fintech-specific GraphQL vulnerabilities |
 | [laravel-security-audit](../../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](../../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
 | [meme-coin-audit](../../skills/security/appsec/meme_coin_audit/meme-coin-audit/SKILL.md) | `meme_coin_audit` | `advanced` | `stable` | Use this skill to meme coin and token security audit |
