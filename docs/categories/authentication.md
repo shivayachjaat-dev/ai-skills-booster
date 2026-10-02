@@ -1,6 +1,6 @@
 # Category Index: Authentication
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,4 +13,5 @@
 | [browser-extension-reverse](../../skills/security/authentication/browser_extension_re/browser-extension-reverse/SKILL.md) | `browser_extension_re` | `advanced` | `stable` | Use this skill to authorized reverse engineering of Chrome/Firefox extensions: manifest analysis, background workers, content scripts, and extension-based credential or data-exposure research. |
 | [clerk-auth](../../skills/security/authentication/clerk_auth/clerk-auth/SKILL.md) | `clerk_auth` | `advanced` | `stable` | Use this skill to expert patterns for Clerk auth implementation, middleware, |
 | [content-strategy](../../skills/security/authentication/content_strategy/content-strategy/SKILL.md) | `content_strategy` | `advanced` | `stable` | Use this skill to plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program. |
+| [digital-forensics](../../skills/security/authentication/digital_forensics/digital-forensics/SKILL.md) | `digital_forensics` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for digital forensics. Authorized digital forensics: memory dumps, disk timelines, PCAP investigation, artifact triage, and incident-response evidence preservation. |
 | [oauth2-jwt-authentication-flow](../../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) | `oauth2` | `advanced` | `stable` | Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists. |

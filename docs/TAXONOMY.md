@@ -816,6 +816,7 @@ AI_Skills_Booster/
 │   │   ├── browser_extension_re/ (1 skills)
 │   │   ├── clerk_auth/ (1 skills)
 │   │   ├── content_strategy/ (1 skills)
+│   │   ├── digital_forensics/ (1 skills)
 │   │   └── oauth2/ (1 skills)
 │   ├── authorization/
 │   │   └── rbac/ (1 skills)

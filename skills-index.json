@@ -15823,6 +15823,28 @@
     "maturity": "stable"
   },
   {
+    "name": "digital-forensics",
+    "path": "skills/security/authentication/digital_forensics/digital-forensics",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "digital_forensics",
+    "description": "Use this skill to design, implement, and operate production workflows for digital forensics. Authorized digital forensics: memory dumps, disk timelines, PCAP investigation, artifact triage, and incident-response evidence preservation.",
+    "tags": [
+      "security",
+      "authentication",
+      "digital",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Digital Forensics",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
