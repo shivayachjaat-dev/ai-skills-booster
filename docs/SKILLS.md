@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 827 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 828 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -514,6 +514,7 @@
 | [ckw-design](skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) | `frontend` | `ui-development` | `ckw_design` | `advanced` | `stable` | Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c |
 | [design-it](skills/frontend/ui-development/design_it/design-it/SKILL.md) | `frontend` | `ui-development` | `design_it` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design it. Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic. |
 | [design-taste-frontend](skills/frontend/ui-development/design_taste_fronten/design-taste-frontend/SKILL.md) | `frontend` | `ui-development` | `design_taste_fronten` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design taste frontend. Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules. |
+| [development](skills/frontend/ui-development/development/development/SKILL.md) | `frontend` | `ui-development` | `development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery. |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |

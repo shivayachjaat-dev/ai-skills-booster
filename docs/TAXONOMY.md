@@ -598,7 +598,8 @@ AI_Skills_Booster/
 │   │   ├── cc_skill_frontend_pa/ (1 skills)
 │   │   ├── ckw_design/ (1 skills)
 │   │   ├── design_it/ (1 skills)
-│   │   └── design_taste_fronten/ (1 skills)
+│   │   ├── design_taste_fronten/ (1 skills)
+│   │   └── development/ (1 skills)
 │   ├── ui-ux/
 │   │   ├── anti_sleep/ (1 skills)
 │   │   ├── ask_questions_if_und/ (1 skills)

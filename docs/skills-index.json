@@ -11631,6 +11631,28 @@
     "maturity": "stable"
   },
   {
+    "name": "development",
+    "path": "skills/frontend/ui-development/development/development",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "development",
+    "description": "Use this skill to design, implement, and operate production workflows for development. Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "development",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
