@@ -10795,6 +10795,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-debate",
+    "path": "skills/frontend/ui-ux/crossframe_debate/crossframe-debate",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "crossframe_debate",
+    "description": "Use this skill to use when CrossFrame Suite routes explicit Chinese proposition testing, debate analysis, hidden-premise review, rebuttal design, or withdrawal condition checks.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Debate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **44 skills** available in this category.
+> **45 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -48,3 +48,4 @@
 | [copilot-sdk](../../skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) | `copilot_sdk` | `advanced` | `stable` | Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET. |
 | [cqrs-implementation](../../skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation/SKILL.md) | `cqrs_implementation` | `advanced` | `stable` | Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems. |
 | [crossframe-casebook](../../skills/frontend/ui-ux/crossframe_casebook/crossframe-casebook/SKILL.md) | `crossframe_casebook` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes. |
+| [crossframe-debate](../../skills/frontend/ui-ux/crossframe_debate/crossframe-debate/SKILL.md) | `crossframe_debate` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese proposition testing, debate analysis, hidden-premise review, rebuttal design, or withdrawal condition checks. |

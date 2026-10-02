@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **635** skills across structured domains, categories, and subcategories.
+Master navigation for **636** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (227 skills)
 
@@ -1174,7 +1174,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (73 skills)
+## Frontend (74 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1252,7 +1252,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Ckw_Design** (1):
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 
-### Ui Ux (44 skills)
+### Ui Ux (45 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1343,6 +1343,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [cqrs-implementation](../skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation/SKILL.md) — Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems.
 - **Crossframe_Casebook** (1):
   - [crossframe-casebook](../skills/frontend/ui-ux/crossframe_casebook/crossframe-casebook/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes.
+- **Crossframe_Debate** (1):
+  - [crossframe-debate](../skills/frontend/ui-ux/crossframe_debate/crossframe-debate/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese proposition testing, debate analysis, hidden-premise review, rebuttal design, or withdrawal condition checks.
 
 ### Web Architecture (11 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
