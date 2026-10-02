@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,130** skills across structured domains, categories, and subcategories.
+Master navigation for **1,131** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (393 skills)
+## Ai Engineering (394 skills)
 
 ### Agents (46 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -198,7 +198,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (288 skills)
+### Models (289 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -756,6 +756,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [gpu-kubernetes-operations](../skills/ai-engineering/models/gpu_kubernetes_opera/gpu-kubernetes-operations/SKILL.md) — Use this skill to design, implement, and operate production workflows for gpu kubernetes operations. Operate GPU-backed Kubernetes clusters for AI inference and training
 - **Gpu_Server_Managemen** (1):
   - [gpu-server-management](../skills/ai-engineering/models/gpu_server_managemen/gpu-server-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for gpu server management. Set up and manage NVIDIA GPU servers for AI workloads
+- **Graceful_Shutdown** (1):
+  - [graceful-shutdown](../skills/ai-engineering/models/graceful_shutdown/graceful-shutdown/SKILL.md) — Use this skill to design, implement, and operate production workflows for graceful shutdown. Implement graceful shutdown for servers and workers: drain connections, finish in-flight work, release resources, and exit cleanly on SIGTERM/SIGINT.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
