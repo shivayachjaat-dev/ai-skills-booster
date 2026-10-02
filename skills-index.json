@@ -5385,6 +5385,28 @@
     "maturity": "stable"
   },
   {
+    "name": "design-philosophy",
+    "path": "skills/ai-engineering/models/design_philosophy/design-philosophy",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "design_philosophy",
+    "description": "Use this skill to design, implement, and operate production workflows for design philosophy. Visual philosophy and art-direction for frontend. Use when creating high-concept work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable art-like aesthetic.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "design",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Design Philosophy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

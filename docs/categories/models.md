@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **194 skills** available in this category.
+> **195 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -188,6 +188,7 @@
 | [dependency-management-deps-audit](../../skills/ai-engineering/models/dependency_managemen/dependency-management-deps-audit/SKILL.md) | `dependency_managemen` | `advanced` | `stable` | Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies. |
 | [deprecation-and-migration](../../skills/ai-engineering/models/deprecation_and_migr/deprecation-and-migration/SKILL.md) | `deprecation_and_migr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for deprecation and migration. Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code. |
 | [design-orchestration](../../skills/ai-engineering/models/design_orchestration/design-orchestration/SKILL.md) | `design_orchestration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design orchestration. Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. |
+| [design-philosophy](../../skills/ai-engineering/models/design_philosophy/design-philosophy/SKILL.md) | `design_philosophy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for design philosophy. Visual philosophy and art-direction for frontend. Use when creating high-concept work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable art-like aesthetic. |
 | [editorial-design](../../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
