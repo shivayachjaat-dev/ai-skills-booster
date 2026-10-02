@@ -661,6 +661,7 @@ AI_Skills_Booster/
 │   │   ├── gcp_gke/ (1 skills)
 │   │   ├── gcp_networking/ (1 skills)
 │   │   ├── git_workflow/ (1 skills)
+│   │   ├── helm_charts/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
