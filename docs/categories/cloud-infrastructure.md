@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **27 skills** available in this category.
+> **28 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -31,3 +31,4 @@
 | [azure-monitor-opentelemetry-exporter-java](../../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-exporter-java/SKILL.md) | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights. |
 | [azure-monitor-opentelemetry-ts](../../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-ts/SKILL.md) | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to auto-instrument Node.js applications with distributed tracing, metrics, and logs. |
 | [azure-resource-manager-cosmosdb-dotnet](../../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-cosmosdb-dotnet/SKILL.md) | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Cosmos DB in .NET. |
+| [azure-resource-manager-durabletask-dotnet](../../skills/devops/cloud-infrastructure/azure_resource_manag/azure-resource-manager-durabletask-dotnet/SKILL.md) | `azure_resource_manag` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Durable Task Scheduler in .NET. |
