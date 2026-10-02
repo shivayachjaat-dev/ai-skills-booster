@@ -8695,6 +8695,28 @@
     "maturity": "stable"
   },
   {
+    "name": "browser-extension-reverse",
+    "path": "skills/security/authentication/browser_extension_re/browser-extension-reverse",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "browser_extension_re",
+    "description": "Use this skill to authorized reverse engineering of Chrome/Firefox extensions: manifest analysis, background workers, content scripts, and extension-based credential or data-exposure research.",
+    "tags": [
+      "security",
+      "authentication",
+      "browser",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Browser Extension Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
