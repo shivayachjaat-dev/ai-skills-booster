@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1386 skills)
+## Bash (1387 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2117,6 +2117,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [monochromatic-ui](../skills/frontend/web-architecture/monochromatic_ui/monochromatic-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for monochromatic ui. Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline.
 - [moodle-external-api-development](../skills/frontend/web-architecture/moodle_external_api_/moodle-external-api-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for moodle external api development. This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards.
 - [multi-platform-apps-multi-platform](../skills/frontend/web-architecture/multi_platform_apps_/multi-platform-apps-multi-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi platform apps multi platform. Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.
+- [multi-source-search](../skills/frontend/web-architecture/multi_source_search/multi-source-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi source search. Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps.
 - [neo-brutalism](../skills/frontend/web-architecture/neo_brutalism/neo-brutalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.
 - [neumorphism](../skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
@@ -7888,6 +7889,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [multi-platform-apps-multi-platform](../skills/frontend/web-architecture/multi_platform_apps_/multi-platform-apps-multi-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi platform apps multi platform. Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.
 
+## Multi Source Search (1 skills)
+
+- [multi-source-search](../skills/frontend/web-architecture/multi_source_search/multi-source-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi source search. Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps.
+
 ## Multi-Agent Protocols (1 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
@@ -8264,7 +8269,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1489 skills)
+## Python (1490 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9375,6 +9380,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [monochromatic-ui](../skills/frontend/web-architecture/monochromatic_ui/monochromatic-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for monochromatic ui. Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline.
 - [moodle-external-api-development](../skills/frontend/web-architecture/moodle_external_api_/moodle-external-api-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for moodle external api development. This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards.
 - [multi-platform-apps-multi-platform](../skills/frontend/web-architecture/multi_platform_apps_/multi-platform-apps-multi-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi platform apps multi platform. Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.
+- [multi-source-search](../skills/frontend/web-architecture/multi_source_search/multi-source-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi source search. Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps.
 - [neo-brutalism](../skills/frontend/web-architecture/neo_brutalism/neo-brutalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.
 - [neumorphism](../skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.

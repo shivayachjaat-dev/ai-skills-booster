@@ -25931,6 +25931,28 @@
     "maturity": "stable"
   },
   {
+    "name": "multi-source-search",
+    "path": "skills/frontend/web-architecture/multi_source_search/multi-source-search",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "multi_source_search",
+    "description": "Use this skill to design, implement, and operate production workflows for multi source search. Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "multi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Multi Source Search",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "neo-brutalism",
     "path": "skills/frontend/web-architecture/neo_brutalism/neo-brutalism",
     "domain": "frontend",

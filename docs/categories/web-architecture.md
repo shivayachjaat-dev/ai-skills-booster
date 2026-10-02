@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **73 skills** available in this category.
+> **74 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -59,6 +59,7 @@
 | [monochromatic-ui](../../skills/frontend/web-architecture/monochromatic_ui/monochromatic-ui/SKILL.md) | `monochromatic_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monochromatic ui. Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline. |
 | [moodle-external-api-development](../../skills/frontend/web-architecture/moodle_external_api_/moodle-external-api-development/SKILL.md) | `moodle_external_api_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for moodle external api development. This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards. |
 | [multi-platform-apps-multi-platform](../../skills/frontend/web-architecture/multi_platform_apps_/multi-platform-apps-multi-platform/SKILL.md) | `multi_platform_apps_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi platform apps multi platform. Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies. |
+| [multi-source-search](../../skills/frontend/web-architecture/multi_source_search/multi-source-search/SKILL.md) | `multi_source_search` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi source search. Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps. |
 | [neo-brutalism](../../skills/frontend/web-architecture/neo_brutalism/neo-brutalism/SKILL.md) | `neo_brutalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look. |
 | [neumorphism](../../skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) | `neumorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation. |
 | [production-audit](../../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
