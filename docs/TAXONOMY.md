@@ -226,6 +226,7 @@ AI_Skills_Booster/
 │   │   ├── day_book/ (1 skills)
 │   │   ├── ddd_strategic_design/ (1 skills)
 │   │   ├── ddd_tactical_pattern/ (1 skills)
+│   │   ├── de_ai_writer/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

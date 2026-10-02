@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **171 skills** available in this category.
+> **172 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -174,4 +174,5 @@
 | [day-book](../../skills/ai-engineering/models/day_book/day-book/SKILL.md) | `day_book` | `advanced` | `stable` | Use this skill to daily cash, bank and digital day book: opening and closing balances per book, in/out movements, debit/credit presentation and reconciliation status. Use for daily bookkeeping. |
 | [ddd-strategic-design](../../skills/ai-engineering/models/ddd_strategic_design/ddd-strategic-design/SKILL.md) | `ddd_strategic_design` | `advanced` | `stable` | Use this skill to design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains. |
 | [ddd-tactical-patterns](../../skills/ai-engineering/models/ddd_tactical_pattern/ddd-tactical-patterns/SKILL.md) | `ddd_tactical_pattern` | `advanced` | `stable` | Use this skill to apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants. |
+| [de-ai-writer](../../skills/ai-engineering/models/de_ai_writer/de-ai-writer/SKILL.md) | `de_ai_writer` | `advanced` | `stable` | Use this skill to chinese AI-smell removal engine: 35 Chinese AI-tell patterns (赋能/闭环), AI-smell scoring, de-AI rewriting, style clone. Use when a Chinese draft reads machine-written or the user asks 去AI味. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

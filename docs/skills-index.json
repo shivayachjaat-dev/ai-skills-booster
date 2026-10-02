@@ -4923,6 +4923,28 @@
     "maturity": "stable"
   },
   {
+    "name": "de-ai-writer",
+    "path": "skills/ai-engineering/models/de_ai_writer/de-ai-writer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "de_ai_writer",
+    "description": "Use this skill to chinese AI-smell removal engine: 35 Chinese AI-tell patterns (\u8d4b\u80fd/\u95ed\u73af), AI-smell scoring, de-AI rewriting, style clone. Use when a Chinese draft reads machine-written or the user asks \u53bbAI\u5473.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "de",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "De Ai Writer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
