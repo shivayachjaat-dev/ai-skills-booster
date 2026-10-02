@@ -25897,6 +25897,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hr-pro",
+    "path": "skills/software-engineering/architecture/patterns/hr-pro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for hr pro. Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "hr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hr Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",

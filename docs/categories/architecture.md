@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **136 skills** available in this category.
+> **137 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -138,5 +138,6 @@
 | [hig-components-menus](../../skills/software-engineering/architecture/patterns/hig-components-menus/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig components menus. Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
 | [hig-technologies](../../skills/software-engineering/architecture/patterns/hig-technologies/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hig technologies. Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
+| [hr-pro](../../skills/software-engineering/architecture/patterns/hr-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hr pro. Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations. |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
