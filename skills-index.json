@@ -7101,6 +7101,28 @@
     "maturity": "stable"
   },
   {
+    "name": "framework-migration-legacy-modernize",
+    "path": "skills/ai-engineering/models/framework_migration_/framework-migration-legacy-modernize",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "framework_migration_",
+    "description": "Use this skill to design, implement, and operate production workflows for framework migration legacy modernize. Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through ex",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "framework",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Framework Migration Legacy Modernize",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

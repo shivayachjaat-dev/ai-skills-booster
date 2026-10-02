@@ -325,6 +325,7 @@ AI_Skills_Booster/
 │   │   ├── fp_either_ref/ (1 skills)
 │   │   ├── fp_pipe_ref/ (1 skills)
 │   │   ├── fp_taskeither_ref/ (1 skills)
+│   │   ├── framework_migration_/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
