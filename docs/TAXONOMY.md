@@ -439,6 +439,7 @@ AI_Skills_Booster/
 │   │   ├── lightning_factory_ex/ (1 skills)
 │   │   ├── linkedin_post_writer/ (1 skills)
 │   │   ├── lint_and_validate/ (1 skills)
+│   │   ├── linux_troubleshootin/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

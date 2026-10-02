@@ -9609,6 +9609,28 @@
     "maturity": "stable"
   },
   {
+    "name": "linux-troubleshooting",
+    "path": "skills/ai-engineering/models/linux_troubleshootin/linux-troubleshooting",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "linux_troubleshootin",
+    "description": "Use this skill to design, implement, and operate production workflows for linux troubleshooting. Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "linux",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Linux Troubleshooting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
