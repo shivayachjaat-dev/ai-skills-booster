@@ -7475,6 +7475,28 @@
     "maturity": "stable"
   },
   {
+    "name": "geo-fundamentals",
+    "path": "skills/ai-engineering/models/geo_fundamentals/geo-fundamentals",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "geo_fundamentals",
+    "description": "Use this skill to design, implement, and operate production workflows for geo fundamentals. Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "geo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Geo Fundamentals",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

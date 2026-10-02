@@ -342,6 +342,7 @@ AI_Skills_Booster/
 │   │   ├── geo_citability/ (1 skills)
 │   │   ├── geo_content/ (1 skills)
 │   │   ├── geo_crawlers/ (1 skills)
+│   │   ├── geo_fundamentals/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
