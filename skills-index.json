@@ -1007,6 +1007,28 @@
     "maturity": "stable"
   },
   {
+    "name": "asset-inventory",
+    "path": "skills/ai-engineering/models/asset_inventory/asset-inventory",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "asset_inventory",
+    "description": "Use this skill to maintain IT asset inventory and configuration management database. Track",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "asset",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Asset Inventory",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
