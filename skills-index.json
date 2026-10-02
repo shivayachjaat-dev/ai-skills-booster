@@ -16788,6 +16788,28 @@
     "maturity": "stable"
   },
   {
+    "name": "enterprise-vpn-attack",
+    "path": "skills/security/appsec/enterprise_vpn_attac/enterprise-vpn-attack",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "enterprise_vpn_attac",
+    "description": "Use this skill to design, implement, and operate production workflows for enterprise vpn attack. External SSL VPN / remote-access appliance attack matrix",
+    "tags": [
+      "security",
+      "appsec",
+      "enterprise",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Enterprise Vpn Attack",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gcp-audit-logs",
     "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
     "domain": "security",

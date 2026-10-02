@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (725 skills)
+## Bash (726 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1667,6 +1667,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dependency-scanning](../skills/security/appsec/dependency_scanning/dependency-scanning/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot,
 - [differential-review](../skills/security/appsec/differential_review/differential-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for differential review. Security-focused code review for PRs, commits, and diffs.
 - [disaster-recovery](../skills/security/appsec/disaster_recovery/disaster-recovery/SKILL.md) — Use this skill to design, implement, and operate production workflows for disaster recovery. Implement disaster recovery strategies and runbooks. Configure RPO/RTO
+- [enterprise-vpn-attack](../skills/security/appsec/enterprise_vpn_attac/enterprise-vpn-attack/SKILL.md) — Use this skill to design, implement, and operate production workflows for enterprise vpn attack. External SSL VPN / remote-access appliance attack matrix
 - [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
@@ -3890,6 +3891,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [enhance-prompt](../skills/frontend/ui-ux/enhance_prompt/enhance-prompt/SKILL.md) — Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.
 
+## Enterprise Vpn Attack (1 skills)
+
+- [enterprise-vpn-attack](../skills/security/appsec/enterprise_vpn_attac/enterprise-vpn-attack/SKILL.md) — Use this skill to design, implement, and operate production workflows for enterprise vpn attack. External SSL VPN / remote-access appliance attack matrix
+
 ## Envoy (4 skills)
 
 - [llm-inference-service-mesh-and-vllm-routing](../skills/ai-engineering/inference/vllm-mesh/llm-inference-service-mesh-and-vllm-routing/SKILL.md) — Use this skill to design, deploy, and manage Kubernetes service mesh architectures (Istio, Envoy) tailored for distributed LLM inference clusters running vLLM, TensorRT-LLM, or Triton. It covers KV-cache-aware routing, P99 latency SLA circuit breaking, streaming SSE backpressure, and mTLS pod-to-pod security.
@@ -4991,7 +4996,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (828 skills)
+## Python (829 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5674,6 +5679,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dependency-scanning](../skills/security/appsec/dependency_scanning/dependency-scanning/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot,
 - [differential-review](../skills/security/appsec/differential_review/differential-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for differential review. Security-focused code review for PRs, commits, and diffs.
 - [disaster-recovery](../skills/security/appsec/disaster_recovery/disaster-recovery/SKILL.md) — Use this skill to design, implement, and operate production workflows for disaster recovery. Implement disaster recovery strategies and runbooks. Configure RPO/RTO
+- [enterprise-vpn-attack](../skills/security/appsec/enterprise_vpn_attac/enterprise-vpn-attack/SKILL.md) — Use this skill to design, implement, and operate production workflows for enterprise vpn attack. External SSL VPN / remote-access appliance attack matrix
 - [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.

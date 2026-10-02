@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 907 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 908 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -745,6 +745,7 @@
 | [dependency-scanning](skills/security/appsec/dependency_scanning/dependency-scanning/SKILL.md) | `security` | `appsec` | `dependency_scanning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot, |
 | [differential-review](skills/security/appsec/differential_review/differential-review/SKILL.md) | `security` | `appsec` | `differential_review` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for differential review. Security-focused code review for PRs, commits, and diffs. |
 | [disaster-recovery](skills/security/appsec/disaster_recovery/disaster-recovery/SKILL.md) | `security` | `appsec` | `disaster_recovery` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for disaster recovery. Implement disaster recovery strategies and runbooks. Configure RPO/RTO |
+| [enterprise-vpn-attack](skills/security/appsec/enterprise_vpn_attac/enterprise-vpn-attack/SKILL.md) | `security` | `appsec` | `enterprise_vpn_attac` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for enterprise vpn attack. External SSL VPN / remote-access appliance attack matrix |
 | [gcp-audit-logs](skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) | `security` | `appsec` | `gcp_audit_logs` | `advanced` | `stable` | Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and |
 | [laravel-security-audit](skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `security` | `appsec` | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |
