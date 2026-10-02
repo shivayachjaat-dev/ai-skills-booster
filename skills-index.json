@@ -24159,6 +24159,28 @@
     "maturity": "stable"
   },
   {
+    "name": "github-automation",
+    "path": "skills/software-engineering/architecture/patterns/github-automation",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for github automation. Operate GitHub issues, pull requests, branches, checks, workflows, and permissions through Rube MCP. Use when GitHub work must be queried or changed programmatically with repository-policy safeguards.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "github",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Github Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
