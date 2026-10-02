@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,027** skills across structured domains, categories, and subcategories.
+Master navigation for **1,028** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (358 skills)
+## Ai Engineering (359 skills)
 
 ### Agents (43 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -186,7 +186,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (259 skills)
+### Models (260 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -686,6 +686,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [free-tier-strategy](../skills/ai-engineering/models/free_tier_strategy/free-tier-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for free tier strategy. Design free tiers that convert to paid without creating resentment or abuse. Trigger phrases: free tier design, freemium model, free trial strategy, free tier limits, developer free plan, open source commercial, feature gating, upgrade triggers, free ti...
 - **Freshservice_Automat** (1):
   - [freshservice-automation](../skills/ai-engineering/models/freshservice_automat/freshservice-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for freshservice automation. Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas.
+- **Frontend_Design** (1):
+  - [frontend-design](../skills/ai-engineering/models/frontend_design/frontend-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for frontend design. Design and implement a distinctive frontend within the product’s existing brand, accessibility, performance and framework constraints.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

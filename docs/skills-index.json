@@ -7167,6 +7167,28 @@
     "maturity": "stable"
   },
   {
+    "name": "frontend-design",
+    "path": "skills/ai-engineering/models/frontend_design/frontend-design",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "frontend_design",
+    "description": "Use this skill to design, implement, and operate production workflows for frontend design. Design and implement a distinctive frontend within the product\u2019s existing brand, accessibility, performance and framework constraints.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "frontend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Frontend Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
