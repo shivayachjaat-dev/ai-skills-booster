@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **36 skills** available in this category.
+> **37 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -39,4 +39,5 @@
 | [azure-ai-contentunderstanding-py](../../skills/ai-engineering/models/azure_ai_contentunde/azure-ai-contentunderstanding-py/SKILL.md) | `azure_ai_contentunde` | `advanced` | `stable` | Use this skill to azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video. |
 | [azure-ai-document-intelligence-dotnet](../../skills/ai-engineering/models/azure_ai_document_in/azure-ai-document-intelligence-dotnet/SKILL.md) | `azure_ai_document_in` | `advanced` | `stable` | Use this skill to azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models. |
 | [azure-ai-document-intelligence-ts](../../skills/ai-engineering/models/azure_ai_document_in/azure-ai-document-intelligence-ts/SKILL.md) | `azure_ai_document_in` | `advanced` | `stable` | Use this skill to extract text, tables, and structured data from documents using prebuilt and custom models. |
+| [azure-ai-formrecognizer-java](../../skills/ai-engineering/models/azure_ai_formrecogni/azure-ai-formrecognizer-java/SKILL.md) | `azure_ai_formrecogni` | `advanced` | `stable` | Use this skill to build document analysis applications using the Azure AI Document Intelligence SDK for Java. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

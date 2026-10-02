@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **254** skills across structured domains, categories, and subcategories.
+Master navigation for **255** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (76 skills)
+## Ai Engineering (77 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (36 skills)
+### Models (37 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -179,6 +179,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
 - **Azure_Ai_Document_In** (2):
   - [azure-ai-document-intelligence-dotnet](../skills/ai-engineering/models/azure_ai_document_in/azure-ai-document-intelligence-dotnet/SKILL.md) — Use this skill to azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models.
   - [azure-ai-document-intelligence-ts](../skills/ai-engineering/models/azure_ai_document_in/azure-ai-document-intelligence-ts/SKILL.md) — Use this skill to extract text, tables, and structured data from documents using prebuilt and custom models.
+- **Azure_Ai_Formrecogni** (1):
+  - [azure-ai-formrecognizer-java](../skills/ai-engineering/models/azure_ai_formrecogni/azure-ai-formrecognizer-java/SKILL.md) — Use this skill to build document analysis applications using the Azure AI Document Intelligence SDK for Java.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
