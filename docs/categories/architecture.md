@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **35 skills** available in this category.
+> **36 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -39,3 +39,4 @@
 | [code-refactoring-tech-debt](../../skills/software-engineering/architecture/patterns/code-refactoring-tech-debt/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions. |
 | [code-review-excellence](../../skills/software-engineering/architecture/patterns/code-review-excellence/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement. |
 | [codebase-onboarding](../../skills/software-engineering/architecture/patterns/codebase-onboarding/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to onboard a developer to a repository using Ontoly graph summaries. Use |
+| [commit](../../skills/software-engineering/architecture/patterns/commit/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to aLWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task. |

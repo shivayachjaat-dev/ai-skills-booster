@@ -12565,6 +12565,28 @@
     "maturity": "stable"
   },
   {
+    "name": "commit",
+    "path": "skills/software-engineering/architecture/patterns/commit",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to aLWAYS use this skill when committing code changes \u2014 never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "commit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Commit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
