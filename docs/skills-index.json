@@ -17659,6 +17659,28 @@
     "maturity": "stable"
   },
   {
+    "name": "go-concurrency-patterns",
+    "path": "skills/frontend/ui-ux/go_concurrency_patte/go-concurrency-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "go_concurrency_patte",
+    "description": "Use this skill to design, implement, and operate production workflows for go concurrency patterns. Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "go",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Go Concurrency Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
