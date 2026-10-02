@@ -9893,6 +9893,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dropbox-automation",
+    "path": "skills/developer-tools/productivity/dropbox_automation/dropbox-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "dropbox_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for dropbox automation. Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "dropbox",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dropbox Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
