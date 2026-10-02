@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -12,4 +12,5 @@
 | [azure-storage-blob-java](../../skills/ai-engineering/rag/azure_storage_blob_j/azure-storage-blob-java/SKILL.md) | `azure_storage_blob_j` | `advanced` | `stable` | Use this skill to build blob storage applications using the Azure Storage Blob SDK for Java. |
 | [azure-storage-file-datalake-py](../../skills/ai-engineering/rag/azure_storage_file_d/azure-storage-file-datalake-py/SKILL.md) | `azure_storage_file_d` | `advanced` | `stable` | Use this skill to azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations. |
 | [azure-storage-file-share-py](../../skills/ai-engineering/rag/azure_storage_file_s/azure-storage-file-share-py/SKILL.md) | `azure_storage_file_s` | `advanced` | `stable` | Use this skill to azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud. |
+| [azure-storage-file-share-ts](../../skills/ai-engineering/rag/azure_storage_file_s/azure-storage-file-share-ts/SKILL.md) | `azure_storage_file_s` | `advanced` | `stable` | Use this skill to azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations. |
 | [rag-retrieval-evaluation](../../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |
