@@ -12665,6 +12665,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bento-ui",
+    "path": "skills/frontend/web-architecture/bento_ui/bento-ui",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "bento_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for bento ui. Web and App implementation guide for Bento UI. Trigger when user wants modular grid cards, Apple-like dashboard style, or sections arranged like a bento box.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "bento",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bento Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "brand-growth-system-builder",
     "path": "skills/frontend/web-architecture/brand_growth_system_/brand-growth-system-builder",
     "domain": "frontend",
