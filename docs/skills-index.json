@@ -13347,6 +13347,28 @@
     "maturity": "stable"
   },
   {
+    "name": "layered-design",
+    "path": "skills/frontend/web-architecture/layered_design/layered-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "layered_design",
+    "description": "Use this skill to design, implement, and operate production workflows for layered design. Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "layered",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Layered Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
