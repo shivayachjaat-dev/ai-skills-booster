@@ -8,7 +8,8 @@ AI_Skills_Booster/
 │   │   ├── benchmarking/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── memory/ (1 skills)
-│   │   └── orchestration/ (1 skills)
+│   │   ├── orchestration/ (1 skills)
+│   │   └── process-management/ (1 skills)
 │   ├── context/
 │   │   └── optimization/ (1 skills)
 │   ├── evaluation/

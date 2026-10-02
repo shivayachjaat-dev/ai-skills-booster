@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **109** skills across structured domains, categories, and subcategories.
+Master navigation for **110** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (16 skills)
+## Ai Engineering (17 skills)
 
-### Agents (5 skills)
+### Agents (6 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Autogen** (1):
@@ -17,6 +17,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - **Orchestration** (1):
   - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
+- **Process Management** (1):
+  - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 
 ### Context (1 skills)
 Category index: [`docs/categories/context.md`](categories/context.md)
