@@ -149,6 +149,7 @@ AI_Skills_Booster/
 │   │   ├── churn_prevention/ (1 skills)
 │   │   ├── cicd_automation_work/ (1 skills)
 │   │   ├── cirq/ (1 skills)
+│   │   ├── claimable_postgres/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

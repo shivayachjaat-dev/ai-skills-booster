@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **108 skills** available in this category.
+> **109 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -111,4 +111,5 @@
 | [churn-prevention](../../skills/ai-engineering/models/churn_prevention/churn-prevention/SKILL.md) | `churn_prevention` | `advanced` | `stable` | Use this skill to reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement. |
 | [cicd-automation-workflow-automate](../../skills/ai-engineering/models/cicd_automation_work/cicd-automation-workflow-automate/SKILL.md) | `cicd_automation_work` | `advanced` | `stable` | Use this skill to you are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality |
 | [cirq](../../skills/ai-engineering/models/cirq/cirq/SKILL.md) | `cirq` | `advanced` | `stable` | Use this skill to cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators. |
+| [claimable-postgres](../../skills/ai-engineering/models/claimable_postgres/claimable-postgres/SKILL.md) | `claimable_postgres` | `advanced` | `stable` | Use this skill to provision instant temporary Postgres databases via Claimable Postgres by Neon (neon.new) with no login, signup, or credit card. Supports REST API, CLI, and SDK. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

@@ -3229,6 +3229,28 @@
     "maturity": "stable"
   },
   {
+    "name": "claimable-postgres",
+    "path": "skills/ai-engineering/models/claimable_postgres/claimable-postgres",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "claimable_postgres",
+    "description": "Use this skill to provision instant temporary Postgres databases via Claimable Postgres by Neon (neon.new) with no login, signup, or credit card. Supports REST API, CLI, and SDK.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "claimable",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Claimable Postgres",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
