@@ -462,6 +462,7 @@ AI_Skills_Booster/
 │   │   ├── logic_lens/ (1 skills)
 │   │   ├── logic_locate/ (1 skills)
 │   │   ├── lookdev/ (1 skills)
+│   │   ├── loop_library/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
