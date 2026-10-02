@@ -1835,6 +1835,32 @@
     "maturity": "stable"
   },
   {
+    "name": "rbac-access-matrix-policy-design",
+    "path": "skills/security/authorization/rbac/rbac-access-matrix-policy-design",
+    "domain": "security",
+    "category": "authorization",
+    "subcategory": "rbac",
+    "description": "Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware.",
+    "tags": [
+      "rbac",
+      "authorization",
+      "access-control",
+      "permissions",
+      "abac",
+      "security",
+      "identity"
+    ],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Casbin",
+      "JSON",
+      "SQLAlchemy"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-security-review",
     "path": "skills/security/code-review/github/github-pr-security-review",
     "domain": "security",

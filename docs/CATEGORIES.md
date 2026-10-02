@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **97** skills across structured domains, categories, and subcategories.
+Master navigation for **98** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -375,7 +375,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (18 skills)
+## Security (19 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -402,6 +402,12 @@ Category index: [`docs/categories/authentication.md`](categories/authentication.
 
 - **Oauth2** (1):
   - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
+
+### Authorization (1 skills)
+Category index: [`docs/categories/authorization.md`](categories/authorization.md)
+
+- **Rbac** (1):
+  - [rbac-access-matrix-policy-design](../skills/security/authorization/rbac/rbac-access-matrix-policy-design/SKILL.md) — Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware.
 
 ### Code Review (1 skills)
 Category index: [`docs/categories/code-review.md`](categories/code-review.md)

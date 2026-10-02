@@ -143,6 +143,8 @@ AI_Skills_Booster/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/
 │   │   └── oauth2/ (1 skills)
+│   ├── authorization/
+│   │   └── rbac/ (1 skills)
 │   ├── code-review/
 │   │   └── github/ (1 skills)
 │   ├── cryptography/
