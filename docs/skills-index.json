@@ -1385,6 +1385,32 @@
     "maturity": "stable"
   },
   {
+    "name": "opentelemetry-collector-pipeline-routing",
+    "path": "skills/devops/observability/opentelemetry-collector/opentelemetry-collector-pipeline-routing",
+    "domain": "devops",
+    "category": "observability",
+    "subcategory": "opentelemetry-collector",
+    "description": "Use this skill when architecting, configuring, and scaling OpenTelemetry (OTel) Collector pipelines. It guides the agent through defining receivers (OTLP gRPC/HTTP), core processors (memory_limiter, batch, filter, transform), routing connectors (routing connector), multi-backend exporters (Prometheus, Jaeger, Tempo, Loki), and tuning collector throughput.",
+    "tags": [
+      "opentelemetry",
+      "otel-collector",
+      "observability",
+      "metrics",
+      "traces",
+      "logging",
+      "devops"
+    ],
+    "technologies": [
+      "OpenTelemetry Collector",
+      "OTLP",
+      "Kubernetes",
+      "Prometheus",
+      "Tempo"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "istio-service-mesh-traffic-routing",
     "path": "skills/devops/service-mesh/istio/istio-service-mesh-traffic-routing",
     "domain": "devops",

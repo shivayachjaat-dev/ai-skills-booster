@@ -105,7 +105,8 @@ AI_Skills_Booster/
 │   │   └── prometheus/ (2 skills)
 │   ├── observability/
 │   │   ├── grafana-loki/ (1 skills)
-│   │   └── opentelemetry/ (1 skills)
+│   │   ├── opentelemetry/ (1 skills)
+│   │   └── opentelemetry-collector/ (1 skills)
 │   └── service-mesh/
 │   │   └── istio/ (1 skills)
 ├── frontend/
