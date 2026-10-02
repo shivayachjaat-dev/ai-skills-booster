@@ -2378,6 +2378,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-storage-blob-java",
+    "path": "skills/ai-engineering/rag/azure_storage_blob_j/azure-storage-blob-java",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "azure_storage_blob_j",
+    "description": "Use this skill to build blob storage applications using the Azure Storage Blob SDK for Java.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Storage Blob Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",

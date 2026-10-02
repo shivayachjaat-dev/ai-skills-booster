@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 358 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 359 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -108,6 +108,7 @@
 | [azure-data-tables-java](skills/ai-engineering/rag/azure_data_tables_ja/azure-data-tables-java/SKILL.md) | `ai-engineering` | `rag` | `azure_data_tables_ja` | `advanced` | `stable` | Use this skill to build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API. |
 | [azure-data-tables-py](skills/ai-engineering/rag/azure_data_tables_py/azure-data-tables-py/SKILL.md) | `ai-engineering` | `rag` | `azure_data_tables_py` | `advanced` | `stable` | Use this skill to azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations. |
 | [azure-keyvault-py](skills/ai-engineering/rag/azure_keyvault_py/azure-keyvault-py/SKILL.md) | `ai-engineering` | `rag` | `azure_keyvault_py` | `advanced` | `stable` | Use this skill to azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage. |
+| [azure-storage-blob-java](skills/ai-engineering/rag/azure_storage_blob_j/azure-storage-blob-java/SKILL.md) | `ai-engineering` | `rag` | `azure_storage_blob_j` | `advanced` | `stable` | Use this skill to build blob storage applications using the Azure Storage Blob SDK for Java. |
 | [rag-retrieval-evaluation](skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) | `ai-engineering` | `rag` | `evaluation` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval. |
 | [llm-synthetic-data-generation-pipeline](skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) | `ai-engineering` | `synthetic-data` | `synth-data-pipeline` | `advanced` | `stable` | Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges. |
 | [ai-agent-custom-tool-builder-and-schema-generator](skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) | `ai-engineering` | `tools` | `tool-builder` | `advanced` | `stable` | Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript. |

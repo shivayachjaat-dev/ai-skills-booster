@@ -113,6 +113,7 @@ AI_Skills_Booster/
 │   │   ├── azure_data_tables_ja/ (1 skills)
 │   │   ├── azure_data_tables_py/ (1 skills)
 │   │   ├── azure_keyvault_py/ (1 skills)
+│   │   ├── azure_storage_blob_j/ (1 skills)
 │   │   └── evaluation/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)

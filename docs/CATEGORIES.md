@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **358** skills across structured domains, categories, and subcategories.
+Master navigation for **359** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (109 skills)
+## Ai Engineering (110 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -249,7 +249,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (6 skills)
+### Rag (7 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -262,6 +262,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [azure-data-tables-py](../skills/ai-engineering/rag/azure_data_tables_py/azure-data-tables-py/SKILL.md) — Use this skill to azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.
 - **Azure_Keyvault_Py** (1):
   - [azure-keyvault-py](../skills/ai-engineering/rag/azure_keyvault_py/azure-keyvault-py/SKILL.md) — Use this skill to azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.
+- **Azure_Storage_Blob_J** (1):
+  - [azure-storage-blob-java](../skills/ai-engineering/rag/azure_storage_blob_j/azure-storage-blob-java/SKILL.md) — Use this skill to build blob storage applications using the Azure Storage Blob SDK for Java.
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 
