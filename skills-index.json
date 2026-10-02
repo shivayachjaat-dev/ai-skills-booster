@@ -2261,6 +2261,28 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-inference-scaling",
+    "path": "skills/ai-engineering/llm-ops/llm_inference_scalin/llm-inference-scaling",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "llm_inference_scalin",
+    "description": "Use this skill to design, implement, and operate production workflows for llm inference scaling. Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "llm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Llm Inference Scaling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

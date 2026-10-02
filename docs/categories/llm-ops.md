@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **14 skills** available in this category.
+> **15 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -18,3 +18,4 @@
 | [llm-evaluation](../../skills/ai-engineering/llm-ops/llm_evaluation/llm-evaluation/SKILL.md) | `llm_evaluation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm evaluation. Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing. |
 | [llm-fine-tuning](../../skills/ai-engineering/llm-ops/llm_fine_tuning/llm-fine-tuning/SKILL.md) | `llm_fine_tuning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm fine tuning. Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full |
 | [llm-gateway](../../skills/ai-engineering/llm-ops/llm_gateway/llm-gateway/SKILL.md) | `llm_gateway` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm gateway. Deploy an API gateway for LLM traffic with load balancing, rate limiting, |
+| [llm-inference-scaling](../../skills/ai-engineering/llm-ops/llm_inference_scalin/llm-inference-scaling/SKILL.md) | `llm_inference_scalin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for llm inference scaling. Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU |
