@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **308** skills across structured domains, categories, and subcategories.
+Master navigation for **309** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (102 skills)
 
@@ -976,7 +976,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (40 skills)
+## Security (41 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -1068,9 +1068,11 @@ Category index: [`docs/categories/compliance.md`](categories/compliance.md)
 - **Audit Logging** (1):
   - [tamper-evident-audit-logging-and-siem-integration](../skills/security/compliance/audit-logging/tamper-evident-audit-logging-and-siem-integration/SKILL.md) — Use this skill to design and implement immutable, tamper-evident audit logging architectures with enterprise SIEM integration. It covers cryptographic HMAC hash chains, structured Common Event Format (CEF) and Elastic Common Schema (ECS) event modeling, automated PII redaction, secure multi-region syslog forwarding (TLS/mTLS), and retention compliance for SOC2, ISO 27001, and HIPAA.
 
-### Cryptography (1 skills)
+### Cryptography (2 skills)
 Category index: [`docs/categories/cryptography.md`](categories/cryptography.md)
 
+- **Azure_Keyvault_Keys_** (1):
+  - [azure-keyvault-keys-rust](../skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-rust/SKILL.md) — Use this skill to azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: "keyvault keys rust", "KeyClient rust", "create key rust", "encrypt rust", "sign rust".
 - **Envelope Encryption** (1):
   - [envelope-encryption-kms-pattern](../skills/security/cryptography/envelope-encryption/envelope-encryption-kms-pattern/SKILL.md) — Use this skill when architecting and implementing cryptographic envelope encryption for sensitive data at rest using cloud Key Management Services (AWS KMS, GCP KMS, Azure Key Vault) or HashiCorp Vault. It guides the agent through two-tier key hierarchies (KEK and DEK), AES-256-GCM authenticated encryption, DEK caching with TTL limits, and key rotation.
 

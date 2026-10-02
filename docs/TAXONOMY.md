@@ -406,6 +406,7 @@ AI_Skills_Booster/
 │   ├── compliance/
 │   │   └── audit-logging/ (1 skills)
 │   ├── cryptography/
+│   │   ├── azure_keyvault_keys_/ (1 skills)
 │   │   └── envelope-encryption/ (1 skills)
 │   ├── identity-governance/
 │   │   ├── access-review/ (1 skills)

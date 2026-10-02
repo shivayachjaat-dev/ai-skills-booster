@@ -6432,6 +6432,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-keyvault-keys-rust",
+    "path": "skills/security/cryptography/azure_keyvault_keys_/azure-keyvault-keys-rust",
+    "domain": "security",
+    "category": "cryptography",
+    "subcategory": "azure_keyvault_keys_",
+    "description": "Use this skill to azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: \"keyvault keys rust\", \"KeyClient rust\", \"create key rust\", \"encrypt rust\", \"sign rust\".",
+    "tags": [
+      "security",
+      "cryptography",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Keyvault Keys Rust",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "envelope-encryption-kms-pattern",
     "path": "skills/security/cryptography/envelope-encryption/envelope-encryption-kms-pattern",
     "domain": "security",
