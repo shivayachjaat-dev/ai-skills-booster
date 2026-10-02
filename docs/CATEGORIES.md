@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **44** skills across structured domains, categories, and subcategories.
+Master navigation for **45** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (5 skills)
+## Ai Engineering (6 skills)
 
 ### Agents (3 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -25,6 +25,12 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Evaluation** (1):
   - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
+
+### Vector Databases (1 skills)
+Category index: [`docs/categories/vector-databases.md`](categories/vector-databases.md)
+
+- **Indexing** (1):
+  - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
 ## Backend (6 skills)
 

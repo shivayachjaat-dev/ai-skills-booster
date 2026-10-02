@@ -9,8 +9,10 @@ AI_Skills_Booster/
 │   │   └── orchestration/ (1 skills)
 │   ├── context/
 │   │   └── optimization/ (1 skills)
-│   └── rag/
+│   ├── rag/
 │   │   └── evaluation/ (1 skills)
+│   └── vector-databases/
+│   │   └── indexing/ (1 skills)
 ├── backend/
 │   ├── api-design/
 │   │   └── rate-limiting/ (1 skills)
