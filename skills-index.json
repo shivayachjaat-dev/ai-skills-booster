@@ -18979,6 +18979,28 @@
     "maturity": "stable"
   },
   {
+    "name": "huggingface-lora-space-builder",
+    "path": "skills/frontend/ui-ux/huggingface_lora_spa/huggingface-lora-space-builder",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "huggingface_lora_spa",
+    "description": "Use this skill to design, implement, and operate production workflows for huggingface lora space builder. Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "huggingface",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Huggingface Lora Space Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
