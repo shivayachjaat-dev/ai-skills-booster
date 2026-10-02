@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **426** skills across structured domains, categories, and subcategories.
+Master navigation for **427** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (145 skills)
+## Ai Engineering (146 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -118,7 +118,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (90 skills)
+### Models (91 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -290,6 +290,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [brooks-lint](../skills/ai-engineering/models/brooks_lint/brooks-lint/SKILL.md) — Use this skill to aI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks.
 - **Brooks_Review** (1):
   - [brooks-review](../skills/ai-engineering/models/brooks_review/brooks-review/SKILL.md) — Use this skill to pR code review that surfaces decay risks, design smells, and maintainability issues with concrete Symptom → Source → Consequence → Remedy findings, drawing on twelve classic engineering books.
+- **Brooks_Test** (1):
+  - [brooks-test](../skills/ai-engineering/models/brooks_test/brooks-test/SKILL.md) — Use this skill to review test-suite quality using established testing literature; identify brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance risks.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **90 skills** available in this category.
+> **91 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -93,4 +93,5 @@
 | [brooks-harness](../../skills/ai-engineering/models/brooks_harness/brooks-harness/SKILL.md) | `brooks_harness` | `advanced` | `stable` | Use this skill to maintenance orchestrator for the brooks-lint plugin itself. |
 | [brooks-lint](../../skills/ai-engineering/models/brooks_lint/brooks-lint/SKILL.md) | `brooks_lint` | `advanced` | `stable` | Use this skill to aI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks. |
 | [brooks-review](../../skills/ai-engineering/models/brooks_review/brooks-review/SKILL.md) | `brooks_review` | `advanced` | `stable` | Use this skill to pR code review that surfaces decay risks, design smells, and maintainability issues with concrete Symptom → Source → Consequence → Remedy findings, drawing on twelve classic engineering books. |
+| [brooks-test](../../skills/ai-engineering/models/brooks_test/brooks-test/SKILL.md) | `brooks_test` | `advanced` | `stable` | Use this skill to review test-suite quality using established testing literature; identify brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance risks. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

@@ -2811,6 +2811,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brooks-test",
+    "path": "skills/ai-engineering/models/brooks_test/brooks-test",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "brooks_test",
+    "description": "Use this skill to review test-suite quality using established testing literature; identify brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance risks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "brooks",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brooks Test",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
