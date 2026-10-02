@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **542** skills across structured domains, categories, and subcategories.
+Master navigation for **543** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (186 skills)
+## Ai Engineering (187 skills)
 
 ### Agents (23 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -130,7 +130,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (123 skills)
+### Models (124 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -368,6 +368,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [code-review-ai-ai-review](../skills/ai-engineering/models/code_review_ai_ai_re/code-review-ai-ai-review/SKILL.md) — Use this skill to you are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C
 - **Code_Review_And_Qual** (1):
   - [code-review-and-quality](../skills/ai-engineering/models/code_review_and_qual/code-review-and-quality/SKILL.md) — Use this skill to conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.
+- **Code_Review_Checklis** (1):
+  - [code-review-checklist](../skills/ai-engineering/models/code_review_checklis/code-review-checklist/SKILL.md) — Use this skill to comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

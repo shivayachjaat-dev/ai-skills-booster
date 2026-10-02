@@ -3669,6 +3669,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-review-checklist",
+    "path": "skills/ai-engineering/models/code_review_checklis/code-review-checklist",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "code_review_checklis",
+    "description": "Use this skill to comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Review Checklist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
