@@ -246,6 +246,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-agent-cron-and-autonomous-job-scheduling",
+    "path": "skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "scheduling",
+    "description": "Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.",
+    "tags": [
+      "agent-scheduling",
+      "cron",
+      "autonomous-agents",
+      "task-queue",
+      "distributed-locks",
+      "heartbeat"
+    ],
+    "technologies": [
+      "Python",
+      "APScheduler",
+      "Redis",
+      "Cron",
+      "Asyncio"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "context-window-engineering",
     "path": "skills/ai-engineering/context/optimization/context-window-engineering",
     "domain": "ai-engineering",

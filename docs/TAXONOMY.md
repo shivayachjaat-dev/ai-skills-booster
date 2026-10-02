@@ -13,7 +13,8 @@ AI_Skills_Booster/
 │   │   ├── observability/ (1 skills)
 │   │   ├── orchestration/ (1 skills)
 │   │   ├── orchestration-optimization/ (1 skills)
-│   │   └── process-management/ (1 skills)
+│   │   ├── process-management/ (1 skills)
+│   │   └── scheduling/ (1 skills)
 │   ├── context/
 │   │   └── optimization/ (1 skills)
 │   ├── evaluation/

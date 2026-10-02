@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [multi-agent-consensus-protocol](../../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) | `orchestration` | `expert` | `stable` | Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention. |
 | [multi-agent-workload-distribution-and-cost-optimization](../../skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization/SKILL.md) | `orchestration-optimization` | `advanced` | `stable` | Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs. |
 | [multi-agent-tmux-process-orchestrator](../../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) | `process-management` | `advanced` | `stable` | Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers. |
+| [ai-agent-cron-and-autonomous-job-scheduling](../../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) | `scheduling` | `advanced` | `stable` | Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring. |

@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **121** skills across structured domains, categories, and subcategories.
+Master navigation for **122** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (21 skills)
+## Ai Engineering (22 skills)
 
-### Agents (10 skills)
+### Agents (11 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Autogen** (1):
@@ -27,6 +27,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [multi-agent-workload-distribution-and-cost-optimization](../skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization/SKILL.md) — Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.
 - **Process Management** (1):
   - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
+- **Scheduling** (1):
+  - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 
 ### Context (1 skills)
 Category index: [`docs/categories/context.md`](categories/context.md)
