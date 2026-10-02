@@ -6470,6 +6470,28 @@
     "maturity": "stable"
   },
   {
+    "name": "document-management-system",
+    "path": "skills/ai-engineering/rag/document_management_/document-management-system",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "document_management_",
+    "description": "Use this skill to design, implement, and operate production workflows for document management system. Document register: type, owner, upload and signed dates, version, storage link, confidentiality and signature-required flag. Use for document control.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "document",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Document Management System",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rag-retrieval-evaluation",
     "path": "skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation",
     "domain": "ai-engineering",

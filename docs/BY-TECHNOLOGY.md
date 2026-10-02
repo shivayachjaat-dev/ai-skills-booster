@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (675 skills)
+## Bash (676 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1330,6 +1330,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cloudflare-workers-expert](../skills/ai-engineering/rag/cloudflare_workers_e/cloudflare-workers-expert/SKILL.md) — Use this skill to expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage.
 - [convex](../skills/ai-engineering/rag/convex/convex/SKILL.md) — Use this skill to convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment.
 - [cross-platform-contract-propagation-audit](../skills/ai-engineering/rag/cross_platform_contr/cross-platform-contract-propagation-audit/SKILL.md) — Use this skill to use when auditing whether a field, enum, flag, or API contract propagates consistently across storage, services, clients, analytics, and tests.
+- [document-management-system](../skills/ai-engineering/rag/document_management_/document-management-system/SKILL.md) — Use this skill to design, implement, and operate production workflows for document management system. Document register: type, owner, upload and signed dates, version, storage link, confidentiality and signature-required flag. Use for document control.
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [backend-architect](../skills/backend/api-design/backend_architect/backend-architect/SKILL.md) — Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
 - [backend-security-coder](../skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) — Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
@@ -3591,6 +3592,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [docs-guard](../skills/backend/api-frameworks/docs_guard/docs-guard/SKILL.md) — Use this skill to design, implement, and operate production workflows for docs guard. Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs, tutorials, and documentation sites.
 
+## Document Management System (1 skills)
+
+- [document-management-system](../skills/ai-engineering/rag/document_management_/document-management-system/SKILL.md) — Use this skill to design, implement, and operate production workflows for document management system. Document register: type, owner, upload and signed dates, version, storage link, confidentiality and signature-required flag. Use for document control.
+
 ## Domain-Driven Design (2 skills)
 
 - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
@@ -4741,7 +4746,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (778 skills)
+## Python (779 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -5028,6 +5033,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [cloudflare-workers-expert](../skills/ai-engineering/rag/cloudflare_workers_e/cloudflare-workers-expert/SKILL.md) — Use this skill to expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage.
 - [convex](../skills/ai-engineering/rag/convex/convex/SKILL.md) — Use this skill to convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment.
 - [cross-platform-contract-propagation-audit](../skills/ai-engineering/rag/cross_platform_contr/cross-platform-contract-propagation-audit/SKILL.md) — Use this skill to use when auditing whether a field, enum, flag, or API contract propagates consistently across storage, services, clients, analytics, and tests.
+- [document-management-system](../skills/ai-engineering/rag/document_management_/document-management-system/SKILL.md) — Use this skill to design, implement, and operate production workflows for document management system. Document register: type, owner, upload and signed dates, version, storage link, confidentiality and signature-required flag. Use for document control.
 - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.

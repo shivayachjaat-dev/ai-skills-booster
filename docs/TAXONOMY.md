@@ -296,6 +296,7 @@ AI_Skills_Booster/
 │   │   ├── cloudflare_workers_e/ (1 skills)
 │   │   ├── convex/ (1 skills)
 │   │   ├── cross_platform_contr/ (1 skills)
+│   │   ├── document_management_/ (1 skills)
 │   │   ├── evaluation/ (1 skills)
 │   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
