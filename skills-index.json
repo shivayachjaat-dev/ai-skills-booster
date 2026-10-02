@@ -7416,6 +7416,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cloudformation-best-practices",
+    "path": "skills/devops/cloud-infrastructure/cloudformation_best_/cloudformation-best-practices",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "cloudformation_best_",
+    "description": "Use this skill to cloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "cloudformation",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cloudformation Best Practices",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **528** skills across structured domains, categories, and subcategories.
+Master navigation for **529** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (178 skills)
 
@@ -832,7 +832,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (71 skills)
+## Devops (72 skills)
 
 ### Ci Cd (16 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -870,7 +870,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (34 skills)
+### Cloud Infrastructure (35 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -936,6 +936,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [azure-servicebus-ts](../skills/devops/cloud-infrastructure/azure_servicebus_ts/azure-servicebus-ts/SKILL.md) — Use this skill to enterprise messaging with queues, topics, and subscriptions.
 - **Cloud_Architect** (1):
   - [cloud-architect](../skills/devops/cloud-infrastructure/cloud_architect/cloud-architect/SKILL.md) — Use this skill to expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.
+- **Cloudformation_Best_** (1):
+  - [cloudformation-best-practices](../skills/devops/cloud-infrastructure/cloudformation_best_/cloudformation-best-practices/SKILL.md) — Use this skill to cloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)

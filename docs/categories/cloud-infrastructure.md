@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **34 skills** available in this category.
+> **35 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -38,3 +38,4 @@
 | [azure-servicebus-rust](../../skills/devops/cloud-infrastructure/azure_servicebus_rus/azure-servicebus-rust/SKILL.md) | `azure_servicebus_rus` | `advanced` | `stable` | Use this skill to azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions. Triggers: "service bus rust", "ServiceBusClient rust", "send message servicebus rust", "receive message servicebus rust", "queue rust messaging", "topic subscription rust". |
 | [azure-servicebus-ts](../../skills/devops/cloud-infrastructure/azure_servicebus_ts/azure-servicebus-ts/SKILL.md) | `azure_servicebus_ts` | `advanced` | `stable` | Use this skill to enterprise messaging with queues, topics, and subscriptions. |
 | [cloud-architect](../../skills/devops/cloud-infrastructure/cloud_architect/cloud-architect/SKILL.md) | `cloud_architect` | `advanced` | `stable` | Use this skill to expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. |
+| [cloudformation-best-practices](../../skills/devops/cloud-infrastructure/cloudformation_best_/cloudformation-best-practices/SKILL.md) | `cloudformation_best_` | `advanced` | `stable` | Use this skill to cloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates. |
