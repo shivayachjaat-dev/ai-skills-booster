@@ -1130,6 +1130,7 @@ AI_Skills_Booster/
 │   │   ├── hunt_lfi/ (1 skills)
 │   │   ├── hunt_mfa_bypass/ (1 skills)
 │   │   ├── hunt_nextjs/ (1 skills)
+│   │   ├── hunt_nodejs/ (1 skills)
 │   │   ├── laravel_security_aud/ (1 skills)
 │   │   ├── mcp_dependency_drift/ (1 skills)
 │   │   ├── meme_coin_audit/ (1 skills)
