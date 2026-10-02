@@ -13149,6 +13149,28 @@
     "maturity": "stable"
   },
   {
+    "name": "flat-design",
+    "path": "skills/frontend/web-architecture/flat_design/flat-design",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "flat_design",
+    "description": "Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "flat",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Flat Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

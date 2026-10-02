@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (592 skills)
+## Bash (593 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1528,6 +1528,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [data-dense-design](../skills/frontend/web-architecture/data_dense_design/data-dense-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for data dense design. Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs).
 - [defuddle](../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) — Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.
 - [duotone-design](../skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.
+- [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
 - [seo-aeo-content-quality-auditor](../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) — Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified.
@@ -3439,6 +3440,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [flagger-canary-progressive-delivery](../skills/devops/continuous-delivery/flagger/flagger-canary-progressive-delivery/SKILL.md) — Use this skill when designing, configuring, and automating canary progressive delivery on Kubernetes using Flagger and service meshes (Istio/Linkerd). It covers Canary CRD resource declarations, automated metric analysis (request success rate, P99 latency via Prometheus), progressive traffic stepping (10% to 50%), automated rollback on anomalies, and webhook alerting.
 
+## Flat Design (1 skills)
+
+- [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
+
 ## Flower (1 skills)
 
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
@@ -4389,7 +4394,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (695 skills)
+## Python (696 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4919,6 +4924,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [data-dense-design](../skills/frontend/web-architecture/data_dense_design/data-dense-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for data dense design. Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs).
 - [defuddle](../skills/frontend/web-architecture/defuddle/defuddle/SKILL.md) — Use this skill to extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.
 - [duotone-design](../skills/frontend/web-architecture/duotone_design/duotone-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for duotone design. Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.
+- [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
 - [seo-aeo-content-quality-auditor](../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) — Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified.
