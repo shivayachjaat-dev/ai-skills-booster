@@ -12302,6 +12302,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nfs-storage",
+    "path": "skills/ai-engineering/rag/nfs_storage/nfs-storage",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "nfs_storage",
+    "description": "Use this skill to design, implement, and operate production workflows for nfs storage. Configure NFS servers and clients. Implement network file sharing for",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "nfs",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nfs Storage",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

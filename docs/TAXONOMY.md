@@ -559,6 +559,7 @@ AI_Skills_Booster/
 │   │   ├── monte_carlo_storage_/ (1 skills)
 │   │   ├── neon_object_storage/ (1 skills)
 │   │   ├── nextjs_seo_indexing/ (1 skills)
+│   │   ├── nfs_storage/ (1 skills)
 │   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)
