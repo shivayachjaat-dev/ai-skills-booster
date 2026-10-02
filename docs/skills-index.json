@@ -4754,6 +4754,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-monitor-opentelemetry-exporter-java",
+    "path": "skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-exporter-java",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_monitor_opente",
+    "description": "Use this skill to azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Monitor Opentelemetry Exporter Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

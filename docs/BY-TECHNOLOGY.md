@@ -849,6 +849,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-monitor-ingestion-py](../skills/backend/api-frameworks/azure_monitor_ingest/azure-monitor-ingestion-py/SKILL.md) — Use this skill to azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.
 
+## Azure Monitor Opentelemetry Exporter Java (1 skills)
+
+- [azure-monitor-opentelemetry-exporter-java](../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-exporter-java/SKILL.md) — Use this skill to azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.
+
 ## Azure OpenAI (1 skills)
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
@@ -857,7 +861,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (150 skills)
+## Bash (151 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -976,6 +980,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-mgmt-weightsandbiases-dotnet](../skills/devops/cloud-infrastructure/azure_mgmt_weightsan/azure-mgmt-weightsandbiases-dotnet/SKILL.md) — Use this skill to azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability.
 - [azure-microsoft-playwright-testing-ts](../skills/devops/cloud-infrastructure/azure_microsoft_play/azure-microsoft-playwright-testing-ts/SKILL.md) — Use this skill to run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.
 - [azure-monitor-ingestion-java](../skills/devops/cloud-infrastructure/azure_monitor_ingest/azure-monitor-ingestion-java/SKILL.md) — Use this skill to azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).
+- [azure-monitor-opentelemetry-exporter-java](../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-exporter-java/SKILL.md) — Use this skill to azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.
 - [azure-cosmos-java](../skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java/SKILL.md) — Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.
 - [anti-sleep](../skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) — Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.
 - [ask-questions-if-underspecified](../skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) — Use this skill to clarify requirements before implementing. Use when serious doubts arise.
@@ -2247,7 +2252,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (253 skills)
+## Python (254 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2429,6 +2434,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [azure-mgmt-weightsandbiases-dotnet](../skills/devops/cloud-infrastructure/azure_mgmt_weightsan/azure-mgmt-weightsandbiases-dotnet/SKILL.md) — Use this skill to azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability.
 - [azure-microsoft-playwright-testing-ts](../skills/devops/cloud-infrastructure/azure_microsoft_play/azure-microsoft-playwright-testing-ts/SKILL.md) — Use this skill to run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.
 - [azure-monitor-ingestion-java](../skills/devops/cloud-infrastructure/azure_monitor_ingest/azure-monitor-ingestion-java/SKILL.md) — Use this skill to azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).
+- [azure-monitor-opentelemetry-exporter-java](../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-exporter-java/SKILL.md) — Use this skill to azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
 - [aws-cdk-v2-infrastructure-as-code-architecture](../skills/devops/infrastructure/aws-cdk/aws-cdk-v2-infrastructure-as-code-architecture/SKILL.md) — Use this skill to design, build, and deploy production AWS cloud infrastructure using the AWS Cloud Development Kit (CDK v2) in TypeScript and Python. It covers L1/L2/L3 construct composition, multi-account multi-region pipelines (cdk-pipelines), automated compliance enforcement with CDK Aspects (IAspect), unit and snapshot testing with @aws-cdk/assertions, and drift remediation.
 - [azure-application-insights-telemetry-and-distributed-tracing](../skills/devops/observability/application-insights/azure-application-insights-telemetry-and-distributed-tracing/SKILL.md) — Use this skill to instrument web applications, browser frontends, and Node.js/Python microservices with Azure Application Insights telemetry SDKs. It covers distributed W3C trace propagation, custom business event tracking, client-side unhandled exception telemetry, and Kusto (KQL) query diagnostics.

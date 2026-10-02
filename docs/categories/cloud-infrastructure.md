@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,3 +28,4 @@
 | [azure-mgmt-weightsandbiases-dotnet](../../skills/devops/cloud-infrastructure/azure_mgmt_weightsan/azure-mgmt-weightsandbiases-dotnet/SKILL.md) | `azure_mgmt_weightsan` | `advanced` | `stable` | Use this skill to azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability. |
 | [azure-microsoft-playwright-testing-ts](../../skills/devops/cloud-infrastructure/azure_microsoft_play/azure-microsoft-playwright-testing-ts/SKILL.md) | `azure_microsoft_play` | `advanced` | `stable` | Use this skill to run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting. |
 | [azure-monitor-ingestion-java](../../skills/devops/cloud-infrastructure/azure_monitor_ingest/azure-monitor-ingestion-java/SKILL.md) | `azure_monitor_ingest` | `advanced` | `stable` | Use this skill to azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE). |
+| [azure-monitor-opentelemetry-exporter-java](../../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-exporter-java/SKILL.md) | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights. |
