@@ -2347,6 +2347,32 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-application-insights-telemetry-and-distributed-tracing",
+    "path": "skills/devops/observability/application-insights/azure-application-insights-telemetry-and-distributed-tracing",
+    "domain": "devops",
+    "category": "observability",
+    "subcategory": "application-insights",
+    "description": "Use this skill to instrument web applications, browser frontends, and Node.js/Python microservices with Azure Application Insights telemetry SDKs. It covers distributed W3C trace propagation, custom business event tracking, client-side unhandled exception telemetry, and Kusto (KQL) query diagnostics.",
+    "tags": [
+      "application-insights",
+      "azure",
+      "telemetry",
+      "distributed-tracing",
+      "kusto-kql",
+      "observability",
+      "devops"
+    ],
+    "technologies": [
+      "Application Insights SDK",
+      "TypeScript",
+      "Python",
+      "Kusto KQL",
+      "W3C TraceContext"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "grafana-loki-log-aggregation",
     "path": "skills/devops/observability/grafana-loki/grafana-loki-log-aggregation",
     "domain": "devops",

@@ -170,6 +170,7 @@ AI_Skills_Booster/
 │   ├── monitoring/
 │   │   └── prometheus/ (2 skills)
 │   ├── observability/
+│   │   ├── application-insights/ (1 skills)
 │   │   ├── grafana-loki/ (1 skills)
 │   │   ├── opentelemetry/ (1 skills)
 │   │   └── opentelemetry-collector/ (1 skills)

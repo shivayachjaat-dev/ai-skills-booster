@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **167** skills across structured domains, categories, and subcategories.
+Master navigation for **168** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (31 skills)
 
@@ -400,7 +400,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (18 skills)
+## Devops (19 skills)
 
 ### Ci Cd (1 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -471,9 +471,11 @@ Category index: [`docs/categories/monitoring.md`](categories/monitoring.md)
   - [prometheus-grafana-observability](../skills/devops/monitoring/prometheus/prometheus-grafana-observability/SKILL.md) — Use this skill when designing, instrumenting, and deploying application monitoring stacks using Prometheus metrics and Grafana dashboards. It guides the agent through the Four Golden Signals (Latency, Traffic, Errors, Saturation), metric type selection (Counter, Gauge, Histogram, Summary), PromQL query authoring, and actionable Alertmanager alerting rules.
   - [prometheus-metrics-instrumentation](../skills/devops/monitoring/prometheus/prometheus-metrics-instrumentation/SKILL.md) — Use this skill when instrumenting backend microservices with Prometheus metrics. It guides the agent through selecting metric types (Counter, Gauge, Histogram, Summary), enforcing the RED and USE monitoring methods, label cardinality management to avoid memory exhaustion, and authoring alerting rules (PromQL).
 
-### Observability (3 skills)
+### Observability (4 skills)
 Category index: [`docs/categories/observability.md`](categories/observability.md)
 
+- **Application Insights** (1):
+  - [azure-application-insights-telemetry-and-distributed-tracing](../skills/devops/observability/application-insights/azure-application-insights-telemetry-and-distributed-tracing/SKILL.md) — Use this skill to instrument web applications, browser frontends, and Node.js/Python microservices with Azure Application Insights telemetry SDKs. It covers distributed W3C trace propagation, custom business event tracking, client-side unhandled exception telemetry, and Kusto (KQL) query diagnostics.
 - **Grafana Loki** (1):
   - [grafana-loki-log-aggregation](../skills/devops/observability/grafana-loki/grafana-loki-log-aggregation/SKILL.md) — Use this skill when designing, configuring, and querying horizontally scalable log aggregation systems using Grafana Loki and Promtail / Grafana Alloy. It guides the agent through label cardinality management to prevent index explosion, authoring LogQL queries and metric extractions, configuring structured metadata, and creating LogQL alerting rules.
 - **Opentelemetry** (1):
