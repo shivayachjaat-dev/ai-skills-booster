@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **27 skills** available in this category.
+> **28 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -30,4 +30,5 @@
 | [aws-ecs-fargate](../../skills/ai-engineering/models/aws_ecs_fargate/aws-ecs-fargate/SKILL.md) | `aws_ecs_fargate` | `advanced` | `stable` | Use this skill to deploy containers on ECS and Fargate. Configure task definitions, services, |
 | [awt-e2e-testing](../../skills/ai-engineering/models/awt_e2e_testing/awt-e2e-testing/SKILL.md) | `awt_e2e_testing` | `advanced` | `stable` | Use this skill to aI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g |
 | [azd-deployment](../../skills/ai-engineering/models/azd_deployment/azd-deployment/SKILL.md) | `azd_deployment` | `advanced` | `stable` | Use this skill to deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure. |
+| [azure-ai-agents-persistent-dotnet](../../skills/ai-engineering/models/azure_ai_agents_pers/azure-ai-agents-persistent-dotnet/SKILL.md) | `azure_ai_agents_pers` | `advanced` | `stable` | Use this skill to azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

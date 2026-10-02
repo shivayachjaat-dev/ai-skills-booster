@@ -1337,6 +1337,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-agents-persistent-dotnet",
+    "path": "skills/ai-engineering/models/azure_ai_agents_pers/azure-ai-agents-persistent-dotnet",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_agents_pers",
+    "description": "Use this skill to azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Agents Persistent Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

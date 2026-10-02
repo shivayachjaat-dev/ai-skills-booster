@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **245** skills across structured domains, categories, and subcategories.
+Master navigation for **246** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (67 skills)
+## Ai Engineering (68 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (27 skills)
+### Models (28 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -165,6 +165,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [awt-e2e-testing](../skills/ai-engineering/models/awt_e2e_testing/awt-e2e-testing/SKILL.md) — Use this skill to aI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g
 - **Azd_Deployment** (1):
   - [azd-deployment](../skills/ai-engineering/models/azd_deployment/azd-deployment/SKILL.md) — Use this skill to deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure.
+- **Azure_Ai_Agents_Pers** (1):
+  - [azure-ai-agents-persistent-dotnet](../skills/ai-engineering/models/azure_ai_agents_pers/azure-ai-agents-persistent-dotnet/SKILL.md) — Use this skill to azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
