@@ -8861,6 +8861,28 @@
     "maturity": "stable"
   },
   {
+    "name": "issue-grievance-tracker",
+    "path": "skills/ai-engineering/models/issue_grievance_trac/issue-grievance-tracker",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "issue_grievance_trac",
+    "description": "Use this skill to design, implement, and operate production workflows for issue grievance tracker. Grievance register: issue type, raised by or anonymous, person or team concerned, department, date raised, policy reference, severity, assignee, action taken and status. Use for complaint handling.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "issue",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Issue Grievance Tracker",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **319 skills** available in this category.
+> **320 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -317,6 +317,7 @@
 | [incident-response-smart-fix](../../skills/ai-engineering/models/incident_response_sm/incident-response-smart-fix/SKILL.md) | `incident_response_sm` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for incident response smart fix. [Extended thinking: This workflow implements a sophisticated debugging and resolution pipeline that leverages AI-assisted debugging tools and observability platforms to systematically diagnose and res |
 | [instructree](../../skills/ai-engineering/models/instructree/instructree/SKILL.md) | `instructree` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for instructree. Map, explain, and lint repository-scoped coding-agent instructions before changing code. |
 | [inventory-demand-planning](../../skills/ai-engineering/models/inventory_demand_pla/inventory-demand-planning/SKILL.md) | `inventory_demand_pla` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for inventory demand planning. Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers. |
+| [issue-grievance-tracker](../../skills/ai-engineering/models/issue_grievance_trac/issue-grievance-tracker/SKILL.md) | `issue_grievance_trac` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for issue grievance tracker. Grievance register: issue type, raised by or anonymous, person or team concerned, department, date raised, policy reference, severity, assignee, action taken and status. Use for complaint handling. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

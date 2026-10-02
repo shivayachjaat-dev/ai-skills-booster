@@ -1069,7 +1069,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1134 skills)
+## Bash (1135 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1445,6 +1445,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [incident-response-smart-fix](../skills/ai-engineering/models/incident_response_sm/incident-response-smart-fix/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident response smart fix. [Extended thinking: This workflow implements a sophisticated debugging and resolution pipeline that leverages AI-assisted debugging tools and observability platforms to systematically diagnose and res
 - [instructree](../skills/ai-engineering/models/instructree/instructree/SKILL.md) — Use this skill to design, implement, and operate production workflows for instructree. Map, explain, and lint repository-scoped coding-agent instructions before changing code.
 - [inventory-demand-planning](../skills/ai-engineering/models/inventory_demand_pla/inventory-demand-planning/SKILL.md) — Use this skill to design, implement, and operate production workflows for inventory demand planning. Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.
+- [issue-grievance-tracker](../skills/ai-engineering/models/issue_grievance_trac/issue-grievance-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for issue grievance tracker. Grievance register: issue type, raised by or anonymous, person or team concerned, department, date raised, policy reference, severity, assignee, action taken and status. Use for complaint handling.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -6331,6 +6332,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [isometric-design](../skills/frontend/web-architecture/isometric_design/isometric-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for isometric design. Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
 
+## Issue Grievance Tracker (1 skills)
+
+- [issue-grievance-tracker](../skills/ai-engineering/models/issue_grievance_trac/issue-grievance-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for issue grievance tracker. Grievance register: issue type, raised by or anonymous, person or team concerned, department, date raised, policy reference, severity, assignee, action taken and status. Use for complaint handling.
+
 ## Istio (4 skills)
 
 - [llm-inference-service-mesh-and-vllm-routing](../skills/ai-engineering/inference/vllm-mesh/llm-inference-service-mesh-and-vllm-routing/SKILL.md) — Use this skill to design, deploy, and manage Kubernetes service mesh architectures (Istio, Envoy) tailored for distributed LLM inference clusters running vLLM, TensorRT-LLM, or Triton. It covers KV-cache-aware routing, P99 latency SLA circuit breaking, streaming SSE backpressure, and mTLS pod-to-pod security.
@@ -7032,7 +7037,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1237 skills)
+## Python (1238 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -7429,6 +7434,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [incident-response-smart-fix](../skills/ai-engineering/models/incident_response_sm/incident-response-smart-fix/SKILL.md) — Use this skill to design, implement, and operate production workflows for incident response smart fix. [Extended thinking: This workflow implements a sophisticated debugging and resolution pipeline that leverages AI-assisted debugging tools and observability platforms to systematically diagnose and res
 - [instructree](../skills/ai-engineering/models/instructree/instructree/SKILL.md) — Use this skill to design, implement, and operate production workflows for instructree. Map, explain, and lint repository-scoped coding-agent instructions before changing code.
 - [inventory-demand-planning](../skills/ai-engineering/models/inventory_demand_pla/inventory-demand-planning/SKILL.md) — Use this skill to design, implement, and operate production workflows for inventory demand planning. Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.
+- [issue-grievance-tracker](../skills/ai-engineering/models/issue_grievance_trac/issue-grievance-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for issue grievance tracker. Grievance register: issue type, raised by or anonymous, person or team concerned, department, date raised, policy reference, severity, assignee, action taken and status. Use for complaint handling.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
