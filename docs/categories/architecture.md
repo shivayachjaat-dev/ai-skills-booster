@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **55 skills** available in this category.
+> **56 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -59,3 +59,4 @@
 | [create-issue-gate](../../skills/software-engineering/architecture/patterns/create-issue-gate/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution. |
 | [create-pr](../../skills/software-engineering/architecture/patterns/create-pr/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to alias for pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name. Redirects to the canonical PR writing workflow. |
 | [crossframe](../../skills/software-engineering/architecture/patterns/crossframe/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when the user explicitly invokes CrossFrame or 跨尺度结构诊断 for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution. |
+| [crossframe-critical](../../skills/software-engineering/architecture/patterns/crossframe-critical/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use only when the user explicitly names crossframe-critical for a Chinese structural critique dossier, article plan, or long-form critical essay. |

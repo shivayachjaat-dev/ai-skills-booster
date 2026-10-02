@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **634** skills across structured domains, categories, and subcategories.
+Master navigation for **635** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (227 skills)
 
@@ -1705,9 +1705,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (61 skills)
+## Software Engineering (62 skills)
 
-### Architecture (54 skills)
+### Architecture (55 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -1716,7 +1716,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (51):
+- **Patterns** (52):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -1768,6 +1768,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [create-issue-gate](../skills/software-engineering/architecture/patterns/create-issue-gate/SKILL.md) — Use this skill to use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.
   - [create-pr](../skills/software-engineering/architecture/patterns/create-pr/SKILL.md) — Use this skill to alias for pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name. Redirects to the canonical PR writing workflow.
   - [crossframe](../skills/software-engineering/architecture/patterns/crossframe/SKILL.md) — Use this skill to use when the user explicitly invokes CrossFrame or 跨尺度结构诊断 for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution.
+  - [crossframe-critical](../skills/software-engineering/architecture/patterns/crossframe-critical/SKILL.md) — Use this skill to use only when the user explicitly names crossframe-critical for a Chinese structural critique dossier, article plan, or long-form critical essay.
 
 ### Code Review (1 skills)
 Category index: [`docs/categories/code-review.md`](categories/code-review.md)

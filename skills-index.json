@@ -14127,6 +14127,28 @@
     "maturity": "stable"
   },
   {
+    "name": "crossframe-critical",
+    "path": "skills/software-engineering/architecture/patterns/crossframe-critical",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to use only when the user explicitly names crossframe-critical for a Chinese structural critique dossier, article plan, or long-form critical essay.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "crossframe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Crossframe Critical",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
