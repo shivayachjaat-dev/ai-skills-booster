@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **14 skills** available in this category.
+> **15 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -18,3 +18,4 @@
 | [gamification-engine](../../skills/business/operations/gamification_engine/gamification-engine/SKILL.md) | `gamification_engine` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gamification engine. Gamification points register: player and department, points balance and points earned this month, level, badges, source module and last-updated date. Use for points and badge tracking. |
 | [gbp-local-seo-intent](../../skills/business/operations/gbp_local_seo_intent/gbp-local-seo-intent/SKILL.md) | `gbp_local_seo_intent` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gbp local seo intent. Google Business Profile register: element, primary and supporting keywords, search intent, landing page, post dates, review rating and reply status, visibility and status. Use for local SEO. |
 | [health-wellness](../../skills/business/operations/health_wellness/health-wellness/SKILL.md) | `health_wellness` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for health wellness. Wellbeing check-in register: anonymous flag, department, check-in date, wellbeing score, stress and energy levels, support and resource flags, confidentiality and status. Use for wellness programmes. |
+| [intern-program](../../skills/business/operations/intern_program/intern-program/SKILL.md) | `intern_program` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for intern program. Internship register: intern and department, supervisor and mentor, institution, start and end dates, stipend, learning goals, mid-term and final scores, conversion flags. Use for intern tracking. |

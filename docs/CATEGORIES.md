@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,300** skills across structured domains, categories, and subcategories.
+Master navigation for **1,301** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (435 skills)
 
@@ -1169,7 +1169,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (26 skills)
+## Business (27 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1207,7 +1207,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (14 skills)
+### Operations (15 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1238,6 +1238,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [gbp-local-seo-intent](../skills/business/operations/gbp_local_seo_intent/gbp-local-seo-intent/SKILL.md) — Use this skill to design, implement, and operate production workflows for gbp local seo intent. Google Business Profile register: element, primary and supporting keywords, search intent, landing page, post dates, review rating and reply status, visibility and status. Use for local SEO.
 - **Health_Wellness** (1):
   - [health-wellness](../skills/business/operations/health_wellness/health-wellness/SKILL.md) — Use this skill to design, implement, and operate production workflows for health wellness. Wellbeing check-in register: anonymous flag, department, check-in date, wellbeing score, stress and energy levels, support and resource flags, confidentiality and status. Use for wellness programmes.
+- **Intern_Program** (1):
+  - [intern-program](../skills/business/operations/intern_program/intern-program/SKILL.md) — Use this skill to design, implement, and operate production workflows for intern program. Internship register: intern and department, supervisor and mentor, institution, start and end dates, stipend, learning goals, mid-term and final scores, conversion flags. Use for intern tracking.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)
