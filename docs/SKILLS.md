@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,006 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,007 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -710,6 +710,7 @@
 | [finishing-a-development-branch](skills/frontend/ui-ux/finishing_a_developm/finishing-a-development-branch/SKILL.md) | `frontend` | `ui-ux` | `finishing_a_developm` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for finishing a development branch. Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup |
 | [firebase-app-platform](skills/frontend/ui-ux/firebase_app_platfor/firebase-app-platform/SKILL.md) | `frontend` | `ui-ux` | `firebase_app_platfor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for firebase app platform. Build and operate apps on Firebase using Auth, Firestore, Cloud Functions, |
 | [formik-patterns](skills/frontend/ui-ux/formik_patterns/formik-patterns/SKILL.md) | `frontend` | `ui-ux` | `formik_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for formik patterns. Formik form handling with validation patterns. Use when building forms, implementing validation, or handling form submission. |
+| [fp-option-ref](skills/frontend/ui-ux/fp_option_ref/fp-option-ref/SKILL.md) | `frontend` | `ui-ux` | `fp_option_ref` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp option ref. Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |

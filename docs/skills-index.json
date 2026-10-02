@@ -15943,6 +15943,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fp-option-ref",
+    "path": "skills/frontend/ui-ux/fp_option_ref/fp-option-ref",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "fp_option_ref",
+    "description": "Use this skill to design, implement, and operate production workflows for fp option ref. Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "fp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fp Option Ref",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
