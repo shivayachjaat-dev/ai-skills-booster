@@ -1345,6 +1345,7 @@ AI_Skills_Booster/
 │   │   ├── digital_forensics/ (1 skills)
 │   │   ├── hubspot_integration/ (1 skills)
 │   │   ├── identity_federation/ (1 skills)
+│   │   ├── malware_analysis/ (1 skills)
 │   │   └── oauth2/ (1 skills)
 │   ├── authorization/
 │   │   └── rbac/ (1 skills)

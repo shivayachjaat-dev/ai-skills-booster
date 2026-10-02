@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,471** skills across structured domains, categories, and subcategories.
+Master navigation for **1,472** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (514 skills)
 
@@ -2730,7 +2730,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (149 skills)
+## Security (150 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2939,7 +2939,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 - **Zero Trust** (1):
   - [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
 
-### Authentication (13 skills)
+### Authentication (14 skills)
 Category index: [`docs/categories/authentication.md`](categories/authentication.md)
 
 - **Azure_Communication_** (1):
@@ -2966,6 +2966,8 @@ Category index: [`docs/categories/authentication.md`](categories/authentication.
   - [hubspot-integration](../skills/security/authentication/hubspot_integration/hubspot-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for hubspot integration. Expert patterns for HubSpot CRM integration including OAuth
 - **Identity_Federation** (1):
   - [identity-federation](../skills/security/authentication/identity_federation/identity-federation/SKILL.md) — Use this skill to design, implement, and operate production workflows for identity federation. Authorized assessment of federated identity systems: SAML, OIDC, OAuth2 flows, SSO misconfiguration, and token-confusion issues.
+- **Malware_Analysis** (1):
+  - [malware-analysis](../skills/security/authentication/malware_analysis/malware-analysis/SKILL.md) — Use this skill to design, implement, and operate production workflows for malware analysis. Analyze suspected malware through static, dynamic, and behavioral techniques: IOC extraction, YARA/Sigma rule authoring, sandbox orchestration, and anti-analysis detection.
 - **Oauth2** (1):
   - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
 

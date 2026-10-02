@@ -27439,6 +27439,28 @@
     "maturity": "stable"
   },
   {
+    "name": "malware-analysis",
+    "path": "skills/security/authentication/malware_analysis/malware-analysis",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "malware_analysis",
+    "description": "Use this skill to design, implement, and operate production workflows for malware analysis. Analyze suspected malware through static, dynamic, and behavioral techniques: IOC extraction, YARA/Sigma rule authoring, sandbox orchestration, and anti-analysis detection.",
+    "tags": [
+      "security",
+      "authentication",
+      "malware",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Malware Analysis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
