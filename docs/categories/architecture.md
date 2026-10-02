@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **14 skills** available in this category.
+> **15 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -18,3 +18,4 @@
 | [billing-automation](../../skills/software-engineering/architecture/patterns/billing-automation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation. |
 | [binary-analysis-patterns](../../skills/software-engineering/architecture/patterns/binary-analysis-patterns/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic. |
 | [binary-diff](../../skills/software-engineering/architecture/patterns/binary-diff/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to cross-version binary symbol migration: diff updated binaries, recover function names without PDBs, and propagate annotations after software updates using BinDiff-style tooling. |
+| [bug-hunter](../../skills/software-engineering/architecture/patterns/bug-hunter/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression. |
