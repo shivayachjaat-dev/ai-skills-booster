@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **991** skills across structured domains, categories, and subcategories.
+Master navigation for **992** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (348 skills)
 
@@ -2036,7 +2036,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (86 skills)
+## Security (87 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2185,7 +2185,7 @@ Category index: [`docs/categories/code-review.md`](categories/code-review.md)
 - **Github** (1):
   - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
 
-### Compliance (12 skills)
+### Compliance (13 skills)
 Category index: [`docs/categories/compliance.md`](categories/compliance.md)
 
 - **Audit Logging** (1):
@@ -2194,6 +2194,8 @@ Category index: [`docs/categories/compliance.md`](categories/compliance.md)
   - [brooks-audit](../skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) — Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.
 - **Busabase** (1):
   - [busabase](../skills/security/compliance/busabase/busabase/SKILL.md) — Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history.
+- **Fix_Review** (1):
+  - [fix-review](../skills/security/compliance/fix_review/fix-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for fix review. Verify fix commits address audit findings without new bugs
 - **Indexing_Issue_Audit** (1):
   - [indexing-issue-auditor](../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) — Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.
 - **Local_Legal_Seo_Audi** (1):

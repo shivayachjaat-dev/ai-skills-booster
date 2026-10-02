@@ -18862,6 +18862,28 @@
     "maturity": "stable"
   },
   {
+    "name": "fix-review",
+    "path": "skills/security/compliance/fix_review/fix-review",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "fix_review",
+    "description": "Use this skill to design, implement, and operate production workflows for fix review. Verify fix commits address audit findings without new bugs",
+    "tags": [
+      "security",
+      "compliance",
+      "fix",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Fix Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "indexing-issue-auditor",
     "path": "skills/security/compliance/indexing_issue_audit/indexing-issue-auditor",
     "domain": "security",

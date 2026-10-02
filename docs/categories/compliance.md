@@ -1,12 +1,13 @@
 # Category Index: Compliance
 
-> **12 skills** available in this category.
+> **13 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
 | [tamper-evident-audit-logging-and-siem-integration](../../skills/security/compliance/audit-logging/tamper-evident-audit-logging-and-siem-integration/SKILL.md) | `audit-logging` | `advanced` | `stable` | Use this skill to design and implement immutable, tamper-evident audit logging architectures with enterprise SIEM integration. It covers cryptographic HMAC hash chains, structured Common Event Format (CEF) and Elastic Common Schema (ECS) event modeling, automated PII redaction, secure multi-region syslog forwarding (TLS/mTLS), and retention compliance for SOC2, ISO 27001, and HIPAA. |
 | [brooks-audit](../../skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) | `brooks_audit` | `advanced` | `stable` | Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books. |
 | [busabase](../../skills/security/compliance/busabase/busabase/SKILL.md) | `busabase` | `advanced` | `stable` | Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history. |
+| [fix-review](../../skills/security/compliance/fix_review/fix-review/SKILL.md) | `fix_review` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fix review. Verify fix commits address audit findings without new bugs |
 | [indexing-issue-auditor](../../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) | `indexing_issue_audit` | `advanced` | `stable` | Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors. |
 | [local-legal-seo-audit](../../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) | `local_legal_seo_audi` | `advanced` | `stable` | Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages. |
 | [production-code-audit](../../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) | `production_code_audi` | `advanced` | `stable` | Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations |
