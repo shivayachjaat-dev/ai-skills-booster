@@ -15491,6 +15491,28 @@
     "maturity": "stable"
   },
   {
+    "name": "debugging-toolkit-smart-debug",
+    "path": "skills/software-engineering/architecture/patterns/debugging-toolkit-smart-debug",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to use when working with debugging toolkit smart debug",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "debugging",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Debugging Toolkit Smart Debug",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
