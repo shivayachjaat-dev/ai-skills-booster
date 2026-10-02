@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **361** skills across structured domains, categories, and subcategories.
+Master navigation for **362** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (112 skills)
+## Ai Engineering (113 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -114,7 +114,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (66 skills)
+### Models (67 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -238,6 +238,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-storage-blob-py](../skills/ai-engineering/models/azure_storage_blob_p/azure-storage-blob-py/SKILL.md) — Use this skill to azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle.
 - **Azure_Storage_Blob_R** (1):
   - [azure-storage-blob-rust](../skills/ai-engineering/models/azure_storage_blob_r/azure-storage-blob-rust/SKILL.md) — Use this skill to azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.
+- **Azure_Storage_Blob_T** (1):
+  - [azure-storage-blob-ts](../skills/ai-engineering/models/azure_storage_blob_t/azure-storage-blob-ts/SKILL.md) — Use this skill to azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 

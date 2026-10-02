@@ -2239,6 +2239,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-storage-blob-ts",
+    "path": "skills/ai-engineering/models/azure_storage_blob_t/azure-storage-blob-ts",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_storage_blob_t",
+    "description": "Use this skill to azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Storage Blob Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
