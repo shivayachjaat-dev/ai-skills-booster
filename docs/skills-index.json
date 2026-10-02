@@ -12511,6 +12511,28 @@
     "maturity": "stable"
   },
   {
+    "name": "3d-ui",
+    "path": "skills/frontend/web-architecture/3d_ui/3d-ui",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "3d_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "3d",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "3D Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
