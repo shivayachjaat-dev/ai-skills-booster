@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,038 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,039 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -327,6 +327,7 @@
 | [free-tier-strategy](skills/ai-engineering/models/free_tier_strategy/free-tier-strategy/SKILL.md) | `ai-engineering` | `models` | `free_tier_strategy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for free tier strategy. Design free tiers that convert to paid without creating resentment or abuse. Trigger phrases: free tier design, freemium model, free trial strategy, free tier limits, developer free plan, open source commercial, feature gating, upgrade triggers, free ti... |
 | [freshservice-automation](skills/ai-engineering/models/freshservice_automat/freshservice-automation/SKILL.md) | `ai-engineering` | `models` | `freshservice_automat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for freshservice automation. Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas. |
 | [frontend-design](skills/ai-engineering/models/frontend_design/frontend-design/SKILL.md) | `ai-engineering` | `models` | `frontend_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend design. Design and implement a distinctive frontend within the product’s existing brand, accessibility, performance and framework constraints. |
+| [frontend-ui-dark-ts](skills/ai-engineering/models/frontend_ui_dark_ts/frontend-ui-dark-ts/SKILL.md) | `ai-engineering` | `models` | `frontend_ui_dark_ts` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend ui dark ts. A modern dark-themed React UI system using Tailwind CSS and Framer Motion. Designed for dashboards, admin panels, and data-rich applications with glassmorphism effects and tasteful animations. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
