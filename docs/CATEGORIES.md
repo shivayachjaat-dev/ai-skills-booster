@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **879** skills across structured domains, categories, and subcategories.
+Master navigation for **880** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (305 skills)
+## Ai Engineering (306 skills)
 
 ### Agents (36 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -170,7 +170,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (218 skills)
+### Models (219 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -580,6 +580,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [dropthehassle-publish](../skills/ai-engineering/models/dropthehassle_publis/dropthehassle-publish/SKILL.md) — Use this skill to design, implement, and operate production workflows for dropthehassle publish. Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money.
 - **E2E_Testing_Patterns** (1):
   - [e2e-testing-patterns](../skills/ai-engineering/models/e2e_testing_patterns/e2e-testing-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for e2e testing patterns. Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.
+- **Earllm_Build** (1):
+  - [earllm-build](../skills/ai-engineering/models/earllm_build/earllm-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for earllm build. Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):

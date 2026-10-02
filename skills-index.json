@@ -6001,6 +6001,28 @@
     "maturity": "stable"
   },
   {
+    "name": "earllm-build",
+    "path": "skills/ai-engineering/models/earllm_build/earllm-build",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "earllm_build",
+    "description": "Use this skill to design, implement, and operate production workflows for earllm build. Build, maintain, and extend the EarLLM One Android project \u2014 a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "earllm",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Earllm Build",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",
