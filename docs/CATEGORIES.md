@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **81** skills across structured domains, categories, and subcategories.
+Master navigation for **82** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (12 skills)
 
@@ -325,7 +325,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (14 skills)
+## Security (15 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -399,9 +399,11 @@ Category index: [`docs/categories/vulnerability-scanning.md`](categories/vulnera
 - **Trivy** (1):
   - [container-vulnerability-scanning-trivy](../skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy/SKILL.md) — Use this skill when auditing, scanning, and enforcing security policies across container images, filesystems, and Software Bill of Materials (SBOM) using Aqua Security Trivy. It guides the agent through CI/CD gate automation, severity threshold enforcement (CRITICAL/HIGH), CVE filtering via .trivyignore, and generating CycloneDX SBOMs.
 
-### Zero Trust (2 skills)
+### Zero Trust (3 skills)
 Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 
+- **Boundary** (1):
+  - [hashicorp-boundary-secure-remote-access](../skills/security/zero-trust/boundary/hashicorp-boundary-secure-remote-access/SKILL.md) — Use this skill when designing, configuring, and operating identity-aware secure remote access architectures using HashiCorp Boundary. It guides the agent through defining Scopes (Global, Org, Project), dynamic host catalogs (AWS/K8s), targets (SSH, PostgreSQL, Kubernetes), credential brokering with Vault, and session recording.
 - **Mfa Webauthn** (1):
   - [webauthn-fido2-passkey-authentication](../skills/security/zero-trust/mfa-webauthn/webauthn-fido2-passkey-authentication/SKILL.md) — Use this skill when designing, implementing, and securing passwordless authentication and multi-factor authentication (MFA) using WebAuthn, FIDO2, and Passkeys. It covers registration and authentication ceremony state machines, cryptographic challenge verification, public key credential storage, authenticator attestation, and signature counter verification.
 - **Spiffe Spire** (1):

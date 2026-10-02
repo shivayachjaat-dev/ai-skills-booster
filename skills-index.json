@@ -1726,6 +1726,32 @@
     "maturity": "stable"
   },
   {
+    "name": "hashicorp-boundary-secure-remote-access",
+    "path": "skills/security/zero-trust/boundary/hashicorp-boundary-secure-remote-access",
+    "domain": "security",
+    "category": "zero-trust",
+    "subcategory": "boundary",
+    "description": "Use this skill when designing, configuring, and operating identity-aware secure remote access architectures using HashiCorp Boundary. It guides the agent through defining Scopes (Global, Org, Project), dynamic host catalogs (AWS/K8s), targets (SSH, PostgreSQL, Kubernetes), credential brokering with Vault, and session recording.",
+    "tags": [
+      "boundary",
+      "hashicorp",
+      "zero-trust",
+      "remote-access",
+      "ssh",
+      "security",
+      "bastion"
+    ],
+    "technologies": [
+      "HashiCorp Boundary",
+      "HashiCorp Vault",
+      "PostgreSQL",
+      "SSH",
+      "Kubernetes"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "webauthn-fido2-passkey-authentication",
     "path": "skills/security/zero-trust/mfa-webauthn/webauthn-fido2-passkey-authentication",
     "domain": "security",
