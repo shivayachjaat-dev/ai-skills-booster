@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,3 +15,4 @@
 | [bugcrowd-reporting](../../skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) | `bugcrowd_reporting` | `advanced` | `stable` | Use this skill to bugcrowd-specific reporting tactics complementing report-writing |
 | [bugs-are-annoying](../../skills/security/appsec/bugs_are_annoying/bugs-are-annoying/SKILL.md) | `bugs_are_annoying` | `advanced` | `stable` | Use this skill to adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews. |
 | [change-management](../../skills/security/appsec/change_management/change-management/SKILL.md) | `change_management` | `advanced` | `stable` | Use this skill to implement change management processes. Configure CAB reviews, change |
+| [changelog-entry](../../skills/security/appsec/changelog_entry/changelog-entry/SKILL.md) | `changelog_entry` | `advanced` | `stable` | Use this skill to generate a properly formatted CHANGELOG.md entry in Keep a Changelog format from a commit range or PR. Groups changes into Added/Changed/Deprecated/Removed/Fixed/Security categories and outputs a ready-to-paste block. |

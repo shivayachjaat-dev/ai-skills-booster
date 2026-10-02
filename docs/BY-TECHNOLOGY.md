@@ -1049,7 +1049,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (299 skills)
+## Bash (300 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1313,6 +1313,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [bugcrowd-reporting](../skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) — Use this skill to bugcrowd-specific reporting tactics complementing report-writing
 - [bugs-are-annoying](../skills/security/appsec/bugs_are_annoying/bugs-are-annoying/SKILL.md) — Use this skill to adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews.
 - [change-management](../skills/security/appsec/change_management/change-management/SKILL.md) — Use this skill to implement change management processes. Configure CAB reviews, change
+- [changelog-entry](../skills/security/appsec/changelog_entry/changelog-entry/SKILL.md) — Use this skill to generate a properly formatted CHANGELOG.md entry in Keep a Changelog format from a commit range or PR. Groups changes into Added/Changed/Deprecated/Removed/Fixed/Security categories and outputs a ready-to-paste block.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
 - [azure-identity-dotnet](../skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) — Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.
 - [azure-identity-java](../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) — Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).
@@ -1836,6 +1837,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Changelog Automation (1 skills)
 
 - [changelog-automation](../skills/software-engineering/architecture/patterns/changelog-automation/SKILL.md) — Use this skill to automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.
+
+## Changelog Entry (1 skills)
+
+- [changelog-entry](../skills/security/appsec/changelog_entry/changelog-entry/SKILL.md) — Use this skill to generate a properly formatted CHANGELOG.md entry in Keep a Changelog format from a commit range or PR. Groups changes into Added/Changed/Deprecated/Removed/Fixed/Security categories and outputs a ready-to-paste block.
 
 ## Chroma (1 skills)
 
@@ -2992,7 +2997,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (402 skills)
+## Python (403 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -3337,6 +3342,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [bugcrowd-reporting](../skills/security/appsec/bugcrowd_reporting/bugcrowd-reporting/SKILL.md) — Use this skill to bugcrowd-specific reporting tactics complementing report-writing
 - [bugs-are-annoying](../skills/security/appsec/bugs_are_annoying/bugs-are-annoying/SKILL.md) — Use this skill to adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews.
 - [change-management](../skills/security/appsec/change_management/change-management/SKILL.md) — Use this skill to implement change management processes. Configure CAB reviews, change
+- [changelog-entry](../skills/security/appsec/changelog_entry/changelog-entry/SKILL.md) — Use this skill to generate a properly formatted CHANGELOG.md entry in Keep a Changelog format from a commit range or PR. Groups changes into Added/Changed/Deprecated/Removed/Fixed/Security categories and outputs a ready-to-paste block.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
 - [azure-identity-dotnet](../skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) — Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.
 - [azure-identity-java](../skills/security/authentication/azure_identity_java/azure-identity-java/SKILL.md) — Use this skill to authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).

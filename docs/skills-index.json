@@ -9352,6 +9352,28 @@
     "maturity": "stable"
   },
   {
+    "name": "changelog-entry",
+    "path": "skills/security/appsec/changelog_entry/changelog-entry",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "changelog_entry",
+    "description": "Use this skill to generate a properly formatted CHANGELOG.md entry in Keep a Changelog format from a commit range or PR. Groups changes into Added/Changed/Deprecated/Removed/Fixed/Security categories and outputs a ready-to-paste block.",
+    "tags": [
+      "security",
+      "appsec",
+      "changelog",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Changelog Entry",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
