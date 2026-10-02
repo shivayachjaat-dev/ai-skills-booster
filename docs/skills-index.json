@@ -9235,6 +9235,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lambda-lang",
+    "path": "skills/ai-engineering/models/lambda_lang/lambda-lang",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "lambda_lang",
+    "description": "Use this skill to design, implement, and operate production workflows for lambda lang. Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains; 3x smaller than natural language.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "lambda",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lambda Lang",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

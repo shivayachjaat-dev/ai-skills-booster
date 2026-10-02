@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **332 skills** available in this category.
+> **333 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -330,6 +330,7 @@
 | [kubernetes-architect](../../skills/ai-engineering/models/kubernetes_architect/kubernetes-architect/SKILL.md) | `kubernetes_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kubernetes architect. Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. |
 | [kubernetes-deployment](../../skills/ai-engineering/models/kubernetes_deploymen/kubernetes-deployment/SKILL.md) | `kubernetes_deploymen` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kubernetes deployment. Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations. |
 | [kubestellar-console](../../skills/ai-engineering/models/kubestellar_console/kubestellar-console/SKILL.md) | `kubestellar_console` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kubestellar console. Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills |
+| [lambda-lang](../../skills/ai-engineering/models/lambda_lang/lambda-lang/SKILL.md) | `lambda_lang` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lambda lang. Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains; 3x smaller than natural language. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
