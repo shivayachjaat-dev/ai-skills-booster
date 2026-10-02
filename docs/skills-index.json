@@ -24049,6 +24049,28 @@
     "maturity": "stable"
   },
   {
+    "name": "git-workflow-and-versioning",
+    "path": "skills/software-engineering/architecture/patterns/git-workflow-and-versioning",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for git workflow and versioning. Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "git",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Git Workflow And Versioning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "hig-inputs",
     "path": "skills/software-engineering/architecture/patterns/hig-inputs",
     "domain": "software-engineering",
