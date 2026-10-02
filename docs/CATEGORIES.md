@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **125** skills across structured domains, categories, and subcategories.
+Master navigation for **126** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (24 skills)
+## Ai Engineering (25 skills)
 
 ### Agents (12 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -31,6 +31,12 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - **Scheduling** (1):
   - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
+
+### Communication (1 skills)
+Category index: [`docs/categories/communication.md`](categories/communication.md)
+
+- **Agent Email** (1):
+  - [ai-agent-email-inbox-and-smtp-automation](../skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation/SKILL.md) — Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.
 
 ### Context (1 skills)
 Category index: [`docs/categories/context.md`](categories/context.md)

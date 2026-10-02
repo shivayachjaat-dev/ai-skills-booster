@@ -296,6 +296,32 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-agent-email-inbox-and-smtp-automation",
+    "path": "skills/ai-engineering/communication/agent-email/ai-agent-email-inbox-and-smtp-automation",
+    "domain": "ai-engineering",
+    "category": "communication",
+    "subcategory": "agent-email",
+    "description": "Use this skill to give autonomous AI agents programmatic email processing capabilities via IMAP, SMTP, and transactional email APIs. It covers incoming message parsing, attachment handling, DKIM/SPF verification, thread tracking, automated drafting, and outbound rate limits.",
+    "tags": [
+      "agent-email",
+      "smtp",
+      "imap",
+      "email-automation",
+      "inbox-management",
+      "ai-communication"
+    ],
+    "technologies": [
+      "Python",
+      "IMAP",
+      "SMTP",
+      "email-validator",
+      "FastAPI",
+      "MIME"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "context-window-engineering",
     "path": "skills/ai-engineering/context/optimization/context-window-engineering",
     "domain": "ai-engineering",
