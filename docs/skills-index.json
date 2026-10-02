@@ -22697,6 +22697,28 @@
     "maturity": "stable"
   },
   {
+    "name": "macos-spm-app-packaging",
+    "path": "skills/frontend/ui-ux/macos_spm_app_packag/macos-spm-app-packaging",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "macos_spm_app_packag",
+    "description": "Use this skill to design, implement, and operate production workflows for macos spm app packaging. Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "macos",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Macos Spm App Packaging",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

@@ -1103,6 +1103,7 @@ AI_Skills_Booster/
 │   │   ├── longbridge_quant/ (1 skills)
 │   │   ├── longbridge_research/ (1 skills)
 │   │   ├── macos_menubar_tuist_/ (1 skills)
+│   │   ├── macos_spm_app_packag/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
