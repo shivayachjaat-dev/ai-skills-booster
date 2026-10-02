@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **14 skills** available in this category.
+> **15 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -18,3 +18,4 @@
 | [azure-eventhub-java](../../skills/frontend/ui-ux/azure_eventhub_java/azure-eventhub-java/SKILL.md) | `azure_eventhub_java` | `advanced` | `stable` | Use this skill to build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures. |
 | [azure-functions-devsec](../../skills/frontend/ui-ux/azure_functions_devs/azure-functions-devsec/SKILL.md) | `azure_functions_devs` | `advanced` | `stable` | Use this skill to build serverless applications on Azure Functions. Configure triggers, |
 | [azure-search-documents-ts](../../skills/frontend/ui-ux/azure_search_documen/azure-search-documents-ts/SKILL.md) | `azure_search_documen` | `advanced` | `stable` | Use this skill to build search applications with vector, hybrid, and semantic search capabilities. |
+| [backend-development-feature-development](../../skills/frontend/ui-ux/backend_development_/backend-development-feature-development/SKILL.md) | `backend_development_` | `advanced` | `stable` | Use this skill to orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services. |

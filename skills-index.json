@@ -6703,6 +6703,28 @@
     "maturity": "stable"
   },
   {
+    "name": "backend-development-feature-development",
+    "path": "skills/frontend/ui-ux/backend_development_/backend-development-feature-development",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "backend_development_",
+    "description": "Use this skill to orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "backend",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Backend Development Feature Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
