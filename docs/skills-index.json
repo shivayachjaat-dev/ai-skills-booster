@@ -13655,6 +13655,28 @@
     "maturity": "stable"
   },
   {
+    "name": "soft-pastel",
+    "path": "skills/frontend/web-architecture/soft_pastel/soft-pastel",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "soft_pastel",
+    "description": "Use this skill to design, implement, and operate production workflows for soft pastel. Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "soft",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Soft Pastel",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "web3-audit",
     "path": "skills/frontend/web-architecture/web3_audit/web3-audit",
     "domain": "frontend",
