@@ -12148,6 +12148,28 @@
     "maturity": "stable"
   },
   {
+    "name": "neon-object-storage",
+    "path": "skills/ai-engineering/rag/neon_object_storage/neon-object-storage",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "neon_object_storage",
+    "description": "Use this skill to design, implement, and operate production workflows for neon object storage. S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "neon",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Neon Object Storage",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
