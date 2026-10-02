@@ -19221,6 +19221,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-oauth",
+    "path": "skills/frontend/ui-ux/hunt_oauth/hunt-oauth",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hunt_oauth",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt oauth. Hunting skill for oauth vulnerabilities. Built from 19 public bug bounty",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Oauth",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

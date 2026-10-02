@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,237 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,238 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -859,6 +859,7 @@
 | [huggingface-lora-space-builder](skills/frontend/ui-ux/huggingface_lora_spa/huggingface-lora-space-builder/SKILL.md) | `frontend` | `ui-ux` | `huggingface_lora_spa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for huggingface lora space builder. Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. |
 | [hunt-idor](skills/frontend/ui-ux/hunt_idor/hunt-idor/SKILL.md) | `frontend` | `ui-ux` | `hunt_idor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt idor. Hunting skill for idor vulnerabilities. Built from 26 public bug bounty |
 | [hunt-misc](skills/frontend/ui-ux/hunt_misc/hunt-misc/SKILL.md) | `frontend` | `ui-ux` | `hunt_misc` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt misc. Hunting skill for misc vulnerabilities. Built from 225 public bug bounty |
+| [hunt-oauth](skills/frontend/ui-ux/hunt_oauth/hunt-oauth/SKILL.md) | `frontend` | `ui-ux` | `hunt_oauth` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt oauth. Hunting skill for oauth vulnerabilities. Built from 19 public bug bounty |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
