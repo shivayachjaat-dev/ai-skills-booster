@@ -1909,6 +1909,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-voicelive-py",
+    "path": "skills/ai-engineering/models/azure_ai_voicelive_p/azure-ai-voicelive-py",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_voicelive_p",
+    "description": "Use this skill to build real-time voice AI applications with bidirectional WebSocket communication.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Voicelive Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

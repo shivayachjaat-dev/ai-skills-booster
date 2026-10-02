@@ -91,6 +91,7 @@ AI_Skills_Booster/
 │   │   ├── azure_ai_vision_imag/ (2 skills)
 │   │   ├── azure_ai_voicelive_d/ (1 skills)
 │   │   ├── azure_ai_voicelive_j/ (1 skills)
+│   │   ├── azure_ai_voicelive_p/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)
