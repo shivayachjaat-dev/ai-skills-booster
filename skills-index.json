@@ -10201,6 +10201,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-observe",
+    "path": "skills/developer-tools/cli-utilities/expo_observe/expo-observe",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "expo_observe",
+    "description": "Use this skill to design, implement, and operate production workflows for expo observe. Set up and query EAS Observe for Expo apps, including root integration, interactive markers, route metrics, CLI summaries, traces, logs, and performance diagnosis.",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Observe",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",
