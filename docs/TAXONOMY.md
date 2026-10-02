@@ -1250,6 +1250,7 @@ AI_Skills_Booster/
 │   │   ├── observability_engine/ (1 skills)
 │   │   ├── odoo_accounting_setu/ (1 skills)
 │   │   ├── odoo_edi_connector/ (1 skills)
+│   │   ├── odoo_hr_payroll_setu/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)

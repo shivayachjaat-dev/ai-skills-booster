@@ -25931,6 +25931,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-hr-payroll-setup",
+    "path": "skills/frontend/ui-ux/odoo_hr_payroll_setu/odoo-hr-payroll-setup",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "odoo_hr_payroll_setu",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo hr payroll setup. Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Hr Payroll Setup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

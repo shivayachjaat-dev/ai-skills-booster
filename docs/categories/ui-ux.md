@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **191 skills** available in this category.
+> **192 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -192,6 +192,7 @@
 | [observability-engineer](../../skills/frontend/ui-ux/observability_engine/observability-engineer/SKILL.md) | `observability_engine` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for observability engineer. Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows. |
 | [odoo-accounting-setup](../../skills/frontend/ui-ux/odoo_accounting_setu/odoo-accounting-setup/SKILL.md) | `odoo_accounting_setu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo accounting setup. Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation. |
 | [odoo-edi-connector](../../skills/frontend/ui-ux/odoo_edi_connector/odoo-edi-connector/SKILL.md) | `odoo_edi_connector` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo edi connector. Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing. |
+| [odoo-hr-payroll-setup](../../skills/frontend/ui-ux/odoo_hr_payroll_setu/odoo-hr-payroll-setup/SKILL.md) | `odoo_hr_payroll_setu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo hr payroll setup. Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
