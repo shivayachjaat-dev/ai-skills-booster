@@ -2848,6 +2848,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-eventgrid-py",
+    "path": "skills/backend/python-services/azure_eventgrid_py/azure-eventgrid-py",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "azure_eventgrid_py",
+    "description": "Use this skill to azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.",
+    "tags": [
+      "backend",
+      "python-services",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Eventgrid Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

@@ -689,6 +689,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-eventgrid-java](../skills/frontend/ui-ux/azure_eventgrid_java/azure-eventgrid-java/SKILL.md) — Use this skill to build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub patterns, or integrating with Azure services via events.
 
+## Azure Eventgrid Py (1 skills)
+
+- [azure-eventgrid-py](../skills/backend/python-services/azure_eventgrid_py/azure-eventgrid-py/SKILL.md) — Use this skill to azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
+
 ## Azure Identity (1 skills)
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
@@ -701,7 +705,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (111 skills)
+## Bash (112 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -777,6 +781,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [aws-mcp-setup](../skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) — Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
 - [azure-appconfiguration-py](../skills/backend/python-services/azure_appconfigurati/azure-appconfiguration-py/SKILL.md) — Use this skill to azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
+- [azure-eventgrid-py](../skills/backend/python-services/azure_eventgrid_py/azure-eventgrid-py/SKILL.md) — Use this skill to azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,
@@ -2052,7 +2057,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (214 skills)
+## Python (215 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2164,6 +2169,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
 - [asyncio-concurrency-and-event-loop-architecture](../skills/backend/python/async-concurrency/asyncio-concurrency-and-event-loop-architecture/SKILL.md) — Use this skill to design, implement, and debug high-performance asynchronous Python systems using standard asyncio. It covers structured concurrency with asyncio.TaskGroup (Python 3.11+), resilient cancellation semantics, worker queues with backpressure, thread/process pool offloading with run_in_executor, event loop latency profiling, and avoiding blocking I/O pitfalls.
 - [azure-appconfiguration-py](../skills/backend/python-services/azure_appconfigurati/azure-appconfiguration-py/SKILL.md) — Use this skill to azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
+- [azure-eventgrid-py](../skills/backend/python-services/azure_eventgrid_py/azure-eventgrid-py/SKILL.md) — Use this skill to azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
 - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
 - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 - [internal-financial-audit-and-controls](../skills/business/finance/audit-controls/internal-financial-audit-and-controls/SKILL.md) — Use this skill when designing, testing, and automating internal financial accounting controls, journal entry audit trails, and reconciliation workflows compliant with SOX 404, GAAP, and IFRS. It guides the agent through general ledger reconciliation, manual journal entry approval thresholds, segregation of duties in treasury, and anomaly detection.
