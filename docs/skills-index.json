@@ -14425,6 +14425,28 @@
     "maturity": "stable"
   },
   {
+    "name": "enhance-prompt",
+    "path": "skills/frontend/ui-ux/enhance_prompt/enhance-prompt",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "enhance_prompt",
+    "description": "Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "enhance",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Enhance Prompt",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

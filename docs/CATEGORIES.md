@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **906** skills across structured domains, categories, and subcategories.
+Master navigation for **907** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (315 skills)
 
@@ -1425,7 +1425,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (161 skills)
+## Frontend (162 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1513,7 +1513,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Emil_Design_Eng** (1):
   - [emil-design-eng](../skills/frontend/ui-development/emil_design_eng/emil-design-eng/SKILL.md) — Use this skill to design, implement, and operate production workflows for emil design eng. Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
 
-### Ui Ux (81 skills)
+### Ui Ux (82 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1672,6 +1672,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [electron-development](../skills/frontend/ui-ux/electron_development/electron-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for electron development. Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update.
 - **Embedding_Strategies** (1):
   - [embedding-strategies](../skills/frontend/ui-ux/embedding_strategies/embedding-strategies/SKILL.md) — Use this skill to design, implement, and operate production workflows for embedding strategies. Guide to selecting and optimizing embedding models for vector search applications.
+- **Enhance_Prompt** (1):
+  - [enhance-prompt](../skills/frontend/ui-ux/enhance_prompt/enhance-prompt/SKILL.md) — Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

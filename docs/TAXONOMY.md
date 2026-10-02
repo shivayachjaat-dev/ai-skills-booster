@@ -727,6 +727,7 @@ AI_Skills_Booster/
 │   │   ├── eas_workflows/ (1 skills)
 │   │   ├── electron_development/ (1 skills)
 │   │   ├── embedding_strategies/ (1 skills)
+│   │   ├── enhance_prompt/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   └── swiftui_performance_/ (1 skills)
