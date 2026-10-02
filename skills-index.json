@@ -951,6 +951,30 @@
     "maturity": "stable"
   },
   {
+    "name": "zustand-state-management-patterns",
+    "path": "skills/frontend/state-management/zustand/zustand-state-management-patterns",
+    "domain": "frontend",
+    "category": "state-management",
+    "subcategory": "zustand",
+    "description": "Use this skill when designing, structuring, and optimizing global client-side state in React applications using Zustand. It guides the agent through the slice pattern for modular domain separation, persistent middleware (localStorage/IndexedDB), selector optimization with shallow equality, DevTools debugging, and async action flows.",
+    "tags": [
+      "zustand",
+      "react",
+      "state-management",
+      "typescript",
+      "frontend",
+      "hooks"
+    ],
+    "technologies": [
+      "Zustand",
+      "React 18+",
+      "TypeScript",
+      "Redux DevTools"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-server-scaffold",
     "path": "skills/mcp/server-development/scaffolding/mcp-server-scaffold",
     "domain": "mcp",

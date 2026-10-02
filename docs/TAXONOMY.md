@@ -78,8 +78,10 @@ AI_Skills_Booster/
 │   │   └── wcag/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
-│   └── react/
+│   ├── react/
 │   │   └── architecture/ (1 skills)
+│   └── state-management/
+│   │   └── zustand/ (1 skills)
 ├── mcp/
 │   └── server-development/
 │   │   └── scaffolding/ (1 skills)
