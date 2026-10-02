@@ -2261,6 +2261,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-vms",
+    "path": "skills/ai-engineering/models/azure_vms/azure-vms",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_vms",
+    "description": "Use this skill to manage Azure Virtual Machines and scale sets. Configure availability",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Vms",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

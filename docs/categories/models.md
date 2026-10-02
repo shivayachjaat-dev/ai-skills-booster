@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **67 skills** available in this category.
+> **68 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -70,4 +70,5 @@
 | [azure-storage-blob-py](../../skills/ai-engineering/models/azure_storage_blob_p/azure-storage-blob-py/SKILL.md) | `azure_storage_blob_p` | `advanced` | `stable` | Use this skill to azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle. |
 | [azure-storage-blob-rust](../../skills/ai-engineering/models/azure_storage_blob_r/azure-storage-blob-rust/SKILL.md) | `azure_storage_blob_r` | `advanced` | `stable` | Use this skill to azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers. |
 | [azure-storage-blob-ts](../../skills/ai-engineering/models/azure_storage_blob_t/azure-storage-blob-ts/SKILL.md) | `azure_storage_blob_t` | `advanced` | `stable` | Use this skill to azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers. |
+| [azure-vms](../../skills/ai-engineering/models/azure_vms/azure-vms/SKILL.md) | `azure_vms` | `advanced` | `stable` | Use this skill to manage Azure Virtual Machines and scale sets. Configure availability |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

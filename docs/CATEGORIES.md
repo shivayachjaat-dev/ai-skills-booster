@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **368** skills across structured domains, categories, and subcategories.
+Master navigation for **369** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (119 skills)
+## Ai Engineering (120 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -114,7 +114,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (67 skills)
+### Models (68 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -240,6 +240,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-storage-blob-rust](../skills/ai-engineering/models/azure_storage_blob_r/azure-storage-blob-rust/SKILL.md) — Use this skill to azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.
 - **Azure_Storage_Blob_T** (1):
   - [azure-storage-blob-ts](../skills/ai-engineering/models/azure_storage_blob_t/azure-storage-blob-ts/SKILL.md) — Use this skill to azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.
+- **Azure_Vms** (1):
+  - [azure-vms](../skills/ai-engineering/models/azure_vms/azure-vms/SKILL.md) — Use this skill to manage Azure Virtual Machines and scale sets. Configure availability
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
