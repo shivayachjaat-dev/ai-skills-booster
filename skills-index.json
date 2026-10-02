@@ -4798,6 +4798,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-monitor-opentelemetry-ts",
+    "path": "skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-ts",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_monitor_opente",
+    "description": "Use this skill to auto-instrument Node.js applications with distributed tracing, metrics, and logs.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Monitor Opentelemetry Ts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

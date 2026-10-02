@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **334** skills across structured domains, categories, and subcategories.
+Master navigation for **335** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (104 skills)
 
@@ -636,7 +636,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (51 skills)
+## Devops (52 skills)
 
 ### Ci Cd (5 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -652,7 +652,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (25 skills)
+### Cloud Infrastructure (26 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -702,8 +702,9 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [azure-microsoft-playwright-testing-ts](../skills/devops/cloud-infrastructure/azure_microsoft_play/azure-microsoft-playwright-testing-ts/SKILL.md) — Use this skill to run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.
 - **Azure_Monitor_Ingest** (1):
   - [azure-monitor-ingestion-java](../skills/devops/cloud-infrastructure/azure_monitor_ingest/azure-monitor-ingestion-java/SKILL.md) — Use this skill to azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).
-- **Azure_Monitor_Opente** (1):
+- **Azure_Monitor_Opente** (2):
   - [azure-monitor-opentelemetry-exporter-java](../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-exporter-java/SKILL.md) — Use this skill to azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.
+  - [azure-monitor-opentelemetry-ts](../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-ts/SKILL.md) — Use this skill to auto-instrument Node.js applications with distributed tracing, metrics, and logs.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)

@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **25 skills** available in this category.
+> **26 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -29,3 +29,4 @@
 | [azure-microsoft-playwright-testing-ts](../../skills/devops/cloud-infrastructure/azure_microsoft_play/azure-microsoft-playwright-testing-ts/SKILL.md) | `azure_microsoft_play` | `advanced` | `stable` | Use this skill to run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting. |
 | [azure-monitor-ingestion-java](../../skills/devops/cloud-infrastructure/azure_monitor_ingest/azure-monitor-ingestion-java/SKILL.md) | `azure_monitor_ingest` | `advanced` | `stable` | Use this skill to azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE). |
 | [azure-monitor-opentelemetry-exporter-java](../../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-exporter-java/SKILL.md) | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights. |
+| [azure-monitor-opentelemetry-ts](../../skills/devops/cloud-infrastructure/azure_monitor_opente/azure-monitor-opentelemetry-ts/SKILL.md) | `azure_monitor_opente` | `advanced` | `stable` | Use this skill to auto-instrument Node.js applications with distributed tracing, metrics, and logs. |

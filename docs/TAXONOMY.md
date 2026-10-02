@@ -276,7 +276,7 @@ AI_Skills_Booster/
 │   │   ├── azure_mgmt_weightsan/ (1 skills)
 │   │   ├── azure_microsoft_play/ (1 skills)
 │   │   ├── azure_monitor_ingest/ (1 skills)
-│   │   └── azure_monitor_opente/ (1 skills)
+│   │   └── azure_monitor_opente/ (2 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/
