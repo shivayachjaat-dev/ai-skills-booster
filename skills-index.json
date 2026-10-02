@@ -94,6 +94,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ragas-rag-triad-evaluation",
+    "path": "skills/ai-engineering/evaluation/ragas-rag-evaluation/ragas-rag-triad-evaluation",
+    "domain": "ai-engineering",
+    "category": "evaluation",
+    "subcategory": "ragas-rag-evaluation",
+    "description": "Use this skill when evaluating, benchmarking, and auditing Retrieval-Augmented Generation (RAG) pipelines using RAGAS and the RAG Triad framework. It guides the agent through calculating Faithfulness (hallucination detection), Answer Relevance, Context Precision, and Context Recall, building synthetic evaluation datasets, and CI automated regression gating.",
+    "tags": [
+      "rag",
+      "evaluation",
+      "ragas",
+      "llm-evaluation",
+      "faithfulness",
+      "benchmarking"
+    ],
+    "technologies": [
+      "Ragas",
+      "LangChain",
+      "OpenAI",
+      "LlamaIndex",
+      "HuggingFace"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "llm-lora-fine-tuning-pipeline",
     "path": "skills/ai-engineering/fine-tuning/peft-lora/llm-lora-fine-tuning-pipeline",
     "domain": "ai-engineering",

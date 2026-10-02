@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **56** skills across structured domains, categories, and subcategories.
+Master navigation for **57** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (7 skills)
+## Ai Engineering (8 skills)
 
 ### Agents (3 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -19,6 +19,12 @@ Category index: [`docs/categories/context.md`](categories/context.md)
 
 - **Optimization** (1):
   - [context-window-engineering](../skills/ai-engineering/context/optimization/context-window-engineering/SKILL.md) — Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs.
+
+### Evaluation (1 skills)
+Category index: [`docs/categories/evaluation.md`](categories/evaluation.md)
+
+- **Ragas Rag Evaluation** (1):
+  - [ragas-rag-triad-evaluation](../skills/ai-engineering/evaluation/ragas-rag-evaluation/ragas-rag-triad-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and auditing Retrieval-Augmented Generation (RAG) pipelines using RAGAS and the RAG Triad framework. It guides the agent through calculating Faithfulness (hallucination detection), Answer Relevance, Context Precision, and Context Recall, building synthetic evaluation datasets, and CI automated regression gating.
 
 ### Fine Tuning (1 skills)
 Category index: [`docs/categories/fine-tuning.md`](categories/fine-tuning.md)
