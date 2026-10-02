@@ -2297,6 +2297,32 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-search-engine-optimization-and-schema-markup",
+    "path": "skills/marketing/seo/ai-search-optimization/ai-search-engine-optimization-and-schema-markup",
+    "domain": "marketing",
+    "category": "seo",
+    "subcategory": "ai-search-optimization",
+    "description": "Use this skill to optimize digital content and technical architecture for Generative Engine Optimization (GEO) and AI search citations across Google AI Overviews, Perplexity, ChatGPT Search, and Claude. It covers structured JSON-LD schema markup, information gain density, entity authority graphs, and machine-readable markdown tables.",
+    "tags": [
+      "ai-seo",
+      "geo",
+      "schema-markup",
+      "json-ld",
+      "perplexity-seo",
+      "information-gain",
+      "marketing"
+    ],
+    "technologies": [
+      "JSON-LD",
+      "Schema.org",
+      "Python",
+      "HTML5",
+      "Metadata Optimization"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-server-scaffold",
     "path": "skills/mcp/server-development/scaffolding/mcp-server-scaffold",
     "domain": "mcp",
