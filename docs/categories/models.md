@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **122 skills** available in this category.
+> **123 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -125,4 +125,5 @@
 | [code-of-conduct](../../skills/ai-engineering/models/code_of_conduct/code-of-conduct/SKILL.md) | `code_of_conduct` | `advanced` | `stable` | Use this skill to build a human-reviewed conduct register after context-first intake. Use when an SME needs policy acknowledgements, complaint handling, and breach follow-up. |
 | [code-refactoring-refactor-clean](../../skills/ai-engineering/models/code_refactoring_ref/code-refactoring-refactor-clean/SKILL.md) | `code_refactoring_ref` | `advanced` | `stable` | Use this skill to you are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance. |
 | [code-review-ai-ai-review](../../skills/ai-engineering/models/code_review_ai_ai_re/code-review-ai-ai-review/SKILL.md) | `code_review_ai_ai_re` | `advanced` | `stable` | Use this skill to you are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C |
+| [code-review-and-quality](../../skills/ai-engineering/models/code_review_and_qual/code-review-and-quality/SKILL.md) | `code_review_and_qual` | `advanced` | `stable` | Use this skill to conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
