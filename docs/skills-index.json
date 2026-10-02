@@ -4270,6 +4270,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-functions",
+    "path": "skills/devops/cloud-infrastructure/azure_functions/azure-functions",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_functions",
+    "description": "Use this skill to expert patterns for Azure Functions development including isolated",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Functions",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

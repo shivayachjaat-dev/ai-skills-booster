@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **13 skills** available in this category.
+> **14 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,3 +17,4 @@
 | [azure-eventhub-dotnet](../../skills/devops/cloud-infrastructure/azure_eventhub_dotne/azure-eventhub-dotnet/SKILL.md) | `azure_eventhub_dotne` | `advanced` | `stable` | Use this skill to azure Event Hubs SDK for .NET. |
 | [azure-eventhub-rust](../../skills/devops/cloud-infrastructure/azure_eventhub_rust/azure-eventhub-rust/SKILL.md) | `azure_eventhub_rust` | `advanced` | `stable` | Use this skill to azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion. |
 | [azure-eventhub-ts](../../skills/devops/cloud-infrastructure/azure_eventhub_ts/azure-eventhub-ts/SKILL.md) | `azure_eventhub_ts` | `advanced` | `stable` | Use this skill to high-throughput event streaming and real-time data ingestion. |
+| [azure-functions](../../skills/devops/cloud-infrastructure/azure_functions/azure-functions/SKILL.md) | `azure_functions` | `advanced` | `stable` | Use this skill to expert patterns for Azure Functions development including isolated |

@@ -254,7 +254,8 @@ AI_Skills_Booster/
 │   │   ├── azure_eventgrid_dotn/ (1 skills)
 │   │   ├── azure_eventhub_dotne/ (1 skills)
 │   │   ├── azure_eventhub_rust/ (1 skills)
-│   │   └── azure_eventhub_ts/ (1 skills)
+│   │   ├── azure_eventhub_ts/ (1 skills)
+│   │   └── azure_functions/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/
