@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **163 skills** available in this category.
+> **164 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -165,5 +165,6 @@
 | [julia-pro](../../skills/software-engineering/architecture/patterns/julia-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for julia pro. Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. |
 | [latex-paper-conversion](../../skills/software-engineering/architecture/patterns/latex-paper-conversion/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for latex paper conversion. This skill should be used when the user asks to convert an academic paper in LaTeX from one format (e.g., Springer, IPOL) to another format (e.g., MDPI, IEEE, Nature). It automates extraction, injection, fixing formatting, and compiling. |
 | [ledger-tasks-yylo](../../skills/software-engineering/architecture/patterns/ledger-tasks-yylo/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ledger tasks yylo. Use YYLO Ledger task management: create, list, search, get, mark, update, |
+| [legacy-modernizer](../../skills/software-engineering/architecture/patterns/legacy-modernizer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for legacy modernizer. Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility. |
 | [multiplayer](../../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |

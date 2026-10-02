@@ -30121,6 +30121,28 @@
     "maturity": "stable"
   },
   {
+    "name": "legacy-modernizer",
+    "path": "skills/software-engineering/architecture/patterns/legacy-modernizer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for legacy modernizer. Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "legacy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Legacy Modernizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
