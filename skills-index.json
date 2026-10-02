@@ -4945,6 +4945,28 @@
     "maturity": "stable"
   },
   {
+    "name": "debug-buttercup",
+    "path": "skills/ai-engineering/models/debug_buttercup/debug-buttercup",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "debug_buttercup",
+    "description": "Use this skill to all pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "debug",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Debug Buttercup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
