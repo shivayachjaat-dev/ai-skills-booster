@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **369 skills** available in this category.
+> **370 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -366,6 +366,7 @@
 | [magic-animator](../../skills/ai-engineering/models/magic_animator/magic-animator/SKILL.md) | `magic_animator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for magic animator. AI-powered animation tool for creating motion in logos, UI, icons, and social media assets. |
 | [mailchimp-automation](../../skills/ai-engineering/models/mailchimp_automation/mailchimp-automation/SKILL.md) | `mailchimp_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mailchimp automation. Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas. |
 | [mailtrap-managing-contacts](../../skills/ai-engineering/models/mailtrap_managing_co/mailtrap-managing-contacts/SKILL.md) | `mailtrap_managing_co` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mailtrap managing contacts. Manage Mailtrap contacts, lists, segments, custom fields, imports, CRM syncs, and campaign audiences through the UI or API. |
+| [mailtrap-sending-emails](../../skills/ai-engineering/models/mailtrap_sending_ema/mailtrap-sending-emails/SKILL.md) | `mailtrap_sending_ema` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mailtrap sending emails. Configure or troubleshoot Mailtrap live email sending with Email API, SMTP, transactional streams, bulk streams, or batches. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

@@ -10401,6 +10401,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mailtrap-sending-emails",
+    "path": "skills/ai-engineering/models/mailtrap_sending_ema/mailtrap-sending-emails",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "mailtrap_sending_ema",
+    "description": "Use this skill to design, implement, and operate production workflows for mailtrap sending emails. Configure or troubleshoot Mailtrap live email sending with Email API, SMTP, transactional streams, bulk streams, or batches.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "mailtrap",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mailtrap Sending Emails",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
