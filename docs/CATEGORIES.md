@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **905** skills across structured domains, categories, and subcategories.
+Master navigation for **906** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (315 skills)
 
@@ -2172,9 +2172,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (93 skills)
+## Software Engineering (94 skills)
 
-### Architecture (86 skills)
+### Architecture (87 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -2183,7 +2183,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (83):
+- **Patterns** (84):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -2266,6 +2266,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [emergency-card](../skills/software-engineering/architecture/patterns/emergency-card/SKILL.md) — Use this skill to design, implement, and operate production workflows for emergency card. 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问"紧急信息"、"医疗卡片"、"急救信息"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。
   - [emotional-arc-designer](../skills/software-engineering/architecture/patterns/emotional-arc-designer/SKILL.md) — Use this skill to design, implement, and operate production workflows for emotional arc designer. One sentence - what this skill does and when to invoke it
   - [employment-contract-templates](../skills/software-engineering/architecture/patterns/employment-contract-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for employment contract templates. Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies.
+  - [energy-procurement](../skills/software-engineering/architecture/patterns/energy-procurement/SKILL.md) — Use this skill to design, implement, and operate production workflows for energy procurement. Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management.
   - [hig-inputs](../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) — Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
 
 ### Code Review (1 skills)

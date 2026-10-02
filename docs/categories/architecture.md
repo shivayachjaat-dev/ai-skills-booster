@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **87 skills** available in this category.
+> **88 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -90,4 +90,5 @@
 | [emergency-card](../../skills/software-engineering/architecture/patterns/emergency-card/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for emergency card. 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问"紧急信息"、"医疗卡片"、"急救信息"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。 |
 | [emotional-arc-designer](../../skills/software-engineering/architecture/patterns/emotional-arc-designer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for emotional arc designer. One sentence - what this skill does and when to invoke it |
 | [employment-contract-templates](../../skills/software-engineering/architecture/patterns/employment-contract-templates/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for employment contract templates. Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies. |
+| [energy-procurement](../../skills/software-engineering/architecture/patterns/energy-procurement/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for energy procurement. Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management. |
 | [hig-inputs](../../skills/software-engineering/architecture/patterns/hig-inputs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
