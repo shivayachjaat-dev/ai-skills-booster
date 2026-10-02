@@ -35819,6 +35819,28 @@
     "maturity": "stable"
   },
   {
+    "name": "obsidian-markdown",
+    "path": "skills/software-engineering/architecture/patterns/obsidian-markdown",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for obsidian markdown. Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidia...",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "obsidian",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Obsidian Markdown",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
