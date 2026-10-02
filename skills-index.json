@@ -19749,6 +19749,28 @@
     "maturity": "stable"
   },
   {
+    "name": "markstream-vue2-cli",
+    "path": "skills/frontend/ui-development/markstream_vue2_cli/markstream-vue2-cli",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "markstream_vue2_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for markstream vue2 cli. Integrate markstream-vue2 into Vue CLI or Webpack 4 with export-map-safe CSS, CDN worker fallbacks, and conservative code-block defaults.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "markstream",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Markstream Vue2 Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
