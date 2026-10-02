@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **33 skills** available in this category.
+> **34 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -37,3 +37,4 @@
 | [minecraft-bukkit-pro](../../skills/backend/api-frameworks/minecraft_bukkit_pro/minecraft-bukkit-pro/SKILL.md) | `minecraft_bukkit_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for minecraft bukkit pro. Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. |
 | [monthly-closing-statements](../../skills/backend/api-frameworks/monthly_closing_stat/monthly-closing-statements/SKILL.md) | `monthly_closing_stat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monthly closing statements. Monthly closing register: period dates, cash/bank/party/inventory/TDS reconciliation flags, profit, receivables, payables, working capital, open adjustments and reviewer. Use for period close. |
 | [muapi-media](../../skills/backend/api-frameworks/muapi_media/muapi-media/SKILL.md) | `muapi_media` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for muapi media. Generate images and videos with MuAPI's schema-driven asynchronous media API while protecting keys, polling, and output downloads. |
+| [newman-cicd-integration](../../skills/backend/api-frameworks/newman_cicd_integrat/newman-cicd-integration/SKILL.md) | `newman_cicd_integrat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for newman cicd integration. Generate ready-to-use CI/CD pipeline configurations that install and run Newman for automated API testing. |

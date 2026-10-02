@@ -13274,6 +13274,28 @@
     "maturity": "stable"
   },
   {
+    "name": "newman-cicd-integration",
+    "path": "skills/backend/api-frameworks/newman_cicd_integrat/newman-cicd-integration",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "newman_cicd_integrat",
+    "description": "Use this skill to design, implement, and operate production workflows for newman cicd integration. Generate ready-to-use CI/CD pipeline configurations that install and run Newman for automated API testing.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "newman",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Newman Cicd Integration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
