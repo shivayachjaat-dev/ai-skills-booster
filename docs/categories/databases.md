@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **31 skills** available in this category.
+> **32 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -34,4 +34,5 @@
 | [nestjs-expert](../../skills/backend/databases/nestjs_expert/nestjs-expert/SKILL.md) | `nestjs_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nestjs expert. You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems. |
 | [notion-automation](../../skills/backend/databases/notion_automation/notion-automation/SKILL.md) | `notion_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for notion automation. Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas. |
 | [obsidian-bases](../../skills/backend/databases/obsidian_bases/obsidian-bases/SKILL.md) | `obsidian_bases` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for obsidian bases. Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian. |
+| [odoo-docker-deployment](../../skills/backend/databases/odoo_docker_deployme/odoo-docker-deployment/SKILL.md) | `odoo_docker_deployme` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo docker deployment. Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy. |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,641** skills across structured domains, categories, and subcategories.
+Master navigation for **1,642** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (568 skills)
 
@@ -1202,7 +1202,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (101 skills)
+## Backend (102 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1324,7 +1324,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (30 skills)
+### Databases (31 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -1384,6 +1384,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [notion-automation](../skills/backend/databases/notion_automation/notion-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for notion automation. Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas.
 - **Obsidian_Bases** (1):
   - [obsidian-bases](../skills/backend/databases/obsidian_bases/obsidian-bases/SKILL.md) — Use this skill to design, implement, and operate production workflows for obsidian bases. Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.
+- **Odoo_Docker_Deployme** (1):
+  - [odoo-docker-deployment](../skills/backend/databases/odoo_docker_deployme/odoo-docker-deployment/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo docker deployment. Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy.
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)

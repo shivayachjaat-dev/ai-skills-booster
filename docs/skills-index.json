@@ -14367,6 +14367,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-docker-deployment",
+    "path": "skills/backend/databases/odoo_docker_deployme/odoo-docker-deployment",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "odoo_docker_deployme",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo docker deployment. Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy.",
+    "tags": [
+      "backend",
+      "databases",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Docker Deployment",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
