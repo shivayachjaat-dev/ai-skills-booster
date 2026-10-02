@@ -199,7 +199,8 @@ AI_Skills_Booster/
 │   ├── ci-cd/
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
-│   │   └── amazon_alexa/ (1 skills)
+│   │   ├── amazon_alexa/ (1 skills)
+│   │   └── aws_cost_cleanup/ (1 skills)
 │   ├── container-orchestration/
 │   │   └── helm/ (1 skills)
 │   ├── containers/

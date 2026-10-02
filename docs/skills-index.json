@@ -2906,6 +2906,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-cost-cleanup",
+    "path": "skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "aws_cost_cleanup",
+    "description": "Use this skill to automated cleanup of unused AWS resources to reduce costs",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Cost Cleanup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
