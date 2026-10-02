@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,653** skills across structured domains, categories, and subcategories.
+Master navigation for **1,654** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (570 skills)
 
@@ -2181,7 +2181,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (333 skills)
+## Frontend (334 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2347,7 +2347,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (198 skills)
+### Ui Ux (199 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2740,6 +2740,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [odoo-performance-tuner](../skills/frontend/ui-ux/odoo_performance_tun/odoo-performance-tuner/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo performance tuner. Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker configuration, memory limits, PostgreSQL tuning, and profiling tools.
 - **Odoo_Project_Timeshe** (1):
   - [odoo-project-timesheet](../skills/frontend/ui-ux/odoo_project_timeshe/odoo-project-timesheet/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo project timesheet. Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets.
+- **Odoo_Purchase_Workfl** (1):
+  - [odoo-purchase-workflow](../skills/frontend/ui-ux/odoo_purchase_workfl/odoo-purchase-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo purchase workflow. Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
