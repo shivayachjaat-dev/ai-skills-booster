@@ -10115,6 +10115,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lookdev",
+    "path": "skills/ai-engineering/models/lookdev/lookdev",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "lookdev",
+    "description": "Use this skill to design, implement, and operate production workflows for lookdev. Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static compariso...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "lookdev",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lookdev",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
