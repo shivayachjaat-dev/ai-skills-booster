@@ -196,6 +196,7 @@ AI_Skills_Booster/
 │   │   ├── azure_monitor_ingest/ (1 skills)
 │   │   ├── azure_security_keyva/ (1 skills)
 │   │   ├── cc_skill_security_re/ (1 skills)
+│   │   ├── claude_monitor/ (1 skills)
 │   │   └── fastapi-endpoints/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)

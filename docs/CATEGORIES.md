@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **503** skills across structured domains, categories, and subcategories.
+Master navigation for **504** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (170 skills)
 
@@ -408,7 +408,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (46 skills)
+## Backend (47 skills)
 
 ### Api Design (5 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -424,7 +424,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (11 skills)
+### Api Frameworks (12 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -445,6 +445,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [azure-security-keyvault-secrets-java](../skills/backend/api-frameworks/azure_security_keyva/azure-security-keyvault-secrets-java/SKILL.md) — Use this skill to azure Key Vault Secrets Java SDK for secret management. Use when storing, retrieving, or managing passwords, API keys, connection strings, or other sensitive configuration data.
 - **Cc_Skill_Security_Re** (1):
   - [cc-skill-security-review](../skills/backend/api-frameworks/cc_skill_security_re/cc-skill-security-review/SKILL.md) — Use this skill to this skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints.
+- **Claude_Monitor** (1):
+  - [claude-monitor](../skills/backend/api-frameworks/claude_monitor/claude-monitor/SKILL.md) — Use this skill to monitor de performance do Claude Code e sistema local. Diagnostica lentidao, mede CPU/RAM/disco, verifica API latency e gera relatorios de saude do sistema.
 - **Fastapi Endpoints** (1):
   - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 

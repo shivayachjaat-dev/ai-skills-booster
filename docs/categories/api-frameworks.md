@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,4 +14,5 @@
 | [azure-monitor-ingestion-py](../../skills/backend/api-frameworks/azure_monitor_ingest/azure-monitor-ingestion-py/SKILL.md) | `azure_monitor_ingest` | `advanced` | `stable` | Use this skill to azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API. |
 | [azure-security-keyvault-secrets-java](../../skills/backend/api-frameworks/azure_security_keyva/azure-security-keyvault-secrets-java/SKILL.md) | `azure_security_keyva` | `advanced` | `stable` | Use this skill to azure Key Vault Secrets Java SDK for secret management. Use when storing, retrieving, or managing passwords, API keys, connection strings, or other sensitive configuration data. |
 | [cc-skill-security-review](../../skills/backend/api-frameworks/cc_skill_security_re/cc-skill-security-review/SKILL.md) | `cc_skill_security_re` | `advanced` | `stable` | Use this skill to this skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints. |
+| [claude-monitor](../../skills/backend/api-frameworks/claude_monitor/claude-monitor/SKILL.md) | `claude_monitor` | `advanced` | `stable` | Use this skill to monitor de performance do Claude Code e sistema local. Diagnostica lentidao, mede CPU/RAM/disco, verifica API latency e gera relatorios de saude do sistema. |
 | [fastapi-high-performance-endpoint-builder](../../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) | `fastapi-endpoints` | `intermediate` | `stable` | Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation. |
