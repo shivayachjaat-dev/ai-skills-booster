@@ -1577,6 +1577,32 @@
     "maturity": "stable"
   },
   {
+    "name": "http-security-headers-hardening",
+    "path": "skills/security/application-security/security-headers/http-security-headers-hardening",
+    "domain": "security",
+    "category": "application-security",
+    "subcategory": "security-headers",
+    "description": "Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).",
+    "tags": [
+      "security-headers",
+      "csp",
+      "hsts",
+      "web-security",
+      "owasp",
+      "infosec",
+      "http"
+    ],
+    "technologies": [
+      "HTTP",
+      "FastAPI",
+      "Express.js",
+      "NGINX",
+      "OWASP Secure Headers Project"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

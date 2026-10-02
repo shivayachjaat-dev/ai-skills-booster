@@ -224,20 +224,22 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [event-sourcing-and-cqrs-architecture](../skills/software-engineering/design-patterns/event-sourcing/event-sourcing-and-cqrs-architecture/SKILL.md) — Use this skill when architecting and implementing Event Sourcing and Command Query Responsibility Segregation (CQRS) systems. It guides the agent through aggregate root design, immutable append-only event streams, optimistic concurrency control via sequence numbers, read model projections, and snapshotting strategies.
 
-## Express.js (1 skills)
+## Express.js (2 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
+- [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
 ## FIDO2 (1 skills)
 
 - [webauthn-fido2-passkey-authentication](../skills/security/zero-trust/mfa-webauthn/webauthn-fido2-passkey-authentication/SKILL.md) — Use this skill when designing, implementing, and securing passwordless authentication and multi-factor authentication (MFA) using WebAuthn, FIDO2, and Passkeys. It covers registration and authentication ceremony state machines, cryptographic challenge verification, public key credential storage, authenticator attestation, and signature counter verification.
 
-## FastAPI (4 skills)
+## FastAPI (5 skills)
 
 - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
+- [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
 ## Flower (1 skills)
 
@@ -358,9 +360,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [wcag-accessibility-audit](../skills/frontend/accessibility/wcag/wcag-accessibility-audit/SKILL.md) — Use this skill when auditing, testing, and remediating web interfaces for compliance with WCAG 2.2 AA standards. It guides the agent through automated scanning with axe-core, keyboard focus trapping, ARIA roles, color contrast ratio verification, accessible forms, screen reader announcement trees, and responsive zoom testing.
 
-## HTTP (1 skills)
+## HTTP (2 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
+- [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
 ## HTTP/2 (2 skills)
 
@@ -543,6 +546,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [database-migration-safety](../skills/databases/migrations/zero-downtime/database-migration-safety/SKILL.md) — Use this skill when authoring, reviewing, and applying database schema migrations in high-traffic production environments without downtime. It enforces the Expand and Contract pattern, non-blocking lock acquisition, safe column additions, asynchronous backfills, reversible rollbacks, and zero-downtime schema evolution.
 
+## NGINX (1 skills)
+
+- [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
+
 ## NeMo Guardrails (1 skills)
 
 - [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
@@ -589,6 +596,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## OWASP (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
+
+## OWASP Secure Headers Project (1 skills)
+
+- [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
 ## OpenAI (6 skills)
 
