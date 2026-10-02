@@ -1012,6 +1012,7 @@ AI_Skills_Booster/
 │   │   ├── javascript_testing_p/ (1 skills)
 │   │   ├── jobgpt/ (1 skills)
 │   │   ├── json_schema_manual/ (1 skills)
+│   │   ├── k8s_security_policie/ (1 skills)
 │   │   ├── marketplace_rbac_aud/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)

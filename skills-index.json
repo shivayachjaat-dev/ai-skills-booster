@@ -20651,6 +20651,28 @@
     "maturity": "stable"
   },
   {
+    "name": "k8s-security-policies",
+    "path": "skills/frontend/ui-ux/k8s_security_policie/k8s-security-policies",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "k8s_security_policie",
+    "description": "Use this skill to design, implement, and operate production workflows for k8s security policies. Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "k8s",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "K8S Security Policies",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
