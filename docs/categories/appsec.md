@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **6 skills** available in this category.
+> **7 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,3 +10,4 @@
 | [azure-monitor-audit](../../skills/security/appsec/azure_monitor_audit/azure-monitor-audit/SKILL.md) | `azure_monitor_audit` | `advanced` | `stable` | Use this skill to configure Azure Monitor and Activity Log for auditing. Set up diagnostic |
 | [azure-security-keyvault-keys-dotnet](../../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-dotnet/SKILL.md) | `azure_security_keyva` | `advanced` | `stable` | Use this skill to azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification. |
 | [azure-security-keyvault-keys-java](../../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-java/SKILL.md) | `azure_security_keyva` | `advanced` | `stable` | Use this skill to azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys. |
+| [bb-methodology](../../skills/security/appsec/bb_methodology/bb-methodology/SKILL.md) | `bb_methodology` | `advanced` | `stable` | Use this skill to use at the START of any bug bounty hunting session, when switching targets, |

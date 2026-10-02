@@ -7724,6 +7724,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bb-methodology",
+    "path": "skills/security/appsec/bb_methodology/bb-methodology",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "bb_methodology",
+    "description": "Use this skill to use at the START of any bug bounty hunting session, when switching targets,",
+    "tags": [
+      "security",
+      "appsec",
+      "bb",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bb Methodology",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

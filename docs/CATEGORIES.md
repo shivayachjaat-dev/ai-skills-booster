@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **386** skills across structured domains, categories, and subcategories.
+Master navigation for **387** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (121 skills)
 
@@ -1101,7 +1101,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (45 skills)
+## Security (46 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -1131,7 +1131,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (6 skills)
+### Appsec (7 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -1145,6 +1145,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 - **Azure_Security_Keyva** (2):
   - [azure-security-keyvault-keys-dotnet](../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-dotnet/SKILL.md) — Use this skill to azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification.
   - [azure-security-keyvault-keys-java](../skills/security/appsec/azure_security_keyva/azure-security-keyvault-keys-java/SKILL.md) — Use this skill to azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys.
+- **Bb_Methodology** (1):
+  - [bb-methodology](../skills/security/appsec/bb_methodology/bb-methodology/SKILL.md) — Use this skill to use at the START of any bug bounty hunting session, when switching targets,
 
 ### Architecture (1 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
