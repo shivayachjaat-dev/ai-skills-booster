@@ -436,7 +436,8 @@ AI_Skills_Booster/
 │   │   ├── csv_manual_export/ (1 skills)
 │   │   ├── culture_retention/ (1 skills)
 │   │   ├── disciplinary_pip_tra/ (1 skills)
-│   │   └── employee_suggestion_/ (1 skills)
+│   │   ├── employee_suggestion_/ (1 skills)
+│   │   └── expense_accounting/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/

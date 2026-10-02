@@ -9158,6 +9158,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expense-accounting",
+    "path": "skills/business/operations/expense_accounting/expense-accounting",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "expense_accounting",
+    "description": "Use this skill to design, implement, and operate production workflows for expense accounting. Expense accounting register: expense number and date, payee with PAN and VAT, bill reference, document type, amount with VAT, ledger account, approver and status. Use for expense bookkeeping.",
+    "tags": [
+      "business",
+      "operations",
+      "expense",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expense Accounting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
