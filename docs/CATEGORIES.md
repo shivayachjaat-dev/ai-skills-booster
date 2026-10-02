@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,441** skills across structured domains, categories, and subcategories.
+Master navigation for **1,442** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (500 skills)
+## Ai Engineering (501 skills)
 
 ### Agents (59 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -256,7 +256,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Llmops_Platform_Engi** (1):
   - [llmops-platform-engineering](../skills/ai-engineering/llm-ops/llmops_platform_engi/llmops-platform-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for llmops platform engineering. Build production LLMOps platforms with CI/CD, model promotion workflows,
 
-### Models (362 skills)
+### Models (363 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -958,6 +958,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [lookdev](../skills/ai-engineering/models/lookdev/lookdev/SKILL.md) — Use this skill to design, implement, and operate production workflows for lookdev. Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static compariso...
 - **Loop_Library** (1):
   - [loop-library](../skills/ai-engineering/models/loop_library/loop-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for loop library. Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and handoffs.
+- **Loopy** (1):
+  - [loopy](../skills/ai-engineering/models/loopy/loopy/SKILL.md) — Use this skill to design, implement, and operate production workflows for loopy. Discover, find, compare, audit, repair, adapt, craft, run, debrief, and prepare repeatable AI-agent loops for publication.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

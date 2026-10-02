@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **362 skills** available in this category.
+> **363 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -359,6 +359,7 @@
 | [logic-locate](../../skills/ai-engineering/models/logic_locate/logic-locate/SKILL.md) | `logic_locate` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for logic locate. Locate the root cause of a CONFIRMED failure via backward-then-forward semi-formal tracing. |
 | [lookdev](../../skills/ai-engineering/models/lookdev/lookdev/SKILL.md) | `lookdev` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lookdev. Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static compariso... |
 | [loop-library](../../skills/ai-engineering/models/loop_library/loop-library/SKILL.md) | `loop_library` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for loop library. Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and handoffs. |
+| [loopy](../../skills/ai-engineering/models/loopy/loopy/SKILL.md) | `loopy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for loopy. Discover, find, compare, audit, repair, adapt, craft, run, debrief, and prepare repeatable AI-agent loops for publication. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
