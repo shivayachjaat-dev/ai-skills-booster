@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,357** skills across structured domains, categories, and subcategories.
+Master navigation for **1,358** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (454 skills)
 
@@ -1587,9 +1587,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (92 skills)
+## Devops (93 skills)
 
-### Ci Cd (31 skills)
+### Ci Cd (32 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -1652,6 +1652,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [helm-charts](../skills/devops/ci-cd/helm_charts/helm-charts/SKILL.md) — Use this skill to design, implement, and operate production workflows for helm charts. Create, manage, and deploy Helm charts for Kubernetes package management.
 - **Kubernetes_Ops** (1):
   - [kubernetes-ops](../skills/devops/ci-cd/kubernetes_ops/kubernetes-ops/SKILL.md) — Use this skill to design, implement, and operate production workflows for kubernetes ops. Deploy, scale, and manage Kubernetes workloads.
+- **Kustomize** (1):
+  - [kustomize](../skills/devops/ci-cd/kustomize/kustomize/SKILL.md) — Use this skill to design, implement, and operate production workflows for kustomize. Customize Kubernetes manifests without templating using Kustomize.
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 

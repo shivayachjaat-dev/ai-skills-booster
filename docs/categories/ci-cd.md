@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **31 skills** available in this category.
+> **32 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -34,4 +34,5 @@
 | [git-workflow](../../skills/devops/ci-cd/git_workflow/git-workflow/SKILL.md) | `git_workflow` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for git workflow. Implement Git branching strategies, PR workflows, and release management |
 | [helm-charts](../../skills/devops/ci-cd/helm_charts/helm-charts/SKILL.md) | `helm_charts` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for helm charts. Create, manage, and deploy Helm charts for Kubernetes package management. |
 | [kubernetes-ops](../../skills/devops/ci-cd/kubernetes_ops/kubernetes-ops/SKILL.md) | `kubernetes_ops` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kubernetes ops. Deploy, scale, and manage Kubernetes workloads. |
+| [kustomize](../../skills/devops/ci-cd/kustomize/kustomize/SKILL.md) | `kustomize` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kustomize. Customize Kubernetes manifests without templating using Kustomize. |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |

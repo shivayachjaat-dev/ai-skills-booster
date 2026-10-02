@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,357 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,358 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -682,6 +682,7 @@
 | [git-workflow](skills/devops/ci-cd/git_workflow/git-workflow/SKILL.md) | `devops` | `ci-cd` | `git_workflow` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for git workflow. Implement Git branching strategies, PR workflows, and release management |
 | [helm-charts](skills/devops/ci-cd/helm_charts/helm-charts/SKILL.md) | `devops` | `ci-cd` | `helm_charts` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for helm charts. Create, manage, and deploy Helm charts for Kubernetes package management. |
 | [kubernetes-ops](skills/devops/ci-cd/kubernetes_ops/kubernetes-ops/SKILL.md) | `devops` | `ci-cd` | `kubernetes_ops` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kubernetes ops. Deploy, scale, and manage Kubernetes workloads. |
+| [kustomize](skills/devops/ci-cd/kustomize/kustomize/SKILL.md) | `devops` | `ci-cd` | `kustomize` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kustomize. Customize Kubernetes manifests without templating using Kustomize. |
 | [github-actions-ci-pipeline-optimization](skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `devops` | `ci-cd` | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |

@@ -15201,6 +15201,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kustomize",
+    "path": "skills/devops/ci-cd/kustomize/kustomize",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "kustomize",
+    "description": "Use this skill to design, implement, and operate production workflows for kustomize. Customize Kubernetes manifests without templating using Kustomize.",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "kustomize",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kustomize",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
