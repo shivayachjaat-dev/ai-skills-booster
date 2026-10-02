@@ -15063,6 +15063,28 @@
     "maturity": "stable"
   },
   {
+    "name": "expo-ui-swift-ui",
+    "path": "skills/frontend/ui-ux/expo_ui_swift_ui/expo-ui-swift-ui",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "expo_ui_swift_ui",
+    "description": "Use this skill to design, implement, and operate production workflows for expo ui swift ui. expo-ui-swift-ui",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "expo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Expo Ui Swift Ui",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
