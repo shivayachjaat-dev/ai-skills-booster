@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **20 skills** available in this category.
+> **21 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -23,4 +23,5 @@
 | [django-perf-review](../../skills/backend/databases/django_perf_review/django-perf-review/SKILL.md) | `django_perf_review` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for django perf review. Django performance code review. Use when asked to "review Django performance", "find N+1 queries", "optimize Django", "check queryset performance", "database performance", "Django ORM issues", or audit Django code for performance problems. |
 | [food-database-query](../../skills/backend/databases/food_database_query/food-database-query/SKILL.md) | `food_database_query` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for food database query. Food Database Query |
 | [hugging-face-datasets](../../skills/backend/databases/hugging_face_dataset/hugging-face-datasets/SKILL.md) | `hugging_face_dataset` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hugging face datasets. Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset querying/transformation. Designed to work alongside HF MCP server for comprehensive dataset wor... |
+| [hunt-nosqli](../../skills/backend/databases/hunt_nosqli/hunt-nosqli/SKILL.md) | `hunt_nosqli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt nosqli. Hunt NoSQL Injection |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |

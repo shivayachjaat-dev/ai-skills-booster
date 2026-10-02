@@ -486,7 +486,8 @@ AI_Skills_Booster/
 │   │   ├── database_security/ (1 skills)
 │   │   ├── django_perf_review/ (1 skills)
 │   │   ├── food_database_query/ (1 skills)
-│   │   └── hugging_face_dataset/ (1 skills)
+│   │   ├── hugging_face_dataset/ (1 skills)
+│   │   └── hunt_nosqli/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/
