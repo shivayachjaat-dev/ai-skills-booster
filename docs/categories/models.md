@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **265 skills** available in this category.
+> **266 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -263,6 +263,7 @@
 | [gcp-cloud-sql](../../skills/ai-engineering/models/gcp_cloud_sql/gcp-cloud-sql/SKILL.md) | `gcp_cloud_sql` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gcp cloud sql. Provision Cloud SQL and Spanner databases. Configure high availability, |
 | [gdb-cli](../../skills/ai-engineering/models/gdb_cli/gdb-cli/SKILL.md) | `gdb_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gdb cli. GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation |
 | [gemini-omni-flash-api](../../skills/ai-engineering/models/gemini_omni_flash_ap/gemini-omni-flash-api/SKILL.md) | `gemini_omni_flash_ap` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gemini omni flash api. Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. |
+| [geminiignore-finops](../../skills/ai-engineering/models/geminiignore_finops/geminiignore-finops/SKILL.md) | `geminiignore_finops` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for geminiignore finops. Configure and optimize .geminiignore files for AI context window efficiency and token cost reduction (FinOps). |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
