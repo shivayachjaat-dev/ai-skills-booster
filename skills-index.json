@@ -12187,6 +12187,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gcp-compute",
+    "path": "skills/devops/ci-cd/gcp_compute/gcp-compute",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "gcp_compute",
+    "description": "Use this skill to design, implement, and operate production workflows for gcp compute. Manage Compute Engine instances and instance templates. Configure managed",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "gcp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gcp Compute",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",

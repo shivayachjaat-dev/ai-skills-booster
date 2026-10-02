@@ -608,6 +608,7 @@ AI_Skills_Booster/
 │   │   ├── elk_stack/ (1 skills)
 │   │   ├── feature_flags/ (1 skills)
 │   │   ├── gcp_cloud_functions/ (1 skills)
+│   │   ├── gcp_compute/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
