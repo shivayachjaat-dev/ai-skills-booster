@@ -1711,6 +1711,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-textanalytics-py",
+    "path": "skills/ai-engineering/models/azure_ai_textanalyti/azure-ai-textanalytics-py",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_textanalyti",
+    "description": "Use this skill to azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Textanalytics Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

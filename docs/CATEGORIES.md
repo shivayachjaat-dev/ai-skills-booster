@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **262** skills across structured domains, categories, and subcategories.
+Master navigation for **263** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (84 skills)
+## Ai Engineering (85 skills)
 
 ### Agents (16 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -110,7 +110,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Andrej_Karpathy** (1):
   - [andrej-karpathy](../skills/ai-engineering/llm-ops/andrej_karpathy/andrej-karpathy/SKILL.md) — Use this skill to behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
 
-### Models (44 skills)
+### Models (45 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -195,6 +195,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [azure-ai-projects-py](../skills/ai-engineering/models/azure_ai_projects_py/azure-ai-projects-py/SKILL.md) — Use this skill to build AI applications on Microsoft Foundry using the azure-ai-projects SDK.
 - **Azure_Ai_Projects_Ts** (1):
   - [azure-ai-projects-ts](../skills/ai-engineering/models/azure_ai_projects_ts/azure-ai-projects-ts/SKILL.md) — Use this skill to high-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.
+- **Azure_Ai_Textanalyti** (1):
+  - [azure-ai-textanalytics-py](../skills/ai-engineering/models/azure_ai_textanalyti/azure-ai-textanalytics-py/SKILL.md) — Use this skill to azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
