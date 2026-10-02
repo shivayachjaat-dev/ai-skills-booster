@@ -9565,6 +9565,28 @@
     "maturity": "stable"
   },
   {
+    "name": "linkedin-post-writer",
+    "path": "skills/ai-engineering/models/linkedin_post_writer/linkedin-post-writer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "linkedin_post_writer",
+    "description": "Use this skill to design, implement, and operate production workflows for linkedin post writer. Draft LinkedIn posts from 16 tested hook formulas mapped to engagement goals (comments, reposts, likes, saves), with 2026 algorithm formatting rules and an AI-tell scrub pass before publishing.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "linkedin",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Linkedin Post Writer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

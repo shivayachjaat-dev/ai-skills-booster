@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **347 skills** available in this category.
+> **348 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -344,6 +344,7 @@
 | [leiloeiro-risco](../../skills/ai-engineering/models/leiloeiro_risco/leiloeiro-risco/SKILL.md) | `leiloeiro_risco` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for leiloeiro risco. Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais, stress test 4 cenarios e ROI ponderado por risco. |
 | [lightning-architecture-review](../../skills/ai-engineering/models/lightning_architectu/lightning-architecture-review/SKILL.md) | `lightning_architectu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lightning architecture review. Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain footprint, consensus requirements, HTLC/PTLC compatibility, liveness, and watchtower s... |
 | [lightning-factory-explainer](../../skills/ai-engineering/models/lightning_factory_ex/lightning-factory-explainer/SKILL.md) | `lightning_factory_ex` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lightning factory explainer. Explain Bitcoin Lightning channel factories and the SuperScalar protocol — scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeout-signature trees, MuSig2, and Taproot. No soft fork required. |
+| [linkedin-post-writer](../../skills/ai-engineering/models/linkedin_post_writer/linkedin-post-writer/SKILL.md) | `linkedin_post_writer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linkedin post writer. Draft LinkedIn posts from 16 tested hook formulas mapped to engagement goals (comments, reposts, likes, saves), with 2026 algorithm formatting rules and an AI-tell scrub pass before publishing. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
