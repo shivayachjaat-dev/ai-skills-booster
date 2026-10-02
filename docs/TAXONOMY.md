@@ -381,6 +381,7 @@ AI_Skills_Booster/
 │   │   ├── hugging_face_vision_/ (1 skills)
 │   │   ├── huggingface_best/ (1 skills)
 │   │   ├── huggingface_local_mo/ (1 skills)
+│   │   ├── huggingface_spaces/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

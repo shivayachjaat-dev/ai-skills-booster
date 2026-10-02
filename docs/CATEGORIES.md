@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,195** skills across structured domains, categories, and subcategories.
+Master navigation for **1,196** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (411 skills)
+## Ai Engineering (412 skills)
 
 ### Agents (49 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -206,7 +206,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (302 skills)
+### Models (303 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -792,6 +792,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [huggingface-best](../skills/ai-engineering/models/huggingface_best/huggingface-best/SKILL.md) — Use this skill to design, implement, and operate production workflows for huggingface best. Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores.
 - **Huggingface_Local_Mo** (1):
   - [huggingface-local-models](../skills/ai-engineering/models/huggingface_local_mo/huggingface-local-models/SKILL.md) — Use this skill to design, implement, and operate production workflows for huggingface local models. Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.
+- **Huggingface_Spaces** (1):
+  - [huggingface-spaces](../skills/ai-engineering/models/huggingface_spaces/huggingface-spaces/SKILL.md) — Use this skill to design, implement, and operate production workflows for huggingface spaces. Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

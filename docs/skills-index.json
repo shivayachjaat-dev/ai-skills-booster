@@ -8333,6 +8333,28 @@
     "maturity": "stable"
   },
   {
+    "name": "huggingface-spaces",
+    "path": "skills/ai-engineering/models/huggingface_spaces/huggingface-spaces",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "huggingface_spaces",
+    "description": "Use this skill to design, implement, and operate production workflows for huggingface spaces. Build, deploy, and maintain applications on Hugging Face Spaces \u2014 Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "huggingface",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Huggingface Spaces",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
