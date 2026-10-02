@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,514** skills across structured domains, categories, and subcategories.
+Master navigation for **1,515** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (525 skills)
 
@@ -2023,7 +2023,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (298 skills)
+## Frontend (299 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2531,7 +2531,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (69 skills)
+### Web Architecture (70 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -2631,6 +2631,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [material-design](../skills/frontend/web-architecture/material_design/material-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for material design. Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components.
 - **Maximalism** (1):
   - [maximalism](../skills/frontend/web-architecture/maximalism/maximalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for maximalism. Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation.
+- **Microsoft_Azure_Webj** (1):
+  - [microsoft-azure-webjobs-extensions-authentication-events-dotnet](../skills/frontend/web-architecture/microsoft_azure_webj/microsoft-azure-webjobs-extensions-authentication-events-dotnet/SKILL.md) — Use this skill to design, implement, and operate production workflows for microsoft azure webjobs extensions authentication events dotnet. Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions.
 - **Minimalism** (1):
   - [minimalism](../skills/frontend/web-architecture/minimalism/minimalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for minimalism. Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy.
 - **Monochromatic_Ui** (1):

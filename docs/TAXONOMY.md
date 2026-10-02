@@ -1202,6 +1202,7 @@ AI_Skills_Booster/
 │   │   ├── layered_design/ (1 skills)
 │   │   ├── material_design/ (1 skills)
 │   │   ├── maximalism/ (1 skills)
+│   │   ├── microsoft_azure_webj/ (1 skills)
 │   │   ├── minimalism/ (1 skills)
 │   │   ├── monochromatic_ui/ (1 skills)
 │   │   ├── neo_brutalism/ (1 skills)

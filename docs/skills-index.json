@@ -24875,6 +24875,28 @@
     "maturity": "stable"
   },
   {
+    "name": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+    "path": "skills/frontend/web-architecture/microsoft_azure_webj/microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "microsoft_azure_webj",
+    "description": "Use this skill to design, implement, and operate production workflows for microsoft azure webjobs extensions authentication events dotnet. Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "microsoft",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Microsoft Azure Webjobs Extensions Authentication Events Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "minimalism",
     "path": "skills/frontend/web-architecture/minimalism/minimalism",
     "domain": "frontend",
