@@ -4817,6 +4817,28 @@
     "maturity": "stable"
   },
   {
+    "name": "backup-recovery",
+    "path": "skills/devops/ci-cd/backup_recovery/backup-recovery",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "backup_recovery",
+    "description": "Use this skill to implement backup and recovery strategies. Configure rsync, Restic, and",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "backup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Backup Recovery",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
