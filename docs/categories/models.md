@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **107 skills** available in this category.
+> **108 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -110,4 +110,5 @@
 | [cc-skill-strategic-compact](../../skills/ai-engineering/models/cc_skill_strategic_c/cc-skill-strategic-compact/SKILL.md) | `cc_skill_strategic_c` | `advanced` | `stable` | Use this skill to prepare a verified checkpoint before condensing an agent conversation at a phase boundary. Use during long tasks when context is repetitive; preserves constraints, evidence, decisions and the next action. |
 | [churn-prevention](../../skills/ai-engineering/models/churn_prevention/churn-prevention/SKILL.md) | `churn_prevention` | `advanced` | `stable` | Use this skill to reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement. |
 | [cicd-automation-workflow-automate](../../skills/ai-engineering/models/cicd_automation_work/cicd-automation-workflow-automate/SKILL.md) | `cicd_automation_work` | `advanced` | `stable` | Use this skill to you are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality |
+| [cirq](../../skills/ai-engineering/models/cirq/cirq/SKILL.md) | `cirq` | `advanced` | `stable` | Use this skill to cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

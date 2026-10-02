@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **492** skills across structured domains, categories, and subcategories.
+Master navigation for **493** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (164 skills)
+## Ai Engineering (165 skills)
 
 ### Agents (18 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -120,7 +120,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Bullmq_Specialist** (1):
   - [bullmq-specialist](../skills/ai-engineering/llm-ops/bullmq_specialist/bullmq-specialist/SKILL.md) — Use this skill to bullMQ expert for Redis-backed job queues, background processing,
 
-### Models (107 skills)
+### Models (108 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -326,6 +326,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [churn-prevention](../skills/ai-engineering/models/churn_prevention/churn-prevention/SKILL.md) — Use this skill to reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement.
 - **Cicd_Automation_Work** (1):
   - [cicd-automation-workflow-automate](../skills/ai-engineering/models/cicd_automation_work/cicd-automation-workflow-automate/SKILL.md) — Use this skill to you are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality
+- **Cirq** (1):
+  - [cirq](../skills/ai-engineering/models/cirq/cirq/SKILL.md) — Use this skill to cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
