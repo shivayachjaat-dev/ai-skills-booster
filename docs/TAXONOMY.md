@@ -34,6 +34,8 @@ AI_Skills_Booster/
 │   │   └── evaluation/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)
+│   ├── tools/
+│   │   └── tool-builder/ (1 skills)
 │   └── vector-databases/
 │   │   └── indexing/ (1 skills)
 ├── backend/

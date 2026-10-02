@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **123** skills across structured domains, categories, and subcategories.
+Master navigation for **124** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (23 skills)
+## Ai Engineering (24 skills)
 
 ### Agents (12 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -83,6 +83,12 @@ Category index: [`docs/categories/synthetic-data.md`](categories/synthetic-data.
 
 - **Synth Data Pipeline** (1):
   - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
+
+### Tools (1 skills)
+Category index: [`docs/categories/tools.md`](categories/tools.md)
+
+- **Tool Builder** (1):
+  - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
 
 ### Vector Databases (1 skills)
 Category index: [`docs/categories/vector-databases.md`](categories/vector-databases.md)

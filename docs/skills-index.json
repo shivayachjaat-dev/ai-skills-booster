@@ -546,6 +546,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-agent-custom-tool-builder-and-schema-generator",
+    "path": "skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator",
+    "domain": "ai-engineering",
+    "category": "tools",
+    "subcategory": "tool-builder",
+    "description": "Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.",
+    "tags": [
+      "tool-builder",
+      "function-calling",
+      "mcp",
+      "json-schema",
+      "pydantic",
+      "developer-tools"
+    ],
+    "technologies": [
+      "Python",
+      "JSON Schema",
+      "Pydantic v2",
+      "Model Context Protocol (MCP)",
+      "TypeScript"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "vector-database-rag-indexing",
     "path": "skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing",
     "domain": "ai-engineering",
