@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,246** skills across structured domains, categories, and subcategories.
+Master navigation for **1,247** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (417 skills)
 
@@ -1721,7 +1721,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (248 skills)
+## Frontend (249 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1853,7 +1853,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **High_End_Visual_Desi** (1):
   - [high-end-visual-design](../skills/frontend/ui-development/high_end_visual_desi/high-end-visual-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for high end visual design. Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.
 
-### Ui Ux (138 skills)
+### Ui Ux (139 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2124,6 +2124,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [hunt-oauth](../skills/frontend/ui-ux/hunt_oauth/hunt-oauth/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt oauth. Hunting skill for oauth vulnerabilities. Built from 19 public bug bounty
 - **Hunt_Rce** (1):
   - [hunt-rce](../skills/frontend/ui-ux/hunt_rce/hunt-rce/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt rce. Hunting skill for rce vulnerabilities. Built from 67 public bug bounty
+- **Hunt_Source_Leak** (1):
+  - [hunt-source-leak](../skills/frontend/ui-ux/hunt_source_leak/hunt-source-leak/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt source leak. Hunt source code and build artifact leakage
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
 - **Seo_Content_Auditor** (1):

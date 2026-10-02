@@ -19309,6 +19309,28 @@
     "maturity": "stable"
   },
   {
+    "name": "hunt-source-leak",
+    "path": "skills/frontend/ui-ux/hunt_source_leak/hunt-source-leak",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "hunt_source_leak",
+    "description": "Use this skill to design, implement, and operate production workflows for hunt source leak. Hunt source code and build artifact leakage",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "hunt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Hunt Source Leak",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

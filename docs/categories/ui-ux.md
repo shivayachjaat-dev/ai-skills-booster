@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **138 skills** available in this category.
+> **139 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -138,6 +138,7 @@
 | [hunt-misc](../../skills/frontend/ui-ux/hunt_misc/hunt-misc/SKILL.md) | `hunt_misc` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt misc. Hunting skill for misc vulnerabilities. Built from 225 public bug bounty |
 | [hunt-oauth](../../skills/frontend/ui-ux/hunt_oauth/hunt-oauth/SKILL.md) | `hunt_oauth` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt oauth. Hunting skill for oauth vulnerabilities. Built from 19 public bug bounty |
 | [hunt-rce](../../skills/frontend/ui-ux/hunt_rce/hunt-rce/SKILL.md) | `hunt_rce` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt rce. Hunting skill for rce vulnerabilities. Built from 67 public bug bounty |
+| [hunt-source-leak](../../skills/frontend/ui-ux/hunt_source_leak/hunt-source-leak/SKILL.md) | `hunt_source_leak` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt source leak. Hunt source code and build artifact leakage |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
