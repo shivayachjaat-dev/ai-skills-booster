@@ -2346,6 +2346,33 @@
     "maturity": "stable"
   },
   {
+    "name": "multilingual-audio-dubbing-and-srt-sync",
+    "path": "skills/multimedia/audio/multilingual-dubbing/multilingual-audio-dubbing-and-srt-sync",
+    "domain": "multimedia",
+    "category": "audio",
+    "subcategory": "multilingual-dubbing",
+    "description": "Use this skill to design and automate end-to-end multilingual audio dubbing, subtitle translation, and SRT timestamp alignment pipelines using Whisper, ElevenLabs, and FFmpeg. It covers speech synthesis matching, audio ducking, subtitle timecode synchronization, and video stream multiplexing.",
+    "tags": [
+      "audio-dubbing",
+      "whisper",
+      "elevenlabs",
+      "ffmpeg",
+      "subtitles",
+      "srt",
+      "translation",
+      "multimedia"
+    ],
+    "technologies": [
+      "FFmpeg",
+      "OpenAI Whisper",
+      "Python",
+      "ElevenLabs API",
+      "SRT Subtitles"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-image-generation-prompt-and-asset-pipeline",
     "path": "skills/multimedia/image-generation/asset-pipeline/ai-image-generation-prompt-and-asset-pipeline",
     "domain": "multimedia",
