@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **742** skills across structured domains, categories, and subcategories.
+Master navigation for **743** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (264 skills)
 
@@ -1285,7 +1285,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (95 skills)
+## Frontend (96 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1363,7 +1363,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Ckw_Design** (1):
   - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
 
-### Ui Ux (61 skills)
+### Ui Ux (62 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -1410,6 +1410,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [blog-writing-guide](../skills/frontend/ui-ux/blog_writing_guide/blog-writing-guide/SKILL.md) — Use this skill to this skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement.
 - **Brand_Guidelines_Ant** (1):
   - [brand-guidelines-anthropic](../skills/frontend/ui-ux/brand_guidelines_ant/brand-guidelines-anthropic/SKILL.md) — Use this skill to to access Anthropic's official brand identity and style resources, use this skill.
+- **Brand_Guidelines_Com** (1):
+  - [brand-guidelines-community](../skills/frontend/ui-ux/brand_guidelines_com/brand-guidelines-community/SKILL.md) — Use this skill to design, implement, and operate production workflows for brand guidelines community. To access Anthropic's official brand identity and style resources, use this skill.
 - **Browser_Extension_Bu** (1):
   - [browser-extension-builder](../skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) — Use this skill to expert in building browser extensions that solve real problems -
 - **Building_Native_Ui** (1):

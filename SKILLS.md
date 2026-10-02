@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 742 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 743 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -510,6 +510,7 @@
 | [bazel-build-optimization](skills/frontend/ui-ux/bazel_build_optimiza/bazel-build-optimization/SKILL.md) | `frontend` | `ui-ux` | `bazel_build_optimiza` | `advanced` | `stable` | Use this skill to optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases. |
 | [blog-writing-guide](skills/frontend/ui-ux/blog_writing_guide/blog-writing-guide/SKILL.md) | `frontend` | `ui-ux` | `blog_writing_guide` | `advanced` | `stable` | Use this skill to this skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement. |
 | [brand-guidelines-anthropic](skills/frontend/ui-ux/brand_guidelines_ant/brand-guidelines-anthropic/SKILL.md) | `frontend` | `ui-ux` | `brand_guidelines_ant` | `advanced` | `stable` | Use this skill to to access Anthropic's official brand identity and style resources, use this skill. |
+| [brand-guidelines-community](skills/frontend/ui-ux/brand_guidelines_com/brand-guidelines-community/SKILL.md) | `frontend` | `ui-ux` | `brand_guidelines_com` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for brand guidelines community. To access Anthropic's official brand identity and style resources, use this skill. |
 | [browser-extension-builder](skills/frontend/ui-ux/browser_extension_bu/browser-extension-builder/SKILL.md) | `frontend` | `ui-ux` | `browser_extension_bu` | `advanced` | `stable` | Use this skill to expert in building browser extensions that solve real problems - |
 | [building-native-ui](skills/frontend/ui-ux/building_native_ui/building-native-ui/SKILL.md) | `frontend` | `ui-ux` | `building_native_ui` | `advanced` | `stable` | Use this skill to complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs. |
 | [burpsuite-project-parser](skills/frontend/ui-ux/burpsuite_project_pa/burpsuite-project-parser/SKILL.md) | `frontend` | `ui-ux` | `burpsuite_project_pa` | `advanced` | `stable` | Use this skill to searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project. |
