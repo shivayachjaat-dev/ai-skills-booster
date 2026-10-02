@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **59** skills across structured domains, categories, and subcategories.
+Master navigation for **60** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (8 skills)
 
@@ -152,7 +152,7 @@ Category index: [`docs/categories/redis.md`](categories/redis.md)
 - **Caching** (1):
   - [redis-caching-patterns](../skills/databases/redis/caching/redis-caching-patterns/SKILL.md) — Use this skill when designing, implementing, and optimizing caching strategies using Redis. It guides the agent through selecting appropriate patterns (Cache-Aside, Write-Through, Write-Behind), mitigating cache stampedes (dogpiling) using probabilistic early expiration (XFetch) or mutex locks, avoiding cache penetration with Bloom filters, and configuring TTL jitter.
 
-## Devops (8 skills)
+## Devops (9 skills)
 
 ### Ci Cd (1 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -165,6 +165,12 @@ Category index: [`docs/categories/containers.md`](categories/containers.md)
 
 - **Optimization** (1):
   - [docker-container-optimization](../skills/devops/containers/optimization/docker-container-optimization/SKILL.md) — Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.
+
+### Gitops (1 skills)
+Category index: [`docs/categories/gitops.md`](categories/gitops.md)
+
+- **Argo Cd** (1):
+  - [argocd-gitops-continuous-delivery](../skills/devops/gitops/argo-cd/argocd-gitops-continuous-delivery/SKILL.md) — Use this skill when designing, configuring, and operating GitOps continuous delivery workflows on Kubernetes using Argo CD. It guides the agent through Application and ApplicationSet CRD declarations, automated self-healing and pruning sync policies, sync waves and resource hooks, multi-tenant RBAC, and repository secrets integration.
 
 ### Iac (1 skills)
 Category index: [`docs/categories/iac.md`](categories/iac.md)

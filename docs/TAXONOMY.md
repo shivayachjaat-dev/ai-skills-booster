@@ -59,6 +59,8 @@ AI_Skills_Booster/
 │   │   └── optimization/ (1 skills)
 │   ├── containers/
 │   │   └── optimization/ (1 skills)
+│   ├── gitops/
+│   │   └── argo-cd/ (1 skills)
 │   ├── iac/
 │   │   └── terraform/ (1 skills)
 │   ├── kubernetes/

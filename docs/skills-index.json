@@ -673,6 +673,31 @@
     "maturity": "stable"
   },
   {
+    "name": "argocd-gitops-continuous-delivery",
+    "path": "skills/devops/gitops/argo-cd/argocd-gitops-continuous-delivery",
+    "domain": "devops",
+    "category": "gitops",
+    "subcategory": "argo-cd",
+    "description": "Use this skill when designing, configuring, and operating GitOps continuous delivery workflows on Kubernetes using Argo CD. It guides the agent through Application and ApplicationSet CRD declarations, automated self-healing and pruning sync policies, sync waves and resource hooks, multi-tenant RBAC, and repository secrets integration.",
+    "tags": [
+      "argocd",
+      "gitops",
+      "kubernetes",
+      "continuous-delivery",
+      "helm",
+      "kustomize"
+    ],
+    "technologies": [
+      "Argo CD",
+      "Kubernetes",
+      "GitOps",
+      "Kustomize",
+      "Helm"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "terraform-infrastructure-as-code",
     "path": "skills/devops/iac/terraform/terraform-infrastructure-as-code",
     "domain": "devops",
