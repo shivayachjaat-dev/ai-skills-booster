@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -22,3 +22,4 @@
 | [fp-ts-react](../../skills/frontend/frameworks/fp_ts_react/fp-ts-react/SKILL.md) | `fp_ts_react` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp ts react. Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15. |
 | [jest-skill](../../skills/frontend/frameworks/jest_skill/jest-skill/SKILL.md) | `jest_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for jest skill. Generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and React component testing. Use when user mentions \"Jest\", \"describe/it/expect\", \"jest.mock\", \"toMatchSnapshot\". |
 | [lovable-cleanup](../../skills/frontend/frameworks/lovable_cleanup/lovable-cleanup/SKILL.md) | `lovable_cleanup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for lovable cleanup. Audits and strips Lovable scaffolding from Vite + React projects — removes lovable-tagger, swaps placeholder assets, prunes unused Radix deps, cleans generated docs, and neutralizes stale favicon/CDN caching so the codebase ships as yours. |
+| [mobile-developer](../../skills/frontend/frameworks/mobile_developer/mobile-developer/SKILL.md) | `mobile_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mobile developer. Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization. |

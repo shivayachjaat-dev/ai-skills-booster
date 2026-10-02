@@ -945,7 +945,8 @@ AI_Skills_Booster/
 │   │   ├── fp_react/ (1 skills)
 │   │   ├── fp_ts_react/ (1 skills)
 │   │   ├── jest_skill/ (1 skills)
-│   │   └── lovable_cleanup/ (1 skills)
+│   │   ├── lovable_cleanup/ (1 skills)
+│   │   └── mobile_developer/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/

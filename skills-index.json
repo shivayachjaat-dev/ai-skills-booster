@@ -19385,6 +19385,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mobile-developer",
+    "path": "skills/frontend/frameworks/mobile_developer/mobile-developer",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "mobile_developer",
+    "description": "Use this skill to design, implement, and operate production workflows for mobile developer. Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "mobile",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mobile Developer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

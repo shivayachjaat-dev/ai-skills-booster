@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,529** skills across structured domains, categories, and subcategories.
+Master navigation for **1,530** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (530 skills)
 
@@ -2043,7 +2043,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (301 skills)
+## Frontend (302 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2069,7 +2069,7 @@ Category index: [`docs/categories/design-systems.md`](categories/design-systems.
 - **Clean Ui Anti Slop** (1):
   - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
-### Frameworks (15 skills)
+### Frameworks (16 skills)
 Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 
 - **Angular** (1):
@@ -2102,6 +2102,8 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
   - [jest-skill](../skills/frontend/frameworks/jest_skill/jest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for jest skill. Generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and React component testing. Use when user mentions \"Jest\", \"describe/it/expect\", \"jest.mock\", \"toMatchSnapshot\".
 - **Lovable_Cleanup** (1):
   - [lovable-cleanup](../skills/frontend/frameworks/lovable_cleanup/lovable-cleanup/SKILL.md) — Use this skill to design, implement, and operate production workflows for lovable cleanup. Audits and strips Lovable scaffolding from Vite + React projects — removes lovable-tagger, swaps placeholder assets, prunes unused Radix deps, cleans generated docs, and neutralizes stale favicon/CDN caching so the codebase ships as yours.
+- **Mobile_Developer** (1):
+  - [mobile-developer](../skills/frontend/frameworks/mobile_developer/mobile-developer/SKILL.md) — Use this skill to design, implement, and operate production workflows for mobile developer. Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization.
 
 ### Nextjs (1 skills)
 Category index: [`docs/categories/nextjs.md`](categories/nextjs.md)
