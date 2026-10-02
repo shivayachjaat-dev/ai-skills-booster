@@ -1418,6 +1418,33 @@
     "maturity": "stable"
   },
   {
+    "name": "cosign-container-image-signing",
+    "path": "skills/security/supply-chain/cosign/cosign-container-image-signing",
+    "domain": "security",
+    "category": "supply-chain",
+    "subcategory": "cosign",
+    "description": "Use this skill when designing, implementing, and enforcing cryptographic container image signing and verification using Sigstore Cosign. It covers keyless signing via OIDC (GitHub Actions/GitLab CI), public/private keypair signing, SBOM attestation attachment, and enforcing Kubernetes admission policies with Kyverno or Gatekeeper.",
+    "tags": [
+      "cosign",
+      "sigstore",
+      "supply-chain",
+      "container-security",
+      "security",
+      "kubernetes",
+      "devsecops"
+    ],
+    "technologies": [
+      "Cosign",
+      "Sigstore",
+      "Rekor",
+      "Fulcio",
+      "Kyverno",
+      "Docker"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "container-vulnerability-scanning-trivy",
     "path": "skills/security/vulnerability-scanning/trivy/container-vulnerability-scanning-trivy",
     "domain": "security",

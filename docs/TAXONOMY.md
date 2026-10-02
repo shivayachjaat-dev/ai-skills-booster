@@ -122,6 +122,8 @@ AI_Skills_Booster/
 │   │   └── detection/ (1 skills)
 │   ├── secrets/
 │   │   └── vault/ (1 skills)
+│   ├── supply-chain/
+│   │   └── cosign/ (1 skills)
 │   ├── vulnerability-scanning/
 │   │   └── trivy/ (1 skills)
 │   └── zero-trust/

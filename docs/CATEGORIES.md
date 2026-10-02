@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **68** skills across structured domains, categories, and subcategories.
+Master navigation for **69** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (10 skills)
 
@@ -295,7 +295,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (11 skills)
+## Security (12 skills)
 
 ### Ai Security (1 skills)
 Category index: [`docs/categories/ai-security.md`](categories/ai-security.md)
@@ -350,6 +350,12 @@ Category index: [`docs/categories/secrets.md`](categories/secrets.md)
 
 - **Vault** (1):
   - [vault-secrets-management](../skills/security/secrets/vault/vault-secrets-management/SKILL.md) — Use this skill when architecting and managing enterprise secrets using HashiCorp Vault. It guides the agent through dynamic database credentials generation, lease management and renewal, Kubernetes ServiceAccount authentication, PKI on-demand certificate issuance, transit encryption, and disaster recovery replication.
+
+### Supply Chain (1 skills)
+Category index: [`docs/categories/supply-chain.md`](categories/supply-chain.md)
+
+- **Cosign** (1):
+  - [cosign-container-image-signing](../skills/security/supply-chain/cosign/cosign-container-image-signing/SKILL.md) — Use this skill when designing, implementing, and enforcing cryptographic container image signing and verification using Sigstore Cosign. It covers keyless signing via OIDC (GitHub Actions/GitLab CI), public/private keypair signing, SBOM attestation attachment, and enforcing Kubernetes admission policies with Kyverno or Gatekeeper.
 
 ### Vulnerability Scanning (1 skills)
 Category index: [`docs/categories/vulnerability-scanning.md`](categories/vulnerability-scanning.md)
