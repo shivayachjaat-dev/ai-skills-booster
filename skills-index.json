@@ -3104,6 +3104,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-sst-development",
+    "path": "skills/devops/cloud-infrastructure/aws_sst_development/aws-sst-development",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "aws_sst_development",
+    "description": "Use this skill to sST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Sst Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",
