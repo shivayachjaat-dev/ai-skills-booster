@@ -9433,6 +9433,28 @@
     "maturity": "stable"
   },
   {
+    "name": "leiloeiro-ia",
+    "path": "skills/ai-engineering/models/leiloeiro_ia/leiloeiro-ia",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "leiloeiro_ia",
+    "description": "Use this skill to design, implement, and operate production workflows for leiloeiro ia. Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado integrada. Orquestra os 5 modulos especializados.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "leiloeiro",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Leiloeiro Ia",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
