@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **118** skills across structured domains, categories, and subcategories.
+Master navigation for **119** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (19 skills)
+## Ai Engineering (20 skills)
 
-### Agents (8 skills)
+### Agents (9 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Autogen** (1):
@@ -19,6 +19,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [agent-project-memory](../skills/ai-engineering/agents/memory/agent-project-memory/SKILL.md) — Use this skill when designing, maintaining, or recovering persistent memory and architectural context across long-running AI agent sessions. It establishes structured memory stores, state serialization protocols, session recovery checkpoints, and active context pruning to prevent context loss during complex projects.
 - **Memory Discipline** (1):
   - [agent-memory-recall-and-retention-discipline](../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) — Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences.
+- **Observability** (1):
+  - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
 - **Orchestration** (1):
   - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 - **Process Management** (1):

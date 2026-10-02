@@ -10,6 +10,7 @@ AI_Skills_Booster/
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── memory/ (1 skills)
 │   │   ├── memory-discipline/ (1 skills)
+│   │   ├── observability/ (1 skills)
 │   │   ├── orchestration/ (1 skills)
 │   │   └── process-management/ (1 skills)
 │   ├── context/

@@ -148,6 +148,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-agent-observability-and-trace-evaluation",
+    "path": "skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "observability",
+    "description": "Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.",
+    "tags": [
+      "ai-observability",
+      "opentelemetry",
+      "openinference",
+      "llm-tracing",
+      "langfuse",
+      "agent-metrics"
+    ],
+    "technologies": [
+      "OpenTelemetry",
+      "OpenInference",
+      "Python",
+      "Langfuse",
+      "Prometheus"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-consensus-protocol",
     "path": "skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol",
     "domain": "ai-engineering",
