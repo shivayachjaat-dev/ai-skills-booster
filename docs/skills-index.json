@@ -423,6 +423,31 @@
     "maturity": "stable"
   },
   {
+    "name": "llm-prompt-regression-testing-and-eval-harness",
+    "path": "skills/ai-engineering/evaluation/prompt-regression/llm-prompt-regression-testing-and-eval-harness",
+    "domain": "ai-engineering",
+    "category": "evaluation",
+    "subcategory": "prompt-regression",
+    "description": "Use this skill to design, execute, and automate prompt regression test matrices and LLM-as-a-judge evaluation harnesses. It covers golden dataset curation, semantic embedding drift measurement, factual consistency scoring, and CI/CD gate automation before deploying prompt or model updates.",
+    "tags": [
+      "prompt-evaluation",
+      "llm-as-a-judge",
+      "regression-testing",
+      "evals",
+      "promptfoo",
+      "semantic-drift"
+    ],
+    "technologies": [
+      "Python",
+      "Pydantic",
+      "Cosine Similarity",
+      "Promptfoo",
+      "LLM Evals"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "promptfoo-llm-eval-benchmarking",
     "path": "skills/ai-engineering/evaluation/promptfoo/promptfoo-llm-eval-benchmarking",
     "domain": "ai-engineering",

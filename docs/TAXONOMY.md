@@ -24,6 +24,7 @@ AI_Skills_Booster/
 │   │   └── optimization/ (1 skills)
 │   ├── evaluation/
 │   │   ├── deepeval/ (1 skills)
+│   │   ├── prompt-regression/ (1 skills)
 │   │   ├── promptfoo/ (1 skills)
 │   │   └── ragas-rag-evaluation/ (1 skills)
 │   ├── fine-tuning/

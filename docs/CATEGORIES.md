@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **135** skills across structured domains, categories, and subcategories.
+Master navigation for **136** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (29 skills)
+## Ai Engineering (30 skills)
 
 ### Agents (13 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -48,11 +48,13 @@ Category index: [`docs/categories/context.md`](categories/context.md)
 - **Optimization** (1):
   - [context-window-engineering](../skills/ai-engineering/context/optimization/context-window-engineering/SKILL.md) — Use this skill when managing, structuring, and compressing context windows for LLMs and autonomous agents. It enforces prompt caching alignment, 'lost in the middle' attention optimization, dynamic token budget allocation, semantic pruning, and multi-turn message compaction to maximize reasoning accuracy while minimizing latency and token costs.
 
-### Evaluation (3 skills)
+### Evaluation (4 skills)
 Category index: [`docs/categories/evaluation.md`](categories/evaluation.md)
 
 - **Deepeval** (1):
   - [deepeval-unit-testing-llm-apps](../skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps/SKILL.md) — Use this skill when designing, authoring, and automating CI/CD unit testing suites for Large Language Model applications using DeepEval. It guides the agent through defining LLM test cases (LLMTestCase), configuring G-Eval custom criteria metrics, hallucination and answer relevancy scoring, integrating with pytest, and setting regression assertions.
+- **Prompt Regression** (1):
+  - [llm-prompt-regression-testing-and-eval-harness](../skills/ai-engineering/evaluation/prompt-regression/llm-prompt-regression-testing-and-eval-harness/SKILL.md) — Use this skill to design, execute, and automate prompt regression test matrices and LLM-as-a-judge evaluation harnesses. It covers golden dataset curation, semantic embedding drift measurement, factual consistency scoring, and CI/CD gate automation before deploying prompt or model updates.
 - **Promptfoo** (1):
   - [promptfoo-llm-eval-benchmarking](../skills/ai-engineering/evaluation/promptfoo/promptfoo-llm-eval-benchmarking/SKILL.md) — Use this skill when designing, executing, and automating LLM prompt evaluations and adversarial red-teaming benchmarks using promptfoo. It guides the agent through defining test matrices (providers x prompts x variables), configuring deterministic and LLM-as-a-judge assertions, running red-team vulnerability scans, and integrating evaluations into CI/CD pipelines.
 - **Ragas Rag Evaluation** (1):
