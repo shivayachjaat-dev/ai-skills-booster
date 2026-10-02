@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **749** skills across structured domains, categories, and subcategories.
+Master navigation for **750** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (265 skills)
 
@@ -1640,7 +1640,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (77 skills)
+## Security (78 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -1670,7 +1670,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (22 skills)
+### Appsec (23 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -1706,6 +1706,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [codebase-audit-pre-push](../skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push/SKILL.md) — Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.
 - **Cyber_Audit** (1):
   - [cyber-audit](../skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) — Use this skill to run read-only exposure checks for security advisories and write a structured local audit report.
+- **Dependency_Scanning** (1):
+  - [dependency-scanning](../skills/security/appsec/dependency_scanning/dependency-scanning/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot,
 - **Gcp_Audit_Logs** (1):
   - [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
 - **Laravel_Security_Aud** (1):

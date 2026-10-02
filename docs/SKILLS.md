@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 749 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 750 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -608,6 +608,7 @@
 | [code-review-sensei](skills/security/appsec/code_review_sensei/code-review-sensei/SKILL.md) | `security` | `appsec` | `code_review_sensei` | `advanced` | `stable` | Use this skill to expert code reviewer that catches bugs, security issues, performance |
 | [codebase-audit-pre-push](skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push/SKILL.md) | `security` | `appsec` | `codebase_audit_pre_p` | `advanced` | `stable` | Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness. |
 | [cyber-audit](skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) | `security` | `appsec` | `cyber_audit` | `advanced` | `stable` | Use this skill to run read-only exposure checks for security advisories and write a structured local audit report. |
+| [dependency-scanning](skills/security/appsec/dependency_scanning/dependency-scanning/SKILL.md) | `security` | `appsec` | `dependency_scanning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot, |
 | [gcp-audit-logs](skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) | `security` | `appsec` | `gcp_audit_logs` | `advanced` | `stable` | Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and |
 | [laravel-security-audit](skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) | `security` | `appsec` | `laravel_security_aud` | `advanced` | `stable` | Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices. |
 | [mcp-dependency-drift-audit](skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) | `security` | `appsec` | `mcp_dependency_drift` | `advanced` | `stable` | Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. |

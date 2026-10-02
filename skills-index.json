@@ -13774,6 +13774,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dependency-scanning",
+    "path": "skills/security/appsec/dependency_scanning/dependency-scanning",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "dependency_scanning",
+    "description": "Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot,",
+    "tags": [
+      "security",
+      "appsec",
+      "dependency",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dependency Scanning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "gcp-audit-logs",
     "path": "skills/security/appsec/gcp_audit_logs/gcp-audit-logs",
     "domain": "security",

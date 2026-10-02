@@ -1053,7 +1053,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (567 skills)
+## Bash (568 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1518,6 +1518,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [code-review-sensei](../skills/security/appsec/code_review_sensei/code-review-sensei/SKILL.md) — Use this skill to expert code reviewer that catches bugs, security issues, performance
 - [codebase-audit-pre-push](../skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push/SKILL.md) — Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.
 - [cyber-audit](../skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) — Use this skill to run read-only exposure checks for security advisories and write a structured local audit report.
+- [dependency-scanning](../skills/security/appsec/dependency_scanning/dependency-scanning/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot,
 - [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
@@ -3150,6 +3151,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [dependency-management-deps-audit](../skills/ai-engineering/models/dependency_managemen/dependency-management-deps-audit/SKILL.md) — Use this skill to you are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
 
+## Dependency Scanning (1 skills)
+
+- [dependency-scanning](../skills/security/appsec/dependency_scanning/dependency-scanning/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot,
+
 ## Django (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -4264,7 +4269,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (670 skills)
+## Python (671 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4810,6 +4815,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [code-review-sensei](../skills/security/appsec/code_review_sensei/code-review-sensei/SKILL.md) — Use this skill to expert code reviewer that catches bugs, security issues, performance
 - [codebase-audit-pre-push](../skills/security/appsec/codebase_audit_pre_p/codebase-audit-pre-push/SKILL.md) — Use this skill to deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.
 - [cyber-audit](../skills/security/appsec/cyber_audit/cyber-audit/SKILL.md) — Use this skill to run read-only exposure checks for security advisories and write a structured local audit report.
+- [dependency-scanning](../skills/security/appsec/dependency_scanning/dependency-scanning/SKILL.md) — Use this skill to design, implement, and operate production workflows for dependency scanning. Scan package dependencies for known vulnerabilities using Snyk, Dependabot,
 - [gcp-audit-logs](../skills/security/appsec/gcp_audit_logs/gcp-audit-logs/SKILL.md) — Use this skill to configure GCP Cloud Audit Logs for compliance. Set up log routing and
 - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - [mcp-dependency-drift-audit](../skills/security/appsec/mcp_dependency_drift/mcp-dependency-drift-audit/SKILL.md) — Use this skill to statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
