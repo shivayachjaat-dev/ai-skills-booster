@@ -418,6 +418,7 @@ AI_Skills_Booster/
 │   │   ├── k8s_manifest_generat/ (1 skills)
 │   │   ├── kaizen/ (1 skills)
 │   │   ├── klaviyo_automation/ (1 skills)
+│   │   ├── kpi_tracker/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

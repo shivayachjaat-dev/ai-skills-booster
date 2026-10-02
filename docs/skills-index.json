@@ -9147,6 +9147,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kpi-tracker",
+    "path": "skills/ai-engineering/models/kpi_tracker/kpi-tracker",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "kpi_tracker",
+    "description": "Use this skill to design, implement, and operate production workflows for kpi tracker. KPI register: metric by level, department, job title and employee, linked OKR, unit and direction, target against actual, achievement and weight percentages, period and owner. Use for scorecards.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "kpi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kpi Tracker",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
