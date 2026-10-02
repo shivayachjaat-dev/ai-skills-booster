@@ -848,6 +848,7 @@ AI_Skills_Booster/
 │   │   ├── loki_logging/ (1 skills)
 │   │   ├── mdm_device_managemen/ (1 skills)
 │   │   ├── model_registry_gover/ (1 skills)
+│   │   ├── model_serving_kubern/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
