@@ -17549,6 +17549,28 @@
     "maturity": "stable"
   },
   {
+    "name": "gitlab-ci-patterns",
+    "path": "skills/frontend/ui-ux/gitlab_ci_patterns/gitlab-ci-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "gitlab_ci_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for gitlab ci patterns. Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "gitlab",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Gitlab Ci Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
