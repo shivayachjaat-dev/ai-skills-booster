@@ -1491,6 +1491,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-document-intelligence-dotnet",
+    "path": "skills/ai-engineering/models/azure_ai_document_in/azure-ai-document-intelligence-dotnet",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_document_in",
+    "description": "Use this skill to azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Document Intelligence Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
