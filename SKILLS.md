@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 335 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 336 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -95,6 +95,7 @@
 | [azure-cosmos-rust](skills/ai-engineering/models/azure_cosmos_rust/azure-cosmos-rust/SKILL.md) | `ai-engineering` | `models` | `azure_cosmos_rust` | `advanced` | `stable` | Use this skill to azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data. |
 | [azure-cosmos-ts](skills/ai-engineering/models/azure_cosmos_ts/azure-cosmos-ts/SKILL.md) | `ai-engineering` | `models` | `azure_cosmos_ts` | `advanced` | `stable` | Use this skill to azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management. |
 | [azure-mgmt-arizeaiobservabilityeval-dotnet](skills/ai-engineering/models/azure_mgmt_arizeaiob/azure-mgmt-arizeaiobservabilityeval-dotnet/SKILL.md) | `ai-engineering` | `models` | `azure_mgmt_arizeaiob` | `advanced` | `stable` | Use this skill to azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET). |
+| [azure-monitor-query-java](skills/ai-engineering/models/azure_monitor_query_/azure-monitor-query-java/SKILL.md) | `ai-engineering` | `models` | `azure_monitor_query_` | `advanced` | `stable` | Use this skill to azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |

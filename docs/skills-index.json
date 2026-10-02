@@ -2085,6 +2085,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-monitor-query-java",
+    "path": "skills/ai-engineering/models/azure_monitor_query_/azure-monitor-query-java",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_monitor_query_",
+    "description": "Use this skill to azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Monitor Query Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
