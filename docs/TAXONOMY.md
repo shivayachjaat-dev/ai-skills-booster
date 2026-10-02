@@ -117,6 +117,7 @@ AI_Skills_Booster/
 │   │   ├── before_you_build/ (1 skills)
 │   │   ├── behavioral_modes/ (1 skills)
 │   │   ├── biopython/ (1 skills)
+│   │   ├── blockchain_developer/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

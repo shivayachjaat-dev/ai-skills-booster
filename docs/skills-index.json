@@ -2525,6 +2525,28 @@
     "maturity": "stable"
   },
   {
+    "name": "blockchain-developer",
+    "path": "skills/ai-engineering/models/blockchain_developer/blockchain-developer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "blockchain_developer",
+    "description": "Use this skill to build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "blockchain",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Blockchain Developer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

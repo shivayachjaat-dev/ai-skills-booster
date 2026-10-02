@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **78 skills** available in this category.
+> **79 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -81,4 +81,5 @@
 | [before-you-build](../../skills/ai-engineering/models/before_you_build/before-you-build/SKILL.md) | `before_you_build` | `advanced` | `stable` | Use this skill to review product risk before coding by checking demand, alternatives, channels, switching costs, and failure signals. |
 | [behavioral-modes](../../skills/ai-engineering/models/behavioral_modes/behavioral-modes/SKILL.md) | `behavioral_modes` | `advanced` | `stable` | Use this skill to aI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type. |
 | [biopython](../../skills/ai-engineering/models/biopython/biopython/SKILL.md) | `biopython` | `advanced` | `stable` | Use this skill to biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, database access, structural bioinformatics, phylogenetics, and many other bioinformatics tasks. |
+| [blockchain-developer](../../skills/ai-engineering/models/blockchain_developer/blockchain-developer/SKILL.md) | `blockchain_developer` | `advanced` | `stable` | Use this skill to build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
