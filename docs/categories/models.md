@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **283 skills** available in this category.
+> **284 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -281,6 +281,7 @@
 | [goal-loop](../../skills/ai-engineering/models/goal_loop/goal-loop/SKILL.md) | `goal_loop` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for goal loop. Draft and explain persistent goal-loop prompts for long-running agent work with clear stop conditions. |
 | [google-docs-automation](../../skills/ai-engineering/models/google_docs_automati/google-docs-automation/SKILL.md) | `google_docs_automati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google docs automation. Read and edit Google Docs through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification. |
 | [google-no-code](../../skills/ai-engineering/models/google_no_code/google-no-code/SKILL.md) | `google_no_code` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google no code. Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic questions — no code editor required. |
+| [google-sheets-automation](../../skills/ai-engineering/models/google_sheets_automa/google-sheets-automation/SKILL.md) | `google_sheets_automa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for google sheets automation. Read and edit Google Sheets through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

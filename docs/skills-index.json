@@ -7827,6 +7827,28 @@
     "maturity": "stable"
   },
   {
+    "name": "google-sheets-automation",
+    "path": "skills/ai-engineering/models/google_sheets_automa/google-sheets-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "google_sheets_automa",
+    "description": "Use this skill to design, implement, and operate production workflows for google sheets automation. Read and edit Google Sheets through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "google",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Google Sheets Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
