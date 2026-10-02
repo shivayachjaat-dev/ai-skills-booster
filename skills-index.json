@@ -13787,6 +13787,28 @@
     "maturity": "stable"
   },
   {
+    "name": "instagram-automation",
+    "path": "skills/developer-tools/productivity/instagram_automation/instagram-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "instagram_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for instagram automation. Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "instagram",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Instagram Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
