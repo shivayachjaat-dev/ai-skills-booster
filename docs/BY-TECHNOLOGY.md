@@ -673,6 +673,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [azure-data-tables-java](../skills/ai-engineering/rag/azure_data_tables_ja/azure-data-tables-java/SKILL.md) — Use this skill to build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API.
 
+## Azure Data Tables Py (1 skills)
+
+- [azure-data-tables-py](../skills/ai-engineering/rag/azure_data_tables_py/azure-data-tables-py/SKILL.md) — Use this skill to azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.
+
 ## Azure Identity (1 skills)
 
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
@@ -685,7 +689,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-code-generation-guardrails-and-ast-validation](../skills/security/ai-guardrails/code-generation/ai-code-generation-guardrails-and-ast-validation/SKILL.md) — Use this skill to enforce pre-commit AST syntax analysis, security vulnerability scanning (Bandit, Semgrep), and secret detection on AI-generated code before writing files to disk or pushing to remote repositories.
 
-## Bash (107 skills)
+## Bash (108 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -756,6 +760,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
 - [axiom](../skills/ai-engineering/rag/axiom/axiom/SKILL.md) — Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.
 - [azure-data-tables-java](../skills/ai-engineering/rag/azure_data_tables_ja/azure-data-tables-java/SKILL.md) — Use this skill to build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API.
+- [azure-data-tables-py](../skills/ai-engineering/rag/azure_data_tables_py/azure-data-tables-py/SKILL.md) — Use this skill to azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.
 - [atlas-cloud-media](../skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) — Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling.
 - [aws-mcp-setup](../skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) — Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
@@ -2032,7 +2037,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (210 skills)
+## Python (211 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -2125,6 +2130,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [appdeploy](../skills/ai-engineering/rag/appdeploy/appdeploy/SKILL.md) — Use this skill to deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
 - [axiom](../skills/ai-engineering/rag/axiom/axiom/SKILL.md) — Use this skill to first-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.
 - [azure-data-tables-java](../skills/ai-engineering/rag/azure_data_tables_ja/azure-data-tables-java/SKILL.md) — Use this skill to build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API.
+- [azure-data-tables-py](../skills/ai-engineering/rag/azure_data_tables_py/azure-data-tables-py/SKILL.md) — Use this skill to azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.
 - [rag-retrieval-evaluation](../skills/ai-engineering/rag/evaluation/rag-retrieval-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and optimizing the retrieval quality of a Retrieval-Augmented Generation (RAG) system. It guides the agent through calculating Recall@K, Precision@K, Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and context relevance to eliminate hallucinations caused by poor context retrieval.
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
