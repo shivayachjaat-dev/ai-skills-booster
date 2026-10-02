@@ -7145,6 +7145,28 @@
     "maturity": "stable"
   },
   {
+    "name": "freshservice-automation",
+    "path": "skills/ai-engineering/models/freshservice_automat/freshservice-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "freshservice_automat",
+    "description": "Use this skill to design, implement, and operate production workflows for freshservice automation. Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "freshservice",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Freshservice Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
