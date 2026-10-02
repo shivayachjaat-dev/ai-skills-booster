@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,208** skills across structured domains, categories, and subcategories.
+Master navigation for **1,209** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (414 skills)
 
@@ -2370,7 +2370,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (104 skills)
+## Security (105 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -2400,7 +2400,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (42 skills)
+### Appsec (43 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -2478,6 +2478,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [hunt-captcha-bypass](../skills/security/appsec/hunt_captcha_bypass/hunt-captcha-bypass/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt captcha bypass. Hunt CAPTCHA Bypass
 - **Hunt_Cicd** (1):
   - [hunt-cicd](../skills/security/appsec/hunt_cicd/hunt-cicd/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cicd. Hunt CI/CD pipeline vulnerabilities
+- **Hunt_Clickjacking** (1):
+  - [hunt-clickjacking](../skills/security/appsec/hunt_clickjacking/hunt-clickjacking/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt clickjacking. Hunt Clickjacking
 - **Laravel_Security_Aud** (1):
   - [laravel-security-audit](../skills/security/appsec/laravel_security_aud/laravel-security-audit/SKILL.md) — Use this skill to security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
 - **Mcp_Dependency_Drift** (1):
