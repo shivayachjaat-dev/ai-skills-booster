@@ -30517,6 +30517,28 @@
     "maturity": "stable"
   },
   {
+    "name": "lightning-channel-factories",
+    "path": "skills/software-engineering/architecture/patterns/lightning-channel-factories",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for lightning channel factories. Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers Decker-Wattenhofer, timeout trees, MuSig2 key aggregation, HTLC/PTLC forwarding, and wat...",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "lightning",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Lightning Channel Factories",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
