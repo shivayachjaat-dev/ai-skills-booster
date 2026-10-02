@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **671** skills across structured domains, categories, and subcategories.
+Master navigation for **672** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (241 skills)
 
@@ -550,7 +550,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (50 skills)
+## Backend (51 skills)
 
 ### Api Design (5 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -620,7 +620,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (8 skills)
+### Databases (9 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -637,6 +637,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [database](../skills/backend/databases/database/database/SKILL.md) — Use this skill to database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.
 - **Database_Admin** (1):
   - [database-admin](../skills/backend/databases/database_admin/database-admin/SKILL.md) — Use this skill to expert database administrator specializing in modern cloud databases, automation, and reliability engineering.
+- **Database_Architect** (1):
+  - [database-architect](../skills/backend/databases/database_architect/database-architect/SKILL.md) — Use this skill to expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures.
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)

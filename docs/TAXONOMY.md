@@ -285,7 +285,8 @@ AI_Skills_Booster/
 │   │   ├── azure_resource_manag/ (3 skills)
 │   │   ├── cc_skill_clickhouse_/ (1 skills)
 │   │   ├── database/ (1 skills)
-│   │   └── database_admin/ (1 skills)
+│   │   ├── database_admin/ (1 skills)
+│   │   └── database_architect/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/

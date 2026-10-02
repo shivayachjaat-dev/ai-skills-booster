@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -12,4 +12,5 @@
 | [cc-skill-clickhouse-io](../../skills/backend/databases/cc_skill_clickhouse_/cc-skill-clickhouse-io/SKILL.md) | `cc_skill_clickhouse_` | `advanced` | `stable` | Use this skill to clickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. |
 | [database](../../skills/backend/databases/database/database/SKILL.md) | `database` | `advanced` | `stable` | Use this skill to database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering. |
 | [database-admin](../../skills/backend/databases/database_admin/database-admin/SKILL.md) | `database_admin` | `advanced` | `stable` | Use this skill to expert database administrator specializing in modern cloud databases, automation, and reliability engineering. |
+| [database-architect](../../skills/backend/databases/database_architect/database-architect/SKILL.md) | `database_architect` | `advanced` | `stable` | Use this skill to expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |
