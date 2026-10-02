@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **53 skills** available in this category.
+> **54 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -57,3 +57,4 @@
 | [context-management-context-save](../../skills/software-engineering/architecture/patterns/context-management-context-save/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with context management context save |
 | [create-branch](../../skills/software-engineering/architecture/patterns/create-branch/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a new branch", or when starting new work on the default branch. |
 | [create-issue-gate](../../skills/software-engineering/architecture/patterns/create-issue-gate/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution. |
+| [create-pr](../../skills/software-engineering/architecture/patterns/create-pr/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to alias for pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name. Redirects to the canonical PR writing workflow. |

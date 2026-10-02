@@ -13907,6 +13907,28 @@
     "maturity": "stable"
   },
   {
+    "name": "create-pr",
+    "path": "skills/software-engineering/architecture/patterns/create-pr",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to alias for pr-writer. Use when users explicitly ask for \"create-pr\" or reference the legacy skill name. Redirects to the canonical PR writing workflow.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "create",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Create Pr",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
