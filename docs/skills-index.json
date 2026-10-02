@@ -15315,6 +15315,28 @@
     "maturity": "stable"
   },
   {
+    "name": "brand-perception-psychologist",
+    "path": "skills/software-engineering/architecture/patterns/brand-perception-psychologist",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for brand perception psychologist. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "brand",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Brand Perception Psychologist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "bug-hunter",
     "path": "skills/software-engineering/architecture/patterns/bug-hunter",
     "domain": "software-engineering",

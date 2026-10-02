@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 743 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 744 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -673,6 +673,7 @@
 | [billing-automation](skills/software-engineering/architecture/patterns/billing-automation/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation. |
 | [binary-analysis-patterns](skills/software-engineering/architecture/patterns/binary-analysis-patterns/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic. |
 | [binary-diff](skills/software-engineering/architecture/patterns/binary-diff/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to cross-version binary symbol migration: diff updated binaries, recover function names without PDBs, and propagate annotations after software updates using BinDiff-style tooling. |
+| [brand-perception-psychologist](skills/software-engineering/architecture/patterns/brand-perception-psychologist/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for brand perception psychologist. One sentence - what this skill does and when to invoke it |
 | [bug-hunter](skills/software-engineering/architecture/patterns/bug-hunter/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression. |
 | [bulletmind](skills/software-engineering/architecture/patterns/bulletmind/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking. |
 | [bun-development](skills/software-engineering/architecture/patterns/bun-development/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun). |
