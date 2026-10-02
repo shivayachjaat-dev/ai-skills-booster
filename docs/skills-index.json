@@ -1004,6 +1004,28 @@
     "maturity": "stable"
   },
   {
+    "name": "game-audio",
+    "path": "skills/ai-engineering/audio-processing/game_audio/game-audio",
+    "domain": "ai-engineering",
+    "category": "audio-processing",
+    "subcategory": "game_audio",
+    "description": "Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.",
+    "tags": [
+      "ai-engineering",
+      "audio-processing",
+      "game",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Game Audio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "whisper-speech-to-text-and-diarization-pipeline",
     "path": "skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline",
     "domain": "ai-engineering",
