@@ -3932,6 +3932,34 @@
     "maturity": "stable"
   },
   {
+    "name": "threat-modeling-and-attack-tree-construction",
+    "path": "skills/security/threat-modeling/attack-trees/threat-modeling-and-attack-tree-construction",
+    "domain": "security",
+    "category": "threat-modeling",
+    "subcategory": "attack-trees",
+    "description": "Use this skill to systematically model adversary capabilities and visualize attack vectors using hierarchical AND/OR attack trees. It covers root goal definition, node decomposition, probability and cost quantification, STRIDE mapping, residual risk scoring (DREAD/CVSS), and mapping defensive countermeasures directly to leaf-node vectors.",
+    "tags": [
+      "security",
+      "threat-modeling",
+      "attack-trees",
+      "risk-assessment",
+      "stride",
+      "dread",
+      "appsec",
+      "adversary-modeling"
+    ],
+    "technologies": [
+      "Threat Modeling",
+      "Mermaid.js",
+      "Python",
+      "Graphviz",
+      "STRIDE",
+      "CVSS"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "stride-threat-modeling-and-security-audit",
     "path": "skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit",
     "domain": "security",
