@@ -18099,6 +18099,28 @@
     "maturity": "stable"
   },
   {
+    "name": "grilling",
+    "path": "skills/frontend/ui-ux/grilling/grilling",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "grilling",
+    "description": "Use this skill to design, implement, and operate production workflows for grilling. Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "grilling",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Grilling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",
