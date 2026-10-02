@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **411 skills** available in this category.
+> **412 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -408,6 +408,7 @@
 | [nika](../../skills/ai-engineering/models/nika/nika/SKILL.md) | `nika` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nika. Runs repeatable AI work as checked, budgeted workflow files. |
 | [nodejs-backend-patterns](../../skills/ai-engineering/models/nodejs_backend_patte/nodejs-backend-patterns/SKILL.md) | `nodejs_backend_patte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nodejs backend patterns. Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices. |
 | [not-human-search-mcp](../../skills/ai-engineering/models/not_human_search_mcp/not-human-search-mcp/SKILL.md) | `not_human_search_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for not human search mcp. Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the Not Human Search MCP server |
+| [nsfw-ai-spicyapi](../../skills/ai-engineering/models/nsfw_ai_spicyapi/nsfw-ai-spicyapi/SKILL.md) | `nsfw_ai_spicyapi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nsfw ai spicyapi. Generate adult (18+) images, image-to-video clips and image edits through the SpicyAPI API, with a cost quote before every paid run and adults-only / consent rules. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

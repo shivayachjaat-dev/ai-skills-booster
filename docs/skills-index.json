@@ -11479,6 +11479,28 @@
     "maturity": "stable"
   },
   {
+    "name": "nsfw-ai-spicyapi",
+    "path": "skills/ai-engineering/models/nsfw_ai_spicyapi/nsfw-ai-spicyapi",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "nsfw_ai_spicyapi",
+    "description": "Use this skill to design, implement, and operate production workflows for nsfw ai spicyapi. Generate adult (18+) images, image-to-video clips and image edits through the SpicyAPI API, with a cost quote before every paid run and adults-only / consent rules.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "nsfw",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Nsfw Ai Spicyapi",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
