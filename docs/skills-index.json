@@ -6155,6 +6155,28 @@
     "maturity": "stable"
   },
   {
+    "name": "email-security",
+    "path": "skills/ai-engineering/models/email_security/email-security",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "email_security",
+    "description": "Use this skill to design, implement, and operate production workflows for email security. Authorized email security review: phishing analysis, SPF/DKIM/DMARC header authentication, BEC pattern investigation, and mailbox token abuse research.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "email",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Email Security",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
