@@ -95,6 +95,32 @@
     "maturity": "stable"
   },
   {
+    "name": "fastapi-async-api-design",
+    "path": "skills/backend/fastapi/async-architecture/fastapi-async-api-design",
+    "domain": "backend",
+    "category": "fastapi",
+    "subcategory": "async-architecture",
+    "description": "Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.",
+    "tags": [
+      "fastapi",
+      "python",
+      "asyncio",
+      "backend",
+      "pydantic",
+      "rest-api",
+      "performance"
+    ],
+    "technologies": [
+      "FastAPI",
+      "Python",
+      "Pydantic v2",
+      "SQLAlchemy 2.0",
+      "Uvicorn"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

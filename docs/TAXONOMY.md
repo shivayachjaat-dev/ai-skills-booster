@@ -10,8 +10,10 @@ AI_Skills_Booster/
 │   └── rag/
 │   │   └── evaluation/ (1 skills)
 ├── backend/
-│   └── api-design/
+│   ├── api-design/
 │   │   └── rate-limiting/ (1 skills)
+│   └── fastapi/
+│   │   └── async-architecture/ (1 skills)
 ├── data-analytics/
 │   ├── data-pipelines/
 │   │   └── polars/ (1 skills)
