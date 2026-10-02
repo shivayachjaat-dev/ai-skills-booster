@@ -13399,6 +13399,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mongodb",
+    "path": "skills/backend/databases/mongodb/mongodb",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "mongodb",
+    "description": "Use this skill to design, implement, and operate production workflows for mongodb. Administer MongoDB databases. Configure replica sets, sharding, and backups.",
+    "tags": [
+      "backend",
+      "databases",
+      "mongodb",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mongodb",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
