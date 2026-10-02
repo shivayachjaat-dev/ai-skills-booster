@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **62 skills** available in this category.
+> **63 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -66,3 +66,4 @@
 | [cv-generator](../../skills/software-engineering/architecture/patterns/cv-generator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to generate professional, ATS-optimized CVs for FlowCV, Canva, Google Docs, or Word. Handles multi-source merging, JD targeting, seniority adaptation, and humanized rewriting. Outputs paste-ready text with an ATS flaw report and improvement suggestions. |
 | [dali-short-address-commissioner](../../skills/software-engineering/architecture/patterns/dali-short-address-commissioner/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to commissions DALI and DALI-2 (IEC 62386) lighting buses: short-address assignment (0-63), 24-bit binary search collision resolution, groups, and DT8 color control. Trigger phrases: commission dali, dali short address, dali collision resolution, dali bus addressing, dali-2 setup. |
 | [ddd-context-mapping](../../skills/software-engineering/architecture/patterns/ddd-context-mapping/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to map relationships between bounded contexts and define integration contracts using DDD context mapping patterns. |
+| [debugging-toolkit](../../skills/software-engineering/architecture/patterns/debugging-toolkit/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to use when working with debugging toolkit smart debug (Alias for debugging-toolkit-smart-debug) |
