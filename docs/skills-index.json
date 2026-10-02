@@ -8597,6 +8597,28 @@
     "maturity": "stable"
   },
   {
+    "name": "idea-os",
+    "path": "skills/ai-engineering/models/idea_os/idea-os",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "idea_os",
+    "description": "Use this skill to design, implement, and operate production workflows for idea os. Five-phase pipeline (triage \u2192 clarify \u2192 research \u2192 PRD \u2192 plan) that turns a raw idea into four linked files: clarifying questions, deep research, a PRD with non-goals and metrics, and a phased execution plan with mermaid user journey and kill criteria.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "idea",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Idea Os",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

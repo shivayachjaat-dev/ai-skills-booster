@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,270** skills across structured domains, categories, and subcategories.
+Master navigation for **1,271** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (425 skills)
+## Ai Engineering (426 skills)
 
 ### Agents (52 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -212,7 +212,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Hugging_Face_Evaluat** (1):
   - [hugging-face-evaluation](../skills/ai-engineering/llm-ops/hugging_face_evaluat/hugging-face-evaluation/SKILL.md) — Use this skill to design, implement, and operate production workflows for hugging face evaluation. Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index ...
 
-### Models (311 skills)
+### Models (312 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -816,6 +816,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [iconsax-library](../skills/ai-engineering/models/iconsax_library/iconsax-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for iconsax library. Extensive icon library and AI-driven icon generation skill for premium UI/UX design.
 - **Idea_Autopsy** (1):
   - [idea-autopsy](../skills/ai-engineering/models/idea_autopsy/idea-autopsy/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea autopsy. Autopsy a business idea before you build it: kill-list check, five hard filters, a free-AI one-prompt test, live ad-market verification, and a verdict with a named kill-pattern.
+- **Idea_Os** (1):
+  - [idea-os](../skills/ai-engineering/models/idea_os/idea-os/SKILL.md) — Use this skill to design, implement, and operate production workflows for idea os. Five-phase pipeline (triage → clarify → research → PRD → plan) that turns a raw idea into four linked files: clarifying questions, deep research, a PRD with non-goals and metrics, and a phased execution plan with mermaid user journey and kill criteria.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

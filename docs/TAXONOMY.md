@@ -393,6 +393,7 @@ AI_Skills_Booster/
 │   │   ├── hyperexecute_skill/ (1 skills)
 │   │   ├── iconsax_library/ (1 skills)
 │   │   ├── idea_autopsy/ (1 skills)
+│   │   ├── idea_os/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
