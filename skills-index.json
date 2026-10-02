@@ -20177,6 +20177,28 @@
     "maturity": "stable"
   },
   {
+    "name": "native-data-fetching",
+    "path": "skills/frontend/frameworks/native_data_fetching/native-data-fetching",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "native_data_fetching",
+    "description": "Use this skill to design, implement, and operate production workflows for native data fetching. Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (`useLoaderData`).",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "native",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Native Data Fetching",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
