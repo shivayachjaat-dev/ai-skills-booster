@@ -271,6 +271,7 @@ AI_Skills_Booster/
 │   │   ├── documentation_genera/ (1 skills)
 │   │   ├── documentation_templa/ (1 skills)
 │   │   ├── docx_official/ (1 skills)
+│   │   ├── domain_driven_design/ (1 skills)
 │   │   ├── editorial_design/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)

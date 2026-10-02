@@ -5913,6 +5913,28 @@
     "maturity": "stable"
   },
   {
+    "name": "domain-driven-design",
+    "path": "skills/ai-engineering/models/domain_driven_design/domain-driven-design",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "domain_driven_design",
+    "description": "Use this skill to design, implement, and operate production workflows for domain driven design. Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "domain",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Domain Driven Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

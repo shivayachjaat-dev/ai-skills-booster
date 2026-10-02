@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **864** skills across structured domains, categories, and subcategories.
+Master navigation for **865** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (301 skills)
+## Ai Engineering (302 skills)
 
 ### Agents (36 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -170,7 +170,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (214 skills)
+### Models (215 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -572,6 +572,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [documentation-templates](../skills/ai-engineering/models/documentation_templa/documentation-templates/SKILL.md) — Use this skill to design, implement, and operate production workflows for documentation templates. Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.
 - **Docx_Official** (1):
   - [docx-official](../skills/ai-engineering/models/docx_official/docx-official/SKILL.md) — Use this skill to design, implement, and operate production workflows for docx official. A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.
+- **Domain_Driven_Design** (1):
+  - [domain-driven-design](../skills/ai-engineering/models/domain_driven_design/domain-driven-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for domain driven design. Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns.
 - **Editorial_Design** (1):
   - [editorial-design](../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
 - **Fda_Food_Safety_Audi** (1):
