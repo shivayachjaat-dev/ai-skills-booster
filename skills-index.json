@@ -6187,6 +6187,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-identity-rust",
+    "path": "skills/security/authentication/azure_identity_rust/azure-identity-rust",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "azure_identity_rust",
+    "description": "Use this skill to azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.",
+    "tags": [
+      "security",
+      "authentication",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Identity Rust",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",
