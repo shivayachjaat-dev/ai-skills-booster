@@ -18834,6 +18834,28 @@
     "maturity": "stable"
   },
   {
+    "name": "multi-cloud-architecture",
+    "path": "skills/devops/cloud-infrastructure/multi_cloud_architec/multi-cloud-architecture",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "multi_cloud_architec",
+    "description": "Use this skill to design, implement, and operate production workflows for multi cloud architecture. Decision framework and patterns for architecting applications across AWS, Azure, and GCP.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "multi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Multi Cloud Architecture",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

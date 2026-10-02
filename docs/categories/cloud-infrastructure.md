@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **40 skills** available in this category.
+> **41 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -44,3 +44,4 @@
 | [hybrid-cloud-architect](../../skills/devops/cloud-infrastructure/hybrid_cloud_archite/hybrid-cloud-architect/SKILL.md) | `hybrid_cloud_archite` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hybrid cloud architect. Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware). |
 | [hybrid-cloud-networking](../../skills/devops/cloud-infrastructure/hybrid_cloud_network/hybrid-cloud-networking/SKILL.md) | `hybrid_cloud_network` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hybrid cloud networking. Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute. |
 | [java-pro](../../skills/devops/cloud-infrastructure/java_pro/java-pro/SKILL.md) | `java_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for java pro. Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns. |
+| [multi-cloud-architecture](../../skills/devops/cloud-infrastructure/multi_cloud_architec/multi-cloud-architecture/SKILL.md) | `multi_cloud_architec` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi cloud architecture. Decision framework and patterns for architecting applications across AWS, Azure, and GCP. |
