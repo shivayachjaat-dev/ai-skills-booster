@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **896** skills across structured domains, categories, and subcategories.
+Master navigation for **897** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (312 skills)
+## Ai Engineering (313 skills)
 
 ### Agents (38 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -176,7 +176,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (222 skills)
+### Models (223 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -596,6 +596,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [email-issue-fixer](../skills/ai-engineering/models/email_issue_fixer/email-issue-fixer/SKILL.md) — Use this skill to design, implement, and operate production workflows for email issue fixer. Fix small email mistakes without touching the writer's voice, and strip tracking parameters from links on request. Always returns the corrected draft plus a change list.
 - **Email_Security** (1):
   - [email-security](../skills/ai-engineering/models/email_security/email-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for email security. Authorized email security review: phishing analysis, SPF/DKIM/DMARC header authentication, BEC pattern investigation, and mailbox token abuse research.
+- **Email_Sequence** (1):
+  - [email-sequence](../skills/ai-engineering/models/email_sequence/email-sequence/SKILL.md) — Use this skill to design, implement, and operate production workflows for email sequence. You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion.
 - **Fda_Food_Safety_Audi** (1):
   - [fda-food-safety-auditor](../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) — Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
 - **Fda_Medtech_Complian** (1):

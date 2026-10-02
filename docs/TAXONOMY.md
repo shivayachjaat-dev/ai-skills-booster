@@ -283,6 +283,7 @@ AI_Skills_Booster/
 │   │   ├── editorial_design/ (1 skills)
 │   │   ├── email_issue_fixer/ (1 skills)
 │   │   ├── email_security/ (1 skills)
+│   │   ├── email_sequence/ (1 skills)
 │   │   ├── fda_food_safety_audi/ (1 skills)
 │   │   ├── fda_medtech_complian/ (1 skills)
 │   │   ├── floating_ui/ (1 skills)

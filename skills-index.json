@@ -6177,6 +6177,28 @@
     "maturity": "stable"
   },
   {
+    "name": "email-sequence",
+    "path": "skills/ai-engineering/models/email_sequence/email-sequence",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "email_sequence",
+    "description": "Use this skill to design, implement, and operate production workflows for email sequence. You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "email",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Email Sequence",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fda-food-safety-auditor",
     "path": "skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor",
     "domain": "ai-engineering",
