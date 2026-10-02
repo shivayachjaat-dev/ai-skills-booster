@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,491 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,492 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1049,6 +1049,7 @@
 | [makepad-2-0-widgets](skills/frontend/ui-ux/makepad_2_0_widgets/makepad-2-0-widgets/SKILL.md) | `frontend` | `ui-ux` | `makepad_2_0_widgets` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad 2 0 widgets. Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code. |
 | [makepad-skills](skills/frontend/ui-ux/makepad_skills/makepad-skills/SKILL.md) | `frontend` | `ui-ux` | `makepad_skills` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for makepad skills. Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting. |
 | [marketplace-rbac-audit](skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `frontend` | `ui-ux` | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
+| [matematico-tao](skills/frontend/ui-ux/matematico_tao/matematico-tao/SKILL.md) | `frontend` | `ui-ux` | `matematico_tao` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for matematico tao. Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, pro... |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

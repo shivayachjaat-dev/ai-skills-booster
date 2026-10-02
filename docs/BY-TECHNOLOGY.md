@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1309 skills)
+## Bash (1310 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2002,6 +2002,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [makepad-2-0-widgets](../skills/frontend/ui-ux/makepad_2_0_widgets/makepad-2-0-widgets/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad 2 0 widgets. Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code.
 - [makepad-skills](../skills/frontend/ui-ux/makepad_skills/makepad-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad skills. Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
+- [matematico-tao](../skills/frontend/ui-ux/matematico_tao/matematico-tao/SKILL.md) — Use this skill to design, implement, and operate production workflows for matematico tao. Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, pro...
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -7433,6 +7434,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 
+## Matematico Tao (1 skills)
+
+- [matematico-tao](../skills/frontend/ui-ux/matematico_tao/matematico-tao/SKILL.md) — Use this skill to design, implement, and operate production workflows for matematico tao. Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, pro...
+
 ## Material 3 (1 skills)
 
 - [android-jetpack-compose-architecture-and-ui-testing](../skills/mobile/android/jetpack-compose/android-jetpack-compose-architecture-and-ui-testing/SKILL.md) — Use this skill to design, architect, and test modern Android applications using Jetpack Compose, Kotlin Coroutines, StateFlow, Material 3, and automated Compose UI tests. It covers unidirectional data flow (UDF), ViewModel state hoisting, preview fixtures, and Semantics-based UI journey testing.
@@ -7897,7 +7902,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1412 skills)
+## Python (1413 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8893,6 +8898,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [makepad-2-0-widgets](../skills/frontend/ui-ux/makepad_2_0_widgets/makepad-2-0-widgets/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad 2 0 widgets. Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code.
 - [makepad-skills](../skills/frontend/ui-ux/makepad_skills/makepad-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad skills. Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.
 - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
+- [matematico-tao](../skills/frontend/ui-ux/matematico_tao/matematico-tao/SKILL.md) — Use this skill to design, implement, and operate production workflows for matematico tao. Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, pro...
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.

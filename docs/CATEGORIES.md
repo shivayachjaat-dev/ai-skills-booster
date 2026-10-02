@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,491** skills across structured domains, categories, and subcategories.
+Master navigation for **1,492** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (517 skills)
 
@@ -2003,7 +2003,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (293 skills)
+## Frontend (294 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2163,7 +2163,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (167 skills)
+### Ui Ux (168 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2494,6 +2494,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [makepad-skills](../skills/frontend/ui-ux/makepad_skills/makepad-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for makepad skills. Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.
 - **Marketplace_Rbac_Aud** (1):
   - [marketplace-rbac-audit](../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) — Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
+- **Matematico_Tao** (1):
+  - [matematico-tao](../skills/frontend/ui-ux/matematico_tao/matematico-tao/SKILL.md) — Use this skill to design, implement, and operate production workflows for matematico tao. Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, pro...
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
