@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,559** skills across structured domains, categories, and subcategories.
+Master navigation for **1,560** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (538 skills)
 
@@ -3282,9 +3282,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (191 skills)
+## Software Engineering (192 skills)
 
-### Architecture (184 skills)
+### Architecture (185 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -3293,7 +3293,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (181):
+- **Patterns** (182):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -3470,6 +3470,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [mental-health-analyzer](../skills/software-engineering/architecture/patterns/mental-health-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for mental health analyzer. 分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。
   - [micro-saas-launcher](../skills/software-engineering/architecture/patterns/micro-saas-launcher/SKILL.md) — Use this skill to design, implement, and operate production workflows for micro saas launcher. Expert in launching small, focused SaaS products fast - the indie
   - [monte-carlo-performance-diagnosis](../skills/software-engineering/architecture/patterns/monte-carlo-performance-diagnosis/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo performance diagnosis. Diagnoses pipeline performance issues -- slow jobs, expensive queries, latency trends -- using Monte Carlo's cross-platform observability. Uses a tiered investigation approach: discover problems, bridge to affected tables, then drill into...
+  - [mtls-configuration](../skills/software-engineering/architecture/patterns/mtls-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for mtls configuration. Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.
   - [multiplayer](../skills/software-engineering/architecture/patterns/multiplayer/SKILL.md) — Use this skill to design, implement, and operate production workflows for multiplayer. Multiplayer game development principles. Architecture, networking, synchronization.
   - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
   - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.

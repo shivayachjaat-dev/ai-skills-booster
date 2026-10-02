@@ -34125,6 +34125,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mtls-configuration",
+    "path": "skills/software-engineering/architecture/patterns/mtls-configuration",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for mtls configuration. Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "mtls",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mtls Configuration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multiplayer",
     "path": "skills/software-engineering/architecture/patterns/multiplayer",
     "domain": "software-engineering",
