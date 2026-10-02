@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **52 skills** available in this category.
+> **53 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -55,4 +55,5 @@
 | [synthwave](../../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) | `synthwave` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics. |
 | [tile-design](../../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) | `tile_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids. |
 | [vaporwave](../../skills/frontend/web-architecture/vaporwave/vaporwave/SKILL.md) | `vaporwave` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vaporwave. Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues. |
+| [vibrant-maximalism](../../skills/frontend/web-architecture/vibrant_maximalism/vibrant-maximalism/SKILL.md) | `vibrant_maximalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vibrant maximalism. Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and "more is more". |
 | [web3-audit](../../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) | `web3_audit` | `advanced` | `stable` | Use this skill to smart contract security audit |

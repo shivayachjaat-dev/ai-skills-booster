@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **802** skills across structured domains, categories, and subcategories.
+Master navigation for **803** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (275 skills)
 
@@ -1307,7 +1307,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Arm Cortex M** (1):
   - [arm-cortex-m-embedded-firmware-architecture](../skills/embedded/firmware/arm-cortex-m/arm-cortex-m-embedded-firmware-architecture/SKILL.md) — Use this skill to design, write, and debug bare-metal and FreeRTOS embedded firmware for ARM Cortex-M microcontrollers (STM32, nRF52, SAMD, RP2040) in C and Modern C++. It covers CMSIS core peripherals, NVIC interrupt latency, DMA ring buffers, hardware watchdog timers, and low-power sleep modes.
 
-## Frontend (134 skills)
+## Frontend (135 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1517,7 +1517,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (52 skills)
+### Web Architecture (53 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1621,6 +1621,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [tile-design](../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.
 - **Vaporwave** (1):
   - [vaporwave](../skills/frontend/web-architecture/vaporwave/vaporwave/SKILL.md) — Use this skill to design, implement, and operate production workflows for vaporwave. Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.
+- **Vibrant_Maximalism** (1):
+  - [vibrant-maximalism](../skills/frontend/web-architecture/vibrant_maximalism/vibrant-maximalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for vibrant maximalism. Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and "more is more".
 - **Web3_Audit** (1):
   - [web3-audit](../skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) — Use this skill to smart contract security audit
 

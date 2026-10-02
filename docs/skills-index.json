@@ -13831,6 +13831,28 @@
     "maturity": "stable"
   },
   {
+    "name": "vibrant-maximalism",
+    "path": "skills/frontend/web-architecture/vibrant_maximalism/vibrant-maximalism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "vibrant_maximalism",
+    "description": "Use this skill to design, implement, and operate production workflows for vibrant maximalism. Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and \"more is more\".",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "vibrant",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Vibrant Maximalism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "web3-audit",
     "path": "skills/frontend/web-architecture/web3_audit/web3-audit",
     "domain": "frontend",

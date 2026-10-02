@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 802 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 803 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -614,6 +614,7 @@
 | [synthwave](skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) | `frontend` | `web-architecture` | `synthwave` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics. |
 | [tile-design](skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) | `frontend` | `web-architecture` | `tile_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids. |
 | [vaporwave](skills/frontend/web-architecture/vaporwave/vaporwave/SKILL.md) | `frontend` | `web-architecture` | `vaporwave` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vaporwave. Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues. |
+| [vibrant-maximalism](skills/frontend/web-architecture/vibrant_maximalism/vibrant-maximalism/SKILL.md) | `frontend` | `web-architecture` | `vibrant_maximalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vibrant maximalism. Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and "more is more". |
 | [web3-audit](skills/frontend/web-architecture/web3_audit/web3-audit/SKILL.md) | `frontend` | `web-architecture` | `web3_audit` | `advanced` | `stable` | Use this skill to smart contract security audit |
 | [app-store-optimization-and-metadata-strategy](skills/marketing/aso/app-store-optimization/app-store-optimization-and-metadata-strategy/SKILL.md) | `marketing` | `aso` | `app-store-optimization` | `intermediate` | `stable` | Use this skill to research, optimize, and localize mobile application listings across the Apple App Store and Google Play Store. It covers keyword intent ranking, app title/subtitle character limits, conversion-optimized screenshot framing, A/B testing (Product Page Optimization), and localized metadata. |
 | [social-sentiment-and-brand-reputation-monitor](skills/marketing/brand/reputation-monitor/social-sentiment-and-brand-reputation-monitor/SKILL.md) | `marketing` | `brand` | `reputation-monitor` | `intermediate` | `stable` | Use this skill to design, build, and automate brand reputation monitoring, customer sentiment analysis, and social mention surveillance across Twitter/X, Reddit, G2, Trustpilot, and GitHub Issues. It covers NLP sentiment scoring, crisis escalation alerts, and automated PR response drafting. |
