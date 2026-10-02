@@ -4138,6 +4138,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-eventgrid-dotnet",
+    "path": "skills/devops/cloud-infrastructure/azure_eventgrid_dotn/azure-eventgrid-dotnet",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "azure_eventgrid_dotn",
+    "description": "Use this skill to azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Eventgrid Dotnet",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

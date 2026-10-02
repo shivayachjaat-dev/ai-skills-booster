@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **291** skills across structured domains, categories, and subcategories.
+Master navigation for **292** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (102 skills)
 
@@ -610,7 +610,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (35 skills)
+## Devops (36 skills)
 
 ### Ci Cd (5 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -626,7 +626,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Optimization** (1):
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 
-### Cloud Infrastructure (9 skills)
+### Cloud Infrastructure (10 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -646,6 +646,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [azure-communication-sms-java](../skills/devops/cloud-infrastructure/azure_communication_/azure-communication-sms-java/SKILL.md) — Use this skill to send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports.
 - **Azure_Compute_Batch_** (1):
   - [azure-compute-batch-java](../skills/devops/cloud-infrastructure/azure_compute_batch_/azure-compute-batch-java/SKILL.md) — Use this skill to azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.
+- **Azure_Eventgrid_Dotn** (1):
+  - [azure-eventgrid-dotnet](../skills/devops/cloud-infrastructure/azure_eventgrid_dotn/azure-eventgrid-dotnet/SKILL.md) — Use this skill to azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)
