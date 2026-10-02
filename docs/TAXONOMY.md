@@ -166,6 +166,7 @@ AI_Skills_Booster/
 │   │   ├── code_documentation_c/ (1 skills)
 │   │   ├── code_documentation_d/ (1 skills)
 │   │   ├── code_of_conduct/ (1 skills)
+│   │   ├── code_refactoring_ref/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

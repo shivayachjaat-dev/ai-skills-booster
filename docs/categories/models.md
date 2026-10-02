@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **120 skills** available in this category.
+> **121 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -123,4 +123,5 @@
 | [code-documentation-code-explain](../../skills/ai-engineering/models/code_documentation_c/code-documentation-code-explain/SKILL.md) | `code_documentation_c` | `advanced` | `stable` | Use this skill to you are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations for developers at all levels. |
 | [code-documentation-doc-generate](../../skills/ai-engineering/models/code_documentation_d/code-documentation-doc-generate/SKILL.md) | `code_documentation_d` | `advanced` | `stable` | Use this skill to you are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices. |
 | [code-of-conduct](../../skills/ai-engineering/models/code_of_conduct/code-of-conduct/SKILL.md) | `code_of_conduct` | `advanced` | `stable` | Use this skill to build a human-reviewed conduct register after context-first intake. Use when an SME needs policy acknowledgements, complaint handling, and breach follow-up. |
+| [code-refactoring-refactor-clean](../../skills/ai-engineering/models/code_refactoring_ref/code-refactoring-refactor-clean/SKILL.md) | `code_refactoring_ref` | `advanced` | `stable` | Use this skill to you are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
