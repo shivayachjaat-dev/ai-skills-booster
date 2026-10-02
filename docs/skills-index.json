@@ -13729,6 +13729,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mysql",
+    "path": "skills/backend/databases/mysql/mysql",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "mysql",
+    "description": "Use this skill to design, implement, and operate production workflows for mysql. Administer MySQL/MariaDB databases. Configure replication and optimize",
+    "tags": [
+      "backend",
+      "databases",
+      "mysql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mysql",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

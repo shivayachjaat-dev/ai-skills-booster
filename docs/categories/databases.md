@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **26 skills** available in this category.
+> **27 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -29,4 +29,5 @@
 | [mongodb](../../skills/backend/databases/mongodb/mongodb/SKILL.md) | `mongodb` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mongodb. Administer MongoDB databases. Configure replica sets, sharding, and backups. |
 | [monte-carlo-prevent](../../skills/backend/databases/monte_carlo_prevent/monte-carlo-prevent/SKILL.md) | `monte_carlo_prevent` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo prevent. Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits. |
 | [monte-carlo-validation-notebook](../../skills/backend/databases/monte_carlo_validati/monte-carlo-validation-notebook/SKILL.md) | `monte_carlo_validati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monte carlo validation notebook. Generates SQL validation notebooks for dbt PR changes with before/after comparison queries. |
+| [mysql](../../skills/backend/databases/mysql/mysql/SKILL.md) | `mysql` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mysql. Administer MySQL/MariaDB databases. Configure replication and optimize |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,571** skills across structured domains, categories, and subcategories.
+Master navigation for **1,572** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (545 skills)
 
@@ -1156,7 +1156,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (93 skills)
+## Backend (94 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1276,7 +1276,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (25 skills)
+### Databases (26 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -1326,6 +1326,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [monte-carlo-prevent](../skills/backend/databases/monte_carlo_prevent/monte-carlo-prevent/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo prevent. Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits.
 - **Monte_Carlo_Validati** (1):
   - [monte-carlo-validation-notebook](../skills/backend/databases/monte_carlo_validati/monte-carlo-validation-notebook/SKILL.md) — Use this skill to design, implement, and operate production workflows for monte carlo validation notebook. Generates SQL validation notebooks for dbt PR changes with before/after comparison queries.
+- **Mysql** (1):
+  - [mysql](../skills/backend/databases/mysql/mysql/SKILL.md) — Use this skill to design, implement, and operate production workflows for mysql. Administer MySQL/MariaDB databases. Configure replication and optimize
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)
