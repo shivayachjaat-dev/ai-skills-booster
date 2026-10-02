@@ -1667,6 +1667,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-ai-projects-py",
+    "path": "skills/ai-engineering/models/azure_ai_projects_py/azure-ai-projects-py",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "azure_ai_projects_py",
+    "description": "Use this skill to build AI applications on Microsoft Foundry using the azure-ai-projects SDK.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Ai Projects Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
