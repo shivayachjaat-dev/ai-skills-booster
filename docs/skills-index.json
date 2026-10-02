@@ -4967,6 +4967,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dark-mode",
+    "path": "skills/ai-engineering/models/dark_mode/dark-mode",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "dark_mode",
+    "description": "Use this skill to design, implement, and operate production workflows for dark mode. Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "dark",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dark Mode",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "data-engineer",
     "path": "skills/ai-engineering/models/data_engineer/data-engineer",
     "domain": "ai-engineering",

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **769** skills across structured domains, categories, and subcategories.
+Master navigation for **770** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (269 skills)
+## Ai Engineering (270 skills)
 
 ### Agents (33 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -158,7 +158,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (189 skills)
+### Models (190 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -486,6 +486,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [daily-gift](../skills/ai-engineering/models/daily_gift/daily-gift/SKILL.md) — Use this skill to relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video
 - **Daily_News_Report** (1):
   - [daily-news-report](../skills/ai-engineering/models/daily_news_report/daily-news-report/SKILL.md) — Use this skill to scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.
+- **Dark_Mode** (1):
+  - [dark-mode](../skills/ai-engineering/models/dark_mode/dark-mode/SKILL.md) — Use this skill to design, implement, and operate production workflows for dark mode. Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.
 - **Data_Engineer** (1):
   - [data-engineer](../skills/ai-engineering/models/data_engineer/data-engineer/SKILL.md) — Use this skill to build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.
 - **Data_Export_Engine** (1):

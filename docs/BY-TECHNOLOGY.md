@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (587 skills)
+## Bash (588 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1264,6 +1264,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [daily](../skills/ai-engineering/models/daily/daily/SKILL.md) — Use this skill to documentation and capabilities reference for Daily
 - [daily-gift](../skills/ai-engineering/models/daily_gift/daily-gift/SKILL.md) — Use this skill to relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video
 - [daily-news-report](../skills/ai-engineering/models/daily_news_report/daily-news-report/SKILL.md) — Use this skill to scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.
+- [dark-mode](../skills/ai-engineering/models/dark_mode/dark-mode/SKILL.md) — Use this skill to design, implement, and operate production workflows for dark mode. Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.
 - [data-engineer](../skills/ai-engineering/models/data_engineer/data-engineer/SKILL.md) — Use this skill to build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.
 - [data-export-engine](../skills/ai-engineering/models/data_export_engine/data-export-engine/SKILL.md) — Use this skill to data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails.
 - [database-cloud-optimization-cost-optimize](../skills/ai-engineering/models/database_cloud_optim/database-cloud-optimization-cost-optimize/SKILL.md) — Use this skill to you are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and implement cost-effective architectures across AWS, Azure, and GCP.
@@ -3002,6 +3003,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [dali-short-address-commissioner](../skills/software-engineering/architecture/patterns/dali-short-address-commissioner/SKILL.md) — Use this skill to commissions DALI and DALI-2 (IEC 62386) lighting buses: short-address assignment (0-63), 24-bit binary search collision resolution, groups, and DT8 color control. Trigger phrases: commission dali, dali short address, dali collision resolution, dali bus addressing, dali-2 setup.
 
+## Dark Mode (1 skills)
+
+- [dark-mode](../skills/ai-engineering/models/dark_mode/dark-mode/SKILL.md) — Use this skill to design, implement, and operate production workflows for dark mode. Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.
+
 ## Dast Scanning (1 skills)
 
 - [dast-scanning](../skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) — Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite,
@@ -4364,7 +4369,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (690 skills)
+## Python (691 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4584,6 +4589,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [daily](../skills/ai-engineering/models/daily/daily/SKILL.md) — Use this skill to documentation and capabilities reference for Daily
 - [daily-gift](../skills/ai-engineering/models/daily_gift/daily-gift/SKILL.md) — Use this skill to relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video
 - [daily-news-report](../skills/ai-engineering/models/daily_news_report/daily-news-report/SKILL.md) — Use this skill to scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.
+- [dark-mode](../skills/ai-engineering/models/dark_mode/dark-mode/SKILL.md) — Use this skill to design, implement, and operate production workflows for dark mode. Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.
 - [data-engineer](../skills/ai-engineering/models/data_engineer/data-engineer/SKILL.md) — Use this skill to build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.
 - [data-export-engine](../skills/ai-engineering/models/data_export_engine/data-export-engine/SKILL.md) — Use this skill to data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails.
 - [database-cloud-optimization-cost-optimize](../skills/ai-engineering/models/database_cloud_optim/database-cloud-optimization-cost-optimize/SKILL.md) — Use this skill to you are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and implement cost-effective architectures across AWS, Azure, and GCP.
