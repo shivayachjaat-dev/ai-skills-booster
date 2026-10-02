@@ -488,6 +488,7 @@ AI_Skills_Booster/
 │   │   ├── azure_identity_java/ (1 skills)
 │   │   ├── azure_identity_rust/ (1 skills)
 │   │   ├── azure_identity_ts/ (1 skills)
+│   │   ├── browser_act/ (1 skills)
 │   │   └── oauth2/ (1 skills)
 │   ├── authorization/
 │   │   └── rbac/ (1 skills)

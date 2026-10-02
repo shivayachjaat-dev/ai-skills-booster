@@ -8629,6 +8629,28 @@
     "maturity": "stable"
   },
   {
+    "name": "browser-act",
+    "path": "skills/security/authentication/browser_act/browser-act",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "browser_act",
+    "description": "Use this skill to use BrowserAct for authenticated browser automation, JS-rendered extraction, screenshots, parallel sessions, verification handling, and human handoff.",
+    "tags": [
+      "security",
+      "authentication",
+      "browser",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Browser Act",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "oauth2-jwt-authentication-flow",
     "path": "skills/security/authentication/oauth2/oauth2-jwt-authentication-flow",
     "domain": "security",

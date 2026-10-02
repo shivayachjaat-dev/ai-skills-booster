@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **427** skills across structured domains, categories, and subcategories.
+Master navigation for **428** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (146 skills)
 
@@ -1173,7 +1173,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (47 skills)
+## Security (48 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -1226,7 +1226,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 - **Zero Trust** (1):
   - [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
 
-### Authentication (6 skills)
+### Authentication (7 skills)
 Category index: [`docs/categories/authentication.md`](categories/authentication.md)
 
 - **Azure_Communication_** (1):
@@ -1239,6 +1239,8 @@ Category index: [`docs/categories/authentication.md`](categories/authentication.
   - [azure-identity-rust](../skills/security/authentication/azure_identity_rust/azure-identity-rust/SKILL.md) — Use this skill to azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.
 - **Azure_Identity_Ts** (1):
   - [azure-identity-ts](../skills/security/authentication/azure_identity_ts/azure-identity-ts/SKILL.md) — Use this skill to authenticate to Azure services with various credential types.
+- **Browser_Act** (1):
+  - [browser-act](../skills/security/authentication/browser_act/browser-act/SKILL.md) — Use this skill to use BrowserAct for authenticated browser automation, JS-rendered extraction, screenshots, parallel sessions, verification handling, and human handoff.
 - **Oauth2** (1):
   - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
 
