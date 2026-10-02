@@ -30516,6 +30516,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-security-rules",
+    "path": "skills/security/appsec/odoo_security_rules/odoo-security-rules",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "odoo_security_rules",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo security rules. Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns.",
+    "tags": [
+      "security",
+      "appsec",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo Security Rules",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
