@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **986** skills across structured domains, categories, and subcategories.
+Master navigation for **987** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (347 skills)
 
@@ -1507,7 +1507,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (183 skills)
+## Frontend (184 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -1797,7 +1797,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 
-### Web Architecture (61 skills)
+### Web Architecture (62 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -1859,6 +1859,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [ffuf-claude-skill](../skills/frontend/web-architecture/ffuf_claude_skill/ffuf-claude-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for ffuf claude skill. Web fuzzing with ffuf
 - **Ffuf_Web_Fuzzing** (1):
   - [ffuf-web-fuzzing](../skills/frontend/web-architecture/ffuf_web_fuzzing/ffuf-web-fuzzing/SKILL.md) — Use this skill to design, implement, and operate production workflows for ffuf web fuzzing. Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
+- **Firecrawl_Scraper** (1):
+  - [firecrawl-scraper](../skills/frontend/web-architecture/firecrawl_scraper/firecrawl-scraper/SKILL.md) — Use this skill to design, implement, and operate production workflows for firecrawl scraper. Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API. Use when you need deep content extraction from web pages, page interaction is required (clicking, scrolling, etc.), or you want screenshots or PDF parsing.
 - **Flat_Design** (1):
   - [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
 - **Flat_Design_2** (1):

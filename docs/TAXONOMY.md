@@ -819,6 +819,7 @@ AI_Skills_Booster/
 │   │   ├── fastapi_pro/ (1 skills)
 │   │   ├── ffuf_claude_skill/ (1 skills)
 │   │   ├── ffuf_web_fuzzing/ (1 skills)
+│   │   ├── firecrawl_scraper/ (1 skills)
 │   │   ├── flat_design/ (1 skills)
 │   │   ├── flat_design_2/ (1 skills)
 │   │   ├── frutiger_aero/ (1 skills)

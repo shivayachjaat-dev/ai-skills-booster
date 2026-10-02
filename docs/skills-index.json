@@ -16449,6 +16449,28 @@
     "maturity": "stable"
   },
   {
+    "name": "firecrawl-scraper",
+    "path": "skills/frontend/web-architecture/firecrawl_scraper/firecrawl-scraper",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "firecrawl_scraper",
+    "description": "Use this skill to design, implement, and operate production workflows for firecrawl scraper. Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API. Use when you need deep content extraction from web pages, page interaction is required (clicking, scrolling, etc.), or you want screenshots or PDF parsing.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "firecrawl",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Firecrawl Scraper",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "flat-design",
     "path": "skills/frontend/web-architecture/flat_design/flat-design",
     "domain": "frontend",

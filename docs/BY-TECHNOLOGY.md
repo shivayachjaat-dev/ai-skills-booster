@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (804 skills)
+## Bash (805 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1678,6 +1678,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fastapi-pro](../skills/frontend/web-architecture/fastapi_pro/fastapi-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for fastapi pro. Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.
 - [ffuf-claude-skill](../skills/frontend/web-architecture/ffuf_claude_skill/ffuf-claude-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for ffuf claude skill. Web fuzzing with ffuf
 - [ffuf-web-fuzzing](../skills/frontend/web-architecture/ffuf_web_fuzzing/ffuf-web-fuzzing/SKILL.md) — Use this skill to design, implement, and operate production workflows for ffuf web fuzzing. Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
+- [firecrawl-scraper](../skills/frontend/web-architecture/firecrawl_scraper/firecrawl-scraper/SKILL.md) — Use this skill to design, implement, and operate production workflows for firecrawl scraper. Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API. Use when you need deep content extraction from web pages, page interaction is required (clicking, scrolling, etc.), or you want screenshots or PDF parsing.
 - [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
 - [flat-design-2](../skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.
 - [frutiger-aero](../skills/frontend/web-architecture/frutiger_aero/frutiger-aero/SKILL.md) — Use this skill to design, implement, and operate production workflows for frutiger aero. Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.
@@ -4364,6 +4365,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [firebase-app-platform](../skills/frontend/ui-ux/firebase_app_platfor/firebase-app-platform/SKILL.md) — Use this skill to design, implement, and operate production workflows for firebase app platform. Build and operate apps on Firebase using Auth, Firestore, Cloud Functions,
 
+## Firecrawl Scraper (1 skills)
+
+- [firecrawl-scraper](../skills/frontend/web-architecture/firecrawl_scraper/firecrawl-scraper/SKILL.md) — Use this skill to design, implement, and operate production workflows for firecrawl scraper. Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API. Use when you need deep content extraction from web pages, page interaction is required (clicking, scrolling, etc.), or you want screenshots or PDF parsing.
+
 ## Firmographic APIs (1 skills)
 
 - [b2b-lead-enrichment-and-prospecting-crawler](../skills/marketing/lead-generation/b2b-enrichment/b2b-lead-enrichment-and-prospecting-crawler/SKILL.md) — Use this skill to design, build, and automate ethical B2B sales lead generation and firmographic enrichment pipelines. It covers company domain parsing, technology stack detection (BuiltWith/Wappalyzer signatures), executive contact discovery, and CRM ingestion.
@@ -5386,7 +5391,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (907 skills)
+## Python (908 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -6066,6 +6071,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fastapi-pro](../skills/frontend/web-architecture/fastapi_pro/fastapi-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for fastapi pro. Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.
 - [ffuf-claude-skill](../skills/frontend/web-architecture/ffuf_claude_skill/ffuf-claude-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for ffuf claude skill. Web fuzzing with ffuf
 - [ffuf-web-fuzzing](../skills/frontend/web-architecture/ffuf_web_fuzzing/ffuf-web-fuzzing/SKILL.md) — Use this skill to design, implement, and operate production workflows for ffuf web fuzzing. Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
+- [firecrawl-scraper](../skills/frontend/web-architecture/firecrawl_scraper/firecrawl-scraper/SKILL.md) — Use this skill to design, implement, and operate production workflows for firecrawl scraper. Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API. Use when you need deep content extraction from web pages, page interaction is required (clicking, scrolling, etc.), or you want screenshots or PDF parsing.
 - [flat-design](../skills/frontend/web-architecture/flat_design/flat-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design. Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
 - [flat-design-2](../skills/frontend/web-architecture/flat_design_2/flat-design-2/SKILL.md) — Use this skill to design, implement, and operate production workflows for flat design 2. Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.
 - [frutiger-aero](../skills/frontend/web-architecture/frutiger_aero/frutiger-aero/SKILL.md) — Use this skill to design, implement, and operate production workflows for frutiger aero. Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.
