@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 705 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 706 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -230,6 +230,7 @@
 | [debugging-code](skills/ai-engineering/models/debugging_code/debugging-code/SKILL.md) | `ai-engineering` | `models` | `debugging_code` | `advanced` | `stable` | Use this skill to interactively debug source code — set breakpoints, step through execution line by line, inspect live variable state, evaluate expressions against the running program, and navigate the call stack to trace root causes. |
 | [deep-research-framework](skills/ai-engineering/models/deep_research_framew/deep-research-framework/SKILL.md) | `ai-engineering` | `models` | `deep_research_framew` | `advanced` | `stable` | Use this skill to framework for deep research reports: define the question and tier sources first, cross-verify, then write conclusion-first reports with explicit uncertainty statements. Use when the user asks for a research report, topic investigation, or competitive analysis. |
 | [deepapi](skills/ai-engineering/models/deepapi/deepapi/SKILL.md) | `ai-engineering` | `models` | `deepapi` | `advanced` | `stable` | Use this skill to use DeepAPI for supported scraping, research, and email workflows with explicit credentials and approval. |
+| [dei-dashboard](skills/ai-engineering/models/dei_dashboard/dei-dashboard/SKILL.md) | `ai-engineering` | `models` | `dei_dashboard` | `advanced` | `stable` | Use this skill to diversity, equity and inclusion dashboard: metric by department and period, value against target, group size and minimum-threshold flag. Use for DEI reporting. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [kubeflow-and-ray-ai-pipeline-orchestration](skills/ai-engineering/orchestration/kubeflow-ray/kubeflow-and-ray-ai-pipeline-orchestration/SKILL.md) | `ai-engineering` | `orchestration` | `kubeflow-ray` | `expert` | `stable` | Use this skill to build, containerize, and orchestrate end-to-end distributed AI/ML training and batch inference pipelines using Kubeflow Pipelines (KFP v2) and Ray Train. It covers GPU resource scheduling, spot instance fault tolerance, dataset sharding, and MLflow experiment tracking. |
 | [llm-quantization-gguf-and-awq](skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) | `ai-engineering` | `quantization` | `gguf-llama-cpp` | `advanced` | `stable` | Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing. |

@@ -232,6 +232,7 @@ AI_Skills_Booster/
 │   │   ├── debugging_code/ (1 skills)
 │   │   ├── deep_research_framew/ (1 skills)
 │   │   ├── deepapi/ (1 skills)
+│   │   ├── dei_dashboard/ (1 skills)
 │   │   └── templates/ (1 skills)
 │   ├── orchestration/
 │   │   └── kubeflow-ray/ (1 skills)

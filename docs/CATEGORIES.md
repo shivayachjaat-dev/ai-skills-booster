@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **705** skills across structured domains, categories, and subcategories.
+Master navigation for **706** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (251 skills)
+## Ai Engineering (252 skills)
 
 ### Agents (29 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -148,7 +148,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Conversation_Memory** (1):
   - [conversation-memory](../skills/ai-engineering/llm-ops/conversation_memory/conversation-memory/SKILL.md) — Use this skill to persistent memory systems for LLM conversations including
 
-### Models (177 skills)
+### Models (178 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -494,6 +494,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [deep-research-framework](../skills/ai-engineering/models/deep_research_framew/deep-research-framework/SKILL.md) — Use this skill to framework for deep research reports: define the question and tier sources first, cross-verify, then write conclusion-first reports with explicit uncertainty statements. Use when the user asks for a research report, topic investigation, or competitive analysis.
 - **Deepapi** (1):
   - [deepapi](../skills/ai-engineering/models/deepapi/deepapi/SKILL.md) — Use this skill to use DeepAPI for supported scraping, research, and email workflows with explicit credentials and approval.
+- **Dei_Dashboard** (1):
+  - [dei-dashboard](../skills/ai-engineering/models/dei_dashboard/dei-dashboard/SKILL.md) — Use this skill to diversity, equity and inclusion dashboard: metric by department and period, value against target, group size and minimum-threshold flag. Use for DEI reporting.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 
