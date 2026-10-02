@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **536** skills across structured domains, categories, and subcategories.
+Master navigation for **537** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (183 skills)
 
@@ -1557,9 +1557,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (36 skills)
+## Software Engineering (37 skills)
 
-### Architecture (29 skills)
+### Architecture (30 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -1568,7 +1568,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (26):
+- **Patterns** (27):
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
   - [awareness-stage-mapper](../skills/software-engineering/architecture/patterns/awareness-stage-mapper/SKILL.md) — Use this skill to one sentence - what this skill does and when to invoke it
@@ -1595,6 +1595,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [claude-speed-reader](../skills/software-engineering/architecture/patterns/claude-speed-reader/SKILL.md) — Use this skill to -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting
   - [claude-win11-speckit-update-skill](../skills/software-engineering/architecture/patterns/claude-win11-speckit-update-skill/SKILL.md) — Use this skill to windows 11 system management
   - [clean-code](../skills/software-engineering/architecture/patterns/clean-code/SKILL.md) — Use this skill to this skill embodies the principles of \"Clean Code\" by Robert C. Martin (Uncle Bob). Use it to transform \"code that works\" into \"code that is clean.\
+  - [code-polish](../skills/software-engineering/architecture/patterns/code-polish/SKILL.md) — Use this skill to rewrites unprofessional code comments into clear ones and performs non-semantic cleanup. Use to professionalize code without altering logic or behavior.
 
 ### Code Review (1 skills)
 Category index: [`docs/categories/code-review.md`](categories/code-review.md)

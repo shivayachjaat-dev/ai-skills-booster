@@ -11993,6 +11993,28 @@
     "maturity": "stable"
   },
   {
+    "name": "code-polish",
+    "path": "skills/software-engineering/architecture/patterns/code-polish",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to rewrites unprofessional code comments into clear ones and performs non-semantic cleanup. Use to professionalize code without altering logic or behavior.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "code",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Code Polish",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-pr-review-feedback-resolver",
     "path": "skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver",
     "domain": "software-engineering",
