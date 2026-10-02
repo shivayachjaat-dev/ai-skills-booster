@@ -3090,6 +3090,28 @@
     "maturity": "stable"
   },
   {
+    "name": "azure-mgmt-fabric-py",
+    "path": "skills/backend/python-services/azure_mgmt_fabric_py/azure-mgmt-fabric-py",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "azure_mgmt_fabric_py",
+    "description": "Use this skill to azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources.",
+    "tags": [
+      "backend",
+      "python-services",
+      "azure",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Azure Mgmt Fabric Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

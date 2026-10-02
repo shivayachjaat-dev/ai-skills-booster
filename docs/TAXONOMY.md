@@ -160,7 +160,8 @@ AI_Skills_Booster/
 │   │   ├── azure_eventgrid_py/ (1 skills)
 │   │   ├── azure_eventhub_py/ (1 skills)
 │   │   ├── azure_identity_py/ (1 skills)
-│   │   └── azure_mgmt_botservic/ (1 skills)
+│   │   ├── azure_mgmt_botservic/ (1 skills)
+│   │   └── azure_mgmt_fabric_py/ (1 skills)
 │   ├── realtime/
 │   │   └── websocket/ (1 skills)
 │   └── resilience/
