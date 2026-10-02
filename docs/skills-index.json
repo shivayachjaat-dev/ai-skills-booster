@@ -13413,6 +13413,28 @@
     "maturity": "stable"
   },
   {
+    "name": "minimalism",
+    "path": "skills/frontend/web-architecture/minimalism/minimalism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "minimalism",
+    "description": "Use this skill to design, implement, and operate production workflows for minimalism. Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "minimalism",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Minimalism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
