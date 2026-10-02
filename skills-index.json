@@ -221,6 +221,32 @@
     "maturity": "stable"
   },
   {
+    "name": "sqlalchemy-async-session-management",
+    "path": "skills/backend/database-drivers/sqlalchemy/sqlalchemy-async-session-management",
+    "domain": "backend",
+    "category": "database-drivers",
+    "subcategory": "sqlalchemy",
+    "description": "Use this skill when architecting asynchronous database access layers in Python using SQLAlchemy 2.0+ and asyncpg. It guides the agent through AsyncEngine configuration, connection pooling with pool_pre_ping, scoped async session lifecycles, eager loading strategies (selectinload vs joinedload), and atomic transaction context managers.",
+    "tags": [
+      "sqlalchemy",
+      "asyncio",
+      "python",
+      "asyncpg",
+      "orm",
+      "database",
+      "postgresql"
+    ],
+    "technologies": [
+      "SQLAlchemy 2.0+",
+      "asyncpg",
+      "Python asyncio",
+      "PostgreSQL",
+      "Pydantic"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-async-api-design",
     "path": "skills/backend/fastapi/async-architecture/fastapi-async-api-design",
     "domain": "backend",
