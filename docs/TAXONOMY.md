@@ -135,8 +135,10 @@ AI_Skills_Booster/
 ├── developer-tools/
 │   ├── cli/
 │   │   └── typer-architecture/ (1 skills)
-│   └── repository-specs/
+│   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
+│   └── sdk-generation/
+│   │   └── openapi-generator/ (1 skills)
 ├── devops/
 │   ├── ci-cd/
 │   │   └── optimization/ (1 skills)
