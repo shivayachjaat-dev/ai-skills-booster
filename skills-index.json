@@ -36017,6 +36017,28 @@
     "maturity": "stable"
   },
   {
+    "name": "odoo-l10n-compliance",
+    "path": "skills/software-engineering/architecture/patterns/odoo-l10n-compliance",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for odoo l10n compliance. Country-specific Odoo localization: tax configuration, e-invoicing (CFDI, FatturaPA, SAF-T), fiscal reporting, and country chart of accounts setup.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "odoo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Odoo L10N Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
