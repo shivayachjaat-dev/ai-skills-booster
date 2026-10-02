@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **80** skills across structured domains, categories, and subcategories.
+Master navigation for **81** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (12 skills)
 
@@ -60,7 +60,7 @@ Category index: [`docs/categories/vector-databases.md`](categories/vector-databa
 - **Indexing** (1):
   - [vector-database-rag-indexing](../skills/ai-engineering/vector-databases/indexing/vector-database-rag-indexing/SKILL.md) — Use this skill when architecting, building, and optimizing high-scale vector database indexing pipelines for Retrieval-Augmented Generation (RAG). It guides the agent through chunking strategies, dense embedding generation, approximate nearest neighbor (ANN) index selection (HNSW vs IVF vs ScaNN), payload metadata schema design, hybrid dense-sparse search, and index warm-up.
 
-## Backend (11 skills)
+## Backend (12 skills)
 
 ### Api Design (1 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -85,6 +85,12 @@ Category index: [`docs/categories/database-drivers.md`](categories/database-driv
 
 - **Sqlalchemy** (1):
   - [sqlalchemy-async-session-management](../skills/backend/database-drivers/sqlalchemy/sqlalchemy-async-session-management/SKILL.md) — Use this skill when architecting asynchronous database access layers in Python using SQLAlchemy 2.0+ and asyncpg. It guides the agent through AsyncEngine configuration, connection pooling with pool_pre_ping, scoped async session lifecycles, eager loading strategies (selectinload vs joinedload), and atomic transaction context managers.
+
+### Database Migrations (1 skills)
+Category index: [`docs/categories/database-migrations.md`](categories/database-migrations.md)
+
+- **Alembic** (1):
+  - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
 ### Fastapi (1 skills)
 Category index: [`docs/categories/fastapi.md`](categories/fastapi.md)

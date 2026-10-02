@@ -32,6 +32,8 @@ AI_Skills_Booster/
 │   │   └── redis-streams/ (1 skills)
 │   ├── database-drivers/
 │   │   └── sqlalchemy/ (1 skills)
+│   ├── database-migrations/
+│   │   └── alembic/ (1 skills)
 │   ├── fastapi/
 │   │   └── async-architecture/ (1 skills)
 │   ├── graphql/

@@ -398,6 +398,30 @@
     "maturity": "stable"
   },
   {
+    "name": "alembic-zero-downtime-migrations",
+    "path": "skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations",
+    "domain": "backend",
+    "category": "database-migrations",
+    "subcategory": "alembic",
+    "description": "Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.",
+    "tags": [
+      "alembic",
+      "sqlalchemy",
+      "migrations",
+      "zero-downtime",
+      "postgresql",
+      "python"
+    ],
+    "technologies": [
+      "Alembic",
+      "SQLAlchemy",
+      "PostgreSQL",
+      "Python"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "fastapi-async-api-design",
     "path": "skills/backend/fastapi/async-architecture/fastapi-async-api-design",
     "domain": "backend",
