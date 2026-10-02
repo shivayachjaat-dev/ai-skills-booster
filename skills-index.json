@@ -19661,6 +19661,28 @@
     "maturity": "stable"
   },
   {
+    "name": "markstream-react",
+    "path": "skills/frontend/ui-development/markstream_react/markstream-react",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "markstream_react",
+    "description": "Use this skill to design, implement, and operate production workflows for markstream react. Integrate the beta markstream-react renderer into React 18+ or Next.js with correct client/server entrypoints, CSS, streaming state, and component overrides.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "markstream",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Markstream React",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

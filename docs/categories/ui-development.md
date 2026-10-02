@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **28 skills** available in this category.
+> **29 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,3 +32,4 @@
 | [markstream-install](../../skills/frontend/ui-development/markstream_install/markstream-install/SKILL.md) | `markstream_install` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream install. Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications. |
 | [markstream-migration](../../skills/frontend/ui-development/markstream_migration/markstream-migration/SKILL.md) | `markstream_migration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream migration. Audit and migrate an existing Markdown renderer to Markstream while preserving custom renderers, security policy, streaming behavior, and explicit parity gaps. |
 | [markstream-nuxt](../../skills/frontend/ui-development/markstream_nuxt/markstream-nuxt/SKILL.md) | `markstream_nuxt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream nuxt. Integrate markstream-vue into Nuxt 3 or 4 with SSR-safe client boundaries, renderer modes, explicit CSS, and browser-only optional peers. |
+| [markstream-react](../../skills/frontend/ui-development/markstream_react/markstream-react/SKILL.md) | `markstream_react` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream react. Integrate the beta markstream-react renderer into React 18+ or Next.js with correct client/server entrypoints, CSS, streaming state, and component overrides. |
