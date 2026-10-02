@@ -4921,6 +4921,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bitbucket-automation",
+    "path": "skills/developer-tools/productivity/bitbucket_automation/bitbucket-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "bitbucket_automation",
+    "description": "Use this skill to automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "bitbucket",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bitbucket Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

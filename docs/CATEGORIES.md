@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **401** skills across structured domains, categories, and subcategories.
+Master navigation for **402** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (131 skills)
 
@@ -670,7 +670,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Avalonia Dotnet** (1):
   - [avalonia-cross-platform-desktop-ui-architecture](../skills/desktop/frameworks/avalonia-dotnet/avalonia-cross-platform-desktop-ui-architecture/SKILL.md) — Use this skill to design, build, and optimize high-performance cross-platform desktop applications using Avalonia UI and .NET 8/9. It covers MVVM architecture with ReactiveUI and CommunityToolkit.Mvvm, fluent UI themes and dark mode switching, asynchronous relay commands, virtualized data grids, custom template controls, and native packaging for Windows, macOS, and Linux.
 
-## Developer Tools (7 skills)
+## Developer Tools (8 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -684,7 +684,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Ask_Copilot** (1):
   - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
 
-### Productivity (3 skills)
+### Productivity (4 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -693,6 +693,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [bamboohr-automation](../skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) — Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.
 - **Basecamp_Automation** (1):
   - [basecamp-automation](../skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) — Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas.
+- **Bitbucket_Automation** (1):
+  - [bitbucket-automation](../skills/developer-tools/productivity/bitbucket_automation/bitbucket-automation/SKILL.md) — Use this skill to automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)
