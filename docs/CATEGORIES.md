@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,602** skills across structured domains, categories, and subcategories.
+Master navigation for **1,603** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (556 skills)
+## Ai Engineering (557 skills)
 
 ### Agents (65 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -276,7 +276,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Multi_Tenant_Llm_Hos** (1):
   - [multi-tenant-llm-hosting](../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation,
 
-### Models (405 skills)
+### Models (406 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1064,6 +1064,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [network-101](../skills/ai-engineering/models/network_101/network-101/SKILL.md) — Use this skill to design, implement, and operate production workflows for network 101. Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems.
 - **New_Rails_Project** (1):
   - [new-rails-project](../skills/ai-engineering/models/new_rails_project/new-rails-project/SKILL.md) — Use this skill to design, implement, and operate production workflows for new rails project. Create a new Rails project
+- **Nexrad_Mosaic_Access** (1):
+  - [nexrad-mosaic-access](../skills/ai-engineering/models/nexrad_mosaic_access/nexrad-mosaic-access/SKILL.md) — Use this skill to design, implement, and operate production workflows for nexrad mosaic access. Access official NOAA/NCEP MRMS radar and multisensor composites for a region and time; validate product, grid, domain, quality, timestamp, and provenance.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

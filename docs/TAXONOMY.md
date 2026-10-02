@@ -516,6 +516,7 @@ AI_Skills_Booster/
 │   │   ├── neon_ai_gateway/ (1 skills)
 │   │   ├── network_101/ (1 skills)
 │   │   ├── new_rails_project/ (1 skills)
+│   │   ├── nexrad_mosaic_access/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
