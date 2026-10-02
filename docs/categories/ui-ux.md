@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **6 skills** available in this category.
+> **7 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -10,3 +10,4 @@
 | [automated-triage](../../skills/frontend/ui-ux/automated_triage/automated-triage/SKILL.md) | `automated_triage` | `advanced` | `stable` | Use this skill to triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule. |
 | [aws-lambda](../../skills/frontend/ui-ux/aws_lambda/aws-lambda/SKILL.md) | `aws_lambda` | `advanced` | `stable` | Use this skill to build and deploy serverless functions on AWS Lambda. Configure triggers, |
 | [aws-serverless](../../skills/frontend/ui-ux/aws_serverless/aws-serverless/SKILL.md) | `aws_serverless` | `advanced` | `stable` | Use this skill to specialized skill for building production-ready serverless |
+| [aws-serverless-eda](../../skills/frontend/ui-ux/aws_serverless_eda/aws-serverless-eda/SKILL.md) | `aws_serverless_eda` | `advanced` | `stable` | Use this skill to aWS serverless and event-driven architecture expert based on Well-Architected Framework. Use when building serverless APIs, Lambda functions, REST APIs, microservices, or async workflows. |

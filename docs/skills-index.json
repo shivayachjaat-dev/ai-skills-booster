@@ -4041,6 +4041,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-serverless-eda",
+    "path": "skills/frontend/ui-ux/aws_serverless_eda/aws-serverless-eda",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "aws_serverless_eda",
+    "description": "Use this skill to aWS serverless and event-driven architecture expert based on Well-Architected Framework. Use when building serverless APIs, Lambda functions, REST APIs, microservices, or async workflows.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Serverless Eda",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "antigravity-design-expert",
     "path": "skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert",
     "domain": "frontend",
