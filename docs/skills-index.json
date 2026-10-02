@@ -14007,6 +14007,28 @@
     "maturity": "stable"
   },
   {
+    "name": "eas-observe",
+    "path": "skills/frontend/ui-ux/eas_observe/eas-observe",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "eas_observe",
+    "description": "Use this skill to design, implement, and operate production workflows for eas observe. Curated upstream guidance for Eas Observe; use when the workflow matches the user goal.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "eas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Eas Observe",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "marketplace-rbac-audit",
     "path": "skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit",
     "domain": "frontend",

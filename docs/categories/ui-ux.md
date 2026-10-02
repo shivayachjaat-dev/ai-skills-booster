@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **76 skills** available in this category.
+> **77 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -77,6 +77,7 @@
 | [drizzle-orm-expert](../../skills/frontend/ui-ux/drizzle_orm_expert/drizzle-orm-expert/SKILL.md) | `drizzle_orm_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for drizzle orm expert. Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle. |
 | [eas-app-stores](../../skills/frontend/ui-ux/eas_app_stores/eas-app-stores/SKILL.md) | `eas_app_stores` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eas app stores. Curated upstream guidance for Eas App Stores; use when the workflow matches the user goal. |
 | [eas-hosting](../../skills/frontend/ui-ux/eas_hosting/eas-hosting/SKILL.md) | `eas_hosting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eas hosting. Curated upstream guidance for Eas Hosting; use when the workflow matches the user goal. |
+| [eas-observe](../../skills/frontend/ui-ux/eas_observe/eas-observe/SKILL.md) | `eas_observe` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eas observe. Curated upstream guidance for Eas Observe; use when the workflow matches the user goal. |
 | [marketplace-rbac-audit](../../skills/frontend/ui-ux/marketplace_rbac_aud/marketplace-rbac-audit/SKILL.md) | `marketplace_rbac_aud` | `advanced` | `stable` | Use this skill to audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
