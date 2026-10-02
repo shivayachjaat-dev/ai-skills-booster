@@ -778,6 +778,30 @@
     "maturity": "stable"
   },
   {
+    "name": "enterprise-software-selection-and-rfp",
+    "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
+    "domain": "business",
+    "category": "procurement",
+    "subcategory": "software-selection",
+    "description": "Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.",
+    "tags": [
+      "software-selection",
+      "procurement",
+      "rfp",
+      "vendor-evaluation",
+      "tco",
+      "business"
+    ],
+    "technologies": [
+      "Python",
+      "Pandas",
+      "Scoring Matrices",
+      "Financial Modeling"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

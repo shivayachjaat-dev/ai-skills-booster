@@ -52,709 +52,691 @@ def mark_backlog_item(backlog_query, new_status="completed", blocked_reason=None
     except Exception as e:
         print(f"Warning: Could not update backlog file: {e}")
 
-# Continuous queue of high-value backlog candidates adapted into production skills
 CONTINUOUS_QUEUE = [
     # -------------------------------------------------------------
-    # 1. SECURITY: active-directory-security-assessment (Backlog: active-directory-attacks)
+    # 1. BUSINESS: enterprise-software-selection-and-rfp (Backlog: accounting-software-selection)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "active-directory-attacks",
-        "name": "active-directory-security-assessment",
-        "domain": "security",
-        "category": "penetration-testing",
-        "subcategory": "active-directory",
-        "description": "Use this skill when auditing, assessing, and hardening Microsoft Active Directory (AD) and hybrid Azure AD/Entra ID environments against common identity attack vectors. It guides the agent through identifying Kerberoasting vulnerabilities, AS-REP roasting, BloodHound attack path mapping, DCSync credential dumping risks, and Active Directory Certificate Services (ADCS) misconfigurations.",
-        "tags": ["active-directory", "pentesting", "security", "kerberos", "bloodhound", "adcs", "red-team"],
-        "technologies": ["Active Directory", "Kerberos", "BloodHound", "PowerView", "Impacket", "Python"],
-        "complexity": "advanced",
-        "maturity": "stable",
-        "tools": ["python", "powershell"],
-        "dependencies": ["impacket >= 0.11.0"],
-        "content": """# Active Directory Security Assessment & Hardening Architecture
-
-## Overview
-
-A definitive production security reference for auditing, assessing, and hardening Microsoft Active Directory (AD) enterprise environments against credential attacks and privilege escalation paths. Over 90% of Fortune 500 enterprises rely on Active Directory for identity and access management, making it the primary target during internal network compromises. This skill instructs AI agents on analyzing Kerberos delegation vulnerabilities, identifying Kerberoasting and AS-REP roasting vectors, mapping attack paths using BloodHound, and establishing defenses against DCSync attacks.
-
-## When to Use
-
-- Conducting internal network penetration testing and red-team/blue-team identity audits.
-- Identifying over-privileged Domain Admin accounts and unconstrained Kerberos delegation.
-- Auditing Service Principal Names (SPNs) configured with weak or crackable service account passwords.
-- Defending Active Directory Certificate Services (ADCS) against ESC1-ESC8 template escalation attacks.
-
-## When NOT to Use
-
-- Cloud-native identity providers without Active Directory integration (pure Google Workspace or Okta).
-- Web application vulnerability scanning (use OWASP ZAP or Burp Suite).
-
-## Inputs & Prerequisites
-
-- Read-only domain user credentials or access to domain controller audit logs.
-- Python 3.10+ with `impacket` installed.
-- Understanding of Kerberos ticket granting mechanisms (TGT, TGS).
-
-## Core Workflow
-
-### 1. Kerberoasting Attack Vector Audit
-Identify service accounts with registered Service Principal Names (SPNs) vulnerable to offline hash cracking:
-
-```python
-from impacket.krb5.kerberosv5 import getKerberosTGT, getKerberosTGS
-from impacket.krb5 import constants
-import datetime
-
-def audit_service_principal_names(spn_accounts: list[dict]):
-    \"\"\"
-    Checks service accounts for weak encryption types (RC4 vs AES)
-    and non-expiring passwords that allow offline hash cracking.
-    \"\"\"
-    vulnerable_accounts = []
-    for account in spn_accounts:
-        spn = account.get("servicePrincipalName")
-        encryption_types = account.get("msDS-SupportedEncryptionTypes", 0)
-        password_last_set = account.get("pwdLastSet")
-        
-        # Flag accounts that still support weak RC4-HMAC (type 4)
-        supports_rc4 = (encryption_types & 0x4) != 0 or encryption_types == 0
-        
-        # Check password age
-        if supports_rc4:
-            vulnerable_accounts.append({
-                "account_name": account.get("sAMAccountName"),
-                "spn": spn,
-                "risk": "HIGH: Vulnerable to Kerberoasting (RC4-HMAC supported)",
-                "remediation": "Configure AES-256 encryption and enforce 25+ character passwords or Group Managed Service Accounts (gMSA)."
-            })
-            
-    return vulnerable_accounts
-```
-
-### 2. BloodHound Graph Analysis: Identifying Shortest Attack Paths
-Model AD objects as a directed graph to discover hidden transitive paths to Domain Admin:
-
-```cypher
-// BloodHound Cypher Query: Find shortest path from any Domain User to Domain Admins
-MATCH (u:Group {name: "DOMAIN USERS@CORP.LOCAL"}), (da:Group {name: "DOMAIN ADMINS@CORP.LOCAL"})
-MATCH p = shortestPath((u)-[*1..6]->(da))
-RETURN p;
-```
-
-### 3. DCSync Replication Rights Audit
-Verify which non-Domain Controller principals possess `DS-Replication-Get-Changes-All` rights:
-
-```powershell
-# PowerShell ActiveDirectory Module
-Get-Acl "AD:\DC=corp,DC=local" | Select-Object -ExpandProperty Access | Where-Object {
-    $_.ObjectType -eq "1131f6aa-9c07-11d1-f79f-00c04fc2dcd2" -or # DS-Replication-Get-Changes
-    $_.ObjectType -eq "1131f6ad-9c07-11d1-f79f-00c04fc2dcd2"     # DS-Replication-Get-Changes-All
-} | Select-Object IdentityReference, ActiveDirectoryRights, AccessControlType
-```
-
-## Best Practices & Failure Modes
-
-1. **Static Plaintext Service Account Passwords**: Traditional service accounts frequently have passwords set once that never expire. Always migrate service accounts to Group Managed Service Accounts (gMSA), where Windows rotates 128-character passwords automatically every 30 days.
-2. **Unconstrained Kerberos Delegation**: Servers configured with unconstrained delegation store client TGTs in LSASS memory. If an attacker compromises an unconstrained server, they can impersonate any domain admin who connects to that server. Use Constrained Delegation or Resource-Based Constrained Delegation (RBCD).
-3. **Allowing NTLM in Modern Networks**: NTLM lacks mutual authentication and is vulnerable to relay attacks. Enforce Kerberos-only authentication and disable NTLM via Group Policy.
-
-## Verification & Testing
-
-- Audit domain controller event logs for Event ID 4769 (Kerberos Ticket Request) with failure code `0x1f` or RC4 encryption (`0x17`):
-  ```powershell
-  Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4769} -MaxEvents 50 | 
-      Where-Object { $_.Properties[4].Value -eq '0x17' }
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 2. BUSINESS: employee-360-feedback-review-system (Backlog: 360-feedback-system)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "360-feedback-system",
-        "name": "employee-360-feedback-review-system",
+        "backlog_ref": "accounting-software-selection",
+        "name": "enterprise-software-selection-and-rfp",
         "domain": "business",
-        "category": "human-resources",
-        "subcategory": "performance-management",
-        "description": "Use this skill when designing, configuring, and operating multi-rater 360-degree performance feedback systems. It guides the agent through peer reviewer nomination workflows, role-specific competency rubrics, anonymous vs attributed visibility rules, cognitive bias mitigation (recency and halo effects), and synthesis reporting.",
-        "tags": ["360-feedback", "hr", "performance-review", "talent-management", "competencies", "people-ops"],
-        "technologies": ["Python", "JSON", "PostgreSQL", "Data Analytics"],
+        "category": "procurement",
+        "subcategory": "software-selection",
+        "description": "Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.",
+        "tags": ["software-selection", "procurement", "rfp", "vendor-evaluation", "tco", "business"],
+        "technologies": ["Python", "Pandas", "Scoring Matrices", "Financial Modeling"],
         "complexity": "intermediate",
         "maturity": "stable",
         "tools": ["python"],
-        "dependencies": ["python >= 3.10"],
-        "content": """# Employee 360-Degree Performance Feedback Architecture
-
-## Overview
-
-A comprehensive engineering guide for architecting fair, actionable, and bias-resistant multi-rater 360-degree feedback systems. Single-manager reviews suffer from idiosyncratic rater bias and blind spots. A 360 feedback system aggregates calibrated perspectives from direct managers, peers, cross-functional partners, and direct reports. This skill instructs AI agents on structuring review cycles, designing competency rubrics, enforcing reviewer anonymity thresholds, eliminating cognitive bias, and generating development-focused synthesis summaries.
-
-## When to Use
-
-- Building or configuring automated quarterly or annual performance review cycles.
-- Gathering balanced feedback for engineering promotions, leadership reviews, and personal development plans.
-- Mitigating cognitive biases (recency bias, halo effect, centrality bias) through structured behavioral prompts.
-- Aggregating qualitative feedback into actionable strengths and development opportunities.
-
-## When NOT to Use
-
-- Immediate operational feedback for acute safety or code violations (handle synchronously 1-on-1).
-- Anonymous complaints regarding workplace harassment or whistleblowing (use formal ethics hotlines).
-
-## Inputs & Prerequisites
-
-- Organizational structure (reporting hierarchy, team affiliations).
-- Defined competency rubric with behavioral anchors (e.g. Technical Execution, Collaboration, Leadership).
-- Review cycle timeline and visibility thresholds.
-
-## Core Workflow
-
-### 1. Multi-Rater Nomination & Visibility Matrix
-Define rater categories and privacy thresholds:
-
-```json
-{
-  "review_cycle": "2026-H1-Engineering",
-  "rater_categories": {
-    "manager": {
-      "min_raters": 1,
-      "max_raters": 2,
-      "anonymous": false,
-      "visibility": "subject_and_leadership"
-    },
-    "peer": {
-      "min_raters": 3,
-      "max_raters": 5,
-      "anonymous": true,
-      "min_completed_for_anonymity": 3,
-      "visibility": "aggregated_only"
-    },
-    "direct_report": {
-      "min_raters": 2,
-      "max_raters": 8,
-      "anonymous": true,
-      "min_completed_for_anonymity": 3,
-      "visibility": "aggregated_only"
-    },
-    "self": {
-      "min_raters": 1,
-      "max_raters": 1,
-      "anonymous": false,
-      "visibility": "subject_and_manager"
-    }
-  }
-}
-```
-
-### 2. Behavioral Competency Rubric Definition
-Design questions anchored in observable behaviors rather than personality traits:
-
-```python
-from dataclasses import dataclass
-from typing import List
-
-@dataclass
-class CompetencyQuestion:
-    competency: str
-    behavioral_prompt: str
-    rating_scale: List[str] # 1 to 5 scale with behavioral anchors
-
-ENGINEERING_RUBRIC = [
-    CompetencyQuestion(
-        competency="Technical Craft & Execution",
-        behavioral_prompt="How effectively does the individual design robust software, handle edge cases, and maintain code quality?",
-        rating_scale=[
-            "1 - Frequently introduces defects; requires constant supervision",
-            "2 - Meets basic requirements with guidance",
-            "3 - Consistently delivers high-quality, resilient code independently",
-            "4 - Sets technical standards and simplifies complex systems for the team",
-            "5 - Industry-level domain authority; anticipates multi-year architectural needs"
-        ]
-    ),
-    CompetencyQuestion(
-        competency="Cross-Functional Collaboration",
-        behavioral_prompt="How effectively does the individual communicate across teams, resolve technical disputes, and unblock partners?",
-        rating_scale=[
-            "1 - Creates friction or silos",
-            "2 - Cooperates when prompted",
-            "3 - Proactively aligns with partners and communicates transparently",
-            "4 - Builds strong cross-team consensus on contentious decisions",
-            "5 - Exemplary organizational leader driving company-wide initiatives"
-        ]
-    )
-]
-```
-
-### 3. Feedback Synthesis & Anonymity Enforcement
-Aggregate feedback while protecting reviewer identities:
-
-```python
-def synthesize_feedback(feedback_submissions: list[dict], min_anonymous_count: int = 3) -> dict:
-    peer_feedback = [f for f in feedback_submissions if f["category"] == "peer"]
-    
-    # Enforce strict anonymity threshold
-    if len(peer_feedback) < min_anonymous_count:
-        peer_comments = ["[Aggregated comments withheld: Fewer than 3 peer reviews received to protect anonymity]"]
-    else:
-        peer_comments = [f["qualitative_strengths"] for f in peer_feedback]
-
-    avg_scores = {}
-    for comp in ["Technical Craft & Execution", "Cross-Functional Collaboration"]:
-        scores = [f["ratings"][comp] for f in feedback_submissions if comp in f.get("ratings", {})]
-        avg_scores[comp] = round(sum(scores) / len(scores), 2) if scores else 0.0
-
-    return {
-        "quantitative_summary": avg_scores,
-        "peer_qualitative_feedback": peer_comments
-    }
-```
-
-## Best Practices & Failure Modes
-
-1. **Violating Anonymity with Small Sample Sizes**: If only 1 peer completes a review, attributing comments to "Peers" clearly exposes the author. If fewer than 3 reviews are submitted in an anonymous category, combine them into an aggregated pool or withhold qualitative quotes.
-2. **Personality Feedback vs Behavioral Evidence**: Feedback criticizing tone or temperament ("too aggressive", "not enthusiastic enough") disproportionately harms underrepresented groups. Prompt reviewers for concrete situations, behaviors, and business impacts (SBI model).
-3. **Recency Bias**: Reviewers naturally recall work done in the last 2 weeks while forgetting the previous 5 months. Encourage year-round private note-taking and review tickets across the entire cycle.
-
-## Verification & Testing
-
-- Unit test verifying that anonymity thresholds are strictly respected:
-  ```python
-  sample_submissions = [
-      {"category": "peer", "ratings": {"Technical Craft & Execution": 4}, "qualitative_strengths": "Great job"},
-      {"category": "peer", "ratings": {"Technical Craft & Execution": 5}, "qualitative_strengths": "Fast delivery"}
-  ] # Only 2 peers
-  report = synthesize_feedback(sample_submissions, min_anonymous_count=3)
-  assert "withheld" in report["peer_qualitative_feedback"][0]
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 3. BUSINESS: internal-financial-audit-and-controls (Backlog: accounting-audit-system-builder)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "accounting-audit-system-builder",
-        "name": "internal-financial-audit-and-controls",
-        "domain": "business",
-        "category": "finance",
-        "subcategory": "audit-controls",
-        "description": "Use this skill when designing, testing, and automating internal financial accounting controls, journal entry audit trails, and reconciliation workflows compliant with SOX 404, GAAP, and IFRS. It guides the agent through general ledger reconciliation, manual journal entry approval thresholds, segregation of duties in treasury, and anomaly detection.",
-        "tags": ["financial-audit", "accounting", "sox-compliance", "internal-controls", "finance", "gaap"],
-        "technologies": ["Python", "SQL", "PostgreSQL", "Pandas", "Audit Trails"],
-        "complexity": "advanced",
-        "maturity": "stable",
-        "tools": ["python"],
         "dependencies": ["pandas >= 2.0.0", "python >= 3.10"],
-        "content": """# Internal Financial Audit & SOX Accounting Controls Architecture
+        "content": """# Enterprise Software Selection & RFP Evaluation Architecture
 
 ## Overview
 
-A definitive production finance and compliance engineering reference for architecting internal accounting controls, automated ledger reconciliation, and tamper-evident audit trails. Corporate financial reporting is governed by Sarbanes-Oxley (SOX) Section 404, GAAP, and IFRS standards. This skill instructs AI agents on designing controls for manual journal entries, enforcing multi-tier approval thresholds, executing automated three-way matching (Purchase Order -> Goods Receipt -> Invoice), and detecting accounting anomalies (Benford's Law).
+A definitive enterprise procurement engineering standard for objectively scoring, shortlisting, and selecting commercial software systems. Selecting enterprise software (ERPs, CRM, CI/CD tooling, cloud observability) based on vendor marketing leads to expensive failed migrations and contract lock-in. This skill instructs AI agents on authoring functional and non-functional requirements matrices, modeling 3-year Total Cost of Ownership (TCO), executing weighted multi-attribute decision scoring, and evaluating vendor security posture.
 
 ## When to Use
 
-- Designing enterprise ERP accounting modules, billing engines, and treasury ledger systems.
-- Preparing financial infrastructure for external audit (Big 4 accounting firm reviews).
-- Automating account balance reconciliation across internal databases and external payment processors (Stripe/Adyen/Banks).
-- Enforcing Segregation of Duties (SoD) on material journal entries and wire transfers.
+- Selecting replacement ERP, accounting, HRIS, or database software for enterprise organizations.
+- Authoring structured Requests for Proposal (RFPs) and vendor questionnaire scorecards.
+- Calculating 3-year Total Cost of Ownership (licensing, implementation, maintenance, training, integration).
+- Comparing shortlisted vendors using weighted multi-criteria decision analysis (MCDA).
 
 ## When NOT to Use
 
-- Simple non-regulated personal budgeting or expense tracker hobby apps.
-- Real-time stock trading algorithms (use market-making quantitative skills).
+- Choosing lightweight open-source software libraries for a developer script.
+- Single-vendor contract renewals where no market evaluation is being conducted.
 
 ## Inputs & Prerequisites
 
-- Chart of Accounts (COA) with asset, liability, equity, revenue, and expense codes.
-- General Ledger journal entry tables with debit and credit balance enforcement.
-- Bank statement feeds and payment gateway settlement reports.
+- Stakeholder requirements categorized by priority (Must-Have, Should-Have, Nice-to-Have).
+- Compliance and security baseline requirements (SOC2 Type II, ISO 27001, data residency).
+- Budget ceiling and projected 3-year user growth.
 
 ## Core Workflow
 
-### 1. Double-Entry Journal Entry Invariant Enforcement
-Ensure that debits strictly equal credits on every posted transaction with cryptographic immutability:
-
-```python
-from dataclasses import dataclass
-from typing import List
-import datetime
-import hashlib
-import json
-
-@dataclass
-class JournalEntryLine:
-    account_code: str
-    debit_cents: int
-    credit_cents: int
-    description: str
-
-class JournalEntry:
-    def __init__(self, entry_id: str, creator_id: str, lines: List[JournalEntryLine]):
-        self.entry_id = entry_id
-        self.creator_id = creator_id
-        self.lines = lines
-        self.timestamp = datetime.datetime.utcnow().isoformat()
-        self._validate_invariants()
-
-    def _validate_invariants(self):
-        total_debits = sum(line.debit_cents for line in self.lines)
-        total_credits = sum(line.credit_cents for line in self.lines)
-        
-        # Fundamental Accounting Equation Invariant
-        if total_debits != total_credits:
-            raise ValueError(f"Unbalanced Journal Entry: Debits ({total_debits}) != Credits ({total_credits})")
-        if total_debits == 0:
-            raise ValueError("Journal entry cannot have zero total amount.")
-
-    def compute_audit_hash(self, previous_block_hash: str) -> str:
-        payload = {
-            "entry_id": self.entry_id,
-            "creator_id": self.creator_id,
-            "timestamp": self.timestamp,
-            "lines": [l.__dict__ for l in self.lines],
-            "prev_hash": previous_block_hash
-        }
-        return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
-```
-
-### 2. Automated Account Reconciliation (Three-Way Matching)
-Match customer invoices against payment provider settlements and bank deposits:
+### 1. Weighted Evaluation Matrix Engine
+Score competing vendors across weighted functional and compliance criteria:
 
 ```python
 import pandas as pd
 
-def reconcile_bank_settlement(internal_ledger_df: pd.DataFrame, bank_settlement_df: pd.DataFrame) -> dict:
+CRITERIA_WEIGHTS = {
+    "core_functional_fit": 0.35,       # Must satisfy accounting/business requirements
+    "api_and_extensibility": 0.20,     # Webhooks, REST/GraphQL APIs, SDK support
+    "security_and_compliance": 0.20,   # SOC2, SSO/SAML, encryption at rest, RBAC
+    "total_cost_of_ownership": 0.15,   # License + implementation + support over 3 years
+    "vendor_viability_and_sla": 0.10   # 99.9% uptime SLA, financial stability, roadmap
+}
+
+def evaluate_vendor_score(vendor_name: str, raw_scores: dict[str, float]) -> dict:
     \"\"\"
-    Performs outer join to identify discrepancies between ledger and bank statements.
+    raw_scores contains ratings from 1 (poor) to 10 (exceptional) for each criteria key.
     \"\"\"
-    merged = pd.merge(
-        internal_ledger_df,
-        bank_settlement_df,
-        on="transaction_reference_id",
-        how="outer",
-        suffixes=("_ledger", "_bank")
-    )
-
-    # Discrepancy 1: Recorded in ledger but missing from bank (in-transit or missing settlement)
-    missing_in_bank = merged[merged["amount_cents_bank"].isna()]
-
-    # Discrepancy 2: Present in bank but missing in ledger (unrecorded bank fee or unauthorized charge)
-    missing_in_ledger = merged[merged["amount_cents_ledger"].isna()]
-
-    # Discrepancy 3: Amount mismatch
-    amount_mismatch = merged[
-        merged["amount_cents_ledger"].notna() &
-        merged["amount_cents_bank"].notna() &
-        (merged["amount_cents_ledger"] != merged["amount_cents_bank"])
-    ]
-
+    weighted_total = sum(raw_scores[k] * CRITERIA_WEIGHTS[k] for k in CRITERIA_WEIGHTS)
     return {
-        "matched_count": len(merged) - len(missing_in_bank) - len(missing_in_ledger) - len(amount_mismatch),
-        "unmatched_bank_items": len(missing_in_ledger),
-        "unmatched_ledger_items": len(missing_in_bank),
-        "discrepant_amounts": len(amount_mismatch)
+        "vendor": vendor_name,
+        "weighted_score": round(weighted_total, 2),
+        "breakdown": {k: round(raw_scores[k] * CRITERIA_WEIGHTS[k], 2) for k in CRITERIA_WEIGHTS}
     }
 ```
 
-### 3. Forensic Anomaly Detection via Benford's Law
-Detect fraudulent or fabricated manual journal entries:
+### 2. 3-Year Total Cost of Ownership (TCO) Model
+Calculate comprehensive true costs beyond base subscription price:
 
 ```python
-import math
-from collections import Counter
+def calculate_3yr_tco(
+    annual_subscription: float,
+    implementation_fee: float,
+    seats: int,
+    training_days: int,
+    internal_engineering_hours_integration: int
+) -> dict:
+    # Industry averages: $150/hr internal engineering, $1500/day specialized training
+    internal_eng_cost = internal_engineering_hours_integration * 150.0
+    training_cost = training_days * 1500.0
+    year1_cost = annual_subscription + implementation_fee + internal_eng_cost + training_cost
+    year2_cost = annual_subscription * 1.05 # Account for typical 5% annual contract escalation
+    year3_cost = year2_cost * 1.05
 
-def check_benfords_law(amounts: list[float]) -> dict:
-    \"\"\"
-    In natural financial data, first digit '1' appears ~30.1% of the time,
-    while digit '9' appears ~4.6% of the time. Deviations signal fabrication.
-    \"\"\"
-    first_digits = []
-    for amt in amounts:
-        if amt > 0:
-            digit = int(str(amt).replace(".", "")[0])
-            if digit > 0:
-                first_digits.append(digit)
-
-    total = len(first_digits)
-    counts = Counter(first_digits)
-    observed = {d: counts[d] / total for d in range(1, 10)}
-    expected = {d: math.log10(1 + 1 / d) for d in range(1, 10)}
-
-    # Calculate Chi-Square goodness-of-fit statistic
-    chi_square = sum(((observed.get(d, 0) - expected[d]) ** 2) / expected[d] for d in range(1, 10))
-    is_suspicious = chi_square > 0.05
-    return {"chi_square": chi_square, "is_suspicious": is_suspicious}
-```
-
-## Best Practices & Failure Modes
-
-1. **Direct Database Updates to Ledger Tables**: Permitting developers or DBAs to execute `UPDATE general_ledger SET balance = ...` destroys audit integrity and violates SOX controls. General ledgers must be append-only; corrections must be posted as offsetting journal entries.
-2. **Missing Floating-Point Precision**: Never store currency as floating-point numbers (`float`). Rounding errors (`0.1 + 0.2 = 0.30000000000000004`) lead to penny imbalances on millions of transactions. Store currency strictly as integer cents or `DECIMAL(18, 4)`.
-3. **Threshold Avoidance (Smurfing)**: Dishonest actors split a $50,000 transaction requiring CEO sign-off into six $9,900 entries. Build control rules that aggregate transactions per vendor within a 48-hour window.
-
-## Verification & Testing
-
-- Unit test verifying that unbalanced journal entries raise exceptions:
-  ```python
-  import pytest
-  lines = [
-      JournalEntryLine("1010-CASH", 5000, 0, "Cash received"),
-      JournalEntryLine("4010-REVENUE", 0, 4900, "Revenue") # $1 mismatch
-  ]
-  with pytest.raises(ValueError):
-      JournalEntry("JE-001", "user-1", lines)
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 4. SOFTWARE ENGINEERING: github-pr-review-feedback-resolver (Backlog: address-github-comments)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "address-github-comments",
-        "name": "github-pr-review-feedback-resolver",
-        "domain": "software-engineering",
-        "category": "code-review",
-        "subcategory": "pr-feedback",
-        "description": "Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.",
-        "tags": ["code-review", "pull-request", "github", "git", "collaboration", "developer-experience"],
-        "technologies": ["GitHub API", "Git", "Python", "Bash"],
-        "complexity": "intermediate",
-        "maturity": "stable",
-        "tools": ["gh", "git", "python"],
-        "dependencies": ["git >= 2.30.0", "gh >= 2.40.0"],
-        "content": """# GitHub Pull Request Review Feedback Resolution Workflow
-
-## Overview
-
-A definitive software engineering standard for processing, implementing, and verifying code review feedback on GitHub pull requests. Effectively responding to code reviews requires more than applying mechanical suggestions; it demands understanding reviewer intent, testing side-effects locally, crafting atomic fixup commits, providing clear technical rationale for trade-offs, and marking comment threads resolved. This skill instructs AI agents on handling code review iterations systematically.
-
-## When to Use
-
-- Addressing reviewer comments and suggestions on open GitHub pull requests.
-- Evaluating whether requested refactors break existing unit or integration tests.
-- Formulating respectful, technically grounded rebuttals when a reviewer's suggestion has unintended drawbacks.
-- Automating review comment triage and resolution via GitHub CLI (`gh`).
-
-## When NOT to Use
-
-- Creating new features from scratch before a pull request exists.
-- Reviewing other developers' pull requests (use `github-pr-security-review`).
-
-## Inputs & Prerequisites
-
-- Local git branch tracking the open pull request.
-- GitHub CLI (`gh`) authenticated with repository write access.
-- Test suite configured locally to verify fixes before pushing.
-
-## Core Workflow
-
-### 1. Fetching Review Comments via GitHub CLI
-Inspect pending review comments and unresolved review threads:
-
-```bash
-# View PR status and review comments
-gh pr view --comments
-
-# Fetch unresolved review discussion threads as structured JSON
-gh api graphql -f query='
-query($owner: String!, $repo: String!, $pr: Int!) {
-  repository(owner: $owner, name: $repo) {
-    pullRequest(number: $pr) {
-      reviewThreads(first: 50) {
-        nodes {
-          id
-          isResolved
-          comments(first: 5) {
-            nodes {
-              id
-              path
-              line
-              body
-              author { login }
-            }
-          }
-        }
-      }
+    total_3yr = year1_cost + year2_cost + year3_cost
+    return {
+        "year_1_cost": round(year1_cost, 2),
+        "year_2_cost": round(year2_cost, 2),
+        "year_3_cost": round(year3_cost, 2),
+        "total_3yr_tco": round(total_3yr, 2),
+        "cost_per_seat_per_month": round(total_3yr / (seats * 36), 2)
     }
-  }
-}' -F owner='company-org' -F repo='app' -F pr=142
-```
-
-### 2. Review Comment Triage & Decision Matrix
-Classify feedback into 4 actionable buckets:
-
-1. **Typo / Formatting / Style**: Apply immediately without discussion.
-2. **Bug / Edge Case**: Implement fix, add regression unit test, commit with clear message.
-3. **Architectural Suggestion with Trade-offs**: Analyze impact; if agreeing, refactor; if disagreeing, present polite empirical evidence (benchmarks, complexity analysis).
-4. **Out of Scope (Scope Creep)**: Acknowledge validity, create a separate tracking issue, and link it in the reply.
-
-### 3. Pushing Fixes & Replying to Comments
-Apply changes, run local test suite, push commits, and reply to threads:
-
-```bash
-# 1. Verify fix locally before pushing
-pytest tests/
-npm run typecheck
-
-# 2. Commit atomic fix
-git add src/payments.py tests/test_payments.py
-git commit -m "fix(payments): handle null currency code in invoice calculation"
-
-# 3. Push to PR branch
-git push origin feature/payments-upgrade
-
-# 4. Reply to specific review thread on GitHub
-gh pr comment 142 --body "Addressed in commit $(git rev-parse --short HEAD). Added unit test covering null currency codes."
 ```
 
 ## Best Practices & Failure Modes
 
-1. **Force-Pushing during Active Reviews**: Force-pushing (`git push --force`) wipes reviewer inline comment context from the GitHub UI, making it impossible for reviewers to see what changed between review rounds. Push incremental commits during review; squash-and-merge at the very end.
-2. **Resolving Threads Without Replying**: Resolving a reviewer's comment without an explanation or commit reference leaves the reviewer wondering if their concern was addressed or ignored. Always comment with the commit SHA before resolving.
-3. **Blindly Accepting Broken Suggestions**: GitHub's "Apply suggestion" button does not run test suites. Applying a suggestion that has a subtle syntax error or breaks type checking fails CI immediately. Always pull and run tests locally.
+1. **Unweighted Feature Checklists**: Counting raw checkmarks on a vendor sales sheet treats "Supports Single Sign-On" as equal in importance to "Supports dark mode theme". Always assign explicit mathematical weights to requirements.
+2. **Hidden Egress & API Overages**: Cloud software contracts frequently include hidden costs for API call quotas, storage overages, or export fees. Demand explicit API rate limits and data extraction commitments in RFP documents.
+3. **Skipping Sandboxed Proof-of-Concept (POC)**: Never sign a multi-year enterprise contract based on slide decks. Always execute a 2-week hands-on technical pilot verifying API throughput and authentication integration with real test data.
 
 ## Verification & Testing
 
-- Check that all review threads are addressed and CI passes:
-  ```bash
-  gh pr checks
-  # All status checks must report PASS
+- Unit test verifying score calculations and weights sum to 1.0:
+  ```python
+  assert round(sum(CRITERIA_WEIGHTS.values()), 2) == 1.0
+  vendor_res = evaluate_vendor_score("AcmeERP", {
+      "core_functional_fit": 8,
+      "api_and_extensibility": 9,
+      "security_and_compliance": 10,
+      "total_cost_of_ownership": 7,
+      "vendor_viability_and_sla": 8
+  })
+  assert vendor_res["weighted_score"] == 8.45
   ```
 """
     },
 
     # -------------------------------------------------------------
-    # 5. MOBILE: ios-app-clip-architecture (Backlog: add-app-clip)
+    # 2. MARKETING: cross-channel-ad-campaign-analytics (Backlog: ad-campaign-analyzer)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "add-app-clip",
-        "name": "ios-app-clip-architecture",
-        "domain": "mobile",
-        "category": "ios",
-        "subcategory": "app-clips",
-        "description": "Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.",
-        "tags": ["ios", "app-clips", "apple", "mobile", "swift", "expo", "react-native"],
-        "technologies": ["iOS SDK", "Swift", "SwiftUI", "Expo", "React Native", "Xcode"],
+        "backlog_ref": "ad-campaign-analyzer",
+        "name": "cross-channel-ad-campaign-analytics",
+        "domain": "marketing",
+        "category": "paid-advertising",
+        "subcategory": "campaign-analytics",
+        "description": "Use this skill when analyzing, attributing, and optimizing multi-channel paid advertising campaigns across Google Ads, Meta Ads, LinkedIn, and programmatic channels. It guides the agent through calculating Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), attribution modeling (First-Touch, Last-Touch, Data-Driven Markov), statistical significance in spend allocation, and budget rebalancing.",
+        "tags": ["ad-analytics", "roas", "cac", "attribution-modeling", "paid-advertising", "marketing", "analytics"],
+        "technologies": ["Python", "Pandas", "NumPy", "SQL", "Markov Chains"],
         "complexity": "advanced",
         "maturity": "stable",
-        "tools": ["xcodebuild", "fastlane"],
-        "dependencies": ["ios >= 16.0"],
-        "content": """# iOS App Clip Architecture & On-Demand Execution
+        "tools": ["python"],
+        "dependencies": ["pandas >= 2.0.0", "numpy >= 1.24.0"],
+        "content": """# Cross-Channel Paid Advertising Analytics & Attribution Architecture
 
 ## Overview
 
-A definitive mobile engineering reference for building high-conversion, lightweight iOS App Clips. App Clips provide immediate, frictionless access to specific app functionalities (e.g. paying for parking, ordering takeout, renting a scooter) via NFC tags, QR codes, Safari Smart App Banners, or Messages, without requiring users to download the full app from the App Store. This skill instructs AI agents on configuring App Clip targets in Xcode/Expo, adhering to strict binary size limits (15 MB / 50 MB on iOS 17+), configuring Associated Domains, and seamlessly transitioning users to the full application.
+A definitive data and marketing engineering reference for ingesting, attributing, and optimizing paid advertising campaigns across heterogeneous ad networks (Google Ads, Meta, LinkedIn, TikTok). Relying on siloed platform metrics (where each network takes 100% credit for conversions) creates distorted ROAS calculations. This skill instructs AI agents on unified data normalization, multi-touch attribution modeling (First-Touch, Last-Touch, Linear, Markov Chain algorithmic attribution), and automated budget reallocation.
 
 ## When to Use
 
-- Enabling frictionless physical-world interactions (tap NFC tag to pay or order).
-- Providing instant demo experiences directly from Safari web links or QR codes.
-- Streamlining checkout workflows using native Apple Pay and Sign in with Apple.
-- Increasing full app conversion rates by allowing users to complete a task before downloading.
+- Aggregating marketing performance across fragmented advertising APIs.
+- Determining true Customer Acquisition Cost (CAC) and blended Return on Ad Spend (ROAS).
+- Resolving attribution conflicts when a customer touches multiple ad campaigns before converting.
+- Identifying budget waste and rebalancing spend toward high-marginal-efficiency channels.
 
 ## When NOT to Use
 
-- Apps requiring background audio playback, continuous background location tracking, or Bluetooth peripherals (App Clips are restricted from background processing).
-- Heavy applications requiring large local databases (> 50 MB) or complex multi-tab navigation.
+- Creative visual design of display banners (use generative UI/image tools).
+- Organic search SEO optimization.
 
 ## Inputs & Prerequisites
 
-- Apple Developer Program account with explicit App Clip App ID capabilities.
-- Xcode 15+ or Expo SDK 50+ project.
-- Web domain serving Apple App Site Association (AASA) file over HTTPS.
+- Ad campaign spend tables (Cost, Impressions, Clicks) by channel, campaign, and date.
+- User conversion events with UTM parameter journey touchpoints (`utm_source`, `utm_campaign`).
+- Python 3.10+ with `pandas` and `numpy`.
 
 ## Core Workflow
 
-### 1. Associated Domains Configuration (`apple-app-site-association`)
-Host the AASA file at `https://example.com/.well-known/apple-app-site-association` with MIME type `application/json`:
+### 1. Cross-Channel Metrics Normalization
+Ingest and normalize disparate campaign metrics:
+
+```python
+import pandas as pd
+import numpy as np
+
+def compute_channel_efficiency(campaign_df: pd.DataFrame) -> pd.DataFrame:
+    \"\"\"
+    campaign_df columns: ['channel', 'spend', 'impressions', 'clicks', 'conversions', 'revenue']
+    \"\"\"
+    df = campaign_df.groupby('channel').sum().reset_index()
+
+    # Core Unit Economics
+    df['cpc'] = df['spend'] / df['clicks'].replace(0, np.nan)
+    df['ctr_percent'] = (df['clicks'] / df['impressions']) * 100
+    df['cac'] = df['spend'] / df['conversions'].replace(0, np.nan)
+    df['roas'] = df['revenue'] / df['spend'].replace(0, np.nan)
+
+    return df.sort_values(by='roas', ascending=False)
+```
+
+### 2. Multi-Touch Attribution: First-Touch vs Last-Touch vs Linear
+Attribute revenue across customer touchpoint journeys:
+
+```python
+def attribute_journey_revenue(journeys: list[dict], model: str = "linear") -> dict[str, float]:
+    \"\"\"
+    journeys format:
+    [
+        {"user_id": "u1", "touchpoints": ["google", "facebook", "retargeting"], "revenue": 150.0}
+    ]
+    \"\"\"
+    channel_revenue = {}
+
+    for j in journeys:
+        touchpoints = j["touchpoints"]
+        rev = j["revenue"]
+        if not touchpoints or rev <= 0:
+            continue
+
+        if model == "last_touch":
+            last_ch = touchpoints[-1]
+            channel_revenue[last_ch] = channel_revenue.get(last_ch, 0.0) + rev
+        elif model == "first_touch":
+            first_ch = touchpoints[0]
+            channel_revenue[first_ch] = channel_revenue.get(first_ch, 0.0) + rev
+        elif model == "linear":
+            weight = rev / len(touchpoints)
+            for ch in touchpoints:
+                channel_revenue[ch] = channel_revenue.get(ch, 0.0) + weight
+
+    return {k: round(v, 2) for k, v in channel_revenue.items()}
+```
+
+### 3. Automated Budget Rebalancing Heuristic
+Reallocate budget from underperforming channels (ROAS < threshold) to high-performing channels:
+
+```python
+def rebalance_ad_budget(efficiency_df: pd.DataFrame, target_min_roas: float = 2.5) -> dict:
+    total_spend = efficiency_df['spend'].sum()
+    eligible_channels = efficiency_df[efficiency_df['roas'] >= target_min_roas]
+    
+    if eligible_channels.empty:
+        return {"action": "HOLD", "recommendation": "All channels below target ROAS. Refactor creative."}
+
+    # Weight allocation by relative ROAS performance
+    roas_sum = eligible_channels['roas'].sum()
+    new_allocations = {}
+    for _, row in eligible_channels.iterrows():
+        allocated = total_spend * (row['roas'] / roas_sum)
+        new_allocations[row['channel']] = round(allocated, 2)
+
+    return {
+        "action": "REBALANCE",
+        "recommended_allocations": new_allocations
+    }
+```
+
+## Best Practices & Failure Modes
+
+1. **Relying Solely on Platform Reported Conversions**: Ad networks report conversions using 7-day click / 1-day view attribution windows, claiming duplicate credit for the same sale. Always compute blended CAC and independent multi-touch attribution.
+2. **Ignoring Ad Fatigue**: Running high spend on a small audience causes frequency to climb (> 5 impressions/user), resulting in sharp drops in CTR and skyrocketing CPCs. Set automated frequency caps.
+3. **Data Loss from Cookie Blocking**: Safari ITP and browser ad blockers strip tracking cookies. Implement server-side Conversions API (Meta CAPI, Google Tag Manager Server-side) to preserve tracking fidelity.
+
+## Verification & Testing
+
+- Unit test verifying linear attribution sums exactly to total conversion revenue:
+  ```python
+  test_journeys = [
+      {"user_id": "1", "touchpoints": ["search", "social"], "revenue": 100.0},
+      {"user_id": "2", "touchpoints": ["social"], "revenue": 50.0}
+  ]
+  attributed = attribute_journey_revenue(test_journeys, model="linear")
+  assert sum(attributed.values()) == 150.0
+  assert attributed["search"] == 50.0
+  assert attributed["social"] == 100.0
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 3. SECURITY: privileged-access-and-admin-account-register (Backlog: admin-access-register)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "admin-access-register",
+        "name": "privileged-access-and-admin-account-register",
+        "domain": "security",
+        "category": "identity-governance",
+        "subcategory": "admin-register",
+        "description": "Use this skill when cataloging, auditing, and enforcing governance policies over privileged administrator accounts and break-glass emergency credentials across SaaS, cloud infrastructure, and internal systems. It guides the agent through structuring an Admin Access Register, enforcing mandatory MFA/WebAuthn, designated backup owners, and access justification logs.",
+        "tags": ["privileged-access", "admin-accounts", "iam", "pam", "soc2", "security", "governance"],
+        "technologies": ["Python", "JSON", "Audit Logging", "Identity Governance", "KMS"],
+        "complexity": "intermediate",
+        "maturity": "stable",
+        "tools": ["python"],
+        "dependencies": ["python >= 3.10"],
+        "content": """# Privileged Access & Admin Account Register Architecture
+
+## Overview
+
+A definitive production security governance standard for cataloging and controlling privileged administrative accounts across enterprise infrastructure, cloud environments (AWS, GCP, Azure), SaaS platforms (GitHub, Okta, Stripe), and databases. Uninventoried admin credentials with weak passwords or single owners represent the highest-severity vulnerability in enterprise organizations. This skill instructs AI agents on maintaining an immutable Privileged Access Register, establishing primary and backup admin requirements, enforcing hardware MFA, and securing break-glass emergency credentials.
+
+## When to Use
+
+- Cataloging all privileged administrative access across enterprise platforms for SOC2, ISO 27001, and HIPAA compliance.
+- Ensuring zero orphan administrative accounts exist without an identified active employee owner.
+- Managing emergency "Break-Glass" root accounts with multi-party authorization.
+- Enforcing mandatory FIDO2 hardware MFA across all administrative consoles.
+
+## When NOT to Use
+
+- Standard end-user non-administrative permissions (use `rbac-access-matrix-policy-design`).
+- Temporary dynamic database session credentials (use `vault-secrets-management`).
+
+## Inputs & Prerequisites
+
+- Inventory of third-party SaaS services, cloud accounts, and critical internal databases.
+- Identity provider user directory (Okta, Entra ID, Google Workspace).
+- Documented Break-Glass emergency access policy.
+
+## Core Workflow
+
+### 1. Privileged Access Register Schema
+Formulate the central administrative register in structured JSON/YAML:
 
 ```json
 {
-  "appclips": {
-    "apps": ["TEAM_ID.com.example.app.Clip"]
+  "system_id": "aws-production-account",
+  "system_name": "AWS Production Cloud Environment",
+  "criticality": "TIER_0",
+  "primary_admin": {
+    "name": "Alice Chen",
+    "email": "alice@company.com",
+    "department": "Platform Engineering"
   },
-  "applinks": {
-    "details": [
-      {
-        "appIDs": ["TEAM_ID.com.example.app"],
-        "components": [
-          { "/": "/orders/*" }
-        ]
-      }
-    ]
+  "backup_admin": {
+    "name": "Bob Martinez",
+    "email": "bob@company.com",
+    "department": "Security Operations"
+  },
+  "auth_method": "SSO_SAML",
+  "mfa_enforced": true,
+  "mfa_type": "FIDO2_WEBAUTHN",
+  "seats_licensed": 5,
+  "seats_active": 4,
+  "last_audit_date": "2026-03-01",
+  "break_glass_account": {
+    "enabled": true,
+    "vault_path": "secret/break-glass/aws-root",
+    "alert_webhook": "https://alerts.security.internal/break-glass"
   }
 }
 ```
 
-### 2. SwiftUI App Clip Entry Point & URL Invocation Handling
-Handle incoming invocation URLs with zero splash screen delays:
+### 2. Automated Register Policy Auditor
+Audit the register programmatically to catch compliance violations:
 
-```swift
-// AppClipApp.swift
-import SwiftUI
+```python
+from dataclasses import dataclass
+from typing import List, Dict
 
-@main
-struct RestaurantAppClip: App {
-    @StateObject private var cartManager = CartManager()
+@dataclass
+class PolicyViolation:
+    system_id: str
+    severity: str
+    message: str
 
-    var body: some Scene {
-        WindowGroup {
-            OrderView()
-                .environmentObject(cartManager)
-                .onContinueUserActivity(NSUserActivityTypeBrowsingWeb) { userActivity in
-                    guard let incomingURL = userActivity.webpageURL else { return }
-                    handleInvocation(url: incomingURL)
-                }
-        }
-    }
+def audit_admin_register(register_entries: List[Dict]) -> List[PolicyViolation]:
+    violations = []
+    
+    for entry in register_entries:
+        sys_id = entry.get("system_id", "unknown")
 
-    private func handleInvocation(url: URL) {
-        // Parse payload: https://example.com/menu?table=14&restaurant_id=rest_88
-        let components = URLComponents(url: url, resolvingAgainstBaseURL: true)
-        let tableNumber = components?.queryItems?.first(where: { $0.name == "table" })?.value
-        let restaurantId = components?.queryItems?.first(where: { $0.name == "restaurant_id" })?.value
-        
-        print("Invoked App Clip for restaurant: \(restaurantId ?? "none") at table: \(tableNumber ?? "0")")
-    }
-}
+        # 1. Missing Backup Admin (Bus Factor = 1)
+        if not entry.get("backup_admin") or not entry["backup_admin"].get("email"):
+            violations.append(PolicyViolation(
+                sys_id, "CRITICAL", "System lacks a designated backup administrator."
+            ))
+
+        # 2. MFA Enforcement Check
+        if not entry.get("mfa_enforced"):
+            violations.append(PolicyViolation(
+                sys_id, "CRITICAL", "Administrative access does not enforce Multi-Factor Authentication (MFA)."
+            ))
+        elif entry.get("mfa_type") == "SMS":
+            violations.append(PolicyViolation(
+                sys_id, "HIGH", "SMS MFA is prohibited for Tier 0/1 systems due to SIM swapping risk; must use FIDO2/TOTP."
+            ))
+
+        # 3. Orphan Admin Check
+        primary = entry.get("primary_admin", {})
+        if primary.get("is_offboarded"):
+            violations.append(PolicyViolation(
+                sys_id, "CRITICAL", f"Primary admin {primary.get('email')} is offboarded! Immediate transfer required."
+            ))
+
+    return violations
 ```
 
-### 3. Native Apple Pay Integration (Frictionless Payment)
-Avoid requiring users to create accounts or enter credit card numbers manually:
+### 3. Break-Glass Emergency Access Procedure
+Structure emergency access with dual-custody authorization and immediate alerting:
 
-```swift
-import PassKit
+```python
+def trigger_break_glass_access(system_id: str, requester_id: str, reason: str, approver_id: str):
+    \"\"\"
+    Enforces dual-custody approval before releasing emergency root credentials.
+    \"\"\"
+    if requester_id == approver_id:
+        raise ValueError("Dual custody violation: Requester cannot approve their own break-glass request.")
 
-func makePaymentRequest(amount: Decimal) -> PKPaymentRequest {
-    let request = PKPaymentRequest()
-    request.merchantIdentifier = "merchant.com.example.appclip"
-    request.supportedNetworks = [.visa, .masterCard, .amex]
-    request.merchantCapabilities = .threeDSecure
-    request.countryCode = "US"
-    request.currencyCode = "USD"
-    
-    request.paymentSummaryItems = [
-        PKPaymentSummaryItem(label: "Table Order", amount: NSDecimalNumber(decimal: amount))
-    ]
-    return request
-}
+    # 1. Dispatch real-time security alert to all leadership
+    # dispatch_pagerduty_alert(f"EMERGENCY: Break-glass activated on {system_id} by {requester_id}")
+
+    # 2. Log immutable event to SIEM
+    audit_record = {
+        "event": "BREAK_GLASS_ACCESS",
+        "system": system_id,
+        "requester": requester_id,
+        "approver": approver_id,
+        "reason": reason,
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    }
+    return audit_record
 ```
 
 ## Best Practices & Failure Modes
 
-1. **Exceeding Strict Binary Size Limits**: On iOS 16 and earlier, the uncompressed App Clip binary cannot exceed 15 MB (50 MB on iOS 17+). If the thin binary exceeds this limit, Apple App Store Connect rejects deployment immediately. Remove unnecessary heavy third-party analytics libraries and compress image assets.
-2. **Demanding Account Creation Upfront**: Forcing users to enter an email and password before taking action destroys App Clip conversion. Use Sign in with Apple and Apple Pay to complete transactions with zero typing.
-3. **Missing AASA File Validation**: If the `apple-app-site-association` file returns an HTTP 301/302 redirect or lacks the `appclips` dictionary, iOS will fail to open the App Clip and fall back to opening the webpage in Safari.
+1. **Shared Administrator Credentials**: Sharing a single `admin@company.com` login across 5 team members destroys individual accountability in audit logs. Every administrator must have an individually attributable account authenticated via corporate SSO.
+2. **Missing Backup Administrator**: If the sole administrator leaves the company unexpectedly or loses their security key, the organization gets locked out of critical services. Every system must have an active, verified backup administrator.
+3. **Unmonitored Root Accounts**: Cloud root accounts (e.g. AWS account root user) should have zero active API keys and have login events wired directly to high-priority PagerDuty alerts.
 
 ## Verification & Testing
 
-- Test local App Clip invocation in Xcode scheme:
-  - Edit Scheme -> Run -> Arguments -> Environment Variables:
-  - Add `_XCAppClipURL` with value `https://example.com/menu?table=14`
-- Validate AASA file configuration using Apple CDN Validator:
+- Validate register compliance and catch unassigned backup admins:
+  ```python
+  test_entry = [{
+      "system_id": "stripe-billing",
+      "mfa_enforced": True,
+      "mfa_type": "FIDO2",
+      "primary_admin": {"email": "alice@corp.com"},
+      "backup_admin": None # Missing backup
+  }]
+  issues = audit_admin_register(test_entry)
+  assert len(issues) == 1
+  assert issues[0].severity == "CRITICAL"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 4. AI ENGINEERING: ai-agent-chaos-testing-and-fault-injection (Backlog: agent-harness-fault-injection)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "agent-harness-fault-injection",
+        "name": "ai-agent-chaos-testing-and-fault-injection",
+        "domain": "ai-engineering",
+        "category": "agents",
+        "subcategory": "fault-injection",
+        "description": "Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.",
+        "tags": ["chaos-engineering", "fault-injection", "ai-agents", "resilience", "testing", "llm-agents"],
+        "technologies": ["Python", "pytest", "LangChain", "AutoGen", "Asyncio"],
+        "complexity": "advanced",
+        "maturity": "stable",
+        "tools": ["python", "pytest"],
+        "dependencies": ["python >= 3.10", "pytest >= 7.4.0"],
+        "content": """# AI Agent Chaos Testing & Fault Injection Architecture
+
+## Overview
+
+A definitive production AI engineering standard for verifying the resilience, self-healing, and error recovery of autonomous LLM agents. In production, AI agents interact with unpredictable external environments: third-party APIs return HTTP 503 errors, webhooks timeout, tool outputs contain corrupted JSON, and context windows reach capacity. Without deliberate fault-injection testing, agents enter unrecoverable loops, hallucinate fake tool outputs, or crash unhandled. This skill instructs AI agents on injecting realistic faults into tool execution harnesses and asserting proper recovery behavior.
+
+## When to Use
+
+- Verifying that an autonomous agent can recover when a tool call raises an unhandled exception.
+- Testing agent behavior when an external database or API returns HTTP 429 Too Many Requests.
+- Stress-testing prompt self-correction when a tool returns malformed or incomplete data.
+- Guaranteeing that agents terminate gracefully rather than looping infinitely on stubborn errors.
+
+## When NOT to Use
+
+- Standard unit testing of isolated deterministic helper functions.
+- Production load testing of server network bandwidth.
+
+## Inputs & Prerequisites
+
+- Python 3.10+ runtime.
+- Agent harness decoupling tool execution through an interceptable proxy.
+- Test suite configured with `pytest`.
+
+## Core Workflow
+
+### 1. Chaos Tool Interceptor Proxy
+Intercept tool execution calls and inject probabilistic or deterministic faults:
+
+```python
+import random
+from typing import Callable, Any, Dict
+
+class FaultInjectionPolicy:
+    def __init__(self, failure_rate: float = 0.0, latency_seconds: float = 0.0, inject_corrupt_json: bool = False):
+        self.failure_rate = failure_rate
+        self.latency_seconds = latency_seconds
+        self.inject_corrupt_json = inject_corrupt_json
+
+class ChaosToolHarness:
+    def __init__(self):
+        self.policies: Dict[str, FaultInjectionPolicy] = {}
+        self.invocation_log = []
+
+    def set_fault_policy(self, tool_name: str, policy: FaultInjectionPolicy):
+        self.policies[tool_name] = policy
+
+    def execute_tool(self, tool_name: str, tool_func: Callable, *args, **kwargs) -> Any:
+        self.invocation_log.append(tool_name)
+        policy = self.policies.get(tool_name)
+
+        if policy:
+            # Simulate Network Latency / Timeout
+            if policy.latency_seconds > 0:
+                import time
+                time.sleep(policy.latency_seconds)
+
+            # Simulate Transient Service Outage
+            if policy.failure_rate > 0 and random.random() < policy.failure_rate:
+                raise ConnectionError(f"CHAOS INJECTED: Simulated network partition calling {tool_name}")
+
+            # Simulate Malformed / Corrupted Data Output
+            if policy.inject_corrupt_json:
+                return '{"status": "error", "corrupted_payload": true' # Unterminated JSON
+
+        return tool_func(*args, **kwargs)
+```
+
+### 2. Asserting Agent Self-Healing in Pytest
+Assert that the agent receives the error, acknowledges it, and switches to an alternate tool:
+
+```python
+import pytest
+
+class MockAgent:
+    def __init__(self, harness: ChaosToolHarness):
+        self.harness = harness
+
+    def fetch_data_resilient(self, primary_url: str, backup_url: str):
+        try:
+            return self.harness.execute_tool("primary_fetch", lambda: "primary_data")
+        except ConnectionError:
+            # Agent self-heals by falling back to secondary backup tool
+            return self.harness.execute_tool("backup_fetch", lambda: "backup_data")
+
+def test_agent_fallback_on_chaos_failure():
+    harness = ChaosToolHarness()
+    # Force 100% failure on primary tool
+    harness.set_fault_policy("primary_fetch", FaultInjectionPolicy(failure_rate=1.0))
+
+    agent = MockAgent(harness)
+    result = agent.fetch_data_resilient("http://primary", "http://backup")
+
+    assert result == "backup_data"
+    assert harness.invocation_log == ["primary_fetch", "backup_fetch"]
+```
+
+## Best Practices & Failure Modes
+
+1. **Infinite Retry Hallucination Loops**: When a tool repeatedly fails, poorly instructed agents repeat the identical failed tool call with identical arguments 20 times. Always enforce a hard loop counter (`max_retries = 3`) and instruct agents to formulate alternative strategies or ask the human user.
+2. **Leaking Internal Stack Traces into Prompt**: Feeding raw 50-line Python stack traces into the agent's context window wastes valuable context tokens and confuses the model. Catch exceptions and summarize into clean error messages (`Tool 'search' failed: Connection timeout`).
+3. **Silent Swallowing of Errors**: If a tool returns an empty dictionary `{}` on failure without error signaling, the agent assumes the operation succeeded and produces false hallucinated conclusions. Tools must return explicit error schemas.
+
+## Verification & Testing
+
+- Run the chaos test suite with pytest:
   ```bash
-  curl -v https://app-site-association.cdn-apple.com/a/v1/example.com
+  pytest tests/test_agent_chaos.py -v
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 5. AI ENGINEERING: multi-agent-tmux-process-orchestrator (Backlog: agent-manager-skill)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "agent-manager-skill",
+        "name": "multi-agent-tmux-process-orchestrator",
+        "domain": "ai-engineering",
+        "category": "agents",
+        "subcategory": "process-management",
+        "description": "Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.",
+        "tags": ["tmux", "agent-orchestration", "multi-agent", "cli", "process-management", "automation"],
+        "technologies": ["tmux", "Bash", "Python subprocess", "Linux"],
+        "complexity": "advanced",
+        "maturity": "stable",
+        "tools": ["tmux", "python", "bash"],
+        "dependencies": ["tmux >= 3.2"],
+        "content": """# Multi-Agent Terminal Orchestration with Tmux
+
+## Overview
+
+A definitive production engineering reference for managing, isolating, and supervising multiple autonomous CLI coding agents running in parallel across headless terminal sessions using `tmux`. Running autonomous agents in interactive foreground shells blocks developer environments and risks premature termination upon SSH disconnect. This skill instructs AI agents on spawning isolated background tmux sessions, multiplexing panes, piping prompts into running agent shells via `tmux send-keys`, capturing buffer snapshots for progress auditing, and terminating zombie workers.
+
+## When to Use
+
+- Running multiple concurrent CLI agents (e.g. frontend agent, backend agent, test runner agent) on a local workstation or remote server.
+- Detaching and preserving agent executions across unstable SSH sessions.
+- Automating inter-agent communication by inspecting terminal output buffers programmatically.
+- Building autonomous agent supervisor daemons that monitor worker health.
+
+## When NOT to Use
+
+- Cloud container orchestration at scale across multiple physical nodes (use Kubernetes or Nomad).
+- Pure programmatic Python agents communicating via queues or HTTP (use Celery or Redis Streams).
+
+## Inputs & Prerequisites
+
+- Linux or macOS environment with `tmux >= 3.2` installed.
+- CLI coding agents installed in PATH (e.g. `claude`, `aider`, `agy`).
+
+## Core Workflow
+
+### 1. Programmatic Tmux Session Lifecycle in Python
+Spawn, inspect, and manage detached tmux sessions using `subprocess`:
+
+```python
+import subprocess
+import time
+
+class TmuxAgentManager:
+    def __init__(self, session_prefix: str = "agent"):
+        self.session_prefix = session_prefix
+
+    def _run_tmux(self, args: list[str]) -> str:
+        res = subprocess.run(["tmux"] + args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        return res.stdout.strip()
+
+    def spawn_agent(self, agent_id: str, command: str) -> str:
+        session_name = f"{self.session_prefix}-{agent_id}"
+        
+        # Check if session exists
+        if self.is_running(session_name):
+            return f"Session {session_name} is already active."
+
+        # Create new detached session running bash
+        self._run_tmux(["new-session", "-d", "-s", session_name])
+        time.sleep(0.2)
+
+        # Launch agent command inside session
+        self._run_tmux(["send-keys", "-t", session_name, command, "C-m"])
+        return f"Spawned agent in detached tmux session '{session_name}'."
+
+    def is_running(self, session_name: str) -> bool:
+        sessions = self._run_tmux(["list-sessions", "-F", "#{session_name}"]).splitlines()
+        return session_name in sessions
+
+    def send_prompt(self, agent_id: str, prompt: str):
+        session_name = f"{self.session_prefix}-{agent_id}"
+        # Send text followed by Enter (C-m)
+        self._run_tmux(["send-keys", "-t", session_name, prompt, "C-m"])
+
+    def capture_output_buffer(self, agent_id: str, lines: int = 50) -> str:
+        session_name = f"{self.session_prefix}-{agent_id}"
+        # Capture last N lines from pane history
+        return self._run_tmux(["capture-pane", "-p", "-t", session_name, "-S", f"-{lines}"])
+
+    def terminate_agent(self, agent_id: str):
+        session_name = f"{self.session_prefix}-{agent_id}"
+        self._run_tmux(["kill-session", "-t", session_name])
+```
+
+### 2. Multi-Pane Workspace Split (Supervisor View)
+Create a unified dashboard splitting one window into 3 agent panes:
+
+```bash
+#!/bin/bash
+SESSION="dev-team"
+
+# 1. Start session with Frontend Agent
+tmux new-session -d -s $SESSION -n "agents" "agy --role frontend"
+
+# 2. Split vertically for Backend Agent
+tmux split-window -h -t $SESSION:0 "agy --role backend"
+
+# 3. Split lower half for QA Test Agent
+tmux split-window -v -t $SESSION:0.1 "agy --role qa"
+
+# Attach to view all 3 agents working simultaneously
+tmux attach-session -t $SESSION
+```
+
+## Best Practices & Failure Modes
+
+1. **Unescaped Quotes in `send-keys`**: Sending prompts containing double quotes or special shell characters (`$`, `&`, `;`) directly to `send-keys` can execute unintended commands in bash. Always sanitize prompts or write them to temporary files and instruct the agent to read the file.
+2. **Orphaned Sessions Leaking RAM**: Forgetting to terminate tmux sessions when agents complete tasks leaves long-running idle processes consuming memory. Implement idle timeouts that automatically kill sessions inactive for > 2 hours.
+3. **Buffer Capture Truncation**: Default tmux scrollback buffer is 2000 lines. For verbose tasks, increase history limit in `~/.tmux.conf`: `set -g history-limit 50000`.
+
+## Verification & Testing
+
+- Verify active agent sessions:
+  ```bash
+  tmux list-sessions
+  ```
+- Capture snapshot of agent terminal:
+  ```bash
+  tmux capture-pane -p -t agent-backend -S -20
   ```
 """
     }

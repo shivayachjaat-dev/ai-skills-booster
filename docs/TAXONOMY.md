@@ -58,8 +58,10 @@ AI_Skills_Booster/
 ├── business/
 │   ├── finance/
 │   │   └── audit-controls/ (1 skills)
-│   └── human-resources/
+│   ├── human-resources/
 │   │   └── performance-management/ (1 skills)
+│   └── procurement/
+│   │   └── software-selection/ (1 skills)
 ├── data-analytics/
 │   ├── data-pipelines/
 │   │   └── polars/ (1 skills)

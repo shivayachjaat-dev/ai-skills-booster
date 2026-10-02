@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **105** skills across structured domains, categories, and subcategories.
+Master navigation for **106** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (15 skills)
 
@@ -152,7 +152,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (2 skills)
+## Business (3 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -165,6 +165,12 @@ Category index: [`docs/categories/human-resources.md`](categories/human-resource
 
 - **Performance Management** (1):
   - [employee-360-feedback-review-system](../skills/business/human-resources/performance-management/employee-360-feedback-review-system/SKILL.md) — Use this skill when designing, configuring, and operating multi-rater 360-degree performance feedback systems. It guides the agent through peer reviewer nomination workflows, role-specific competency rubrics, anonymous vs attributed visibility rules, cognitive bias mitigation (recency and halo effects), and synthesis reporting.
+
+### Procurement (1 skills)
+Category index: [`docs/categories/procurement.md`](categories/procurement.md)
+
+- **Software Selection** (1):
+  - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
 
 ## Data Analytics (3 skills)
 
