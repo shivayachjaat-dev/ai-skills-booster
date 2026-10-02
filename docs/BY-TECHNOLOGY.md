@@ -1065,7 +1065,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (659 skills)
+## Bash (660 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1084,6 +1084,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [data-engineering-data-driven-feature](../skills/ai-engineering/agents/data_engineering_dat/data-engineering-data-driven-feature/SKILL.md) — Use this skill to build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation.
 - [data-structure-protocol](../skills/ai-engineering/agents/data_structure_proto/data-structure-protocol/SKILL.md) — Use this skill to give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo.
 - [delegate-setup](../skills/ai-engineering/agents/delegate_setup/delegate-setup/SKILL.md) — Use this skill to configure approved delegation lanes across installed implementer CLIs,
+- [dispatching-parallel-agents](../skills/ai-engineering/agents/dispatching_parallel/dispatching-parallel-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for dispatching parallel agents. Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
 - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.
 - [lintlang-audit](../skills/ai-engineering/agents/lintlang_audit/lintlang-audit/SKILL.md) — Use this skill to audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
@@ -3478,6 +3479,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [discord-bot-architect](../skills/frontend/ui-ux/discord_bot_architec/discord-bot-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for discord bot architect. Specialized skill for building production-ready Discord bots.
 
+## Dispatching Parallel Agents (1 skills)
+
+- [dispatching-parallel-agents](../skills/ai-engineering/agents/dispatching_parallel/dispatching-parallel-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for dispatching parallel agents. Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
+
 ## Django (1 skills)
 
 - [cors-csrf-web-security-hardening](../skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) — Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification.
@@ -4664,7 +4669,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (762 skills)
+## Python (763 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -4687,6 +4692,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [data-engineering-data-driven-feature](../skills/ai-engineering/agents/data_engineering_dat/data-engineering-data-driven-feature/SKILL.md) — Use this skill to build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation.
 - [data-structure-protocol](../skills/ai-engineering/agents/data_structure_proto/data-structure-protocol/SKILL.md) — Use this skill to give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo.
 - [delegate-setup](../skills/ai-engineering/agents/delegate_setup/delegate-setup/SKILL.md) — Use this skill to configure approved delegation lanes across installed implementer CLIs,
+- [dispatching-parallel-agents](../skills/ai-engineering/agents/dispatching_parallel/dispatching-parallel-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for dispatching parallel agents. Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
 - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - [ai-agent-session-audit-and-forensic-replay](../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) — Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays.
 - [geo-audit](../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) — Use this skill to full website GEO+SEO audit with parallel subagent delegation.

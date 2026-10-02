@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **33 skills** available in this category.
+> **34 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -25,6 +25,7 @@
 | [data-engineering-data-driven-feature](../../skills/ai-engineering/agents/data_engineering_dat/data-engineering-data-driven-feature/SKILL.md) | `data_engineering_dat` | `advanced` | `stable` | Use this skill to build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation. |
 | [data-structure-protocol](../../skills/ai-engineering/agents/data_structure_proto/data-structure-protocol/SKILL.md) | `data_structure_proto` | `advanced` | `stable` | Use this skill to give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo. |
 | [delegate-setup](../../skills/ai-engineering/agents/delegate_setup/delegate-setup/SKILL.md) | `delegate_setup` | `advanced` | `stable` | Use this skill to configure approved delegation lanes across installed implementer CLIs, |
+| [dispatching-parallel-agents](../../skills/ai-engineering/agents/dispatching_parallel/dispatching-parallel-agents/SKILL.md) | `dispatching_parallel` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dispatching parallel agents. Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies |
 | [ai-agent-chaos-testing-and-fault-injection](../../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) | `fault-injection` | `advanced` | `stable` | Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies. |
 | [ai-agent-session-audit-and-forensic-replay](../../skills/ai-engineering/agents/forensic-audit/ai-agent-session-audit-and-forensic-replay/SKILL.md) | `forensic-audit` | `advanced` | `stable` | Use this skill to capture, cryptographically hash, and forensically replay multi-turn AI agent sessions. It establishes append-only trajectory logs, tool call delta diffs, compliance auditing (EU AI Act, SOC2), anomaly detection for rogue tool actions, and deterministic offline session replays. |
 | [geo-audit](../../skills/ai-engineering/agents/geo_audit/geo-audit/SKILL.md) | `geo_audit` | `advanced` | `stable` | Use this skill to full website GEO+SEO audit with parallel subagent delegation. |

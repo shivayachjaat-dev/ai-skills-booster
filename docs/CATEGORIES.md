@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **841** skills across structured domains, categories, and subcategories.
+Master navigation for **842** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (288 skills)
+## Ai Engineering (289 skills)
 
-### Agents (33 skills)
+### Agents (34 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -49,6 +49,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [data-structure-protocol](../skills/ai-engineering/agents/data_structure_proto/data-structure-protocol/SKILL.md) — Use this skill to give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo.
 - **Delegate_Setup** (1):
   - [delegate-setup](../skills/ai-engineering/agents/delegate_setup/delegate-setup/SKILL.md) — Use this skill to configure approved delegation lanes across installed implementer CLIs,
+- **Dispatching_Parallel** (1):
+  - [dispatching-parallel-agents](../skills/ai-engineering/agents/dispatching_parallel/dispatching-parallel-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for dispatching parallel agents. Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
 - **Fault Injection** (1):
   - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - **Forensic Audit** (1):
