@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (659 skills)
+## AI Engineer (660 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -462,6 +462,7 @@ Curated workflows organized by professional role and specialization.
 - [mailchimp-automation](../skills/ai-engineering/models/mailchimp_automation/mailchimp-automation/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for mailchimp automation. Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas.
 - [mailtrap-managing-contacts](../skills/ai-engineering/models/mailtrap_managing_co/mailtrap-managing-contacts/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for mailtrap managing contacts. Manage Mailtrap contacts, lists, segments, custom fields, imports, CRM syncs, and campaign audiences through the UI or API.
 - [mailtrap-sending-emails](../skills/ai-engineering/models/mailtrap_sending_ema/mailtrap-sending-emails/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for mailtrap sending emails. Configure or troubleshoot Mailtrap live email sending with Email API, SMTP, transactional streams, bulk streams, or batches.
+- [mailtrap-setting-up-sending-domain](../skills/ai-engineering/models/mailtrap_setting_up_/mailtrap-setting-up-sending-domain/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for mailtrap setting up sending domain. Add or verify a Mailtrap sending domain, troubleshoot DNS propagation, publish SPF/DKIM/DMARC records, and complete compliance.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — `ai-engineering`: Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — `ai-engineering`: Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.

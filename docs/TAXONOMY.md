@@ -474,6 +474,7 @@ AI_Skills_Booster/
 │   │   ├── mailchimp_automation/ (1 skills)
 │   │   ├── mailtrap_managing_co/ (1 skills)
 │   │   ├── mailtrap_sending_ema/ (1 skills)
+│   │   ├── mailtrap_setting_up_/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

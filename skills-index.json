@@ -10423,6 +10423,28 @@
     "maturity": "stable"
   },
   {
+    "name": "mailtrap-setting-up-sending-domain",
+    "path": "skills/ai-engineering/models/mailtrap_setting_up_/mailtrap-setting-up-sending-domain",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "mailtrap_setting_up_",
+    "description": "Use this skill to design, implement, and operate production workflows for mailtrap setting up sending domain. Add or verify a Mailtrap sending domain, troubleshoot DNS propagation, publish SPF/DKIM/DMARC records, and complete compliance.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "mailtrap",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Mailtrap Setting Up Sending Domain",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
