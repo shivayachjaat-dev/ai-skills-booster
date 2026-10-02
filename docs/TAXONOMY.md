@@ -88,6 +88,8 @@ AI_Skills_Booster/
 │   │   └── sqlalchemy/ (1 skills)
 │   ├── database-migrations/
 │   │   └── alembic/ (1 skills)
+│   ├── databases/
+│   │   └── asset_it_management/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/

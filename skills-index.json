@@ -1453,6 +1453,28 @@
     "maturity": "stable"
   },
   {
+    "name": "asset-it-management",
+    "path": "skills/backend/databases/asset_it_management/asset-it-management",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "asset_it_management",
+    "description": "Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.",
+    "tags": [
+      "backend",
+      "databases",
+      "asset",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Asset It Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
