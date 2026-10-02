@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 948 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 949 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -297,6 +297,7 @@
 | [expense-management](skills/ai-engineering/models/expense_management/expense-management/SKILL.md) | `ai-engineering` | `models` | `expense_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expense management. Expense claim register: claim id, employee and department, amount and tax, approver and level, category, cost centre, budget line, receipt flag and status. Use for claim approvals. |
 | [expo-examples](skills/ai-engineering/models/expo_examples/expo-examples/SKILL.md) | `ai-engineering` | `models` | `expo_examples` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo examples. Expo's official example projects — the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind, and more). |
 | [expo-tailwind-setup](skills/ai-engineering/models/expo_tailwind_setup/expo-tailwind-setup/SKILL.md) | `ai-engineering` | `models` | `expo_tailwind_setup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for expo tailwind setup. Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling |
+| [extract-document-data](skills/ai-engineering/models/extract_document_dat/extract-document-data/SKILL.md) | `ai-engineering` | `models` | `extract_document_dat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for extract document data. Extract structured, grounded fields from documents — values cite their page, missing values abstain instead of hallucinating. Use for parsing invoices, payslips, statements, contracts. |
 | [fda-food-safety-auditor](skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `ai-engineering` | `models` | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
 | [floating-ui](skills/ai-engineering/models/floating_ui/floating-ui/SKILL.md) | `ai-engineering` | `models` | `floating_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for floating ui. Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel. |
