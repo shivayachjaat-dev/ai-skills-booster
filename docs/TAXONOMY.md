@@ -10,6 +10,9 @@ AI_Skills_Booster/
 ├── databases/
 │   └── postgresql/
 │   │   └── performance/ (1 skills)
+├── devops/
+│   └── containers/
+│   │   └── optimization/ (1 skills)
 ├── mcp/
 │   └── server-development/
 │   │   └── scaffolding/ (1 skills)

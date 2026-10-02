@@ -34,7 +34,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:29.657505+00:00"
+    "updated_at": "2026-10-02T13:16:42.621114+00:00"
   },
   {
     "name": "rag-retrieval-evaluation",
@@ -72,7 +72,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:29.657505+00:00"
+    "updated_at": "2026-10-02T13:16:42.622191+00:00"
   },
   {
     "name": "postgres-query-performance-analysis",
@@ -109,7 +109,45 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:29.657505+00:00"
+    "updated_at": "2026-10-02T13:16:42.622191+00:00"
+  },
+  {
+    "name": "docker-container-optimization",
+    "slug": "docker-container-optimization",
+    "path": "skills/devops/containers/optimization/docker-container-optimization",
+    "domain": "devops",
+    "category": "containers",
+    "subcategory": "optimization",
+    "description": "Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.",
+    "tags": [
+      "docker",
+      "containers",
+      "devops",
+      "image-optimization",
+      "security-hardening",
+      "ci-cd"
+    ],
+    "technologies": [
+      "Docker",
+      "Docker Compose",
+      "Linux",
+      "Trivy"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable",
+    "tools": [
+      "docker",
+      "docker-compose"
+    ],
+    "dependencies": [
+      "docker >= 20.10"
+    ],
+    "has_scripts": false,
+    "has_evals": false,
+    "has_references": false,
+    "source": "AI_Skills_Booster",
+    "license": "MIT",
+    "updated_at": "2026-10-02T13:16:42.623198+00:00"
   },
   {
     "name": "mcp-server-scaffold",
@@ -148,7 +186,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:29.657505+00:00"
+    "updated_at": "2026-10-02T13:16:42.623703+00:00"
   },
   {
     "name": "skill-creator",
@@ -185,7 +223,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:29.660080+00:00"
+    "updated_at": "2026-10-02T13:16:42.624207+00:00"
   },
   {
     "name": "github-pr-security-review",
@@ -222,7 +260,7 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:29.660080+00:00"
+    "updated_at": "2026-10-02T13:16:42.624207+00:00"
   },
   {
     "name": "api-and-interface-design",
@@ -261,6 +299,6 @@
     "has_references": false,
     "source": "AI_Skills_Booster",
     "license": "MIT",
-    "updated_at": "2026-10-02T13:15:29.660080+00:00"
+    "updated_at": "2026-10-02T13:16:42.625718+00:00"
   }
 ]

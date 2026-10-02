@@ -45,7 +45,7 @@ def main():
             c_skills = domain_tree[domain][cat]
             scripts = sum(1 for s in c_skills if s.get("has_scripts"))
             evals = sum(1 for s in c_skills if s.get("has_evals"))
-            print(f"  └── {cat}: {len(c_skills)} skills | {scripts} scripts | {evals} evals")
+            print(f"  |-- {cat}: {len(c_skills)} skills | {scripts} scripts | {evals} evals")
 
     print("\n" + "=" * 70)
     print("Health Diagnostics:")

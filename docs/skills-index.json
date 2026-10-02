@@ -70,6 +70,30 @@
     "maturity": "stable"
   },
   {
+    "name": "docker-container-optimization",
+    "path": "skills/devops/containers/optimization/docker-container-optimization",
+    "domain": "devops",
+    "category": "containers",
+    "subcategory": "optimization",
+    "description": "Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.",
+    "tags": [
+      "docker",
+      "containers",
+      "devops",
+      "image-optimization",
+      "security-hardening",
+      "ci-cd"
+    ],
+    "technologies": [
+      "Docker",
+      "Docker Compose",
+      "Linux",
+      "Trivy"
+    ],
+    "complexity": "intermediate",
+    "maturity": "stable"
+  },
+  {
     "name": "mcp-server-scaffold",
     "path": "skills/mcp/server-development/scaffolding/mcp-server-scaffold",
     "domain": "mcp",
