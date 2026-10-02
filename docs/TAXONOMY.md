@@ -24,6 +24,7 @@ AI_Skills_Booster/
 │   │   ├── copilot_delegate/ (1 skills)
 │   │   ├── data_engineering_dat/ (1 skills)
 │   │   ├── data_structure_proto/ (1 skills)
+│   │   ├── delegate_setup/ (1 skills)
 │   │   ├── fault-injection/ (1 skills)
 │   │   ├── forensic-audit/ (1 skills)
 │   │   ├── memory/ (1 skills)
