@@ -1,5 +1,30 @@
 [
   {
+    "name": "autonomous-agent-squad-role-collaboration",
+    "path": "skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "agent-squad",
+    "description": "Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.",
+    "tags": [
+      "agent-squad",
+      "multi-agent",
+      "collaboration",
+      "role-based-agents",
+      "peer-review",
+      "consensus"
+    ],
+    "technologies": [
+      "Python",
+      "Pydantic",
+      "Multi-Agent Protocols",
+      "Asyncio",
+      "Handoff Schemas"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-debate-and-reflection",
     "path": "skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection",
     "domain": "ai-engineering",

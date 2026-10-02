@@ -1,12 +1,14 @@
 # Skill Categories & Directory Map
 
-Master navigation for **122** skills across structured domains, categories, and subcategories.
+Master navigation for **123** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (22 skills)
+## Ai Engineering (23 skills)
 
-### Agents (11 skills)
+### Agents (12 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
+- **Agent Squad** (1):
+  - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - **Autogen** (1):
   - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
 - **Azure Foundry** (1):

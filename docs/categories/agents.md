@@ -1,9 +1,10 @@
 # Category Index: Agents
 
-> **11 skills** available in this category.
+> **12 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
+| [autonomous-agent-squad-role-collaboration](../../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) | `agent-squad` | `advanced` | `stable` | Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management. |
 | [multi-agent-debate-and-reflection](../../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) | `autogen` | `advanced` | `stable` | Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks. |
 | [azure-ai-foundry-persistent-agents](../../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) | `azure-foundry` | `advanced` | `stable` | Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication. |
 | [ai-agent-benchmark-evaluation](../../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) | `benchmarking` | `advanced` | `stable` | Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases. |
