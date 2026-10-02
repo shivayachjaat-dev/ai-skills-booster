@@ -5891,6 +5891,28 @@
     "maturity": "stable"
   },
   {
+    "name": "docx-official",
+    "path": "skills/ai-engineering/models/docx_official/docx-official",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "docx_official",
+    "description": "Use this skill to design, implement, and operate production workflows for docx official. A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "docx",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Docx Official",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "editorial-design",
     "path": "skills/ai-engineering/models/editorial_design/editorial-design",
     "domain": "ai-engineering",

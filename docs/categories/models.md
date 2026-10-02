@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **213 skills** available in this category.
+> **214 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -207,6 +207,7 @@
 | [docs-as-marketing](../../skills/ai-engineering/models/docs_as_marketing/docs-as-marketing/SKILL.md) | `docs_as_marketing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docs as marketing. Transform documentation into a powerful marketing channel that attracts, converts, and retains developers. |
 | [documentation-generation-doc-generate](../../skills/ai-engineering/models/documentation_genera/documentation-generation-doc-generate/SKILL.md) | `documentation_genera` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for documentation generation doc generate. You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best p... |
 | [documentation-templates](../../skills/ai-engineering/models/documentation_templa/documentation-templates/SKILL.md) | `documentation_templa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for documentation templates. Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation. |
+| [docx-official](../../skills/ai-engineering/models/docx_official/docx-official/SKILL.md) | `docx_official` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for docx official. A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks. |
 | [editorial-design](../../skills/ai-engineering/models/editorial_design/editorial-design/SKILL.md) | `editorial_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for editorial design. Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing. |
 | [fda-food-safety-auditor](../../skills/ai-engineering/models/fda_food_safety_audi/fda-food-safety-auditor/SKILL.md) | `fda_food_safety_audi` | `advanced` | `stable` | Use this skill to expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. |
 | [fda-medtech-compliance-auditor](../../skills/ai-engineering/models/fda_medtech_complian/fda-medtech-compliance-auditor/SKILL.md) | `fda_medtech_complian` | `advanced` | `stable` | Use this skill to expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. |
