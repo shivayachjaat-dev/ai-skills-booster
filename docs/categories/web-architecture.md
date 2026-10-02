@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **21 skills** available in this category.
+> **22 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,6 +17,7 @@
 | [brutalist-typography](../../skills/frontend/web-architecture/brutalist_typography/brutalist-typography/SKILL.md) | `brutalist_typography` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for brutalist typography. Web and App implementation guide for Brutalist Typography. Trigger when user wants huge fonts, raw presentation, and aggressive layout decisions. |
 | [burp-suite-testing](../../skills/frontend/web-architecture/burp_suite_testing/burp-suite-testing/SKILL.md) | `burp_suite_testing` | `advanced` | `stable` | Use this skill to execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows. |
 | [business-website-setup](../../skills/frontend/web-architecture/business_website_set/business-website-setup/SKILL.md) | `business_website_set` | `advanced` | `stable` | Use this skill to website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews. |
+| [claymorphism](../../skills/frontend/web-architecture/claymorphism/claymorphism/SKILL.md) | `claymorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for claymorphism. Web and App implementation guide for Claymorphism. Trigger when user wants soft 3D elements, rounded shapes, and a playful, tactile appearance. |
 | [client-secret-exposure-audit](../../skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit/SKILL.md) | `client_secret_exposu` | `advanced` | `stable` | Use this skill to audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig. |
 | [cloud-penetration-testing](../../skills/frontend/web-architecture/cloud_penetration_te/cloud-penetration-testing/SKILL.md) | `cloud_penetration_te` | `advanced` | `stable` | Use this skill to conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP). |
 | [comfyui-gateway](../../skills/frontend/web-architecture/comfyui_gateway/comfyui-gateway/SKILL.md) | `comfyui_gateway` | `advanced` | `stable` | Use this skill to rEST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64). |

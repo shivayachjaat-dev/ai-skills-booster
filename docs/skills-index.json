@@ -12841,6 +12841,28 @@
     "maturity": "stable"
   },
   {
+    "name": "claymorphism",
+    "path": "skills/frontend/web-architecture/claymorphism/claymorphism",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "claymorphism",
+    "description": "Use this skill to design, implement, and operate production workflows for claymorphism. Web and App implementation guide for Claymorphism. Trigger when user wants soft 3D elements, rounded shapes, and a playful, tactile appearance.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "claymorphism",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Claymorphism",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "client-secret-exposure-audit",
     "path": "skills/frontend/web-architecture/client_secret_exposu/client-secret-exposure-audit",
     "domain": "frontend",
