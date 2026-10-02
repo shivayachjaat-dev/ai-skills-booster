@@ -726,6 +726,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [llm-guardrails-input-output-moderation](../skills/ai-engineering/guardrails/input-output-moderation/llm-guardrails-input-output-moderation/SKILL.md) — Use this skill when designing, implementing, and deploying enterprise safety guardrails for Large Language Model applications. It guides the agent through prompt injection detection, sensitive PII redaction (Presidio), toxic output moderation (Llama Guard), strict JSON schema validation, and fallback circuit breaking.
 
+## Mock Tools (1 skills)
+
+- [ai-agent-qa-test-authoring-and-regression-triage](../skills/testing/agent-qa/test-authoring/ai-agent-qa-test-authoring-and-regression-triage/SKILL.md) — Use this skill to author, execute, and triage end-to-end automated test suites for AI agents. It establishes deterministic evaluation fixtures, trajectory regression tracking, tool mocking, flakiness score analysis, and automated failure post-mortem triaging.
+
 ## Model Context Protocol (1 skills)
 
 - [mcp-server-scaffold](../skills/mcp/server-development/scaffolding/mcp-server-scaffold/SKILL.md) — Use this skill when scaffolding, implementing, and validating a Model Context Protocol (MCP) server from scratch using TypeScript or Python. It guides the agent through configuring tool schemas, resource providers, prompt templates, stdio/SSE transports, error boundaries, and integration tests.
@@ -952,7 +956,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-## Pydantic (6 skills)
+## Pydantic (7 skills)
 
 - [agent-memory-recall-and-retention-discipline](../skills/ai-engineering/agents/memory-discipline/agent-memory-recall-and-retention-discipline/SKILL.md) — Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences.
 - [multi-agent-workload-distribution-and-cost-optimization](../skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization/SKILL.md) — Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.
@@ -960,6 +964,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [sqlalchemy-async-session-management](../skills/backend/database-drivers/sqlalchemy/sqlalchemy-async-session-management/SKILL.md) — Use this skill when architecting asynchronous database access layers in Python using SQLAlchemy 2.0+ and asyncpg. It guides the agent through AsyncEngine configuration, connection pooling with pool_pre_ping, scoped async session lifecycles, eager loading strategies (selectinload vs joinedload), and atomic transaction context managers.
 - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 - [high-converting-ad-creative-design](../skills/marketing/creative/ad-creative/high-converting-ad-creative-design/SKILL.md) — Use this skill to research, generate, test, and optimize high-converting multi-platform ad copy, creative variations, hooks, angles, and CTA matrices for Google Search/Display, Meta (Facebook/Instagram), LinkedIn B2B, and TikTok campaigns. It enforces strict platform character constraints, psychological hook archetypes, and creative fatigue rotation policies.
+- [ai-agent-qa-test-authoring-and-regression-triage](../skills/testing/agent-qa/test-authoring/ai-agent-qa-test-authoring-and-regression-triage/SKILL.md) — Use this skill to author, execute, and triage end-to-end automated test suites for AI agents. It establishes deterministic evaluation fixtures, trajectory regression tracking, tool mocking, flakiness score analysis, and automated failure post-mortem triaging.
 
 ## Pydantic v2 (1 skills)
 
@@ -969,7 +974,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (56 skills)
+## Python (57 skills)
 
 - [multi-agent-debate-and-reflection](../skills/ai-engineering/agents/autogen/multi-agent-debate-and-reflection/SKILL.md) — Use this skill when designing, implementing, and evaluating multi-agent debate, reflection, and self-correction workflows. It guides the agent through constructing multi-turn debate topologies (Proposer, Critic, Reflector), consensus scoring mechanisms, majority voting, eliminating groupthink and confirmation bias, and improving reasoning accuracy on complex tasks.
 - [azure-ai-foundry-persistent-agents](../skills/ai-engineering/agents/azure-foundry/azure-ai-foundry-persistent-agents/SKILL.md) — Use this skill when architecting, deploying, and maintaining stateful, multi-turn AI agents with Azure AI Foundry (Azure AI Agent Service) using the official Python SDK. It covers assistant lifecycle management, thread persistence, vector store knowledge retrieval, secure function tool calling, and Azure Managed Identity authentication.
@@ -1027,6 +1032,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [legacy-system-strangler-migration](../skills/software-engineering/modernization/migration/legacy-system-strangler-migration/SKILL.md) — Use this skill when incrementally modernizing, decomposing, and replacing legacy monoliths or deprecated backend systems without risky all-at-once cutovers. It guides the agent through the Strangler Fig pattern, reverse proxy intercept routing, parallel run shadow verification, database synchronization, and progressive decommission.
 - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
+- [ai-agent-qa-test-authoring-and-regression-triage](../skills/testing/agent-qa/test-authoring/ai-agent-qa-test-authoring-and-regression-triage/SKILL.md) — Use this skill to author, execute, and triage end-to-end automated test suites for AI agents. It establishes deterministic evaluation fixtures, trajectory regression tracking, tool mocking, flakiness score analysis, and automated failure post-mortem triaging.
 
 ## Python Behave (1 skills)
 
@@ -1343,6 +1349,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
+## Trajectory Evaluation (1 skills)
+
+- [ai-agent-qa-test-authoring-and-regression-triage](../skills/testing/agent-qa/test-authoring/ai-agent-qa-test-authoring-and-regression-triage/SKILL.md) — Use this skill to author, execute, and triage end-to-end automated test suites for AI agents. It establishes deterministic evaluation fixtures, trajectory regression tracking, tool mocking, flakiness score analysis, and automated failure post-mortem triaging.
+
 ## Trivy (2 skills)
 
 - [docker-container-optimization](../skills/devops/containers/optimization/docker-container-optimization/SKILL.md) — Use this skill when auditing, shrinking, and hardening Docker container images. It guides the agent through multi-stage builds, cache-efficient layer ordering, non-root user enforcement, minimal distroless/alpine base images, and vulnerability scanning with Trivy/Docker Scout.
@@ -1522,11 +1532,12 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [promptfoo-llm-eval-benchmarking](../skills/ai-engineering/evaluation/promptfoo/promptfoo-llm-eval-benchmarking/SKILL.md) — Use this skill when designing, executing, and automating LLM prompt evaluations and adversarial red-teaming benchmarks using promptfoo. It guides the agent through defining test matrices (providers x prompts x variables), configuring deterministic and LLM-as-a-judge assertions, running red-team vulnerability scans, and integrating evaluations into CI/CD pipelines.
 
-## pytest (3 skills)
+## pytest (4 skills)
 
 - [ai-agent-chaos-testing-and-fault-injection](../skills/ai-engineering/agents/fault-injection/ai-agent-chaos-testing-and-fault-injection/SKILL.md) — Use this skill when stress-testing, chaos-testing, and verifying the fault-tolerance of autonomous AI agents and tool-calling pipelines. It guides the agent through simulating tool API failures, network timeouts, corrupt JSON payloads, context window truncation, and verifying agent self-healing and recovery strategies.
 - [deepeval-unit-testing-llm-apps](../skills/ai-engineering/evaluation/deepeval/deepeval-unit-testing-llm-apps/SKILL.md) — Use this skill when designing, authoring, and automating CI/CD unit testing suites for Large Language Model applications using DeepEval. It guides the agent through defining LLM test cases (LLMTestCase), configuring G-Eval custom criteria metrics, hallucination and answer relevancy scoring, integrating with pytest, and setting regression assertions.
 - [e2e-acceptance-testing-orchestrator](../skills/testing/acceptance-testing/bdd-orchestration/e2e-acceptance-testing-orchestrator/SKILL.md) — Use this skill when orchestrating end-to-end acceptance testing pipelines, behavior-driven development (BDD) workflows, and automated issue acceptance verification. It guides the agent through converting user stories into executable Gherkin specifications, integrating Playwright and Behave/Cucumber, managing test data fixtures, and enforcing release acceptance criteria.
+- [ai-agent-qa-test-authoring-and-regression-triage](../skills/testing/agent-qa/test-authoring/ai-agent-qa-test-authoring-and-regression-triage/SKILL.md) — Use this skill to author, execute, and triage end-to-end automated test suites for AI agents. It establishes deterministic evaluation fixtures, trajectory regression tracking, tool mocking, flakiness score analysis, and automated failure post-mortem triaging.
 
 ## python-pptx (1 skills)
 

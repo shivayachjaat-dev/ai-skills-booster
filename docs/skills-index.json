@@ -2943,6 +2943,31 @@
     "maturity": "stable"
   },
   {
+    "name": "ai-agent-qa-test-authoring-and-regression-triage",
+    "path": "skills/testing/agent-qa/test-authoring/ai-agent-qa-test-authoring-and-regression-triage",
+    "domain": "testing",
+    "category": "agent-qa",
+    "subcategory": "test-authoring",
+    "description": "Use this skill to author, execute, and triage end-to-end automated test suites for AI agents. It establishes deterministic evaluation fixtures, trajectory regression tracking, tool mocking, flakiness score analysis, and automated failure post-mortem triaging.",
+    "tags": [
+      "agent-qa",
+      "ai-testing",
+      "regression-testing",
+      "evals",
+      "pytest",
+      "trajectory-evaluation"
+    ],
+    "technologies": [
+      "pytest",
+      "Python",
+      "Pydantic",
+      "Mock Tools",
+      "Trajectory Evaluation"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

@@ -226,6 +226,8 @@ AI_Skills_Booster/
 ├── testing/
 │   ├── acceptance-testing/
 │   │   └── bdd-orchestration/ (1 skills)
+│   ├── agent-qa/
+│   │   └── test-authoring/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/

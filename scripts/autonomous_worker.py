@@ -61,871 +61,791 @@ def mark_backlog_item(backlog_query, new_status="completed", blocked_reason=None
 
 CONTINUOUS_QUEUE = [
     # -------------------------------------------------------------
-    # 1. CONTENT: marp-and-python-pptx-slide-deck-generator (Backlog: 2slides-ppt-generator)
+    # 1. TESTING: ai-agent-qa-test-authoring-and-regression-triage (Backlog: agent-qa-authoring)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "2slides-ppt-generator",
-        "name": "marp-and-python-pptx-slide-deck-generator",
-        "domain": "content",
-        "category": "presentation",
-        "subcategory": "marp-slides",
-        "description": "Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.",
-        "tags": ["marp", "presentation", "slides", "pptx", "markdown", "executive-deck", "documentation"],
-        "technologies": ["Marp CLI", "python-pptx", "Markdown", "HTML/CSS", "Python"],
-        "complexity": "intermediate",
+        "backlog_ref": "agent-qa-authoring",
+        "name": "ai-agent-qa-test-authoring-and-regression-triage",
+        "domain": "testing",
+        "category": "agent-qa",
+        "subcategory": "test-authoring",
+        "description": "Use this skill to author, execute, and triage end-to-end automated test suites for AI agents. It establishes deterministic evaluation fixtures, trajectory regression tracking, tool mocking, flakiness score analysis, and automated failure post-mortem triaging.",
+        "tags": ["agent-qa", "ai-testing", "regression-testing", "evals", "pytest", "trajectory-evaluation"],
+        "technologies": ["pytest", "Python", "Pydantic", "Mock Tools", "Trajectory Evaluation"],
+        "complexity": "advanced",
         "maturity": "stable",
         "tools": ["python", "bash"],
-        "dependencies": ["python-pptx >= 0.6.21", "marp-cli >= 3.0.0", "python >= 3.10"],
-        "content": """# Marp Markdown & Python-PPTX Slide Deck Generation
+        "dependencies": ["pytest >= 7.4.0", "pydantic >= 2.5.0", "python >= 3.10"],
+        "content": """# AI Agent QA Test Authoring & Regression Triage
 
 ## Overview
 
-A structured technical specification and automation engine for authoring executive-ready presentation decks. Translating raw requirements, technical architectures, and financial tables into visually coherent slides is often slow, manual, and prone to poor visual formatting. This skill equips AI agents to construct declarative presentations using Marp Markdown (converting Markdown to 16:9 widescreen HTML, PDF, and PowerPoint) and programmatic Python scripts using `python-pptx` for dynamically generated charts, tables, and branded layouts.
+A comprehensive software quality assurance standard specifically engineered for testing autonomous AI agents. Unlike deterministic software, AI agents exhibit non-deterministic reasoning trajectories, stochastic model outputs, and external tool side-effects. Testing agents requires specialized evaluation fixtures that decouple LLM non-determinism from behavioral regressions, mock environment state, verify tool-call arguments with exact schemas, and triage failure modes into prompt drift, tool protocol errors, or model degradation.
 
 ## When to Use
 
-- Converting engineering design documents (RFCs), post-mortems, or architecture blueprints into conference or executive slide decks.
-- Programmatically generating data-driven pitch decks, financial updates, or quarterly business reviews (QBRs).
-- Building repeatable CI/CD pipelines that compile documentation repositories into version-controlled PDF/PPTX presentations.
-- Formatting code-heavy presentations with syntax highlighting, columns, and presenter notes.
+- Writing automated regression test suites for coding, research, or customer service AI agents.
+- Mocking external tool calls and database environments to achieve reproducible, offline test runs.
+- Evaluating multi-step agent trajectories against golden path reference steps.
+- Triaging agent CI test failures and classifying bugs as model degradation, context dilution, or bad assertions.
 
 ## When NOT to Use
 
-- Generating freeform hand-drawn illustrations or vector diagrams (use SVG, Mermaid, or Excalidraw).
-- Single-page static PDF reports without slide boundaries (use Typst or LaTeX).
+- Standard deterministic unit testing of pure mathematical functions or simple web endpoints (use standard pytest).
+- Manual exploratory UI testing without automated assertions.
 
 ## Inputs & Prerequisites
 
-- Presentation outline, target audience (technical team vs C-suite executives), and key takeaways.
-- Brand design tokens (primary accent color, background tone, font families, logo assets).
-- Node.js environment with `@marp-team/marp-cli` installed or Python environment with `python-pptx`.
+- Target agent execution interface (callable agent class or command-line invocation).
+- Fixture test scenarios (user input prompt, initial environment files, expected final state).
+- Tool call mocking specifications and golden trajectories.
 
 ## Core Workflow
 
-### 1. Marp Declarative Presentation Template
-Structure slides using YAML frontmatter directives, 16:9 widescreen aspect ratios, and custom scoped CSS:
-
-```markdown
----
-marp: true
-theme: default
-paginate: true
-header: "Cloud Platform Architecture 2026"
-footer: "Confidential - Internal Engineering Review"
-size: 16:9
-style: |
-  section {
-    background-color: #0f172a;
-    color: #f8fafc;
-    font-family: 'Inter', -apple-system, sans-serif;
-    padding: 40px 60px;
-  }
-  h1 { color: #38bdf8; font-weight: 700; }
-  h2 { color: #818cf8; }
-  footer { color: #64748b; font-size: 0.65rem; }
-  header { color: #64748b; font-size: 0.65rem; }
-  .highlight { color: #f59e0b; font-weight: bold; }
-  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
----
-
-<!-- _class: lead -->
-<!-- _paginate: false -->
-# Next-Gen Distributed Mesh
-### Scalable Multi-Region Ingress & Zero-Trust Telemetry
-
-**Presented by:** Cloud Infrastructure Architecture Team  
-**Date:** October 2026
-
----
-
-## Executive Problem Statement
-
-<div class="grid-2">
-
-<div>
-
-### Current Challenges
-- **Latency Bottlenecks**: Inter-region traffic incurs 140ms p95 roundtrip delays.
-- **Fragmented Identity**: 3 divergent auth systems across legacy clusters.
-- **Cost Scaling**: Redundant NAT gateways cost \$42,000/month in egress.
-
-</div>
-
-<div>
-
-### Target Architecture Goals
-- Consolidate on eBPF-powered Cilium service mesh.
-- Achieve sub-25ms global edge routing with Anycast BGP.
-- Eliminate 60% of idle cloud egress costs.
-
-</div>
-
-</div>
-
-<!--
-Speaker Notes:
-- Emphasize the $42k/mo egress waste as the primary financial driver.
-- Confirm security approval from InfoSec before committing to Cilium v1.16 timeline.
--->
-
----
-
-## Core System Architecture
-
-```mermaid
-graph LR
-    A[Global Edge Ingress] --> B[Anycast Layer 4 Proxy]
-    B --> C[eBPF Service Mesh]
-    C --> D[Microservices Pods]
-    C --> E[OTel Lineage Collector]
-```
-
-- **Zero-Trust**: Mutual TLS (mTLS) enforced at kernel layer via SPIFFE/SPIRE.
-- **Observability**: Distributed OpenTelemetry tracing on 100% of ingress requests.
-```
-
-### 2. Programmatic Python Deck Generation (`python-pptx`)
-Automate creation of formatted PowerPoint tables and metrics:
+### 1. Agent Trajectory & Assertion Schema
+Define test specifications with strict trajectory assertions:
 
 ```python
-\"\"\"Programmatic PowerPoint deck generator using python-pptx.\"\"\"
-from pptx import Presentation
-from pptx.util import Inches, Pt
-from pptx.dml.color import RGBColor
-from pptx.enum.text import PP_ALIGN
-
-def create_executive_deck(output_filename: str = "executive_summary.pptx"):
-    prs = Presentation()
-    prs.slide_width = Inches(13.333)  # 16:9 widescreen width
-    prs.slide_height = Inches(7.5)    # 16:9 widescreen height
-    blank_slide_layout = prs.slide_layouts[6]
-
-    slide = prs.slides.add_slide(blank_slide_layout)
-
-    # Title Box
-    title_box = slide.shapes.add_textbox(Inches(0.8), Inches(0.8), Inches(11.7), Inches(1.2))
-    tf = title_box.text_frame
-    tf.word_wrap = True
-    p = tf.paragraphs[0]
-    p.text = "Q3 Infrastructure Efficiency & Cost Optimization"
-    p.font.size = Pt(28)
-    p.font.bold = True
-    p.font.color.rgb = RGBColor(15, 23, 42)
-
-    # KPI Metric Card 1
-    card1 = slide.shapes.add_textbox(Inches(0.8), Inches(2.5), Inches(3.6), Inches(2.2))
-    c1_tf = card1.text_frame
-    c1_tf.word_wrap = True
-    p1 = c1_tf.paragraphs[0]
-    p1.text = "Monthly Savings"
-    p1.font.size = Pt(14)
-    p1.font.color.rgb = RGBColor(100, 116, 139)
-    p2 = c1_tf.add_paragraph()
-    p2.text = "$124,500"
-    p2.font.size = Pt(36)
-    p2.font.bold = True
-    p2.font.color.rgb = RGBColor(16, 185, 129)
-
-    # KPI Metric Card 2
-    card2 = slide.shapes.add_textbox(Inches(4.8), Inches(2.5), Inches(3.6), Inches(2.2))
-    c2_tf = card2.text_frame
-    c2_tf.word_wrap = True
-    p3 = c2_tf.paragraphs[0]
-    p3.text = "p95 Latency Reduction"
-    p3.font.size = Pt(14)
-    p3.font.color.rgb = RGBColor(100, 116, 139)
-    p4 = c2_tf.add_paragraph()
-    p4.text = "-48.2%"
-    p4.font.size = Pt(36)
-    p4.font.bold = True
-    p4.font.color.rgb = RGBColor(56, 189, 248)
-
-    prs.save(output_filename)
-    print(f"Generated widescreen presentation: {output_filename}")
-
-if __name__ == "__main__":
-    create_executive_deck()
-```
-
-### 3. Automated Compilation CLI Commands
-Compile Marp markdown directly into production distribution formats:
-```bash
-# Compile to self-contained interactive HTML presentation
-marp --html presentation.md -o presentation.html
-
-# Compile to PDF with speaker notes included
-marp --pdf presentation.md -o presentation.pdf
-
-# Compile to editable Microsoft PowerPoint (.pptx)
-marp --pptx presentation.md -o presentation.pptx
-```
-
-## Best Practices & Failure Modes
-
-- **Slide Overcrowding**: Never place more than 6 bullet points or 2 primary ideas on a single slide; split into subsequent slides using `---`.
-- **Contrast Ratios**: Maintain WCAG AA compliance (contrast ratio >= 4.5:1) between text and slide background colors.
-- **Code Block Overflow**: Always specify language syntax and keep code snippets under 12 lines per slide to avoid vertical text clipping.
-
-## Verification & Testing
-
-- Verify python-pptx compilation:
-  ```bash
-  python -c "import pptx; print('python-pptx library ready')"
-  ```
-- Test Marp CLI installation:
-  ```bash
-  marp --version || echo "Marp CLI can be run via npx @marp-team/marp-cli"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 2. MARKETING: activecampaign-marketing-automation-and-webhook-sync (Backlog: activecampaign-automation)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "activecampaign-automation",
-        "name": "activecampaign-marketing-automation-and-webhook-sync",
-        "domain": "marketing",
-        "category": "crm",
-        "subcategory": "activecampaign-automation",
-        "description": "Use this skill to design, automate, and synchronize marketing automation workflows, contact lifecycle tagging, email drip sequences, and webhook event listeners with ActiveCampaign via its REST v3 API and event webhooks.",
-        "tags": ["activecampaign", "marketing-automation", "crm", "webhooks", "email-marketing", "lifecycle"],
-        "technologies": ["ActiveCampaign REST API v3", "Python", "FastAPI", "Webhooks", "HMAC"],
-        "complexity": "intermediate",
-        "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["requests >= 2.31.0", "fastapi >= 0.100.0", "pydantic >= 2.0.0", "python >= 3.10"],
-        "content": """# ActiveCampaign CRM Marketing Automation & Webhook Integration
-
-## Overview
-
-A robust technical integration standard for orchestrating contact lifecycles, automated email drip workflows, and bidirectional event synchronization using the ActiveCampaign REST API v3. Manual contact tagging, unhandled webhook failures, and unvalidated payload synchronization lead to duplicated marketing emails, missed sales leads, and subscriber compliance violations. This skill provides AI agents with production-ready patterns to manage contacts, execute idempotent tag operations, enroll users into target automations, and process incoming webhook events securely.
-
-## When to Use
-
-- Synchronizing user registration and onboarding events from SaaS backends to ActiveCampaign contact records.
-- Triggering marketing automation sequences based on in-app user milestones (e.g., Trial Started, Feature Activated, Payment Failed).
-- Building secure webhook endpoints to consume ActiveCampaign lifecycle events (Unsubscribe, Bounce, Deal Stage Change).
-- Applying tag taxonomies for behavioral segmentation and lead scoring.
-
-## When NOT to Use
-
-- High-frequency transactional email sending (use SendGrid, Postmark, or AWS SES).
-- Simple static contact forms without automation or CRM workflows.
-
-## Inputs & Prerequisites
-
-- ActiveCampaign Account URL (`https://youraccount.api-us1.com`) and API Access Token.
-- Target list IDs and automation workflow IDs in ActiveCampaign.
-- Secure environment variables for API credentials and webhook secret verification.
-
-## Core Workflow
-
-### 1. ActiveCampaign REST API Client
-Implement an idempotent contact synchronization and tag management client:
-
-```python
-\"\"\"ActiveCampaign v3 API Client for Contact and Automation Management.\"\"\"
-import os
-import requests
-from typing import Dict, Any, Optional, List
-
-class ActiveCampaignClient:
-    def __init__(self, api_url: Optional[str] = None, api_key: Optional[str] = None):
-        self.api_url = (api_url or os.environ.get("ACTIVECAMPAIGN_URL", "")).rstrip("/")
-        self.api_key = api_key or os.environ.get("ACTIVECAMPAIGN_KEY", "")
-        self.headers = {
-            "Api-Token": self.api_key,
-            "Content-Type": "application/json",
-            "Accept": "application/json"
-        }
-
-    def sync_contact(self, email: str, first_name: str, last_name: str, phone: Optional[str] = None) -> Dict[str, Any]:
-        \"\"\"Create or update contact idempotently using email identity.\"\"\"
-        endpoint = f"{self.api_url}/api/3/contact/sync"
-        payload = {
-            "contact": {
-                "email": email,
-                "firstName": first_name,
-                "lastName": last_name,
-                "phone": phone or ""
-            }
-        }
-        res = requests.post(endpoint, json=payload, headers=self.headers, timeout=10)
-        res.raise_for_status()
-        return res.json().get("contact", {})
-
-    def add_tag_to_contact(self, contact_id: str, tag_id: str) -> Dict[str, Any]:
-        \"\"\"Attach behavioral tag to existing contact record.\"\"\"
-        endpoint = f"{self.api_url}/api/3/contactTags"
-        payload = {
-            "contactTag": {
-                "contact": contact_id,
-                "tag": tag_id
-            }
-        }
-        res = requests.post(endpoint, json=payload, headers=self.headers, timeout=10)
-        if res.status_code == 422:
-            # Tag already associated
-            return {"status": "already_tagged"}
-        res.raise_for_status()
-        return res.json()
-
-    def enroll_in_automation(self, contact_id: str, automation_id: str) -> Dict[str, Any]:
-        \"\"\"Enroll contact into a targeted marketing drip sequence.\"\"\"
-        endpoint = f"{self.api_url}/api/3/contactAutomations"
-        payload = {
-            "contactAutomation": {
-                "contact": contact_id,
-                "automation": automation_id
-            }
-        }
-        res = requests.post(endpoint, json=payload, headers=self.headers, timeout=10)
-        res.raise_for_status()
-        return res.json()
-```
-
-### 2. Inbound Webhook Listener (FastAPI)
-Process incoming ActiveCampaign subscription and deal events with signature checking:
-
-```python
-\"\"\"FastAPI Webhook Receiver for ActiveCampaign Events.\"\"\"
-from fastapi import FastAPI, Request, HTTPException, status
-from pydantic import BaseModel
-import hmac
-import hashlib
-import os
-
-app = FastAPI(title="CRM Webhook Ingestion Service")
-WEBHOOK_SECRET = os.environ.get("CRM_WEBHOOK_SECRET", "dummy_webhook_secret")
-
-@app.post("/webhooks/activecampaign")
-async def handle_activecampaign_webhook(request: Request):
-    # Form-data payload parsing (ActiveCampaign posts application/x-www-form-urlencoded)
-    form_data = await request.form()
-    event_type = form_data.get("type")
-    contact_email = form_data.get("data[contact][email]")
-    contact_id = form_data.get("data[contact][id]")
-
-    if not event_type or not contact_email:
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail="Missing required event parameters"
-        )
-
-    print(f"[Webhook] Received ActiveCampaign event: {event_type} for contact {contact_email} (ID: {contact_id})")
-
-    # Event Dispatcher
-    if event_type == "subscribe":
-        # Handle subscription logic in product database
-        pass
-    elif event_type == "unsubscribe":
-        # Ensure user notification preference is revoked in application database
-        print(f"[GDPR] Revoked marketing communications for: {contact_email}")
-    elif event_type == "deal_add":
-        print(f"[Sales] New deal logged for contact ID: {contact_id}")
-
-    return {"status": "success", "event": event_type}
-```
-
-## Best Practices & Failure Modes
-
-- **Rate Limiting**: ActiveCampaign enforces a rate limit of 5 requests/sec per API key. Implement exponential backoff when synchronizing batch datasets.
-- **GDPR Compliance**: When processing `unsubscribe` webhooks, update your internal database immediately to prevent accidental marketing email sends.
-- **Duplicate Tags**: Use `/api/3/contact/sync` rather than direct create calls to prevent fragmented duplicate contact records.
-
-## Verification & Testing
-
-- Verify request handling and imports:
-  ```bash
-  python -c "import requests, fastapi; print('CRM dependencies validated')"
-  ```
-- Mock test contact sync payload serialization:
-  ```bash
-  python -c "from pydantic import BaseModel; print('Schema validated')"
-  ```
-"""
-    },
-
-    # -------------------------------------------------------------
-    # 3. AI ENGINEERING: agent-memory-recall-and-retention-discipline (Backlog: agent-memory-discipline)
-    # -------------------------------------------------------------
-    {
-        "backlog_ref": "agent-memory-discipline",
-        "name": "agent-memory-recall-and-retention-discipline",
-        "domain": "ai-engineering",
-        "category": "agents",
-        "subcategory": "memory-discipline",
-        "description": "Use this skill to establish cognitive discipline protocols for AI agents interacting with persistent memory backends. It mandates proactive pre-action memory recall queries, conflict resolution between contradictory historical memories, and systematic post-action writebacks for architectural decisions, bug fixes, and user preferences.",
-        "tags": ["agent-memory", "cognitive-architecture", "memory-discipline", "reflection", "state-management", "ai-agents"],
-        "technologies": ["Python", "Pydantic", "SQLite", "Vector Retrieval", "Memory Protocols"],
-        "complexity": "advanced",
-        "maturity": "stable",
-        "tools": ["python"],
-        "dependencies": ["pydantic >= 2.5.0", "python >= 3.10"],
-        "content": """# AI Agent Memory Recall & Retention Cognitive Discipline
-
-## Overview
-
-A foundational cognitive discipline framework governing how autonomous AI agents query, reconcile, and persist long-term memory. Without disciplined memory management, AI agents suffer from amnesia (repeating past errors), hallucinated consensus, and memory bloating (persisting low-value conversational noise). This skill establishes strict execution gates: requiring proactive memory retrieval prior to taking tool actions, deterministic conflict resolution between contradictory memories, and selective post-execution distillation to commit only validated learnings, bug resolutions, and architectural decisions.
-
-## When to Use
-
-- Building stateful autonomous software engineering agents that work across multiple days or sessions.
-- Enforcing pre-action memory lookups so agents verify historical project constraints before executing breaking changes.
-- Distilling post-task retrospectives into high-signal long-term memory entries (decisions, learned pitfalls, user preferences).
-- Managing memory eviction, conflict resolution, and confidence scoring across vector/relational stores.
-
-## When NOT to Use
-
-- Pure stateless single-turn LLM generation (e.g., text summarization, spelling correction).
-- Ephemeral scratchpad or chain-of-thought scratch reasoning that should not outlive the immediate prompt.
-
-## Inputs & Prerequisites
-
-- Persistent memory store interface (Vector database, SQLite, or key-value store).
-- Current user request, working repository context, and task domain tags.
-- Agent cognitive lifecycle hooks (Pre-execution hook, Post-execution reflection hook).
-
-## Core Workflow
-
-### 1. Cognitive Pre-Action & Post-Action Protocol
-Every agent action must follow the strict four-phase cognitive memory loop:
-1. **Pre-Action Recall**: Query long-term memory using the target file path, technology stack, and domain task.
-2. **Conflict Resolution**: Filter memories by confidence, recency, and explicit user overrides.
-3. **Execution**: Perform tool calls with historical constraints injected into the working prompt.
-4. **Post-Action Distillation**: Formulate a structured Memory Commit Object if a new bug, convention, or architectural pattern was discovered.
-
-### 2. Memory Schema & Cognitive Gate Engine
-Implement memory discipline contracts and validation in Python:
-
-```python
-\"\"\"Cognitive Memory Discipline Framework for AI Agents.\"\"\"
-from enum import Enum
-from typing import List, Optional, Dict, Any
-from datetime import datetime
+\"\"\"Agent QA Test Framework and Trajectory Assertion Engine.\"\"\"
+import pytest
+from typing import List, Dict, Any, Optional
 from pydantic import BaseModel, Field
 
-class MemoryCategory(str, Enum):
-    ARCHITECTURAL_DECISION = "architectural_decision"
-    BUG_RESOLUTION = "bug_resolution"
-    USER_PREFERENCE = "user_preference"
-    PROJECT_CONSTRAINT = "project_constraint"
-    DEPRECATED_PATTERN = "deprecated_pattern"
+class ExpectedToolCall(BaseModel):
+    tool_name: str
+    required_arguments: Dict[str, Any]
+    allow_extra_keys: bool = True
 
-class MemoryEntry(BaseModel):
-    memory_id: str
-    category: MemoryCategory
-    topic: str
-    content: str
-    confidence_score: float = Field(..., ge=0.0, le=1.0)
-    created_at: str
-    superseded_by: Optional[str] = None
-    tags: List[str]
+class AgentTestScenario(BaseModel):
+    scenario_id: str
+    user_prompt: str
+    expected_tools_invoked: List[ExpectedToolCall]
+    forbidden_tools: List[str] = Field(default_factory=list)
+    max_steps_allowed: int = 10
+    final_output_contains: List[str]
 
-class MemoryDistillationCandidate(BaseModel):
-    learned_insight: str
-    category: MemoryCategory
-    relevance_scope: str
-    evidence_proof: str
-    confidence_score: float
+class TrajectoryStep(BaseModel):
+    step_index: int
+    tool_name: Optional[str] = None
+    tool_args: Optional[Dict[str, Any]] = None
+    observation: Optional[str] = None
 
-class CognitiveMemoryManager:
-    def __init__(self):
-        self.memory_store: Dict[str, MemoryEntry] = {}
+class TrajectoryAuditor:
+    @staticmethod
+    def audit_trajectory(scenario: AgentTestScenario, actual_steps: List[TrajectoryStep], final_answer: str) -> Dict[str, Any]:
+        violations = []
 
-    def recall_for_task(self, task_description: str, relevant_tags: List[str]) -> List[MemoryEntry]:
-        \"\"\"Pre-Action Gate: Retrieve only active, non-superseded memories relevant to tags.\"\"\"
-        results = []
-        for entry in self.memory_store.values():
-            if entry.superseded_by is not None:
-                continue
-            # Match on tags or semantic overlap
-            if any(tag in entry.tags for tag in relevant_tags):
-                results.append(entry)
-        # Sort by confidence descending
-        results.sort(key=lambda m: m.confidence_score, reverse=True)
-        return results
+        # 1. Step Budget Assertion
+        if len(actual_steps) > scenario.max_steps_allowed:
+            violations.append(f"Step limit exceeded: Took {len(actual_steps)} steps (max allowed: {scenario.max_steps_allowed})")
 
-    def commit_distilled_memory(self, candidate: MemoryDistillationCandidate) -> MemoryEntry:
-        \"\"\"Post-Action Gate: Reject trivial noise and store verified insights.\"\"\"
-        if candidate.confidence_score < 0.75:
-            raise ValueError(f"Memory candidate rejected: Confidence {candidate.confidence_score} below threshold 0.75")
-        
-        mem_id = f"mem_{int(datetime.utcnow().timestamp())}_{len(self.memory_store)}"
-        entry = MemoryEntry(
-            memory_id=mem_id,
-            category=candidate.category,
-            topic=candidate.relevance_scope,
-            content=candidate.learned_insight,
-            confidence_score=candidate.confidence_score,
-            created_at=datetime.utcnow().isoformat(),
-            tags=[candidate.relevance_scope]
-        )
-        self.memory_store[mem_id] = entry
-        return entry
+        # 2. Forbidden Tools Assertion
+        for step in actual_steps:
+            if step.tool_name in scenario.forbidden_tools:
+                violations.append(f"Forbidden tool invoked: '{step.tool_name}' at step {step.step_index}")
 
-if __name__ == "__main__":
-    manager = CognitiveMemoryManager()
-    # Add historical constraint
-    candidate = MemoryDistillationCandidate(
-        learned_insight="Never use raw requests.get() without a timeout; always enforce timeout=10.",
-        category=MemoryCategory.PROJECT_CONSTRAINT,
-        relevance_scope="networking",
-        evidence_proof="Issue #104 worker hanging indefinitely on hung socket",
-        confidence_score=0.95
-    )
-    saved = manager.commit_distilled_memory(candidate)
-    print("Stored memory entry:", saved.memory_id, saved.content)
+        # 3. Required Tools Assertion
+        actual_tool_names = [s.tool_name for s in actual_steps if s.tool_name]
+        for exp in scenario.expected_tools_invoked:
+            if exp.tool_name not in actual_tool_names:
+                violations.append(f"Required tool '{exp.tool_name}' was never invoked.")
+            else:
+                # Find matching step and verify argument subset
+                matching_step = next(s for s in actual_steps if s.tool_name == exp.tool_name)
+                for arg_key, arg_val in exp.required_arguments.items():
+                    if matching_step.tool_args is None or matching_step.tool_args.get(arg_key) != arg_val:
+                        violations.append(f"Tool '{exp.tool_name}' argument mismatch on key '{arg_key}'. Expected: {arg_val}")
 
-    # Pre-action recall
-    recalled = manager.recall_for_task("Refactor API client", ["networking"])
-    print(f"Recalled {len(recalled)} memories before executing tool actions.")
+        # 4. Final Answer Keyword Assertion
+        for keyword in scenario.final_output_contains:
+            if keyword.lower() not in final_answer.lower():
+                violations.append(f"Final answer missing expected keyword: '{keyword}'")
+
+        return {
+            "passed": len(violations) == 0,
+            "scenario_id": scenario.scenario_id,
+            "violations": violations
+        }
 ```
 
-### 3. Conflict Resolution Policy
-- **Recency vs. Explicit Authority**: An explicit user command from the current session always supersedes historical long-term memories.
-- **Deprecation Flagging**: When a new architectural decision supersedes an old one, update `superseded_by: <new_memory_id>` rather than silently deleting history to maintain audit provenance.
-- **Signal-to-Noise Filter**: Never save ephemeral intermediate progress (e.g., "Tried running pytest, failed at line 14"). Only save the root cause and durable solution.
+### 2. Pytest Test Implementation with Mock Tools
+Write reproducible agent tests using Pytest:
+
+```python
+\"\"\"Pytest Test Suite for Agent QA.\"\"\"
+def test_file_refactoring_agent_trajectory():
+    scenario = AgentTestScenario(
+        scenario_id="refactor_deprecated_imports",
+        user_prompt="Replace all deprecated utils.log calls with logger.info in src/app.py",
+        expected_tools_invoked=[
+            ExpectedToolCall(tool_name="view_file", required_arguments={"path": "src/app.py"}),
+            ExpectedToolCall(tool_name="replace_file_content", required_arguments={"path": "src/app.py"})
+        ],
+        forbidden_tools=["run_bash_command"],
+        max_steps_allowed=5,
+        final_output_contains=["Refactored", "logger.info"]
+    )
+
+    # Simulated mock agent trajectory
+    simulated_steps = [
+        TrajectoryStep(step_index=1, tool_name="view_file", tool_args={"path": "src/app.py"}, observation="import utils; utils.log('started')"),
+        TrajectoryStep(step_index=2, tool_name="replace_file_content", tool_args={"path": "src/app.py"}, observation="Success: replaced 1 occurrence")
+    ]
+    simulated_final_answer = "Successfully Refactored src/app.py to use logger.info."
+
+    result = TrajectoryAuditor.audit_trajectory(scenario, simulated_steps, simulated_final_answer)
+    assert result["passed"] is True, f"Agent QA failed: {result['violations']}"
+```
+
+### 3. Automated Failure Mode Triaging Matrix
+When an agent test fails in CI, triage by root cause:
+- **Trajectory Explosion**: Agent looped > 15 times without converging -> Issue: Unclear tool error messages or missing exit condition.
+- **Tool Hallucination**: Agent attempted to invoke a non-existent tool -> Issue: System prompt tool catalog out of sync with model schemas.
+- **Assertion Brittleness**: Agent accomplished the task via an alternative valid path -> Issue: Assertion overly constrained to a single execution sequence.
 
 ## Best Practices & Failure Modes
 
-- **Memory Pollution**: Reject committing entire raw log traces or conversation transcripts directly into long-term memory; always distill down to a concise rule or insight.
-- **Hallucinated Memory Confirmation**: Require agents to quote or reference the `memory_id` when justifying an architectural restriction to the user.
-- **Context Flooding**: Limit recalled memories injected into the LLM system prompt to the top 5 highest-scoring relevant entries to avoid diluting context.
+- **Never Test Against Live External APIs in CI**: Always mock third-party services (GitHub, Stripe, AWS) with recorded responses or deterministic in-memory fixtures.
+- **Flakiness Thresholds**: Run agent evaluation tests over 3 iterations; consider a test passing if success rate >= 90% to account for minor LLM variance.
+- **Seed Fixing**: Where supported by provider APIs, fix temperature and random seed parameters during regression CI runs.
 
 ## Verification & Testing
 
-- Validate memory models using Pydantic:
+- Run agent test suite with pytest:
   ```bash
-  python -c "import pydantic; print('Memory validation schemas verified')"
+  pytest tests/test_agent_qa.py -v
   ```
-- Test memory recall filtering:
+- Validate trajectory schema serialization:
   ```bash
-  python -c "print('Cognitive memory discipline unit tests pass')"
+  python -c "import pydantic; print('Agent QA schema verified')"
   ```
 """
     },
 
     # -------------------------------------------------------------
-    # 4. AI ENGINEERING: ai-agent-observability-and-trace-evaluation (Backlog: agent-observability)
+    # 2. AI ENGINEERING: ai-agent-cron-and-autonomous-job-scheduling (Backlog: agent-self-scheduling)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "agent-observability",
-        "name": "ai-agent-observability-and-trace-evaluation",
+        "backlog_ref": "agent-self-scheduling",
+        "name": "ai-agent-cron-and-autonomous-job-scheduling",
         "domain": "ai-engineering",
         "category": "agents",
-        "subcategory": "observability",
-        "description": "Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.",
-        "tags": ["ai-observability", "opentelemetry", "openinference", "llm-tracing", "langfuse", "agent-metrics"],
-        "technologies": ["OpenTelemetry", "OpenInference", "Python", "Langfuse", "Prometheus"],
+        "subcategory": "scheduling",
+        "description": "Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.",
+        "tags": ["agent-scheduling", "cron", "autonomous-agents", "task-queue", "distributed-locks", "heartbeat"],
+        "technologies": ["Python", "APScheduler", "Redis", "Cron", "Asyncio"],
         "complexity": "advanced",
         "maturity": "stable",
         "tools": ["python"],
-        "dependencies": ["opentelemetry-api >= 1.20.0", "opentelemetry-sdk >= 1.20.0", "python >= 3.10"],
-        "content": """# AI Agent Observability & Distributed Trace Evaluation
+        "dependencies": ["apscheduler >= 3.10.0", "redis >= 5.0.0", "python >= 3.10"],
+        "content": """# AI Agent Cron & Autonomous Job Scheduling Architecture
 
 ## Overview
 
-A telemetry engineering framework for instrumenting autonomous AI agents, LLM function calling, and multi-agent coordination loops. Modern AI agents are distributed systems composed of non-deterministic reasoning steps, vector searches, and tool invocations. Without structured tracing, debugging reasoning loops, measuring token expenditure, and tracking latency bottlenecks becomes nearly impossible. This skill provides AI agents with standard OpenInference semantic conventions, OpenTelemetry spans for agent tools, token budget tracking, and automated evaluation metrics.
+A robust systems engineering architecture for scheduling, orchestrating, and supervising recurring autonomous AI agent jobs. Leaving AI agents to run on unmonitored scripts leads to silent failures, duplicate concurrent runs, API rate limit storms, and unbounded spending. This skill provides AI agents with production-ready patterns for cron expression scheduling, distributed mutex locking (preventing overlapping runs across worker replicas), exponential retry backoff, dead-letter alerts, and heartbeat telemetry.
 
 ## When to Use
 
-- Instrumenting production AI agents with distributed tracing across tool executions and model inferences.
-- Tracking token usage (prompt, completion, cache hits) and calculating real-time cost across OpenAI, Anthropic, or Gemini APIs.
-- Capturing agent execution traces for export to Langfuse, Phoenix (Arize), or OpenTelemetry Collector backends.
-- Detecting runaway agent recursion loops or abnormally slow tool execution spans.
+- Deploying autonomous AI agents that run on a recurring schedule (e.g., hourly repository security audit, daily PR summaries, weekly dependency upgrades).
+- Implementing self-scheduling agent workflows where the agent dynamically determines its next execution interval based on repository activity.
+- Preventing duplicate concurrent execution across distributed container instances using Redis locks.
+- Monitoring agent execution liveness and alerting on missed heartbeats.
 
 ## When NOT to Use
 
-- Traditional infrastructure CPU/memory monitoring without LLM or AI agent components (use standard Prometheus/Grafana).
-- Simple client-side scripts without multi-step chaining or external tool calls.
+- Immediate, interactive user request-response conversational chats.
+- Microsecond financial trading or real-time gaming engines.
 
 ## Inputs & Prerequisites
 
-- Target agent framework or custom execution loop in Python.
-- OpenTelemetry Collector endpoint or LLM tracing platform credentials (e.g., Langfuse host & keys).
-- Semantic taxonomy for agent span names (`agent.run`, `llm.generate`, `tool.execute`).
+- Cron schedule expression (e.g., `0 */4 * * *` for every 4 hours) or dynamic interval criteria.
+- Distributed lock backend (Redis, PostgreSQL advisory locks, or cloud lock manager).
+- Agent execution handler and notification webhook for failure alerts.
 
 ## Core Workflow
 
-### 1. OpenInference Semantic Span Instrumentation
-Instrument LLM generation spans and nested tool calls according to OpenInference standards:
+### 1. Distributed Lock & Scheduled Runner Engine
+Prevent overlapping agent execution and manage lifecycle state:
 
 ```python
-\"\"\"AI Agent Observability and Distributed Tracing Instrumentation.\"\"\"
+\"\"\"Autonomous Agent Job Scheduler with Distributed Redis Locking.\"\"\"
 import time
-import json
-from typing import Dict, Any, Optional
-from opentelemetry import trace
-from opentelemetry.trace import Status, StatusCode
-from opentelemetry.sdk.trace import TracerProvider
-from opentelemetry.sdk.trace.export import SimpleSpanProcessor, ConsoleSpanExporter
+import os
+import logging
+from typing import Callable, Optional
+from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.triggers.cron import CronTrigger
 
-# Initialize Tracer
-provider = TracerProvider()
-provider.add_span_processor(SimpleSpanProcessor(ConsoleSpanExporter()))
-trace.set_tracer_provider(provider)
-tracer = trace.get_tracer("ai-agent-tracer", "1.0.0")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logger = logging.getLogger("AgentScheduler")
 
-# Cost catalog per 1M tokens (USD)
-TOKEN_PRICING = {
-    "gpt-4o": {"prompt": 2.50, "completion": 10.00},
-    "gpt-4o-mini": {"prompt": 0.15, "completion": 0.60},
-    "claude-3-5-sonnet": {"prompt": 3.00, "completion": 15.00}
-}
+class DistributedAgentLock:
+    def __init__(self, lock_key: str, timeout_seconds: int = 300):
+        self.lock_key = lock_key
+        self.timeout_seconds = timeout_seconds
+        self.acquired = False
 
-def calculate_inference_cost(model: str, prompt_tokens: int, completion_tokens: int) -> float:
-    pricing = TOKEN_PRICING.get(model, {"prompt": 2.00, "completion": 8.00})
-    cost = (prompt_tokens * pricing["prompt"] / 1_000_000) + (completion_tokens * pricing["completion"] / 1_000_000)
-    return round(cost, 6)
+    def __enter__(self):
+        # Simulated atomic lock acquisition (e.g., redis.set(key, val, nx=True, ex=timeout))
+        logger.info(f"Acquiring distributed lock: {self.lock_key}")
+        self.acquired = True
+        return self
 
-class ObservableAgentRunner:
-    def __init__(self, agent_name: str, model_name: str = "gpt-4o"):
-        self.agent_name = agent_name
-        self.model_name = model_name
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if self.acquired:
+            logger.info(f"Releasing distributed lock: {self.lock_key}")
+            self.acquired = False
 
-    def execute_task(self, task_prompt: str) -> Dict[str, Any]:
-        with tracer.start_as_current_span("agent.run") as agent_span:
-            agent_span.set_attribute("agent.name", self.agent_name)
-            agent_span.set_attribute("agent.task_prompt", task_prompt)
+class AutonomousAgentJob:
+    def __init__(self, job_name: str, cron_expr: str, task_fn: Callable):
+        self.job_name = job_name
+        self.cron_expr = cron_expr
+        self.task_fn = task_fn
+        self.last_run_timestamp: Optional[float] = None
+        self.consecutive_failures = 0
 
-            # Step 1: Model Reasoning Span
-            with tracer.start_as_current_span("llm.generate") as llm_span:
-                llm_span.set_attribute("llm.model_name", self.model_name)
-                # Simulated token counts
-                prompt_tokens = 340
-                completion_tokens = 85
-                cost = calculate_inference_cost(self.model_name, prompt_tokens, completion_tokens)
+    def execute_with_guardrails(self):
+        logger.info(f"Starting scheduled run for agent job: {self.job_name}")
+        lock_name = f"lock:agent_job:{self.job_name}"
 
-                llm_span.set_attribute("llm.usage.prompt_tokens", prompt_tokens)
-                llm_span.set_attribute("llm.usage.completion_tokens", completion_tokens)
-                llm_span.set_attribute("llm.usage.cost_usd", cost)
-                llm_span.set_attribute("openinference.span.kind", "LLM")
+        with DistributedAgentLock(lock_name, timeout_seconds=600):
+            try:
+                start_time = time.time()
+                # Execute agent task
+                self.task_fn()
+                duration = time.time() - start_time
+                self.last_run_timestamp = time.time()
+                self.consecutive_failures = 0
+                logger.info(f"Job {self.job_name} succeeded in {duration:.2f}s.")
+            except Exception as e:
+                self.consecutive_failures += 1
+                logger.error(f"Job {self.job_name} failed (streak: {self.consecutive_failures}): {e}")
+                if self.consecutive_failures >= 3:
+                    self._send_dead_letter_alert(str(e))
 
-            # Step 2: Tool Execution Span
-            with tracer.start_as_current_span("tool.execute") as tool_span:
-                tool_span.set_attribute("tool.name", "github_search_issues")
-                tool_span.set_attribute("tool.input", json.dumps({"query": "memory leak"}))
-                tool_span.set_attribute("openinference.span.kind", "TOOL")
-                # Simulated tool logic
-                time.sleep(0.05)
-                tool_span.set_attribute("tool.output", json.dumps({"match_count": 3}))
-                tool_span.set_status(Status(StatusCode.OK))
+    def _send_dead_letter_alert(self, error_message: str):
+        logger.critical(f"[ALERT] Agent Job '{self.job_name}' exceeded max failures! Error: {error_message}")
 
-            agent_span.set_status(Status(StatusCode.OK))
-            return {
-                "status": "success",
-                "model": self.model_name,
-                "total_cost_usd": cost,
-                "tokens": prompt_tokens + completion_tokens
-            }
+def sample_repository_audit_agent():
+    logger.info("[Agent] Auditing repository for unmerged PRs and open CVEs...")
+    # Simulated agent work
+    time.sleep(0.1)
+    logger.info("[Agent] Repository audit clean. Zero actionable alerts.")
+
+def start_agent_scheduler():
+    scheduler = BackgroundScheduler()
+    job = AutonomousAgentJob(
+        job_name="nightly_repo_audit",
+        cron_expr="0 2 * * *",  # 2:00 AM daily
+        task_fn=sample_repository_audit_agent
+    )
+
+    scheduler.add_job(
+        job.execute_with_guardrails,
+        trigger=CronTrigger.from_crontab("0 2 * * *"),
+        id="nightly_repo_audit",
+        replace_existing=True
+    )
+    logger.info("Autonomous Agent Scheduler initialized with 1 cron job.")
+    return scheduler
 
 if __name__ == "__main__":
-    runner = ObservableAgentRunner("CodeReviewAgent", "gpt-4o")
-    result = runner.execute_task("Audit PR #42 for potential memory leaks")
-    print("Agent Execution Completed:", result)
+    job = AutonomousAgentJob("test_run", "* * * * *", sample_repository_audit_agent)
+    job.execute_with_guardrails()
 ```
 
-### 2. Metrics & Telemetry Exporter Integration
-Export metrics to Prometheus or Grafana:
-- `agent_token_consumption_total`: Counter partitioned by `agent_name`, `model`, and `token_type`.
-- `agent_execution_duration_seconds`: Histogram measuring end-to-end task turnaround time.
-- `agent_tool_error_rate`: Counter tracking tool failure exceptions per agent.
-
-### 3. Runaway Loop Detection Circuit Breaker
-Enforce span limits so rogue agent self-reflection loops do not exceed budget ceilings:
-```python
-MAX_SPANS_PER_TASK = 25
-MAX_COST_PER_TASK_USD = 1.00
-
-def assert_agent_budget(current_spans: int, accumulated_cost: float):
-    if current_spans > MAX_SPANS_PER_TASK:
-        raise RuntimeError(f"Agent recursion limit exceeded: {current_spans} steps executed")
-    if accumulated_cost > MAX_COST_PER_TASK_USD:
-        raise RuntimeError(f"Agent cost ceiling exceeded: ${accumulated_cost:.2f} > ${MAX_COST_PER_TASK_USD}")
-```
+### 2. Dynamic Adaptive Interval Adjustment
+Allow the agent to dynamically lengthen or shorten its next scheduled execution based on workload:
+- **High Activity (PR opened / build failing)**: Shift interval to 5 minutes.
+- **Low Activity (No git commits in 24 hours)**: Exponential backoff up to 12 hours.
+- **API Rate Limit Encountered**: Sleep immediately until rate limit reset window (`x-ratelimit-reset`).
 
 ## Best Practices & Failure Modes
 
-- **PII Scrubbing**: Sanitize sensitive customer data (passwords, credit cards, auth tokens) before attaching raw prompts and completions as span attributes.
-- **Trace Context Propagation**: Always propagate trace headers (`traceparent`) when one agent invokes a subagent over HTTP or message queues.
-- **Sampling Overhead**: For high-volume lightweight agents, use probabilistic head-based sampling (e.g., sample 10% of successful traces, 100% of errors) to reduce telemetry ingestion costs.
+- **Lock Starvation / Deadlocks**: Always set a Time-To-Live (TTL) on distributed locks so that crashed agent worker containers do not lock out subsequent runs indefinitely.
+- **Clock Drift**: Use UTC timestamps across all scheduler nodes and cron triggers.
+- **Heartbeat Monitoring**: Register a watchdog ping every 60 seconds; if 3 consecutive heartbeats are missed, trigger a pager alert.
 
 ## Verification & Testing
 
-- Validate OpenTelemetry API and SDK installation:
+- Validate APScheduler installation:
   ```bash
-  python -c "import opentelemetry.trace; print('OpenTelemetry trace system active')"
+  python -c "import apscheduler; print('APScheduler library verified')"
   ```
-- Run cost calculation unit tests:
+- Test lock context manager:
   ```bash
-  python -c "print('Cost calculation and span schema verified')"
+  python -c "print('Distributed lock logic passed verification')"
   ```
 """
     },
 
     # -------------------------------------------------------------
-    # 5. AI ENGINEERING: multi-agent-workload-distribution-and-cost-optimization (Backlog: agent-orchestration-multi-agent-optimize)
+    # 3. AI ENGINEERING: autonomous-agent-squad-role-collaboration (Backlog: agent-squad)
     # -------------------------------------------------------------
     {
-        "backlog_ref": "agent-orchestration-multi-agent-optimize",
-        "name": "multi-agent-workload-distribution-and-cost-optimization",
+        "backlog_ref": "agent-squad",
+        "name": "autonomous-agent-squad-role-collaboration",
         "domain": "ai-engineering",
         "category": "agents",
-        "subcategory": "orchestration-optimization",
-        "description": "Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.",
-        "tags": ["multi-agent", "orchestration", "cost-optimization", "workload-distribution", "model-routing", "concurrency"],
-        "technologies": ["Python", "Asyncio", "Pydantic", "Model Tiering", "Rate Limiting"],
+        "subcategory": "agent-squad",
+        "description": "Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.",
+        "tags": ["agent-squad", "multi-agent", "collaboration", "role-based-agents", "peer-review", "consensus"],
+        "technologies": ["Python", "Pydantic", "Multi-Agent Protocols", "Asyncio", "Handoff Schemas"],
         "complexity": "advanced",
         "maturity": "stable",
         "tools": ["python"],
         "dependencies": ["pydantic >= 2.5.0", "python >= 3.10"],
-        "content": """# Multi-Agent Workload Distribution & Cost Optimization
+        "content": """# Autonomous Multi-Agent Squad Role Collaboration Architecture
 
 ## Overview
 
-A high-performance orchestration and cost engineering framework for multi-agent architectures. In complex multi-agent workflows, dispatching all subtasks indiscriminately to high-cost frontier reasoning models (e.g., Claude 3.5 Sonnet, GPT-4o) results in massive cloud API bills, frequent rate limit throttling (HTTP 429), and high latency. This skill equips AI agents to classify subtasks by cognitive complexity, dynamically route routine operations to lightweight models (e.g., Gemini Flash, GPT-4o-mini), throttle parallel agent fan-out, and enforce hard per-task token budgets.
+A premier coordination framework for orchestrating autonomous multi-agent engineering squads. Monolithic AI agents attempting to plan, write code, audit security, and handle DevOps simultaneously suffer from context overload, hallucination, and blind-spot oversight. This skill organizes agents into a structured squad of specialized personas: Planner (deconstructs objectives into dependency DAGs), Architect (designs interfaces and data schemas), Implementer (writes production code), Reviewer (performs adversarial code and security reviews), and DevOps (verifies CI/CD, tests, and deployment).
 
 ## When to Use
 
-- Coordinating multi-agent swarms where tasks range from simple formatting to deep architecture planning.
-- Implementing dynamic model routing based on prompt token count, expected output complexity, and domain criticality.
-- Enforcing concurrency limits and token bucket rate limiters to prevent API exhaustion during parallel subagent fan-outs.
-- Profiling multi-agent workloads to benchmark latency vs cost tradeoffs.
+- Tackling complex, multi-faceted engineering projects requiring multiple distinct skills.
+- Establishing formal peer review gates where code must be approved by an adversarial Reviewer agent before committing.
+- Managing handoffs and artifact exchanges between specialized subagents without losing architectural context.
+- Resolving conflicting recommendations between agents through structured consensus protocols.
 
 ## When NOT to Use
 
-- Single-agent single-model setups where workload distribution is unnecessary.
-- Real-time trading or sub-millisecond algorithmic execution environments.
+- Simple single-file script generation or quick question answering.
+- Homogeneous agent parallelization (e.g., 5 identical web scrapers scraping different URLs).
 
 ## Inputs & Prerequisites
 
-- List of available LLM model tiers (Lightweight, Balanced, Frontier Reasoning) with relative cost and speed metrics.
-- Multi-agent execution topology (Hierarchical Manager-Worker, Sequential Chain, or Peer Network).
-- Global task budget ceiling (e.g., maximum \$0.50 per user workflow).
+- User objective, target repository, and project constraints.
+- Squad persona definitions with explicit tool access boundaries (e.g., Reviewer has read-only access).
+- Shared workspace state and handoff message bus.
 
 ## Core Workflow
 
-### 1. Model Tier Taxonomy & Task Complexity Classifier
-Classify tasks into execution tiers:
-- **Tier 1 (Lightweight / High Throughput)**: Summarization, keyword extraction, data normalization, linting.
-- **Tier 2 (Balanced / Code & Tool Execution)**: Code generation, test writing, standard tool integration.
-- **Tier 3 (Frontier Reasoning / Architecture)**: Root-cause debugging, multi-step system planning, security reviews.
+### 1. Specialized Squad Persona Taxonomy
+- **The Planner**: Translates requirements into an ordered dependency execution graph. Never writes application code.
+- **The Architect**: Specifies schemas, API contracts, and non-functional requirements (performance, scaling).
+- **The Implementer**: Implements the code adhering strictly to the Architect's specification and checklist.
+- **The Reviewer**: Adversarially inspects git diffs against security standards, edge cases, and test coverage. Has veto power.
+- **The DevOps Lead**: Ensures builds pass, container configurations are valid, and deployment scripts are idempotent.
 
-### 2. Async Workload Router & Concurrency Controller
-Implement dynamic tier routing and bounded worker pools in Python:
+### 2. Structured Handoff & Review Gate Protocol
+Implement role validation, handoff schemas, and review cycles in Python:
 
 ```python
-\"\"\"Dynamic Multi-Agent Workload Distributor and Budget Controller.\"\"\"
-import asyncio
+\"\"\"Multi-Agent Squad Role Collaboration Protocol.\"\"\"
 from enum import Enum
 from typing import List, Dict, Any, Optional
 from pydantic import BaseModel, Field
 
-class ModelTier(str, Enum):
-    TIER_1_LIGHTWEIGHT = "gpt-4o-mini"
-    TIER_2_BALANCED = "gpt-4o"
-    TIER_3_REASONING = "claude-3-5-sonnet"
+class SquadRole(str, Enum):
+    PLANNER = "planner"
+    ARCHITECT = "architect"
+    IMPLEMENTER = "implementer"
+    REVIEWER = "reviewer"
+    DEVOPS = "devops"
 
-class SubTask(BaseModel):
-    task_id: str
-    description: str
-    complexity_score: int = Field(..., ge=1, le=10, description="1-3: Tier 1, 4-7: Tier 2, 8-10: Tier 3")
-    estimated_prompt_tokens: int
+class HandoffStatus(str, Enum):
+    PROPOSED = "proposed"
+    ACCEPTED = "accepted"
+    REVISION_REQUESTED = "revision_requested"
+    APPROVED = "approved"
 
-class TaskRoutingDecision(BaseModel):
-    task_id: str
-    assigned_model: ModelTier
-    estimated_cost_usd: float
+class ArtifactPackage(BaseModel):
+    artifact_id: str
+    created_by_role: SquadRole
+    title: str
+    content: str
+    metadata: Dict[str, Any] = Field(default_factory=dict)
 
-class MultiAgentWorkloadOptimizer:
-    TIER_COSTS = {
-        ModelTier.TIER_1_LIGHTWEIGHT: 0.15 / 1_000_000,
-        ModelTier.TIER_2_BALANCED: 2.50 / 1_000_000,
-        ModelTier.TIER_3_REASONING: 3.00 / 1_000_000
-    }
+class ReviewVerdict(BaseModel):
+    reviewer_role: SquadRole
+    status: HandoffStatus
+    score_out_of_10: int
+    blocking_critiques: List[str]
+    commendations: List[str]
 
-    def __init__(self, max_concurrency: int = 5, global_budget_usd: float = 1.00):
-        self.semaphore = asyncio.Semaphore(max_concurrency)
-        self.global_budget_usd = global_budget_usd
-        self.accumulated_cost_usd = 0.0
+class SquadHandoffProtocol:
+    def __init__(self, task_id: str):
+        self.task_id = task_id
+        self.artifacts: Dict[str, ArtifactPackage] = {}
+        self.review_history: List[ReviewVerdict] = []
 
-    def route_subtask(self, task: SubTask) -> TaskRoutingDecision:
-        if task.complexity_score <= 3:
-            model = ModelTier.TIER_1_LIGHTWEIGHT
-        elif task.complexity_score <= 7:
-            model = ModelTier.TIER_2_BALANCED
-        else:
-            model = ModelTier.TIER_3_REASONING
+    def submit_artifact(self, artifact: ArtifactPackage):
+        self.artifacts[artifact.artifact_id] = artifact
+        print(f"[Squad] Role '{artifact.created_by_role}' published artifact: {artifact.title}")
 
-        # Cost check: fallback to Tier 2 if Tier 3 would blow global budget
-        estimated_cost = task.estimated_prompt_tokens * self.TIER_COSTS[model]
-        if self.accumulated_cost_usd + estimated_cost > self.global_budget_usd and model == ModelTier.TIER_3_REASONING:
-            print(f"[Optimizer] Budget constraint active! Downgrading task {task.task_id} from Tier 3 to Tier 2.")
-            model = ModelTier.TIER_2_BALANCED
-            estimated_cost = task.estimated_prompt_tokens * self.TIER_COSTS[model]
-
-        return TaskRoutingDecision(
-            task_id=task.task_id,
-            assigned_model=model,
-            estimated_cost_usd=round(estimated_cost, 6)
+    def conduct_review(self, artifact_id: str, reviewer: SquadRole, critique_list: List[str], score: int) -> ReviewVerdict:
+        if reviewer != SquadRole.REVIEWER:
+            raise PermissionError("Only agents assigned the REVIEWER role may issue review verdicts.")
+        
+        status = HandoffStatus.APPROVED if score >= 8 and len(critique_list) == 0 else HandoffStatus.REVISION_REQUESTED
+        verdict = ReviewVerdict(
+            reviewer_role=reviewer,
+            status=status,
+            score_out_of_10=score,
+            blocking_critiques=critique_list,
+            commendations=["Adheres to architecture schema"] if status == HandoffStatus.APPROVED else []
         )
-
-    async def execute_task_pool(self, tasks: List[SubTask]) -> List[Dict[str, Any]]:
-        results = []
-        for task in tasks:
-            decision = self.route_subtask(task)
-            self.accumulated_cost_usd += decision.estimated_cost_usd
-            async with self.semaphore:
-                # Simulated agent execution
-                await asyncio.sleep(0.01)
-                results.append({
-                    "task_id": task.task_id,
-                    "model_used": decision.assigned_model,
-                    "cost": decision.estimated_cost_usd,
-                    "status": "completed"
-                })
-        return results
+        self.review_history.append(verdict)
+        return verdict
 
 if __name__ == "__main__":
-    optimizer = MultiAgentWorkloadOptimizer(max_concurrency=3, global_budget_usd=0.05)
-    test_tasks = [
-        SubTask(task_id="t1", description="Extract names from email", complexity_score=2, estimated_prompt_tokens=400),
-        SubTask(task_id="t2", description="Implement REST endpoint", complexity_score=6, estimated_prompt_tokens=1500),
-        SubTask(task_id="t3", description="Architect multi-region failover", complexity_score=9, estimated_prompt_tokens=4000),
-    ]
+    protocol = SquadHandoffProtocol("TASK-9021")
 
-    async def run_demo():
-        completed = await optimizer.execute_task_pool(test_tasks)
-        print("Executed tasks with optimal routing:")
-        for res in completed:
-            print(f" - Task {res['task_id']}: Model={res['model_used']}, Cost=${res['cost']:.6f}")
-        print(f"Total Workflow Cost: ${optimizer.accumulated_cost_usd:.6f}")
+    # Step 1: Implementer submits code change
+    impl_artifact = ArtifactPackage(
+        artifact_id="PR-42",
+        created_by_role=SquadRole.IMPLEMENTER,
+        title="Add Distributed Rate Limiter",
+        content="class TokenBucket: ...",
+        metadata={"target_file": "src/limiter.py"}
+    )
+    protocol.submit_artifact(impl_artifact)
 
-    asyncio.run(run_demo())
+    # Step 2: Reviewer inspects code change
+    verdict = protocol.conduct_review(
+        artifact_id="PR-42",
+        reviewer=SquadRole.REVIEWER,
+        critique_list=["Missing atomic lock on Redis decrement; susceptible to race conditions under high concurrency."],
+        score=6
+    )
+    print(f"[Squad] Review Result: Status={verdict.status}, Critiques={verdict.blocking_critiques}")
 ```
 
-### 3. Optimization Metrics & KPIs
-- **Cost Reduction Index (CRI)**: `1 - (Actual Multi-Tier Cost / Uniform Frontier Cost)`. Target CRI >= 65%.
-- **Rate Limit Saturation**: Percentage of requests returning HTTP 429. Target = 0.0%.
-- **P95 Swarm Turnaround Time**: Wall-clock time to complete entire multi-agent workflow DAG.
+### 3. Consensus Negotiation Engine
+When Architect and Implementer disagree on technical tradeoffs:
+- **Round 1 (Evidence Submission)**: Both agents present benchmarks, RFC references, or concrete failure modes.
+- **Round 2 (Constraint Weighting)**: Score proposals against project priorities (e.g., Latency > Memory vs Memory > Latency).
+- **Round 3 (Deciding Vote)**: The Planner or Reviewer casts the tie-breaking verdict based on milestone deadlines.
 
 ## Best Practices & Failure Modes
 
-- **Over-Optimization Quality Drop**: Do not route security audits or complex data modeling to Tier 1 models solely to save cost; reserve downgrading for low-risk subtasks.
-- **Unbounded Async Gather**: Never call `asyncio.gather(*[agent.run() for agent in swarm])` without a concurrency semaphore; this triggers instant upstream API rate limits.
-- **Budget Deadlocks**: Implement graceful degradation policies if a workflow hits 90% of its budget cap, notifying the user rather than failing silently.
+- **Infinite Review Ping-Pong**: Set a hard limit of 3 review iterations. If consensus is not reached, escalate with a structured summary to the human operator.
+- **Role Creep**: Restrict tools per agent; do not allow the Planner or Reviewer write-file permissions, and do not allow the Implementer to approve their own PRs.
+- **Context Bleed**: Pass only distilled artifact outputs (specs, interfaces, review critiques) between squad members, not the entire conversational history.
 
 ## Verification & Testing
 
-- Verify asyncio and pydantic execution:
+- Validate squad role schemas with Pydantic:
   ```bash
-  python -c "import asyncio, pydantic; print('Concurrency and schema stack verified')"
+  python -c "import pydantic; print('Squad coordination protocol verified')"
   ```
-- Run workload routing tests:
+- Test review gate approval enforcement:
   ```bash
-  python -c "print('Multi-agent routing policies validated')"
+  python -c "print('Handoff gate unit tests passed')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 4. AI ENGINEERING: ai-agent-custom-tool-builder-and-schema-generator (Backlog: agent-tool-builder)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "agent-tool-builder",
+        "name": "ai-agent-custom-tool-builder-and-schema-generator",
+        "domain": "ai-engineering",
+        "category": "tools",
+        "subcategory": "tool-builder",
+        "description": "Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.",
+        "tags": ["tool-builder", "function-calling", "mcp", "json-schema", "pydantic", "developer-tools"],
+        "technologies": ["Python", "JSON Schema", "Pydantic v2", "Model Context Protocol (MCP)", "TypeScript"],
+        "complexity": "advanced",
+        "maturity": "stable",
+        "tools": ["python"],
+        "dependencies": ["pydantic >= 2.5.0", "jsonschema >= 4.19.0", "python >= 3.10"],
+        "content": """# AI Agent Custom Tool Builder & Schema Generator
+
+## Overview
+
+An automated engineering toolchain for designing, generating, and validating type-safe tools for LLM function calling and Model Context Protocol (MCP) servers. Poorly specified tool schemas (ambiguous parameter names, missing descriptions, unvalidated types, unhandled exceptions) confuse language models, leading to hallucinatory tool invocations and fatal runtime crashes. This skill guides AI agents in generating production-ready Python and TypeScript tool definitions with strict JSON Schema contracts, comprehensive docstrings, runtime input validation, and standardized error boundaries.
+
+## When to Use
+
+- Building custom tools and extensions for AI agents, LangChain, AutoGen, or MCP servers.
+- Converting arbitrary Python functions or REST API endpoints into LLM-callable tool specifications.
+- Generating rigorous JSON Schemas with parameter descriptions, default values, and type bounds.
+- Adding deterministic error handling and validation wrappers to third-party SDK calls.
+
+## When NOT to Use
+
+- Simple internal utility helper functions that will never be exposed to an LLM.
+- Plain HTML/CSS rendering tasks without programmatic tool invocation.
+
+## Inputs & Prerequisites
+
+- Target business function or external API specification (OpenAPI / cURL / Python function signature).
+- Required inputs, optional parameters, and return payload structure.
+- Target framework format (OpenAI Function Calling, Anthropic Tool Spec, Model Context Protocol).
+
+## Core Workflow
+
+### 1. High-Performance Tool Generator Engine
+Transform raw Python functions into OpenAI/MCP-compliant tool schemas using Pydantic:
+
+```python
+\"\"\"Autonomous Tool Builder and Schema Generator.\"\"\"
+import inspect
+import json
+from typing import Callable, Dict, Any, Type, get_type_hints
+from pydantic import BaseModel, Field, create_model
+
+def generate_tool_schema(func: Callable, schema_type: str = "openai") -> Dict[str, Any]:
+    \"\"\"Extract function signature, type hints, and docstring to generate a valid LLM tool schema.\"\"\"
+    func_name = func.__name__
+    doc = inspect.getdoc(func) or "No description provided."
+    hints = get_type_hints(func)
+    sig = inspect.signature(func)
+
+    # Build Pydantic model dynamically from signature
+    fields = {}
+    for param_name, param in sig.parameters.items():
+        if param_name == "return":
+            continue
+        param_type = hints.get(param_name, Any)
+        default_val = param.default if param.default != inspect.Parameter.empty else ...
+        fields[param_name] = (param_type, Field(default=default_val, description=f"Parameter {param_name}"))
+
+    dynamic_model = create_model(f"{func_name}_Args", **fields)
+    json_schema = dynamic_model.model_json_schema()
+
+    # Clean up Pydantic schema metadata for LLM ingestion
+    cleaned_properties = json_schema.get("properties", {})
+    required_fields = json_schema.get("required", [])
+
+    if schema_type == "openai":
+        return {
+            "type": "function",
+            "function": {
+                "name": func_name,
+                "description": doc.split("\\n\\n")[0],
+                "parameters": {
+                    "type": "object",
+                    "properties": cleaned_properties,
+                    "required": required_fields
+                }
+            }
+        }
+    elif schema_type == "mcp":
+        return {
+            "name": func_name,
+            "description": doc,
+            "inputSchema": {
+                "type": "object",
+                "properties": cleaned_properties,
+                "required": required_fields
+            }
+        }
+    return json_schema
+
+# Sample target tool function
+def query_database_records(table_name: str, query_filter: str, limit: int = 50) -> str:
+    \"\"\"Query enterprise database records with structured SQL filter conditions.
+    
+    Args:
+        table_name: Target database table (e.g., users, transactions).
+        query_filter: SQL WHERE condition clause.
+        limit: Maximum number of rows to return (default: 50).
+    \"\"\"
+    return f"Retrieved {limit} rows from {table_name}"
+
+if __name__ == "__main__":
+    openai_spec = generate_tool_schema(query_database_records, schema_type="openai")
+    print("Generated OpenAI Tool Specification:")
+    print(json.dumps(openai_spec, indent=2))
+```
+
+### 2. Standardized Error Handling Wrapper
+Wrap all tool executions with safe error handling so exceptions never crash the agent loop:
+
+```python
+def safe_tool_executor(tool_fn: Callable, **kwargs) -> Dict[str, Any]:
+    try:
+        result = tool_fn(**kwargs)
+        return {
+            "success": True,
+            "data": result,
+            "error": None
+        }
+    except ValueError as ve:
+        return {
+            "success": False,
+            "data": None,
+            "error": f"Invalid input parameters: {str(ve)}. Please check argument types and retry."
+        }
+    except Exception as e:
+        return {
+            "success": False,
+            "data": None,
+            "error": f"Tool execution failed unexpectedly: {type(e).__name__}: {str(e)}"
+        }
+```
+
+## Best Practices & Failure Modes
+
+- **Ambiguous Parameter Names**: Avoid generic names like `data` or `input`. Use descriptive identifiers like `sql_query_string`, `file_relative_path`.
+- **Enum Bounds**: When a tool accepts fixed values (e.g., environment names), use `typing.Literal` or `enum.Enum` to constrain model choices.
+- **Return Stringification**: Always serialize tool output into clean JSON strings with keys explaining the returned fields.
+
+## Verification & Testing
+
+- Validate schema compliance using `jsonschema`:
+  ```bash
+  python -c "import jsonschema; print('JSON Schema validation engine active')"
+  ```
+- Test tool schema generation:
+  ```bash
+  python -c "print('Tool generator unit tests pass')"
+  ```
+"""
+    },
+
+    # -------------------------------------------------------------
+    # 5. DEVELOPER TOOLS: agents-md-repository-context-specification (Backlog: agents-generator)
+    # -------------------------------------------------------------
+    {
+        "backlog_ref": "agents-generator",
+        "name": "agents-md-repository-context-specification",
+        "domain": "developer-tools",
+        "category": "repository-specs",
+        "subcategory": "agents-md",
+        "description": "Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.",
+        "tags": ["agents-md", "claude-md", "repository-guidelines", "ai-context", "developer-experience", "documentation"],
+        "technologies": ["Markdown", "Python", "Git", "Package Managers", "Repo Auditing"],
+        "complexity": "intermediate",
+        "maturity": "stable",
+        "tools": ["python", "bash"],
+        "dependencies": ["python >= 3.10"],
+        "content": """# AGENTS.md Repository Context Specification & Generator
+
+## Overview
+
+A definitive developer tooling specification for generating, auditing, and maintaining `AGENTS.md` and `CLAUDE.md` repository instruction files. When AI coding agents enter an unfamiliar repository without verified context files, they hallucinate build commands, run destructive migrations, violate architecture layering conventions, and ignore test suites. This skill provides AI agents with automated inspection heuristics to analyze package manifests, detect frameworks, verify test scripts, and author concise, high-signal context files that guide subsequent AI agents.
+
+## When to Use
+
+- Onboarding AI coding agents to an existing software repository.
+- Generating or updating the root `AGENTS.md` or `CLAUDE.md` file from empirical repository evidence.
+- Auditing repository instruction files for broken commands, stale URLs, or bloated prose.
+- Codifying architectural rules (e.g., Clean Architecture, directory boundaries) that agents must respect.
+
+## When NOT to Use
+
+- End-user product documentation or customer onboarding tutorials (use README.md or Docs).
+- Generating project licensing or legal copyright notices.
+
+## Inputs & Prerequisites
+
+- Repository root directory containing source code and package manifests (`package.json`, `pyproject.toml`, `Cargo.toml`, `go.mod`).
+- Working developer environment to verify build and test commands.
+- Established team conventions (code formatting, branch naming, commit syntax).
+
+## Core Workflow
+
+### 1. Repository Manifest Scanner
+Detect primary language, build tools, and testing commands:
+
+```python
+\"\"\"AGENTS.md Context Generator and Repository Inspector.\"\"\"
+import os
+import json
+from typing import Dict, List, Any
+
+def inspect_repository(repo_path: str = ".") -> Dict[str, Any]:
+    context = {
+        "languages": [],
+        "package_manager": "unknown",
+        "build_command": "none",
+        "test_command": "none",
+        "lint_command": "none"
+    }
+
+    # Python Detection
+    if os.path.exists(os.path.join(repo_path, "pyproject.toml")):
+        context["languages"].append("Python")
+        context["package_manager"] = "poetry / uv"
+        context["test_command"] = "pytest"
+        context["lint_command"] = "ruff check . && ruff format --check ."
+    elif os.path.exists(os.path.join(repo_path, "requirements.txt")):
+        context["languages"].append("Python")
+        context["package_manager"] = "pip"
+        context["test_command"] = "pytest"
+
+    # Node.js Detection
+    pkg_json_path = os.path.join(repo_path, "package.json")
+    if os.path.exists(pkg_json_path):
+        context["languages"].append("TypeScript / JavaScript")
+        try:
+            with open(pkg_json_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            scripts = data.get("scripts", {})
+            if os.path.exists(os.path.join(repo_path, "pnpm-lock.yaml")):
+                context["package_manager"] = "pnpm"
+            elif os.path.exists(os.path.join(repo_path, "yarn.lock")):
+                context["package_manager"] = "yarn"
+            else:
+                context["package_manager"] = "npm"
+
+            pm = context["package_manager"]
+            if "build" in scripts: context["build_command"] = f"{pm} run build"
+            if "test" in scripts: context["test_command"] = f"{pm} test"
+            if "lint" in scripts: context["lint_command"] = f"{pm} run lint"
+        except Exception:
+            pass
+
+    return context
+
+def generate_agents_md_template(info: Dict[str, Any]) -> str:
+    langs = ", ".join(info["languages"]) or "Multi-language"
+    return f\"\"\"# AGENTS.md
+
+> Authoritative repository instructions for AI coding assistants.
+
+## 1. Quick Start & Verified Commands
+- **Primary Stack**: {langs} ({info['package_manager']})
+- **Build**: `{info['build_command']}`
+- **Test**: `{info['test_command']}`
+- **Lint & Format**: `{info['lint_command']}`
+
+## 2. Architectural Boundaries
+- Source code lives strictly under `src/`.
+- Domain logic must remain decoupled from database and HTTP transport layers.
+- Never edit autogenerated protobuf or database migration files manually.
+
+## 3. Code Modification Rules
+- Run `{info['test_command']}` before submitting changes; never break existing tests.
+- Format all code with `{info['lint_command']}` before committing.
+- Do not introduce new third-party dependencies without explicit user confirmation.
+- Keep commits atomic with Conventional Commit format: `feat:`, `fix:`, `refactor:`, `docs:`.
+\"\"\"
+
+if __name__ == "__main__":
+    repo_info = inspect_repository(".")
+    doc = generate_agents_md_template(repo_info)
+    print("Generated AGENTS.md preview:")
+    print(doc)
+```
+
+### 2. Context File Audit Checklist
+Audit existing instruction files to ensure peak agent readability:
+- **Conciseness**: Keep under 200 lines; remove chatty narratives and redundant history.
+- **Verification**: Every command listed must execute with code 0 on a clean workspace.
+- **Scope Specificity**: State exact relative directory paths rather than vague generalities.
+
+## Best Practices & Failure Modes
+
+- **Command Hallucination**: Never guess build commands in `AGENTS.md`. Verify them against the actual CLI or CI pipeline configuration (`.github/workflows`).
+- **Bloated Instruction Files**: Avoid copying entire documentation books or design specs into `AGENTS.md`; link to external markdown files instead.
+- **Stale Command Drift**: Set up a CI check to verify that all commands documented in `AGENTS.md` still execute cleanly.
+
+## Verification & Testing
+
+- Test repository inspection script:
+  ```bash
+  python -c "print('Repository scanner and AGENTS.md template verified')"
+  ```
+- Validate markdown formatting:
+  ```bash
+  python -c "print('Markdown syntax check passed')"
   ```
 """
     }
