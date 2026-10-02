@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,041 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,042 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -641,6 +641,7 @@
 | [frontend-security-coder](skills/frontend/ui-development/frontend_security_co/frontend-security-coder/SKILL.md) | `frontend` | `ui-development` | `frontend_security_co` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend security coder. Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns. |
 | [frontend-seo](skills/frontend/ui-development/frontend_seo/frontend-seo/SKILL.md) | `frontend` | `ui-development` | `frontend_seo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend seo. A portable, framework-agnostic SEO system for any React or React Native-for-web frontend. |
 | [frontend-slides](skills/frontend/ui-development/frontend_slides/frontend-slides/SKILL.md) | `frontend` | `ui-development` | `frontend_slides` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for frontend slides. Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. |
+| [full-output-enforcement](skills/frontend/ui-development/full_output_enforcem/full-output-enforcement/SKILL.md) | `frontend` | `ui-development` | `full_output_enforcem` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code. |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |

@@ -14425,6 +14425,28 @@
     "maturity": "stable"
   },
   {
+    "name": "full-output-enforcement",
+    "path": "skills/frontend/ui-development/full_output_enforcem/full-output-enforcement",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "full_output_enforcem",
+    "description": "Use this skill to design, implement, and operate production workflows for full output enforcement. Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "full",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Full Output Enforcement",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
