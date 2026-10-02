@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,084** skills across structured domains, categories, and subcategories.
+Master navigation for **1,085** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (376 skills)
+## Ai Engineering (377 skills)
 
 ### Agents (45 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -196,7 +196,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Geo_Llmstxt** (1):
   - [geo-llmstxt](../skills/ai-engineering/llm-ops/geo_llmstxt/geo-llmstxt/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo llmstxt. Analyzes and generates llms.txt files -- the emerging standard for helping
 
-### Models (272 skills)
+### Models (273 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -722,6 +722,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [geo-fundamentals](../skills/ai-engineering/models/geo_fundamentals/geo-fundamentals/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo fundamentals. Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).
 - **Geo_Platform_Optimiz** (1):
   - [geo-platform-optimizer](../skills/ai-engineering/models/geo_platform_optimiz/geo-platform-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for geo platform optimizer. Platform-specific AI search optimization — audit and optimize for Google
+- **Ghidra_Reverse** (1):
+  - [ghidra-reverse](../skills/ai-engineering/models/ghidra_reverse/ghidra-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for ghidra reverse. Free/open reverse engineering with Ghidra (headless or GUI): decompilation, cross-references, scripting, and optional Ghidra MCP workflows when IDA is unavailable.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

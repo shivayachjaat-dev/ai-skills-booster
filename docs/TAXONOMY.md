@@ -346,6 +346,7 @@ AI_Skills_Booster/
 │   │   ├── geo_crawlers/ (1 skills)
 │   │   ├── geo_fundamentals/ (1 skills)
 │   │   ├── geo_platform_optimiz/ (1 skills)
+│   │   ├── ghidra_reverse/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

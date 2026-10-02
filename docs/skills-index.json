@@ -7563,6 +7563,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ghidra-reverse",
+    "path": "skills/ai-engineering/models/ghidra_reverse/ghidra-reverse",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ghidra_reverse",
+    "description": "Use this skill to design, implement, and operate production workflows for ghidra reverse. Free/open reverse engineering with Ghidra (headless or GUI): decompilation, cross-references, scripting, and optional Ghidra MCP workflows when IDA is unavailable.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ghidra",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ghidra Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
