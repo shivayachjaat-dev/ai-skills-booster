@@ -43893,6 +43893,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-aeo-keyword-research",
+    "path": "skills/software-engineering/architecture/patterns/seo-aeo-keyword-research",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for seo aeo keyword research. Researches and prioritises keywords from the site context and live search intent, including problem queries, question queries, difficulty tiers, and a content map.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Aeo Keyword Research",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
