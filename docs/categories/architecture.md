@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **276 skills** available in this category.
+> **277 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -279,4 +279,5 @@
 | [simplify-code](../../skills/software-engineering/architecture/patterns/simplify-code/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for simplify code. Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. |
 | [skill-installer](../../skills/software-engineering/architecture/patterns/skill-installer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill installer. Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao. |
 | [skill-router](../../skills/software-engineering/architecture/patterns/skill-router/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill router. Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and recommends the best skill(s) from the installed library for their goal. |
+| [skill-suggester](../../skills/software-engineering/architecture/patterns/skill-suggester/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill suggester. Scan prompt history for recurring patterns and unmet needs, then propose new skills or command templates |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

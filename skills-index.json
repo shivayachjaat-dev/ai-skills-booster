@@ -45103,6 +45103,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-suggester",
+    "path": "skills/software-engineering/architecture/patterns/skill-suggester",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for skill suggester. Scan prompt history for recurring patterns and unmet needs, then propose new skills or command templates",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Suggester",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
