@@ -843,7 +843,8 @@ AI_Skills_Booster/
 │   │   ├── marketing_plan/ (1 skills)
 │   │   ├── product_marketing/ (1 skills)
 │   │   ├── product_marketing_co/ (1 skills)
-│   │   └── revops/ (1 skills)
+│   │   ├── revops/ (1 skills)
+│   │   └── screenshots/ (1 skills)
 │   ├── human-resources/
 │   │   ├── alumni-tracker/ (1 skills)
 │   │   └── performance-management/ (1 skills)

@@ -18192,6 +18192,28 @@
     "maturity": "stable"
   },
   {
+    "name": "screenshots",
+    "path": "skills/business/growth/screenshots/screenshots",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "screenshots",
+    "description": "Use this skill to design, implement, and operate production workflows for screenshots. Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Product Hunt, social media, landing pages, or documentation.",
+    "tags": [
+      "business",
+      "growth",
+      "screenshots",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Screenshots",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",
