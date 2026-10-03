@@ -20924,6 +20924,28 @@
     "maturity": "stable"
   },
   {
+    "name": "production-runtime-certification",
+    "path": "skills/devops/ci-cd/production_runtime_c/production-runtime-certification",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "production_runtime_c",
+    "description": "Use this skill to design, implement, and operate production workflows for production runtime certification. Certify a deployed service with fresh evidence across source, CI, migrations, runtime health, readiness, and critical routes; use before declaring a release production-ready.",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "production",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Production Runtime Certification",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "amazon-alexa",
     "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
     "domain": "devops",

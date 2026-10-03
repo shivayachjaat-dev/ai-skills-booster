@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,810** skills across structured domains, categories, and subcategories.
+Master navigation for **1,811** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (621 skills)
 
@@ -2083,9 +2083,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (106 skills)
+## Devops (107 skills)
 
-### Ci Cd (43 skills)
+### Ci Cd (44 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -2174,6 +2174,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [github-actions-ci-pipeline-optimization](../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) — Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions).
 - **Performance_Tuning** (1):
   - [performance-tuning](../skills/devops/ci-cd/performance_tuning/performance-tuning/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance tuning. Optimize Linux system performance. Configure kernel parameters, analyze
+- **Production_Runtime_C** (1):
+  - [production-runtime-certification](../skills/devops/ci-cd/production_runtime_c/production-runtime-certification/SKILL.md) — Use this skill to design, implement, and operate production workflows for production runtime certification. Certify a deployed service with fresh evidence across source, CI, migrations, runtime health, readiness, and critical routes; use before declaring a release production-ready.
 
 ### Cloud Infrastructure (42 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
