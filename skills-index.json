@@ -44773,6 +44773,28 @@
     "maturity": "stable"
   },
   {
+    "name": "signup-flow-cro",
+    "path": "skills/software-engineering/architecture/patterns/signup-flow-cro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for signup flow cro. You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "signup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Signup Flow Cro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
