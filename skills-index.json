@@ -25095,6 +25095,28 @@
     "maturity": "stable"
   },
   {
+    "name": "redesign-existing-projects",
+    "path": "skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "redesign_existing_pr",
+    "description": "Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "redesign",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Redesign Existing Projects",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
