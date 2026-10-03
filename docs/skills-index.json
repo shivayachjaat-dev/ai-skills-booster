@@ -28659,6 +28659,28 @@
     "maturity": "stable"
   },
   {
+    "name": "c-engineering-workflow",
+    "path": "skills/frontend/ui-ux/c/c-engineering-workflow",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "c",
+    "description": "Use this skill to design, implement, and operate production workflows for c engineering workflow. Language-specific super-code guidelines for c.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "c",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "C Engineering Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cc-skill-project-guidelines-example",
     "path": "skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example",
     "domain": "frontend",

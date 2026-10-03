@@ -1374,6 +1374,7 @@ AI_Skills_Booster/
 │   │   ├── burpsuite_project_pa/ (1 skills)
 │   │   ├── business_continuity/ (1 skills)
 │   │   ├── busybox_on_windows/ (1 skills)
+│   │   ├── c/ (1 skills)
 │   │   ├── cc_skill_project_gui/ (1 skills)
 │   │   ├── cdk_patterns/ (1 skills)
 │   │   ├── changelog_updates/ (1 skills)

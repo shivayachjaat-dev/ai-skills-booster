@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,140** skills across structured domains, categories, and subcategories.
+Master navigation for **2,141** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (426 skills)
+## Frontend (427 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (258 skills)
+### Ui Ux (259 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2975,6 +2975,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [business-continuity](../skills/frontend/ui-ux/business_continuity/business-continuity/SKILL.md) — Use this skill to develop business continuity plans and impact analysis. Implement BCP
 - **Busybox_On_Windows** (1):
   - [busybox-on-windows](../skills/frontend/ui-ux/busybox_on_windows/busybox-on-windows/SKILL.md) — Use this skill to how to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
+- **C** (1):
+  - [c-engineering-workflow](../skills/frontend/ui-ux/c/c-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for c engineering workflow. Language-specific super-code guidelines for c.
 - **Cc_Skill_Project_Gui** (1):
   - [cc-skill-project-guidelines-example](../skills/frontend/ui-ux/cc_skill_project_gui/cc-skill-project-guidelines-example/SKILL.md) — Use this skill to project Guidelines Skill (Example)
 - **Cdk_Patterns** (1):
