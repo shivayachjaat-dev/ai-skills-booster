@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,147** skills across structured domains, categories, and subcategories.
+Master navigation for **2,148** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (433 skills)
+## Frontend (434 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (265 skills)
+### Ui Ux (266 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3221,6 +3221,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [json-schema-manual](../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) — Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract.
 - **K8S_Security_Policie** (1):
   - [k8s-security-policies](../skills/frontend/ui-ux/k8s_security_policie/k8s-security-policies/SKILL.md) — Use this skill to design, implement, and operate production workflows for k8s security policies. Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.
+- **Kotlin** (1):
+  - [kotlin](../skills/frontend/ui-ux/kotlin/kotlin/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotlin. Language-specific super-code guidelines for kotlin.
 - **Langgraph** (1):
   - [langgraph](../skills/frontend/ui-ux/langgraph/langgraph/SKILL.md) — Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building
 - **Launch_Strategy** (1):

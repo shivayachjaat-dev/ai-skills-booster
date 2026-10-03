@@ -1497,6 +1497,7 @@ AI_Skills_Booster/
 │   │   ├── jobgpt/ (1 skills)
 │   │   ├── json_schema_manual/ (1 skills)
 │   │   ├── k8s_security_policie/ (1 skills)
+│   │   ├── kotlin/ (1 skills)
 │   │   ├── langgraph/ (1 skills)
 │   │   ├── launch_strategy/ (1 skills)
 │   │   ├── learn/ (1 skills)

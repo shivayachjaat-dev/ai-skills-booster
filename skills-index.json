@@ -31365,6 +31365,28 @@
     "maturity": "stable"
   },
   {
+    "name": "kotlin",
+    "path": "skills/frontend/ui-ux/kotlin/kotlin",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "kotlin",
+    "description": "Use this skill to design, implement, and operate production workflows for kotlin. Language-specific super-code guidelines for kotlin.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "kotlin",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Kotlin",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "langgraph",
     "path": "skills/frontend/ui-ux/langgraph/langgraph",
     "domain": "frontend",

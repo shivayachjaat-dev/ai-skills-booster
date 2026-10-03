@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **265 skills** available in this category.
+> **266 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -156,6 +156,7 @@
 | [jobgpt](../../skills/frontend/ui-ux/jobgpt/jobgpt/SKILL.md) | `jobgpt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for jobgpt. Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server. |
 | [json-schema-manual](../../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) | `json_schema_manual` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract. |
 | [k8s-security-policies](../../skills/frontend/ui-ux/k8s_security_policie/k8s-security-policies/SKILL.md) | `k8s_security_policie` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for k8s security policies. Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes. |
+| [kotlin](../../skills/frontend/ui-ux/kotlin/kotlin/SKILL.md) | `kotlin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for kotlin. Language-specific super-code guidelines for kotlin. |
 | [langgraph](../../skills/frontend/ui-ux/langgraph/langgraph/SKILL.md) | `langgraph` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building |
 | [launch-strategy](../../skills/frontend/ui-ux/launch_strategy/launch-strategy/SKILL.md) | `launch_strategy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for launch strategy. You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users. |
 | [learn](../../skills/frontend/ui-ux/learn/learn/SKILL.md) | `learn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for learn. Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study guides, or exercises. Use when the user asks to learn, understand, practice, drill, review, study, or be tutored on something. |

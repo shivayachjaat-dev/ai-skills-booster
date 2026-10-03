@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1966 skills)
+## Bash (1967 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2377,6 +2377,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [jobgpt](../skills/frontend/ui-ux/jobgpt/jobgpt/SKILL.md) — Use this skill to design, implement, and operate production workflows for jobgpt. Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server.
 - [json-schema-manual](../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) — Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract.
 - [k8s-security-policies](../skills/frontend/ui-ux/k8s_security_policie/k8s-security-policies/SKILL.md) — Use this skill to design, implement, and operate production workflows for k8s security policies. Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.
+- [kotlin](../skills/frontend/ui-ux/kotlin/kotlin/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotlin. Language-specific super-code guidelines for kotlin.
 - [langgraph](../skills/frontend/ui-ux/langgraph/langgraph/SKILL.md) — Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building
 - [launch-strategy](../skills/frontend/ui-ux/launch_strategy/launch-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for launch strategy. You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.
 - [learn](../skills/frontend/ui-ux/learn/learn/SKILL.md) — Use this skill to design, implement, and operate production workflows for learn. Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study guides, or exercises. Use when the user asks to learn, understand, practice, drill, review, study, or be tutored on something.
@@ -7438,8 +7439,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [kotler-macro-analyzer](../skills/ai-engineering/agents/kotler_macro_analyze/kotler-macro-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotler macro analyzer. Professional PESTEL/SWOT analysis agent based on Kotler's methodology for strategic market audits.
 
-## Kotlin (1 skills)
+## Kotlin (2 skills)
 
+- [kotlin](../skills/frontend/ui-ux/kotlin/kotlin/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotlin. Language-specific super-code guidelines for kotlin.
 - [android-jetpack-compose-architecture-and-ui-testing](../skills/mobile/android/jetpack-compose/android-jetpack-compose-architecture-and-ui-testing/SKILL.md) — Use this skill to design, architect, and test modern Android applications using Jetpack Compose, Kotlin Coroutines, StateFlow, Material 3, and automated Compose UI tests. It covers unidirectional data flow (UDF), ViewModel state hoisting, preview fixtures, and Semantics-based UI journey testing.
 
 ## Kotlin Coroutines Expert (1 skills)
@@ -9971,7 +9973,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2068 skills)
+## Python (2069 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11329,6 +11331,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [jobgpt](../skills/frontend/ui-ux/jobgpt/jobgpt/SKILL.md) — Use this skill to design, implement, and operate production workflows for jobgpt. Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server.
 - [json-schema-manual](../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) — Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract.
 - [k8s-security-policies](../skills/frontend/ui-ux/k8s_security_policie/k8s-security-policies/SKILL.md) — Use this skill to design, implement, and operate production workflows for k8s security policies. Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.
+- [kotlin](../skills/frontend/ui-ux/kotlin/kotlin/SKILL.md) — Use this skill to design, implement, and operate production workflows for kotlin. Language-specific super-code guidelines for kotlin.
 - [langgraph](../skills/frontend/ui-ux/langgraph/langgraph/SKILL.md) — Use this skill to design, implement, and operate production workflows for langgraph. Expert in LangGraph - the production-grade framework for building
 - [launch-strategy](../skills/frontend/ui-ux/launch_strategy/launch-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for launch strategy. You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.
 - [learn](../skills/frontend/ui-ux/learn/learn/SKILL.md) — Use this skill to design, implement, and operate production workflows for learn. Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study guides, or exercises. Use when the user asks to learn, understand, practice, drill, review, study, or be tutored on something.
