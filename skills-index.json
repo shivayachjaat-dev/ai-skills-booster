@@ -31145,6 +31145,28 @@
     "maturity": "stable"
   },
   {
+    "name": "scroll-experience",
+    "path": "skills/frontend/ui-ux/scroll_experience/scroll-experience",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "scroll_experience",
+    "description": "Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "scroll",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Scroll Experience",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

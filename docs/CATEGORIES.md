@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,974** skills across structured domains, categories, and subcategories.
+Master navigation for **1,975** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (674 skills)
 
@@ -2543,7 +2543,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (394 skills)
+## Frontend (395 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2735,7 +2735,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Redesign_Existing_Pr** (1):
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 
-### Ui Ux (235 skills)
+### Ui Ux (236 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3202,6 +3202,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [saas-mvp-launcher](../skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.
 - **Scanpy** (1):
   - [scanpy](../skills/frontend/ui-ux/scanpy/scanpy/SKILL.md) — Use this skill to design, implement, and operate production workflows for scanpy. Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualizati...
+- **Scroll_Experience** (1):
+  - [scroll-experience](../skills/frontend/ui-ux/scroll_experience/scroll-experience/SKILL.md) — Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
