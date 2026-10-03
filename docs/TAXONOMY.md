@@ -1152,7 +1152,8 @@ AI_Skills_Booster/
 │   │   ├── rayden_code/ (1 skills)
 │   │   ├── react_component_perf/ (1 skills)
 │   │   ├── react_flow_architect/ (1 skills)
-│   │   └── react_flow_node_ts/ (1 skills)
+│   │   ├── react_flow_node_ts/ (1 skills)
+│   │   └── react_modernization/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/

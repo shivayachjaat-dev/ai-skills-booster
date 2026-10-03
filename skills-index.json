@@ -23917,6 +23917,28 @@
     "maturity": "stable"
   },
   {
+    "name": "react-modernization",
+    "path": "skills/frontend/frameworks/react_modernization/react-modernization",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "react_modernization",
+    "description": "Use this skill to design, implement, and operate production workflows for react modernization. Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "react",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "React Modernization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

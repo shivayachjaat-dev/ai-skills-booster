@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **25 skills** available in this category.
+> **26 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -29,3 +29,4 @@
 | [react-component-performance](../../skills/frontend/frameworks/react_component_perf/react-component-performance/SKILL.md) | `react_component_perf` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react component performance. Diagnose slow React components and suggest targeted performance fixes. |
 | [react-flow-architect](../../skills/frontend/frameworks/react_flow_architect/react-flow-architect/SKILL.md) | `react_flow_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react flow architect. Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management. |
 | [react-flow-node-ts](../../skills/frontend/frameworks/react_flow_node_ts/react-flow-node-ts/SKILL.md) | `react_flow_node_ts` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react flow node ts. Create React Flow node components following established patterns with proper TypeScript types and store integration. |
+| [react-modernization](../../skills/frontend/frameworks/react_modernization/react-modernization/SKILL.md) | `react_modernization` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react modernization. Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation. |
