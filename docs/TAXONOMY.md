@@ -957,7 +957,8 @@ AI_Skills_Booster/
 │   │   ├── referral_program/ (1 skills)
 │   │   ├── schema_markup/ (1 skills)
 │   │   ├── segment_cdp/ (1 skills)
-│   │   └── seo_aeo_schema_gener/ (1 skills)
+│   │   ├── seo_aeo_schema_gener/ (1 skills)
+│   │   └── seo_drift/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
 │   ├── databases/

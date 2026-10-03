@@ -20441,6 +20441,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-drift",
+    "path": "skills/data-analytics/data-pipelines/seo_drift/seo-drift",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "seo_drift",
+    "description": "Use this skill to design, implement, and operate production workflows for seo drift. Snapshot a site's SEO state and detect ranking, indexation, metadata, canonical, robots, schema, and on-page regressions over time.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Drift",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "snowflake-data-warehouse-modeling",
     "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
     "domain": "data-analytics",

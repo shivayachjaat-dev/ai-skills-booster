@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1837 skills)
+## Bash (1838 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1947,6 +1947,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [schema-markup](../skills/data-analytics/data-pipelines/schema_markup/schema-markup/SKILL.md) — Use this skill to design, implement, and operate production workflows for schema markup. Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.
 - [segment-cdp](../skills/data-analytics/data-pipelines/segment_cdp/segment-cdp/SKILL.md) — Use this skill to design, implement, and operate production workflows for segment cdp. Expert patterns for Segment Customer Data Platform including
 - [seo-aeo-schema-generator](../skills/data-analytics/data-pipelines/seo_aeo_schema_gener/seo-aeo-schema-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo schema generator. Generates and validates implementation-ready JSON-LD structured data for relevant page types and rich-result eligibility.
+- [seo-drift](../skills/data-analytics/data-pipelines/seo_drift/seo-drift/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo drift. Snapshot a site's SEO state and detect ranking, indexation, metadata, canonical, robots, schema, and on-page regressions over time.
 - [chatexport-need-miner](../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) — Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
 - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
@@ -9817,7 +9818,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1940 skills)
+## Python (1941 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10726,6 +10727,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [schema-markup](../skills/data-analytics/data-pipelines/schema_markup/schema-markup/SKILL.md) — Use this skill to design, implement, and operate production workflows for schema markup. Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.
 - [segment-cdp](../skills/data-analytics/data-pipelines/segment_cdp/segment-cdp/SKILL.md) — Use this skill to design, implement, and operate production workflows for segment cdp. Expert patterns for Segment Customer Data Platform including
 - [seo-aeo-schema-generator](../skills/data-analytics/data-pipelines/seo_aeo_schema_gener/seo-aeo-schema-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo schema generator. Generates and validates implementation-ready JSON-LD structured data for relevant page types and rich-result eligibility.
+- [seo-drift](../skills/data-analytics/data-pipelines/seo_drift/seo-drift/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo drift. Snapshot a site's SEO state and detect ranking, indexation, metadata, canonical, robots, schema, and on-page regressions over time.
 - [airtable-api-data-sync-and-webhook-automation](../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) — Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 - [financial-market-data-and-alpha-vantage-time-series](../skills/data-analytics/financial/alpha-vantage/financial-market-data-and-alpha-vantage-time-series/SKILL.md) — Use this skill to fetch, clean, and analyze global equities, FX, cryptocurrency, and macroeconomic time series using the Alpha Vantage API. It covers technical indicator calculations (RSI, MACD, Bollinger Bands), rate limiting, and Pandas data pipeline integration.
@@ -12806,6 +12808,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Seo Directory Backlinks (1 skills)
 
 - [seo-directory-backlinks](../skills/ai-engineering/models/seo_directory_backli/seo-directory-backlinks/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo directory backlinks. Directory and backlink register: platform, domain, target URL, follow attribute, authority and spam scores, approval and NAP-match status. Use for SEO citation tracking.
+
+## Seo Drift (1 skills)
+
+- [seo-drift](../skills/data-analytics/data-pipelines/seo_drift/seo-drift/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo drift. Snapshot a site's SEO state and detect ranking, indexation, metadata, canonical, robots, schema, and on-page regressions over time.
 
 ## Seo Engineering Workflow (1 skills)
 

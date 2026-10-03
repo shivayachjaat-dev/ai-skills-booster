@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **32 skills** available in this category.
+> **33 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -36,3 +36,4 @@
 | [schema-markup](../../skills/data-analytics/data-pipelines/schema_markup/schema-markup/SKILL.md) | `schema_markup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for schema markup. Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact. |
 | [segment-cdp](../../skills/data-analytics/data-pipelines/segment_cdp/segment-cdp/SKILL.md) | `segment_cdp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for segment cdp. Expert patterns for Segment Customer Data Platform including |
 | [seo-aeo-schema-generator](../../skills/data-analytics/data-pipelines/seo_aeo_schema_gener/seo-aeo-schema-generator/SKILL.md) | `seo_aeo_schema_gener` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo schema generator. Generates and validates implementation-ready JSON-LD structured data for relevant page types and rich-result eligibility. |
+| [seo-drift](../../skills/data-analytics/data-pipelines/seo_drift/seo-drift/SKILL.md) | `seo_drift` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo drift. Snapshot a site's SEO state and detect ranking, indexation, metadata, canonical, robots, schema, and on-page regressions over time. |
