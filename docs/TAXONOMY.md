@@ -727,7 +727,8 @@ AI_Skills_Booster/
 │   │   ├── pydantic_models_py/ (1 skills)
 │   │   ├── python_development/ (1 skills)
 │   │   ├── python_development_p/ (1 skills)
-│   │   └── python_pro/ (1 skills)
+│   │   ├── python_pro/ (1 skills)
+│   │   └── riffkit/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/

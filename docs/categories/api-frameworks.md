@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **47 skills** available in this category.
+> **48 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -51,3 +51,4 @@
 | [python-development](../../skills/backend/api-frameworks/python_development/python-development/SKILL.md) | `python_development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python development. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold) |
 | [python-development-python-scaffold](../../skills/backend/api-frameworks/python_development_p/python-development-python-scaffold/SKILL.md) | `python_development_p` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python development python scaffold. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint |
 | [python-pro](../../skills/backend/api-frameworks/python_pro/python-pro/SKILL.md) | `python_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python pro. Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI. |
+| [riffkit](../../skills/backend/api-frameworks/riffkit/riffkit/SKILL.md) | `riffkit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for riffkit. Riff a winning TikTok into your own short video — study a proven video's emotion formula and regenerate it with your product, character, and language (9 supported). Also makes UGC ad creative. |

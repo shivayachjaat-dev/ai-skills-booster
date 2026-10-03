@@ -15936,6 +15936,28 @@
     "maturity": "stable"
   },
   {
+    "name": "riffkit",
+    "path": "skills/backend/api-frameworks/riffkit/riffkit",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "riffkit",
+    "description": "Use this skill to design, implement, and operate production workflows for riffkit. Riff a winning TikTok into your own short video \u2014 study a proven video's emotion formula and regenerate it with your product, character, and language (9 supported). Also makes UGC ad creative.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "riffkit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Riffkit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
