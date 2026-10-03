@@ -40731,6 +40731,28 @@
     "maturity": "stable"
   },
   {
+    "name": "prompt-library",
+    "path": "skills/testing/automation/prompt_library/prompt-library",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "prompt_library",
+    "description": "Use this skill to design, implement, and operate production workflows for prompt library. A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices.",
+    "tags": [
+      "testing",
+      "automation",
+      "prompt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Prompt Library",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

@@ -1751,7 +1751,8 @@ AI_Skills_Booster/
 │   │   ├── odoo_automated_tests/ (1 skills)
 │   │   ├── oneroster_csv_valida/ (1 skills)
 │   │   ├── pentest_checklist/ (1 skills)
-│   │   └── playwright_java/ (1 skills)
+│   │   ├── playwright_java/ (1 skills)
+│   │   └── prompt_library/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/
