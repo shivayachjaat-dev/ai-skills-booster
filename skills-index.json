@@ -35026,6 +35026,28 @@
     "maturity": "stable"
   },
   {
+    "name": "report-writing",
+    "path": "skills/security/appsec/report_writing/report-writing",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "report_writing",
+    "description": "Use this skill to design, implement, and operate production workflows for report writing. Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi",
+    "tags": [
+      "security",
+      "appsec",
+      "report",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Report Writing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",

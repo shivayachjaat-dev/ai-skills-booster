@@ -1689,6 +1689,7 @@ AI_Skills_Booster/
 │   │   ├── radio_sdr/ (1 skills)
 │   │   ├── recon_scope_triage/ (1 skills)
 │   │   ├── redteam_mindset/ (1 skills)
+│   │   ├── report_writing/ (1 skills)
 │   │   ├── security_auditor/ (1 skills)
 │   │   └── security_checklist/ (1 skills)
 │   ├── architecture/
