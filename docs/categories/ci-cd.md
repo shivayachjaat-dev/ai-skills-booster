@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **47 skills** available in this category.
+> **48 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -51,3 +51,4 @@
 | [prometheus-grafana](../../skills/devops/ci-cd/prometheus_grafana/prometheus-grafana/SKILL.md) | `prometheus_grafana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prometheus grafana. Set up metrics collection and visualization with Prometheus and Grafana. |
 | [reverse-proxy](../../skills/devops/ci-cd/reverse_proxy/reverse-proxy/SKILL.md) | `reverse_proxy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reverse proxy. Configure nginx and Traefik as reverse proxies. Implement SSL termination |
 | [semantic-versioning](../../skills/devops/ci-cd/semantic_versioning/semantic-versioning/SKILL.md) | `semantic_versioning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning |
+| [service-mesh](../../skills/devops/ci-cd/service_mesh/service-mesh/SKILL.md) | `service_mesh` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management, |

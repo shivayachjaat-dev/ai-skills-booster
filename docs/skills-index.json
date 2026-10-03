@@ -23476,6 +23476,28 @@
     "maturity": "stable"
   },
   {
+    "name": "service-mesh",
+    "path": "skills/devops/ci-cd/service_mesh/service-mesh",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "service_mesh",
+    "description": "Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management,",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "service",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Service Mesh",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "amazon-alexa",
     "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
     "domain": "devops",

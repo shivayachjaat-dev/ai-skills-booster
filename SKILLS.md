@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,031 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,032 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1058,6 +1058,7 @@
 | [prometheus-grafana](skills/devops/ci-cd/prometheus_grafana/prometheus-grafana/SKILL.md) | `devops` | `ci-cd` | `prometheus_grafana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prometheus grafana. Set up metrics collection and visualization with Prometheus and Grafana. |
 | [reverse-proxy](skills/devops/ci-cd/reverse_proxy/reverse-proxy/SKILL.md) | `devops` | `ci-cd` | `reverse_proxy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reverse proxy. Configure nginx and Traefik as reverse proxies. Implement SSL termination |
 | [semantic-versioning](skills/devops/ci-cd/semantic_versioning/semantic-versioning/SKILL.md) | `devops` | `ci-cd` | `semantic_versioning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning |
+| [service-mesh](skills/devops/ci-cd/service_mesh/service-mesh/SKILL.md) | `devops` | `ci-cd` | `service_mesh` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management, |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |
 | [aws-cost-optimizer](skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_optimizer` | `advanced` | `stable` | Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer |

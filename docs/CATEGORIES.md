@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,031** skills across structured domains, categories, and subcategories.
+Master navigation for **2,032** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (689 skills)
 
@@ -2307,9 +2307,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (111 skills)
+## Devops (112 skills)
 
-### Ci Cd (47 skills)
+### Ci Cd (48 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -2406,6 +2406,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [reverse-proxy](../skills/devops/ci-cd/reverse_proxy/reverse-proxy/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse proxy. Configure nginx and Traefik as reverse proxies. Implement SSL termination
 - **Semantic_Versioning** (1):
   - [semantic-versioning](../skills/devops/ci-cd/semantic_versioning/semantic-versioning/SKILL.md) — Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning
+- **Service_Mesh** (1):
+  - [service-mesh](../skills/devops/ci-cd/service_mesh/service-mesh/SKILL.md) — Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management,
 
 ### Cloud Infrastructure (43 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
