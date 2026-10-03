@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1505 skills)
+## Bash (1506 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1128,6 +1128,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-subworkflows](../skills/ai-engineering/agents/n8n_subworkflows/n8n-subworkflows/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n subworkflows. Build reusable n8n sub-workflows with typed inputs, all-vs-each execution, discoverable naming, and agent-tool exposure.
 - [omp-delegate](../skills/ai-engineering/agents/omp_delegate/omp-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for omp delegate. Delegate coding tasks to Oh My Pi (`omp`) only when the user explicitly
 - [ontoly-software-graph](../skills/ai-engineering/agents/ontoly_software_grap/ontoly-software-graph/SKILL.md) — Use this skill to design, implement, and operate production workflows for ontoly software graph. Use Ontoly's deterministic Software Graph, MCP server, and agent skills for architecture review, request tracing, impact analysis, and dependency analysis.
+- [opencode-delegate](../skills/ai-engineering/agents/opencode_delegate/opencode-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for opencode delegate. Delegate coding tasks to the OpenCode CLI only when the user explicitly
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
@@ -8660,6 +8661,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [openclaw-security-hardening](../skills/security/appsec/openclaw_security_ha/openclaw-security-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for openclaw security hardening. Harden OpenClaw self-hosted environments with baseline host controls,
 
+## Opencode Delegate (1 skills)
+
+- [opencode-delegate](../skills/ai-engineering/agents/opencode_delegate/opencode-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for opencode delegate. Delegate coding tasks to the OpenCode CLI only when the user explicitly
+
 ## OrbStack (1 skills)
 
 - [apple-silicon-container-runtime-optimization](../skills/devops/containers/apple-silicon/apple-silicon-container-runtime-optimization/SKILL.md) — Use this skill to build, optimize, and manage lightweight OCI Linux containers and microVM runtimes on Apple Silicon (ARM64 macOS) using native virtualization frameworks, Rosetta 2 multi-arch emulation, Colima, and OrbStack. It covers cross-platform multi-arch image compilation (buildx), bind-mount I/O caching, and GPU acceleration.
@@ -8859,7 +8864,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1608 skills)
+## Python (1609 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -8923,6 +8928,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ai-agent-observability-and-trace-evaluation](../skills/ai-engineering/agents/observability/ai-agent-observability-and-trace-evaluation/SKILL.md) — Use this skill to instrument autonomous AI agents and multi-step LLM chains with OpenTelemetry / OpenInference distributed tracing, token usage accounting, span latency profiling, and real-time cost tracking across provider APIs.
 - [omp-delegate](../skills/ai-engineering/agents/omp_delegate/omp-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for omp delegate. Delegate coding tasks to Oh My Pi (`omp`) only when the user explicitly
 - [ontoly-software-graph](../skills/ai-engineering/agents/ontoly_software_grap/ontoly-software-graph/SKILL.md) — Use this skill to design, implement, and operate production workflows for ontoly software graph. Use Ontoly's deterministic Software Graph, MCP server, and agent skills for architecture review, request tracing, impact analysis, and dependency analysis.
+- [opencode-delegate](../skills/ai-engineering/agents/opencode_delegate/opencode-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for opencode delegate. Delegate coding tasks to the OpenCode CLI only when the user explicitly
 - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 - [multi-agent-workload-distribution-and-cost-optimization](../skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization/SKILL.md) — Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.
 - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.

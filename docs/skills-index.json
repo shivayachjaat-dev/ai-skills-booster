@@ -1390,6 +1390,28 @@
     "maturity": "stable"
   },
   {
+    "name": "opencode-delegate",
+    "path": "skills/ai-engineering/agents/opencode_delegate/opencode-delegate",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "opencode_delegate",
+    "description": "Use this skill to design, implement, and operate production workflows for opencode delegate. Delegate coding tasks to the OpenCode CLI only when the user explicitly",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "opencode",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Opencode Delegate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-consensus-protocol",
     "path": "skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol",
     "domain": "ai-engineering",
