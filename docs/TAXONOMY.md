@@ -566,6 +566,7 @@ AI_Skills_Booster/
 │   │   ├── plaid_fintech/ (1 skills)
 │   │   ├── podcast_generation/ (1 skills)
 │   │   ├── podman/ (1 skills)
+│   │   ├── poster_design_studio/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

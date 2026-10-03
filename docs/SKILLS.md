@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,772 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,773 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -566,6 +566,7 @@
 | [plaid-fintech](skills/ai-engineering/models/plaid_fintech/plaid-fintech/SKILL.md) | `ai-engineering` | `models` | `plaid_fintech` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for plaid fintech. Expert patterns for Plaid API integration including Link token |
 | [podcast-generation](skills/ai-engineering/models/podcast_generation/podcast-generation/SKILL.md) | `ai-engineering` | `models` | `podcast_generation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for podcast generation. Generate real audio narratives from text content using Azure OpenAI's Realtime API. |
 | [podman](skills/ai-engineering/models/podman/podman/SKILL.md) | `ai-engineering` | `models` | `podman` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for podman. Manage containers using Podman, the daemonless container engine. |
+| [poster-design-studio](skills/ai-engineering/models/poster_design_studio/poster-design-studio/SKILL.md) | `ai-engineering` | `models` | `poster_design_studio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for poster design studio. Install and use the official AI Poster Maker package, pinned by digest, for paid hosted work on the Beatra service. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
