@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,894 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,895 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -651,6 +651,7 @@
 | [rag-infrastructure](skills/ai-engineering/rag/rag_infrastructure/rag-infrastructure/SKILL.md) | `ai-engineering` | `rag` | `rag_infrastructure` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag infrastructure. Build and operate Retrieval-Augmented Generation (RAG) infrastructure |
 | [rag-observability-evals](skills/ai-engineering/rag/rag_observability_ev/rag-observability-evals/SKILL.md) | `ai-engineering` | `rag` | `rag_observability_ev` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag observability evals. Monitor and evaluate RAG systems with retrieval quality metrics, groundedness |
 | [rclone-cli](skills/ai-engineering/rag/rclone_cli/rclone-cli/SKILL.md) | `ai-engineering` | `rag` | `rclone_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rclone cli. Rclone command-line cloud storage manager reference and usage guide. Use this skill whenever the user mentions rclone, or any task involving terminal-based cloud file operations such as upload, download, sync, copy, move, mount, or remote management. |
+| [redis](skills/ai-engineering/rag/redis/redis/SKILL.md) | `ai-engineering` | `rag` | `redis` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for redis. Configure Redis for caching and data storage. Set up clustering, persistence, |
 | [soroban-contract-audit](skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `ai-engineering` | `rag` | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |
 | [llm-synthetic-data-generation-pipeline](skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) | `ai-engineering` | `synthetic-data` | `synth-data-pipeline` | `advanced` | `stable` | Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges. |
 | [ai-agent-custom-tool-builder-and-schema-generator](skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) | `ai-engineering` | `tools` | `tool-builder` | `advanced` | `stable` | Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript. |

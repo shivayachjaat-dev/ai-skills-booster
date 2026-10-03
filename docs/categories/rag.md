@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **42 skills** available in this category.
+> **43 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -45,4 +45,5 @@
 | [rag-infrastructure](../../skills/ai-engineering/rag/rag_infrastructure/rag-infrastructure/SKILL.md) | `rag_infrastructure` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag infrastructure. Build and operate Retrieval-Augmented Generation (RAG) infrastructure |
 | [rag-observability-evals](../../skills/ai-engineering/rag/rag_observability_ev/rag-observability-evals/SKILL.md) | `rag_observability_ev` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag observability evals. Monitor and evaluate RAG systems with retrieval quality metrics, groundedness |
 | [rclone-cli](../../skills/ai-engineering/rag/rclone_cli/rclone-cli/SKILL.md) | `rclone_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rclone cli. Rclone command-line cloud storage manager reference and usage guide. Use this skill whenever the user mentions rclone, or any task involving terminal-based cloud file operations such as upload, download, sync, copy, move, mount, or remote management. |
+| [redis](../../skills/ai-engineering/rag/redis/redis/SKILL.md) | `redis` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for redis. Configure Redis for caching and data storage. Set up clustering, persistence, |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

@@ -14326,6 +14326,28 @@
     "maturity": "stable"
   },
   {
+    "name": "redis",
+    "path": "skills/ai-engineering/rag/redis/redis",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "redis",
+    "description": "Use this skill to design, implement, and operate production workflows for redis. Configure Redis for caching and data storage. Set up clustering, persistence,",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "redis",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Redis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
