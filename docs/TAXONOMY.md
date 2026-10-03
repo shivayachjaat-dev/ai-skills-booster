@@ -939,7 +939,8 @@ AI_Skills_Booster/
 │   │   ├── sales_accounting/ (1 skills)
 │   │   ├── social_media_setup/ (1 skills)
 │   │   ├── sop_company_wiki/ (1 skills)
-│   │   └── stakeholder_investor/ (1 skills)
+│   │   ├── stakeholder_investor/ (1 skills)
+│   │   └── startup_analyst/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/
