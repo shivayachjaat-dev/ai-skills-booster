@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,149 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,150 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1487,6 +1487,7 @@
 | [projection-patterns](skills/frontend/ui-ux/projection_patterns/projection-patterns/SKILL.md) | `frontend` | `ui-ux` | `projection_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for projection patterns. Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems. |
 | [prometheus-configuration](skills/frontend/ui-ux/prometheus_configura/prometheus-configuration/SKILL.md) | `frontend` | `ui-ux` | `prometheus_configura` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prometheus configuration. Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules. |
 | [prototype](skills/frontend/ui-ux/prototype/prototype/SKILL.md) | `frontend` | `ui-ux` | `prototype` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prototype. Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. |
+| [python](skills/frontend/ui-ux/python/python/SKILL.md) | `frontend` | `ui-ux` | `python` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python. Language-specific super-code guidelines for python. |
 | [python-packaging](skills/frontend/ui-ux/python_packaging/python-packaging/SKILL.md) | `frontend` | `ui-ux` | `python_packaging` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python packaging. Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI. |
 | [python-pptx-generator](skills/frontend/ui-ux/python_pptx_generato/python-pptx-generator/SKILL.md) | `frontend` | `ui-ux` | `python_pptx_generato` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python pptx generator. Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content. |
 | [python-testing-patterns](skills/frontend/ui-ux/python_testing_patte/python-testing-patterns/SKILL.md) | `frontend` | `ui-ux` | `python_testing_patte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python testing patterns. Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices. |

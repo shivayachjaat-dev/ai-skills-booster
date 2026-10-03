@@ -33037,6 +33037,28 @@
     "maturity": "stable"
   },
   {
+    "name": "python",
+    "path": "skills/frontend/ui-ux/python/python",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "python",
+    "description": "Use this skill to design, implement, and operate production workflows for python. Language-specific super-code guidelines for python.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "python",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Python",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "python-packaging",
     "path": "skills/frontend/ui-ux/python_packaging/python-packaging",
     "domain": "frontend",

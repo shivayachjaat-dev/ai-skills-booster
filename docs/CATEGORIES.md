@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,149** skills across structured domains, categories, and subcategories.
+Master navigation for **2,150** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (435 skills)
+## Frontend (436 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (267 skills)
+### Ui Ux (268 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3373,6 +3373,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [prometheus-configuration](../skills/frontend/ui-ux/prometheus_configura/prometheus-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for prometheus configuration. Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules.
 - **Prototype** (1):
   - [prototype](../skills/frontend/ui-ux/prototype/prototype/SKILL.md) — Use this skill to design, implement, and operate production workflows for prototype. Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.
+- **Python** (1):
+  - [python](../skills/frontend/ui-ux/python/python/SKILL.md) — Use this skill to design, implement, and operate production workflows for python. Language-specific super-code guidelines for python.
 - **Python_Packaging** (1):
   - [python-packaging](../skills/frontend/ui-ux/python_packaging/python-packaging/SKILL.md) — Use this skill to design, implement, and operate production workflows for python packaging. Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI.
 - **Python_Pptx_Generato** (1):
