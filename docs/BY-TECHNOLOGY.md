@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1604 skills)
+## Bash (1605 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2217,6 +2217,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [postgresql-cli](../skills/frontend/ui-ux/postgresql_cli/postgresql-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql cli. PostgreSQL interactive terminal (psql) reference and usage guide.
 - [postmortem-writing](../skills/frontend/ui-ux/postmortem_writing/postmortem-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for postmortem writing. Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.
 - [power-user-cultivation](../skills/frontend/ui-ux/power_user_cultivati/power-user-cultivation/SKILL.md) — Use this skill to design, implement, and operate production workflows for power user cultivation. When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists.
+- [pptx-deck-creation](../skills/frontend/ui-ux/pptx_deck_creation/pptx-deck-creation/SKILL.md) — Use this skill to design, implement, and operate production workflows for pptx deck creation. Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -9245,6 +9246,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [powershell-windows](../skills/software-engineering/architecture/patterns/powershell-windows/SKILL.md) — Use this skill to design, implement, and operate production workflows for powershell windows. PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.
 
+## Pptx Deck Creation (1 skills)
+
+- [pptx-deck-creation](../skills/frontend/ui-ux/pptx_deck_creation/pptx-deck-creation/SKILL.md) — Use this skill to design, implement, and operate production workflows for pptx deck creation. Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks.
+
 ## Prism (1 skills)
 
 - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
@@ -9347,7 +9352,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1707 skills)
+## Python (1708 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10558,6 +10563,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [postgresql-cli](../skills/frontend/ui-ux/postgresql_cli/postgresql-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql cli. PostgreSQL interactive terminal (psql) reference and usage guide.
 - [postmortem-writing](../skills/frontend/ui-ux/postmortem_writing/postmortem-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for postmortem writing. Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.
 - [power-user-cultivation](../skills/frontend/ui-ux/power_user_cultivati/power-user-cultivation/SKILL.md) — Use this skill to design, implement, and operate production workflows for power user cultivation. When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists.
+- [pptx-deck-creation](../skills/frontend/ui-ux/pptx_deck_creation/pptx-deck-creation/SKILL.md) — Use this skill to design, implement, and operate production workflows for pptx deck creation. Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.

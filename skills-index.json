@@ -28131,6 +28131,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pptx-deck-creation",
+    "path": "skills/frontend/ui-ux/pptx_deck_creation/pptx-deck-creation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "pptx_deck_creation",
+    "description": "Use this skill to design, implement, and operate production workflows for pptx deck creation. Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "pptx",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pptx Deck Creation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
