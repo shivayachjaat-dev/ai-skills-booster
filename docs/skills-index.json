@@ -44471,6 +44471,28 @@
     "maturity": "stable"
   },
   {
+    "name": "semgrep-rule-variant-creator",
+    "path": "skills/testing/automation/semgrep_rule_variant/semgrep-rule-variant-creator",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "semgrep_rule_variant",
+    "description": "Use this skill to design, implement, and operate production workflows for semgrep rule variant creator. Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.",
+    "tags": [
+      "testing",
+      "automation",
+      "semgrep",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Semgrep Rule Variant Creator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

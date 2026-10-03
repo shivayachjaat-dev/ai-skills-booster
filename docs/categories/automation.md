@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **23 skills** available in this category.
+> **24 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -27,3 +27,4 @@
 | [playwright-java](../../skills/testing/automation/playwright_java/playwright-java/SKILL.md) | `playwright_java` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for playwright java. Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution. |
 | [prompt-library](../../skills/testing/automation/prompt_library/prompt-library/SKILL.md) | `prompt_library` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prompt library. A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices. |
 | [saas-pricing-strategist](../../skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist/SKILL.md) | `saas_pricing_strateg` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using |
+| [semgrep-rule-variant-creator](../../skills/testing/automation/semgrep_rule_variant/semgrep-rule-variant-creator/SKILL.md) | `semgrep_rule_variant` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for semgrep rule variant creator. Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language. |
