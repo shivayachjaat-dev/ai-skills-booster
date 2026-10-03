@@ -14427,6 +14427,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stability-ai",
+    "path": "skills/ai-engineering/models/stability_ai/stability-ai",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "stability_ai",
+    "description": "Use this skill to design, implement, and operate production workflows for stability ai. Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "stability",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stability Ai",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
