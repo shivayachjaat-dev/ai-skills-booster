@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,807** skills across structured domains, categories, and subcategories.
+Master navigation for **1,808** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (620 skills)
 
@@ -1605,7 +1605,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (50 skills)
+## Business (51 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1619,7 +1619,7 @@ Category index: [`docs/categories/fintech.md`](categories/fintech.md)
 - **Options_Flow_Analyze** (1):
   - [options-flow-analyzer](../skills/business/fintech/options_flow_analyze/options-flow-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for options flow analyzer. Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise
 
-### Growth (8 skills)
+### Growth (9 skills)
 Category index: [`docs/categories/growth.md`](categories/growth.md)
 
 - **Competitor_Ad_Intell** (1):
@@ -1638,6 +1638,8 @@ Category index: [`docs/categories/growth.md`](categories/growth.md)
   - [marketing-ideas](../skills/business/growth/marketing_ideas/marketing-ideas/SKILL.md) — Use this skill to design, implement, and operate production workflows for marketing ideas. Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system.
 - **Marketing_Plan** (1):
   - [marketing-plan](../skills/business/growth/marketing_plan/marketing-plan/SKILL.md) — Use this skill to design, implement, and operate production workflows for marketing plan. When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product.
+- **Product_Marketing** (1):
+  - [product-marketing](../skills/business/growth/product_marketing/product-marketing/SKILL.md) — Use this skill to design, implement, and operate production workflows for product marketing. When the user wants to create or update their product marketing context document.
 
 ### Human Resources (2 skills)
 Category index: [`docs/categories/human-resources.md`](categories/human-resources.md)

@@ -16608,6 +16608,28 @@
     "maturity": "stable"
   },
   {
+    "name": "product-marketing",
+    "path": "skills/business/growth/product_marketing/product-marketing",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "product_marketing",
+    "description": "Use this skill to design, implement, and operate production workflows for product marketing. When the user wants to create or update their product marketing context document.",
+    "tags": [
+      "business",
+      "growth",
+      "product",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Product Marketing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",
