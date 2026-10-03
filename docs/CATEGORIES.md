@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,895** skills across structured domains, categories, and subcategories.
+Master navigation for **1,896** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (653 skills)
 
@@ -2465,7 +2465,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (382 skills)
+## Frontend (383 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2653,7 +2653,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Redesign_Existing_Pr** (1):
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 
-### Ui Ux (228 skills)
+### Ui Ux (229 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3106,6 +3106,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [receiving-code-review](../skills/frontend/ui-ux/receiving_code_revie/receiving-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for receiving code review. Code review requires technical evaluation, not emotional performance.
 - **Recruitment_Pipeline** (1):
   - [recruitment-pipeline](../skills/frontend/ui-ux/recruitment_pipeline/recruitment-pipeline/SKILL.md) — Use this skill to design, implement, and operate production workflows for recruitment pipeline. Recruitment pipeline: candidate, position, stage, source, applied and interview dates, interview score, notice period and offer. Use for hiring tracking.
+- **Redis_Cli** (1):
+  - [redis-cli](../skills/frontend/ui-ux/redis_cli/redis-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for redis cli. Redis command-line interface (redis-cli) reference and usage guide. Use this skill whenever the user mentions redis-cli, Redis CLI, or any task involving querying, inspecting, debugging, or managing Redis from the command line.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):

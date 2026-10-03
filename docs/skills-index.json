@@ -30089,6 +30089,28 @@
     "maturity": "stable"
   },
   {
+    "name": "redis-cli",
+    "path": "skills/frontend/ui-ux/redis_cli/redis-cli",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "redis_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for redis cli. Redis command-line interface (redis-cli) reference and usage guide. Use this skill whenever the user mentions redis-cli, Redis CLI, or any task involving querying, inspecting, debugging, or managing Redis from the command line.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "redis",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Redis Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
