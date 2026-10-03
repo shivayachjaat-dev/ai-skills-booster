@@ -11897,6 +11897,28 @@
     "maturity": "stable"
   },
   {
+    "name": "outlook-automation",
+    "path": "skills/ai-engineering/models/outlook_automation/outlook-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "outlook_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for outlook automation. Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current schemas.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "outlook",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Outlook Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

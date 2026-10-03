@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,703** skills across structured domains, categories, and subcategories.
+Master navigation for **1,704** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (585 skills)
+## Ai Engineering (586 skills)
 
 ### Agents (71 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -292,7 +292,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (422 skills)
+### Models (423 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1114,6 +1114,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [orca-replay](../skills/ai-engineering/models/orca_replay/orca-replay/SKILL.md) — Use this skill to design, implement, and operate production workflows for orca replay. Answers questions about a past agent run from its recording rather than from memory, and replays or forks that run. Use when asked why an earlier run did something, or to reproduce a failure.
 - **Organization_Design** (1):
   - [organization-design](../skills/ai-engineering/models/organization_design/organization-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for organization design. Org structure register: department, type, parent, head, location, approved against actual headcount, annual budget, cost centre code and establishment date. Use for org design.
+- **Outlook_Automation** (1):
+  - [outlook-automation](../skills/ai-engineering/models/outlook_automation/outlook-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for outlook automation. Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current schemas.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
