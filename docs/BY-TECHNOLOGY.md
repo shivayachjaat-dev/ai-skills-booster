@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1879 skills)
+## Bash (1880 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2660,6 +2660,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [project-skill-audit](../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) — Use this skill to audit a project and recommend the highest-value skills to add or update.
 - [seo-aeo-orchestrator](../skills/security/compliance/seo_aeo_orchestrator/seo-aeo-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo orchestrator. Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, measurement setup, deployment verification, and optional weekly monitoring.
 - [seo-audit](../skills/security/compliance/seo_audit/seo-audit/SKILL.md) — Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.
+- [skill-sentinel](../skills/security/compliance/skill_sentinel/skill-sentinel/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill sentinel. Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude.
 - [soroban-oracle-data-feed-audit](../skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit/SKILL.md) — Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.
 - [ux-audit](../skills/security/compliance/ux_audit/ux-audit/SKILL.md) — Use this skill to audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices
 - [wp-site-health-auditor](../skills/security/compliance/wp_site_health_audit/wp-site-health-auditor/SKILL.md) — Use this skill to turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements, or critical issue reports.
@@ -9859,7 +9860,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1982 skills)
+## Python (1983 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11520,6 +11521,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [project-skill-audit](../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) — Use this skill to audit a project and recommend the highest-value skills to add or update.
 - [seo-aeo-orchestrator](../skills/security/compliance/seo_aeo_orchestrator/seo-aeo-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo orchestrator. Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, measurement setup, deployment verification, and optional weekly monitoring.
 - [seo-audit](../skills/security/compliance/seo_audit/seo-audit/SKILL.md) — Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.
+- [skill-sentinel](../skills/security/compliance/skill_sentinel/skill-sentinel/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill sentinel. Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude.
 - [soroban-oracle-data-feed-audit](../skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit/SKILL.md) — Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.
 - [ux-audit](../skills/security/compliance/ux_audit/ux-audit/SKILL.md) — Use this skill to audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices
 - [wp-site-health-auditor](../skills/security/compliance/wp_site_health_audit/wp-site-health-auditor/SKILL.md) — Use this skill to turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements, or critical issue reports.
@@ -13094,6 +13096,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Skill Seekers (1 skills)
 
 - [skill-seekers](../skills/ai-engineering/models/skill_seekers/skill-seekers/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill seekers. -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.
+
+## Skill Sentinel (1 skills)
+
+- [skill-sentinel](../skills/security/compliance/skill_sentinel/skill-sentinel/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill sentinel. Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude.
 
 ## Slack Webhooks (1 skills)
 

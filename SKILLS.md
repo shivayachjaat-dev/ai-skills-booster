@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,061 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,062 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1725,6 +1725,7 @@
 | [project-skill-audit](skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) | `security` | `compliance` | `project_skill_audit` | `advanced` | `stable` | Use this skill to audit a project and recommend the highest-value skills to add or update. |
 | [seo-aeo-orchestrator](skills/security/compliance/seo_aeo_orchestrator/seo-aeo-orchestrator/SKILL.md) | `security` | `compliance` | `seo_aeo_orchestrator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo orchestrator. Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, measurement setup, deployment verification, and optional weekly monitoring. |
 | [seo-audit](skills/security/compliance/seo_audit/seo-audit/SKILL.md) | `security` | `compliance` | `seo_audit` | `advanced` | `stable` | Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. |
+| [skill-sentinel](skills/security/compliance/skill_sentinel/skill-sentinel/SKILL.md) | `security` | `compliance` | `skill_sentinel` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill sentinel. Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude. |
 | [soroban-oracle-data-feed-audit](skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit/SKILL.md) | `security` | `compliance` | `soroban_oracle_data_` | `advanced` | `stable` | Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation. |
 | [ux-audit](skills/security/compliance/ux_audit/ux-audit/SKILL.md) | `security` | `compliance` | `ux_audit` | `advanced` | `stable` | Use this skill to audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices |
 | [wp-site-health-auditor](skills/security/compliance/wp_site_health_audit/wp-site-health-auditor/SKILL.md) | `security` | `compliance` | `wp_site_health_audit` | `advanced` | `stable` | Use this skill to turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements, or critical issue reports. |

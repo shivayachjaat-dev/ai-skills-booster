@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,061** skills across structured domains, categories, and subcategories.
+Master navigation for **2,062** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (699 skills)
 
@@ -3622,7 +3622,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (183 skills)
+## Security (184 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -3946,7 +3946,7 @@ Category index: [`docs/categories/code-review.md`](categories/code-review.md)
 - **Github** (1):
   - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
 
-### Compliance (20 skills)
+### Compliance (21 skills)
 Category index: [`docs/categories/compliance.md`](categories/compliance.md)
 
 - **Audit Logging** (1):
@@ -3981,6 +3981,8 @@ Category index: [`docs/categories/compliance.md`](categories/compliance.md)
   - [seo-aeo-orchestrator](../skills/security/compliance/seo_aeo_orchestrator/seo-aeo-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo orchestrator. Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, measurement setup, deployment verification, and optional weekly monitoring.
 - **Seo_Audit** (1):
   - [seo-audit](../skills/security/compliance/seo_audit/seo-audit/SKILL.md) — Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.
+- **Skill_Sentinel** (1):
+  - [skill-sentinel](../skills/security/compliance/skill_sentinel/skill-sentinel/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill sentinel. Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude.
 - **Soroban_Oracle_Data_** (1):
   - [soroban-oracle-data-feed-audit](../skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit/SKILL.md) — Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.
 - **Ux_Audit** (1):

@@ -1846,6 +1846,7 @@ AI_Skills_Booster/
 │   │   ├── project_skill_audit/ (1 skills)
 │   │   ├── seo_aeo_orchestrator/ (1 skills)
 │   │   ├── seo_audit/ (1 skills)
+│   │   ├── skill_sentinel/ (1 skills)
 │   │   ├── soroban_oracle_data_/ (1 skills)
 │   │   ├── ux_audit/ (1 skills)
 │   │   ├── wp_site_health_audit/ (1 skills)

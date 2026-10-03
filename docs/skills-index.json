@@ -38376,6 +38376,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-sentinel",
+    "path": "skills/security/compliance/skill_sentinel/skill-sentinel",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "skill_sentinel",
+    "description": "Use this skill to design, implement, and operate production workflows for skill sentinel. Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude.",
+    "tags": [
+      "security",
+      "compliance",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Sentinel",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-oracle-data-feed-audit",
     "path": "skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit",
     "domain": "security",
