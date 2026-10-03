@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **217 skills** available in this category.
+> **218 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -219,5 +219,6 @@
 | [plan-writing](../../skills/software-engineering/architecture/patterns/plan-writing/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for plan writing. Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work. |
 | [planning-with-files](../../skills/software-engineering/architecture/patterns/planning-with-files/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for planning with files. Work like Manus: Use persistent markdown files as your \"working memory on disk.\ |
 | [playwright-skill](../../skills/software-engineering/architecture/patterns/playwright-skill/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for playwright skill. IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, a... |
+| [poka-yoke](../../skills/software-engineering/architecture/patterns/poka-yoke/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for poka yoke. Mistake-proof code, config and process: make the wrong action impossible or self-announcing rather than documented. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

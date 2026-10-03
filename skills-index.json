@@ -38591,6 +38591,28 @@
     "maturity": "stable"
   },
   {
+    "name": "poka-yoke",
+    "path": "skills/software-engineering/architecture/patterns/poka-yoke",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for poka yoke. Mistake-proof code, config and process: make the wrong action impossible or self-announcing rather than documented.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "poka",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Poka Yoke",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
