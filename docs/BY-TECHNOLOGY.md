@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1761 skills)
+## Bash (1762 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1804,6 +1804,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [postgresql-devsec](../skills/backend/databases/postgresql_devsec/postgresql-devsec/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql devsec. Administer PostgreSQL databases. Configure replication, backups, and
 - [postgresql-optimization](../skills/backend/databases/postgresql_optimizat/postgresql-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql optimization. PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.
 - [prisma-expert](../skills/backend/databases/prisma_expert/prisma-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for prisma expert. You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite.
+- [saas-multi-tenant](../skills/backend/databases/saas_multi_tenant/saas-multi-tenant/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas multi tenant. Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript.
 - [src-hunter](../skills/backend/databases/src_hunter/src-hunter/SKILL.md) — Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload.
 - [azure-appconfiguration-py](../skills/backend/python-services/azure_appconfigurati/azure-appconfiguration-py/SKILL.md) — Use this skill to azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
 - [azure-eventgrid-py](../skills/backend/python-services/azure_eventgrid_py/azure-eventgrid-py/SKILL.md) — Use this skill to azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
@@ -9729,7 +9730,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1864 skills)
+## Python (1865 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10491,6 +10492,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [postgresql-devsec](../skills/backend/databases/postgresql_devsec/postgresql-devsec/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql devsec. Administer PostgreSQL databases. Configure replication, backups, and
 - [postgresql-optimization](../skills/backend/databases/postgresql_optimizat/postgresql-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql optimization. PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.
 - [prisma-expert](../skills/backend/databases/prisma_expert/prisma-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for prisma expert. You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite.
+- [saas-multi-tenant](../skills/backend/databases/saas_multi_tenant/saas-multi-tenant/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas multi tenant. Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript.
 - [src-hunter](../skills/backend/databases/src_hunter/src-hunter/SKILL.md) — Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload.
 - [openapi-documentation-generator-and-swagger-ui](../skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui/SKILL.md) — Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export.
 - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.
@@ -12279,6 +12281,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 - [animejs-declarative-web-animation-system](../skills/frontend/animation/animejs/animejs-declarative-web-animation-system/SKILL.md) — Use this skill to design, build, and optimize declarative, high-performance UI and SVG animations using anime.js. It covers timeline sequencing, spring physics, staggered grid animations, SVG path morphing/drawing, and 60fps performance tuning.
+
+## Saas Multi Tenant (1 skills)
+
+- [saas-multi-tenant](../skills/backend/databases/saas_multi_tenant/saas-multi-tenant/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas multi tenant. Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript.
 
 ## Scale Benchmarks (1 skills)
 

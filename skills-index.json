@@ -17051,6 +17051,28 @@
     "maturity": "stable"
   },
   {
+    "name": "saas-multi-tenant",
+    "path": "skills/backend/databases/saas_multi_tenant/saas-multi-tenant",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "saas_multi_tenant",
+    "description": "Use this skill to design, implement, and operate production workflows for saas multi tenant. Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript.",
+    "tags": [
+      "backend",
+      "databases",
+      "saas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Saas Multi Tenant",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "src-hunter",
     "path": "skills/backend/databases/src_hunter/src-hunter",
     "domain": "backend",
