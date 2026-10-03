@@ -1,6 +1,6 @@
 # Category Index: Python Services
 
-> **15 skills** available in this category.
+> **16 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -19,3 +19,4 @@
 | [pytest-skill](../../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) | `pytest_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\". |
 | [python-patterns](../../skills/backend/python-services/python_patterns/python-patterns/SKILL.md) | `python_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python patterns. Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying. |
 | [python-performance-optimization](../../skills/backend/python-services/python_performance_o/python-performance-optimization/SKILL.md) | `python_performance_o` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python performance optimization. Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance. |
+| [robot-framework-skill](../../skills/backend/python-services/robot_framework_skil/robot-framework-skill/SKILL.md) | `robot_framework_skil` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for robot framework skill. Generates Robot Framework tests in keyword-driven syntax with Python. Supports SeleniumLibrary, RequestsLibrary, and custom keywords. Use when user mentions \"Robot Framework\", \"*** Test Cases ***\", \"SeleniumLibrary\", \".robot file\". |

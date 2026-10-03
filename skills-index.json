@@ -17478,6 +17478,28 @@
     "maturity": "stable"
   },
   {
+    "name": "robot-framework-skill",
+    "path": "skills/backend/python-services/robot_framework_skil/robot-framework-skill",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "robot_framework_skil",
+    "description": "Use this skill to design, implement, and operate production workflows for robot framework skill. Generates Robot Framework tests in keyword-driven syntax with Python. Supports SeleniumLibrary, RequestsLibrary, and custom keywords. Use when user mentions \\\"Robot Framework\\\", \\\"*** Test Cases ***\\\", \\\"SeleniumLibrary\\\", \\\".robot file\\\".",
+    "tags": [
+      "backend",
+      "python-services",
+      "robot",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Robot Framework Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,934** skills across structured domains, categories, and subcategories.
+Master navigation for **1,935** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (661 skills)
 
@@ -1388,7 +1388,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (128 skills)
+## Backend (129 skills)
 
 ### Api Design (11 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1663,7 +1663,7 @@ Category index: [`docs/categories/python.md`](categories/python.md)
 - **Async Concurrency** (1):
   - [asyncio-concurrency-and-event-loop-architecture](../skills/backend/python/async-concurrency/asyncio-concurrency-and-event-loop-architecture/SKILL.md) — Use this skill to design, implement, and debug high-performance asynchronous Python systems using standard asyncio. It covers structured concurrency with asyncio.TaskGroup (Python 3.11+), resilient cancellation semantics, worker queues with backpressure, thread/process pool offloading with run_in_executor, event loop latency profiling, and avoiding blocking I/O pitfalls.
 
-### Python Services (15 skills)
+### Python Services (16 skills)
 Category index: [`docs/categories/python-services.md`](categories/python-services.md)
 
 - **Azure_Appconfigurati** (1):
@@ -1696,6 +1696,8 @@ Category index: [`docs/categories/python-services.md`](categories/python-service
   - [python-patterns](../skills/backend/python-services/python_patterns/python-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for python patterns. Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.
 - **Python_Performance_O** (1):
   - [python-performance-optimization](../skills/backend/python-services/python_performance_o/python-performance-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for python performance optimization. Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance.
+- **Robot_Framework_Skil** (1):
+  - [robot-framework-skill](../skills/backend/python-services/robot_framework_skil/robot-framework-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for robot framework skill. Generates Robot Framework tests in keyword-driven syntax with Python. Supports SeleniumLibrary, RequestsLibrary, and custom keywords. Use when user mentions \"Robot Framework\", \"*** Test Cases ***\", \"SeleniumLibrary\", \".robot file\".
 
 ### Realtime (1 skills)
 Category index: [`docs/categories/realtime.md`](categories/realtime.md)
