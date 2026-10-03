@@ -16796,6 +16796,28 @@
     "maturity": "stable"
   },
   {
+    "name": "python-performance-optimization",
+    "path": "skills/backend/python-services/python_performance_o/python-performance-optimization",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "python_performance_o",
+    "description": "Use this skill to design, implement, and operate production workflows for python performance optimization. Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance.",
+    "tags": [
+      "backend",
+      "python-services",
+      "python",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Python Performance Optimization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

@@ -774,7 +774,8 @@ AI_Skills_Booster/
 │   │   ├── n8n_code_python/ (1 skills)
 │   │   ├── networkx/ (1 skills)
 │   │   ├── pytest_skill/ (1 skills)
-│   │   └── python_patterns/ (1 skills)
+│   │   ├── python_patterns/ (1 skills)
+│   │   └── python_performance_o/ (1 skills)
 │   ├── realtime/
 │   │   └── websocket/ (1 skills)
 │   └── resilience/
