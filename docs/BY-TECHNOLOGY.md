@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1708 skills)
+## Bash (1709 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2758,6 +2758,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [re-create](../skills/software-engineering/architecture/patterns/re-create/SKILL.md) — Use this skill to design, implement, and operate production workflows for re create. Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible.
 - [read-all-adrs](../skills/software-engineering/architecture/patterns/read-all-adrs/SKILL.md) — Use this skill to design, implement, and operate production workflows for read all adrs. Read every ADR in a project before summarizing architectural context or decisions.
 - [readme](../skills/software-engineering/architecture/patterns/readme/SKILL.md) — Use this skill to design, implement, and operate production workflows for readme. You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had.
+- [red-team-tactics](../skills/software-engineering/architecture/patterns/red-team-tactics/SKILL.md) — Use this skill to design, implement, and operate production workflows for red team tactics. Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -9672,7 +9673,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1811 skills)
+## Python (1812 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11451,6 +11452,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [re-create](../skills/software-engineering/architecture/patterns/re-create/SKILL.md) — Use this skill to design, implement, and operate production workflows for re create. Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible.
 - [read-all-adrs](../skills/software-engineering/architecture/patterns/read-all-adrs/SKILL.md) — Use this skill to design, implement, and operate production workflows for read all adrs. Read every ADR in a project before summarizing architectural context or decisions.
 - [readme](../skills/software-engineering/architecture/patterns/readme/SKILL.md) — Use this skill to design, implement, and operate production workflows for readme. You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had.
+- [red-team-tactics](../skills/software-engineering/architecture/patterns/red-team-tactics/SKILL.md) — Use this skill to design, implement, and operate production workflows for red team tactics. Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -11795,6 +11797,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Recursive Context Pruning Token Budgeting (1 skills)
 
 - [recursive-context-pruning-token-budgeting](../skills/ai-engineering/models/recursive_context_pr/recursive-context-pruning-token-budgeting/SKILL.md) — Use this skill to design, implement, and operate production workflows for recursive context pruning token budgeting. Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direct-to-value responses.
+
+## Red Team Tactics (1 skills)
+
+- [red-team-tactics](../skills/software-engineering/architecture/patterns/red-team-tactics/SKILL.md) — Use this skill to design, implement, and operate production workflows for red team tactics. Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.
 
 ## Redis (8 skills)
 

@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **234 skills** available in this category.
+> **235 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -236,5 +236,6 @@
 | [re-create](../../skills/software-engineering/architecture/patterns/re-create/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for re create. Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible. |
 | [read-all-adrs](../../skills/software-engineering/architecture/patterns/read-all-adrs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for read all adrs. Read every ADR in a project before summarizing architectural context or decisions. |
 | [readme](../../skills/software-engineering/architecture/patterns/readme/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for readme. You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had. |
+| [red-team-tactics](../../skills/software-engineering/architecture/patterns/red-team-tactics/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for red team tactics. Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

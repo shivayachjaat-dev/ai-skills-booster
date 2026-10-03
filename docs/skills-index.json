@@ -41341,6 +41341,28 @@
     "maturity": "stable"
   },
   {
+    "name": "red-team-tactics",
+    "path": "skills/software-engineering/architecture/patterns/red-team-tactics",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for red team tactics. Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "red",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Red Team Tactics",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
