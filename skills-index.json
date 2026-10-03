@@ -12469,6 +12469,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postgresql",
+    "path": "skills/ai-engineering/models/postgresql/postgresql",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "postgresql",
+    "description": "Use this skill to design, implement, and operate production workflows for postgresql. Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "postgresql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postgresql",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1592 skills)
+## Bash (1593 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1613,6 +1613,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [podcast-generation](../skills/ai-engineering/models/podcast_generation/podcast-generation/SKILL.md) — Use this skill to design, implement, and operate production workflows for podcast generation. Generate real audio narratives from text content using Azure OpenAI's Realtime API.
 - [podman](../skills/ai-engineering/models/podman/podman/SKILL.md) — Use this skill to design, implement, and operate production workflows for podman. Manage containers using Podman, the daemonless container engine.
 - [poster-design-studio](../skills/ai-engineering/models/poster_design_studio/poster-design-studio/SKILL.md) — Use this skill to design, implement, and operate production workflows for poster design studio. Install and use the official AI Poster Maker package, pinned by digest, for paid hosted work on the Beatra service.
+- [postgresql](../skills/ai-engineering/models/postgresql/postgresql/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql. Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -9176,6 +9177,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [postgres-best-practices](../skills/backend/databases/postgres_best_practi/postgres-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgres best practices. Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.
 
+## Postgresql (1 skills)
+
+- [postgresql](../skills/ai-engineering/models/postgresql/postgresql/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql. Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features
+
 ## PowerShell (2 skills)
 
 - [azure-arm-and-bicep-infrastructure-as-code](../skills/devops/infrastructure/azure-bicep/azure-arm-and-bicep-infrastructure-as-code/SKILL.md) — Use this skill to design, validate, and deploy modular Azure infrastructure using Bicep and ARM templates. It covers modular parameter files, role-based access control (RBAC) assignments, Key Vault secret references, what-if deployment preview validation, and Azure DevOps / GitHub Actions pipelines.
@@ -9287,7 +9292,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1695 skills)
+## Python (1696 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9848,6 +9853,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [podcast-generation](../skills/ai-engineering/models/podcast_generation/podcast-generation/SKILL.md) — Use this skill to design, implement, and operate production workflows for podcast generation. Generate real audio narratives from text content using Azure OpenAI's Realtime API.
 - [podman](../skills/ai-engineering/models/podman/podman/SKILL.md) — Use this skill to design, implement, and operate production workflows for podman. Manage containers using Podman, the daemonless container engine.
 - [poster-design-studio](../skills/ai-engineering/models/poster_design_studio/poster-design-studio/SKILL.md) — Use this skill to design, implement, and operate production workflows for poster design studio. Install and use the official AI Poster Maker package, pinned by digest, for paid hosted work on the Beatra service.
+- [postgresql](../skills/ai-engineering/models/postgresql/postgresql/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql. Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
