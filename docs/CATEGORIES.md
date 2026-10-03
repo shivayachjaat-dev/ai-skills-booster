@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,979** skills across structured domains, categories, and subcategories.
+Master navigation for **1,980** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (674 skills)
+## Ai Engineering (675 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (485 skills)
+### Models (486 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -375,6 +375,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [aws-agentic-ai](../skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) — Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations.
 - **Aws_Cloudtrail** (1):
   - [aws-cloudtrail](../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) — Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails
+- **Aws_Compliance_Check** (1):
+  - [aws-compliance-checker](../skills/ai-engineering/models/aws_compliance_check/aws-compliance-checker/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws compliance checker. Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks
 - **Aws_Cost_Operations** (1):
   - [aws-cost-operations](../skills/ai-engineering/models/aws_cost_operations/aws-cost-operations/SKILL.md) — Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture.
 - **Aws_Ecs_Fargate** (1):

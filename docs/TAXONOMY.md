@@ -177,6 +177,7 @@ AI_Skills_Booster/
 │   │   ├── avoid_ai_writing/ (1 skills)
 │   │   ├── aws_agentic_ai/ (1 skills)
 │   │   ├── aws_cloudtrail/ (1 skills)
+│   │   ├── aws_compliance_check/ (1 skills)
 │   │   ├── aws_cost_operations/ (1 skills)
 │   │   ├── aws_ecs_fargate/ (1 skills)
 │   │   ├── awt_e2e_testing/ (1 skills)

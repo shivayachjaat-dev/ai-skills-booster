@@ -421,6 +421,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [aws-cloudtrail](../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) — Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails
 
+## Aws Compliance Checker (1 skills)
+
+- [aws-compliance-checker](../skills/ai-engineering/models/aws_compliance_check/aws-compliance-checker/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws compliance checker. Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks
+
 ## Aws Cost Cleanup (1 skills)
 
 - [aws-cost-cleanup](../skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) — Use this skill to automated cleanup of unused AWS resources to reduce costs
@@ -1073,7 +1077,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1797 skills)
+## Bash (1798 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1212,6 +1216,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [avoid-ai-writing](../skills/ai-engineering/models/avoid_ai_writing/avoid-ai-writing/SKILL.md) — Use this skill to audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table
 - [aws-agentic-ai](../skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) — Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations.
 - [aws-cloudtrail](../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) — Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails
+- [aws-compliance-checker](../skills/ai-engineering/models/aws_compliance_check/aws-compliance-checker/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws compliance checker. Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks
 - [aws-cost-operations](../skills/ai-engineering/models/aws_cost_operations/aws-cost-operations/SKILL.md) — Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture.
 - [aws-ecs-fargate](../skills/ai-engineering/models/aws_ecs_fargate/aws-ecs-fargate/SKILL.md) — Use this skill to deploy containers on ECS and Fargate. Configure task definitions, services,
 - [awt-e2e-testing](../skills/ai-engineering/models/awt_e2e_testing/awt-e2e-testing/SKILL.md) — Use this skill to aI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g
@@ -9765,7 +9770,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1900 skills)
+## Python (1901 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9925,6 +9930,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [avoid-ai-writing](../skills/ai-engineering/models/avoid_ai_writing/avoid-ai-writing/SKILL.md) — Use this skill to audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table
 - [aws-agentic-ai](../skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) — Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations.
 - [aws-cloudtrail](../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) — Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails
+- [aws-compliance-checker](../skills/ai-engineering/models/aws_compliance_check/aws-compliance-checker/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws compliance checker. Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks
 - [aws-cost-operations](../skills/ai-engineering/models/aws_cost_operations/aws-cost-operations/SKILL.md) — Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture.
 - [aws-ecs-fargate](../skills/ai-engineering/models/aws_ecs_fargate/aws-ecs-fargate/SKILL.md) — Use this skill to deploy containers on ECS and Fargate. Configure task definitions, services,
 - [awt-e2e-testing](../skills/ai-engineering/models/awt_e2e_testing/awt-e2e-testing/SKILL.md) — Use this skill to aI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g

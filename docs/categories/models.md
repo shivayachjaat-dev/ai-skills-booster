@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **485 skills** available in this category.
+> **486 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -27,6 +27,7 @@
 | [avoid-ai-writing](../../skills/ai-engineering/models/avoid_ai_writing/avoid-ai-writing/SKILL.md) | `avoid_ai_writing` | `advanced` | `stable` | Use this skill to audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table |
 | [aws-agentic-ai](../../skills/ai-engineering/models/aws_agentic_ai/aws-agentic-ai/SKILL.md) | `aws_agentic_ai` | `advanced` | `stable` | Use this skill to aWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations. |
 | [aws-cloudtrail](../../skills/ai-engineering/models/aws_cloudtrail/aws-cloudtrail/SKILL.md) | `aws_cloudtrail` | `advanced` | `stable` | Use this skill to configure AWS CloudTrail for audit logging. Set up organization trails |
+| [aws-compliance-checker](../../skills/ai-engineering/models/aws_compliance_check/aws-compliance-checker/SKILL.md) | `aws_compliance_check` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for aws compliance checker. Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks |
 | [aws-cost-operations](../../skills/ai-engineering/models/aws_cost_operations/aws-cost-operations/SKILL.md) | `aws_cost_operations` | `advanced` | `stable` | Use this skill to aWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture. |
 | [aws-ecs-fargate](../../skills/ai-engineering/models/aws_ecs_fargate/aws-ecs-fargate/SKILL.md) | `aws_ecs_fargate` | `advanced` | `stable` | Use this skill to deploy containers on ECS and Fargate. Configure task definitions, services, |
 | [awt-e2e-testing](../../skills/ai-engineering/models/awt_e2e_testing/awt-e2e-testing/SKILL.md) | `awt_e2e_testing` | `advanced` | `stable` | Use this skill to aI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g |

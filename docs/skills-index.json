@@ -3647,6 +3647,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-compliance-checker",
+    "path": "skills/ai-engineering/models/aws_compliance_check/aws-compliance-checker",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "aws_compliance_check",
+    "description": "Use this skill to design, implement, and operate production workflows for aws compliance checker. Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Compliance Checker",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "aws-cost-operations",
     "path": "skills/ai-engineering/models/aws_cost_operations/aws-cost-operations",
     "domain": "ai-engineering",
