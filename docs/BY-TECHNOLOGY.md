@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1938 skills)
+## Bash (1939 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1716,6 +1716,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [squirrel](../skills/ai-engineering/models/squirrel/squirrel/SKILL.md) — Use this skill to design, implement, and operate production workflows for squirrel. Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipeline.
 - [stability-ai](../skills/ai-engineering/models/stability_ai/stability-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for stability ai. Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.
 - [startup-business-analyst-financial-projections](../skills/ai-engineering/models/startup_business_ana/startup-business-analyst-financial-projections/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst financial projections. Create detailed 3-5 year financial model with revenue, costs, cash
+- [stellar-asset-clawback-compliance](../skills/ai-engineering/models/stellar_asset_clawba/stellar-asset-clawback-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar asset clawback compliance. Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
@@ -9918,7 +9919,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2041 skills)
+## Python (2042 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10570,6 +10571,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [squirrel](../skills/ai-engineering/models/squirrel/squirrel/SKILL.md) — Use this skill to design, implement, and operate production workflows for squirrel. Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipeline.
 - [stability-ai](../skills/ai-engineering/models/stability_ai/stability-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for stability ai. Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.
 - [startup-business-analyst-financial-projections](../skills/ai-engineering/models/startup_business_ana/startup-business-analyst-financial-projections/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst financial projections. Create detailed 3-5 year financial model with revenue, costs, cash
+- [stellar-asset-clawback-compliance](../skills/ai-engineering/models/stellar_asset_clawba/stellar-asset-clawback-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar asset clawback compliance. Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
@@ -13501,6 +13503,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Stellar Anchor Integration (1 skills)
 
 - [stellar-anchor-integration](../skills/frontend/web-architecture/stellar_anchor_integ/stellar-anchor-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar anchor integration. Stellar anchor protocol compliance register: SEP-10 web authentication, SEP-24 interactive deposit and withdrawal, and KYC lifecycle.
+
+## Stellar Asset Clawback Compliance (1 skills)
+
+- [stellar-asset-clawback-compliance](../skills/ai-engineering/models/stellar_asset_clawba/stellar-asset-clawback-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar asset clawback compliance. Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.
 
 ## Stripe API (1 skills)
 

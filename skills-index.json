@@ -14471,6 +14471,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stellar-asset-clawback-compliance",
+    "path": "skills/ai-engineering/models/stellar_asset_clawba/stellar-asset-clawback-compliance",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "stellar_asset_clawba",
+    "description": "Use this skill to design, implement, and operate production workflows for stellar asset clawback compliance. Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "stellar",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stellar Asset Clawback Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
