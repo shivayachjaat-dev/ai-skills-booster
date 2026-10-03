@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,944** skills across structured domains, categories, and subcategories.
+Master navigation for **1,945** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (667 skills)
 
@@ -2511,7 +2511,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (388 skills)
+## Frontend (389 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2701,7 +2701,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Redesign_Existing_Pr** (1):
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 
-### Ui Ux (233 skills)
+### Ui Ux (234 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3164,6 +3164,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [reverse-browser-automation](../skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis.
 - **Risk_Metrics_Calcula** (1):
   - [risk-metrics-calculation](../skills/frontend/ui-ux/risk_metrics_calcula/risk-metrics-calculation/SKILL.md) — Use this skill to design, implement, and operate production workflows for risk metrics calculation. Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems.
+- **Saas_Mvp_Launcher** (1):
+  - [saas-mvp-launcher](../skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):

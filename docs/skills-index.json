@@ -30727,6 +30727,28 @@
     "maturity": "stable"
   },
   {
+    "name": "saas-mvp-launcher",
+    "path": "skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "saas_mvp_launcher",
+    "description": "Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "saas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Saas Mvp Launcher",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
