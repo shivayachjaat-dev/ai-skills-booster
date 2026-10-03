@@ -15558,6 +15558,28 @@
     "maturity": "stable"
   },
   {
+    "name": "source-document-filing",
+    "path": "skills/ai-engineering/rag/source_document_fili/source-document-filing",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "source_document_fili",
+    "description": "Use this skill to design, implement, and operate production workflows for source document filing. Source document register: document type and number, party, amount, index key, storage location, retention period and verification. Use for document filing.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "source",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Source Document Filing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "llm-synthetic-data-generation-pipeline",
     "path": "skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline",
     "domain": "ai-engineering",

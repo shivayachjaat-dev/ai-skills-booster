@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,090** skills across structured domains, categories, and subcategories.
+Master navigation for **2,091** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (707 skills)
+## Ai Engineering (708 skills)
 
 ### Agents (88 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1361,7 +1361,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (47 skills)
+### Rag (48 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1455,6 +1455,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - **Soroban_Storage_Ttl_** (1):
   - [soroban-storage-ttl-lifecycle](../skills/ai-engineering/rag/soroban_storage_ttl_/soroban-storage-ttl-lifecycle/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban storage ttl lifecycle. Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.
+- **Source_Document_Fili** (1):
+  - [source-document-filing](../skills/ai-engineering/rag/source_document_fili/source-document-filing/SKILL.md) — Use this skill to design, implement, and operate production workflows for source document filing. Source document register: document type and number, party, amount, index key, storage location, retention period and verification. Use for document filing.
 
 ### Synthetic Data (1 skills)
 Category index: [`docs/categories/synthetic-data.md`](categories/synthetic-data.md)
