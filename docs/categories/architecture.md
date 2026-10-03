@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **269 skills** available in this category.
+> **270 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -272,4 +272,5 @@
 | [sequence-psychologist](../../skills/software-engineering/architecture/patterns/sequence-psychologist/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sequence psychologist. One sentence - what this skill does and when to invoke it |
 | [server-management](../../skills/software-engineering/architecture/patterns/server-management/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for server management. Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands. |
 | [sexual-health-analyzer](../../skills/software-engineering/architecture/patterns/sexual-health-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sexual health analyzer. Sexual Health Analyzer |
+| [shipping-and-launch](../../skills/software-engineering/architecture/patterns/shipping-and-launch/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shipping and launch. Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

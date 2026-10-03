@@ -44619,6 +44619,28 @@
     "maturity": "stable"
   },
   {
+    "name": "shipping-and-launch",
+    "path": "skills/software-engineering/architecture/patterns/shipping-and-launch",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for shipping and launch. Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "shipping",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Shipping And Launch",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
