@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **110 skills** available in this category.
+> **111 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -114,3 +114,4 @@
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](../../skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
 | [security-scanning-security-hardening](../../skills/security/appsec/security_scanning_se/security-scanning-security-hardening/SKILL.md) | `security_scanning_se` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security scanning security hardening. Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls. |
+| [security-scanning-security-sast](../../skills/security/appsec/security_scanning_se/security-scanning-security-sast/SKILL.md) | `security_scanning_se` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security scanning security sast. Static Application Security Testing (SAST) for code vulnerability |

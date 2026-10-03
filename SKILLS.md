@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,990 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,991 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1639,6 +1639,7 @@
 | [security-auditor](skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security` | `appsec` | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security` | `appsec` | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
 | [security-scanning-security-hardening](skills/security/appsec/security_scanning_se/security-scanning-security-hardening/SKILL.md) | `security` | `appsec` | `security_scanning_se` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security scanning security hardening. Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls. |
+| [security-scanning-security-sast](skills/security/appsec/security_scanning_se/security-scanning-security-sast/SKILL.md) | `security` | `appsec` | `security_scanning_se` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security scanning security sast. Static Application Security Testing (SAST) for code vulnerability |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |
 | [azure-communication-common-java](skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) | `security` | `authentication` | `azure_communication_` | `advanced` | `stable` | Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services. |
 | [azure-identity-dotnet](skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) | `security` | `authentication` | `azure_identity_dotne` | `advanced` | `stable` | Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. |

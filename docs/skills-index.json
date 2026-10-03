@@ -36456,6 +36456,28 @@
     "maturity": "stable"
   },
   {
+    "name": "security-scanning-security-sast",
+    "path": "skills/security/appsec/security_scanning_se/security-scanning-security-sast",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "security_scanning_se",
+    "description": "Use this skill to design, implement, and operate production workflows for security scanning security sast. Static Application Security Testing (SAST) for code vulnerability",
+    "tags": [
+      "security",
+      "appsec",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Scanning Security Sast",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
