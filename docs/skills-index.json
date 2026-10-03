@@ -30551,6 +30551,28 @@
     "maturity": "stable"
   },
   {
+    "name": "go-engineering-workflow",
+    "path": "skills/frontend/ui-ux/go/go-engineering-workflow",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "go",
+    "description": "Use this skill to design, implement, and operate production workflows for go engineering workflow. Language-specific super-code guidelines for go.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "go",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Go Engineering Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "go-concurrency-patterns",
     "path": "skills/frontend/ui-ux/go_concurrency_patte/go-concurrency-patterns",
     "domain": "frontend",

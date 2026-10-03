@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **263 skills** available in this category.
+> **264 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -119,6 +119,7 @@
 | [gitlab-ci-patterns](../../skills/frontend/ui-ux/gitlab_ci_patterns/gitlab-ci-patterns/SKILL.md) | `gitlab_ci_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gitlab ci patterns. Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment. |
 | [gitops-workflow](../../skills/frontend/ui-ux/gitops_workflow/gitops-workflow/SKILL.md) | `gitops_workflow` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments. |
 | [glasser](../../skills/frontend/ui-ux/glasser/glasser/SKILL.md) | `glasser` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for glasser. Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration. |
+| [go-engineering-workflow](../../skills/frontend/ui-ux/go/go-engineering-workflow/SKILL.md) | `go` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for go engineering workflow. Language-specific super-code guidelines for go. |
 | [go-concurrency-patterns](../../skills/frontend/ui-ux/go_concurrency_patte/go-concurrency-patterns/SKILL.md) | `go_concurrency_patte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for go concurrency patterns. Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions. |
 | [godot-4-migration](../../skills/frontend/ui-ux/godot_4_migration/godot-4-migration/SKILL.md) | `godot_4_migration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for godot 4 migration. Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports. |
 | [godot-gdscript-patterns](../../skills/frontend/ui-ux/godot_gdscript_patte/godot-gdscript-patterns/SKILL.md) | `godot_gdscript_patte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for godot gdscript patterns. Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices. |

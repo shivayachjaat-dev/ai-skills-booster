@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,145** skills across structured domains, categories, and subcategories.
+Master navigation for **2,146** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (431 skills)
+## Frontend (432 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (263 skills)
+### Ui Ux (264 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3147,6 +3147,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [gitops-workflow](../skills/frontend/ui-ux/gitops_workflow/gitops-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
 - **Glasser** (1):
   - [glasser](../skills/frontend/ui-ux/glasser/glasser/SKILL.md) — Use this skill to design, implement, and operate production workflows for glasser. Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration.
+- **Go** (1):
+  - [go-engineering-workflow](../skills/frontend/ui-ux/go/go-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for go engineering workflow. Language-specific super-code guidelines for go.
 - **Go_Concurrency_Patte** (1):
   - [go-concurrency-patterns](../skills/frontend/ui-ux/go_concurrency_patte/go-concurrency-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for go concurrency patterns. Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions.
 - **Godot_4_Migration** (1):

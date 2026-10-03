@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1964 skills)
+## Bash (1965 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2340,6 +2340,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [gitlab-ci-patterns](../skills/frontend/ui-ux/gitlab_ci_patterns/gitlab-ci-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitlab ci patterns. Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment.
 - [gitops-workflow](../skills/frontend/ui-ux/gitops_workflow/gitops-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
 - [glasser](../skills/frontend/ui-ux/glasser/glasser/SKILL.md) — Use this skill to design, implement, and operate production workflows for glasser. Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration.
+- [go-engineering-workflow](../skills/frontend/ui-ux/go/go-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for go engineering workflow. Language-specific super-code guidelines for go.
 - [go-concurrency-patterns](../skills/frontend/ui-ux/go_concurrency_patte/go-concurrency-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for go concurrency patterns. Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions.
 - [godot-4-migration](../skills/frontend/ui-ux/godot_4_migration/godot-4-migration/SKILL.md) — Use this skill to design, implement, and operate production workflows for godot 4 migration. Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports.
 - [godot-gdscript-patterns](../skills/frontend/ui-ux/godot_gdscript_patte/godot-gdscript-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for godot gdscript patterns. Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices.
@@ -6179,6 +6180,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [go-concurrency-patterns](../skills/frontend/ui-ux/go_concurrency_patte/go-concurrency-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for go concurrency patterns. Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions.
 
+## Go Engineering Workflow (1 skills)
+
+- [go-engineering-workflow](../skills/frontend/ui-ux/go/go-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for go engineering workflow. Language-specific super-code guidelines for go.
+
 ## Go In Depth (1 skills)
 
 - [go-in-depth](../skills/ai-engineering/models/go_in_depth/go-in-depth/SKILL.md) — Use this skill to design, implement, and operate production workflows for go in depth. Go in depth harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.
@@ -9964,7 +9969,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2066 skills)
+## Python (2067 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11285,6 +11290,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [gitlab-ci-patterns](../skills/frontend/ui-ux/gitlab_ci_patterns/gitlab-ci-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitlab ci patterns. Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment.
 - [gitops-workflow](../skills/frontend/ui-ux/gitops_workflow/gitops-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for gitops workflow. Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
 - [glasser](../skills/frontend/ui-ux/glasser/glasser/SKILL.md) — Use this skill to design, implement, and operate production workflows for glasser. Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration.
+- [go-engineering-workflow](../skills/frontend/ui-ux/go/go-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for go engineering workflow. Language-specific super-code guidelines for go.
 - [go-concurrency-patterns](../skills/frontend/ui-ux/go_concurrency_patte/go-concurrency-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for go concurrency patterns. Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions.
 - [godot-4-migration](../skills/frontend/ui-ux/godot_4_migration/godot-4-migration/SKILL.md) — Use this skill to design, implement, and operate production workflows for godot 4 migration. Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports.
 - [godot-gdscript-patterns](../skills/frontend/ui-ux/godot_gdscript_patte/godot-gdscript-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for godot gdscript patterns. Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices.

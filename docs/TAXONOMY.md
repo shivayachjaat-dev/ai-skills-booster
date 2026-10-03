@@ -1460,6 +1460,7 @@ AI_Skills_Booster/
 │   │   ├── gitlab_ci_patterns/ (1 skills)
 │   │   ├── gitops_workflow/ (1 skills)
 │   │   ├── glasser/ (1 skills)
+│   │   ├── go/ (1 skills)
 │   │   ├── go_concurrency_patte/ (1 skills)
 │   │   ├── godot_4_migration/ (1 skills)
 │   │   ├── godot_gdscript_patte/ (1 skills)
