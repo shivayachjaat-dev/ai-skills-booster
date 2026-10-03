@@ -15021,6 +15021,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tdd-workflows-tdd-red",
+    "path": "skills/ai-engineering/models/tdd_workflows_tdd_re/tdd-workflows-tdd-red",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "tdd_workflows_tdd_re",
+    "description": "Use this skill to design, implement, and operate production workflows for tdd workflows tdd red. Generate failing tests for the TDD red phase to define expected behavior and edge cases.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "tdd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tdd Workflows Tdd Red",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

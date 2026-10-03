@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **535 skills** available in this category.
+> **536 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -534,6 +534,7 @@
 | [talking-avatar-video](../../skills/ai-engineering/models/talking_avatar_video/talking-avatar-video/SKILL.md) | `talking_avatar_video` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service. |
 | [tax-register](../../skills/ai-engineering/models/tax_register/tax-register/SKILL.md) | `tax_register` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tax register. Tax register: sales and purchase tax, withholding deducted and received, net payable, filing due date and days remaining. Use for tax compliance. |
 | [tdd-workflows-tdd-green](../../skills/ai-engineering/models/tdd_workflows_tdd_gr/tdd-workflows-tdd-green/SKILL.md) | `tdd_workflows_tdd_gr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tdd workflows tdd green. Implement the minimal code needed to make failing tests pass in the TDD green phase. |
+| [tdd-workflows-tdd-red](../../skills/ai-engineering/models/tdd_workflows_tdd_re/tdd-workflows-tdd-red/SKILL.md) | `tdd_workflows_tdd_re` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tdd workflows tdd red. Generate failing tests for the TDD red phase to define expected behavior and edge cases. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](../../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
 | [vibe-code-auditor](../../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) | `vibe_code_auditor` | `advanced` | `stable` | Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. |

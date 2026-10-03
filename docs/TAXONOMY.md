@@ -682,6 +682,7 @@ AI_Skills_Booster/
 │   │   ├── talking_avatar_video/ (1 skills)
 │   │   ├── tax_register/ (1 skills)
 │   │   ├── tdd_workflows_tdd_gr/ (1 skills)
+│   │   ├── tdd_workflows_tdd_re/ (1 skills)
 │   │   ├── templates/ (1 skills)
 │   │   ├── typography_first/ (1 skills)
 │   │   ├── vibe_code_auditor/ (1 skills)

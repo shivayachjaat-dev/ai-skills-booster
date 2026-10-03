@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,187** skills across structured domains, categories, and subcategories.
+Master navigation for **2,188** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (739 skills)
+## Ai Engineering (740 skills)
 
 ### Agents (96 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -346,7 +346,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (535 skills)
+### Models (536 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1397,6 +1397,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [tax-register](../skills/ai-engineering/models/tax_register/tax-register/SKILL.md) — Use this skill to design, implement, and operate production workflows for tax register. Tax register: sales and purchase tax, withholding deducted and received, net payable, filing due date and days remaining. Use for tax compliance.
 - **Tdd_Workflows_Tdd_Gr** (1):
   - [tdd-workflows-tdd-green](../skills/ai-engineering/models/tdd_workflows_tdd_gr/tdd-workflows-tdd-green/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd workflows tdd green. Implement the minimal code needed to make failing tests pass in the TDD green phase.
+- **Tdd_Workflows_Tdd_Re** (1):
+  - [tdd-workflows-tdd-red](../skills/ai-engineering/models/tdd_workflows_tdd_re/tdd-workflows-tdd-red/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd workflows tdd red. Generate failing tests for the TDD red phase to define expected behavior and edge cases.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - **Typography_First** (1):
