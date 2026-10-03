@@ -13041,6 +13041,28 @@
     "maturity": "stable"
   },
   {
+    "name": "rayden-use",
+    "path": "skills/ai-engineering/models/rayden_use/rayden-use",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "rayden_use",
+    "description": "Use this skill to design, implement, and operate production workflows for rayden use. Build and maintain Rayden UI components and screens in Figma via Figma MCP with full design token enforcement",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "rayden",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Rayden Use",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
