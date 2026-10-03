@@ -47281,6 +47281,28 @@
     "maturity": "stable"
   },
   {
+    "name": "swift-concurrency-expert",
+    "path": "skills/software-engineering/architecture/patterns/swift-concurrency-expert",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for swift concurrency expert. Review and fix Swift concurrency issues such as actor isolation and Sendable violations.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "swift",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Swift Concurrency Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",

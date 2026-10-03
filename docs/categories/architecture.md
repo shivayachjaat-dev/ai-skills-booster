@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **291 skills** available in this category.
+> **292 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -294,4 +294,5 @@
 | [subject-line-psychologist](../../skills/software-engineering/architecture/patterns/subject-line-psychologist/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for subject line psychologist. One sentence - what this skill does and when to invoke it |
 | [supabase](../../skills/software-engineering/architecture/patterns/supabase/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supabase. Use when doing ANY task involving Supabase. |
 | [superpowers-lab](../../skills/software-engineering/architecture/patterns/superpowers-lab/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for superpowers lab. Lab environment for Claude superpowers |
+| [swift-concurrency-expert](../../skills/software-engineering/architecture/patterns/swift-concurrency-expert/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swift concurrency expert. Review and fix Swift concurrency issues such as actor isolation and Sendable violations. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
