@@ -30133,6 +30133,28 @@
     "maturity": "stable"
   },
   {
+    "name": "progressive-web-app",
+    "path": "skills/frontend/web-architecture/progressive_web_app/progressive-web-app",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "progressive_web_app",
+    "description": "Use this skill to design, implement, and operate production workflows for progressive web app. Build Progressive Web Apps (PWAs) with offline support, installability, and caching strategies. Trigger whenever the user mentions PWA, service workers, web app manifests, Workbox, 'add to home screen', or wants their web app to work offline, feel nati...",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "progressive",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Progressive Web App",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "retro-design",
     "path": "skills/frontend/web-architecture/retro_design/retro-design",
     "domain": "frontend",

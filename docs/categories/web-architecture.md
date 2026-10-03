@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **81 skills** available in this category.
+> **82 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -70,6 +70,7 @@
 | [photopea-embedded-editor](../../skills/frontend/web-architecture/photopea_embedded_ed/photopea-embedded-editor/SKILL.md) | `photopea_embedded_ed` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for photopea embedded editor. Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and the full Photoshop-compatible API. |
 | [plotly](../../skills/frontend/web-architecture/plotly/plotly/SKILL.md) | `plotly` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for plotly. Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization. |
 | [production-audit](../../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
+| [progressive-web-app](../../skills/frontend/web-architecture/progressive_web_app/progressive-web-app/SKILL.md) | `progressive_web_app` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for progressive web app. Build Progressive Web Apps (PWAs) with offline support, installability, and caching strategies. Trigger whenever the user mentions PWA, service workers, web app manifests, Workbox, 'add to home screen', or wants their web app to work offline, feel nati... |
 | [retro-design](../../skills/frontend/web-architecture/retro_design/retro-design/SKILL.md) | `retro_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for retro design. Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts. |
 | [retro-futurism](../../skills/frontend/web-architecture/retro_futurism/retro-futurism/SKILL.md) | `retro_futurism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for retro futurism. Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes. |
 | [sci-fi-interface](../../skills/frontend/web-architecture/sci_fi_interface/sci-fi-interface/SKILL.md) | `sci_fi_interface` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sci fi interface. Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts. |
