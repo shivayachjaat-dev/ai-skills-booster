@@ -35532,6 +35532,28 @@
     "maturity": "stable"
   },
   {
+    "name": "saas-security-posture",
+    "path": "skills/security/appsec/saas_security_postur/saas-security-posture",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "saas_security_postur",
+    "description": "Use this skill to design, implement, and operate production workflows for saas security posture. Audit and harden your SaaS tool stack",
+    "tags": [
+      "security",
+      "appsec",
+      "saas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Saas Security Posture",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",

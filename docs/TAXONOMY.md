@@ -1712,6 +1712,7 @@ AI_Skills_Booster/
 │   │   ├── redteam_mindset/ (1 skills)
 │   │   ├── report_writing/ (1 skills)
 │   │   ├── runbook_creation/ (1 skills)
+│   │   ├── saas_security_postur/ (1 skills)
 │   │   ├── security_auditor/ (1 skills)
 │   │   └── security_checklist/ (1 skills)
 │   ├── architecture/
