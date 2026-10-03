@@ -19957,6 +19957,28 @@
     "maturity": "stable"
   },
   {
+    "name": "schema-markup",
+    "path": "skills/data-analytics/data-pipelines/schema_markup/schema-markup",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "schema_markup",
+    "description": "Use this skill to design, implement, and operate production workflows for schema markup. Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "schema",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Schema Markup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "snowflake-data-warehouse-modeling",
     "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
     "domain": "data-analytics",

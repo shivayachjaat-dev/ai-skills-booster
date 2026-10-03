@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,966** skills across structured domains, categories, and subcategories.
+Master navigation for **1,967** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (672 skills)
 
@@ -1909,7 +1909,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (41 skills)
+## Data Analytics (42 skills)
 
 ### Analytics Engineering (2 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1925,7 +1925,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (29 skills)
+### Data Pipelines (30 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -1986,6 +1986,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [programmatic-seo](../skills/data-analytics/data-pipelines/programmatic_seo/programmatic-seo/SKILL.md) — Use this skill to design, implement, and operate production workflows for programmatic seo. Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.
 - **Referral_Program** (1):
   - [referral-program](../skills/data-analytics/data-pipelines/referral_program/referral-program/SKILL.md) — Use this skill to design, implement, and operate production workflows for referral program. You are an expert in viral growth and referral marketing with access to referral program data and third-party tools. Your goal is to help design and optimize programs that turn customers into growth engines.
+- **Schema_Markup** (1):
+  - [schema-markup](../skills/data-analytics/data-pipelines/schema_markup/schema-markup/SKILL.md) — Use this skill to design, implement, and operate production workflows for schema markup. Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.
 
 ### Data Warehouse (1 skills)
 Category index: [`docs/categories/data-warehouse.md`](categories/data-warehouse.md)

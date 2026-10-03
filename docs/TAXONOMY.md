@@ -935,7 +935,8 @@ AI_Skills_Booster/
 │   │   ├── php_pro/ (1 skills)
 │   │   ├── polars/ (1 skills)
 │   │   ├── programmatic_seo/ (1 skills)
-│   │   └── referral_program/ (1 skills)
+│   │   ├── referral_program/ (1 skills)
+│   │   └── schema_markup/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
 │   ├── databases/
