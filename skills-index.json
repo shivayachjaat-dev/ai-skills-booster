@@ -13635,6 +13635,28 @@
     "maturity": "stable"
   },
   {
+    "name": "scientific-writing",
+    "path": "skills/ai-engineering/models/scientific_writing/scientific-writing",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "scientific_writing",
+    "description": "Use this skill to design, implement, and operate production workflows for scientific writing. This is the core skill for the deep research and writing tool\u2014combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup ...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "scientific",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Scientific Writing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

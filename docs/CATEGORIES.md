@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,968** skills across structured domains, categories, and subcategories.
+Master navigation for **1,969** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (672 skills)
+## Ai Engineering (673 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (484 skills)
+### Models (485 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1272,6 +1272,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [sandbase-mcp](../skills/ai-engineering/models/sandbase_mcp/sandbase-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for sandbase mcp. Discover, inspect, and invoke 2,000+ AI models and APIs through SandBase's local MCP bridge with explicit schema and cost checks.
 - **Sbom_Supply_Chain** (1):
   - [sbom-supply-chain](../skills/ai-engineering/models/sbom_supply_chain/sbom-supply-chain/SKILL.md) — Use this skill to design, implement, and operate production workflows for sbom supply chain. Generate, sign, and verify SBOMs and provenance attestations to secure
+- **Scientific_Writing** (1):
+  - [scientific-writing](../skills/ai-engineering/models/scientific_writing/scientific-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for scientific writing. This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup ...
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

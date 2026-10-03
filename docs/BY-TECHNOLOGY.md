@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1786 skills)
+## Bash (1787 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1666,6 +1666,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [sam-altman](../skills/ai-engineering/models/sam_altman/sam-altman/SKILL.md) — Use this skill to design, implement, and operate production workflows for sam altman. Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AGI.
 - [sandbase-mcp](../skills/ai-engineering/models/sandbase_mcp/sandbase-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for sandbase mcp. Discover, inspect, and invoke 2,000+ AI models and APIs through SandBase's local MCP bridge with explicit schema and cost checks.
 - [sbom-supply-chain](../skills/ai-engineering/models/sbom_supply_chain/sbom-supply-chain/SKILL.md) — Use this skill to design, implement, and operate production workflows for sbom supply chain. Generate, sign, and verify SBOMs and provenance attestations to secure
+- [scientific-writing](../skills/ai-engineering/models/scientific_writing/scientific-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for scientific writing. This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup ...
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -9754,7 +9755,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1889 skills)
+## Python (1890 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10368,6 +10369,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [sam-altman](../skills/ai-engineering/models/sam_altman/sam-altman/SKILL.md) — Use this skill to design, implement, and operate production workflows for sam altman. Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AGI.
 - [sandbase-mcp](../skills/ai-engineering/models/sandbase_mcp/sandbase-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for sandbase mcp. Discover, inspect, and invoke 2,000+ AI models and APIs through SandBase's local MCP bridge with explicit schema and cost checks.
 - [sbom-supply-chain](../skills/ai-engineering/models/sbom_supply_chain/sbom-supply-chain/SKILL.md) — Use this skill to design, implement, and operate production workflows for sbom supply chain. Generate, sign, and verify SBOMs and provenance attestations to secure
+- [scientific-writing](../skills/ai-engineering/models/scientific_writing/scientific-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for scientific writing. This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup ...
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -12447,6 +12449,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.
 - [astropy-computational-astronomy-and-coordinate-systems](../skills/data-analytics/scientific-computing/astronomy-physics/astropy-computational-astronomy-and-coordinate-systems/SKILL.md) — Use this skill to perform computational astronomy, astrophysical data analysis, and celestial mechanics using Astropy. It covers celestial coordinate transformations (ICRS, Galactic, FK5, AltAz), FITS image and table I/O with WCS header mapping, physical units and dimensional quantities, time standards (UTC, TDB, Julian Dates), and cosmological parameter modeling.
+
+## Scientific Writing (1 skills)
+
+- [scientific-writing](../skills/ai-engineering/models/scientific_writing/scientific-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for scientific writing. This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup ...
 
 ## Scoring Matrices (1 skills)
 
