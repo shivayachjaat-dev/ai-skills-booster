@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,758** skills across structured domains, categories, and subcategories.
+Master navigation for **1,759** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (607 skills)
 
@@ -2309,7 +2309,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (348 skills)
+## Frontend (349 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2475,7 +2475,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (208 skills)
+### Ui Ux (209 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2888,6 +2888,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [plan-ledger-tasks-yylo](../skills/frontend/ui-ux/plan_ledger_tasks_yy/plan-ledger-tasks-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for plan ledger tasks yylo. Create a concise Product Development Requirement and one or more implementation-sized
 - **Planning_And_Task_Br** (1):
   - [planning-and-task-breakdown](../skills/frontend/ui-ux/planning_and_task_br/planning-and-task-breakdown/SKILL.md) — Use this skill to design, implement, and operate production workflows for planning and task breakdown. Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.
+- **Platform_Engineering** (1):
+  - [platform-engineering](../skills/frontend/ui-ux/platform_engineering/platform-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for platform engineering. Build internal developer platforms (IDPs) with self-service infrastructure,
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):

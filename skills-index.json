@@ -27691,6 +27691,28 @@
     "maturity": "stable"
   },
   {
+    "name": "platform-engineering",
+    "path": "skills/frontend/ui-ux/platform_engineering/platform-engineering",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "platform_engineering",
+    "description": "Use this skill to design, implement, and operate production workflows for platform engineering. Build internal developer platforms (IDPs) with self-service infrastructure,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "platform",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Platform Engineering",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
