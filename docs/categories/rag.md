@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **46 skills** available in this category.
+> **47 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -50,3 +50,4 @@
 | [seo-aeo-blog-writer](../../skills/ai-engineering/rag/seo_aeo_blog_writer/seo-aeo-blog-writer/SKILL.md) | `seo_aeo_blog_writer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo blog writer. Writes search-intent-led long-form articles with answer-first structure, FAQ coverage, internal links, and conversion paths for SEO and AEO. |
 | [shader-programming-glsl](../../skills/ai-engineering/rag/shader_programming_g/shader-programming-glsl/SKILL.md) | `shader_programming_g` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shader programming glsl. Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects. |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |
+| [soroban-storage-ttl-lifecycle](../../skills/ai-engineering/rag/soroban_storage_ttl_/soroban-storage-ttl-lifecycle/SKILL.md) | `soroban_storage_ttl_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for soroban storage ttl lifecycle. Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries. |

@@ -15536,6 +15536,28 @@
     "maturity": "stable"
   },
   {
+    "name": "soroban-storage-ttl-lifecycle",
+    "path": "skills/ai-engineering/rag/soroban_storage_ttl_/soroban-storage-ttl-lifecycle",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "soroban_storage_ttl_",
+    "description": "Use this skill to design, implement, and operate production workflows for soroban storage ttl lifecycle. Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "soroban",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Soroban Storage Ttl Lifecycle",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "llm-synthetic-data-generation-pipeline",
     "path": "skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline",
     "domain": "ai-engineering",

@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1906 skills)
+## Bash (1907 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1761,6 +1761,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [seo-aeo-blog-writer](../skills/ai-engineering/rag/seo_aeo_blog_writer/seo-aeo-blog-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo blog writer. Writes search-intent-led long-form articles with answer-first structure, FAQ coverage, internal links, and conversion paths for SEO and AEO.
 - [shader-programming-glsl](../skills/ai-engineering/rag/shader_programming_g/shader-programming-glsl/SKILL.md) — Use this skill to design, implement, and operate production workflows for shader programming glsl. Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects.
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
+- [soroban-storage-ttl-lifecycle](../skills/ai-engineering/rag/soroban_storage_ttl_/soroban-storage-ttl-lifecycle/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban storage ttl lifecycle. Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.
 - [backend-architect](../skills/backend/api-design/backend_architect/backend-architect/SKILL.md) — Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
 - [backend-security-coder](../skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) — Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
 - [cc-skill-backend-patterns](../skills/backend/api-design/cc_skill_backend_pat/cc-skill-backend-patterns/SKILL.md) — Use this skill to backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
@@ -9886,7 +9887,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2009 skills)
+## Python (2010 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10585,6 +10586,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [seo-aeo-blog-writer](../skills/ai-engineering/rag/seo_aeo_blog_writer/seo-aeo-blog-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo blog writer. Writes search-intent-led long-form articles with answer-first structure, FAQ coverage, internal links, and conversion paths for SEO and AEO.
 - [shader-programming-glsl](../skills/ai-engineering/rag/shader_programming_g/shader-programming-glsl/SKILL.md) — Use this skill to design, implement, and operate production workflows for shader programming glsl. Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects.
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
+- [soroban-storage-ttl-lifecycle](../skills/ai-engineering/rag/soroban_storage_ttl_/soroban-storage-ttl-lifecycle/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban storage ttl lifecycle. Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
 - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
@@ -13280,6 +13282,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Soroban Oracle Data Feed Audit (1 skills)
 
 - [soroban-oracle-data-feed-audit](../skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit/SKILL.md) — Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.
+
+## Soroban Storage Ttl Lifecycle (1 skills)
+
+- [soroban-storage-ttl-lifecycle](../skills/ai-engineering/rag/soroban_storage_ttl_/soroban-storage-ttl-lifecycle/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban storage ttl lifecycle. Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.
 
 ## Spatial Computing Ui (1 skills)
 

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,088** skills across structured domains, categories, and subcategories.
+Master navigation for **2,089** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (706 skills)
+## Ai Engineering (707 skills)
 
 ### Agents (88 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1361,7 +1361,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (46 skills)
+### Rag (47 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1453,6 +1453,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [shader-programming-glsl](../skills/ai-engineering/rag/shader_programming_g/shader-programming-glsl/SKILL.md) — Use this skill to design, implement, and operate production workflows for shader programming glsl. Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects.
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
+- **Soroban_Storage_Ttl_** (1):
+  - [soroban-storage-ttl-lifecycle](../skills/ai-engineering/rag/soroban_storage_ttl_/soroban-storage-ttl-lifecycle/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban storage ttl lifecycle. Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.
 
 ### Synthetic Data (1 skills)
 Category index: [`docs/categories/synthetic-data.md`](categories/synthetic-data.md)
