@@ -1,19 +1,22 @@
 ---
 name: context-agent
-description: "Use this skill to agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tarefas pendentes e carrega briefing automatico na sessao seguinte."
+description: "Use this skill to manage persistent session continuity, memory checkpointing, and cold-start briefing restoration across autonomous agent lifecycles. It compresses turn history, records architectural decisions and pending task states, and generates high-density initialization briefings without token dilution."
 domain: ai-engineering
 category: agents
 subcategory: context_agent
 tags:
-  - ai-engineering
-  - agents
-  - context
-  - automation
-  - production-ready
+  - session-continuity
+  - agent-memory
+  - context-checkpointing
+  - memory-compaction
+  - cold-start-briefing
+  - task-state-persistence
 technologies:
-  - Context Agent
   - Python
-  - Bash
+  - SQLite
+  - JSON
+  - Markdown
+  - Tokenizer
 complexity: advanced
 maturity: stable
 tools:
@@ -21,92 +24,139 @@ tools:
   - bash
 dependencies:
   - python@>=3.10
+version: 1.0.0
+author: Antigravity Team
 ---
-# Context Agent Architecture & Implementation Standard
+
+# Agent Session Continuity & Context Memory Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for context agent. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with context-agent.
+The `context-agent` skill establishes the operational framework, state serialization schema, and briefing protocols for preserving context across autonomous agent sessions. In long-running development workflows, agents frequently hit context limits or are restarted in fresh processes. Without structured continuity management, newly launched agents suffer from cold-start amnesia: repeating already resolved errors, re-investigating previously decided architectural trade-offs, and losing track of unfinished tasks. This skill provides automated session checkpointing, structured `MEMORY.md` updates, and high-density initialization briefings.
 
 ```
-+------------------------------------------------------------------------+
-|                   Context Agent                                       |
-|                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
-+------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+|                        Agent Context Continuity Lifecycle                         |
+|                                                                                   |
+|  [ Concluding Agent Session ]                                                     |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Extract Session Delta ]                                                        |
+|    - Architectural decisions locked in                                            |
+|    - Modified file set (`git diff --name-only`)                                   |
+|    - Unresolved errors & next steps                                               |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Context Compaction & Checkpoint Store ]                                        |
+|    - Persist structured JSON snapshot to `.gemini/context_store.db`               |
+|    - Append high-level milestones to `MEMORY.md`                                  |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Fresh Agent Session Start (Cold Start) ]                                       |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Inject High-Density Initialization Briefing ]                                  |
+|    - Immediate awareness of current state without reading 100k raw tokens         |
+|    - Seamless resumption of in-flight task queue                                  |
++-----------------------------------------------------------------------------------+
 ```
+
+---
 
 ## When to Use
 
-- When architecting or refactoring systems related to context agent.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When concluding an agent session and preserving critical decisions, open bugs, and next steps for the next session.
+- When starting a new session on an active project and restoring situational awareness without full context re-hydration.
+- When an agent is approaching its context window budget and must compact historical turns into a durable summary.
+- When multiple autonomous agents collaborate asynchronously across time boundaries.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
+- For short, self-contained single-turn queries (e.g. "What is the syntax for a Python generator?").
+- As a substitute for standard git version control (git commits track code; `context-agent` tracks intent, decisions, and uncommitted hypotheses).
+- Storing high-security secrets, private keys, or passwords.
+
+---
 
 ## Inputs & Prerequisites
 
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+1. **Session Artifacts**: Active chat trajectory, list of modified files, and user directives.
+2. **Persistent Store Path**: Local checkpoint directory (e.g. `.context/` or `.gemini/`).
+3. **Token Budget Target**: Maximum allowable tokens for cold-start briefings (default: $< 1200$ tokens).
+
+---
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for context-agent..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### Step 1: Session State Extraction & Structuring
+Extract the key delta elements from the current session:
 
 ```python
-import sys
-import logging
+from dataclasses import dataclass, field
+from typing import List, Dict, Any
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("context-agent")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for context-agent")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+@dataclass
+class SessionCheckpoint:
+    session_id: str
+    timestamp: str
+    decisions: List[str]
+    modified_files: List[str]
+    pending_tasks: List[str]
+    unresolved_errors: List[str]
+    technical_discoveries: List[str] = field(default_factory=list)
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### Step 2: High-Density Initialization Briefing Synthesis
+Generate a compact briefing tailored for cold-start injection:
+
+```python
+def generate_initialization_briefing(checkpoint: SessionCheckpoint) -> str:
+    """Formats the latest checkpoint into a high-density cold-start briefing."""
+    doc = [
+        f"# Session Briefing: Resume State for {checkpoint.session_id}",
+        f"**Checkpoint Timestamp**: {checkpoint.timestamp}",
+        "",
+        "## 1. Locked Architectural Decisions",
+    ]
+    for dec in checkpoint.decisions:
+        doc.append(f"- {dec}")
+        
+    doc.append("\n## 2. Modified Working Files")
+    for f in checkpoint.modified_files:
+        doc.append(f"- `{f}`")
+        
+    doc.append("\n## 3. Active In-Flight Tasks (Pending)")
+    for task in checkpoint.pending_tasks:
+        doc.append(f"- [ ] {task}")
+        
+    if checkpoint.unresolved_errors:
+        doc.append("\n## 4. Known Blockers & Unresolved Errors")
+        for err in checkpoint.unresolved_errors:
+            doc.append(f"- [!] {err}")
+            
+    return "\n".join(doc)
+```
+
+### Step 3: Rolling Memory Compaction
+Prune older checkpoints when the archive exceeds storage limits, consolidating historic logs into permanent milestone records.
+
+---
 
 ## Best Practices & Failure Modes
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+- **Never Log Secrets**: Scrub all API tokens, bearer keys, and environment passwords before serializing context checkpoints to disk.
+- **Strict Token Limits**: Keep cold-start briefings under 1200 tokens. Bloated briefings defeat the purpose of session continuity.
+- **Atomic File Writing**: Write checkpoints to temporary files before atomically renaming to prevent corruption if a process terminates abruptly.
+
+---
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/context-agent_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+1. Run the session continuity manager test suite:
+   ```bash
+   python scripts/context-agent_helper.py
+   ```
+2. Verify checkpoint creation, briefing formatting, and compaction via CLI:
+   ```bash
+   python scripts/session_continuity_manager.py --test-all
+   ```
