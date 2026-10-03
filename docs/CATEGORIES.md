@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,073** skills across structured domains, categories, and subcategories.
+Master navigation for **2,074** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (701 skills)
+## Ai Engineering (702 skills)
 
 ### Agents (88 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -330,7 +330,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (508 skills)
+### Models (509 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1326,6 +1326,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [skill-seekers](../skills/ai-engineering/models/skill_seekers/skill-seekers/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill seekers. -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.
 - **Skyvern_Browser_Auto** (1):
   - [skyvern-browser-automation](../skills/ai-engineering/models/skyvern_browser_auto/skyvern-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for skyvern browser automation. AI-powered browser automation — navigate sites, fill forms, extract structured data, log in with stored credentials, and build reusable workflows.
+- **Smartui_Skill** (1):
+  - [smartui-skill](../skills/ai-engineering/models/smartui_skill/smartui-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for smartui skill. Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions \"SmartUI\", \"visual regression\", \"screenshot comparison...
 - **Supply_Chain_Risk_Au** (1):
   - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - **Templates** (1):

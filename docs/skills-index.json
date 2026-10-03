@@ -14229,6 +14229,28 @@
     "maturity": "stable"
   },
   {
+    "name": "smartui-skill",
+    "path": "skills/ai-engineering/models/smartui_skill/smartui-skill",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "smartui_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for smartui skill. Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic \u2014 works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions \\\"SmartUI\\\", \\\"visual regression\\\", \\\"screenshot comparison...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "smartui",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Smartui Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

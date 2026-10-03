@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1891 skills)
+## Bash (1892 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1705,6 +1705,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [skill-rails-upgrade](../skills/ai-engineering/models/skill_rails_upgrade/skill-rails-upgrade/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill rails upgrade. Analyze Rails apps and provide upgrade assessments
 - [skill-seekers](../skills/ai-engineering/models/skill_seekers/skill-seekers/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill seekers. -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.
 - [skyvern-browser-automation](../skills/ai-engineering/models/skyvern_browser_auto/skyvern-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for skyvern browser automation. AI-powered browser automation — navigate sites, fill forms, extract structured data, log in with stored credentials, and build reusable workflows.
+- [smartui-skill](../skills/ai-engineering/models/smartui_skill/smartui-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for smartui skill. Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions \"SmartUI\", \"visual regression\", \"screenshot comparison...
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
@@ -9871,7 +9872,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1994 skills)
+## Python (1995 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10512,6 +10513,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [skill-rails-upgrade](../skills/ai-engineering/models/skill_rails_upgrade/skill-rails-upgrade/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill rails upgrade. Analyze Rails apps and provide upgrade assessments
 - [skill-seekers](../skills/ai-engineering/models/skill_seekers/skill-seekers/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill seekers. -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.
 - [skyvern-browser-automation](../skills/ai-engineering/models/skyvern_browser_auto/skyvern-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for skyvern browser automation. AI-powered browser automation — navigate sites, fill forms, extract structured data, log in with stored credentials, and build reusable workflows.
+- [smartui-skill](../skills/ai-engineering/models/smartui_skill/smartui-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for smartui skill. Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions \"SmartUI\", \"visual regression\", \"screenshot comparison...
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
@@ -13170,6 +13172,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Smart Git Automation (1 skills)
 
 - [smart-git-automation](../skills/software-engineering/architecture/patterns/smart-git-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for smart git automation. Smart change detection, auto branch naming, and streamlined commit/PR workflow
+
+## Smartui Skill (1 skills)
+
+- [smartui-skill](../skills/ai-engineering/models/smartui_skill/smartui-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for smartui skill. Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions \"SmartUI\", \"visual regression\", \"screenshot comparison...
 
 ## Snowflake (1 skills)
 
