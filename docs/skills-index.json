@@ -14383,6 +14383,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sql-optimization-patterns",
+    "path": "skills/ai-engineering/models/sql_optimization_pat/sql-optimization-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "sql_optimization_pat",
+    "description": "Use this skill to design, implement, and operate production workflows for sql optimization patterns. Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "sql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sql Optimization Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

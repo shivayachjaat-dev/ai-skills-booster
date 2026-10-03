@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1917 skills)
+## Bash (1918 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1712,6 +1712,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [soc2-compliance](../skills/ai-engineering/models/soc2_compliance/soc2-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for soc2 compliance. Implement SOC 2 Trust Services Criteria. Configure security, availability,
 - [social-orchestrator](../skills/ai-engineering/models/social_orchestrator/social-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for social orchestrator. Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de cam...
 - [spec-to-code-compliance](../skills/ai-engineering/models/spec_to_code_complia/spec-to-code-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for spec to code compliance. Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.
+- [sql-optimization-patterns](../skills/ai-engineering/models/sql_optimization_pat/sql-optimization-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for sql optimization patterns. Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
@@ -9897,7 +9898,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2020 skills)
+## Python (2021 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10545,6 +10546,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [soc2-compliance](../skills/ai-engineering/models/soc2_compliance/soc2-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for soc2 compliance. Implement SOC 2 Trust Services Criteria. Configure security, availability,
 - [social-orchestrator](../skills/ai-engineering/models/social_orchestrator/social-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for social orchestrator. Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de cam...
 - [spec-to-code-compliance](../skills/ai-engineering/models/spec_to_code_complia/spec-to-code-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for spec to code compliance. Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.
+- [sql-optimization-patterns](../skills/ai-engineering/models/sql_optimization_pat/sql-optimization-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for sql optimization patterns. Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
@@ -13366,6 +13368,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Spreadsheet Manual Build (1 skills)
 
 - [spreadsheet-manual-build](../skills/frontend/ui-ux/spreadsheet_manual_b/spreadsheet-manual-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for spreadsheet manual build. Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.
+
+## Sql Optimization Patterns (1 skills)
+
+- [sql-optimization-patterns](../skills/ai-engineering/models/sql_optimization_pat/sql-optimization-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for sql optimization patterns. Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data.
 
 ## Src Hunter (1 skills)
 

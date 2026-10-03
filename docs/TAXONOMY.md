@@ -654,6 +654,7 @@ AI_Skills_Booster/
 │   │   ├── soc2_compliance/ (1 skills)
 │   │   ├── social_orchestrator/ (1 skills)
 │   │   ├── spec_to_code_complia/ (1 skills)
+│   │   ├── sql_optimization_pat/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
 │   │   ├── typography_first/ (1 skills)

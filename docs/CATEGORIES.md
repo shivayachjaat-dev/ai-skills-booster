@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,099** skills across structured domains, categories, and subcategories.
+Master navigation for **2,100** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (710 skills)
+## Ai Engineering (711 skills)
 
 ### Agents (89 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -332,7 +332,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (514 skills)
+### Models (515 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1340,6 +1340,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [social-orchestrator](../skills/ai-engineering/models/social_orchestrator/social-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for social orchestrator. Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de cam...
 - **Spec_To_Code_Complia** (1):
   - [spec-to-code-compliance](../skills/ai-engineering/models/spec_to_code_complia/spec-to-code-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for spec to code compliance. Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.
+- **Sql_Optimization_Pat** (1):
+  - [sql-optimization-patterns](../skills/ai-engineering/models/sql_optimization_pat/sql-optimization-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for sql optimization patterns. Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data.
 - **Supply_Chain_Risk_Au** (1):
   - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - **Templates** (1):
