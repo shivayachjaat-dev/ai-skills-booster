@@ -14235,6 +14235,28 @@
     "maturity": "stable"
   },
   {
+    "name": "python-fastapi-development",
+    "path": "skills/backend/api-design/python_fastapi_devel/python-fastapi-development",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "python_fastapi_devel",
+    "description": "Use this skill to design, implement, and operate production workflows for python fastapi development. Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns.",
+    "tags": [
+      "backend",
+      "api-design",
+      "python",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Python Fastapi Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-rate-limiting-and-throttling",
     "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
     "domain": "backend",

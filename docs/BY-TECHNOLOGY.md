@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1662 skills)
+## Bash (1663 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1684,6 +1684,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fp-backend](../skills/backend/api-design/fp_backend/fp-backend/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp backend. Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection
 - [hunt-spa-api](../skills/backend/api-design/hunt_spa_api/hunt-spa-api/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt spa api. Discover a single-page-app's hidden backend API from its public JS bundle,
 - [polars](../skills/backend/api-design/polars/polars/SKILL.md) — Use this skill to design, implement, and operate production workflows for polars. Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than...
+- [python-fastapi-development](../skills/backend/api-design/python_fastapi_devel/python-fastapi-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for python fastapi development. Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns.
 - [atlas-cloud-media](../skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) — Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling.
 - [aws-mcp-setup](../skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) — Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.
 - [azure-keyvault-secrets-rust](../skills/backend/api-frameworks/azure_keyvault_secre/azure-keyvault-secrets-rust/SKILL.md) — Use this skill to azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: "keyvault secrets rust", "SecretClient rust", "get secret rust", "set secret rust".
@@ -9626,7 +9627,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1765 skills)
+## Python (1766 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10264,6 +10265,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fp-backend](../skills/backend/api-design/fp_backend/fp-backend/SKILL.md) — Use this skill to design, implement, and operate production workflows for fp backend. Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection
 - [hunt-spa-api](../skills/backend/api-design/hunt_spa_api/hunt-spa-api/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt spa api. Discover a single-page-app's hidden backend API from its public JS bundle,
 - [polars](../skills/backend/api-design/polars/polars/SKILL.md) — Use this skill to design, implement, and operate production workflows for polars. Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than...
+- [python-fastapi-development](../skills/backend/api-design/python_fastapi_devel/python-fastapi-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for python fastapi development. Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns.
 - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 - [atlas-cloud-media](../skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) — Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling.
 - [aws-mcp-setup](../skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) — Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.
@@ -11409,6 +11411,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Python Development Python Scaffold (1 skills)
 
 - [python-development-python-scaffold](../skills/backend/api-frameworks/python_development_p/python-development-python-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for python development python scaffold. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint
+
+## Python Fastapi Development (1 skills)
+
+- [python-fastapi-development](../skills/backend/api-design/python_fastapi_devel/python-fastapi-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for python fastapi development. Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns.
 
 ## Python OTel SDK (1 skills)
 

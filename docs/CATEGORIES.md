@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,844** skills across structured domains, categories, and subcategories.
+Master navigation for **1,845** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (633 skills)
 
@@ -1332,9 +1332,9 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (123 skills)
+## Backend (124 skills)
 
-### Api Design (10 skills)
+### Api Design (11 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 
 - **Api Analyzer** (1):
@@ -1355,6 +1355,8 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
   - [hunt-spa-api](../skills/backend/api-design/hunt_spa_api/hunt-spa-api/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt spa api. Discover a single-page-app's hidden backend API from its public JS bundle,
 - **Polars** (1):
   - [polars](../skills/backend/api-design/polars/polars/SKILL.md) — Use this skill to design, implement, and operate production workflows for polars. Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than...
+- **Python_Fastapi_Devel** (1):
+  - [python-fastapi-development](../skills/backend/api-design/python_fastapi_devel/python-fastapi-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for python fastapi development. Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns.
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
