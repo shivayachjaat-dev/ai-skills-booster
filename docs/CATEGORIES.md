@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,035** skills across structured domains, categories, and subcategories.
+Master navigation for **2,036** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (690 skills)
+## Ai Engineering (691 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (500 skills)
+### Models (501 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1304,6 +1304,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [seo-technical](../skills/ai-engineering/models/seo_technical/seo-technical/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo technical. Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access.
 - **Setup_Help** (1):
   - [setup-help](../skills/ai-engineering/models/setup_help/setup-help/SKILL.md) — Use this skill to design, implement, and operate production workflows for setup help. Walk a user through setup or installation one step at a time with the remaining steps visible.
+- **Setup_Matt_Pocock_Sk** (1):
+  - [setup-matt-pocock-skills](../skills/ai-engineering/models/setup_matt_pocock_sk/setup-matt-pocock-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for setup matt pocock skills. Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

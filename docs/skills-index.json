@@ -13987,6 +13987,28 @@
     "maturity": "stable"
   },
   {
+    "name": "setup-matt-pocock-skills",
+    "path": "skills/ai-engineering/models/setup_matt_pocock_sk/setup-matt-pocock-skills",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "setup_matt_pocock_sk",
+    "description": "Use this skill to design, implement, and operate production workflows for setup matt pocock skills. Configure this repo for the engineering skills \u2014 set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "setup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Setup Matt Pocock Skills",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

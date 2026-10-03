@@ -636,6 +636,7 @@ AI_Skills_Booster/
 │   │   ├── seo_geo/ (1 skills)
 │   │   ├── seo_technical/ (1 skills)
 │   │   ├── setup_help/ (1 skills)
+│   │   ├── setup_matt_pocock_sk/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
