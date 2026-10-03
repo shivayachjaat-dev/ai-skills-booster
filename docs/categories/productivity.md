@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **37 skills** available in this category.
+> **38 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -41,3 +41,4 @@
 | [product-manager-toolkit](../../skills/developer-tools/productivity/product_manager_tool/product-manager-toolkit/SKILL.md) | `product_manager_tool` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product manager toolkit. Essential tools and frameworks for modern product management, from discovery to delivery. |
 | [reddit-automation](../../skills/developer-tools/productivity/reddit_automation/reddit-automation/SKILL.md) | `reddit_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reddit automation. Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas. |
 | [render-automation](../../skills/developer-tools/productivity/render_automation/render-automation/SKILL.md) | `render_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for render automation. Automate Render tasks via Rube MCP (Composio): services, deployments, projects. Always search tools first for current schemas. |
+| [salesforce-automation](../../skills/developer-tools/productivity/salesforce_automatio/salesforce-automation/SKILL.md) | `salesforce_automatio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for salesforce automation. Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas. |
