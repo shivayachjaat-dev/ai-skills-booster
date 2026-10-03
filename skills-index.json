@@ -12645,6 +12645,28 @@
     "maturity": "stable"
   },
   {
+    "name": "product-manager",
+    "path": "skills/ai-engineering/models/product_manager/product-manager",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "product_manager",
+    "description": "Use this skill to design, implement, and operate production workflows for product manager. Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "product",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Product Manager",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -575,6 +575,7 @@ AI_Skills_Booster/
 │   │   ├── pre_ship_gate/ (1 skills)
 │   │   ├── privacy_mask/ (1 skills)
 │   │   ├── product_design/ (1 skills)
+│   │   ├── product_manager/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
