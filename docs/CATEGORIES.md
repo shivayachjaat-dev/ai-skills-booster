@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,751** skills across structured domains, categories, and subcategories.
+Master navigation for **1,752** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (606 skills)
 
@@ -3606,9 +3606,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (219 skills)
+## Software Engineering (220 skills)
 
-### Architecture (212 skills)
+### Architecture (213 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -3617,7 +3617,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (209):
+- **Patterns** (210):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -3825,6 +3825,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [performance-profiling](../skills/software-engineering/architecture/patterns/performance-profiling/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance profiling. Performance profiling principles. Measurement, analysis, and optimization techniques.
   - [permission-manager](../skills/software-engineering/architecture/patterns/permission-manager/SKILL.md) — Use this skill to design, implement, and operate production workflows for permission manager. Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns
   - [phase-gated-debugging](../skills/software-engineering/architecture/patterns/phase-gated-debugging/SKILL.md) — Use this skill to design, implement, and operate production workflows for phase gated debugging. Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts.
+  - [pitch-psychologist](../skills/software-engineering/architecture/patterns/pitch-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for pitch psychologist. One sentence - what this skill does and when to invoke it
   - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
   - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 

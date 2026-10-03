@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **213 skills** available in this category.
+> **214 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -215,5 +215,6 @@
 | [performance-profiling](../../skills/software-engineering/architecture/patterns/performance-profiling/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance profiling. Performance profiling principles. Measurement, analysis, and optimization techniques. |
 | [permission-manager](../../skills/software-engineering/architecture/patterns/permission-manager/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for permission manager. Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns |
 | [phase-gated-debugging](../../skills/software-engineering/architecture/patterns/phase-gated-debugging/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for phase gated debugging. Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts. |
+| [pitch-psychologist](../../skills/software-engineering/architecture/patterns/pitch-psychologist/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pitch psychologist. One sentence - what this skill does and when to invoke it |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
