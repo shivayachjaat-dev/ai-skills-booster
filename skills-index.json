@@ -34093,6 +34093,28 @@
     "maturity": "stable"
   },
   {
+    "name": "swiftui-liquid-glass",
+    "path": "skills/frontend/ui-ux/swiftui_liquid_glass/swiftui-liquid-glass",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "swiftui_liquid_glass",
+    "description": "Use this skill to design, implement, and operate production workflows for swiftui liquid glass. Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "swiftui",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Swiftui Liquid Glass",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
