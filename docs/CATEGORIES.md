@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,132** skills across structured domains, categories, and subcategories.
+Master navigation for **2,133** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (720 skills)
+## Ai Engineering (721 skills)
 
-### Agents (91 skills)
+### Agents (92 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -189,6 +189,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [stitch-loop](../skills/ai-engineering/agents/stitch_loop/stitch-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch loop. Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern
 - **Subagent_Driven_Deve** (1):
   - [subagent-driven-development](../skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session
+- **Subagent_Orchestrato** (1):
+  - [subagent-orchestrator](../skills/ai-engineering/agents/subagent_orchestrato/subagent-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent orchestrator. Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.
 
 ### Audio Processing (5 skills)
 Category index: [`docs/categories/audio-processing.md`](categories/audio-processing.md)
