@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **95 skills** available in this category.
+> **96 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -99,3 +99,4 @@
 | [super-code](../../skills/ai-engineering/agents/super_code/super-code/SKILL.md) | `super_code` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for super code. Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead. |
 | [talivia-agent-kit](../../skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit/SKILL.md) | `talivia_agent_kit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution. |
 | [task-intelligence](../../skills/ai-engineering/agents/task_intelligence/task-intelligence/SKILL.md) | `task_intelligence` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for task intelligence. Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usuário. |
+| [tdd-orchestrator](../../skills/ai-engineering/agents/tdd_orchestrator/tdd-orchestrator/SKILL.md) | `tdd_orchestrator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tdd orchestrator. Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices. |

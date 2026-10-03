@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,182** skills across structured domains, categories, and subcategories.
+Master navigation for **2,183** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (737 skills)
+## Ai Engineering (738 skills)
 
-### Agents (95 skills)
+### Agents (96 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -197,6 +197,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [talivia-agent-kit](../skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit/SKILL.md) — Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution.
 - **Task_Intelligence** (1):
   - [task-intelligence](../skills/ai-engineering/agents/task_intelligence/task-intelligence/SKILL.md) — Use this skill to design, implement, and operate production workflows for task intelligence. Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usuário.
+- **Tdd_Orchestrator** (1):
+  - [tdd-orchestrator](../skills/ai-engineering/agents/tdd_orchestrator/tdd-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd orchestrator. Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices.
 
 ### Audio Processing (5 skills)
 Category index: [`docs/categories/audio-processing.md`](categories/audio-processing.md)
