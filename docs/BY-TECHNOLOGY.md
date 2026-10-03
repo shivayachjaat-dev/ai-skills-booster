@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1947 skills)
+## Bash (1948 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2556,6 +2556,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [skeuomorphism](../skills/frontend/web-architecture/skeuomorphism/skeuomorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for skeuomorphism. Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.
 - [soft-pastel](../skills/frontend/web-architecture/soft_pastel/soft-pastel/SKILL.md) — Use this skill to design, implement, and operate production workflows for soft pastel. Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics.
 - [stellar-anchor-integration](../skills/frontend/web-architecture/stellar_anchor_integ/stellar-anchor-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar anchor integration. Stellar anchor protocol compliance register: SEP-10 web authentication, SEP-24 interactive deposit and withdrawal, and KYC lifecycle.
+- [stripe-integration](../skills/frontend/web-architecture/stripe_integration/stripe-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stripe integration. Implement and verify Stripe checkout, subscriptions, webhooks and refunds with explicit server-side authorization and retry boundaries.
 - [swiss-design](../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.
 - [synthwave](../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) — Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.
 - [tile-design](../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.
@@ -9927,7 +9928,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2050 skills)
+## Python (2051 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11465,6 +11466,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [skeuomorphism](../skills/frontend/web-architecture/skeuomorphism/skeuomorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for skeuomorphism. Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.
 - [soft-pastel](../skills/frontend/web-architecture/soft_pastel/soft-pastel/SKILL.md) — Use this skill to design, implement, and operate production workflows for soft pastel. Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics.
 - [stellar-anchor-integration](../skills/frontend/web-architecture/stellar_anchor_integ/stellar-anchor-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar anchor integration. Stellar anchor protocol compliance register: SEP-10 web authentication, SEP-24 interactive deposit and withdrawal, and KYC lifecycle.
+- [stripe-integration](../skills/frontend/web-architecture/stripe_integration/stripe-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stripe integration. Implement and verify Stripe checkout, subscriptions, webhooks and refunds with explicit server-side authorization and retry boundaries.
 - [swiss-design](../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.
 - [synthwave](../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) — Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.
 - [tile-design](../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.
@@ -13559,6 +13561,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Stripe Automation (1 skills)
 
 - [stripe-automation](../skills/developer-tools/productivity/stripe_automation/stripe-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for stripe automation. Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas.
+
+## Stripe Integration (1 skills)
+
+- [stripe-integration](../skills/frontend/web-architecture/stripe_integration/stripe-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stripe integration. Implement and verify Stripe checkout, subscriptions, webhooks and refunds with explicit server-side authorization and retry boundaries.
 
 ## Superset (1 skills)
 

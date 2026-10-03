@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,129** skills across structured domains, categories, and subcategories.
+Master navigation for **2,130** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (718 skills)
 
@@ -2700,7 +2700,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (424 skills)
+## Frontend (425 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -3418,7 +3418,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (90 skills)
+### Web Architecture (91 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -3584,6 +3584,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [soft-pastel](../skills/frontend/web-architecture/soft_pastel/soft-pastel/SKILL.md) — Use this skill to design, implement, and operate production workflows for soft pastel. Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics.
 - **Stellar_Anchor_Integ** (1):
   - [stellar-anchor-integration](../skills/frontend/web-architecture/stellar_anchor_integ/stellar-anchor-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar anchor integration. Stellar anchor protocol compliance register: SEP-10 web authentication, SEP-24 interactive deposit and withdrawal, and KYC lifecycle.
+- **Stripe_Integration** (1):
+  - [stripe-integration](../skills/frontend/web-architecture/stripe_integration/stripe-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stripe integration. Implement and verify Stripe checkout, subscriptions, webhooks and refunds with explicit server-side authorization and retry boundaries.
 - **Swiss_Design** (1):
   - [swiss-design](../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.
 - **Synthwave** (1):

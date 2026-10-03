@@ -35325,6 +35325,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stripe-integration",
+    "path": "skills/frontend/web-architecture/stripe_integration/stripe-integration",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "stripe_integration",
+    "description": "Use this skill to design, implement, and operate production workflows for stripe integration. Implement and verify Stripe checkout, subscriptions, webhooks and refunds with explicit server-side authorization and retry boundaries.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "stripe",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stripe Integration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiss-design",
     "path": "skills/frontend/web-architecture/swiss_design/swiss-design",
     "domain": "frontend",
