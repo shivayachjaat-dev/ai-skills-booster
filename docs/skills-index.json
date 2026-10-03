@@ -32487,6 +32487,28 @@
     "maturity": "stable"
   },
   {
+    "name": "slack-bot-builder",
+    "path": "skills/frontend/ui-ux/slack_bot_builder/slack-bot-builder",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "slack_bot_builder",
+    "description": "Use this skill to design, implement, and operate production workflows for slack bot builder. Build Slack apps using the Bolt framework across Python,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "slack",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Slack Bot Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
