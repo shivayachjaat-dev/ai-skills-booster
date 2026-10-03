@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,039** skills across structured domains, categories, and subcategories.
+Master navigation for **2,040** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (692 skills)
 
@@ -2313,7 +2313,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (112 skills)
+## Devops (113 skills)
 
 ### Ci Cd (48 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -2544,13 +2544,15 @@ Category index: [`docs/categories/iac.md`](categories/iac.md)
 - **Terraform** (1):
   - [terraform-infrastructure-as-code](../skills/devops/iac/terraform/terraform-infrastructure-as-code/SKILL.md) — Use this skill when writing, refactoring, and maintaining Infrastructure as Code (IaC) using Terraform / OpenTofu. It guides the agent through remote state management with S3/DynamoDB locking, modular component design, variable validation rules, drift detection, resource tagging standards, and blast radius containment.
 
-### Infrastructure (2 skills)
+### Infrastructure (3 skills)
 Category index: [`docs/categories/infrastructure.md`](categories/infrastructure.md)
 
 - **Aws Cdk** (1):
   - [aws-cdk-v2-infrastructure-as-code-architecture](../skills/devops/infrastructure/aws-cdk/aws-cdk-v2-infrastructure-as-code-architecture/SKILL.md) — Use this skill to design, build, and deploy production AWS cloud infrastructure using the AWS Cloud Development Kit (CDK v2) in TypeScript and Python. It covers L1/L2/L3 construct composition, multi-account multi-region pipelines (cdk-pipelines), automated compliance enforcement with CDK Aspects (IAspect), unit and snapshot testing with @aws-cdk/assertions, and drift remediation.
 - **Azure Bicep** (1):
   - [azure-arm-and-bicep-infrastructure-as-code](../skills/devops/infrastructure/azure-bicep/azure-arm-and-bicep-infrastructure-as-code/SKILL.md) — Use this skill to design, validate, and deploy modular Azure infrastructure using Bicep and ARM templates. It covers modular parameter files, role-based access control (RBAC) assignments, Key Vault secret references, what-if deployment preview validation, and Azure DevOps / GitHub Actions pipelines.
+- **Shellcheck_Configura** (1):
+  - [shellcheck-configuration](../skills/devops/infrastructure/shellcheck_configura/shellcheck-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for shellcheck configuration. Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability.
 
 ### Infrastructure As Code (2 skills)
 Category index: [`docs/categories/infrastructure-as-code.md`](categories/infrastructure-as-code.md)

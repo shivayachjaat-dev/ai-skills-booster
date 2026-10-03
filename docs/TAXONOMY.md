@@ -1181,7 +1181,8 @@ AI_Skills_Booster/
 │   │   └── terraform/ (1 skills)
 │   ├── infrastructure/
 │   │   ├── aws-cdk/ (1 skills)
-│   │   └── azure-bicep/ (1 skills)
+│   │   ├── azure-bicep/ (1 skills)
+│   │   └── shellcheck_configura/ (1 skills)
 │   ├── infrastructure-as-code/
 │   │   ├── ansible/ (1 skills)
 │   │   └── terraform-modules/ (1 skills)

@@ -24769,6 +24769,28 @@
     "maturity": "stable"
   },
   {
+    "name": "shellcheck-configuration",
+    "path": "skills/devops/infrastructure/shellcheck_configura/shellcheck-configuration",
+    "domain": "devops",
+    "category": "infrastructure",
+    "subcategory": "shellcheck_configura",
+    "description": "Use this skill to design, implement, and operate production workflows for shellcheck configuration. Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability.",
+    "tags": [
+      "devops",
+      "infrastructure",
+      "shellcheck",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Shellcheck Configuration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ansible-idempotent-configuration-management",
     "path": "skills/devops/infrastructure-as-code/ansible/ansible-idempotent-configuration-management",
     "domain": "devops",
