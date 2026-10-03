@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,041 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,042 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -637,6 +637,7 @@
 | [seo-technical](skills/ai-engineering/models/seo_technical/seo-technical/SKILL.md) | `ai-engineering` | `models` | `seo_technical` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo technical. Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access. |
 | [setup-help](skills/ai-engineering/models/setup_help/setup-help/SKILL.md) | `ai-engineering` | `models` | `setup_help` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for setup help. Walk a user through setup or installation one step at a time with the remaining steps visible. |
 | [setup-matt-pocock-skills](skills/ai-engineering/models/setup_matt_pocock_sk/setup-matt-pocock-skills/SKILL.md) | `ai-engineering` | `models` | `setup_matt_pocock_sk` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for setup matt pocock skills. Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills. |
+| [shodan-reconnaissance](skills/ai-engineering/models/shodan_reconnaissanc/shodan-reconnaissance/SKILL.md) | `ai-engineering` | `models` | `shodan_reconnaissanc` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shodan reconnaissance. Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

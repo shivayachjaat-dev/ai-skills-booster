@@ -14009,6 +14009,28 @@
     "maturity": "stable"
   },
   {
+    "name": "shodan-reconnaissance",
+    "path": "skills/ai-engineering/models/shodan_reconnaissanc/shodan-reconnaissance",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "shodan_reconnaissanc",
+    "description": "Use this skill to design, implement, and operate production workflows for shodan reconnaissance. Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "shodan",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Shodan Reconnaissance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
