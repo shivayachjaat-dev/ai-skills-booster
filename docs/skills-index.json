@@ -41737,6 +41737,28 @@
     "maturity": "stable"
   },
   {
+    "name": "remotion-render",
+    "path": "skills/software-engineering/architecture/patterns/remotion-render",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for remotion render. Export a Remotion video",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "remotion",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Remotion Render",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
