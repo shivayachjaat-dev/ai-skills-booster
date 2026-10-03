@@ -1434,6 +1434,28 @@
     "maturity": "stable"
   },
   {
+    "name": "orchestrate",
+    "path": "skills/ai-engineering/agents/orchestrate/orchestrate",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "orchestrate",
+    "description": "Use this skill to design, implement, and operate production workflows for orchestrate. Coordinate focused subagents on substantial work, keep their ownership non-overlapping, and integrate verified results. Use for large-scope Codex tasks; keep trivial work with the coordinator.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "orchestrate",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Orchestrate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-consensus-protocol",
     "path": "skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol",
     "domain": "ai-engineering",

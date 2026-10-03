@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,695** skills across structured domains, categories, and subcategories.
+Master navigation for **1,696** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (582 skills)
+## Ai Engineering (583 skills)
 
-### Agents (69 skills)
+### Agents (70 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -135,6 +135,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [opencode-delegate](../skills/ai-engineering/agents/opencode_delegate/opencode-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for opencode delegate. Delegate coding tasks to the OpenCode CLI only when the user explicitly
 - **Optim_Agent** (1):
   - [optim-agent](../skills/ai-engineering/agents/optim_agent/optim-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for optim agent. Guide agent-driven parameter optimization for configurable systems with measurable objectives. Use for HPO, inference tuning, simulations, or RL/control experiments.
+- **Orchestrate** (1):
+  - [orchestrate](../skills/ai-engineering/agents/orchestrate/orchestrate/SKILL.md) — Use this skill to design, implement, and operate production workflows for orchestrate. Coordinate focused subagents on substantial work, keep their ownership non-overlapping, and integrate verified results. Use for large-scope Codex tasks; keep trivial work with the coordinator.
 - **Orchestration** (1):
   - [multi-agent-consensus-protocol](../skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol/SKILL.md) — Use this skill when designing, orchestrating, and coordinating multi-agent systems requiring consensus, debate, and validation. It guides the agent through role-specialized multi-agent topologies (Generator-Critic, Committee Voting, Delphi Consensus), conflict resolution protocols, shared scratchpad synchronization, and infinite circular argument prevention.
 - **Orchestration Optimization** (1):
