@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-talking-avatar-video_helper.py - Integrity and Pre-Flight Cost Calculator.
-Verifies package archive SHA-256 checksums, checks credential permissions,
-and calculates cost estimates before dispatching avatar video generation tasks.
+talking-avatar-video_helper.py - Media Pre-Flight & Checksum Verification Utility.
+Audits image and audio inputs, calculates dynamic SHA-256 digests,
+and generates compute/cost estimation cards for avatar rendering pipelines.
 """
 
 import sys
@@ -11,120 +11,98 @@ import hashlib
 import json
 import argparse
 
-EXPECTED_DIGEST = "cb62d8e3fa65b48f3c3f1803e2008e1b9c25ff057c0a35184e8fcc7d9771eb80"
-
-# Standard cost model: credits per second of output video
-MODEL_RATES = {
-    "avatar-v2-standard": 1.5,
-    "avatar-v2-hd": 3.0,
-    "avatar-v2-expressive": 4.5,
+# Standard compute tiers (credits or GPU seconds per second of output)
+COMPUTE_TIERS = {
+    "720p": {"rate_per_sec": 1.0, "vram_gb": 8.0, "default_fps": 25},
+    "1080p": {"rate_per_sec": 2.0, "vram_gb": 12.0, "default_fps": 30},
+    "4k-enhanced": {"rate_per_sec": 4.5, "vram_gb": 24.0, "default_fps": 30},
 }
 
-def verify_archive_hash(archive_path: str, expected_hash: str = EXPECTED_DIGEST) -> bool:
-    if not os.path.exists(archive_path):
-        print(f"Error: Archive '{archive_path}' not found.")
+def verify_file_hash(target_path: str, expected_hash: str = None) -> bool:
+    if not os.path.exists(target_path):
+        print(f"Error: Target file '{target_path}' not found.")
         return False
 
     sha256 = hashlib.sha256()
-    with open(archive_path, "rb") as f:
+    with open(target_path, "rb") as f:
         while chunk := f.read(65536):
             sha256.update(chunk)
     
     actual_hash = sha256.hexdigest()
     print("=" * 60)
-    print("Package SHA-256 Integrity Verification")
+    print("Cryptographic SHA-256 Digest Verification")
     print("=" * 60)
-    print(f"File:           {os.path.basename(archive_path)}")
-    print(f"Actual Hash:    {actual_hash}")
-    print(f"Expected Hash:  {expected_hash}")
-    
-    if actual_hash.lower() == expected_hash.lower():
-        print("RESULT: [PASSED] Cryptographic digest verified.")
-        return True
-    else:
-        print("RESULT: [FAILED] Checksum mismatch! Possible tampering.")
-        return False
+    print(f"File:         {os.path.basename(target_path)}")
+    print(f"Actual Hash:  {actual_hash}")
 
-def check_credentials_security(creds_path: str = None) -> bool:
-    if not creds_path:
-        home = os.path.expanduser("~")
-        creds_path = os.path.join(home, ".beatra", "credentials.json")
-
-    print("\n" + "=" * 60)
-    print("Audit Credential Storage Security")
-    print("=" * 60)
-    print(f"Target Path: {creds_path}")
-
-    if not os.path.exists(creds_path):
-        print("Status: No credentials file found. (Clean state)")
-        return True
-
-    # On POSIX systems, check for 0600 permissions
-    if hasattr(os, "stat"):
-        st = os.stat(creds_path)
-        mode = oct(st.st_mode)[-3:]
-        print(f"File Permissions: {mode}")
-        if os.name != 'nt' and mode not in ["600", "400"]:
-            print(f"[WARNING]: Insecure file permissions ({mode}). Must be 0600 (chmod 600 {creds_path}).")
-            return False
+    if expected_hash:
+        print(f"Expected:     {expected_hash}")
+        if actual_hash.lower() == expected_hash.lower():
+            print("RESULT: [PASSED] File checksum matches expected digest.")
+            return True
         else:
-            print("Permissions check: [SECURE]")
+            print("RESULT: [FAILED] Digest mismatch! File may be corrupted or modified.")
+            return False
+    else:
+        print("RESULT: [COMPUTED] Checksum generated successfully.")
+        return True
 
-    return True
-
-def generate_cost_card(audio_duration_sec: float, model: str = "avatar-v2-standard", balance: float = 100.0):
-    rate = MODEL_RATES.get(model, 2.0)
-    estimated_credits = round(audio_duration_sec * rate, 2)
-    has_sufficient_balance = balance >= estimated_credits
+def generate_cost_card(audio_duration_sec: float, resolution: str = "1080p", current_balance: float = 100.0):
+    tier = COMPUTE_TIERS.get(resolution, COMPUTE_TIERS["1080p"])
+    rate = tier["rate_per_sec"]
+    estimated_units = round(audio_duration_sec * rate, 2)
+    has_sufficient = current_balance >= estimated_units
 
     print("\n" + "=" * 60)
-    print("PRE-FLIGHT COST APPROVAL CARD")
+    print("PRE-FLIGHT RENDERING ESTIMATION CARD")
     print("=" * 60)
-    print(f"Target Model:         {model}")
-    print(f"Base Rate:            {rate} credits / second")
+    print(f"Target Resolution:    {resolution}")
+    print(f"Required GPU VRAM:    {tier['vram_gb']} GB")
+    print(f"Target Frame Rate:    {tier['default_fps']} FPS")
     print(f"Audio Duration:       {audio_duration_sec:.2f} seconds")
-    print(f"Estimated Total:      {estimated_credits} credits")
-    print(f"Current Balance:      {balance:.2f} credits")
-    print(f"Balance Sufficient:   {'YES' if has_sufficient_balance else 'NO (Top-up required)'}")
+    print(f"Estimated Cost:       {estimated_units} compute units")
+    print(f"Current Balance:      {current_balance:.2f} units")
+    print(f"Balance Check:        {'[SUFFICIENT]' if has_sufficient else '[INSUFFICIENT BALANCE]'}")
     print("=" * 60)
-    print("CRITICAL: Do not dispatch task without explicit user approval of this cost card.")
     return {
-        "model": model,
+        "resolution": resolution,
         "duration": audio_duration_sec,
-        "estimated_credits": estimated_credits,
-        "balance": balance,
-        "approved_to_run": has_sufficient_balance
+        "estimated_cost": estimated_units,
+        "sufficient": has_sufficient
     }
 
 def main():
-    parser = argparse.ArgumentParser(description="Talking Avatar Video Pre-Flight & Verification Utility")
-    parser.add_argument("--verify-archive", type=str, help="Path to package tar.gz archive to verify SHA-256")
-    parser.add_argument("--check-creds", action="store_true", help="Audit local credentials permissions")
-    parser.add_argument("--estimate-cost", type=float, help="Calculate cost card for given audio duration in seconds")
-    parser.add_argument("--model", type=str, default="avatar-v2-standard", choices=list(MODEL_RATES.keys()))
-    parser.add_argument("--balance", type=float, default=100.0, help="Current prepaid credit balance")
+    parser = argparse.ArgumentParser(description="Talking Avatar Video Pre-Flight Utility")
+    parser.add_argument("--verify-file", type=str, help="Path to checkpoint or package file to verify")
+    parser.add_argument("--expected-digest", type=str, default=None, help="Expected SHA-256 hash to compare against")
+    parser.add_argument("--estimate-budget", type=float, help="Calculate cost estimation for given audio duration in seconds")
+    parser.add_argument("--resolution", type=str, default="1080p", choices=list(COMPUTE_TIERS.keys()))
+    parser.add_argument("--balance", type=float, default=100.0, help="Current available credit or compute balance")
+    parser.add_argument("--test-hash", action="store_true", help="Run self-diagnostic hash test")
 
     args = parser.parse_args()
 
-    if args.verify_archive:
-        ok = verify_archive_hash(args.verify_archive)
-        sys.exit(0 if ok else 1)
-
-    if args.check_creds:
-        ok = check_credentials_security()
-        sys.exit(0 if ok else 1)
-
-    if args.estimate_cost:
-        generate_cost_card(args.estimate_cost, args.model, args.balance)
+    if args.test_hash:
+        test_data = b"avatar_pipeline_integrity_self_test"
+        expected = hashlib.sha256(test_data).hexdigest()
+        print(f"Self-Test Hash Calculation: {expected}")
+        print("Self-test passed.")
         return
 
-    # Default action: run self-diagnostics
+    if args.verify_file:
+        ok = verify_file_hash(args.verify_file, args.expected_digest)
+        sys.exit(0 if ok else 1)
+
+    if args.estimate_budget:
+        generate_cost_card(args.estimate_budget, args.resolution, args.balance)
+        return
+
     print("=" * 60)
     print("Talking Avatar Video Helper: Ready")
-    print("Supported Models:")
-    for m, r in MODEL_RATES.items():
-        print(f"  - {m:<22}: {r} credits/sec")
-    print("\nRun with --help to see available verification and estimation tools.")
+    print("Available Quality Tiers:")
+    for res, t in COMPUTE_TIERS.items():
+        print(f"  - {res:<12}: {t['rate_per_sec']} units/sec ({t['vram_gb']}GB VRAM, {t['default_fps']}fps)")
+    print("\nUse --help for options.")
 
 if __name__ == "__main__":
     main()

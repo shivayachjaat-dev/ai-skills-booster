@@ -1,28 +1,29 @@
 ---
 name: talking-avatar-video
-description: "Use this skill to configure, verify, and operate talking avatar and head-portrait video generation pipelines via MCP services (including Beatra). It enforces SHA-256 archive verification, disabling silent self-updates, OAuth device authorization, strict cost card approvals before billable jobs, idempotent rendering task submission, and secure token lifecycle management."
+description: "Use this skill to design, verify, and operate audio-driven talking avatar video generation pipelines (LivePortrait, SadTalker, MuseTalk, and cloud inference APIs). It covers dynamic package/checkpoint SHA-256 verification, audio-visual alignment, facial landmark tracking, cost estimation, and secure token lifecycle management without proprietary vendor lock-in."
 domain: ai-engineering
 category: models
 subcategory: talking_avatar_video
 tags:
   - ai-engineering
   - talking-avatar
-  - text-to-video
-  - audio-driven-animation
-  - mcp
+  - speech-driven-video
+  - audio-visual-sync
+  - facial-animation
   - media-synthesis
 technologies:
   - Talking Avatar Video
-  - Beatra MCP
-  - Python
-  - OAuth2 Device Flow
+  - LivePortrait
+  - SadTalker
   - FFmpeg
+  - Python
+  - MediaPipe
 complexity: advanced
 maturity: stable
 tools:
   - python
+  - ffmpeg
   - bash
-  - curl
 dependencies:
   - python@>=3.10
   - requests@>=2.31.0
@@ -30,184 +31,159 @@ version: 1.0.0
 author: Antigravity Team
 ---
 
-# Talking Avatar Video Synthesis & MCP Integration Architecture
+# Talking Avatar Video Synthesis & Pipeline Architecture
 
 ## Overview
 
-A production-grade engineering standard and security playbook for deploying, verifying, and executing talking avatar video generation pipelines. Audio-driven facial synthesis (generating synchronized lip movements, natural head poses, and micro-expressions from a static portrait and an audio speech track) is commonly executed via hosted Model Context Protocol (MCP) services such as Beatra, LivePortrait, or custom inference endpoints. Because these services execute paid inference on third-party GPU clusters, require external network communication, and store persistent API credentials, autonomous agents must adhere to strict operational constraints: verified SHA-256 package pinning, explicit user cost approvals, idempotent task dispatch, and secure token lifecycle governance.
+A vendor-agnostic, production-grade engineering standard for building, deploying, and operating audio-driven talking avatar video generation pipelines. Audio-driven facial synthesis transforms a static portrait image and an acoustic speech signal into photorealistic, lip-synchronized video with natural head poses, eye blinks, and subtle micro-expressions. Whether deploying local open-source models (such as LivePortrait, SadTalker, or MuseTalk) or integrating with remote cloud GPU inference endpoints, autonomous agents must adhere to strict operational constraints: dynamic cryptographic checksum verification of model weights, pre-flight resource and cost approvals, input media conditioning, and deterministic task lifecycle management.
 
 ```
 +--------------------------------------------------------------------------------+
-|                    Talking Avatar Video MCP Execution Pipeline                 |
+|                   Talking Avatar Video Pipeline Architecture                   |
 |                                                                                |
-|  [ Pinned Archive Download ] ---> [ SHA-256 Digest Verification ]              |
-|                                                  |                             |
-|                                                  v                             |
-|  [ Disable Silent Self-Update ] <--- [ Local Package Extraction ]              |
-|               |                                                                |
-|               v                                                                |
-|  [ OAuth2 Device Flow ] ---> [ Store Scoped Token (~/.beatra/credentials.json)]|
-|                                                  |                             |
-|                                                  v                             |
-|  [ Free Model Discovery ] ---> [ Generate Pre-Flight Cost Card ]               |
-|                                                  |                             |
-|                                                  v                             |
+|  [ Static Portrait Image ] ---> [ Facial Landmark Detection (MediaPipe/Dlib) ] |
+|                                                    |                           |
+|  [ Speech Audio (WAV/MP3) ] ---> [ Acoustic Feature Extraction (Wav2Vec 2.0) ]  |
+|                                                    |                           |
+|                                                    v                           |
+|                       [ Dynamic Checkpoint & Checksum Verification ]           |
+|                                                    |                           |
+|                                                    v                           |
+|                       [ Non-Billable Pre-Flight Cost / Resource Check ]        |
+|                                                    |                           |
+|                                                    v                           |
 |                                     [ Human Approval Gate ]                    |
-|                                                  |                             |
-|                        +-------------------------+-----------------------+     |
+|                                                    |                           |
+|                        +---------------------------+---------------------+     |
 |                        | Approved                                        |     |
 |                        v                                                 v     |
-|          [ Submit Idempotent Job ]                             [ Abort Execution ]
-|          (client_request_id = UUID)                                            |
+|          [ Video Diffusion & Lip-Sync Inference ]              [ Abort / Hold ]
 |                        |                                                       |
 |                        v                                                       |
-|          [ Poll Task & Retrieve Video ]                                        |
+|          [ Post-Processing: GFPGAN Enhancement & FFmpeg Audio Mux ]            |
 |                        |                                                       |
 |                        v                                                       |
-|          [ Reconcile Billed Credits ]                                          |
+|          [ Output Video Artifact (.mp4) & Resource Telemetry ]                 |
 +--------------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- Generating lifelike AI presenter, instructor, or customer-support videos from a static portrait image and an audio voiceover.
-- Installing, auditing, and running verified MCP client packages (such as Beatra AI) with pinned cryptographic checksums.
-- Implementing an automated pre-flight cost approval card before dispatching paid media synthesis API calls.
-- Managing device-bound OAuth bearer tokens with sliding idle expiration and automated revocation on uninstall.
+- Building automated video generation agents for educational courses, customer service assistants, or localized marketing content from static headshots and voice tracks.
+- Verifying the integrity and security of downloaded model checkpoints, container archives, or client packages using dynamic SHA-256 validation.
+- Implementing pre-flight resource checks (estimating GPU VRAM requirements or API credits) and enforcing user confirmation gates prior to dispatching expensive rendering jobs.
+- Normalizing input portrait geometry (aspect ratio, eye-line centering) and speech audio (sample rate conversion to 16kHz mono) for optimal diffusion inference.
 
 ## When NOT to Use
 
-- Offline, local-only video synthesis where external network access or paid cloud APIs are prohibited (use local open-source models like SadTalker or Wav2Lip on dedicated GPUs).
-- Real-time bidirectional video streaming (<150ms latency WebRTC avatars; use WebRTC streaming avatar SDKs).
-- Non-avatar general video diffusion tasks (e.g., text-to-world video generation with Sora or RunWay Gen-3).
+- Real-time bidirectional conversational avatars requiring sub-150ms round-trip latency (use WebRTC streaming avatar protocols).
+- Full-body dance or human action video generation (use motion-capture or pose-transfer frameworks).
+- Processing images or voices without verified usage rights or explicit user authorization.
 
 ## Inputs & Prerequisites
 
-- Python 3.10+ runtime with `requests` or `httpx` installed.
-- High-resolution front-facing portrait image (`.png`, `.jpg`, recommended minimum 1024x1024 px, neutral lighting).
-- Clean, normalized vocal audio track (`.mp3`, `.wav`, 16kHz or 44.1kHz mono, free from background music or extreme echo).
-- Account credentials or prepaid API credits for the target cloud avatar service.
+- Python 3.10+ runtime with `requests`, `numpy`, and `pillow` installed.
+- FFmpeg installed in the system PATH for audio-video multiplexing and format normalization.
+- Input Media:
+  - **Portrait Image**: Frontal portrait with neutral lighting, minimal facial obstruction, resolution $\ge 512 \times 512$ px (recommended $1024 \times 1024$ px).
+  - **Speech Audio**: Clear vocal track in `.wav` or `.mp3` format (16kHz or 44.1kHz mono, normalized loudness).
+- Optional: API credentials or GPU hardware allocation (NVIDIA GPU with $\ge 8\text{ GB}$ VRAM for local execution).
 
 ## Core Workflow
 
-### Step 1: Package Download & Cryptographic Integrity Verification
-Never install or execute an unverified third-party avatar package. Verify the SHA-256 digest against known repository anchors before extracting:
+### Step 1: Input Media Validation & Pre-Processing
+Normalize the audio track to 16kHz mono PCM and verify portrait dimensions before passing to the model:
 
 ```bash
-# 1. Download pinned package archive
-curl -fLO https://cdn.beatra.ai/packages/talking-avatar-video-v0.2.1.tar.gz
+# Normalize audio loudness and resample to 16kHz mono
+ffmpeg -i raw_voiceover.mp3 -af "loudnorm=I=-16:TP=-1.5:LRA=11" -ar 16000 -ac 1 clean_audio.wav
 
-# 2. Verify expected cryptographic SHA-256 hash
-EXPECTED_SHA256="cb62d8e3fa65b48f3c3f1803e2008e1b9c25ff057c0a35184e8fcc7d9771eb80"
-ACTUAL_SHA256=$(sha256sum talking-avatar-video-v0.2.1.tar.gz | awk '{print $1}')
-
-if [ "$ACTUAL_SHA256" != "$EXPECTED_SHA256" ]; then
-    echo "CRITICAL ERROR: Digest mismatch! Package has been tampered with or corrupted."
-    rm -f talking-avatar-video-v0.2.1.tar.gz
-    exit 1
-fi
-
-echo "Integrity verified. Extracting package..."
-tar -xzf talking-avatar-video-v0.2.1.tar.gz
+# Verify image dimensions (minimum 512x512)
+ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 portrait.png
 ```
 
-### Step 2: Disabling Silent Self-Updates
-Third-party clients that self-update in the background present serious supply-chain risks. Immediately disable automatic updates before running any operational commands:
+### Step 2: Dynamic Checkpoint & Package Integrity Verification
+Never load external weights or client archives without verifying their SHA-256 digest against trusted configuration metadata:
 
 ```bash
-INSTALL_DEST="$HOME/.claude/skills/talking-avatar-video"
-mkdir -p "$(dirname "$INSTALL_DEST")"
-cp -R talking-avatar-video "$INSTALL_DEST"
-
-# Explicitly disable silent self-update
-python3 "$INSTALL_DEST/scripts/mcp_client.py" update --auto off
-```
-*Expected Output:* `Automatic Beatra package updates are disabled.`
-
-### Step 3: Authorization via OAuth Device Flow
-Authorize the agent session using an interactive device authorization flow. The resulting token must be locked to restrictive POSIX permissions (`0600`):
-
-```bash
-# Initiates browser sign-in; stores bearer token in ~/.beatra/credentials.json
-python3 "$INSTALL_DEST/scripts/authorize.py"
+# Verify checksum dynamically against a user-supplied or environment-defined digest
+python scripts/talking-avatar-video_helper.py \
+  --verify-file "checkpoints/avatar_model.bin" \
+  --expected-digest "$EXPECTED_CHECKPOINT_SHA256"
 ```
 
-### Step 4: Non-Billable Pre-Flight Check & Cost Estimation
-Query available model configurations and compute the credit estimate without incurring charges:
+### Step 3: Non-Billable Pre-Flight Check & Cost / VRAM Estimation
+Calculate the required compute budget or credit consumption based on audio length and target resolution:
 
 ```python
 import json
-import subprocess
+import os
 
-def get_cost_estimate(install_path: str, model_name: str, audio_duration_sec: float) -> dict:
-    """Queries free discovery endpoint to generate a pre-flight cost card."""
-    cmd = [
-        "python3", f"{install_path}/scripts/mcp_client.py", 
-        "tools", "estimate", 
-        "--model", model_name, 
-        "--duration", str(audio_duration_sec)
-    ]
-    res = subprocess.run(cmd, capture_output=True, text=True, check=True)
-    estimate_data = json.loads(res.stdout)
+def calculate_preflight_budget(audio_duration_seconds: float, target_resolution: str = "1080p") -> dict:
+    """Calculates compute time, VRAM requirement, and credit consumption."""
+    base_cost_per_second = 2.0 if target_resolution == "1080p" else 1.0
+    estimated_credits = round(audio_duration_seconds * base_cost_per_second, 2)
+    required_vram_gb = 8.0 if target_resolution == "720p" else 12.0
+
+    card = {
+        "audio_duration_sec": audio_duration_seconds,
+        "target_resolution": target_resolution,
+        "estimated_compute_credits": estimated_credits,
+        "required_gpu_vram_gb": required_vram_gb,
+        "files_to_process": ["portrait.png", "clean_audio.wav"],
+    }
     
     print("=" * 60)
-    print("PRE-FLIGHT COST APPROVAL CARD")
+    print("PRE-FLIGHT RENDERING ESTIMATION CARD")
     print("=" * 60)
-    print(f"Target Model:       {model_name}")
-    print(f"Audio Duration:     {audio_duration_sec:.1f} seconds")
-    print(f"Estimated Credits:  {estimate_data.get('estimated_credits')} credits")
-    print(f"Current Balance:    {estimate_data.get('wallet_balance')} credits")
-    print("Files to Upload:    [portrait.png, voiceover.wav]")
+    print(f"Resolution:          {card['target_resolution']}")
+    print(f"Audio Duration:      {card['audio_duration_sec']:.1f} seconds")
+    print(f"Estimated Credits:   {card['estimated_compute_credits']} units")
+    print(f"Required VRAM:       {card['required_gpu_vram_gb']} GB")
     print("=" * 60)
-    return estimate_data
+    return card
 ```
 
-### Step 5: Human Approval Gate & Idempotent Submission
-Only dispatch paid synthesis once explicit human consent is granted. Use a persistent UUID for `client_request_id` to prevent duplicate charges upon network timeouts:
+### Step 4: Human Confirmation Gate & Task Dispatch
+Wait for explicit approval naming the budget before launching inference. Use an idempotent client request identifier to prevent duplicate submissions upon network timeouts:
 
 ```python
 import uuid
-import sys
 
-def submit_avatar_render(install_path: str, image_path: str, audio_path: str, model_name: str):
-    # Idempotency key: prevents duplicate billing if HTTP socket drops
+def dispatch_rendering_job(api_client, image_path: str, audio_path: str, params: dict):
+    # Idempotency token prevents duplicate charges if network retries occur
     client_request_id = str(uuid.uuid4())
     
-    cmd = [
-        "python3", f"{install_path}/scripts/mcp_client.py", "call", "avatar.render",
-        "--request-id", client_request_id,
-        "--model", model_name,
-        "--image", image_path,
-        "--audio", audio_path
-    ]
+    payload = {
+        "client_request_id": client_request_id,
+        "image_file": image_path,
+        "audio_file": audio_path,
+        "fps": params.get("fps", 25),
+        "enhance_face": params.get("enhance_face", True)
+    }
     
-    print(f"Submitting render job with request ID: {client_request_id}...")
-    proc = subprocess.run(cmd, capture_output=True, text=True, check=True)
-    job_result = json.loads(proc.stdout)
-    
-    task_id = job_result["task_id"]
-    print(f"Task dispatched: {task_id}. Polling for completion...")
-    return task_id
+    print(f"Submitting job with Idempotency ID: {client_request_id}...")
+    task = api_client.submit_task(payload)
+    return task["task_id"]
 ```
 
-### Step 6: Task Reconciliation & Cleanup
-Monitor the asynchronous rendering task to terminal state, report actual net credits debited, and retrieve the rendered MP4 file. When uninstallation is requested, revoke the token and wipe credentials:
+### Step 5: Post-Processing & Audio-Visual Multiplexing
+Combine the synthesized video frames with the source audio track using AAC encoding and strict timing alignment:
 
 ```bash
-# Check uninstall status and revoke tokens
-python3 "$INSTALL_DEST/scripts/uninstall.py"
+# Mux generated silent avatar frames with original normalized voice track
+ffmpeg -i generated_frames.mp4 -i clean_audio.wav -c:v copy -c:a aac -b:a 192k -shortest final_avatar_video.mp4
 ```
 
 ## Best Practices & Failure Modes
 
-- **Strict Cost Card Approval**: Never proceed with synthesis based on implied user consent or general instructions like "build the video". Always output the estimated cost in credits and wait for explicit confirmation.
-- **Idempotent Retry Protocol**: If a connection drops during task submission, retry *only* with the identical `client_request_id`. Never generate a new request ID for an ongoing task, or the user will be double-billed.
-- **Credential Storage Safety**: Never export `~/.beatra/credentials.json` into command-line arguments, environment variables, or commit logs. Ensure the file has `0600` file permissions (`chmod 600 ~/.beatra/credentials.json`).
-- **Facial Landmark Occlusion**: Avoid portraits where hands, microphones, or heavy shadows obscure the chin or jawline. Synthetic lip sync will produce unnatural warping if face detection confidence falls below 0.85.
+- **Facial Landmark Occlusion**: Avoid portraits where hands, microphones, or heavy shadows obscure the chin or mouth. Lip-sync alignment will produce unnatural warping if face detection confidence falls below 0.85.
+- **Audio Clipping & Background Noise**: High background noise or music in the vocal track causes erratic mouth flutter. Always pre-filter speech audio using noise-reduction filters or vocal isolation before synthesis.
+- **Idempotent Job Dispatch**: Always supply an explicit UUID `client_request_id`. If a network connection drops during task submission, retry *only* with the identical request ID to prevent duplicate job creation and billing.
+- **Credential Storage Safety**: Store API keys in environment variables (`AVATAR_API_KEY`) or secure secret managers, never in hardcoded scripts or version-controlled files.
 
 ## Verification & Testing
 
-1. Validate file hashes: Run `python scripts/talking-avatar-video_helper.py --verify-hash` to ensure the installation archive matches the expected digest.
-2. Verify update isolation: Confirm that `~/.beatra/updates/<id>/state.json` contains `"auto_update": false`.
-3. Test non-billable discovery: Run `mcp_client.py verify` to verify API connectivity without spending credits.
-4. Execute test rendering: Perform a 3-second test synthesis with a sample portrait and audio track to confirm AV sync and credit deduction accuracy.
+1. Validate input media: Run `python scripts/talking-avatar-video_helper.py --audit-media portrait.png clean_audio.wav` to ensure resolution and sample rates meet pipeline constraints.
+2. Verify checksum tool: Run `python scripts/talking-avatar-video_helper.py --test-hash` to confirm SHA-256 calculation accuracy.
+3. Test pre-flight card: Verify that budget calculations accurately reflect audio duration before initiating inference.
