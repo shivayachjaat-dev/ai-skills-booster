@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1838 skills)
+## Bash (1839 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2899,6 +2899,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [seo-cannibalization-detector](../skills/software-engineering/architecture/patterns/seo-cannibalization-detector/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo cannibalization detector. Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.
 - [seo-content-planner](../skills/software-engineering/architecture/patterns/seo-content-planner/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo content planner. Creates comprehensive content outlines and topic clusters for SEO.
 - [seo-content-writer](../skills/software-engineering/architecture/patterns/seo-content-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo content writer. Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.
+- [seo-forensic-incident-response](../skills/software-engineering/architecture/patterns/seo-forensic-incident-response/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo forensic incident response. Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [bash-scripting](../skills/testing/automation/bash_scripting/bash-scripting/SKILL.md) — Use this skill to bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
@@ -9818,7 +9819,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1941 skills)
+## Python (1942 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11726,6 +11727,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [seo-cannibalization-detector](../skills/software-engineering/architecture/patterns/seo-cannibalization-detector/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo cannibalization detector. Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.
 - [seo-content-planner](../skills/software-engineering/architecture/patterns/seo-content-planner/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo content planner. Creates comprehensive content outlines and topic clusters for SEO.
 - [seo-content-writer](../skills/software-engineering/architecture/patterns/seo-content-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo content writer. Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.
+- [seo-forensic-incident-response](../skills/software-engineering/architecture/patterns/seo-forensic-incident-response/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo forensic incident response. Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
@@ -12816,6 +12818,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Seo Engineering Workflow (1 skills)
 
 - [seo-engineering-workflow](../skills/ai-engineering/models/seo/seo-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo engineering workflow. Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO. Use as the umbrella skill when the user asks for a full SEO analysis or strategy.
+
+## Seo Forensic Incident Response (1 skills)
+
+- [seo-forensic-incident-response](../skills/software-engineering/architecture/patterns/seo-forensic-incident-response/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo forensic incident response. Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan.
 
 ## Sigma (1 skills)
 

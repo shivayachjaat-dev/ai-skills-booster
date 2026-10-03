@@ -44179,6 +44179,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-forensic-incident-response",
+    "path": "skills/software-engineering/architecture/patterns/seo-forensic-incident-response",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for seo forensic incident response. Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Forensic Incident Response",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
