@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **470 skills** available in this category.
+> **471 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -467,6 +467,7 @@
 | [red-team-tools](../../skills/ai-engineering/models/red_team_tools/red-team-tools/SKILL.md) | `red_team_tools` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for red team tools. Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate common tasks while maintaining thorough coverage of attack surfaces. |
 | [remote-gpu-trainer](../../skills/ai-engineering/models/remote_gpu_trainer/remote-gpu-trainer/SKILL.md) | `remote_gpu_trainer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remote gpu trainer. Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): teardown/billing safety, spot resilience, resumable checkpointing, OOM/NaN triage. |
 | [repo-maintainer](../../skills/ai-engineering/models/repo_maintainer/repo-maintainer/SKILL.md) | `repo_maintainer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for repo maintainer. Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Use for repository maintenance, cleanup, health checks, or pre-release hardening. |
+| [repo-native-refactor](../../skills/ai-engineering/models/repo_native_refactor/repo-native-refactor/SKILL.md) | `repo_native_refactor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for repo native refactor. Review diffs without editing, or perform evidence-based cleanup while preserving authorized behavior, public contracts, and domain ownership. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

@@ -13261,6 +13261,28 @@
     "maturity": "stable"
   },
   {
+    "name": "repo-native-refactor",
+    "path": "skills/ai-engineering/models/repo_native_refactor/repo-native-refactor",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "repo_native_refactor",
+    "description": "Use this skill to design, implement, and operate production workflows for repo native refactor. Review diffs without editing, or perform evidence-based cleanup while preserving authorized behavior, public contracts, and domain ownership.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "repo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Repo Native Refactor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
