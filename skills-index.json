@@ -31198,6 +31198,28 @@
     "maturity": "stable"
   },
   {
+    "name": "osint-methodology",
+    "path": "skills/security/appsec/osint_methodology/osint-methodology",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "osint_methodology",
+    "description": "Use this skill to design, implement, and operate production workflows for osint methodology. Comprehensive OSINT methodology for external red-team operations and",
+    "tags": [
+      "security",
+      "appsec",
+      "osint",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Osint Methodology",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
