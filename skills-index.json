@@ -16686,6 +16686,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pytest-skill",
+    "path": "skills/backend/python-services/pytest_skill/pytest-skill",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "pytest_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \\\"pytest\\\", \\\"conftest\\\", \\\"@pytest.fixture\\\", \\\"@pytest.mark\\\", \\\"Python test\\\".",
+    "tags": [
+      "backend",
+      "python-services",
+      "pytest",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pytest Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",
