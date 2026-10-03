@@ -1837,6 +1837,28 @@
     "maturity": "stable"
   },
   {
+    "name": "review-swarm",
+    "path": "skills/ai-engineering/agents/review_swarm/review-swarm",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "review_swarm",
+    "description": "Use this skill to design, implement, and operate production workflows for review swarm. Parallel read-only multi-agent review of a current git diff or explicit file scope to find behavioral regressions, security or privacy risks, performance or reliability issues, and contract or test coverage gaps.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "review",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Review Swarm",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-cron-and-autonomous-job-scheduling",
     "path": "skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling",
     "domain": "ai-engineering",

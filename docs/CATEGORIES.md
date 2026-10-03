@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,928** skills across structured domains, categories, and subcategories.
+Master navigation for **1,929** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (660 skills)
+## Ai Engineering (661 skills)
 
-### Agents (84 skills)
+### Agents (85 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -171,6 +171,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [ralph-loop-yylo](../skills/ai-engineering/agents/ralph_loop_yylo/ralph-loop-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for ralph loop yylo. Execute exactly one explicitly assigned YYLO Ledger task through the
 - **Review_Multi_Agent_O** (1):
   - [review-multi-agent-orchestration](../skills/ai-engineering/agents/review_multi_agent_o/review-multi-agent-orchestration/SKILL.md) — Use this skill to design, implement, and operate production workflows for review multi agent orchestration. Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundaries, shared state, branch joins, retries, cancellation, context handoffs, budgets, deadlocks, or human escalation before im...
+- **Review_Swarm** (1):
+  - [review-swarm](../skills/ai-engineering/agents/review_swarm/review-swarm/SKILL.md) — Use this skill to design, implement, and operate production workflows for review swarm. Parallel read-only multi-agent review of a current git diff or explicit file scope to find behavioral regressions, security or privacy risks, performance or reliability issues, and contract or test coverage gaps.
 - **Scheduling** (1):
   - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - **Skill_Security_Audit** (1):
