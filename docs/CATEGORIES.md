@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,015** skills across structured domains, categories, and subcategories.
+Master navigation for **2,016** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (684 skills)
+## Ai Engineering (685 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (494 skills)
+### Models (495 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1292,6 +1292,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [senior-frontend](../skills/ai-engineering/models/senior_frontend/senior-frontend/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior frontend. Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing fr...
 - **Seo** (1):
   - [seo-engineering-workflow](../skills/ai-engineering/models/seo/seo-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo engineering workflow. Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO. Use as the umbrella skill when the user asks for a full SEO analysis or strategy.
+- **Seo_Content_Refreshe** (1):
+  - [seo-content-refresher](../skills/ai-engineering/models/seo_content_refreshe/seo-content-refresher/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo content refresher. Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

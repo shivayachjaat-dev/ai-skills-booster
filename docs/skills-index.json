@@ -13855,6 +13855,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-content-refresher",
+    "path": "skills/ai-engineering/models/seo_content_refreshe/seo-content-refresher",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "seo_content_refreshe",
+    "description": "Use this skill to design, implement, and operate production workflows for seo content refresher. Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Content Refresher",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
