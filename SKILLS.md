@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,977 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,978 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1481,6 +1481,7 @@
 | [schema-markup-generator](skills/frontend/web-architecture/schema_markup_genera/schema-markup-generator/SKILL.md) | `frontend` | `web-architecture` | `schema_markup_genera` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for schema markup generator. Generate and implement JSON-LD structured data for web apps, blogs, FAQs, and SaaS sites. Supports WebSite, SoftwareApplication, BlogPosting, FAQPage, HowTo, and more. |
 | [sci-fi-interface](skills/frontend/web-architecture/sci_fi_interface/sci-fi-interface/SKILL.md) | `frontend` | `web-architecture` | `sci_fi_interface` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sci fi interface. Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts. |
 | [screen-reader-testing](skills/frontend/web-architecture/screen_reader_testin/screen-reader-testing/SKILL.md) | `frontend` | `web-architecture` | `screen_reader_testin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for screen reader testing. Practical guide to testing web applications with screen readers for comprehensive accessibility validation. |
+| [search-specialist](skills/frontend/web-architecture/search_specialist/search-specialist/SKILL.md) | `frontend` | `web-architecture` | `search_specialist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for search specialist. Expert web researcher using advanced search techniques and |
 | [security-audit](skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `frontend` | `web-architecture` | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `frontend` | `web-architecture` | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |
 | [skeuomorphism](skills/frontend/web-architecture/skeuomorphism/skeuomorphism/SKILL.md) | `frontend` | `web-architecture` | `skeuomorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skeuomorphism. Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors. |

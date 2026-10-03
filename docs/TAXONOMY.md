@@ -1568,6 +1568,7 @@ AI_Skills_Booster/
 │   │   ├── schema_markup_genera/ (1 skills)
 │   │   ├── sci_fi_interface/ (1 skills)
 │   │   ├── screen_reader_testin/ (1 skills)
+│   │   ├── search_specialist/ (1 skills)
 │   │   ├── security_audit/ (1 skills)
 │   │   ├── seo_aeo_content_qual/ (1 skills)
 │   │   ├── skeuomorphism/ (1 skills)

@@ -32905,6 +32905,28 @@
     "maturity": "stable"
   },
   {
+    "name": "search-specialist",
+    "path": "skills/frontend/web-architecture/search_specialist/search-specialist",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "search_specialist",
+    "description": "Use this skill to design, implement, and operate production workflows for search specialist. Expert web researcher using advanced search techniques and",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "search",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Search Specialist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-audit",
     "path": "skills/frontend/web-architecture/security_audit/security-audit",
     "domain": "frontend",
