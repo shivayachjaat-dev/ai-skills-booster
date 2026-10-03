@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **39 skills** available in this category.
+> **40 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -43,3 +43,4 @@
 | [purchase-accounting](../../skills/business/operations/purchase_accounting/purchase-accounting/SKILL.md) | `purchase_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for purchase accounting. Purchase register: supplier, invoice, gross amount, VAT and TDS, net payable, ledger account and payment balance. Use for purchase accounting. |
 | [receipt-accounting](../../skills/business/operations/receipt_accounting/receipt-accounting/SKILL.md) | `receipt_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for receipt accounting. Receipt register: payer, mode, gross amount received, invoice allocation, unapplied amount and TDS collected. Use for receipt and sales-income accounting. |
 | [recognition-rewards](../../skills/business/operations/recognition_rewards/recognition-rewards/SKILL.md) | `recognition_rewards` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs. |
+| [remote-work-tracker](../../skills/business/operations/remote_work_tracker/remote-work-tracker/SKILL.md) | `remote_work_tracker` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remote work tracker. Remote work register: employee, location, week start, HQ versus remote days, core-hours compliance and manager approval. Use for hybrid work tracking. |

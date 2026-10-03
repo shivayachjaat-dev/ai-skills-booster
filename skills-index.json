@@ -18552,6 +18552,28 @@
     "maturity": "stable"
   },
   {
+    "name": "remote-work-tracker",
+    "path": "skills/business/operations/remote_work_tracker/remote-work-tracker",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "remote_work_tracker",
+    "description": "Use this skill to design, implement, and operate production workflows for remote work tracker. Remote work register: employee, location, week start, HQ versus remote days, core-hours compliance and manager approval. Use for hybrid work tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "remote",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Remote Work Tracker",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
