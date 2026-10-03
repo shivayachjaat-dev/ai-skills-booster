@@ -13930,6 +13930,28 @@
     "maturity": "stable"
   },
   {
+    "name": "quant-analyst",
+    "path": "skills/ai-engineering/rag/quant_analyst/quant-analyst",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "quant_analyst",
+    "description": "Use this skill to design, implement, and operate production workflows for quant analyst. Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "quant",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Quant Analyst",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
