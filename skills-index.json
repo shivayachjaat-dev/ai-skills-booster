@@ -30309,6 +30309,28 @@
     "maturity": "stable"
   },
   {
+    "name": "requesting-code-review",
+    "path": "skills/frontend/ui-ux/requesting_code_revi/requesting-code-review",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "requesting_code_revi",
+    "description": "Use this skill to design, implement, and operate production workflows for requesting code review. Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "requesting",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Requesting Code Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
