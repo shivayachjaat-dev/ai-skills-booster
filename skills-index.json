@@ -31519,6 +31519,28 @@
     "maturity": "stable"
   },
   {
+    "name": "semgrep-rule-creator",
+    "path": "skills/frontend/ui-ux/semgrep_rule_creator/semgrep-rule-creator",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "semgrep_rule_creator",
+    "description": "Use this skill to design, implement, and operate production workflows for semgrep rule creator. Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "semgrep",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Semgrep Rule Creator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

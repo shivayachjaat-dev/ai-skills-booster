@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **240 skills** available in this category.
+> **241 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -241,6 +241,7 @@
 | [security-automation](../../skills/frontend/ui-ux/security_automation/security-automation/SKILL.md) | `security_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security automation. Automate security workflows and remediation. Build security pipelines, |
 | [security-bluebook-builder](../../skills/frontend/ui-ux/security_bluebook_bu/security-bluebook-builder/SKILL.md) | `security_bluebook_bu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security bluebook builder. Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document using MUST/SHOULD/CAN language, with explicit assumptions, scope, and security gates. |
 | [security-requirement-extraction](../../skills/frontend/ui-ux/security_requirement/security-requirement-extraction/SKILL.md) | `security_requirement` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security requirement extraction. Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases. |
+| [semgrep-rule-creator](../../skills/frontend/ui-ux/semgrep_rule_creator/semgrep-rule-creator/SKILL.md) | `semgrep_rule_creator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for semgrep rule creator. Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
