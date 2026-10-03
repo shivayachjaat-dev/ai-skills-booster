@@ -33323,6 +33323,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ruby",
+    "path": "skills/frontend/ui-ux/ruby/ruby",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "ruby",
+    "description": "Use this skill to design, implement, and operate production workflows for ruby. Language-specific super-code guidelines for ruby.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "ruby",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ruby",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "saas-mvp-launcher",
     "path": "skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher",
     "domain": "frontend",
