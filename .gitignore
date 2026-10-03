@@ -53,8 +53,15 @@ tmp/
 temp/
 
 # Internal backlogs, scratch & local reports
-*backlog*
-*audit*
+/*backlog*
+/*audit*
 scratch/
 local/
 *.local.*
+
+# Whitelist all skills content
+!skills/**
+
+# Ignore pycache inside skills
+skills/**/__pycache__/
+skills/**/__pycache__
