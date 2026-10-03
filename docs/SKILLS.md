@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,098 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,099 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1483,6 +1483,7 @@
 | [soroban-liquidity-pool](skills/frontend/ui-ux/soroban_liquidity_po/soroban-liquidity-pool/SKILL.md) | `frontend` | `ui-ux` | `soroban_liquidity_po` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for soroban liquidity pool. Automated market maker liquidity pool register: constant-product invariant curves, swap fee tiers, and LP token shares for Soroban DeFi. |
 | [source-driven-development](skills/frontend/ui-ux/source_driven_develo/source-driven-development/SKILL.md) | `frontend` | `ui-ux` | `source_driven_develo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for source driven development. Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters. |
 | [spec-driven-development](skills/frontend/ui-ux/spec_driven_developm/spec-driven-development/SKILL.md) | `frontend` | `ui-ux` | `spec_driven_developm` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spec driven development. Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea. |
+| [spreadsheet-manual-build](skills/frontend/ui-ux/spreadsheet_manual_b/spreadsheet-manual-build/SKILL.md) | `frontend` | `ui-ux` | `spreadsheet_manual_b` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spreadsheet manual build. Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
 | [3d-ui](skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) | `frontend` | `web-architecture` | `3d_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth. |

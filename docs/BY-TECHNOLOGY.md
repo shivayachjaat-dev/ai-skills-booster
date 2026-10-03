@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1916 skills)
+## Bash (1917 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2448,6 +2448,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [soroban-liquidity-pool](../skills/frontend/ui-ux/soroban_liquidity_po/soroban-liquidity-pool/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban liquidity pool. Automated market maker liquidity pool register: constant-product invariant curves, swap fee tiers, and LP token shares for Soroban DeFi.
 - [source-driven-development](../skills/frontend/ui-ux/source_driven_develo/source-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for source driven development. Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.
 - [spec-driven-development](../skills/frontend/ui-ux/spec_driven_developm/spec-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for spec driven development. Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.
+- [spreadsheet-manual-build](../skills/frontend/ui-ux/spreadsheet_manual_b/spreadsheet-manual-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for spreadsheet manual build. Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 - [3d-ui](../skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
@@ -9896,7 +9897,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2019 skills)
+## Python (2020 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11326,6 +11327,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [soroban-liquidity-pool](../skills/frontend/ui-ux/soroban_liquidity_po/soroban-liquidity-pool/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban liquidity pool. Automated market maker liquidity pool register: constant-product invariant curves, swap fee tiers, and LP token shares for Soroban DeFi.
 - [source-driven-development](../skills/frontend/ui-ux/source_driven_develo/source-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for source driven development. Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.
 - [spec-driven-development](../skills/frontend/ui-ux/spec_driven_developm/spec-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for spec driven development. Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.
+- [spreadsheet-manual-build](../skills/frontend/ui-ux/spreadsheet_manual_b/spreadsheet-manual-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for spreadsheet manual build. Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 - [3d-ui](../skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
@@ -13360,6 +13362,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Splunk (1 skills)
 
 - [tamper-evident-audit-logging-and-siem-integration](../skills/security/compliance/audit-logging/tamper-evident-audit-logging-and-siem-integration/SKILL.md) — Use this skill to design and implement immutable, tamper-evident audit logging architectures with enterprise SIEM integration. It covers cryptographic HMAC hash chains, structured Common Event Format (CEF) and Elastic Common Schema (ECS) event modeling, automated PII redaction, secure multi-region syslog forwarding (TLS/mTLS), and retention compliance for SOC2, ISO 27001, and HIPAA.
+
+## Spreadsheet Manual Build (1 skills)
+
+- [spreadsheet-manual-build](../skills/frontend/ui-ux/spreadsheet_manual_b/spreadsheet-manual-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for spreadsheet manual build. Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.
 
 ## Src Hunter (1 skills)
 

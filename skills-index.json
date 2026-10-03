@@ -32949,6 +32949,28 @@
     "maturity": "stable"
   },
   {
+    "name": "spreadsheet-manual-build",
+    "path": "skills/frontend/ui-ux/spreadsheet_manual_b/spreadsheet-manual-build",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "spreadsheet_manual_b",
+    "description": "Use this skill to design, implement, and operate production workflows for spreadsheet manual build. Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "spreadsheet",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Spreadsheet Manual Build",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
