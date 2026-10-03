@@ -2943,6 +2943,28 @@
     "maturity": "stable"
   },
   {
+    "name": "prompt-caching",
+    "path": "skills/ai-engineering/llm-ops/prompt_caching/prompt-caching",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "prompt_caching",
+    "description": "Use this skill to design, implement, and operate production workflows for prompt caching. Caching strategies for LLM prompts including Anthropic prompt",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "prompt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Prompt Caching",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

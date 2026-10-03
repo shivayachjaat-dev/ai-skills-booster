@@ -1,6 +1,6 @@
 # Category Index: Llm Ops
 
-> **23 skills** available in this category.
+> **24 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -27,3 +27,4 @@
 | [multi-tenant-llm-hosting](../../skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) | `multi_tenant_llm_hos` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation, |
 | [odoo-ecommerce-configurator](../../skills/ai-engineering/llm-ops/odoo_ecommerce_confi/odoo-ecommerce-configurator/SKILL.md) | `odoo_ecommerce_confi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo ecommerce configurator. Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow. |
 | [ollama-stack](../../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) | `ollama_stack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning |
+| [prompt-caching](../../skills/ai-engineering/llm-ops/prompt_caching/prompt-caching/SKILL.md) | `prompt_caching` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prompt caching. Caching strategies for LLM prompts including Anthropic prompt |

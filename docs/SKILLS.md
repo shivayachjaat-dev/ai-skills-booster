@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,823 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,824 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | [multi-tenant-llm-hosting](skills/ai-engineering/llm-ops/multi_tenant_llm_hos/multi-tenant-llm-hosting/SKILL.md) | `ai-engineering` | `llm-ops` | `multi_tenant_llm_hos` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi tenant llm hosting. Design secure, multi-tenant LLM hosting platforms with tenant isolation, |
 | [odoo-ecommerce-configurator](skills/ai-engineering/llm-ops/odoo_ecommerce_confi/odoo-ecommerce-configurator/SKILL.md) | `ai-engineering` | `llm-ops` | `odoo_ecommerce_confi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo ecommerce configurator. Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow. |
 | [ollama-stack](skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) | `ai-engineering` | `llm-ops` | `ollama_stack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning |
+| [prompt-caching](skills/ai-engineering/llm-ops/prompt_caching/prompt-caching/SKILL.md) | `ai-engineering` | `llm-ops` | `prompt_caching` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prompt caching. Caching strategies for LLM prompts including Anthropic prompt |
 | [agentfolio](skills/ai-engineering/models/agentfolio/agentfolio/SKILL.md) | `ai-engineering` | `models` | `agentfolio` | `advanced` | `stable` | Use this skill to skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory. |
 | [ai-agent-development](skills/ai-engineering/models/ai_agent_development/ai-agent-development/SKILL.md) | `ai-engineering` | `models` | `ai_agent_development` | `advanced` | `stable` | Use this skill to aI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. |
 | [ai-analyzer](skills/ai-engineering/models/ai_analyzer/ai-analyzer/SKILL.md) | `ai-engineering` | `models` | `ai_analyzer` | `advanced` | `stable` | Use this skill to aI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |
