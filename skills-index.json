@@ -12183,6 +12183,28 @@
     "maturity": "stable"
   },
   {
+    "name": "people-directory",
+    "path": "skills/ai-engineering/models/people_directory/people-directory",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "people_directory",
+    "description": "Use this skill to design, implement, and operate production workflows for people directory. Employee master record: name, employee id, department, job title, grade, manager, employment type, contact and emergency details, access role, start and end dates, status. Use for people records.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "people",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "People Directory",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
