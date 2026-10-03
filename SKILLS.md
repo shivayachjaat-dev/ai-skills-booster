@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,938 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,939 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -612,6 +612,7 @@
 | [review-animations](skills/ai-engineering/models/review_animations/review-animations/SKILL.md) | `ai-engineering` | `models` | `review_animations` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for review animations. Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-quality bar. |
 | [routerbase-model-gateway](skills/ai-engineering/models/routerbase_model_gat/routerbase-model-gateway/SKILL.md) | `ai-engineering` | `models` | `routerbase_model_gat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for routerbase model gateway. Integrate RouterBase as an OpenAI-compatible model gateway for routing GPT, Claude, Gemini, media, audio, and embedding requests. |
 | [ruby-pro](skills/ai-engineering/models/ruby_pro/ruby-pro/SKILL.md) | `ai-engineering` | `models` | `ruby_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ruby pro. Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks. |
+| [runapi-cli](skills/ai-engineering/models/runapi_cli/runapi-cli/SKILL.md) | `ai-engineering` | `models` | `runapi_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for runapi cli. Generate AI images, videos, and music/audio from agents using the RunAPI CLI. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

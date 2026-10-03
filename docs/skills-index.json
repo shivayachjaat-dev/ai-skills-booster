@@ -13459,6 +13459,28 @@
     "maturity": "stable"
   },
   {
+    "name": "runapi-cli",
+    "path": "skills/ai-engineering/models/runapi_cli/runapi-cli",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "runapi_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for runapi cli. Generate AI images, videos, and music/audio from agents using the RunAPI CLI.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "runapi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Runapi Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
