@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,956** skills across structured domains, categories, and subcategories.
+Master navigation for **1,957** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (670 skills)
+## Ai Engineering (671 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (482 skills)
+### Models (483 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1268,6 +1268,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [sales-automator](../skills/ai-engineering/models/sales_automator/sales-automator/SKILL.md) — Use this skill to design, implement, and operate production workflows for sales automator. Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing.
 - **Sam_Altman** (1):
   - [sam-altman](../skills/ai-engineering/models/sam_altman/sam-altman/SKILL.md) — Use this skill to design, implement, and operate production workflows for sam altman. Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AGI.
+- **Sandbase_Mcp** (1):
+  - [sandbase-mcp](../skills/ai-engineering/models/sandbase_mcp/sandbase-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for sandbase mcp. Discover, inspect, and invoke 2,000+ AI models and APIs through SandBase's local MCP bridge with explicit schema and cost checks.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

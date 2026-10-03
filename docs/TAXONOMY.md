@@ -618,6 +618,7 @@ AI_Skills_Booster/
 │   │   ├── salary_benchmarking/ (1 skills)
 │   │   ├── sales_automator/ (1 skills)
 │   │   ├── sam_altman/ (1 skills)
+│   │   ├── sandbase_mcp/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

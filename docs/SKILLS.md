@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,956 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,957 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -618,6 +618,7 @@
 | [salary-benchmarking](skills/ai-engineering/models/salary_benchmarking/salary-benchmarking/SKILL.md) | `ai-engineering` | `models` | `salary_benchmarking` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for salary benchmarking. Salary benchmark register: role, department and grade against market and internal minimum, median and maximum. Use for compensation review. |
 | [sales-automator](skills/ai-engineering/models/sales_automator/sales-automator/SKILL.md) | `ai-engineering` | `models` | `sales_automator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sales automator. Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing. |
 | [sam-altman](skills/ai-engineering/models/sam_altman/sam-altman/SKILL.md) | `ai-engineering` | `models` | `sam_altman` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sam altman. Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AGI. |
+| [sandbase-mcp](skills/ai-engineering/models/sandbase_mcp/sandbase-mcp/SKILL.md) | `ai-engineering` | `models` | `sandbase_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sandbase mcp. Discover, inspect, and invoke 2,000+ AI models and APIs through SandBase's local MCP bridge with explicit schema and cost checks. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
