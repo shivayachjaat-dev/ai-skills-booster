@@ -12711,6 +12711,28 @@
     "maturity": "stable"
   },
   {
+    "name": "project-based-performance",
+    "path": "skills/ai-engineering/models/project_based_perfor/project-based-performance",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "project_based_perfor",
+    "description": "Use this skill to design, implement, and operate production workflows for project based performance. Project performance review: role, project and manager, delivery, quality and collaboration scores, overall score and feedback. Use for project appraisals.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "project",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Project Based Performance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

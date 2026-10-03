@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,815 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,816 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -578,6 +578,7 @@
 | [product-manager](skills/ai-engineering/models/product_manager/product-manager/SKILL.md) | `ai-engineering` | `models` | `product_manager` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product manager. Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts. |
 | [product-photo-studio](skills/ai-engineering/models/product_photo_studio/product-photo-studio/SKILL.md) | `ai-engineering` | `models` | `product_photo_studio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product photo studio. Install and use the official AI Product Photography package, pinned by digest, for paid hosted work on the Beatra service. |
 | [progressive-estimation](skills/ai-engineering/models/progressive_estimati/progressive-estimation/SKILL.md) | `ai-engineering` | `models` | `progressive_estimati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for progressive estimation. Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops |
+| [project-based-performance](skills/ai-engineering/models/project_based_perfor/project-based-performance/SKILL.md) | `ai-engineering` | `models` | `project_based_perfor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for project based performance. Project performance review: role, project and manager, delivery, quality and collaboration scores, overall score and feedback. Use for project appraisals. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
