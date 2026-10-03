@@ -44971,6 +44971,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-installer",
+    "path": "skills/software-engineering/architecture/patterns/skill-installer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for skill installer. Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Installer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",

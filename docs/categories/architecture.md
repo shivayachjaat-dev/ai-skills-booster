@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **274 skills** available in this category.
+> **275 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -277,4 +277,5 @@
 | [short](../../skills/software-engineering/architecture/patterns/short/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for short. Rewrite the previous response more briefly while preserving the substance. |
 | [signup-flow-cro](../../skills/software-engineering/architecture/patterns/signup-flow-cro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for signup flow cro. You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation. |
 | [simplify-code](../../skills/software-engineering/architecture/patterns/simplify-code/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for simplify code. Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. |
+| [skill-installer](../../skills/software-engineering/architecture/patterns/skill-installer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill installer. Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

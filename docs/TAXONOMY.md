@@ -1888,7 +1888,7 @@ AI_Skills_Booster/
 │   │   ├── adr-governance/ (1 skills)
 │   │   ├── hexagonal/ (1 skills)
 │   │   ├── interfaces/ (1 skills)
-│   │   └── patterns/ (270 skills)
+│   │   └── patterns/ (271 skills)
 │   ├── code-review/
 │   │   └── pr-feedback/ (1 skills)
 │   ├── debugging/
