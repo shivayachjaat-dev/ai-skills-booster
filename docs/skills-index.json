@@ -46071,6 +46071,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sred-work-summary",
+    "path": "skills/software-engineering/architecture/patterns/sred-work-summary",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for sred work summary. Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "sred",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sred Work Summary",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",

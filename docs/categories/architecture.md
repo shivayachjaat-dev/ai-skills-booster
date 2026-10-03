@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **285 skills** available in this category.
+> **286 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -288,4 +288,5 @@
 | [social-proof-architect](../../skills/software-engineering/architecture/patterns/social-proof-architect/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social proof architect. One sentence - what this skill does and when to invoke it |
 | [speckit-updater](../../skills/software-engineering/architecture/patterns/speckit-updater/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for speckit updater. SpecKit Safe Update |
 | [sred-project-organizer](../../skills/software-engineering/architecture/patterns/sred-project-organizer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sred project organizer. Take a list of projects and their related documentation, and organize them into the SRED format for submission. |
+| [sred-work-summary](../../skills/software-engineering/architecture/patterns/sred-work-summary/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sred work summary. Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
