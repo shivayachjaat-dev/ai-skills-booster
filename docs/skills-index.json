@@ -13745,6 +13745,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seek-and-analyze-video",
+    "path": "skills/ai-engineering/models/seek_and_analyze_vid/seek-and-analyze-video",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "seek_and_analyze_vid",
+    "description": "Use this skill to design, implement, and operate production workflows for seek and analyze video. Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "seek",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seek And Analyze Video",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
