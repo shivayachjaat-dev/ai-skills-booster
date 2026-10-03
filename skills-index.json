@@ -13789,6 +13789,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sendgrid-automation",
+    "path": "skills/ai-engineering/models/sendgrid_automation/sendgrid-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "sendgrid_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for sendgrid automation. Automate SendGrid email delivery workflows including marketing campaigns (Single Sends), contact and list management, sender identity setup, and email analytics through Composio's SendGrid toolkit.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "sendgrid",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sendgrid Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
