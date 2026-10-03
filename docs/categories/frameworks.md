@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **29 skills** available in this category.
+> **30 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -33,3 +33,4 @@
 | [react-native-architecture](../../skills/frontend/frameworks/react_native_archite/react-native-architecture/SKILL.md) | `react_native_archite` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react native architecture. Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture. |
 | [react-native-skills](../../skills/frontend/frameworks/react_native_skills/react-native-skills/SKILL.md) | `react_native_skills` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react native skills. Use when working with react-native-skills tasks or workflows |
 | [react-patterns](../../skills/frontend/frameworks/react_patterns/react-patterns/SKILL.md) | `react_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react patterns. Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices. |
+| [react-ui-patterns](../../skills/frontend/frameworks/react_ui_patterns/react-ui-patterns/SKILL.md) | `react_ui_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react ui patterns. Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states. |
