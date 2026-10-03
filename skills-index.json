@@ -28417,6 +28417,28 @@
     "maturity": "stable"
   },
   {
+    "name": "product-inventor",
+    "path": "skills/frontend/ui-ux/product_inventor/product-inventor",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "product_inventor",
+    "description": "Use this skill to design, implement, and operate production workflows for product inventor. Product Inventor e Design Alchemist de nivel maximo \u2014 combina Product Thinking, Design Systems, UI Engineering, Psicologia Cognitiva, Storytelling e execucao impecavel nivel Jobs/Apple.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "product",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Product Inventor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
