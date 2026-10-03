@@ -13525,6 +13525,28 @@
     "maturity": "stable"
   },
   {
+    "name": "salary-benchmarking",
+    "path": "skills/ai-engineering/models/salary_benchmarking/salary-benchmarking",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "salary_benchmarking",
+    "description": "Use this skill to design, implement, and operate production workflows for salary benchmarking. Salary benchmark register: role, department and grade against market and internal minimum, median and maximum. Use for compensation review.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "salary",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Salary Benchmarking",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

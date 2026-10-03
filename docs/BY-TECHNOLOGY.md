@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1766 skills)
+## Bash (1767 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1661,6 +1661,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [runapi-cli](../skills/ai-engineering/models/runapi_cli/runapi-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for runapi cli. Generate AI images, videos, and music/audio from agents using the RunAPI CLI.
 - [runaway-guard](../skills/ai-engineering/models/runaway_guard/runaway-guard/SKILL.md) — Use this skill to design, implement, and operate production workflows for runaway guard. Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. Forces a written per-run $-cap, per-day $-cap, max-iterations bound, concurrency limit, and a matching provider-dashboard hard cap BEF...
 - [rust-async-patterns](../skills/ai-engineering/models/rust_async_patterns/rust-async-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust async patterns. Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code.
+- [salary-benchmarking](../skills/ai-engineering/models/salary_benchmarking/salary-benchmarking/SKILL.md) — Use this skill to design, implement, and operate production workflows for salary benchmarking. Salary benchmark register: role, department and grade against market and internal minimum, median and maximum. Use for compensation review.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -9734,7 +9735,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1869 skills)
+## Python (1870 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10343,6 +10344,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [runapi-cli](../skills/ai-engineering/models/runapi_cli/runapi-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for runapi cli. Generate AI images, videos, and music/audio from agents using the RunAPI CLI.
 - [runaway-guard](../skills/ai-engineering/models/runaway_guard/runaway-guard/SKILL.md) — Use this skill to design, implement, and operate production workflows for runaway guard. Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. Forces a written per-run $-cap, per-day $-cap, max-iterations bound, concurrency limit, and a matching provider-dashboard hard cap BEF...
 - [rust-async-patterns](../skills/ai-engineering/models/rust_async_patterns/rust-async-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust async patterns. Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code.
+- [salary-benchmarking](../skills/ai-engineering/models/salary_benchmarking/salary-benchmarking/SKILL.md) — Use this skill to design, implement, and operate production workflows for salary benchmarking. Salary benchmark register: role, department and grade against market and internal minimum, median and maximum. Use for compensation review.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -12309,6 +12311,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Saga Orchestration (1 skills)
 
 - [saga-orchestration](../skills/business/operations/saga_orchestration/saga-orchestration/SKILL.md) — Use this skill to design, implement, and operate production workflows for saga orchestration. Patterns for managing distributed transactions and long-running business processes.
+
+## Salary Benchmarking (1 skills)
+
+- [salary-benchmarking](../skills/ai-engineering/models/salary_benchmarking/salary-benchmarking/SKILL.md) — Use this skill to design, implement, and operate production workflows for salary benchmarking. Salary benchmark register: role, department and grade against market and internal minimum, median and maximum. Use for compensation review.
 
 ## Scale Benchmarks (1 skills)
 

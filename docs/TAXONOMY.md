@@ -615,6 +615,7 @@ AI_Skills_Booster/
 │   │   ├── runapi_cli/ (1 skills)
 │   │   ├── runaway_guard/ (1 skills)
 │   │   ├── rust_async_patterns/ (1 skills)
+│   │   ├── salary_benchmarking/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
