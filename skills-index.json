@@ -18085,6 +18085,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sql-pro",
+    "path": "skills/backend/databases/sql_pro/sql-pro",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "sql_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for sql pro. Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.",
+    "tags": [
+      "backend",
+      "databases",
+      "sql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sql Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "src-hunter",
     "path": "skills/backend/databases/src_hunter/src-hunter",
     "domain": "backend",

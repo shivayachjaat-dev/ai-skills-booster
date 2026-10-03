@@ -827,6 +827,7 @@ AI_Skills_Booster/
 │   │   ├── prisma_expert/ (1 skills)
 │   │   ├── saas_multi_tenant/ (1 skills)
 │   │   ├── sankhya_dashboard_ht/ (1 skills)
+│   │   ├── sql_pro/ (1 skills)
 │   │   └── src_hunter/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
