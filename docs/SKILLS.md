@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,005 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,006 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1426,6 +1426,7 @@
 | [security-bluebook-builder](skills/frontend/ui-ux/security_bluebook_bu/security-bluebook-builder/SKILL.md) | `frontend` | `ui-ux` | `security_bluebook_bu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security bluebook builder. Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document using MUST/SHOULD/CAN language, with explicit assumptions, scope, and security gates. |
 | [security-requirement-extraction](skills/frontend/ui-ux/security_requirement/security-requirement-extraction/SKILL.md) | `frontend` | `ui-ux` | `security_requirement` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security requirement extraction. Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases. |
 | [semgrep-rule-creator](skills/frontend/ui-ux/semgrep_rule_creator/semgrep-rule-creator/SKILL.md) | `frontend` | `ui-ux` | `semgrep_rule_creator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for semgrep rule creator. Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections. |
+| [seo-aeo-content-cluster](skills/frontend/ui-ux/seo_aeo_content_clus/seo-aeo-content-cluster/SKILL.md) | `frontend` | `ui-ux` | `seo_aeo_content_clus` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo content cluster. Builds a topical authority map from business goals, search intent, existing content, and gaps, then prioritises foundational and supporting pages. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

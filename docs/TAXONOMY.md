@@ -1513,6 +1513,7 @@ AI_Skills_Booster/
 │   │   ├── security_bluebook_bu/ (1 skills)
 │   │   ├── security_requirement/ (1 skills)
 │   │   ├── semgrep_rule_creator/ (1 skills)
+│   │   ├── seo_aeo_content_clus/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)

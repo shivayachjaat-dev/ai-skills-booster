@@ -31695,6 +31695,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-aeo-content-cluster",
+    "path": "skills/frontend/ui-ux/seo_aeo_content_clus/seo-aeo-content-cluster",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "seo_aeo_content_clus",
+    "description": "Use this skill to design, implement, and operate production workflows for seo aeo content cluster. Builds a topical authority map from business goals, search intent, existing content, and gaps, then prioritises foundational and supporting pages.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Aeo Content Cluster",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
