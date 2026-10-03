@@ -41605,6 +41605,28 @@
     "maturity": "stable"
   },
   {
+    "name": "remotion",
+    "path": "skills/software-engineering/architecture/patterns/remotion",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for remotion. Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "remotion",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Remotion",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",

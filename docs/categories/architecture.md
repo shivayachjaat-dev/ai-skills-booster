@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **236 skills** available in this category.
+> **237 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -238,5 +238,6 @@
 | [readme](../../skills/software-engineering/architecture/patterns/readme/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for readme. You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had. |
 | [red-team-tactics](../../skills/software-engineering/architecture/patterns/red-team-tactics/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for red team tactics. Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting. |
 | [rehabilitation-analyzer](../../skills/software-engineering/architecture/patterns/rehabilitation-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rehabilitation analyzer. 分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议 |
+| [remotion](../../skills/software-engineering/architecture/patterns/remotion/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion. Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
