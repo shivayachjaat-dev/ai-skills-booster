@@ -38129,6 +38129,28 @@
     "maturity": "stable"
   },
   {
+    "name": "phase-gated-debugging",
+    "path": "skills/software-engineering/architecture/patterns/phase-gated-debugging",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for phase gated debugging. Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "phase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Phase Gated Debugging",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
