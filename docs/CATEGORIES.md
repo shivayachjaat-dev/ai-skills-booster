@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,910** skills across structured domains, categories, and subcategories.
+Master navigation for **1,911** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (654 skills)
 
@@ -3416,7 +3416,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (171 skills)
+## Security (172 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -3659,7 +3659,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 - **Zero Trust** (1):
   - [zero-trust-network-architecture](../skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) — Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization.
 
-### Authentication (16 skills)
+### Authentication (17 skills)
 Category index: [`docs/categories/authentication.md`](categories/authentication.md)
 
 - **Azure_Communication_** (1):
@@ -3694,6 +3694,8 @@ Category index: [`docs/categories/authentication.md`](categories/authentication.
   - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
 - **Open_Source_Marketin** (1):
   - [open-source-marketing](../skills/security/authentication/open_source_marketin/open-source-marketing/SKILL.md) — Use this skill to design, implement, and operate production workflows for open source marketing. When the user wants to market an open source project authentically. Trigger phrases include "open source marketing," "OSS marketing," "GitHub marketing," "promote my library," "grow stars," "launch open source," "open source growth," or "contributor ...
+- **Repo_Foundation** (1):
+  - [repo-foundation](../skills/security/authentication/repo_foundation/repo-foundation/SKILL.md) — Use this skill to design, implement, and operate production workflows for repo foundation. Implement features, fixes, modules, contract migrations, and resumed work while preserving user edits and authorized public contracts.
 
 ### Authorization (1 skills)
 Category index: [`docs/categories/authorization.md`](categories/authorization.md)
