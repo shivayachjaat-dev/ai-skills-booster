@@ -18992,6 +18992,28 @@
     "maturity": "stable"
   },
   {
+    "name": "salary-wage-accounting",
+    "path": "skills/business/operations/salary_wage_accounti/salary-wage-accounting",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "salary_wage_accounti",
+    "description": "Use this skill to design, implement, and operate production workflows for salary wage accounting. Payroll register: gross, allowances, TDS and provident fund deductions, net pay, payment date and statutory reconciliation. Use for salary accounting.",
+    "tags": [
+      "business",
+      "operations",
+      "salary",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Salary Wage Accounting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

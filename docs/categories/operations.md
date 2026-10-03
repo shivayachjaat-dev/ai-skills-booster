@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **41 skills** available in this category.
+> **42 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -45,3 +45,4 @@
 | [recognition-rewards](../../skills/business/operations/recognition_rewards/recognition-rewards/SKILL.md) | `recognition_rewards` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs. |
 | [remote-work-tracker](../../skills/business/operations/remote_work_tracker/remote-work-tracker/SKILL.md) | `remote_work_tracker` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remote work tracker. Remote work register: employee, location, week start, HQ versus remote days, core-hours compliance and manager approval. Use for hybrid work tracking. |
 | [saga-orchestration](../../skills/business/operations/saga_orchestration/saga-orchestration/SKILL.md) | `saga_orchestration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saga orchestration. Patterns for managing distributed transactions and long-running business processes. |
+| [salary-wage-accounting](../../skills/business/operations/salary_wage_accounti/salary-wage-accounting/SKILL.md) | `salary_wage_accounti` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for salary wage accounting. Payroll register: gross, allowances, TDS and provident fund deductions, net pay, payment date and statutory reconciliation. Use for salary accounting. |
