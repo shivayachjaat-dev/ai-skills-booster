@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **40 skills** available in this category.
+> **41 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,5 +42,6 @@
 | [postgresql-optimization](../../skills/backend/databases/postgresql_optimizat/postgresql-optimization/SKILL.md) | `postgresql_optimizat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postgresql optimization. PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management. |
 | [prisma-expert](../../skills/backend/databases/prisma_expert/prisma-expert/SKILL.md) | `prisma_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prisma expert. You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite. |
 | [saas-multi-tenant](../../skills/backend/databases/saas_multi_tenant/saas-multi-tenant/SKILL.md) | `saas_multi_tenant` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saas multi tenant. Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript. |
+| [sankhya-dashboard-html-jsp-custom-best-pratices](../../skills/backend/databases/sankhya_dashboard_ht/sankhya-dashboard-html-jsp-custom-best-pratices/SKILL.md) | `sankhya_dashboard_ht` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sankhya dashboard html jsp custom best pratices. This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL. |
 | [src-hunter](../../skills/backend/databases/src_hunter/src-hunter/SKILL.md) | `src_hunter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload. |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |

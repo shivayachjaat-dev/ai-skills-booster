@@ -17161,6 +17161,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sankhya-dashboard-html-jsp-custom-best-pratices",
+    "path": "skills/backend/databases/sankhya_dashboard_ht/sankhya-dashboard-html-jsp-custom-best-pratices",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "sankhya_dashboard_ht",
+    "description": "Use this skill to design, implement, and operate production workflows for sankhya dashboard html jsp custom best pratices. This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL.",
+    "tags": [
+      "backend",
+      "databases",
+      "sankhya",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sankhya Dashboard Html Jsp Custom Best Pratices",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "src-hunter",
     "path": "skills/backend/databases/src_hunter/src-hunter",
     "domain": "backend",

@@ -785,6 +785,7 @@ AI_Skills_Booster/
 │   │   ├── postgresql_optimizat/ (1 skills)
 │   │   ├── prisma_expert/ (1 skills)
 │   │   ├── saas_multi_tenant/ (1 skills)
+│   │   ├── sankhya_dashboard_ht/ (1 skills)
 │   │   └── src_hunter/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)

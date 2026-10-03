@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,957** skills across structured domains, categories, and subcategories.
+Master navigation for **1,958** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (671 skills)
 
@@ -1408,7 +1408,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (130 skills)
+## Backend (131 skills)
 
 ### Api Design (11 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1562,7 +1562,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (39 skills)
+### Databases (40 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -1638,6 +1638,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [prisma-expert](../skills/backend/databases/prisma_expert/prisma-expert/SKILL.md) — Use this skill to design, implement, and operate production workflows for prisma expert. You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite.
 - **Saas_Multi_Tenant** (1):
   - [saas-multi-tenant](../skills/backend/databases/saas_multi_tenant/saas-multi-tenant/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas multi tenant. Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript.
+- **Sankhya_Dashboard_Ht** (1):
+  - [sankhya-dashboard-html-jsp-custom-best-pratices](../skills/backend/databases/sankhya_dashboard_ht/sankhya-dashboard-html-jsp-custom-best-pratices/SKILL.md) — Use this skill to design, implement, and operate production workflows for sankhya dashboard html jsp custom best pratices. This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL.
 - **Src_Hunter** (1):
   - [src-hunter](../skills/backend/databases/src_hunter/src-hunter/SKILL.md) — Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload.
 
