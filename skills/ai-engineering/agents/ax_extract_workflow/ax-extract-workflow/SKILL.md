@@ -1,19 +1,22 @@
 ---
 name: ax-extract-workflow
-description: "Use this skill to reconstruct workflow behind a past coding-agent artifact using local ax sessions/commits/skills/tool traces. Use when asked how X was built."
+description: "Use this skill to inspect, reverse-engineer, and reconstruct the complete development workflow behind an existing software artifact, commit, or pull request. It analyzes git revision DAGs, commit deltas, agent tool-execution traces, and session transcripts to synthesize an authoritative operational lineage and reproducibility guide."
 domain: ai-engineering
 category: agents
 subcategory: ax_extract_workflow
 tags:
-  - ai-engineering
-  - agents
-  - ax
-  - automation
-  - production-ready
+  - workflow-extraction
+  - session-reconstruction
+  - git-forensics
+  - artifact-lineage
+  - agent-observability
+  - commit-analysis
 technologies:
-  - Ax Extract Workflow
   - Python
-  - Bash
+  - Git
+  - SQLite
+  - JSONL
+  - Regex
 complexity: advanced
 maturity: stable
 tools:
@@ -21,92 +24,142 @@ tools:
   - bash
 dependencies:
   - python@>=3.10
+version: 1.0.0
+author: Antigravity Team
 ---
-# Ax Extract Workflow Architecture & Implementation Standard
+
+# Autonomous Workflow Reconstruction & Provenance Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for ax extract workflow. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with ax-extract-workflow.
+The `ax-extract-workflow` skill provides the methodology, tooling, and analytical procedures for reconstructing the exact sequence of engineering decisions, tool invocations, prompts, and code mutations that produced a specific software artifact (e.g. a pull request, feature commit, benchmark result, or architecture document). When teams or agents inherit complex legacy code or unfamiliar automated contributions, understanding *how* and *why* a change was made is critical for debugging, auditing, and continuous learning. This skill enables agents to inspect version control history, session logs, and tool execution traces to generate an authoritative "How this was built" reproduction guide.
 
 ```
-+------------------------------------------------------------------------+
-|                   Ax Extract Workflow                                 |
-|                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
-+------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+|                        Workflow Reconstruction Pipeline                           |
+|                                                                                   |
+|  [ Anchor Input ] (Commit SHA, File Path, PR Number, or Date Window)              |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Git Revision Forensics ]                                                       |
+|    - Commit log, diffstat, patch analysis, and parent DAG traversal               |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Session & Trace Correlation ]                                                  |
+|    - Transcript logs, tool invocation records, test output captures               |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Action Chronology Synthesis ]                                                  |
+|    1. Initial Exploration / Spec Phase                                            |
+|    2. Core Implementation & Refactoring Passes                                    |
+|    3. Verification & Bugfix Loop Cycles                                           |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Structured Reproduction Specification (specs/<artifact>_lineage.md) ]          |
++-----------------------------------------------------------------------------------+
 ```
+
+---
 
 ## When to Use
 
-- When architecting or refactoring systems related to ax extract workflow.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When an engineer or user asks: "How was feature X built?", "What prompts or tools created this module?", or "Extract the workflow behind commit Y."
+- When conducting post-mortem root-cause analysis on an automated agent regression.
+- When creating reproducible step-by-step tutorials from a completed implementation.
+- When extracting reusable agent workflow patterns from successful complex sessions.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
+- For routine git log queries (e.g. `git log -n 5`) where a simple shell command suffices.
+- When inspecting prospective plans for unbuilt software (use `ai-loop` or `plan` instead).
+- When session or version control records have been purged and no trace evidence exists.
+
+---
 
 ## Inputs & Prerequisites
 
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+1. **Target Artifact Anchor**: One or more of: Commit SHA, file path, branch name, or ISO timestamp.
+2. **Access to Local Git Repository**: Initialized Git repository with reachable commit history.
+3. **Session / Transcript Traces (Optional)**: JSONL execution logs or tool call records.
+
+---
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for ax-extract-workflow..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### Step 1: Resolve Target Anchor & Extract Git History
+Extract the commit timeline, touched files, and diff statistics for the target anchor:
 
 ```python
-import sys
-import logging
+import subprocess
+from typing import List, Dict, Any
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("ax-extract-workflow")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for ax-extract-workflow")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
+def extract_commit_lineage(anchor_sha: str, depth: int = 5) -> List[Dict[str, str]]:
+    """Retrieves commit metadata and diff stats for a given git commit SHA."""
+    cmd = ["git", "log", f"-n", str(depth), "--pretty=format:%H|%an|%ad|%s", "--date=iso", anchor_sha]
+    res = subprocess.run(cmd, capture_output=True, text=True, check=True)
     
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+    commits = []
+    for line in res.stdout.strip().splitlines():
+        if not line:
+            continue
+        sha, author, date, subject = line.split("|", 3)
+        commits.append({
+            "sha": sha,
+            "author": author,
+            "date": date,
+            "subject": subject
+        })
+    return commits
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### Step 2: Chronological Action & Decision Mapping
+Correlate git patches with tool actions (file writes, test executions, lint passes) into discrete phases:
+
+```python
+def synthesize_workflow_phases(commits: List[Dict[str, str]]) -> Dict[str, Any]:
+    """Groups linear commit history into logical workflow phases."""
+    phases = {
+        "planning_and_spec": [],
+        "implementation": [],
+        "verification_and_hardening": []
+    }
+    
+    for c in reversed(commits):
+        sub = c["subject"].lower()
+        if any(w in sub for w in ["test", "verify", "fix", "lint", "harden"]):
+            phases["verification_and_hardening"].append(c)
+        elif any(w in sub for w in ["spec", "doc", "design", "plan", "rfc"]):
+            phases["planning_and_spec"].append(c)
+        else:
+            phases["implementation"].append(c)
+            
+    return phases
+```
+
+### Step 3: Emit Reproducibility Markdown Specification
+Format the extracted findings into a structured report documenting:
+1. Executive objective and scope.
+2. Chronological step-by-step sequence of changes.
+3. Key architectural decisions and trade-offs made.
+4. Exact verification commands used to validate the output.
+
+---
 
 ## Best Practices & Failure Modes
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+- **Missing Commit Context**: If squashed commits obscure the iteration history, inspect reflog or session transcript traces if available.
+- **Hallucinating Intent**: Never invent reasons for code changes that are not supported by commit messages, PR descriptions, or diff content. State observed facts and qualify inferences.
+- **Secret Scrubbing**: Before including tool call logs or diff snippets in the reconstructed workflow, verify that no credentials or private tokens are exposed.
+
+---
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/ax-extract-workflow_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+1. Run the workflow reconstruction engine self-tests:
+   ```bash
+   python scripts/ax-extract-workflow_helper.py
+   ```
+2. Reconstruct the lineage of recent repository commits:
+   ```bash
+   python scripts/workflow_reconstruction_engine.py --test-all
+   ```
