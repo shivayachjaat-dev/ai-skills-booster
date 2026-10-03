@@ -45323,6 +45323,28 @@
     "maturity": "stable"
   },
   {
+    "name": "smart-git-automation",
+    "path": "skills/software-engineering/architecture/patterns/smart-git-automation",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for smart git automation. Smart change detection, auto branch naming, and streamlined commit/PR workflow",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "smart",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Smart Git Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",

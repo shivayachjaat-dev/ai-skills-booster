@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **280 skills** available in this category.
+> **281 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -283,4 +283,5 @@
 | [sleep-analyzer](../../skills/software-engineering/architecture/patterns/sleep-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sleep analyzer. 分析睡眠数据、识别睡眠模式、评估睡眠质量，并提供个性化睡眠改善建议。支持与其他健康数据的关联分析。 |
 | [slo-implementation](../../skills/software-engineering/architecture/patterns/slo-implementation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for slo implementation. Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets. |
 | [smart-contract-formal-verification](../../skills/software-engineering/architecture/patterns/smart-contract-formal-verification/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for smart contract formal verification. Foundry and Soroban formal invariant verification register: state transition rules, boundary invariant properties, and symbolic execution checks. |
+| [smart-git-automation](../../skills/software-engineering/architecture/patterns/smart-git-automation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for smart git automation. Smart change detection, auto branch naming, and streamlined commit/PR workflow |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

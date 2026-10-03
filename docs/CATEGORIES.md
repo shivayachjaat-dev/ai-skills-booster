@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,072** skills across structured domains, categories, and subcategories.
+Master navigation for **2,073** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (701 skills)
 
@@ -4105,9 +4105,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (286 skills)
+## Software Engineering (287 skills)
 
-### Architecture (279 skills)
+### Architecture (280 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -4116,7 +4116,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (276):
+- **Patterns** (277):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -4392,6 +4392,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [sleep-analyzer](../skills/software-engineering/architecture/patterns/sleep-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for sleep analyzer. 分析睡眠数据、识别睡眠模式、评估睡眠质量，并提供个性化睡眠改善建议。支持与其他健康数据的关联分析。
   - [slo-implementation](../skills/software-engineering/architecture/patterns/slo-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for slo implementation. Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.
   - [smart-contract-formal-verification](../skills/software-engineering/architecture/patterns/smart-contract-formal-verification/SKILL.md) — Use this skill to design, implement, and operate production workflows for smart contract formal verification. Foundry and Soroban formal invariant verification register: state transition rules, boundary invariant properties, and symbolic execution checks.
+  - [smart-git-automation](../skills/software-engineering/architecture/patterns/smart-git-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for smart git automation. Smart change detection, auto branch naming, and streamlined commit/PR workflow
   - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 
 ### Code Review (1 skills)
