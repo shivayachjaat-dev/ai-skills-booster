@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,092** skills across structured domains, categories, and subcategories.
+Master navigation for **2,093** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (708 skills)
 
@@ -1993,7 +1993,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (49 skills)
+## Data Analytics (50 skills)
 
 ### Analytics Engineering (2 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -2009,7 +2009,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (37 skills)
+### Data Pipelines (38 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -2086,6 +2086,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [social-metadata-hardening](../skills/data-analytics/data-pipelines/social_metadata_hard/social-metadata-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for social metadata hardening. Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging.
 - **Soroban_Token_Minter** (1):
   - [soroban-token-minter](../skills/data-analytics/data-pipelines/soroban_token_minter/soroban-token-minter/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban token minter. Soroban SEP-41 token contract architecture register: admin control, supply caps, metadata standard, and transfer event emissions on Stellar.
+- **Spark_Optimization** (1):
+  - [spark-optimization](../skills/data-analytics/data-pipelines/spark_optimization/spark-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for spark optimization. Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines.
 
 ### Data Warehouse (1 skills)
 Category index: [`docs/categories/data-warehouse.md`](categories/data-warehouse.md)

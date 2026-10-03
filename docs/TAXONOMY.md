@@ -985,7 +985,8 @@ AI_Skills_Booster/
 │   │   ├── seo_meta_optimizer/ (1 skills)
 │   │   ├── skin_health_analyzer/ (1 skills)
 │   │   ├── social_metadata_hard/ (1 skills)
-│   │   └── soroban_token_minter/ (1 skills)
+│   │   ├── soroban_token_minter/ (1 skills)
+│   │   └── spark_optimization/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
 │   ├── databases/

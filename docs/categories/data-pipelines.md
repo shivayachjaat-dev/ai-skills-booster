@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **37 skills** available in this category.
+> **38 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -41,3 +41,4 @@
 | [skin-health-analyzer](../../skills/data-analytics/data-pipelines/skin_health_analyzer/skin-health-analyzer/SKILL.md) | `skin_health_analyzer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skin health analyzer. Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medication data. |
 | [social-metadata-hardening](../../skills/data-analytics/data-pipelines/social_metadata_hard/social-metadata-hardening/SKILL.md) | `social_metadata_hard` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social metadata hardening. Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging. |
 | [soroban-token-minter](../../skills/data-analytics/data-pipelines/soroban_token_minter/soroban-token-minter/SKILL.md) | `soroban_token_minter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for soroban token minter. Soroban SEP-41 token contract architecture register: admin control, supply caps, metadata standard, and transfer event emissions on Stellar. |
+| [spark-optimization](../../skills/data-analytics/data-pipelines/spark_optimization/spark-optimization/SKILL.md) | `spark_optimization` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spark optimization. Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines. |

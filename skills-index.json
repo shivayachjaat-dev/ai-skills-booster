@@ -21057,6 +21057,28 @@
     "maturity": "stable"
   },
   {
+    "name": "spark-optimization",
+    "path": "skills/data-analytics/data-pipelines/spark_optimization/spark-optimization",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "spark_optimization",
+    "description": "Use this skill to design, implement, and operate production workflows for spark optimization. Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "spark",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Spark Optimization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "snowflake-data-warehouse-modeling",
     "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
     "domain": "data-analytics",
