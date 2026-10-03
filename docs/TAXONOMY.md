@@ -1242,7 +1242,8 @@ AI_Skills_Booster/
 │   │   ├── react_patterns/ (1 skills)
 │   │   ├── react_ui_patterns/ (1 skills)
 │   │   ├── remotion_best_practi/ (1 skills)
-│   │   └── scala_pro/ (1 skills)
+│   │   ├── scala_pro/ (1 skills)
+│   │   └── shopify_apps/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/

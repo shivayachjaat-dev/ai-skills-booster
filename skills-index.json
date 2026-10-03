@@ -25897,6 +25897,28 @@
     "maturity": "stable"
   },
   {
+    "name": "shopify-apps",
+    "path": "skills/frontend/frameworks/shopify_apps/shopify-apps",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "shopify_apps",
+    "description": "Use this skill to design, implement, and operate production workflows for shopify apps. Expert patterns for Shopify app development including Remix/React",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "shopify",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Shopify Apps",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
