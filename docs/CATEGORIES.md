@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,174** skills across structured domains, categories, and subcategories.
+Master navigation for **2,175** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (733 skills)
+## Ai Engineering (734 skills)
 
-### Agents (93 skills)
+### Agents (94 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -193,6 +193,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [subagent-orchestrator](../skills/ai-engineering/agents/subagent_orchestrato/subagent-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent orchestrator. Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.
 - **Super_Code** (1):
   - [super-code](../skills/ai-engineering/agents/super_code/super-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for super code. Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead.
+- **Talivia_Agent_Kit** (1):
+  - [talivia-agent-kit](../skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit/SKILL.md) — Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution.
 
 ### Audio Processing (5 skills)
 Category index: [`docs/categories/audio-processing.md`](categories/audio-processing.md)

@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **93 skills** available in this category.
+> **94 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -97,3 +97,4 @@
 | [subagent-driven-development](../../skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development/SKILL.md) | `subagent_driven_deve` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session |
 | [subagent-orchestrator](../../skills/ai-engineering/agents/subagent_orchestrato/subagent-orchestrator/SKILL.md) | `subagent_orchestrato` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for subagent orchestrator. Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks. |
 | [super-code](../../skills/ai-engineering/agents/super_code/super-code/SKILL.md) | `super_code` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for super code. Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead. |
+| [talivia-agent-kit](../../skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit/SKILL.md) | `talivia_agent_kit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution. |

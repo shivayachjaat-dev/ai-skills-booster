@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1993 skills)
+## Bash (1994 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1168,6 +1168,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [subagent-driven-development](../skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session
 - [subagent-orchestrator](../skills/ai-engineering/agents/subagent_orchestrato/subagent-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent orchestrator. Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.
 - [super-code](../skills/ai-engineering/agents/super_code/super-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for super code. Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead.
+- [talivia-agent-kit](../skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit/SKILL.md) — Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
 - [gemini-api-dev](../skills/ai-engineering/audio-processing/gemini_api_dev/gemini-api-dev/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini api dev. Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specificat...
@@ -10003,7 +10004,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2096 skills)
+## Python (2097 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10097,6 +10098,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [subagent-driven-development](../skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session
 - [subagent-orchestrator](../skills/ai-engineering/agents/subagent_orchestrato/subagent-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent orchestrator. Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.
 - [super-code](../skills/ai-engineering/agents/super_code/super-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for super code. Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead.
+- [talivia-agent-kit](../skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit/SKILL.md) — Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
 - [gemini-api-dev](../skills/ai-engineering/audio-processing/gemini_api_dev/gemini-api-dev/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini api dev. Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specificat...
@@ -13862,6 +13864,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Taisly Social Media Posting (1 skills)
 
 - [taisly-social-media-posting](../skills/ai-engineering/models/taisly_social_media_/taisly-social-media-posting/SKILL.md) — Use this skill to design, implement, and operate production workflows for taisly social media posting. Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+
+## Talivia Agent Kit (1 skills)
+
+- [talivia-agent-kit](../skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit/SKILL.md) — Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution.
 
 ## Tech Matrix (1 skills)
 

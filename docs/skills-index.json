@@ -2082,6 +2082,28 @@
     "maturity": "stable"
   },
   {
+    "name": "talivia-agent-kit",
+    "path": "skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "talivia_agent_kit",
+    "description": "Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "talivia",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Talivia Agent Kit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-speech-to-text-rest-py",
     "path": "skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py",
     "domain": "ai-engineering",
