@@ -1723,6 +1723,7 @@ AI_Skills_Booster/
 │   │   ├── runbook_creation/ (1 skills)
 │   │   ├── saas_security_postur/ (1 skills)
 │   │   ├── sast_configuration/ (1 skills)
+│   │   ├── sast_scanning/ (1 skills)
 │   │   ├── security_auditor/ (1 skills)
 │   │   └── security_checklist/ (1 skills)
 │   ├── architecture/

@@ -35774,6 +35774,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sast-scanning",
+    "path": "skills/security/appsec/sast_scanning/sast-scanning",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "sast_scanning",
+    "description": "Use this skill to design, implement, and operate production workflows for sast scanning. Perform static application security testing with tools like Semgrep,",
+    "tags": [
+      "security",
+      "appsec",
+      "sast",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sast Scanning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
