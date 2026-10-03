@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,154** skills across structured domains, categories, and subcategories.
+Master navigation for **2,155** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (440 skills)
+## Frontend (441 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (272 skills)
+### Ui Ux (273 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3459,6 +3459,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [swift](../skills/frontend/ui-ux/swift/swift/SKILL.md) — Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift.
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
+- **Typescript** (1):
+  - [typescript](../skills/frontend/ui-ux/typescript/typescript/SKILL.md) — Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript.
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 

@@ -33983,6 +33983,28 @@
     "maturity": "stable"
   },
   {
+    "name": "typescript",
+    "path": "skills/frontend/ui-ux/typescript/typescript",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "typescript",
+    "description": "Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "typescript",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Typescript",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "vr-ar",
     "path": "skills/frontend/ui-ux/vr_ar/vr-ar",
     "domain": "frontend",

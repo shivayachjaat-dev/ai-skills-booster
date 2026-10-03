@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1973 skills)
+## Bash (1974 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2496,6 +2496,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [startup-metrics-framework](../skills/frontend/ui-ux/startup_metrics_fram/startup-metrics-framework/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup metrics framework. Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.
 - [swift](../skills/frontend/ui-ux/swift/swift/SKILL.md) — Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
+- [typescript](../skills/frontend/ui-ux/typescript/typescript/SKILL.md) — Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 - [3d-ui](../skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
@@ -9983,7 +9984,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2076 skills)
+## Python (2077 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11461,6 +11462,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [startup-metrics-framework](../skills/frontend/ui-ux/startup_metrics_fram/startup-metrics-framework/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup metrics framework. Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.
 - [swift](../skills/frontend/ui-ux/swift/swift/SKILL.md) — Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
+- [typescript](../skills/frontend/ui-ux/typescript/typescript/SKILL.md) — Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 - [3d-ui](../skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
 - [antigravity-design-expert](../skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) — Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
@@ -13866,6 +13868,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Typer (1 skills)
 
 - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
+
+## Typescript (1 skills)
+
+- [typescript](../skills/frontend/ui-ux/typescript/typescript/SKILL.md) — Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript.
 
 ## Typography First (1 skills)
 

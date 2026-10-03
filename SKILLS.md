@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,154 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,155 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1530,6 +1530,7 @@
 | [startup-metrics-framework](skills/frontend/ui-ux/startup_metrics_fram/startup-metrics-framework/SKILL.md) | `frontend` | `ui-ux` | `startup_metrics_fram` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup metrics framework. Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A. |
 | [swift](skills/frontend/ui-ux/swift/swift/SKILL.md) | `frontend` | `ui-ux` | `swift` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
+| [typescript](skills/frontend/ui-ux/typescript/typescript/SKILL.md) | `frontend` | `ui-ux` | `typescript` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
 | [3d-ui](skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) | `frontend` | `web-architecture` | `3d_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth. |
 | [antigravity-design-expert](skills/frontend/web-architecture/antigravity_design_e/antigravity-design-expert/SKILL.md) | `frontend` | `web-architecture` | `antigravity_design_e` | `advanced` | `stable` | Use this skill to core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |

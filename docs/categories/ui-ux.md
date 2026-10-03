@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **272 skills** available in this category.
+> **273 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -275,4 +275,5 @@
 | [startup-metrics-framework](../../skills/frontend/ui-ux/startup_metrics_fram/startup-metrics-framework/SKILL.md) | `startup_metrics_fram` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup metrics framework. Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A. |
 | [swift](../../skills/frontend/ui-ux/swift/swift/SKILL.md) | `swift` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
+| [typescript](../../skills/frontend/ui-ux/typescript/typescript/SKILL.md) | `typescript` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
