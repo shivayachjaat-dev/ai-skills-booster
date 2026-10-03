@@ -598,6 +598,7 @@ AI_Skills_Booster/
 │   │   ├── react_nextjs_develop/ (1 skills)
 │   │   ├── react_state_manageme/ (1 skills)
 │   │   ├── recallmax/ (1 skills)
+│   │   ├── recsys_pipeline_arch/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
