@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,002** skills across structured domains, categories, and subcategories.
+Master navigation for **2,003** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (682 skills)
 
@@ -2147,7 +2147,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (57 skills)
+## Developer Tools (58 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -2185,7 +2185,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Satori** (1):
   - [satori](../skills/developer-tools/cli-utilities/satori/satori/SKILL.md) — Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner
 
-### Productivity (41 skills)
+### Productivity (42 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -2270,6 +2270,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [senior-architect](../skills/developer-tools/productivity/senior_architect/senior-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior architect. Complete toolkit for senior architect with modern tools and best practices.
 - **Senior_Fullstack** (1):
   - [senior-fullstack](../skills/developer-tools/productivity/senior_fullstack/senior-fullstack/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior fullstack. Complete toolkit for senior fullstack with modern tools and best practices.
+- **Sentry_Automation** (1):
+  - [sentry-automation](../skills/developer-tools/productivity/sentry_automation/sentry-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for sentry automation. Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

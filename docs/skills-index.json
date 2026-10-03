@@ -22125,6 +22125,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sentry-automation",
+    "path": "skills/developer-tools/productivity/sentry_automation/sentry-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "sentry_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for sentry automation. Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "sentry",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sentry Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
