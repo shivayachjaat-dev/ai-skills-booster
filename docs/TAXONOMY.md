@@ -73,6 +73,7 @@ AI_Skills_Booster/
 │   │   ├── orchestration-optimization/ (1 skills)
 │   │   ├── osterwalder_canvas_a/ (1 skills)
 │   │   ├── pdf_conversion_route/ (1 skills)
+│   │   ├── performance_testing_/ (1 skills)
 │   │   ├── process-management/ (1 skills)
 │   │   ├── scheduling/ (1 skills)
 │   │   └── skill_security_audit/ (1 skills)
