@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **88 skills** available in this category.
+> **89 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -92,3 +92,4 @@
 | [skill-improver](../../skills/ai-engineering/agents/skill_improver/skill-improver/SKILL.md) | `skill_improver` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill improver. Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of ma... |
 | [skill-security-audit](../../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) | `skill_security_audit` | `advanced` | `stable` | Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions. |
 | [skill-writer](../../skills/ai-engineering/agents/skill_writer/skill-writer/SKILL.md) | `skill_writer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill writer. Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills. |
+| [spec-driven-loop](../../skills/ai-engineering/agents/spec_driven_loop/spec-driven-loop/SKILL.md) | `spec_driven_loop` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spec driven loop. Freeze PRD, technical design, and acceptance criteria before medium-to-large Codex work; coordinate agents with explicit ownership, then judge delivery from diffs, tests, and evidence. |

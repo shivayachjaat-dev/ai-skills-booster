@@ -91,7 +91,8 @@ AI_Skills_Booster/
 │   │   ├── scheduling/ (1 skills)
 │   │   ├── skill_improver/ (1 skills)
 │   │   ├── skill_security_audit/ (1 skills)
-│   │   └── skill_writer/ (1 skills)
+│   │   ├── skill_writer/ (1 skills)
+│   │   └── spec_driven_loop/ (1 skills)
 │   ├── audio-processing/
 │   │   ├── azure_speech_to_text/ (1 skills)
 │   │   ├── game_audio/ (1 skills)

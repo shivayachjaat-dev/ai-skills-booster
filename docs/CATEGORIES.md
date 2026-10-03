@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,094** skills across structured domains, categories, and subcategories.
+Master navigation for **2,095** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (708 skills)
+## Ai Engineering (709 skills)
 
-### Agents (88 skills)
+### Agents (89 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -183,6 +183,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - **Skill_Writer** (1):
   - [skill-writer](../skills/ai-engineering/agents/skill_writer/skill-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill writer. Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.
+- **Spec_Driven_Loop** (1):
+  - [spec-driven-loop](../skills/ai-engineering/agents/spec_driven_loop/spec-driven-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for spec driven loop. Freeze PRD, technical design, and acceptance criteria before medium-to-large Codex work; coordinate agents with explicit ownership, then judge delivery from diffs, tests, and evidence.
 
 ### Audio Processing (5 skills)
 Category index: [`docs/categories/audio-processing.md`](categories/audio-processing.md)
