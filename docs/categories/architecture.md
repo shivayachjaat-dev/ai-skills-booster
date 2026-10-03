@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **228 skills** available in this category.
+> **229 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -230,5 +230,6 @@
 | [pricing-strategy](../../skills/software-engineering/architecture/patterns/pricing-strategy/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pricing strategy. Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives. |
 | [production-scheduling](../../skills/software-engineering/architecture/patterns/production-scheduling/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for production scheduling. Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing. |
 | [project-state-governor](../../skills/software-engineering/architecture/patterns/project-state-governor/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for project state governor. Govern evidence-backed canonical project state across sessions, branches, reviews, and research cycles without inventing product intent. |
+| [push-skill-to-github](../../skills/software-engineering/architecture/patterns/push-skill-to-github/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for push skill to github. Commit and push skill changes to the configured skills repository after review and validation. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

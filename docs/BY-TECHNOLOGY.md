@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1654 skills)
+## Bash (1655 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2704,6 +2704,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pricing-strategy](../skills/software-engineering/architecture/patterns/pricing-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for pricing strategy. Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives.
 - [production-scheduling](../skills/software-engineering/architecture/patterns/production-scheduling/SKILL.md) — Use this skill to design, implement, and operate production workflows for production scheduling. Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing.
 - [project-state-governor](../skills/software-engineering/architecture/patterns/project-state-governor/SKILL.md) — Use this skill to design, implement, and operate production workflows for project state governor. Govern evidence-backed canonical project state across sessions, branches, reviews, and research cycles without inventing product intent.
+- [push-skill-to-github](../skills/software-engineering/architecture/patterns/push-skill-to-github/SKILL.md) — Use this skill to design, implement, and operate production workflows for push skill to github. Commit and push skill changes to the configured skills repository after review and validation.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -9548,6 +9549,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [purchase-accounting](../skills/business/operations/purchase_accounting/purchase-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for purchase accounting. Purchase register: supplier, invoice, gross amount, VAT and TDS, net payable, ledger account and payment balance. Use for purchase accounting.
 
+## Push Skill To Github (1 skills)
+
+- [push-skill-to-github](../skills/software-engineering/architecture/patterns/push-skill-to-github/SKILL.md) — Use this skill to design, implement, and operate production workflows for push skill to github. Commit and push skill changes to the configured skills repository after review and validation.
+
 ## PyAnnote (1 skills)
 
 - [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
@@ -9594,7 +9599,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1757 skills)
+## Python (1758 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11319,6 +11324,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pricing-strategy](../skills/software-engineering/architecture/patterns/pricing-strategy/SKILL.md) — Use this skill to design, implement, and operate production workflows for pricing strategy. Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives.
 - [production-scheduling](../skills/software-engineering/architecture/patterns/production-scheduling/SKILL.md) — Use this skill to design, implement, and operate production workflows for production scheduling. Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing.
 - [project-state-governor](../skills/software-engineering/architecture/patterns/project-state-governor/SKILL.md) — Use this skill to design, implement, and operate production workflows for project state governor. Govern evidence-backed canonical project state across sessions, branches, reviews, and research cycles without inventing product intent.
+- [push-skill-to-github](../skills/software-engineering/architecture/patterns/push-skill-to-github/SKILL.md) — Use this skill to design, implement, and operate production workflows for push skill to github. Commit and push skill changes to the configured skills repository after review and validation.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.

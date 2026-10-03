@@ -40153,6 +40153,28 @@
     "maturity": "stable"
   },
   {
+    "name": "push-skill-to-github",
+    "path": "skills/software-engineering/architecture/patterns/push-skill-to-github",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for push skill to github. Commit and push skill changes to the configured skills repository after review and validation.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "push",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Push Skill To Github",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
