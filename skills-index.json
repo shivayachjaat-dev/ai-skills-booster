@@ -28307,6 +28307,28 @@
     "maturity": "stable"
   },
   {
+    "name": "privacy-by-design",
+    "path": "skills/frontend/ui-ux/privacy_by_design/privacy-by-design",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "privacy_by_design",
+    "description": "Use this skill to design, implement, and operate production workflows for privacy by design. Use when building apps that collect user data. Ensures privacy protections are built in from the start\u2014data minimization, consent, encryption.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "privacy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Privacy By Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

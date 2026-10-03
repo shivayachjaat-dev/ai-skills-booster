@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,799 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,800 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1272,6 +1272,7 @@
 | [pptx-deck-creation](skills/frontend/ui-ux/pptx_deck_creation/pptx-deck-creation/SKILL.md) | `frontend` | `ui-ux` | `pptx_deck_creation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pptx deck creation. Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks. |
 | [pr-merge-champion](skills/frontend/ui-ux/pr_merge_champion/pr-merge-champion/SKILL.md) | `frontend` | `ui-ux` | `pr_merge_champion` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pr merge champion. Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation. |
 | [presentation-deck](skills/frontend/ui-ux/presentation_deck/presentation-deck/SKILL.md) | `frontend` | `ui-ux` | `presentation_deck` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for presentation deck. Build an evidence-linked slide register after context-first intake. Use when an SME needs a presentation deck, speaker notes, or a structured business story. |
+| [privacy-by-design](skills/frontend/ui-ux/privacy_by_design/privacy-by-design/SKILL.md) | `frontend` | `ui-ux` | `privacy_by_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for privacy by design. Use when building apps that collect user data. Ensures privacy protections are built in from the start—data minimization, consent, encryption. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

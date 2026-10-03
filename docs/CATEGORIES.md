@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,799** skills across structured domains, categories, and subcategories.
+Master navigation for **1,800** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (616 skills)
 
@@ -2347,7 +2347,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (358 skills)
+## Frontend (359 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2515,7 +2515,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Premium_3D_Website** (1):
   - [premium-3d-website](../skills/frontend/ui-development/premium_3d_website/premium-3d-website/SKILL.md) — Use this skill to design, implement, and operate production workflows for premium 3d website. Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization.
 
-### Ui Ux (216 skills)
+### Ui Ux (217 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2944,6 +2944,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [pr-merge-champion](../skills/frontend/ui-ux/pr_merge_champion/pr-merge-champion/SKILL.md) — Use this skill to design, implement, and operate production workflows for pr merge champion. Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation.
 - **Presentation_Deck** (1):
   - [presentation-deck](../skills/frontend/ui-ux/presentation_deck/presentation-deck/SKILL.md) — Use this skill to design, implement, and operate production workflows for presentation deck. Build an evidence-linked slide register after context-first intake. Use when an SME needs a presentation deck, speaker notes, or a structured business story.
+- **Privacy_By_Design** (1):
+  - [privacy-by-design](../skills/frontend/ui-ux/privacy_by_design/privacy-by-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for privacy by design. Use when building apps that collect user data. Ensures privacy protections are built in from the start—data minimization, consent, encryption.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
