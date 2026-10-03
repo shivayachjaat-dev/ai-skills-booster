@@ -26491,6 +26491,28 @@
     "maturity": "stable"
   },
   {
+    "name": "spline-3d-integration",
+    "path": "skills/frontend/frameworks/spline_3d_integratio/spline-3d-integration",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "spline_3d_integratio",
+    "description": "Use this skill to design, implement, and operate production workflows for spline 3d integration. Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "spline",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Spline 3D Integration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
