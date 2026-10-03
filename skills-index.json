@@ -27669,6 +27669,28 @@
     "maturity": "stable"
   },
   {
+    "name": "planning-and-task-breakdown",
+    "path": "skills/frontend/ui-ux/planning_and_task_br/planning-and-task-breakdown",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "planning_and_task_br",
+    "description": "Use this skill to design, implement, and operate production workflows for planning and task breakdown. Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "planning",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Planning And Task Breakdown",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
