@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **273 skills** available in this category.
+> **274 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -276,4 +276,5 @@
 | [shopify-review-triage](../../skills/software-engineering/architecture/patterns/shopify-review-triage/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shopify review triage. Turn public 1-3-star Shopify App Store review rows into a P0-P3 triage brief: incident risk, repeated friction, pricing confusion, feature requests, and an explicit needs-human-read bucket. |
 | [short](../../skills/software-engineering/architecture/patterns/short/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for short. Rewrite the previous response more briefly while preserving the substance. |
 | [signup-flow-cro](../../skills/software-engineering/architecture/patterns/signup-flow-cro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for signup flow cro. You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation. |
+| [simplify-code](../../skills/software-engineering/architecture/patterns/simplify-code/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for simplify code. Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

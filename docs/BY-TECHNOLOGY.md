@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1867 skills)
+## Bash (1868 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2928,6 +2928,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [shopify-review-triage](../skills/software-engineering/architecture/patterns/shopify-review-triage/SKILL.md) — Use this skill to design, implement, and operate production workflows for shopify review triage. Turn public 1-3-star Shopify App Store review rows into a P0-P3 triage brief: incident risk, repeated friction, pricing confusion, feature requests, and an explicit needs-human-read bucket.
 - [short](../skills/software-engineering/architecture/patterns/short/SKILL.md) — Use this skill to design, implement, and operate production workflows for short. Rewrite the previous response more briefly while preserving the substance.
 - [signup-flow-cro](../skills/software-engineering/architecture/patterns/signup-flow-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for signup flow cro. You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation.
+- [simplify-code](../skills/software-engineering/architecture/patterns/simplify-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for simplify code. Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [bash-scripting](../skills/testing/automation/bash_scripting/bash-scripting/SKILL.md) — Use this skill to bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
@@ -9847,7 +9848,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1970 skills)
+## Python (1971 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11784,6 +11785,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [shopify-review-triage](../skills/software-engineering/architecture/patterns/shopify-review-triage/SKILL.md) — Use this skill to design, implement, and operate production workflows for shopify review triage. Turn public 1-3-star Shopify App Store review rows into a P0-P3 triage brief: incident risk, repeated friction, pricing confusion, feature requests, and an explicit needs-human-read bucket.
 - [short](../skills/software-engineering/architecture/patterns/short/SKILL.md) — Use this skill to design, implement, and operate production workflows for short. Rewrite the previous response more briefly while preserving the substance.
 - [signup-flow-cro](../skills/software-engineering/architecture/patterns/signup-flow-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for signup flow cro. You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation.
+- [simplify-code](../skills/software-engineering/architecture/patterns/simplify-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for simplify code. Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
 - [debugging-and-error-recovery](../skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) — Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation.
@@ -13010,6 +13012,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## SimpleWebAuthn (1 skills)
 
 - [webauthn-fido2-passkey-authentication](../skills/security/zero-trust/mfa-webauthn/webauthn-fido2-passkey-authentication/SKILL.md) — Use this skill when designing, implementing, and securing passwordless authentication and multi-factor authentication (MFA) using WebAuthn, FIDO2, and Passkeys. It covers registration and authentication ceremony state machines, cryptographic challenge verification, public key credential storage, authenticator attestation, and signature counter verification.
+
+## Simplify Code (1 skills)
+
+- [simplify-code](../skills/software-engineering/architecture/patterns/simplify-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for simplify code. Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes.
 
 ## Skeuomorphism (1 skills)
 

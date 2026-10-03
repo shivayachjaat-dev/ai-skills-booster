@@ -44817,6 +44817,28 @@
     "maturity": "stable"
   },
   {
+    "name": "simplify-code",
+    "path": "skills/software-engineering/architecture/patterns/simplify-code",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for simplify code. Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "simplify",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Simplify Code",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
