@@ -1,19 +1,20 @@
 ---
 name: idea-evaluator
-description: "Use this skill to design, implement, and operate production workflows for idea evaluator. Evaluates an idea by hosting a multi-turn debate between a Pro and Con agent, delivering a final verdict on whether it's worth pursuing."
+description: "Evaluate product, technical, and business ideas through a structured multi-turn dialectical debate between Proponent and Skeptic agents with impartial adjudication."
 domain: ai-engineering
 category: agents
 subcategory: idea_evaluator
 tags:
   - ai-engineering
   - agents
-  - idea
-  - automation
-  - production-ready
+  - idea-evaluation
+  - multi-agent-debate
+  - decision-analysis
 technologies:
-  - Idea Evaluator
   - Python
-  - Bash
+  - Dialectical Debate
+  - Multi-Agent Orchestration
+  - Viability Scoring
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,93 @@ tools:
 dependencies:
   - python@>=3.10
 ---
-# Idea Evaluator Architecture & Implementation Standard
+
+# Dialectical Multi-Agent Idea Evaluation Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for idea evaluator. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with idea-evaluator.
+The **Idea Evaluator** skill provides a rigorous framework for stress-testing product, architectural, and business concepts using adversarial multi-agent debate. Solitary evaluation by human founders or individual AI models frequently suffers from cognitive confirmation bias or sycophancy.
+
+This skill equips autonomous systems with `DialecticalIdeaEvaluator`, orchestrating a structured multi-turn debate between a **Proponent Agent** (championing the bull case, market pull, and defensibility) and a **Skeptic Agent** (interrogating execution risks, moat durability, and unit economics). An impartial **Judge** synthesizes the discourse into a calibrated 0-100 Viability Score, an explicit verdict (`PURSUE_AGGRESSIVELY`, `PURSUE_WITH_PIVOT`, `DE_PRIORITIZE`, `ABANDON`), and targeted risk mitigations.
 
 ```
 +------------------------------------------------------------------------+
-|                   Idea Evaluator                                      |
+|                      Dialectical Evaluation Flow                       |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Proposal & Context Ingestion ]                                      |
+|                 |                                                      |
+|                 v                                                      |
+|  [ Round 1: Thesis & Antithesis ]  ---> Proponent vs Skeptic Arguments|
+|                 |                                                      |
+|                 v                                                      |
+|  [ Round 2: Cross-Examination ]    ---> Direct Rebuttals & Counters    |
+|                 |                                                      |
+|                 v                                                      |
+|  [ Impartial Adjudication ]        ---> Computes Opportunity & Risk    |
+|                 |                                                      |
+|                 v                                                      |
+|  [ Actionable Verdict & Plan ]     ---> Emits Decision & Mitigations   |
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to idea evaluator.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When vetting new technical product ideas, open-source initiatives, or startup concepts.
+- When conducting pre-mortem analysis on significant architectural migrations.
+- When evaluating feature requests against product roadmap priorities.
+- When seeking a balanced, non-sycophantic evaluation of high-stakes technical proposals.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Deterministic algorithm verification or mathematical correctness proofs.
+- Minor routine code implementation decisions (e.g. naming a local helper variable).
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for idea-evaluator..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Ingest Proposal Concept & Metadata
+Define the proposal's title, scope, target market, and hypothesized moat:
 
 ```python
-import sys
-import logging
+from dialectical_idea_evaluator import DialecticalIdeaEvaluator, IdeaProposal
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("idea-evaluator")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for idea-evaluator")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+evaluator = DialecticalIdeaEvaluator()
+proposal = IdeaProposal(
+    title="Real-time WebAssembly Sandboxing for Edge Microservices",
+    description="Embed lightweight Wasm runtimes at the edge to execute untrusted user plugins.",
+    target_market="Edge Computing & Cloud Infrastructure",
+    estimated_engineering_months=4,
+    defensible_moat="Proprietary memory-isolation layer and near-zero cold start latency"
+)
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Execute Dialectical Debate and Adjudication
+Dispatch the proposal through the multi-agent debate engine:
 
-## Best Practices & Failure Modes
+```python
+verdict = evaluator.evaluate_proposal(proposal)
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+print(f"Verdict: {verdict.verdict}")
+print(f"Net Viability Score: {verdict.net_viability_score}/100")
+print(f"Opportunity: {verdict.opportunity_score} | Risk Discount: {verdict.risk_discount}")
+```
+
+### 3. Review Transcript & Implement Risk Mitigations
+Inspect the arguments surfaced by the skeptic and incorporate recommended guardrails:
+
+```python
+for mitigation in verdict.key_mitigations:
+    print(f"Mitigation: {mitigation}")
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/idea-evaluator_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Execute the idea evaluation verification suite to test the multi-turn debate simulation and verdict scoring:
+
+```bash
+python scripts/idea-evaluator_helper.py
+```
+
+Expected output:
+- Proponent and Skeptic arguments generated across debate rounds.
+- Viability score and definitive verdict rendered cleanly.
+- Status returned cleanly.
