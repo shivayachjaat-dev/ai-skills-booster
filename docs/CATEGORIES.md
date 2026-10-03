@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,882** skills across structured domains, categories, and subcategories.
+Master navigation for **1,883** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (648 skills)
+## Ai Engineering (649 skills)
 
 ### Agents (83 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -320,7 +320,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (464 skills)
+### Models (465 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1226,6 +1226,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [react-nextjs-development](../skills/ai-engineering/models/react_nextjs_develop/react-nextjs-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for react nextjs development. React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns.
 - **React_State_Manageme** (1):
   - [react-state-management](../skills/ai-engineering/models/react_state_manageme/react-state-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for react state management. Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.
+- **Recallmax** (1):
+  - [recallmax](../skills/ai-engineering/models/recallmax/recallmax/SKILL.md) — Use this skill to design, implement, and operate production workflows for recallmax. FREE — God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

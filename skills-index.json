@@ -13129,6 +13129,28 @@
     "maturity": "stable"
   },
   {
+    "name": "recallmax",
+    "path": "skills/ai-engineering/models/recallmax/recallmax",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "recallmax",
+    "description": "Use this skill to design, implement, and operate production workflows for recallmax. FREE \u2014 God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "recallmax",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Recallmax",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
