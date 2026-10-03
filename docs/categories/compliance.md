@@ -1,6 +1,6 @@
 # Category Index: Compliance
 
-> **18 skills** available in this category.
+> **19 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -15,6 +15,7 @@
 | [indexing-issue-auditor](../../skills/security/compliance/indexing_issue_audit/indexing-issue-auditor/SKILL.md) | `indexing_issue_audit` | `advanced` | `stable` | Use this skill to high-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors. |
 | [linkedin-profile-optimizer](../../skills/security/compliance/linkedin_profile_opt/linkedin-profile-optimizer/SKILL.md) | `linkedin_profile_opt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for linkedin profile optimizer. High-intent expert for LinkedIn profile checks and SEO optimization. Silently audits and rewrites profiles, delivering only the finished, ready-to-paste result. |
 | [local-legal-seo-audit](../../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) | `local_legal_seo_audi` | `advanced` | `stable` | Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages. |
+| [openclaw-github-repo-commander](../../skills/security/compliance/openclaw_github_repo/openclaw-github-repo-commander/SKILL.md) | `openclaw_github_repo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openclaw github repo commander. 7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis |
 | [production-code-audit](../../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) | `production_code_audi` | `advanced` | `stable` | Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations |
 | [project-skill-audit](../../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) | `project_skill_audit` | `advanced` | `stable` | Use this skill to audit a project and recommend the highest-value skills to add or update. |
 | [seo-audit](../../skills/security/compliance/seo_audit/seo-audit/SKILL.md) | `seo_audit` | `advanced` | `stable` | Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. |

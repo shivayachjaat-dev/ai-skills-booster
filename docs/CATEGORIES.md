@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,685** skills across structured domains, categories, and subcategories.
+Master navigation for **1,686** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (579 skills)
 
@@ -3066,7 +3066,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (161 skills)
+## Security (162 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -3351,7 +3351,7 @@ Category index: [`docs/categories/code-review.md`](categories/code-review.md)
 - **Github** (1):
   - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
 
-### Compliance (18 skills)
+### Compliance (19 skills)
 Category index: [`docs/categories/compliance.md`](categories/compliance.md)
 
 - **Audit Logging** (1):
@@ -3376,6 +3376,8 @@ Category index: [`docs/categories/compliance.md`](categories/compliance.md)
   - [linkedin-profile-optimizer](../skills/security/compliance/linkedin_profile_opt/linkedin-profile-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin profile optimizer. High-intent expert for LinkedIn profile checks and SEO optimization. Silently audits and rewrites profiles, delivering only the finished, ready-to-paste result.
 - **Local_Legal_Seo_Audi** (1):
   - [local-legal-seo-audit](../skills/security/compliance/local_legal_seo_audi/local-legal-seo-audit/SKILL.md) — Use this skill to audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages.
+- **Openclaw_Github_Repo** (1):
+  - [openclaw-github-repo-commander](../skills/security/compliance/openclaw_github_repo/openclaw-github-repo-commander/SKILL.md) — Use this skill to design, implement, and operate production workflows for openclaw github repo commander. 7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis
 - **Production_Code_Audi** (1):
   - [production-code-audit](../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) — Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations
 - **Project_Skill_Audit** (1):

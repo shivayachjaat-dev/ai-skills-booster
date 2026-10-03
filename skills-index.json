@@ -31754,6 +31754,28 @@
     "maturity": "stable"
   },
   {
+    "name": "openclaw-github-repo-commander",
+    "path": "skills/security/compliance/openclaw_github_repo/openclaw-github-repo-commander",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "openclaw_github_repo",
+    "description": "Use this skill to design, implement, and operate production workflows for openclaw github repo commander. 7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis",
+    "tags": [
+      "security",
+      "compliance",
+      "openclaw",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Openclaw Github Repo Commander",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-code-audit",
     "path": "skills/security/compliance/production_code_audi/production-code-audit",
     "domain": "security",
