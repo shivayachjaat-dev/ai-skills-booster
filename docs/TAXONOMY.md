@@ -71,6 +71,7 @@ AI_Skills_Booster/
 │   │   ├── orchestrate/ (1 skills)
 │   │   ├── orchestration/ (1 skills)
 │   │   ├── orchestration-optimization/ (1 skills)
+│   │   ├── osterwalder_canvas_a/ (1 skills)
 │   │   ├── process-management/ (1 skills)
 │   │   ├── scheduling/ (1 skills)
 │   │   └── skill_security_audit/ (1 skills)

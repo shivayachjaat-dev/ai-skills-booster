@@ -1505,6 +1505,28 @@
     "maturity": "stable"
   },
   {
+    "name": "osterwalder-canvas-architect",
+    "path": "skills/ai-engineering/agents/osterwalder_canvas_a/osterwalder-canvas-architect",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "osterwalder_canvas_a",
+    "description": "Use this skill to design, implement, and operate production workflows for osterwalder canvas architect. Iterative consultant agent for building and validating logically consistent 9-block Business Model Canvases.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "osterwalder",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Osterwalder Canvas Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-tmux-process-orchestrator",
     "path": "skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator",
     "domain": "ai-engineering",
