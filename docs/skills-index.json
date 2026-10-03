@@ -19837,6 +19837,28 @@
     "maturity": "stable"
   },
   {
+    "name": "product-manager-toolkit",
+    "path": "skills/developer-tools/productivity/product_manager_tool/product-manager-toolkit",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "product_manager_tool",
+    "description": "Use this skill to design, implement, and operate production workflows for product manager toolkit. Essential tools and frameworks for modern product management, from discovery to delivery.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "product",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Product Manager Toolkit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

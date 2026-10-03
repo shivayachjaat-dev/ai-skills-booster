@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **34 skills** available in this category.
+> **35 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -38,3 +38,4 @@
 | [pagerduty-automation](../../skills/developer-tools/productivity/pagerduty_automation/pagerduty-automation/SKILL.md) | `pagerduty_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pagerduty automation. Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations. Always search tools first for current schemas. |
 | [pipedrive-automation](../../skills/developer-tools/productivity/pipedrive_automation/pipedrive-automation/SKILL.md) | `pipedrive_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pipedrive automation. Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas. |
 | [posthog-automation](../../skills/developer-tools/productivity/posthog_automation/posthog-automation/SKILL.md) | `posthog_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for posthog automation. Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas. |
+| [product-manager-toolkit](../../skills/developer-tools/productivity/product_manager_tool/product-manager-toolkit/SKILL.md) | `product_manager_tool` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product manager toolkit. Essential tools and frameworks for modern product management, from discovery to delivery. |
