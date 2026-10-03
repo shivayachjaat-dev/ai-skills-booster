@@ -13921,6 +13921,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-geo",
+    "path": "skills/ai-engineering/models/seo_geo/seo-geo",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "seo_geo",
+    "description": "Use this skill to design, implement, and operate production workflows for seo geo. Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler accessibility, and passage-level citability.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Geo",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

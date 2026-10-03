@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,022** skills across structured domains, categories, and subcategories.
+Master navigation for **2,023** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (687 skills)
+## Ai Engineering (688 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (497 skills)
+### Models (498 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1298,6 +1298,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [seo-dataforseo](../skills/ai-engineering/models/seo_dataforseo/seo-dataforseo/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo dataforseo. Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance.
 - **Seo_Directory_Backli** (1):
   - [seo-directory-backlinks](../skills/ai-engineering/models/seo_directory_backli/seo-directory-backlinks/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo directory backlinks. Directory and backlink register: platform, domain, target URL, follow attribute, authority and spam scores, approval and NAP-match status. Use for SEO citation tracking.
+- **Seo_Geo** (1):
+  - [seo-geo](../skills/ai-engineering/models/seo_geo/seo-geo/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo geo. Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler accessibility, and passage-level citability.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
