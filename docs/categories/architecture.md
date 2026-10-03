@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **227 skills** available in this category.
+> **228 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -229,5 +229,6 @@
 | [pricing](../../skills/software-engineering/architecture/patterns/pricing/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pricing. When the user wants help with pricing decisions, packaging, or monetization strategy. |
 | [pricing-strategy](../../skills/software-engineering/architecture/patterns/pricing-strategy/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pricing strategy. Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives. |
 | [production-scheduling](../../skills/software-engineering/architecture/patterns/production-scheduling/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for production scheduling. Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing. |
+| [project-state-governor](../../skills/software-engineering/architecture/patterns/project-state-governor/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for project state governor. Govern evidence-backed canonical project state across sessions, branches, reviews, and research cycles without inventing product intent. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
