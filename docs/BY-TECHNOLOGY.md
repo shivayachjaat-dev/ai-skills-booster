@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1587 skills)
+## Bash (1588 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1137,6 +1137,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pi-custom-model](../skills/ai-engineering/agents/pi_custom_model/pi-custom-model/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi custom model. Register custom Pi Agent model slugs so saved OpenRouter variants resolve correctly.
 - [pi-delegate](../skills/ai-engineering/agents/pi_delegate/pi-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi delegate. Delegate coding tasks to the Pi coding agent CLI (`pi`) only when the
 - [pi-web-search](../skills/ai-engineering/agents/pi_web_search/pi-web-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi web search. Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package.
+- [polis-protocol-a-self-optimizing-city-of-agents](../skills/ai-engineering/agents/polis_protocol_a_sel/polis-protocol-a-self-optimizing-city-of-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for polis protocol a self optimizing city of agents. Polis Protocol: A Self-Optimizing City of Agents
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
@@ -9128,6 +9129,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [policy-library](../skills/frontend/ui-ux/policy_library/policy-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for policy library. Policy register: name, version, category, owner and approver, applies to, compliance framework, acknowledgement requirement, effective date and next review. Use for policy management.
 
+## Polis Protocol A Self Optimizing City Of Agents (1 skills)
+
+- [polis-protocol-a-self-optimizing-city-of-agents](../skills/ai-engineering/agents/polis_protocol_a_sel/polis-protocol-a-self-optimizing-city-of-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for polis protocol a self optimizing city of agents. Polis Protocol: A Self-Optimizing City of Agents
+
 ## Polly (1 skills)
 
 - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
@@ -9262,7 +9267,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1690 skills)
+## Python (1691 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9337,6 +9342,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pi-custom-model](../skills/ai-engineering/agents/pi_custom_model/pi-custom-model/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi custom model. Register custom Pi Agent model slugs so saved OpenRouter variants resolve correctly.
 - [pi-delegate](../skills/ai-engineering/agents/pi_delegate/pi-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi delegate. Delegate coding tasks to the Pi coding agent CLI (`pi`) only when the
 - [pi-web-search](../skills/ai-engineering/agents/pi_web_search/pi-web-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi web search. Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package.
+- [polis-protocol-a-self-optimizing-city-of-agents](../skills/ai-engineering/agents/polis_protocol_a_sel/polis-protocol-a-self-optimizing-city-of-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for polis protocol a self optimizing city of agents. Polis Protocol: A Self-Optimizing City of Agents
 - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.

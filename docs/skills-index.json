@@ -1637,6 +1637,28 @@
     "maturity": "stable"
   },
   {
+    "name": "polis-protocol-a-self-optimizing-city-of-agents",
+    "path": "skills/ai-engineering/agents/polis_protocol_a_sel/polis-protocol-a-self-optimizing-city-of-agents",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "polis_protocol_a_sel",
+    "description": "Use this skill to design, implement, and operate production workflows for polis protocol a self optimizing city of agents. Polis Protocol: A Self-Optimizing City of Agents",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "polis",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Polis Protocol A Self Optimizing City Of Agents",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-tmux-process-orchestrator",
     "path": "skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator",
     "domain": "ai-engineering",
