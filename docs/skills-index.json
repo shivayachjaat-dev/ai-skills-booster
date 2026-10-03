@@ -28087,6 +28087,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postmortem-writing",
+    "path": "skills/frontend/ui-ux/postmortem_writing/postmortem-writing",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "postmortem_writing",
+    "description": "Use this skill to design, implement, and operate production workflows for postmortem writing. Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "postmortem",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postmortem Writing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
