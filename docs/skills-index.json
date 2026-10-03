@@ -31321,6 +31321,28 @@
     "maturity": "stable"
   },
   {
+    "name": "security-bluebook-builder",
+    "path": "skills/frontend/ui-ux/security_bluebook_bu/security-bluebook-builder",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "security_bluebook_bu",
+    "description": "Use this skill to design, implement, and operate production workflows for security bluebook builder. Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document using MUST/SHOULD/CAN language, with explicit assumptions, scope, and security gates.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Bluebook Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

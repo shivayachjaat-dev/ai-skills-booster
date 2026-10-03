@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,985 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,986 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1409,6 +1409,7 @@
 | [scroll-experience](skills/frontend/ui-ux/scroll_experience/scroll-experience/SKILL.md) | `frontend` | `ui-ux` | `scroll_experience` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax |
 | [sdk-dx](skills/frontend/ui-ux/sdk_dx/sdk-dx/SKILL.md) | `frontend` | `ui-ux` | `sdk_dx` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sdk dx. Design SDKs that developers love to use—APIs that feel native, error messages that guide, and experiences that reduce friction. This skill covers creating SDKs that drive adoption through exceptional developer experience rather than aggressive marketing. |
 | [security-automation](skills/frontend/ui-ux/security_automation/security-automation/SKILL.md) | `frontend` | `ui-ux` | `security_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security automation. Automate security workflows and remediation. Build security pipelines, |
+| [security-bluebook-builder](skills/frontend/ui-ux/security_bluebook_bu/security-bluebook-builder/SKILL.md) | `frontend` | `ui-ux` | `security_bluebook_bu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security bluebook builder. Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document using MUST/SHOULD/CAN language, with explicit assumptions, scope, and security gates. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
