@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **111 skills** available in this category.
+> **112 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -115,3 +115,4 @@
 | [security-checklist](../../skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
 | [security-scanning-security-hardening](../../skills/security/appsec/security_scanning_se/security-scanning-security-hardening/SKILL.md) | `security_scanning_se` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security scanning security hardening. Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls. |
 | [security-scanning-security-sast](../../skills/security/appsec/security_scanning_se/security-scanning-security-sast/SKILL.md) | `security_scanning_se` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security scanning security sast. Static Application Security Testing (SAST) for code vulnerability |
+| [service-mesh-expert](../../skills/security/appsec/service_mesh_expert/service-mesh-expert/SKILL.md) | `service_mesh_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh expert. Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con |

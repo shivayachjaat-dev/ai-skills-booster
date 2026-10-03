@@ -1779,7 +1779,8 @@ AI_Skills_Booster/
 │   │   ├── security_arsenal/ (1 skills)
 │   │   ├── security_auditor/ (1 skills)
 │   │   ├── security_checklist/ (1 skills)
-│   │   └── security_scanning_se/ (2 skills)
+│   │   ├── security_scanning_se/ (2 skills)
+│   │   └── service_mesh_expert/ (1 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/

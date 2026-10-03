@@ -37050,6 +37050,28 @@
     "maturity": "stable"
   },
   {
+    "name": "service-mesh-expert",
+    "path": "skills/security/appsec/service_mesh_expert/service-mesh-expert",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "service_mesh_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for service mesh expert. Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con",
+    "tags": [
+      "security",
+      "appsec",
+      "service",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Service Mesh Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
