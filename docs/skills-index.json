@@ -17804,6 +17804,28 @@
     "maturity": "stable"
   },
   {
+    "name": "purchase-accounting",
+    "path": "skills/business/operations/purchase_accounting/purchase-accounting",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "purchase_accounting",
+    "description": "Use this skill to design, implement, and operate production workflows for purchase accounting. Purchase register: supplier, invoice, gross amount, VAT and TDS, net payable, ledger account and payment balance. Use for purchase accounting.",
+    "tags": [
+      "business",
+      "operations",
+      "purchase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Purchase Accounting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

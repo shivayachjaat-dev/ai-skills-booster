@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,835** skills across structured domains, categories, and subcategories.
+Master navigation for **1,836** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (631 skills)
 
@@ -1631,7 +1631,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (53 skills)
+## Business (54 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1683,7 +1683,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (36 skills)
+### Operations (37 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1758,6 +1758,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [probation-tracker](../skills/business/operations/probation_tracker/probation-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for probation tracker. Probation register: employee, start and end dates, 30, 60 and 90-day review scores, overall score and confirmation letter. Use for probation tracking.
 - **Promotion_Upgrade_Re** (1):
   - [promotion-upgrade-requests](../skills/business/operations/promotion_upgrade_re/promotion-upgrade-requests/SKILL.md) — Use this skill to design, implement, and operate production workflows for promotion upgrade requests. Promotion register: current and requested role and grade, justification, OKR and behaviour scores, time in role, salary proposal and decision. Use for upgrade requests.
+- **Purchase_Accounting** (1):
+  - [purchase-accounting](../skills/business/operations/purchase_accounting/purchase-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for purchase accounting. Purchase register: supplier, invoice, gross amount, VAT and TDS, net payable, ledger account and payment balance. Use for purchase accounting.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)

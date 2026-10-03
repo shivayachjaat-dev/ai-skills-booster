@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **36 skills** available in this category.
+> **37 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -40,3 +40,4 @@
 | [policy-acknowledgement](../../skills/business/operations/policy_acknowledgeme/policy-acknowledgement/SKILL.md) | `policy_acknowledgeme` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for policy acknowledgement. Policy acknowledgement register: employee, policy and version, sent and due dates, acknowledged date and flag, days overdue, reminder sent and status. Use for policy sign-off tracking. |
 | [probation-tracker](../../skills/business/operations/probation_tracker/probation-tracker/SKILL.md) | `probation_tracker` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for probation tracker. Probation register: employee, start and end dates, 30, 60 and 90-day review scores, overall score and confirmation letter. Use for probation tracking. |
 | [promotion-upgrade-requests](../../skills/business/operations/promotion_upgrade_re/promotion-upgrade-requests/SKILL.md) | `promotion_upgrade_re` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for promotion upgrade requests. Promotion register: current and requested role and grade, justification, OKR and behaviour scores, time in role, salary proposal and decision. Use for upgrade requests. |
+| [purchase-accounting](../../skills/business/operations/purchase_accounting/purchase-accounting/SKILL.md) | `purchase_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for purchase accounting. Purchase register: supplier, invoice, gross amount, VAT and TDS, net payable, ledger account and payment balance. Use for purchase accounting. |
