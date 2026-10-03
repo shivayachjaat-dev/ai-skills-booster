@@ -12755,6 +12755,28 @@
     "maturity": "stable"
   },
   {
+    "name": "projects-work-management",
+    "path": "skills/ai-engineering/models/projects_work_manage/projects-work-management",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "projects_work_manage",
+    "description": "Use this skill to design, implement, and operate production workflows for projects work management. Project register: owner, team, priority, progress percentage, milestones, deliverables and budget against actual cost. Use for project tracking.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "projects",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Projects Work Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

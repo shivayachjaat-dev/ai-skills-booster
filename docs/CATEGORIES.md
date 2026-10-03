@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,819** skills across structured domains, categories, and subcategories.
+Master navigation for **1,820** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (624 skills)
+## Ai Engineering (625 skills)
 
 ### Agents (79 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -308,7 +308,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (453 skills)
+### Models (454 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1192,6 +1192,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [progressive-estimation](../skills/ai-engineering/models/progressive_estimati/progressive-estimation/SKILL.md) — Use this skill to design, implement, and operate production workflows for progressive estimation. Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops
 - **Project_Based_Perfor** (1):
   - [project-based-performance](../skills/ai-engineering/models/project_based_perfor/project-based-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for project based performance. Project performance review: role, project and manager, delivery, quality and collaboration scores, overall score and feedback. Use for project appraisals.
+- **Projects_Work_Manage** (1):
+  - [projects-work-management](../skills/ai-engineering/models/projects_work_manage/projects-work-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for projects work management. Project register: owner, team, priority, progress percentage, milestones, deliverables and budget against actual cost. Use for project tracking.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
