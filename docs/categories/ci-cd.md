@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **46 skills** available in this category.
+> **47 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -50,3 +50,4 @@
 | [production-runtime-certification](../../skills/devops/ci-cd/production_runtime_c/production-runtime-certification/SKILL.md) | `production_runtime_c` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for production runtime certification. Certify a deployed service with fresh evidence across source, CI, migrations, runtime health, readiness, and critical routes; use before declaring a release production-ready. |
 | [prometheus-grafana](../../skills/devops/ci-cd/prometheus_grafana/prometheus-grafana/SKILL.md) | `prometheus_grafana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prometheus grafana. Set up metrics collection and visualization with Prometheus and Grafana. |
 | [reverse-proxy](../../skills/devops/ci-cd/reverse_proxy/reverse-proxy/SKILL.md) | `reverse_proxy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reverse proxy. Configure nginx and Traefik as reverse proxies. Implement SSL termination |
+| [semantic-versioning](../../skills/devops/ci-cd/semantic_versioning/semantic-versioning/SKILL.md) | `semantic_versioning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning |

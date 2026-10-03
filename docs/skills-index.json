@@ -23102,6 +23102,28 @@
     "maturity": "stable"
   },
   {
+    "name": "semantic-versioning",
+    "path": "skills/devops/ci-cd/semantic_versioning/semantic-versioning",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "semantic_versioning",
+    "description": "Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "semantic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Semantic Versioning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "amazon-alexa",
     "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
     "domain": "devops",
