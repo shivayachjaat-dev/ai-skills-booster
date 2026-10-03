@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **46 skills** available in this category.
+> **47 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -50,3 +50,4 @@
 | [pydantic-models-py](../../skills/backend/api-frameworks/pydantic_models_py/pydantic-models-py/SKILL.md) | `pydantic_models_py` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pydantic models py. Create Pydantic models following the multi-model pattern for clean API contracts. |
 | [python-development](../../skills/backend/api-frameworks/python_development/python-development/SKILL.md) | `python_development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python development. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold) |
 | [python-development-python-scaffold](../../skills/backend/api-frameworks/python_development_p/python-development-python-scaffold/SKILL.md) | `python_development_p` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python development python scaffold. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint |
+| [python-pro](../../skills/backend/api-frameworks/python_pro/python-pro/SKILL.md) | `python_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python pro. Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI. |

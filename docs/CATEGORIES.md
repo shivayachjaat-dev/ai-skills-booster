@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,849** skills across structured domains, categories, and subcategories.
+Master navigation for **1,850** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (633 skills)
 
@@ -1332,7 +1332,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (126 skills)
+## Backend (127 skills)
 
 ### Api Design (11 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1360,7 +1360,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (46 skills)
+### Api Frameworks (47 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -1453,6 +1453,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [python-development](../skills/backend/api-frameworks/python_development/python-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for python development. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold)
 - **Python_Development_P** (1):
   - [python-development-python-scaffold](../skills/backend/api-frameworks/python_development_p/python-development-python-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for python development python scaffold. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint
+- **Python_Pro** (1):
+  - [python-pro](../skills/backend/api-frameworks/python_pro/python-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for python pro. Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)

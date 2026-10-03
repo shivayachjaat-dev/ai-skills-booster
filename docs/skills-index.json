@@ -15298,6 +15298,28 @@
     "maturity": "stable"
   },
   {
+    "name": "python-pro",
+    "path": "skills/backend/api-frameworks/python_pro/python-pro",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "python_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for python pro. Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "python",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Python Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",

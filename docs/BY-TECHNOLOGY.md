@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1667 skills)
+## Bash (1668 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1730,6 +1730,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pydantic-models-py](../skills/backend/api-frameworks/pydantic_models_py/pydantic-models-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for pydantic models py. Create Pydantic models following the multi-model pattern for clean API contracts.
 - [python-development](../skills/backend/api-frameworks/python_development/python-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for python development. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold)
 - [python-development-python-scaffold](../skills/backend/api-frameworks/python_development_p/python-development-python-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for python development python scaffold. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint
+- [python-pro](../skills/backend/api-frameworks/python_pro/python-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for python pro. Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.
 - [hunt-cache-poison](../skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
 - [azure-postgres-ts](../skills/backend/databases/azure_postgres_ts/azure-postgres-ts/SKILL.md) — Use this skill to connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
@@ -9631,7 +9632,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1770 skills)
+## Python (1771 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10317,6 +10318,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pydantic-models-py](../skills/backend/api-frameworks/pydantic_models_py/pydantic-models-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for pydantic models py. Create Pydantic models following the multi-model pattern for clean API contracts.
 - [python-development](../skills/backend/api-frameworks/python_development/python-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for python development. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold)
 - [python-development-python-scaffold](../skills/backend/api-frameworks/python_development_p/python-development-python-scaffold/SKILL.md) — Use this skill to design, implement, and operate production workflows for python development python scaffold. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint
+- [python-pro](../skills/backend/api-frameworks/python_pro/python-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for python pro. Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
 - [hunt-cache-poison](../skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.
 - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
@@ -11447,6 +11449,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Python Pptx Generator (1 skills)
 
 - [python-pptx-generator](../skills/frontend/ui-ux/python_pptx_generato/python-pptx-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for python pptx generator. Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content.
+
+## Python Pro (1 skills)
+
+- [python-pro](../skills/backend/api-frameworks/python_pro/python-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for python pro. Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.
 
 ## Python asyncio (1 skills)
 
