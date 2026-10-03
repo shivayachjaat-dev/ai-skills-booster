@@ -38723,6 +38723,28 @@
     "maturity": "stable"
   },
   {
+    "name": "popup-cro",
+    "path": "skills/software-engineering/architecture/patterns/popup-cro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for popup cro. Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "popup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Popup Cro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
