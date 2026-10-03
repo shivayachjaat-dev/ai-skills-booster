@@ -690,7 +690,8 @@ AI_Skills_Booster/
 │   │   ├── openapi_spec_generat/ (1 skills)
 │   │   ├── performance_optimize/ (1 skills)
 │   │   ├── postman_collection_g/ (1 skills)
-│   │   └── postman_openapi_conv/ (1 skills)
+│   │   ├── postman_openapi_conv/ (1 skills)
+│   │   └── pubmed_database/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/

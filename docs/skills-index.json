@@ -15122,6 +15122,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pubmed-database",
+    "path": "skills/backend/api-frameworks/pubmed_database/pubmed-database",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "pubmed_database",
+    "description": "Use this skill to design, implement, and operate production workflows for pubmed database. Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "pubmed",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pubmed Database",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
