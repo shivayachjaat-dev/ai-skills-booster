@@ -30529,6 +30529,28 @@
     "maturity": "stable"
   },
   {
+    "name": "risk-metrics-calculation",
+    "path": "skills/frontend/ui-ux/risk_metrics_calcula/risk-metrics-calculation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "risk_metrics_calcula",
+    "description": "Use this skill to design, implement, and operate production workflows for risk metrics calculation. Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "risk",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Risk Metrics Calculation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
