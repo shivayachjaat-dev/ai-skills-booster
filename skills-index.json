@@ -37183,6 +37183,28 @@
     "maturity": "stable"
   },
   {
+    "name": "oss-hunter",
+    "path": "skills/software-engineering/architecture/patterns/oss-hunter",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for oss hunter. Automatically hunt for high-impact OSS contribution opportunities in trending repositories.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "oss",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Oss Hunter",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
