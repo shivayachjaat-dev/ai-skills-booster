@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **86 skills** available in this category.
+> **87 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -89,4 +89,5 @@
 | [review-swarm](../../skills/ai-engineering/agents/review_swarm/review-swarm/SKILL.md) | `review_swarm` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for review swarm. Parallel read-only multi-agent review of a current git diff or explicit file scope to find behavioral regressions, security or privacy risks, performance or reliability issues, and contract or test coverage gaps. |
 | [run-deep-swe](../../skills/ai-engineering/agents/run_deep_swe/run-deep-swe/SKILL.md) | `run_deep_swe` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for run deep swe. Run reproducible DeepSWE coding-agent benchmark evaluations through OpenRouter and mini-swe-agent. |
 | [ai-agent-cron-and-autonomous-job-scheduling](../../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) | `scheduling` | `advanced` | `stable` | Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring. |
+| [skill-improver](../../skills/ai-engineering/agents/skill_improver/skill-improver/SKILL.md) | `skill_improver` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill improver. Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of ma... |
 | [skill-security-audit](../../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) | `skill_security_audit` | `advanced` | `stable` | Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions. |
