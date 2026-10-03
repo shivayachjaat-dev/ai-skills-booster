@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **210 skills** available in this category.
+> **211 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -212,5 +212,6 @@
 | [paypal-integration](../../skills/software-engineering/architecture/patterns/paypal-integration/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for paypal integration. Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows. |
 | [pc-games](../../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
 | [performance-engineer](../../skills/software-engineering/architecture/patterns/performance-engineer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance engineer. Expert performance engineer specializing in modern observability, |
+| [performance-profiling](../../skills/software-engineering/architecture/patterns/performance-profiling/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance profiling. Performance profiling principles. Measurement, analysis, and optimization techniques. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

@@ -37975,6 +37975,28 @@
     "maturity": "stable"
   },
   {
+    "name": "performance-profiling",
+    "path": "skills/software-engineering/architecture/patterns/performance-profiling",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for performance profiling. Performance profiling principles. Measurement, analysis, and optimization techniques.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "performance",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Performance Profiling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
