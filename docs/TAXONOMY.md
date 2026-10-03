@@ -571,6 +571,7 @@ AI_Skills_Booster/
 │   │   ├── postmark_automation/ (1 skills)
 │   │   ├── pptx_official/ (1 skills)
 │   │   ├── pre_boarding/ (1 skills)
+│   │   ├── pre_ship_gate/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

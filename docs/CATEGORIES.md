@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,792** skills across structured domains, categories, and subcategories.
+Master navigation for **1,793** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (615 skills)
+## Ai Engineering (616 skills)
 
 ### Agents (77 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -304,7 +304,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (446 skills)
+### Models (447 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1174,6 +1174,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [pptx-official](../skills/ai-engineering/models/pptx_official/pptx-official/SKILL.md) — Use this skill to design, implement, and operate production workflows for pptx official. A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.
 - **Pre_Boarding** (1):
   - [pre-boarding](../skills/ai-engineering/models/pre_boarding/pre-boarding/SKILL.md) — Use this skill to design, implement, and operate production workflows for pre boarding. Pre-boarding checklist: task, employee and department, owner, category, joining and due dates, documents received, laptop, email and account-record readiness, status. Use for pre-boarding.
+- **Pre_Ship_Gate** (1):
+  - [pre-ship-gate](../skills/ai-engineering/models/pre_ship_gate/pre-ship-gate/SKILL.md) — Use this skill to design, implement, and operate production workflows for pre ship gate. A ship gate that runs before any production deploy: checks the silent failure modes that make a deploy 'succeed' while prod stays broken, then verifies the live revision instead of trusting deploy output.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

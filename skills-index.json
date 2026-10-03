@@ -12557,6 +12557,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pre-ship-gate",
+    "path": "skills/ai-engineering/models/pre_ship_gate/pre-ship-gate",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "pre_ship_gate",
+    "description": "Use this skill to design, implement, and operate production workflows for pre ship gate. A ship gate that runs before any production deploy: checks the silent failure modes that make a deploy 'succeed' while prod stays broken, then verifies the live revision instead of trusting deploy output.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "pre",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pre Ship Gate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
