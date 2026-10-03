@@ -572,6 +572,7 @@ AI_Skills_Booster/
 │   │   ├── pptx_official/ (1 skills)
 │   │   ├── pre_boarding/ (1 skills)
 │   │   ├── pre_ship_gate/ (1 skills)
+│   │   ├── privacy_mask/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

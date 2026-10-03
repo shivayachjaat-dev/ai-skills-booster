@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,800** skills across structured domains, categories, and subcategories.
+Master navigation for **1,801** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (616 skills)
+## Ai Engineering (617 skills)
 
 ### Agents (77 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -304,7 +304,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (447 skills)
+### Models (448 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1176,6 +1176,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [pre-boarding](../skills/ai-engineering/models/pre_boarding/pre-boarding/SKILL.md) — Use this skill to design, implement, and operate production workflows for pre boarding. Pre-boarding checklist: task, employee and department, owner, category, joining and due dates, documents received, laptop, email and account-record readiness, status. Use for pre-boarding.
 - **Pre_Ship_Gate** (1):
   - [pre-ship-gate](../skills/ai-engineering/models/pre_ship_gate/pre-ship-gate/SKILL.md) — Use this skill to design, implement, and operate production workflows for pre ship gate. A ship gate that runs before any production deploy: checks the silent failure modes that make a deploy 'succeed' while prod stays broken, then verifies the live revision instead of trusting deploy output.
+- **Privacy_Mask** (1):
+  - [privacy-mask](../skills/ai-engineering/models/privacy_mask/privacy-mask/SKILL.md) — Use this skill to design, implement, and operate production workflows for privacy mask. Mask, redact, anonymize and censor sensitive information (PII) in screenshots and images — phone numbers, emails, IDs, API keys, crypto wallets, credit cards, passwords, and more.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

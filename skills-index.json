@@ -12579,6 +12579,28 @@
     "maturity": "stable"
   },
   {
+    "name": "privacy-mask",
+    "path": "skills/ai-engineering/models/privacy_mask/privacy-mask",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "privacy_mask",
+    "description": "Use this skill to design, implement, and operate production workflows for privacy mask. Mask, redact, anonymize and censor sensitive information (PII) in screenshots and images \u2014 phone numbers, emails, IDs, API keys, crypto wallets, credit cards, passwords, and more.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "privacy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Privacy Mask",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
