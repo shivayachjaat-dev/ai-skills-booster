@@ -23961,6 +23961,28 @@
     "maturity": "stable"
   },
   {
+    "name": "react-native-skills",
+    "path": "skills/frontend/frameworks/react_native_skills/react-native-skills",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "react_native_skills",
+    "description": "Use this skill to design, implement, and operate production workflows for react native skills. Use when working with react-native-skills tasks or workflows",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "react",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "React Native Skills",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

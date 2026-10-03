@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **27 skills** available in this category.
+> **28 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -31,3 +31,4 @@
 | [react-flow-node-ts](../../skills/frontend/frameworks/react_flow_node_ts/react-flow-node-ts/SKILL.md) | `react_flow_node_ts` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react flow node ts. Create React Flow node components following established patterns with proper TypeScript types and store integration. |
 | [react-modernization](../../skills/frontend/frameworks/react_modernization/react-modernization/SKILL.md) | `react_modernization` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react modernization. Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation. |
 | [react-native-architecture](../../skills/frontend/frameworks/react_native_archite/react-native-architecture/SKILL.md) | `react_native_archite` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react native architecture. Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture. |
+| [react-native-skills](../../skills/frontend/frameworks/react_native_skills/react-native-skills/SKILL.md) | `react_native_skills` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react native skills. Use when working with react-native-skills tasks or workflows |
