@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,704** skills across structured domains, categories, and subcategories.
+Master navigation for **1,705** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (586 skills)
 
@@ -1851,7 +1851,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (44 skills)
+## Developer Tools (45 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -1885,7 +1885,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Obsidian_Cli** (1):
   - [obsidian-cli](../skills/developer-tools/cli-utilities/obsidian_cli/obsidian-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for obsidian cli. Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line.
 
-### Productivity (30 skills)
+### Productivity (31 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -1948,6 +1948,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [monday-automation](../skills/developer-tools/productivity/monday_automation/monday-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for monday automation. Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas.
 - **One_Drive_Automation** (1):
   - [one-drive-automation](../skills/developer-tools/productivity/one_drive_automation/one-drive-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for one drive automation. Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.
+- **Outlook_Calendar_Aut** (1):
+  - [outlook-calendar-automation](../skills/developer-tools/productivity/outlook_calendar_aut/outlook-calendar-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for outlook calendar automation. Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and handle invitations. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)
