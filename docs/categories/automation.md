@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **24 skills** available in this category.
+> **25 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -28,3 +28,4 @@
 | [prompt-library](../../skills/testing/automation/prompt_library/prompt-library/SKILL.md) | `prompt_library` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prompt library. A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices. |
 | [saas-pricing-strategist](../../skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist/SKILL.md) | `saas_pricing_strateg` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using |
 | [semgrep-rule-variant-creator](../../skills/testing/automation/semgrep_rule_variant/semgrep-rule-variant-creator/SKILL.md) | `semgrep_rule_variant` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for semgrep rule variant creator. Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language. |
+| [systems-programming-rust-project](../../skills/testing/automation/systems_programming_/systems-programming-rust-project/SKILL.md) | `systems_programming_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for systems programming rust project. You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate complete project structures with cargo tooling, proper module organization, testing |

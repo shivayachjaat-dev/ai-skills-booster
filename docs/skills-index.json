@@ -48277,6 +48277,28 @@
     "maturity": "stable"
   },
   {
+    "name": "systems-programming-rust-project",
+    "path": "skills/testing/automation/systems_programming_/systems-programming-rust-project",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "systems_programming_",
+    "description": "Use this skill to design, implement, and operate production workflows for systems programming rust project. You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate complete project structures with cargo tooling, proper module organization, testing",
+    "tags": [
+      "testing",
+      "automation",
+      "systems",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Systems Programming Rust Project",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

@@ -2027,7 +2027,8 @@ AI_Skills_Booster/
 │   │   ├── playwright_java/ (1 skills)
 │   │   ├── prompt_library/ (1 skills)
 │   │   ├── saas_pricing_strateg/ (1 skills)
-│   │   └── semgrep_rule_variant/ (1 skills)
+│   │   ├── semgrep_rule_variant/ (1 skills)
+│   │   └── systems_programming_/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/

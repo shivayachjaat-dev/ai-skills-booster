@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1989 skills)
+## Bash (1990 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -3076,6 +3076,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [prompt-library](../skills/testing/automation/prompt_library/prompt-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt library. A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices.
 - [saas-pricing-strategist](../skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using
 - [semgrep-rule-variant-creator](../skills/testing/automation/semgrep_rule_variant/semgrep-rule-variant-creator/SKILL.md) — Use this skill to design, implement, and operate production workflows for semgrep rule variant creator. Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.
+- [systems-programming-rust-project](../skills/testing/automation/systems_programming_/systems-programming-rust-project/SKILL.md) — Use this skill to design, implement, and operate production workflows for systems programming rust project. You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate complete project structures with cargo tooling, proper module organization, testing
 
 ## Bash Defensive Patterns (1 skills)
 
@@ -9999,7 +10000,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2092 skills)
+## Python (2093 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -12092,6 +12093,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [prompt-library](../skills/testing/automation/prompt_library/prompt-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt library. A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices.
 - [saas-pricing-strategist](../skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using
 - [semgrep-rule-variant-creator](../skills/testing/automation/semgrep_rule_variant/semgrep-rule-variant-creator/SKILL.md) — Use this skill to design, implement, and operate production workflows for semgrep rule variant creator. Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.
+- [systems-programming-rust-project](../skills/testing/automation/systems_programming_/systems-programming-rust-project/SKILL.md) — Use this skill to design, implement, and operate production workflows for systems programming rust project. You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate complete project structures with cargo tooling, proper module organization, testing
 - [appium-mobile-automation-and-cross-device-testing](../skills/testing/mobile-testing/appium-cross-device/appium-mobile-automation-and-cross-device-testing/SKILL.md) — Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.
 
 ## Python AST (1 skills)
@@ -13824,6 +13826,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Systemd Services (1 skills)
 
 - [systemd-services](../skills/devops/ci-cd/systemd_services/systemd-services/SKILL.md) — Use this skill to design, implement, and operate production workflows for systemd services. Create and manage systemd services and timers. Configure service dependencies
+
+## Systems Programming Rust Project (1 skills)
+
+- [systems-programming-rust-project](../skills/testing/automation/systems_programming_/systems-programming-rust-project/SKILL.md) — Use this skill to design, implement, and operate production workflows for systems programming rust project. You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate complete project structures with cargo tooling, proper module organization, testing
 
 ## TRL (1 skills)
 
