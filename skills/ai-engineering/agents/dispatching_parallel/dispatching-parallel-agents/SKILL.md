@@ -1,19 +1,20 @@
 ---
 name: dispatching-parallel-agents
-description: "Use this skill to design, implement, and operate production workflows for dispatching parallel agents. Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
+description: "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies, orchestrating fan-out and fan-in workflows."
 domain: ai-engineering
 category: agents
 subcategory: dispatching_parallel
 tags:
   - ai-engineering
   - agents
-  - dispatching
-  - automation
-  - production-ready
+  - parallel-execution
+  - concurrency
+  - fan-out-fan-in
 technologies:
-  - Dispatching Parallel Agents
   - Python
-  - Bash
+  - ThreadPoolExecutor
+  - AsyncIO
+  - Multi-Agent Orchestration
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,96 @@ tools:
 dependencies:
   - python@>=3.10
 ---
+
 # Dispatching Parallel Agents Architecture & Implementation Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for dispatching parallel agents. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with dispatching-parallel-agents.
+The **Dispatching Parallel Agents** skill provides enterprise guidelines and production utilities for orchestrating concurrent AI agent workflows. In non-trivial software engineering tasks—such as simultaneous security audits, unit test generation, cross-browser compatibility checks, or documentation generation—running tasks sequentially introduces unnecessary latency.
+
+This skill equips autonomous systems with a robust fan-out / fan-in execution harness (`ParallelAgentDispatcher`) that manages task partitioning, thread pool concurrency, per-task timeout enforcement, error isolation, and unified report reconciliation.
 
 ```
 +------------------------------------------------------------------------+
-|                   Dispatching Parallel Agents                         |
+|                   Dispatching Parallel Agents Pipeline                 |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
+|  [ Task Partitioning ]    ---> Validates state independence            |
 |                                           |                            |
 |                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
+|  [ Concurrency Throttle ] ---> Regulates worker pool & TPM quotas      |
 |                                           |                            |
 |                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Parallel Fan-Out ]     ---> Executes subagents asynchronously       |
+|                                           |                            |
+|                                           v                            |
+|  [ Error Isolation ]      ---> Captures timeouts & faults per worker   |
+|                                           |                            |
+|                                           v                            |
+|  [ Fan-In Reconciliation] ---> Aggregates outputs & telemetry report   |
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to dispatching parallel agents.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When breaking down a large task into 2 or more completely independent subtasks that do not share mutable state.
+- When performing multi-perspective code reviews (e.g. security specialist, performance reviewer, and style checker running concurrently).
+- When running batch migrations or unit test generation across disparate modules.
+- When wall-clock latency is critical and API rate limits allow concurrent requests.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Highly sequential pipelines where Task B strictly depends on the output of Task A.
+- Tasks that mutate the same files, database records, or shared state simultaneously without locking mechanisms.
+- Environments with strict single-threaded or serial execution constraints.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for dispatching-parallel-agents..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Partition Workload into Independent Subagent Tasks
+Define distinct `AgentTask` objects specifying role, prompt, payload, and timeouts:
 
 ```python
-import sys
-import logging
+from parallel_agent_dispatcher import AgentTask, ParallelAgentDispatcher
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("dispatching-parallel-agents")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for dispatching-parallel-agents")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+tasks = [
+    AgentTask(task_id="sec-1", role="Security Auditor", prompt="Scan for authorization bypasses"),
+    AgentTask(task_id="perf-1", role="Performance Profiler", prompt="Identify N+1 database queries"),
+    AgentTask(task_id="test-1", role="Test Generator", prompt="Author edge-case unit tests")
+]
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Configure Concurrency and Dispatch Workers
+Initialize `ParallelAgentDispatcher` with an approved concurrency ceiling and dispatch the tasks:
 
-## Best Practices & Failure Modes
+```python
+dispatcher = ParallelAgentDispatcher(max_concurrency=4)
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+def worker_callback(task: AgentTask):
+    # Delegate to LLM subagent or tool execution
+    return {"status": "ok", "role": task.role, "findings": f"Processed {task.prompt}"}
+
+report = dispatcher.dispatch(tasks, worker_callback)
+```
+
+### 3. Reconcile Fan-In Results
+Process aggregated findings, inspect execution durations, and handle isolated failures defensively:
+
+```python
+print(f"Completed: {report['summary']['completed']}/{report['summary']['total_tasks']}")
+print(f"Effective Speedup: {report['summary']['effective_speedup']}")
+for item in report["results"]:
+    if item["status"] != "completed":
+        print(f"Warning: Task {item['task_id']} failed: {item['error']}")
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/dispatching-parallel-agents_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Verify parallel execution, concurrency throttling, and fan-in aggregation by running:
+
+```bash
+python scripts/dispatching-parallel-agents_helper.py
+```
+
+Expected output:
+- Concurrency simulation runs cleanly across all workers.
+- Effective speedup exceeds 1.0x.
+- Zero uncaught exceptions.
