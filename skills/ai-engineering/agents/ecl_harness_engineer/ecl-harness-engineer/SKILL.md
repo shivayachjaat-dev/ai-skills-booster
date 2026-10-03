@@ -1,19 +1,20 @@
 ---
 name: ecl-harness-engineer
-description: "Use this skill to design, implement, and operate production workflows for ecl harness engineer. Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs."
+description: "Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs."
 domain: ai-engineering
 category: agents
 subcategory: ecl_harness_engineer
 tags:
   - ai-engineering
   - agents
-  - ecl
-  - automation
-  - production-ready
+  - harness
+  - repo-infrastructure
+  - handoff-management
 technologies:
-  - Ecl Harness Engineer
   - Python
   - Bash
+  - Markdown
+  - CI Gates
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,88 @@ tools:
 dependencies:
   - python@>=3.10
 ---
-# Ecl Harness Engineer Architecture & Implementation Standard
+
+# ECL Agent Harness Architecture & Implementation Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for ecl harness engineer. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with ecl-harness-engineer.
+The **ECL Harness Engineer** skill provides the blueprint and automation tools for constructing, auditing, and maintaining an enterprise-grade agent harness inside any code repository. Autonomous coding agents lack implicit institutional memory; without a structured harness, agents commit breaking changes, bypass testing suites, or introduce architectural drift.
+
+The ECL (Engineering Capability Lifecycle) Harness establishes a deterministic framework consisting of `AGENTS.md` operating contracts, pre-flight verification gates, append-only intervention journals, and standardized agent-to-human handoff documentation.
 
 ```
 +------------------------------------------------------------------------+
-|                   Ecl Harness Engineer                                |
+|                      ECL Agent Harness Workflow                        |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
+|  [ Repository Audit ]        ---> Checks AGENTS.md compliance          |
 |                                           |                            |
 |                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
+|  [ Harness Provisioning ]    ---> Scaffolds .agent-harness & contracts |
 |                                           |                            |
 |                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Pre-Flight Validation ]   ---> Enforces test gates & syntax checks  |
+|                                           |                            |
+|                                           v                            |
+|  [ Handoff Generation ]      ---> Emits structured session review brief|
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to ecl harness engineer.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When preparing a new or legacy repository for safe, reliable autonomous AI agent contributions.
+- When standardizing agent instructions, testing commandments, and forbidden command policies via `AGENTS.md`.
+- When generating structured handoff documents after completing autonomous coding sessions.
+- When auditing existing agent configuration files for missing security boundaries or incomplete testing guidelines.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Repositories that do not use or intend to support AI coding assistants or autonomous agent workflows.
+- Lightweight temporary scratchpads where formal architecture contracts are unnecessary.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for ecl-harness-engineer..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Audit Repository Readiness
+Run the audit engine to evaluate whether the repository contains the mandatory AGENTS.md guidelines:
 
 ```python
-import sys
-import logging
+from ecl_harness import ECLHarness
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("ecl-harness-engineer")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for ecl-harness-engineer")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+harness = ECLHarness(repo_root=".")
+report = harness.audit_repository()
+if not report.compliant:
+    print(f"Missing sections: {report.missing_sections}")
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Scaffold and Initialize the Harness
+Generate the baseline `.agent-harness` directory structure and `AGENTS.md` operational contract:
 
-## Best Practices & Failure Modes
+```python
+harness.init_harness()
+print("AGENTS.md and .agent-harness infrastructure initialized.")
+```
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+### 3. Generate Agent Session Handoff Brief
+At the conclusion of an autonomous coding intervention, compile a verified handoff brief:
+
+```python
+handoff_path = harness.generate_handoff(
+    agent_id="refactor-agent-42",
+    task_summary="Migrated user authentication endpoint to async/await and updated unit tests.",
+    touched_files=["src/auth/service.py", "tests/test_auth.py"],
+    verification_status="Passed"
+)
+print(f"Handoff written to: {handoff_path}")
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/ecl-harness-engineer_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Execute the ECL harness verification suite to test contract generation, repository audits, and handoff compilation:
+
+```bash
+python scripts/ecl-harness-engineer_helper.py
+```
+
+Expected output:
+- Pre-initialization and post-initialization audits execute cleanly.
+- Sample handoff brief is verified on disk.
+- Operational status returned cleanly.
