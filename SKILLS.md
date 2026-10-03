@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,747 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,748 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -76,6 +76,7 @@
 | [performance-testing-review-multi-agent-review](skills/ai-engineering/agents/performance_testing_/performance-testing-review-multi-agent-review/SKILL.md) | `ai-engineering` | `agents` | `performance_testing_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance testing review multi agent review. Use when working with performance testing review multi agent review |
 | [pi-custom-model](skills/ai-engineering/agents/pi_custom_model/pi-custom-model/SKILL.md) | `ai-engineering` | `agents` | `pi_custom_model` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pi custom model. Register custom Pi Agent model slugs so saved OpenRouter variants resolve correctly. |
 | [pi-delegate](skills/ai-engineering/agents/pi_delegate/pi-delegate/SKILL.md) | `ai-engineering` | `agents` | `pi_delegate` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pi delegate. Delegate coding tasks to the Pi coding agent CLI (`pi`) only when the |
+| [pi-web-search](skills/ai-engineering/agents/pi_web_search/pi-web-search/SKILL.md) | `ai-engineering` | `agents` | `pi_web_search` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pi web search. Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package. |
 | [multi-agent-tmux-process-orchestrator](skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) | `ai-engineering` | `agents` | `process-management` | `advanced` | `stable` | Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers. |
 | [ai-agent-cron-and-autonomous-job-scheduling](skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) | `ai-engineering` | `agents` | `scheduling` | `advanced` | `stable` | Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring. |
 | [skill-security-audit](skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) | `ai-engineering` | `agents` | `skill_security_audit` | `advanced` | `stable` | Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions. |

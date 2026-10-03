@@ -1615,6 +1615,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pi-web-search",
+    "path": "skills/ai-engineering/agents/pi_web_search/pi-web-search",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "pi_web_search",
+    "description": "Use this skill to design, implement, and operate production workflows for pi web search. Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "pi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pi Web Search",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-tmux-process-orchestrator",
     "path": "skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator",
     "domain": "ai-engineering",

@@ -76,6 +76,7 @@ AI_Skills_Booster/
 │   │   ├── performance_testing_/ (1 skills)
 │   │   ├── pi_custom_model/ (1 skills)
 │   │   ├── pi_delegate/ (1 skills)
+│   │   ├── pi_web_search/ (1 skills)
 │   │   ├── process-management/ (1 skills)
 │   │   ├── scheduling/ (1 skills)
 │   │   └── skill_security_audit/ (1 skills)
