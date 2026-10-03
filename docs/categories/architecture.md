@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **221 skills** available in this category.
+> **222 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -223,5 +223,6 @@
 | [popup-cro](../../skills/software-engineering/architecture/patterns/popup-cro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for popup cro. Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust. |
 | [posix-shell-pro](../../skills/software-engineering/architecture/patterns/posix-shell-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for posix shell pro. Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix). |
 | [powershell-windows](../../skills/software-engineering/architecture/patterns/powershell-windows/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for powershell windows. PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling. |
+| [pr-writer](../../skills/software-engineering/architecture/patterns/pr-writer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pr writer. Create pull requests following Sentry's engineering practices. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

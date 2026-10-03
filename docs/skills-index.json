@@ -39141,6 +39141,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pr-writer",
+    "path": "skills/software-engineering/architecture/patterns/pr-writer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for pr writer. Create pull requests following Sentry's engineering practices.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "pr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pr Writer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",

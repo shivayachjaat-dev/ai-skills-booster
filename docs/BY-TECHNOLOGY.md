@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1607 skills)
+## Bash (1608 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2658,6 +2658,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [popup-cro](../skills/software-engineering/architecture/patterns/popup-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for popup cro. Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.
 - [posix-shell-pro](../skills/software-engineering/architecture/patterns/posix-shell-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for posix shell pro. Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).
 - [powershell-windows](../skills/software-engineering/architecture/patterns/powershell-windows/SKILL.md) — Use this skill to design, implement, and operate production workflows for powershell windows. PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.
+- [pr-writer](../skills/software-engineering/architecture/patterns/pr-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for pr writer. Create pull requests following Sentry's engineering practices.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -9260,6 +9261,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pr-merge-champion](../skills/frontend/ui-ux/pr_merge_champion/pr-merge-champion/SKILL.md) — Use this skill to design, implement, and operate production workflows for pr merge champion. Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation.
 
+## Pr Writer (1 skills)
+
+- [pr-writer](../skills/software-engineering/architecture/patterns/pr-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for pr writer. Create pull requests following Sentry's engineering practices.
+
 ## Prism (1 skills)
 
 - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
@@ -9362,7 +9367,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1710 skills)
+## Python (1711 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11041,6 +11046,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [popup-cro](../skills/software-engineering/architecture/patterns/popup-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for popup cro. Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.
 - [posix-shell-pro](../skills/software-engineering/architecture/patterns/posix-shell-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for posix shell pro. Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).
 - [powershell-windows](../skills/software-engineering/architecture/patterns/powershell-windows/SKILL.md) — Use this skill to design, implement, and operate production workflows for powershell windows. PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.
+- [pr-writer](../skills/software-engineering/architecture/patterns/pr-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for pr writer. Create pull requests following Sentry's engineering practices.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
