@@ -15555,6 +15555,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postgresql-devsec",
+    "path": "skills/backend/databases/postgresql_devsec/postgresql-devsec",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "postgresql_devsec",
+    "description": "Use this skill to design, implement, and operate production workflows for postgresql devsec. Administer PostgreSQL databases. Configure replication, backups, and",
+    "tags": [
+      "backend",
+      "databases",
+      "postgresql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postgresql Devsec",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "src-hunter",
     "path": "skills/backend/databases/src_hunter/src-hunter",
     "domain": "backend",

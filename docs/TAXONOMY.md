@@ -712,6 +712,7 @@ AI_Skills_Booster/
 │   │   ├── pentest_tools/ (1 skills)
 │   │   ├── planetscale/ (1 skills)
 │   │   ├── postgres_best_practi/ (1 skills)
+│   │   ├── postgresql_devsec/ (1 skills)
 │   │   └── src_hunter/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
