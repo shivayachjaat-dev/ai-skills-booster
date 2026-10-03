@@ -29209,6 +29209,28 @@
     "maturity": "stable"
   },
   {
+    "name": "csharp",
+    "path": "skills/frontend/ui-ux/csharp/csharp",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "csharp",
+    "description": "Use this skill to design, implement, and operate production workflows for csharp. Language-specific super-code guidelines for csharp.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "csharp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Csharp",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "dast-scanning",
     "path": "skills/frontend/ui-ux/dast_scanning/dast-scanning",
     "domain": "frontend",
