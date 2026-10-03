@@ -27779,6 +27779,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stitch-design-taste",
+    "path": "skills/frontend/ui-development/stitch_design_taste/stitch-design-taste",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "stitch_design_taste",
+    "description": "Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "stitch",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stitch Design Taste",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
