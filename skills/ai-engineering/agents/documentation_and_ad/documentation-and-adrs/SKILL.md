@@ -1,6 +1,6 @@
 ---
 name: documentation-and-adrs
-description: "Use this skill to design, implement, and operate production workflows for documentation and adrs. Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase."
+description: "Records architecture decisions (ADRs) and living documentation to capture architectural choices, API changes, and context for future engineers and agents."
 domain: ai-engineering
 category: agents
 subcategory: documentation_and_ad
@@ -8,12 +8,13 @@ tags:
   - ai-engineering
   - agents
   - documentation
-  - automation
-  - production-ready
+  - adr
+  - architecture
 technologies:
-  - Documentation And Adrs
+  - Markdown
   - Python
-  - Bash
+  - MADR Standard
+  - Git
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,95 @@ tools:
 dependencies:
   - python@>=3.10
 ---
-# Documentation And Adrs Architecture & Implementation Standard
+
+# Documentation and Architecture Decision Records (ADRs) Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for documentation and adrs. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with documentation-and-adrs.
+The **Documentation and ADRs** skill establishes a structured engineering discipline for logging architectural decisions, interface contracts, and systemic invariants. In modern development ecosystems where autonomous agents and human engineers co-author code, undocumented decisions lead to severe regressions, conflicting architectural patterns, and duplicated refactoring loops.
+
+This skill equips teams and AI agents with the `ADREngine` utility to author, index, validate, and supersede Architecture Decision Records following the Markdown Any Decision Record (MADR 3.0) format.
 
 ```
 +------------------------------------------------------------------------+
-|                   Documentation And Adrs                              |
+|                     Architecture Decision Flow                         |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Technical Dilemma / API Change ]                                    |
+|                   |                                                    |
+|                   v                                                    |
+|  [ Draft Decision Proposal ]  ---> Captured in docs/adrs/000X-*.md    |
+|                   |                                                    |
+|                   v                                                    |
+|  [ Consequence Analysis ]     ---> Categorizes positive & negative     |
+|                   |                                                    |
+|                   v                                                    |
+|  [ Index & Supersede Linkage] ---> Updates docs/adrs/README.md table   |
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to documentation and adrs.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When making systemic architectural choices (e.g. database migration, auth protocol, message queue adoption).
+- When altering public APIs, breaking schema contracts, or changing RPC interfaces.
+- When selecting major frameworks, third-party libraries, or runtime platforms.
+- When recording non-obvious engineering trade-offs that future autonomous agents must adhere to.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Routine bug fixes or minor typo corrections that carry no architectural impact.
+- Daily standup notes, sprint task tracking, or transient todo lists.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for documentation-and-adrs..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Initialize ADR Directory & Engine
+Configure the decision record engine pointing to the target documentation folder:
 
 ```python
-import sys
-import logging
+from adr_engine import ADREngine
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("documentation-and-adrs")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for documentation-and-adrs")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+engine = ADREngine(doc_root="docs")
+engine.init_repository()
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Author a New Architecture Decision Record
+Draft an ADR capturing the problem statement, decision rationale, and trade-offs:
 
-## Best Practices & Failure Modes
+```python
+adr_file = engine.create_adr(
+    title="Adopt JWT Token Verification with Asymmetric Keys",
+    deciders=["Security Architect", "Backend Lead"],
+    context="Symmetric secret sharing across distributed services increased credential leak risks.",
+    decision="Migrate to RS256 asymmetric signing with JWKS endpoint verification.",
+    consequences={
+        "positive": ["Private key stays isolated within auth microservice", "Stateless verification at edge"],
+        "negative": ["Slightly higher CPU overhead for public key signature verification"]
+    },
+    status="Accepted"
+)
+```
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+### 3. Superseding Deprecated Decisions
+When historical decisions are replaced, record the replacement to update links bidirectionally:
+
+```python
+new_adr = engine.create_adr(
+    title="Transition from JWT to Biscuit Macaroons for Distributed Capabilities",
+    deciders=["Principal Architect"],
+    context="Fine-grained token attenuation needed without issuing new tokens.",
+    decision="Adopt Biscuit tokens with offline cryptographic attenuation.",
+    consequences={"positive": ["Decentralized delegation"], "negative": ["New client library adoption"]},
+    supersedes=1
+)
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/documentation-and-adrs_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Run the automated ADR verification suite to validate lifecycle management and index generation:
+
+```bash
+python scripts/documentation-and-adrs_helper.py
+```
+
+Expected output:
+- ADR generation, superseding linkages, and markdown index tables verified cleanly.
+- Operational status returned cleanly.
