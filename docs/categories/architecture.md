@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **243 skills** available in this category.
+> **244 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -245,5 +245,6 @@
 | [remotion-interactivity](../../skills/software-engineering/architecture/patterns/remotion-interactivity/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion interactivity. Structure Remotion markup for interactivity |
 | [remotion-render](../../skills/software-engineering/architecture/patterns/remotion-render/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion render. Export a Remotion video |
 | [research-prompt](../../skills/software-engineering/architecture/patterns/research-prompt/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for research prompt. Turn vague research needs into one precise deep-research prompt with context and output criteria. |
+| [resolving-merge-conflicts](../../skills/software-engineering/architecture/patterns/resolving-merge-conflicts/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for resolving merge conflicts. Use when you need to resolve an in-progress git merge/rebase conflict. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

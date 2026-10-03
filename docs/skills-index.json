@@ -41935,6 +41935,28 @@
     "maturity": "stable"
   },
   {
+    "name": "resolving-merge-conflicts",
+    "path": "skills/software-engineering/architecture/patterns/resolving-merge-conflicts",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for resolving merge conflicts. Use when you need to resolve an in-progress git merge/rebase conflict.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "resolving",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Resolving Merge Conflicts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
