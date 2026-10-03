@@ -638,6 +638,7 @@ AI_Skills_Booster/
 │   │   ├── public_relations/ (1 skills)
 │   │   ├── quant_analyst/ (1 skills)
 │   │   ├── rag_engineer/ (1 skills)
+│   │   ├── rag_implementation/ (1 skills)
 │   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)

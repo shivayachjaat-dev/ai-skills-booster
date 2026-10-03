@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,861** skills across structured domains, categories, and subcategories.
+Master navigation for **1,862** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (639 skills)
+## Ai Engineering (640 skills)
 
 ### Agents (82 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1243,7 +1243,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (38 skills)
+### Rag (39 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1317,6 +1317,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [quant-analyst](../skills/ai-engineering/rag/quant_analyst/quant-analyst/SKILL.md) — Use this skill to design, implement, and operate production workflows for quant analyst. Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage.
 - **Rag_Engineer** (1):
   - [rag-engineer](../skills/ai-engineering/rag/rag_engineer/rag-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag engineer. Expert in building Retrieval-Augmented Generation systems. Masters
+- **Rag_Implementation** (1):
+  - [rag-implementation](../skills/ai-engineering/rag/rag_implementation/rag-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag implementation. RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization.
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 

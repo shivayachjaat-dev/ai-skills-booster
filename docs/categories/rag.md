@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **38 skills** available in this category.
+> **39 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -41,4 +41,5 @@
 | [public-relations](../../skills/ai-engineering/rag/public_relations/public-relations/SKILL.md) | `public_relations` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for public relations. When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). |
 | [quant-analyst](../../skills/ai-engineering/rag/quant_analyst/quant-analyst/SKILL.md) | `quant_analyst` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for quant analyst. Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage. |
 | [rag-engineer](../../skills/ai-engineering/rag/rag_engineer/rag-engineer/SKILL.md) | `rag_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag engineer. Expert in building Retrieval-Augmented Generation systems. Masters |
+| [rag-implementation](../../skills/ai-engineering/rag/rag_implementation/rag-implementation/SKILL.md) | `rag_implementation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag implementation. RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization. |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |

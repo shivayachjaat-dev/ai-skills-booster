@@ -14040,6 +14040,28 @@
     "maturity": "stable"
   },
   {
+    "name": "rag-implementation",
+    "path": "skills/ai-engineering/rag/rag_implementation/rag-implementation",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "rag_implementation",
+    "description": "Use this skill to design, implement, and operate production workflows for rag implementation. RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "rag",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Rag Implementation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
