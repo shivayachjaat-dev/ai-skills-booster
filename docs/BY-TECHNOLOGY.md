@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1676 skills)
+## Bash (1677 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2461,6 +2461,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [penetration-testing](../skills/security/appsec/penetration_testing/penetration-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments.
 - [policy-as-code](../skills/security/appsec/policy_as_code/policy-as-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for policy as code. Implement policy as code with OPA, Sentinel, and Kyverno. Automate policy
 - [protocol-reverse-engineering](../skills/security/appsec/protocol_reverse_eng/protocol-reverse-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for protocol reverse engineering. Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.
+- [radio-sdr](../skills/security/appsec/radio_sdr/radio-sdr/SKILL.md) — Use this skill to design, implement, and operate production workflows for radio sdr. Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless protocol analysis outside regulated bands.
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
@@ -9640,7 +9641,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1779 skills)
+## Python (1780 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11109,6 +11110,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [penetration-testing](../skills/security/appsec/penetration_testing/penetration-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments.
 - [policy-as-code](../skills/security/appsec/policy_as_code/policy-as-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for policy as code. Implement policy as code with OPA, Sentinel, and Kyverno. Automate policy
 - [protocol-reverse-engineering](../skills/security/appsec/protocol_reverse_eng/protocol-reverse-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for protocol reverse engineering. Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.
+- [radio-sdr](../skills/security/appsec/radio_sdr/radio-sdr/SKILL.md) — Use this skill to design, implement, and operate production workflows for radio sdr. Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless protocol analysis outside regulated bands.
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
@@ -11561,6 +11563,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Radare2 (1 skills)
 
 - [radare2](../skills/ai-engineering/models/radare2/radare2/SKILL.md) — Use this skill to design, implement, and operate production workflows for radare2. Drive the radare2 CLI for binary reconnaissance, disassembly, analysis, function locating, export, and lightweight patching (r2/rabin2/rasm2/radiff2) without a GUI.
+
+## Radio Sdr (1 skills)
+
+- [radio-sdr](../skills/security/appsec/radio_sdr/radio-sdr/SKILL.md) — Use this skill to design, implement, and operate production workflows for radio sdr. Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless protocol analysis outside regulated bands.
 
 ## Ragas (2 skills)
 

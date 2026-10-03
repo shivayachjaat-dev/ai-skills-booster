@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **99 skills** available in this category.
+> **100 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -101,5 +101,6 @@
 | [penetration-testing](../../skills/security/appsec/penetration_testing/penetration-testing/SKILL.md) | `penetration_testing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments. |
 | [policy-as-code](../../skills/security/appsec/policy_as_code/policy-as-code/SKILL.md) | `policy_as_code` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for policy as code. Implement policy as code with OPA, Sentinel, and Kyverno. Automate policy |
 | [protocol-reverse-engineering](../../skills/security/appsec/protocol_reverse_eng/protocol-reverse-engineering/SKILL.md) | `protocol_reverse_eng` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for protocol reverse engineering. Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging. |
+| [radio-sdr](../../skills/security/appsec/radio_sdr/radio-sdr/SKILL.md) | `radio_sdr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for radio sdr. Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless protocol analysis outside regulated bands. |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](../../skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |

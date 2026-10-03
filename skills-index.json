@@ -34080,6 +34080,28 @@
     "maturity": "stable"
   },
   {
+    "name": "radio-sdr",
+    "path": "skills/security/appsec/radio_sdr/radio-sdr",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "radio_sdr",
+    "description": "Use this skill to design, implement, and operate production workflows for radio sdr. Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless protocol analysis outside regulated bands.",
+    "tags": [
+      "security",
+      "appsec",
+      "radio",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Radio Sdr",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
