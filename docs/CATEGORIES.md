@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,920** skills across structured domains, categories, and subcategories.
+Master navigation for **1,921** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (657 skills)
 
@@ -2481,7 +2481,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (386 skills)
+## Frontend (387 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2671,7 +2671,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Redesign_Existing_Pr** (1):
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 
-### Ui Ux (231 skills)
+### Ui Ux (232 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3130,6 +3130,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [reference-builder](../skills/frontend/ui-ux/reference_builder/reference-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for reference builder. Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.
 - **Requesting_Code_Revi** (1):
   - [requesting-code-review](../skills/frontend/ui-ux/requesting_code_revi/requesting-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for requesting code review. Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+- **Reverse_Browser_Auto** (1):
+  - [reverse-browser-automation](../skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):

@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1738 skills)
+## Bash (1739 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2318,6 +2318,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [redis-cli](../skills/frontend/ui-ux/redis_cli/redis-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for redis cli. Redis command-line interface (redis-cli) reference and usage guide. Use this skill whenever the user mentions redis-cli, Redis CLI, or any task involving querying, inspecting, debugging, or managing Redis from the command line.
 - [reference-builder](../skills/frontend/ui-ux/reference_builder/reference-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for reference builder. Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.
 - [requesting-code-review](../skills/frontend/ui-ux/requesting_code_revi/requesting-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for requesting code review. Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+- [reverse-browser-automation](../skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -9702,7 +9703,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1841 skills)
+## Python (1842 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11014,6 +11015,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [redis-cli](../skills/frontend/ui-ux/redis_cli/redis-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for redis cli. Redis command-line interface (redis-cli) reference and usage guide. Use this skill whenever the user mentions redis-cli, Redis CLI, or any task involving querying, inspecting, debugging, or managing Redis from the command line.
 - [reference-builder](../skills/frontend/ui-ux/reference_builder/reference-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for reference builder. Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.
 - [requesting-code-review](../skills/frontend/ui-ux/requesting_code_revi/requesting-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for requesting code review. Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+- [reverse-browser-automation](../skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -12030,6 +12032,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Returns Reverse Logistics (1 skills)
 
 - [returns-reverse-logistics](../skills/ai-engineering/models/returns_reverse_logi/returns-reverse-logistics/SKILL.md) — Use this skill to design, implement, and operate production workflows for returns reverse logistics. Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management.
+
+## Reverse Browser Automation (1 skills)
+
+- [reverse-browser-automation](../skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis.
 
 ## Rich (1 skills)
 

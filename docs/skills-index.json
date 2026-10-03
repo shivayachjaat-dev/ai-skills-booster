@@ -30353,6 +30353,28 @@
     "maturity": "stable"
   },
   {
+    "name": "reverse-browser-automation",
+    "path": "skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "reverse_browser_auto",
+    "description": "Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "reverse",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Reverse Browser Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

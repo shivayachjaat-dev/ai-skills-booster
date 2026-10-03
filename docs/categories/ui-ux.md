@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **231 skills** available in this category.
+> **232 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -232,6 +232,7 @@
 | [redis-cli](../../skills/frontend/ui-ux/redis_cli/redis-cli/SKILL.md) | `redis_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for redis cli. Redis command-line interface (redis-cli) reference and usage guide. Use this skill whenever the user mentions redis-cli, Redis CLI, or any task involving querying, inspecting, debugging, or managing Redis from the command line. |
 | [reference-builder](../../skills/frontend/ui-ux/reference_builder/reference-builder/SKILL.md) | `reference_builder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reference builder. Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials. |
 | [requesting-code-review](../../skills/frontend/ui-ux/requesting_code_revi/requesting-code-review/SKILL.md) | `requesting_code_revi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for requesting code review. Use when completing tasks, implementing major features, or before merging to verify work meets requirements |
+| [reverse-browser-automation](../../skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation/SKILL.md) | `reverse_browser_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
