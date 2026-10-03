@@ -14559,6 +14559,28 @@
     "maturity": "stable"
   },
   {
+    "name": "styleseed-design-review",
+    "path": "skills/ai-engineering/models/styleseed_design_rev/styleseed-design-review",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "styleseed_design_rev",
+    "description": "Use this skill to design, implement, and operate production workflows for styleseed design review. Reviews UI/frontend code and tells you exactly why it \\\"looks AI-generated\\\" \u2014 then how to fix it.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "styleseed",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Styleseed Design Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
