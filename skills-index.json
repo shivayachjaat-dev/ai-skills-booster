@@ -12953,6 +12953,28 @@
     "maturity": "stable"
   },
   {
+    "name": "quit-sponsor",
+    "path": "skills/ai-engineering/models/quit_sponsor/quit-sponsor",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "quit_sponsor",
+    "description": "Use this skill to design, implement, and operate production workflows for quit sponsor. Helps an AI agent provide non-judgmental, evidence-informed quit-smoking support with user-consented tracking, craving check-ins, and escalation to human or clinical help. Not medical care.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "quit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Quit Sponsor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
