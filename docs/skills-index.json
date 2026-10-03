@@ -39273,6 +39273,28 @@
     "maturity": "stable"
   },
   {
+    "name": "price-psychology-strategist",
+    "path": "skills/software-engineering/architecture/patterns/price-psychology-strategist",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for price psychology strategist. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "price",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Price Psychology Strategist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
