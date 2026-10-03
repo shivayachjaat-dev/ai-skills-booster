@@ -39053,6 +39053,28 @@
     "maturity": "stable"
   },
   {
+    "name": "powershell-windows",
+    "path": "skills/software-engineering/architecture/patterns/powershell-windows",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for powershell windows. PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "powershell",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Powershell Windows",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
