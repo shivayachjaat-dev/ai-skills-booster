@@ -45521,6 +45521,28 @@
     "maturity": "stable"
   },
   {
+    "name": "social-post-writer-seo",
+    "path": "skills/software-engineering/architecture/patterns/social-post-writer-seo",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for social post writer seo. Social Media Strategist and Content Writer. Creates clear, engaging social media posts for Instagram, LinkedIn, and Facebook.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "social",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Social Post Writer Seo",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",

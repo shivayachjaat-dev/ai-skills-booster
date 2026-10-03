@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **281 skills** available in this category.
+> **282 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -284,4 +284,5 @@
 | [slo-implementation](../../skills/software-engineering/architecture/patterns/slo-implementation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for slo implementation. Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets. |
 | [smart-contract-formal-verification](../../skills/software-engineering/architecture/patterns/smart-contract-formal-verification/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for smart contract formal verification. Foundry and Soroban formal invariant verification register: state transition rules, boundary invariant properties, and symbolic execution checks. |
 | [smart-git-automation](../../skills/software-engineering/architecture/patterns/smart-git-automation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for smart git automation. Smart change detection, auto branch naming, and streamlined commit/PR workflow |
+| [social-post-writer-seo](../../skills/software-engineering/architecture/patterns/social-post-writer-seo/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social post writer seo. Social Media Strategist and Content Writer. Creates clear, engaging social media posts for Instagram, LinkedIn, and Facebook. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
