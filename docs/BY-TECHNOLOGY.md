@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1965 skills)
+## Bash (1966 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2372,6 +2372,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [invariant-guard](../skills/frontend/ui-ux/invariant_guard/invariant-guard/SKILL.md) — Use this skill to design, implement, and operate production workflows for invariant guard. Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps.
 - [ios-developer](../skills/frontend/ui-ux/ios_developer/ios-developer/SKILL.md) — Use this skill to design, implement, and operate production workflows for ios developer. Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.
 - [istio-traffic-management](../skills/frontend/ui-ux/istio_traffic_manage/istio-traffic-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for istio traffic management. Comprehensive guide to Istio traffic management for production service mesh deployments.
+- [java](../skills/frontend/ui-ux/java/java/SKILL.md) — Use this skill to design, implement, and operate production workflows for java. Language-specific super-code guidelines for java.
 - [javascript-testing-patterns](../skills/frontend/ui-ux/javascript_testing_p/javascript-testing-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript testing patterns. Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices.
 - [jobgpt](../skills/frontend/ui-ux/jobgpt/jobgpt/SKILL.md) — Use this skill to design, implement, and operate production workflows for jobgpt. Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server.
 - [json-schema-manual](../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) — Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract.
@@ -7294,9 +7295,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [opentelemetry-distributed-tracing](../skills/devops/observability/opentelemetry/opentelemetry-distributed-tracing/SKILL.md) — Use this skill when designing, instrumenting, and troubleshooting end-to-end distributed tracing across microservices using OpenTelemetry (OTel). It covers W3C tracecontext propagation, OTLP gRPC/HTTP exporters, head-based and tail-based sampling strategies, span attributes standardization (semantic conventions), and collector deployment.
 
-## Java (1 skills)
+## Java (2 skills)
 
 - [kafka-event-driven-architecture](../skills/backend/messaging/kafka/kafka-event-driven-architecture/SKILL.md) — Use this skill when designing, implementing, and tuning event-driven architectures with Apache Kafka. It guides the agent through partition key selection, consumer group rebalance minimization, exactly-once processing semantics (EOS), schema evolution with Avro/Protobuf, dead letter queues (DLQ), and producer idempotency.
+- [java](../skills/frontend/ui-ux/java/java/SKILL.md) — Use this skill to design, implement, and operate production workflows for java. Language-specific super-code guidelines for java.
 
 ## Java Pro (1 skills)
 
@@ -9969,7 +9971,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2067 skills)
+## Python (2068 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11322,6 +11324,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [invariant-guard](../skills/frontend/ui-ux/invariant_guard/invariant-guard/SKILL.md) — Use this skill to design, implement, and operate production workflows for invariant guard. Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps.
 - [ios-developer](../skills/frontend/ui-ux/ios_developer/ios-developer/SKILL.md) — Use this skill to design, implement, and operate production workflows for ios developer. Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.
 - [istio-traffic-management](../skills/frontend/ui-ux/istio_traffic_manage/istio-traffic-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for istio traffic management. Comprehensive guide to Istio traffic management for production service mesh deployments.
+- [java](../skills/frontend/ui-ux/java/java/SKILL.md) — Use this skill to design, implement, and operate production workflows for java. Language-specific super-code guidelines for java.
 - [javascript-testing-patterns](../skills/frontend/ui-ux/javascript_testing_p/javascript-testing-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for javascript testing patterns. Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices.
 - [jobgpt](../skills/frontend/ui-ux/jobgpt/jobgpt/SKILL.md) — Use this skill to design, implement, and operate production workflows for jobgpt. Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server.
 - [json-schema-manual](../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) — Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract.

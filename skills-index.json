@@ -31255,6 +31255,28 @@
     "maturity": "stable"
   },
   {
+    "name": "java",
+    "path": "skills/frontend/ui-ux/java/java",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "java",
+    "description": "Use this skill to design, implement, and operate production workflows for java. Language-specific super-code guidelines for java.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "java",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "javascript-testing-patterns",
     "path": "skills/frontend/ui-ux/javascript_testing_p/javascript-testing-patterns",
     "domain": "frontend",

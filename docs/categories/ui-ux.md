@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **264 skills** available in this category.
+> **265 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -151,6 +151,7 @@
 | [invariant-guard](../../skills/frontend/ui-ux/invariant_guard/invariant-guard/SKILL.md) | `invariant_guard` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for invariant guard. Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps. |
 | [ios-developer](../../skills/frontend/ui-ux/ios_developer/ios-developer/SKILL.md) | `ios_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ios developer. Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization. |
 | [istio-traffic-management](../../skills/frontend/ui-ux/istio_traffic_manage/istio-traffic-management/SKILL.md) | `istio_traffic_manage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for istio traffic management. Comprehensive guide to Istio traffic management for production service mesh deployments. |
+| [java](../../skills/frontend/ui-ux/java/java/SKILL.md) | `java` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for java. Language-specific super-code guidelines for java. |
 | [javascript-testing-patterns](../../skills/frontend/ui-ux/javascript_testing_p/javascript-testing-patterns/SKILL.md) | `javascript_testing_p` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for javascript testing patterns. Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices. |
 | [jobgpt](../../skills/frontend/ui-ux/jobgpt/jobgpt/SKILL.md) | `jobgpt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for jobgpt. Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server. |
 | [json-schema-manual](../../skills/frontend/ui-ux/json_schema_manual/json-schema-manual/SKILL.md) | `json_schema_manual` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for json schema manual. JSON Schema Manual: draft 2020-12 validation schema from a confirmed field list, with required and enum values only where confirmed. Use for an API or import contract. |

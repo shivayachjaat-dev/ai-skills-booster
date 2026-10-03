@@ -1492,6 +1492,7 @@ AI_Skills_Booster/
 │   │   ├── invariant_guard/ (1 skills)
 │   │   ├── ios_developer/ (1 skills)
 │   │   ├── istio_traffic_manage/ (1 skills)
+│   │   ├── java/ (1 skills)
 │   │   ├── javascript_testing_p/ (1 skills)
 │   │   ├── jobgpt/ (1 skills)
 │   │   ├── json_schema_manual/ (1 skills)
