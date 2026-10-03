@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,863** skills across structured domains, categories, and subcategories.
+Master navigation for **1,864** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (641 skills)
+## Ai Engineering (642 skills)
 
 ### Agents (82 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1243,7 +1243,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (40 skills)
+### Rag (41 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1321,6 +1321,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [rag-implementation](../skills/ai-engineering/rag/rag_implementation/rag-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag implementation. RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization.
 - **Rag_Infrastructure** (1):
   - [rag-infrastructure](../skills/ai-engineering/rag/rag_infrastructure/rag-infrastructure/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag infrastructure. Build and operate Retrieval-Augmented Generation (RAG) infrastructure
+- **Rag_Observability_Ev** (1):
+  - [rag-observability-evals](../skills/ai-engineering/rag/rag_observability_ev/rag-observability-evals/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag observability evals. Monitor and evaluate RAG systems with retrieval quality metrics, groundedness
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 

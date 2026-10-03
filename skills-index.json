@@ -14084,6 +14084,28 @@
     "maturity": "stable"
   },
   {
+    "name": "rag-observability-evals",
+    "path": "skills/ai-engineering/rag/rag_observability_ev/rag-observability-evals",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "rag_observability_ev",
+    "description": "Use this skill to design, implement, and operate production workflows for rag observability evals. Monitor and evaluate RAG systems with retrieval quality metrics, groundedness",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "rag",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Rag Observability Evals",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

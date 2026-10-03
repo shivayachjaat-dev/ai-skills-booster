@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **40 skills** available in this category.
+> **41 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -43,4 +43,5 @@
 | [rag-engineer](../../skills/ai-engineering/rag/rag_engineer/rag-engineer/SKILL.md) | `rag_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag engineer. Expert in building Retrieval-Augmented Generation systems. Masters |
 | [rag-implementation](../../skills/ai-engineering/rag/rag_implementation/rag-implementation/SKILL.md) | `rag_implementation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag implementation. RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization. |
 | [rag-infrastructure](../../skills/ai-engineering/rag/rag_infrastructure/rag-infrastructure/SKILL.md) | `rag_infrastructure` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag infrastructure. Build and operate Retrieval-Augmented Generation (RAG) infrastructure |
+| [rag-observability-evals](../../skills/ai-engineering/rag/rag_observability_ev/rag-observability-evals/SKILL.md) | `rag_observability_ev` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rag observability evals. Monitor and evaluate RAG systems with retrieval quality metrics, groundedness |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |
