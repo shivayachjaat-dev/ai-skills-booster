@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **525 skills** available in this category.
+> **526 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -524,6 +524,7 @@
 | [supply-chain-attack-recon](../../skills/ai-engineering/models/supply_chain_attack_/supply-chain-attack-recon/SKILL.md) | `supply_chain_attack_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supply chain attack recon. External recon for software supply-chain attack surface |
 | [supply-chain-attack-response](../../skills/ai-engineering/models/supply_chain_attack_/supply-chain-attack-response/SKILL.md) | `supply_chain_attack_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supply chain attack response. Detect, respond to, and prevent software supply chain attacks on package |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
+| [supply-chain-security](../../skills/ai-engineering/models/supply_chain_securit/supply-chain-security/SKILL.md) | `supply_chain_securit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supply chain security. Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](../../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
 | [vibe-code-auditor](../../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) | `vibe_code_auditor` | `advanced` | `stable` | Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. |

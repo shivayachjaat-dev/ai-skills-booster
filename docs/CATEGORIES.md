@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,158** skills across structured domains, categories, and subcategories.
+Master navigation for **2,159** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (726 skills)
+## Ai Engineering (727 skills)
 
 ### Agents (93 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -340,7 +340,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (525 skills)
+### Models (526 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1371,6 +1371,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [supply-chain-attack-response](../skills/ai-engineering/models/supply_chain_attack_/supply-chain-attack-response/SKILL.md) — Use this skill to design, implement, and operate production workflows for supply chain attack response. Detect, respond to, and prevent software supply chain attacks on package
 - **Supply_Chain_Risk_Au** (1):
   - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
+- **Supply_Chain_Securit** (1):
+  - [supply-chain-security](../skills/ai-engineering/models/supply_chain_securit/supply-chain-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for supply chain security. Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - **Typography_First** (1):

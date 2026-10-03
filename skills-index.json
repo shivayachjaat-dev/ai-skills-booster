@@ -14735,6 +14735,28 @@
     "maturity": "stable"
   },
   {
+    "name": "supply-chain-security",
+    "path": "skills/ai-engineering/models/supply_chain_securit/supply-chain-security",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "supply_chain_securit",
+    "description": "Use this skill to design, implement, and operate production workflows for supply chain security. Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "supply",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Supply Chain Security",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
