@@ -15115,6 +15115,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pentest-tools",
+    "path": "skills/backend/databases/pentest_tools/pentest-tools",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "pentest_tools",
+    "description": "Use this skill to design, implement, and operate production workflows for pentest tools. Operate 20+ penetration-testing tools (Nmap, Nuclei, SQLMap, FFUF, Hashcat, and more) through structured workflows with consistent output handling.",
+    "tags": [
+      "backend",
+      "databases",
+      "pentest",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pentest Tools",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",

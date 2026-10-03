@@ -691,7 +691,8 @@ AI_Skills_Booster/
 │   │   ├── nestjs_expert/ (1 skills)
 │   │   ├── notion_automation/ (1 skills)
 │   │   ├── obsidian_bases/ (1 skills)
-│   │   └── odoo_docker_deployme/ (1 skills)
+│   │   ├── odoo_docker_deployme/ (1 skills)
+│   │   └── pentest_tools/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/
