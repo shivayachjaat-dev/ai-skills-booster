@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **258 skills** available in this category.
+> **259 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -261,4 +261,5 @@
 | [seo-aeo-internal-linking](../../skills/software-engineering/architecture/patterns/seo-aeo-internal-linking/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo internal linking. Maps internal link opportunities between pages with relevant anchor text, placement instructions, orphan-page detection, and cannibalisation checks. |
 | [seo-aeo-keyword-research](../../skills/software-engineering/architecture/patterns/seo-aeo-keyword-research/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo keyword research. Researches and prioritises keywords from the site context and live search intent, including problem queries, question queries, difficulty tiers, and a content map. |
 | [seo-aeo-landing-page-writer](../../skills/software-engineering/architecture/patterns/seo-aeo-landing-page-writer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo landing page writer. Writes or improves conversion-focused landing pages for products, services, and offers with practical SEO and AEO structure. |
+| [seo-aeo-meta-description-generator](../../skills/software-engineering/architecture/patterns/seo-aeo-meta-description-generator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo meta description generator. Writes title tags, meta descriptions, Open Graph tags, and Twitter Card tags aligned to page intent and conversion goals. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

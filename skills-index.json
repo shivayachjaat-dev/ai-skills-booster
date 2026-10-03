@@ -43937,6 +43937,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-aeo-meta-description-generator",
+    "path": "skills/software-engineering/architecture/patterns/seo-aeo-meta-description-generator",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for seo aeo meta description generator. Writes title tags, meta descriptions, Open Graph tags, and Twitter Card tags aligned to page intent and conversion goals.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Aeo Meta Description Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
