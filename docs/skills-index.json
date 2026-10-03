@@ -12535,6 +12535,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pre-boarding",
+    "path": "skills/ai-engineering/models/pre_boarding/pre-boarding",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "pre_boarding",
+    "description": "Use this skill to design, implement, and operate production workflows for pre boarding. Pre-boarding checklist: task, employee and department, owner, category, joining and due dates, documents received, laptop, email and account-record readiness, status. Use for pre-boarding.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "pre",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pre Boarding",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
