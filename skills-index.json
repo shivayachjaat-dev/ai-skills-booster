@@ -1527,6 +1527,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pdf-conversion-router",
+    "path": "skills/ai-engineering/agents/pdf_conversion_route/pdf-conversion-router",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "pdf_conversion_route",
+    "description": "Use this skill to design, implement, and operate production workflows for pdf conversion router. Use when converting a PDF into another format such as Markdown, HTML, text, JSON, DOCX, or structured notes and the agent must choose the best extraction route, settings, and cleanup strategy for maximum fidelity and readability.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "pdf",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pdf Conversion Router",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-tmux-process-orchestrator",
     "path": "skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator",
     "domain": "ai-engineering",

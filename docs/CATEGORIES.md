@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,723** skills across structured domains, categories, and subcategories.
+Master navigation for **1,724** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (595 skills)
+## Ai Engineering (596 skills)
 
-### Agents (71 skills)
+### Agents (72 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -143,6 +143,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [multi-agent-workload-distribution-and-cost-optimization](../skills/ai-engineering/agents/orchestration-optimization/multi-agent-workload-distribution-and-cost-optimization/SKILL.md) — Use this skill to profile, balance workloads, and optimize operating costs across multi-agent systems. It implements dynamic tier-based model routing (directing fast summarization to lightweight models while reserving frontier reasoning models for complex planning), token budget caps, parallel fan-out concurrency limits, and failure retry backoffs.
 - **Osterwalder_Canvas_A** (1):
   - [osterwalder-canvas-architect](../skills/ai-engineering/agents/osterwalder_canvas_a/osterwalder-canvas-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for osterwalder canvas architect. Iterative consultant agent for building and validating logically consistent 9-block Business Model Canvases.
+- **Pdf_Conversion_Route** (1):
+  - [pdf-conversion-router](../skills/ai-engineering/agents/pdf_conversion_route/pdf-conversion-router/SKILL.md) — Use this skill to design, implement, and operate production workflows for pdf conversion router. Use when converting a PDF into another format such as Markdown, HTML, text, JSON, DOCX, or structured notes and the agent must choose the best extraction route, settings, and cleanup strategy for maximum fidelity and readability.
 - **Process Management** (1):
   - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - **Scheduling** (1):
