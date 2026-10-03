@@ -14251,6 +14251,28 @@
     "maturity": "stable"
   },
   {
+    "name": "smtp-penetration-testing",
+    "path": "skills/ai-engineering/models/smtp_penetration_tes/smtp-penetration-testing",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "smtp_penetration_tes",
+    "description": "Use this skill to design, implement, and operate production workflows for smtp penetration testing. Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeration, weak authentication, and misconfiguration.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "smtp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Smtp Penetration Testing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

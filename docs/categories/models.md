@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **509 skills** available in this category.
+> **510 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -507,6 +507,7 @@
 | [skill-seekers](../../skills/ai-engineering/models/skill_seekers/skill-seekers/SKILL.md) | `skill_seekers` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill seekers. -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes. |
 | [skyvern-browser-automation](../../skills/ai-engineering/models/skyvern_browser_auto/skyvern-browser-automation/SKILL.md) | `skyvern_browser_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skyvern browser automation. AI-powered browser automation — navigate sites, fill forms, extract structured data, log in with stored credentials, and build reusable workflows. |
 | [smartui-skill](../../skills/ai-engineering/models/smartui_skill/smartui-skill/SKILL.md) | `smartui_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for smartui skill. Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions \"SmartUI\", \"visual regression\", \"screenshot comparison... |
+| [smtp-penetration-testing](../../skills/ai-engineering/models/smtp_penetration_tes/smtp-penetration-testing/SKILL.md) | `smtp_penetration_tes` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for smtp penetration testing. Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeration, weak authentication, and misconfiguration. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](../../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
