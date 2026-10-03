@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,983 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,984 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1630,6 +1630,7 @@
 | [saas-security-posture](skills/security/appsec/saas_security_postur/saas-security-posture/SKILL.md) | `security` | `appsec` | `saas_security_postur` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saas security posture. Audit and harden your SaaS tool stack |
 | [sast-configuration](skills/security/appsec/sast_configuration/sast-configuration/SKILL.md) | `security` | `appsec` | `sast_configuration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sast configuration. Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages. |
 | [sast-scanning](skills/security/appsec/sast_scanning/sast-scanning/SKILL.md) | `security` | `appsec` | `sast_scanning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sast scanning. Perform static application security testing with tools like Semgrep, |
+| [security-arsenal](skills/security/appsec/security_arsenal/security-arsenal/SKILL.md) | `security` | `appsec` | `security_arsenal` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security arsenal. Security payloads, bypass tables, wordlists, gf pattern names, always-rejected |
 | [security-auditor](skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security` | `appsec` | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security` | `appsec` | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |

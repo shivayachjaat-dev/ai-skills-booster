@@ -1745,6 +1745,7 @@ AI_Skills_Booster/
 │   │   ├── saas_security_postur/ (1 skills)
 │   │   ├── sast_configuration/ (1 skills)
 │   │   ├── sast_scanning/ (1 skills)
+│   │   ├── security_arsenal/ (1 skills)
 │   │   ├── security_auditor/ (1 skills)
 │   │   └── security_checklist/ (1 skills)
 │   ├── architecture/

@@ -36258,6 +36258,28 @@
     "maturity": "stable"
   },
   {
+    "name": "security-arsenal",
+    "path": "skills/security/appsec/security_arsenal/security-arsenal",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "security_arsenal",
+    "description": "Use this skill to design, implement, and operate production workflows for security arsenal. Security payloads, bypass tables, wordlists, gf pattern names, always-rejected",
+    "tags": [
+      "security",
+      "appsec",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Arsenal",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",

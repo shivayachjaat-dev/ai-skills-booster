@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **108 skills** available in this category.
+> **109 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -110,5 +110,6 @@
 | [saas-security-posture](../../skills/security/appsec/saas_security_postur/saas-security-posture/SKILL.md) | `saas_security_postur` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saas security posture. Audit and harden your SaaS tool stack |
 | [sast-configuration](../../skills/security/appsec/sast_configuration/sast-configuration/SKILL.md) | `sast_configuration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sast configuration. Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages. |
 | [sast-scanning](../../skills/security/appsec/sast_scanning/sast-scanning/SKILL.md) | `sast_scanning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sast scanning. Perform static application security testing with tools like Semgrep, |
+| [security-arsenal](../../skills/security/appsec/security_arsenal/security-arsenal/SKILL.md) | `security_arsenal` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security arsenal. Security payloads, bypass tables, wordlists, gf pattern names, always-rejected |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](../../skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
