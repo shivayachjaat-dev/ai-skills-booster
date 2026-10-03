@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,760** skills across structured domains, categories, and subcategories.
+Master navigation for **1,761** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (607 skills)
 
@@ -3616,9 +3616,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (222 skills)
+## Software Engineering (223 skills)
 
-### Architecture (215 skills)
+### Architecture (216 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -3627,7 +3627,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (212):
+- **Patterns** (213):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -3838,6 +3838,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [pitch-psychologist](../skills/software-engineering/architecture/patterns/pitch-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for pitch psychologist. One sentence - what this skill does and when to invoke it
   - [plan-writing](../skills/software-engineering/architecture/patterns/plan-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for plan writing. Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.
   - [planning-with-files](../skills/software-engineering/architecture/patterns/planning-with-files/SKILL.md) — Use this skill to design, implement, and operate production workflows for planning with files. Work like Manus: Use persistent markdown files as your \"working memory on disk.\
+  - [playwright-skill](../skills/software-engineering/architecture/patterns/playwright-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for playwright skill. IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, a...
   - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
   - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 

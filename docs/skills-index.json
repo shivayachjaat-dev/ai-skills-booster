@@ -38503,6 +38503,28 @@
     "maturity": "stable"
   },
   {
+    "name": "playwright-skill",
+    "path": "skills/software-engineering/architecture/patterns/playwright-skill",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for playwright skill. IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, a...",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "playwright",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Playwright Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
