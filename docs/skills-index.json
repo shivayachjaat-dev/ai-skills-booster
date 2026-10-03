@@ -27801,6 +27801,28 @@
     "maturity": "stable"
   },
   {
+    "name": "policy-library",
+    "path": "skills/frontend/ui-ux/policy_library/policy-library",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "policy_library",
+    "description": "Use this skill to design, implement, and operate production workflows for policy library. Policy register: name, version, category, owner and approver, applies to, compliance framework, acknowledgement requirement, effective date and next review. Use for policy management.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "policy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Policy Library",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

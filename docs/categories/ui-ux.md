@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **209 skills** available in this category.
+> **210 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -210,6 +210,7 @@
 | [plan-ledger-tasks-yylo](../../skills/frontend/ui-ux/plan_ledger_tasks_yy/plan-ledger-tasks-yylo/SKILL.md) | `plan_ledger_tasks_yy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for plan ledger tasks yylo. Create a concise Product Development Requirement and one or more implementation-sized |
 | [planning-and-task-breakdown](../../skills/frontend/ui-ux/planning_and_task_br/planning-and-task-breakdown/SKILL.md) | `planning_and_task_br` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for planning and task breakdown. Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible. |
 | [platform-engineering](../../skills/frontend/ui-ux/platform_engineering/platform-engineering/SKILL.md) | `platform_engineering` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for platform engineering. Build internal developer platforms (IDPs) with self-service infrastructure, |
+| [policy-library](../../skills/frontend/ui-ux/policy_library/policy-library/SKILL.md) | `policy_library` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for policy library. Policy register: name, version, category, owner and approver, applies to, compliance framework, acknowledgement requirement, effective date and next review. Use for policy management. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
