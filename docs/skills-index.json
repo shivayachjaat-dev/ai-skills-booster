@@ -32685,6 +32685,28 @@
     "maturity": "stable"
   },
   {
+    "name": "software-architecture",
+    "path": "skills/frontend/ui-ux/software_architectur/software-architecture",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "software_architectur",
+    "description": "Use this skill to design, implement, and operate production workflows for software architecture. Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "software",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Software Architecture",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",

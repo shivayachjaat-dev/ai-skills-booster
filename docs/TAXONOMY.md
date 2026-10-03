@@ -1558,6 +1558,7 @@ AI_Skills_Booster/
 │   │   ├── skill_developer/ (1 skills)
 │   │   ├── slack_bot_builder/ (1 skills)
 │   │   ├── social_content/ (1 skills)
+│   │   ├── software_architectur/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
 │   └── web-architecture/
