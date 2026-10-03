@@ -28175,6 +28175,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pr-merge-champion",
+    "path": "skills/frontend/ui-ux/pr_merge_champion/pr-merge-champion",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "pr_merge_champion",
+    "description": "Use this skill to design, implement, and operate production workflows for pr merge champion. Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "pr",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pr Merge Champion",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

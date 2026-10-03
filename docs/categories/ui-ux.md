@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **214 skills** available in this category.
+> **215 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -215,6 +215,7 @@
 | [postmortem-writing](../../skills/frontend/ui-ux/postmortem_writing/postmortem-writing/SKILL.md) | `postmortem_writing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postmortem writing. Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence. |
 | [power-user-cultivation](../../skills/frontend/ui-ux/power_user_cultivati/power-user-cultivation/SKILL.md) | `power_user_cultivati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for power user cultivation. When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists. |
 | [pptx-deck-creation](../../skills/frontend/ui-ux/pptx_deck_creation/pptx-deck-creation/SKILL.md) | `pptx_deck_creation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pptx deck creation. Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks. |
+| [pr-merge-champion](../../skills/frontend/ui-ux/pr_merge_champion/pr-merge-champion/SKILL.md) | `pr_merge_champion` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pr merge champion. Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

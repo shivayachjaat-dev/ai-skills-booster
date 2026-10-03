@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,788** skills across structured domains, categories, and subcategories.
+Master navigation for **1,789** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (614 skills)
 
@@ -2341,7 +2341,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (355 skills)
+## Frontend (356 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2507,7 +2507,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (214 skills)
+### Ui Ux (215 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2932,6 +2932,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [power-user-cultivation](../skills/frontend/ui-ux/power_user_cultivati/power-user-cultivation/SKILL.md) — Use this skill to design, implement, and operate production workflows for power user cultivation. When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists.
 - **Pptx_Deck_Creation** (1):
   - [pptx-deck-creation](../skills/frontend/ui-ux/pptx_deck_creation/pptx-deck-creation/SKILL.md) — Use this skill to design, implement, and operate production workflows for pptx deck creation. Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks.
+- **Pr_Merge_Champion** (1):
+  - [pr-merge-champion](../skills/frontend/ui-ux/pr_merge_champion/pr-merge-champion/SKILL.md) — Use this skill to design, implement, and operate production workflows for pr merge champion. Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
