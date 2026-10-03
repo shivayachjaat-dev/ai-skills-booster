@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **438 skills** available in this category.
+> **439 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -435,6 +435,7 @@
 | [performance-testing-review-ai-review](../../skills/ai-engineering/models/performance_testing_/performance-testing-review-ai-review/SKILL.md) | `performance_testing_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance testing review ai review. You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C |
 | [pilot-protocol](../../skills/ai-engineering/models/pilot_protocol/pilot-protocol/SKILL.md) | `pilot_protocol` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pilot protocol. Give an AI agent a permanent network address, encrypted P2P messaging, and an installable app store via Pilot Protocol |
 | [pipecat-friday-agent](../../skills/ai-engineering/models/pipecat_friday_agent/pipecat-friday-agent/SKILL.md) | `pipecat_friday_agent` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pipecat friday agent. Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI. |
+| [plaid-fintech](../../skills/ai-engineering/models/plaid_fintech/plaid-fintech/SKILL.md) | `plaid_fintech` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for plaid fintech. Expert patterns for Plaid API integration including Link token |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

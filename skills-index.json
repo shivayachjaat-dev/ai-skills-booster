@@ -12359,6 +12359,28 @@
     "maturity": "stable"
   },
   {
+    "name": "plaid-fintech",
+    "path": "skills/ai-engineering/models/plaid_fintech/plaid-fintech",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "plaid_fintech",
+    "description": "Use this skill to design, implement, and operate production workflows for plaid fintech. Expert patterns for Plaid API integration including Link token",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "plaid",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Plaid Fintech",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

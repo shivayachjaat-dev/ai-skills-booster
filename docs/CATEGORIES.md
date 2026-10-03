@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,752** skills across structured domains, categories, and subcategories.
+Master navigation for **1,753** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (606 skills)
+## Ai Engineering (607 skills)
 
 ### Agents (76 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -302,7 +302,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (438 skills)
+### Models (439 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1156,6 +1156,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [pilot-protocol](../skills/ai-engineering/models/pilot_protocol/pilot-protocol/SKILL.md) — Use this skill to design, implement, and operate production workflows for pilot protocol. Give an AI agent a permanent network address, encrypted P2P messaging, and an installable app store via Pilot Protocol
 - **Pipecat_Friday_Agent** (1):
   - [pipecat-friday-agent](../skills/ai-engineering/models/pipecat_friday_agent/pipecat-friday-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for pipecat friday agent. Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI.
+- **Plaid_Fintech** (1):
+  - [plaid-fintech](../skills/ai-engineering/models/plaid_fintech/plaid-fintech/SKILL.md) — Use this skill to design, implement, and operate production workflows for plaid fintech. Expert patterns for Plaid API integration including Link token
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
