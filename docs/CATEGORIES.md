@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,104** skills across structured domains, categories, and subcategories.
+Master navigation for **2,105** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (712 skills)
 
@@ -2375,9 +2375,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (113 skills)
+## Devops (114 skills)
 
-### Ci Cd (48 skills)
+### Ci Cd (49 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -2476,6 +2476,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [semantic-versioning](../skills/devops/ci-cd/semantic_versioning/semantic-versioning/SKILL.md) — Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning
 - **Service_Mesh** (1):
   - [service-mesh](../skills/devops/ci-cd/service_mesh/service-mesh/SKILL.md) — Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management,
+- **Sre_Dashboards** (1):
+  - [sre-dashboards](../skills/devops/ci-cd/sre_dashboards/sre-dashboards/SKILL.md) — Use this skill to design, implement, and operate production workflows for sre dashboards. Design and operationalize SRE dashboards that surface reliability, latency,
 
 ### Cloud Infrastructure (43 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)

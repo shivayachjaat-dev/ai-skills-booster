@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **48 skills** available in this category.
+> **49 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -52,3 +52,4 @@
 | [reverse-proxy](../../skills/devops/ci-cd/reverse_proxy/reverse-proxy/SKILL.md) | `reverse_proxy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reverse proxy. Configure nginx and Traefik as reverse proxies. Implement SSL termination |
 | [semantic-versioning](../../skills/devops/ci-cd/semantic_versioning/semantic-versioning/SKILL.md) | `semantic_versioning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning |
 | [service-mesh](../../skills/devops/ci-cd/service_mesh/service-mesh/SKILL.md) | `service_mesh` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management, |
+| [sre-dashboards](../../skills/devops/ci-cd/sre_dashboards/sre-dashboards/SKILL.md) | `sre_dashboards` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sre dashboards. Design and operationalize SRE dashboards that surface reliability, latency, |
