@@ -14330,6 +14330,28 @@
     "maturity": "stable"
   },
   {
+    "name": "performance-optimizer",
+    "path": "skills/backend/api-frameworks/performance_optimize/performance-optimizer",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "performance_optimize",
+    "description": "Use this skill to design, implement, and operate production workflows for performance optimizer. Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "performance",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Performance Optimizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",

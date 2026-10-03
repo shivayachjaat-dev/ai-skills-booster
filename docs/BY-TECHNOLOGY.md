@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1552 skills)
+## Bash (1553 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1686,6 +1686,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [odoo-shopify-integration](../skills/backend/api-frameworks/odoo_shopify_integra/odoo-shopify-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo shopify integration. Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules.
 - [odoo-woocommerce-bridge](../skills/backend/api-frameworks/odoo_woocommerce_bri/odoo-woocommerce-bridge/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo woocommerce bridge. Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API.
 - [openapi-spec-generator](../skills/backend/api-frameworks/openapi_spec_generat/openapi-spec-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for openapi spec generator. Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs.
+- [performance-optimizer](../skills/backend/api-frameworks/performance_optimize/performance-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance optimizer. Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.
 - [hunt-cache-poison](../skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.
 - [asset-it-management](../skills/backend/databases/asset_it_management/asset-it-management/SKILL.md) — Use this skill to asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.
 - [azure-postgres-ts](../skills/backend/databases/azure_postgres_ts/azure-postgres-ts/SKILL.md) — Use this skill to connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
@@ -8932,6 +8933,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [performance-optimization](../skills/frontend/web-architecture/performance_optimiza/performance-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance optimization. Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing.
 
+## Performance Optimizer (1 skills)
+
+- [performance-optimizer](../skills/backend/api-frameworks/performance_optimize/performance-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance optimizer. Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.
+
 ## Perlin Noise (1 skills)
 
 - [p5js-generative-algorithmic-art-canvas](../skills/multimedia/generative-art/p5js/p5js-generative-algorithmic-art-canvas/SKILL.md) — Use this skill to design, write, and render interactive generative algorithmic art, creative coding animations, and mathematical visualizations using p5.js and HTML5 Canvas. It covers noise field mathematics (Perlin/Simplex), particle physics, vector math, and high-DPI export.
@@ -9090,7 +9095,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1655 skills)
+## Python (1656 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9732,6 +9737,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [odoo-shopify-integration](../skills/backend/api-frameworks/odoo_shopify_integra/odoo-shopify-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo shopify integration. Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules.
 - [odoo-woocommerce-bridge](../skills/backend/api-frameworks/odoo_woocommerce_bri/odoo-woocommerce-bridge/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo woocommerce bridge. Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API.
 - [openapi-spec-generator](../skills/backend/api-frameworks/openapi_spec_generat/openapi-spec-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for openapi spec generator. Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs.
+- [performance-optimizer](../skills/backend/api-frameworks/performance_optimize/performance-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance optimizer. Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.
 - [celery-distributed-task-processing](../skills/backend/background-tasks/celery/celery-distributed-task-processing/SKILL.md) — Use this skill when designing, configuring, and operating asynchronous distributed task queues using Celery in Python. It covers broker connection tuning (Redis/RabbitMQ), exponential backoff retry strategies, task canvas workflows (chains, groups, chords), task deduplication, and worker concurrency optimization.
 - [hunt-cache-poison](../skills/backend/caching/hunt_cache_poison/hunt-cache-poison/SKILL.md) — Use this skill to design, implement, and operate production workflows for hunt cache poison. Hunting skill for cache poison vulnerabilities.
 - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.

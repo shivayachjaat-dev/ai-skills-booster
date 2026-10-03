@@ -654,7 +654,8 @@ AI_Skills_Booster/
 │   │   ├── odoo_rpc_api/ (1 skills)
 │   │   ├── odoo_shopify_integra/ (1 skills)
 │   │   ├── odoo_woocommerce_bri/ (1 skills)
-│   │   └── openapi_spec_generat/ (1 skills)
+│   │   ├── openapi_spec_generat/ (1 skills)
+│   │   └── performance_optimize/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/

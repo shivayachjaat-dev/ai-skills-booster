@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,734** skills across structured domains, categories, and subcategories.
+Master navigation for **1,735** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (599 skills)
 
@@ -1264,7 +1264,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (108 skills)
+## Backend (109 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1288,7 +1288,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (38 skills)
+### Api Frameworks (39 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -1365,6 +1365,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [odoo-woocommerce-bridge](../skills/backend/api-frameworks/odoo_woocommerce_bri/odoo-woocommerce-bridge/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo woocommerce bridge. Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API.
 - **Openapi_Spec_Generat** (1):
   - [openapi-spec-generator](../skills/backend/api-frameworks/openapi_spec_generat/openapi-spec-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for openapi spec generator. Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs.
+- **Performance_Optimize** (1):
+  - [performance-optimizer](../skills/backend/api-frameworks/performance_optimize/performance-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance optimizer. Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)

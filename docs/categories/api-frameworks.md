@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **38 skills** available in this category.
+> **39 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,3 +42,4 @@
 | [odoo-shopify-integration](../../skills/backend/api-frameworks/odoo_shopify_integra/odoo-shopify-integration/SKILL.md) | `odoo_shopify_integra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo shopify integration. Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules. |
 | [odoo-woocommerce-bridge](../../skills/backend/api-frameworks/odoo_woocommerce_bri/odoo-woocommerce-bridge/SKILL.md) | `odoo_woocommerce_bri` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo woocommerce bridge. Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API. |
 | [openapi-spec-generator](../../skills/backend/api-frameworks/openapi_spec_generat/openapi-spec-generator/SKILL.md) | `openapi_spec_generat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openapi spec generator. Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs. |
+| [performance-optimizer](../../skills/backend/api-frameworks/performance_optimize/performance-optimizer/SKILL.md) | `performance_optimize` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance optimizer. Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements. |
