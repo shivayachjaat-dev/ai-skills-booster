@@ -37139,6 +37139,28 @@
     "maturity": "stable"
   },
   {
+    "name": "os-scripting",
+    "path": "skills/software-engineering/architecture/patterns/os-scripting",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for os scripting. Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and automation.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "os",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Os Scripting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
