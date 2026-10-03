@@ -35444,6 +35444,28 @@
     "maturity": "stable"
   },
   {
+    "name": "runbook-creation",
+    "path": "skills/security/appsec/runbook_creation/runbook-creation",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "runbook_creation",
+    "description": "Use this skill to design, implement, and operate production workflows for runbook creation. Create operational runbooks and standard operating procedures. Document",
+    "tags": [
+      "security",
+      "appsec",
+      "runbook",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Runbook Creation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",

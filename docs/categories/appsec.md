@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **103 skills** available in this category.
+> **104 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -105,5 +105,6 @@
 | [recon-scope-triage](../../skills/security/appsec/recon_scope_triage/recon-scope-triage/SKILL.md) | `recon_scope_triage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recon scope triage. Triage ASM/recon output for ownership before testing |
 | [redteam-mindset](../../skills/security/appsec/redteam_mindset/redteam-mindset/SKILL.md) | `redteam_mindset` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for redteam mindset. Red-team operator discipline |
 | [report-writing](../../skills/security/appsec/report_writing/report-writing/SKILL.md) | `report_writing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for report writing. Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi |
+| [runbook-creation](../../skills/security/appsec/runbook_creation/runbook-creation/SKILL.md) | `runbook_creation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for runbook creation. Create operational runbooks and standard operating procedures. Document |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](../../skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
