@@ -28901,6 +28901,28 @@
     "maturity": "stable"
   },
   {
+    "name": "photopea-embedded-editor",
+    "path": "skills/frontend/web-architecture/photopea_embedded_ed/photopea-embedded-editor",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "photopea_embedded_ed",
+    "description": "Use this skill to design, implement, and operate production workflows for photopea embedded editor. Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and the full Photoshop-compatible API.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "photopea",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Photopea Embedded Editor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
