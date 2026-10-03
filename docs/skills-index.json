@@ -29209,6 +29209,28 @@
     "maturity": "stable"
   },
   {
+    "name": "python-pptx-generator",
+    "path": "skills/frontend/ui-ux/python_pptx_generato/python-pptx-generator",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "python_pptx_generato",
+    "description": "Use this skill to design, implement, and operate production workflows for python pptx generator. Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "python",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Python Pptx Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
