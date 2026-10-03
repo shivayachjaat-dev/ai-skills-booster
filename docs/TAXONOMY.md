@@ -932,6 +932,7 @@ AI_Skills_Booster/
 │   │   ├── model_serving_kubern/ (1 skills)
 │   │   ├── new_relic/ (1 skills)
 │   │   ├── openshift/ (1 skills)
+│   │   ├── opentelemetry/ (1 skills)
 │   │   └── optimization/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)

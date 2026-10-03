@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,689 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,690 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -870,6 +870,7 @@
 | [model-serving-kubernetes](skills/devops/ci-cd/model_serving_kubern/model-serving-kubernetes/SKILL.md) | `devops` | `ci-cd` | `model_serving_kubern` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for model serving kubernetes. Deploy ML models on Kubernetes with KServe (formerly KFServing) and NVIDIA |
 | [new-relic](skills/devops/ci-cd/new_relic/new-relic/SKILL.md) | `devops` | `ci-cd` | `new_relic` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for new relic. Configure New Relic observability platform for infrastructure and application |
 | [openshift](skills/devops/ci-cd/openshift/openshift/SKILL.md) | `devops` | `ci-cd` | `openshift` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openshift. Manage Red Hat OpenShift clusters and deployments. |
+| [opentelemetry](skills/devops/ci-cd/opentelemetry/opentelemetry/SKILL.md) | `devops` | `ci-cd` | `opentelemetry` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for opentelemetry. Instrument applications and infrastructure with OpenTelemetry for unified |
 | [github-actions-ci-pipeline-optimization](skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `devops` | `ci-cd` | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |

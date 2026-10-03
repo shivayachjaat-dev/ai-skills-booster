@@ -19337,6 +19337,28 @@
     "maturity": "stable"
   },
   {
+    "name": "opentelemetry",
+    "path": "skills/devops/ci-cd/opentelemetry/opentelemetry",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "opentelemetry",
+    "description": "Use this skill to design, implement, and operate production workflows for opentelemetry. Instrument applications and infrastructure with OpenTelemetry for unified",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "opentelemetry",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Opentelemetry",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",
