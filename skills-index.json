@@ -25017,6 +25017,28 @@
     "maturity": "stable"
   },
   {
+    "name": "scala-pro",
+    "path": "skills/frontend/frameworks/scala_pro/scala-pro",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "scala_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for scala pro. Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "scala",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Scala Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
