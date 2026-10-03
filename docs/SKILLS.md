@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,018 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,019 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -632,6 +632,7 @@
 | [seo-engineering-workflow](skills/ai-engineering/models/seo/seo-engineering-workflow/SKILL.md) | `ai-engineering` | `models` | `seo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo engineering workflow. Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO. Use as the umbrella skill when the user asks for a full SEO analysis or strategy. |
 | [seo-content-refresher](skills/ai-engineering/models/seo_content_refreshe/seo-content-refresher/SKILL.md) | `ai-engineering` | `models` | `seo_content_refreshe` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo content refresher. Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content. |
 | [seo-dataforseo](skills/ai-engineering/models/seo_dataforseo/seo-dataforseo/SKILL.md) | `ai-engineering` | `models` | `seo_dataforseo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo dataforseo. Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance. |
+| [seo-directory-backlinks](skills/ai-engineering/models/seo_directory_backli/seo-directory-backlinks/SKILL.md) | `ai-engineering` | `models` | `seo_directory_backli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo directory backlinks. Directory and backlink register: platform, domain, target URL, follow attribute, authority and spam scores, approval and NAP-match status. Use for SEO citation tracking. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

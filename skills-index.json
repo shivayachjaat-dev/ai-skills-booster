@@ -13899,6 +13899,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-directory-backlinks",
+    "path": "skills/ai-engineering/models/seo_directory_backli/seo-directory-backlinks",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "seo_directory_backli",
+    "description": "Use this skill to design, implement, and operate production workflows for seo directory backlinks. Directory and backlink register: platform, domain, target URL, follow attribute, authority and spam scores, approval and NAP-match status. Use for SEO citation tracking.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Directory Backlinks",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

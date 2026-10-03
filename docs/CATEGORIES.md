@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,018** skills across structured domains, categories, and subcategories.
+Master navigation for **2,019** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (686 skills)
+## Ai Engineering (687 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (496 skills)
+### Models (497 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1296,6 +1296,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [seo-content-refresher](../skills/ai-engineering/models/seo_content_refreshe/seo-content-refresher/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo content refresher. Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.
 - **Seo_Dataforseo** (1):
   - [seo-dataforseo](../skills/ai-engineering/models/seo_dataforseo/seo-dataforseo/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo dataforseo. Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance.
+- **Seo_Directory_Backli** (1):
+  - [seo-directory-backlinks](../skills/ai-engineering/models/seo_directory_backli/seo-directory-backlinks/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo directory backlinks. Directory and backlink register: platform, domain, target URL, follow attribute, authority and spam scores, approval and NAP-match status. Use for SEO citation tracking.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
