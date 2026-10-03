@@ -67,6 +67,7 @@ AI_Skills_Booster/
 │   │   ├── omp_delegate/ (1 skills)
 │   │   ├── ontoly_software_grap/ (1 skills)
 │   │   ├── opencode_delegate/ (1 skills)
+│   │   ├── optim_agent/ (1 skills)
 │   │   ├── orchestration/ (1 skills)
 │   │   ├── orchestration-optimization/ (1 skills)
 │   │   ├── process-management/ (1 skills)

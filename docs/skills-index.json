@@ -1412,6 +1412,28 @@
     "maturity": "stable"
   },
   {
+    "name": "optim-agent",
+    "path": "skills/ai-engineering/agents/optim_agent/optim-agent",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "optim_agent",
+    "description": "Use this skill to design, implement, and operate production workflows for optim agent. Guide agent-driven parameter optimization for configurable systems with measurable objectives. Use for HPO, inference tuning, simulations, or RL/control experiments.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "optim",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Optim Agent",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-consensus-protocol",
     "path": "skills/ai-engineering/agents/orchestration/multi-agent-consensus-protocol",
     "domain": "ai-engineering",
