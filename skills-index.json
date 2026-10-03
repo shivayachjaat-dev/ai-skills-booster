@@ -44245,6 +44245,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-keyword-strategist",
+    "path": "skills/software-engineering/architecture/patterns/seo-keyword-strategist",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for seo keyword strategist. Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Keyword Strategist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
