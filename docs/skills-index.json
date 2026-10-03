@@ -39295,6 +39295,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pricing",
+    "path": "skills/software-engineering/architecture/patterns/pricing",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for pricing. When the user wants help with pricing decisions, packaging, or monetization strategy.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "pricing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pricing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
