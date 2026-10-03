@@ -13393,6 +13393,28 @@
     "maturity": "stable"
   },
   {
+    "name": "routerbase-model-gateway",
+    "path": "skills/ai-engineering/models/routerbase_model_gat/routerbase-model-gateway",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "routerbase_model_gat",
+    "description": "Use this skill to design, implement, and operate production workflows for routerbase model gateway. Integrate RouterBase as an OpenAI-compatible model gateway for routing GPT, Claude, Gemini, media, audio, and embedding requests.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "routerbase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Routerbase Model Gateway",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

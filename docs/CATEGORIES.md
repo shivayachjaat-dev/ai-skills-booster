@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,935** skills across structured domains, categories, and subcategories.
+Master navigation for **1,936** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (661 skills)
+## Ai Engineering (662 skills)
 
 ### Agents (85 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -324,7 +324,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (474 skills)
+### Models (475 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1250,6 +1250,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [reverse-engineer](../skills/ai-engineering/models/reverse_engineer/reverse-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse engineer. Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.
 - **Review_Animations** (1):
   - [review-animations](../skills/ai-engineering/models/review_animations/review-animations/SKILL.md) — Use this skill to design, implement, and operate production workflows for review animations. Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-quality bar.
+- **Routerbase_Model_Gat** (1):
+  - [routerbase-model-gateway](../skills/ai-engineering/models/routerbase_model_gat/routerbase-model-gateway/SKILL.md) — Use this skill to design, implement, and operate production workflows for routerbase model gateway. Integrate RouterBase as an OpenAI-compatible model gateway for routing GPT, Claude, Gemini, media, audio, and embedding requests.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

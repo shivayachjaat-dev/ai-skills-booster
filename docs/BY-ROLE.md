@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (848 skills)
+## AI Engineer (849 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -596,6 +596,7 @@ Curated workflows organized by professional role and specialization.
 - [returns-reverse-logistics](../skills/ai-engineering/models/returns_reverse_logi/returns-reverse-logistics/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for returns reverse logistics. Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management.
 - [reverse-engineer](../skills/ai-engineering/models/reverse_engineer/reverse-engineer/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for reverse engineer. Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.
 - [review-animations](../skills/ai-engineering/models/review_animations/review-animations/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for review animations. Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-quality bar.
+- [routerbase-model-gateway](../skills/ai-engineering/models/routerbase_model_gat/routerbase-model-gateway/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for routerbase model gateway. Integrate RouterBase as an OpenAI-compatible model gateway for routing GPT, Claude, Gemini, media, audio, and embedding requests.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — `ai-engineering`: Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — `ai-engineering`: Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.

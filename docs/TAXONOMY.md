@@ -609,6 +609,7 @@ AI_Skills_Booster/
 │   │   ├── returns_reverse_logi/ (1 skills)
 │   │   ├── reverse_engineer/ (1 skills)
 │   │   ├── review_animations/ (1 skills)
+│   │   ├── routerbase_model_gat/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
