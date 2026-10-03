@@ -34137,6 +34137,28 @@
     "maturity": "stable"
   },
   {
+    "name": "swiftui-ui-patterns",
+    "path": "skills/frontend/ui-ux/swiftui_ui_patterns/swiftui-ui-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "swiftui_ui_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for swiftui ui patterns. Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "swiftui",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Swiftui Ui Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "typescript",
     "path": "skills/frontend/ui-ux/typescript/typescript",
     "domain": "frontend",

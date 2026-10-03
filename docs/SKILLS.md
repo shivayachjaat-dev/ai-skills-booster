@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,164 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,165 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1537,6 +1537,7 @@
 | [swiftui-expert-skill](skills/frontend/ui-ux/swiftui_expert_skill/swiftui-expert-skill/SKILL.md) | `frontend` | `ui-ux` | `swiftui_expert_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swiftui expert skill. Write, review, and refactor SwiftUI for iOS or macOS, covering data flow, view composition, performance, identity, environment, localization, animation, API migration, and Instruments traces. |
 | [swiftui-liquid-glass](skills/frontend/ui-ux/swiftui_liquid_glass/swiftui-liquid-glass/SKILL.md) | `frontend` | `ui-ux` | `swiftui_liquid_glass` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swiftui liquid glass. Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
+| [swiftui-ui-patterns](skills/frontend/ui-ux/swiftui_ui_patterns/swiftui-ui-patterns/SKILL.md) | `frontend` | `ui-ux` | `swiftui_ui_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swiftui ui patterns. Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens. |
 | [typescript](skills/frontend/ui-ux/typescript/typescript/SKILL.md) | `frontend` | `ui-ux` | `typescript` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
 | [3d-ui](skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) | `frontend` | `web-architecture` | `3d_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth. |
