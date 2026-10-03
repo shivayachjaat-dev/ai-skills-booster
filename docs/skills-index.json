@@ -13965,6 +13965,28 @@
     "maturity": "stable"
   },
   {
+    "name": "setup-help",
+    "path": "skills/ai-engineering/models/setup_help/setup-help",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "setup_help",
+    "description": "Use this skill to design, implement, and operate production workflows for setup help. Walk a user through setup or installation one step at a time with the remaining steps visible.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "setup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Setup Help",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

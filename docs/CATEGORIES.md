@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,034** skills across structured domains, categories, and subcategories.
+Master navigation for **2,035** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (689 skills)
+## Ai Engineering (690 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (499 skills)
+### Models (500 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1302,6 +1302,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [seo-geo](../skills/ai-engineering/models/seo_geo/seo-geo/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo geo. Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler accessibility, and passage-level citability.
 - **Seo_Technical** (1):
   - [seo-technical](../skills/ai-engineering/models/seo_technical/seo-technical/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo technical. Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access.
+- **Setup_Help** (1):
+  - [setup-help](../skills/ai-engineering/models/setup_help/setup-help/SKILL.md) — Use this skill to design, implement, and operate production workflows for setup help. Walk a user through setup or installation one step at a time with the remaining steps visible.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

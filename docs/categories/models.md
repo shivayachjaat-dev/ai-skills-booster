@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **499 skills** available in this category.
+> **500 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -496,6 +496,7 @@
 | [seo-directory-backlinks](../../skills/ai-engineering/models/seo_directory_backli/seo-directory-backlinks/SKILL.md) | `seo_directory_backli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo directory backlinks. Directory and backlink register: platform, domain, target URL, follow attribute, authority and spam scores, approval and NAP-match status. Use for SEO citation tracking. |
 | [seo-geo](../../skills/ai-engineering/models/seo_geo/seo-geo/SKILL.md) | `seo_geo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo geo. Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler accessibility, and passage-level citability. |
 | [seo-technical](../../skills/ai-engineering/models/seo_technical/seo-technical/SKILL.md) | `seo_technical` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo technical. Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access. |
+| [setup-help](../../skills/ai-engineering/models/setup_help/setup-help/SKILL.md) | `setup_help` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for setup help. Walk a user through setup or installation one step at a time with the remaining steps visible. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
