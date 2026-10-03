@@ -31365,6 +31365,28 @@
     "maturity": "stable"
   },
   {
+    "name": "security-requirement-extraction",
+    "path": "skills/frontend/ui-ux/security_requirement/security-requirement-extraction",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "security_requirement",
+    "description": "Use this skill to design, implement, and operate production workflows for security requirement extraction. Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Requirement Extraction",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
