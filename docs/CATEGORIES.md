@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,141** skills across structured domains, categories, and subcategories.
+Master navigation for **2,142** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (427 skills)
+## Frontend (428 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (259 skills)
+### Ui Ux (260 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3009,6 +3009,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [copilot-sdk](../skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) — Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET.
 - **Core_Components** (1):
   - [core-components](../skills/frontend/ui-ux/core_components/core-components/SKILL.md) — Use this skill to design, implement, and operate production workflows for core components. Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
+- **Cpp** (1):
+  - [cpp-engineering-workflow](../skills/frontend/ui-ux/cpp/cpp-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for cpp engineering workflow. Language-specific super-code guidelines for cpp.
 - **Cqrs_Implementation** (1):
   - [cqrs-implementation](../skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation/SKILL.md) — Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems.
 - **Crossframe_Casebook** (1):

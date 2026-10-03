@@ -29033,6 +29033,28 @@
     "maturity": "stable"
   },
   {
+    "name": "cpp-engineering-workflow",
+    "path": "skills/frontend/ui-ux/cpp/cpp-engineering-workflow",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "cpp",
+    "description": "Use this skill to design, implement, and operate production workflows for cpp engineering workflow. Language-specific super-code guidelines for cpp.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "cpp",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Cpp Engineering Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cqrs-implementation",
     "path": "skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation",
     "domain": "frontend",

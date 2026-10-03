@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1960 skills)
+## Bash (1961 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2271,6 +2271,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [connection-auth-rules](../skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules/SKILL.md) — Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches
 - [copilot-sdk](../skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) — Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET.
 - [core-components](../skills/frontend/ui-ux/core_components/core-components/SKILL.md) — Use this skill to design, implement, and operate production workflows for core components. Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
+- [cpp-engineering-workflow](../skills/frontend/ui-ux/cpp/cpp-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for cpp engineering workflow. Language-specific super-code guidelines for cpp.
 - [cqrs-implementation](../skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation/SKILL.md) — Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems.
 - [crossframe-casebook](../skills/frontend/ui-ux/crossframe_casebook/crossframe-casebook/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes.
 - [crossframe-debate](../skills/frontend/ui-ux/crossframe_debate/crossframe-debate/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese proposition testing, debate analysis, hidden-premise review, rebuttal design, or withdrawal condition checks.
@@ -4193,6 +4194,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Course Upskilling Requests (1 skills)
 
 - [course-upskilling-requests](../skills/ai-engineering/models/course_upskilling_re/course-upskilling-requests/SKILL.md) — Use this skill to training request register: course, provider, cost, duration, budget line, the three approval steps, service bond and completion evidence. Use for upskilling approvals.
+
+## Cpp Engineering Workflow (1 skills)
+
+- [cpp-engineering-workflow](../skills/frontend/ui-ux/cpp/cpp-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for cpp engineering workflow. Language-specific super-code guidelines for cpp.
 
 ## Cpp Pro (1 skills)
 
@@ -9944,7 +9949,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2062 skills)
+## Python (2063 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11196,6 +11201,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [connection-auth-rules](../skills/frontend/ui-ux/connection_auth_rule/connection-auth-rules/SKILL.md) — Use this skill to build a Connection Auth Rules for a Monte Carlo connection type. Fetches
 - [copilot-sdk](../skills/frontend/ui-ux/copilot_sdk/copilot-sdk/SKILL.md) — Use this skill to build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET.
 - [core-components](../skills/frontend/ui-ux/core_components/core-components/SKILL.md) — Use this skill to design, implement, and operate production workflows for core components. Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
+- [cpp-engineering-workflow](../skills/frontend/ui-ux/cpp/cpp-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for cpp engineering workflow. Language-specific super-code guidelines for cpp.
 - [cqrs-implementation](../skills/frontend/ui-ux/cqrs_implementation/cqrs-implementation/SKILL.md) — Use this skill to implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems.
 - [crossframe-casebook](../skills/frontend/ui-ux/crossframe_casebook/crossframe-casebook/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes.
 - [crossframe-debate](../skills/frontend/ui-ux/crossframe_debate/crossframe-debate/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese proposition testing, debate analysis, hidden-premise review, rebuttal design, or withdrawal condition checks.
