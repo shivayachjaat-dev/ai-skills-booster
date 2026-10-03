@@ -1,112 +1,165 @@
 ---
 name: aomi-transact
-description: "Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu"
+description: "Use this skill to build, simulate, and execute natural-language crypto and DeFi transactions across EVM chains (Ethereum, Base, Arbitrum, Optimism, Polygon) using the Aomi agent CLI and Account Abstraction. It enforces forked-chain simulation before signing, drain-vector validation (recipient == msg.sender), multi-step batching (approve+swap), and non-custodial wallet signature gates."
 domain: ai-engineering
 category: agents
 subcategory: aomi_transact
 tags:
   - ai-engineering
   - agents
-  - aomi
-  - automation
-  - production-ready
+  - web3
+  - defi
+  - evm
+  - account-abstraction
+  - transaction-simulation
 technologies:
-  - Aomi Transact
+  - Aomi CLI
+  - Ethereum
+  - ERC-4337
+  - EIP-7702
+  - Uniswap V3
+  - Lido
   - Python
-  - Bash
-complexity: advanced
+complexity: expert
 maturity: stable
 tools:
+  - aomi
+  - npx
   - python
   - bash
 dependencies:
+  - "@aomi-labs/client@>=0.1.30"
   - python@>=3.10
+version: 1.0.0
+author: Antigravity Team
 ---
-# Aomi Transact Architecture & Implementation Standard
+
+# Aomi Transact: Natural-Language EVM & DeFi Transaction Orchestration
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for aomi transact. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with aomi-transact.
+A production engineering standard for transforming natural-language intents (e.g., *"swap 1 USDC for WETH on Uniswap V3"* or *"stake 0.01 ETH with Lido"*) into cryptographically verified, simulated, and wallet-signed transactions on EVM blockchains (Ethereum, Base, Arbitrum, Optimism, Polygon). Operating directly via the `@aomi-labs/client` CLI, this architecture enforces a non-custodial, simulation-first paradigm: transactions are staged in an offline queue, sequentially executed on a local forked chain to verify state transitions (such as token approvals before swaps), and audited against malicious drain vectors before the user is prompted to sign.
 
 ```
-+------------------------------------------------------------------------+
-|                   Aomi Transact                                       |
-|                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
-+------------------------------------------------------------------------+
++--------------------------------------------------------------------------------+
+|                         Aomi Natural-Language DeFi Flow                        |
+|                                                                                |
+|  [ Natural Language Prompt ] ---> [ Aomi Agent Intent & Route Resolution ]     |
+|                                                  |                             |
+|                                                  v                             |
+|                           [ Transaction Queue Staging (aomi tx list) ]         |
+|                            (tx-1: ERC20 approve, tx-2: Protocol swap)          |
+|                                                  |                             |
+|                                                  v                             |
+|                        [ Forked Chain Simulation (aomi tx simulate) ]          |
+|                                                  |                             |
+|                                                  v                             |
+|                        [ Drain Vector Security Filter ]                        |
+|                         (Verify: recipient == msg.sender)                      |
+|                                                  |                             |
+|                                                  v                             |
+|                             [ Explicit User Approval Gate ]                    |
+|                                                  |                             |
+|                        +-------------------------+-----------------------+     |
+|                        | Approved                                        |     |
+|                        v                                                 v     |
+|          [ Account Abstraction Signing ]                       [ Discard Batch ]
+|          (EIP-7702 / ERC-4337 Bundler)                                         |
+|                        |                                                       |
+|                        v                                                       |
+|          [ On-Chain Broadcast & Receipt ]                                      |
++--------------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to aomi transact.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- Interacting with decentralized finance (DeFi) protocols (Uniswap, Aave, Lido, Morpho, GMX, Polymarket) via natural-language terminal agents.
+- Simulating complex multi-step DeFi interactions (ERC-20 token approval followed by liquidity provision or swap) on forked chains prior to broadcasting.
+- Enforcing Account Abstraction (EIP-7702 on Ethereum Mainnet, ERC-4337 on Layer 2 rollups) for gas sponsorship and batched execution.
+- Validating transaction calldata to eliminate address spoofing and wallet-drain vulnerabilities.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
+- Centralized exchange (CEX) trading or custodial account management (use Binance or Coinbase REST/WebSocket APIs).
+- Non-EVM blockchain networks (Solana, Bitcoin, Cosmos; require dedicated SVM or UTXO tooling).
+- Unmonitored automated trading without human signature approval gates.
 
 ## Inputs & Prerequisites
 
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Node.js 18+ and `@aomi-labs/client` v0.1.30+ installed (`npm install -g @aomi-labs/client`).
+- Connected EVM wallet public key (`0x...`) with network access to the target chain RPC.
+- Native gas token (ETH on Ethereum/Base/Arbitrum, POL on Polygon) for transaction execution.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
+### Step 1: Session Initialization & Read-Only Market Query
+Initialize a dedicated session and verify asset quotes without queuing state-changing transactions:
 
 ```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for aomi-transact..."
+# Query live market pricing in a new session
+aomi --prompt "What is the current swap price of 1 ETH for USDC on Uniswap V3?" --new-session
+
+# Verify no transactions are pending
+aomi tx list
 ```
 
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### Step 2: Multi-Step Transaction Construction
+Request a multi-stage operation. Aomi automatically decomposes the intent into prerequisite approvals and contract calls:
 
-```python
-import sys
-import logging
+```bash
+# Example: Swap 100 USDC for WETH on Base
+USER_WALLET="0x1234567890123456789012345678901234567890"
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("aomi-transact")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for aomi-transact")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+aomi chat "Swap 100 USDC for WETH on Uniswap V3, recipient is my wallet" \
+  --public-key "$USER_WALLET" \
+  --chain 8453 \
+  --new-session
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### Step 3: Inspecting Queued Transactions
+Inspect the staged execution queue. A multi-step trade will stage both the token approval (`tx-1`) and the protocol swap (`tx-2`):
+
+```bash
+aomi tx list
+```
+*Expected Output:*
+```text
+[tx-1] ERC20.approve(spender: 0xUniswapV3Router, amount: 100000000)
+[tx-2] SwapRouter.exactInputSingle(tokenIn: USDC, tokenOut: WETH, recipient: 0x1234...890)
+```
+
+### Step 4: Mandatory Forked-Chain Simulation
+Never sign multi-step batches without sequential simulation. Simulation executes `tx-1` and `tx-2` sequentially against an ephemeral chain fork, ensuring `tx-2` has valid allowance:
+
+```bash
+aomi tx simulate tx-1 tx-2
+```
+*Verification:* Ensure the output indicates `Batch [tx-1, tx-2] passed simulation`. If simulation reverts, discard the batch and do NOT proceed to signing.
+
+### Step 5: Drain Vector Audit & Human Signature Approval
+Verify that the `recipient`, `to`, or `onBehalfOf` parameter strictly matches the sender's own public key:
+
+```bash
+# Run local safety auditor
+python scripts/aomi_tx_simulator.py --audit-batch --wallet "$USER_WALLET"
+```
+
+Once safety verification passes, present the final batch summary to the user and await explicit approval. Only run signing when approved:
+
+```bash
+# Execute wallet signature and on-chain broadcast
+aomi tx sign tx-1 tx-2
+```
 
 ## Best Practices & Failure Modes
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+- **Strict Approval Gate**: Never combine `aomi chat` and `aomi tx sign` in an automated pipeline. The user must explicitly inspect `aomi tx list` and approve the specific transaction IDs.
+- **Drain Vector Blocking**: If calldata redirects tokens to an unfamiliar address (`recipient != msg.sender`), immediately halt execution and alert the user.
+- **Slippage & Deadline Management**: Market quotes expire rapidly. If transaction signing is delayed beyond 5 minutes, clear the queue (`aomi tx clear`) and re-simulate with fresh deadlines.
+- **RPC Consistency**: Always match the `--rpc-url` parameter to the specific chain ID of the queued transaction, not just the session default.
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/aomi-transact_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+1. Validate CLI installation: `aomi --version` (must be $\ge$ 0.1.30).
+2. Test simulation safety: Run `python scripts/aomi_tx_simulator.py --test-drain-block` to verify that calldata redirecting funds to unauthorized addresses is rejected.
+3. Test dry-run Lido staking: Stage a test stake of `0.001 ETH` on Goerli/Sepolia testnet, simulate the transaction, and confirm gas estimation and ABI decoding.
