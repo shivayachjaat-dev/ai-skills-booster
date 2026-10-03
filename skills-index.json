@@ -12007,6 +12007,28 @@
     "maturity": "stable"
   },
   {
+    "name": "parallel-agents",
+    "path": "skills/ai-engineering/models/parallel_agents/parallel-agents",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "parallel_agents",
+    "description": "Use this skill to design, implement, and operate production workflows for parallel agents. Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "parallel",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Parallel Agents",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

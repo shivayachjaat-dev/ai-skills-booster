@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,712** skills across structured domains, categories, and subcategories.
+Master navigation for **1,713** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (590 skills)
+## Ai Engineering (591 skills)
 
 ### Agents (71 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -292,7 +292,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (427 skills)
+### Models (428 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1124,6 +1124,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [pakistan-payments-stack](../skills/ai-engineering/models/pakistan_payments_st/pakistan-payments-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for pakistan payments stack. Design and implement production-grade Pakistani payment integrations (JazzCash, Easypaisa, bank/PSP rails, optional Raast) for SaaS with PKR billing, webhook reliability, and reconciliation.
 - **Papers_Skill** (1):
   - [papers-skill](../skills/ai-engineering/models/papers_skill/papers-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for papers skill. Skill for academic research workflows: search Semantic Scholar (200M+ papers), inspect citations, download arXiv PDFs, and extract PDF text. Bundles a self-contained Python CLI.
+- **Parallel_Agents** (1):
+  - [parallel-agents](../skills/ai-engineering/models/parallel_agents/parallel-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for parallel agents. Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
