@@ -28659,6 +28659,28 @@
     "maturity": "stable"
   },
   {
+    "name": "projection-patterns",
+    "path": "skills/frontend/ui-ux/projection_patterns/projection-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "projection_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for projection patterns. Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "projection",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Projection Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
