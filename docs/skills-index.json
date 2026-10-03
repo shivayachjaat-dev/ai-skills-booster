@@ -14317,6 +14317,28 @@
     "maturity": "stable"
   },
   {
+    "name": "social-orchestrator",
+    "path": "skills/ai-engineering/models/social_orchestrator/social-orchestrator",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "social_orchestrator",
+    "description": "Use this skill to design, implement, and operate production workflows for social orchestrator. Orquestrador unificado de canais sociais \u2014 coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de cam...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "social",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Social Orchestrator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

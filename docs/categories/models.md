@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **512 skills** available in this category.
+> **513 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -510,6 +510,7 @@
 | [smtp-penetration-testing](../../skills/ai-engineering/models/smtp_penetration_tes/smtp-penetration-testing/SKILL.md) | `smtp_penetration_tes` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for smtp penetration testing. Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeration, weak authentication, and misconfiguration. |
 | [snowflake-development](../../skills/ai-engineering/models/snowflake_developmen/snowflake-development/SKILL.md) | `snowflake_developmen` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for snowflake development. Comprehensive Snowflake development assistant covering SQL best practices, data pipeline design (Dynamic Tables, Streams, Tasks, Snowpipe), Cortex AI functions, Cortex Agents, Snowpark Python, dbt integration, performance tuning, and security hardening. |
 | [soc2-compliance](../../skills/ai-engineering/models/soc2_compliance/soc2-compliance/SKILL.md) | `soc2_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for soc2 compliance. Implement SOC 2 Trust Services Criteria. Configure security, availability, |
+| [social-orchestrator](../../skills/ai-engineering/models/social_orchestrator/social-orchestrator/SKILL.md) | `social_orchestrator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social orchestrator. Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de cam... |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](../../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
