@@ -39625,6 +39625,28 @@
     "maturity": "stable"
   },
   {
+    "name": "production-scheduling",
+    "path": "skills/software-engineering/architecture/patterns/production-scheduling",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for production scheduling. Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "production",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Production Scheduling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
