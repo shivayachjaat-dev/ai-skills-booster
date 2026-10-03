@@ -31013,6 +31013,28 @@
     "maturity": "stable"
   },
   {
+    "name": "scanpy",
+    "path": "skills/frontend/ui-ux/scanpy/scanpy",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "scanpy",
+    "description": "Use this skill to design, implement, and operate production workflows for scanpy. Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualizati...",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "scanpy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Scanpy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

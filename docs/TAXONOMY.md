@@ -1482,6 +1482,7 @@ AI_Skills_Booster/
 │   │   ├── reverse_browser_auto/ (1 skills)
 │   │   ├── risk_metrics_calcula/ (1 skills)
 │   │   ├── saas_mvp_launcher/ (1 skills)
+│   │   ├── scanpy/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
