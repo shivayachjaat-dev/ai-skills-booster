@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,128** skills across structured domains, categories, and subcategories.
+Master navigation for **2,129** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (718 skills)
 
@@ -2250,7 +2250,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (62 skills)
+## Developer Tools (63 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -2288,7 +2288,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Satori** (1):
   - [satori](../skills/developer-tools/cli-utilities/satori/satori/SKILL.md) — Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner
 
-### Productivity (46 skills)
+### Productivity (47 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -2383,6 +2383,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [skill-porter](../skills/developer-tools/productivity/skill_porter/skill-porter/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill porter. Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity.
 - **Square_Automation** (1):
   - [square-automation](../skills/developer-tools/productivity/square_automation/square-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for square automation. Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas.
+- **Stripe_Automation** (1):
+  - [stripe-automation](../skills/developer-tools/productivity/stripe_automation/stripe-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for stripe automation. Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

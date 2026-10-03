@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **46 skills** available in this category.
+> **47 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -50,3 +50,4 @@
 | [shopify-automation](../../skills/developer-tools/productivity/shopify_automation/shopify-automation/SKILL.md) | `shopify_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shopify automation. Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas. |
 | [skill-porter](../../skills/developer-tools/productivity/skill_porter/skill-porter/SKILL.md) | `skill_porter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill porter. Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity. |
 | [square-automation](../../skills/developer-tools/productivity/square_automation/square-automation/SKILL.md) | `square_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for square automation. Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas. |
+| [stripe-automation](../../skills/developer-tools/productivity/stripe_automation/stripe-automation/SKILL.md) | `stripe_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stripe automation. Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas. |
