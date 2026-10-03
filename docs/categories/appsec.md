@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **105 skills** available in this category.
+> **106 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -107,5 +107,6 @@
 | [report-writing](../../skills/security/appsec/report_writing/report-writing/SKILL.md) | `report_writing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for report writing. Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi |
 | [runbook-creation](../../skills/security/appsec/runbook_creation/runbook-creation/SKILL.md) | `runbook_creation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for runbook creation. Create operational runbooks and standard operating procedures. Document |
 | [saas-security-posture](../../skills/security/appsec/saas_security_postur/saas-security-posture/SKILL.md) | `saas_security_postur` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saas security posture. Audit and harden your SaaS tool stack |
+| [sast-configuration](../../skills/security/appsec/sast_configuration/sast-configuration/SKILL.md) | `sast_configuration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sast configuration. Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages. |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](../../skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |

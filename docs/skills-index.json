@@ -35752,6 +35752,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sast-configuration",
+    "path": "skills/security/appsec/sast_configuration/sast-configuration",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "sast_configuration",
+    "description": "Use this skill to design, implement, and operate production workflows for sast configuration. Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages.",
+    "tags": [
+      "security",
+      "appsec",
+      "sast",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sast Configuration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",

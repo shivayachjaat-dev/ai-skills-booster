@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,958** skills across structured domains, categories, and subcategories.
+Master navigation for **1,959** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (671 skills)
 
@@ -3480,7 +3480,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (175 skills)
+## Security (176 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -3510,7 +3510,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (105 skills)
+### Appsec (106 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -3718,6 +3718,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [runbook-creation](../skills/security/appsec/runbook_creation/runbook-creation/SKILL.md) — Use this skill to design, implement, and operate production workflows for runbook creation. Create operational runbooks and standard operating procedures. Document
 - **Saas_Security_Postur** (1):
   - [saas-security-posture](../skills/security/appsec/saas_security_postur/saas-security-posture/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas security posture. Audit and harden your SaaS tool stack
+- **Sast_Configuration** (1):
+  - [sast-configuration](../skills/security/appsec/sast_configuration/sast-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for sast configuration. Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages.
 - **Security_Auditor** (1):
   - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - **Security_Checklist** (1):
