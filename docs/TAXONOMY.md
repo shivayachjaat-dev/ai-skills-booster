@@ -1621,6 +1621,7 @@ AI_Skills_Booster/
 │   │   ├── ot_ics/ (1 skills)
 │   │   ├── penetration_testing/ (1 skills)
 │   │   ├── policy_as_code/ (1 skills)
+│   │   ├── protocol_reverse_eng/ (1 skills)
 │   │   ├── security_auditor/ (1 skills)
 │   │   └── security_checklist/ (1 skills)
 │   ├── architecture/

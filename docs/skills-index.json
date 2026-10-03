@@ -33530,6 +33530,28 @@
     "maturity": "stable"
   },
   {
+    "name": "protocol-reverse-engineering",
+    "path": "skills/security/appsec/protocol_reverse_eng/protocol-reverse-engineering",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "protocol_reverse_eng",
+    "description": "Use this skill to design, implement, and operate production workflows for protocol reverse engineering. Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.",
+    "tags": [
+      "security",
+      "appsec",
+      "protocol",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Protocol Reverse Engineering",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
