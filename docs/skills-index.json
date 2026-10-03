@@ -40175,6 +40175,28 @@
     "maturity": "stable"
   },
   {
+    "name": "puzzle-activity-planner",
+    "path": "skills/software-engineering/architecture/patterns/puzzle-activity-planner",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for puzzle activity planner. Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "puzzle",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Puzzle Activity Planner",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
