@@ -15144,6 +15144,28 @@
     "maturity": "stable"
   },
   {
+    "name": "puppeteer-skill",
+    "path": "skills/backend/api-frameworks/puppeteer_skill/puppeteer-skill",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "puppeteer_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for puppeteer skill. Generates Puppeteer scripts for browser automation, scraping, and PDF generation. Triggers on: \"Puppeteer\", \"headless Chrome\", \"page.goto\", \"scrape\", \"PDF generation\".",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "puppeteer",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Puppeteer Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
