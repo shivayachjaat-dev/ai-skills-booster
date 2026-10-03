@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **22 skills** available in this category.
+> **23 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -26,3 +26,4 @@
 | [pentest-checklist](../../skills/testing/automation/pentest_checklist/pentest-checklist/SKILL.md) | `pentest_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pentest checklist. Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough preparation, proper scoping, and effective remediation of discovered vulnerabilities. |
 | [playwright-java](../../skills/testing/automation/playwright_java/playwright-java/SKILL.md) | `playwright_java` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for playwright java. Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution. |
 | [prompt-library](../../skills/testing/automation/prompt_library/prompt-library/SKILL.md) | `prompt_library` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prompt library. A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices. |
+| [saas-pricing-strategist](../../skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist/SKILL.md) | `saas_pricing_strateg` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using |

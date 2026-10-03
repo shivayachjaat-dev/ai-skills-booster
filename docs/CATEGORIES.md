@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,945** skills across structured domains, categories, and subcategories.
+Master navigation for **1,946** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (667 skills)
 
@@ -4212,7 +4212,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (29 skills)
+## Testing (30 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -4232,7 +4232,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (22 skills)
+### Automation (23 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -4279,6 +4279,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [playwright-java](../skills/testing/automation/playwright_java/playwright-java/SKILL.md) — Use this skill to design, implement, and operate production workflows for playwright java. Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.
 - **Prompt_Library** (1):
   - [prompt-library](../skills/testing/automation/prompt_library/prompt-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt library. A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices.
+- **Saas_Pricing_Strateg** (1):
+  - [saas-pricing-strategist](../skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

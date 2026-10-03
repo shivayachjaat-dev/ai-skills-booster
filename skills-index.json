@@ -43327,6 +43327,28 @@
     "maturity": "stable"
   },
   {
+    "name": "saas-pricing-strategist",
+    "path": "skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "saas_pricing_strateg",
+    "description": "Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using",
+    "tags": [
+      "testing",
+      "automation",
+      "saas",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Saas Pricing Strategist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

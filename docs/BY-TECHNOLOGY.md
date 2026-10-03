@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1763 skills)
+## Bash (1764 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2838,6 +2838,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pentest-checklist](../skills/testing/automation/pentest_checklist/pentest-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for pentest checklist. Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough preparation, proper scoping, and effective remediation of discovered vulnerabilities.
 - [playwright-java](../skills/testing/automation/playwright_java/playwright-java/SKILL.md) — Use this skill to design, implement, and operate production workflows for playwright java. Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.
 - [prompt-library](../skills/testing/automation/prompt_library/prompt-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt library. A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices.
+- [saas-pricing-strategist](../skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using
 
 ## Bash Defensive Patterns (1 skills)
 
@@ -9731,7 +9732,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1866 skills)
+## Python (1867 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11598,6 +11599,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pentest-checklist](../skills/testing/automation/pentest_checklist/pentest-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for pentest checklist. Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough preparation, proper scoping, and effective remediation of discovered vulnerabilities.
 - [playwright-java](../skills/testing/automation/playwright_java/playwright-java/SKILL.md) — Use this skill to design, implement, and operate production workflows for playwright java. Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.
 - [prompt-library](../skills/testing/automation/prompt_library/prompt-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt library. A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices.
+- [saas-pricing-strategist](../skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using
 - [appium-mobile-automation-and-cross-device-testing](../skills/testing/mobile-testing/appium-cross-device/appium-mobile-automation-and-cross-device-testing/SKILL.md) — Use this skill to design, write, and execute automated end-to-end mobile test suites across Android and iOS real devices and emulators using Appium 2.0, UiAutomator2, and XCUITest drivers. It covers Page Object Models (POM), gestures, locator strategies (Accessibility ID), and test matrix execution.
 
 ## Python AST (1 skills)
@@ -12291,6 +12293,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Saas Mvp Launcher (1 skills)
 
 - [saas-mvp-launcher](../skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.
+
+## Saas Pricing Strategist (1 skills)
+
+- [saas-pricing-strategist](../skills/testing/automation/saas_pricing_strateg/saas-pricing-strategist/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas pricing strategist. Design, optimize, and test pricing strategies for SaaS products using
 
 ## Scale Benchmarks (1 skills)
 
