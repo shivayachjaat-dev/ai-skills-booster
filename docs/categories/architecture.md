@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **296 skills** available in this category.
+> **297 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -299,4 +299,5 @@
 | [tdd-workflows](../../skills/software-engineering/architecture/patterns/tdd-workflows/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tdd workflows. Use when working with tdd workflows tdd cycle (Alias for tdd-workflows-tdd-cycle) |
 | [tdd-workflows-tdd-cycle](../../skills/software-engineering/architecture/patterns/tdd-workflows-tdd-cycle/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tdd workflows tdd cycle. Use when working with tdd workflows tdd cycle |
 | [tdd-workflows-tdd-refactor](../../skills/software-engineering/architecture/patterns/tdd-workflows-tdd-refactor/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tdd workflows tdd refactor. Use when working with tdd workflows tdd refactor |
+| [teach](../../skills/software-engineering/architecture/patterns/teach/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for teach. Teach the user a new skill or concept, within this workspace. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

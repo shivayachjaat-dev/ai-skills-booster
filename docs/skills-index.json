@@ -47875,6 +47875,28 @@
     "maturity": "stable"
   },
   {
+    "name": "teach",
+    "path": "skills/software-engineering/architecture/patterns/teach",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for teach. Teach the user a new skill or concept, within this workspace.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "teach",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Teach",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
