@@ -33301,6 +33301,28 @@
     "maturity": "stable"
   },
   {
+    "name": "startup-metrics-framework",
+    "path": "skills/frontend/ui-ux/startup_metrics_fram/startup-metrics-framework",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "startup_metrics_fram",
+    "description": "Use this skill to design, implement, and operate production workflows for startup metrics framework. Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "startup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Startup Metrics Framework",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
