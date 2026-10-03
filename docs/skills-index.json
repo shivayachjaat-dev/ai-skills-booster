@@ -41649,6 +41649,28 @@
     "maturity": "stable"
   },
   {
+    "name": "remotion-captions",
+    "path": "skills/software-engineering/architecture/patterns/remotion-captions",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for remotion captions. Transcribing, displaying and animating captions",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "remotion",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Remotion Captions",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,904 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,905 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1870,6 +1870,7 @@
 | [red-team-tactics](skills/software-engineering/architecture/patterns/red-team-tactics/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for red team tactics. Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting. |
 | [rehabilitation-analyzer](skills/software-engineering/architecture/patterns/rehabilitation-analyzer/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rehabilitation analyzer. 分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议 |
 | [remotion](skills/software-engineering/architecture/patterns/remotion/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion. Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays |
+| [remotion-captions](skills/software-engineering/architecture/patterns/remotion-captions/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion captions. Transcribing, displaying and animating captions |
 | [scale-benchmarks](skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
 | [github-pr-review-feedback-resolver](skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) | `software-engineering` | `code-review` | `pr-feedback` | `intermediate` | `stable` | Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads. |
