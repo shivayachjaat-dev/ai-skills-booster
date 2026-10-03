@@ -14295,6 +14295,28 @@
     "maturity": "stable"
   },
   {
+    "name": "soc2-compliance",
+    "path": "skills/ai-engineering/models/soc2_compliance/soc2-compliance",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "soc2_compliance",
+    "description": "Use this skill to design, implement, and operate production workflows for soc2 compliance. Implement SOC 2 Trust Services Criteria. Configure security, availability,",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "soc2",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Soc2 Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
