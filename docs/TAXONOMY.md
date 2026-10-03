@@ -1358,6 +1358,7 @@ AI_Skills_Booster/
 │   │   ├── n8n_expression_synta/ (1 skills)
 │   │   ├── neo_brutalism/ (1 skills)
 │   │   ├── neumorphism/ (1 skills)
+│   │   ├── pagespeed_enhancer/ (1 skills)
 │   │   ├── production_audit/ (1 skills)
 │   │   ├── retro_design/ (1 skills)
 │   │   ├── retro_futurism/ (1 skills)

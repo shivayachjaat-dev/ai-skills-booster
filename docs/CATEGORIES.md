@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,708** skills across structured domains, categories, and subcategories.
+Master navigation for **1,709** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (587 skills)
 
@@ -2247,7 +2247,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (339 skills)
+## Frontend (340 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2825,7 +2825,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (75 skills)
+### Web Architecture (76 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -2945,6 +2945,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [neo-brutalism](../skills/frontend/web-architecture/neo_brutalism/neo-brutalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.
 - **Neumorphism** (1):
   - [neumorphism](../skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.
+- **Pagespeed_Enhancer** (1):
+  - [pagespeed-enhancer](../skills/frontend/web-architecture/pagespeed_enhancer/pagespeed-enhancer/SKILL.md) — Use this skill to design, implement, and operate production workflows for pagespeed enhancer. Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed Insights pillars — Performance, Accessibility, Best Practices, and SEO — in structured batches.
 - **Production_Audit** (1):
   - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - **Retro_Design** (1):

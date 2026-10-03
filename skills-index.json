@@ -28285,6 +28285,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pagespeed-enhancer",
+    "path": "skills/frontend/web-architecture/pagespeed_enhancer/pagespeed-enhancer",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "pagespeed_enhancer",
+    "description": "Use this skill to design, implement, and operate production workflows for pagespeed enhancer. Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed Insights pillars \u2014 Performance, Accessibility, Best Practices, and SEO \u2014 in structured batches.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "pagespeed",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pagespeed Enhancer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
