@@ -32795,6 +32795,28 @@
     "maturity": "stable"
   },
   {
+    "name": "screen-reader-testing",
+    "path": "skills/frontend/web-architecture/screen_reader_testin/screen-reader-testing",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "screen_reader_testin",
+    "description": "Use this skill to design, implement, and operate production workflows for screen reader testing. Practical guide to testing web applications with screen readers for comprehensive accessibility validation.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "screen",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Screen Reader Testing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-audit",
     "path": "skills/frontend/web-architecture/security_audit/security-audit",
     "domain": "frontend",
