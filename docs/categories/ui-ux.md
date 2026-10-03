@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **212 skills** available in this category.
+> **213 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -213,6 +213,7 @@
 | [policy-library](../../skills/frontend/ui-ux/policy_library/policy-library/SKILL.md) | `policy_library` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for policy library. Policy register: name, version, category, owner and approver, applies to, compliance framework, acknowledgement requirement, effective date and next review. Use for policy management. |
 | [postgresql-cli](../../skills/frontend/ui-ux/postgresql_cli/postgresql-cli/SKILL.md) | `postgresql_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postgresql cli. PostgreSQL interactive terminal (psql) reference and usage guide. |
 | [postmortem-writing](../../skills/frontend/ui-ux/postmortem_writing/postmortem-writing/SKILL.md) | `postmortem_writing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postmortem writing. Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence. |
+| [power-user-cultivation](../../skills/frontend/ui-ux/power_user_cultivati/power-user-cultivation/SKILL.md) | `power_user_cultivati` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for power user cultivation. When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

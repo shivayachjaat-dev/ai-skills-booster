@@ -28109,6 +28109,28 @@
     "maturity": "stable"
   },
   {
+    "name": "power-user-cultivation",
+    "path": "skills/frontend/ui-ux/power_user_cultivati/power-user-cultivation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "power_user_cultivati",
+    "description": "Use this skill to design, implement, and operate production workflows for power user cultivation. When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "power",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Power User Cultivation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

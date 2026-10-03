@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1602 skills)
+## Bash (1603 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2216,6 +2216,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [policy-library](../skills/frontend/ui-ux/policy_library/policy-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for policy library. Policy register: name, version, category, owner and approver, applies to, compliance framework, acknowledgement requirement, effective date and next review. Use for policy management.
 - [postgresql-cli](../skills/frontend/ui-ux/postgresql_cli/postgresql-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql cli. PostgreSQL interactive terminal (psql) reference and usage guide.
 - [postmortem-writing](../skills/frontend/ui-ux/postmortem_writing/postmortem-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for postmortem writing. Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.
+- [power-user-cultivation](../skills/frontend/ui-ux/power_user_cultivati/power-user-cultivation/SKILL.md) — Use this skill to design, implement, and operate production workflows for power user cultivation. When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -9226,6 +9227,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [postmortem-writing](../skills/frontend/ui-ux/postmortem_writing/postmortem-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for postmortem writing. Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.
 
+## Power User Cultivation (1 skills)
+
+- [power-user-cultivation](../skills/frontend/ui-ux/power_user_cultivati/power-user-cultivation/SKILL.md) — Use this skill to design, implement, and operate production workflows for power user cultivation. When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists.
+
 ## PowerShell (2 skills)
 
 - [azure-arm-and-bicep-infrastructure-as-code](../skills/devops/infrastructure/azure-bicep/azure-arm-and-bicep-infrastructure-as-code/SKILL.md) — Use this skill to design, validate, and deploy modular Azure infrastructure using Bicep and ARM templates. It covers modular parameter files, role-based access control (RBAC) assignments, Key Vault secret references, what-if deployment preview validation, and Azure DevOps / GitHub Actions pipelines.
@@ -9337,7 +9342,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1705 skills)
+## Python (1706 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10547,6 +10552,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [policy-library](../skills/frontend/ui-ux/policy_library/policy-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for policy library. Policy register: name, version, category, owner and approver, applies to, compliance framework, acknowledgement requirement, effective date and next review. Use for policy management.
 - [postgresql-cli](../skills/frontend/ui-ux/postgresql_cli/postgresql-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql cli. PostgreSQL interactive terminal (psql) reference and usage guide.
 - [postmortem-writing](../skills/frontend/ui-ux/postmortem_writing/postmortem-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for postmortem writing. Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.
+- [power-user-cultivation](../skills/frontend/ui-ux/power_user_cultivati/power-user-cultivation/SKILL.md) — Use this skill to design, implement, and operate production workflows for power user cultivation. When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
