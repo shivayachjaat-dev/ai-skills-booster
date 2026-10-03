@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,152** skills across structured domains, categories, and subcategories.
+Master navigation for **2,153** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (438 skills)
+## Frontend (439 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (270 skills)
+### Ui Ux (271 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3405,6 +3405,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [rust](../skills/frontend/ui-ux/rust/rust/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust. Language-specific super-code guidelines for rust.
 - **Saas_Mvp_Launcher** (1):
   - [saas-mvp-launcher](../skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.
+- **Scala** (1):
+  - [scala](../skills/frontend/ui-ux/scala/scala/SKILL.md) — Use this skill to design, implement, and operate production workflows for scala. Language-specific super-code guidelines for scala.
 - **Scanpy** (1):
   - [scanpy](../skills/frontend/ui-ux/scanpy/scanpy/SKILL.md) — Use this skill to design, implement, and operate production workflows for scanpy. Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualizati...
 - **Scroll_Experience** (1):

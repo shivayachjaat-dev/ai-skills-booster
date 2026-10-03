@@ -33389,6 +33389,28 @@
     "maturity": "stable"
   },
   {
+    "name": "scala",
+    "path": "skills/frontend/ui-ux/scala/scala",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "scala",
+    "description": "Use this skill to design, implement, and operate production workflows for scala. Language-specific super-code guidelines for scala.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "scala",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Scala",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scanpy",
     "path": "skills/frontend/ui-ux/scanpy/scanpy",
     "domain": "frontend",

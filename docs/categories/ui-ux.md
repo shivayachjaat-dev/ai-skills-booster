@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **270 skills** available in this category.
+> **271 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -248,6 +248,7 @@
 | [ruby](../../skills/frontend/ui-ux/ruby/ruby/SKILL.md) | `ruby` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ruby. Language-specific super-code guidelines for ruby. |
 | [rust](../../skills/frontend/ui-ux/rust/rust/SKILL.md) | `rust` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rust. Language-specific super-code guidelines for rust. |
 | [saas-mvp-launcher](../../skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) | `saas_mvp_launcher` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist. |
+| [scala](../../skills/frontend/ui-ux/scala/scala/SKILL.md) | `scala` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scala. Language-specific super-code guidelines for scala. |
 | [scanpy](../../skills/frontend/ui-ux/scanpy/scanpy/SKILL.md) | `scanpy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scanpy. Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualizati... |
 | [scroll-experience](../../skills/frontend/ui-ux/scroll_experience/scroll-experience/SKILL.md) | `scroll_experience` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax |
 | [sdk-dx](../../skills/frontend/ui-ux/sdk_dx/sdk-dx/SKILL.md) | `sdk_dx` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sdk dx. Design SDKs that developers love to use—APIs that feel native, error messages that guide, and experiences that reduce friction. This skill covers creating SDKs that drive adoption through exceptional developer experience rather than aggressive marketing. |

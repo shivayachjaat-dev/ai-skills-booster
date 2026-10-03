@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1971 skills)
+## Bash (1972 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2469,6 +2469,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ruby](../skills/frontend/ui-ux/ruby/ruby/SKILL.md) — Use this skill to design, implement, and operate production workflows for ruby. Language-specific super-code guidelines for ruby.
 - [rust](../skills/frontend/ui-ux/rust/rust/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust. Language-specific super-code guidelines for rust.
 - [saas-mvp-launcher](../skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.
+- [scala](../skills/frontend/ui-ux/scala/scala/SKILL.md) — Use this skill to design, implement, and operate production workflows for scala. Language-specific super-code guidelines for scala.
 - [scanpy](../skills/frontend/ui-ux/scanpy/scanpy/SKILL.md) — Use this skill to design, implement, and operate production workflows for scanpy. Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualizati...
 - [scroll-experience](../skills/frontend/ui-ux/scroll_experience/scroll-experience/SKILL.md) — Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax
 - [sdk-dx](../skills/frontend/ui-ux/sdk_dx/sdk-dx/SKILL.md) — Use this skill to design, implement, and operate production workflows for sdk dx. Design SDKs that developers love to use—APIs that feel native, error messages that guide, and experiences that reduce friction. This skill covers creating SDKs that drive adoption through exceptional developer experience rather than aggressive marketing.
@@ -9981,7 +9982,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2074 skills)
+## Python (2075 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11432,6 +11433,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ruby](../skills/frontend/ui-ux/ruby/ruby/SKILL.md) — Use this skill to design, implement, and operate production workflows for ruby. Language-specific super-code guidelines for ruby.
 - [rust](../skills/frontend/ui-ux/rust/rust/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust. Language-specific super-code guidelines for rust.
 - [saas-mvp-launcher](../skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.
+- [scala](../skills/frontend/ui-ux/scala/scala/SKILL.md) — Use this skill to design, implement, and operate production workflows for scala. Language-specific super-code guidelines for scala.
 - [scanpy](../skills/frontend/ui-ux/scanpy/scanpy/SKILL.md) — Use this skill to design, implement, and operate production workflows for scanpy. Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualizati...
 - [scroll-experience](../skills/frontend/ui-ux/scroll_experience/scroll-experience/SKILL.md) — Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax
 - [sdk-dx](../skills/frontend/ui-ux/sdk_dx/sdk-dx/SKILL.md) — Use this skill to design, implement, and operate production workflows for sdk dx. Design SDKs that developers love to use—APIs that feel native, error messages that guide, and experiences that reduce friction. This skill covers creating SDKs that drive adoption through exceptional developer experience rather than aggressive marketing.
@@ -12822,6 +12824,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Sbom Supply Chain (1 skills)
 
 - [sbom-supply-chain](../skills/ai-engineering/models/sbom_supply_chain/sbom-supply-chain/SKILL.md) — Use this skill to design, implement, and operate production workflows for sbom supply chain. Generate, sign, and verify SBOMs and provenance attestations to secure
+
+## Scala (1 skills)
+
+- [scala](../skills/frontend/ui-ux/scala/scala/SKILL.md) — Use this skill to design, implement, and operate production workflows for scala. Language-specific super-code guidelines for scala.
 
 ## Scala Pro (1 skills)
 
