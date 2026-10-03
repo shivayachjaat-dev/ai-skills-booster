@@ -14955,6 +14955,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tax-register",
+    "path": "skills/ai-engineering/models/tax_register/tax-register",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "tax_register",
+    "description": "Use this skill to design, implement, and operate production workflows for tax register. Tax register: sales and purchase tax, withholding deducted and received, net payable, filing due date and days remaining. Use for tax compliance.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "tax",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tax Register",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
