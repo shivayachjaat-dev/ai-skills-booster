@@ -31739,6 +31739,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-authority-builder",
+    "path": "skills/frontend/ui-ux/seo_authority_builde/seo-authority-builder",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "seo_authority_builde",
+    "description": "Use this skill to design, implement, and operate production workflows for seo authority builder. Analyzes content for E-E-A-T signals and suggests improvements to",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Authority Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,012** skills across structured domains, categories, and subcategories.
+Master navigation for **2,013** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (684 skills)
 
@@ -2583,7 +2583,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (402 skills)
+## Frontend (403 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2775,7 +2775,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Redesign_Existing_Pr** (1):
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 
-### Ui Ux (242 skills)
+### Ui Ux (243 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3256,6 +3256,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [semgrep-rule-creator](../skills/frontend/ui-ux/semgrep_rule_creator/semgrep-rule-creator/SKILL.md) — Use this skill to design, implement, and operate production workflows for semgrep rule creator. Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.
 - **Seo_Aeo_Content_Clus** (1):
   - [seo-aeo-content-cluster](../skills/frontend/ui-ux/seo_aeo_content_clus/seo-aeo-content-cluster/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo content cluster. Builds a topical authority map from business goals, search intent, existing content, and gaps, then prioritises foundational and supporting pages.
+- **Seo_Authority_Builde** (1):
+  - [seo-authority-builder](../skills/frontend/ui-ux/seo_authority_builde/seo-authority-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo authority builder. Analyzes content for E-E-A-T signals and suggests improvements to
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
