@@ -1,19 +1,20 @@
 ---
 name: error-debugging-multi-agent-review
-description: "Use this skill to design, implement, and operate production workflows for error debugging multi agent review. Use when working with error debugging multi agent review"
+description: "Coordinate specialized multi-agent reviewer perspectives (trace analysis, concurrency audit, regression tracking) to diagnose complex runtime crashes."
 domain: ai-engineering
 category: agents
 subcategory: error_debugging_mult
 tags:
   - ai-engineering
   - agents
-  - error
-  - automation
-  - production-ready
+  - debugging
+  - multi-agent-review
+  - root-cause-analysis
 technologies:
-  - Error Debugging Multi Agent Review
   - Python
-  - Bash
+  - Traceback Analysis
+  - AST Inspection
+  - Concurrency Diagnostics
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,97 @@ tools:
 dependencies:
   - python@>=3.10
 ---
-# Error Debugging Multi Agent Review Architecture & Implementation Standard
+
+# Multi-Agent Error Debugging & Triaging Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for error debugging multi agent review. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with error-debugging-multi-agent-review.
+The **Error Debugging Multi-Agent Review** skill provides an enterprise standard for investigating, diagnosing, and repairing complex runtime exceptions and elusive production bugs through multi-agent peer review. Single-agent debugging frequently suffers from confirmation bias, where an agent zeroes in on an initial incorrect hypothesis and creates invalid patches.
+
+This skill orchestrates multiple specialized investigative roles—**Trace Analyzer**, **Concurrency Auditor**, and **Regression Investigator**—synthesizing their independent findings into an authoritative Root Cause Analysis (RCA) report and actionable regression-tested remediation patch.
 
 ```
 +------------------------------------------------------------------------+
-|                   Error Debugging Multi Agent Review                  |
+|                     Multi-Agent Review Pipeline                        |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Exception & Stack Trace Ingestion ]                                 |
+|                         |                                              |
+|         +---------------+---------------+                              |
+|         |               |               |                              |
+|         v               v               v                              |
+|   [ Trace Analyzer] [Concurrency] [Regression Hunt]                    |
+|         |               |               |                              |
+|         +---------------+---------------+                              |
+|                         |                                              |
+|                         v                                              |
+|        [ RCA Synthesis & Patch Generation ]                            |
+|                         |                                              |
+|                         v                                              |
+|        [ Regression Test Strategy & CI Gate ]                          |
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to error debugging multi agent review.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When diagnosing non-trivial exceptions, unhandled rejections, or intermittent production crashes.
+- When investigating race conditions, thread starvation, or deadlocks in asynchronous distributed architectures.
+- When isolating root causes across recent commit histories and dependency upgrades.
+- When preparing post-mortem documentation with root cause hypotheses and defensive regression tests.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Trivial syntax typos or missing import statements that standard linter passes resolve instantaneously.
+- Normal deterministic unit test assertions with obvious expected vs actual differences.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for error-debugging-multi-agent-review..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Ingest Error Context & Stack Trace
+Capture the complete runtime exception details, stack frames, and recent change metadata:
 
 ```python
-import sys
-import logging
+from multi_agent_debugger import ErrorContext, MultiAgentDebugger
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("error-debugging-multi-agent-review")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for error-debugging-multi-agent-review")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+context = ErrorContext(
+    exception_type="AttributeError",
+    message="'NoneType' object has no attribute 'verify_signature'",
+    stack_trace="Traceback (most recent call last):\n  File 'auth.py', line 12, in verify\n...",
+    recent_changes=["Commit f10e: Migrated auth provider client to async."]
+)
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Execute Multi-Perspective Triaging
+Dispatch the context through the `MultiAgentDebugger` to evaluate frames, concurrency markers, and commit diffs:
 
-## Best Practices & Failure Modes
+```python
+debugger = MultiAgentDebugger()
+rca_report = debugger.diagnose(context)
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+print(f"Primary Root Cause: {rca_report.primary_root_cause}")
+print(f"Confidence: {rca_report.consensus_confidence * 100}%")
+for factor in rca_report.contributing_factors:
+    print(f"Contributing Factor: {factor}")
+```
+
+### 3. Apply Remediation Patch & Regression Tests
+Review the synthesized fix and implement targeted regression unit tests:
+
+```python
+print("Suggested Remediation Patch:")
+print(rca_report.remediation_patch)
+
+print("Test Strategy:")
+print(rca_report.regression_test_strategy)
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/error-debugging-multi-agent-review_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Execute the multi-agent debugging verification suite to test multi-perspective analysis and RCA synthesis:
+
+```bash
+python scripts/error-debugging-multi-agent-review_helper.py
+```
+
+Expected output:
+- Perspectives evaluate stack frames, concurrency signals, and regression changes.
+- Root cause identified and synthesized cleanly.
+- Status returned cleanly.
