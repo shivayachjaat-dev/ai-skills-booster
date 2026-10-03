@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **34 skills** available in this category.
+> **35 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -38,3 +38,4 @@
 | [seo-aeo-schema-generator](../../skills/data-analytics/data-pipelines/seo_aeo_schema_gener/seo-aeo-schema-generator/SKILL.md) | `seo_aeo_schema_gener` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo schema generator. Generates and validates implementation-ready JSON-LD structured data for relevant page types and rich-result eligibility. |
 | [seo-drift](../../skills/data-analytics/data-pipelines/seo_drift/seo-drift/SKILL.md) | `seo_drift` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo drift. Snapshot a site's SEO state and detect ranking, indexation, metadata, canonical, robots, schema, and on-page regressions over time. |
 | [seo-meta-optimizer](../../skills/data-analytics/data-pipelines/seo_meta_optimizer/seo-meta-optimizer/SKILL.md) | `seo_meta_optimizer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo meta optimizer. Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content. |
+| [skin-health-analyzer](../../skills/data-analytics/data-pipelines/skin_health_analyzer/skin-health-analyzer/SKILL.md) | `skin_health_analyzer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skin health analyzer. Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medication data. |

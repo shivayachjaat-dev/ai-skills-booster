@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,064** skills across structured domains, categories, and subcategories.
+Master navigation for **2,065** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (700 skills)
 
@@ -1973,7 +1973,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (46 skills)
+## Data Analytics (47 skills)
 
 ### Analytics Engineering (2 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1989,7 +1989,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (34 skills)
+### Data Pipelines (35 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -2060,6 +2060,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [seo-drift](../skills/data-analytics/data-pipelines/seo_drift/seo-drift/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo drift. Snapshot a site's SEO state and detect ranking, indexation, metadata, canonical, robots, schema, and on-page regressions over time.
 - **Seo_Meta_Optimizer** (1):
   - [seo-meta-optimizer](../skills/data-analytics/data-pipelines/seo_meta_optimizer/seo-meta-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo meta optimizer. Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content.
+- **Skin_Health_Analyzer** (1):
+  - [skin-health-analyzer](../skills/data-analytics/data-pipelines/skin_health_analyzer/skin-health-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for skin health analyzer. Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medication data.
 
 ### Data Warehouse (1 skills)
 Category index: [`docs/categories/data-warehouse.md`](categories/data-warehouse.md)
