@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,745** skills across structured domains, categories, and subcategories.
+Master navigation for **1,746** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (601 skills)
+## Ai Engineering (602 skills)
 
-### Agents (73 skills)
+### Agents (74 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -147,6 +147,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [pdf-conversion-router](../skills/ai-engineering/agents/pdf_conversion_route/pdf-conversion-router/SKILL.md) — Use this skill to design, implement, and operate production workflows for pdf conversion router. Use when converting a PDF into another format such as Markdown, HTML, text, JSON, DOCX, or structured notes and the agent must choose the best extraction route, settings, and cleanup strategy for maximum fidelity and readability.
 - **Performance_Testing_** (1):
   - [performance-testing-review-multi-agent-review](../skills/ai-engineering/agents/performance_testing_/performance-testing-review-multi-agent-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance testing review multi agent review. Use when working with performance testing review multi agent review
+- **Pi_Custom_Model** (1):
+  - [pi-custom-model](../skills/ai-engineering/agents/pi_custom_model/pi-custom-model/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi custom model. Register custom Pi Agent model slugs so saved OpenRouter variants resolve correctly.
 - **Process Management** (1):
   - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - **Scheduling** (1):
