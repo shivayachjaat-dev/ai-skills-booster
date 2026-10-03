@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (2010 skills)
+## Bash (2011 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1979,6 +1979,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [startup-business-analyst-business-case](../skills/business/operations/startup_business_ana/startup-business-analyst-business-case/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst business case. Generate comprehensive investor-ready business case document with
 - [startup-business-analyst-market-opportunity](../skills/business/operations/startup_business_ana/startup-business-analyst-market-opportunity/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst market opportunity. Generate comprehensive market opportunity analysis with TAM/SAM/SOM
 - [tds-booking-payment](../skills/business/operations/tds_booking_payment/tds-booking-payment/SKILL.md) — Use this skill to design, implement, and operate production workflows for tds booking payment. TDS register: payee PAN, payment nature, rate and amount deducted, deposit date and challan reference, return filing and ledger variance. Use for TDS compliance.
+- [team-calendar](../skills/business/operations/team_calendar/team-calendar/SKILL.md) — Use this skill to design, implement, and operate production workflows for team calendar. Team calendar: event, type, date and time with time zone, attendees, organizer, location and source module. Use for shared scheduling.
 - [google-analytics-automation](../skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.
 - [reports-analytics](../skills/data-analytics/analytics-engineering/reports_analytics/reports-analytics/SKILL.md) — Use this skill to design, implement, and operate production workflows for reports analytics. Report register: type, source modules, owner, audience, frequency, last and next run and report link. Use for reporting governance.
 - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
@@ -10020,7 +10021,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2113 skills)
+## Python (2114 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10956,6 +10957,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [startup-business-analyst-business-case](../skills/business/operations/startup_business_ana/startup-business-analyst-business-case/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst business case. Generate comprehensive investor-ready business case document with
 - [startup-business-analyst-market-opportunity](../skills/business/operations/startup_business_ana/startup-business-analyst-market-opportunity/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst market opportunity. Generate comprehensive market opportunity analysis with TAM/SAM/SOM
 - [tds-booking-payment](../skills/business/operations/tds_booking_payment/tds-booking-payment/SKILL.md) — Use this skill to design, implement, and operate production workflows for tds booking payment. TDS register: payee PAN, payment nature, rate and amount deducted, deposit date and challan reference, return filing and ledger variance. Use for TDS compliance.
+- [team-calendar](../skills/business/operations/team_calendar/team-calendar/SKILL.md) — Use this skill to design, implement, and operate production workflows for team calendar. Team calendar: event, type, date and time with time zone, attendees, organizer, location and source module. Use for shared scheduling.
 - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
 - [ai-saas-wrapper-architecture-and-stripe-metering](../skills/business/saas/ai-metering/ai-saas-wrapper-architecture-and-stripe-metering/SKILL.md) — Use this skill to architect, build, and monetize AI-wrapper SaaS products with usage-based billing, token credit wallets, and Stripe metering. It covers rate-limited API gateway proxies, tenant isolation, credit deduction middleware, and margin preservation against upstream LLM token costs.
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
@@ -13964,6 +13966,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Teach (1 skills)
 
 - [teach](../skills/software-engineering/architecture/patterns/teach/SKILL.md) — Use this skill to design, implement, and operate production workflows for teach. Teach the user a new skill or concept, within this workspace.
+
+## Team Calendar (1 skills)
+
+- [team-calendar](../skills/business/operations/team_calendar/team-calendar/SKILL.md) — Use this skill to design, implement, and operate production workflows for team calendar. Team calendar: event, type, date and time with time zone, attendees, organizer, location and source module. Use for shared scheduling.
 
 ## Tech Matrix (1 skills)
 

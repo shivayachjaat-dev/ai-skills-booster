@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **50 skills** available in this category.
+> **51 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -54,3 +54,4 @@
 | [startup-business-analyst-business-case](../../skills/business/operations/startup_business_ana/startup-business-analyst-business-case/SKILL.md) | `startup_business_ana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup business analyst business case. Generate comprehensive investor-ready business case document with |
 | [startup-business-analyst-market-opportunity](../../skills/business/operations/startup_business_ana/startup-business-analyst-market-opportunity/SKILL.md) | `startup_business_ana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup business analyst market opportunity. Generate comprehensive market opportunity analysis with TAM/SAM/SOM |
 | [tds-booking-payment](../../skills/business/operations/tds_booking_payment/tds-booking-payment/SKILL.md) | `tds_booking_payment` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tds booking payment. TDS register: payee PAN, payment nature, rate and amount deducted, deposit date and challan reference, return filing and ledger variance. Use for TDS compliance. |
+| [team-calendar](../../skills/business/operations/team_calendar/team-calendar/SKILL.md) | `team_calendar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for team calendar. Team calendar: event, type, date and time with time zone, attendees, organizer, location and source module. Use for shared scheduling. |

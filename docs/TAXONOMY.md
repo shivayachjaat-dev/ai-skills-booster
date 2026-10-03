@@ -971,7 +971,8 @@ AI_Skills_Booster/
 │   │   ├── stakeholder_investor/ (1 skills)
 │   │   ├── startup_analyst/ (1 skills)
 │   │   ├── startup_business_ana/ (2 skills)
-│   │   └── tds_booking_payment/ (1 skills)
+│   │   ├── tds_booking_payment/ (1 skills)
+│   │   └── team_calendar/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/

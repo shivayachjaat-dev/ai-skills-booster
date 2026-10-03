@@ -20994,6 +20994,28 @@
     "maturity": "stable"
   },
   {
+    "name": "team-calendar",
+    "path": "skills/business/operations/team_calendar/team-calendar",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "team_calendar",
+    "description": "Use this skill to design, implement, and operate production workflows for team calendar. Team calendar: event, type, date and time with time zone, attendees, organizer, location and source module. Use for shared scheduling.",
+    "tags": [
+      "business",
+      "operations",
+      "team",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Team Calendar",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
