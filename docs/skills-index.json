@@ -12623,6 +12623,28 @@
     "maturity": "stable"
   },
   {
+    "name": "product-design",
+    "path": "skills/ai-engineering/models/product_design/product-design",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "product_design",
+    "description": "Use this skill to design, implement, and operate production workflows for product design. Design de produto nivel Apple \u2014 sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff. Cobre Figma, design systems, tipografia, cor, espacamento, motion design e principios de design cognitivo.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "product",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Product Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

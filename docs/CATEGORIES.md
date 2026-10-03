@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,803** skills across structured domains, categories, and subcategories.
+Master navigation for **1,804** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (618 skills)
+## Ai Engineering (619 skills)
 
 ### Agents (78 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -306,7 +306,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (448 skills)
+### Models (449 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1180,6 +1180,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [pre-ship-gate](../skills/ai-engineering/models/pre_ship_gate/pre-ship-gate/SKILL.md) — Use this skill to design, implement, and operate production workflows for pre ship gate. A ship gate that runs before any production deploy: checks the silent failure modes that make a deploy 'succeed' while prod stays broken, then verifies the live revision instead of trusting deploy output.
 - **Privacy_Mask** (1):
   - [privacy-mask](../skills/ai-engineering/models/privacy_mask/privacy-mask/SKILL.md) — Use this skill to design, implement, and operate production workflows for privacy mask. Mask, redact, anonymize and censor sensitive information (PII) in screenshots and images — phone numbers, emails, IDs, API keys, crypto wallets, credit cards, passwords, and more.
+- **Product_Design** (1):
+  - [product-design](../skills/ai-engineering/models/product_design/product-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for product design. Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff. Cobre Figma, design systems, tipografia, cor, espacamento, motion design e principios de design cognitivo.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
