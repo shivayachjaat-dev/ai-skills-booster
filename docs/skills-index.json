@@ -20221,6 +20221,28 @@
     "maturity": "stable"
   },
   {
+    "name": "segment-cdp",
+    "path": "skills/data-analytics/data-pipelines/segment_cdp/segment-cdp",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "segment_cdp",
+    "description": "Use this skill to design, implement, and operate production workflows for segment cdp. Expert patterns for Segment Customer Data Platform including",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "segment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Segment Cdp",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "snowflake-data-warehouse-modeling",
     "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
     "domain": "data-analytics",
