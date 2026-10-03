@@ -30111,6 +30111,28 @@
     "maturity": "stable"
   },
   {
+    "name": "reference-builder",
+    "path": "skills/frontend/ui-ux/reference_builder/reference-builder",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "reference_builder",
+    "description": "Use this skill to design, implement, and operate production workflows for reference builder. Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "reference",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Reference Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

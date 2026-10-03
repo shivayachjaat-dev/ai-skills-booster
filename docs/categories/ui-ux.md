@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **229 skills** available in this category.
+> **230 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -230,6 +230,7 @@
 | [receiving-code-review](../../skills/frontend/ui-ux/receiving_code_revie/receiving-code-review/SKILL.md) | `receiving_code_revie` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for receiving code review. Code review requires technical evaluation, not emotional performance. |
 | [recruitment-pipeline](../../skills/frontend/ui-ux/recruitment_pipeline/recruitment-pipeline/SKILL.md) | `recruitment_pipeline` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recruitment pipeline. Recruitment pipeline: candidate, position, stage, source, applied and interview dates, interview score, notice period and offer. Use for hiring tracking. |
 | [redis-cli](../../skills/frontend/ui-ux/redis_cli/redis-cli/SKILL.md) | `redis_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for redis cli. Redis command-line interface (redis-cli) reference and usage guide. Use this skill whenever the user mentions redis-cli, Redis CLI, or any task involving querying, inspecting, debugging, or managing Redis from the command line. |
+| [reference-builder](../../skills/frontend/ui-ux/reference_builder/reference-builder/SKILL.md) | `reference_builder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reference builder. Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
