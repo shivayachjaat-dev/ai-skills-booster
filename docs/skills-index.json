@@ -14779,6 +14779,28 @@
     "maturity": "stable"
   },
   {
+    "name": "system-prompt-lookup",
+    "path": "skills/ai-engineering/models/system_prompt_lookup/system-prompt-lookup",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "system_prompt_lookup",
+    "description": "Use this skill to design, implement, and operate production workflows for system prompt lookup. Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "system",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "System Prompt Lookup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

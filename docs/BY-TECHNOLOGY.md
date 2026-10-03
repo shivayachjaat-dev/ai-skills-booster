@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1986 skills)
+## Bash (1987 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1730,6 +1730,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [supply-chain-security](../skills/ai-engineering/models/supply_chain_securit/supply-chain-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for supply chain security. Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification.
 - [survey-generator](../skills/ai-engineering/models/survey_generator/survey-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for survey generator. Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering.
+- [system-prompt-lookup](../skills/ai-engineering/models/system_prompt_lookup/system-prompt-lookup/SKILL.md) — Use this skill to design, implement, and operate production workflows for system prompt lookup. Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
 - [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
@@ -9996,7 +9997,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2089 skills)
+## Python (2090 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10662,6 +10663,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [supply-chain-security](../skills/ai-engineering/models/supply_chain_securit/supply-chain-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for supply chain security. Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification.
 - [survey-generator](../skills/ai-engineering/models/survey_generator/survey-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for survey generator. Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering.
+- [system-prompt-lookup](../skills/ai-engineering/models/system_prompt_lookup/system-prompt-lookup/SKILL.md) — Use this skill to design, implement, and operate production workflows for system prompt lookup. Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
 - [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
@@ -13806,6 +13808,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [tamper-evident-audit-logging-and-siem-integration](../skills/security/compliance/audit-logging/tamper-evident-audit-logging-and-siem-integration/SKILL.md) — Use this skill to design and implement immutable, tamper-evident audit logging architectures with enterprise SIEM integration. It covers cryptographic HMAC hash chains, structured Common Event Format (CEF) and Elastic Common Schema (ECS) event modeling, automated PII redaction, secure multi-region syslog forwarding (TLS/mTLS), and retention compliance for SOC2, ISO 27001, and HIPAA.
 - [incident-response-and-triage](../skills/security/incident-response/triage/incident-response-and-triage/SKILL.md) — Use this skill when triaging, containing, and investigating active production security incidents and data breaches. It guides the agent through the PICERL framework (Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned), evidence preservation without anti-forensic contamination, forensic log isolation, and root-cause analysis.
+
+## System Prompt Lookup (1 skills)
+
+- [system-prompt-lookup](../skills/ai-engineering/models/system_prompt_lookup/system-prompt-lookup/SKILL.md) — Use this skill to design, implement, and operate production workflows for system prompt lookup. Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.
 
 ## TRL (1 skills)
 

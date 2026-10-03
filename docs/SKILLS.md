@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,167 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,168 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -672,6 +672,7 @@
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [supply-chain-security](skills/ai-engineering/models/supply_chain_securit/supply-chain-security/SKILL.md) | `ai-engineering` | `models` | `supply_chain_securit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supply chain security. Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification. |
 | [survey-generator](skills/ai-engineering/models/survey_generator/survey-generator/SKILL.md) | `ai-engineering` | `models` | `survey_generator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for survey generator. Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering. |
+| [system-prompt-lookup](skills/ai-engineering/models/system_prompt_lookup/system-prompt-lookup/SKILL.md) | `ai-engineering` | `models` | `system_prompt_lookup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for system prompt lookup. Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `ai-engineering` | `models` | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
 | [vibe-code-auditor](skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) | `ai-engineering` | `models` | `vibe_code_auditor` | `advanced` | `stable` | Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. |
