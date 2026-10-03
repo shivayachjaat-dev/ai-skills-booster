@@ -23093,6 +23093,28 @@
     "maturity": "stable"
   },
   {
+    "name": "square-automation",
+    "path": "skills/developer-tools/productivity/square_automation/square-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "square_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for square automation. Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "square",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Square Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

@@ -1099,7 +1099,8 @@ AI_Skills_Booster/
 │   │   ├── sentry_automation/ (1 skills)
 │   │   ├── serply_search_mcp/ (1 skills)
 │   │   ├── shopify_automation/ (1 skills)
-│   │   └── skill_porter/ (1 skills)
+│   │   ├── skill_porter/ (1 skills)
+│   │   └── square_automation/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/

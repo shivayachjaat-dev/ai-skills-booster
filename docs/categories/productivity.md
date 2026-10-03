@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **45 skills** available in this category.
+> **46 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -49,3 +49,4 @@
 | [serply-search-mcp](../../skills/developer-tools/productivity/serply_search_mcp/serply-search-mcp/SKILL.md) | `serply_search_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for serply search mcp. Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the user chooses Serply or its connected tools for current information and source verification. |
 | [shopify-automation](../../skills/developer-tools/productivity/shopify_automation/shopify-automation/SKILL.md) | `shopify_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shopify automation. Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas. |
 | [skill-porter](../../skills/developer-tools/productivity/skill_porter/skill-porter/SKILL.md) | `skill_porter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill porter. Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity. |
+| [square-automation](../../skills/developer-tools/productivity/square_automation/square-automation/SKILL.md) | `square_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for square automation. Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas. |

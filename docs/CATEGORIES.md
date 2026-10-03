@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,102** skills across structured domains, categories, and subcategories.
+Master navigation for **2,103** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (711 skills)
 
@@ -2227,7 +2227,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (61 skills)
+## Developer Tools (62 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -2265,7 +2265,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Satori** (1):
   - [satori](../skills/developer-tools/cli-utilities/satori/satori/SKILL.md) — Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner
 
-### Productivity (45 skills)
+### Productivity (46 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -2358,6 +2358,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [shopify-automation](../skills/developer-tools/productivity/shopify_automation/shopify-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for shopify automation. Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.
 - **Skill_Porter** (1):
   - [skill-porter](../skills/developer-tools/productivity/skill_porter/skill-porter/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill porter. Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity.
+- **Square_Automation** (1):
+  - [square-automation](../skills/developer-tools/productivity/square_automation/square-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for square automation. Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)
