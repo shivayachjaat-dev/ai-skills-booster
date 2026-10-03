@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **244 skills** available in this category.
+> **245 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -246,5 +246,6 @@
 | [seo-authority-builder](../../skills/frontend/ui-ux/seo_authority_builde/seo-authority-builder/SKILL.md) | `seo_authority_builde` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo authority builder. Analyzes content for E-E-A-T signals and suggests improvements to |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [service-mesh-observability](../../skills/frontend/ui-ux/service_mesh_observa/service-mesh-observability/SKILL.md) | `service_mesh_observa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh observability. Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments. |
+| [shadcn](../../skills/frontend/ui-ux/shadcn/shadcn/SKILL.md) | `shadcn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shadcn. Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

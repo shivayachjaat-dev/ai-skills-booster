@@ -32047,6 +32047,28 @@
     "maturity": "stable"
   },
   {
+    "name": "shadcn",
+    "path": "skills/frontend/ui-ux/shadcn/shadcn",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "shadcn",
+    "description": "Use this skill to design, implement, and operate production workflows for shadcn. Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "shadcn",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Shadcn",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
