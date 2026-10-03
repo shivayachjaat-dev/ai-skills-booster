@@ -1427,6 +1427,7 @@ AI_Skills_Booster/
 │   │   ├── eas_simulator/ (1 skills)
 │   │   ├── eas_workflows/ (1 skills)
 │   │   ├── electron_development/ (1 skills)
+│   │   ├── elixir/ (1 skills)
 │   │   ├── embedding_strategies/ (1 skills)
 │   │   ├── enhance_prompt/ (1 skills)
 │   │   ├── environment_setup_gu/ (1 skills)

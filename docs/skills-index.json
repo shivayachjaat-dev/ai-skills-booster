@@ -29825,6 +29825,28 @@
     "maturity": "stable"
   },
   {
+    "name": "elixir",
+    "path": "skills/frontend/ui-ux/elixir/elixir",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "elixir",
+    "description": "Use this skill to design, implement, and operate production workflows for elixir. Language-specific super-code guidelines for elixir.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "elixir",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Elixir",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "embedding-strategies",
     "path": "skills/frontend/ui-ux/embedding_strategies/embedding-strategies",
     "domain": "frontend",

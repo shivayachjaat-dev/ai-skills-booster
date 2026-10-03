@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,144** skills across structured domains, categories, and subcategories.
+Master navigation for **2,145** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (430 skills)
+## Frontend (431 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (262 skills)
+### Ui Ux (263 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3081,6 +3081,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [eas-workflows](../skills/frontend/ui-ux/eas_workflows/eas-workflows/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas workflows. Curated upstream guidance for Eas Workflows; use when the workflow matches the user goal.
 - **Electron_Development** (1):
   - [electron-development](../skills/frontend/ui-ux/electron_development/electron-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for electron development. Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update.
+- **Elixir** (1):
+  - [elixir](../skills/frontend/ui-ux/elixir/elixir/SKILL.md) — Use this skill to design, implement, and operate production workflows for elixir. Language-specific super-code guidelines for elixir.
 - **Embedding_Strategies** (1):
   - [embedding-strategies](../skills/frontend/ui-ux/embedding_strategies/embedding-strategies/SKILL.md) — Use this skill to design, implement, and operate production workflows for embedding strategies. Guide to selecting and optimizing embedding models for vector search applications.
 - **Enhance_Prompt** (1):

@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **262 skills** available in this category.
+> **263 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -86,6 +86,7 @@
 | [eas-simulator](../../skills/frontend/ui-ux/eas_simulator/eas-simulator/SKILL.md) | `eas_simulator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eas simulator. Curated upstream guidance for Eas Simulator; use when the workflow matches the user goal. |
 | [eas-workflows](../../skills/frontend/ui-ux/eas_workflows/eas-workflows/SKILL.md) | `eas_workflows` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for eas workflows. Curated upstream guidance for Eas Workflows; use when the workflow matches the user goal. |
 | [electron-development](../../skills/frontend/ui-ux/electron_development/electron-development/SKILL.md) | `electron_development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for electron development. Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update. |
+| [elixir](../../skills/frontend/ui-ux/elixir/elixir/SKILL.md) | `elixir` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for elixir. Language-specific super-code guidelines for elixir. |
 | [embedding-strategies](../../skills/frontend/ui-ux/embedding_strategies/embedding-strategies/SKILL.md) | `embedding_strategies` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for embedding strategies. Guide to selecting and optimizing embedding models for vector search applications. |
 | [enhance-prompt](../../skills/frontend/ui-ux/enhance_prompt/enhance-prompt/SKILL.md) | `enhance_prompt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for enhance prompt. Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results. |
 | [environment-setup-guide](../../skills/frontend/ui-ux/environment_setup_gu/environment-setup-guide/SKILL.md) | `environment_setup_gu` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for environment setup guide. Guide developers through setting up development environments with proper tools, dependencies, and configurations |
