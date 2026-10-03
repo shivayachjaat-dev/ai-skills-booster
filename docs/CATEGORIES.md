@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,942** skills across structured domains, categories, and subcategories.
+Master navigation for **1,943** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (667 skills)
 
@@ -3910,9 +3910,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (256 skills)
+## Software Engineering (257 skills)
 
-### Architecture (249 skills)
+### Architecture (250 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -3921,7 +3921,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (246):
+- **Patterns** (247):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -4166,6 +4166,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [review-and-simplify-changes](../skills/software-engineering/architecture/patterns/review-and-simplify-changes/SKILL.md) — Use this skill to design, implement, and operate production workflows for review and simplify changes. Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then optionally apply safe Codex-driven fixes.
   - [rich-elicitation](../skills/software-engineering/architecture/patterns/rich-elicitation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rich elicitation. Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have 3+ viable answers.
   - [risk-manager](../skills/software-engineering/architecture/patterns/risk-manager/SKILL.md) — Use this skill to design, implement, and operate production workflows for risk manager. Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.
+  - [rust-pro](../skills/software-engineering/architecture/patterns/rust-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust pro. Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.
   - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
   - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 

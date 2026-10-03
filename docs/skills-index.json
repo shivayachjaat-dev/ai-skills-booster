@@ -42485,6 +42485,28 @@
     "maturity": "stable"
   },
   {
+    "name": "rust-pro",
+    "path": "skills/software-engineering/architecture/patterns/rust-pro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for rust pro. Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "rust",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Rust Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",

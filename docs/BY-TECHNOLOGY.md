@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1760 skills)
+## Bash (1761 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2810,6 +2810,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [review-and-simplify-changes](../skills/software-engineering/architecture/patterns/review-and-simplify-changes/SKILL.md) — Use this skill to design, implement, and operate production workflows for review and simplify changes. Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then optionally apply safe Codex-driven fixes.
 - [rich-elicitation](../skills/software-engineering/architecture/patterns/rich-elicitation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rich elicitation. Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have 3+ viable answers.
 - [risk-manager](../skills/software-engineering/architecture/patterns/risk-manager/SKILL.md) — Use this skill to design, implement, and operate production workflows for risk manager. Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.
+- [rust-pro](../skills/software-engineering/architecture/patterns/rust-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust pro. Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -9728,7 +9729,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1863 skills)
+## Python (1864 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11559,6 +11560,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [review-and-simplify-changes](../skills/software-engineering/architecture/patterns/review-and-simplify-changes/SKILL.md) — Use this skill to design, implement, and operate production workflows for review and simplify changes. Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then optionally apply safe Codex-driven fixes.
 - [rich-elicitation](../skills/software-engineering/architecture/patterns/rich-elicitation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rich elicitation. Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have 3+ viable answers.
 - [risk-manager](../skills/software-engineering/architecture/patterns/risk-manager/SKILL.md) — Use this skill to design, implement, and operate production workflows for risk manager. Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.
+- [rust-pro](../skills/software-engineering/architecture/patterns/rust-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust pro. Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -12179,6 +12181,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Rust Async Patterns (1 skills)
 
 - [rust-async-patterns](../skills/ai-engineering/models/rust_async_patterns/rust-async-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust async patterns. Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code.
+
+## Rust Pro (1 skills)
+
+- [rust-pro](../skills/software-engineering/architecture/patterns/rust-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust pro. Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.
 
 ## RxJS (1 skills)
 
