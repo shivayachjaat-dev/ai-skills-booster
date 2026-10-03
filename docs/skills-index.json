@@ -18107,6 +18107,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sqlmap-database-pentesting",
+    "path": "skills/backend/databases/sqlmap_database_pent/sqlmap-database-pentesting",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "sqlmap_database_pent",
+    "description": "Use this skill to design, implement, and operate production workflows for sqlmap database pentesting. Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap.",
+    "tags": [
+      "backend",
+      "databases",
+      "sqlmap",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sqlmap Database Pentesting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "src-hunter",
     "path": "skills/backend/databases/src_hunter/src-hunter",
     "domain": "backend",

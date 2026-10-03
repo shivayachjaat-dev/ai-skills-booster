@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1919 skills)
+## Bash (1920 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1864,6 +1864,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [saas-multi-tenant](../skills/backend/databases/saas_multi_tenant/saas-multi-tenant/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas multi tenant. Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript.
 - [sankhya-dashboard-html-jsp-custom-best-pratices](../skills/backend/databases/sankhya_dashboard_ht/sankhya-dashboard-html-jsp-custom-best-pratices/SKILL.md) — Use this skill to design, implement, and operate production workflows for sankhya dashboard html jsp custom best pratices. This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL.
 - [sql-pro](../skills/backend/databases/sql_pro/sql-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for sql pro. Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.
+- [sqlmap-database-pentesting](../skills/backend/databases/sqlmap_database_pent/sqlmap-database-pentesting/SKILL.md) — Use this skill to design, implement, and operate production workflows for sqlmap database pentesting. Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap.
 - [src-hunter](../skills/backend/databases/src_hunter/src-hunter/SKILL.md) — Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload.
 - [azure-appconfiguration-py](../skills/backend/python-services/azure_appconfigurati/azure-appconfiguration-py/SKILL.md) — Use this skill to azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
 - [azure-eventgrid-py](../skills/backend/python-services/azure_eventgrid_py/azure-eventgrid-py/SKILL.md) — Use this skill to azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
@@ -9899,7 +9900,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2022 skills)
+## Python (2023 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10709,6 +10710,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [saas-multi-tenant](../skills/backend/databases/saas_multi_tenant/saas-multi-tenant/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas multi tenant. Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript.
 - [sankhya-dashboard-html-jsp-custom-best-pratices](../skills/backend/databases/sankhya_dashboard_ht/sankhya-dashboard-html-jsp-custom-best-pratices/SKILL.md) — Use this skill to design, implement, and operate production workflows for sankhya dashboard html jsp custom best pratices. This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL.
 - [sql-pro](../skills/backend/databases/sql_pro/sql-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for sql pro. Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.
+- [sqlmap-database-pentesting](../skills/backend/databases/sqlmap_database_pent/sqlmap-database-pentesting/SKILL.md) — Use this skill to design, implement, and operate production workflows for sqlmap database pentesting. Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap.
 - [src-hunter](../skills/backend/databases/src_hunter/src-hunter/SKILL.md) — Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload.
 - [openapi-documentation-generator-and-swagger-ui](../skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui/SKILL.md) — Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export.
 - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.
@@ -13378,6 +13380,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Sql Pro (1 skills)
 
 - [sql-pro](../skills/backend/databases/sql_pro/sql-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for sql pro. Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.
+
+## Sqlmap Database Pentesting (1 skills)
+
+- [sqlmap-database-pentesting](../skills/backend/databases/sqlmap_database_pent/sqlmap-database-pentesting/SKILL.md) — Use this skill to design, implement, and operate production workflows for sqlmap database pentesting. Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap.
 
 ## Src Hunter (1 skills)
 
