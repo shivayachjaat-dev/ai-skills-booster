@@ -937,7 +937,8 @@ AI_Skills_Booster/
 │   │   ├── one_drive_automation/ (1 skills)
 │   │   ├── outlook_calendar_aut/ (1 skills)
 │   │   ├── pagerduty_automation/ (1 skills)
-│   │   └── pipedrive_automation/ (1 skills)
+│   │   ├── pipedrive_automation/ (1 skills)
+│   │   └── posthog_automation/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/

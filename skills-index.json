@@ -19529,6 +19529,28 @@
     "maturity": "stable"
   },
   {
+    "name": "posthog-automation",
+    "path": "skills/developer-tools/productivity/posthog_automation/posthog-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "posthog_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for posthog automation. Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "posthog",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Posthog Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
