@@ -43101,6 +43101,28 @@
     "maturity": "stable"
   },
   {
+    "name": "score-eval",
+    "path": "skills/software-engineering/architecture/patterns/score-eval",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for score eval. Imported skill `score-eval` from upstream source.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "score",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Score Eval",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
