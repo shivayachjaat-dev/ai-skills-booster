@@ -1489,6 +1489,7 @@ AI_Skills_Booster/
 │   │   ├── saas_mvp_launcher/ (1 skills)
 │   │   ├── scanpy/ (1 skills)
 │   │   ├── scroll_experience/ (1 skills)
+│   │   ├── sdk_dx/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)

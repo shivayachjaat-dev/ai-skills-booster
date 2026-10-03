@@ -31167,6 +31167,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sdk-dx",
+    "path": "skills/frontend/ui-ux/sdk_dx/sdk-dx",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "sdk_dx",
+    "description": "Use this skill to design, implement, and operate production workflows for sdk dx. Design SDKs that developers love to use\u2014APIs that feel native, error messages that guide, and experiences that reduce friction. This skill covers creating SDKs that drive adoption through exceptional developer experience rather than aggressive marketing.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "sdk",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sdk Dx",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
