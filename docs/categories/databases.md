@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **33 skills** available in this category.
+> **34 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -36,4 +36,5 @@
 | [obsidian-bases](../../skills/backend/databases/obsidian_bases/obsidian-bases/SKILL.md) | `obsidian_bases` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for obsidian bases. Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian. |
 | [odoo-docker-deployment](../../skills/backend/databases/odoo_docker_deployme/odoo-docker-deployment/SKILL.md) | `odoo_docker_deployme` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo docker deployment. Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy. |
 | [pentest-tools](../../skills/backend/databases/pentest_tools/pentest-tools/SKILL.md) | `pentest_tools` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pentest tools. Operate 20+ penetration-testing tools (Nmap, Nuclei, SQLMap, FFUF, Hashcat, and more) through structured workflows with consistent output handling. |
+| [src-hunter](../../skills/backend/databases/src_hunter/src-hunter/SKILL.md) | `src_hunter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload. |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |

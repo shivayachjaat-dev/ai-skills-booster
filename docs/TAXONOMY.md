@@ -692,7 +692,8 @@ AI_Skills_Booster/
 │   │   ├── notion_automation/ (1 skills)
 │   │   ├── obsidian_bases/ (1 skills)
 │   │   ├── odoo_docker_deployme/ (1 skills)
-│   │   └── pentest_tools/ (1 skills)
+│   │   ├── pentest_tools/ (1 skills)
+│   │   └── src_hunter/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
 │   ├── fastapi/

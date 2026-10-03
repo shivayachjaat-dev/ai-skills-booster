@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,728** skills across structured domains, categories, and subcategories.
+Master navigation for **1,729** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (597 skills)
 
@@ -1260,7 +1260,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (107 skills)
+## Backend (108 skills)
 
 ### Api Design (9 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1390,7 +1390,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (32 skills)
+### Databases (33 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -1454,6 +1454,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [odoo-docker-deployment](../skills/backend/databases/odoo_docker_deployme/odoo-docker-deployment/SKILL.md) — Use this skill to design, implement, and operate production workflows for odoo docker deployment. Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy.
 - **Pentest_Tools** (1):
   - [pentest-tools](../skills/backend/databases/pentest_tools/pentest-tools/SKILL.md) — Use this skill to design, implement, and operate production workflows for pentest tools. Operate 20+ penetration-testing tools (Nmap, Nuclei, SQLMap, FFUF, Hashcat, and more) through structured workflows with consistent output handling.
+- **Src_Hunter** (1):
+  - [src-hunter](../skills/backend/databases/src_hunter/src-hunter/SKILL.md) — Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload.
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)
