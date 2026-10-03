@@ -38509,6 +38509,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pentest-checklist",
+    "path": "skills/testing/automation/pentest_checklist/pentest-checklist",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "pentest_checklist",
+    "description": "Use this skill to design, implement, and operate production workflows for pentest checklist. Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough preparation, proper scoping, and effective remediation of discovered vulnerabilities.",
+    "tags": [
+      "testing",
+      "automation",
+      "pentest",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pentest Checklist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",
