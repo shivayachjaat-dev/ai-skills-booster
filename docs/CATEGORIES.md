@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,143** skills across structured domains, categories, and subcategories.
+Master navigation for **2,144** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (429 skills)
+## Frontend (430 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (261 skills)
+### Ui Ux (262 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3027,6 +3027,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [crossframe-suite](../skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) — Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.
 - **Csharp** (1):
   - [csharp](../skills/frontend/ui-ux/csharp/csharp/SKILL.md) — Use this skill to design, implement, and operate production workflows for csharp. Language-specific super-code guidelines for csharp.
+- **Dart** (1):
+  - [dart](../skills/frontend/ui-ux/dart/dart/SKILL.md) — Use this skill to design, implement, and operate production workflows for dart. Language-specific super-code guidelines for dart.
 - **Dast_Scanning** (1):
   - [dast-scanning](../skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) — Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite,
 - **Data_Privacy_Control** (1):

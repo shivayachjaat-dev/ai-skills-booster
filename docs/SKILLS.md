@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,143 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,144 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1314,6 +1314,7 @@
 | [crossframe-public](skills/frontend/ui-ux/crossframe_public/crossframe-public/SKILL.md) | `frontend` | `ui-ux` | `crossframe_public` | `advanced` | `stable` | Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence. |
 | [crossframe-suite](skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) | `frontend` | `ui-ux` | `crossframe_suite` | `advanced` | `stable` | Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output. |
 | [csharp](skills/frontend/ui-ux/csharp/csharp/SKILL.md) | `frontend` | `ui-ux` | `csharp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for csharp. Language-specific super-code guidelines for csharp. |
+| [dart](skills/frontend/ui-ux/dart/dart/SKILL.md) | `frontend` | `ui-ux` | `dart` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for dart. Language-specific super-code guidelines for dart. |
 | [dast-scanning](skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) | `frontend` | `ui-ux` | `dast_scanning` | `advanced` | `stable` | Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite, |
 | [data-privacy-controls](skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) | `frontend` | `ui-ux` | `data_privacy_control` | `advanced` | `stable` | Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance. |
 | [data-quality-frameworks](skills/frontend/ui-ux/data_quality_framewo/data-quality-frameworks/SKILL.md) | `frontend` | `ui-ux` | `data_quality_framewo` | `advanced` | `stable` | Use this skill to implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts. |

@@ -29231,6 +29231,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dart",
+    "path": "skills/frontend/ui-ux/dart/dart",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "dart",
+    "description": "Use this skill to design, implement, and operate production workflows for dart. Language-specific super-code guidelines for dart.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "dart",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dart",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "dast-scanning",
     "path": "skills/frontend/ui-ux/dast_scanning/dast-scanning",
     "domain": "frontend",

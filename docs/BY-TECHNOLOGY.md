@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1962 skills)
+## Bash (1963 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2280,6 +2280,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [crossframe-public](../skills/frontend/ui-ux/crossframe_public/crossframe-public/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence.
 - [crossframe-suite](../skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) — Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.
 - [csharp](../skills/frontend/ui-ux/csharp/csharp/SKILL.md) — Use this skill to design, implement, and operate production workflows for csharp. Language-specific super-code guidelines for csharp.
+- [dart](../skills/frontend/ui-ux/dart/dart/SKILL.md) — Use this skill to design, implement, and operate production workflows for dart. Language-specific super-code guidelines for dart.
 - [dast-scanning](../skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) — Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite,
 - [data-privacy-controls](../skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) — Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance.
 - [data-quality-frameworks](../skills/frontend/ui-ux/data_quality_framewo/data-quality-frameworks/SKILL.md) — Use this skill to implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts.
@@ -4416,6 +4417,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Dark Mode (1 skills)
 
 - [dark-mode](../skills/ai-engineering/models/dark_mode/dark-mode/SKILL.md) — Use this skill to design, implement, and operate production workflows for dark mode. Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.
+
+## Dart (1 skills)
+
+- [dart](../skills/frontend/ui-ux/dart/dart/SKILL.md) — Use this skill to design, implement, and operate production workflows for dart. Language-specific super-code guidelines for dart.
 
 ## Dashboard Design (1 skills)
 
@@ -9954,7 +9959,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2064 skills)
+## Python (2065 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11215,6 +11220,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [crossframe-public](../skills/frontend/ui-ux/crossframe_public/crossframe-public/SKILL.md) — Use this skill to use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence.
 - [crossframe-suite](../skills/frontend/ui-ux/crossframe_suite/crossframe-suite/SKILL.md) — Use this skill to use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.
 - [csharp](../skills/frontend/ui-ux/csharp/csharp/SKILL.md) — Use this skill to design, implement, and operate production workflows for csharp. Language-specific super-code guidelines for csharp.
+- [dart](../skills/frontend/ui-ux/dart/dart/SKILL.md) — Use this skill to design, implement, and operate production workflows for dart. Language-specific super-code guidelines for dart.
 - [dast-scanning](../skills/frontend/ui-ux/dast_scanning/dast-scanning/SKILL.md) — Use this skill to perform dynamic application security testing with OWASP ZAP, Burp Suite,
 - [data-privacy-controls](../skills/frontend/ui-ux/data_privacy_control/data-privacy-controls/SKILL.md) — Use this skill to data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance.
 - [data-quality-frameworks](../skills/frontend/ui-ux/data_quality_framewo/data-quality-frameworks/SKILL.md) — Use this skill to implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts.
