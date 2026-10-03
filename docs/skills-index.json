@@ -13701,6 +13701,28 @@
     "maturity": "stable"
   },
   {
+    "name": "security-compliance-compliance-check",
+    "path": "skills/ai-engineering/models/security_compliance_/security-compliance-compliance-check",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "security_compliance_",
+    "description": "Use this skill to design, implement, and operate production workflows for security compliance compliance check. You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform comprehensive compliance audits and provide implementation guidance fo...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Compliance Compliance Check",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,986** skills across structured domains, categories, and subcategories.
+Master navigation for **1,987** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (676 skills)
+## Ai Engineering (677 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (487 skills)
+### Models (488 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1278,6 +1278,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [scientific-writing](../skills/ai-engineering/models/scientific_writing/scientific-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for scientific writing. This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup ...
 - **Security_And_Hardeni** (1):
   - [security-and-hardening](../skills/ai-engineering/models/security_and_hardeni/security-and-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for security and hardening. Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.
+- **Security_Compliance_** (1):
+  - [security-compliance-compliance-check](../skills/ai-engineering/models/security_compliance_/security-compliance-compliance-check/SKILL.md) — Use this skill to design, implement, and operate production workflows for security compliance compliance check. You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform comprehensive compliance audits and provide implementation guidance fo...
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
