@@ -14845,6 +14845,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tailwind-patterns",
+    "path": "skills/ai-engineering/models/tailwind_patterns/tailwind-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "tailwind_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for tailwind patterns. Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "tailwind",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tailwind Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
