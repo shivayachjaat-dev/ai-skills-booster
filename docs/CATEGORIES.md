@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,000** skills across structured domains, categories, and subcategories.
+Master navigation for **2,001** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (681 skills)
+## Ai Engineering (682 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (492 skills)
+### Models (493 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1288,6 +1288,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [selenium-skill](../skills/ai-engineering/models/selenium_skill/selenium-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for selenium skill. Generates production-grade Selenium WebDriver automation scripts and tests in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution and TestMu AI cloud with 3000+ browser/OS combinations.
 - **Sendgrid_Automation** (1):
   - [sendgrid-automation](../skills/ai-engineering/models/sendgrid_automation/sendgrid-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for sendgrid automation. Automate SendGrid email delivery workflows including marketing campaigns (Single Sends), contact and list management, sender identity setup, and email analytics through Composio's SendGrid toolkit.
+- **Senior_Frontend** (1):
+  - [senior-frontend](../skills/ai-engineering/models/senior_frontend/senior-frontend/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior frontend. Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing fr...
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

@@ -13811,6 +13811,28 @@
     "maturity": "stable"
   },
   {
+    "name": "senior-frontend",
+    "path": "skills/ai-engineering/models/senior_frontend/senior-frontend",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "senior_frontend",
+    "description": "Use this skill to design, implement, and operate production workflows for senior frontend. Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing fr...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "senior",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Senior Frontend",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
