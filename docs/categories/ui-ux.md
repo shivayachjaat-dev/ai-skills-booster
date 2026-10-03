@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **219 skills** available in this category.
+> **220 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -220,6 +220,7 @@
 | [privacy-by-design](../../skills/frontend/ui-ux/privacy_by_design/privacy-by-design/SKILL.md) | `privacy_by_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for privacy by design. Use when building apps that collect user data. Ensures privacy protections are built in from the start—data minimization, consent, encryption. |
 | [product-inventor](../../skills/frontend/ui-ux/product_inventor/product-inventor/SKILL.md) | `product_inventor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product inventor. Product Inventor e Design Alchemist de nivel maximo — combina Product Thinking, Design Systems, UI Engineering, Psicologia Cognitiva, Storytelling e execucao impecavel nivel Jobs/Apple. |
 | [projection-patterns](../../skills/frontend/ui-ux/projection_patterns/projection-patterns/SKILL.md) | `projection_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for projection patterns. Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems. |
+| [prometheus-configuration](../../skills/frontend/ui-ux/prometheus_configura/prometheus-configuration/SKILL.md) | `prometheus_configura` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prometheus configuration. Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules. |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

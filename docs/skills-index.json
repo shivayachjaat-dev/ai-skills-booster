@@ -28703,6 +28703,28 @@
     "maturity": "stable"
   },
   {
+    "name": "prometheus-configuration",
+    "path": "skills/frontend/ui-ux/prometheus_configura/prometheus-configuration",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "prometheus_configura",
+    "description": "Use this skill to design, implement, and operate production workflows for prometheus configuration. Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "prometheus",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Prometheus Configuration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
