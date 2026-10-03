@@ -34159,6 +34159,28 @@
     "maturity": "stable"
   },
   {
+    "name": "swiftui-view-refactor",
+    "path": "skills/frontend/ui-ux/swiftui_view_refacto/swiftui-view-refactor",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "swiftui_view_refacto",
+    "description": "Use this skill to design, implement, and operate production workflows for swiftui view refactor. Refactor SwiftUI views into smaller components with stable, explicit data flow.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "swiftui",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Swiftui View Refactor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "typescript",
     "path": "skills/frontend/ui-ux/typescript/typescript",
     "domain": "frontend",

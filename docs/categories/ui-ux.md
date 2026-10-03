@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **276 skills** available in this category.
+> **277 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -278,5 +278,6 @@
 | [swiftui-liquid-glass](../../skills/frontend/ui-ux/swiftui_liquid_glass/swiftui-liquid-glass/SKILL.md) | `swiftui_liquid_glass` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swiftui liquid glass. Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [swiftui-ui-patterns](../../skills/frontend/ui-ux/swiftui_ui_patterns/swiftui-ui-patterns/SKILL.md) | `swiftui_ui_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swiftui ui patterns. Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens. |
+| [swiftui-view-refactor](../../skills/frontend/ui-ux/swiftui_view_refacto/swiftui-view-refactor/SKILL.md) | `swiftui_view_refacto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swiftui view refactor. Refactor SwiftUI views into smaller components with stable, explicit data flow. |
 | [typescript](../../skills/frontend/ui-ux/typescript/typescript/SKILL.md) | `typescript` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

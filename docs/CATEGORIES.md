@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,165** skills across structured domains, categories, and subcategories.
+Master navigation for **2,166** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (728 skills)
 
@@ -2721,7 +2721,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (445 skills)
+## Frontend (446 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2923,7 +2923,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Sveltekit** (1):
   - [sveltekit](../skills/frontend/ui-development/sveltekit/sveltekit/SKILL.md) — Use this skill to design, implement, and operate production workflows for sveltekit. Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and form actions in one framework.
 
-### Ui Ux (276 skills)
+### Ui Ux (277 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3474,6 +3474,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - **Swiftui_Ui_Patterns** (1):
   - [swiftui-ui-patterns](../skills/frontend/ui-ux/swiftui_ui_patterns/swiftui-ui-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiftui ui patterns. Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens.
+- **Swiftui_View_Refacto** (1):
+  - [swiftui-view-refactor](../skills/frontend/ui-ux/swiftui_view_refacto/swiftui-view-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiftui view refactor. Refactor SwiftUI views into smaller components with stable, explicit data flow.
 - **Typescript** (1):
   - [typescript](../skills/frontend/ui-ux/typescript/typescript/SKILL.md) — Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript.
 - **Vr_Ar** (1):
