@@ -13239,6 +13239,28 @@
     "maturity": "stable"
   },
   {
+    "name": "repo-maintainer",
+    "path": "skills/ai-engineering/models/repo_maintainer/repo-maintainer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "repo_maintainer",
+    "description": "Use this skill to design, implement, and operate production workflows for repo maintainer. Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Use for repository maintenance, cleanup, health checks, or pre-release hardening.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "repo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Repo Maintainer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
