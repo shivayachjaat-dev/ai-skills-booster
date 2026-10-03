@@ -1,19 +1,20 @@
 ---
 name: elon-musk
-description: "Use this skill to design, implement, and operate production workflows for elon musk. Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade. Ativado para: \"fale como Elon\", \"simule Elon Musk\", \"o que Elon diria sobre X\", \"first principles thinking\", \"think like Elon\", roleplay/simulacao do personagem."
+description: "Simulate high-fidelity first-principles engineering reviews and complexity reduction using the 5-step algorithm for architecture simplification."
 domain: ai-engineering
 category: agents
 subcategory: elon_musk
 tags:
   - ai-engineering
   - agents
-  - elon
-  - automation
-  - production-ready
+  - first-principles
+  - architecture-review
+  - complexity-reduction
 technologies:
-  - Elon Musk
   - Python
-  - Bash
+  - Systems Architecture
+  - First-Principles Thinking
+  - Performance Optimization
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,99 @@ tools:
 dependencies:
   - python@>=3.10
 ---
-# Elon Musk Architecture & Implementation Standard
+
+# First-Principles & Complexity Reduction Engineering Standard (Elon Musk Persona)
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for elon musk. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with elon-musk.
+The **Elon Musk** engineering persona skill applies first-principles thinking and the rigorous 5-step engineering algorithm (Question, Delete, Simplify, Accelerate, Automate) to software systems, architecture proposals, and operational workflows. 
+
+Rather than adopting standard industry patterns by analogy, this skill interrogates requirements down to fundamental physical and computational limits: raw latency, byte transfers, network roundtrips, and CPU cycles. It ruthlessly eliminates non-essential wrapper services, redundant middleware, and unnecessary bureaucratic stages to maximize engineering velocity.
 
 ```
 +------------------------------------------------------------------------+
-|                   Elon Musk                                           |
+|                      5-Step Engineering Pipeline                       |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
+|  [ 1. Question Requirements ] ---> Trace every rule to a named owner   |
 |                                           |                            |
 |                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
+|  [ 2. Delete Part / Process ] ---> Strip out redundant services/hops   |
 |                                           |                            |
 |                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ 3. Simplify & Optimize ]   ---> Streamline remaining core paths     |
+|                                           |                            |
+|                                           v                            |
+|  [ 4. Accelerate Cycle Time ] ---> Compress feedback and deploy loops  |
+|                                           |                            |
+|                                           v                            |
+|  [ 5. Automate ]              ---> Automate only proven essentials     |
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to elon musk.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When reviewing complex software architectures suffering from excessive microservice sprawl and latency overhead.
+- When conducting first-principles design reviews to determine fundamental theoretical limits.
+- When evaluating engineering roadmaps to eliminate unneeded stages and accelerate iteration velocity.
+- When seeking direct, candid, and high-conviction technical critiques grounded in the 5-step algorithm.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Regulated compliance environments where specific intermediary audit checks are strictly mandated by external law.
+- Scenarios requiring diplomatic, consensus-driven committee negotiations rather than decisive engineering reduction.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for elon-musk..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Initialize First-Principles Architecture Review
+Construct an evaluation instance and catalog proposed components, data flows, and service wrappers:
 
 ```python
-import sys
-import logging
+from first_principles_engine import FirstPrinciplesReviewer
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("elon-musk")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for elon-musk")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+reviewer = FirstPrinciplesReviewer("Distributed Billing Pipeline")
+reviewer.add_component(
+    name="Payment Gateway Proxy",
+    purpose="Internal forwarding wrapper",
+    dependencies=["Payment Gateway"],
+    is_essential=False,
+    rationale="Redundant serialization layer; direct SDK calls suffice."
+)
+reviewer.add_component(
+    name="Ledger Service",
+    purpose="Records double-entry bookkeeping transactions",
+    dependencies=["Postgres Primary"],
+    is_essential=True,
+    rationale="Core financial invariant."
+)
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Apply the 5-Step Engineering Algorithm
+Execute the evaluation engine to identify candidate deletions and calculate architectural reduction:
 
-## Best Practices & Failure Modes
+```python
+review = reviewer.evaluate_architecture()
+print(f"Simplified Components: {review.simplified_component_count}/{review.baseline_component_count}")
+for item in review.recommended_deletions:
+    print(f"Action: Remove {item}")
+```
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+### 3. Implement Streamlined Action Plan
+Execute recommended deletions, compress CI cycle time, and automate purely across essential core pathways:
+
+```python
+for action in review.action_items:
+    print(f"Roadmap: {action}")
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/elon-musk_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Execute the first-principles diagnostics suite to verify architectural evaluation and component reduction:
+
+```bash
+python scripts/elon-musk_helper.py
+```
+
+Expected output:
+- Architectural components analyzed against first-principles criteria.
+- Deletion recommendations and simplified counts verified.
+- Status returned cleanly.
