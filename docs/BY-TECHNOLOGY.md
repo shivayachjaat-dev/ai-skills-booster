@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1580 skills)
+## Bash (1581 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1609,6 +1609,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pilot-protocol](../skills/ai-engineering/models/pilot_protocol/pilot-protocol/SKILL.md) — Use this skill to design, implement, and operate production workflows for pilot protocol. Give an AI agent a permanent network address, encrypted P2P messaging, and an installable app store via Pilot Protocol
 - [pipecat-friday-agent](../skills/ai-engineering/models/pipecat_friday_agent/pipecat-friday-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for pipecat friday agent. Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI.
 - [plaid-fintech](../skills/ai-engineering/models/plaid_fintech/plaid-fintech/SKILL.md) — Use this skill to design, implement, and operate production workflows for plaid fintech. Expert patterns for Plaid API integration including Link token
+- [podcast-generation](../skills/ai-engineering/models/podcast_generation/podcast-generation/SKILL.md) — Use this skill to design, implement, and operate production workflows for podcast generation. Generate real audio narratives from text content using Azure OpenAI's Realtime API.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -9092,6 +9093,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [plotly](../skills/frontend/web-architecture/plotly/plotly/SKILL.md) — Use this skill to design, implement, and operate production workflows for plotly. Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization.
 
+## Podcast Generation (1 skills)
+
+- [podcast-generation](../skills/ai-engineering/models/podcast_generation/podcast-generation/SKILL.md) — Use this skill to design, implement, and operate production workflows for podcast generation. Generate real audio narratives from text content using Azure OpenAI's Realtime API.
+
 ## Polars (1 skills)
 
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
@@ -9230,7 +9235,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1683 skills)
+## Python (1684 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9787,6 +9792,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pilot-protocol](../skills/ai-engineering/models/pilot_protocol/pilot-protocol/SKILL.md) — Use this skill to design, implement, and operate production workflows for pilot protocol. Give an AI agent a permanent network address, encrypted P2P messaging, and an installable app store via Pilot Protocol
 - [pipecat-friday-agent](../skills/ai-engineering/models/pipecat_friday_agent/pipecat-friday-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for pipecat friday agent. Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI.
 - [plaid-fintech](../skills/ai-engineering/models/plaid_fintech/plaid-fintech/SKILL.md) — Use this skill to design, implement, and operate production workflows for plaid fintech. Expert patterns for Plaid API integration including Link token
+- [podcast-generation](../skills/ai-engineering/models/podcast_generation/podcast-generation/SKILL.md) — Use this skill to design, implement, and operate production workflows for podcast generation. Generate real audio narratives from text content using Azure OpenAI's Realtime API.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.

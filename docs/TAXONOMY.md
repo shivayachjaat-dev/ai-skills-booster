@@ -563,6 +563,7 @@ AI_Skills_Booster/
 │   │   ├── pilot_protocol/ (1 skills)
 │   │   ├── pipecat_friday_agent/ (1 skills)
 │   │   ├── plaid_fintech/ (1 skills)
+│   │   ├── podcast_generation/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

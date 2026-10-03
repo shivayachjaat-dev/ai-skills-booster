@@ -12381,6 +12381,28 @@
     "maturity": "stable"
   },
   {
+    "name": "podcast-generation",
+    "path": "skills/ai-engineering/models/podcast_generation/podcast-generation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "podcast_generation",
+    "description": "Use this skill to design, implement, and operate production workflows for podcast generation. Generate real audio narratives from text content using Azure OpenAI's Realtime API.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "podcast",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Podcast Generation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
