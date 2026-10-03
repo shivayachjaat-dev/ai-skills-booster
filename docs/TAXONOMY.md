@@ -1614,6 +1614,7 @@ AI_Skills_Booster/
 │   │   ├── spreadsheet_manual_b/ (1 skills)
 │   │   ├── startup_financial_mo/ (1 skills)
 │   │   ├── startup_metrics_fram/ (1 skills)
+│   │   ├── swift/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
 │   └── web-architecture/

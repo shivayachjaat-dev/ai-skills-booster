@@ -33939,6 +33939,28 @@
     "maturity": "stable"
   },
   {
+    "name": "swift",
+    "path": "skills/frontend/ui-ux/swift/swift",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "swift",
+    "description": "Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "swift",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Swift",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",

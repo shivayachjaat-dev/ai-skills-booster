@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1972 skills)
+## Bash (1973 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2494,6 +2494,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [spreadsheet-manual-build](../skills/frontend/ui-ux/spreadsheet_manual_b/spreadsheet-manual-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for spreadsheet manual build. Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.
 - [startup-financial-modeling](../skills/frontend/ui-ux/startup_financial_mo/startup-financial-modeling/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup financial modeling. Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.
 - [startup-metrics-framework](../skills/frontend/ui-ux/startup_metrics_fram/startup-metrics-framework/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup metrics framework. Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.
+- [swift](../skills/frontend/ui-ux/swift/swift/SKILL.md) — Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 - [3d-ui](../skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
@@ -9982,7 +9983,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2075 skills)
+## Python (2076 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11458,6 +11459,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [spreadsheet-manual-build](../skills/frontend/ui-ux/spreadsheet_manual_b/spreadsheet-manual-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for spreadsheet manual build. Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.
 - [startup-financial-modeling](../skills/frontend/ui-ux/startup_financial_mo/startup-financial-modeling/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup financial modeling. Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.
 - [startup-metrics-framework](../skills/frontend/ui-ux/startup_metrics_fram/startup-metrics-framework/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup metrics framework. Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.
+- [swift](../skills/frontend/ui-ux/swift/swift/SKILL.md) — Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 - [3d-ui](../skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
@@ -13701,8 +13703,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [openapi-documentation-generator-and-swagger-ui](../skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui/SKILL.md) — Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export.
 
-## Swift (1 skills)
+## Swift (2 skills)
 
+- [swift](../skills/frontend/ui-ux/swift/swift/SKILL.md) — Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift.
 - [ios-app-clip-architecture](../skills/mobile/ios/app-clips/ios-app-clip-architecture/SKILL.md) — Use this skill when designing, building, and configuring iOS App Clips for on-demand, lightweight app experiences without full App Store installations. It guides the agent through Apple App Clip target creation in Xcode/Expo, bundle size optimization (< 15MB or 50MB on iOS 17+), Associated Domains configuration (appclips:), Apple Pay and Sign in with Apple integration, and App Clip code invocation.
 
 ## SwiftUI (1 skills)
