@@ -1593,6 +1593,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pi-delegate",
+    "path": "skills/ai-engineering/agents/pi_delegate/pi-delegate",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "pi_delegate",
+    "description": "Use this skill to design, implement, and operate production workflows for pi delegate. Delegate coding tasks to the Pi coding agent CLI (`pi`) only when the",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "pi",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pi Delegate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "multi-agent-tmux-process-orchestrator",
     "path": "skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator",
     "domain": "ai-engineering",

@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,746** skills across structured domains, categories, and subcategories.
+Master navigation for **1,747** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (602 skills)
+## Ai Engineering (603 skills)
 
-### Agents (74 skills)
+### Agents (75 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -149,6 +149,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [performance-testing-review-multi-agent-review](../skills/ai-engineering/agents/performance_testing_/performance-testing-review-multi-agent-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance testing review multi agent review. Use when working with performance testing review multi agent review
 - **Pi_Custom_Model** (1):
   - [pi-custom-model](../skills/ai-engineering/agents/pi_custom_model/pi-custom-model/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi custom model. Register custom Pi Agent model slugs so saved OpenRouter variants resolve correctly.
+- **Pi_Delegate** (1):
+  - [pi-delegate](../skills/ai-engineering/agents/pi_delegate/pi-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi delegate. Delegate coding tasks to the Pi coding agent CLI (`pi`) only when the
 - **Process Management** (1):
   - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - **Scheduling** (1):
