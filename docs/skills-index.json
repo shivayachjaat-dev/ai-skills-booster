@@ -44355,6 +44355,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sequence-psychologist",
+    "path": "skills/software-engineering/architecture/patterns/sequence-psychologist",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for sequence psychologist. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "sequence",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sequence Psychologist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
