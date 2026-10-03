@@ -38063,6 +38063,28 @@
     "maturity": "stable"
   },
   {
+    "name": "permission-manager",
+    "path": "skills/software-engineering/architecture/patterns/permission-manager",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for permission manager. Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "permission",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Permission Manager",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
