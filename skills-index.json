@@ -17034,6 +17034,28 @@
     "maturity": "stable"
   },
   {
+    "name": "policy-acknowledgement",
+    "path": "skills/business/operations/policy_acknowledgeme/policy-acknowledgement",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "policy_acknowledgeme",
+    "description": "Use this skill to design, implement, and operate production workflows for policy acknowledgement. Policy acknowledgement register: employee, policy and version, sent and due dates, acknowledged date and flag, days overdue, reminder sent and status. Use for policy sign-off tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "policy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Policy Acknowledgement",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
