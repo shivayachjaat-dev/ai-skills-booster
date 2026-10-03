@@ -13685,6 +13685,28 @@
     "maturity": "stable"
   },
   {
+    "name": "polars",
+    "path": "skills/backend/api-design/polars/polars",
+    "domain": "backend",
+    "category": "api-design",
+    "subcategory": "polars",
+    "description": "Use this skill to design, implement, and operate production workflows for polars. Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than...",
+    "tags": [
+      "backend",
+      "api-design",
+      "polars",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Polars",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "api-rate-limiting-and-throttling",
     "path": "skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling",
     "domain": "backend",

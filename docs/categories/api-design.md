@@ -1,6 +1,6 @@
 # Category Index: Api Design
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -12,4 +12,5 @@
 | [firebase](../../skills/backend/api-design/firebase/firebase/SKILL.md) | `firebase` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for firebase. Firebase gives you a complete backend in minutes - auth, database, |
 | [fp-backend](../../skills/backend/api-design/fp_backend/fp-backend/SKILL.md) | `fp_backend` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for fp backend. Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection |
 | [hunt-spa-api](../../skills/backend/api-design/hunt_spa_api/hunt-spa-api/SKILL.md) | `hunt_spa_api` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for hunt spa api. Discover a single-page-app's hidden backend API from its public JS bundle, |
+| [polars](../../skills/backend/api-design/polars/polars/SKILL.md) | `polars` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for polars. Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than... |
 | [api-rate-limiting-and-throttling](../../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) | `rate-limiting` | `advanced` | `stable` | Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions. |
