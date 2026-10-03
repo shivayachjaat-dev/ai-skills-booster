@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,889** skills across structured domains, categories, and subcategories.
+Master navigation for **1,890** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (650 skills)
+## Ai Engineering (651 skills)
 
 ### Agents (83 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -320,7 +320,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (466 skills)
+### Models (467 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1230,6 +1230,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [recallmax](../skills/ai-engineering/models/recallmax/recallmax/SKILL.md) — Use this skill to design, implement, and operate production workflows for recallmax. FREE — God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens.
 - **Recsys_Pipeline_Arch** (1):
   - [recsys-pipeline-architect](../skills/ai-engineering/models/recsys_pipeline_arch/recsys-pipeline-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for recsys pipeline architect. Designs composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework
+- **Recursive_Context_Pr** (1):
+  - [recursive-context-pruning-token-budgeting](../skills/ai-engineering/models/recursive_context_pr/recursive-context-pruning-token-budgeting/SKILL.md) — Use this skill to design, implement, and operate production workflows for recursive context pruning token budgeting. Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direct-to-value responses.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

@@ -13173,6 +13173,28 @@
     "maturity": "stable"
   },
   {
+    "name": "recursive-context-pruning-token-budgeting",
+    "path": "skills/ai-engineering/models/recursive_context_pr/recursive-context-pruning-token-budgeting",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "recursive_context_pr",
+    "description": "Use this skill to design, implement, and operate production workflows for recursive context pruning token budgeting. Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direct-to-value responses.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "recursive",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Recursive Context Pruning Token Budgeting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,889 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,890 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -599,6 +599,7 @@
 | [react-state-management](skills/ai-engineering/models/react_state_manageme/react-state-management/SKILL.md) | `ai-engineering` | `models` | `react_state_manageme` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react state management. Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions. |
 | [recallmax](skills/ai-engineering/models/recallmax/recallmax/SKILL.md) | `ai-engineering` | `models` | `recallmax` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recallmax. FREE — God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens. |
 | [recsys-pipeline-architect](skills/ai-engineering/models/recsys_pipeline_arch/recsys-pipeline-architect/SKILL.md) | `ai-engineering` | `models` | `recsys_pipeline_arch` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recsys pipeline architect. Designs composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework |
+| [recursive-context-pruning-token-budgeting](skills/ai-engineering/models/recursive_context_pr/recursive-context-pruning-token-budgeting/SKILL.md) | `ai-engineering` | `models` | `recursive_context_pr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recursive context pruning token budgeting. Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direct-to-value responses. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
