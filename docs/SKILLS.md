@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,845 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,846 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1310,6 +1310,7 @@
 | [projection-patterns](skills/frontend/ui-ux/projection_patterns/projection-patterns/SKILL.md) | `frontend` | `ui-ux` | `projection_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for projection patterns. Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems. |
 | [prometheus-configuration](skills/frontend/ui-ux/prometheus_configura/prometheus-configuration/SKILL.md) | `frontend` | `ui-ux` | `prometheus_configura` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prometheus configuration. Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules. |
 | [prototype](skills/frontend/ui-ux/prototype/prototype/SKILL.md) | `frontend` | `ui-ux` | `prototype` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prototype. Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. |
+| [python-packaging](skills/frontend/ui-ux/python_packaging/python-packaging/SKILL.md) | `frontend` | `ui-ux` | `python_packaging` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python packaging. Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI. |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
