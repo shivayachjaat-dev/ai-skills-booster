@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1534 skills)
+## Bash (1535 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2232,6 +2232,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [neumorphism](../skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.
 - [pagespeed-enhancer](../skills/frontend/web-architecture/pagespeed_enhancer/pagespeed-enhancer/SKILL.md) — Use this skill to design, implement, and operate production workflows for pagespeed enhancer. Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed Insights pillars — Performance, Accessibility, Best Practices, and SEO — in structured batches.
 - [parallel-search-mcp](../skills/frontend/web-architecture/parallel_search_mcp/parallel-search-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for parallel search mcp. Search the public web and verify sources with Parallel's free Search MCP. Use when the user chooses Parallel or its connected tools for current information and URL extraction.
+- [payment-integration](../skills/frontend/web-architecture/payment_integration/payment-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for payment integration. Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - [retro-design](../skills/frontend/web-architecture/retro_design/retro-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for retro design. Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts.
 - [retro-futurism](../skills/frontend/web-architecture/retro_futurism/retro-futurism/SKILL.md) — Use this skill to design, implement, and operate production workflows for retro futurism. Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes.
@@ -8842,6 +8843,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [payment-accounting](../skills/ai-engineering/models/payment_accounting/payment-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for payment accounting. Payment voucher register: payment number and date, paid to and purpose, mode, gross amount, TDS rate and deducted, net paid, invoice allocation, ledger and reconciliation status. Use for vouchers.
 
+## Payment Integration (1 skills)
+
+- [payment-integration](../skills/frontend/web-architecture/payment_integration/payment-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for payment integration. Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.
+
 ## Pc Games (1 skills)
 
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
@@ -9004,7 +9009,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1637 skills)
+## Python (1638 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10230,6 +10235,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [neumorphism](../skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.
 - [pagespeed-enhancer](../skills/frontend/web-architecture/pagespeed_enhancer/pagespeed-enhancer/SKILL.md) — Use this skill to design, implement, and operate production workflows for pagespeed enhancer. Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed Insights pillars — Performance, Accessibility, Best Practices, and SEO — in structured batches.
 - [parallel-search-mcp](../skills/frontend/web-architecture/parallel_search_mcp/parallel-search-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for parallel search mcp. Search the public web and verify sources with Parallel's free Search MCP. Use when the user chooses Parallel or its connected tools for current information and URL extraction.
+- [payment-integration](../skills/frontend/web-architecture/payment_integration/payment-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for payment integration. Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - [retro-design](../skills/frontend/web-architecture/retro_design/retro-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for retro design. Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts.
 - [retro-futurism](../skills/frontend/web-architecture/retro_futurism/retro-futurism/SKILL.md) — Use this skill to design, implement, and operate production workflows for retro futurism. Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes.

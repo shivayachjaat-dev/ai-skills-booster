@@ -28461,6 +28461,28 @@
     "maturity": "stable"
   },
   {
+    "name": "payment-integration",
+    "path": "skills/frontend/web-architecture/payment_integration/payment-integration",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "payment_integration",
+    "description": "Use this skill to design, implement, and operate production workflows for payment integration. Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "payment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Payment Integration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,716** skills across structured domains, categories, and subcategories.
+Master navigation for **1,717** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (593 skills)
 
@@ -2259,7 +2259,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (341 skills)
+## Frontend (342 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2837,7 +2837,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (77 skills)
+### Web Architecture (78 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -2961,6 +2961,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [pagespeed-enhancer](../skills/frontend/web-architecture/pagespeed_enhancer/pagespeed-enhancer/SKILL.md) — Use this skill to design, implement, and operate production workflows for pagespeed enhancer. Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed Insights pillars — Performance, Accessibility, Best Practices, and SEO — in structured batches.
 - **Parallel_Search_Mcp** (1):
   - [parallel-search-mcp](../skills/frontend/web-architecture/parallel_search_mcp/parallel-search-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for parallel search mcp. Search the public web and verify sources with Parallel's free Search MCP. Use when the user chooses Parallel or its connected tools for current information and URL extraction.
+- **Payment_Integration** (1):
+  - [payment-integration](../skills/frontend/web-architecture/payment_integration/payment-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for payment integration. Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.
 - **Production_Audit** (1):
   - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - **Retro_Design** (1):
