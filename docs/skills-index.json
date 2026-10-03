@@ -41957,6 +41957,28 @@
     "maturity": "stable"
   },
   {
+    "name": "resumable-implementation-contracts",
+    "path": "skills/software-engineering/architecture/patterns/resumable-implementation-contracts",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for resumable implementation contracts. Create repository-based execution contracts for multi-session implementation work, with stable task IDs, evidence, checkpoints, and exact resume state.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "resumable",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Resumable Implementation Contracts",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
