@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,748** skills across structured domains, categories, and subcategories.
+Master navigation for **1,749** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (604 skills)
+## Ai Engineering (605 skills)
 
 ### Agents (76 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -302,7 +302,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (436 skills)
+### Models (437 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1152,6 +1152,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [people-directory](../skills/ai-engineering/models/people_directory/people-directory/SKILL.md) — Use this skill to design, implement, and operate production workflows for people directory. Employee master record: name, employee id, department, job title, grade, manager, employment type, contact and emergency details, access role, start and end dates, status. Use for people records.
 - **Performance_Testing_** (1):
   - [performance-testing-review-ai-review](../skills/ai-engineering/models/performance_testing_/performance-testing-review-ai-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance testing review ai review. You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C
+- **Pilot_Protocol** (1):
+  - [pilot-protocol](../skills/ai-engineering/models/pilot_protocol/pilot-protocol/SKILL.md) — Use this skill to design, implement, and operate production workflows for pilot protocol. Give an AI agent a permanent network address, encrypted P2P messaging, and an installable app store via Pilot Protocol
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

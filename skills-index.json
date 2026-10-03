@@ -12315,6 +12315,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pilot-protocol",
+    "path": "skills/ai-engineering/models/pilot_protocol/pilot-protocol",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "pilot_protocol",
+    "description": "Use this skill to design, implement, and operate production workflows for pilot protocol. Give an AI agent a permanent network address, encrypted P2P messaging, and an installable app store via Pilot Protocol",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "pilot",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pilot Protocol",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
