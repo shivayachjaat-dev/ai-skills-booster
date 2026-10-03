@@ -12205,6 +12205,28 @@
     "maturity": "stable"
   },
   {
+    "name": "performance-testing-review-ai-review",
+    "path": "skills/ai-engineering/models/performance_testing_/performance-testing-review-ai-review",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "performance_testing_",
+    "description": "Use this skill to design, implement, and operate production workflows for performance testing review ai review. You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "performance",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Performance Testing Review Ai Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
