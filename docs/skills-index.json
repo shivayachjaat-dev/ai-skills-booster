@@ -24422,6 +24422,28 @@
     "maturity": "stable"
   },
   {
+    "name": "startup-it-troubleshooting",
+    "path": "skills/devops/ci-cd/startup_it_troublesh/startup-it-troubleshooting",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "startup_it_troublesh",
+    "description": "Use this skill to design, implement, and operate production workflows for startup it troubleshooting. Practical IT troubleshooting playbooks for small teams without dedicated",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "startup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Startup It Troubleshooting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "amazon-alexa",
     "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
     "domain": "devops",

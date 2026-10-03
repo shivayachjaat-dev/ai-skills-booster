@@ -1162,7 +1162,8 @@ AI_Skills_Booster/
 │   │   ├── semantic_versioning/ (1 skills)
 │   │   ├── service_mesh/ (1 skills)
 │   │   ├── sre_dashboards/ (1 skills)
-│   │   └── ssh_configuration/ (1 skills)
+│   │   ├── ssh_configuration/ (1 skills)
+│   │   └── startup_it_troublesh/ (1 skills)
 │   ├── cloud-infrastructure/
 │   │   ├── amazon_alexa/ (1 skills)
 │   │   ├── aws_cost_cleanup/ (1 skills)

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,116 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,117 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1101,6 +1101,7 @@
 | [service-mesh](skills/devops/ci-cd/service_mesh/service-mesh/SKILL.md) | `devops` | `ci-cd` | `service_mesh` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management, |
 | [sre-dashboards](skills/devops/ci-cd/sre_dashboards/sre-dashboards/SKILL.md) | `devops` | `ci-cd` | `sre_dashboards` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sre dashboards. Design and operationalize SRE dashboards that surface reliability, latency, |
 | [ssh-configuration](skills/devops/ci-cd/ssh_configuration/ssh-configuration/SKILL.md) | `devops` | `ci-cd` | `ssh_configuration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ssh configuration. Configure SSH servers and clients securely. Manage keys, tunnels, and |
+| [startup-it-troubleshooting](skills/devops/ci-cd/startup_it_troublesh/startup-it-troubleshooting/SKILL.md) | `devops` | `ci-cd` | `startup_it_troublesh` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup it troubleshooting. Practical IT troubleshooting playbooks for small teams without dedicated |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |
 | [aws-cost-optimizer](skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_optimizer` | `advanced` | `stable` | Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer |
