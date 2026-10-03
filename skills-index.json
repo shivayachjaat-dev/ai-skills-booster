@@ -32267,6 +32267,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-developer",
+    "path": "skills/frontend/ui-ux/skill_developer/skill-developer",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "skill_developer",
+    "description": "Use this skill to design, implement, and operate production workflows for skill developer. Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Developer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",

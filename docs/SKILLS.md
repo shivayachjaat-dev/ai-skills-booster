@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,053 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,054 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1452,6 +1452,7 @@
 | [shadcn](skills/frontend/ui-ux/shadcn/shadcn/SKILL.md) | `frontend` | `ui-ux` | `shadcn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shadcn. Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems. |
 | [shopify-development](skills/frontend/ui-ux/shopify_development/shopify-development/SKILL.md) | `frontend` | `ui-ux` | `shopify_development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shopify development. Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid. |
 | [similarity-search-patterns](skills/frontend/ui-ux/similarity_search_pa/similarity-search-patterns/SKILL.md) | `frontend` | `ui-ux` | `similarity_search_pa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for similarity search patterns. Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance. |
+| [skill-developer](skills/frontend/ui-ux/skill_developer/skill-developer/SKILL.md) | `frontend` | `ui-ux` | `skill_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill developer. Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
 | [3d-ui](skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) | `frontend` | `web-architecture` | `3d_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth. |

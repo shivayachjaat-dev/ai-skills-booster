@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,053** skills across structured domains, categories, and subcategories.
+Master navigation for **2,054** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (695 skills)
 
@@ -2617,7 +2617,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (410 skills)
+## Frontend (411 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2811,7 +2811,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Redesign_Existing_Pr** (1):
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 
-### Ui Ux (247 skills)
+### Ui Ux (248 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3304,6 +3304,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [shopify-development](../skills/frontend/ui-ux/shopify_development/shopify-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for shopify development. Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.
 - **Similarity_Search_Pa** (1):
   - [similarity-search-patterns](../skills/frontend/ui-ux/similarity_search_pa/similarity-search-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for similarity search patterns. Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance.
+- **Skill_Developer** (1):
+  - [skill-developer](../skills/frontend/ui-ux/skill_developer/skill-developer/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill developer. Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern.
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - **Vr_Ar** (1):
