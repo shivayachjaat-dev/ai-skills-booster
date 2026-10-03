@@ -13085,6 +13085,28 @@
     "maturity": "stable"
   },
   {
+    "name": "react-nextjs-development",
+    "path": "skills/ai-engineering/models/react_nextjs_develop/react-nextjs-development",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "react_nextjs_develop",
+    "description": "Use this skill to design, implement, and operate production workflows for react nextjs development. React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "react",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "React Nextjs Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

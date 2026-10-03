@@ -595,6 +595,7 @@ AI_Skills_Booster/
 │   │   ├── radare2/ (1 skills)
 │   │   ├── rayden_use/ (1 skills)
 │   │   ├── react_best_practices/ (1 skills)
+│   │   ├── react_nextjs_develop/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
