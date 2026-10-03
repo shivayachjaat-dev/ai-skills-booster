@@ -46423,6 +46423,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stellar-multisig-threshold-coordinator",
+    "path": "skills/software-engineering/architecture/patterns/stellar-multisig-threshold-coordinator",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for stellar multisig threshold coordinator. Multi-signature signer and threshold coordination register: weight configurations, master key locks, and cosigner quorum thresholds for Stellar.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "stellar",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stellar Multisig Threshold Coordinator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
