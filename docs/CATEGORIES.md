@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,884** skills across structured domains, categories, and subcategories.
+Master navigation for **1,885** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (649 skills)
 
@@ -2453,7 +2453,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (379 skills)
+## Frontend (380 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2639,7 +2639,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Premium_3D_Website** (1):
   - [premium-3d-website](../skills/frontend/ui-development/premium_3d_website/premium-3d-website/SKILL.md) — Use this skill to design, implement, and operate production workflows for premium 3d website. Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization.
 
-### Ui Ux (226 skills)
+### Ui Ux (227 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3088,6 +3088,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [qiskit](../skills/frontend/ui-ux/qiskit/qiskit/SKILL.md) — Use this skill to design, implement, and operate production workflows for qiskit. Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Ama...
 - **Radix_Ui_Design_Syst** (1):
   - [radix-ui-design-system](../skills/frontend/ui-ux/radix_ui_design_syst/radix-ui-design-system/SKILL.md) — Use this skill to design, implement, and operate production workflows for radix ui design system. Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries.
+- **Receiving_Code_Revie** (1):
+  - [receiving-code-review](../skills/frontend/ui-ux/receiving_code_revie/receiving-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for receiving code review. Code review requires technical evaluation, not emotional performance.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):

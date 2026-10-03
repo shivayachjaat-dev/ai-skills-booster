@@ -29891,6 +29891,28 @@
     "maturity": "stable"
   },
   {
+    "name": "receiving-code-review",
+    "path": "skills/frontend/ui-ux/receiving_code_revie/receiving-code-review",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "receiving_code_revie",
+    "description": "Use this skill to design, implement, and operate production workflows for receiving code review. Code review requires technical evaluation, not emotional performance.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "receiving",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Receiving Code Review",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
