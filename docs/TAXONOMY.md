@@ -1504,6 +1504,7 @@ AI_Skills_Booster/
 │   │   ├── nodejs_best_practice/ (1 skills)
 │   │   ├── odoo_security_rules/ (1 skills)
 │   │   ├── offensive_osint/ (1 skills)
+│   │   ├── openclaw_security_ha/ (1 skills)
 │   │   ├── security_auditor/ (1 skills)
 │   │   └── security_checklist/ (1 skills)
 │   ├── architecture/

@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,686 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,687 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1390,6 +1390,7 @@
 | [nodejs-best-practices](skills/security/appsec/nodejs_best_practice/nodejs-best-practices/SKILL.md) | `security` | `appsec` | `nodejs_best_practice` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nodejs best practices. Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying. |
 | [odoo-security-rules](skills/security/appsec/odoo_security_rules/odoo-security-rules/SKILL.md) | `security` | `appsec` | `odoo_security_rules` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo security rules. Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns. |
 | [offensive-osint](skills/security/appsec/offensive_osint/offensive-osint/SKILL.md) | `security` | `appsec` | `offensive_osint` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for offensive osint. Operational arsenal for authorized external red-team and bug-bounty recon. |
+| [openclaw-security-hardening](skills/security/appsec/openclaw_security_ha/openclaw-security-hardening/SKILL.md) | `security` | `appsec` | `openclaw_security_ha` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openclaw security hardening. Harden OpenClaw self-hosted environments with baseline host controls, |
 | [security-auditor](skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security` | `appsec` | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security` | `appsec` | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |

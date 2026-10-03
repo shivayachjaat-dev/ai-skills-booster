@@ -30978,6 +30978,28 @@
     "maturity": "stable"
   },
   {
+    "name": "openclaw-security-hardening",
+    "path": "skills/security/appsec/openclaw_security_ha/openclaw-security-hardening",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "openclaw_security_ha",
+    "description": "Use this skill to design, implement, and operate production workflows for openclaw security hardening. Harden OpenClaw self-hosted environments with baseline host controls,",
+    "tags": [
+      "security",
+      "appsec",
+      "openclaw",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Openclaw Security Hardening",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
