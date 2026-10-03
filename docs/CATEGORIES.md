@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,038** skills across structured domains, categories, and subcategories.
+Master navigation for **2,039** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (691 skills)
+## Ai Engineering (692 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1333,7 +1333,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (45 skills)
+### Rag (46 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1421,6 +1421,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [screen-adverse-media](../skills/ai-engineering/rag/screen_adverse_media/screen-adverse-media/SKILL.md) — Use this skill to design, implement, and operate production workflows for screen adverse media. Screen a person or organisation for adverse media coverage, PEP status, and sanctions exposure — corroboration-gated, returns "review" never "guilty". Use when the user asks to screen someone before onboarding, partnership, or investment; for AML/CTF ...
 - **Seo_Aeo_Blog_Writer** (1):
   - [seo-aeo-blog-writer](../skills/ai-engineering/rag/seo_aeo_blog_writer/seo-aeo-blog-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo blog writer. Writes search-intent-led long-form articles with answer-first structure, FAQ coverage, internal links, and conversion paths for SEO and AEO.
+- **Shader_Programming_G** (1):
+  - [shader-programming-glsl](../skills/ai-engineering/rag/shader_programming_g/shader-programming-glsl/SKILL.md) — Use this skill to design, implement, and operate production workflows for shader programming glsl. Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects.
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 

@@ -15184,6 +15184,28 @@
     "maturity": "stable"
   },
   {
+    "name": "shader-programming-glsl",
+    "path": "skills/ai-engineering/rag/shader_programming_g/shader-programming-glsl",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "shader_programming_g",
+    "description": "Use this skill to design, implement, and operate production workflows for shader programming glsl. Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "shader",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Shader Programming Glsl",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

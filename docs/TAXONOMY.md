@@ -690,6 +690,7 @@ AI_Skills_Booster/
 │   │   ├── redis/ (1 skills)
 │   │   ├── screen_adverse_media/ (1 skills)
 │   │   ├── seo_aeo_blog_writer/ (1 skills)
+│   │   ├── shader_programming_g/ (1 skills)
 │   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)
