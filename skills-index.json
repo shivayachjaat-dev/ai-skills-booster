@@ -14788,6 +14788,28 @@
     "maturity": "stable"
   },
   {
+    "name": "screen-adverse-media",
+    "path": "skills/ai-engineering/rag/screen_adverse_media/screen-adverse-media",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "screen_adverse_media",
+    "description": "Use this skill to design, implement, and operate production workflows for screen adverse media. Screen a person or organisation for adverse media coverage, PEP status, and sanctions exposure \u2014 corroboration-gated, returns \"review\" never \"guilty\". Use when the user asks to screen someone before onboarding, partnership, or investment; for AML/CTF ...",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "screen",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Screen Adverse Media",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
