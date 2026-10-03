@@ -18948,6 +18948,28 @@
     "maturity": "stable"
   },
   {
+    "name": "saga-orchestration",
+    "path": "skills/business/operations/saga_orchestration/saga-orchestration",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "saga_orchestration",
+    "description": "Use this skill to design, implement, and operate production workflows for saga orchestration. Patterns for managing distributed transactions and long-running business processes.",
+    "tags": [
+      "business",
+      "operations",
+      "saga",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Saga Orchestration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

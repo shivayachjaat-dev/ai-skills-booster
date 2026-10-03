@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **40 skills** available in this category.
+> **41 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -44,3 +44,4 @@
 | [receipt-accounting](../../skills/business/operations/receipt_accounting/receipt-accounting/SKILL.md) | `receipt_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for receipt accounting. Receipt register: payer, mode, gross amount received, invoice allocation, unapplied amount and TDS collected. Use for receipt and sales-income accounting. |
 | [recognition-rewards](../../skills/business/operations/recognition_rewards/recognition-rewards/SKILL.md) | `recognition_rewards` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs. |
 | [remote-work-tracker](../../skills/business/operations/remote_work_tracker/remote-work-tracker/SKILL.md) | `remote_work_tracker` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remote work tracker. Remote work register: employee, location, week start, HQ versus remote days, core-hours compliance and manager approval. Use for hybrid work tracking. |
+| [saga-orchestration](../../skills/business/operations/saga_orchestration/saga-orchestration/SKILL.md) | `saga_orchestration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saga orchestration. Patterns for managing distributed transactions and long-running business processes. |

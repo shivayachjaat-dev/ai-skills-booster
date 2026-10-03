@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,947** skills across structured domains, categories, and subcategories.
+Master navigation for **1,948** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (667 skills)
 
@@ -1725,7 +1725,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (58 skills)
+## Business (59 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1779,7 +1779,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (40 skills)
+### Operations (41 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1862,6 +1862,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [recognition-rewards](../skills/business/operations/recognition_rewards/recognition-rewards/SKILL.md) — Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs.
 - **Remote_Work_Tracker** (1):
   - [remote-work-tracker](../skills/business/operations/remote_work_tracker/remote-work-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for remote work tracker. Remote work register: employee, location, week start, HQ versus remote days, core-hours compliance and manager approval. Use for hybrid work tracking.
+- **Saga_Orchestration** (1):
+  - [saga-orchestration](../skills/business/operations/saga_orchestration/saga-orchestration/SKILL.md) — Use this skill to design, implement, and operate production workflows for saga orchestration. Patterns for managing distributed transactions and long-running business processes.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)
