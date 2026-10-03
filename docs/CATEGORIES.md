@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,839** skills across structured domains, categories, and subcategories.
+Master navigation for **1,840** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (632 skills)
 
@@ -1330,7 +1330,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (119 skills)
+## Backend (120 skills)
 
 ### Api Design (10 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1356,7 +1356,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (43 skills)
+### Api Frameworks (44 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -1443,6 +1443,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [pubmed-database](../skills/backend/api-frameworks/pubmed_database/pubmed-database/SKILL.md) — Use this skill to design, implement, and operate production workflows for pubmed database. Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations.
 - **Puppeteer_Skill** (1):
   - [puppeteer-skill](../skills/backend/api-frameworks/puppeteer_skill/puppeteer-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for puppeteer skill. Generates Puppeteer scripts for browser automation, scraping, and PDF generation. Triggers on: "Puppeteer", "headless Chrome", "page.goto", "scrape", "PDF generation".
+- **Pydantic_Models_Py** (1):
+  - [pydantic-models-py](../skills/backend/api-frameworks/pydantic_models_py/pydantic-models-py/SKILL.md) — Use this skill to design, implement, and operate production workflows for pydantic models py. Create Pydantic models following the multi-model pattern for clean API contracts.
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)

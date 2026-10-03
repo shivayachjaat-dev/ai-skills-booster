@@ -15188,6 +15188,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pydantic-models-py",
+    "path": "skills/backend/api-frameworks/pydantic_models_py/pydantic-models-py",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "pydantic_models_py",
+    "description": "Use this skill to design, implement, and operate production workflows for pydantic models py. Create Pydantic models following the multi-model pattern for clean API contracts.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "pydantic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pydantic Models Py",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
