@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,981** skills across structured domains, categories, and subcategories.
+Master navigation for **1,982** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (675 skills)
 
@@ -1416,7 +1416,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (133 skills)
+## Backend (134 skills)
 
 ### Api Design (11 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1444,13 +1444,15 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (48 skills)
+### Api Frameworks (49 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
   - [atlas-cloud-media](../skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) — Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling.
 - **Aws_Mcp_Setup** (1):
   - [aws-mcp-setup](../skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) — Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.
+- **Aws_Secrets_Rotation** (1):
+  - [aws-secrets-rotation](../skills/backend/api-frameworks/aws_secrets_rotation/aws-secrets-rotation/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws secrets rotation. Automate AWS secrets rotation for RDS, API keys, and credentials
 - **Azure_Keyvault_Secre** (1):
   - [azure-keyvault-secrets-rust](../skills/backend/api-frameworks/azure_keyvault_secre/azure-keyvault-secrets-rust/SKILL.md) — Use this skill to azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: "keyvault secrets rust", "SecretClient rust", "get secret rust", "set secret rust".
 - **Azure_Mgmt_Apicenter** (2):

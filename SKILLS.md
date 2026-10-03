@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,981 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,982 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -692,6 +692,7 @@
 | [api-rate-limiting-and-throttling](skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) | `backend` | `api-design` | `rate-limiting` | `advanced` | `stable` | Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions. |
 | [atlas-cloud-media](skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) | `backend` | `api-frameworks` | `atlas_cloud_media` | `advanced` | `stable` | Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling. |
 | [aws-mcp-setup](skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) | `backend` | `api-frameworks` | `aws_mcp_setup` | `advanced` | `stable` | Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration. |
+| [aws-secrets-rotation](skills/backend/api-frameworks/aws_secrets_rotation/aws-secrets-rotation/SKILL.md) | `backend` | `api-frameworks` | `aws_secrets_rotation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for aws secrets rotation. Automate AWS secrets rotation for RDS, API keys, and credentials |
 | [azure-keyvault-secrets-rust](skills/backend/api-frameworks/azure_keyvault_secre/azure-keyvault-secrets-rust/SKILL.md) | `backend` | `api-frameworks` | `azure_keyvault_secre` | `advanced` | `stable` | Use this skill to azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: "keyvault secrets rust", "SecretClient rust", "get secret rust", "set secret rust". |
 | [azure-mgmt-apicenter-dotnet](skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-dotnet/SKILL.md) | `backend` | `api-frameworks` | `azure_mgmt_apicenter` | `advanced` | `stable` | Use this skill to azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery. |
 | [azure-mgmt-apicenter-py](skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-py/SKILL.md) | `backend` | `api-frameworks` | `azure_mgmt_apicenter` | `advanced` | `stable` | Use this skill to azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization. |

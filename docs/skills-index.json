@@ -15250,6 +15250,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-secrets-rotation",
+    "path": "skills/backend/api-frameworks/aws_secrets_rotation/aws-secrets-rotation",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "aws_secrets_rotation",
+    "description": "Use this skill to design, implement, and operate production workflows for aws secrets rotation. Automate AWS secrets rotation for RDS, API keys, and credentials",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Secrets Rotation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-keyvault-secrets-rust",
     "path": "skills/backend/api-frameworks/azure_keyvault_secre/azure-keyvault-secrets-rust",
     "domain": "backend",

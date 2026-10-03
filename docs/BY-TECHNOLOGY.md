@@ -473,6 +473,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
 
+## Aws Secrets Rotation (1 skills)
+
+- [aws-secrets-rotation](../skills/backend/api-frameworks/aws_secrets_rotation/aws-secrets-rotation/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws secrets rotation. Automate AWS secrets rotation for RDS, API keys, and credentials
+
 ## Aws Security Audit (1 skills)
 
 - [aws-security-audit](../skills/security/appsec/aws_security_audit/aws-security-audit/SKILL.md) — Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices
@@ -1081,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1799 skills)
+## Bash (1800 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1737,6 +1741,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [python-fastapi-development](../skills/backend/api-design/python_fastapi_devel/python-fastapi-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for python fastapi development. Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns.
 - [atlas-cloud-media](../skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) — Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling.
 - [aws-mcp-setup](../skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) — Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.
+- [aws-secrets-rotation](../skills/backend/api-frameworks/aws_secrets_rotation/aws-secrets-rotation/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws secrets rotation. Automate AWS secrets rotation for RDS, API keys, and credentials
 - [azure-keyvault-secrets-rust](../skills/backend/api-frameworks/azure_keyvault_secre/azure-keyvault-secrets-rust/SKILL.md) — Use this skill to azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: "keyvault secrets rust", "SecretClient rust", "get secret rust", "set secret rust".
 - [azure-mgmt-apicenter-dotnet](../skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-dotnet/SKILL.md) — Use this skill to azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery.
 - [azure-mgmt-apicenter-py](../skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-py/SKILL.md) — Use this skill to azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.
@@ -9775,7 +9780,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1902 skills)
+## Python (1903 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10459,6 +10464,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 - [atlas-cloud-media](../skills/backend/api-frameworks/atlas_cloud_media/atlas-cloud-media/SKILL.md) — Use this skill to generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling.
 - [aws-mcp-setup](../skills/backend/api-frameworks/aws_mcp_setup/aws-mcp-setup/SKILL.md) — Use this skill to configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.
+- [aws-secrets-rotation](../skills/backend/api-frameworks/aws_secrets_rotation/aws-secrets-rotation/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws secrets rotation. Automate AWS secrets rotation for RDS, API keys, and credentials
 - [azure-keyvault-secrets-rust](../skills/backend/api-frameworks/azure_keyvault_secre/azure-keyvault-secrets-rust/SKILL.md) — Use this skill to azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: "keyvault secrets rust", "SecretClient rust", "get secret rust", "set secret rust".
 - [azure-mgmt-apicenter-dotnet](../skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-dotnet/SKILL.md) — Use this skill to azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery.
 - [azure-mgmt-apicenter-py](../skills/backend/api-frameworks/azure_mgmt_apicenter/azure-mgmt-apicenter-py/SKILL.md) — Use this skill to azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.

@@ -699,6 +699,7 @@ AI_Skills_Booster/
 │   ├── api-frameworks/
 │   │   ├── atlas_cloud_media/ (1 skills)
 │   │   ├── aws_mcp_setup/ (1 skills)
+│   │   ├── aws_secrets_rotation/ (1 skills)
 │   │   ├── azure_keyvault_secre/ (1 skills)
 │   │   ├── azure_mgmt_apicenter/ (2 skills)
 │   │   ├── azure_mgmt_apimanage/ (2 skills)
