@@ -32817,6 +32817,28 @@
     "maturity": "stable"
   },
   {
+    "name": "source-driven-development",
+    "path": "skills/frontend/ui-ux/source_driven_develo/source-driven-development",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "source_driven_develo",
+    "description": "Use this skill to design, implement, and operate production workflows for source driven development. Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "source",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Source Driven Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
