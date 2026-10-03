@@ -979,7 +979,8 @@ AI_Skills_Booster/
 │   │   ├── seo_aeo_schema_gener/ (1 skills)
 │   │   ├── seo_drift/ (1 skills)
 │   │   ├── seo_meta_optimizer/ (1 skills)
-│   │   └── skin_health_analyzer/ (1 skills)
+│   │   ├── skin_health_analyzer/ (1 skills)
+│   │   └── social_metadata_hard/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)
 │   ├── databases/
