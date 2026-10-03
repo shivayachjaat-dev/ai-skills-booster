@@ -591,6 +591,7 @@ AI_Skills_Booster/
 │   │   ├── pypict_skill/ (1 skills)
 │   │   ├── quit_sponsor/ (1 skills)
 │   │   ├── radar_satellite_anal/ (1 skills)
+│   │   ├── radare2/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

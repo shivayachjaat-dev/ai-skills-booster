@@ -12997,6 +12997,28 @@
     "maturity": "stable"
   },
   {
+    "name": "radare2",
+    "path": "skills/ai-engineering/models/radare2/radare2",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "radare2",
+    "description": "Use this skill to design, implement, and operate production workflows for radare2. Drive the radare2 CLI for binary reconnaissance, disassembly, analysis, function locating, export, and lightweight patching (r2/rabin2/rasm2/radiff2) without a GUI.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "radare2",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Radare2",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
