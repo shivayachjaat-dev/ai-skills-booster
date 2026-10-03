@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,720** skills across structured domains, categories, and subcategories.
+Master navigation for **1,721** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (593 skills)
+## Ai Engineering (594 skills)
 
 ### Agents (71 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -292,7 +292,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (430 skills)
+### Models (431 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1130,6 +1130,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [party-ledger-reconciliation](../skills/ai-engineering/models/party_ledger_reconci/party-ledger-reconciliation/SKILL.md) — Use this skill to design, implement, and operate production workflows for party ledger reconciliation. Party ledger reconciliation: party type, name and PAN/VAT, ledger against statement balance, difference and reason, duplicates, confirmation status and adjustment. Use for balance checks.
 - **Payment_Accounting** (1):
   - [payment-accounting](../skills/ai-engineering/models/payment_accounting/payment-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for payment accounting. Payment voucher register: payment number and date, paid to and purpose, mode, gross amount, TDS rate and deducted, net paid, invoice allocation, ledger and reconciliation status. Use for vouchers.
+- **Paywall_Upgrade_Cro** (1):
+  - [paywall-upgrade-cro](../skills/ai-engineering/models/paywall_upgrade_cro/paywall-upgrade-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for paywall upgrade cro. You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

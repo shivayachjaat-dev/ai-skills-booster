@@ -12073,6 +12073,28 @@
     "maturity": "stable"
   },
   {
+    "name": "paywall-upgrade-cro",
+    "path": "skills/ai-engineering/models/paywall_upgrade_cro/paywall-upgrade-cro",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "paywall_upgrade_cro",
+    "description": "Use this skill to design, implement, and operate production workflows for paywall upgrade cro. You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "paywall",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Paywall Upgrade Cro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
