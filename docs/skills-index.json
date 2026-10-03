@@ -31299,6 +31299,28 @@
     "maturity": "stable"
   },
   {
+    "name": "security-automation",
+    "path": "skills/frontend/ui-ux/security_automation/security-automation",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "security_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for security automation. Automate security workflows and remediation. Build security pipelines,",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

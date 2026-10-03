@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,984** skills across structured domains, categories, and subcategories.
+Master navigation for **1,985** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (676 skills)
 
@@ -2553,7 +2553,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (397 skills)
+## Frontend (398 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2745,7 +2745,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Redesign_Existing_Pr** (1):
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 
-### Ui Ux (237 skills)
+### Ui Ux (238 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3216,6 +3216,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [scroll-experience](../skills/frontend/ui-ux/scroll_experience/scroll-experience/SKILL.md) — Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax
 - **Sdk_Dx** (1):
   - [sdk-dx](../skills/frontend/ui-ux/sdk_dx/sdk-dx/SKILL.md) — Use this skill to design, implement, and operate production workflows for sdk dx. Design SDKs that developers love to use—APIs that feel native, error messages that guide, and experiences that reduce friction. This skill covers creating SDKs that drive adoption through exceptional developer experience rather than aggressive marketing.
+- **Security_Automation** (1):
+  - [security-automation](../skills/frontend/ui-ux/security_automation/security-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for security automation. Automate security workflows and remediation. Build security pipelines,
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
