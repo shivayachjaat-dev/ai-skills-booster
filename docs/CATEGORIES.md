@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,063** skills across structured domains, categories, and subcategories.
+Master navigation for **2,064** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (699 skills)
+## Ai Engineering (700 skills)
 
-### Agents (87 skills)
+### Agents (88 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -181,6 +181,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [skill-improver](../skills/ai-engineering/agents/skill_improver/skill-improver/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill improver. Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of ma...
 - **Skill_Security_Audit** (1):
   - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
+- **Skill_Writer** (1):
+  - [skill-writer](../skills/ai-engineering/agents/skill_writer/skill-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill writer. Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.
 
 ### Audio Processing (5 skills)
 Category index: [`docs/categories/audio-processing.md`](categories/audio-processing.md)

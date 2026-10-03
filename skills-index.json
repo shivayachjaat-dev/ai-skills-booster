@@ -1950,6 +1950,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-writer",
+    "path": "skills/ai-engineering/agents/skill_writer/skill-writer",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "skill_writer",
+    "description": "Use this skill to design, implement, and operate production workflows for skill writer. Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Writer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-speech-to-text-rest-py",
     "path": "skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py",
     "domain": "ai-engineering",
