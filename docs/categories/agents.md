@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **83 skills** available in this category.
+> **84 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -85,5 +85,6 @@
 | [protect-mcp-governance](../../skills/ai-engineering/agents/protect_mcp_governan/protect-mcp-governance/SKILL.md) | `protect_mcp_governan` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for protect mcp governance. Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification. |
 | [qoder-delegate](../../skills/ai-engineering/agents/qoder_delegate/qoder-delegate/SKILL.md) | `qoder_delegate` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for qoder delegate. Delegate coding tasks to the Qoder CLI (`qodercli`) only when the user |
 | [ralph-loop-yylo](../../skills/ai-engineering/agents/ralph_loop_yylo/ralph-loop-yylo/SKILL.md) | `ralph_loop_yylo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ralph loop yylo. Execute exactly one explicitly assigned YYLO Ledger task through the |
+| [review-multi-agent-orchestration](../../skills/ai-engineering/agents/review_multi_agent_o/review-multi-agent-orchestration/SKILL.md) | `review_multi_agent_o` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for review multi agent orchestration. Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundaries, shared state, branch joins, retries, cancellation, context handoffs, budgets, deadlocks, or human escalation before im... |
 | [ai-agent-cron-and-autonomous-job-scheduling](../../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) | `scheduling` | `advanced` | `stable` | Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring. |
 | [skill-security-audit](../../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) | `skill_security_audit` | `advanced` | `stable` | Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions. |

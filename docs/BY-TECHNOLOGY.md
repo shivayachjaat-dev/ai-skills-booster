@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1745 skills)
+## Bash (1746 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1145,6 +1145,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [protect-mcp-governance](../skills/ai-engineering/agents/protect_mcp_governan/protect-mcp-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for protect mcp governance. Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification.
 - [qoder-delegate](../skills/ai-engineering/agents/qoder_delegate/qoder-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for qoder delegate. Delegate coding tasks to the Qoder CLI (`qodercli`) only when the user
 - [ralph-loop-yylo](../skills/ai-engineering/agents/ralph_loop_yylo/ralph-loop-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for ralph loop yylo. Execute exactly one explicitly assigned YYLO Ledger task through the
+- [review-multi-agent-orchestration](../skills/ai-engineering/agents/review_multi_agent_o/review-multi-agent-orchestration/SKILL.md) — Use this skill to design, implement, and operate production workflows for review multi agent orchestration. Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundaries, shared state, branch joins, retries, cancellation, context handoffs, budgets, deadlocks, or human escalation before im...
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
@@ -9713,7 +9714,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1848 skills)
+## Python (1849 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9795,6 +9796,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [protect-mcp-governance](../skills/ai-engineering/agents/protect_mcp_governan/protect-mcp-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for protect mcp governance. Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification.
 - [qoder-delegate](../skills/ai-engineering/agents/qoder_delegate/qoder-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for qoder delegate. Delegate coding tasks to the Qoder CLI (`qodercli`) only when the user
 - [ralph-loop-yylo](../skills/ai-engineering/agents/ralph_loop_yylo/ralph-loop-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for ralph loop yylo. Execute exactly one explicitly assigned YYLO Ledger task through the
+- [review-multi-agent-orchestration](../skills/ai-engineering/agents/review_multi_agent_o/review-multi-agent-orchestration/SKILL.md) — Use this skill to design, implement, and operate production workflows for review multi agent orchestration. Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundaries, shared state, branch joins, retries, cancellation, context handoffs, budgets, deadlocks, or human escalation before im...
 - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
@@ -12072,6 +12074,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Review Animations (1 skills)
 
 - [review-animations](../skills/ai-engineering/models/review_animations/review-animations/SKILL.md) — Use this skill to design, implement, and operate production workflows for review animations. Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-quality bar.
+
+## Review Multi Agent Orchestration (1 skills)
+
+- [review-multi-agent-orchestration](../skills/ai-engineering/agents/review_multi_agent_o/review-multi-agent-orchestration/SKILL.md) — Use this skill to design, implement, and operate production workflows for review multi agent orchestration. Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundaries, shared state, branch joins, retries, cancellation, context handoffs, budgets, deadlocks, or human escalation before im...
 
 ## Rich (1 skills)
 

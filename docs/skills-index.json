@@ -1815,6 +1815,28 @@
     "maturity": "stable"
   },
   {
+    "name": "review-multi-agent-orchestration",
+    "path": "skills/ai-engineering/agents/review_multi_agent_o/review-multi-agent-orchestration",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "review_multi_agent_o",
+    "description": "Use this skill to design, implement, and operate production workflows for review multi agent orchestration. Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundaries, shared state, branch joins, retries, cancellation, context handoffs, budgets, deadlocks, or human escalation before im...",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "review",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Review Multi Agent Orchestration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-cron-and-autonomous-job-scheduling",
     "path": "skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling",
     "domain": "ai-engineering",
