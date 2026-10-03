@@ -39317,6 +39317,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pricing-strategy",
+    "path": "skills/software-engineering/architecture/patterns/pricing-strategy",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for pricing strategy. Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "pricing",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pricing Strategy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
