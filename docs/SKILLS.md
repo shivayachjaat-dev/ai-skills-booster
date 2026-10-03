@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,926 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,927 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -606,6 +606,7 @@
 | [repo-native-refactor](skills/ai-engineering/models/repo_native_refactor/repo-native-refactor/SKILL.md) | `ai-engineering` | `models` | `repo_native_refactor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for repo native refactor. Review diffs without editing, or perform evidence-based cleanup while preserving authorized behavior, public contracts, and domain ownership. |
 | [returns-reverse-logistics](skills/ai-engineering/models/returns_reverse_logi/returns-reverse-logistics/SKILL.md) | `ai-engineering` | `models` | `returns_reverse_logi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for returns reverse logistics. Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. |
 | [reverse-engineer](skills/ai-engineering/models/reverse_engineer/reverse-engineer/SKILL.md) | `ai-engineering` | `models` | `reverse_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reverse engineer. Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains. |
+| [review-animations](skills/ai-engineering/models/review_animations/review-animations/SKILL.md) | `ai-engineering` | `models` | `review_animations` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for review animations. Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-quality bar. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
