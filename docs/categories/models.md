@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **532 skills** available in this category.
+> **533 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -531,6 +531,7 @@
 | [tailwind-design-system](../../skills/ai-engineering/models/tailwind_design_syst/tailwind-design-system/SKILL.md) | `tailwind_design_syst` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tailwind design system. Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility. |
 | [tailwind-patterns](../../skills/ai-engineering/models/tailwind_patterns/tailwind-patterns/SKILL.md) | `tailwind_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tailwind patterns. Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture. |
 | [taisly-social-media-posting](../../skills/ai-engineering/models/taisly_social_media_/taisly-social-media-posting/SKILL.md) | `taisly_social_media_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for taisly social media posting. Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook. |
+| [talking-avatar-video](../../skills/ai-engineering/models/talking_avatar_video/talking-avatar-video/SKILL.md) | `talking_avatar_video` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](../../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
 | [vibe-code-auditor](../../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) | `vibe_code_auditor` | `advanced` | `stable` | Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. |

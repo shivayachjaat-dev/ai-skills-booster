@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1994 skills)
+## Bash (1995 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1736,6 +1736,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [tailwind-design-system](../skills/ai-engineering/models/tailwind_design_syst/tailwind-design-system/SKILL.md) — Use this skill to design, implement, and operate production workflows for tailwind design system. Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility.
 - [tailwind-patterns](../skills/ai-engineering/models/tailwind_patterns/tailwind-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for tailwind patterns. Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
 - [taisly-social-media-posting](../skills/ai-engineering/models/taisly_social_media_/taisly-social-media-posting/SKILL.md) — Use this skill to design, implement, and operate production workflows for taisly social media posting. Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+- [talking-avatar-video](../skills/ai-engineering/models/talking_avatar_video/talking-avatar-video/SKILL.md) — Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
 - [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
@@ -10004,7 +10005,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2097 skills)
+## Python (2098 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10676,6 +10677,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [tailwind-design-system](../skills/ai-engineering/models/tailwind_design_syst/tailwind-design-system/SKILL.md) — Use this skill to design, implement, and operate production workflows for tailwind design system. Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility.
 - [tailwind-patterns](../skills/ai-engineering/models/tailwind_patterns/tailwind-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for tailwind patterns. Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
 - [taisly-social-media-posting](../skills/ai-engineering/models/taisly_social_media_/taisly-social-media-posting/SKILL.md) — Use this skill to design, implement, and operate production workflows for taisly social media posting. Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+- [talking-avatar-video](../skills/ai-engineering/models/talking_avatar_video/talking-avatar-video/SKILL.md) — Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
 - [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
@@ -13868,6 +13870,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Talivia Agent Kit (1 skills)
 
 - [talivia-agent-kit](../skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit/SKILL.md) — Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution.
+
+## Talking Avatar Video (1 skills)
+
+- [talking-avatar-video](../skills/ai-engineering/models/talking_avatar_video/talking-avatar-video/SKILL.md) — Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service.
 
 ## Tech Matrix (1 skills)
 

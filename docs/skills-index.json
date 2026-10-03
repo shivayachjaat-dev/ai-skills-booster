@@ -14911,6 +14911,28 @@
     "maturity": "stable"
   },
   {
+    "name": "talking-avatar-video",
+    "path": "skills/ai-engineering/models/talking_avatar_video/talking-avatar-video",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "talking_avatar_video",
+    "description": "Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "talking",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Talking Avatar Video",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

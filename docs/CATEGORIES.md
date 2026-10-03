@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,175** skills across structured domains, categories, and subcategories.
+Master navigation for **2,176** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (734 skills)
+## Ai Engineering (735 skills)
 
 ### Agents (94 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -342,7 +342,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (532 skills)
+### Models (533 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1387,6 +1387,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [tailwind-patterns](../skills/ai-engineering/models/tailwind_patterns/tailwind-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for tailwind patterns. Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
 - **Taisly_Social_Media_** (1):
   - [taisly-social-media-posting](../skills/ai-engineering/models/taisly_social_media_/taisly-social-media-posting/SKILL.md) — Use this skill to design, implement, and operate production workflows for taisly social media posting. Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
+- **Talking_Avatar_Video** (1):
+  - [talking-avatar-video](../skills/ai-engineering/models/talking_avatar_video/talking-avatar-video/SKILL.md) — Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - **Typography_First** (1):
