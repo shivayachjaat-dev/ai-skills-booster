@@ -1825,7 +1825,8 @@ AI_Skills_Booster/
 │   │   ├── nextjs_supabase_auth/ (1 skills)
 │   │   ├── oauth2/ (1 skills)
 │   │   ├── open_source_marketin/ (1 skills)
-│   │   └── repo_foundation/ (1 skills)
+│   │   ├── repo_foundation/ (1 skills)
+│   │   └── smart_contract_upgra/ (1 skills)
 │   ├── authorization/
 │   │   └── rbac/ (1 skills)
 │   ├── binary-defense/

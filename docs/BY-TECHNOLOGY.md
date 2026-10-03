@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1889 skills)
+## Bash (1890 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2650,6 +2650,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [nextjs-supabase-auth](../skills/security/authentication/nextjs_supabase_auth/nextjs-supabase-auth/SKILL.md) — Use this skill to design, implement, and operate production workflows for nextjs supabase auth. Expert integration of Supabase Auth with Next.js App Router
 - [open-source-marketing](../skills/security/authentication/open_source_marketin/open-source-marketing/SKILL.md) — Use this skill to design, implement, and operate production workflows for open source marketing. When the user wants to market an open source project authentically. Trigger phrases include "open source marketing," "OSS marketing," "GitHub marketing," "promote my library," "grow stars," "launch open source," "open source growth," or "contributor ...
 - [repo-foundation](../skills/security/authentication/repo_foundation/repo-foundation/SKILL.md) — Use this skill to design, implement, and operate production workflows for repo foundation. Implement features, fixes, modules, contract migrations, and resumed work while preserving user edits and authorized public contracts.
+- [smart-contract-upgrade-governance](../skills/security/authentication/smart_contract_upgra/smart-contract-upgrade-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for smart contract upgrade governance. Soroban WASM upgrade governance register: executable bytecode hash, timelocked migration delays, and multi-sig authorization quorum.
 - [brooks-audit](../skills/security/compliance/brooks_audit/brooks-audit/SKILL.md) — Use this skill to architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.
 - [busabase](../skills/security/compliance/busabase/busabase/SKILL.md) — Use this skill to use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history.
 - [fix-review](../skills/security/compliance/fix_review/fix-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for fix review. Verify fix commits address audit findings without new bugs
@@ -9869,7 +9870,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1992 skills)
+## Python (1993 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11516,6 +11517,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [oauth2-jwt-authentication-flow](../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) — Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists.
 - [open-source-marketing](../skills/security/authentication/open_source_marketin/open-source-marketing/SKILL.md) — Use this skill to design, implement, and operate production workflows for open source marketing. When the user wants to market an open source project authentically. Trigger phrases include "open source marketing," "OSS marketing," "GitHub marketing," "promote my library," "grow stars," "launch open source," "open source growth," or "contributor ...
 - [repo-foundation](../skills/security/authentication/repo_foundation/repo-foundation/SKILL.md) — Use this skill to design, implement, and operate production workflows for repo foundation. Implement features, fixes, modules, contract migrations, and resumed work while preserving user edits and authorized public contracts.
+- [smart-contract-upgrade-governance](../skills/security/authentication/smart_contract_upgra/smart-contract-upgrade-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for smart contract upgrade governance. Soroban WASM upgrade governance register: executable bytecode hash, timelocked migration delays, and multi-sig authorization quorum.
 - [rbac-access-matrix-policy-design](../skills/security/authorization/rbac/rbac-access-matrix-policy-design/SKILL.md) — Use this skill when designing, auditing, and implementing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) permission matrices. It guides the agent through defining fine-grained permission scopes (resource:action), modeling roles vs groups, resolving permission conflicts, detecting privilege escalation risks, and enforcing policy gates in middleware.
 - [binary-anti-reversing-and-code-obfuscation](../skills/security/binary-defense/anti-reversing/binary-anti-reversing-and-code-obfuscation/SKILL.md) — Use this skill to evaluate, implement, and audit software intellectual property protections against reverse engineering, decompilation, and debugger tampering. It covers symbol stripping, control-flow flattening, anti-debugging API hooks (ptrace, IsDebuggerPresent), integrity hash checks, and security trade-off analysis.
 - [aws-iam-least-privilege-and-governance-architecture](../skills/security/cloud-security/aws-iam/aws-iam-least-privilege-and-governance-architecture/SKILL.md) — Use this skill to design, implement, and audit enterprise AWS IAM architectures adhering to least-privilege principles. It covers IAM permission boundaries, Service Control Policies (SCPs) in AWS Organizations, cross-account assume-role delegation with external IDs, ABAC (Attribute-Based Access Control) tagging policies, IAM Access Analyzer integration, and credential rotation.
@@ -13158,6 +13160,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Smart Contract Formal Verification (1 skills)
 
 - [smart-contract-formal-verification](../skills/software-engineering/architecture/patterns/smart-contract-formal-verification/SKILL.md) — Use this skill to design, implement, and operate production workflows for smart contract formal verification. Foundry and Soroban formal invariant verification register: state transition rules, boundary invariant properties, and symbolic execution checks.
+
+## Smart Contract Upgrade Governance (1 skills)
+
+- [smart-contract-upgrade-governance](../skills/security/authentication/smart_contract_upgra/smart-contract-upgrade-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for smart contract upgrade governance. Soroban WASM upgrade governance register: executable bytecode hash, timelocked migration delays, and multi-sig authorization quorum.
 
 ## Snowflake (1 skills)
 

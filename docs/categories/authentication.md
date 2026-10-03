@@ -1,6 +1,6 @@
 # Category Index: Authentication
 
-> **17 skills** available in this category.
+> **18 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -21,3 +21,4 @@
 | [oauth2-jwt-authentication-flow](../../skills/security/authentication/oauth2/oauth2-jwt-authentication-flow/SKILL.md) | `oauth2` | `advanced` | `stable` | Use this skill when designing, implementing, and securing OAuth 2.1 and OpenID Connect (OIDC) authentication flows with JSON Web Tokens (JWT). It enforces Authorization Code Flow with PKCE, asymmetric RS256 signature verification, refresh token rotation with reuse detection, claims validation, and centralized revocation blacklists. |
 | [open-source-marketing](../../skills/security/authentication/open_source_marketin/open-source-marketing/SKILL.md) | `open_source_marketin` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for open source marketing. When the user wants to market an open source project authentically. Trigger phrases include "open source marketing," "OSS marketing," "GitHub marketing," "promote my library," "grow stars," "launch open source," "open source growth," or "contributor ... |
 | [repo-foundation](../../skills/security/authentication/repo_foundation/repo-foundation/SKILL.md) | `repo_foundation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for repo foundation. Implement features, fixes, modules, contract migrations, and resumed work while preserving user edits and authorized public contracts. |
+| [smart-contract-upgrade-governance](../../skills/security/authentication/smart_contract_upgra/smart-contract-upgrade-governance/SKILL.md) | `smart_contract_upgra` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for smart contract upgrade governance. Soroban WASM upgrade governance register: executable bytecode hash, timelocked migration delays, and multi-sig authorization quorum. |

@@ -38026,6 +38026,28 @@
     "maturity": "stable"
   },
   {
+    "name": "smart-contract-upgrade-governance",
+    "path": "skills/security/authentication/smart_contract_upgra/smart-contract-upgrade-governance",
+    "domain": "security",
+    "category": "authentication",
+    "subcategory": "smart_contract_upgra",
+    "description": "Use this skill to design, implement, and operate production workflows for smart contract upgrade governance. Soroban WASM upgrade governance register: executable bytecode hash, timelocked migration delays, and multi-sig authorization quorum.",
+    "tags": [
+      "security",
+      "authentication",
+      "smart",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Smart Contract Upgrade Governance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "rbac-access-matrix-policy-design",
     "path": "skills/security/authorization/rbac/rbac-access-matrix-policy-design",
     "domain": "security",
