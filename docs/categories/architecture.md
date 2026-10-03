@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **238 skills** available in this category.
+> **239 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -240,5 +240,6 @@
 | [rehabilitation-analyzer](../../skills/software-engineering/architecture/patterns/rehabilitation-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rehabilitation analyzer. 分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议 |
 | [remotion](../../skills/software-engineering/architecture/patterns/remotion/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion. Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays |
 | [remotion-captions](../../skills/software-engineering/architecture/patterns/remotion-captions/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion captions. Transcribing, displaying and animating captions |
+| [remotion-create](../../skills/software-engineering/architecture/patterns/remotion-create/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion create. Create a new Remotion video |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
