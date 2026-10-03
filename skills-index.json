@@ -12161,6 +12161,28 @@
     "maturity": "stable"
   },
   {
+    "name": "people-data",
+    "path": "skills/ai-engineering/models/people_data/people-data",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "people_data",
+    "description": "Use this skill to design, implement, and operate production workflows for people data. Research LinkedIn professional profiles and public business-contact data, including email/phone lookup, people search, and YouTube channel business-email discovery.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "people",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "People Data",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

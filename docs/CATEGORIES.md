@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,729** skills across structured domains, categories, and subcategories.
+Master navigation for **1,730** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (597 skills)
+## Ai Engineering (598 skills)
 
 ### Agents (72 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -294,7 +294,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (433 skills)
+### Models (434 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1138,6 +1138,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [pci-compliance](../skills/ai-engineering/models/pci_compliance/pci-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci compliance. Review payment data flows and engineering control evidence for a scoped PCI assessment, without claiming certification.
 - **Pdf_Official** (1):
   - [pdf-official](../skills/ai-engineering/models/pdf_official/pdf-official/SKILL.md) — Use this skill to design, implement, and operate production workflows for pdf official. This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instruc...
+- **People_Data** (1):
+  - [people-data](../skills/ai-engineering/models/people_data/people-data/SKILL.md) — Use this skill to design, implement, and operate production workflows for people data. Research LinkedIn professional profiles and public business-contact data, including email/phone lookup, people search, and YouTube channel business-email discovery.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
