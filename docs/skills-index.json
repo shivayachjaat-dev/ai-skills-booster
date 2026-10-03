@@ -20972,6 +20972,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tds-booking-payment",
+    "path": "skills/business/operations/tds_booking_payment/tds-booking-payment",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "tds_booking_payment",
+    "description": "Use this skill to design, implement, and operate production workflows for tds booking payment. TDS register: payee PAN, payment nature, rate and amount deducted, deposit date and challan reference, return filing and ledger variance. Use for TDS compliance.",
+    "tags": [
+      "business",
+      "operations",
+      "tds",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tds Booking Payment",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

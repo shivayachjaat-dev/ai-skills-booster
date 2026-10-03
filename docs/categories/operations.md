@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **49 skills** available in this category.
+> **50 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -53,3 +53,4 @@
 | [startup-analyst](../../skills/business/operations/startup_analyst/startup-analyst/SKILL.md) | `startup_analyst` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup analyst. Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies. |
 | [startup-business-analyst-business-case](../../skills/business/operations/startup_business_ana/startup-business-analyst-business-case/SKILL.md) | `startup_business_ana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup business analyst business case. Generate comprehensive investor-ready business case document with |
 | [startup-business-analyst-market-opportunity](../../skills/business/operations/startup_business_ana/startup-business-analyst-market-opportunity/SKILL.md) | `startup_business_ana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup business analyst market opportunity. Generate comprehensive market opportunity analysis with TAM/SAM/SOM |
+| [tds-booking-payment](../../skills/business/operations/tds_booking_payment/tds-booking-payment/SKILL.md) | `tds_booking_payment` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tds booking payment. TDS register: payee PAN, payment nature, rate and amount deducted, deposit date and challan reference, return filing and ledger variance. Use for TDS compliance. |
