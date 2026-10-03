@@ -14141,6 +14141,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-rails-upgrade",
+    "path": "skills/ai-engineering/models/skill_rails_upgrade/skill-rails-upgrade",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "skill_rails_upgrade",
+    "description": "Use this skill to design, implement, and operate production workflows for skill rails upgrade. Analyze Rails apps and provide upgrade assessments",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Rails Upgrade",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
