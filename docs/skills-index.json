@@ -16630,6 +16630,28 @@
     "maturity": "stable"
   },
   {
+    "name": "product-marketing-context",
+    "path": "skills/business/growth/product_marketing_co/product-marketing-context",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "product_marketing_co",
+    "description": "Use this skill to design, implement, and operate production workflows for product marketing context. Create or update a reusable product marketing context document with positioning, audience, ICP, use cases, and messaging. Use at the start of a project to avoid repeating core marketing context across tasks.",
+    "tags": [
+      "business",
+      "growth",
+      "product",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Product Marketing Context",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",

@@ -1,6 +1,6 @@
 # Category Index: Growth
 
-> **9 skills** available in this category.
+> **10 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -13,3 +13,4 @@
 | [marketing-ideas](../../skills/business/growth/marketing_ideas/marketing-ideas/SKILL.md) | `marketing_ideas` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing ideas. Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system. |
 | [marketing-plan](../../skills/business/growth/marketing_plan/marketing-plan/SKILL.md) | `marketing_plan` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing plan. When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. |
 | [product-marketing](../../skills/business/growth/product_marketing/product-marketing/SKILL.md) | `product_marketing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product marketing. When the user wants to create or update their product marketing context document. |
+| [product-marketing-context](../../skills/business/growth/product_marketing_co/product-marketing-context/SKILL.md) | `product_marketing_co` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product marketing context. Create or update a reusable product marketing context document with positioning, audience, ICP, use cases, and messaging. Use at the start of a project to avoid repeating core marketing context across tasks. |

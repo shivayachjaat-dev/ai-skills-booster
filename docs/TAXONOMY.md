@@ -772,7 +772,8 @@ AI_Skills_Booster/
 │   │   ├── github_presence/ (1 skills)
 │   │   ├── marketing_ideas/ (1 skills)
 │   │   ├── marketing_plan/ (1 skills)
-│   │   └── product_marketing/ (1 skills)
+│   │   ├── product_marketing/ (1 skills)
+│   │   └── product_marketing_co/ (1 skills)
 │   ├── human-resources/
 │   │   ├── alumni-tracker/ (1 skills)
 │   │   └── performance-management/ (1 skills)
