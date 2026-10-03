@@ -34630,6 +34630,28 @@
     "maturity": "stable"
   },
   {
+    "name": "recon-scope-triage",
+    "path": "skills/security/appsec/recon_scope_triage/recon-scope-triage",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "recon_scope_triage",
+    "description": "Use this skill to design, implement, and operate production workflows for recon scope triage. Triage ASM/recon output for ownership before testing",
+    "tags": [
+      "security",
+      "appsec",
+      "recon",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Recon Scope Triage",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
