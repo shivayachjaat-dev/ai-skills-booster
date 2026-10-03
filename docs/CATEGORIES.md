@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,982** skills across structured domains, categories, and subcategories.
+Master navigation for **1,983** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (675 skills)
+## Ai Engineering (676 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (486 skills)
+### Models (487 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1276,6 +1276,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [sbom-supply-chain](../skills/ai-engineering/models/sbom_supply_chain/sbom-supply-chain/SKILL.md) — Use this skill to design, implement, and operate production workflows for sbom supply chain. Generate, sign, and verify SBOMs and provenance attestations to secure
 - **Scientific_Writing** (1):
   - [scientific-writing](../skills/ai-engineering/models/scientific_writing/scientific-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for scientific writing. This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup ...
+- **Security_And_Hardeni** (1):
+  - [security-and-hardening](../skills/ai-engineering/models/security_and_hardeni/security-and-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for security and hardening. Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

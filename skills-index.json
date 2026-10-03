@@ -13679,6 +13679,28 @@
     "maturity": "stable"
   },
   {
+    "name": "security-and-hardening",
+    "path": "skills/ai-engineering/models/security_and_hardeni/security-and-hardening",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "security_and_hardeni",
+    "description": "Use this skill to design, implement, and operate production workflows for security and hardening. Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security And Hardening",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
