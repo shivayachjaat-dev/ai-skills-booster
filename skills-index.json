@@ -17606,6 +17606,28 @@
     "maturity": "stable"
   },
   {
+    "name": "promotion-upgrade-requests",
+    "path": "skills/business/operations/promotion_upgrade_re/promotion-upgrade-requests",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "promotion_upgrade_re",
+    "description": "Use this skill to design, implement, and operate production workflows for promotion upgrade requests. Promotion register: current and requested role and grade, justification, OKR and behaviour scores, time in role, salary proposal and decision. Use for upgrade requests.",
+    "tags": [
+      "business",
+      "operations",
+      "promotion",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Promotion Upgrade Requests",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
