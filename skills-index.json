@@ -15379,6 +15379,28 @@
     "maturity": "stable"
   },
   {
+    "name": "planetscale",
+    "path": "skills/backend/databases/planetscale/planetscale",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "planetscale",
+    "description": "Use this skill to design, implement, and operate production workflows for planetscale. Operate MySQL-compatible databases on PlanetScale with branching workflows,",
+    "tags": [
+      "backend",
+      "databases",
+      "planetscale",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Planetscale",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "src-hunter",
     "path": "skills/backend/databases/src_hunter/src-hunter",
     "domain": "backend",
