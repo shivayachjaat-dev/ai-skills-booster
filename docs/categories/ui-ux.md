@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **243 skills** available in this category.
+> **244 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -245,5 +245,6 @@
 | [seo-aeo-content-cluster](../../skills/frontend/ui-ux/seo_aeo_content_clus/seo-aeo-content-cluster/SKILL.md) | `seo_aeo_content_clus` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo content cluster. Builds a topical authority map from business goals, search intent, existing content, and gaps, then prioritises foundational and supporting pages. |
 | [seo-authority-builder](../../skills/frontend/ui-ux/seo_authority_builde/seo-authority-builder/SKILL.md) | `seo_authority_builde` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo authority builder. Analyzes content for E-E-A-T signals and suggests improvements to |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
+| [service-mesh-observability](../../skills/frontend/ui-ux/service_mesh_observa/service-mesh-observability/SKILL.md) | `service_mesh_observa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh observability. Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

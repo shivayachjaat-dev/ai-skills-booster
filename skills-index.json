@@ -31981,6 +31981,28 @@
     "maturity": "stable"
   },
   {
+    "name": "service-mesh-observability",
+    "path": "skills/frontend/ui-ux/service_mesh_observa/service-mesh-observability",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "service_mesh_observa",
+    "description": "Use this skill to design, implement, and operate production workflows for service mesh observability. Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "service",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Service Mesh Observability",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",

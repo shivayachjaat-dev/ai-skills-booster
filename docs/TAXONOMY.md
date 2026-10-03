@@ -1526,6 +1526,7 @@ AI_Skills_Booster/
 │   │   ├── seo_aeo_content_clus/ (1 skills)
 │   │   ├── seo_authority_builde/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
+│   │   ├── service_mesh_observa/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
 │   └── web-architecture/
