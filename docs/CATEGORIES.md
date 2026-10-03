@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,767** skills across structured domains, categories, and subcategories.
+Master navigation for **1,768** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (609 skills)
 
@@ -3190,7 +3190,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (166 skills)
+## Security (167 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -3220,7 +3220,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (97 skills)
+### Appsec (98 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -3412,6 +3412,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [ot-ics](../skills/security/appsec/ot_ics/ot-ics/SKILL.md) — Use this skill to design, implement, and operate production workflows for ot ics. Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery, and passive-first evaluation discipline.
 - **Penetration_Testing** (1):
   - [penetration-testing](../skills/security/appsec/penetration_testing/penetration-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments.
+- **Policy_As_Code** (1):
+  - [policy-as-code](../skills/security/appsec/policy_as_code/policy-as-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for policy as code. Implement policy as code with OPA, Sentinel, and Kyverno. Automate policy
 - **Security_Auditor** (1):
   - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - **Security_Checklist** (1):

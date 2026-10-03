@@ -32386,6 +32386,28 @@
     "maturity": "stable"
   },
   {
+    "name": "policy-as-code",
+    "path": "skills/security/appsec/policy_as_code/policy-as-code",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "policy_as_code",
+    "description": "Use this skill to design, implement, and operate production workflows for policy as code. Implement policy as code with OPA, Sentinel, and Kyverno. Automate policy",
+    "tags": [
+      "security",
+      "appsec",
+      "policy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Policy As Code",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
