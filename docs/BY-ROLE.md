@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (937 skills)
+## AI Engineer (938 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -663,6 +663,7 @@ Curated workflows organized by professional role and specialization.
 - [systematic-debugging](../skills/ai-engineering/models/systematic_debugging/systematic-debugging/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for systematic debugging. Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
 - [tailwind-design-system](../skills/ai-engineering/models/tailwind_design_syst/tailwind-design-system/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for tailwind design system. Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility.
 - [tailwind-patterns](../skills/ai-engineering/models/tailwind_patterns/tailwind-patterns/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for tailwind patterns. Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
+- [taisly-social-media-posting](../skills/ai-engineering/models/taisly_social_media_/taisly-social-media-posting/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for taisly social media posting. Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
 - [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — `ai-engineering`: Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.

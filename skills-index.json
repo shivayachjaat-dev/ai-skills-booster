@@ -14867,6 +14867,28 @@
     "maturity": "stable"
   },
   {
+    "name": "taisly-social-media-posting",
+    "path": "skills/ai-engineering/models/taisly_social_media_/taisly-social-media-posting",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "taisly_social_media_",
+    "description": "Use this skill to design, implement, and operate production workflows for taisly social media posting. Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "taisly",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Taisly Social Media Posting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
