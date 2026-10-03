@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,978** skills across structured domains, categories, and subcategories.
+Master navigation for **1,979** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (674 skills)
 
@@ -2257,7 +2257,7 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (109 skills)
+## Devops (110 skills)
 
 ### Ci Cd (46 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
@@ -2355,7 +2355,7 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 - **Reverse_Proxy** (1):
   - [reverse-proxy](../skills/devops/ci-cd/reverse_proxy/reverse-proxy/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse proxy. Configure nginx and Traefik as reverse proxies. Implement SSL termination
 
-### Cloud Infrastructure (42 skills)
+### Cloud Infrastructure (43 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)
 
 - **Amazon_Alexa** (1):
@@ -2437,6 +2437,8 @@ Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-inf
   - [multi-cloud-architecture](../skills/devops/cloud-infrastructure/multi_cloud_architec/multi-cloud-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi cloud architecture. Decision framework and patterns for architecting applications across AWS, Azure, and GCP.
 - **Noaa_Radar_Satellite** (1):
   - [noaa-radar-satellite-fetching](../skills/devops/cloud-infrastructure/noaa_radar_satellite/noaa-radar-satellite-fetching/SKILL.md) — Use this skill to design, implement, and operate production workflows for noaa radar satellite fetching. Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection.
+- **Secrets_Management** (1):
+  - [secrets-management](../skills/devops/cloud-infrastructure/secrets_management/secrets-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for secrets management. Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.
 
 ### Container Orchestration (1 skills)
 Category index: [`docs/categories/container-orchestration.md`](categories/container-orchestration.md)

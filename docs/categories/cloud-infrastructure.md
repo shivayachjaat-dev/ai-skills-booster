@@ -1,6 +1,6 @@
 # Category Index: Cloud Infrastructure
 
-> **42 skills** available in this category.
+> **43 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -46,3 +46,4 @@
 | [java-pro](../../skills/devops/cloud-infrastructure/java_pro/java-pro/SKILL.md) | `java_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for java pro. Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns. |
 | [multi-cloud-architecture](../../skills/devops/cloud-infrastructure/multi_cloud_architec/multi-cloud-architecture/SKILL.md) | `multi_cloud_architec` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for multi cloud architecture. Decision framework and patterns for architecting applications across AWS, Azure, and GCP. |
 | [noaa-radar-satellite-fetching](../../skills/devops/cloud-infrastructure/noaa_radar_satellite/noaa-radar-satellite-fetching/SKILL.md) | `noaa_radar_satellite` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for noaa radar satellite fetching. Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection. |
+| [secrets-management](../../skills/devops/cloud-infrastructure/secrets_management/secrets-management/SKILL.md) | `secrets_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for secrets management. Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools. |

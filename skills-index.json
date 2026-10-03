@@ -23828,6 +23828,28 @@
     "maturity": "stable"
   },
   {
+    "name": "secrets-management",
+    "path": "skills/devops/cloud-infrastructure/secrets_management/secrets-management",
+    "domain": "devops",
+    "category": "cloud-infrastructure",
+    "subcategory": "secrets_management",
+    "description": "Use this skill to design, implement, and operate production workflows for secrets management. Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.",
+    "tags": [
+      "devops",
+      "cloud-infrastructure",
+      "secrets",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Secrets Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "helm-chart-architecture-and-lifecycle",
     "path": "skills/devops/container-orchestration/helm/helm-chart-architecture-and-lifecycle",
     "domain": "devops",

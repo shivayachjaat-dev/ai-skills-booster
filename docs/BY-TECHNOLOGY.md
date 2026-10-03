@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1796 skills)
+## Bash (1797 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2059,6 +2059,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [java-pro](../skills/devops/cloud-infrastructure/java_pro/java-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for java pro. Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.
 - [multi-cloud-architecture](../skills/devops/cloud-infrastructure/multi_cloud_architec/multi-cloud-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi cloud architecture. Decision framework and patterns for architecting applications across AWS, Azure, and GCP.
 - [noaa-radar-satellite-fetching](../skills/devops/cloud-infrastructure/noaa_radar_satellite/noaa-radar-satellite-fetching/SKILL.md) — Use this skill to design, implement, and operate production workflows for noaa radar satellite fetching. Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection.
+- [secrets-management](../skills/devops/cloud-infrastructure/secrets_management/secrets-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for secrets management. Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.
 - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 - [azure-cosmos-java](../skills/frontend/frameworks/azure_cosmos_java/azure-cosmos-java/SKILL.md) — Use this skill to azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.
 - [cc-skill-coding-standards](../skills/frontend/frameworks/cc_skill_coding_stan/cc-skill-coding-standards/SKILL.md) — Use this skill to universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
@@ -9764,7 +9765,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1899 skills)
+## Python (1900 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10813,6 +10814,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [java-pro](../skills/devops/cloud-infrastructure/java_pro/java-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for java pro. Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.
 - [multi-cloud-architecture](../skills/devops/cloud-infrastructure/multi_cloud_architec/multi-cloud-architecture/SKILL.md) — Use this skill to design, implement, and operate production workflows for multi cloud architecture. Decision framework and patterns for architecting applications across AWS, Azure, and GCP.
 - [noaa-radar-satellite-fetching](../skills/devops/cloud-infrastructure/noaa_radar_satellite/noaa-radar-satellite-fetching/SKILL.md) — Use this skill to design, implement, and operate production workflows for noaa radar satellite fetching. Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection.
+- [secrets-management](../skills/devops/cloud-infrastructure/secrets_management/secrets-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for secrets management. Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.
 - [cloud-cost-finops-and-devsecops-guardrails](../skills/devops/finops/cost-guardrails/cloud-cost-finops-and-devsecops-guardrails/SKILL.md) — Use this skill to implement automated cloud cost FinOps budgets, drift anomaly detection, and DevSecOps compliance guardrails across AWS, GCP, Azure, and Kubernetes. It provides continuous Terraform cost estimation, tagging enforcement, idle resource cleanup, and policy-as-code admission control.
 - [aws-cdk-v2-infrastructure-as-code-architecture](../skills/devops/infrastructure/aws-cdk/aws-cdk-v2-infrastructure-as-code-architecture/SKILL.md) — Use this skill to design, build, and deploy production AWS cloud infrastructure using the AWS Cloud Development Kit (CDK v2) in TypeScript and Python. It covers L1/L2/L3 construct composition, multi-account multi-region pipelines (cdk-pipelines), automated compliance enforcement with CDK Aspects (IAspect), unit and snapshot testing with @aws-cdk/assertions, and drift remediation.
 - [azure-application-insights-telemetry-and-distributed-tracing](../skills/devops/observability/application-insights/azure-application-insights-telemetry-and-distributed-tracing/SKILL.md) — Use this skill to instrument web applications, browser frontends, and Node.js/Python microservices with Azure Application Insights telemetry SDKs. It covers distributed W3C trace propagation, custom business event tracking, client-side unhandled exception telemetry, and Kusto (KQL) query diagnostics.
@@ -12519,6 +12521,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Search Specialist (1 skills)
 
 - [search-specialist](../skills/frontend/web-architecture/search_specialist/search-specialist/SKILL.md) — Use this skill to design, implement, and operate production workflows for search specialist. Expert web researcher using advanced search techniques and
+
+## Secrets Management (1 skills)
+
+- [secrets-management](../skills/devops/cloud-infrastructure/secrets_management/secrets-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for secrets management. Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.
 
 ## Security Audit (1 skills)
 
