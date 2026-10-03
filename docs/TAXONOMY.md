@@ -84,6 +84,7 @@ AI_Skills_Booster/
 │   │   ├── prompt_engineering/ (1 skills)
 │   │   ├── protect_mcp_governan/ (1 skills)
 │   │   ├── qoder_delegate/ (1 skills)
+│   │   ├── ralph_loop_yylo/ (1 skills)
 │   │   ├── scheduling/ (1 skills)
 │   │   └── skill_security_audit/ (1 skills)
 │   ├── audio-processing/

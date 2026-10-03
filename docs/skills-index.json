@@ -1793,6 +1793,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ralph-loop-yylo",
+    "path": "skills/ai-engineering/agents/ralph_loop_yylo/ralph-loop-yylo",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "ralph_loop_yylo",
+    "description": "Use this skill to design, implement, and operate production workflows for ralph loop yylo. Execute exactly one explicitly assigned YYLO Ledger task through the",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "ralph",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ralph Loop Yylo",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-cron-and-autonomous-job-scheduling",
     "path": "skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling",
     "domain": "ai-engineering",

@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,864** skills across structured domains, categories, and subcategories.
+Master navigation for **1,865** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (642 skills)
+## Ai Engineering (643 skills)
 
-### Agents (82 skills)
+### Agents (83 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -167,6 +167,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [protect-mcp-governance](../skills/ai-engineering/agents/protect_mcp_governan/protect-mcp-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for protect mcp governance. Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification.
 - **Qoder_Delegate** (1):
   - [qoder-delegate](../skills/ai-engineering/agents/qoder_delegate/qoder-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for qoder delegate. Delegate coding tasks to the Qoder CLI (`qodercli`) only when the user
+- **Ralph_Loop_Yylo** (1):
+  - [ralph-loop-yylo](../skills/ai-engineering/agents/ralph_loop_yylo/ralph-loop-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for ralph loop yylo. Execute exactly one explicitly assigned YYLO Ledger task through the
 - **Scheduling** (1):
   - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - **Skill_Security_Audit** (1):
