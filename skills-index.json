@@ -14163,6 +14163,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-seekers",
+    "path": "skills/ai-engineering/models/skill_seekers/skill-seekers",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "skill_seekers",
+    "description": "Use this skill to design, implement, and operate production workflows for skill seekers. -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Seekers",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

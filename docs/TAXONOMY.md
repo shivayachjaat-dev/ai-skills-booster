@@ -644,6 +644,7 @@ AI_Skills_Booster/
 │   │   ├── skill_creator_ms/ (1 skills)
 │   │   ├── skill_gap_analysis/ (1 skills)
 │   │   ├── skill_rails_upgrade/ (1 skills)
+│   │   ├── skill_seekers/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
 │   │   ├── typography_first/ (1 skills)
