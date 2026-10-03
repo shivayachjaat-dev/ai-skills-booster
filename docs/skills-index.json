@@ -18263,6 +18263,28 @@
     "maturity": "stable"
   },
   {
+    "name": "programmatic-seo",
+    "path": "skills/data-analytics/data-pipelines/programmatic_seo/programmatic-seo",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "programmatic_seo",
+    "description": "Use this skill to design, implement, and operate production workflows for programmatic seo. Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "programmatic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Programmatic Seo",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "snowflake-data-warehouse-modeling",
     "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
     "domain": "data-analytics",
