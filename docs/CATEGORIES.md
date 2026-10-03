@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,168** skills across structured domains, categories, and subcategories.
+Master navigation for **2,169** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (729 skills)
+## Ai Engineering (730 skills)
 
 ### Agents (93 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -340,7 +340,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (528 skills)
+### Models (529 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1377,6 +1377,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [survey-generator](../skills/ai-engineering/models/survey_generator/survey-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for survey generator. Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering.
 - **System_Prompt_Lookup** (1):
   - [system-prompt-lookup](../skills/ai-engineering/models/system_prompt_lookup/system-prompt-lookup/SKILL.md) — Use this skill to design, implement, and operate production workflows for system prompt lookup. Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.
+- **Systematic_Debugging** (1):
+  - [systematic-debugging](../skills/ai-engineering/models/systematic_debugging/systematic-debugging/SKILL.md) — Use this skill to design, implement, and operate production workflows for systematic debugging. Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - **Typography_First** (1):

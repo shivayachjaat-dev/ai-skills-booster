@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **528 skills** available in this category.
+> **529 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -527,6 +527,7 @@
 | [supply-chain-security](../../skills/ai-engineering/models/supply_chain_securit/supply-chain-security/SKILL.md) | `supply_chain_securit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supply chain security. Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification. |
 | [survey-generator](../../skills/ai-engineering/models/survey_generator/survey-generator/SKILL.md) | `survey_generator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for survey generator. Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering. |
 | [system-prompt-lookup](../../skills/ai-engineering/models/system_prompt_lookup/system-prompt-lookup/SKILL.md) | `system_prompt_lookup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for system prompt lookup. Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions. |
+| [systematic-debugging](../../skills/ai-engineering/models/systematic_debugging/systematic-debugging/SKILL.md) | `systematic_debugging` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for systematic debugging. Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](../../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
 | [vibe-code-auditor](../../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) | `vibe_code_auditor` | `advanced` | `stable` | Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. |

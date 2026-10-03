@@ -14801,6 +14801,28 @@
     "maturity": "stable"
   },
   {
+    "name": "systematic-debugging",
+    "path": "skills/ai-engineering/models/systematic_debugging/systematic-debugging",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "systematic_debugging",
+    "description": "Use this skill to design, implement, and operate production workflows for systematic debugging. Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "systematic",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Systematic Debugging",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
