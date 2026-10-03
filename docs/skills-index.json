@@ -13833,6 +13833,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-engineering-workflow",
+    "path": "skills/ai-engineering/models/seo/seo-engineering-workflow",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "seo",
+    "description": "Use this skill to design, implement, and operate production workflows for seo engineering workflow. Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO. Use as the umbrella skill when the user asks for a full SEO analysis or strategy.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Engineering Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

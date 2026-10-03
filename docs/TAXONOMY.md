@@ -629,6 +629,7 @@ AI_Skills_Booster/
 │   │   ├── selenium_skill/ (1 skills)
 │   │   ├── sendgrid_automation/ (1 skills)
 │   │   ├── senior_frontend/ (1 skills)
+│   │   ├── seo/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
