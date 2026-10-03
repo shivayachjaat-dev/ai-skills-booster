@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,160 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,161 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1263,6 +1263,7 @@
 | [premium-3d-website](skills/frontend/ui-development/premium_3d_website/premium-3d-website/SKILL.md) | `frontend` | `ui-development` | `premium_3d_website` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for premium 3d website. Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization. |
 | [redesign-existing-projects](skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) | `frontend` | `ui-development` | `redesign_existing_pr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites. |
 | [stitch-design-taste](skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) | `frontend` | `ui-development` | `stitch_design_taste` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules. |
+| [sveltekit](skills/frontend/ui-development/sveltekit/sveltekit/SKILL.md) | `frontend` | `ui-development` | `sveltekit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sveltekit. Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and form actions in one framework. |
 | [anti-sleep](skills/frontend/ui-ux/anti_sleep/anti-sleep/SKILL.md) | `frontend` | `ui-ux` | `anti_sleep` | `advanced` | `stable` | Use this skill to keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
 | [ask-questions-if-underspecified](skills/frontend/ui-ux/ask_questions_if_und/ask-questions-if-underspecified/SKILL.md) | `frontend` | `ui-ux` | `ask_questions_if_und` | `advanced` | `stable` | Use this skill to clarify requirements before implementing. Use when serious doubts arise. |
 | [audit-context-building](skills/frontend/ui-ux/audit_context_buildi/audit-context-building/SKILL.md) | `frontend` | `ui-ux` | `audit_context_buildi` | `advanced` | `stable` | Use this skill to enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |

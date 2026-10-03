@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,160** skills across structured domains, categories, and subcategories.
+Master navigation for **2,161** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (728 skills)
 
@@ -2721,7 +2721,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (441 skills)
+## Frontend (442 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2845,7 +2845,7 @@ Category index: [`docs/categories/styling.md`](categories/styling.md)
 - **Fixing_Motion_Perfor** (1):
   - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-### Ui Development (36 skills)
+### Ui Development (37 skills)
 Category index: [`docs/categories/ui-development.md`](categories/ui-development.md)
 
 - **Cc_Skill_Frontend_Pa** (1):
@@ -2920,6 +2920,8 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
+- **Sveltekit** (1):
+  - [sveltekit](../skills/frontend/ui-development/sveltekit/sveltekit/SKILL.md) — Use this skill to design, implement, and operate production workflows for sveltekit. Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and form actions in one framework.
 
 ### Ui Ux (273 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)

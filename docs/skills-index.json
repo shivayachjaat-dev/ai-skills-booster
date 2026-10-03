@@ -28109,6 +28109,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sveltekit",
+    "path": "skills/frontend/ui-development/sveltekit/sveltekit",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "sveltekit",
+    "description": "Use this skill to design, implement, and operate production workflows for sveltekit. Build full-stack web applications with SvelteKit \u2014 file-based routing, SSR, SSG, API routes, and form actions in one framework.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "sveltekit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sveltekit",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",
