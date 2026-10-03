@@ -27393,6 +27393,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tanstack-query-expert",
+    "path": "skills/frontend/frameworks/tanstack_query_exper/tanstack-query-expert",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "tanstack_query_exper",
+    "description": "Use this skill to design, implement, and operate production workflows for tanstack query expert. Expert in TanStack Query (React Query) \u2014 asynchronous state management. Covers data fetching, stale time configuration, mutations, optimistic updates, and Next.js App Router (SSR) integration.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "tanstack",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tanstack Query Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

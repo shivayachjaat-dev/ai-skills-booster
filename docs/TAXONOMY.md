@@ -1308,7 +1308,8 @@ AI_Skills_Booster/
 │   │   ├── scala_pro/ (1 skills)
 │   │   ├── shopify_apps/ (1 skills)
 │   │   ├── slack_automation/ (1 skills)
-│   │   └── spline_3d_integratio/ (1 skills)
+│   │   ├── spline_3d_integratio/ (1 skills)
+│   │   └── tanstack_query_exper/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/

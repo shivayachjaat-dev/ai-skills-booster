@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **35 skills** available in this category.
+> **36 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -39,3 +39,4 @@
 | [shopify-apps](../../skills/frontend/frameworks/shopify_apps/shopify-apps/SKILL.md) | `shopify_apps` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shopify apps. Expert patterns for Shopify app development including Remix/React |
 | [slack-automation](../../skills/frontend/frameworks/slack_automation/slack-automation/SKILL.md) | `slack_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for slack automation. Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit. |
 | [spline-3d-integration](../../skills/frontend/frameworks/spline_3d_integratio/spline-3d-integration/SKILL.md) | `spline_3d_integratio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spline 3d integration. Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API. |
+| [tanstack-query-expert](../../skills/frontend/frameworks/tanstack_query_exper/tanstack-query-expert/SKILL.md) | `tanstack_query_exper` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tanstack query expert. Expert in TanStack Query (React Query) — asynchronous state management. Covers data fetching, stale time configuration, mutations, optimistic updates, and Next.js App Router (SSR) integration. |
