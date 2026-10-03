@@ -1600,6 +1600,7 @@ AI_Skills_Booster/
 │   │   ├── search_specialist/ (1 skills)
 │   │   ├── security_audit/ (1 skills)
 │   │   ├── seo_aeo_content_qual/ (1 skills)
+│   │   ├── seo_fundamentals/ (1 skills)
 │   │   ├── skeuomorphism/ (1 skills)
 │   │   ├── soft_pastel/ (1 skills)
 │   │   ├── swiss_design/ (1 skills)

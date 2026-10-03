@@ -33609,6 +33609,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-fundamentals",
+    "path": "skills/frontend/web-architecture/seo_fundamentals/seo-fundamentals",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "seo_fundamentals",
+    "description": "Use this skill to design, implement, and operate production workflows for seo fundamentals. Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Fundamentals",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skeuomorphism",
     "path": "skills/frontend/web-architecture/skeuomorphism/skeuomorphism",
     "domain": "frontend",

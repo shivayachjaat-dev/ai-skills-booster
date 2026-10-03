@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,021** skills across structured domains, categories, and subcategories.
+Master navigation for **2,022** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (687 skills)
 
@@ -2591,7 +2591,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (403 skills)
+## Frontend (404 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -3273,7 +3273,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (87 skills)
+### Web Architecture (88 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -3429,6 +3429,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [security-audit](../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) — Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
 - **Seo_Aeo_Content_Qual** (1):
   - [seo-aeo-content-quality-auditor](../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) — Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified.
+- **Seo_Fundamentals** (1):
+  - [seo-fundamentals](../skills/frontend/web-architecture/seo_fundamentals/seo-fundamentals/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo fundamentals. Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages.
 - **Skeuomorphism** (1):
   - [skeuomorphism](../skills/frontend/web-architecture/skeuomorphism/skeuomorphism/SKILL.md) — Use this skill to design, implement, and operate production workflows for skeuomorphism. Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.
 - **Soft_Pastel** (1):
