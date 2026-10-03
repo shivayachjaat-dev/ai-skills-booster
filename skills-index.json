@@ -11985,6 +11985,28 @@
     "maturity": "stable"
   },
   {
+    "name": "papers-skill",
+    "path": "skills/ai-engineering/models/papers_skill/papers-skill",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "papers_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for papers skill. Skill for academic research workflows: search Semantic Scholar (200M+ papers), inspect citations, download arXiv PDFs, and extract PDF text. Bundles a self-contained Python CLI.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "papers",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Papers Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

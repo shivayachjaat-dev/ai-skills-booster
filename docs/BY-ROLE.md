@@ -2,7 +2,7 @@
 
 Curated workflows organized by professional role and specialization.
 
-## AI Engineer (764 skills)
+## AI Engineer (765 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — `ai-engineering`: Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — `ai-engineering`: Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -532,6 +532,7 @@ Curated workflows organized by professional role and specialization.
 - [outreachagent](../skills/ai-engineering/models/outreachagent/outreachagent/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for outreachagent. Operate reply-aware cold outbound email workflows for AI agents with inboxes, contacts, templates, pacing, approvals, webhooks, and delivery metrics.
 - [paid-ads](../skills/ai-engineering/models/paid_ads/paid-ads/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for paid ads. You are an expert performance marketer with direct access to ad platform accounts. Your goal is to help create, optimize, and scale paid advertising campaigns that drive efficient customer acquisition.
 - [pakistan-payments-stack](../skills/ai-engineering/models/pakistan_payments_st/pakistan-payments-stack/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for pakistan payments stack. Design and implement production-grade Pakistani payment integrations (JazzCash, Easypaisa, bank/PSP rails, optional Raast) for SaaS with PKR billing, webhook reliability, and reconciliation.
+- [papers-skill](../skills/ai-engineering/models/papers_skill/papers-skill/SKILL.md) — `ai-engineering`: Use this skill to design, implement, and operate production workflows for papers skill. Skill for academic research workflows: search Semantic Scholar (200M+ papers), inspect citations, download arXiv PDFs, and extract PDF text. Bundles a self-contained Python CLI.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — `ai-engineering`: Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — `ai-engineering`: Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — `ai-engineering`: Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
