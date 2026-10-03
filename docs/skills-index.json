@@ -12029,6 +12029,28 @@
     "maturity": "stable"
   },
   {
+    "name": "party-ledger-reconciliation",
+    "path": "skills/ai-engineering/models/party_ledger_reconci/party-ledger-reconciliation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "party_ledger_reconci",
+    "description": "Use this skill to design, implement, and operate production workflows for party ledger reconciliation. Party ledger reconciliation: party type, name and PAN/VAT, ledger against statement balance, difference and reason, duplicates, confirmation status and adjustment. Use for balance checks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "party",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Party Ledger Reconciliation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
