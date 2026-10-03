@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,951** skills across structured domains, categories, and subcategories.
+Master navigation for **1,952** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (668 skills)
+## Ai Engineering (669 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (480 skills)
+### Models (481 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1264,6 +1264,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [rust-async-patterns](../skills/ai-engineering/models/rust_async_patterns/rust-async-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust async patterns. Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code.
 - **Salary_Benchmarking** (1):
   - [salary-benchmarking](../skills/ai-engineering/models/salary_benchmarking/salary-benchmarking/SKILL.md) — Use this skill to design, implement, and operate production workflows for salary benchmarking. Salary benchmark register: role, department and grade against market and internal minimum, median and maximum. Use for compensation review.
+- **Sales_Automator** (1):
+  - [sales-automator](../skills/ai-engineering/models/sales_automator/sales-automator/SKILL.md) — Use this skill to design, implement, and operate production workflows for sales automator. Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
