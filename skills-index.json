@@ -16484,6 +16484,28 @@
     "maturity": "stable"
   },
   {
+    "name": "payments-received",
+    "path": "skills/business/operations/payments_received/payments-received",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "payments_received",
+    "description": "Use this skill to design, implement, and operate production workflows for payments received. Payments received log: reference, client and invoice, amount and currency, payment date and method, withholding tax, bank account, received-by and receipt-sent status. Use for incoming payments.",
+    "tags": [
+      "business",
+      "operations",
+      "payments",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Payments Received",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
