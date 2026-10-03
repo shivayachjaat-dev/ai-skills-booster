@@ -1357,6 +1357,7 @@ AI_Skills_Booster/
 │   │   ├── power_user_cultivati/ (1 skills)
 │   │   ├── pptx_deck_creation/ (1 skills)
 │   │   ├── pr_merge_champion/ (1 skills)
+│   │   ├── presentation_deck/ (1 skills)
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)

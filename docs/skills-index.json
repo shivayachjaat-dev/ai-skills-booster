@@ -28263,6 +28263,28 @@
     "maturity": "stable"
   },
   {
+    "name": "presentation-deck",
+    "path": "skills/frontend/ui-ux/presentation_deck/presentation-deck",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "presentation_deck",
+    "description": "Use this skill to design, implement, and operate production workflows for presentation deck. Build an evidence-linked slide register after context-first intake. Use when an SME needs a presentation deck, speaker notes, or a structured business story.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "presentation",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Presentation Deck",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
