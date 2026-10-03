@@ -41913,6 +41913,28 @@
     "maturity": "stable"
   },
   {
+    "name": "research-prompt",
+    "path": "skills/software-engineering/architecture/patterns/research-prompt",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for research prompt. Turn vague research needs into one precise deep-research prompt with context and output criteria.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "research",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Research Prompt",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
