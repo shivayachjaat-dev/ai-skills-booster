@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,710** skills across structured domains, categories, and subcategories.
+Master navigation for **1,711** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (588 skills)
+## Ai Engineering (589 skills)
 
 ### Agents (71 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -292,7 +292,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (425 skills)
+### Models (426 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1120,6 +1120,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [outreachagent](../skills/ai-engineering/models/outreachagent/outreachagent/SKILL.md) — Use this skill to design, implement, and operate production workflows for outreachagent. Operate reply-aware cold outbound email workflows for AI agents with inboxes, contacts, templates, pacing, approvals, webhooks, and delivery metrics.
 - **Paid_Ads** (1):
   - [paid-ads](../skills/ai-engineering/models/paid_ads/paid-ads/SKILL.md) — Use this skill to design, implement, and operate production workflows for paid ads. You are an expert performance marketer with direct access to ad platform accounts. Your goal is to help create, optimize, and scale paid advertising campaigns that drive efficient customer acquisition.
+- **Pakistan_Payments_St** (1):
+  - [pakistan-payments-stack](../skills/ai-engineering/models/pakistan_payments_st/pakistan-payments-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for pakistan payments stack. Design and implement production-grade Pakistani payment integrations (JazzCash, Easypaisa, bank/PSP rails, optional Raast) for SaaS with PKR billing, webhook reliability, and reconciliation.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

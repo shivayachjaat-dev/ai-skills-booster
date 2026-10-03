@@ -11963,6 +11963,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pakistan-payments-stack",
+    "path": "skills/ai-engineering/models/pakistan_payments_st/pakistan-payments-stack",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "pakistan_payments_st",
+    "description": "Use this skill to design, implement, and operate production workflows for pakistan payments stack. Design and implement production-grade Pakistani payment integrations (JazzCash, Easypaisa, bank/PSP rails, optional Raast) for SaaS with PKR billing, webhook reliability, and reconciliation.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "pakistan",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pakistan Payments Stack",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
