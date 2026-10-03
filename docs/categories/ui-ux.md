@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **266 skills** available in this category.
+> **267 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -216,6 +216,7 @@
 | [onboarding-playbook](../../skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook/SKILL.md) | `onboarding_playbook` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding. |
 | [pci-dss-compliance](../../skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) | `pci_dss_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder |
 | [personal-tool-builder](../../skills/frontend/ui-ux/personal_tool_builde/personal-tool-builder/SKILL.md) | `personal_tool_builde` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for personal tool builder. Expert in building custom tools that solve your own problems first. |
+| [php-engineering-workflow](../../skills/frontend/ui-ux/php/php-engineering-workflow/SKILL.md) | `php` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for php engineering workflow. Language-specific super-code guidelines for php. |
 | [plan-ledger-tasks-yylo](../../skills/frontend/ui-ux/plan_ledger_tasks_yy/plan-ledger-tasks-yylo/SKILL.md) | `plan_ledger_tasks_yy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for plan ledger tasks yylo. Create a concise Product Development Requirement and one or more implementation-sized |
 | [planning-and-task-breakdown](../../skills/frontend/ui-ux/planning_and_task_br/planning-and-task-breakdown/SKILL.md) | `planning_and_task_br` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for planning and task breakdown. Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible. |
 | [platform-engineering](../../skills/frontend/ui-ux/platform_engineering/platform-engineering/SKILL.md) | `platform_engineering` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for platform engineering. Build internal developer platforms (IDPs) with self-service infrastructure, |

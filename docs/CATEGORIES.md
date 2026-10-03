@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,148** skills across structured domains, categories, and subcategories.
+Master navigation for **2,149** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (724 skills)
 
@@ -2714,7 +2714,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (434 skills)
+## Frontend (435 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2914,7 +2914,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Stitch_Design_Taste** (1):
   - [stitch-design-taste](../skills/frontend/ui-development/stitch_design_taste/stitch-design-taste/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch design taste. Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
 
-### Ui Ux (266 skills)
+### Ui Ux (267 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3341,6 +3341,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [pci-dss-compliance](../skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder
 - **Personal_Tool_Builde** (1):
   - [personal-tool-builder](../skills/frontend/ui-ux/personal_tool_builde/personal-tool-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for personal tool builder. Expert in building custom tools that solve your own problems first.
+- **Php** (1):
+  - [php-engineering-workflow](../skills/frontend/ui-ux/php/php-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for php engineering workflow. Language-specific super-code guidelines for php.
 - **Plan_Ledger_Tasks_Yy** (1):
   - [plan-ledger-tasks-yylo](../skills/frontend/ui-ux/plan_ledger_tasks_yy/plan-ledger-tasks-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for plan ledger tasks yylo. Create a concise Product Development Requirement and one or more implementation-sized
 - **Planning_And_Task_Br** (1):

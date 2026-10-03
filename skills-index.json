@@ -32685,6 +32685,28 @@
     "maturity": "stable"
   },
   {
+    "name": "php-engineering-workflow",
+    "path": "skills/frontend/ui-ux/php/php-engineering-workflow",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "php",
+    "description": "Use this skill to design, implement, and operate production workflows for php engineering workflow. Language-specific super-code guidelines for php.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "php",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Php Engineering Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "plan-ledger-tasks-yylo",
     "path": "skills/frontend/ui-ux/plan_ledger_tasks_yy/plan-ledger-tasks-yylo",
     "domain": "frontend",

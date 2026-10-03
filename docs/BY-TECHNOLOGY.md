@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1967 skills)
+## Bash (1968 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2437,6 +2437,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [onboarding-playbook](../skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding.
 - [pci-dss-compliance](../skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder
 - [personal-tool-builder](../skills/frontend/ui-ux/personal_tool_builde/personal-tool-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for personal tool builder. Expert in building custom tools that solve your own problems first.
+- [php-engineering-workflow](../skills/frontend/ui-ux/php/php-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for php engineering workflow. Language-specific super-code guidelines for php.
 - [plan-ledger-tasks-yylo](../skills/frontend/ui-ux/plan_ledger_tasks_yy/plan-ledger-tasks-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for plan ledger tasks yylo. Create a concise Product Development Requirement and one or more implementation-sized
 - [planning-and-task-breakdown](../skills/frontend/ui-ux/planning_and_task_br/planning-and-task-breakdown/SKILL.md) — Use this skill to design, implement, and operate production workflows for planning and task breakdown. Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.
 - [platform-engineering](../skills/frontend/ui-ux/platform_engineering/platform-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for platform engineering. Build internal developer platforms (IDPs) with self-service infrastructure,
@@ -9437,6 +9438,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [photopea-embedded-editor](../skills/frontend/web-architecture/photopea_embedded_ed/photopea-embedded-editor/SKILL.md) — Use this skill to design, implement, and operate production workflows for photopea embedded editor. Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and the full Photoshop-compatible API.
 
+## Php Engineering Workflow (1 skills)
+
+- [php-engineering-workflow](../skills/frontend/ui-ux/php/php-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for php engineering workflow. Language-specific super-code guidelines for php.
+
 ## Php Pro (1 skills)
 
 - [php-pro](../skills/data-analytics/data-pipelines/php_pro/php-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for php pro. Write idiomatic PHP code with generators, iterators, SPL data
@@ -9973,7 +9978,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2069 skills)
+## Python (2070 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11391,6 +11396,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [onboarding-playbook](../skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding.
 - [pci-dss-compliance](../skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder
 - [personal-tool-builder](../skills/frontend/ui-ux/personal_tool_builde/personal-tool-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for personal tool builder. Expert in building custom tools that solve your own problems first.
+- [php-engineering-workflow](../skills/frontend/ui-ux/php/php-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for php engineering workflow. Language-specific super-code guidelines for php.
 - [plan-ledger-tasks-yylo](../skills/frontend/ui-ux/plan_ledger_tasks_yy/plan-ledger-tasks-yylo/SKILL.md) — Use this skill to design, implement, and operate production workflows for plan ledger tasks yylo. Create a concise Product Development Requirement and one or more implementation-sized
 - [planning-and-task-breakdown](../skills/frontend/ui-ux/planning_and_task_br/planning-and-task-breakdown/SKILL.md) — Use this skill to design, implement, and operate production workflows for planning and task breakdown. Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.
 - [platform-engineering](../skills/frontend/ui-ux/platform_engineering/platform-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for platform engineering. Build internal developer platforms (IDPs) with self-service infrastructure,
