@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,960** skills across structured domains, categories, and subcategories.
+Master navigation for **1,961** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (671 skills)
 
@@ -2113,7 +2113,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (53 skills)
+## Developer Tools (54 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -2121,7 +2121,7 @@ Category index: [`docs/categories/cli.md`](categories/cli.md)
 - **Typer Architecture** (1):
   - [ai-native-cli-tool-architecture-with-typer](../skills/developer-tools/cli/typer-architecture/ai-native-cli-tool-architecture-with-typer/SKILL.md) — Use this skill to design, build, and document AI-native CLI applications that AI coding assistants and autonomous agents can safely invoke. It enforces structured --json machine-readable output, deterministic non-zero exit codes, idempotency, non-interactive --yes flags, and self-documenting JSON schemas.
 
-### Cli Utilities (12 skills)
+### Cli Utilities (13 skills)
 Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md)
 
 - **Ask_Copilot** (1):
@@ -2148,6 +2148,8 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
   - [obsidian-cli](../skills/developer-tools/cli-utilities/obsidian_cli/obsidian-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for obsidian cli. Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line.
 - **Postman_Newman_Autom** (1):
   - [postman-newman-automation](../skills/developer-tools/cli-utilities/postman_newman_autom/postman-newman-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for postman newman automation. Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments.
+- **Satori** (1):
+  - [satori](../skills/developer-tools/cli-utilities/satori/satori/SKILL.md) — Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner
 
 ### Productivity (38 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)

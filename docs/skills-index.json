@@ -20827,6 +20827,28 @@
     "maturity": "stable"
   },
   {
+    "name": "satori",
+    "path": "skills/developer-tools/cli-utilities/satori/satori",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "satori",
+    "description": "Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "satori",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Satori",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",

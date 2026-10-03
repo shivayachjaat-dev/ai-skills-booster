@@ -1,6 +1,6 @@
 # Category Index: Cli Utilities
 
-> **12 skills** available in this category.
+> **13 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -16,3 +16,4 @@
 | [n8n-multi-instance](../../skills/developer-tools/cli-utilities/n8n_multi_instance/n8n-multi-instance/SKILL.md) | `n8n_multi_instance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n multi instance. Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes. |
 | [obsidian-cli](../../skills/developer-tools/cli-utilities/obsidian_cli/obsidian-cli/SKILL.md) | `obsidian_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for obsidian cli. Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line. |
 | [postman-newman-automation](../../skills/developer-tools/cli-utilities/postman_newman_autom/postman-newman-automation/SKILL.md) | `postman_newman_autom` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postman newman automation. Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments. |
+| [satori](../../skills/developer-tools/cli-utilities/satori/satori/SKILL.md) | `satori` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner |

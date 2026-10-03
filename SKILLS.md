@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,960 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,961 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -938,6 +938,7 @@
 | [n8n-multi-instance](skills/developer-tools/cli-utilities/n8n_multi_instance/n8n-multi-instance/SKILL.md) | `developer-tools` | `cli-utilities` | `n8n_multi_instance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n multi instance. Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes. |
 | [obsidian-cli](skills/developer-tools/cli-utilities/obsidian_cli/obsidian-cli/SKILL.md) | `developer-tools` | `cli-utilities` | `obsidian_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for obsidian cli. Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line. |
 | [postman-newman-automation](skills/developer-tools/cli-utilities/postman_newman_autom/postman-newman-automation/SKILL.md) | `developer-tools` | `cli-utilities` | `postman_newman_autom` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postman newman automation. Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments. |
+| [satori](skills/developer-tools/cli-utilities/satori/satori/SKILL.md) | `developer-tools` | `cli-utilities` | `satori` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner |
 | [asana-automation](skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) | `developer-tools` | `productivity` | `asana_automation` | `advanced` | `stable` | Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas. |
 | [bamboohr-automation](skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) | `developer-tools` | `productivity` | `bamboohr_automation` | `advanced` | `stable` | Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas. |
 | [basecamp-automation](skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) | `developer-tools` | `productivity` | `basecamp_automation` | `advanced` | `stable` | Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas. |
