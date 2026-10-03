@@ -13107,6 +13107,28 @@
     "maturity": "stable"
   },
   {
+    "name": "react-state-management",
+    "path": "skills/ai-engineering/models/react_state_manageme/react-state-management",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "react_state_manageme",
+    "description": "Use this skill to design, implement, and operate production workflows for react state management. Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "react",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "React State Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

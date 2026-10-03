@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,878** skills across structured domains, categories, and subcategories.
+Master navigation for **1,879** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (647 skills)
+## Ai Engineering (648 skills)
 
 ### Agents (83 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -320,7 +320,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (463 skills)
+### Models (464 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1224,6 +1224,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [react-best-practices](../skills/ai-engineering/models/react_best_practices/react-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for react best practices. Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Use when writing new React components or Next.js pages, implementing data fetching (client or server-side), or reviewing code for performance issues.
 - **React_Nextjs_Develop** (1):
   - [react-nextjs-development](../skills/ai-engineering/models/react_nextjs_develop/react-nextjs-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for react nextjs development. React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns.
+- **React_State_Manageme** (1):
+  - [react-state-management](../skills/ai-engineering/models/react_state_manageme/react-state-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for react state management. Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
