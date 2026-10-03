@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **45 skills** available in this category.
+> **46 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -49,3 +49,4 @@
 | [puppeteer-skill](../../skills/backend/api-frameworks/puppeteer_skill/puppeteer-skill/SKILL.md) | `puppeteer_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for puppeteer skill. Generates Puppeteer scripts for browser automation, scraping, and PDF generation. Triggers on: "Puppeteer", "headless Chrome", "page.goto", "scrape", "PDF generation". |
 | [pydantic-models-py](../../skills/backend/api-frameworks/pydantic_models_py/pydantic-models-py/SKILL.md) | `pydantic_models_py` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pydantic models py. Create Pydantic models following the multi-model pattern for clean API contracts. |
 | [python-development](../../skills/backend/api-frameworks/python_development/python-development/SKILL.md) | `python_development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python development. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold) |
+| [python-development-python-scaffold](../../skills/backend/api-frameworks/python_development_p/python-development-python-scaffold/SKILL.md) | `python_development_p` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python development python scaffold. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint |

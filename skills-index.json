@@ -15254,6 +15254,28 @@
     "maturity": "stable"
   },
   {
+    "name": "python-development-python-scaffold",
+    "path": "skills/backend/api-frameworks/python_development_p/python-development-python-scaffold",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "python_development_p",
+    "description": "Use this skill to design, implement, and operate production workflows for python development python scaffold. You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "python",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Python Development Python Scaffold",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
