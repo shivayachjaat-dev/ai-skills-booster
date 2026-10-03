@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **76 skills** available in this category.
+> **77 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -64,6 +64,7 @@
 | [neo-brutalism](../../skills/frontend/web-architecture/neo_brutalism/neo-brutalism/SKILL.md) | `neo_brutalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neo brutalism. Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look. |
 | [neumorphism](../../skills/frontend/web-architecture/neumorphism/neumorphism/SKILL.md) | `neumorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for neumorphism. Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation. |
 | [pagespeed-enhancer](../../skills/frontend/web-architecture/pagespeed_enhancer/pagespeed-enhancer/SKILL.md) | `pagespeed_enhancer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pagespeed enhancer. Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed Insights pillars — Performance, Accessibility, Best Practices, and SEO — in structured batches. |
+| [parallel-search-mcp](../../skills/frontend/web-architecture/parallel_search_mcp/parallel-search-mcp/SKILL.md) | `parallel_search_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for parallel search mcp. Search the public web and verify sources with Parallel's free Search MCP. Use when the user chooses Parallel or its connected tools for current information and URL extraction. |
 | [production-audit](../../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) | `production_audit` | `advanced` | `stable` | Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. |
 | [retro-design](../../skills/frontend/web-architecture/retro_design/retro-design/SKILL.md) | `retro_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for retro design. Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts. |
 | [retro-futurism](../../skills/frontend/web-architecture/retro_futurism/retro-futurism/SKILL.md) | `retro_futurism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for retro futurism. Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes. |

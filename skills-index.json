@@ -28395,6 +28395,28 @@
     "maturity": "stable"
   },
   {
+    "name": "parallel-search-mcp",
+    "path": "skills/frontend/web-architecture/parallel_search_mcp/parallel-search-mcp",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "parallel_search_mcp",
+    "description": "Use this skill to design, implement, and operate production workflows for parallel search mcp. Search the public web and verify sources with Parallel's free Search MCP. Use when the user chooses Parallel or its connected tools for current information and URL extraction.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "parallel",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Parallel Search Mcp",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
