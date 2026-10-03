@@ -14097,6 +14097,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-gap-analysis",
+    "path": "skills/ai-engineering/models/skill_gap_analysis/skill-gap-analysis",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "skill_gap_analysis",
+    "description": "Use this skill to design, implement, and operate production workflows for skill gap analysis. Skill gap register: employee, skill area, current against required level, gap severity and recommended training. Use for capability planning.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Gap Analysis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
