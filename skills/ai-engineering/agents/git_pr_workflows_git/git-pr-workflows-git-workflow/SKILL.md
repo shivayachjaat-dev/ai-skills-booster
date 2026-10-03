@@ -1,6 +1,6 @@
 ---
 name: git-pr-workflows-git-workflow
-description: "Use this skill to design, implement, and operate production workflows for git pr workflows git workflow. Orchestrate review, tests, commits, branch pushes, and pull-request creation with parallel agents. Use when completed changes must move through validation into a PR or guarded merge."
+description: "Orchestrate review, tests, conventional commits, branch pushes, and pull-request creation with parallel agent gates."
 domain: ai-engineering
 category: agents
 subcategory: git_pr_workflows_git
@@ -8,12 +8,13 @@ tags:
   - ai-engineering
   - agents
   - git
-  - automation
-  - production-ready
+  - pull-requests
+  - conventional-commits
 technologies:
-  - Git Pr Workflows Git Workflow
+  - Git
   - Python
   - Bash
+  - GitHub CLI
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,96 @@ tools:
 dependencies:
   - python@>=3.10
 ---
-# Git Pr Workflows Git Workflow Architecture & Implementation Standard
+
+# Git PR Workflows & Guarded Merge Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for git pr workflows git workflow. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with git-pr-workflows-git-workflow.
+The **Git PR Workflows** skill establishes an authoritative standard for preparing, validating, and submitting code changes authored by autonomous agents. Without strict version control guardrails, automated agents can commit directly to protected branches, write vague commit messages, introduce unverified changes, or omit test evidence.
+
+This skill equips agents with `GitPROrchestrator` to enforce branch naming conventions, format Conventional Commits, synthesize comprehensive Markdown pull request briefs, and verify pre-commit quality gates before creating remote pull requests.
 
 ```
 +------------------------------------------------------------------------+
-|                   Git Pr Workflows Git Workflow                       |
+|                         Git PR Workflow Pipeline                       |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
+|  [ Branch Validation ]     ---> Enforces feat/*, fix/* prefix syntax   |
 |                                           |                            |
 |                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
+|  [ Quality Gate Execution] ---> Verifies unit tests & linting pass     |
 |                                           |                            |
 |                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Conventional Commits ]  ---> Validates type(scope): message format  |
+|                                           |                            |
+|                                           v                            |
+|  [ PR Body Synthesis ]     ---> Compiles summary, test proof & safety  |
+|                                           |                            |
+|                                           v                            |
+|  [ Guarded Merge & Gate ]  ---> Dispatches PR via gh CLI or remote push|
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to git pr workflows git workflow.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When an autonomous agent completes an assigned feature, bugfix, or refactoring task and needs to package it into a pull request.
+- When standardizing conventional commit messaging across multi-agent workflows.
+- When validating branch names and generating audit-ready PR descriptions with test verification evidence.
+- When integrating automated CI merge gates that require structured pull request metadata.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Ad-hoc local scratch experiments or temporary prototypes in isolated throwaway workspaces.
+- Git administrative actions like force-pushing rewritten histories to protected branches.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for git-pr-workflows-git-workflow..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Configure PR Metadata & Branch
+Assemble metadata including the branch name, commit messages, touched files, and test output:
 
 ```python
-import sys
-import logging
+from git_pr_orchestrator import GitPROrchestrator, PRMetadata
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("git-pr-workflows-git-workflow")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for git-pr-workflows-git-workflow")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+orchestrator = GitPROrchestrator()
+meta = PRMetadata(
+    branch_name="feat/user-jwt-auth",
+    target_branch="main",
+    title="feat(auth): add JWT authentication with asymmetric RS256 keys",
+    commit_messages=[
+        "feat(auth): implement JWT RS256 token verification middleware",
+        "test(auth): add unit test coverage for expired tokens"
+    ],
+    touched_files=["src/auth/jwt.py", "tests/test_jwt.py"],
+    test_results_summary="All 18 unit tests passed cleanly in 0.54s."
+)
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Validate Quality Gates & Synthesize PR
+Validate that branch and commit strings comply with standards and generate the structured PR markdown:
 
-## Best Practices & Failure Modes
+```python
+report = orchestrator.synthesize_pr(meta)
+if not report.is_valid:
+    raise ValueError(f"PR Validation failed: {report.validation_errors}")
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+print(f"Generated PR Body:\n{report.pr_markdown_body}")
+```
+
+### 3. Create Remote Pull Request
+Dispatch the pull request to the remote repository using GitHub CLI or Git API:
+
+```bash
+gh pr create --base main --head feat/user-jwt-auth --title "feat(auth): add JWT auth" --body-file pr_description.md
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/git-pr-workflows-git-workflow_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Execute the Git PR workflow verification suite to test branch regex matching, conventional commit validation, and PR synthesis:
+
+```bash
+python scripts/git-pr-workflows-git-workflow_helper.py
+```
+
+Expected output:
+- Branch names and commit messages validated cleanly.
+- PR markdown body synthesized with test evidence checklist.
+- Status returned cleanly.
