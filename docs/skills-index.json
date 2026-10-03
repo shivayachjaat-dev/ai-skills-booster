@@ -39235,6 +39235,28 @@
     "maturity": "stable"
   },
   {
+    "name": "playwright-java",
+    "path": "skills/testing/automation/playwright_java/playwright-java",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "playwright_java",
+    "description": "Use this skill to design, implement, and operate production workflows for playwright java. Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.",
+    "tags": [
+      "testing",
+      "automation",
+      "playwright",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Playwright Java",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

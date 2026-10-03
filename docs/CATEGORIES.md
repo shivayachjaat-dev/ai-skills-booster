@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,759** skills across structured domains, categories, and subcategories.
+Master navigation for **1,760** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (607 skills)
 
@@ -3879,7 +3879,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (27 skills)
+## Testing (28 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -3899,7 +3899,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (20 skills)
+### Automation (21 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -3942,6 +3942,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [oneroster-csv-validator](../skills/testing/automation/oneroster_csv_valida/oneroster-csv-validator/SKILL.md) — Use this skill to design, implement, and operate production workflows for oneroster csv validator. Validates 1EdTech / IMS Global OneRoster v1.1 and v1.2 CSV roster sets: manifest integrity, bulk vs delta strictness, foreign key references, and encoding sanitization. Trigger phrases: oneroster csv validator, validate oneroster zip, clever roster...
 - **Pentest_Checklist** (1):
   - [pentest-checklist](../skills/testing/automation/pentest_checklist/pentest-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for pentest checklist. Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough preparation, proper scoping, and effective remediation of discovered vulnerabilities.
+- **Playwright_Java** (1):
+  - [playwright-java](../skills/testing/automation/playwright_java/playwright-java/SKILL.md) — Use this skill to design, implement, and operate production workflows for playwright java. Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)

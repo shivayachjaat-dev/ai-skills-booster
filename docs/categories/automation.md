@@ -1,6 +1,6 @@
 # Category Index: Automation
 
-> **20 skills** available in this category.
+> **21 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -24,3 +24,4 @@
 | [odoo-automated-tests](../../skills/testing/automation/odoo_automated_tests/odoo-automated-tests/SKILL.md) | `odoo_automated_tests` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo automated tests. Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration. |
 | [oneroster-csv-validator](../../skills/testing/automation/oneroster_csv_valida/oneroster-csv-validator/SKILL.md) | `oneroster_csv_valida` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for oneroster csv validator. Validates 1EdTech / IMS Global OneRoster v1.1 and v1.2 CSV roster sets: manifest integrity, bulk vs delta strictness, foreign key references, and encoding sanitization. Trigger phrases: oneroster csv validator, validate oneroster zip, clever roster... |
 | [pentest-checklist](../../skills/testing/automation/pentest_checklist/pentest-checklist/SKILL.md) | `pentest_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pentest checklist. Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough preparation, proper scoping, and effective remediation of discovered vulnerabilities. |
+| [playwright-java](../../skills/testing/automation/playwright_java/playwright-java/SKILL.md) | `playwright_java` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for playwright java. Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution. |

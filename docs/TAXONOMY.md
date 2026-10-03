@@ -1695,7 +1695,8 @@ AI_Skills_Booster/
 │   │   ├── neon_postgres_branch/ (1 skills)
 │   │   ├── odoo_automated_tests/ (1 skills)
 │   │   ├── oneroster_csv_valida/ (1 skills)
-│   │   └── pentest_checklist/ (1 skills)
+│   │   ├── pentest_checklist/ (1 skills)
+│   │   └── playwright_java/ (1 skills)
 │   ├── component/
 │   │   └── cypress/ (1 skills)
 │   ├── e2e/
