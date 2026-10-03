@@ -1,6 +1,6 @@
 # Category Index: Python Services
 
-> **19 skills** available in this category.
+> **20 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -23,3 +23,4 @@
 | [scikit-learn](../../skills/backend/python-services/scikit_learn/scikit-learn/SKILL.md) | `scikit_learn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scikit learn. Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines. |
 | [seaborn](../../skills/backend/python-services/seaborn/seaborn/SKILL.md) | `seaborn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seaborn. Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code. |
 | [statsmodels](../../skills/backend/python-services/statsmodels/statsmodels/SKILL.md) | `statsmodels` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for statsmodels. Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistical methods. |
+| [sympy](../../skills/backend/python-services/sympy/sympy/SKILL.md) | `sympy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sympy. SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations. |

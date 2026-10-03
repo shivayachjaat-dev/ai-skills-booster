@@ -19172,6 +19172,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sympy",
+    "path": "skills/backend/python-services/sympy/sympy",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "sympy",
+    "description": "Use this skill to design, implement, and operate production workflows for sympy. SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations.",
+    "tags": [
+      "backend",
+      "python-services",
+      "sympy",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sympy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

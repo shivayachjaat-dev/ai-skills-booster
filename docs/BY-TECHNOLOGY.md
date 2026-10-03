@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1985 skills)
+## Bash (1986 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1903,6 +1903,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [scikit-learn](../skills/backend/python-services/scikit_learn/scikit-learn/SKILL.md) — Use this skill to design, implement, and operate production workflows for scikit learn. Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines.
 - [seaborn](../skills/backend/python-services/seaborn/seaborn/SKILL.md) — Use this skill to design, implement, and operate production workflows for seaborn. Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code.
 - [statsmodels](../skills/backend/python-services/statsmodels/statsmodels/SKILL.md) — Use this skill to design, implement, and operate production workflows for statsmodels. Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistical methods.
+- [sympy](../skills/backend/python-services/sympy/sympy/SKILL.md) — Use this skill to design, implement, and operate production workflows for sympy. SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations.
 - [options-flow-analyzer](../skills/business/fintech/options_flow_analyze/options-flow-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for options flow analyzer. Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise
 - [competitor-ad-intelligence](../skills/business/growth/competitor_ad_intell/competitor-ad-intelligence/SKILL.md) — Use this skill to research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown.
 - [content-creator](../skills/business/growth/content_creator/content-creator/SKILL.md) — Use this skill to draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.
@@ -9995,7 +9996,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2088 skills)
+## Python (2089 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10849,6 +10850,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [scikit-learn](../skills/backend/python-services/scikit_learn/scikit-learn/SKILL.md) — Use this skill to design, implement, and operate production workflows for scikit learn. Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines.
 - [seaborn](../skills/backend/python-services/seaborn/seaborn/SKILL.md) — Use this skill to design, implement, and operate production workflows for seaborn. Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code.
 - [statsmodels](../skills/backend/python-services/statsmodels/statsmodels/SKILL.md) — Use this skill to design, implement, and operate production workflows for statsmodels. Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistical methods.
+- [sympy](../skills/backend/python-services/sympy/sympy/SKILL.md) — Use this skill to design, implement, and operate production workflows for sympy. SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations.
 - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
 - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 - [internal-financial-audit-and-controls](../skills/business/finance/audit-controls/internal-financial-audit-and-controls/SKILL.md) — Use this skill when designing, testing, and automating internal financial accounting controls, journal entry audit trails, and reconciliation workflows compliant with SOX 404, GAAP, and IFRS. It guides the agent through general ledger reconciliation, manual journal entry approval thresholds, segregation of duties in treasury, and anomaly detection.
@@ -13791,6 +13793,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Syft (1 skills)
 
 - [software-supply-chain-sbom-audit](../skills/security/vulnerability-management/dependency-check/software-supply-chain-sbom-audit/SKILL.md) — Use this skill when auditing, generating, and verifying Software Bill of Materials (SBOM) and scanning software supply chains for CVE vulnerabilities and non-compliant open-source licenses. It guides the agent through generating CycloneDX/SPDX SBOMs with Syft, scanning for known exploits with Grype, validating software licenses, and enforcing CI/CD gates.
+
+## Sympy (1 skills)
+
+- [sympy](../skills/backend/python-services/sympy/sympy/SKILL.md) — Use this skill to design, implement, and operate production workflows for sympy. SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations.
 
 ## Synthwave (1 skills)
 
