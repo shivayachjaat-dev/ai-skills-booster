@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1903 skills)
+## Bash (1904 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1934,6 +1934,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [salary-wage-accounting](../skills/business/operations/salary_wage_accounti/salary-wage-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for salary wage accounting. Payroll register: gross, allowances, TDS and provident fund deductions, net pay, payment date and statutory reconciliation. Use for salary accounting.
 - [sales-accounting](../skills/business/operations/sales_accounting/sales-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for sales accounting. Sales register: customer, invoice, gross amount, discount, VAT and TDS, net receivable, credit terms and balance. Use for sales accounting.
 - [social-media-setup](../skills/business/operations/social_media_setup/social-media-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for social media setup. Social media register: platforms and handles, post captions and hashtags, publishing cadence, approval status and profile checklist. Use for social account setup.
+- [sop-company-wiki](../skills/business/operations/sop_company_wiki/sop-company-wiki/SKILL.md) — Use this skill to design, implement, and operate production workflows for sop company wiki. SOP and company wiki register: title, category, department, owner, version, priority and review dates. Use for process documentation.
 - [google-analytics-automation](../skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.
 - [reports-analytics](../skills/data-analytics/analytics-engineering/reports_analytics/reports-analytics/SKILL.md) — Use this skill to design, implement, and operate production workflows for reports analytics. Report register: type, source modules, owner, audience, frequency, last and next run and report link. Use for reporting governance.
 - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
@@ -9883,7 +9884,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2006 skills)
+## Python (2007 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10774,6 +10775,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [salary-wage-accounting](../skills/business/operations/salary_wage_accounti/salary-wage-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for salary wage accounting. Payroll register: gross, allowances, TDS and provident fund deductions, net pay, payment date and statutory reconciliation. Use for salary accounting.
 - [sales-accounting](../skills/business/operations/sales_accounting/sales-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for sales accounting. Sales register: customer, invoice, gross amount, discount, VAT and TDS, net receivable, credit terms and balance. Use for sales accounting.
 - [social-media-setup](../skills/business/operations/social_media_setup/social-media-setup/SKILL.md) — Use this skill to design, implement, and operate production workflows for social media setup. Social media register: platforms and handles, post captions and hashtags, publishing cadence, approval status and profile checklist. Use for social account setup.
+- [sop-company-wiki](../skills/business/operations/sop_company_wiki/sop-company-wiki/SKILL.md) — Use this skill to design, implement, and operate production workflows for sop company wiki. SOP and company wiki register: title, category, department, owner, version, priority and review dates. Use for process documentation.
 - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
 - [ai-saas-wrapper-architecture-and-stripe-metering](../skills/business/saas/ai-metering/ai-saas-wrapper-architecture-and-stripe-metering/SKILL.md) — Use this skill to architect, build, and monetize AI-wrapper SaaS products with usage-based billing, token credit wallets, and Stripe metering. It covers rate-limited API gateway proxies, tenant isolation, credit deduction middleware, and margin preservation against upstream LLM token costs.
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
@@ -13254,6 +13256,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Solidity Security (1 skills)
 
 - [solidity-security](../skills/security/appsec/solidity_security/solidity-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for solidity security. Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns.
+
+## Sop Company Wiki (1 skills)
+
+- [sop-company-wiki](../skills/business/operations/sop_company_wiki/sop-company-wiki/SKILL.md) — Use this skill to design, implement, and operate production workflows for sop company wiki. SOP and company wiki register: title, category, department, owner, version, priority and review dates. Use for process documentation.
 
 ## Soroban Contract Audit (1 skills)
 

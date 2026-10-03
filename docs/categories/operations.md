@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **44 skills** available in this category.
+> **45 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -48,3 +48,4 @@
 | [salary-wage-accounting](../../skills/business/operations/salary_wage_accounti/salary-wage-accounting/SKILL.md) | `salary_wage_accounti` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for salary wage accounting. Payroll register: gross, allowances, TDS and provident fund deductions, net pay, payment date and statutory reconciliation. Use for salary accounting. |
 | [sales-accounting](../../skills/business/operations/sales_accounting/sales-accounting/SKILL.md) | `sales_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sales accounting. Sales register: customer, invoice, gross amount, discount, VAT and TDS, net receivable, credit terms and balance. Use for sales accounting. |
 | [social-media-setup](../../skills/business/operations/social_media_setup/social-media-setup/SKILL.md) | `social_media_setup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social media setup. Social media register: platforms and handles, post captions and hashtags, publishing cadence, approval status and profile checklist. Use for social account setup. |
+| [sop-company-wiki](../../skills/business/operations/sop_company_wiki/sop-company-wiki/SKILL.md) | `sop_company_wiki` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sop company wiki. SOP and company wiki register: title, category, department, owner, version, priority and review dates. Use for process documentation. |
