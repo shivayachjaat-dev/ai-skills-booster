@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,955** skills across structured domains, categories, and subcategories.
+Master navigation for **1,956** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (669 skills)
+## Ai Engineering (670 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (481 skills)
+### Models (482 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1266,6 +1266,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [salary-benchmarking](../skills/ai-engineering/models/salary_benchmarking/salary-benchmarking/SKILL.md) — Use this skill to design, implement, and operate production workflows for salary benchmarking. Salary benchmark register: role, department and grade against market and internal minimum, median and maximum. Use for compensation review.
 - **Sales_Automator** (1):
   - [sales-automator](../skills/ai-engineering/models/sales_automator/sales-automator/SKILL.md) — Use this skill to design, implement, and operate production workflows for sales automator. Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing.
+- **Sam_Altman** (1):
+  - [sam-altman](../skills/ai-engineering/models/sam_altman/sam-altman/SKILL.md) — Use this skill to design, implement, and operate production workflows for sam altman. Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AGI.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
