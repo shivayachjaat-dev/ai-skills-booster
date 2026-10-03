@@ -1,19 +1,22 @@
 ---
 name: commandcode-delegate
-description: "Use this skill to delegate coding tasks to the Command Code CLI (`cmd`) only when the user"
+description: "Use this skill to delegate bounded coding, refactoring, or review tasks to the Command Code CLI agent process. It manages permission autonomy modes (read-only exploration vs. permissioned execution), constructs structured delegation briefs, audits git diffs against allowed file scopes, and verifies test suites prior to landing changes."
 domain: ai-engineering
 category: agents
 subcategory: commandcode_delegate
 tags:
-  - ai-engineering
-  - agents
-  - commandcode
-  - automation
-  - production-ready
+  - commandcode-cli
+  - agent-delegation
+  - permission-autonomy
+  - subagent-supervision
+  - git-diff-review
+  - landing-gates
 technologies:
-  - Commandcode Delegate
   - Python
-  - Bash
+  - Subprocess
+  - Git
+  - JSON
+  - CommandCode-CLI
 complexity: advanced
 maturity: stable
 tools:
@@ -21,92 +24,163 @@ tools:
   - bash
 dependencies:
   - python@>=3.10
+version: 1.0.0
+author: Antigravity Team
 ---
-# Commandcode Delegate Architecture & Implementation Standard
+
+# Command Code CLI Agent Delegation & Autonomy Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for commandcode delegate. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with commandcode-delegate.
+The `commandcode-delegate` skill specifies the invocation protocol, permission safety boundaries, and verification workflow for delegating software engineering tasks to the **Command Code CLI** (`cmd` or `cmdc`). When orchestrating subordinate coding tools, the orchestrating agent retains executive control, drafting a standalone implementation brief and auditing the resultant code modifications. Because headless CLI agents operate with distinct autonomy levels (read-only inspection vs. full-access execution), this skill formalizes permission boundaries, git diff forensics, and mandatory test suite verification prior to merging code changes.
 
 ```
-+------------------------------------------------------------------------+
-|                   Commandcode Delegate                                |
-|                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
-+------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+|                     Command Code CLI Delegation Pipeline                          |
+|                                                                                   |
+|  [ Orchestrator Agent Context ]                                                   |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Autonomy Mode Gate ]                                                           |
+|    /                  \                                                           |
+|   / (Inspection)       \ (Implementation)                                         |
+|  v                      v                                                         |
+| [ READ-ONLY MODE ]     [ FULL AUTONOMY MODE ]                                     |
+| (-p flag: read/grep)   (--dangerously-skip-permissions in confined worktree)       |
+|         |                      |                                                  |
+|         +----------------------+                                                  |
+|                                |                                                  |
+|                                v                                                  |
+|             [ Dispatch Subordinate CLI Process ]                                  |
+|               - Pass structured brief via stdin                                   |
+|               - Enforce hard execution watchdog timeout                           |
+|                                |                                                  |
+|                                v                                                  |
+|             [ Working Tree Git Diff Inspection Gate ]                             |
+|               - Validate all modified files belong to authorized scope            |
+|               - Reject unexpected dependency additions in package.json            |
+|                                |                                                  |
+|                                v                                                  |
+|             [ Automated Acceptance Test Verification ]                            |
+|                                |                                                  |
+|                                v                                                  |
+|             [ Land Change: git commit / Merge PR ]                                |
++-----------------------------------------------------------------------------------+
 ```
+
+---
 
 ## When to Use
 
-- When architecting or refactoring systems related to commandcode delegate.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When delegating a focused implementation or investigation task to the Command Code CLI.
+- When performing a read-only codebase exploration without risk of accidental file mutations.
+- When the user explicitly requests delegation to `commandcode`.
+- When offloading heavy syntax refactoring to a subordinate process while keeping the primary orchestrator context clean.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
+- When the `cmd` / `cmdc` binary is not present or unauthenticated.
+- For small inline edits where subagent invocation latency exceeds manual implementation.
+- When tasks require interactive step-by-step guidance from the human user.
+
+---
 
 ## Inputs & Prerequisites
 
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+1. **Target Autonomy Mode**: `read_only` (inspection only) or `implementation` (file mutation).
+2. **Delegation Brief**: Focused instructions describing the goal, target files, and constraints.
+3. **Authorized Scope Whitelist**: Exact file paths the subordinate process is permitted to alter.
+4. **Acceptance Verification Command**: Shell command required to validate the output.
+
+---
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for commandcode-delegate..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### Step 1: Autonomy Mode Configuration
+Select the appropriate permission flags based on task risk:
 
 ```python
-import sys
-import logging
+from typing import Dict, Any, List
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("commandcode-delegate")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for commandcode-delegate")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+def configure_commandcode_invocation(
+    mode: str,
+    target_files: List[str] = None
+) -> Dict[str, Any]:
+    """Configures CLI flags based on autonomy mode."""
+    clean_mode = mode.lower().strip()
+    if clean_mode not in ("read_only", "implementation"):
+        raise ValueError("Mode must be 'read_only' or 'implementation'.")
+        
+    if clean_mode == "read_only":
+        flags = ["-p"]  # Default read, grep, glob; writes refused
+        is_mutating = False
+    else:
+        if not target_files:
+            raise ValueError("Implementation mode requires an explicit target files whitelist.")
+        flags = ["-p", "--dangerously-skip-permissions"]
+        is_mutating = True
+        
+    return {
+        "mode": clean_mode,
+        "flags": flags,
+        "is_mutating": is_mutating,
+        "target_files": target_files or []
+    }
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### Step 2: Build the Standalone Brief
+The brief contains everything needed for the subordinate run:
+
+```markdown
+# Command Code Delegation Brief
+
+## Goal
+Refactor database connection pool settings in `config/database.py`.
+
+## Authorized Files
+- `config/database.py`
+- `tests/test_database.py`
+
+## Acceptance Test
+`pytest tests/test_database.py`
+```
+
+### Step 3: Git Working Tree Diff Verification Gate
+Before committing, inspect `git status` and `git diff`:
+
+```python
+import subprocess
+
+def audit_and_verify(allowed_files: list[str], test_cmd: str) -> bool:
+    """Audits diff scope and executes verification harness."""
+    res = subprocess.run(["git", "diff", "--name-only"], capture_output=True, text=True, check=True)
+    changed = [line.strip() for line in res.stdout.splitlines() if line.strip()]
+    
+    for c in changed:
+        if c not in allowed_files:
+            raise PermissionError(f"Scope violation: Command Code altered '{c}', which was not whitelisted.")
+            
+    test_run = subprocess.run(test_cmd, shell=True, capture_output=True, text=True)
+    return test_run.returncode == 0
+```
+
+---
 
 ## Best Practices & Failure Modes
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+- **Full-Trust Implementation Runs**: In `--dangerously-skip-permissions` mode, Command Code can access any file reachable by the user. Constrain runs by using clean git worktrees and tight scope briefs.
+- **Dependency Invariant**: If an implementation run introduces new packages without explicit approval, reject the change.
+- **Explicit Timeout**: Always wrap subordinate process calls with hard timeouts (e.g. 180 seconds) to terminate hung commands.
+
+---
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/commandcode-delegate_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+1. Run the Command Code relay supervisor test suite:
+   ```bash
+   python scripts/commandcode-delegate_helper.py
+   ```
+2. Verify autonomy mode configuration and diff audit checks via CLI:
+   ```bash
+   python scripts/commandcode_relay_supervisor.py --test-all
+   ```
