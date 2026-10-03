@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,763** skills across structured domains, categories, and subcategories.
+Master navigation for **1,764** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (608 skills)
+## Ai Engineering (609 skills)
 
 ### Agents (76 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -302,7 +302,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (440 skills)
+### Models (441 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1160,6 +1160,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [plaid-fintech](../skills/ai-engineering/models/plaid_fintech/plaid-fintech/SKILL.md) — Use this skill to design, implement, and operate production workflows for plaid fintech. Expert patterns for Plaid API integration including Link token
 - **Podcast_Generation** (1):
   - [podcast-generation](../skills/ai-engineering/models/podcast_generation/podcast-generation/SKILL.md) — Use this skill to design, implement, and operate production workflows for podcast generation. Generate real audio narratives from text content using Azure OpenAI's Realtime API.
+- **Podman** (1):
+  - [podman](../skills/ai-engineering/models/podman/podman/SKILL.md) — Use this skill to design, implement, and operate production workflows for podman. Manage containers using Podman, the daemonless container engine.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

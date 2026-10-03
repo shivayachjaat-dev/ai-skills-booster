@@ -12403,6 +12403,28 @@
     "maturity": "stable"
   },
   {
+    "name": "podman",
+    "path": "skills/ai-engineering/models/podman/podman",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "podman",
+    "description": "Use this skill to design, implement, and operate production workflows for podman. Manage containers using Podman, the daemonless container engine.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "podman",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Podman",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
