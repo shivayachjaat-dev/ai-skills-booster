@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1620 skills)
+## Bash (1621 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1139,6 +1139,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pi-web-search](../skills/ai-engineering/agents/pi_web_search/pi-web-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi web search. Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package.
 - [polis-protocol-a-self-optimizing-city-of-agents](../skills/ai-engineering/agents/polis_protocol_a_sel/polis-protocol-a-self-optimizing-city-of-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for polis protocol a self optimizing city of agents. Polis Protocol: A Self-Optimizing City of Agents
 - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
+- [product-decision-agent](../skills/ai-engineering/agents/product_decision_age/product-decision-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for product decision agent. 中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
@@ -9338,6 +9339,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [amplitude-product-analytics-and-funnel-tracking](../skills/data-analytics/product-analytics/amplitude/amplitude-product-analytics-and-funnel-tracking/SKILL.md) — Use this skill to design, instrument, and automate product analytics event tracking, user identification, conversion funnels, and retention cohort analysis using Amplitude's HTTP API and SDKs. It enforces event naming taxonomies, user property schemas, and GDPR identity deletion.
 
+## Product Decision Agent (1 skills)
+
+- [product-decision-agent](../skills/ai-engineering/agents/product_decision_age/product-decision-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for product decision agent. 中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。
+
 ## Production Audit (1 skills)
 
 - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
@@ -9427,7 +9432,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1723 skills)
+## Python (1724 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9503,6 +9508,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [pi-delegate](../skills/ai-engineering/agents/pi_delegate/pi-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi delegate. Delegate coding tasks to the Pi coding agent CLI (`pi`) only when the
 - [pi-web-search](../skills/ai-engineering/agents/pi_web_search/pi-web-search/SKILL.md) — Use this skill to design, implement, and operate production workflows for pi web search. Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package.
 - [polis-protocol-a-self-optimizing-city-of-agents](../skills/ai-engineering/agents/polis_protocol_a_sel/polis-protocol-a-self-optimizing-city-of-agents/SKILL.md) — Use this skill to design, implement, and operate production workflows for polis protocol a self optimizing city of agents. Polis Protocol: A Self-Optimizing City of Agents
+- [product-decision-agent](../skills/ai-engineering/agents/product_decision_age/product-decision-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for product decision agent. 中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。
 - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.

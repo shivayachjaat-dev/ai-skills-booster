@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **77 skills** available in this category.
+> **78 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -79,5 +79,6 @@
 | [pi-web-search](../../skills/ai-engineering/agents/pi_web_search/pi-web-search/SKILL.md) | `pi_web_search` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pi web search. Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package. |
 | [polis-protocol-a-self-optimizing-city-of-agents](../../skills/ai-engineering/agents/polis_protocol_a_sel/polis-protocol-a-self-optimizing-city-of-agents/SKILL.md) | `polis_protocol_a_sel` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for polis protocol a self optimizing city of agents. Polis Protocol: A Self-Optimizing City of Agents |
 | [multi-agent-tmux-process-orchestrator](../../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) | `process-management` | `advanced` | `stable` | Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers. |
+| [product-decision-agent](../../skills/ai-engineering/agents/product_decision_age/product-decision-agent/SKILL.md) | `product_decision_age` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product decision agent. 中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。 |
 | [ai-agent-cron-and-autonomous-job-scheduling](../../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) | `scheduling` | `advanced` | `stable` | Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring. |
 | [skill-security-audit](../../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) | `skill_security_audit` | `advanced` | `stable` | Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions. |

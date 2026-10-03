@@ -79,6 +79,7 @@ AI_Skills_Booster/
 │   │   ├── pi_web_search/ (1 skills)
 │   │   ├── polis_protocol_a_sel/ (1 skills)
 │   │   ├── process-management/ (1 skills)
+│   │   ├── product_decision_age/ (1 skills)
 │   │   ├── scheduling/ (1 skills)
 │   │   └── skill_security_audit/ (1 skills)
 │   ├── audio-processing/
