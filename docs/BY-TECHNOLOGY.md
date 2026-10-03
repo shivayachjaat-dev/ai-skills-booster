@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1944 skills)
+## Bash (1945 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1719,6 +1719,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [startup-business-analyst-financial-projections](../skills/ai-engineering/models/startup_business_ana/startup-business-analyst-financial-projections/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst financial projections. Create detailed 3-5 year financial model with revenue, costs, cash
 - [stellar-asset-clawback-compliance](../skills/ai-engineering/models/stellar_asset_clawba/stellar-asset-clawback-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar asset clawback compliance. Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.
 - [steve-jobs](../skills/ai-engineering/models/steve_jobs/steve-jobs/SKILL.md) — Use this skill to design, implement, and operate production workflows for steve jobs. Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo.
+- [stitch-ui-design](../skills/ai-engineering/models/stitch_ui_design/stitch-ui-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch ui design. Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
@@ -9924,7 +9925,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2047 skills)
+## Python (2048 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10579,6 +10580,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [startup-business-analyst-financial-projections](../skills/ai-engineering/models/startup_business_ana/startup-business-analyst-financial-projections/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst financial projections. Create detailed 3-5 year financial model with revenue, costs, cash
 - [stellar-asset-clawback-compliance](../skills/ai-engineering/models/stellar_asset_clawba/stellar-asset-clawback-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar asset clawback compliance. Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.
 - [steve-jobs](../skills/ai-engineering/models/steve_jobs/steve-jobs/SKILL.md) — Use this skill to design, implement, and operate production workflows for steve jobs. Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo.
+- [stitch-ui-design](../skills/ai-engineering/models/stitch_ui_design/stitch-ui-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch ui design. Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
@@ -13537,6 +13539,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Stitch Loop (1 skills)
 
 - [stitch-loop](../skills/ai-engineering/agents/stitch_loop/stitch-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch loop. Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern
+
+## Stitch Ui Design (1 skills)
+
+- [stitch-ui-design](../skills/ai-engineering/models/stitch_ui_design/stitch-ui-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch ui design. Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.
 
 ## Stripe API (1 skills)
 

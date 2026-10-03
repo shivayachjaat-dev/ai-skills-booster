@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,126** skills across structured domains, categories, and subcategories.
+Master navigation for **2,127** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (717 skills)
+## Ai Engineering (718 skills)
 
 ### Agents (90 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -334,7 +334,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (520 skills)
+### Models (521 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1354,6 +1354,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [stellar-asset-clawback-compliance](../skills/ai-engineering/models/stellar_asset_clawba/stellar-asset-clawback-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar asset clawback compliance. Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.
 - **Steve_Jobs** (1):
   - [steve-jobs](../skills/ai-engineering/models/steve_jobs/steve-jobs/SKILL.md) — Use this skill to design, implement, and operate production workflows for steve jobs. Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo.
+- **Stitch_Ui_Design** (1):
+  - [stitch-ui-design](../skills/ai-engineering/models/stitch_ui_design/stitch-ui-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch ui design. Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.
 - **Supply_Chain_Risk_Au** (1):
   - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - **Templates** (1):
