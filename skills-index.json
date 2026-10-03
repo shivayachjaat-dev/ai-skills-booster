@@ -40857,6 +40857,28 @@
     "maturity": "stable"
   },
   {
+    "name": "re-create",
+    "path": "skills/software-engineering/architecture/patterns/re-create",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for re create. Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "re",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Re Create",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",

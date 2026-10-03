@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,868 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,869 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1834,6 +1834,7 @@
 | [push-skill-to-github](skills/software-engineering/architecture/patterns/push-skill-to-github/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for push skill to github. Commit and push skill changes to the configured skills repository after review and validation. |
 | [puzzle-activity-planner](skills/software-engineering/architecture/patterns/puzzle-activity-planner/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for puzzle activity planner. Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links |
 | [quality-nonconformance](skills/software-engineering/architecture/patterns/quality-nonconformance/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for quality nonconformance. Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing. |
+| [re-create](skills/software-engineering/architecture/patterns/re-create/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for re create. Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible. |
 | [scale-benchmarks](skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
 | [github-pr-review-feedback-resolver](skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) | `software-engineering` | `code-review` | `pr-feedback` | `intermediate` | `stable` | Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads. |
