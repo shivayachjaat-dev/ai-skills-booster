@@ -34445,6 +34445,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tdd-engineering-workflow",
+    "path": "skills/frontend/ui-ux/tdd/tdd-engineering-workflow",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "tdd",
+    "description": "Use this skill to design, implement, and operate production workflows for tdd engineering workflow. Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "tdd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tdd Engineering Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "typescript",
     "path": "skills/frontend/ui-ux/typescript/typescript",
     "domain": "frontend",

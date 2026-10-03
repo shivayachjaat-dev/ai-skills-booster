@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (2000 skills)
+## Bash (2001 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2517,6 +2517,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [swiftui-ui-patterns](../skills/frontend/ui-ux/swiftui_ui_patterns/swiftui-ui-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiftui ui patterns. Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens.
 - [swiftui-view-refactor](../skills/frontend/ui-ux/swiftui_view_refacto/swiftui-view-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiftui view refactor. Refactor SwiftUI views into smaller components with stable, explicit data flow.
+- [tdd-engineering-workflow](../skills/frontend/ui-ux/tdd/tdd-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd engineering workflow. Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests.
 - [typescript](../skills/frontend/ui-ux/typescript/typescript/SKILL.md) — Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 - [3d-ui](../skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
@@ -10010,7 +10011,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2103 skills)
+## Python (2104 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11509,6 +11510,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [swiftui-ui-patterns](../skills/frontend/ui-ux/swiftui_ui_patterns/swiftui-ui-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiftui ui patterns. Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens.
 - [swiftui-view-refactor](../skills/frontend/ui-ux/swiftui_view_refacto/swiftui-view-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiftui view refactor. Refactor SwiftUI views into smaller components with stable, explicit data flow.
+- [tdd-engineering-workflow](../skills/frontend/ui-ux/tdd/tdd-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd engineering workflow. Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests.
 - [typescript](../skills/frontend/ui-ux/typescript/typescript/SKILL.md) — Use this skill to design, implement, and operate production workflows for typescript. Language-specific super-code guidelines for typescript.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 - [3d-ui](../skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
@@ -13904,6 +13906,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Tcm Constitution Analyzer (1 skills)
 
 - [tcm-constitution-analyzer](../skills/software-engineering/architecture/patterns/tcm-constitution-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for tcm constitution analyzer. 分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。
+
+## Tdd Engineering Workflow (1 skills)
+
+- [tdd-engineering-workflow](../skills/frontend/ui-ux/tdd/tdd-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd engineering workflow. Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests.
 
 ## Tech Matrix (1 skills)
 
