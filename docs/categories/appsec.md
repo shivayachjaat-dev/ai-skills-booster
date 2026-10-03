@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **115 skills** available in this category.
+> **116 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -119,3 +119,4 @@
 | [solidity-security](../../skills/security/appsec/solidity_security/solidity-security/SKILL.md) | `solidity_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for solidity security. Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns. |
 | [sops-encryption](../../skills/security/appsec/sops_encryption/sops-encryption/SKILL.md) | `sops_encryption` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sops encryption. Encrypt files and configs with Mozilla SOPS. |
 | [ssl-tls-management](../../skills/security/appsec/ssl_tls_management/ssl-tls-management/SKILL.md) | `ssl_tls_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ssl tls management. Manage SSL/TLS certificates with Let's Encrypt and internal PKI. Configure |
+| [stride-analysis-patterns](../../skills/security/appsec/stride_analysis_patt/stride-analysis-patterns/SKILL.md) | `stride_analysis_patt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stride analysis patterns. Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation. |

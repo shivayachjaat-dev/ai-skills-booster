@@ -38656,6 +38656,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stride-analysis-patterns",
+    "path": "skills/security/appsec/stride_analysis_patt/stride-analysis-patterns",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "stride_analysis_patt",
+    "description": "Use this skill to design, implement, and operate production workflows for stride analysis patterns. Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation.",
+    "tags": [
+      "security",
+      "appsec",
+      "stride",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stride Analysis Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

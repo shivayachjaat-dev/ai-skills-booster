@@ -1851,7 +1851,8 @@ AI_Skills_Booster/
 │   │   ├── service_mesh_expert/ (1 skills)
 │   │   ├── solidity_security/ (1 skills)
 │   │   ├── sops_encryption/ (1 skills)
-│   │   └── ssl_tls_management/ (1 skills)
+│   │   ├── ssl_tls_management/ (1 skills)
+│   │   └── stride_analysis_patt/ (1 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/

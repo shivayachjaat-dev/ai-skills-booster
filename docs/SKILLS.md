@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,127 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,128 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1739,6 +1739,7 @@
 | [solidity-security](skills/security/appsec/solidity_security/solidity-security/SKILL.md) | `security` | `appsec` | `solidity_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for solidity security. Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns. |
 | [sops-encryption](skills/security/appsec/sops_encryption/sops-encryption/SKILL.md) | `security` | `appsec` | `sops_encryption` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sops encryption. Encrypt files and configs with Mozilla SOPS. |
 | [ssl-tls-management](skills/security/appsec/ssl_tls_management/ssl-tls-management/SKILL.md) | `security` | `appsec` | `ssl_tls_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ssl tls management. Manage SSL/TLS certificates with Let's Encrypt and internal PKI. Configure |
+| [stride-analysis-patterns](skills/security/appsec/stride_analysis_patt/stride-analysis-patterns/SKILL.md) | `security` | `appsec` | `stride_analysis_patt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stride analysis patterns. Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation. |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |
 | [azure-communication-common-java](skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) | `security` | `authentication` | `azure_communication_` | `advanced` | `stable` | Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services. |
 | [azure-identity-dotnet](skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) | `security` | `authentication` | `azure_identity_dotne` | `advanced` | `stable` | Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. |
