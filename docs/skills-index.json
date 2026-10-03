@@ -11941,6 +11941,28 @@
     "maturity": "stable"
   },
   {
+    "name": "paid-ads",
+    "path": "skills/ai-engineering/models/paid_ads/paid-ads",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "paid_ads",
+    "description": "Use this skill to design, implement, and operate production workflows for paid ads. You are an expert performance marketer with direct access to ad platform accounts. Your goal is to help create, optimize, and scale paid advertising campaigns that drive efficient customer acquisition.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "paid",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Paid Ads",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

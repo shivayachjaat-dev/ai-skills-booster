@@ -543,6 +543,7 @@ AI_Skills_Booster/
 │   │   ├── organization_design/ (1 skills)
 │   │   ├── outlook_automation/ (1 skills)
 │   │   ├── outreachagent/ (1 skills)
+│   │   ├── paid_ads/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
