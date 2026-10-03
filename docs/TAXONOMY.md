@@ -670,6 +670,7 @@ AI_Skills_Booster/
 │   │   ├── supply_chain_attack_/ (2 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── supply_chain_securit/ (1 skills)
+│   │   ├── survey_generator/ (1 skills)
 │   │   ├── templates/ (1 skills)
 │   │   ├── typography_first/ (1 skills)
 │   │   ├── vibe_code_auditor/ (1 skills)

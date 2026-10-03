@@ -14757,6 +14757,28 @@
     "maturity": "stable"
   },
   {
+    "name": "survey-generator",
+    "path": "skills/ai-engineering/models/survey_generator/survey-generator",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "survey_generator",
+    "description": "Use this skill to design, implement, and operate production workflows for survey generator. Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "survey",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Survey Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

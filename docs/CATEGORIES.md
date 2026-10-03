@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,159** skills across structured domains, categories, and subcategories.
+Master navigation for **2,160** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (727 skills)
+## Ai Engineering (728 skills)
 
 ### Agents (93 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -340,7 +340,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (526 skills)
+### Models (527 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1373,6 +1373,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - **Supply_Chain_Securit** (1):
   - [supply-chain-security](../skills/ai-engineering/models/supply_chain_securit/supply-chain-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for supply chain security. Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification.
+- **Survey_Generator** (1):
+  - [survey-generator](../skills/ai-engineering/models/survey_generator/survey-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for survey generator. Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - **Typography_First** (1):
