@@ -20224,6 +20224,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stakeholder-investor-reports",
+    "path": "skills/business/operations/stakeholder_investor/stakeholder-investor-reports",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "stakeholder_investor",
+    "description": "Use this skill to design, implement, and operate production workflows for stakeholder investor reports. Stakeholder report register: stakeholder, period, key metrics, preparer, approver, send date and report link. Use for investor and board reporting.",
+    "tags": [
+      "business",
+      "operations",
+      "stakeholder",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stakeholder Investor Reports",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
