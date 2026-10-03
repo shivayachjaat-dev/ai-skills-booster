@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **264 skills** available in this category.
+> **265 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -267,4 +267,5 @@
 | [seo-content-writer](../../skills/software-engineering/architecture/patterns/seo-content-writer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo content writer. Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks. |
 | [seo-forensic-incident-response](../../skills/software-engineering/architecture/patterns/seo-forensic-incident-response/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo forensic incident response. Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan. |
 | [seo-keyword-strategist](../../skills/software-engineering/architecture/patterns/seo-keyword-strategist/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo keyword strategist. Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization. |
+| [seo-snippet-hunter](../../skills/software-engineering/architecture/patterns/seo-snippet-hunter/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo snippet hunter. Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

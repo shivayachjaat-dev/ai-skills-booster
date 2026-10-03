@@ -44289,6 +44289,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-snippet-hunter",
+    "path": "skills/software-engineering/architecture/patterns/seo-snippet-hunter",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for seo snippet hunter. Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Snippet Hunter",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
