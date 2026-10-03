@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,724** skills across structured domains, categories, and subcategories.
+Master navigation for **1,725** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (596 skills)
+## Ai Engineering (597 skills)
 
 ### Agents (72 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -294,7 +294,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (432 skills)
+### Models (433 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1136,6 +1136,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [paywall-upgrade-cro](../skills/ai-engineering/models/paywall_upgrade_cro/paywall-upgrade-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for paywall upgrade cro. You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment.
 - **Pci_Compliance** (1):
   - [pci-compliance](../skills/ai-engineering/models/pci_compliance/pci-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci compliance. Review payment data flows and engineering control evidence for a scoped PCI assessment, without claiming certification.
+- **Pdf_Official** (1):
+  - [pdf-official](../skills/ai-engineering/models/pdf_official/pdf-official/SKILL.md) — Use this skill to design, implement, and operate production workflows for pdf official. This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instruc...
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

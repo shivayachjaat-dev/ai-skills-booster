@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **432 skills** available in this category.
+> **433 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -429,6 +429,7 @@
 | [payment-accounting](../../skills/ai-engineering/models/payment_accounting/payment-accounting/SKILL.md) | `payment_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for payment accounting. Payment voucher register: payment number and date, paid to and purpose, mode, gross amount, TDS rate and deducted, net paid, invoice allocation, ledger and reconciliation status. Use for vouchers. |
 | [paywall-upgrade-cro](../../skills/ai-engineering/models/paywall_upgrade_cro/paywall-upgrade-cro/SKILL.md) | `paywall_upgrade_cro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for paywall upgrade cro. You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment. |
 | [pci-compliance](../../skills/ai-engineering/models/pci_compliance/pci-compliance/SKILL.md) | `pci_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pci compliance. Review payment data flows and engineering control evidence for a scoped PCI assessment, without claiming certification. |
+| [pdf-official](../../skills/ai-engineering/models/pdf_official/pdf-official/SKILL.md) | `pdf_official` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pdf official. This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instruc... |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
