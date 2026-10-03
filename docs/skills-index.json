@@ -16792,6 +16792,28 @@
     "maturity": "stable"
   },
   {
+    "name": "petty-cash-management",
+    "path": "skills/business/operations/petty_cash_managemen/petty-cash-management",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "petty_cash_managemen",
+    "description": "Use this skill to design, implement, and operate production workflows for petty cash management. Petty cash register: entry number, date and type, payee and purpose, cash in and out, running balance, cash limit flag, custodian, physical count and variance. Use for petty cash.",
+    "tags": [
+      "business",
+      "operations",
+      "petty",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Petty Cash Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

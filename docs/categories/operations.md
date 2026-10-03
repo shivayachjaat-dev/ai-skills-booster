@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **32 skills** available in this category.
+> **33 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -36,3 +36,4 @@
 | [payments-received](../../skills/business/operations/payments_received/payments-received/SKILL.md) | `payments_received` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for payments received. Payments received log: reference, client and invoice, amount and currency, payment date and method, withholding tax, bank account, received-by and receipt-sent status. Use for incoming payments. |
 | [payroll-finance](../../skills/business/operations/payroll_finance/payroll-finance/SKILL.md) | `payroll_finance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for payroll finance. Payroll register: employee, department and month, basic, DA, HRA and TA, bonus, deductions, net pay, pay period, payment date and method. Use for payroll records. |
 | [performance-management](../../skills/business/operations/performance_manageme/performance-management/SKILL.md) | `performance_manageme` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance management. Performance review register: review type, period, employee and reviewer, KPI, OKR and behaviour scores, overall rating, PIP and promotion flags, development plan. Use for performance reviews. |
+| [petty-cash-management](../../skills/business/operations/petty_cash_managemen/petty-cash-management/SKILL.md) | `petty_cash_managemen` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for petty cash management. Petty cash register: entry number, date and type, payee and purpose, cash in and out, running balance, cash limit flag, custodian, physical count and variance. Use for petty cash. |
