@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1680 skills)
+## Bash (1681 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1682,6 +1682,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [quant-analyst](../skills/ai-engineering/rag/quant_analyst/quant-analyst/SKILL.md) — Use this skill to design, implement, and operate production workflows for quant analyst. Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage.
 - [rag-engineer](../skills/ai-engineering/rag/rag_engineer/rag-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag engineer. Expert in building Retrieval-Augmented Generation systems. Masters
 - [rag-implementation](../skills/ai-engineering/rag/rag_implementation/rag-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag implementation. RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization.
+- [rag-infrastructure](../skills/ai-engineering/rag/rag_infrastructure/rag-infrastructure/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag infrastructure. Build and operate Retrieval-Augmented Generation (RAG) infrastructure
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [backend-architect](../skills/backend/api-design/backend_architect/backend-architect/SKILL.md) — Use this skill to expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
 - [backend-security-coder](../skills/backend/api-design/backend_security_cod/backend-security-coder/SKILL.md) — Use this skill to expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
@@ -9644,7 +9645,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1783 skills)
+## Python (1784 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10276,6 +10277,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [quant-analyst](../skills/ai-engineering/rag/quant_analyst/quant-analyst/SKILL.md) — Use this skill to design, implement, and operate production workflows for quant analyst. Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage.
 - [rag-engineer](../skills/ai-engineering/rag/rag_engineer/rag-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag engineer. Expert in building Retrieval-Augmented Generation systems. Masters
 - [rag-implementation](../skills/ai-engineering/rag/rag_implementation/rag-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag implementation. RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization.
+- [rag-infrastructure](../skills/ai-engineering/rag/rag_infrastructure/rag-infrastructure/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag infrastructure. Build and operate Retrieval-Augmented Generation (RAG) infrastructure
 - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 - [llm-synthetic-data-generation-pipeline](../skills/ai-engineering/synthetic-data/synth-data-pipeline/llm-synthetic-data-generation-pipeline/SKILL.md) — Use this skill when designing, orchestrating, and validating synthetic data generation pipelines for training, evaluating, and fine-tuning Large Language Models. It covers Self-Instruct seed bootstrapping, Evol-Instruct complexity expansion (in-breadth and in-depth), vector embedding semantic deduplication, and automated quality filtering using frontier LLM judges.
 - [ai-agent-custom-tool-builder-and-schema-generator](../skills/ai-engineering/tools/tool-builder/ai-agent-custom-tool-builder-and-schema-generator/SKILL.md) — Use this skill to autonomously design, generate, and validate type-safe tool definitions, JSON schemas, docstrings, and error handlers for LLM tool calling and MCP servers in Python and TypeScript.
@@ -11585,6 +11587,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Rag Implementation (1 skills)
 
 - [rag-implementation](../skills/ai-engineering/rag/rag_implementation/rag-implementation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag implementation. RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization.
+
+## Rag Infrastructure (1 skills)
+
+- [rag-infrastructure](../skills/ai-engineering/rag/rag_infrastructure/rag-infrastructure/SKILL.md) — Use this skill to design, implement, and operate production workflows for rag infrastructure. Build and operate Retrieval-Augmented Generation (RAG) infrastructure
 
 ## Ragas (2 skills)
 

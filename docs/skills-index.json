@@ -14062,6 +14062,28 @@
     "maturity": "stable"
   },
   {
+    "name": "rag-infrastructure",
+    "path": "skills/ai-engineering/rag/rag_infrastructure/rag-infrastructure",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "rag_infrastructure",
+    "description": "Use this skill to design, implement, and operate production workflows for rag infrastructure. Build and operate Retrieval-Augmented Generation (RAG) infrastructure",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "rag",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Rag Infrastructure",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
