@@ -23577,6 +23577,28 @@
     "maturity": "stable"
   },
   {
+    "name": "premium-3d-website",
+    "path": "skills/frontend/ui-development/premium_3d_website/premium-3d-website",
+    "domain": "frontend",
+    "category": "ui-development",
+    "subcategory": "premium_3d_website",
+    "description": "Use this skill to design, implement, and operate production workflows for premium 3d website. Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization.",
+    "tags": [
+      "frontend",
+      "ui-development",
+      "premium",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Premium 3D Website",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "anti-sleep",
     "path": "skills/frontend/ui-ux/anti_sleep/anti-sleep",
     "domain": "frontend",

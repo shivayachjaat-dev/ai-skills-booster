@@ -1,6 +1,6 @@
 # Category Index: Ui Development
 
-> **33 skills** available in this category.
+> **34 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -37,3 +37,4 @@
 | [markstream-vue2](../../skills/frontend/ui-development/markstream_vue2/markstream-vue2/SKILL.md) | `markstream_vue2` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream vue2. Integrate markstream-vue2 into Vue 2.6 or 2.7 with correct Composition API decisions, CSS, streaming state, optional peers, and scoped overrides. |
 | [markstream-vue2-cli](../../skills/frontend/ui-development/markstream_vue2_cli/markstream-vue2-cli/SKILL.md) | `markstream_vue2_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream vue2 cli. Integrate markstream-vue2 into Vue CLI or Webpack 4 with export-map-safe CSS, CDN worker fallbacks, and conservative code-block defaults. |
 | [markstream-vue2-vite](../../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) | `markstream_vue2_vite` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults. |
+| [premium-3d-website](../../skills/frontend/ui-development/premium_3d_website/premium-3d-website/SKILL.md) | `premium_3d_website` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for premium 3d website. Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization. |
