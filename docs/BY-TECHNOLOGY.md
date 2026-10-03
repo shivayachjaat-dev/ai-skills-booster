@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1770 skills)
+## Bash (1771 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2819,6 +2819,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [rich-elicitation](../skills/software-engineering/architecture/patterns/rich-elicitation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rich elicitation. Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have 3+ viable answers.
 - [risk-manager](../skills/software-engineering/architecture/patterns/risk-manager/SKILL.md) — Use this skill to design, implement, and operate production workflows for risk manager. Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.
 - [rust-pro](../skills/software-engineering/architecture/patterns/rust-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust pro. Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.
+- [sales-enablement](../skills/software-engineering/architecture/patterns/sales-enablement/SKILL.md) — Use this skill to design, implement, and operate production workflows for sales enablement. Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that help reps move deals forward and close.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -9738,7 +9739,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1873 skills)
+## Python (1874 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11578,6 +11579,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [rich-elicitation](../skills/software-engineering/architecture/patterns/rich-elicitation/SKILL.md) — Use this skill to design, implement, and operate production workflows for rich elicitation. Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have 3+ viable answers.
 - [risk-manager](../skills/software-engineering/architecture/patterns/risk-manager/SKILL.md) — Use this skill to design, implement, and operate production workflows for risk manager. Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.
 - [rust-pro](../skills/software-engineering/architecture/patterns/rust-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust pro. Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.
+- [sales-enablement](../skills/software-engineering/architecture/patterns/sales-enablement/SKILL.md) — Use this skill to design, implement, and operate production workflows for sales enablement. Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that help reps move deals forward and close.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -12333,6 +12335,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Sales Automator (1 skills)
 
 - [sales-automator](../skills/ai-engineering/models/sales_automator/sales-automator/SKILL.md) — Use this skill to design, implement, and operate production workflows for sales automator. Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing.
+
+## Sales Enablement (1 skills)
+
+- [sales-enablement](../skills/software-engineering/architecture/patterns/sales-enablement/SKILL.md) — Use this skill to design, implement, and operate production workflows for sales enablement. Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that help reps move deals forward and close.
 
 ## Scale Benchmarks (1 skills)
 

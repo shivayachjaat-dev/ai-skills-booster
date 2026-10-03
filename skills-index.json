@@ -42683,6 +42683,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sales-enablement",
+    "path": "skills/software-engineering/architecture/patterns/sales-enablement",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for sales enablement. Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that help reps move deals forward and close.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "sales",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sales Enablement",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",

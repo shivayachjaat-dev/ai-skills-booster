@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **251 skills** available in this category.
+> **252 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -253,5 +253,6 @@
 | [rich-elicitation](../../skills/software-engineering/architecture/patterns/rich-elicitation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rich elicitation. Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have 3+ viable answers. |
 | [risk-manager](../../skills/software-engineering/architecture/patterns/risk-manager/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for risk manager. Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses. |
 | [rust-pro](../../skills/software-engineering/architecture/patterns/rust-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rust pro. Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming. |
+| [sales-enablement](../../skills/software-engineering/architecture/patterns/sales-enablement/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sales enablement. Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that help reps move deals forward and close. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
