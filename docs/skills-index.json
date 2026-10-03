@@ -37887,6 +37887,28 @@
     "maturity": "stable"
   },
   {
+    "name": "performance-engineer",
+    "path": "skills/software-engineering/architecture/patterns/performance-engineer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for performance engineer. Expert performance engineer specializing in modern observability,",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "performance",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Performance Engineer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
