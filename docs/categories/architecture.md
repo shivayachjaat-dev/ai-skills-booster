@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **215 skills** available in this category.
+> **216 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -217,5 +217,6 @@
 | [phase-gated-debugging](../../skills/software-engineering/architecture/patterns/phase-gated-debugging/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for phase gated debugging. Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts. |
 | [pitch-psychologist](../../skills/software-engineering/architecture/patterns/pitch-psychologist/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pitch psychologist. One sentence - what this skill does and when to invoke it |
 | [plan-writing](../../skills/software-engineering/architecture/patterns/plan-writing/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for plan writing. Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work. |
+| [planning-with-files](../../skills/software-engineering/architecture/patterns/planning-with-files/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for planning with files. Work like Manus: Use persistent markdown files as your \"working memory on disk.\ |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

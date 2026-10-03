@@ -38459,6 +38459,28 @@
     "maturity": "stable"
   },
   {
+    "name": "planning-with-files",
+    "path": "skills/software-engineering/architecture/patterns/planning-with-files",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for planning with files. Work like Manus: Use persistent markdown files as your \\\"working memory on disk.\\",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "planning",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Planning With Files",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",

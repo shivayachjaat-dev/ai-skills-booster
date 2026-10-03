@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1575 skills)
+## Bash (1576 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2627,6 +2627,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [phase-gated-debugging](../skills/software-engineering/architecture/patterns/phase-gated-debugging/SKILL.md) — Use this skill to design, implement, and operate production workflows for phase gated debugging. Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts.
 - [pitch-psychologist](../skills/software-engineering/architecture/patterns/pitch-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for pitch psychologist. One sentence - what this skill does and when to invoke it
 - [plan-writing](../skills/software-engineering/architecture/patterns/plan-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for plan writing. Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.
+- [planning-with-files](../skills/software-engineering/architecture/patterns/planning-with-files/SKILL.md) — Use this skill to design, implement, and operate production workflows for planning with files. Work like Manus: Use persistent markdown files as your \"working memory on disk.\
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -9059,6 +9060,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [planning-and-task-breakdown](../skills/frontend/ui-ux/planning_and_task_br/planning-and-task-breakdown/SKILL.md) — Use this skill to design, implement, and operate production workflows for planning and task breakdown. Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.
 
+## Planning With Files (1 skills)
+
+- [planning-with-files](../skills/software-engineering/architecture/patterns/planning-with-files/SKILL.md) — Use this skill to design, implement, and operate production workflows for planning with files. Work like Manus: Use persistent markdown files as your \"working memory on disk.\
+
 ## Playwright (5 skills)
 
 - [competitive-market-intelligence-crawler](../skills/data-analytics/market-intelligence/competitive-crawler/competitive-market-intelligence-crawler/SKILL.md) — Use this skill to design, build, and automate competitive market intelligence crawlers across eCommerce marketplaces, SaaS pricing matrices, and public ad libraries. It covers price monitoring, product feature diff tracking, promotional campaign alerts, and historical trend reporting.
@@ -9205,7 +9210,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1678 skills)
+## Python (1679 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10853,6 +10858,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [phase-gated-debugging](../skills/software-engineering/architecture/patterns/phase-gated-debugging/SKILL.md) — Use this skill to design, implement, and operate production workflows for phase gated debugging. Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts.
 - [pitch-psychologist](../skills/software-engineering/architecture/patterns/pitch-psychologist/SKILL.md) — Use this skill to design, implement, and operate production workflows for pitch psychologist. One sentence - what this skill does and when to invoke it
 - [plan-writing](../skills/software-engineering/architecture/patterns/plan-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for plan writing. Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.
+- [planning-with-files](../skills/software-engineering/architecture/patterns/planning-with-files/SKILL.md) — Use this skill to design, implement, and operate production workflows for planning with files. Work like Manus: Use persistent markdown files as your \"working memory on disk.\
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
