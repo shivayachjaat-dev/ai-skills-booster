@@ -13943,6 +13943,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-technical",
+    "path": "skills/ai-engineering/models/seo_technical/seo-technical",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "seo_technical",
+    "description": "Use this skill to design, implement, and operate production workflows for seo technical. Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Technical",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
