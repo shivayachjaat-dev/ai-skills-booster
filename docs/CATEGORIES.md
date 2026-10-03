@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,108** skills across structured domains, categories, and subcategories.
+Master navigation for **2,109** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (712 skills)
 
@@ -3688,7 +3688,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (187 skills)
+## Security (188 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -3718,7 +3718,7 @@ Category index: [`docs/categories/application-security.md`](categories/applicati
 - **Security Headers** (1):
   - [http-security-headers-hardening](../skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) — Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP).
 
-### Appsec (114 skills)
+### Appsec (115 skills)
 Category index: [`docs/categories/appsec.md`](categories/appsec.md)
 
 - **Aws_Ec2** (1):
@@ -3947,6 +3947,8 @@ Category index: [`docs/categories/appsec.md`](categories/appsec.md)
   - [solidity-security](../skills/security/appsec/solidity_security/solidity-security/SKILL.md) — Use this skill to design, implement, and operate production workflows for solidity security. Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns.
 - **Sops_Encryption** (1):
   - [sops-encryption](../skills/security/appsec/sops_encryption/sops-encryption/SKILL.md) — Use this skill to design, implement, and operate production workflows for sops encryption. Encrypt files and configs with Mozilla SOPS.
+- **Ssl_Tls_Management** (1):
+  - [ssl-tls-management](../skills/security/appsec/ssl_tls_management/ssl-tls-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for ssl tls management. Manage SSL/TLS certificates with Let's Encrypt and internal PKI. Configure
 
 ### Architecture (1 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)

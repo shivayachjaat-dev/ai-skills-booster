@@ -38282,6 +38282,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ssl-tls-management",
+    "path": "skills/security/appsec/ssl_tls_management/ssl-tls-management",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "ssl_tls_management",
+    "description": "Use this skill to design, implement, and operate production workflows for ssl tls management. Manage SSL/TLS certificates with Let's Encrypt and internal PKI. Configure",
+    "tags": [
+      "security",
+      "appsec",
+      "ssl",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ssl Tls Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

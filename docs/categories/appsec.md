@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **114 skills** available in this category.
+> **115 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -118,3 +118,4 @@
 | [service-mesh-expert](../../skills/security/appsec/service_mesh_expert/service-mesh-expert/SKILL.md) | `service_mesh_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh expert. Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con |
 | [solidity-security](../../skills/security/appsec/solidity_security/solidity-security/SKILL.md) | `solidity_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for solidity security. Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns. |
 | [sops-encryption](../../skills/security/appsec/sops_encryption/sops-encryption/SKILL.md) | `sops_encryption` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sops encryption. Encrypt files and configs with Mozilla SOPS. |
+| [ssl-tls-management](../../skills/security/appsec/ssl_tls_management/ssl-tls-management/SKILL.md) | `ssl_tls_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ssl tls management. Manage SSL/TLS certificates with Let's Encrypt and internal PKI. Configure |

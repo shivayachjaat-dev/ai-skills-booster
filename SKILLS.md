@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,108 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,109 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1722,6 +1722,7 @@
 | [service-mesh-expert](skills/security/appsec/service_mesh_expert/service-mesh-expert/SKILL.md) | `security` | `appsec` | `service_mesh_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh expert. Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con |
 | [solidity-security](skills/security/appsec/solidity_security/solidity-security/SKILL.md) | `security` | `appsec` | `solidity_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for solidity security. Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns. |
 | [sops-encryption](skills/security/appsec/sops_encryption/sops-encryption/SKILL.md) | `security` | `appsec` | `sops_encryption` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sops encryption. Encrypt files and configs with Mozilla SOPS. |
+| [ssl-tls-management](skills/security/appsec/ssl_tls_management/ssl-tls-management/SKILL.md) | `security` | `appsec` | `ssl_tls_management` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ssl tls management. Manage SSL/TLS certificates with Let's Encrypt and internal PKI. Configure |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |
 | [azure-communication-common-java](skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) | `security` | `authentication` | `azure_communication_` | `advanced` | `stable` | Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services. |
 | [azure-identity-dotnet](skills/security/authentication/azure_identity_dotne/azure-identity-dotnet/SKILL.md) | `security` | `authentication` | `azure_identity_dotne` | `advanced` | `stable` | Use this skill to azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. |
