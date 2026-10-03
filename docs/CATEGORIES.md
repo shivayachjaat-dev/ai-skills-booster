@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,136** skills across structured domains, categories, and subcategories.
+Master navigation for **2,137** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (722 skills)
+## Ai Engineering (723 skills)
 
 ### Agents (92 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1389,7 +1389,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (48 skills)
+### Rag (49 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1485,6 +1485,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [soroban-storage-ttl-lifecycle](../skills/ai-engineering/rag/soroban_storage_ttl_/soroban-storage-ttl-lifecycle/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban storage ttl lifecycle. Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.
 - **Source_Document_Fili** (1):
   - [source-document-filing](../skills/ai-engineering/rag/source_document_fili/source-document-filing/SKILL.md) — Use this skill to design, implement, and operate production workflows for source document filing. Source document register: document type and number, party, amount, index key, storage location, retention period and verification. Use for document filing.
+- **Supabase_Automation** (1):
+  - [supabase-automation](../skills/ai-engineering/rag/supabase_automation/supabase-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for supabase automation. Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio). Always search tools first for current schemas.
 
 ### Synthetic Data (1 skills)
 Category index: [`docs/categories/synthetic-data.md`](categories/synthetic-data.md)
