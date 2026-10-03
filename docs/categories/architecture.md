@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **255 skills** available in this category.
+> **256 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -258,4 +258,5 @@
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [scarcity-urgency-psychologist](../../skills/software-engineering/architecture/patterns/scarcity-urgency-psychologist/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scarcity urgency psychologist. One sentence - what this skill does and when to invoke it |
 | [score-eval](../../skills/software-engineering/architecture/patterns/score-eval/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for score eval. Imported skill `score-eval` from upstream source. |
+| [seo-aeo-internal-linking](../../skills/software-engineering/architecture/patterns/seo-aeo-internal-linking/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo internal linking. Maps internal link opportunities between pages with relevant anchor text, placement instructions, orphan-page detection, and cannibalisation checks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
