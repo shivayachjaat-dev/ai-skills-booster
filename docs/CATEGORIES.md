@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,922** skills across structured domains, categories, and subcategories.
+Master navigation for **1,923** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (658 skills)
 
@@ -3880,9 +3880,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (251 skills)
+## Software Engineering (252 skills)
 
-### Architecture (244 skills)
+### Architecture (245 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -3891,7 +3891,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (241):
+- **Patterns** (242):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -4131,6 +4131,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [research-prompt](../skills/software-engineering/architecture/patterns/research-prompt/SKILL.md) — Use this skill to design, implement, and operate production workflows for research prompt. Turn vague research needs into one precise deep-research prompt with context and output criteria.
   - [resolving-merge-conflicts](../skills/software-engineering/architecture/patterns/resolving-merge-conflicts/SKILL.md) — Use this skill to design, implement, and operate production workflows for resolving merge conflicts. Use when you need to resolve an in-progress git merge/rebase conflict.
   - [resumable-implementation-contracts](../skills/software-engineering/architecture/patterns/resumable-implementation-contracts/SKILL.md) — Use this skill to design, implement, and operate production workflows for resumable implementation contracts. Create repository-based execution contracts for multi-session implementation work, with stable task IDs, evidence, checkpoints, and exact resume state.
+  - [reverse-engineering](../skills/software-engineering/architecture/patterns/reverse-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse engineering. General reverse-engineering methodology for compiled, obfuscated, packed, or virtualized targets: GDB, Frida, angr, Unicorn, and Qiling workflows across languages and platforms, with anti-analysis countermeasures.
   - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
   - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 

@@ -42045,6 +42045,28 @@
     "maturity": "stable"
   },
   {
+    "name": "reverse-engineering",
+    "path": "skills/software-engineering/architecture/patterns/reverse-engineering",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for reverse engineering. General reverse-engineering methodology for compiled, obfuscated, packed, or virtualized targets: GDB, Frida, angr, Unicorn, and Qiling workflows across languages and platforms, with anti-analysis countermeasures.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "reverse",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Reverse Engineering",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
