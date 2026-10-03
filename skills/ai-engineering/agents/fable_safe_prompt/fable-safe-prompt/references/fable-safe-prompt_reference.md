@@ -1,11 +1,33 @@
 # Fable Safe Prompt Technical Reference
 
-## Specifications & Standards
-- Canonical Domain: ai-engineering
-- Category: agents
-- Subcategory: fable_safe_prompt
+## Intent Reframing & False-Positive Mitigation Specification
 
-## Operational Checklist
-1. Validate environmental dependencies before starting execution.
-2. Monitor key performance indicators and error rates during operation.
-3. Review audit logs regularly for operational anomalies.
+In automated AI engineering environments, automated safety filters frequently intercept legitimate technical queries that happen to use words common in both software engineering and malicious hacking (e.g. "kill process", "inject script", "exploit bug", "penetration testing"). These false-positive refusals block legitimate workflows.
+
+### Semantic Reframing Flow
+
+```
+                      [ User Engineering Prompt ]
+                                  |
+                                  v
+                   [ Intent Maliciousness Filter ]
+                                  |
+              +-------------------+-------------------+
+              |                                       |
+    [ Malicious Intent ]                      [ Benign Intent ]
+              |                                       |
+              v                                       v
+    [ Hard Rejection / Block ]            [ Trigger Token Mapping ]
+                                                      |
+                                                      v
+                                          [ Defensive Context Framing ]
+                                                      |
+                                                      v
+                                          [ Neutralized Prompt Egress ]
+```
+
+### Safety & Policy Invariants
+
+1. **Zero Policy Bypass**: Fable Safe Prompt is **not** a jailbreak engine. It never attempts to trick models into producing weaponized malware, biological harm, or hate speech.
+2. **Intent Preservation**: The resulting prompt must preserve all technical identifiers, error codes, CVE IDs, function names, and structural requirements.
+3. **Defensive Recontextualization**: Queries regarding vulnerabilities are framed through defensive engineering, patch verification, and remediation standards.
