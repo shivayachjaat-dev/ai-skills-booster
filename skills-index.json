@@ -21971,6 +21971,28 @@
     "maturity": "stable"
   },
   {
+    "name": "segment-automation",
+    "path": "skills/developer-tools/productivity/segment_automation/segment-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "segment_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for segment automation. Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "segment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Segment Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
