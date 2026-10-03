@@ -13613,6 +13613,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sbom-supply-chain",
+    "path": "skills/ai-engineering/models/sbom_supply_chain/sbom-supply-chain",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "sbom_supply_chain",
+    "description": "Use this skill to design, implement, and operate production workflows for sbom supply chain. Generate, sign, and verify SBOMs and provenance attestations to secure",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "sbom",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sbom Supply Chain",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
