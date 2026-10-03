@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **44 skills** available in this category.
+> **45 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -48,3 +48,4 @@
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
 | [performance-tuning](../../skills/devops/ci-cd/performance_tuning/performance-tuning/SKILL.md) | `performance_tuning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance tuning. Optimize Linux system performance. Configure kernel parameters, analyze |
 | [production-runtime-certification](../../skills/devops/ci-cd/production_runtime_c/production-runtime-certification/SKILL.md) | `production_runtime_c` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for production runtime certification. Certify a deployed service with fresh evidence across source, CI, migrations, runtime health, readiness, and critical routes; use before declaring a release production-ready. |
+| [prometheus-grafana](../../skills/devops/ci-cd/prometheus_grafana/prometheus-grafana/SKILL.md) | `prometheus_grafana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prometheus grafana. Set up metrics collection and visualization with Prometheus and Grafana. |

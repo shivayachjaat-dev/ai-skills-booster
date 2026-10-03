@@ -21056,6 +21056,28 @@
     "maturity": "stable"
   },
   {
+    "name": "prometheus-grafana",
+    "path": "skills/devops/ci-cd/prometheus_grafana/prometheus-grafana",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "prometheus_grafana",
+    "description": "Use this skill to design, implement, and operate production workflows for prometheus grafana. Set up metrics collection and visualization with Prometheus and Grafana.",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "prometheus",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Prometheus Grafana",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "amazon-alexa",
     "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
     "domain": "devops",
