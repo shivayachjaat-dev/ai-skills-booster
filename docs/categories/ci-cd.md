@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **49 skills** available in this category.
+> **50 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -53,3 +53,4 @@
 | [semantic-versioning](../../skills/devops/ci-cd/semantic_versioning/semantic-versioning/SKILL.md) | `semantic_versioning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning |
 | [service-mesh](../../skills/devops/ci-cd/service_mesh/service-mesh/SKILL.md) | `service_mesh` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management, |
 | [sre-dashboards](../../skills/devops/ci-cd/sre_dashboards/sre-dashboards/SKILL.md) | `sre_dashboards` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sre dashboards. Design and operationalize SRE dashboards that surface reliability, latency, |
+| [ssh-configuration](../../skills/devops/ci-cd/ssh_configuration/ssh-configuration/SKILL.md) | `ssh_configuration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ssh configuration. Configure SSH servers and clients securely. Manage keys, tunnels, and |

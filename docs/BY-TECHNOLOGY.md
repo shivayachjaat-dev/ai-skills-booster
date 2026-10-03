@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1925 skills)
+## Bash (1926 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2091,6 +2091,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [semantic-versioning](../skills/devops/ci-cd/semantic_versioning/semantic-versioning/SKILL.md) — Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning
 - [service-mesh](../skills/devops/ci-cd/service_mesh/service-mesh/SKILL.md) — Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management,
 - [sre-dashboards](../skills/devops/ci-cd/sre_dashboards/sre-dashboards/SKILL.md) — Use this skill to design, implement, and operate production workflows for sre dashboards. Design and operationalize SRE dashboards that surface reliability, latency,
+- [ssh-configuration](../skills/devops/ci-cd/ssh_configuration/ssh-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for ssh configuration. Configure SSH servers and clients securely. Manage keys, tunnels, and
 - [amazon-alexa](../skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) — Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
 - [aws-cost-cleanup](../skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) — Use this skill to automated cleanup of unused AWS resources to reduce costs
 - [aws-cost-optimizer](../skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) — Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer
@@ -9905,7 +9906,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2028 skills)
+## Python (2029 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10974,6 +10975,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [semantic-versioning](../skills/devops/ci-cd/semantic_versioning/semantic-versioning/SKILL.md) — Use this skill to design, implement, and operate production workflows for semantic versioning. Automate versioning and changelog generation using semantic versioning
 - [service-mesh](../skills/devops/ci-cd/service_mesh/service-mesh/SKILL.md) — Use this skill to design, implement, and operate production workflows for service mesh. Implement Istio and Linkerd service meshes. Configure mTLS, traffic management,
 - [sre-dashboards](../skills/devops/ci-cd/sre_dashboards/sre-dashboards/SKILL.md) — Use this skill to design, implement, and operate production workflows for sre dashboards. Design and operationalize SRE dashboards that surface reliability, latency,
+- [ssh-configuration](../skills/devops/ci-cd/ssh_configuration/ssh-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for ssh configuration. Configure SSH servers and clients securely. Manage keys, tunnels, and
 - [amazon-alexa](../skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) — Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
 - [aws-cost-cleanup](../skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) — Use this skill to automated cleanup of unused AWS resources to reduce costs
 - [aws-cost-optimizer](../skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) — Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer
@@ -13418,6 +13420,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Sred Work Summary (1 skills)
 
 - [sred-work-summary](../skills/software-engineering/architecture/patterns/sred-work-summary/SKILL.md) — Use this skill to design, implement, and operate production workflows for sred work summary. Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.
+
+## Ssh Configuration (1 skills)
+
+- [ssh-configuration](../skills/devops/ci-cd/ssh_configuration/ssh-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for ssh configuration. Configure SSH servers and clients securely. Manage keys, tunnels, and
 
 ## StateFlow (1 skills)
 

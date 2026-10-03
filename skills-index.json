@@ -24268,6 +24268,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ssh-configuration",
+    "path": "skills/devops/ci-cd/ssh_configuration/ssh-configuration",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "ssh_configuration",
+    "description": "Use this skill to design, implement, and operate production workflows for ssh configuration. Configure SSH servers and clients securely. Manage keys, tunnels, and",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "ssh",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ssh Configuration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "amazon-alexa",
     "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
     "domain": "devops",
