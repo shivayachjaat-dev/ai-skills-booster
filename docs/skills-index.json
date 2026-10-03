@@ -18398,6 +18398,28 @@
     "maturity": "stable"
   },
   {
+    "name": "receipt-accounting",
+    "path": "skills/business/operations/receipt_accounting/receipt-accounting",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "receipt_accounting",
+    "description": "Use this skill to design, implement, and operate production workflows for receipt accounting. Receipt register: payer, mode, gross amount received, invoice allocation, unapplied amount and TDS collected. Use for receipt and sales-income accounting.",
+    "tags": [
+      "business",
+      "operations",
+      "receipt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Receipt Accounting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
