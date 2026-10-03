@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,137** skills across structured domains, categories, and subcategories.
+Master navigation for **2,138** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (723 skills)
 
@@ -1512,7 +1512,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (137 skills)
+## Backend (138 skills)
 
 ### Api Design (11 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1668,7 +1668,7 @@ Category index: [`docs/categories/database-migrations.md`](categories/database-m
 - **Alembic** (1):
   - [alembic-zero-downtime-migrations](../skills/backend/database-migrations/alembic/alembic-zero-downtime-migrations/SKILL.md) — Use this skill when designing, authoring, and executing online zero-downtime PostgreSQL schema migrations using Alembic and SQLAlchemy. It guides the agent through the Expand and Contract pattern, non-blocking asynchronous index creation with CREATE INDEX CONCURRENTLY, adding NOT NULL columns safely, and managing lock timeouts.
 
-### Databases (42 skills)
+### Databases (43 skills)
 Category index: [`docs/categories/databases.md`](categories/databases.md)
 
 - **Asset_It_Management** (1):
@@ -1752,6 +1752,8 @@ Category index: [`docs/categories/databases.md`](categories/databases.md)
   - [sqlmap-database-pentesting](../skills/backend/databases/sqlmap_database_pent/sqlmap-database-pentesting/SKILL.md) — Use this skill to design, implement, and operate production workflows for sqlmap database pentesting. Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap.
 - **Src_Hunter** (1):
   - [src-hunter](../skills/backend/databases/src_hunter/src-hunter/SKILL.md) — Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload.
+- **Supabase_Postgres_Be** (1):
+  - [supabase-postgres-best-practices](../skills/backend/databases/supabase_postgres_be/supabase-postgres-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for supabase postgres best practices. Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.
 
 ### Documentation (1 skills)
 Category index: [`docs/categories/documentation.md`](categories/documentation.md)

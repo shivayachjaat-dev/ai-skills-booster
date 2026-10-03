@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **43 skills** available in this category.
+> **44 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -46,4 +46,5 @@
 | [sql-pro](../../skills/backend/databases/sql_pro/sql-pro/SKILL.md) | `sql_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sql pro. Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems. |
 | [sqlmap-database-pentesting](../../skills/backend/databases/sqlmap_database_pent/sqlmap-database-pentesting/SKILL.md) | `sqlmap_database_pent` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sqlmap database pentesting. Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap. |
 | [src-hunter](../../skills/backend/databases/src_hunter/src-hunter/SKILL.md) | `src_hunter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload. |
+| [supabase-postgres-best-practices](../../skills/backend/databases/supabase_postgres_be/supabase-postgres-best-practices/SKILL.md) | `supabase_postgres_be` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supabase postgres best practices. Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations. |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |

@@ -18415,6 +18415,28 @@
     "maturity": "stable"
   },
   {
+    "name": "supabase-postgres-best-practices",
+    "path": "skills/backend/databases/supabase_postgres_be/supabase-postgres-best-practices",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "supabase_postgres_be",
+    "description": "Use this skill to design, implement, and operate production workflows for supabase postgres best practices. Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
+    "tags": [
+      "backend",
+      "databases",
+      "supabase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Supabase Postgres Best Practices",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "openapi-documentation-generator-and-swagger-ui",
     "path": "skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui",
     "domain": "backend",
