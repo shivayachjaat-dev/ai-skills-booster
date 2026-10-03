@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,121** skills across structured domains, categories, and subcategories.
+Master navigation for **2,122** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (715 skills)
 
@@ -4190,9 +4190,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (292 skills)
+## Software Engineering (293 skills)
 
-### Architecture (285 skills)
+### Architecture (286 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -4201,7 +4201,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (282):
+- **Patterns** (283):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -4483,6 +4483,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [speckit-updater](../skills/software-engineering/architecture/patterns/speckit-updater/SKILL.md) — Use this skill to design, implement, and operate production workflows for speckit updater. SpecKit Safe Update
   - [sred-project-organizer](../skills/software-engineering/architecture/patterns/sred-project-organizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for sred project organizer. Take a list of projects and their related documentation, and organize them into the SRED format for submission.
   - [sred-work-summary](../skills/software-engineering/architecture/patterns/sred-work-summary/SKILL.md) — Use this skill to design, implement, and operate production workflows for sred work summary. Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.
+  - [stellar-escrow-timelock](../skills/software-engineering/architecture/patterns/stellar-escrow-timelock/SKILL.md) — Use this skill to design, implement, and operate production workflows for stellar escrow timelock. Decentralized conditional escrow and timelock contract register: multi-signature release conditions, clawback expiry, and settlement triggers.
   - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 
 ### Code Review (1 skills)

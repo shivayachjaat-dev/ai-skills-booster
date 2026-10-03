@@ -46401,6 +46401,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stellar-escrow-timelock",
+    "path": "skills/software-engineering/architecture/patterns/stellar-escrow-timelock",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for stellar escrow timelock. Decentralized conditional escrow and timelock contract register: multi-signature release conditions, clawback expiry, and settlement triggers.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "stellar",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stellar Escrow Timelock",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
