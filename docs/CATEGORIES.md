@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,011** skills across structured domains, categories, and subcategories.
+Master navigation for **2,012** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (684 skills)
 
@@ -1941,7 +1941,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (43 skills)
+## Data Analytics (44 skills)
 
 ### Analytics Engineering (2 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1957,7 +1957,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (31 skills)
+### Data Pipelines (32 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -2022,6 +2022,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [schema-markup](../skills/data-analytics/data-pipelines/schema_markup/schema-markup/SKILL.md) — Use this skill to design, implement, and operate production workflows for schema markup. Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.
 - **Segment_Cdp** (1):
   - [segment-cdp](../skills/data-analytics/data-pipelines/segment_cdp/segment-cdp/SKILL.md) — Use this skill to design, implement, and operate production workflows for segment cdp. Expert patterns for Segment Customer Data Platform including
+- **Seo_Aeo_Schema_Gener** (1):
+  - [seo-aeo-schema-generator](../skills/data-analytics/data-pipelines/seo_aeo_schema_gener/seo-aeo-schema-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo schema generator. Generates and validates implementation-ready JSON-LD structured data for relevant page types and rich-result eligibility.
 
 ### Data Warehouse (1 skills)
 Category index: [`docs/categories/data-warehouse.md`](categories/data-warehouse.md)

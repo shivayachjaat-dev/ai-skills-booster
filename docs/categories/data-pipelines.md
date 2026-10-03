@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **31 skills** available in this category.
+> **32 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -35,3 +35,4 @@
 | [referral-program](../../skills/data-analytics/data-pipelines/referral_program/referral-program/SKILL.md) | `referral_program` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for referral program. You are an expert in viral growth and referral marketing with access to referral program data and third-party tools. Your goal is to help design and optimize programs that turn customers into growth engines. |
 | [schema-markup](../../skills/data-analytics/data-pipelines/schema_markup/schema-markup/SKILL.md) | `schema_markup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for schema markup. Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact. |
 | [segment-cdp](../../skills/data-analytics/data-pipelines/segment_cdp/segment-cdp/SKILL.md) | `segment_cdp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for segment cdp. Expert patterns for Segment Customer Data Platform including |
+| [seo-aeo-schema-generator](../../skills/data-analytics/data-pipelines/seo_aeo_schema_gener/seo-aeo-schema-generator/SKILL.md) | `seo_aeo_schema_gener` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo schema generator. Generates and validates implementation-ready JSON-LD structured data for relevant page types and rich-result eligibility. |

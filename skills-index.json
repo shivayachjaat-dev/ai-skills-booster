@@ -20353,6 +20353,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-aeo-schema-generator",
+    "path": "skills/data-analytics/data-pipelines/seo_aeo_schema_gener/seo-aeo-schema-generator",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "seo_aeo_schema_gener",
+    "description": "Use this skill to design, implement, and operate production workflows for seo aeo schema generator. Generates and validates implementation-ready JSON-LD structured data for relevant page types and rich-result eligibility.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Aeo Schema Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "snowflake-data-warehouse-modeling",
     "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
     "domain": "data-analytics",
