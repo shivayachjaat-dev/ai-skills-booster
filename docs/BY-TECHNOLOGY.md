@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1562 skills)
+## Bash (1563 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1803,6 +1803,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [nexrad-product-access](../skills/data-analytics/data-pipelines/nexrad_product_acces/nexrad-product-access/SKILL.md) — Use this skill to design, implement, and operate production workflows for nexrad product access. Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation.
 - [nextjs-best-practices](../skills/data-analytics/data-pipelines/nextjs_best_practice/nextjs-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for nextjs best practices. Next.js App Router principles. Server Components, data fetching, routing patterns.
 - [nft-standards](../skills/data-analytics/data-pipelines/nft_standards/nft-standards/SKILL.md) — Use this skill to design, implement, and operate production workflows for nft standards. Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.
+- [php-pro](../skills/data-analytics/data-pipelines/php_pro/php-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for php pro. Write idiomatic PHP code with generators, iterators, SPL data
 - [chatexport-need-miner](../skills/desktop/frameworks/chatexport_need_mine/chatexport-need-miner/SKILL.md) — Use this skill to mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
 - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 - [ask-copilot](../skills/developer-tools/cli-utilities/ask_copilot/ask-copilot/SKILL.md) — Use this skill to use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
@@ -8990,6 +8991,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [photopea-embedded-editor](../skills/frontend/web-architecture/photopea_embedded_ed/photopea-embedded-editor/SKILL.md) — Use this skill to design, implement, and operate production workflows for photopea embedded editor. Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and the full Photoshop-compatible API.
 
+## Php Pro (1 skills)
+
+- [php-pro](../skills/data-analytics/data-pipelines/php_pro/php-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for php pro. Write idiomatic PHP code with generators, iterators, SPL data
+
 ## Pillow (1 skills)
 
 - [ai-image-generation-prompt-and-asset-pipeline](../skills/multimedia/image-generation/asset-pipeline/ai-image-generation-prompt-and-asset-pipeline/SKILL.md) — Use this skill to design programmatic image generation and brand asset pipelines using Flux, Stable Diffusion, and OpenAI DALL-E APIs. It enforces structured prompt expansion, seed determinism, negative prompt hygiene, aspect ratio constraints, and automated WebP optimization.
@@ -9140,7 +9145,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1665 skills)
+## Python (1666 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9916,6 +9921,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [nexrad-product-access](../skills/data-analytics/data-pipelines/nexrad_product_acces/nexrad-product-access/SKILL.md) — Use this skill to design, implement, and operate production workflows for nexrad product access. Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation.
 - [nextjs-best-practices](../skills/data-analytics/data-pipelines/nextjs_best_practice/nextjs-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for nextjs best practices. Next.js App Router principles. Server Components, data fetching, routing patterns.
 - [nft-standards](../skills/data-analytics/data-pipelines/nft_standards/nft-standards/SKILL.md) — Use this skill to design, implement, and operate production workflows for nft standards. Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.
+- [php-pro](../skills/data-analytics/data-pipelines/php_pro/php-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for php pro. Write idiomatic PHP code with generators, iterators, SPL data
 - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 - [airtable-api-data-sync-and-webhook-automation](../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) — Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads.
 - [ab-test-experiment-design](../skills/data-analytics/experimentation/ab-testing/ab-test-experiment-design/SKILL.md) — Use this skill when designing, sizing, and analyzing A/B and multivariate split experiments. It guides the agent through statistical hypothesis formulation, sample size calculation via power analysis, minimum detectable effect (MDE) estimation, guardrail metric tracking, CUPED variance reduction, and p-value significance evaluation.

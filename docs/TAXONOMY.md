@@ -825,6 +825,7 @@ AI_Skills_Booster/
 │   │   ├── nexrad_product_acces/ (1 skills)
 │   │   ├── nextjs_best_practice/ (1 skills)
 │   │   ├── nft_standards/ (1 skills)
+│   │   ├── php_pro/ (1 skills)
 │   │   └── polars/ (1 skills)
 │   ├── data-warehouse/
 │   │   └── snowflake/ (1 skills)

@@ -17512,6 +17512,28 @@
     "maturity": "stable"
   },
   {
+    "name": "php-pro",
+    "path": "skills/data-analytics/data-pipelines/php_pro/php-pro",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "php_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for php pro. Write idiomatic PHP code with generators, iterators, SPL data",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "php",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Php Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "polars-high-throughput-data-pipeline",
     "path": "skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline",
     "domain": "data-analytics",

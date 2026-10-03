@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,744** skills across structured domains, categories, and subcategories.
+Master navigation for **1,745** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (601 skills)
 
@@ -1697,7 +1697,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (37 skills)
+## Data Analytics (38 skills)
 
 ### Analytics Engineering (1 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -1711,7 +1711,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (26 skills)
+### Data Pipelines (27 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -1764,6 +1764,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [nextjs-best-practices](../skills/data-analytics/data-pipelines/nextjs_best_practice/nextjs-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for nextjs best practices. Next.js App Router principles. Server Components, data fetching, routing patterns.
 - **Nft_Standards** (1):
   - [nft-standards](../skills/data-analytics/data-pipelines/nft_standards/nft-standards/SKILL.md) — Use this skill to design, implement, and operate production workflows for nft standards. Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.
+- **Php_Pro** (1):
+  - [php-pro](../skills/data-analytics/data-pipelines/php_pro/php-pro/SKILL.md) — Use this skill to design, implement, and operate production workflows for php pro. Write idiomatic PHP code with generators, iterators, SPL data
 - **Polars** (1):
   - [polars-high-throughput-data-pipeline](../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) — Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations.
 
