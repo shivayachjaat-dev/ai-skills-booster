@@ -1994,6 +1994,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stitch-loop",
+    "path": "skills/ai-engineering/agents/stitch_loop/stitch-loop",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "stitch_loop",
+    "description": "Use this skill to design, implement, and operate production workflows for stitch loop. Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "stitch",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stitch Loop",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-speech-to-text-rest-py",
     "path": "skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py",
     "domain": "ai-engineering",
