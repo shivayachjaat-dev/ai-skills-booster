@@ -1,112 +1,164 @@
 ---
 name: context-engineering
-description: "Use this skill to optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project."
+description: "Use this skill to design, curate, and optimize LLM agent context architectures. It implements hierarchical context layering (persistent rules, feature specifications, AST code slices, and targeted test diagnostics), prevents 'Lost in the Middle' attention degradation, and enforces proactive token budget pruning."
 domain: ai-engineering
 category: agents
 subcategory: context_engineering
 tags:
-  - ai-engineering
-  - agents
-  - context
-  - automation
-  - production-ready
+  - context-engineering
+  - token-budgeting
+  - prompt-architecture
+  - context-hierarchy
+  - attention-optimization
+  - ast-slicing
+  - lost-in-the-middle
 technologies:
-  - Context Engineering
   - Python
-  - Bash
-complexity: advanced
+  - AST
+  - Tokenizers
+  - JSON-Schema
+  - Markdown
+complexity: expert
 maturity: stable
 tools:
   - python
   - bash
 dependencies:
   - python@>=3.10
+version: 1.0.0
+author: Antigravity Team
 ---
-# Context Engineering Architecture & Implementation Standard
+
+# LLM Agent Context Engineering & Attention Optimization Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for context engineering. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with context-engineering.
+The `context-engineering` skill provides the rigorous engineering methodology for structuring, curating, and budgeting information provided to autonomous LLMs and coding agents. Context is the primary operational lever governing agent task performance: providing too little context triggers hallucinated APIs and incorrect architectural assumptions, while providing excessive, unfiltered context triggers attention degradation (the empirical "Lost in the Middle" phenomenon), instruction neglect, and prohibitive token expenditure. This skill formalizes a 4-tier context hierarchy, AST-driven source slicing, and primacy/recency positioning to maximize reasoning fidelity.
 
 ```
-+------------------------------------------------------------------------+
-|                   Context Engineering                                 |
-|                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
-+------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+|                        The 4-Tier Context Hierarchy                               |
+|                                                                                   |
+|  [ Layer 1: Persistent Rules ] (CLAUDE.md / Invariants)        | < 1,000 tokens   |
+|         |                                                      | Always loaded    |
+|         v                                                      +------------------+
+|  [ Layer 2: Task Specification ] (RFC / Goal Checklist)        | 1,000 - 2,000 tok|
+|         |                                                      | Feature-scoped   |
+|         v                                                      +------------------+
+|  [ Layer 3: AST Source Slices ] (Target Classes & Signatures)  | 2,000 - 6,000 tok|
+|         |                                                      | Extracted AST    |
+|         v                                                      +------------------+
+|  [ Layer 4: Immediate Telemetry ] (Target Test Error Snippet)  | < 500 tokens     |
+|                                                                | Ephemeral delta  |
+|                                                                                   |
+|  [ Attention Window Placement (U-Shaped Attention Optimization) ]                 |
+|    - Primacy (Beginning of Prompt): System Invariants & Safety Constraints        |
+|    - Middle (Internal Context): Background documentation & secondary context      |
+|    - Recency (End of Prompt): Immediate task objective & failing test stack trace |
++-----------------------------------------------------------------------------------+
 ```
+
+---
 
 ## When to Use
 
-- When architecting or refactoring systems related to context engineering.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When structuring agent prompt templates for multi-step reasoning, coding, or code refactoring workflows.
+- When an agent begins hallucinating non-existent methods or disregarding repository conventions due to context bloat.
+- When packing multiple documentation files or source code repositories into a finite LLM context window.
+- When designing automated context ingestion pipelines (e.g. vector search RAG re-rankers).
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
+- For short, atomic single-turn questions that require no surrounding codebase context.
+- When editing trivial standalone scripts where the entire file is under 40 lines.
+- As a substitute for vector databases or disk storage (context is ephemeral RAM; databases are persistent disk).
+
+---
 
 ## Inputs & Prerequisites
 
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+1. **Target Context Budget**: Total allowable tokens allocated for prompt context (e.g. 8k, 32k, 128k).
+2. **Repository Artifacts**: Raw source files, project rules, and test diagnostic output.
+3. **Task Definition**: Specific feature requirements or bug reproduction steps.
+
+---
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for context-engineering..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### Step 1: Hierarchical Context Layer Allocation
+Allocate strict token budgets across the four tiers:
 
 ```python
-import sys
-import logging
+from dataclasses import dataclass
+from typing import Dict, Any
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("context-engineering")
+@dataclass
+class ContextBudget:
+    max_total_tokens: int = 16000
+    persistent_rules_budget: int = 1000
+    task_spec_budget: int = 2500
+    source_code_budget: int = 10000
+    diagnostics_budget: int = 1500
 
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for context-engineering")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
+def evaluate_context_composition(components: Dict[str, str], budget: ContextBudget) -> Dict[str, Any]:
+    """Measures component token consumption against tier allocations."""
+    # Approximation: 1 token ~= 4 characters
+    stats = {}
+    total_consumed = 0
     
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+    for name, text in components.items():
+        tokens = len(text) // 4
+        stats[name] = tokens
+        total_consumed += tokens
+        
+    is_compliant = total_consumed <= budget.max_total_tokens
+    
+    return {
+        "tier_tokens": stats,
+        "total_consumed": total_consumed,
+        "budget_limit": budget.max_total_tokens,
+        "is_compliant": is_compliant
+    }
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### Step 2: AST Code Slicing (Eliminate Irrelevant Bulk)
+Instead of feeding entire multi-thousand-line files, extract only the targeted class signatures and functions:
+
+```python
+import ast
+
+def extract_target_function_ast(source_code: str, target_func_name: str) -> str:
+    """Extracts only the specified function AST node from a large source file."""
+    tree = ast.parse(source_code)
+    for node in ast.walk(tree):
+        if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)) and node.name == target_func_name:
+            return ast.get_source_segment(source_code, node) or ""
+    return ""
+```
+
+### Step 3: Primacy & Recency Attention Layout
+Structure the prompt string to leverage the LLM's U-shaped attention distribution:
+1. **Top (Primacy)**: Core directives, role definitions, and strict negative constraints (rules that must never be broken).
+2. **Middle**: Reference examples, type definitions, and background documentation.
+3. **Bottom (Recency)**: The immediate task goal, file path to edit, and exact failing test assertion.
+
+---
 
 ## Best Practices & Failure Modes
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+- **The Dumping Trap**: Never concatenate raw terminal logs containing 10,000 lines of build output into prompt context. Filter logs down to the final 20 lines containing the exception trace.
+- **Lost in the Middle**: Placing critical instructions in the exact middle of a 50k-token prompt results in up to 30% lower adherence. Keep instructions at the extreme top or bottom.
+- **Context Compaction Triggers**: When a conversation exceeds 60% of the model's maximum window, compact prior turns into an immutable summary and clear the raw chat buffer.
+
+---
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/context-engineering_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+1. Run the context budget optimizer and AST slicing test suite:
+   ```bash
+   python scripts/context-engineering_helper.py
+   ```
+2. Verify token allocation compliance and attention ordering via CLI:
+   ```bash
+   python scripts/context_budget_optimizer.py --test-all
+   ```
