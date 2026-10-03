@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **43 skills** available in this category.
+> **44 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -47,3 +47,4 @@
 | [saga-orchestration](../../skills/business/operations/saga_orchestration/saga-orchestration/SKILL.md) | `saga_orchestration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saga orchestration. Patterns for managing distributed transactions and long-running business processes. |
 | [salary-wage-accounting](../../skills/business/operations/salary_wage_accounti/salary-wage-accounting/SKILL.md) | `salary_wage_accounti` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for salary wage accounting. Payroll register: gross, allowances, TDS and provident fund deductions, net pay, payment date and statutory reconciliation. Use for salary accounting. |
 | [sales-accounting](../../skills/business/operations/sales_accounting/sales-accounting/SKILL.md) | `sales_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sales accounting. Sales register: customer, invoice, gross amount, discount, VAT and TDS, net receivable, credit terms and balance. Use for sales accounting. |
+| [social-media-setup](../../skills/business/operations/social_media_setup/social-media-setup/SKILL.md) | `social_media_setup` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social media setup. Social media register: platforms and handles, post captions and hashtags, publishing cadence, approval status and profile checklist. Use for social account setup. |

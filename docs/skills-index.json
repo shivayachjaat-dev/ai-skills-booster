@@ -19960,6 +19960,28 @@
     "maturity": "stable"
   },
   {
+    "name": "social-media-setup",
+    "path": "skills/business/operations/social_media_setup/social-media-setup",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "social_media_setup",
+    "description": "Use this skill to design, implement, and operate production workflows for social media setup. Social media register: platforms and handles, post captions and hashtags, publishing cadence, approval status and profile checklist. Use for social account setup.",
+    "tags": [
+      "business",
+      "operations",
+      "social",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Social Media Setup",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
