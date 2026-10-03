@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1721 skills)
+## Bash (1722 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2048,6 +2048,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [react-native-skills](../skills/frontend/frameworks/react_native_skills/react-native-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for react native skills. Use when working with react-native-skills tasks or workflows
 - [react-patterns](../skills/frontend/frameworks/react_patterns/react-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for react patterns. Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.
 - [react-ui-patterns](../skills/frontend/frameworks/react_ui_patterns/react-ui-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for react ui patterns. Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
+- [remotion-best-practices](../skills/frontend/frameworks/remotion_best_practi/remotion-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion best practices. Best practices for Remotion - Video creation in React
 - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 - [cc-skill-frontend-patterns](../skills/frontend/ui-development/cc_skill_frontend_pa/cc-skill-frontend-patterns/SKILL.md) — Use this skill to frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
 - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
@@ -9685,7 +9686,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1824 skills)
+## Python (1825 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10727,6 +10728,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [react-native-skills](../skills/frontend/frameworks/react_native_skills/react-native-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for react native skills. Use when working with react-native-skills tasks or workflows
 - [react-patterns](../skills/frontend/frameworks/react_patterns/react-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for react patterns. Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.
 - [react-ui-patterns](../skills/frontend/frameworks/react_ui_patterns/react-ui-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for react ui patterns. Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
+- [remotion-best-practices](../skills/frontend/frameworks/remotion_best_practi/remotion-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion best practices. Best practices for Remotion - Video creation in React
 - [fixing-motion-performance](../skills/frontend/styling/fixing_motion_perfor/fixing-motion-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for fixing motion performance. Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 - [cc-skill-frontend-patterns](../skills/frontend/ui-development/cc_skill_frontend_pa/cc-skill-frontend-patterns/SKILL.md) — Use this skill to frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
 - [ckw-design](../skills/frontend/ui-development/ckw_design/ckw-design/SKILL.md) — Use this skill to frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, c
@@ -11903,6 +11905,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Remotion (1 skills)
 
 - [remotion](../skills/software-engineering/architecture/patterns/remotion/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion. Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays
+
+## Remotion Best Practices (1 skills)
+
+- [remotion-best-practices](../skills/frontend/frameworks/remotion_best_practi/remotion-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion best practices. Best practices for Remotion - Video creation in React
 
 ## Replicate (1 skills)
 

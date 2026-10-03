@@ -24313,6 +24313,28 @@
     "maturity": "stable"
   },
   {
+    "name": "remotion-best-practices",
+    "path": "skills/frontend/frameworks/remotion_best_practi/remotion-best-practices",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "remotion_best_practi",
+    "description": "Use this skill to design, implement, and operate production workflows for remotion best practices. Best practices for Remotion - Video creation in React",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "remotion",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Remotion Best Practices",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

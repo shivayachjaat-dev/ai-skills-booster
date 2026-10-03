@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **30 skills** available in this category.
+> **31 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -34,3 +34,4 @@
 | [react-native-skills](../../skills/frontend/frameworks/react_native_skills/react-native-skills/SKILL.md) | `react_native_skills` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react native skills. Use when working with react-native-skills tasks or workflows |
 | [react-patterns](../../skills/frontend/frameworks/react_patterns/react-patterns/SKILL.md) | `react_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react patterns. Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices. |
 | [react-ui-patterns](../../skills/frontend/frameworks/react_ui_patterns/react-ui-patterns/SKILL.md) | `react_ui_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react ui patterns. Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states. |
+| [remotion-best-practices](../../skills/frontend/frameworks/remotion_best_practi/remotion-best-practices/SKILL.md) | `remotion_best_practi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion best practices. Best practices for Remotion - Video creation in React |
