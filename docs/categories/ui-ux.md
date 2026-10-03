@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **246 skills** available in this category.
+> **247 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -248,5 +248,6 @@
 | [service-mesh-observability](../../skills/frontend/ui-ux/service_mesh_observa/service-mesh-observability/SKILL.md) | `service_mesh_observa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh observability. Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments. |
 | [shadcn](../../skills/frontend/ui-ux/shadcn/shadcn/SKILL.md) | `shadcn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shadcn. Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems. |
 | [shopify-development](../../skills/frontend/ui-ux/shopify_development/shopify-development/SKILL.md) | `shopify_development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shopify development. Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid. |
+| [similarity-search-patterns](../../skills/frontend/ui-ux/similarity_search_pa/similarity-search-patterns/SKILL.md) | `similarity_search_pa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for similarity search patterns. Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

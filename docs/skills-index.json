@@ -32201,6 +32201,28 @@
     "maturity": "stable"
   },
   {
+    "name": "similarity-search-patterns",
+    "path": "skills/frontend/ui-ux/similarity_search_pa/similarity-search-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "similarity_search_pa",
+    "description": "Use this skill to design, implement, and operate production workflows for similarity search patterns. Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "similarity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Similarity Search Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
