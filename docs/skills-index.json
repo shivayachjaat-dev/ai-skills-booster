@@ -2104,6 +2104,28 @@
     "maturity": "stable"
   },
   {
+    "name": "task-intelligence",
+    "path": "skills/ai-engineering/agents/task_intelligence/task-intelligence",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "task_intelligence",
+    "description": "Use this skill to design, implement, and operate production workflows for task intelligence. Protocolo de Intelig\u00eancia Pr\u00e9-Tarefa \u2014 ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usu\u00e1rio.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "task",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Task Intelligence",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-speech-to-text-rest-py",
     "path": "skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py",
     "domain": "ai-engineering",

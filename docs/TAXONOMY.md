@@ -97,7 +97,8 @@ AI_Skills_Booster/
 │   │   ├── subagent_driven_deve/ (1 skills)
 │   │   ├── subagent_orchestrato/ (1 skills)
 │   │   ├── super_code/ (1 skills)
-│   │   └── talivia_agent_kit/ (1 skills)
+│   │   ├── talivia_agent_kit/ (1 skills)
+│   │   └── task_intelligence/ (1 skills)
 │   ├── audio-processing/
 │   │   ├── azure_speech_to_text/ (1 skills)
 │   │   ├── game_audio/ (1 skills)

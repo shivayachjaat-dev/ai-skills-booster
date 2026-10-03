@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,177** skills across structured domains, categories, and subcategories.
+Master navigation for **2,178** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (735 skills)
+## Ai Engineering (736 skills)
 
-### Agents (94 skills)
+### Agents (95 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -195,6 +195,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [super-code](../skills/ai-engineering/agents/super_code/super-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for super code. Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead.
 - **Talivia_Agent_Kit** (1):
   - [talivia-agent-kit](../skills/ai-engineering/agents/talivia_agent_kit/talivia-agent-kit/SKILL.md) — Use this skill to design, implement, and operate production workflows for talivia agent kit. Set up and verify Talivia revenue analytics through MCP, with explicit confirmation for website changes and payment attribution.
+- **Task_Intelligence** (1):
+  - [task-intelligence](../skills/ai-engineering/agents/task_intelligence/task-intelligence/SKILL.md) — Use this skill to design, implement, and operate production workflows for task intelligence. Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usuário.
 
 ### Audio Processing (5 skills)
 Category index: [`docs/categories/audio-processing.md`](categories/audio-processing.md)
