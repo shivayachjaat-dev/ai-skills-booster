@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **96 skills** available in this category.
+> **97 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -98,5 +98,6 @@
 | [openclaw-security-hardening](../../skills/security/appsec/openclaw_security_ha/openclaw-security-hardening/SKILL.md) | `openclaw_security_ha` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openclaw security hardening. Harden OpenClaw self-hosted environments with baseline host controls, |
 | [osint-methodology](../../skills/security/appsec/osint_methodology/osint-methodology/SKILL.md) | `osint_methodology` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for osint methodology. Comprehensive OSINT methodology for external red-team operations and |
 | [ot-ics](../../skills/security/appsec/ot_ics/ot-ics/SKILL.md) | `ot_ics` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ot ics. Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery, and passive-first evaluation discipline. |
+| [penetration-testing](../../skills/security/appsec/penetration_testing/penetration-testing/SKILL.md) | `penetration_testing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments. |
 | [security-auditor](../../skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](../../skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |

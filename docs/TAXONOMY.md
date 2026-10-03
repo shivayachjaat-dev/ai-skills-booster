@@ -1538,6 +1538,7 @@ AI_Skills_Booster/
 │   │   ├── openclaw_security_ha/ (1 skills)
 │   │   ├── osint_methodology/ (1 skills)
 │   │   ├── ot_ics/ (1 skills)
+│   │   ├── penetration_testing/ (1 skills)
 │   │   ├── security_auditor/ (1 skills)
 │   │   └── security_checklist/ (1 skills)
 │   ├── architecture/

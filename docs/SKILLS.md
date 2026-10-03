@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,725 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,726 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1423,6 +1423,7 @@
 | [openclaw-security-hardening](skills/security/appsec/openclaw_security_ha/openclaw-security-hardening/SKILL.md) | `security` | `appsec` | `openclaw_security_ha` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openclaw security hardening. Harden OpenClaw self-hosted environments with baseline host controls, |
 | [osint-methodology](skills/security/appsec/osint_methodology/osint-methodology/SKILL.md) | `security` | `appsec` | `osint_methodology` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for osint methodology. Comprehensive OSINT methodology for external red-team operations and |
 | [ot-ics](skills/security/appsec/ot_ics/ot-ics/SKILL.md) | `security` | `appsec` | `ot_ics` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ot ics. Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery, and passive-first evaluation discipline. |
+| [penetration-testing](skills/security/appsec/penetration_testing/penetration-testing/SKILL.md) | `security` | `appsec` | `penetration_testing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments. |
 | [security-auditor](skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security` | `appsec` | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security` | `appsec` | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |

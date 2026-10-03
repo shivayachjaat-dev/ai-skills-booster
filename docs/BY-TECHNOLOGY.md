@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1543 skills)
+## Bash (1544 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2353,6 +2353,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [openclaw-security-hardening](../skills/security/appsec/openclaw_security_ha/openclaw-security-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for openclaw security hardening. Harden OpenClaw self-hosted environments with baseline host controls,
 - [osint-methodology](../skills/security/appsec/osint_methodology/osint-methodology/SKILL.md) — Use this skill to design, implement, and operate production workflows for osint methodology. Comprehensive OSINT methodology for external red-team operations and
 - [ot-ics](../skills/security/appsec/ot_ics/ot-ics/SKILL.md) — Use this skill to design, implement, and operate production workflows for ot ics. Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery, and passive-first evaluation discipline.
+- [penetration-testing](../skills/security/appsec/penetration_testing/penetration-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments.
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
@@ -8891,6 +8892,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pdf-official](../skills/ai-engineering/models/pdf_official/pdf-official/SKILL.md) — Use this skill to design, implement, and operate production workflows for pdf official. This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instruc...
 
+## Penetration Testing (1 skills)
+
+- [penetration-testing](../skills/security/appsec/penetration_testing/penetration-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments.
+
 ## Perlin Noise (1 skills)
 
 - [p5js-generative-algorithmic-art-canvas](../skills/multimedia/generative-art/p5js/p5js-generative-algorithmic-art-canvas/SKILL.md) — Use this skill to design, write, and render interactive generative algorithmic art, creative coding animations, and mathematical visualizations using p5.js and HTML5 Canvas. It covers noise field mathematics (Perlin/Simplex), particle physics, vector math, and high-DPI export.
@@ -9049,7 +9054,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1646 skills)
+## Python (1647 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10410,6 +10415,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [openclaw-security-hardening](../skills/security/appsec/openclaw_security_ha/openclaw-security-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for openclaw security hardening. Harden OpenClaw self-hosted environments with baseline host controls,
 - [osint-methodology](../skills/security/appsec/osint_methodology/osint-methodology/SKILL.md) — Use this skill to design, implement, and operate production workflows for osint methodology. Comprehensive OSINT methodology for external red-team operations and
 - [ot-ics](../skills/security/appsec/ot_ics/ot-ics/SKILL.md) — Use this skill to design, implement, and operate production workflows for ot ics. Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery, and passive-first evaluation discipline.
+- [penetration-testing](../skills/security/appsec/penetration_testing/penetration-testing/SKILL.md) — Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments.
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.

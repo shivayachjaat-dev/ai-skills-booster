@@ -31704,6 +31704,28 @@
     "maturity": "stable"
   },
   {
+    "name": "penetration-testing",
+    "path": "skills/security/appsec/penetration_testing/penetration-testing",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "penetration_testing",
+    "description": "Use this skill to design, implement, and operate production workflows for penetration testing. Perform basic penetration testing and security assessments.",
+    "tags": [
+      "security",
+      "appsec",
+      "penetration",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Penetration Testing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
