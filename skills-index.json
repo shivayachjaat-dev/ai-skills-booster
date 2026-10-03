@@ -31242,6 +31242,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ot-ics",
+    "path": "skills/security/appsec/ot_ics/ot-ics",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "ot_ics",
+    "description": "Use this skill to design, implement, and operate production workflows for ot ics. Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery, and passive-first evaluation discipline.",
+    "tags": [
+      "security",
+      "appsec",
+      "ot",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ot Ics",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
