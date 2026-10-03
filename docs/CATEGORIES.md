@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,824** skills across structured domains, categories, and subcategories.
+Master navigation for **1,825** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (626 skills)
+## Ai Engineering (627 skills)
 
 ### Agents (79 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -310,7 +310,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Caching** (1):
   - [prompt-caching](../skills/ai-engineering/llm-ops/prompt_caching/prompt-caching/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt caching. Caching strategies for LLM prompts including Anthropic prompt
 
-### Models (454 skills)
+### Models (455 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1196,6 +1196,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [project-based-performance](../skills/ai-engineering/models/project_based_perfor/project-based-performance/SKILL.md) — Use this skill to design, implement, and operate production workflows for project based performance. Project performance review: role, project and manager, delivery, quality and collaboration scores, overall score and feedback. Use for project appraisals.
 - **Projects_Work_Manage** (1):
   - [projects-work-management](../skills/ai-engineering/models/projects_work_manage/projects-work-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for projects work management. Project register: owner, team, priority, progress percentage, milestones, deliverables and budget against actual cost. Use for project tracking.
+- **Prompt_Engineer** (1):
+  - [prompt-engineer](../skills/ai-engineering/models/prompt_engineer/prompt-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineer. Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

@@ -12799,6 +12799,28 @@
     "maturity": "stable"
   },
   {
+    "name": "prompt-engineer",
+    "path": "skills/ai-engineering/models/prompt_engineer/prompt-engineer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "prompt_engineer",
+    "description": "Use this skill to design, implement, and operate production workflows for prompt engineer. Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "prompt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Prompt Engineer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
