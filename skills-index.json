@@ -13195,6 +13195,28 @@
     "maturity": "stable"
   },
   {
+    "name": "red-team-tools",
+    "path": "skills/ai-engineering/models/red_team_tools/red-team-tools",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "red_team_tools",
+    "description": "Use this skill to design, implement, and operate production workflows for red team tools. Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate common tasks while maintaining thorough coverage of attack surfaces.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "red",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Red Team Tools",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
