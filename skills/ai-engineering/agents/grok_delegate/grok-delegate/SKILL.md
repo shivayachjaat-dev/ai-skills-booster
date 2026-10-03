@@ -1,19 +1,20 @@
 ---
 name: grok-delegate
-description: "Use this skill to design, implement, and operate production workflows for grok delegate. Delegate coding tasks to the Grok Build CLI only when the user explicitly"
+description: "Delegate coding tasks to the Grok Build CLI only when explicitly authorized by the user, with sandbox isolation and exit code normalization."
 domain: ai-engineering
 category: agents
 subcategory: grok_delegate
 tags:
   - ai-engineering
   - agents
-  - grok
-  - automation
-  - production-ready
+  - delegation
+  - grok-cli
+  - subprocess-orchestration
 technologies:
-  - Grok Delegate
   - Python
-  - Bash
+  - Grok CLI
+  - Subprocess Management
+  - JSON Contracts
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,92 @@ tools:
 dependencies:
   - python@>=3.10
 ---
-# Grok Delegate Architecture & Implementation Standard
+
+# Grok CLI Delegation Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for grok delegate. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with grok-delegate.
+The **Grok Delegate** skill provides an enterprise standard for delegating autonomous coding subtasks to the Grok Build CLI. In heterogeneous multi-agent systems, routing tasks to secondary external CLI engines requires strict authorization boundaries, explicit user consent checks, filesystem sandboxing, and standardized exit code handling.
+
+This skill equips agents with `GrokDelegator`, an execution orchestrator that validates user consent, configures subprocess execution sandboxes, enforces timeouts, and normalizes output diffs into structured result payloads.
 
 ```
 +------------------------------------------------------------------------+
-|                   Grok Delegate                                       |
+|                         Grok Delegation Flow                           |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Inbound Task & Prompt ]                                             |
+|             |                                                          |
+|             v                                                          |
+|  [ Explicit Consent Gate ] ---> Rejects if user has not authorized     |
+|             |                                                          |
+|             v (Authorized)                                             |
+|  [ Process Sandboxing ]    ---> Binds to workspace directory & limits  |
+|             |                                                          |
+|             v                                                          |
+|  [ Process Subprocess ]    ---> Executes CLI with timeout guard        |
+|             |                                                          |
+|             v                                                          |
+|  [ Telemetry & Diff Log ]  ---> Captures modified files & exit codes   |
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to grok delegate.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When the user explicitly requests to delegate an implementation task to the Grok Build CLI.
+- When benchmarking Grok code generation capabilities on isolated modules.
+- When managing secondary coding agent CLI runtimes within an automated pipeline.
+- When executing sandbox-isolated code generation with strict process timeouts.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- When the user has not given explicit consent to route code or prompts to Grok.
+- General development workflows where the primary internal agent runtime suffices.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for grok-delegate..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Initialize Delegator & Check Availability
+Inspect the system environment to determine whether the Grok CLI is installed:
 
 ```python
-import sys
-import logging
+from grok_delegator import DelegationRequest, GrokDelegator
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("grok-delegate")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for grok-delegate")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+delegator = GrokDelegator(cli_binary="grok")
+print(f"Grok CLI Available: {delegator.is_available()}")
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Formulate Request with Explicit Consent
+Assemble the delegation request ensuring `explicit_user_consent` is verified:
 
-## Best Practices & Failure Modes
+```python
+request = DelegationRequest(
+    task_id="task-grok-101",
+    prompt="Refactor src/cache.py to use Redis connection pooling",
+    workspace_root="./project-root",
+    explicit_user_consent=True,
+    timeout_sec=45.0
+)
+```
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+### 3. Execute Delegation and Process Response
+Dispatch the request through the delegator and inspect results:
+
+```python
+response = delegator.execute_delegation(request)
+if not response.success:
+    print(f"Delegation failed: {response.error_message}")
+else:
+    print(f"Task completed in {response.duration_ms}ms: {response.output_summary}")
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/grok-delegate_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Execute the Grok delegation verification suite to test consent enforcement and execution normalization:
+
+```bash
+python scripts/grok-delegate_helper.py
+```
+
+Expected output:
+- Unconsented delegation requests rejected with security invariant violation.
+- Consented requests processed cleanly.
+- Status returned cleanly.
