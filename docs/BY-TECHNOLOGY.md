@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1670 skills)
+## Bash (1671 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1143,6 +1143,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [project-development](../skills/ai-engineering/agents/project_development/project-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for project development. This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development.
 - [prompt-engineering](../skills/ai-engineering/agents/prompt_engineering/prompt-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering. Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.
 - [protect-mcp-governance](../skills/ai-engineering/agents/protect_mcp_governan/protect-mcp-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for protect mcp governance. Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification.
+- [qoder-delegate](../skills/ai-engineering/agents/qoder_delegate/qoder-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for qoder delegate. Delegate coding tasks to the Qoder CLI (`qodercli`) only when the user
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
@@ -9634,7 +9635,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1773 skills)
+## Python (1774 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9714,6 +9715,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [project-development](../skills/ai-engineering/agents/project_development/project-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for project development. This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development.
 - [prompt-engineering](../skills/ai-engineering/agents/prompt_engineering/prompt-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering. Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.
 - [protect-mcp-governance](../skills/ai-engineering/agents/protect_mcp_governan/protect-mcp-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for protect mcp governance. Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification.
+- [qoder-delegate](../skills/ai-engineering/agents/qoder_delegate/qoder-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for qoder delegate. Delegate coding tasks to the Qoder CLI (`qodercli`) only when the user
 - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - [skill-security-audit](../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) — Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
@@ -11509,6 +11511,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Qiskit (1 skills)
 
 - [qiskit](../skills/frontend/ui-ux/qiskit/qiskit/SKILL.md) — Use this skill to design, implement, and operate production workflows for qiskit. Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Ama...
+
+## Qoder Delegate (1 skills)
+
+- [qoder-delegate](../skills/ai-engineering/agents/qoder_delegate/qoder-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for qoder delegate. Delegate coding tasks to the Qoder CLI (`qodercli`) only when the user
 
 ## REST (3 skills)
 

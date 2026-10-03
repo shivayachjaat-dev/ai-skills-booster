@@ -83,6 +83,7 @@ AI_Skills_Booster/
 │   │   ├── project_development/ (1 skills)
 │   │   ├── prompt_engineering/ (1 skills)
 │   │   ├── protect_mcp_governan/ (1 skills)
+│   │   ├── qoder_delegate/ (1 skills)
 │   │   ├── scheduling/ (1 skills)
 │   │   └── skill_security_audit/ (1 skills)
 │   ├── audio-processing/

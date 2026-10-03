@@ -1771,6 +1771,28 @@
     "maturity": "stable"
   },
   {
+    "name": "qoder-delegate",
+    "path": "skills/ai-engineering/agents/qoder_delegate/qoder-delegate",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "qoder_delegate",
+    "description": "Use this skill to design, implement, and operate production workflows for qoder delegate. Delegate coding tasks to the Qoder CLI (`qodercli`) only when the user",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "qoder",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Qoder Delegate",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-cron-and-autonomous-job-scheduling",
     "path": "skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling",
     "domain": "ai-engineering",
