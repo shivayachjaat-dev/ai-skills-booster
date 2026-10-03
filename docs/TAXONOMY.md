@@ -1566,6 +1566,7 @@ AI_Skills_Booster/
 │   │   ├── software_architectur/ (1 skills)
 │   │   ├── soroban_liquidity_po/ (1 skills)
 │   │   ├── source_driven_develo/ (1 skills)
+│   │   ├── spec_driven_developm/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
 │   └── web-architecture/

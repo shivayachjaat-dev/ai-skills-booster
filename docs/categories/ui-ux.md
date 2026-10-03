@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **253 skills** available in this category.
+> **254 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -255,5 +255,6 @@
 | [software-architecture](../../skills/frontend/ui-ux/software_architectur/software-architecture/SKILL.md) | `software_architectur` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for software architecture. Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development. |
 | [soroban-liquidity-pool](../../skills/frontend/ui-ux/soroban_liquidity_po/soroban-liquidity-pool/SKILL.md) | `soroban_liquidity_po` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for soroban liquidity pool. Automated market maker liquidity pool register: constant-product invariant curves, swap fee tiers, and LP token shares for Soroban DeFi. |
 | [source-driven-development](../../skills/frontend/ui-ux/source_driven_develo/source-driven-development/SKILL.md) | `source_driven_develo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for source driven development. Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters. |
+| [spec-driven-development](../../skills/frontend/ui-ux/spec_driven_developm/spec-driven-development/SKILL.md) | `spec_driven_developm` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spec driven development. Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

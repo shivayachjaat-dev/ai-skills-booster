@@ -32861,6 +32861,28 @@
     "maturity": "stable"
   },
   {
+    "name": "spec-driven-development",
+    "path": "skills/frontend/ui-ux/spec_driven_developm/spec-driven-development",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "spec_driven_developm",
+    "description": "Use this skill to design, implement, and operate production workflows for spec driven development. Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "spec",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Spec Driven Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
