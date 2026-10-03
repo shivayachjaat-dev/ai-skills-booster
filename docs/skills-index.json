@@ -14031,6 +14031,28 @@
     "maturity": "stable"
   },
   {
+    "name": "since-cutoff",
+    "path": "skills/ai-engineering/models/since_cutoff/since-cutoff",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "since_cutoff",
+    "description": "Use this skill to design, implement, and operate production workflows for since cutoff. Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code uses them, and write short AGENTS.md or CLAUDE.md notes.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "since",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Since Cutoff",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1868 skills)
+## Bash (1869 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1696,6 +1696,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [setup-help](../skills/ai-engineering/models/setup_help/setup-help/SKILL.md) — Use this skill to design, implement, and operate production workflows for setup help. Walk a user through setup or installation one step at a time with the remaining steps visible.
 - [setup-matt-pocock-skills](../skills/ai-engineering/models/setup_matt_pocock_sk/setup-matt-pocock-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for setup matt pocock skills. Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
 - [shodan-reconnaissance](../skills/ai-engineering/models/shodan_reconnaissanc/shodan-reconnaissance/SKILL.md) — Use this skill to design, implement, and operate production workflows for shodan reconnaissance. Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements.
+- [since-cutoff](../skills/ai-engineering/models/since_cutoff/since-cutoff/SKILL.md) — Use this skill to design, implement, and operate production workflows for since cutoff. Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code uses them, and write short AGENTS.md or CLAUDE.md notes.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -9848,7 +9849,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1971 skills)
+## Python (1972 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10480,6 +10481,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [setup-help](../skills/ai-engineering/models/setup_help/setup-help/SKILL.md) — Use this skill to design, implement, and operate production workflows for setup help. Walk a user through setup or installation one step at a time with the remaining steps visible.
 - [setup-matt-pocock-skills](../skills/ai-engineering/models/setup_matt_pocock_sk/setup-matt-pocock-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for setup matt pocock skills. Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
 - [shodan-reconnaissance](../skills/ai-engineering/models/shodan_reconnaissanc/shodan-reconnaissance/SKILL.md) — Use this skill to design, implement, and operate production workflows for shodan reconnaissance. Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements.
+- [since-cutoff](../skills/ai-engineering/models/since_cutoff/since-cutoff/SKILL.md) — Use this skill to design, implement, and operate production workflows for since cutoff. Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code uses them, and write short AGENTS.md or CLAUDE.md notes.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -13016,6 +13018,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Simplify Code (1 skills)
 
 - [simplify-code](../skills/software-engineering/architecture/patterns/simplify-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for simplify code. Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes.
+
+## Since Cutoff (1 skills)
+
+- [since-cutoff](../skills/ai-engineering/models/since_cutoff/since-cutoff/SKILL.md) — Use this skill to design, implement, and operate production workflows for since cutoff. Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code uses them, and write short AGENTS.md or CLAUDE.md notes.
 
 ## Skeuomorphism (1 skills)
 

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,050** skills across structured domains, categories, and subcategories.
+Master navigation for **2,051** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (693 skills)
+## Ai Engineering (694 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (502 skills)
+### Models (503 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1308,6 +1308,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [setup-matt-pocock-skills](../skills/ai-engineering/models/setup_matt_pocock_sk/setup-matt-pocock-skills/SKILL.md) — Use this skill to design, implement, and operate production workflows for setup matt pocock skills. Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
 - **Shodan_Reconnaissanc** (1):
   - [shodan-reconnaissance](../skills/ai-engineering/models/shodan_reconnaissanc/shodan-reconnaissance/SKILL.md) — Use this skill to design, implement, and operate production workflows for shodan reconnaissance. Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements.
+- **Since_Cutoff** (1):
+  - [since-cutoff](../skills/ai-engineering/models/since_cutoff/since-cutoff/SKILL.md) — Use this skill to design, implement, and operate production workflows for since cutoff. Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code uses them, and write short AGENTS.md or CLAUDE.md notes.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
