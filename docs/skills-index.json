@@ -15731,6 +15731,28 @@
     "maturity": "stable"
   },
   {
+    "name": "prisma-expert",
+    "path": "skills/backend/databases/prisma_expert/prisma-expert",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "prisma_expert",
+    "description": "Use this skill to design, implement, and operate production workflows for prisma expert. You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite.",
+    "tags": [
+      "backend",
+      "databases",
+      "prisma",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Prisma Expert",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "src-hunter",
     "path": "skills/backend/databases/src_hunter/src-hunter",
     "domain": "backend",

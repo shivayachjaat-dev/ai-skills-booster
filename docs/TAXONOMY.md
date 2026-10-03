@@ -720,6 +720,7 @@ AI_Skills_Booster/
 │   │   ├── postgres_best_practi/ (1 skills)
 │   │   ├── postgresql_devsec/ (1 skills)
 │   │   ├── postgresql_optimizat/ (1 skills)
+│   │   ├── prisma_expert/ (1 skills)
 │   │   └── src_hunter/ (1 skills)
 │   ├── documentation/
 │   │   └── openapi-generator/ (1 skills)
