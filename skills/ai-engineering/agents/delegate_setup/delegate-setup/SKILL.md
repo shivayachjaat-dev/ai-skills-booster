@@ -1,19 +1,20 @@
 ---
 name: delegate-setup
-description: "Use this skill to configure approved delegation lanes across installed implementer CLIs,"
+description: "Configure approved delegation lanes, CLI capability discovery, and fallback cascades across implementer coding agents."
 domain: ai-engineering
 category: agents
 subcategory: delegate_setup
 tags:
   - ai-engineering
   - agents
-  - delegate
-  - automation
-  - production-ready
+  - delegation
+  - cli-orchestration
+  - multi-agent
 technologies:
-  - Delegate Setup
   - Python
   - Bash
+  - JSON Schema
+  - Process Subprocess
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,84 @@ tools:
 dependencies:
   - python@>=3.10
 ---
+
 # Delegate Setup Architecture & Implementation Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for delegate setup. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with delegate-setup.
+The **Delegate Setup** skill defines an authoritative standard for orchestrating, discovering, and configuring delegation lanes across installed autonomous coding agent CLIs. In enterprise agentic workflows, complex tasks often require routing to specialized agent runtimes (such as Gemini, Claude, Copilot, Cline, or Aider). Without explicit delegation setup, agents risk running without sandboxing, invoking unverified binaries, or halting upon individual agent failures.
+
+This skill equips engineers and autonomous systems with deterministic tools to probe the host environment, assign security tiers (`strict_read_only`, `workspace_write_isolated`, `supervised_commit`, `full_delegation`), and assemble resilient failover cascades.
 
 ```
 +------------------------------------------------------------------------+
-|                   Delegate Setup                                      |
+|                       Delegate Setup Pipeline                          |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
+|  [ CLI Binary Discovery ]  ---> Checks system PATH & version status    |
 |                                           |                            |
 |                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
+|  [ Capability Assessment ] ---> Evaluates stdin pipes, JSON streams    |
 |                                           |                            |
 |                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Permission Tiering ]    ---> Enforces read/write/commit boundaries  |
+|                                           |                            |
+|                                           v                            |
+|  [ Policy & Cascades ]     ---> Emits .delegate-lanes.json routing     |
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to delegate setup.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When configuring multi-agent systems that delegate subtasks to external CLI agents.
+- When establishing secure operational sandboxes and authorization boundaries for automated coding agents.
+- When setting up multi-tier agent fallback ladders (e.g., primary LLM agent falling back to alternative local CLI engines).
+- When initializing a new development workstation or CI/CD container for autonomous operations.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Single-model agent environments that do not interact with or spawn secondary CLIs.
+- Embedded or microcontroller targets with no subprocess execution support.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for delegate-setup..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Environment & Implementer Discovery
+Probe system environment paths for known agent CLIs and construct a verified inventory:
 
 ```python
-import sys
-import logging
+from delegate_setup_orchestrator import DelegateSetupManager
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("delegate-setup")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for delegate-setup")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+manager = DelegateSetupManager()
+agents = manager.discover_installed_clis()
+for name, meta in agents.items():
+    print(f"Agent: {name} | Installed: {meta.installed} | Path: {meta.path}")
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Configure Security & Permission Lanes
+Assign each implementer agent to an appropriate security lane according to blast radius:
+- `strict_read_only`: Prohibits filesystem writes and version control modifications. Ideal for security analysis and code audits.
+- `workspace_write_isolated`: Allows modifying files strictly within current repository boundaries without git commit permissions.
+- `supervised_commit`: Permits staging and committing changes, requiring CI or user review for pushing.
+- `full_delegation`: Unrestricted pipeline execution for trusted release automation.
 
-## Best Practices & Failure Modes
+### 3. Generate Delegation Policy and Failover Ladder
+Emit a validated `.delegate-lanes.json` configuration file:
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+```python
+manager.configure_lane("gemini", "full_delegation")
+manager.configure_lane("claude", "supervised_commit")
+
+policy = manager.generate_policy(
+    primary="gemini",
+    fallbacks=["claude", "aider", "copilot"]
+)
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/delegate-setup_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Execute the comprehensive diagnostics suite to verify CLI detection and policy generation:
+
+```bash
+python scripts/delegate-setup_helper.py
+```
+
+All status checks should complete cleanly with zero policy validation errors.
