@@ -32729,6 +32729,28 @@
     "maturity": "stable"
   },
   {
+    "name": "soroban-liquidity-pool",
+    "path": "skills/frontend/ui-ux/soroban_liquidity_po/soroban-liquidity-pool",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "soroban_liquidity_po",
+    "description": "Use this skill to design, implement, and operate production workflows for soroban liquidity pool. Automated market maker liquidity pool register: constant-product invariant curves, swap fee tiers, and LP token shares for Soroban DeFi.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "soroban",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Soroban Liquidity Pool",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",

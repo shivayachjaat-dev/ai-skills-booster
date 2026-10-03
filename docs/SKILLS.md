@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,087 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,088 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1473,6 +1473,7 @@
 | [slack-bot-builder](skills/frontend/ui-ux/slack_bot_builder/slack-bot-builder/SKILL.md) | `frontend` | `ui-ux` | `slack_bot_builder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for slack bot builder. Build Slack apps using the Bolt framework across Python, |
 | [social-content](skills/frontend/ui-ux/social_content/social-content/SKILL.md) | `frontend` | `ui-ux` | `social_content` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social content. You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals. |
 | [software-architecture](skills/frontend/ui-ux/software_architectur/software-architecture/SKILL.md) | `frontend` | `ui-ux` | `software_architectur` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for software architecture. Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development. |
+| [soroban-liquidity-pool](skills/frontend/ui-ux/soroban_liquidity_po/soroban-liquidity-pool/SKILL.md) | `frontend` | `ui-ux` | `soroban_liquidity_po` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for soroban liquidity pool. Automated market maker liquidity pool register: constant-product invariant curves, swap fee tiers, and LP token shares for Soroban DeFi. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
 | [3d-ui](skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) | `frontend` | `web-architecture` | `3d_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth. |
