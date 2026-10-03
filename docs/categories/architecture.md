@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **232 skills** available in this category.
+> **233 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -234,5 +234,6 @@
 | [puzzle-activity-planner](../../skills/software-engineering/architecture/patterns/puzzle-activity-planner/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for puzzle activity planner. Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links |
 | [quality-nonconformance](../../skills/software-engineering/architecture/patterns/quality-nonconformance/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for quality nonconformance. Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing. |
 | [re-create](../../skills/software-engineering/architecture/patterns/re-create/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for re create. Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible. |
+| [read-all-adrs](../../skills/software-engineering/architecture/patterns/read-all-adrs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for read all adrs. Read every ADR in a project before summarizing architectural context or decisions. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

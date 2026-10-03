@@ -41121,6 +41121,28 @@
     "maturity": "stable"
   },
   {
+    "name": "read-all-adrs",
+    "path": "skills/software-engineering/architecture/patterns/read-all-adrs",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for read all adrs. Read every ADR in a project before summarizing architectural context or decisions.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "read",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Read All Adrs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
