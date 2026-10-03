@@ -37820,6 +37820,28 @@
     "maturity": "stable"
   },
   {
+    "name": "solidity-security",
+    "path": "skills/security/appsec/solidity_security/solidity-security",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "solidity_security",
+    "description": "Use this skill to design, implement, and operate production workflows for solidity security. Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns.",
+    "tags": [
+      "security",
+      "appsec",
+      "solidity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Solidity Security",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",
