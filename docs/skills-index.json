@@ -13877,6 +13877,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-dataforseo",
+    "path": "skills/ai-engineering/models/seo_dataforseo/seo-dataforseo",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "seo_dataforseo",
+    "description": "Use this skill to design, implement, and operate production workflows for seo dataforseo. Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Dataforseo",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

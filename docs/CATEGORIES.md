@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,017** skills across structured domains, categories, and subcategories.
+Master navigation for **2,018** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (685 skills)
+## Ai Engineering (686 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (495 skills)
+### Models (496 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1294,6 +1294,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [seo-engineering-workflow](../skills/ai-engineering/models/seo/seo-engineering-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo engineering workflow. Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO. Use as the umbrella skill when the user asks for a full SEO analysis or strategy.
 - **Seo_Content_Refreshe** (1):
   - [seo-content-refresher](../skills/ai-engineering/models/seo_content_refreshe/seo-content-refresher/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo content refresher. Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.
+- **Seo_Dataforseo** (1):
+  - [seo-dataforseo](../skills/ai-engineering/models/seo_dataforseo/seo-dataforseo/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo dataforseo. Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

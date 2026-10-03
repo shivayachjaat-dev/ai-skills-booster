@@ -631,6 +631,7 @@ AI_Skills_Booster/
 │   │   ├── senior_frontend/ (1 skills)
 │   │   ├── seo/ (1 skills)
 │   │   ├── seo_content_refreshe/ (1 skills)
+│   │   ├── seo_dataforseo/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
