@@ -27911,6 +27911,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postgresql-cli",
+    "path": "skills/frontend/ui-ux/postgresql_cli/postgresql-cli",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "postgresql_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for postgresql cli. PostgreSQL interactive terminal (psql) reference and usage guide.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "postgresql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postgresql Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

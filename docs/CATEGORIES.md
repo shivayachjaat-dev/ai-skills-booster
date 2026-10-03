@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,775** skills across structured domains, categories, and subcategories.
+Master navigation for **1,776** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (612 skills)
 
@@ -2325,7 +2325,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (351 skills)
+## Frontend (352 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2491,7 +2491,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (210 skills)
+### Ui Ux (211 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2908,6 +2908,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [platform-engineering](../skills/frontend/ui-ux/platform_engineering/platform-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for platform engineering. Build internal developer platforms (IDPs) with self-service infrastructure,
 - **Policy_Library** (1):
   - [policy-library](../skills/frontend/ui-ux/policy_library/policy-library/SKILL.md) — Use this skill to design, implement, and operate production workflows for policy library. Policy register: name, version, category, owner and approver, applies to, compliance framework, acknowledgement requirement, effective date and next review. Use for policy management.
+- **Postgresql_Cli** (1):
+  - [postgresql-cli](../skills/frontend/ui-ux/postgresql_cli/postgresql-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql cli. PostgreSQL interactive terminal (psql) reference and usage guide.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
