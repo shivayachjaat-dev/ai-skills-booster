@@ -43915,6 +43915,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-aeo-landing-page-writer",
+    "path": "skills/software-engineering/architecture/patterns/seo-aeo-landing-page-writer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for seo aeo landing page writer. Writes or improves conversion-focused landing pages for products, services, and offers with practical SEO and AEO structure.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Aeo Landing Page Writer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
