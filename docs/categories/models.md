@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **450 skills** available in this category.
+> **451 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -447,6 +447,7 @@
 | [privacy-mask](../../skills/ai-engineering/models/privacy_mask/privacy-mask/SKILL.md) | `privacy_mask` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for privacy mask. Mask, redact, anonymize and censor sensitive information (PII) in screenshots and images — phone numbers, emails, IDs, API keys, crypto wallets, credit cards, passwords, and more. |
 | [product-design](../../skills/ai-engineering/models/product_design/product-design/SKILL.md) | `product_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product design. Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff. Cobre Figma, design systems, tipografia, cor, espacamento, motion design e principios de design cognitivo. |
 | [product-manager](../../skills/ai-engineering/models/product_manager/product-manager/SKILL.md) | `product_manager` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product manager. Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts. |
+| [product-photo-studio](../../skills/ai-engineering/models/product_photo_studio/product-photo-studio/SKILL.md) | `product_photo_studio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product photo studio. Install and use the official AI Product Photography package, pinned by digest, for paid hosted work on the Beatra service. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

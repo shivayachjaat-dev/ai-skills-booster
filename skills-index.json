@@ -12667,6 +12667,28 @@
     "maturity": "stable"
   },
   {
+    "name": "product-photo-studio",
+    "path": "skills/ai-engineering/models/product_photo_studio/product-photo-studio",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "product_photo_studio",
+    "description": "Use this skill to design, implement, and operate production workflows for product photo studio. Install and use the official AI Product Photography package, pinned by digest, for paid hosted work on the Beatra service.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "product",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Product Photo Studio",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
