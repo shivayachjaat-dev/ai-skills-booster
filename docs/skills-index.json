@@ -44399,6 +44399,28 @@
     "maturity": "stable"
   },
   {
+    "name": "server-management",
+    "path": "skills/software-engineering/architecture/patterns/server-management",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for server management. Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "server",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Server Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",

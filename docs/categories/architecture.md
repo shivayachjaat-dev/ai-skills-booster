@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **267 skills** available in this category.
+> **268 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -270,4 +270,5 @@
 | [seo-snippet-hunter](../../skills/software-engineering/architecture/patterns/seo-snippet-hunter/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo snippet hunter. Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content. |
 | [seo-structure-architect](../../skills/software-engineering/architecture/patterns/seo-structure-architect/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo structure architect. Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization. |
 | [sequence-psychologist](../../skills/software-engineering/architecture/patterns/sequence-psychologist/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sequence psychologist. One sentence - what this skill does and when to invoke it |
+| [server-management](../../skills/software-engineering/architecture/patterns/server-management/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for server management. Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
