@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1524 skills)
+## Bash (1525 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2575,6 +2575,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [orchestrate-batch-refactor](../skills/software-engineering/architecture/patterns/orchestrate-batch-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for orchestrate batch refactor. Plan and execute large refactors with dependency-aware work packets and parallel analysis.
 - [os-scripting](../skills/software-engineering/architecture/patterns/os-scripting/SKILL.md) — Use this skill to design, implement, and operate production workflows for os scripting. Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and automation.
 - [oss-hunter](../skills/software-engineering/architecture/patterns/oss-hunter/SKILL.md) — Use this skill to design, implement, and operate production workflows for oss hunter. Automatically hunt for high-impact OSS contribution opportunities in trending repositories.
+- [page-cro](../skills/software-engineering/architecture/patterns/page-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for page cro. Analyze and optimize individual pages for conversion performance.
 - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
@@ -8771,6 +8772,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 
+## Page Cro (1 skills)
+
+- [page-cro](../skills/software-engineering/architecture/patterns/page-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for page cro. Analyze and optimize individual pages for conversion performance.
+
 ## PagerDuty API (1 skills)
 
 - [ai-sre-autonomous-incident-triage-and-remediation](../skills/devops/sre/incident-remediation/ai-sre-autonomous-incident-triage-and-remediation/SKILL.md) — Use this skill to design and deploy autonomous AI-driven Site Reliability Engineering (SRE) incident response and triage workflows. It covers alerting webhook ingestion (PagerDuty, Datadog), automated log/trace correlation, blast-radius assessment, safe auto-remediation playbooks, and blameless post-mortem drafting.
@@ -8954,7 +8959,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1627 skills)
+## Python (1628 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10550,6 +10555,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [orchestrate-batch-refactor](../skills/software-engineering/architecture/patterns/orchestrate-batch-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for orchestrate batch refactor. Plan and execute large refactors with dependency-aware work packets and parallel analysis.
 - [os-scripting](../skills/software-engineering/architecture/patterns/os-scripting/SKILL.md) — Use this skill to design, implement, and operate production workflows for os scripting. Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and automation.
 - [oss-hunter](../skills/software-engineering/architecture/patterns/oss-hunter/SKILL.md) — Use this skill to design, implement, and operate production workflows for oss hunter. Automatically hunt for high-impact OSS contribution opportunities in trending repositories.
+- [page-cro](../skills/software-engineering/architecture/patterns/page-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for page cro. Analyze and optimize individual pages for conversion performance.
 - [patterns](../skills/software-engineering/architecture/patterns/patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns.
 - [pc-games](../skills/software-engineering/architecture/patterns/pc-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies.
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.

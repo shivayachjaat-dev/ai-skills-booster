@@ -37315,6 +37315,28 @@
     "maturity": "stable"
   },
   {
+    "name": "page-cro",
+    "path": "skills/software-engineering/architecture/patterns/page-cro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for page cro. Analyze and optimize individual pages for conversion performance.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "page",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Page Cro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",

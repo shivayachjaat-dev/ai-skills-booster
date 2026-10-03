@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,706 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,707 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1673,6 +1673,7 @@
 | [orchestrate-batch-refactor](skills/software-engineering/architecture/patterns/orchestrate-batch-refactor/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for orchestrate batch refactor. Plan and execute large refactors with dependency-aware work packets and parallel analysis. |
 | [os-scripting](skills/software-engineering/architecture/patterns/os-scripting/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for os scripting. Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and automation. |
 | [oss-hunter](skills/software-engineering/architecture/patterns/oss-hunter/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for oss hunter. Automatically hunt for high-impact OSS contribution opportunities in trending repositories. |
+| [page-cro](skills/software-engineering/architecture/patterns/page-cro/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for page cro. Analyze and optimize individual pages for conversion performance. |
 | [patterns](skills/software-engineering/architecture/patterns/patterns/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for patterns. Reference document for monopoly patterns. |
 | [pc-games](skills/software-engineering/architecture/patterns/pc-games/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pc games. PC and console game development principles. Engine selection, platform features, optimization strategies. |
 | [scale-benchmarks](skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
