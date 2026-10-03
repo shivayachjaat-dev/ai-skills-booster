@@ -46709,6 +46709,28 @@
     "maturity": "stable"
   },
   {
+    "name": "supabase",
+    "path": "skills/software-engineering/architecture/patterns/supabase",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for supabase. Use when doing ANY task involving Supabase.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "supabase",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Supabase",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
