@@ -14660,6 +14660,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postman-collection-generator",
+    "path": "skills/backend/api-frameworks/postman_collection_g/postman-collection-generator",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "postman_collection_g",
+    "description": "Use this skill to design, implement, and operate production workflows for postman collection generator. Generate complete, import-ready Postman Collection v2.1 JSON files from natural language API descriptions or cURL commands.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "postman",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postman Collection Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,779** skills across structured domains, categories, and subcategories.
+Master navigation for **1,780** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (612 skills)
 
@@ -1290,7 +1290,7 @@ Category index: [`docs/categories/vector-search.md`](categories/vector-search.md
 - **Spectral Embeddings** (1):
   - [spectral-graph-laplacian-vector-search](../skills/ai-engineering/vector-search/spectral-embeddings/spectral-graph-laplacian-vector-search/SKILL.md) — Use this skill to design and implement spectral vector search, graph Laplacian manifold learning, and non-linear embedding retrieval algorithms using NumPy and SciPy. It extracts latent cluster topology and non-Euclidean manifold structure that standard cosine or Euclidean L2 similarity metrics fail to capture.
 
-## Backend (114 skills)
+## Backend (115 skills)
 
 ### Api Design (10 skills)
 Category index: [`docs/categories/api-design.md`](categories/api-design.md)
@@ -1316,7 +1316,7 @@ Category index: [`docs/categories/api-design.md`](categories/api-design.md)
 - **Rate Limiting** (1):
   - [api-rate-limiting-and-throttling](../skills/backend/api-design/rate-limiting/api-rate-limiting-and-throttling/SKILL.md) — Use this skill when designing, implementing, and tuning API rate limiters and request throttling systems. It guides the agent through algorithm selection (Token Bucket, Leaky Bucket, Sliding Window Counter), distributed synchronization with Redis, HTTP 429 response formatting, Tier-based limits, and atomic Lua script execution to prevent race conditions.
 
-### Api Frameworks (39 skills)
+### Api Frameworks (40 skills)
 Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.md)
 
 - **Atlas_Cloud_Media** (1):
@@ -1395,6 +1395,8 @@ Category index: [`docs/categories/api-frameworks.md`](categories/api-frameworks.
   - [openapi-spec-generator](../skills/backend/api-frameworks/openapi_spec_generat/openapi-spec-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for openapi spec generator. Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs.
 - **Performance_Optimize** (1):
   - [performance-optimizer](../skills/backend/api-frameworks/performance_optimize/performance-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance optimizer. Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.
+- **Postman_Collection_G** (1):
+  - [postman-collection-generator](../skills/backend/api-frameworks/postman_collection_g/postman-collection-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for postman collection generator. Generate complete, import-ready Postman Collection v2.1 JSON files from natural language API descriptions or cURL commands.
 
 ### Background Tasks (1 skills)
 Category index: [`docs/categories/background-tasks.md`](categories/background-tasks.md)
