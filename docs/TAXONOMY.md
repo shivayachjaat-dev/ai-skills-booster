@@ -940,7 +940,8 @@ AI_Skills_Booster/
 │   │   ├── social_media_setup/ (1 skills)
 │   │   ├── sop_company_wiki/ (1 skills)
 │   │   ├── stakeholder_investor/ (1 skills)
-│   │   └── startup_analyst/ (1 skills)
+│   │   ├── startup_analyst/ (1 skills)
+│   │   └── startup_business_ana/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/
