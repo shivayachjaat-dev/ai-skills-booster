@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,721 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,722 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -550,6 +550,7 @@
 | [party-ledger-reconciliation](skills/ai-engineering/models/party_ledger_reconci/party-ledger-reconciliation/SKILL.md) | `ai-engineering` | `models` | `party_ledger_reconci` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for party ledger reconciliation. Party ledger reconciliation: party type, name and PAN/VAT, ledger against statement balance, difference and reason, duplicates, confirmation status and adjustment. Use for balance checks. |
 | [payment-accounting](skills/ai-engineering/models/payment_accounting/payment-accounting/SKILL.md) | `ai-engineering` | `models` | `payment_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for payment accounting. Payment voucher register: payment number and date, paid to and purpose, mode, gross amount, TDS rate and deducted, net paid, invoice allocation, ledger and reconciliation status. Use for vouchers. |
 | [paywall-upgrade-cro](skills/ai-engineering/models/paywall_upgrade_cro/paywall-upgrade-cro/SKILL.md) | `ai-engineering` | `models` | `paywall_upgrade_cro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for paywall upgrade cro. You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment. |
+| [pci-compliance](skills/ai-engineering/models/pci_compliance/pci-compliance/SKILL.md) | `ai-engineering` | `models` | `pci_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pci compliance. Review payment data flows and engineering control evidence for a scoped PCI assessment, without claiming certification. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
