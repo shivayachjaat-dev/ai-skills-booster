@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,105** skills across structured domains, categories, and subcategories.
+Master navigation for **2,106** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (712 skills)
 
@@ -4163,9 +4163,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (290 skills)
+## Software Engineering (291 skills)
 
-### Architecture (283 skills)
+### Architecture (284 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -4174,7 +4174,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (280):
+- **Patterns** (281):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -4454,6 +4454,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [social-post-writer-seo](../skills/software-engineering/architecture/patterns/social-post-writer-seo/SKILL.md) — Use this skill to design, implement, and operate production workflows for social post writer seo. Social Media Strategist and Content Writer. Creates clear, engaging social media posts for Instagram, LinkedIn, and Facebook.
   - [social-proof-architect](../skills/software-engineering/architecture/patterns/social-proof-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for social proof architect. One sentence - what this skill does and when to invoke it
   - [speckit-updater](../skills/software-engineering/architecture/patterns/speckit-updater/SKILL.md) — Use this skill to design, implement, and operate production workflows for speckit updater. SpecKit Safe Update
+  - [sred-project-organizer](../skills/software-engineering/architecture/patterns/sred-project-organizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for sred project organizer. Take a list of projects and their related documentation, and organize them into the SRED format for submission.
   - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 
 ### Code Review (1 skills)

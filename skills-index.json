@@ -46049,6 +46049,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sred-project-organizer",
+    "path": "skills/software-engineering/architecture/patterns/sred-project-organizer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for sred project organizer. Take a list of projects and their related documentation, and organize them into the SRED format for submission.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "sred",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sred Project Organizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
