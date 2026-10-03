@@ -604,6 +604,7 @@ AI_Skills_Booster/
 │   │   ├── remote_gpu_trainer/ (1 skills)
 │   │   ├── repo_maintainer/ (1 skills)
 │   │   ├── repo_native_refactor/ (1 skills)
+│   │   ├── returns_reverse_logi/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

@@ -13283,6 +13283,28 @@
     "maturity": "stable"
   },
   {
+    "name": "returns-reverse-logistics",
+    "path": "skills/ai-engineering/models/returns_reverse_logi/returns-reverse-logistics",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "returns_reverse_logi",
+    "description": "Use this skill to design, implement, and operate production workflows for returns reverse logistics. Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "returns",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Returns Reverse Logistics",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
