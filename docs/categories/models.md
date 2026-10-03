@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **475 skills** available in this category.
+> **476 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -472,6 +472,7 @@
 | [reverse-engineer](../../skills/ai-engineering/models/reverse_engineer/reverse-engineer/SKILL.md) | `reverse_engineer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reverse engineer. Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains. |
 | [review-animations](../../skills/ai-engineering/models/review_animations/review-animations/SKILL.md) | `review_animations` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for review animations. Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-quality bar. |
 | [routerbase-model-gateway](../../skills/ai-engineering/models/routerbase_model_gat/routerbase-model-gateway/SKILL.md) | `routerbase_model_gat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for routerbase model gateway. Integrate RouterBase as an OpenAI-compatible model gateway for routing GPT, Claude, Gemini, media, audio, and embedding requests. |
+| [ruby-pro](../../skills/ai-engineering/models/ruby_pro/ruby-pro/SKILL.md) | `ruby_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ruby pro. Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

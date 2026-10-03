@@ -13415,6 +13415,28 @@
     "maturity": "stable"
   },
   {
+    "name": "ruby-pro",
+    "path": "skills/ai-engineering/models/ruby_pro/ruby-pro",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "ruby_pro",
+    "description": "Use this skill to design, implement, and operate production workflows for ruby pro. Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "ruby",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Ruby Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
