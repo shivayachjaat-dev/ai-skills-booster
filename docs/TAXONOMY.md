@@ -561,6 +561,7 @@ AI_Skills_Booster/
 │   │   ├── people_directory/ (1 skills)
 │   │   ├── performance_testing_/ (1 skills)
 │   │   ├── pilot_protocol/ (1 skills)
+│   │   ├── pipecat_friday_agent/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
