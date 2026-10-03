@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,169** skills across structured domains, categories, and subcategories.
+Master navigation for **2,170** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (730 skills)
 
@@ -2425,9 +2425,9 @@ Category index: [`docs/categories/sdk-generation.md`](categories/sdk-generation.
 - **Openapi Generator** (1):
   - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 
-## Devops (116 skills)
+## Devops (117 skills)
 
-### Ci Cd (51 skills)
+### Ci Cd (52 skills)
 Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
 
 - **Aws_Cost_Optimizatio** (1):
@@ -2532,6 +2532,8 @@ Category index: [`docs/categories/ci-cd.md`](categories/ci-cd.md)
   - [ssh-configuration](../skills/devops/ci-cd/ssh_configuration/ssh-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for ssh configuration. Configure SSH servers and clients securely. Manage keys, tunnels, and
 - **Startup_It_Troublesh** (1):
   - [startup-it-troubleshooting](../skills/devops/ci-cd/startup_it_troublesh/startup-it-troubleshooting/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup it troubleshooting. Practical IT troubleshooting playbooks for small teams without dedicated
+- **Systemd_Services** (1):
+  - [systemd-services](../skills/devops/ci-cd/systemd_services/systemd-services/SKILL.md) — Use this skill to design, implement, and operate production workflows for systemd services. Create and manage systemd services and timers. Configure service dependencies
 
 ### Cloud Infrastructure (43 skills)
 Category index: [`docs/categories/cloud-infrastructure.md`](categories/cloud-infrastructure.md)

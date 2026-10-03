@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **51 skills** available in this category.
+> **52 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -55,3 +55,4 @@
 | [sre-dashboards](../../skills/devops/ci-cd/sre_dashboards/sre-dashboards/SKILL.md) | `sre_dashboards` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sre dashboards. Design and operationalize SRE dashboards that surface reliability, latency, |
 | [ssh-configuration](../../skills/devops/ci-cd/ssh_configuration/ssh-configuration/SKILL.md) | `ssh_configuration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ssh configuration. Configure SSH servers and clients securely. Manage keys, tunnels, and |
 | [startup-it-troubleshooting](../../skills/devops/ci-cd/startup_it_troublesh/startup-it-troubleshooting/SKILL.md) | `startup_it_troublesh` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup it troubleshooting. Practical IT troubleshooting playbooks for small teams without dedicated |
+| [systemd-services](../../skills/devops/ci-cd/systemd_services/systemd-services/SKILL.md) | `systemd_services` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for systemd services. Create and manage systemd services and timers. Configure service dependencies |

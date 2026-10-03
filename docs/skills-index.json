@@ -24884,6 +24884,28 @@
     "maturity": "stable"
   },
   {
+    "name": "systemd-services",
+    "path": "skills/devops/ci-cd/systemd_services/systemd-services",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "systemd_services",
+    "description": "Use this skill to design, implement, and operate production workflows for systemd services. Create and manage systemd services and timers. Configure service dependencies",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "systemd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Systemd Services",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "amazon-alexa",
     "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
     "domain": "devops",
