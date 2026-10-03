@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **34 skills** available in this category.
+> **35 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -38,3 +38,4 @@
 | [performance-management](../../skills/business/operations/performance_manageme/performance-management/SKILL.md) | `performance_manageme` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance management. Performance review register: review type, period, employee and reviewer, KPI, OKR and behaviour scores, overall rating, PIP and promotion flags, development plan. Use for performance reviews. |
 | [petty-cash-management](../../skills/business/operations/petty_cash_managemen/petty-cash-management/SKILL.md) | `petty_cash_managemen` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for petty cash management. Petty cash register: entry number, date and type, payee and purpose, cash in and out, running balance, cash limit flag, custodian, physical count and variance. Use for petty cash. |
 | [policy-acknowledgement](../../skills/business/operations/policy_acknowledgeme/policy-acknowledgement/SKILL.md) | `policy_acknowledgeme` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for policy acknowledgement. Policy acknowledgement register: employee, policy and version, sent and due dates, acknowledged date and flag, days overdue, reminder sent and status. Use for policy sign-off tracking. |
+| [probation-tracker](../../skills/business/operations/probation_tracker/probation-tracker/SKILL.md) | `probation_tracker` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for probation tracker. Probation register: employee, start and end dates, 30, 60 and 90-day review scores, overall score and confirmation letter. Use for probation tracking. |

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,801** skills across structured domains, categories, and subcategories.
+Master navigation for **1,802** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (617 skills)
 
@@ -1599,7 +1599,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (49 skills)
+## Business (50 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1647,7 +1647,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (34 skills)
+### Operations (35 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1718,6 +1718,8 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [petty-cash-management](../skills/business/operations/petty_cash_managemen/petty-cash-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for petty cash management. Petty cash register: entry number, date and type, payee and purpose, cash in and out, running balance, cash limit flag, custodian, physical count and variance. Use for petty cash.
 - **Policy_Acknowledgeme** (1):
   - [policy-acknowledgement](../skills/business/operations/policy_acknowledgeme/policy-acknowledgement/SKILL.md) — Use this skill to design, implement, and operate production workflows for policy acknowledgement. Policy acknowledgement register: employee, policy and version, sent and due dates, acknowledged date and flag, days overdue, reminder sent and status. Use for policy sign-off tracking.
+- **Probation_Tracker** (1):
+  - [probation-tracker](../skills/business/operations/probation_tracker/probation-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for probation tracker. Probation register: employee, start and end dates, 30, 60 and 90-day review scores, overall score and confirmation letter. Use for probation tracking.
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)

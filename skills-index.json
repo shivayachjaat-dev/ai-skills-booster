@@ -17364,6 +17364,28 @@
     "maturity": "stable"
   },
   {
+    "name": "probation-tracker",
+    "path": "skills/business/operations/probation_tracker/probation-tracker",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "probation_tracker",
+    "description": "Use this skill to design, implement, and operate production workflows for probation tracker. Probation register: employee, start and end dates, 30, 60 and 90-day review scores, overall score and confirmation letter. Use for probation tracking.",
+    "tags": [
+      "business",
+      "operations",
+      "probation",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Probation Tracker",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
