@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,043** skills across structured domains, categories, and subcategories.
+Master navigation for **2,044** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (693 skills)
 
@@ -2175,7 +2175,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (59 skills)
+## Developer Tools (60 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -2213,7 +2213,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Satori** (1):
   - [satori](../skills/developer-tools/cli-utilities/satori/satori/SKILL.md) — Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner
 
-### Productivity (43 skills)
+### Productivity (44 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -2302,6 +2302,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [sentry-automation](../skills/developer-tools/productivity/sentry_automation/sentry-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for sentry automation. Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.
 - **Serply_Search_Mcp** (1):
   - [serply-search-mcp](../skills/developer-tools/productivity/serply_search_mcp/serply-search-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for serply search mcp. Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the user chooses Serply or its connected tools for current information and source verification.
+- **Shopify_Automation** (1):
+  - [shopify-automation](../skills/developer-tools/productivity/shopify_automation/shopify-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for shopify automation. Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

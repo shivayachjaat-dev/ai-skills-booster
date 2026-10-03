@@ -22477,6 +22477,28 @@
     "maturity": "stable"
   },
   {
+    "name": "shopify-automation",
+    "path": "skills/developer-tools/productivity/shopify_automation/shopify-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "shopify_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for shopify automation. Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "shopify",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Shopify Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
