@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,155 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,156 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -2120,6 +2120,7 @@
 | [stellar-multisig-threshold-coordinator](skills/software-engineering/architecture/patterns/stellar-multisig-threshold-coordinator/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stellar multisig threshold coordinator. Multi-signature signer and threshold coordination register: weight configurations, master key locks, and cosigner quorum thresholds for Stellar. |
 | [subject-line-psychologist](skills/software-engineering/architecture/patterns/subject-line-psychologist/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for subject line psychologist. One sentence - what this skill does and when to invoke it |
 | [supabase](skills/software-engineering/architecture/patterns/supabase/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supabase. Use when doing ANY task involving Supabase. |
+| [superpowers-lab](skills/software-engineering/architecture/patterns/superpowers-lab/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for superpowers lab. Lab environment for Claude superpowers |
 | [tech-matrix](skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `software-engineering` | `architecture` | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
 | [github-pr-review-feedback-resolver](skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) | `software-engineering` | `code-review` | `pr-feedback` | `intermediate` | `stable` | Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads. |
 | [debugging-and-error-recovery](skills/software-engineering/debugging/recovery/debugging-and-error-recovery/SKILL.md) | `software-engineering` | `debugging` | `recovery` | `advanced` | `stable` | Use this skill when diagnosing obscure bugs, production failures, memory leaks, race conditions, or unhandled exceptions. It enforces scientific hypothesis-driven debugging, minimal reproduction synthesis, stack trace isolation, binary search bisecting, and permanent regression test installation. |

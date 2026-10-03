@@ -47149,6 +47149,28 @@
     "maturity": "stable"
   },
   {
+    "name": "superpowers-lab",
+    "path": "skills/software-engineering/architecture/patterns/superpowers-lab",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for superpowers lab. Lab environment for Claude superpowers",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "superpowers",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Superpowers Lab",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
