@@ -18825,6 +18825,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postman-newman-automation",
+    "path": "skills/developer-tools/cli-utilities/postman_newman_autom/postman-newman-automation",
+    "domain": "developer-tools",
+    "category": "cli-utilities",
+    "subcategory": "postman_newman_autom",
+    "description": "Use this skill to design, implement, and operate production workflows for postman newman automation. Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments.",
+    "tags": [
+      "developer-tools",
+      "cli-utilities",
+      "postman",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postman Newman Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "asana-automation",
     "path": "skills/developer-tools/productivity/asana_automation/asana-automation",
     "domain": "developer-tools",

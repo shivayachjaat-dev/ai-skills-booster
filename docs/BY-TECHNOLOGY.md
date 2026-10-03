@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1598 skills)
+## Bash (1599 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1835,6 +1835,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [linkedin-cli](../skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.
 - [n8n-multi-instance](../skills/developer-tools/cli-utilities/n8n_multi_instance/n8n-multi-instance/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n multi instance. Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes.
 - [obsidian-cli](../skills/developer-tools/cli-utilities/obsidian_cli/obsidian-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for obsidian cli. Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line.
+- [postman-newman-automation](../skills/developer-tools/cli-utilities/postman_newman_autom/postman-newman-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for postman newman automation. Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments.
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 - [bamboohr-automation](../skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) — Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.
 - [basecamp-automation](../skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) — Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas.
@@ -9206,6 +9207,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [postman-collection-generator](../skills/backend/api-frameworks/postman_collection_g/postman-collection-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for postman collection generator. Generate complete, import-ready Postman Collection v2.1 JSON files from natural language API descriptions or cURL commands.
 
+## Postman Newman Automation (1 skills)
+
+- [postman-newman-automation](../skills/developer-tools/cli-utilities/postman_newman_autom/postman-newman-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for postman newman automation. Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments.
+
 ## PowerShell (2 skills)
 
 - [azure-arm-and-bicep-infrastructure-as-code](../skills/devops/infrastructure/azure-bicep/azure-arm-and-bicep-infrastructure-as-code/SKILL.md) — Use this skill to design, validate, and deploy modular Azure infrastructure using Bicep and ARM templates. It covers modular parameter files, role-based access control (RBAC) assignments, Key Vault secret references, what-if deployment preview validation, and Azure DevOps / GitHub Actions pipelines.
@@ -9317,7 +9322,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1701 skills)
+## Python (1702 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10140,6 +10145,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [linkedin-cli](../skills/developer-tools/cli-utilities/linkedin_cli/linkedin-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for linkedin cli. Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.
 - [n8n-multi-instance](../skills/developer-tools/cli-utilities/n8n_multi_instance/n8n-multi-instance/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n multi instance. Select, verify, and safely switch n8n MCP instances across production, staging, teams, or clients, especially before credential writes.
 - [obsidian-cli](../skills/developer-tools/cli-utilities/obsidian_cli/obsidian-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for obsidian cli. Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line.
+- [postman-newman-automation](../skills/developer-tools/cli-utilities/postman_newman_autom/postman-newman-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for postman newman automation. Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments.
 - [asana-automation](../skills/developer-tools/productivity/asana_automation/asana-automation/SKILL.md) — Use this skill to automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
 - [bamboohr-automation](../skills/developer-tools/productivity/bamboohr_automation/bamboohr-automation/SKILL.md) — Use this skill to automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.
 - [basecamp-automation](../skills/developer-tools/productivity/basecamp_automation/basecamp-automation/SKILL.md) — Use this skill to automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas.

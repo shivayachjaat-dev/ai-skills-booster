@@ -904,7 +904,8 @@ AI_Skills_Booster/
 │   │   ├── it_manager_hospital/ (1 skills)
 │   │   ├── linkedin_cli/ (1 skills)
 │   │   ├── n8n_multi_instance/ (1 skills)
-│   │   └── obsidian_cli/ (1 skills)
+│   │   ├── obsidian_cli/ (1 skills)
+│   │   └── postman_newman_autom/ (1 skills)
 │   ├── productivity/
 │   │   ├── asana_automation/ (1 skills)
 │   │   ├── bamboohr_automation/ (1 skills)
