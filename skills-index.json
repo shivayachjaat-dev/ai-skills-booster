@@ -13723,6 +13723,28 @@
     "maturity": "stable"
   },
   {
+    "name": "security-scanning-security-dependencies",
+    "path": "skills/ai-engineering/models/security_scanning_se/security-scanning-security-dependencies",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "security_scanning_se",
+    "description": "Use this skill to design, implement, and operate production workflows for security scanning security dependencies. You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide aut...",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "security",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Security Scanning Security Dependencies",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
