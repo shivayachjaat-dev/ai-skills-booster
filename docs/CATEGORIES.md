@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,186** skills across structured domains, categories, and subcategories.
+Master navigation for **2,187** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (738 skills)
+## Ai Engineering (739 skills)
 
 ### Agents (96 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -346,7 +346,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (534 skills)
+### Models (535 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1395,6 +1395,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [talking-avatar-video](../skills/ai-engineering/models/talking_avatar_video/talking-avatar-video/SKILL.md) — Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service.
 - **Tax_Register** (1):
   - [tax-register](../skills/ai-engineering/models/tax_register/tax-register/SKILL.md) — Use this skill to design, implement, and operate production workflows for tax register. Tax register: sales and purchase tax, withholding deducted and received, net payable, filing due date and days remaining. Use for tax compliance.
+- **Tdd_Workflows_Tdd_Gr** (1):
+  - [tdd-workflows-tdd-green](../skills/ai-engineering/models/tdd_workflows_tdd_gr/tdd-workflows-tdd-green/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd workflows tdd green. Implement the minimal code needed to make failing tests pass in the TDD green phase.
 - **Templates** (1):
   - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - **Typography_First** (1):

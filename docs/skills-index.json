@@ -14999,6 +14999,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tdd-workflows-tdd-green",
+    "path": "skills/ai-engineering/models/tdd_workflows_tdd_gr/tdd-workflows-tdd-green",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "tdd_workflows_tdd_gr",
+    "description": "Use this skill to design, implement, and operate production workflows for tdd workflows tdd green. Implement the minimal code needed to make failing tests pass in the TDD green phase.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "tdd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tdd Workflows Tdd Green",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",

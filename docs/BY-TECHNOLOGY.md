@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (2005 skills)
+## Bash (2006 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1740,6 +1740,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [taisly-social-media-posting](../skills/ai-engineering/models/taisly_social_media_/taisly-social-media-posting/SKILL.md) — Use this skill to design, implement, and operate production workflows for taisly social media posting. Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
 - [talking-avatar-video](../skills/ai-engineering/models/talking_avatar_video/talking-avatar-video/SKILL.md) — Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service.
 - [tax-register](../skills/ai-engineering/models/tax_register/tax-register/SKILL.md) — Use this skill to design, implement, and operate production workflows for tax register. Tax register: sales and purchase tax, withholding deducted and received, net payable, filing due date and days remaining. Use for tax compliance.
+- [tdd-workflows-tdd-green](../skills/ai-engineering/models/tdd_workflows_tdd_gr/tdd-workflows-tdd-green/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd workflows tdd green. Implement the minimal code needed to make failing tests pass in the TDD green phase.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
 - [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
@@ -10015,7 +10016,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2108 skills)
+## Python (2109 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10691,6 +10692,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [taisly-social-media-posting](../skills/ai-engineering/models/taisly_social_media_/taisly-social-media-posting/SKILL.md) — Use this skill to design, implement, and operate production workflows for taisly social media posting. Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.
 - [talking-avatar-video](../skills/ai-engineering/models/talking_avatar_video/talking-avatar-video/SKILL.md) — Use this skill to design, implement, and operate production workflows for talking avatar video. Install and use the official Talking Avatar Video package, pinned by digest, for paid hosted work on the Beatra service.
 - [tax-register](../skills/ai-engineering/models/tax_register/tax-register/SKILL.md) — Use this skill to design, implement, and operate production workflows for tax register. Tax register: sales and purchase tax, withholding deducted and received, net payable, filing due date and days remaining. Use for tax compliance.
+- [tdd-workflows-tdd-green](../skills/ai-engineering/models/tdd_workflows_tdd_gr/tdd-workflows-tdd-green/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd workflows tdd green. Implement the minimal code needed to make failing tests pass in the TDD green phase.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
 - [typography-first](../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) — Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
 - [vibe-code-auditor](../skills/ai-engineering/models/vibe_code_auditor/vibe-code-auditor/SKILL.md) — Use this skill to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
@@ -13934,6 +13936,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Tdd Workflows Tdd Cycle (1 skills)
 
 - [tdd-workflows-tdd-cycle](../skills/software-engineering/architecture/patterns/tdd-workflows-tdd-cycle/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd workflows tdd cycle. Use when working with tdd workflows tdd cycle
+
+## Tdd Workflows Tdd Green (1 skills)
+
+- [tdd-workflows-tdd-green](../skills/ai-engineering/models/tdd_workflows_tdd_gr/tdd-workflows-tdd-green/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd workflows tdd green. Implement the minimal code needed to make failing tests pass in the TDD green phase.
 
 ## Tech Matrix (1 skills)
 
