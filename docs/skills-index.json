@@ -47831,6 +47831,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tdd-workflows-tdd-refactor",
+    "path": "skills/software-engineering/architecture/patterns/tdd-workflows-tdd-refactor",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for tdd workflows tdd refactor. Use when working with tdd workflows tdd refactor",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "tdd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tdd Workflows Tdd Refactor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",

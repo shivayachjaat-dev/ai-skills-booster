@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **295 skills** available in this category.
+> **296 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -298,4 +298,5 @@
 | [tcm-constitution-analyzer](../../skills/software-engineering/architecture/patterns/tcm-constitution-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tcm constitution analyzer. 分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。 |
 | [tdd-workflows](../../skills/software-engineering/architecture/patterns/tdd-workflows/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tdd workflows. Use when working with tdd workflows tdd cycle (Alias for tdd-workflows-tdd-cycle) |
 | [tdd-workflows-tdd-cycle](../../skills/software-engineering/architecture/patterns/tdd-workflows-tdd-cycle/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tdd workflows tdd cycle. Use when working with tdd workflows tdd cycle |
+| [tdd-workflows-tdd-refactor](../../skills/software-engineering/architecture/patterns/tdd-workflows-tdd-refactor/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tdd workflows tdd refactor. Use when working with tdd workflows tdd refactor |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
