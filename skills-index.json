@@ -28747,6 +28747,28 @@
     "maturity": "stable"
   },
   {
+    "name": "performance-optimization",
+    "path": "skills/frontend/web-architecture/performance_optimiza/performance-optimization",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "performance_optimiza",
+    "description": "Use this skill to design, implement, and operate production workflows for performance optimization. Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "performance",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Performance Optimization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
