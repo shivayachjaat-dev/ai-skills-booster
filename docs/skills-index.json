@@ -14207,6 +14207,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skyvern-browser-automation",
+    "path": "skills/ai-engineering/models/skyvern_browser_auto/skyvern-browser-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "skyvern_browser_auto",
+    "description": "Use this skill to design, implement, and operate production workflows for skyvern browser automation. AI-powered browser automation \u2014 navigate sites, fill forms, extract structured data, log in with stored credentials, and build reusable workflows.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "skyvern",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skyvern Browser Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

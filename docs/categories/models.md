@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **507 skills** available in this category.
+> **508 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -505,6 +505,7 @@
 | [skill-gap-analysis](../../skills/ai-engineering/models/skill_gap_analysis/skill-gap-analysis/SKILL.md) | `skill_gap_analysis` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill gap analysis. Skill gap register: employee, skill area, current against required level, gap severity and recommended training. Use for capability planning. |
 | [skill-rails-upgrade](../../skills/ai-engineering/models/skill_rails_upgrade/skill-rails-upgrade/SKILL.md) | `skill_rails_upgrade` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill rails upgrade. Analyze Rails apps and provide upgrade assessments |
 | [skill-seekers](../../skills/ai-engineering/models/skill_seekers/skill-seekers/SKILL.md) | `skill_seekers` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill seekers. -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes. |
+| [skyvern-browser-automation](../../skills/ai-engineering/models/skyvern_browser_auto/skyvern-browser-automation/SKILL.md) | `skyvern_browser_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skyvern browser automation. AI-powered browser automation — navigate sites, fill forms, extract structured data, log in with stored credentials, and build reusable workflows. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](../../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
