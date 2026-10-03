@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1506 skills)
+## Bash (1507 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1855,6 +1855,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [model-registry-governance](../skills/devops/ci-cd/model_registry_gover/model-registry-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for model registry governance. Establish model registry standards, governance controls, metadata schemas,
 - [model-serving-kubernetes](../skills/devops/ci-cd/model_serving_kubern/model-serving-kubernetes/SKILL.md) — Use this skill to design, implement, and operate production workflows for model serving kubernetes. Deploy ML models on Kubernetes with KServe (formerly KFServing) and NVIDIA
 - [new-relic](../skills/devops/ci-cd/new_relic/new-relic/SKILL.md) — Use this skill to design, implement, and operate production workflows for new relic. Configure New Relic observability platform for infrastructure and application
+- [openshift](../skills/devops/ci-cd/openshift/openshift/SKILL.md) — Use this skill to design, implement, and operate production workflows for openshift. Manage Red Hat OpenShift clusters and deployments.
 - [amazon-alexa](../skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) — Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
 - [aws-cost-cleanup](../skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) — Use this skill to automated cleanup of unused AWS resources to reduce costs
 - [aws-cost-optimizer](../skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) — Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer
@@ -8665,6 +8666,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [opencode-delegate](../skills/ai-engineering/agents/opencode_delegate/opencode-delegate/SKILL.md) — Use this skill to design, implement, and operate production workflows for opencode delegate. Delegate coding tasks to the OpenCode CLI only when the user explicitly
 
+## Openshift (1 skills)
+
+- [openshift](../skills/devops/ci-cd/openshift/openshift/SKILL.md) — Use this skill to design, implement, and operate production workflows for openshift. Manage Red Hat OpenShift clusters and deployments.
+
 ## OrbStack (1 skills)
 
 - [apple-silicon-container-runtime-optimization](../skills/devops/containers/apple-silicon/apple-silicon-container-runtime-optimization/SKILL.md) — Use this skill to build, optimize, and manage lightweight OCI Linux containers and microVM runtimes on Apple Silicon (ARM64 macOS) using native virtualization frameworks, Rosetta 2 multi-arch emulation, Colima, and OrbStack. It covers cross-platform multi-arch image compilation (buildx), bind-mount I/O caching, and GPU acceleration.
@@ -8864,7 +8869,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1609 skills)
+## Python (1610 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9709,6 +9714,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [model-registry-governance](../skills/devops/ci-cd/model_registry_gover/model-registry-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for model registry governance. Establish model registry standards, governance controls, metadata schemas,
 - [model-serving-kubernetes](../skills/devops/ci-cd/model_serving_kubern/model-serving-kubernetes/SKILL.md) — Use this skill to design, implement, and operate production workflows for model serving kubernetes. Deploy ML models on Kubernetes with KServe (formerly KFServing) and NVIDIA
 - [new-relic](../skills/devops/ci-cd/new_relic/new-relic/SKILL.md) — Use this skill to design, implement, and operate production workflows for new relic. Configure New Relic observability platform for infrastructure and application
+- [openshift](../skills/devops/ci-cd/openshift/openshift/SKILL.md) — Use this skill to design, implement, and operate production workflows for openshift. Manage Red Hat OpenShift clusters and deployments.
 - [amazon-alexa](../skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) — Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
 - [aws-cost-cleanup](../skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) — Use this skill to automated cleanup of unused AWS resources to reduce costs
 - [aws-cost-optimizer](../skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) — Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer

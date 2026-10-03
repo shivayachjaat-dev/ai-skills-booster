@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **39 skills** available in this category.
+> **40 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,4 +42,5 @@
 | [model-registry-governance](../../skills/devops/ci-cd/model_registry_gover/model-registry-governance/SKILL.md) | `model_registry_gover` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for model registry governance. Establish model registry standards, governance controls, metadata schemas, |
 | [model-serving-kubernetes](../../skills/devops/ci-cd/model_serving_kubern/model-serving-kubernetes/SKILL.md) | `model_serving_kubern` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for model serving kubernetes. Deploy ML models on Kubernetes with KServe (formerly KFServing) and NVIDIA |
 | [new-relic](../../skills/devops/ci-cd/new_relic/new-relic/SKILL.md) | `new_relic` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for new relic. Configure New Relic observability platform for infrastructure and application |
+| [openshift](../../skills/devops/ci-cd/openshift/openshift/SKILL.md) | `openshift` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openshift. Manage Red Hat OpenShift clusters and deployments. |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
