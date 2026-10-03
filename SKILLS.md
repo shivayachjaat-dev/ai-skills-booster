@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,896 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,897 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1565,6 +1565,7 @@
 | [protocol-reverse-engineering](skills/security/appsec/protocol_reverse_eng/protocol-reverse-engineering/SKILL.md) | `security` | `appsec` | `protocol_reverse_eng` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for protocol reverse engineering. Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging. |
 | [radio-sdr](skills/security/appsec/radio_sdr/radio-sdr/SKILL.md) | `security` | `appsec` | `radio_sdr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for radio sdr. Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless protocol analysis outside regulated bands. |
 | [recon-scope-triage](skills/security/appsec/recon_scope_triage/recon-scope-triage/SKILL.md) | `security` | `appsec` | `recon_scope_triage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recon scope triage. Triage ASM/recon output for ownership before testing |
+| [redteam-mindset](skills/security/appsec/redteam_mindset/redteam-mindset/SKILL.md) | `security` | `appsec` | `redteam_mindset` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for redteam mindset. Red-team operator discipline |
 | [security-auditor](skills/security/appsec/security_auditor/security-auditor/SKILL.md) | `security` | `appsec` | `security_auditor` | `advanced` | `stable` | Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | [security-checklist](skills/security/appsec/security_checklist/security-checklist/SKILL.md) | `security` | `appsec` | `security_checklist` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist. |
 | [zero-trust-network-architecture](skills/security/architecture/zero-trust/zero-trust-network-architecture/SKILL.md) | `security` | `architecture` | `zero-trust` | `expert` | `stable` | Use this skill when designing, assessing, and enforcing Zero Trust Network Architecture (ZTNA) across distributed services. It guides the agent through eliminating implicit perimeter trust, mutual TLS (mTLS) service mesh identity, ephemeral device attestation, microsegmentation policies, and continuous context-aware authorization. |

@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1714 skills)
+## Bash (1715 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2495,6 +2495,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [protocol-reverse-engineering](../skills/security/appsec/protocol_reverse_eng/protocol-reverse-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for protocol reverse engineering. Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.
 - [radio-sdr](../skills/security/appsec/radio_sdr/radio-sdr/SKILL.md) — Use this skill to design, implement, and operate production workflows for radio sdr. Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless protocol analysis outside regulated bands.
 - [recon-scope-triage](../skills/security/appsec/recon_scope_triage/recon-scope-triage/SKILL.md) — Use this skill to design, implement, and operate production workflows for recon scope triage. Triage ASM/recon output for ownership before testing
+- [redteam-mindset](../skills/security/appsec/redteam_mindset/redteam-mindset/SKILL.md) — Use this skill to design, implement, and operate production workflows for redteam mindset. Red-team operator discipline
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
@@ -9678,7 +9679,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1817 skills)
+## Python (1818 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11181,6 +11182,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [protocol-reverse-engineering](../skills/security/appsec/protocol_reverse_eng/protocol-reverse-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for protocol reverse engineering. Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.
 - [radio-sdr](../skills/security/appsec/radio_sdr/radio-sdr/SKILL.md) — Use this skill to design, implement, and operate production workflows for radio sdr. Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless protocol analysis outside regulated bands.
 - [recon-scope-triage](../skills/security/appsec/recon_scope_triage/recon-scope-triage/SKILL.md) — Use this skill to design, implement, and operate production workflows for recon scope triage. Triage ASM/recon output for ownership before testing
+- [redteam-mindset](../skills/security/appsec/redteam_mindset/redteam-mindset/SKILL.md) — Use this skill to design, implement, and operate production workflows for redteam mindset. Red-team operator discipline
 - [security-auditor](../skills/security/appsec/security_auditor/security-auditor/SKILL.md) — Use this skill to expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
 - [security-checklist](../skills/security/appsec/security_checklist/security-checklist/SKILL.md) — Use this skill to design, implement, and operate production workflows for security checklist. Reference document for monopoly security-checklist.
 - [azure-communication-common-java](../skills/security/authentication/azure_communication_/azure-communication-common-java/SKILL.md) — Use this skill to azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
@@ -11847,6 +11849,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Redoc (1 skills)
 
 - [openapi-documentation-generator-and-swagger-ui](../skills/backend/documentation/openapi-generator/openapi-documentation-generator-and-swagger-ui/SKILL.md) — Use this skill to autonomously extract, generate, and host interactive OpenAPI 3.1 documentation, Swagger UI, and Redoc portals directly from backend route handlers. It covers auto-generating request/response schemas, auth schemes (OAuth2, JWT, API Keys), curl/fetch code samples, and Markdown export.
+
+## Redteam Mindset (1 skills)
+
+- [redteam-mindset](../skills/security/appsec/redteam_mindset/redteam-mindset/SKILL.md) — Use this skill to design, implement, and operate production workflows for redteam mindset. Red-team operator discipline
 
 ## Redux DevTools (1 skills)
 

@@ -34828,6 +34828,28 @@
     "maturity": "stable"
   },
   {
+    "name": "redteam-mindset",
+    "path": "skills/security/appsec/redteam_mindset/redteam-mindset",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "redteam_mindset",
+    "description": "Use this skill to design, implement, and operate production workflows for redteam mindset. Red-team operator discipline",
+    "tags": [
+      "security",
+      "appsec",
+      "redteam",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Redteam Mindset",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "security-auditor",
     "path": "skills/security/appsec/security_auditor/security-auditor",
     "domain": "security",
