@@ -37606,6 +37606,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-aeo-orchestrator",
+    "path": "skills/security/compliance/seo_aeo_orchestrator/seo-aeo-orchestrator",
+    "domain": "security",
+    "category": "compliance",
+    "subcategory": "seo_aeo_orchestrator",
+    "description": "Use this skill to design, implement, and operate production workflows for seo aeo orchestrator. Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, measurement setup, deployment verification, and optional weekly monitoring.",
+    "tags": [
+      "security",
+      "compliance",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Aeo Orchestrator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-audit",
     "path": "skills/security/compliance/seo_audit/seo-audit",
     "domain": "security",

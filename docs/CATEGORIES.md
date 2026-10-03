@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,010** skills across structured domains, categories, and subcategories.
+Master navigation for **2,011** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (684 skills)
 
@@ -3558,7 +3558,7 @@ Category index: [`docs/categories/rust.md`](categories/rust.md)
 - **Memory Safety** (1):
   - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 
-## Security (181 skills)
+## Security (182 skills)
 
 ### Ai Guardrails (1 skills)
 Category index: [`docs/categories/ai-guardrails.md`](categories/ai-guardrails.md)
@@ -3880,7 +3880,7 @@ Category index: [`docs/categories/code-review.md`](categories/code-review.md)
 - **Github** (1):
   - [github-pr-security-review](../skills/security/code-review/github/github-pr-security-review/SKILL.md) — Use this skill when reviewing a GitHub pull request for security vulnerabilities, exposed secrets, unsafe dependencies, injection risks, authentication flaws, or insecure CI/CD modifications. It guides the agent through systematic threat modeling, diff inspection, risk severity classification, and remediation generation.
 
-### Compliance (19 skills)
+### Compliance (20 skills)
 Category index: [`docs/categories/compliance.md`](categories/compliance.md)
 
 - **Audit Logging** (1):
@@ -3911,6 +3911,8 @@ Category index: [`docs/categories/compliance.md`](categories/compliance.md)
   - [production-code-audit](../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) — Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations
 - **Project_Skill_Audit** (1):
   - [project-skill-audit](../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) — Use this skill to audit a project and recommend the highest-value skills to add or update.
+- **Seo_Aeo_Orchestrator** (1):
+  - [seo-aeo-orchestrator](../skills/security/compliance/seo_aeo_orchestrator/seo-aeo-orchestrator/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo orchestrator. Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, measurement setup, deployment verification, and optional weekly monitoring.
 - **Seo_Audit** (1):
   - [seo-audit](../skills/security/compliance/seo_audit/seo-audit/SKILL.md) — Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.
 - **Soroban_Oracle_Data_** (1):

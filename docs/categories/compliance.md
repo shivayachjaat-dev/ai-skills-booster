@@ -1,6 +1,6 @@
 # Category Index: Compliance
 
-> **19 skills** available in this category.
+> **20 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -18,6 +18,7 @@
 | [openclaw-github-repo-commander](../../skills/security/compliance/openclaw_github_repo/openclaw-github-repo-commander/SKILL.md) | `openclaw_github_repo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openclaw github repo commander. 7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis |
 | [production-code-audit](../../skills/security/compliance/production_code_audi/production-code-audit/SKILL.md) | `production_code_audi` | `advanced` | `stable` | Use this skill to autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations |
 | [project-skill-audit](../../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) | `project_skill_audit` | `advanced` | `stable` | Use this skill to audit a project and recommend the highest-value skills to add or update. |
+| [seo-aeo-orchestrator](../../skills/security/compliance/seo_aeo_orchestrator/seo-aeo-orchestrator/SKILL.md) | `seo_aeo_orchestrator` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo orchestrator. Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, measurement setup, deployment verification, and optional weekly monitoring. |
 | [seo-audit](../../skills/security/compliance/seo_audit/seo-audit/SKILL.md) | `seo_audit` | `advanced` | `stable` | Use this skill to diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. |
 | [soroban-oracle-data-feed-audit](../../skills/security/compliance/soroban_oracle_data_/soroban-oracle-data-feed-audit/SKILL.md) | `soroban_oracle_data_` | `advanced` | `stable` | Use this skill to deFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation. |
 | [ux-audit](../../skills/security/compliance/ux_audit/ux-audit/SKILL.md) | `ux_audit` | `advanced` | `stable` | Use this skill to audit screens for UX issues using Nielsen's heuristics and modern mobile UX best practices |
