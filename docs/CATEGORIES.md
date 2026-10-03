@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,089** skills across structured domains, categories, and subcategories.
+Master navigation for **2,090** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (707 skills)
 
@@ -1991,7 +1991,7 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (48 skills)
+## Data Analytics (49 skills)
 
 ### Analytics Engineering (2 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
@@ -2007,7 +2007,7 @@ Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)
 - **Operational Metrics** (1):
   - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 
-### Data Pipelines (36 skills)
+### Data Pipelines (37 skills)
 Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.md)
 
 - **Box_Automation** (1):
@@ -2082,6 +2082,8 @@ Category index: [`docs/categories/data-pipelines.md`](categories/data-pipelines.
   - [skin-health-analyzer](../skills/data-analytics/data-pipelines/skin_health_analyzer/skin-health-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for skin health analyzer. Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medication data.
 - **Social_Metadata_Hard** (1):
   - [social-metadata-hardening](../skills/data-analytics/data-pipelines/social_metadata_hard/social-metadata-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for social metadata hardening. Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging.
+- **Soroban_Token_Minter** (1):
+  - [soroban-token-minter](../skills/data-analytics/data-pipelines/soroban_token_minter/soroban-token-minter/SKILL.md) — Use this skill to design, implement, and operate production workflows for soroban token minter. Soroban SEP-41 token contract architecture register: admin control, supply caps, metadata standard, and transfer event emissions on Stellar.
 
 ### Data Warehouse (1 skills)
 Category index: [`docs/categories/data-warehouse.md`](categories/data-warehouse.md)

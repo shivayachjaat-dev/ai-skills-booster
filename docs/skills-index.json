@@ -21013,6 +21013,28 @@
     "maturity": "stable"
   },
   {
+    "name": "soroban-token-minter",
+    "path": "skills/data-analytics/data-pipelines/soroban_token_minter/soroban-token-minter",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "soroban_token_minter",
+    "description": "Use this skill to design, implement, and operate production workflows for soroban token minter. Soroban SEP-41 token contract architecture register: admin control, supply caps, metadata standard, and transfer event emissions on Stellar.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "soroban",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Soroban Token Minter",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "snowflake-data-warehouse-modeling",
     "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
     "domain": "data-analytics",
