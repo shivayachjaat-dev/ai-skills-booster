@@ -45257,6 +45257,28 @@
     "maturity": "stable"
   },
   {
+    "name": "slo-implementation",
+    "path": "skills/software-engineering/architecture/patterns/slo-implementation",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for slo implementation. Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "slo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Slo Implementation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
