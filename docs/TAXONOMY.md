@@ -95,7 +95,8 @@ AI_Skills_Booster/
 │   │   ├── spec_driven_loop/ (1 skills)
 │   │   ├── stitch_loop/ (1 skills)
 │   │   ├── subagent_driven_deve/ (1 skills)
-│   │   └── subagent_orchestrato/ (1 skills)
+│   │   ├── subagent_orchestrato/ (1 skills)
+│   │   └── super_code/ (1 skills)
 │   ├── audio-processing/
 │   │   ├── azure_speech_to_text/ (1 skills)
 │   │   ├── game_audio/ (1 skills)

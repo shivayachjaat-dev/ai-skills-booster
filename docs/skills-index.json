@@ -2060,6 +2060,28 @@
     "maturity": "stable"
   },
   {
+    "name": "super-code",
+    "path": "skills/ai-engineering/agents/super_code/super-code",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "super_code",
+    "description": "Use this skill to design, implement, and operate production workflows for super code. Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "super",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Super Code",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-speech-to-text-rest-py",
     "path": "skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py",
     "domain": "ai-engineering",

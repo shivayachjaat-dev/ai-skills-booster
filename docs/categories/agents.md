@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **92 skills** available in this category.
+> **93 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -96,3 +96,4 @@
 | [stitch-loop](../../skills/ai-engineering/agents/stitch_loop/stitch-loop/SKILL.md) | `stitch_loop` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stitch loop. Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern |
 | [subagent-driven-development](../../skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development/SKILL.md) | `subagent_driven_deve` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session |
 | [subagent-orchestrator](../../skills/ai-engineering/agents/subagent_orchestrato/subagent-orchestrator/SKILL.md) | `subagent_orchestrato` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for subagent orchestrator. Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks. |
+| [super-code](../../skills/ai-engineering/agents/super_code/super-code/SKILL.md) | `super_code` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for super code. Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead. |
