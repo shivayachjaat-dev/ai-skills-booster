@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,941 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,942 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -614,6 +614,7 @@
 | [ruby-pro](skills/ai-engineering/models/ruby_pro/ruby-pro/SKILL.md) | `ai-engineering` | `models` | `ruby_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ruby pro. Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks. |
 | [runapi-cli](skills/ai-engineering/models/runapi_cli/runapi-cli/SKILL.md) | `ai-engineering` | `models` | `runapi_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for runapi cli. Generate AI images, videos, and music/audio from agents using the RunAPI CLI. |
 | [runaway-guard](skills/ai-engineering/models/runaway_guard/runaway-guard/SKILL.md) | `ai-engineering` | `models` | `runaway_guard` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for runaway guard. Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. Forces a written per-run $-cap, per-day $-cap, max-iterations bound, concurrency limit, and a matching provider-dashboard hard cap BEF... |
+| [rust-async-patterns](skills/ai-engineering/models/rust_async_patterns/rust-async-patterns/SKILL.md) | `ai-engineering` | `models` | `rust_async_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rust async patterns. Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

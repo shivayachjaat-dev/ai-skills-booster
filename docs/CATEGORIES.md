@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,941** skills across structured domains, categories, and subcategories.
+Master navigation for **1,942** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (666 skills)
+## Ai Engineering (667 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (478 skills)
+### Models (479 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1260,6 +1260,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [runapi-cli](../skills/ai-engineering/models/runapi_cli/runapi-cli/SKILL.md) — Use this skill to design, implement, and operate production workflows for runapi cli. Generate AI images, videos, and music/audio from agents using the RunAPI CLI.
 - **Runaway_Guard** (1):
   - [runaway-guard](../skills/ai-engineering/models/runaway_guard/runaway-guard/SKILL.md) — Use this skill to design, implement, and operate production workflows for runaway guard. Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. Forces a written per-run $-cap, per-day $-cap, max-iterations bound, concurrency limit, and a matching provider-dashboard hard cap BEF...
+- **Rust_Async_Patterns** (1):
+  - [rust-async-patterns](../skills/ai-engineering/models/rust_async_patterns/rust-async-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust async patterns. Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

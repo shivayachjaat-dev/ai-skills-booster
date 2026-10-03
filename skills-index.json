@@ -13503,6 +13503,28 @@
     "maturity": "stable"
   },
   {
+    "name": "rust-async-patterns",
+    "path": "skills/ai-engineering/models/rust_async_patterns/rust-async-patterns",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "rust_async_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for rust async patterns. Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "rust",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Rust Async Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
