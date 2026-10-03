@@ -34071,6 +34071,28 @@
     "maturity": "stable"
   },
   {
+    "name": "swiftui-expert-skill",
+    "path": "skills/frontend/ui-ux/swiftui_expert_skill/swiftui-expert-skill",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "swiftui_expert_skill",
+    "description": "Use this skill to design, implement, and operate production workflows for swiftui expert skill. Write, review, and refactor SwiftUI for iOS or macOS, covering data flow, view composition, performance, identity, environment, localization, animation, API migration, and Instruments traces.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "swiftui",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Swiftui Expert Skill",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,162** skills across structured domains, categories, and subcategories.
+Master navigation for **2,163** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (728 skills)
 
@@ -2721,7 +2721,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (442 skills)
+## Frontend (443 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2923,7 +2923,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Sveltekit** (1):
   - [sveltekit](../skills/frontend/ui-development/sveltekit/sveltekit/SKILL.md) — Use this skill to design, implement, and operate production workflows for sveltekit. Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and form actions in one framework.
 
-### Ui Ux (273 skills)
+### Ui Ux (274 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3466,6 +3466,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [startup-metrics-framework](../skills/frontend/ui-ux/startup_metrics_fram/startup-metrics-framework/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup metrics framework. Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.
 - **Swift** (1):
   - [swift](../skills/frontend/ui-ux/swift/swift/SKILL.md) — Use this skill to design, implement, and operate production workflows for swift. Language-specific super-code guidelines for swift.
+- **Swiftui_Expert_Skill** (1):
+  - [swiftui-expert-skill](../skills/frontend/ui-ux/swiftui_expert_skill/swiftui-expert-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiftui expert skill. Write, review, and refactor SwiftUI for iOS or macOS, covering data flow, view composition, performance, identity, environment, localization, animation, API migration, and Instruments traces.
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - **Typescript** (1):
