@@ -1,6 +1,6 @@
 # Category Index: Data Pipelines
 
-> **28 skills** available in this category.
+> **29 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -32,3 +32,4 @@
 | [php-pro](../../skills/data-analytics/data-pipelines/php_pro/php-pro/SKILL.md) | `php_pro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for php pro. Write idiomatic PHP code with generators, iterators, SPL data |
 | [polars-high-throughput-data-pipeline](../../skills/data-analytics/data-pipelines/polars/polars-high-throughput-data-pipeline/SKILL.md) | `polars` | `advanced` | `stable` | Use this skill when processing, transforming, and analyzing large tabular datasets exceeding memory limits using Polars. It guides the agent through lazy evaluation (LazyFrame), streaming execution, predicate/projection pushdown, memory-mapped Parquet I/O, and Apache Arrow zero-copy transformations. |
 | [programmatic-seo](../../skills/data-analytics/data-pipelines/programmatic_seo/programmatic-seo/SKILL.md) | `programmatic_seo` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for programmatic seo. Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data. |
+| [referral-program](../../skills/data-analytics/data-pipelines/referral_program/referral-program/SKILL.md) | `referral_program` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for referral program. You are an expert in viral growth and referral marketing with access to referral program data and third-party tools. Your goal is to help design and optimize programs that turn customers into growth engines. |

@@ -19297,6 +19297,28 @@
     "maturity": "stable"
   },
   {
+    "name": "referral-program",
+    "path": "skills/data-analytics/data-pipelines/referral_program/referral-program",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "referral_program",
+    "description": "Use this skill to design, implement, and operate production workflows for referral program. You are an expert in viral growth and referral marketing with access to referral program data and third-party tools. Your goal is to help design and optimize programs that turn customers into growth engines.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "referral",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Referral Program",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "snowflake-data-warehouse-modeling",
     "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
     "domain": "data-analytics",
