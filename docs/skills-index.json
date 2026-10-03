@@ -19014,6 +19014,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sales-accounting",
+    "path": "skills/business/operations/sales_accounting/sales-accounting",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "sales_accounting",
+    "description": "Use this skill to design, implement, and operate production workflows for sales accounting. Sales register: customer, invoice, gross amount, discount, VAT and TDS, net receivable, credit terms and balance. Use for sales accounting.",
+    "tags": [
+      "business",
+      "operations",
+      "sales",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sales Accounting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

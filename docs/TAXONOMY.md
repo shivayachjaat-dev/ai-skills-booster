@@ -883,7 +883,8 @@ AI_Skills_Booster/
 │   │   ├── recognition_rewards/ (1 skills)
 │   │   ├── remote_work_tracker/ (1 skills)
 │   │   ├── saga_orchestration/ (1 skills)
-│   │   └── salary_wage_accounti/ (1 skills)
+│   │   ├── salary_wage_accounti/ (1 skills)
+│   │   └── sales_accounting/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/
