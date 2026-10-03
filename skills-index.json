@@ -26161,6 +26161,28 @@
     "maturity": "stable"
   },
   {
+    "name": "slack-automation",
+    "path": "skills/frontend/frameworks/slack_automation/slack-automation",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "slack_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for slack automation. Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "slack",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Slack Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
