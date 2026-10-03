@@ -33257,6 +33257,28 @@
     "maturity": "stable"
   },
   {
+    "name": "startup-financial-modeling",
+    "path": "skills/frontend/ui-ux/startup_financial_mo/startup-financial-modeling",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "startup_financial_mo",
+    "description": "Use this skill to design, implement, and operate production workflows for startup financial modeling. Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "startup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Startup Financial Modeling",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",

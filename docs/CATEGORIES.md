@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,115** skills across structured domains, categories, and subcategories.
+Master navigation for **2,116** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (714 skills)
 
@@ -2686,7 +2686,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (420 skills)
+## Frontend (421 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2884,7 +2884,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Redesign_Existing_Pr** (1):
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 
-### Ui Ux (255 skills)
+### Ui Ux (256 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3393,6 +3393,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [spec-driven-development](../skills/frontend/ui-ux/spec_driven_developm/spec-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for spec driven development. Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.
 - **Spreadsheet_Manual_B** (1):
   - [spreadsheet-manual-build](../skills/frontend/ui-ux/spreadsheet_manual_b/spreadsheet-manual-build/SKILL.md) — Use this skill to design, implement, and operate production workflows for spreadsheet manual build. Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.
+- **Startup_Financial_Mo** (1):
+  - [startup-financial-modeling](../skills/frontend/ui-ux/startup_financial_mo/startup-financial-modeling/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup financial modeling. Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - **Vr_Ar** (1):

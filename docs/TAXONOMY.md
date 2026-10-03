@@ -1583,6 +1583,7 @@ AI_Skills_Booster/
 │   │   ├── source_driven_develo/ (1 skills)
 │   │   ├── spec_driven_developm/ (1 skills)
 │   │   ├── spreadsheet_manual_b/ (1 skills)
+│   │   ├── startup_financial_mo/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
 │   └── web-architecture/
