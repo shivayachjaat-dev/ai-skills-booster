@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,980 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,981 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1523,6 +1523,7 @@
 | [cors-csrf-web-security-hardening](skills/security/application-security/cors-csrf/cors-csrf-web-security-hardening/SKILL.md) | `security` | `application-security` | `cors-csrf` | `intermediate` | `stable` | Use this skill when designing, implementing, and auditing Cross-Origin Resource Sharing (CORS) and Cross-Site Request Forgery (CSRF) defenses for web APIs and single-page applications. It guides the agent through strict origin allowlists, preflight OPTION request caching, SameSite cookie strategies, double-submit cookie patterns, and Sec-Fetch-* metadata header verification. |
 | [http-security-headers-hardening](skills/security/application-security/security-headers/http-security-headers-hardening/SKILL.md) | `security` | `application-security` | `security-headers` | `intermediate` | `stable` | Use this skill when auditing, configuring, and hardening HTTP security headers for web applications and APIs. It guides the agent through Content-Security-Policy (CSP) with dynamic cryptographic nonces, Strict-Transport-Security (HSTS), X-Content-Type-Options, Permissions-Policy, Referrer-Policy, and Cross-Origin Resource isolation headers (COOP, COEP, CORP). |
 | [aws-ec2](skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) | `security` | `appsec` | `aws_ec2` | `advanced` | `stable` | Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security |
+| [aws-iam-best-practices](skills/security/appsec/aws_iam_best_practic/aws-iam-best-practices/SKILL.md) | `security` | `appsec` | `aws_iam_best_practic` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for aws iam best practices. IAM policy review, hardening, and least privilege implementation |
 | [aws-secrets-manager](skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) | `security` | `appsec` | `aws_secrets_manager` | `advanced` | `stable` | Use this skill to store and rotate secrets in AWS Secrets Manager. |
 | [aws-security-audit](skills/security/appsec/aws_security_audit/aws-security-audit/SKILL.md) | `security` | `appsec` | `aws_security_audit` | `advanced` | `stable` | Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices |
 | [azure-keyvault](skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) | `security` | `appsec` | `azure_keyvault` | `advanced` | `stable` | Use this skill to manage secrets and certificates in Azure Key Vault. Configure access |

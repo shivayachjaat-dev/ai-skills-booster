@@ -33904,6 +33904,28 @@
     "maturity": "stable"
   },
   {
+    "name": "aws-iam-best-practices",
+    "path": "skills/security/appsec/aws_iam_best_practic/aws-iam-best-practices",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "aws_iam_best_practic",
+    "description": "Use this skill to design, implement, and operate production workflows for aws iam best practices. IAM policy review, hardening, and least privilege implementation",
+    "tags": [
+      "security",
+      "appsec",
+      "aws",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Aws Iam Best Practices",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "aws-secrets-manager",
     "path": "skills/security/appsec/aws_secrets_manager/aws-secrets-manager",
     "domain": "security",

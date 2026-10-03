@@ -449,6 +449,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [aws-ecs-fargate](../skills/ai-engineering/models/aws_ecs_fargate/aws-ecs-fargate/SKILL.md) — Use this skill to deploy containers on ECS and Fargate. Configure task definitions, services,
 
+## Aws Iam Best Practices (1 skills)
+
+- [aws-iam-best-practices](../skills/security/appsec/aws_iam_best_practic/aws-iam-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws iam best practices. IAM policy review, hardening, and least privilege implementation
+
 ## Aws Lambda (1 skills)
 
 - [aws-lambda](../skills/frontend/ui-ux/aws_lambda/aws-lambda/SKILL.md) — Use this skill to build and deploy serverless functions on AWS Lambda. Configure triggers,
@@ -1077,7 +1081,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1798 skills)
+## Bash (1799 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2457,6 +2461,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [mobile-design](../skills/mobile/app-development/mobile_design/mobile-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for mobile design. (Mobile-First · Touch-First · Platform-Respectful)
 - [mobile-games](../skills/mobile/app-development/mobile_games/mobile-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for mobile games. Mobile game development principles. Touch input, battery, performance, app stores.
 - [aws-ec2](../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) — Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security
+- [aws-iam-best-practices](../skills/security/appsec/aws_iam_best_practic/aws-iam-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws iam best practices. IAM policy review, hardening, and least privilege implementation
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
 - [aws-security-audit](../skills/security/appsec/aws_security_audit/aws-security-audit/SKILL.md) — Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices
 - [azure-keyvault](../skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) — Use this skill to manage secrets and certificates in Azure Key Vault. Configure access
@@ -9770,7 +9775,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1901 skills)
+## Python (1902 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11231,6 +11236,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ai-agent-prompt-injection-and-sandbox-defense](../skills/security/ai-security/sandbox-defense/ai-agent-prompt-injection-and-sandbox-defense/SKILL.md) — Use this skill to secure AI agents against indirect prompt injection, tool jailbreaks, SSRF, and data exfiltration. It enforces dual-LLM input sanitization, restricted container/eBPF sandboxing for shell tools, egress network filtering, and least-privilege token scoping.
 - [owasp-api-security-top-10-hardening](../skills/security/api-security/owasp-top-10/owasp-api-security-top-10-hardening/SKILL.md) — Use this skill to audit and harden REST and GraphQL APIs against the OWASP API Security Top 10 vulnerabilities. It covers Broken Object Level Authorization (BOLA), Broken Authentication, Unrestricted Resource Consumption, Broken Function Level Authorization (BFLA), and Server-Side Request Forgery (SSRF).
 - [aws-ec2](../skills/security/appsec/aws_ec2/aws-ec2/SKILL.md) — Use this skill to manage EC2 instances, AMIs, and auto-scaling groups. Configure security
+- [aws-iam-best-practices](../skills/security/appsec/aws_iam_best_practic/aws-iam-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for aws iam best practices. IAM policy review, hardening, and least privilege implementation
 - [aws-secrets-manager](../skills/security/appsec/aws_secrets_manager/aws-secrets-manager/SKILL.md) — Use this skill to store and rotate secrets in AWS Secrets Manager.
 - [aws-security-audit](../skills/security/appsec/aws_security_audit/aws-security-audit/SKILL.md) — Use this skill to comprehensive AWS security posture assessment using AWS CLI and security best practices
 - [azure-keyvault](../skills/security/appsec/azure_keyvault/azure-keyvault/SKILL.md) — Use this skill to manage secrets and certificates in Azure Key Vault. Configure access

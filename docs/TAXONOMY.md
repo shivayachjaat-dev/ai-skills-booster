@@ -1639,6 +1639,7 @@ AI_Skills_Booster/
 │   │   └── security-headers/ (1 skills)
 │   ├── appsec/
 │   │   ├── aws_ec2/ (1 skills)
+│   │   ├── aws_iam_best_practic/ (1 skills)
 │   │   ├── aws_secrets_manager/ (1 skills)
 │   │   ├── aws_security_audit/ (1 skills)
 │   │   ├── azure_keyvault/ (1 skills)
