@@ -12491,6 +12491,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postmark-automation",
+    "path": "skills/ai-engineering/models/postmark_automation/postmark-automation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "postmark_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for postmark automation. Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "postmark",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postmark Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

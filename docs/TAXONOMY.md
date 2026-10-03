@@ -568,6 +568,7 @@ AI_Skills_Booster/
 │   │   ├── podman/ (1 skills)
 │   │   ├── poster_design_studio/ (1 skills)
 │   │   ├── postgresql/ (1 skills)
+│   │   ├── postmark_automation/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

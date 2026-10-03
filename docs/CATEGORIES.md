@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,782** skills across structured domains, categories, and subcategories.
+Master navigation for **1,783** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (612 skills)
+## Ai Engineering (613 skills)
 
 ### Agents (77 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -304,7 +304,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (443 skills)
+### Models (444 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1168,6 +1168,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [poster-design-studio](../skills/ai-engineering/models/poster_design_studio/poster-design-studio/SKILL.md) — Use this skill to design, implement, and operate production workflows for poster design studio. Install and use the official AI Poster Maker package, pinned by digest, for paid hosted work on the Beatra service.
 - **Postgresql** (1):
   - [postgresql](../skills/ai-engineering/models/postgresql/postgresql/SKILL.md) — Use this skill to design, implement, and operate production workflows for postgresql. Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features
+- **Postmark_Automation** (1):
+  - [postmark-automation](../skills/ai-engineering/models/postmark_automation/postmark-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for postmark automation. Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
