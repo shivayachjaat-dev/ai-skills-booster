@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1741 skills)
+## Bash (1742 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2630,6 +2630,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dotnet-reverse](../skills/software-engineering/architecture/patterns/dotnet-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet reverse. .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling.
 - [doubt-driven-development](../skills/software-engineering/architecture/patterns/doubt-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for doubt driven development. Subjects every non-trivial decision to a fresh-context adversarial review before it stands.
 - [draw](../skills/software-engineering/architecture/patterns/draw/SKILL.md) — Use this skill to design, implement, and operate production workflows for draw. Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.
+- [dsl-vm-reverse](../skills/software-engineering/architecture/patterns/dsl-vm-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for dsl vm reverse. Reverse JavaScript-based custom DSL/VM interpreters and risk-control engines: identify IIFE/switch-based opcode dispatch, extract opcode tables, and capture runtime semantics.
 - [dx-optimizer](../skills/software-engineering/architecture/patterns/dx-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for dx optimizer. Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.
 - [edr-bypass-re](../skills/software-engineering/architecture/patterns/edr-bypass-re/SKILL.md) — Use this skill to design, implement, and operate production workflows for edr bypass re. Reverse engineer EDR internals (user-mode hook tables, ETW, AMSI) and study bypass techniques such as direct syscalls, Hell's Gate, and call-stack spoofing. Lab-only red-team research.
 - [emergency-card](../skills/software-engineering/architecture/patterns/emergency-card/SKILL.md) — Use this skill to design, implement, and operate production workflows for emergency card. 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问"紧急信息"、"医疗卡片"、"急救信息"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。
@@ -4761,6 +4762,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Dsh Deepread (1 skills)
 
 - [dsh-deepread](../skills/frontend/web-architecture/dsh_deepread/dsh-deepread/SKILL.md) — Use this skill to design, implement, and operate production workflows for dsh deepread. Use for evidence-first reading of articles, books, PDFs, web pages, or document sets, with knowledge maps and Feynman checks.
+
+## Dsl Vm Reverse (1 skills)
+
+- [dsl-vm-reverse](../skills/software-engineering/architecture/patterns/dsl-vm-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for dsl vm reverse. Reverse JavaScript-based custom DSL/VM interpreters and risk-control engines: identify IIFE/switch-based opcode dispatch, extract opcode tables, and capture runtime semantics.
 
 ## DuckDB (1 skills)
 
@@ -9705,7 +9710,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1844 skills)
+## Python (1845 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11356,6 +11361,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [dotnet-reverse](../skills/software-engineering/architecture/patterns/dotnet-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet reverse. .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling.
 - [doubt-driven-development](../skills/software-engineering/architecture/patterns/doubt-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for doubt driven development. Subjects every non-trivial decision to a fresh-context adversarial review before it stands.
 - [draw](../skills/software-engineering/architecture/patterns/draw/SKILL.md) — Use this skill to design, implement, and operate production workflows for draw. Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.
+- [dsl-vm-reverse](../skills/software-engineering/architecture/patterns/dsl-vm-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for dsl vm reverse. Reverse JavaScript-based custom DSL/VM interpreters and risk-control engines: identify IIFE/switch-based opcode dispatch, extract opcode tables, and capture runtime semantics.
 - [dx-optimizer](../skills/software-engineering/architecture/patterns/dx-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for dx optimizer. Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.
 - [edr-bypass-re](../skills/software-engineering/architecture/patterns/edr-bypass-re/SKILL.md) — Use this skill to design, implement, and operate production workflows for edr bypass re. Reverse engineer EDR internals (user-mode hook tables, ETW, AMSI) and study bypass techniques such as direct syscalls, Hell's Gate, and call-stack spoofing. Lab-only red-team research.
 - [emergency-card](../skills/software-engineering/architecture/patterns/emergency-card/SKILL.md) — Use this skill to design, implement, and operate production workflows for emergency card. 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问"紧急信息"、"医疗卡片"、"急救信息"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。

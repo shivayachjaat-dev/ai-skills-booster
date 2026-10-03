@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,923** skills across structured domains, categories, and subcategories.
+Master navigation for **1,924** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (658 skills)
 
@@ -3880,9 +3880,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (252 skills)
+## Software Engineering (253 skills)
 
-### Architecture (245 skills)
+### Architecture (246 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -3891,7 +3891,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (242):
+- **Patterns** (243):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -3971,6 +3971,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [dotnet-reverse](../skills/software-engineering/architecture/patterns/dotnet-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for dotnet reverse. .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling.
   - [doubt-driven-development](../skills/software-engineering/architecture/patterns/doubt-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for doubt driven development. Subjects every non-trivial decision to a fresh-context adversarial review before it stands.
   - [draw](../skills/software-engineering/architecture/patterns/draw/SKILL.md) — Use this skill to design, implement, and operate production workflows for draw. Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.
+  - [dsl-vm-reverse](../skills/software-engineering/architecture/patterns/dsl-vm-reverse/SKILL.md) — Use this skill to design, implement, and operate production workflows for dsl vm reverse. Reverse JavaScript-based custom DSL/VM interpreters and risk-control engines: identify IIFE/switch-based opcode dispatch, extract opcode tables, and capture runtime semantics.
   - [dx-optimizer](../skills/software-engineering/architecture/patterns/dx-optimizer/SKILL.md) — Use this skill to design, implement, and operate production workflows for dx optimizer. Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.
   - [edr-bypass-re](../skills/software-engineering/architecture/patterns/edr-bypass-re/SKILL.md) — Use this skill to design, implement, and operate production workflows for edr bypass re. Reverse engineer EDR internals (user-mode hook tables, ETW, AMSI) and study bypass techniques such as direct syscalls, Hell's Gate, and call-stack spoofing. Lab-only red-team research.
   - [emergency-card](../skills/software-engineering/architecture/patterns/emergency-card/SKILL.md) — Use this skill to design, implement, and operate production workflows for emergency card. 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问"紧急信息"、"医疗卡片"、"急救信息"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。

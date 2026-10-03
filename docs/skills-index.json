@@ -38525,6 +38525,28 @@
     "maturity": "stable"
   },
   {
+    "name": "dsl-vm-reverse",
+    "path": "skills/software-engineering/architecture/patterns/dsl-vm-reverse",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for dsl vm reverse. Reverse JavaScript-based custom DSL/VM interpreters and risk-control engines: identify IIFE/switch-based opcode dispatch, extract opcode tables, and capture runtime semantics.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "dsl",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Dsl Vm Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "dx-optimizer",
     "path": "skills/software-engineering/architecture/patterns/dx-optimizer",
     "domain": "software-engineering",
