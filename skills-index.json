@@ -38393,6 +38393,28 @@
     "maturity": "stable"
   },
   {
+    "name": "plan-writing",
+    "path": "skills/software-engineering/architecture/patterns/plan-writing",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for plan writing. Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "plan",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Plan Writing",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
