@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,914** skills across structured domains, categories, and subcategories.
+Master navigation for **1,915** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (656 skills)
 
@@ -1861,13 +1861,15 @@ Category index: [`docs/categories/illustration.md`](categories/illustration.md)
 - **Technical Diagrams** (1):
   - [technical-editorial-illustration-and-visual-metaphors](../skills/creative/illustration/technical-diagrams/technical-editorial-illustration-and-visual-metaphors/SKILL.md) — Use this skill to conceive, prompt, and composite clear editorial technical illustrations and visual conceptual metaphors for engineering blogs, architecture deep dives, and documentation. It translates abstract distributed systems concepts (consensus, sharding, backpressure) into memorable visual diagrams.
 
-## Data Analytics (40 skills)
+## Data Analytics (41 skills)
 
-### Analytics Engineering (1 skills)
+### Analytics Engineering (2 skills)
 Category index: [`docs/categories/analytics-engineering.md`](categories/analytics-engineering.md)
 
 - **Google_Analytics_Aut** (1):
   - [google-analytics-automation](../skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.
+- **Reports_Analytics** (1):
+  - [reports-analytics](../skills/data-analytics/analytics-engineering/reports_analytics/reports-analytics/SKILL.md) — Use this skill to design, implement, and operate production workflows for reports analytics. Report register: type, source modules, owner, audience, frequency, last and next run and report link. Use for reporting governance.
 
 ### Dashboards (1 skills)
 Category index: [`docs/categories/dashboards.md`](categories/dashboards.md)

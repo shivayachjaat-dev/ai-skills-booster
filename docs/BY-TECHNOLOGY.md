@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1732 skills)
+## Bash (1733 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1860,6 +1860,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [recognition-rewards](../skills/business/operations/recognition_rewards/recognition-rewards/SKILL.md) — Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs.
 - [remote-work-tracker](../skills/business/operations/remote_work_tracker/remote-work-tracker/SKILL.md) — Use this skill to design, implement, and operate production workflows for remote work tracker. Remote work register: employee, location, week start, HQ versus remote days, core-hours compliance and manager approval. Use for hybrid work tracking.
 - [google-analytics-automation](../skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.
+- [reports-analytics](../skills/data-analytics/analytics-engineering/reports_analytics/reports-analytics/SKILL.md) — Use this skill to design, implement, and operate production workflows for reports analytics. Report register: type, source modules, owner, audience, frequency, last and next run and report link. Use for reporting governance.
 - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
 - [calc](../skills/data-analytics/data-pipelines/calc/calc/SKILL.md) — Use this skill to design, implement, and operate production workflows for calc. Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.
 - [data-engineering-data-pipeline](../skills/data-analytics/data-pipelines/data_engineering_dat/data-engineering-data-pipeline/SKILL.md) — Use this skill to you are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.
@@ -9696,7 +9697,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1835 skills)
+## Python (1836 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10528,6 +10529,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [ai-saas-wrapper-architecture-and-stripe-metering](../skills/business/saas/ai-metering/ai-saas-wrapper-architecture-and-stripe-metering/SKILL.md) — Use this skill to architect, build, and monetize AI-wrapper SaaS products with usage-based billing, token credit wallets, and Stripe metering. It covers rate-limited API gateway proxies, tenant isolation, credit deduction middleware, and margin preservation against upstream LLM token costs.
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
 - [google-analytics-automation](../skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.
+- [reports-analytics](../skills/data-analytics/analytics-engineering/reports_analytics/reports-analytics/SKILL.md) — Use this skill to design, implement, and operate production workflows for reports analytics. Report register: type, source modules, owner, audience, frequency, last and next run and report link. Use for reporting governance.
 - [real-time-operational-metrics-dashboard](../skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard/SKILL.md) — Use this skill when designing, building, and instrumenting real-time operational metrics registers and analytics dashboards. It establishes strict KPI naming schemas, SQL/semantic definitions, data refresh intervals, target/threshold alerting, and integration with Grafana, Superset, or Metabase.
 - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
 - [calc](../skills/data-analytics/data-pipelines/calc/calc/SKILL.md) — Use this skill to design, implement, and operate production workflows for calc. Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.
@@ -11977,6 +11979,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Report Writing (1 skills)
 
 - [report-writing](../skills/security/appsec/report_writing/report-writing/SKILL.md) — Use this skill to design, implement, and operate production workflows for report writing. Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi
+
+## Reports Analytics (1 skills)
+
+- [reports-analytics](../skills/data-analytics/analytics-engineering/reports_analytics/reports-analytics/SKILL.md) — Use this skill to design, implement, and operate production workflows for reports analytics. Report register: type, source modules, owner, audience, frequency, last and next run and report link. Use for reporting governance.
 
 ## Requests (2 skills)
 

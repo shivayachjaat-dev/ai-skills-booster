@@ -18740,6 +18740,28 @@
     "maturity": "stable"
   },
   {
+    "name": "reports-analytics",
+    "path": "skills/data-analytics/analytics-engineering/reports_analytics/reports-analytics",
+    "domain": "data-analytics",
+    "category": "analytics-engineering",
+    "subcategory": "reports_analytics",
+    "description": "Use this skill to design, implement, and operate production workflows for reports analytics. Report register: type, source modules, owner, audience, frequency, last and next run and report link. Use for reporting governance.",
+    "tags": [
+      "data-analytics",
+      "analytics-engineering",
+      "reports",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Reports Analytics",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "real-time-operational-metrics-dashboard",
     "path": "skills/data-analytics/dashboards/operational-metrics/real-time-operational-metrics-dashboard",
     "domain": "data-analytics",
