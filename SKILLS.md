@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,131 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,132 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -94,6 +94,7 @@
 | [skill-writer](skills/ai-engineering/agents/skill_writer/skill-writer/SKILL.md) | `ai-engineering` | `agents` | `skill_writer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill writer. Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills. |
 | [spec-driven-loop](skills/ai-engineering/agents/spec_driven_loop/spec-driven-loop/SKILL.md) | `ai-engineering` | `agents` | `spec_driven_loop` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for spec driven loop. Freeze PRD, technical design, and acceptance criteria before medium-to-large Codex work; coordinate agents with explicit ownership, then judge delivery from diffs, tests, and evidence. |
 | [stitch-loop](skills/ai-engineering/agents/stitch_loop/stitch-loop/SKILL.md) | `ai-engineering` | `agents` | `stitch_loop` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stitch loop. Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern |
+| [subagent-driven-development](skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development/SKILL.md) | `ai-engineering` | `agents` | `subagent_driven_deve` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session |
 | [azure-speech-to-text-rest-py](skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) | `ai-engineering` | `audio-processing` | `azure_speech_to_text` | `advanced` | `stable` | Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK. |
 | [game-audio](skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) | `ai-engineering` | `audio-processing` | `game_audio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems. |
 | [gemini-api-dev](skills/ai-engineering/audio-processing/gemini_api_dev/gemini-api-dev/SKILL.md) | `ai-engineering` | `audio-processing` | `gemini_api_dev` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for gemini api dev. Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specificat... |

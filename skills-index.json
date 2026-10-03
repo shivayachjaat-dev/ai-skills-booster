@@ -2016,6 +2016,28 @@
     "maturity": "stable"
   },
   {
+    "name": "subagent-driven-development",
+    "path": "skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "subagent_driven_deve",
+    "description": "Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "subagent",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Subagent Driven Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "azure-speech-to-text-rest-py",
     "path": "skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py",
     "domain": "ai-engineering",

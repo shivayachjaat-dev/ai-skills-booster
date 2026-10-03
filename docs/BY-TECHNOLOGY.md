@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1949 skills)
+## Bash (1950 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1165,6 +1165,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [skill-writer](../skills/ai-engineering/agents/skill_writer/skill-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill writer. Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.
 - [spec-driven-loop](../skills/ai-engineering/agents/spec_driven_loop/spec-driven-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for spec driven loop. Freeze PRD, technical design, and acceptance criteria before medium-to-large Codex work; coordinate agents with explicit ownership, then judge delivery from diffs, tests, and evidence.
 - [stitch-loop](../skills/ai-engineering/agents/stitch_loop/stitch-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch loop. Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern
+- [subagent-driven-development](../skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
 - [gemini-api-dev](../skills/ai-engineering/audio-processing/gemini_api_dev/gemini-api-dev/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini api dev. Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specificat...
@@ -9929,7 +9930,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2052 skills)
+## Python (2053 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10020,6 +10021,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [skill-writer](../skills/ai-engineering/agents/skill_writer/skill-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill writer. Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.
 - [spec-driven-loop](../skills/ai-engineering/agents/spec_driven_loop/spec-driven-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for spec driven loop. Freeze PRD, technical design, and acceptance criteria before medium-to-large Codex work; coordinate agents with explicit ownership, then judge delivery from diffs, tests, and evidence.
 - [stitch-loop](../skills/ai-engineering/agents/stitch_loop/stitch-loop/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch loop. Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern
+- [subagent-driven-development](../skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session
 - [azure-speech-to-text-rest-py](../skills/ai-engineering/audio-processing/azure_speech_to_text/azure-speech-to-text-rest-py/SKILL.md) — Use this skill to azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
 - [game-audio](../skills/ai-engineering/audio-processing/game_audio/game-audio/SKILL.md) — Use this skill to design, implement, and operate production workflows for game audio. Game audio principles. Sound design, music integration, adaptive audio systems.
 - [gemini-api-dev](../skills/ai-engineering/audio-processing/gemini_api_dev/gemini-api-dev/SKILL.md) — Use this skill to design, implement, and operate production workflows for gemini api dev. Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specificat...
@@ -13571,6 +13573,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Styleseed Design Review (1 skills)
 
 - [styleseed-design-review](../skills/ai-engineering/models/styleseed_design_rev/styleseed-design-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for styleseed design review. Reviews UI/frontend code and tells you exactly why it \"looks AI-generated\" — then how to fix it.
+
+## Subagent Driven Development (1 skills)
+
+- [subagent-driven-development](../skills/ai-engineering/agents/subagent_driven_deve/subagent-driven-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for subagent driven development. Use when executing implementation plans with independent tasks in the current session
 
 ## Superset (1 skills)
 
