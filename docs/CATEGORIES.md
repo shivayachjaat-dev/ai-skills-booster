@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,816** skills across structured domains, categories, and subcategories.
+Master navigation for **1,817** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (623 skills)
+## Ai Engineering (624 skills)
 
-### Agents (78 skills)
+### Agents (79 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -159,6 +159,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [multi-agent-tmux-process-orchestrator](../skills/ai-engineering/agents/process-management/multi-agent-tmux-process-orchestrator/SKILL.md) — Use this skill when managing, supervising, and coordinating multiple autonomous CLI coding agents and subprocesses across detached terminal sessions using tmux. It covers automated tmux session and pane lifecycle management, sending keystrokes and instructions (send-keys), monitoring stdout/stderr activity buffers, and auto-restarting stalled agent workers.
 - **Product_Decision_Age** (1):
   - [product-decision-agent](../skills/ai-engineering/agents/product_decision_age/product-decision-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for product decision agent. 中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。
+- **Project_Development** (1):
+  - [project-development](../skills/ai-engineering/agents/project_development/project-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for project development. This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development.
 - **Scheduling** (1):
   - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - **Skill_Security_Audit** (1):

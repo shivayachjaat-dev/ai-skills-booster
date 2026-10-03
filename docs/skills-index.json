@@ -1705,6 +1705,28 @@
     "maturity": "stable"
   },
   {
+    "name": "project-development",
+    "path": "skills/ai-engineering/agents/project_development/project-development",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "project_development",
+    "description": "Use this skill to design, implement, and operate production workflows for project development. This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "project",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Project Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-cron-and-autonomous-job-scheduling",
     "path": "skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling",
     "domain": "ai-engineering",
