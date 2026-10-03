@@ -1,6 +1,6 @@
 # Category Index: Growth
 
-> **10 skills** available in this category.
+> **11 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -14,3 +14,4 @@
 | [marketing-plan](../../skills/business/growth/marketing_plan/marketing-plan/SKILL.md) | `marketing_plan` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for marketing plan. When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. |
 | [product-marketing](../../skills/business/growth/product_marketing/product-marketing/SKILL.md) | `product_marketing` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product marketing. When the user wants to create or update their product marketing context document. |
 | [product-marketing-context](../../skills/business/growth/product_marketing_co/product-marketing-context/SKILL.md) | `product_marketing_co` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product marketing context. Create or update a reusable product marketing context document with positioning, audience, ICP, use cases, and messaging. Use at the start of a project to avoid repeating core marketing context across tasks. |
+| [revops](../../skills/business/growth/revops/revops/SKILL.md) | `revops` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for revops. Design and improve revenue operations, lead lifecycle rules, scoring, routing, handoffs, and CRM process automation. Use when marketing, sales, and customer success workflows need clearer operational structure. |

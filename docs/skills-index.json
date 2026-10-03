@@ -17774,6 +17774,28 @@
     "maturity": "stable"
   },
   {
+    "name": "revops",
+    "path": "skills/business/growth/revops/revops",
+    "domain": "business",
+    "category": "growth",
+    "subcategory": "revops",
+    "description": "Use this skill to design, implement, and operate production workflows for revops. Design and improve revenue operations, lead lifecycle rules, scoring, routing, handoffs, and CRM process automation. Use when marketing, sales, and customer success workflows need clearer operational structure.",
+    "tags": [
+      "business",
+      "growth",
+      "revops",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Revops",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "corporate-alumni-and-talent-rehire-network",
     "path": "skills/business/human-resources/alumni-tracker/corporate-alumni-and-talent-rehire-network",
     "domain": "business",

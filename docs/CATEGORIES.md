@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,929** skills across structured domains, categories, and subcategories.
+Master navigation for **1,930** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (661 skills)
 
@@ -1707,7 +1707,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (57 skills)
+## Business (58 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1721,7 +1721,7 @@ Category index: [`docs/categories/fintech.md`](categories/fintech.md)
 - **Options_Flow_Analyze** (1):
   - [options-flow-analyzer](../skills/business/fintech/options_flow_analyze/options-flow-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for options flow analyzer. Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise
 
-### Growth (10 skills)
+### Growth (11 skills)
 Category index: [`docs/categories/growth.md`](categories/growth.md)
 
 - **Competitor_Ad_Intell** (1):
@@ -1744,6 +1744,8 @@ Category index: [`docs/categories/growth.md`](categories/growth.md)
   - [product-marketing](../skills/business/growth/product_marketing/product-marketing/SKILL.md) — Use this skill to design, implement, and operate production workflows for product marketing. When the user wants to create or update their product marketing context document.
 - **Product_Marketing_Co** (1):
   - [product-marketing-context](../skills/business/growth/product_marketing_co/product-marketing-context/SKILL.md) — Use this skill to design, implement, and operate production workflows for product marketing context. Create or update a reusable product marketing context document with positioning, audience, ICP, use cases, and messaging. Use at the start of a project to avoid repeating core marketing context across tasks.
+- **Revops** (1):
+  - [revops](../skills/business/growth/revops/revops/SKILL.md) — Use this skill to design, implement, and operate production workflows for revops. Design and improve revenue operations, lead lifecycle rules, scoring, routing, handoffs, and CRM process automation. Use when marketing, sales, and customer success workflows need clearer operational structure.
 
 ### Human Resources (2 skills)
 Category index: [`docs/categories/human-resources.md`](categories/human-resources.md)
