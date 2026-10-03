@@ -20485,6 +20485,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-meta-optimizer",
+    "path": "skills/data-analytics/data-pipelines/seo_meta_optimizer/seo-meta-optimizer",
+    "domain": "data-analytics",
+    "category": "data-pipelines",
+    "subcategory": "seo_meta_optimizer",
+    "description": "Use this skill to design, implement, and operate production workflows for seo meta optimizer. Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content.",
+    "tags": [
+      "data-analytics",
+      "data-pipelines",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Meta Optimizer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "snowflake-data-warehouse-modeling",
     "path": "skills/data-analytics/data-warehouse/snowflake/snowflake-data-warehouse-modeling",
     "domain": "data-analytics",
