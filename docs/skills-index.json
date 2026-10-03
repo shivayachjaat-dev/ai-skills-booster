@@ -11853,6 +11853,28 @@
     "maturity": "stable"
   },
   {
+    "name": "organization-design",
+    "path": "skills/ai-engineering/models/organization_design/organization-design",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "organization_design",
+    "description": "Use this skill to design, implement, and operate production workflows for organization design. Org structure register: department, type, parent, head, location, approved against actual headcount, annual budget, cost centre code and establishment date. Use for org design.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "organization",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Organization Design",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

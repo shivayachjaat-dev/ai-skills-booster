@@ -539,6 +539,7 @@ AI_Skills_Booster/
 │   │   ├── openapi_spec_generat/ (1 skills)
 │   │   ├── openclaw_deployment_/ (1 skills)
 │   │   ├── orca_replay/ (1 skills)
+│   │   ├── organization_design/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

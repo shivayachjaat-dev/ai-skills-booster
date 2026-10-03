@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1515 skills)
+## Bash (1516 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1585,6 +1585,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [openapi-spec-generation](../skills/ai-engineering/models/openapi_spec_generat/openapi-spec-generation/SKILL.md) — Use this skill to design, implement, and operate production workflows for openapi spec generation. Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.
 - [openclaw-deployment-hardening](../skills/ai-engineering/models/openclaw_deployment_/openclaw-deployment-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for openclaw deployment hardening. Secure OpenClaw deployments with preflight hardening checks, CI/CD guardrails,
 - [orca-replay](../skills/ai-engineering/models/orca_replay/orca-replay/SKILL.md) — Use this skill to design, implement, and operate production workflows for orca replay. Answers questions about a past agent run from its recording rather than from memory, and replays or forks that run. Use when asked why an earlier run did something, or to reproduce a failure.
+- [organization-design](../skills/ai-engineering/models/organization_design/organization-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for organization design. Org structure register: department, type, parent, head, location, approved against actual headcount, annual budget, cost centre code and establishment date. Use for org design.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -8714,6 +8715,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [orchestrate-batch-refactor](../skills/software-engineering/architecture/patterns/orchestrate-batch-refactor/SKILL.md) — Use this skill to design, implement, and operate production workflows for orchestrate batch refactor. Plan and execute large refactors with dependency-aware work packets and parallel analysis.
 
+## Organization Design (1 skills)
+
+- [organization-design](../skills/ai-engineering/models/organization_design/organization-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for organization design. Org structure register: department, type, parent, head, location, approved against actual headcount, annual budget, cost centre code and establishment date. Use for org design.
+
 ## PASTA (1 skills)
 
 - [stride-threat-modeling-and-security-audit](../skills/security/threat-modeling/stride/stride-threat-modeling-and-security-audit/SKILL.md) — Use this skill when performing comprehensive threat modeling, architectural attack surface analysis, and security auditing using the STRIDE and PASTA methodologies. It guides the agent through data flow diagramming (DFDs), threat enumeration across trust boundaries, mitigations mapping to OWASP standards, and risk scoring.
@@ -8909,7 +8914,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1618 skills)
+## Python (1619 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -9442,6 +9447,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [openapi-spec-generation](../skills/ai-engineering/models/openapi_spec_generat/openapi-spec-generation/SKILL.md) — Use this skill to design, implement, and operate production workflows for openapi spec generation. Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.
 - [openclaw-deployment-hardening](../skills/ai-engineering/models/openclaw_deployment_/openclaw-deployment-hardening/SKILL.md) — Use this skill to design, implement, and operate production workflows for openclaw deployment hardening. Secure OpenClaw deployments with preflight hardening checks, CI/CD guardrails,
 - [orca-replay](../skills/ai-engineering/models/orca_replay/orca-replay/SKILL.md) — Use this skill to design, implement, and operate production workflows for orca replay. Answers questions about a past agent run from its recording rather than from memory, and replays or forks that run. Use when asked why an earlier run did something, or to reproduce a failure.
+- [organization-design](../skills/ai-engineering/models/organization_design/organization-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for organization design. Org structure register: department, type, parent, head, location, approved against actual headcount, annual budget, cost centre code and establishment date. Use for org design.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
