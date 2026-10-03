@@ -38745,6 +38745,28 @@
     "maturity": "stable"
   },
   {
+    "name": "posix-shell-pro",
+    "path": "skills/software-engineering/architecture/patterns/posix-shell-pro",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for posix shell pro. Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "posix",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Posix Shell Pro",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",

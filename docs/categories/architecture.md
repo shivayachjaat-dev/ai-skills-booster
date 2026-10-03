@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **219 skills** available in this category.
+> **220 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -221,5 +221,6 @@
 | [playwright-skill](../../skills/software-engineering/architecture/patterns/playwright-skill/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for playwright skill. IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, a... |
 | [poka-yoke](../../skills/software-engineering/architecture/patterns/poka-yoke/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for poka yoke. Mistake-proof code, config and process: make the wrong action impossible or self-announcing rather than documented. |
 | [popup-cro](../../skills/software-engineering/architecture/patterns/popup-cro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for popup cro. Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust. |
+| [posix-shell-pro](../../skills/software-engineering/architecture/patterns/posix-shell-pro/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for posix shell pro. Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix). |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
