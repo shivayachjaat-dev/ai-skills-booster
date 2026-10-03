@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **31 skills** available in this category.
+> **32 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -35,3 +35,4 @@
 | [okr-system](../../skills/business/operations/okr_system/okr-system/SKILL.md) | `okr_system` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for okr system. OKR register: objective, owner and level, department, quarter and year, up to three key results with progress percentages, parent OKR and overall progress. Use for objective tracking. |
 | [payments-received](../../skills/business/operations/payments_received/payments-received/SKILL.md) | `payments_received` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for payments received. Payments received log: reference, client and invoice, amount and currency, payment date and method, withholding tax, bank account, received-by and receipt-sent status. Use for incoming payments. |
 | [payroll-finance](../../skills/business/operations/payroll_finance/payroll-finance/SKILL.md) | `payroll_finance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for payroll finance. Payroll register: employee, department and month, basic, DA, HRA and TA, bonus, deductions, net pay, pay period, payment date and method. Use for payroll records. |
+| [performance-management](../../skills/business/operations/performance_manageme/performance-management/SKILL.md) | `performance_manageme` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance management. Performance review register: review type, period, employee and reviewer, KPI, OKR and behaviour scores, overall rating, PIP and promotion flags, development plan. Use for performance reviews. |

@@ -778,7 +778,8 @@ AI_Skills_Booster/
 │   │   ├── offer_appointment/ (1 skills)
 │   │   ├── okr_system/ (1 skills)
 │   │   ├── payments_received/ (1 skills)
-│   │   └── payroll_finance/ (1 skills)
+│   │   ├── payroll_finance/ (1 skills)
+│   │   └── performance_manageme/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/

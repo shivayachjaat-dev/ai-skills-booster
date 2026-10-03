@@ -16704,6 +16704,28 @@
     "maturity": "stable"
   },
   {
+    "name": "performance-management",
+    "path": "skills/business/operations/performance_manageme/performance-management",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "performance_manageme",
+    "description": "Use this skill to design, implement, and operate production workflows for performance management. Performance review register: review type, period, employee and reviewer, KPI, OKR and behaviour scores, overall rating, PIP and promotion flags, development plan. Use for performance reviews.",
+    "tags": [
+      "business",
+      "operations",
+      "performance",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Performance Management",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
