@@ -1,6 +1,6 @@
 # Category Index: Python Services
 
-> **16 skills** available in this category.
+> **17 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -20,3 +20,4 @@
 | [python-patterns](../../skills/backend/python-services/python_patterns/python-patterns/SKILL.md) | `python_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python patterns. Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying. |
 | [python-performance-optimization](../../skills/backend/python-services/python_performance_o/python-performance-optimization/SKILL.md) | `python_performance_o` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python performance optimization. Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance. |
 | [robot-framework-skill](../../skills/backend/python-services/robot_framework_skil/robot-framework-skill/SKILL.md) | `robot_framework_skil` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for robot framework skill. Generates Robot Framework tests in keyword-driven syntax with Python. Supports SeleniumLibrary, RequestsLibrary, and custom keywords. Use when user mentions \"Robot Framework\", \"*** Test Cases ***\", \"SeleniumLibrary\", \".robot file\". |
+| [scikit-learn](../../skills/backend/python-services/scikit_learn/scikit-learn/SKILL.md) | `scikit_learn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scikit learn. Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines. |

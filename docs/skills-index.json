@@ -17808,6 +17808,28 @@
     "maturity": "stable"
   },
   {
+    "name": "scikit-learn",
+    "path": "skills/backend/python-services/scikit_learn/scikit-learn",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "scikit_learn",
+    "description": "Use this skill to design, implement, and operate production workflows for scikit learn. Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines.",
+    "tags": [
+      "backend",
+      "python-services",
+      "scikit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Scikit Learn",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",
