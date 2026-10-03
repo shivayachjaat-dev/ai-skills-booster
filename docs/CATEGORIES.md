@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,046** skills across structured domains, categories, and subcategories.
+Master navigation for **2,047** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (693 skills)
 
@@ -4071,9 +4071,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (277 skills)
+## Software Engineering (278 skills)
 
-### Architecture (270 skills)
+### Architecture (271 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -4082,7 +4082,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (267):
+- **Patterns** (268):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -4349,6 +4349,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [sexual-health-analyzer](../skills/software-engineering/architecture/patterns/sexual-health-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for sexual health analyzer. Sexual Health Analyzer
   - [shipping-and-launch](../skills/software-engineering/architecture/patterns/shipping-and-launch/SKILL.md) — Use this skill to design, implement, and operate production workflows for shipping and launch. Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.
   - [shopify-review-triage](../skills/software-engineering/architecture/patterns/shopify-review-triage/SKILL.md) — Use this skill to design, implement, and operate production workflows for shopify review triage. Turn public 1-3-star Shopify App Store review rows into a P0-P3 triage brief: incident risk, repeated friction, pricing confusion, feature requests, and an explicit needs-human-read bucket.
+  - [short](../skills/software-engineering/architecture/patterns/short/SKILL.md) — Use this skill to design, implement, and operate production workflows for short. Rewrite the previous response more briefly while preserving the substance.
   - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 
 ### Code Review (1 skills)

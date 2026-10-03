@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **271 skills** available in this category.
+> **272 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -274,4 +274,5 @@
 | [sexual-health-analyzer](../../skills/software-engineering/architecture/patterns/sexual-health-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sexual health analyzer. Sexual Health Analyzer |
 | [shipping-and-launch](../../skills/software-engineering/architecture/patterns/shipping-and-launch/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shipping and launch. Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy. |
 | [shopify-review-triage](../../skills/software-engineering/architecture/patterns/shopify-review-triage/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shopify review triage. Turn public 1-3-star Shopify App Store review rows into a P0-P3 triage brief: incident risk, repeated friction, pricing confusion, feature requests, and an explicit needs-human-read bucket. |
+| [short](../../skills/software-engineering/architecture/patterns/short/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for short. Rewrite the previous response more briefly while preserving the substance. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
