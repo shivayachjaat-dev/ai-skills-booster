@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,004** skills across structured domains, categories, and subcategories.
+Master navigation for **2,005** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (683 skills)
+## Ai Engineering (684 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -1319,7 +1319,7 @@ Category index: [`docs/categories/quantization.md`](categories/quantization.md)
 - **Gguf Llama Cpp** (1):
   - [llm-quantization-gguf-and-awq](../skills/ai-engineering/quantization/gguf-llama-cpp/llm-quantization-gguf-and-awq/SKILL.md) — Use this skill when quantizing, optimizing, and compressing Large Language Models for efficient CPU and GPU inference using GGUF (llama.cpp) and AWQ (Activation-aware Weight Quantization). It guides the agent through GGUF k-quant selection (Q4_K_M vs Q5_K_M vs Q8_0), AWQ 4-bit tensor calibration, perplexity evaluation against WikiText-2, and benchmark testing.
 
-### Rag (44 skills)
+### Rag (45 skills)
 Category index: [`docs/categories/rag.md`](categories/rag.md)
 
 - **Appdeploy** (1):
@@ -1405,6 +1405,8 @@ Category index: [`docs/categories/rag.md`](categories/rag.md)
   - [redis](../skills/ai-engineering/rag/redis/redis/SKILL.md) — Use this skill to design, implement, and operate production workflows for redis. Configure Redis for caching and data storage. Set up clustering, persistence,
 - **Screen_Adverse_Media** (1):
   - [screen-adverse-media](../skills/ai-engineering/rag/screen_adverse_media/screen-adverse-media/SKILL.md) — Use this skill to design, implement, and operate production workflows for screen adverse media. Screen a person or organisation for adverse media coverage, PEP status, and sanctions exposure — corroboration-gated, returns "review" never "guilty". Use when the user asks to screen someone before onboarding, partnership, or investment; for AML/CTF ...
+- **Seo_Aeo_Blog_Writer** (1):
+  - [seo-aeo-blog-writer](../skills/ai-engineering/rag/seo_aeo_blog_writer/seo-aeo-blog-writer/SKILL.md) — Use this skill to design, implement, and operate production workflows for seo aeo blog writer. Writes search-intent-led long-form articles with answer-first structure, FAQ coverage, internal links, and conversion paths for SEO and AEO.
 - **Soroban_Contract_Aud** (1):
   - [soroban-contract-audit](../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) — Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
 

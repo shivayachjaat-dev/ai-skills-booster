@@ -15008,6 +15008,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seo-aeo-blog-writer",
+    "path": "skills/ai-engineering/rag/seo_aeo_blog_writer/seo-aeo-blog-writer",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "seo_aeo_blog_writer",
+    "description": "Use this skill to design, implement, and operate production workflows for seo aeo blog writer. Writes search-intent-led long-form articles with answer-first structure, FAQ coverage, internal links, and conversion paths for SEO and AEO.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "seo",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seo Aeo Blog Writer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

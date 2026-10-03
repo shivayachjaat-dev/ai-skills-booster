@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **44 skills** available in this category.
+> **45 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -47,4 +47,5 @@
 | [rclone-cli](../../skills/ai-engineering/rag/rclone_cli/rclone-cli/SKILL.md) | `rclone_cli` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rclone cli. Rclone command-line cloud storage manager reference and usage guide. Use this skill whenever the user mentions rclone, or any task involving terminal-based cloud file operations such as upload, download, sync, copy, move, mount, or remote management. |
 | [redis](../../skills/ai-engineering/rag/redis/redis/SKILL.md) | `redis` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for redis. Configure Redis for caching and data storage. Set up clustering, persistence, |
 | [screen-adverse-media](../../skills/ai-engineering/rag/screen_adverse_media/screen-adverse-media/SKILL.md) | `screen_adverse_media` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for screen adverse media. Screen a person or organisation for adverse media coverage, PEP status, and sanctions exposure — corroboration-gated, returns "review" never "guilty". Use when the user asks to screen someone before onboarding, partnership, or investment; for AML/CTF ... |
+| [seo-aeo-blog-writer](../../skills/ai-engineering/rag/seo_aeo_blog_writer/seo-aeo-blog-writer/SKILL.md) | `seo_aeo_blog_writer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo blog writer. Writes search-intent-led long-form articles with answer-first structure, FAQ coverage, internal links, and conversion paths for SEO and AEO. |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |
