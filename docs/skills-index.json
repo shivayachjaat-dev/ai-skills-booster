@@ -42265,6 +42265,28 @@
     "maturity": "stable"
   },
   {
+    "name": "risk-manager",
+    "path": "skills/software-engineering/architecture/patterns/risk-manager",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for risk manager. Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "risk",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Risk Manager",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
