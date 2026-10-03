@@ -37601,6 +37601,28 @@
     "maturity": "stable"
   },
   {
+    "name": "paypal-integration",
+    "path": "skills/software-engineering/architecture/patterns/paypal-integration",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for paypal integration. Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "paypal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Paypal Integration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "pc-games",
     "path": "skills/software-engineering/architecture/patterns/pc-games",
     "domain": "software-engineering",
