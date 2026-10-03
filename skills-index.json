@@ -29935,6 +29935,28 @@
     "maturity": "stable"
   },
   {
+    "name": "recruitment-pipeline",
+    "path": "skills/frontend/ui-ux/recruitment_pipeline/recruitment-pipeline",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "recruitment_pipeline",
+    "description": "Use this skill to design, implement, and operate production workflows for recruitment pipeline. Recruitment pipeline: candidate, position, stage, source, applied and interview dates, interview score, notice period and offer. Use for hiring tracking.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "recruitment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Recruitment Pipeline",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,887** skills across structured domains, categories, and subcategories.
+Master navigation for **1,888** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (649 skills)
 
@@ -2455,7 +2455,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (380 skills)
+## Frontend (381 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2641,7 +2641,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Premium_3D_Website** (1):
   - [premium-3d-website](../skills/frontend/ui-development/premium_3d_website/premium-3d-website/SKILL.md) — Use this skill to design, implement, and operate production workflows for premium 3d website. Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization.
 
-### Ui Ux (227 skills)
+### Ui Ux (228 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3092,6 +3092,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [radix-ui-design-system](../skills/frontend/ui-ux/radix_ui_design_syst/radix-ui-design-system/SKILL.md) — Use this skill to design, implement, and operate production workflows for radix ui design system. Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries.
 - **Receiving_Code_Revie** (1):
   - [receiving-code-review](../skills/frontend/ui-ux/receiving_code_revie/receiving-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for receiving code review. Code review requires technical evaluation, not emotional performance.
+- **Recruitment_Pipeline** (1):
+  - [recruitment-pipeline](../skills/frontend/ui-ux/recruitment_pipeline/recruitment-pipeline/SKILL.md) — Use this skill to design, implement, and operate production workflows for recruitment pipeline. Recruitment pipeline: candidate, position, stage, source, applied and interview dates, interview score, notice period and offer. Use for hiring tracking.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
