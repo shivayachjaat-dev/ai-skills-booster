@@ -695,7 +695,8 @@ AI_Skills_Booster/
 │   │   ├── postman_openapi_conv/ (1 skills)
 │   │   ├── pubmed_database/ (1 skills)
 │   │   ├── puppeteer_skill/ (1 skills)
-│   │   └── pydantic_models_py/ (1 skills)
+│   │   ├── pydantic_models_py/ (1 skills)
+│   │   └── python_development/ (1 skills)
 │   ├── background-tasks/
 │   │   └── celery/ (1 skills)
 │   ├── caching/
