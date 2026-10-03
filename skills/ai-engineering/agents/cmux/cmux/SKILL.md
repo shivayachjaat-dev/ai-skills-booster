@@ -1,112 +1,154 @@
 ---
 name: cmux
-description: "Use this skill to control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows."
+description: "Use this skill to orchestrate, monitor, and automate parallel AI coding agent sessions within terminal multiplexers. It manages hierarchical workspaces, split panes, and execution surfaces via IPC socket/CLI protocols, enabling programmatic session spawning, screen state capture, and keystroke dispatching."
 domain: ai-engineering
 category: agents
 subcategory: cmux
 tags:
-  - ai-engineering
-  - agents
+  - terminal-multiplexing
   - cmux
-  - automation
-  - production-ready
+  - parallel-agents
+  - split-panes
+  - session-orchestration
+  - cli-automation
+  - ipc-socket
 technologies:
-  - Cmux
   - Python
   - Bash
-complexity: advanced
+  - Unix-Sockets
+  - JSON-RPC
+  - POSIX
+  - Pty
+complexity: expert
 maturity: stable
 tools:
   - python
   - bash
 dependencies:
   - python@>=3.10
+version: 1.0.0
+author: Antigravity Team
 ---
-# Cmux Architecture & Implementation Standard
+
+# Terminal Multiplexer & Parallel Agent Session Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for cmux. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with cmux.
+The `cmux` skill defines the architecture, topology management, and programmatic control protocol for running concurrent, multi-agent AI coding sessions across terminal multiplexers. Coordinating multiple autonomous agents working on different branches, microservices, or verification suites requires structured process isolation. Without a dedicated multiplexer layer, parallel agents collide on stdout streams, clobber shared working directories, and fail to report granular execution status. This skill establishes programmatic control over hierarchical multiplexer structures (**Workspaces**, **Panes**, and **Surfaces**), enabling agents to inspect running processes, capture terminal screen buffers, and dispatch commands safely.
 
 ```
-+------------------------------------------------------------------------+
-|                   Cmux                                                |
-|                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
-+------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+|                     Terminal Multiplexer Session Topology                         |
+|                                                                                   |
+|  [ Multiplexer Window ]                                                           |
+|         |                                                                         |
+|         +---> [ Workspace 1: feature-auth (git worktree /auth) ]                   |
+|         |        |                                                                |
+|         |        +-- [ Pane 1: Agent CLI (Surface 1) ] <--- Code Synthesizer      |
+|         |        `-- [ Pane 2: Test Runner (Surface 2) ] <--- Continuous Pytest   |
+|         |                                                                         |
+|         `---> [ Workspace 2: refactor-db (git worktree /db) ]                     |
+|                  |                                                                |
+|                  +-- [ Pane 1: Agent CLI (Surface 3) ] <--- Migration Agent       |
+|                  `-- [ Pane 2: Local DB Container (Surface 4) ]                   |
+|                                                                                   |
+|  [ IPC Socket Controller (/tmp/multiplexer.sock or CLI) ]                         |
+|         |-- list-panes, list-surfaces                                             |
+|         |-- send-keys --surface surface:N "cmd\n"                                 |
+|         `-- read-screen --surface surface:N                                       |
++-----------------------------------------------------------------------------------+
 ```
+
+---
 
 ## When to Use
 
-- When architecting or refactoring systems related to cmux.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When managing or monitoring multiple AI coding agents running in parallel across separate terminals or worktrees.
+- When an orchestrator agent needs to inspect background dev servers, build watchers, or log output without killing the active process.
+- When programmatically splitting panes, switching workspaces, or capturing terminal screens for diagnostic analysis.
+- When creating automated multi-agent environments with isolated visual and terminal state.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
+- For single-process, linear command execution where standard shell execution (`subprocess.run` or bash tool) suffices.
+- In headless container environments where no graphical multiplexer or terminal emulator is present.
+- When interacting with web browser DOMs (use browser automation or generative UI skills instead).
+
+---
 
 ## Inputs & Prerequisites
 
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+1. **Multiplexer IPC Socket or CLI**: Reachable control socket (e.g. Unix domain socket) or installed multiplexer CLI binary on PATH.
+2. **Explicit Reference Target**: Fully-qualified prefixed reference (`workspace:N`, `pane:N`, `surface:N`).
+3. **Environment Context**: Anchored `WORKSPACE_ID` or active branch directory.
+
+---
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for cmux..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### Step 1: Reference Syntax Validation
+In terminal multiplexer automation, bare integer indexes cause silent target collisions. Always parse and enforce strict prefixed reference syntax:
 
 ```python
-import sys
-import logging
+import re
+from typing import Tuple
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("cmux")
+REF_PATTERN = re.compile(r"^(workspace|pane|surface):([a-zA-Z0-9_\-]+)$")
 
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for cmux")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+def validate_multiplexer_ref(raw_ref: str, expected_type: str = None) -> Tuple[str, str]:
+    """
+    Parses and asserts valid multiplexer ref syntax (e.g. 'pane:12', 'surface:4').
+    Rejects ambiguous bare integers (e.g. '12').
+    """
+    clean = raw_ref.strip()
+    match = REF_PATTERN.match(clean)
+    if not match:
+        raise ValueError(
+            f"Invalid reference '{raw_ref}'. Must be prefixed like '{expected_type or 'type'}:N'. "
+            "Bare numbers are ambiguous indexes and prohibited."
+        )
+        
+    ref_type, ref_id = match.groups()
+    if expected_type and ref_type != expected_type:
+        raise ValueError(f"Reference type mismatch: Expected '{expected_type}', got '{ref_type}'.")
+        
+    return ref_type, ref_id
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### Step 2: Screen Buffer Capture & Ansi Sanitization
+Read screen contents from a target surface and strip ANSI color/cursor escapes:
+
+```python
+import subprocess
+import re
+
+ANSI_ESCAPE_PATTERN = re.compile(r"\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])")
+
+def strip_ansi_escapes(raw_text: str) -> str:
+    """Removes terminal escape codes to produce clean plain-text log data."""
+    return ANSI_ESCAPE_PATTERN.sub("", raw_text)
+```
+
+### Step 3: Lifecycle Management & Automated Clean Up
+When a subagent completes its task, close the allocated pane or workspace cleanly to release terminal memory and file descriptors.
+
+---
 
 ## Best Practices & Failure Modes
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+- **Never Silence Stderr**: Never pipe multiplexer commands to `2>/dev/null`. Errors reveal reference type mismatches and missing target surfaces.
+- **Surface-Targeted Reads**: Screen reading and pane captures must target the explicit surface ID, never the abstract pane or workspace.
+- **Anchor to Workspace ID**: Always explicitly pass `--workspace "$WORKSPACE_ID"`; never assume the visually focused window is the current caller's workspace.
+
+---
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/cmux_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+1. Run the terminal multiplexer manager test suite:
+   ```bash
+   python scripts/cmux_helper.py
+   ```
+2. Verify reference parsing, screen sanitization, and topology modeling via CLI:
+   ```bash
+   python scripts/terminal_multiplexer_manager.py --test-all
+   ```
