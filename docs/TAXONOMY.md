@@ -711,6 +711,8 @@ AI_Skills_Booster/
 ├── business/
 │   ├── finance/
 │   │   └── audit-controls/ (1 skills)
+│   ├── fintech/
+│   │   └── options_flow_analyze/ (1 skills)
 │   ├── growth/
 │   │   ├── competitor_ad_intell/ (1 skills)
 │   │   ├── content_creator/ (1 skills)

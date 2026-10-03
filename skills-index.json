@@ -15310,6 +15310,28 @@
     "maturity": "stable"
   },
   {
+    "name": "options-flow-analyzer",
+    "path": "skills/business/fintech/options_flow_analyze/options-flow-analyzer",
+    "domain": "business",
+    "category": "fintech",
+    "subcategory": "options_flow_analyze",
+    "description": "Use this skill to design, implement, and operate production workflows for options flow analyzer. Real vs lottery call separation for options P/C ratio analysis \u2014 prevents signal inversion from deep OTM noise",
+    "tags": [
+      "business",
+      "fintech",
+      "options",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Options Flow Analyzer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "competitor-ad-intelligence",
     "path": "skills/business/growth/competitor_ad_intell/competitor-ad-intelligence",
     "domain": "business",
