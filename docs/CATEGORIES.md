@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,761** skills across structured domains, categories, and subcategories.
+Master navigation for **1,762** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (607 skills)
 
@@ -2309,7 +2309,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (349 skills)
+## Frontend (350 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2897,7 +2897,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (80 skills)
+### Web Architecture (81 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -3027,6 +3027,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [performance-optimization](../skills/frontend/web-architecture/performance_optimiza/performance-optimization/SKILL.md) — Use this skill to design, implement, and operate production workflows for performance optimization. Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing.
 - **Photopea_Embedded_Ed** (1):
   - [photopea-embedded-editor](../skills/frontend/web-architecture/photopea_embedded_ed/photopea-embedded-editor/SKILL.md) — Use this skill to design, implement, and operate production workflows for photopea embedded editor. Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and the full Photoshop-compatible API.
+- **Plotly** (1):
+  - [plotly](../skills/frontend/web-architecture/plotly/plotly/SKILL.md) — Use this skill to design, implement, and operate production workflows for plotly. Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization.
 - **Production_Audit** (1):
   - [production-audit](../skills/frontend/web-architecture/production_audit/production-audit/SKILL.md) — Use this skill to audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
 - **Retro_Design** (1):

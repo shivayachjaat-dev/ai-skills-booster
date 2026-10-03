@@ -29187,6 +29187,28 @@
     "maturity": "stable"
   },
   {
+    "name": "plotly",
+    "path": "skills/frontend/web-architecture/plotly/plotly",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "plotly",
+    "description": "Use this skill to design, implement, and operate production workflows for plotly. Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "plotly",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Plotly",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "production-audit",
     "path": "skills/frontend/web-architecture/production_audit/production-audit",
     "domain": "frontend",
