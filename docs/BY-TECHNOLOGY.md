@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1997 skills)
+## Bash (1998 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2603,6 +2603,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [stripe-integration](../skills/frontend/web-architecture/stripe_integration/stripe-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stripe integration. Implement and verify Stripe checkout, subscriptions, webhooks and refunds with explicit server-side authorization and retry boundaries.
 - [swiss-design](../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.
 - [synthwave](../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) — Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.
+- [tavily-web](../skills/frontend/web-architecture/tavily_web/tavily-web/SKILL.md) — Use this skill to design, implement, and operate production workflows for tavily web. Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites.
 - [tile-design](../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.
 - [vaporwave](../skills/frontend/web-architecture/vaporwave/vaporwave/SKILL.md) — Use this skill to design, implement, and operate production workflows for vaporwave. Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.
 - [vibrant-maximalism](../skills/frontend/web-architecture/vibrant_maximalism/vibrant-maximalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for vibrant maximalism. Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and "more is more".
@@ -10007,7 +10008,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2100 skills)
+## Python (2101 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11592,6 +11593,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [stripe-integration](../skills/frontend/web-architecture/stripe_integration/stripe-integration/SKILL.md) — Use this skill to design, implement, and operate production workflows for stripe integration. Implement and verify Stripe checkout, subscriptions, webhooks and refunds with explicit server-side authorization and retry boundaries.
 - [swiss-design](../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.
 - [synthwave](../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) — Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.
+- [tavily-web](../skills/frontend/web-architecture/tavily_web/tavily-web/SKILL.md) — Use this skill to design, implement, and operate production workflows for tavily web. Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites.
 - [tile-design](../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.
 - [vaporwave](../skills/frontend/web-architecture/vaporwave/vaporwave/SKILL.md) — Use this skill to design, implement, and operate production workflows for vaporwave. Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.
 - [vibrant-maximalism](../skills/frontend/web-architecture/vibrant_maximalism/vibrant-maximalism/SKILL.md) — Use this skill to design, implement, and operate production workflows for vibrant maximalism. Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and "more is more".
@@ -13886,6 +13888,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Task Intelligence (1 skills)
 
 - [task-intelligence](../skills/ai-engineering/agents/task_intelligence/task-intelligence/SKILL.md) — Use this skill to design, implement, and operate production workflows for task intelligence. Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usuário.
+
+## Tavily Web (1 skills)
+
+- [tavily-web](../skills/frontend/web-architecture/tavily_web/tavily-web/SKILL.md) — Use this skill to design, implement, and operate production workflows for tavily web. Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites.
 
 ## Tech Matrix (1 skills)
 

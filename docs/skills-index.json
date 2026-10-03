@@ -36337,6 +36337,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tavily-web",
+    "path": "skills/frontend/web-architecture/tavily_web/tavily-web",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "tavily_web",
+    "description": "Use this skill to design, implement, and operate production workflows for tavily web. Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "tavily",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tavily Web",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tile-design",
     "path": "skills/frontend/web-architecture/tile_design/tile-design",
     "domain": "frontend",

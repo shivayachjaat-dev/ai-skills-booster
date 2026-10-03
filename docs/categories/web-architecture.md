@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **91 skills** available in this category.
+> **92 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -89,6 +89,7 @@
 | [stripe-integration](../../skills/frontend/web-architecture/stripe_integration/stripe-integration/SKILL.md) | `stripe_integration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stripe integration. Implement and verify Stripe checkout, subscriptions, webhooks and refunds with explicit server-side authorization and retry boundaries. |
 | [swiss-design](../../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) | `swiss_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment. |
 | [synthwave](../../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) | `synthwave` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics. |
+| [tavily-web](../../skills/frontend/web-architecture/tavily_web/tavily-web/SKILL.md) | `tavily_web` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tavily web. Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites. |
 | [tile-design](../../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) | `tile_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids. |
 | [vaporwave](../../skills/frontend/web-architecture/vaporwave/vaporwave/SKILL.md) | `vaporwave` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vaporwave. Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues. |
 | [vibrant-maximalism](../../skills/frontend/web-architecture/vibrant_maximalism/vibrant-maximalism/SKILL.md) | `vibrant_maximalism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vibrant maximalism. Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and "more is more". |

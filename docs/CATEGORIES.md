@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,178** skills across structured domains, categories, and subcategories.
+Master navigation for **2,179** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (736 skills)
 
@@ -2741,7 +2741,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (447 skills)
+## Frontend (448 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -3503,7 +3503,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (91 skills)
+### Web Architecture (92 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -3675,6 +3675,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [swiss-design](../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.
 - **Synthwave** (1):
   - [synthwave](../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) — Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.
+- **Tavily_Web** (1):
+  - [tavily-web](../skills/frontend/web-architecture/tavily_web/tavily-web/SKILL.md) — Use this skill to design, implement, and operate production workflows for tavily web. Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites.
 - **Tile_Design** (1):
   - [tile-design](../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.
 - **Vaporwave** (1):
