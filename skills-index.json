@@ -34005,6 +34005,28 @@
     "maturity": "stable"
   },
   {
+    "name": "site-architecture",
+    "path": "skills/frontend/web-architecture/site_architecture/site-architecture",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "site_architecture",
+    "description": "Use this skill to design, implement, and operate production workflows for site architecture. Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking. Use when mapping pages, sections, and site structure, but not for XML sitemap auditing or schema markup.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "site",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Site Architecture",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skeuomorphism",
     "path": "skills/frontend/web-architecture/skeuomorphism/skeuomorphism",
     "domain": "frontend",
