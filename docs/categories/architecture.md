@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **261 skills** available in this category.
+> **262 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -264,4 +264,5 @@
 | [seo-aeo-meta-description-generator](../../skills/software-engineering/architecture/patterns/seo-aeo-meta-description-generator/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo aeo meta description generator. Writes title tags, meta descriptions, Open Graph tags, and Twitter Card tags aligned to page intent and conversion goals. |
 | [seo-cannibalization-detector](../../skills/software-engineering/architecture/patterns/seo-cannibalization-detector/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo cannibalization detector. Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content. |
 | [seo-content-planner](../../skills/software-engineering/architecture/patterns/seo-content-planner/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo content planner. Creates comprehensive content outlines and topic clusters for SEO. |
+| [seo-content-writer](../../skills/software-engineering/architecture/patterns/seo-content-writer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for seo content writer. Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
