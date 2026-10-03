@@ -1,112 +1,170 @@
 ---
 name: data-structure-protocol
-description: "Use this skill to give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo."
+description: "Use this skill to create, maintain, and query persistent structural graph memory of a codebase (.dsp). It maps software entities (objects, classes, functions) with stable UIDs, tracks semantic dependencies and import rationales ('why' connections exist), and enables instant impact analysis for agent refactoring without re-reading the entire repository."
 domain: ai-engineering
 category: agents
 subcategory: data_structure_proto
 tags:
-  - ai-engineering
-  - agents
-  - data
-  - automation
-  - production-ready
+  - data-structure-protocol
+  - dsp
+  - codebase-memory
+  - dependency-graph
+  - refactoring-impact-analysis
+  - persistent-structural-map
+  - ast-entities
 technologies:
-  - Data Structure Protocol
   - Python
-  - Bash
-complexity: advanced
+  - AST
+  - Graphviz
+  - NetworkX
+  - JSON
+  - SHA256
+complexity: expert
 maturity: stable
 tools:
   - python
   - bash
 dependencies:
   - python@>=3.10
+version: 1.0.0
+author: Antigravity Team
 ---
-# Data Structure Protocol Architecture & Implementation Standard
+
+# Data Structure Protocol (DSP) Codebase Graph Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for data structure protocol. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with data-structure-protocol.
+The `data-structure-protocol` (DSP) skill defines the specification, serialization schema, and query protocol for maintaining a persistent, graph-structured mental model of a software codebase. Large Language Model (LLM) agents operating on medium-to-large codebases spend up to 70% of their token budget simply orienting themselves: discovering where classes reside, which modules depend on them, and what will break if an interface is modified. DSP solves this by externalizing codebase architecture into an indexed directed graph stored in `.dsp/`. Rather than storing raw AST dumps, DSP records **semantic identity** (stable UIDs), **interface boundaries** (imports/exports), and **dependency rationales** (*why* a connection exists).
 
 ```
-+------------------------------------------------------------------------+
-|                   Data Structure Protocol                             |
-|                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
-+------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+|                        Data Structure Protocol (DSP) Map                          |
+|                                                                                   |
+|  [ Source File: src/auth/service.py ]                                             |
+|         |                                                                         |
+|         +---> Node: obj-4a1b8c2e (UserService Class)                              |
+|         |        - File: src/auth/service.py                                      |
+|         |        - Exports: func-7f3a9c12 (authenticate_user)                     |
+|         |                                                                         |
+|         +---> Dependency Edge: imports obj-9e2d1f4b (DatabasePool)                |
+|                  - Rationale: "Connection pool for user credential lookup"        |
+|                                                                                   |
+|  [ Persistent Storage: .dsp/ Directory ]                                          |
+|    - TOC                                 (Ordered entity index)                   |
+|    - entities/obj-4a1b8c2e/meta.json     (Boundaries & exposed functions)         |
+|    - reverse_index/obj-9e2d1f4b/who.json (Downstream dependants & break risk)     |
+|                                                                                   |
+|  [ Query: Impact Analysis / Blast Radius ]                                        |
+|    "If I modify authenticate_user(), which 3 downstream routes will break?"       |
+|    Result calculated in < 10ms without reading 50,000 lines of source code!       |
++-----------------------------------------------------------------------------------+
 ```
+
+---
 
 ## When to Use
 
-- When architecting or refactoring systems related to data structure protocol.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When an agent is working in a project containing a `.dsp/` directory or needs to bootstrap structural memory.
+- When performing pre-refactoring impact analysis (determining blast radius before altering a shared class or function signature).
+- When navigating large, multi-module repositories where reading all source files exceeds the agent's context budget.
+- When creating or modifying code files to keep the structural graph synchronized with code changes.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
+- For tiny, single-file scripts where all functions and definitions are visible in fewer than 100 lines.
+- In read-only external repositories where local `.dsp/` metadata cannot be created or stored.
+- As a replacement for comprehensive automated unit tests (DSP tracks dependency architecture, not execution correctness).
+
+---
 
 ## Inputs & Prerequisites
 
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+1. **Target Repository Root**: Directory containing project source code.
+2. **Entity Types**: Objects (`obj-<8hex>`: classes, modules, configs) and Functions (`func-<8hex>`: exported methods).
+3. **Graph Storage**: Access to write the `.dsp/` indexing metadata directory.
+
+---
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for data-structure-protocol..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### Step 1: Stable Entity Identity Generation
+Assign deterministic, stable UIDs derived from entity name and module namespace:
 
 ```python
-import sys
-import logging
+import hashlib
+from typing import Dict, Any
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("data-structure-protocol")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for data-structure-protocol")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+def generate_dsp_uid(entity_type: str, namespace: str, entity_name: str) -> str:
+    """
+    Computes an 8-hex deterministic UID for an entity.
+    entity_type: 'obj' or 'func'
+    """
+    raw_key = f"{namespace}:{entity_name}".encode("utf-8")
+    hash_hex = hashlib.sha256(raw_key).hexdigest()[:8]
+    return f"{entity_type}-{hash_hex}"
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### Step 2: Dependency Edge Modeling with Rationales
+Every recorded dependency must declare *why* the connection exists to inform downstream agents of breakage risk:
+
+```python
+from dataclasses import dataclass
+from typing import List, Dict
+
+@dataclass
+class DSPEdge:
+    source_uid: str
+    target_uid: str
+    import_reason: str
+    is_hard_dependency: bool = True
+```
+
+### Step 3: Refactoring Impact Analysis (Blast Radius Calculation)
+Before modifying an entity, traverse the reverse dependency index to compute downstream dependents:
+
+```python
+def calculate_blast_radius(target_uid: str, reverse_index: Dict[str, List[DSPEdge]]) -> List[Dict[str, str]]:
+    """
+    Traverses reverse dependency edges to identify all modules affected by changing target_uid.
+    """
+    impacted = []
+    queue = [target_uid]
+    visited = set()
+
+    while queue:
+        curr = queue.pop(0)
+        if curr in visited:
+            continue
+        visited.add(curr)
+
+        edges = reverse_index.get(curr, [])
+        for edge in edges:
+            impacted.append({
+                "affected_entity": edge.source_uid,
+                "reason_it_breaks": edge.import_reason
+            })
+            queue.append(edge.source_uid)
+
+    return impacted
+```
+
+---
 
 ## Best Practices & Failure Modes
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+- **Never Omit Dependency Rationales**: An edge without a reason only reveals *what* imports *what*, forcing agents to re-read files to determine if an edit is safe. Always record the operational purpose.
+- **Keep UIDs Stable Across File Renames**: If `src/auth.py` is moved to `src/security/auth.py`, preserve the existing entity UIDs to maintain historical dependency links.
+- **Automated Sync**: Hook DSP updates into pre-commit scripts so the structural map never drifts from the underlying code.
+
+---
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/data-structure-protocol_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+1. Run the Data Structure Protocol graph manager test suite:
+   ```bash
+   python scripts/data-structure-protocol_helper.py
+   ```
+2. Verify entity UID generation, rationale mapping, and blast-radius traversal via CLI:
+   ```bash
+   python scripts/dsp_graph_protocol.py --test-all
+   ```
