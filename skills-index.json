@@ -29253,6 +29253,28 @@
     "maturity": "stable"
   },
   {
+    "name": "python-testing-patterns",
+    "path": "skills/frontend/ui-ux/python_testing_patte/python-testing-patterns",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "python_testing_patte",
+    "description": "Use this skill to design, implement, and operate production workflows for python testing patterns. Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "python",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Python Testing Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

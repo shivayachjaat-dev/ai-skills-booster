@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,850** skills across structured domains, categories, and subcategories.
+Master navigation for **1,851** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (633 skills)
 
@@ -2419,7 +2419,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (367 skills)
+## Frontend (368 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2587,7 +2587,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Premium_3D_Website** (1):
   - [premium-3d-website](../skills/frontend/ui-development/premium_3d_website/premium-3d-website/SKILL.md) — Use this skill to design, implement, and operate production workflows for premium 3d website. Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization.
 
-### Ui Ux (223 skills)
+### Ui Ux (224 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3030,6 +3030,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [python-packaging](../skills/frontend/ui-ux/python_packaging/python-packaging/SKILL.md) — Use this skill to design, implement, and operate production workflows for python packaging. Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI.
 - **Python_Pptx_Generato** (1):
   - [python-pptx-generator](../skills/frontend/ui-ux/python_pptx_generato/python-pptx-generator/SKILL.md) — Use this skill to design, implement, and operate production workflows for python pptx generator. Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content.
+- **Python_Testing_Patte** (1):
+  - [python-testing-patterns](../skills/frontend/ui-ux/python_testing_patte/python-testing-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for python testing patterns. Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
