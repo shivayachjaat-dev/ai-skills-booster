@@ -1859,6 +1859,28 @@
     "maturity": "stable"
   },
   {
+    "name": "run-deep-swe",
+    "path": "skills/ai-engineering/agents/run_deep_swe/run-deep-swe",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "run_deep_swe",
+    "description": "Use this skill to design, implement, and operate production workflows for run deep swe. Run reproducible DeepSWE coding-agent benchmark evaluations through OpenRouter and mini-swe-agent.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "run",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Run Deep Swe",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-cron-and-autonomous-job-scheduling",
     "path": "skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling",
     "domain": "ai-engineering",
