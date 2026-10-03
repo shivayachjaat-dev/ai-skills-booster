@@ -11919,6 +11919,28 @@
     "maturity": "stable"
   },
   {
+    "name": "outreachagent",
+    "path": "skills/ai-engineering/models/outreachagent/outreachagent",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "outreachagent",
+    "description": "Use this skill to design, implement, and operate production workflows for outreachagent. Operate reply-aware cold outbound email workflows for AI agents with inboxes, contacts, templates, pacing, approvals, webhooks, and delivery metrics.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "outreachagent",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Outreachagent",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

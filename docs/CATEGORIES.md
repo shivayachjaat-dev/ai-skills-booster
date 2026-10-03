@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,705** skills across structured domains, categories, and subcategories.
+Master navigation for **1,706** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (586 skills)
+## Ai Engineering (587 skills)
 
 ### Agents (71 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -292,7 +292,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (423 skills)
+### Models (424 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1116,6 +1116,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [organization-design](../skills/ai-engineering/models/organization_design/organization-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for organization design. Org structure register: department, type, parent, head, location, approved against actual headcount, annual budget, cost centre code and establishment date. Use for org design.
 - **Outlook_Automation** (1):
   - [outlook-automation](../skills/ai-engineering/models/outlook_automation/outlook-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for outlook automation. Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current schemas.
+- **Outreachagent** (1):
+  - [outreachagent](../skills/ai-engineering/models/outreachagent/outreachagent/SKILL.md) — Use this skill to design, implement, and operate production workflows for outreachagent. Operate reply-aware cold outbound email workflows for AI agents with inboxes, contacts, templates, pacing, approvals, webhooks, and delivery metrics.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
