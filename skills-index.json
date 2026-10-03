@@ -35171,6 +35171,28 @@
     "maturity": "stable"
   },
   {
+    "name": "stellar-anchor-integration",
+    "path": "skills/frontend/web-architecture/stellar_anchor_integ/stellar-anchor-integration",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "stellar_anchor_integ",
+    "description": "Use this skill to design, implement, and operate production workflows for stellar anchor integration. Stellar anchor protocol compliance register: SEP-10 web authentication, SEP-24 interactive deposit and withdrawal, and KYC lifecycle.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "stellar",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Stellar Anchor Integration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiss-design",
     "path": "skills/frontend/web-architecture/swiss_design/swiss-design",
     "domain": "frontend",

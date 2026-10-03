@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **89 skills** available in this category.
+> **90 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -85,6 +85,7 @@
 | [site-architecture](../../skills/frontend/web-architecture/site_architecture/site-architecture/SKILL.md) | `site_architecture` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for site architecture. Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking. Use when mapping pages, sections, and site structure, but not for XML sitemap auditing or schema markup. |
 | [skeuomorphism](../../skills/frontend/web-architecture/skeuomorphism/skeuomorphism/SKILL.md) | `skeuomorphism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skeuomorphism. Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors. |
 | [soft-pastel](../../skills/frontend/web-architecture/soft_pastel/soft-pastel/SKILL.md) | `soft_pastel` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for soft pastel. Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics. |
+| [stellar-anchor-integration](../../skills/frontend/web-architecture/stellar_anchor_integ/stellar-anchor-integration/SKILL.md) | `stellar_anchor_integ` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stellar anchor integration. Stellar anchor protocol compliance register: SEP-10 web authentication, SEP-24 interactive deposit and withdrawal, and KYC lifecycle. |
 | [swiss-design](../../skills/frontend/web-architecture/swiss_design/swiss-design/SKILL.md) | `swiss_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for swiss design. Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment. |
 | [synthwave](../../skills/frontend/web-architecture/synthwave/synthwave/SKILL.md) | `synthwave` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for synthwave. Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics. |
 | [tile-design](../../skills/frontend/web-architecture/tile_design/tile-design/SKILL.md) | `tile_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tile design. Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids. |
