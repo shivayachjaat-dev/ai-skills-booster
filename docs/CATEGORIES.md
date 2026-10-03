@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,853** skills across structured domains, categories, and subcategories.
+Master navigation for **1,854** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (634 skills)
 
@@ -3772,9 +3772,9 @@ Category index: [`docs/categories/zero-trust.md`](categories/zero-trust.md)
 - **Spiffe Spire** (1):
   - [spiffe-spire-workload-identity](../skills/security/zero-trust/spiffe-spire/spiffe-spire-workload-identity/SKILL.md) — Use this skill when designing and deploying cryptographic zero-trust workload identities across heterogeneous cloud and Kubernetes environments using SPIFFE and SPIRE. It covers SPIFFE ID naming conventions, SPIRE Server and Agent architecture, node attestation (AWS/K8s PSAT), Workload Attestation, and automated X.509 SVID issuance and rotation.
 
-## Software Engineering (236 skills)
+## Software Engineering (237 skills)
 
-### Architecture (229 skills)
+### Architecture (230 skills)
 Category index: [`docs/categories/architecture.md`](categories/architecture.md)
 
 - **Adr Governance** (1):
@@ -3783,7 +3783,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [hexagonal-ports-and-adapters-architecture](../skills/software-engineering/architecture/hexagonal/hexagonal-ports-and-adapters-architecture/SKILL.md) — Use this skill when architecting backend systems using Hexagonal Architecture (Ports and Adapters / Clean Architecture). It guides the agent through domain model isolation, designing driving (inbound) and driven (outbound) port interfaces, implementing swappable adapters (FastAPI, CLI, PostgreSQL, Mock), and structuring dependency injection.
 - **Interfaces** (1):
   - [api-and-interface-design](../skills/software-engineering/architecture/interfaces/api-and-interface-design/SKILL.md) — Use this skill when designing public APIs, module boundaries, database interfaces, or component props. It enforces Hyrum's Law awareness, backwards compatibility, strict contract specification, defensive schema validation, explicit error hierarchies, and graceful deprecation lifecycles.
-- **Patterns** (226):
+- **Patterns** (227):
   - [3d-games](../skills/software-engineering/architecture/patterns/3d-games/SKILL.md) — Use this skill to design, implement, and operate production workflows for 3d games. 3D game development principles. Rendering, shaders, physics, cameras.
   - [artifact-yylo](../skills/software-engineering/architecture/patterns/artifact-yylo/SKILL.md) — Use this skill to capture and retrieve durable YYLO Ledger artifact Records with intentional
   - [ask-matt](../skills/software-engineering/architecture/patterns/ask-matt/SKILL.md) — Use this skill to ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
@@ -4008,6 +4008,7 @@ Category index: [`docs/categories/architecture.md`](categories/architecture.md)
   - [project-state-governor](../skills/software-engineering/architecture/patterns/project-state-governor/SKILL.md) — Use this skill to design, implement, and operate production workflows for project state governor. Govern evidence-backed canonical project state across sessions, branches, reviews, and research cycles without inventing product intent.
   - [push-skill-to-github](../skills/software-engineering/architecture/patterns/push-skill-to-github/SKILL.md) — Use this skill to design, implement, and operate production workflows for push skill to github. Commit and push skill changes to the configured skills repository after review and validation.
   - [puzzle-activity-planner](../skills/software-engineering/architecture/patterns/puzzle-activity-planner/SKILL.md) — Use this skill to design, implement, and operate production workflows for puzzle activity planner. Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links
+  - [quality-nonconformance](../skills/software-engineering/architecture/patterns/quality-nonconformance/SKILL.md) — Use this skill to design, implement, and operate production workflows for quality nonconformance. Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing.
   - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
   - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 

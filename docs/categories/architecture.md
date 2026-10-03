@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **230 skills** available in this category.
+> **231 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -232,5 +232,6 @@
 | [project-state-governor](../../skills/software-engineering/architecture/patterns/project-state-governor/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for project state governor. Govern evidence-backed canonical project state across sessions, branches, reviews, and research cycles without inventing product intent. |
 | [push-skill-to-github](../../skills/software-engineering/architecture/patterns/push-skill-to-github/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for push skill to github. Commit and push skill changes to the configured skills repository after review and validation. |
 | [puzzle-activity-planner](../../skills/software-engineering/architecture/patterns/puzzle-activity-planner/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for puzzle activity planner. Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links |
+| [quality-nonconformance](../../skills/software-engineering/architecture/patterns/quality-nonconformance/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for quality nonconformance. Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing. |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
