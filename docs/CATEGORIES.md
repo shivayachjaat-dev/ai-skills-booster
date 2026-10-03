@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,825** skills across structured domains, categories, and subcategories.
+Master navigation for **1,826** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (627 skills)
+## Ai Engineering (628 skills)
 
-### Agents (79 skills)
+### Agents (80 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -161,6 +161,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [product-decision-agent](../skills/ai-engineering/agents/product_decision_age/product-decision-agent/SKILL.md) — Use this skill to design, implement, and operate production workflows for product decision agent. 中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。
 - **Project_Development** (1):
   - [project-development](../skills/ai-engineering/agents/project_development/project-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for project development. This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development.
+- **Prompt_Engineering** (1):
+  - [prompt-engineering](../skills/ai-engineering/agents/prompt_engineering/prompt-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering. Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.
 - **Scheduling** (1):
   - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - **Skill_Security_Audit** (1):
