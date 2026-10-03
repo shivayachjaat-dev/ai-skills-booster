@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,157** skills across structured domains, categories, and subcategories.
+Master navigation for **2,158** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (725 skills)
+## Ai Engineering (726 skills)
 
 ### Agents (93 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -340,7 +340,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (524 skills)
+### Models (525 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1366,8 +1366,9 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [styleseed-design-review](../skills/ai-engineering/models/styleseed_design_rev/styleseed-design-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for styleseed design review. Reviews UI/frontend code and tells you exactly why it \"looks AI-generated\" — then how to fix it.
 - **Suno_Lyrics_To_Song** (1):
   - [suno-lyrics-to-song](../skills/ai-engineering/models/suno_lyrics_to_song/suno-lyrics-to-song/SKILL.md) — Use this skill to design, implement, and operate production workflows for suno lyrics to song. Install and use the official Lyrics to Song package, pinned by digest, for paid hosted work on the Beatra service.
-- **Supply_Chain_Attack_** (1):
+- **Supply_Chain_Attack_** (2):
   - [supply-chain-attack-recon](../skills/ai-engineering/models/supply_chain_attack_/supply-chain-attack-recon/SKILL.md) — Use this skill to design, implement, and operate production workflows for supply chain attack recon. External recon for software supply-chain attack surface
+  - [supply-chain-attack-response](../skills/ai-engineering/models/supply_chain_attack_/supply-chain-attack-response/SKILL.md) — Use this skill to design, implement, and operate production workflows for supply chain attack response. Detect, respond to, and prevent software supply chain attacks on package
 - **Supply_Chain_Risk_Au** (1):
   - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - **Templates** (1):

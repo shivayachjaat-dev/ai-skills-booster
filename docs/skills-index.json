@@ -14691,6 +14691,28 @@
     "maturity": "stable"
   },
   {
+    "name": "supply-chain-attack-response",
+    "path": "skills/ai-engineering/models/supply_chain_attack_/supply-chain-attack-response",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "supply_chain_attack_",
+    "description": "Use this skill to design, implement, and operate production workflows for supply chain attack response. Detect, respond to, and prevent software supply chain attacks on package",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "supply",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Supply Chain Attack Response",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

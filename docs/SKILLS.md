@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,157 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,158 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -668,6 +668,7 @@
 | [styleseed-design-review](skills/ai-engineering/models/styleseed_design_rev/styleseed-design-review/SKILL.md) | `ai-engineering` | `models` | `styleseed_design_rev` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for styleseed design review. Reviews UI/frontend code and tells you exactly why it \"looks AI-generated\" — then how to fix it. |
 | [suno-lyrics-to-song](skills/ai-engineering/models/suno_lyrics_to_song/suno-lyrics-to-song/SKILL.md) | `ai-engineering` | `models` | `suno_lyrics_to_song` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for suno lyrics to song. Install and use the official Lyrics to Song package, pinned by digest, for paid hosted work on the Beatra service. |
 | [supply-chain-attack-recon](skills/ai-engineering/models/supply_chain_attack_/supply-chain-attack-recon/SKILL.md) | `ai-engineering` | `models` | `supply_chain_attack_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supply chain attack recon. External recon for software supply-chain attack surface |
+| [supply-chain-attack-response](skills/ai-engineering/models/supply_chain_attack_/supply-chain-attack-response/SKILL.md) | `ai-engineering` | `models` | `supply_chain_attack_` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for supply chain attack response. Detect, respond to, and prevent software supply chain attacks on package |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `ai-engineering` | `models` | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
