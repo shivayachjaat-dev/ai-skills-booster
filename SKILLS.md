@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,044 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,045 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1448,6 +1448,7 @@
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [service-mesh-observability](skills/frontend/ui-ux/service_mesh_observa/service-mesh-observability/SKILL.md) | `frontend` | `ui-ux` | `service_mesh_observa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh observability. Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments. |
 | [shadcn](skills/frontend/ui-ux/shadcn/shadcn/SKILL.md) | `frontend` | `ui-ux` | `shadcn` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shadcn. Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems. |
+| [shopify-development](skills/frontend/ui-ux/shopify_development/shopify-development/SKILL.md) | `frontend` | `ui-ux` | `shopify_development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shopify development. Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
 | [3d-ui](skills/frontend/web-architecture/3d_ui/3d-ui/SKILL.md) | `frontend` | `web-architecture` | `3d_ui` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for 3d ui. Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth. |

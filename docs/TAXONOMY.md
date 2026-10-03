@@ -1535,6 +1535,7 @@ AI_Skills_Booster/
 │   │   ├── seo_content_auditor/ (1 skills)
 │   │   ├── service_mesh_observa/ (1 skills)
 │   │   ├── shadcn/ (1 skills)
+│   │   ├── shopify_development/ (1 skills)
 │   │   ├── swiftui_performance_/ (1 skills)
 │   │   └── vr_ar/ (1 skills)
 │   └── web-architecture/

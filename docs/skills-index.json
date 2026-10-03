@@ -32179,6 +32179,28 @@
     "maturity": "stable"
   },
   {
+    "name": "shopify-development",
+    "path": "skills/frontend/ui-ux/shopify_development/shopify-development",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "shopify_development",
+    "description": "Use this skill to design, implement, and operate production workflows for shopify development. Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "shopify",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Shopify Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
