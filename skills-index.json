@@ -19243,6 +19243,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pipedrive-automation",
+    "path": "skills/developer-tools/productivity/pipedrive_automation/pipedrive-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "pipedrive_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for pipedrive automation. Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "pipedrive",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pipedrive Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
