@@ -47743,6 +47743,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tdd-workflows",
+    "path": "skills/software-engineering/architecture/patterns/tdd-workflows",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for tdd workflows. Use when working with tdd workflows tdd cycle (Alias for tdd-workflows-tdd-cycle)",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "tdd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tdd Workflows",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
