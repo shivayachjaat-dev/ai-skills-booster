@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **277 skills** available in this category.
+> **278 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -280,4 +280,5 @@
 | [skill-installer](../../skills/software-engineering/architecture/patterns/skill-installer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill installer. Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao. |
 | [skill-router](../../skills/software-engineering/architecture/patterns/skill-router/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill router. Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and recommends the best skill(s) from the installed library for their goal. |
 | [skill-suggester](../../skills/software-engineering/architecture/patterns/skill-suggester/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill suggester. Scan prompt history for recurring patterns and unmet needs, then propose new skills or command templates |
+| [sleep-analyzer](../../skills/software-engineering/architecture/patterns/sleep-analyzer/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sleep analyzer. 分析睡眠数据、识别睡眠模式、评估睡眠质量，并提供个性化睡眠改善建议。支持与其他健康数据的关联分析。 |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |

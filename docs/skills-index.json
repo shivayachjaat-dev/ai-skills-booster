@@ -45235,6 +45235,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sleep-analyzer",
+    "path": "skills/software-engineering/architecture/patterns/sleep-analyzer",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for sleep analyzer. \u5206\u6790\u7761\u7720\u6570\u636e\u3001\u8bc6\u522b\u7761\u7720\u6a21\u5f0f\u3001\u8bc4\u4f30\u7761\u7720\u8d28\u91cf\uff0c\u5e76\u63d0\u4f9b\u4e2a\u6027\u5316\u7761\u7720\u6539\u5584\u5efa\u8bae\u3002\u652f\u6301\u4e0e\u5176\u4ed6\u5065\u5eb7\u6570\u636e\u7684\u5173\u8054\u5206\u6790\u3002",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "sleep",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sleep Analyzer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
