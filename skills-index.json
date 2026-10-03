@@ -1749,6 +1749,28 @@
     "maturity": "stable"
   },
   {
+    "name": "protect-mcp-governance",
+    "path": "skills/ai-engineering/agents/protect_mcp_governan/protect-mcp-governance",
+    "domain": "ai-engineering",
+    "category": "agents",
+    "subcategory": "protect_mcp_governan",
+    "description": "Use this skill to design, implement, and operate production workflows for protect mcp governance. Agent governance skill for MCP tool calls \u2014 Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification.",
+    "tags": [
+      "ai-engineering",
+      "agents",
+      "protect",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Protect Mcp Governance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "ai-agent-cron-and-autonomous-job-scheduling",
     "path": "skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling",
     "domain": "ai-engineering",

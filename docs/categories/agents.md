@@ -1,6 +1,6 @@
 # Category Index: Agents
 
-> **80 skills** available in this category.
+> **81 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -82,5 +82,6 @@
 | [product-decision-agent](../../skills/ai-engineering/agents/product_decision_age/product-decision-agent/SKILL.md) | `product_decision_age` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for product decision agent. 中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。 |
 | [project-development](../../skills/ai-engineering/agents/project_development/project-development/SKILL.md) | `project_development` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for project development. This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development. |
 | [prompt-engineering](../../skills/ai-engineering/agents/prompt_engineering/prompt-engineering/SKILL.md) | `prompt_engineering` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prompt engineering. Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior. |
+| [protect-mcp-governance](../../skills/ai-engineering/agents/protect_mcp_governan/protect-mcp-governance/SKILL.md) | `protect_mcp_governan` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for protect mcp governance. Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification. |
 | [ai-agent-cron-and-autonomous-job-scheduling](../../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) | `scheduling` | `advanced` | `stable` | Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring. |
 | [skill-security-audit](../../skills/ai-engineering/agents/skill_security_audit/skill-security-audit/SKILL.md) | `skill_security_audit` | `advanced` | `stable` | Use this skill to audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions. |

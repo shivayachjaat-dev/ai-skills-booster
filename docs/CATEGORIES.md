@@ -1,10 +1,10 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,828** skills across structured domains, categories, and subcategories.
+Master navigation for **1,829** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (629 skills)
+## Ai Engineering (630 skills)
 
-### Agents (80 skills)
+### Agents (81 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
 
 - **Agent Squad** (1):
@@ -163,6 +163,8 @@ Category index: [`docs/categories/agents.md`](categories/agents.md)
   - [project-development](../skills/ai-engineering/agents/project_development/project-development/SKILL.md) — Use this skill to design, implement, and operate production workflows for project development. This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development.
 - **Prompt_Engineering** (1):
   - [prompt-engineering](../skills/ai-engineering/agents/prompt_engineering/prompt-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering. Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.
+- **Protect_Mcp_Governan** (1):
+  - [protect-mcp-governance](../skills/ai-engineering/agents/protect_mcp_governan/protect-mcp-governance/SKILL.md) — Use this skill to design, implement, and operate production workflows for protect mcp governance. Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification.
 - **Scheduling** (1):
   - [ai-agent-cron-and-autonomous-job-scheduling](../skills/ai-engineering/agents/scheduling/ai-agent-cron-and-autonomous-job-scheduling/SKILL.md) — Use this skill to implement autonomous time-based and event-driven job scheduling for AI agents. It covers recurring cron execution, dynamic interval backoff, task queue dead-letter routing, distributed lock acquisition, and execution heartbeat monitoring.
 - **Skill_Security_Audit** (1):
