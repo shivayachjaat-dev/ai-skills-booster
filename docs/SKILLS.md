@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,851 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,852 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1316,6 +1316,7 @@
 | [python-packaging](skills/frontend/ui-ux/python_packaging/python-packaging/SKILL.md) | `frontend` | `ui-ux` | `python_packaging` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python packaging. Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI. |
 | [python-pptx-generator](skills/frontend/ui-ux/python_pptx_generato/python-pptx-generator/SKILL.md) | `frontend` | `ui-ux` | `python_pptx_generato` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python pptx generator. Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content. |
 | [python-testing-patterns](skills/frontend/ui-ux/python_testing_patte/python-testing-patterns/SKILL.md) | `frontend` | `ui-ux` | `python_testing_patte` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python testing patterns. Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices. |
+| [qiskit](skills/frontend/ui-ux/qiskit/qiskit/SKILL.md) | `frontend` | `ui-ux` | `qiskit` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for qiskit. Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Ama... |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
