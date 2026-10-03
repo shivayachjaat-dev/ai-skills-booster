@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1725 skills)
+## Bash (1726 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2775,6 +2775,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [remotion-captions](../skills/software-engineering/architecture/patterns/remotion-captions/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion captions. Transcribing, displaying and animating captions
 - [remotion-create](../skills/software-engineering/architecture/patterns/remotion-create/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion create. Create a new Remotion video
 - [remotion-docs](../skills/software-engineering/architecture/patterns/remotion-docs/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion docs. Search Remotion documentation
+- [remotion-interactivity](../skills/software-engineering/architecture/patterns/remotion-interactivity/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion interactivity. Structure Remotion markup for interactivity
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -9689,7 +9690,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1828 skills)
+## Python (1829 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11485,6 +11486,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [remotion-captions](../skills/software-engineering/architecture/patterns/remotion-captions/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion captions. Transcribing, displaying and animating captions
 - [remotion-create](../skills/software-engineering/architecture/patterns/remotion-create/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion create. Create a new Remotion video
 - [remotion-docs](../skills/software-engineering/architecture/patterns/remotion-docs/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion docs. Search Remotion documentation
+- [remotion-interactivity](../skills/software-engineering/architecture/patterns/remotion-interactivity/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion interactivity. Structure Remotion markup for interactivity
 - [scale-benchmarks](../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) — Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks.
 - [tech-matrix](../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) — Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix.
 - [github-pr-review-feedback-resolver](../skills/software-engineering/code-review/pr-feedback/github-pr-review-feedback-resolver/SKILL.md) — Use this skill when processing, triage-categorizing, and systematically addressing code review feedback and comments on pull requests. It guides the agent through parsing inline diff suggestions, verifying requested changes locally with test suites, pushing atomic fix commits, replying to reviewers with context, and resolving comment threads.
@@ -11927,6 +11929,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Remotion Docs (1 skills)
 
 - [remotion-docs](../skills/software-engineering/architecture/patterns/remotion-docs/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion docs. Search Remotion documentation
+
+## Remotion Interactivity (1 skills)
+
+- [remotion-interactivity](../skills/software-engineering/architecture/patterns/remotion-interactivity/SKILL.md) — Use this skill to design, implement, and operate production workflows for remotion interactivity. Structure Remotion markup for interactivity
 
 ## Replicate (1 skills)
 

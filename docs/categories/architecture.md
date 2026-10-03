@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **240 skills** available in this category.
+> **241 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -242,5 +242,6 @@
 | [remotion-captions](../../skills/software-engineering/architecture/patterns/remotion-captions/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion captions. Transcribing, displaying and animating captions |
 | [remotion-create](../../skills/software-engineering/architecture/patterns/remotion-create/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion create. Create a new Remotion video |
 | [remotion-docs](../../skills/software-engineering/architecture/patterns/remotion-docs/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion docs. Search Remotion documentation |
+| [remotion-interactivity](../../skills/software-engineering/architecture/patterns/remotion-interactivity/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remotion interactivity. Structure Remotion markup for interactivity |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
