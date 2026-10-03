@@ -1,6 +1,6 @@
 ---
 name: handoff
-description: "Use this skill to design, implement, and operate production workflows for handoff. Compact the current conversation into a handoff document for another agent to pick up."
+description: "Compact the current multi-turn conversation into a standardized, loss-less handoff document for another agent or successor session."
 domain: ai-engineering
 category: agents
 subcategory: handoff
@@ -8,12 +8,13 @@ tags:
   - ai-engineering
   - agents
   - handoff
-  - automation
-  - production-ready
+  - context-compression
+  - multi-agent
 technologies:
-  - Handoff
   - Python
-  - Bash
+  - Markdown
+  - Context Distillation
+  - Agent Memory
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,93 @@ tools:
 dependencies:
   - python@>=3.10
 ---
-# Handoff Architecture & Implementation Standard
+
+# Agent Session Handoff Architecture Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for handoff. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with handoff.
+The **Handoff** skill provides a formalized methodology and automated tooling for compacting extended, multi-turn AI coding conversations into authoritative handoff briefs. As autonomous agent workflows tackle multi-hour implementations, raw session transcripts accumulate tens of thousands of tokens of intermediate command output, syntax errors, and temporary exploration paths.
+
+This skill equips agents with `HandoffCompiler` to compress large session contexts by up to 20x while rigorously preserving acceptance criteria, discovered architectural invariants, modified file inventories, and the precise next operational step for successor agents.
 
 ```
 +------------------------------------------------------------------------+
-|                   Handoff                                             |
+|                         Agent Handoff Pipeline                         |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Extended Conversation History ]                                     |
+|                   |                                                    |
+|                   v                                                    |
+|  [ Invariant & Objective Extractor ]                                   |
+|                   |                                                    |
+|                   v                                                    |
+|  [ Milestone & File State Inventory]                                   |
+|                   |                                                    |
+|                   v                                                    |
+|  [ Directive Action Synthesizer ]                                      |
+|                   |                                                    |
+|                   v                                                    |
+|  [ Compact HANDOFF.md Document ] ---> Ingested by Successor Agent      |
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to handoff.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When approaching model context window boundaries and preparing to branch into a clean successor session.
+- When transitioning an engineering task between specialized agents (e.g. Architect agent handing off to Implementer agent, or Implementer to QA tester).
+- When preparing an end-of-task handover brief for human engineering review.
+- When persisting checkpoint state across scheduled asynchronous background workers.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Short, single-turn interactions or trivial one-line code inquiries.
+- When full raw session transcripts are required for compliance or forensic audits without summarization.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for handoff..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Capture Session State Snapshot
+Assemble the session's original objective, completed milestones, touched files, and discovered constraints:
 
 ```python
-import sys
-import logging
+from handoff_compiler import HandoffCompiler, SessionState
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("handoff")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for handoff")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+state = SessionState(
+    session_id="sess-worker-402",
+    original_objective="Upgrade database client to connection pool and add retry logic.",
+    completed_tasks=["Implemented pool manager in src/db.py", "Added exponential backoff"],
+    in_progress_task="Authoring unit tests for connection timeout",
+    remaining_tasks=["Run integration tests with local Postgres", "Update deployment config"],
+    modified_files=["src/db.py", "tests/test_db.py"],
+    critical_invariants=["Max connections capped at 20", "Zero plain-text password logging"],
+    next_immediate_step="pytest tests/test_db.py -k test_connection_timeout"
+)
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Compile Compressed Handoff Document
+Compile the structured handoff markdown document and evaluate compression ratios:
 
-## Best Practices & Failure Modes
+```python
+compiler = HandoffCompiler()
+handoff = compiler.compile(state)
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+print(f"Compression: {handoff.token_compression_ratio}x")
+print(f"Output Tokens: ~{handoff.output_estimated_tokens}")
+
+with open("HANDOFF.md", "w", encoding="utf-8") as f:
+    f.write(handoff.handoff_markdown)
+```
+
+### 3. Bootstrap Successor Agent
+Initialize the successor agent session with `HANDOFF.md` prepended as its operational context.
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/handoff_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Execute the handoff compilation verification suite to test markdown generation and compression metrics:
+
+```bash
+python scripts/handoff_helper.py
+```
+
+Expected output:
+- Session state distilled into standardized handoff document.
+- Compression ratio exceeds 10x with zero invariant loss.
+- Status returned cleanly.
