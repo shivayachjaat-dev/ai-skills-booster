@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,999** skills across structured domains, categories, and subcategories.
+Master navigation for **2,000** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (681 skills)
 
@@ -2145,7 +2145,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (55 skills)
+## Developer Tools (56 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -2183,7 +2183,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Satori** (1):
   - [satori](../skills/developer-tools/cli-utilities/satori/satori/SKILL.md) — Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner
 
-### Productivity (39 skills)
+### Productivity (40 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -2264,6 +2264,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [salesforce-automation](../skills/developer-tools/productivity/salesforce_automatio/salesforce-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for salesforce automation. Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas.
 - **Segment_Automation** (1):
   - [segment-automation](../skills/developer-tools/productivity/segment_automation/segment-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for segment automation. Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas.
+- **Senior_Architect** (1):
+  - [senior-architect](../skills/developer-tools/productivity/senior_architect/senior-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior architect. Complete toolkit for senior architect with modern tools and best practices.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

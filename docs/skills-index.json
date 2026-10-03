@@ -22059,6 +22059,28 @@
     "maturity": "stable"
   },
   {
+    "name": "senior-architect",
+    "path": "skills/developer-tools/productivity/senior_architect/senior-architect",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "senior_architect",
+    "description": "Use this skill to design, implement, and operate production workflows for senior architect. Complete toolkit for senior architect with modern tools and best practices.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "senior",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Senior Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
