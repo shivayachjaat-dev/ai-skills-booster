@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **31 skills** available in this category.
+> **32 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -35,3 +35,4 @@
 | [monday-automation](../../skills/developer-tools/productivity/monday_automation/monday-automation/SKILL.md) | `monday_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for monday automation. Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas. |
 | [one-drive-automation](../../skills/developer-tools/productivity/one_drive_automation/one-drive-automation/SKILL.md) | `one_drive_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for one drive automation. Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first for current schemas. |
 | [outlook-calendar-automation](../../skills/developer-tools/productivity/outlook_calendar_aut/outlook-calendar-automation/SKILL.md) | `outlook_calendar_aut` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for outlook calendar automation. Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and handle invitations. Always search tools first for current schemas. |
+| [pagerduty-automation](../../skills/developer-tools/productivity/pagerduty_automation/pagerduty-automation/SKILL.md) | `pagerduty_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pagerduty automation. Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations. Always search tools first for current schemas. |

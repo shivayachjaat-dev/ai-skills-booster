@@ -18627,6 +18627,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pagerduty-automation",
+    "path": "skills/developer-tools/productivity/pagerduty_automation/pagerduty-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "pagerduty_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for pagerduty automation. Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "pagerduty",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pagerduty Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
