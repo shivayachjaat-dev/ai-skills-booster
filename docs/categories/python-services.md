@@ -1,6 +1,6 @@
 # Category Index: Python Services
 
-> **13 skills** available in this category.
+> **14 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -17,3 +17,4 @@
 | [n8n-code-python](../../skills/backend/python-services/n8n_code_python/n8n-code-python/SKILL.md) | `n8n_code_python` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for n8n code python. Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes. |
 | [networkx](../../skills/backend/python-services/networkx/networkx/SKILL.md) | `networkx` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for networkx. NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs. |
 | [pytest-skill](../../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) | `pytest_skill` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\". |
+| [python-patterns](../../skills/backend/python-services/python_patterns/python-patterns/SKILL.md) | `python_patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for python patterns. Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying. |

@@ -16774,6 +16774,28 @@
     "maturity": "stable"
   },
   {
+    "name": "python-patterns",
+    "path": "skills/backend/python-services/python_patterns/python-patterns",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "python_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for python patterns. Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.",
+    "tags": [
+      "backend",
+      "python-services",
+      "python",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Python Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",

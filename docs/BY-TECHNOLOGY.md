@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1664 skills)
+## Bash (1665 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1782,6 +1782,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-code-python](../skills/backend/python-services/n8n_code_python/n8n-code-python/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code python. Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.
 - [networkx](../skills/backend/python-services/networkx/networkx/SKILL.md) — Use this skill to design, implement, and operate production workflows for networkx. NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs.
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
+- [python-patterns](../skills/backend/python-services/python_patterns/python-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for python patterns. Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.
 - [options-flow-analyzer](../skills/business/fintech/options_flow_analyze/options-flow-analyzer/SKILL.md) — Use this skill to design, implement, and operate production workflows for options flow analyzer. Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise
 - [competitor-ad-intelligence](../skills/business/growth/competitor_ad_intell/competitor-ad-intelligence/SKILL.md) — Use this skill to research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown.
 - [content-creator](../skills/business/growth/content_creator/content-creator/SKILL.md) — Use this skill to draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.
@@ -9628,7 +9629,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1767 skills)
+## Python (1768 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10373,6 +10374,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [n8n-code-python](../skills/backend/python-services/n8n_code_python/n8n-code-python/SKILL.md) — Use this skill to design, implement, and operate production workflows for n8n code python. Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.
 - [networkx](../skills/backend/python-services/networkx/networkx/SKILL.md) — Use this skill to design, implement, and operate production workflows for networkx. NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs.
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
+- [python-patterns](../skills/backend/python-services/python_patterns/python-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for python patterns. Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.
 - [websocket-realtime-communication](../skills/backend/realtime/websocket/websocket-realtime-communication/SKILL.md) — Use this skill when designing, building, and scaling bi-directional real-time WebSocket applications. It guides the agent through WebSocket handshake upgrade, heartbeat ping/pong keepalive frames, horizontal clustering using Redis Pub/Sub backplanes, reconnection backoff with message replay buffers, and binary frame optimization.
 - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 - [internal-financial-audit-and-controls](../skills/business/finance/audit-controls/internal-financial-audit-and-controls/SKILL.md) — Use this skill when designing, testing, and automating internal financial accounting controls, journal entry audit trails, and reconciliation workflows compliant with SOX 404, GAAP, and IFRS. It guides the agent through general ledger reconciliation, manual journal entry approval thresholds, segregation of duties in treasury, and anomaly detection.
@@ -11425,6 +11427,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Python Packaging (1 skills)
 
 - [python-packaging](../skills/frontend/ui-ux/python_packaging/python-packaging/SKILL.md) — Use this skill to design, implement, and operate production workflows for python packaging. Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI.
+
+## Python Patterns (1 skills)
+
+- [python-patterns](../skills/backend/python-services/python_patterns/python-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for python patterns. Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.
 
 ## Python Pika (1 skills)
 
