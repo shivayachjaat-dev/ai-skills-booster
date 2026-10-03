@@ -1,6 +1,6 @@
 # Category Index: Databases
 
-> **37 skills** available in this category.
+> **38 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -39,5 +39,6 @@
 | [planetscale](../../skills/backend/databases/planetscale/planetscale/SKILL.md) | `planetscale` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for planetscale. Operate MySQL-compatible databases on PlanetScale with branching workflows, |
 | [postgres-best-practices](../../skills/backend/databases/postgres_best_practi/postgres-best-practices/SKILL.md) | `postgres_best_practi` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postgres best practices. Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations. |
 | [postgresql-devsec](../../skills/backend/databases/postgresql_devsec/postgresql-devsec/SKILL.md) | `postgresql_devsec` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postgresql devsec. Administer PostgreSQL databases. Configure replication, backups, and |
+| [postgresql-optimization](../../skills/backend/databases/postgresql_optimizat/postgresql-optimization/SKILL.md) | `postgresql_optimizat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postgresql optimization. PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management. |
 | [src-hunter](../../skills/backend/databases/src_hunter/src-hunter/SKILL.md) | `src_hunter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for src hunter. Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload. |
 | [airtable-api-data-sync-and-webhook-automation](../../skills/data-analytics/databases/airtable/airtable-api-data-sync-and-webhook-automation/SKILL.md) | `airtable` | `intermediate` | `stable` | Use this skill to design, automate, and synchronize data records between application backends and Airtable bases using the Airtable REST API and Webhooks. It covers batch upserts, formula field handling, rate limit token buckets, and webhook delta payloads. |

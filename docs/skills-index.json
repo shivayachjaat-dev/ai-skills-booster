@@ -15577,6 +15577,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postgresql-optimization",
+    "path": "skills/backend/databases/postgresql_optimizat/postgresql-optimization",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "postgresql_optimizat",
+    "description": "Use this skill to design, implement, and operate production workflows for postgresql optimization. PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.",
+    "tags": [
+      "backend",
+      "databases",
+      "postgresql",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postgresql Optimization",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "src-hunter",
     "path": "skills/backend/databases/src_hunter/src-hunter",
     "domain": "backend",
