@@ -27141,6 +27141,28 @@
     "maturity": "stable"
   },
   {
+    "name": "pci-dss-compliance",
+    "path": "skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "pci_dss_compliance",
+    "description": "Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "pci",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Pci Dss Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

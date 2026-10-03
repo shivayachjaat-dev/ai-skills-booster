@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,722 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,723 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1219,6 +1219,7 @@
 | [on-call-handoff-patterns](skills/frontend/ui-ux/on_call_handoff_patt/on-call-handoff-patterns/SKILL.md) | `frontend` | `ui-ux` | `on_call_handoff_patt` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for on call handoff patterns. Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts. |
 | [onboarding-cro](skills/frontend/ui-ux/onboarding_cro/onboarding-cro/SKILL.md) | `frontend` | `ui-ux` | `onboarding_cro` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for onboarding cro. You are an expert in user onboarding and activation. Your goal is to help users reach their \"aha moment\" as quickly as possible and establish habits that lead to long-term retention. |
 | [onboarding-playbook](skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook/SKILL.md) | `frontend` | `ui-ux` | `onboarding_playbook` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding. |
+| [pci-dss-compliance](skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) | `frontend` | `ui-ux` | `pci_dss_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder |
 | [seo-content-auditor](skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `frontend` | `ui-ux` | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `frontend` | `ui-ux` | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `frontend` | `ui-ux` | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1540 skills)
+## Bash (1541 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2172,6 +2172,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [on-call-handoff-patterns](../skills/frontend/ui-ux/on_call_handoff_patt/on-call-handoff-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for on call handoff patterns. Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
 - [onboarding-cro](../skills/frontend/ui-ux/onboarding_cro/onboarding-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding cro. You are an expert in user onboarding and activation. Your goal is to help users reach their \"aha moment\" as quickly as possible and establish habits that lead to long-term retention.
 - [onboarding-playbook](../skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding.
+- [pci-dss-compliance](../skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -8876,6 +8877,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pci-compliance](../skills/ai-engineering/models/pci_compliance/pci-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci compliance. Review payment data flows and engineering control evidence for a scoped PCI assessment, without claiming certification.
 
+## Pci Dss Compliance (1 skills)
+
+- [pci-dss-compliance](../skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder
+
 ## Perlin Noise (1 skills)
 
 - [p5js-generative-algorithmic-art-canvas](../skills/multimedia/generative-art/p5js/p5js-generative-algorithmic-art-canvas/SKILL.md) — Use this skill to design, write, and render interactive generative algorithmic art, creative coding animations, and mathematical visualizations using p5.js and HTML5 Canvas. It covers noise field mathematics (Perlin/Simplex), particle physics, vector math, and high-DPI export.
@@ -9034,7 +9039,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1643 skills)
+## Python (1644 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10200,6 +10205,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [on-call-handoff-patterns](../skills/frontend/ui-ux/on_call_handoff_patt/on-call-handoff-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for on call handoff patterns. Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
 - [onboarding-cro](../skills/frontend/ui-ux/onboarding_cro/onboarding-cro/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding cro. You are an expert in user onboarding and activation. Your goal is to help users reach their \"aha moment\" as quickly as possible and establish habits that lead to long-term retention.
 - [onboarding-playbook](../skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding.
+- [pci-dss-compliance](../skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
