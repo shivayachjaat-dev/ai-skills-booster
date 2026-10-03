@@ -1,19 +1,24 @@
 ---
 name: ai-product
-description: "Use this skill to every product will be AI-powered. The question is whether you'll"
+description: "Use this skill to engineer production AI products with defensible unit economics, SLA-bound latency budgets, structured schema contracts, prompt version regression testing, and tiered human-in-the-loop fallback mechanisms."
 domain: ai-engineering
 category: models
 subcategory: ai_product
 tags:
-  - ai-engineering
-  - models
-  - ai
-  - automation
-  - production-ready
+  - ai-product-management
+  - unit-economics
+  - token-budgeting
+  - latency-budgets
+  - prompt-lifecycle
+  - human-in-the-loop
+  - structured-schemas
 technologies:
-  - Ai Product
   - Python
-  - Bash
+  - Pydantic
+  - JSON-Schema
+  - FastAPI
+  - Prometheus
+  - OpenTelemetry
 complexity: advanced
 maturity: stable
 tools:
@@ -21,92 +26,150 @@ tools:
   - bash
 dependencies:
   - python@>=3.10
+version: 1.0.0
+author: Antigravity Team
 ---
-# Ai Product Architecture & Implementation Standard
+
+# Production AI Product Architecture & Unit Economics Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for ai product. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with ai-product.
+The `ai-product` skill establishes the engineering discipline and financial modeling required to build sustainable, enterprise-grade AI products. Moving from a prototype demo to a profitable, high-retention production software system requires solving product problems that are unique to probabilistic models: unpredictable API cost scaling, variable inference latencies, non-deterministic failure modes, and user trust erosion caused by hallucinations. This skill equips product architects, engineering leads, and autonomous agents to design robust AI features governed by strict token budgets, latency SLAs, and structured schema contracts.
 
 ```
-+------------------------------------------------------------------------+
-|                   Ai Product                                          |
-|                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
-+------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+|                        AI Product Architecture & Economics Gate                   |
+|                                                                                   |
+|  [ User Request ]                                                                 |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Token & Rate Quota Guard ] <--- Block runaway prompt loops & abuse             |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Intelligent Model Tier Router ]                                                |
+|         |-- Simple extraction / classification --> [ Fast Model: $0.15 / 1M ]     |
+|         `-- Complex synthesis / reasoning    --> [ Frontier:   $3.00 / 1M ]     |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Structured Schema Contract (Pydantic) ]                                        |
+|         |                                                                         |
+|         +-- Pass Valid Schema ---> [ Telemetry: Record TTFT & Cost ] -> [ User ]  |
+|         |                                                                         |
+|         `-- Validation Failure --> [ Heuristic Repair / Fallback Router ]         |
++-----------------------------------------------------------------------------------+
 ```
+
+---
 
 ## When to Use
 
-- When architecting or refactoring systems related to ai product.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When defining product requirements, token quotas, and financial budgets for LLM-powered features.
+- When designing pricing tiers (e.g. Free vs. Pro vs. Enterprise) based on projected model inference Cost of Goods Sold (COGS).
+- When establishing Service Level Agreements (SLAs) for Time-To-First-Token (TTFT) and Total Response Time.
+- When creating structured output contracts and fallback degradation paths for mission-critical product surfaces.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
+- Pure low-level model architecture training (pre-training transformers or writing CUDA kernels).
+- Static web applications that do not consume generative AI or machine learning inference.
+- Informal research sandboxes with no production deployment or economic constraints.
+
+---
 
 ## Inputs & Prerequisites
 
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+1. **Target Product Metrics**: Latency SLA (e.g. TTFT $< 800\text{ ms}$, total time $< 3.5\text{ s}$), target gross margin ($\ge 75\%$).
+2. **User Consumption Profile**: Projected daily active users (DAU), average prompts per session, token distribution (input/output).
+3. **Structured Schema Contract**: Defined schema specifying mandatory output fields and data types.
+
+---
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for ai-product..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### Step 1: Unit Economics Modeling (COGS & Margin Protection)
+Calculate inference expenditure per user session to guarantee product profitability:
 
 ```python
-import sys
-import logging
+from dataclasses import dataclass
+from typing import Dict, Any
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("ai-product")
+@dataclass
+class ProductTierBudget:
+    tier_name: str
+    monthly_subscription_price_usd: float
+    max_token_budget_per_user: int
+    target_gross_margin: float = 0.75  # 75% gross margin target
 
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for ai-product")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
+def evaluate_user_profitability(
+    monthly_tokens_consumed: int,
+    blended_cost_per_million_tokens: float,
+    budget: ProductTierBudget
+) -> Dict[str, Any]:
+    """Computes monthly inference cost, gross profit, and margin compliance."""
+    monthly_inference_cost = (monthly_tokens_consumed / 1_000_000.0) * blended_cost_per_million_tokens
+    gross_profit = budget.monthly_subscription_price_usd - monthly_inference_cost
+    actual_margin = (gross_profit / budget.monthly_subscription_price_usd) if budget.monthly_subscription_price_usd > 0 else 0.0
     
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+    is_compliant = (actual_margin >= budget.target_gross_margin) and (monthly_tokens_consumed <= budget.max_token_budget_per_user)
+    
+    return {
+        "monthly_inference_cost_usd": round(monthly_inference_cost, 4),
+        "gross_profit_usd": round(gross_profit, 4),
+        "actual_margin_pct": round(actual_margin * 100, 2),
+        "margin_compliant": is_compliant
+    }
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### Step 2: Latency Budget & Streaming Strategy
+To maintain user engagement, enforce a two-tier latency budget:
+1. **Interactive Co-Pilot Surface**:
+   - Time-To-First-Token (TTFT): $< 600\text{ ms}$ (Server-Sent Events streaming).
+   - Perceived latency managed via contextual typing indicators and immediate partial rendering.
+2. **Background Automation Task**:
+   - Total batch completion: $< 60\text{ seconds}$ with webhooks or asynchronous polling status endpoints.
+
+### Step 3: Structured Schema Fallback Recovery
+When generative models emit malformed JSON or violate domain bounds, execute deterministic repair:
+
+```python
+import json
+from typing import Optional
+
+def validate_and_repair_schema(raw_output: str, required_keys: list[str]) -> tuple[bool, dict]:
+    """Validates schema adherence and applies deterministic fallback if keys are missing."""
+    try:
+        data = json.loads(raw_output)
+    except Exception:
+        return False, {"error": "Malformed JSON output", "fallback_applied": True}
+
+    missing = [k for k in required_keys if k not in data]
+    if missing:
+        # Graceful degradation: populate missing fields with null defaults
+        for k in missing:
+            data[k] = None
+        data["_schema_warning"] = f"Missing required fields: {missing}"
+        return False, data
+
+    return True, data
+```
+
+---
 
 ## Best Practices & Failure Modes
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+- **Uncapped Token Leaks**: Never permit unbounded loops where agents trigger recursive queries without per-session spending caps. Enforce hard monthly token quotas per API key / workspace.
+- **Over-Engineering Model Selection**: Do not route simple classification or entity extraction to frontier models (\$5/1M). Use small, distilled models (\$0.15/1M) for $80\%$ of background tasks.
+- **Fail-Open Fallback**: If an AI feature experiences an outage or latency spike $> 5\text{s}$, gracefully degrade to traditional rule-based search or cached static responses rather than presenting an error screen.
+
+---
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/ai-product_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+1. Run the AI product economics and schema contract test harness:
+   ```bash
+   python scripts/ai-product_helper.py
+   ```
+2. Verify margin protection and budget threshold enforcement:
+   ```bash
+   python scripts/ai_product_economics_engine.py --test-all
+   ```
