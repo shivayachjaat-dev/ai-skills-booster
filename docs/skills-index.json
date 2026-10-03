@@ -27625,6 +27625,28 @@
     "maturity": "stable"
   },
   {
+    "name": "plan-ledger-tasks-yylo",
+    "path": "skills/frontend/ui-ux/plan_ledger_tasks_yy/plan-ledger-tasks-yylo",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "plan_ledger_tasks_yy",
+    "description": "Use this skill to design, implement, and operate production workflows for plan ledger tasks yylo. Create a concise Product Development Requirement and one or more implementation-sized",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "plan",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Plan Ledger Tasks Yylo",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

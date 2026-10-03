@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **206 skills** available in this category.
+> **207 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -207,6 +207,7 @@
 | [onboarding-playbook](../../skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook/SKILL.md) | `onboarding_playbook` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding. |
 | [pci-dss-compliance](../../skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) | `pci_dss_compliance` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder |
 | [personal-tool-builder](../../skills/frontend/ui-ux/personal_tool_builde/personal-tool-builder/SKILL.md) | `personal_tool_builde` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for personal tool builder. Expert in building custom tools that solve your own problems first. |
+| [plan-ledger-tasks-yylo](../../skills/frontend/ui-ux/plan_ledger_tasks_yy/plan-ledger-tasks-yylo/SKILL.md) | `plan_ledger_tasks_yy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for plan ledger tasks yylo. Create a concise Product Development Requirement and one or more implementation-sized |
 | [seo-content-auditor](../../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) | `seo_content_auditor` | `advanced` | `stable` | Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |
