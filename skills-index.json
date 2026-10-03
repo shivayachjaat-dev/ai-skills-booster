@@ -14361,6 +14361,28 @@
     "maturity": "stable"
   },
   {
+    "name": "spec-to-code-compliance",
+    "path": "skills/ai-engineering/models/spec_to_code_complia/spec-to-code-compliance",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "spec_to_code_complia",
+    "description": "Use this skill to design, implement, and operate production workflows for spec to code compliance. Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "spec",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Spec To Code Compliance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
