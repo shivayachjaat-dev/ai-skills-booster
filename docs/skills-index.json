@@ -32619,6 +32619,28 @@
     "maturity": "stable"
   },
   {
+    "name": "scanning-tools",
+    "path": "skills/frontend/web-architecture/scanning_tools/scanning-tools",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "scanning_tools",
+    "description": "Use this skill to design, implement, and operate production workflows for scanning tools. Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning c...",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "scanning",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Scanning Tools",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "sci-fi-interface",
     "path": "skills/frontend/web-architecture/sci_fi_interface/sci-fi-interface",
     "domain": "frontend",

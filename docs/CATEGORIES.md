@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,963** skills across structured domains, categories, and subcategories.
+Master navigation for **1,964** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (672 skills)
 
@@ -2533,7 +2533,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (390 skills)
+## Frontend (391 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -3197,7 +3197,7 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 - **Vr_Ar** (1):
   - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
 
-### Web Architecture (83 skills)
+### Web Architecture (84 skills)
 Category index: [`docs/categories/web-architecture.md`](categories/web-architecture.md)
 
 - **3D_Ui** (1):
@@ -3339,6 +3339,8 @@ Category index: [`docs/categories/web-architecture.md`](categories/web-architect
   - [retro-design](../skills/frontend/web-architecture/retro_design/retro-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for retro design. Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts.
 - **Retro_Futurism** (1):
   - [retro-futurism](../skills/frontend/web-architecture/retro_futurism/retro-futurism/SKILL.md) — Use this skill to design, implement, and operate production workflows for retro futurism. Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes.
+- **Scanning_Tools** (1):
+  - [scanning-tools](../skills/frontend/web-architecture/scanning_tools/scanning-tools/SKILL.md) — Use this skill to design, implement, and operate production workflows for scanning tools. Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning c...
 - **Sci_Fi_Interface** (1):
   - [sci-fi-interface](../skills/frontend/web-architecture/sci_fi_interface/sci-fi-interface/SKILL.md) — Use this skill to design, implement, and operate production workflows for sci fi interface. Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts.
 - **Security_Audit** (1):
