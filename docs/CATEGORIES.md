@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,113** skills across structured domains, categories, and subcategories.
+Master navigation for **2,114** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (713 skills)
+## Ai Engineering (714 skills)
 
 ### Agents (89 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -332,7 +332,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (517 skills)
+### Models (518 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1346,6 +1346,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [squirrel](../skills/ai-engineering/models/squirrel/squirrel/SKILL.md) — Use this skill to design, implement, and operate production workflows for squirrel. Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipeline.
 - **Stability_Ai** (1):
   - [stability-ai](../skills/ai-engineering/models/stability_ai/stability-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for stability ai. Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.
+- **Startup_Business_Ana** (1):
+  - [startup-business-analyst-financial-projections](../skills/ai-engineering/models/startup_business_ana/startup-business-analyst-financial-projections/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst financial projections. Create detailed 3-5 year financial model with revenue, costs, cash
 - **Supply_Chain_Risk_Au** (1):
   - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - **Templates** (1):

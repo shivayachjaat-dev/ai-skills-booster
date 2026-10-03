@@ -14449,6 +14449,28 @@
     "maturity": "stable"
   },
   {
+    "name": "startup-business-analyst-financial-projections",
+    "path": "skills/ai-engineering/models/startup_business_ana/startup-business-analyst-financial-projections",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "startup_business_ana",
+    "description": "Use this skill to design, implement, and operate production workflows for startup business analyst financial projections. Create detailed 3-5 year financial model with revenue, costs, cash",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "startup",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Startup Business Analyst Financial Projections",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

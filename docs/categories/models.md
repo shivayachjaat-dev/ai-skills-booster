@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **517 skills** available in this category.
+> **518 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -515,6 +515,7 @@
 | [sql-optimization-patterns](../../skills/ai-engineering/models/sql_optimization_pat/sql-optimization-patterns/SKILL.md) | `sql_optimization_pat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sql optimization patterns. Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data. |
 | [squirrel](../../skills/ai-engineering/models/squirrel/squirrel/SKILL.md) | `squirrel` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for squirrel. Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipeline. |
 | [stability-ai](../../skills/ai-engineering/models/stability_ai/stability-ai/SKILL.md) | `stability_ai` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stability ai. Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos. |
+| [startup-business-analyst-financial-projections](../../skills/ai-engineering/models/startup_business_ana/startup-business-analyst-financial-projections/SKILL.md) | `startup_business_ana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup business analyst financial projections. Create detailed 3-5 year financial model with revenue, costs, cash |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](../../skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |
