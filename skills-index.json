@@ -45851,6 +45851,28 @@
     "maturity": "stable"
   },
   {
+    "name": "speckit-updater",
+    "path": "skills/software-engineering/architecture/patterns/speckit-updater",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for speckit updater. SpecKit Safe Update",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "speckit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Speckit Updater",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",

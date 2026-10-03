@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **283 skills** available in this category.
+> **284 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -286,4 +286,5 @@
 | [smart-git-automation](../../skills/software-engineering/architecture/patterns/smart-git-automation/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for smart git automation. Smart change detection, auto branch naming, and streamlined commit/PR workflow |
 | [social-post-writer-seo](../../skills/software-engineering/architecture/patterns/social-post-writer-seo/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social post writer seo. Social Media Strategist and Content Writer. Creates clear, engaging social media posts for Instagram, LinkedIn, and Facebook. |
 | [social-proof-architect](../../skills/software-engineering/architecture/patterns/social-proof-architect/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social proof architect. One sentence - what this skill does and when to invoke it |
+| [speckit-updater](../../skills/software-engineering/architecture/patterns/speckit-updater/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for speckit updater. SpecKit Safe Update |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
