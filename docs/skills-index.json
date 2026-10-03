@@ -41143,6 +41143,28 @@
     "maturity": "stable"
   },
   {
+    "name": "readme",
+    "path": "skills/software-engineering/architecture/patterns/readme",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for readme. You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough\u2014the kind of documentation you wish every project had.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "readme",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Readme",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
