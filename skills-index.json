@@ -29407,6 +29407,28 @@
     "maturity": "stable"
   },
   {
+    "name": "radix-ui-design-system",
+    "path": "skills/frontend/ui-ux/radix_ui_design_syst/radix-ui-design-system",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "radix_ui_design_syst",
+    "description": "Use this skill to design, implement, and operate production workflows for radix ui design system. Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "radix",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Radix Ui Design System",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
