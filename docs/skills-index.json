@@ -15511,6 +15511,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postgres-best-practices",
+    "path": "skills/backend/databases/postgres_best_practi/postgres-best-practices",
+    "domain": "backend",
+    "category": "databases",
+    "subcategory": "postgres_best_practi",
+    "description": "Use this skill to design, implement, and operate production workflows for postgres best practices. Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
+    "tags": [
+      "backend",
+      "databases",
+      "postgres",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postgres Best Practices",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "src-hunter",
     "path": "skills/backend/databases/src_hunter/src-hunter",
     "domain": "backend",
