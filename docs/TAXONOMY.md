@@ -856,7 +856,8 @@ AI_Skills_Booster/
 │   │   ├── probation_tracker/ (1 skills)
 │   │   ├── promotion_upgrade_re/ (1 skills)
 │   │   ├── purchase_accounting/ (1 skills)
-│   │   └── receipt_accounting/ (1 skills)
+│   │   ├── receipt_accounting/ (1 skills)
+│   │   └── recognition_rewards/ (1 skills)
 │   ├── procurement/
 │   │   └── software-selection/ (1 skills)
 │   └── saas/

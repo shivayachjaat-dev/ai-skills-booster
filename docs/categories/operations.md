@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **38 skills** available in this category.
+> **39 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -42,3 +42,4 @@
 | [promotion-upgrade-requests](../../skills/business/operations/promotion_upgrade_re/promotion-upgrade-requests/SKILL.md) | `promotion_upgrade_re` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for promotion upgrade requests. Promotion register: current and requested role and grade, justification, OKR and behaviour scores, time in role, salary proposal and decision. Use for upgrade requests. |
 | [purchase-accounting](../../skills/business/operations/purchase_accounting/purchase-accounting/SKILL.md) | `purchase_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for purchase accounting. Purchase register: supplier, invoice, gross amount, VAT and TDS, net payable, ledger account and payment balance. Use for purchase accounting. |
 | [receipt-accounting](../../skills/business/operations/receipt_accounting/receipt-accounting/SKILL.md) | `receipt_accounting` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for receipt accounting. Receipt register: payer, mode, gross amount received, invoice allocation, unapplied amount and TDS collected. Use for receipt and sales-income accounting. |
+| [recognition-rewards](../../skills/business/operations/recognition_rewards/recognition-rewards/SKILL.md) | `recognition_rewards` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs. |

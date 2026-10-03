@@ -18420,6 +18420,28 @@
     "maturity": "stable"
   },
   {
+    "name": "recognition-rewards",
+    "path": "skills/business/operations/recognition_rewards/recognition-rewards",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "recognition_rewards",
+    "description": "Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs.",
+    "tags": [
+      "business",
+      "operations",
+      "recognition",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Recognition Rewards",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",

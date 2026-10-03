@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1703 skills)
+## Bash (1704 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1850,6 +1850,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [promotion-upgrade-requests](../skills/business/operations/promotion_upgrade_re/promotion-upgrade-requests/SKILL.md) — Use this skill to design, implement, and operate production workflows for promotion upgrade requests. Promotion register: current and requested role and grade, justification, OKR and behaviour scores, time in role, salary proposal and decision. Use for upgrade requests.
 - [purchase-accounting](../skills/business/operations/purchase_accounting/purchase-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for purchase accounting. Purchase register: supplier, invoice, gross amount, VAT and TDS, net payable, ledger account and payment balance. Use for purchase accounting.
 - [receipt-accounting](../skills/business/operations/receipt_accounting/receipt-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for receipt accounting. Receipt register: payer, mode, gross amount received, invoice allocation, unapplied amount and TDS collected. Use for receipt and sales-income accounting.
+- [recognition-rewards](../skills/business/operations/recognition_rewards/recognition-rewards/SKILL.md) — Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs.
 - [google-analytics-automation](../skills/data-analytics/analytics-engineering/google_analytics_aut/google-analytics-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for google analytics automation. Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.
 - [box-automation](../skills/data-analytics/data-pipelines/box_automation/box-automation/SKILL.md) — Use this skill to automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
 - [calc](../skills/data-analytics/data-pipelines/calc/calc/SKILL.md) — Use this skill to design, implement, and operate production workflows for calc. Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.
@@ -9667,7 +9668,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1806 skills)
+## Python (1807 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10486,6 +10487,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [promotion-upgrade-requests](../skills/business/operations/promotion_upgrade_re/promotion-upgrade-requests/SKILL.md) — Use this skill to design, implement, and operate production workflows for promotion upgrade requests. Promotion register: current and requested role and grade, justification, OKR and behaviour scores, time in role, salary proposal and decision. Use for upgrade requests.
 - [purchase-accounting](../skills/business/operations/purchase_accounting/purchase-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for purchase accounting. Purchase register: supplier, invoice, gross amount, VAT and TDS, net payable, ledger account and payment balance. Use for purchase accounting.
 - [receipt-accounting](../skills/business/operations/receipt_accounting/receipt-accounting/SKILL.md) — Use this skill to design, implement, and operate production workflows for receipt accounting. Receipt register: payer, mode, gross amount received, invoice allocation, unapplied amount and TDS collected. Use for receipt and sales-income accounting.
+- [recognition-rewards](../skills/business/operations/recognition_rewards/recognition-rewards/SKILL.md) — Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs.
 - [enterprise-software-selection-and-rfp](../skills/business/procurement/software-selection/enterprise-software-selection-and-rfp/SKILL.md) — Use this skill when evaluating, scoring, and selecting commercial-off-the-shelf (COTS) and SaaS software solutions through evidence-backed scoring matrices and Request for Proposal (RFP) processes. It covers requirements weighting, compliance auditing (SOC2, HIPAA, GDPR), Total Cost of Ownership (TCO) modeling, security reviews, and vendor pilot proof-of-concepts.
 - [ai-saas-wrapper-architecture-and-stripe-metering](../skills/business/saas/ai-metering/ai-saas-wrapper-architecture-and-stripe-metering/SKILL.md) — Use this skill to architect, build, and monetize AI-wrapper SaaS products with usage-based billing, token credit wallets, and Stripe metering. It covers rate-limited API gateway proxies, tenant isolation, credit deduction middleware, and margin preservation against upstream LLM token costs.
 - [marp-and-python-pptx-slide-deck-generator](../skills/content/presentation/marp-slides/marp-and-python-pptx-slide-deck-generator/SKILL.md) — Use this skill to autonomously design, format, and generate executive presentation slide decks using Marp Markdown and python-pptx. It enforces typographical hierarchy, slide layout templates, syntax-highlighted code blocks, speaker notes, and automated PDF/PPTX compilation.
@@ -11765,6 +11767,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Receiving Code Review (1 skills)
 
 - [receiving-code-review](../skills/frontend/ui-ux/receiving_code_revie/receiving-code-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for receiving code review. Code review requires technical evaluation, not emotional performance.
+
+## Recognition Rewards (1 skills)
+
+- [recognition-rewards](../skills/business/operations/recognition_rewards/recognition-rewards/SKILL.md) — Use this skill to design, implement, and operate production workflows for recognition rewards. Recognition register: employee, reward type, category, visibility, message and points awarded. Use for employee recognition programs.
 
 ## Redis (8 skills)
 
