@@ -13063,6 +13063,28 @@
     "maturity": "stable"
   },
   {
+    "name": "react-best-practices",
+    "path": "skills/ai-engineering/models/react_best_practices/react-best-practices",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "react_best_practices",
+    "description": "Use this skill to design, implement, and operate production workflows for react best practices. Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Use when writing new React components or Next.js pages, implementing data fetching (client or server-side), or reviewing code for performance issues.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "react",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "React Best Practices",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

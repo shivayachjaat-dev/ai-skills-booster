@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,869** skills across structured domains, categories, and subcategories.
+Master navigation for **1,870** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (645 skills)
+## Ai Engineering (646 skills)
 
 ### Agents (83 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -320,7 +320,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (461 skills)
+### Models (462 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1220,6 +1220,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [radare2](../skills/ai-engineering/models/radare2/radare2/SKILL.md) — Use this skill to design, implement, and operate production workflows for radare2. Drive the radare2 CLI for binary reconnaissance, disassembly, analysis, function locating, export, and lightweight patching (r2/rabin2/rasm2/radiff2) without a GUI.
 - **Rayden_Use** (1):
   - [rayden-use](../skills/ai-engineering/models/rayden_use/rayden-use/SKILL.md) — Use this skill to design, implement, and operate production workflows for rayden use. Build and maintain Rayden UI components and screens in Figma via Figma MCP with full design token enforcement
+- **React_Best_Practices** (1):
+  - [react-best-practices](../skills/ai-engineering/models/react_best_practices/react-best-practices/SKILL.md) — Use this skill to design, implement, and operate production workflows for react best practices. Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Use when writing new React components or Next.js pages, implementing data fetching (client or server-side), or reviewing code for performance issues.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
