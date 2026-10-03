@@ -14150,6 +14150,28 @@
     "maturity": "stable"
   },
   {
+    "name": "rclone-cli",
+    "path": "skills/ai-engineering/rag/rclone_cli/rclone-cli",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "rclone_cli",
+    "description": "Use this skill to design, implement, and operate production workflows for rclone cli. Rclone command-line cloud storage manager reference and usage guide. Use this skill whenever the user mentions rclone, or any task involving terminal-based cloud file operations such as upload, download, sync, copy, move, mount, or remote management.",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "rclone",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Rclone Cli",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",
