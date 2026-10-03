@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **40 skills** available in this category.
+> **41 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -44,3 +44,4 @@
 | [salesforce-automation](../../skills/developer-tools/productivity/salesforce_automatio/salesforce-automation/SKILL.md) | `salesforce_automatio` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for salesforce automation. Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas. |
 | [segment-automation](../../skills/developer-tools/productivity/segment_automation/segment-automation/SKILL.md) | `segment_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for segment automation. Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas. |
 | [senior-architect](../../skills/developer-tools/productivity/senior_architect/senior-architect/SKILL.md) | `senior_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for senior architect. Complete toolkit for senior architect with modern tools and best practices. |
+| [senior-fullstack](../../skills/developer-tools/productivity/senior_fullstack/senior-fullstack/SKILL.md) | `senior_fullstack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for senior fullstack. Complete toolkit for senior fullstack with modern tools and best practices. |

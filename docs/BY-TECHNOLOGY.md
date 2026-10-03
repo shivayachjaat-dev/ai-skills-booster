@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1819 skills)
+## Bash (1820 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1996,6 +1996,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [salesforce-automation](../skills/developer-tools/productivity/salesforce_automatio/salesforce-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for salesforce automation. Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas.
 - [segment-automation](../skills/developer-tools/productivity/segment_automation/segment-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for segment automation. Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas.
 - [senior-architect](../skills/developer-tools/productivity/senior_architect/senior-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior architect. Complete toolkit for senior architect with modern tools and best practices.
+- [senior-fullstack](../skills/developer-tools/productivity/senior_fullstack/senior-fullstack/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior fullstack. Complete toolkit for senior fullstack with modern tools and best practices.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,
 - [aws-s3](../skills/devops/ci-cd/aws_s3/aws-s3/SKILL.md) — Use this skill to configure S3 buckets, policies, and lifecycle rules. Implement versioning,
 - [aws-vpc](../skills/devops/ci-cd/aws_vpc/aws-vpc/SKILL.md) — Use this skill to design and implement VPCs and networking. Configure subnets, route tables,
@@ -9799,7 +9800,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1922 skills)
+## Python (1923 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10771,6 +10772,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [salesforce-automation](../skills/developer-tools/productivity/salesforce_automatio/salesforce-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for salesforce automation. Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas.
 - [segment-automation](../skills/developer-tools/productivity/segment_automation/segment-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for segment automation. Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas.
 - [senior-architect](../skills/developer-tools/productivity/senior_architect/senior-architect/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior architect. Complete toolkit for senior architect with modern tools and best practices.
+- [senior-fullstack](../skills/developer-tools/productivity/senior_fullstack/senior-fullstack/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior fullstack. Complete toolkit for senior fullstack with modern tools and best practices.
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,
@@ -12686,6 +12688,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Senior Frontend (1 skills)
 
 - [senior-frontend](../skills/ai-engineering/models/senior_frontend/senior-frontend/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior frontend. Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing fr...
+
+## Senior Fullstack (1 skills)
+
+- [senior-fullstack](../skills/developer-tools/productivity/senior_fullstack/senior-fullstack/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior fullstack. Complete toolkit for senior fullstack with modern tools and best practices.
 
 ## SentenceTransformers (1 skills)
 

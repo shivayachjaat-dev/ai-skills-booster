@@ -1054,7 +1054,8 @@ AI_Skills_Booster/
 │   │   ├── render_automation/ (1 skills)
 │   │   ├── salesforce_automatio/ (1 skills)
 │   │   ├── segment_automation/ (1 skills)
-│   │   └── senior_architect/ (1 skills)
+│   │   ├── senior_architect/ (1 skills)
+│   │   └── senior_fullstack/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/

@@ -22103,6 +22103,28 @@
     "maturity": "stable"
   },
   {
+    "name": "senior-fullstack",
+    "path": "skills/developer-tools/productivity/senior_fullstack/senior-fullstack",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "senior_fullstack",
+    "description": "Use this skill to design, implement, and operate production workflows for senior fullstack. Complete toolkit for senior fullstack with modern tools and best practices.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "senior",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Senior Fullstack",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",
