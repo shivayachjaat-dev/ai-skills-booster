@@ -14273,6 +14273,28 @@
     "maturity": "stable"
   },
   {
+    "name": "snowflake-development",
+    "path": "skills/ai-engineering/models/snowflake_developmen/snowflake-development",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "snowflake_developmen",
+    "description": "Use this skill to design, implement, and operate production workflows for snowflake development. Comprehensive Snowflake development assistant covering SQL best practices, data pipeline design (Dynamic Tables, Streams, Tasks, Snowpipe), Cortex AI functions, Cortex Agents, Snowpark Python, dbt integration, performance tuning, and security hardening.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "snowflake",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Snowflake Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

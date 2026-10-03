@@ -649,6 +649,7 @@ AI_Skills_Booster/
 │   │   ├── skyvern_browser_auto/ (1 skills)
 │   │   ├── smartui_skill/ (1 skills)
 │   │   ├── smtp_penetration_tes/ (1 skills)
+│   │   ├── snowflake_developmen/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
 │   │   ├── typography_first/ (1 skills)
