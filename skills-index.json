@@ -22222,6 +22222,28 @@
     "maturity": "stable"
   },
   {
+    "name": "reverse-proxy",
+    "path": "skills/devops/ci-cd/reverse_proxy/reverse-proxy",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "reverse_proxy",
+    "description": "Use this skill to design, implement, and operate production workflows for reverse proxy. Configure nginx and Traefik as reverse proxies. Implement SSL termination",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "reverse",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Reverse Proxy",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "amazon-alexa",
     "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
     "domain": "devops",

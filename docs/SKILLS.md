@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,924 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,925 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1001,6 +1001,7 @@
 | [performance-tuning](skills/devops/ci-cd/performance_tuning/performance-tuning/SKILL.md) | `devops` | `ci-cd` | `performance_tuning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance tuning. Optimize Linux system performance. Configure kernel parameters, analyze |
 | [production-runtime-certification](skills/devops/ci-cd/production_runtime_c/production-runtime-certification/SKILL.md) | `devops` | `ci-cd` | `production_runtime_c` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for production runtime certification. Certify a deployed service with fresh evidence across source, CI, migrations, runtime health, readiness, and critical routes; use before declaring a release production-ready. |
 | [prometheus-grafana](skills/devops/ci-cd/prometheus_grafana/prometheus-grafana/SKILL.md) | `devops` | `ci-cd` | `prometheus_grafana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for prometheus grafana. Set up metrics collection and visualization with Prometheus and Grafana. |
+| [reverse-proxy](skills/devops/ci-cd/reverse_proxy/reverse-proxy/SKILL.md) | `devops` | `ci-cd` | `reverse_proxy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reverse proxy. Configure nginx and Traefik as reverse proxies. Implement SSL termination |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |
 | [aws-cost-optimizer](skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_optimizer` | `advanced` | `stable` | Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer |
