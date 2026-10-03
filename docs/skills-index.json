@@ -24005,6 +24005,28 @@
     "maturity": "stable"
   },
   {
+    "name": "react-patterns",
+    "path": "skills/frontend/frameworks/react_patterns/react-patterns",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "react_patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for react patterns. Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "react",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "React Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

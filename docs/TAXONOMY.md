@@ -1156,7 +1156,8 @@ AI_Skills_Booster/
 │   │   ├── react_flow_node_ts/ (1 skills)
 │   │   ├── react_modernization/ (1 skills)
 │   │   ├── react_native_archite/ (1 skills)
-│   │   └── react_native_skills/ (1 skills)
+│   │   ├── react_native_skills/ (1 skills)
+│   │   └── react_patterns/ (1 skills)
 │   ├── nextjs/
 │   │   └── architecture/ (1 skills)
 │   ├── performance/
