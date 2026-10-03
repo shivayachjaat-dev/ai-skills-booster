@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **21 skills** available in this category.
+> **22 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -25,3 +25,4 @@
 | [mobile-developer](../../skills/frontend/frameworks/mobile_developer/mobile-developer/SKILL.md) | `mobile_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for mobile developer. Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization. |
 | [native-data-fetching](../../skills/frontend/frameworks/native_data_fetching/native-data-fetching/SKILL.md) | `native_data_fetching` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for native data fetching. Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (`useLoaderData`). |
 | [nextjs-app-router-patterns](../../skills/frontend/frameworks/nextjs_app_router_pa/nextjs-app-router-patterns/SKILL.md) | `nextjs_app_router_pa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nextjs app router patterns. Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development. |
+| [rayden-code](../../skills/frontend/frameworks/rayden_code/rayden-code/SKILL.md) | `rayden_code` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rayden code. Generate React code with Rayden UI components using correct props, tokens, and premium layout patterns |

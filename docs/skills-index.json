@@ -23763,6 +23763,28 @@
     "maturity": "stable"
   },
   {
+    "name": "rayden-code",
+    "path": "skills/frontend/frameworks/rayden_code/rayden-code",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "rayden_code",
+    "description": "Use this skill to design, implement, and operate production workflows for rayden code. Generate React code with Rayden UI components using correct props, tokens, and premium layout patterns",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "rayden",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Rayden Code",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",

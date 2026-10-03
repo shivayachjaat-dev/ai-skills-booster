@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,865** skills across structured domains, categories, and subcategories.
+Master navigation for **1,866** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (643 skills)
 
@@ -2439,7 +2439,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (370 skills)
+## Frontend (371 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2465,7 +2465,7 @@ Category index: [`docs/categories/design-systems.md`](categories/design-systems.
 - **Clean Ui Anti Slop** (1):
   - [clean-anti-slop-ui-ux-design-system](../skills/frontend/design-systems/clean-ui-anti-slop/clean-anti-slop-ui-ux-design-system/SKILL.md) — Use this skill to audit, purge, and replace generic AI-generated frontend UI slop with purposeful, accessible, high-craft design systems. It enforces deliberate typography scales, restraint in decorative gradients and floating glassmorphism, consistent spacing tokens (4px/8px grid), WCAG AA color contrast, and keyboard navigation.
 
-### Frameworks (18 skills)
+### Frameworks (19 skills)
 Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 
 - **Angular** (1):
@@ -2504,6 +2504,8 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
   - [native-data-fetching](../skills/frontend/frameworks/native_data_fetching/native-data-fetching/SKILL.md) — Use this skill to design, implement, and operate production workflows for native data fetching. Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (`useLoaderData`).
 - **Nextjs_App_Router_Pa** (1):
   - [nextjs-app-router-patterns](../skills/frontend/frameworks/nextjs_app_router_pa/nextjs-app-router-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for nextjs app router patterns. Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.
+- **Rayden_Code** (1):
+  - [rayden-code](../skills/frontend/frameworks/rayden_code/rayden-code/SKILL.md) — Use this skill to design, implement, and operate production workflows for rayden code. Generate React code with Rayden UI components using correct props, tokens, and premium layout patterns
 
 ### Nextjs (1 skills)
 Category index: [`docs/categories/nextjs.md`](categories/nextjs.md)
