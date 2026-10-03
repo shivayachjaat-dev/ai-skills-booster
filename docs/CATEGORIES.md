@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,838** skills across structured domains, categories, and subcategories.
+Master navigation for **1,839** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (631 skills)
+## Ai Engineering (632 skills)
 
 ### Agents (81 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -316,7 +316,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (455 skills)
+### Models (456 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1204,6 +1204,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [projects-work-management](../skills/ai-engineering/models/projects_work_manage/projects-work-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for projects work management. Project register: owner, team, priority, progress percentage, milestones, deliverables and budget against actual cost. Use for project tracking.
 - **Prompt_Engineer** (1):
   - [prompt-engineer](../skills/ai-engineering/models/prompt_engineer/prompt-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineer. Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)
+- **Pydantic_Ai** (1):
+  - [pydantic-ai](../skills/ai-engineering/models/pydantic_ai/pydantic-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for pydantic ai. Build production-ready AI agents with PydanticAI — type-safe tool use, structured outputs, dependency injection, and multi-model support.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

@@ -586,6 +586,7 @@ AI_Skills_Booster/
 │   │   ├── project_based_perfor/ (1 skills)
 │   │   ├── projects_work_manage/ (1 skills)
 │   │   ├── prompt_engineer/ (1 skills)
+│   │   ├── pydantic_ai/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
