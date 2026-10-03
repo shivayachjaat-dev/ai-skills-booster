@@ -12975,6 +12975,28 @@
     "maturity": "stable"
   },
   {
+    "name": "radar-satellite-analysis",
+    "path": "skills/ai-engineering/models/radar_satellite_anal/radar-satellite-analysis",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "radar_satellite_anal",
+    "description": "Use this skill to design, implement, and operate production workflows for radar satellite analysis. Interpret weather radar and satellite observations by validating product metadata and geometry, deriving storm and cloud structures, tracking evolution, and quantifying uncertainty.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "radar",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Radar Satellite Analysis",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,856** skills across structured domains, categories, and subcategories.
+Master navigation for **1,857** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (636 skills)
+## Ai Engineering (637 skills)
 
 ### Agents (82 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -318,7 +318,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (458 skills)
+### Models (459 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1212,6 +1212,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [pypict-skill](../skills/ai-engineering/models/pypict_skill/pypict-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pypict skill. Pairwise test generation
 - **Quit_Sponsor** (1):
   - [quit-sponsor](../skills/ai-engineering/models/quit_sponsor/quit-sponsor/SKILL.md) — Use this skill to design, implement, and operate production workflows for quit sponsor. Helps an AI agent provide non-judgmental, evidence-informed quit-smoking support with user-consented tracking, craving check-ins, and escalation to human or clinical help. Not medical care.
+- **Radar_Satellite_Anal** (1):
+  - [radar-satellite-analysis](../skills/ai-engineering/models/radar_satellite_anal/radar-satellite-analysis/SKILL.md) — Use this skill to design, implement, and operate production workflows for radar satellite analysis. Interpret weather radar and satellite observations by validating product metadata and geometry, deriving storm and cloud structures, tracking evolution, and quantifying uncertainty.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
