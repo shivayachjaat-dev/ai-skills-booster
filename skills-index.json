@@ -13305,6 +13305,28 @@
     "maturity": "stable"
   },
   {
+    "name": "reverse-engineer",
+    "path": "skills/ai-engineering/models/reverse_engineer/reverse-engineer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "reverse_engineer",
+    "description": "Use this skill to design, implement, and operate production workflows for reverse engineer. Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "reverse",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Reverse Engineer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",
