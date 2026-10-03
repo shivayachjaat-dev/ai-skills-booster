@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1957 skills)
+## Bash (1959 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2241,6 +2241,8 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [backend-development-feature-development](../skills/frontend/ui-ux/backend_development_/backend-development-feature-development/SKILL.md) — Use this skill to orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.
 - [backtesting-frameworks](../skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks/SKILL.md) — Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
+- [bash](../skills/frontend/ui-ux/bash/bash/SKILL.md) — Use this skill to design, implement, and operate production workflows for bash. Language-specific super-code guidelines for bash.
+- [bash](../skills/frontend/ui-ux/bash/bash/SKILL.md) — Use this skill to design, implement, and operate production workflows for bash. Language-specific super-code guidelines for bash.
 - [bash-defensive-patterns](../skills/frontend/ui-ux/bash_defensive_patte/bash-defensive-patterns/SKILL.md) — Use this skill to master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.
 - [bats-testing-patterns](../skills/frontend/ui-ux/bats_testing_pattern/bats-testing-patterns/SKILL.md) — Use this skill to master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities.
 - [bazel-build-optimization](../skills/frontend/ui-ux/bazel_build_optimiza/bazel-build-optimization/SKILL.md) — Use this skill to optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.
@@ -9937,7 +9939,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2060 skills)
+## Python (2061 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11160,6 +11162,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [backend-development-feature-development](../skills/frontend/ui-ux/backend_development_/backend-development-feature-development/SKILL.md) — Use this skill to orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.
 - [backtesting-frameworks](../skills/frontend/ui-ux/backtesting_framewor/backtesting-frameworks/SKILL.md) — Use this skill to build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
+- [bash](../skills/frontend/ui-ux/bash/bash/SKILL.md) — Use this skill to design, implement, and operate production workflows for bash. Language-specific super-code guidelines for bash.
 - [bash-defensive-patterns](../skills/frontend/ui-ux/bash_defensive_patte/bash-defensive-patterns/SKILL.md) — Use this skill to master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.
 - [bats-testing-patterns](../skills/frontend/ui-ux/bats_testing_pattern/bats-testing-patterns/SKILL.md) — Use this skill to master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities.
 - [bazel-build-optimization](../skills/frontend/ui-ux/bazel_build_optimiza/bazel-build-optimization/SKILL.md) — Use this skill to optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.

@@ -28395,6 +28395,28 @@
     "maturity": "stable"
   },
   {
+    "name": "bash",
+    "path": "skills/frontend/ui-ux/bash/bash",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "bash",
+    "description": "Use this skill to design, implement, and operate production workflows for bash. Language-specific super-code guidelines for bash.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "bash",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Bash",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "bash-defensive-patterns",
     "path": "skills/frontend/ui-ux/bash_defensive_patte/bash-defensive-patterns",
     "domain": "frontend",
