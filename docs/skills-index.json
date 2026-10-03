@@ -16506,6 +16506,28 @@
     "maturity": "stable"
   },
   {
+    "name": "payroll-finance",
+    "path": "skills/business/operations/payroll_finance/payroll-finance",
+    "domain": "business",
+    "category": "operations",
+    "subcategory": "payroll_finance",
+    "description": "Use this skill to design, implement, and operate production workflows for payroll finance. Payroll register: employee, department and month, basic, DA, HRA and TA, bonus, deductions, net pay, pay period, payment date and method. Use for payroll records.",
+    "tags": [
+      "business",
+      "operations",
+      "payroll",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Payroll Finance",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "enterprise-software-selection-and-rfp",
     "path": "skills/business/procurement/software-selection/enterprise-software-selection-and-rfp",
     "domain": "business",
