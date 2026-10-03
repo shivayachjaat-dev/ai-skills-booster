@@ -45279,6 +45279,28 @@
     "maturity": "stable"
   },
   {
+    "name": "smart-contract-formal-verification",
+    "path": "skills/software-engineering/architecture/patterns/smart-contract-formal-verification",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for smart contract formal verification. Foundry and Soroban formal invariant verification register: state transition rules, boundary invariant properties, and symbolic execution checks.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "smart",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Smart Contract Formal Verification",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",
