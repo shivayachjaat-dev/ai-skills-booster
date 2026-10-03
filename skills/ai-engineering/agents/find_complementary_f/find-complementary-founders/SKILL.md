@@ -1,19 +1,20 @@
 ---
 name: find-complementary-founders
-description: "Use this skill to design, implement, and operate production workflows for find complementary founders. Use when an owner explicitly asks for a cofounder or project partner, or explicitly says they need a complementary builder, operator, go-to-market partner, or scaling capability. Assess and publish only the agent's own owner, then rank only app..."
+description: "Identify, assess, and rank complementary cofounders or project partners by evaluating skill deficits, GTM/technical synergy, and commitment alignment."
 domain: ai-engineering
 category: agents
 subcategory: find_complementary_f
 tags:
   - ai-engineering
   - agents
-  - find
-  - automation
-  - production-ready
+  - founder-matching
+  - talent-discovery
+  - startup-formation
 technologies:
-  - Find Complementary Founders
   - Python
-  - Bash
+  - Capability Vectors
+  - Matchmaking Heuristics
+  - Privacy Scrubber
 complexity: advanced
 maturity: stable
 tools:
@@ -22,91 +23,95 @@ tools:
 dependencies:
   - python@>=3.10
 ---
-# Find Complementary Founders Architecture & Implementation Standard
+
+# Complementary Founder Matching Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for find complementary founders. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with find-complementary-founders.
+The **Find Complementary Founders** skill provides a rigorous framework for identifying, assessing, and ranking prospective startup cofounders and project partners. Most founding teams suffer from redundancy traps—such as technical founders teaming up with other pure engineers rather than bringing on essential Go-To-Market (GTM), sales, or operational leadership.
+
+This skill equips agents with `ComplementaryFounderMatcher`, evaluating candidate capability vectors across four primary pillars: **Technical Engineering**, **Product Design**, **GTM & Enterprise Sales**, and **Operations & Finance**. It calculates gap coverage scores and identifies potential cultural or commitment frictions while maintaining strict privacy boundaries.
 
 ```
 +------------------------------------------------------------------------+
-|                   Find Complementary Founders                         |
+|                     Founder Matchmaking Pipeline                       |
 |                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
+|  [ Owner Profile Assessment ] ---> Identifies strengths & skill gaps   |
 |                                           |                            |
 |                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
+|  [ Candidate Ingestion ]      ---> Evaluates verified opt-in profiles  |
 |                                           |                            |
 |                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
+|  [ Gap Coverage Scoring ]     ---> Computes complementary synergy delta|
+|                                           |                            |
+|                                           v                            |
+|  [ Alignment & Friction Check]---> Flags commitment or style conflicts |
+|                                           |                            |
+|                                           v                            |
+|  [ Ranked Recommendations ]   ---> Emits partner brief with synergies  |
 +------------------------------------------------------------------------+
 ```
 
 ## When to Use
 
-- When architecting or refactoring systems related to find complementary founders.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When an entrepreneur or solo builder seeks a complementary cofounder with orthogonal strengths (e.g. Technical seeking GTM, or Sales seeking Technical).
+- When assessing early-stage startup team composition for critical structural blindspots.
+- When vetting project collaboration requests for mutual value alignment and shared domain interest.
+- When screening opt-in founder directories without disclosing confidential project details.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
-
-## Inputs & Prerequisites
-
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+- Standard corporate hiring or recruiting of employees/contractors where salary, title, and job descriptions dominate rather than equity partnerships.
+- Non-consensual automated scraping or unsolicited cold outbound spamming of individuals.
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for find-complementary-founders..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### 1. Model Owner Capability Profile
+Define the founder's existing skill scores, working style, and commitment:
 
 ```python
-import sys
-import logging
+from founder_matching_engine import ComplementaryFounderMatcher, FounderProfile
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("find-complementary-founders")
-
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for find-complementary-founders")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+owner = FounderProfile(
+    founder_id="founder-tech",
+    headline="Lead AI Architect & Infrastructure Engineer",
+    skills={"technical_engineering": 9.5, "product_design": 4.0, "gtm_sales": 2.0, "operations_finance": 3.5},
+    commitment="full-time",
+    domains_of_interest=["Developer Tools", "AI Agents"],
+    working_style="fast_prototyping"
+)
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### 2. Ingest Candidates and Compute Synergy Scores
+Initialize the matching engine and rank prospective candidate profiles:
 
-## Best Practices & Failure Modes
+```python
+matcher = ComplementaryFounderMatcher(owner)
+ranked_matches = matcher.rank_candidates(candidate_pool)
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+for match in ranked_matches:
+    print(f"Candidate: {match.headline} | Score: {match.complementarity_score}/100")
+    print(f"Synergies: {match.synergy_reasons}")
+    print(f"Frictions: {match.potential_frictions}")
+```
+
+### 3. Review Top Complementary Candidates
+Select candidates that maximize coverage over critical deficits while sharing identical commitment levels:
+
+```python
+top_choice = ranked_matches[0]
+print(f"Selected Top Partner Candidate: {top_choice.candidate_id}")
+```
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/find-complementary-founders_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+Execute the founder matchmaking verification suite to test gap calculation and candidate ranking:
+
+```bash
+python scripts/find-complementary-founders_helper.py
+```
+
+Expected output:
+- Owner profile evaluated against candidates.
+- GTM candidate prioritized over duplicate technical candidate.
+- Status returned cleanly.
