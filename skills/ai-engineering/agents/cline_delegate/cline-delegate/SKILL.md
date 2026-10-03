@@ -1,19 +1,23 @@
 ---
 name: cline-delegate
-description: "Use this skill to delegate coding tasks to the Cline CLI (`cline`) only when the user explicitly"
+description: "Use this skill to delegate bounded coding, exploration, or planning tasks to the Cline CLI agent process. It configures operational execution modes (Act vs. Plan), specifies provider model backends, enforces working tree isolation, monitors execution traces, audits git diffs, and coordinates final review and landing."
 domain: ai-engineering
 category: agents
 subcategory: cline_delegate
 tags:
-  - ai-engineering
-  - agents
-  - cline
-  - automation
-  - production-ready
+  - cline-cli
+  - agent-delegation
+  - plan-mode
+  - act-mode
+  - subagent-supervision
+  - git-diff-review
+  - model-routing
 technologies:
-  - Cline Delegate
   - Python
-  - Bash
+  - Subprocess
+  - Git
+  - JSON
+  - Cline-CLI
 complexity: advanced
 maturity: stable
 tools:
@@ -21,92 +25,157 @@ tools:
   - bash
 dependencies:
   - python@>=3.10
+version: 1.0.0
+author: Antigravity Team
 ---
-# Cline Delegate Architecture & Implementation Standard
+
+# Cline CLI Agent Delegation & Supervision Standard
 
 ## Overview
 
-A comprehensive engineering standard and operational guide for cline delegate. In modern production environments, reliable execution requires structured workflows, defensive exception handling, clear input/output contracts, and measurable verification criteria. This skill guides software engineers, systems architects, and autonomous AI agents in executing end-to-end tasks associated with cline-delegate.
+The `cline-delegate` skill defines the protocol, invocation parameters, and validation gates for delegating engineering tasks to the **Cline CLI** (`cline`). When orchestrating multi-agent systems, the primary agent delegates isolated coding tasks to Cline while retaining complete architectural oversight and landing authority. This skill formalizes the choice between read-only architectural investigation (**Plan Mode**) and file-modifying implementation (**Act Mode**), validates model provider flags to prevent shell injection, audits working tree git deltas, and validates acceptance tests before committing changes.
 
 ```
-+------------------------------------------------------------------------+
-|                   Cline Delegate                                      |
-|                                                                        |
-|  [ Request / Trigger ] ---> [ Input Validation & Sanitization ]        |
-|                                           |                            |
-|                                           v                            |
-|                          [ Core Execution Pipeline ]                   |
-|                                           |                            |
-|                                           v                            |
-|                          [ Output Contract & Telemetry ]               |
-+------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+|                        Cline CLI Delegation & Review Pipeline                     |
+|                                                                                   |
+|  [ Orchestrator Context ]                                                         |
+|         |                                                                         |
+|         v                                                                         |
+|  [ Mode Selection Gate ]                                                          |
+|    /                    \                                                         |
+|   / (Read-Only)          \ (Mutating Code)                                        |
+|  v                        v                                                       |
+| [ PLAN MODE ]            [ ACT MODE ]                                             |
+| (Architecture/RFC)       (Target File Whitelist)                                  |
+|         |                        |                                                |
+|         +------------------------+                                                |
+|                                  |                                                |
+|                                  v                                                |
+|                  [ Sanitize Model & Provider Flags ]                              |
+|                  (Letters, digits, hyphens only: regex whitelist)                 |
+|                                  |                                                |
+|                                  v                                                |
+|                  [ Execute Subordinate `cline` Process ]                          |
+|                                  |                                                |
+|                                  v                                                |
+|                  [ Working Tree Git Diff Inspection Gate ]                        |
+|                    - Check scope whitelist adherence                              |
+|                    - Run verification test harness                                |
+|                                  |                                                |
+|                                  v                                                |
+|                  [ Final Landing: git commit / PR ]                               |
++-----------------------------------------------------------------------------------+
 ```
+
+---
 
 ## When to Use
 
-- When architecting or refactoring systems related to cline delegate.
-- When standardizing production operations, automation scripts, or data pipelines for this domain.
-- When an AI agent requires deterministic, repeatable procedural guidelines for execution.
+- When delegating a contained module implementation, bugfix, or test suite generation to Cline CLI.
+- When performing a read-only architectural exploration using Cline's `--plan` mode.
+- When the user explicitly requests execution via `cline`.
+- When separating architectural design from mechanical code generation to preserve context.
 
 ## When NOT to Use
 
-- Unrelated domain workflows with conflicting performance or architectural requirements.
-- Deprecated legacy systems where modern automated patterns cannot be safely applied.
+- When `cline` is not installed on the system PATH or lacks API credentials.
+- For trivial single-line changes where subagent process startup overhead is unjustified.
+- When tasks require interactive conversational disambiguation while coding.
+
+---
 
 ## Inputs & Prerequisites
 
-- Appropriate development environment, runtime dependencies, and secure configuration variables.
-- Required credentials and network access to target APIs or services.
-- Clean project workspace initialized with version control.
+1. **Target Execution Mode**: `plan` (read-only analysis) or `act` (code modification).
+2. **Delegation Brief**: Focused instructions describing the target deliverable.
+3. **Model / Provider Specification**: Optional provider name (e.g. `anthropic`, `openrouter`) and model identifier.
+4. **Scope Boundaries**: Explicit list of files authorized for modification.
+
+---
 
 ## Core Workflow
 
-### Step 1: Environment and Context Initialization
-Initialize configuration, validate required system dependencies, and establish secure execution contexts:
-
-```bash
-# Verify runtime environment and dependencies
-echo "Initializing execution context for cline-delegate..."
-```
-
-### Step 2: Implementation and Execution
-Execute the primary task logic following standard defensive programming principles:
+### Step 1: Mode Selection & Input Sanitization
+Validate mode and sanitize provider flags:
 
 ```python
-import sys
-import logging
+import re
+from typing import Dict, Any
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("cline-delegate")
+SAFE_FLAG_PATTERN = re.compile(r"^[a-zA-Z0-9_\-\.:/]+$")
 
-def execute_pipeline(payload: dict) -> dict:
-    logger.info("Starting execution for cline-delegate")
-    if not payload:
-        raise ValueError("Invalid execution payload: payload must not be empty.")
-    
-    # Process workflow
-    result = {"status": "success", "processed": True, "details": payload}
-    logger.info("Completed execution successfully.")
-    return result
-
-if __name__ == "__main__":
-    execute_pipeline({"initialized": True})
+def validate_cline_parameters(mode: str, model: str, provider: str) -> Dict[str, Any]:
+    """Validates Cline CLI flags to prevent command injection."""
+    if mode not in ("plan", "act"):
+        raise ValueError(f"Invalid mode: '{mode}'. Must be 'plan' or 'act'.")
+        
+    for name, val in [("model", model), ("provider", provider)]:
+        if val and not SAFE_FLAG_PATTERN.match(val):
+            raise ValueError(f"Invalid characters in {name}: '{val}'")
+            
+    return {
+        "mode_flag": f"--{mode}",
+        "model_flag": f"--model {model}" if model else "",
+        "provider_flag": f"--provider {provider}" if provider else ""
+    }
 ```
 
-### Step 3: Telemetry, Error Handling & Recovery
-Enforce robust error isolation, structured logging, and fallback mechanisms:
-- Catch specific, actionable exceptions rather than swallowing broad errors.
-- Ensure all emitted events conform to standardized observability schemas.
-- Clean up ephemeral resources or connections in `finally` blocks.
+### Step 2: Build the Standalone Brief
+The brief is passed to Cline via stdin or file parameter:
+
+```markdown
+# Cline Delegation Brief
+
+## Goal
+Implement exponential backoff retry logic in `src/http_client.py`.
+
+## Authorized Files
+- `src/http_client.py`
+- `tests/test_http_client.py`
+
+## Verification Command
+`pytest tests/test_http_client.py`
+```
+
+### Step 3: Diff Inspection & Quality Gate
+After Cline exits, inspect `git diff` to ensure no out-of-scope files were touched:
+
+```python
+import subprocess
+
+def verify_and_land(allowed_files: list[str], test_cmd: str) -> bool:
+    """Verifies diff scope and executes test command before landing."""
+    # 1. Check modified files
+    res = subprocess.run(["git", "diff", "--name-only"], capture_output=True, text=True, check=True)
+    changed = [f.strip() for f in res.stdout.splitlines() if f.strip()]
+    
+    for f in changed:
+        if f not in allowed_files:
+            raise PermissionError(f"Scope violation: Cline modified unauthorized file '{f}'")
+            
+    # 2. Run independent test suite
+    test_res = subprocess.run(test_cmd, shell=True, capture_output=True, text=True)
+    return test_res.returncode == 0
+```
+
+---
 
 ## Best Practices & Failure Modes
 
-- **Idempotency**: Ensure operations can be retried safely without causing duplicate records or resource corruption.
-- **Defensive Timeouts**: Always configure explicit connection and read timeouts on external service calls.
-- **Zero Secret Exposure**: Never log raw authorization tokens, API keys, or sensitive customer identifiers.
+- **Plan-First on Ambiguity**: When an issue is complex or dependencies are unclear, run `--plan` mode first to produce an RFC before executing `--act`.
+- **Credential Hygiene**: Ensure API keys (e.g. `ANTHROPIC_API_KEY`) are passed via secure environment variables rather than command-line argument flags visible in process listings (`ps`).
+- **Diff Rejection**: If the subordinate agent introduces unnecessary dependencies in `package.json` without authorization, reject the change with `git checkout -- .`.
+
+---
 
 ## Verification & Testing
 
-1. Run automated unit tests to verify contract compliance.
-2. Execute the verification script: `python scripts/cline-delegate_helper.py`.
-3. Confirm clean linting and type checks across all modules.
+1. Run the Cline CLI relay supervisor test suite:
+   ```bash
+   python scripts/cline-delegate_helper.py
+   ```
+2. Verify argument sanitization and mode gating via CLI:
+   ```bash
+   python scripts/cline_relay_supervisor.py --test-all
+   ```
