@@ -14405,6 +14405,28 @@
     "maturity": "stable"
   },
   {
+    "name": "squirrel",
+    "path": "skills/ai-engineering/models/squirrel/squirrel",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "squirrel",
+    "description": "Use this skill to design, implement, and operate production workflows for squirrel. Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipeline.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "squirrel",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Squirrel",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
