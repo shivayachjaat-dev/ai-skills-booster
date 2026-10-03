@@ -1,6 +1,6 @@
 # Category Index: Models
 
-> **468 skills** available in this category.
+> **469 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -465,6 +465,7 @@
 | [recsys-pipeline-architect](../../skills/ai-engineering/models/recsys_pipeline_arch/recsys-pipeline-architect/SKILL.md) | `recsys_pipeline_arch` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recsys pipeline architect. Designs composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework |
 | [recursive-context-pruning-token-budgeting](../../skills/ai-engineering/models/recursive_context_pr/recursive-context-pruning-token-budgeting/SKILL.md) | `recursive_context_pr` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for recursive context pruning token budgeting. Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direct-to-value responses. |
 | [red-team-tools](../../skills/ai-engineering/models/red_team_tools/red-team-tools/SKILL.md) | `red_team_tools` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for red team tools. Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate common tasks while maintaining thorough coverage of attack surfaces. |
+| [remote-gpu-trainer](../../skills/ai-engineering/models/remote_gpu_trainer/remote-gpu-trainer/SKILL.md) | `remote_gpu_trainer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for remote gpu trainer. Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): teardown/billing safety, spot resilience, resumable checkpointing, OOM/NaN triage. |
 | [skill-audit](../../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | [supply-chain-risk-auditor](../../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](../../skills/ai-engineering/models/templates/templates/SKILL.md) | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |

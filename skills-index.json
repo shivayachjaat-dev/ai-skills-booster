@@ -13217,6 +13217,28 @@
     "maturity": "stable"
   },
   {
+    "name": "remote-gpu-trainer",
+    "path": "skills/ai-engineering/models/remote_gpu_trainer/remote-gpu-trainer",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "remote_gpu_trainer",
+    "description": "Use this skill to design, implement, and operate production workflows for remote gpu trainer. Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): teardown/billing safety, spot resilience, resumable checkpointing, OOM/NaN triage.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "remote",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Remote Gpu Trainer",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

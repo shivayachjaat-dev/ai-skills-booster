@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,900** skills across structured domains, categories, and subcategories.
+Master navigation for **1,901** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (653 skills)
+## Ai Engineering (654 skills)
 
 ### Agents (83 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -320,7 +320,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (468 skills)
+### Models (469 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1234,6 +1234,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [recursive-context-pruning-token-budgeting](../skills/ai-engineering/models/recursive_context_pr/recursive-context-pruning-token-budgeting/SKILL.md) — Use this skill to design, implement, and operate production workflows for recursive context pruning token budgeting. Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direct-to-value responses.
 - **Red_Team_Tools** (1):
   - [red-team-tools](../skills/ai-engineering/models/red_team_tools/red-team-tools/SKILL.md) — Use this skill to design, implement, and operate production workflows for red team tools. Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate common tasks while maintaining thorough coverage of attack surfaces.
+- **Remote_Gpu_Trainer** (1):
+  - [remote-gpu-trainer](../skills/ai-engineering/models/remote_gpu_trainer/remote-gpu-trainer/SKILL.md) — Use this skill to design, implement, and operate production workflows for remote gpu trainer. Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): teardown/billing safety, spot resilience, resumable checkpointing, OOM/NaN triage.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):
