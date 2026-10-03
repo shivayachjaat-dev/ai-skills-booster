@@ -866,7 +866,8 @@ AI_Skills_Booster/
 │   │   ├── python_performance_o/ (1 skills)
 │   │   ├── robot_framework_skil/ (1 skills)
 │   │   ├── scikit_learn/ (1 skills)
-│   │   └── seaborn/ (1 skills)
+│   │   ├── seaborn/ (1 skills)
+│   │   └── statsmodels/ (1 skills)
 │   ├── realtime/
 │   │   └── websocket/ (1 skills)
 │   └── resilience/

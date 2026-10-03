@@ -18820,6 +18820,28 @@
     "maturity": "stable"
   },
   {
+    "name": "statsmodels",
+    "path": "skills/backend/python-services/statsmodels/statsmodels",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "statsmodels",
+    "description": "Use this skill to design, implement, and operate production workflows for statsmodels. Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistical methods.",
+    "tags": [
+      "backend",
+      "python-services",
+      "statsmodels",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Statsmodels",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",
