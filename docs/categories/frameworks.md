@@ -1,6 +1,6 @@
 # Category Index: Frameworks
 
-> **23 skills** available in this category.
+> **24 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -27,3 +27,4 @@
 | [nextjs-app-router-patterns](../../skills/frontend/frameworks/nextjs_app_router_pa/nextjs-app-router-patterns/SKILL.md) | `nextjs_app_router_pa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nextjs app router patterns. Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development. |
 | [rayden-code](../../skills/frontend/frameworks/rayden_code/rayden-code/SKILL.md) | `rayden_code` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rayden code. Generate React code with Rayden UI components using correct props, tokens, and premium layout patterns |
 | [react-component-performance](../../skills/frontend/frameworks/react_component_perf/react-component-performance/SKILL.md) | `react_component_perf` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react component performance. Diagnose slow React components and suggest targeted performance fixes. |
+| [react-flow-architect](../../skills/frontend/frameworks/react_flow_architect/react-flow-architect/SKILL.md) | `react_flow_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for react flow architect. Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management. |

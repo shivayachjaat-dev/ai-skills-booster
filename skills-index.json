@@ -23873,6 +23873,28 @@
     "maturity": "stable"
   },
   {
+    "name": "react-flow-architect",
+    "path": "skills/frontend/frameworks/react_flow_architect/react-flow-architect",
+    "domain": "frontend",
+    "category": "frameworks",
+    "subcategory": "react_flow_architect",
+    "description": "Use this skill to design, implement, and operate production workflows for react flow architect. Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management.",
+    "tags": [
+      "frontend",
+      "frameworks",
+      "react",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "React Flow Architect",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "nextjs-app-router-architecture",
     "path": "skills/frontend/nextjs/architecture/nextjs-app-router-architecture",
     "domain": "frontend",
