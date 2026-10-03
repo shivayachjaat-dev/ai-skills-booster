@@ -14625,6 +14625,28 @@
     "maturity": "stable"
   },
   {
+    "name": "suno-lyrics-to-song",
+    "path": "skills/ai-engineering/models/suno_lyrics_to_song/suno-lyrics-to-song",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "suno_lyrics_to_song",
+    "description": "Use this skill to design, implement, and operate production workflows for suno lyrics to song. Install and use the official Lyrics to Song package, pinned by digest, for paid hosted work on the Beatra service.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "suno",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Suno Lyrics To Song",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",

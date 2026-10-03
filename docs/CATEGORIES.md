@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,134** skills across structured domains, categories, and subcategories.
+Master navigation for **2,135** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (721 skills)
+## Ai Engineering (722 skills)
 
 ### Agents (92 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -338,7 +338,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (522 skills)
+### Models (523 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1362,6 +1362,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [stitch-ui-design](../skills/ai-engineering/models/stitch_ui_design/stitch-ui-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for stitch ui design. Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.
 - **Styleseed_Design_Rev** (1):
   - [styleseed-design-review](../skills/ai-engineering/models/styleseed_design_rev/styleseed-design-review/SKILL.md) — Use this skill to design, implement, and operate production workflows for styleseed design review. Reviews UI/frontend code and tells you exactly why it \"looks AI-generated\" — then how to fix it.
+- **Suno_Lyrics_To_Song** (1):
+  - [suno-lyrics-to-song](../skills/ai-engineering/models/suno_lyrics_to_song/suno-lyrics-to-song/SKILL.md) — Use this skill to design, implement, and operate production workflows for suno lyrics to song. Install and use the official Lyrics to Song package, pinned by digest, for paid hosted work on the Beatra service.
 - **Supply_Chain_Risk_Au** (1):
   - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - **Templates** (1):
