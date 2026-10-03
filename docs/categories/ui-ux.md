@@ -1,6 +1,6 @@
 # Category Index: Ui Ux
 
-> **249 skills** available in this category.
+> **250 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -251,5 +251,6 @@
 | [similarity-search-patterns](../../skills/frontend/ui-ux/similarity_search_pa/similarity-search-patterns/SKILL.md) | `similarity_search_pa` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for similarity search patterns. Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance. |
 | [skill-developer](../../skills/frontend/ui-ux/skill_developer/skill-developer/SKILL.md) | `skill_developer` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill developer. Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern. |
 | [slack-bot-builder](../../skills/frontend/ui-ux/slack_bot_builder/slack-bot-builder/SKILL.md) | `slack_bot_builder` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for slack bot builder. Build Slack apps using the Bolt framework across Python, |
+| [social-content](../../skills/frontend/ui-ux/social_content/social-content/SKILL.md) | `social_content` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for social content. You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals. |
 | [swiftui-performance-audit](../../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) | `swiftui_performance_` | `advanced` | `stable` | Use this skill to audit SwiftUI performance issues from code review and profiling evidence. |
 | [vr-ar](../../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) | `vr_ar` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements. |

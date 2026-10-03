@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,077** skills across structured domains, categories, and subcategories.
+Master navigation for **2,078** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (705 skills)
 
@@ -2641,7 +2641,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (413 skills)
+## Frontend (414 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2837,7 +2837,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Redesign_Existing_Pr** (1):
   - [redesign-existing-projects](../skills/frontend/ui-development/redesign_existing_pr/redesign-existing-projects/SKILL.md) — Use this skill to design, implement, and operate production workflows for redesign existing projects. Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
 
-### Ui Ux (249 skills)
+### Ui Ux (250 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -3334,6 +3334,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [skill-developer](../skills/frontend/ui-ux/skill_developer/skill-developer/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill developer. Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern.
 - **Slack_Bot_Builder** (1):
   - [slack-bot-builder](../skills/frontend/ui-ux/slack_bot_builder/slack-bot-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for slack bot builder. Build Slack apps using the Bolt framework across Python,
+- **Social_Content** (1):
+  - [social-content](../skills/frontend/ui-ux/social_content/social-content/SKILL.md) — Use this skill to design, implement, and operate production workflows for social content. You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.
 - **Swiftui_Performance_** (1):
   - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - **Vr_Ar** (1):

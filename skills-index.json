@@ -32597,6 +32597,28 @@
     "maturity": "stable"
   },
   {
+    "name": "social-content",
+    "path": "skills/frontend/ui-ux/social_content/social-content",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "social_content",
+    "description": "Use this skill to design, implement, and operate production workflows for social content. You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "social",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Social Content",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "swiftui-performance-audit",
     "path": "skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit",
     "domain": "frontend",
