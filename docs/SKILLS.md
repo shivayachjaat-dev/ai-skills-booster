@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,123 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,124 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -659,6 +659,7 @@
 | [stability-ai](skills/ai-engineering/models/stability_ai/stability-ai/SKILL.md) | `ai-engineering` | `models` | `stability_ai` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stability ai. Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos. |
 | [startup-business-analyst-financial-projections](skills/ai-engineering/models/startup_business_ana/startup-business-analyst-financial-projections/SKILL.md) | `ai-engineering` | `models` | `startup_business_ana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup business analyst financial projections. Create detailed 3-5 year financial model with revenue, costs, cash |
 | [stellar-asset-clawback-compliance](skills/ai-engineering/models/stellar_asset_clawba/stellar-asset-clawback-compliance/SKILL.md) | `ai-engineering` | `models` | `stellar_asset_clawba` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stellar asset clawback compliance. Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail. |
+| [steve-jobs](skills/ai-engineering/models/steve_jobs/steve-jobs/SKILL.md) | `ai-engineering` | `models` | `steve_jobs` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for steve jobs. Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `ai-engineering` | `models` | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |

@@ -14493,6 +14493,28 @@
     "maturity": "stable"
   },
   {
+    "name": "steve-jobs",
+    "path": "skills/ai-engineering/models/steve_jobs/steve-jobs",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "steve_jobs",
+    "description": "Use this skill to design, implement, and operate production workflows for steve jobs. Agente que simula Steve Jobs \u2014 cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "steve",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Steve Jobs",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
