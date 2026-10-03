@@ -37864,6 +37864,28 @@
     "maturity": "stable"
   },
   {
+    "name": "sops-encryption",
+    "path": "skills/security/appsec/sops_encryption/sops-encryption",
+    "domain": "security",
+    "category": "appsec",
+    "subcategory": "sops_encryption",
+    "description": "Use this skill to design, implement, and operate production workflows for sops encryption. Encrypt files and configs with Mozilla SOPS.",
+    "tags": [
+      "security",
+      "appsec",
+      "sops",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Sops Encryption",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "zero-trust-network-architecture",
     "path": "skills/security/architecture/zero-trust/zero-trust-network-architecture",
     "domain": "security",

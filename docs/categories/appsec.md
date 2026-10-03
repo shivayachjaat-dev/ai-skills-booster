@@ -1,6 +1,6 @@
 # Category Index: Appsec
 
-> **113 skills** available in this category.
+> **114 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -117,3 +117,4 @@
 | [security-scanning-security-sast](../../skills/security/appsec/security_scanning_se/security-scanning-security-sast/SKILL.md) | `security_scanning_se` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for security scanning security sast. Static Application Security Testing (SAST) for code vulnerability |
 | [service-mesh-expert](../../skills/security/appsec/service_mesh_expert/service-mesh-expert/SKILL.md) | `service_mesh_expert` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for service mesh expert. Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con |
 | [solidity-security](../../skills/security/appsec/solidity_security/solidity-security/SKILL.md) | `solidity_security` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for solidity security. Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns. |
+| [sops-encryption](../../skills/security/appsec/sops_encryption/sops-encryption/SKILL.md) | `sops_encryption` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sops encryption. Encrypt files and configs with Mozilla SOPS. |
