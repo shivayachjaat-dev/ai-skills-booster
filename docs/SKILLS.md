@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,052 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,053 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -640,6 +640,7 @@
 | [shodan-reconnaissance](skills/ai-engineering/models/shodan_reconnaissanc/shodan-reconnaissance/SKILL.md) | `ai-engineering` | `models` | `shodan_reconnaissanc` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shodan reconnaissance. Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements. |
 | [since-cutoff](skills/ai-engineering/models/since_cutoff/since-cutoff/SKILL.md) | `ai-engineering` | `models` | `since_cutoff` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for since cutoff. Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code uses them, and write short AGENTS.md or CLAUDE.md notes. |
 | [skill-audit](skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) | `ai-engineering` | `models` | `skill_audit` | `advanced` | `stable` | Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
+| [skill-creator-ms](skills/ai-engineering/models/skill_creator_ms/skill-creator-ms/SKILL.md) | `ai-engineering` | `models` | `skill_creator_ms` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill creator ms. Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating existing skills. |
 | [supply-chain-risk-auditor](skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) | `ai-engineering` | `models` | `supply_chain_risk_au` | `advanced` | `stable` | Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements. |
 | [templates](skills/ai-engineering/models/templates/templates/SKILL.md) | `ai-engineering` | `models` | `templates` | `advanced` | `stable` | Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. |
 | [typography-first](skills/ai-engineering/models/typography_first/typography-first/SKILL.md) | `ai-engineering` | `models` | `typography_first` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for typography first. Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming. |

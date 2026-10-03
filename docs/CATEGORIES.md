@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,052** skills across structured domains, categories, and subcategories.
+Master navigation for **2,053** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (694 skills)
+## Ai Engineering (695 skills)
 
 ### Agents (86 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -326,7 +326,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Prompt_Engineering_P** (1):
   - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
-### Models (503 skills)
+### Models (504 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1312,6 +1312,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [since-cutoff](../skills/ai-engineering/models/since_cutoff/since-cutoff/SKILL.md) — Use this skill to design, implement, and operate production workflows for since cutoff. Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code uses them, and write short AGENTS.md or CLAUDE.md notes.
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
+- **Skill_Creator_Ms** (1):
+  - [skill-creator-ms](../skills/ai-engineering/models/skill_creator_ms/skill-creator-ms/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill creator ms. Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating existing skills.
 - **Supply_Chain_Risk_Au** (1):
   - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - **Templates** (1):

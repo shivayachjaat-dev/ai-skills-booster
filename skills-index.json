@@ -14075,6 +14075,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-creator-ms",
+    "path": "skills/ai-engineering/models/skill_creator_ms/skill-creator-ms",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "skill_creator_ms",
+    "description": "Use this skill to design, implement, and operate production workflows for skill creator ms. Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating existing skills.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Creator Ms",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "supply-chain-risk-auditor",
     "path": "skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor",
     "domain": "ai-engineering",
