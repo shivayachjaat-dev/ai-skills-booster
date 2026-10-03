@@ -1,6 +1,6 @@
 # Category Index: Web Architecture
 
-> **84 skills** available in this category.
+> **85 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -75,6 +75,7 @@
 | [retro-design](../../skills/frontend/web-architecture/retro_design/retro-design/SKILL.md) | `retro_design` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for retro design. Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts. |
 | [retro-futurism](../../skills/frontend/web-architecture/retro_futurism/retro-futurism/SKILL.md) | `retro_futurism` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for retro futurism. Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes. |
 | [scanning-tools](../../skills/frontend/web-architecture/scanning_tools/scanning-tools/SKILL.md) | `scanning_tools` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scanning tools. Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning c... |
+| [schema-markup-generator](../../skills/frontend/web-architecture/schema_markup_genera/schema-markup-generator/SKILL.md) | `schema_markup_genera` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for schema markup generator. Generate and implement JSON-LD structured data for web apps, blogs, FAQs, and SaaS sites. Supports WebSite, SoftwareApplication, BlogPosting, FAQPage, HowTo, and more. |
 | [sci-fi-interface](../../skills/frontend/web-architecture/sci_fi_interface/sci-fi-interface/SKILL.md) | `sci_fi_interface` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sci fi interface. Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts. |
 | [security-audit](../../skills/frontend/web-architecture/security_audit/security-audit/SKILL.md) | `security_audit` | `advanced` | `stable` | Use this skill to comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
 | [seo-aeo-content-quality-auditor](../../skills/frontend/web-architecture/seo_aeo_content_qual/seo-aeo-content-quality-auditor/SKILL.md) | `seo_aeo_content_qual` | `advanced` | `stable` | Use this skill to audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified. |

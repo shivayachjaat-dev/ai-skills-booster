@@ -1558,6 +1558,7 @@ AI_Skills_Booster/
 │   │   ├── retro_design/ (1 skills)
 │   │   ├── retro_futurism/ (1 skills)
 │   │   ├── scanning_tools/ (1 skills)
+│   │   ├── schema_markup_genera/ (1 skills)
 │   │   ├── sci_fi_interface/ (1 skills)
 │   │   ├── security_audit/ (1 skills)
 │   │   ├── seo_aeo_content_qual/ (1 skills)

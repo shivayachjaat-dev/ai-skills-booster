@@ -32685,6 +32685,28 @@
     "maturity": "stable"
   },
   {
+    "name": "schema-markup-generator",
+    "path": "skills/frontend/web-architecture/schema_markup_genera/schema-markup-generator",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "schema_markup_genera",
+    "description": "Use this skill to design, implement, and operate production workflows for schema markup generator. Generate and implement JSON-LD structured data for web apps, blogs, FAQs, and SaaS sites. Supports WebSite, SoftwareApplication, BlogPosting, FAQPage, HowTo, and more.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "schema",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Schema Markup Generator",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "sci-fi-interface",
     "path": "skills/frontend/web-architecture/sci_fi_interface/sci-fi-interface",
     "domain": "frontend",
