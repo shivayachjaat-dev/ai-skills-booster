@@ -20937,6 +20937,28 @@
     "maturity": "stable"
   },
   {
+    "name": "reddit-automation",
+    "path": "skills/developer-tools/productivity/reddit_automation/reddit-automation",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "reddit_automation",
+    "description": "Use this skill to design, implement, and operate production workflows for reddit automation. Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "reddit",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Reddit Automation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

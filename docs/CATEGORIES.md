@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,892** skills across structured domains, categories, and subcategories.
+Master navigation for **1,893** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (652 skills)
 
@@ -2053,7 +2053,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (50 skills)
+## Developer Tools (51 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -2089,7 +2089,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Postman_Newman_Autom** (1):
   - [postman-newman-automation](../skills/developer-tools/cli-utilities/postman_newman_autom/postman-newman-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for postman newman automation. Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments.
 
-### Productivity (35 skills)
+### Productivity (36 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -2162,6 +2162,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [posthog-automation](../skills/developer-tools/productivity/posthog_automation/posthog-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for posthog automation. Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas.
 - **Product_Manager_Tool** (1):
   - [product-manager-toolkit](../skills/developer-tools/productivity/product_manager_tool/product-manager-toolkit/SKILL.md) — Use this skill to design, implement, and operate production workflows for product manager toolkit. Essential tools and frameworks for modern product management, from discovery to delivery.
+- **Reddit_Automation** (1):
+  - [reddit-automation](../skills/developer-tools/productivity/reddit_automation/reddit-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for reddit automation. Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)
