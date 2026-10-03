@@ -19359,6 +19359,28 @@
     "maturity": "stable"
   },
   {
+    "name": "opentofu-migration",
+    "path": "skills/devops/ci-cd/opentofu_migration/opentofu-migration",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "opentofu_migration",
+    "description": "Use this skill to design, implement, and operate production workflows for opentofu migration. Migrate from Terraform to OpenTofu with state compatibility, provider",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "opentofu",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Opentofu Migration",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "github-actions-ci-pipeline-optimization",
     "path": "skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization",
     "domain": "devops",

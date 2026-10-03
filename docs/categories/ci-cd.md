@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **41 skills** available in this category.
+> **42 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -44,4 +44,5 @@
 | [new-relic](../../skills/devops/ci-cd/new_relic/new-relic/SKILL.md) | `new_relic` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for new relic. Configure New Relic observability platform for infrastructure and application |
 | [openshift](../../skills/devops/ci-cd/openshift/openshift/SKILL.md) | `openshift` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openshift. Manage Red Hat OpenShift clusters and deployments. |
 | [opentelemetry](../../skills/devops/ci-cd/opentelemetry/opentelemetry/SKILL.md) | `opentelemetry` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for opentelemetry. Instrument applications and infrastructure with OpenTelemetry for unified |
+| [opentofu-migration](../../skills/devops/ci-cd/opentofu_migration/opentofu-migration/SKILL.md) | `opentofu_migration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for opentofu migration. Migrate from Terraform to OpenTofu with state compatibility, provider |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
