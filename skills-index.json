@@ -17852,6 +17852,28 @@
     "maturity": "stable"
   },
   {
+    "name": "seaborn",
+    "path": "skills/backend/python-services/seaborn/seaborn",
+    "domain": "backend",
+    "category": "python-services",
+    "subcategory": "seaborn",
+    "description": "Use this skill to design, implement, and operate production workflows for seaborn. Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code.",
+    "tags": [
+      "backend",
+      "python-services",
+      "seaborn",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Seaborn",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "websocket-realtime-communication",
     "path": "skills/backend/realtime/websocket/websocket-realtime-communication",
     "domain": "backend",
