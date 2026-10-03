@@ -42727,6 +42727,28 @@
     "maturity": "stable"
   },
   {
+    "name": "salesforce-development",
+    "path": "skills/software-engineering/architecture/patterns/salesforce-development",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for salesforce development. Expert patterns for Salesforce platform development including",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "salesforce",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Salesforce Development",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
