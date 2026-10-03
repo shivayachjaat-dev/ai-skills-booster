@@ -1,6 +1,6 @@
 # Category Index: Ci Cd
 
-> **42 skills** available in this category.
+> **43 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -46,3 +46,4 @@
 | [opentelemetry](../../skills/devops/ci-cd/opentelemetry/opentelemetry/SKILL.md) | `opentelemetry` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for opentelemetry. Instrument applications and infrastructure with OpenTelemetry for unified |
 | [opentofu-migration](../../skills/devops/ci-cd/opentofu_migration/opentofu-migration/SKILL.md) | `opentofu_migration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for opentofu migration. Migrate from Terraform to OpenTofu with state compatibility, provider |
 | [github-actions-ci-pipeline-optimization](../../skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
+| [performance-tuning](../../skills/devops/ci-cd/performance_tuning/performance-tuning/SKILL.md) | `performance_tuning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance tuning. Optimize Linux system performance. Configure kernel parameters, analyze |

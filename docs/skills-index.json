@@ -20066,6 +20066,28 @@
     "maturity": "stable"
   },
   {
+    "name": "performance-tuning",
+    "path": "skills/devops/ci-cd/performance_tuning/performance-tuning",
+    "domain": "devops",
+    "category": "ci-cd",
+    "subcategory": "performance_tuning",
+    "description": "Use this skill to design, implement, and operate production workflows for performance tuning. Optimize Linux system performance. Configure kernel parameters, analyze",
+    "tags": [
+      "devops",
+      "ci-cd",
+      "performance",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Performance Tuning",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "amazon-alexa",
     "path": "skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa",
     "domain": "devops",

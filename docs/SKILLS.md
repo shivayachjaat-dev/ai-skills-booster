@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 1,738 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 1,739 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -903,6 +903,7 @@
 | [opentelemetry](skills/devops/ci-cd/opentelemetry/opentelemetry/SKILL.md) | `devops` | `ci-cd` | `opentelemetry` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for opentelemetry. Instrument applications and infrastructure with OpenTelemetry for unified |
 | [opentofu-migration](skills/devops/ci-cd/opentofu_migration/opentofu-migration/SKILL.md) | `devops` | `ci-cd` | `opentofu_migration` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for opentofu migration. Migrate from Terraform to OpenTofu with state compatibility, provider |
 | [github-actions-ci-pipeline-optimization](skills/devops/ci-cd/optimization/github-actions-ci-pipeline-optimization/SKILL.md) | `devops` | `ci-cd` | `optimization` | `advanced` | `stable` | Use this skill when auditing, accelerating, and optimizing GitHub Actions CI/CD workflows. It guides the agent through dependency caching strategies (actions/cache), matrix test parallelization, path filtering triggers, Docker layer caching in CI, artifact retention policies, and security hardening (minimal GITHUB_TOKEN permissions). |
+| [performance-tuning](skills/devops/ci-cd/performance_tuning/performance-tuning/SKILL.md) | `devops` | `ci-cd` | `performance_tuning` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance tuning. Optimize Linux system performance. Configure kernel parameters, analyze |
 | [amazon-alexa](skills/devops/cloud-infrastructure/amazon_alexa/amazon-alexa/SKILL.md) | `devops` | `cloud-infrastructure` | `amazon_alexa` | `advanced` | `stable` | Use this skill to integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home). |
 | [aws-cost-cleanup](skills/devops/cloud-infrastructure/aws_cost_cleanup/aws-cost-cleanup/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_cleanup` | `advanced` | `stable` | Use this skill to automated cleanup of unused AWS resources to reduce costs |
 | [aws-cost-optimizer](skills/devops/cloud-infrastructure/aws_cost_optimizer/aws-cost-optimizer/SKILL.md) | `devops` | `cloud-infrastructure` | `aws_cost_optimizer` | `advanced` | `stable` | Use this skill to comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer |
