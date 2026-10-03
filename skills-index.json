@@ -30419,6 +30419,28 @@
     "maturity": "stable"
   },
   {
+    "name": "protocol-reverse",
+    "path": "skills/frontend/web-architecture/protocol_reverse/protocol-reverse",
+    "domain": "frontend",
+    "category": "web-architecture",
+    "subcategory": "protocol_reverse",
+    "description": "Use this skill to design, implement, and operate production workflows for protocol reverse. Authorized reverse engineering of custom binary protocols, Protobuf/gRPC schemas, WebSocket frames, and PCAP-driven protocol recovery.",
+    "tags": [
+      "frontend",
+      "web-architecture",
+      "protocol",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Protocol Reverse",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "retro-design",
     "path": "skills/frontend/web-architecture/retro_design/retro-design",
     "domain": "frontend",
