@@ -1,6 +1,6 @@
 # AI Skills Booster — Master Catalog
 
-> **Total Skills**: 2,151 | **Organized by 3-Level Taxonomy**
+> **Total Skills**: 2,152 | **Organized by 3-Level Taxonomy**
 
 | Skill | Domain | Category | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|---|---|
@@ -1501,6 +1501,7 @@
 | [reverse-browser-automation](skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation/SKILL.md) | `frontend` | `ui-ux` | `reverse_browser_auto` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis. |
 | [risk-metrics-calculation](skills/frontend/ui-ux/risk_metrics_calcula/risk-metrics-calculation/SKILL.md) | `frontend` | `ui-ux` | `risk_metrics_calcula` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for risk metrics calculation. Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems. |
 | [ruby](skills/frontend/ui-ux/ruby/ruby/SKILL.md) | `frontend` | `ui-ux` | `ruby` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for ruby. Language-specific super-code guidelines for ruby. |
+| [rust](skills/frontend/ui-ux/rust/rust/SKILL.md) | `frontend` | `ui-ux` | `rust` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for rust. Language-specific super-code guidelines for rust. |
 | [saas-mvp-launcher](skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) | `frontend` | `ui-ux` | `saas_mvp_launcher` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist. |
 | [scanpy](skills/frontend/ui-ux/scanpy/scanpy/SKILL.md) | `frontend` | `ui-ux` | `scanpy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scanpy. Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualizati... |
 | [scroll-experience](skills/frontend/ui-ux/scroll_experience/scroll-experience/SKILL.md) | `frontend` | `ui-ux` | `scroll_experience` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax |

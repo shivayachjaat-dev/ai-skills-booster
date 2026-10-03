@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1970 skills)
+## Bash (1971 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2467,6 +2467,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [reverse-browser-automation](../skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis.
 - [risk-metrics-calculation](../skills/frontend/ui-ux/risk_metrics_calcula/risk-metrics-calculation/SKILL.md) — Use this skill to design, implement, and operate production workflows for risk metrics calculation. Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems.
 - [ruby](../skills/frontend/ui-ux/ruby/ruby/SKILL.md) — Use this skill to design, implement, and operate production workflows for ruby. Language-specific super-code guidelines for ruby.
+- [rust](../skills/frontend/ui-ux/rust/rust/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust. Language-specific super-code guidelines for rust.
 - [saas-mvp-launcher](../skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.
 - [scanpy](../skills/frontend/ui-ux/scanpy/scanpy/SKILL.md) — Use this skill to design, implement, and operate production workflows for scanpy. Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualizati...
 - [scroll-experience](../skills/frontend/ui-ux/scroll_experience/scroll-experience/SKILL.md) — Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax
@@ -9980,7 +9981,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (2073 skills)
+## Python (2074 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -11429,6 +11430,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [reverse-browser-automation](../skills/frontend/ui-ux/reverse_browser_auto/reverse-browser-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for reverse browser automation. Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence collection, UI-driven workflows, and network observation during analysis.
 - [risk-metrics-calculation](../skills/frontend/ui-ux/risk_metrics_calcula/risk-metrics-calculation/SKILL.md) — Use this skill to design, implement, and operate production workflows for risk metrics calculation. Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems.
 - [ruby](../skills/frontend/ui-ux/ruby/ruby/SKILL.md) — Use this skill to design, implement, and operate production workflows for ruby. Language-specific super-code guidelines for ruby.
+- [rust](../skills/frontend/ui-ux/rust/rust/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust. Language-specific super-code guidelines for rust.
 - [saas-mvp-launcher](../skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher/SKILL.md) — Use this skill to design, implement, and operate production workflows for saas mvp launcher. Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.
 - [scanpy](../skills/frontend/ui-ux/scanpy/scanpy/SKILL.md) — Use this skill to design, implement, and operate production workflows for scanpy. Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualizati...
 - [scroll-experience](../skills/frontend/ui-ux/scroll_experience/scroll-experience/SKILL.md) — Use this skill to design, implement, and operate production workflows for scroll experience. Expert in building immersive scroll-driven experiences - parallax
@@ -12637,8 +12639,9 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [runbook-creation](../skills/security/appsec/runbook_creation/runbook-creation/SKILL.md) — Use this skill to design, implement, and operate production workflows for runbook creation. Create operational runbooks and standard operating procedures. Document
 
-## Rust (2 skills)
+## Rust (3 skills)
 
+- [rust](../skills/frontend/ui-ux/rust/rust/SKILL.md) — Use this skill to design, implement, and operate production workflows for rust. Language-specific super-code guidelines for rust.
 - [rust-memory-safety-and-lifetimes](../skills/programming-languages/rust/memory-safety/rust-memory-safety-and-lifetimes/SKILL.md) — Use this skill when designing, writing, and refactoring Rust code to navigate the borrow checker, manage explicit lifetimes ('a), prevent allocations through zero-copy borrowing, handle interior mutability (RefCell/Mutex), and structure safe concurrency without data races.
 - [code-simplification](../skills/software-engineering/refactoring/simplification/code-simplification/SKILL.md) — Use this skill when simplifying convoluted code, eliminating accidental complexity, unwinding deeply nested conditionals, and removing speculative abstractions. It guides the agent through guard clauses, cyclomatic complexity reduction, dead code pruning, and establishing transparent data flow.
 

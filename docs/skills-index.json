@@ -33345,6 +33345,28 @@
     "maturity": "stable"
   },
   {
+    "name": "rust",
+    "path": "skills/frontend/ui-ux/rust/rust",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "rust",
+    "description": "Use this skill to design, implement, and operate production workflows for rust. Language-specific super-code guidelines for rust.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "rust",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Rust",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "saas-mvp-launcher",
     "path": "skills/frontend/ui-ux/saas_mvp_launcher/saas-mvp-launcher",
     "domain": "frontend",
