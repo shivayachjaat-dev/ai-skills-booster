@@ -1,6 +1,6 @@
 # Category Index: Api Frameworks
 
-> **40 skills** available in this category.
+> **41 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -44,3 +44,4 @@
 | [openapi-spec-generator](../../skills/backend/api-frameworks/openapi_spec_generat/openapi-spec-generator/SKILL.md) | `openapi_spec_generat` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for openapi spec generator. Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs. |
 | [performance-optimizer](../../skills/backend/api-frameworks/performance_optimize/performance-optimizer/SKILL.md) | `performance_optimize` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for performance optimizer. Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements. |
 | [postman-collection-generator](../../skills/backend/api-frameworks/postman_collection_g/postman-collection-generator/SKILL.md) | `postman_collection_g` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postman collection generator. Generate complete, import-ready Postman Collection v2.1 JSON files from natural language API descriptions or cURL commands. |
+| [postman-openapi-converter](../../skills/backend/api-frameworks/postman_openapi_conv/postman-openapi-converter/SKILL.md) | `postman_openapi_conv` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for postman openapi converter. Convert OpenAPI 3.x or Swagger 2.0 specs (YAML or JSON) into complete, import-ready Postman Collection v2.1 JSON files. |

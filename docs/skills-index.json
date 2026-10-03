@@ -14682,6 +14682,28 @@
     "maturity": "stable"
   },
   {
+    "name": "postman-openapi-converter",
+    "path": "skills/backend/api-frameworks/postman_openapi_conv/postman-openapi-converter",
+    "domain": "backend",
+    "category": "api-frameworks",
+    "subcategory": "postman_openapi_conv",
+    "description": "Use this skill to design, implement, and operate production workflows for postman openapi converter. Convert OpenAPI 3.x or Swagger 2.0 specs (YAML or JSON) into complete, import-ready Postman Collection v2.1 JSON files.",
+    "tags": [
+      "backend",
+      "api-frameworks",
+      "postman",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Postman Openapi Converter",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "celery-distributed-task-processing",
     "path": "skills/backend/background-tasks/celery/celery-distributed-task-processing",
     "domain": "backend",
