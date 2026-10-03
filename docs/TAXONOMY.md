@@ -629,6 +629,7 @@ AI_Skills_Booster/
 │   │   ├── nfs_storage/ (1 skills)
 │   │   ├── object_storage/ (1 skills)
 │   │   ├── odoo_backup_strategy/ (1 skills)
+│   │   ├── public_relations/ (1 skills)
 │   │   └── soroban_contract_aud/ (1 skills)
 │   ├── synthetic-data/
 │   │   └── synth-data-pipeline/ (1 skills)

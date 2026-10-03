@@ -13842,6 +13842,28 @@
     "maturity": "stable"
   },
   {
+    "name": "public-relations",
+    "path": "skills/ai-engineering/rag/public_relations/public-relations",
+    "domain": "ai-engineering",
+    "category": "rag",
+    "subcategory": "public_relations",
+    "description": "Use this skill to design, implement, and operate production workflows for public relations. When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests).",
+    "tags": [
+      "ai-engineering",
+      "rag",
+      "public",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Public Relations",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "soroban-contract-audit",
     "path": "skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit",
     "domain": "ai-engineering",

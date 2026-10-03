@@ -1,6 +1,6 @@
 # Category Index: Rag
 
-> **35 skills** available in this category.
+> **36 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -38,4 +38,5 @@
 | [nfs-storage](../../skills/ai-engineering/rag/nfs_storage/nfs-storage/SKILL.md) | `nfs_storage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for nfs storage. Configure NFS servers and clients. Implement network file sharing for |
 | [object-storage](../../skills/ai-engineering/rag/object_storage/object-storage/SKILL.md) | `object_storage` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for object storage. Configure object storage with S3, GCS, and MinIO. Implement lifecycle |
 | [odoo-backup-strategy](../../skills/ai-engineering/rag/odoo_backup_strategy/odoo-backup-strategy/SKILL.md) | `odoo_backup_strategy` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for odoo backup strategy. Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling, cloud storage upload, and tested restore procedures. |
+| [public-relations](../../skills/ai-engineering/rag/public_relations/public-relations/SKILL.md) | `public_relations` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for public relations. When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). |
 | [soroban-contract-audit](../../skills/ai-engineering/rag/soroban_contract_aud/soroban-contract-audit/SKILL.md) | `soroban_contract_aud` | `advanced` | `stable` | Use this skill to soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar. |
