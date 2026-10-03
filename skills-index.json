@@ -48563,6 +48563,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tdd-workflow",
+    "path": "skills/testing/automation/tdd_workflow/tdd-workflow",
+    "domain": "testing",
+    "category": "automation",
+    "subcategory": "tdd_workflow",
+    "description": "Use this skill to design, implement, and operate production workflows for tdd workflow. Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
+    "tags": [
+      "testing",
+      "automation",
+      "tdd",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tdd Workflow",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "cypress-component-testing",
     "path": "skills/testing/component/cypress/cypress-component-testing",
     "domain": "testing",

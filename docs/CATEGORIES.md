@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,183** skills across structured domains, categories, and subcategories.
+Master navigation for **2,184** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (738 skills)
 
@@ -4637,7 +4637,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Circuit Breaker** (1):
   - [microservices-resilience-circuit-breaker](../skills/software-engineering/resilience/circuit-breaker/microservices-resilience-circuit-breaker/SKILL.md) — Use this skill when designing, implementing, and tuning resilience patterns for distributed microservices. It guides the agent through Circuit Breaker state machines (Closed, Open, Half-Open), sliding window error rate calculation, exponential backoff with full jitter, bulkheads, fallback degradation, and health check probe integration.
 
-## Testing (32 skills)
+## Testing (33 skills)
 
 ### Acceptance Testing (1 skills)
 Category index: [`docs/categories/acceptance-testing.md`](categories/acceptance-testing.md)
@@ -4657,7 +4657,7 @@ Category index: [`docs/categories/api-mocking.md`](categories/api-mocking.md)
 - **Prism Wiremock** (1):
   - [wiremock-and-prism-api-mocking-and-contract-testing](../skills/testing/api-mocking/prism-wiremock/wiremock-and-prism-api-mocking-and-contract-testing/SKILL.md) — Use this skill to establish high-fidelity API mocking and contract testing environments using Prism and WireMock. It covers OpenAPI contract validation, dynamic scenario state machines, latency simulation, randomized schema fuzzing, and consumer-driven contract verification.
 
-### Automation (25 skills)
+### Automation (26 skills)
 Category index: [`docs/categories/automation.md`](categories/automation.md)
 
 - **Bash_Scripting** (1):
@@ -4710,6 +4710,8 @@ Category index: [`docs/categories/automation.md`](categories/automation.md)
   - [semgrep-rule-variant-creator](../skills/testing/automation/semgrep_rule_variant/semgrep-rule-variant-creator/SKILL.md) — Use this skill to design, implement, and operate production workflows for semgrep rule variant creator. Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.
 - **Systems_Programming_** (1):
   - [systems-programming-rust-project](../skills/testing/automation/systems_programming_/systems-programming-rust-project/SKILL.md) — Use this skill to design, implement, and operate production workflows for systems programming rust project. You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate complete project structures with cargo tooling, proper module organization, testing
+- **Tdd_Workflow** (1):
+  - [tdd-workflow](../skills/testing/automation/tdd_workflow/tdd-workflow/SKILL.md) — Use this skill to design, implement, and operate production workflows for tdd workflow. Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.
 
 ### Component (1 skills)
 Category index: [`docs/categories/component.md`](categories/component.md)
