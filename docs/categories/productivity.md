@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **42 skills** available in this category.
+> **43 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -46,3 +46,4 @@
 | [senior-architect](../../skills/developer-tools/productivity/senior_architect/senior-architect/SKILL.md) | `senior_architect` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for senior architect. Complete toolkit for senior architect with modern tools and best practices. |
 | [senior-fullstack](../../skills/developer-tools/productivity/senior_fullstack/senior-fullstack/SKILL.md) | `senior_fullstack` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for senior fullstack. Complete toolkit for senior fullstack with modern tools and best practices. |
 | [sentry-automation](../../skills/developer-tools/productivity/sentry_automation/sentry-automation/SKILL.md) | `sentry_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sentry automation. Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas. |
+| [serply-search-mcp](../../skills/developer-tools/productivity/serply_search_mcp/serply-search-mcp/SKILL.md) | `serply_search_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for serply search mcp. Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the user chooses Serply or its connected tools for current information and source verification. |

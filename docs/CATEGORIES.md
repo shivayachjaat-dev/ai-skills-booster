@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,029** skills across structured domains, categories, and subcategories.
+Master navigation for **2,030** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (689 skills)
 
@@ -2167,7 +2167,7 @@ Category index: [`docs/categories/frameworks.md`](categories/frameworks.md)
 - **Codex_Profiles** (1):
   - [codex-profiles](../skills/desktop/frameworks/codex_profiles/codex-profiles/SKILL.md) — Use this skill to use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
 
-## Developer Tools (58 skills)
+## Developer Tools (59 skills)
 
 ### Cli (1 skills)
 Category index: [`docs/categories/cli.md`](categories/cli.md)
@@ -2205,7 +2205,7 @@ Category index: [`docs/categories/cli-utilities.md`](categories/cli-utilities.md
 - **Satori** (1):
   - [satori](../skills/developer-tools/cli-utilities/satori/satori/SKILL.md) — Use this skill to design, implement, and operate production workflows for satori. Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner
 
-### Productivity (42 skills)
+### Productivity (43 skills)
 Category index: [`docs/categories/productivity.md`](categories/productivity.md)
 
 - **Asana_Automation** (1):
@@ -2292,6 +2292,8 @@ Category index: [`docs/categories/productivity.md`](categories/productivity.md)
   - [senior-fullstack](../skills/developer-tools/productivity/senior_fullstack/senior-fullstack/SKILL.md) — Use this skill to design, implement, and operate production workflows for senior fullstack. Complete toolkit for senior fullstack with modern tools and best practices.
 - **Sentry_Automation** (1):
   - [sentry-automation](../skills/developer-tools/productivity/sentry_automation/sentry-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for sentry automation. Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.
+- **Serply_Search_Mcp** (1):
+  - [serply-search-mcp](../skills/developer-tools/productivity/serply_search_mcp/serply-search-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for serply search mcp. Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the user chooses Serply or its connected tools for current information and source verification.
 
 ### Repository Specs (1 skills)
 Category index: [`docs/categories/repository-specs.md`](categories/repository-specs.md)

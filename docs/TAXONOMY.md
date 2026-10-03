@@ -1066,7 +1066,8 @@ AI_Skills_Booster/
 │   │   ├── segment_automation/ (1 skills)
 │   │   ├── senior_architect/ (1 skills)
 │   │   ├── senior_fullstack/ (1 skills)
-│   │   └── sentry_automation/ (1 skills)
+│   │   ├── sentry_automation/ (1 skills)
+│   │   └── serply_search_mcp/ (1 skills)
 │   ├── repository-specs/
 │   │   └── agents-md/ (1 skills)
 │   └── sdk-generation/
