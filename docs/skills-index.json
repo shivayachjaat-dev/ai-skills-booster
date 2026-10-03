@@ -42991,6 +42991,28 @@
     "maturity": "stable"
   },
   {
+    "name": "scarcity-urgency-psychologist",
+    "path": "skills/software-engineering/architecture/patterns/scarcity-urgency-psychologist",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for scarcity urgency psychologist. One sentence - what this skill does and when to invoke it",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "scarcity",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Scarcity Urgency Psychologist",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "tech-matrix",
     "path": "skills/software-engineering/architecture/patterns/tech-matrix",
     "domain": "software-engineering",

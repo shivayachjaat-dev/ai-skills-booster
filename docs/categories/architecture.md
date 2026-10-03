@@ -1,6 +1,6 @@
 # Category Index: Architecture
 
-> **253 skills** available in this category.
+> **254 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -256,4 +256,5 @@
 | [sales-enablement](../../skills/software-engineering/architecture/patterns/sales-enablement/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sales enablement. Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that help reps move deals forward and close. |
 | [salesforce-development](../../skills/software-engineering/architecture/patterns/salesforce-development/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for salesforce development. Expert patterns for Salesforce platform development including |
 | [scale-benchmarks](../../skills/software-engineering/architecture/patterns/scale-benchmarks/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scale benchmarks. Reference document for monopoly scale-benchmarks. |
+| [scarcity-urgency-psychologist](../../skills/software-engineering/architecture/patterns/scarcity-urgency-psychologist/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for scarcity urgency psychologist. One sentence - what this skill does and when to invoke it |
 | [tech-matrix](../../skills/software-engineering/architecture/patterns/tech-matrix/SKILL.md) | `patterns` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for tech matrix. Reference document for monopoly tech-matrix. |
