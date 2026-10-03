@@ -1,6 +1,6 @@
 # Category Index: Operations
 
-> **48 skills** available in this category.
+> **49 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -52,3 +52,4 @@
 | [stakeholder-investor-reports](../../skills/business/operations/stakeholder_investor/stakeholder-investor-reports/SKILL.md) | `stakeholder_investor` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for stakeholder investor reports. Stakeholder report register: stakeholder, period, key metrics, preparer, approver, send date and report link. Use for investor and board reporting. |
 | [startup-analyst](../../skills/business/operations/startup_analyst/startup-analyst/SKILL.md) | `startup_analyst` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup analyst. Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies. |
 | [startup-business-analyst-business-case](../../skills/business/operations/startup_business_ana/startup-business-analyst-business-case/SKILL.md) | `startup_business_ana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup business analyst business case. Generate comprehensive investor-ready business case document with |
+| [startup-business-analyst-market-opportunity](../../skills/business/operations/startup_business_ana/startup-business-analyst-market-opportunity/SKILL.md) | `startup_business_ana` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for startup business analyst market opportunity. Generate comprehensive market opportunity analysis with TAM/SAM/SOM |

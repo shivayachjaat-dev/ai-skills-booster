@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **2,114** skills across structured domains, categories, and subcategories.
+Master navigation for **2,115** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (714 skills)
 
@@ -1831,7 +1831,7 @@ Category index: [`docs/categories/resilience.md`](categories/resilience.md)
 - **Rate Limiter Token Bucket** (1):
   - [distributed-rate-limiting-token-bucket](../skills/backend/resilience/rate-limiter-token-bucket/distributed-rate-limiting-token-bucket/SKILL.md) — Use this skill when designing, implementing, and deploying high-performance distributed rate limiters using the Token Bucket and Sliding Window algorithms with Redis and Lua. It guides the agent through atomic Redis Lua script execution, burst handling, tier-based limits (per IP, per API key, per tenant), and standard HTTP 429 response headers (X-RateLimit-* and Retry-After).
 
-## Business (67 skills)
+## Business (68 skills)
 
 ### Finance (1 skills)
 Category index: [`docs/categories/finance.md`](categories/finance.md)
@@ -1887,7 +1887,7 @@ Category index: [`docs/categories/internal-comms.md`](categories/internal-comms.
 - **Announcement Portal** (1):
   - [company-announcement-and-internal-comms-portal](../skills/business/internal-comms/announcement-portal/company-announcement-and-internal-comms-portal/SKILL.md) — Use this skill to design, build, and govern internal company announcement boards, leadership communications, and critical employee notification workflows. It covers priority-based notification tiers (P0 emergency, P1 mandatory, P2 general), read-acknowledgement tracking, department-targeted visibility, and expiration lifecycles.
 
-### Operations (48 skills)
+### Operations (49 skills)
 Category index: [`docs/categories/operations.md`](categories/operations.md)
 
 - **Board_Governance** (1):
@@ -1984,8 +1984,9 @@ Category index: [`docs/categories/operations.md`](categories/operations.md)
   - [stakeholder-investor-reports](../skills/business/operations/stakeholder_investor/stakeholder-investor-reports/SKILL.md) — Use this skill to design, implement, and operate production workflows for stakeholder investor reports. Stakeholder report register: stakeholder, period, key metrics, preparer, approver, send date and report link. Use for investor and board reporting.
 - **Startup_Analyst** (1):
   - [startup-analyst](../skills/business/operations/startup_analyst/startup-analyst/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup analyst. Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies.
-- **Startup_Business_Ana** (1):
+- **Startup_Business_Ana** (2):
   - [startup-business-analyst-business-case](../skills/business/operations/startup_business_ana/startup-business-analyst-business-case/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst business case. Generate comprehensive investor-ready business case document with
+  - [startup-business-analyst-market-opportunity](../skills/business/operations/startup_business_ana/startup-business-analyst-market-opportunity/SKILL.md) — Use this skill to design, implement, and operate production workflows for startup business analyst market opportunity. Generate comprehensive market opportunity analysis with TAM/SAM/SOM
 
 ### Procurement (1 skills)
 Category index: [`docs/categories/procurement.md`](categories/procurement.md)
