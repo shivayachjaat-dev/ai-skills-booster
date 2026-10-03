@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,813** skills across structured domains, categories, and subcategories.
+Master navigation for **1,814** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (621 skills)
+## Ai Engineering (622 skills)
 
 ### Agents (78 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -306,7 +306,7 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 - **Ollama_Stack** (1):
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 
-### Models (451 skills)
+### Models (452 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)
 
 - **Agentfolio** (1):
@@ -1186,6 +1186,8 @@ Category index: [`docs/categories/models.md`](categories/models.md)
   - [product-manager](../skills/ai-engineering/models/product_manager/product-manager/SKILL.md) — Use this skill to design, implement, and operate production workflows for product manager. Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts.
 - **Product_Photo_Studio** (1):
   - [product-photo-studio](../skills/ai-engineering/models/product_photo_studio/product-photo-studio/SKILL.md) — Use this skill to design, implement, and operate production workflows for product photo studio. Install and use the official AI Product Photography package, pinned by digest, for paid hosted work on the Beatra service.
+- **Progressive_Estimati** (1):
+  - [progressive-estimation](../skills/ai-engineering/models/progressive_estimati/progressive-estimation/SKILL.md) — Use this skill to design, implement, and operate production workflows for progressive estimation. Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops
 - **Skill_Audit** (1):
   - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - **Supply_Chain_Risk_Au** (1):

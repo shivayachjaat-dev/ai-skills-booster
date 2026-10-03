@@ -577,6 +577,7 @@ AI_Skills_Booster/
 │   │   ├── product_design/ (1 skills)
 │   │   ├── product_manager/ (1 skills)
 │   │   ├── product_photo_studio/ (1 skills)
+│   │   ├── progressive_estimati/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)

@@ -12689,6 +12689,28 @@
     "maturity": "stable"
   },
   {
+    "name": "progressive-estimation",
+    "path": "skills/ai-engineering/models/progressive_estimati/progressive-estimation",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "progressive_estimati",
+    "description": "Use this skill to design, implement, and operate production workflows for progressive estimation. Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "progressive",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Progressive Estimation",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

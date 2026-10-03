@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1631 skills)
+## Bash (1632 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1623,6 +1623,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [product-design](../skills/ai-engineering/models/product_design/product-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for product design. Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff. Cobre Figma, design systems, tipografia, cor, espacamento, motion design e principios de design cognitivo.
 - [product-manager](../skills/ai-engineering/models/product_manager/product-manager/SKILL.md) — Use this skill to design, implement, and operate production workflows for product manager. Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts.
 - [product-photo-studio](../skills/ai-engineering/models/product_photo_studio/product-photo-studio/SKILL.md) — Use this skill to design, implement, and operate production workflows for product photo studio. Install and use the official AI Product Photography package, pinned by digest, for paid hosted work on the Beatra service.
+- [progressive-estimation](../skills/ai-engineering/models/progressive_estimati/progressive-estimation/SKILL.md) — Use this skill to design, implement, and operate production workflows for progressive estimation. Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -9401,6 +9402,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [programmatic-seo](../skills/data-analytics/data-pipelines/programmatic_seo/programmatic-seo/SKILL.md) — Use this skill to design, implement, and operate production workflows for programmatic seo. Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.
 
+## Progressive Estimation (1 skills)
+
+- [progressive-estimation](../skills/ai-engineering/models/progressive_estimati/progressive-estimation/SKILL.md) — Use this skill to design, implement, and operate production workflows for progressive estimation. Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops
+
 ## Project Skill Audit (1 skills)
 
 - [project-skill-audit](../skills/security/compliance/project_skill_audit/project-skill-audit/SKILL.md) — Use this skill to audit a project and recommend the highest-value skills to add or update.
@@ -9482,7 +9487,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1734 skills)
+## Python (1735 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10053,6 +10058,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [product-design](../skills/ai-engineering/models/product_design/product-design/SKILL.md) — Use this skill to design, implement, and operate production workflows for product design. Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff. Cobre Figma, design systems, tipografia, cor, espacamento, motion design e principios de design cognitivo.
 - [product-manager](../skills/ai-engineering/models/product_manager/product-manager/SKILL.md) — Use this skill to design, implement, and operate production workflows for product manager. Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts.
 - [product-photo-studio](../skills/ai-engineering/models/product_photo_studio/product-photo-studio/SKILL.md) — Use this skill to design, implement, and operate production workflows for product photo studio. Install and use the official AI Product Photography package, pinned by digest, for paid hosted work on the Beatra service.
+- [progressive-estimation](../skills/ai-engineering/models/progressive_estimati/progressive-estimation/SKILL.md) — Use this skill to design, implement, and operate production workflows for progressive estimation. Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
