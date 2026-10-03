@@ -673,6 +673,7 @@ AI_Skills_Booster/
 │   │   ├── survey_generator/ (1 skills)
 │   │   ├── system_prompt_lookup/ (1 skills)
 │   │   ├── systematic_debugging/ (1 skills)
+│   │   ├── tailwind_design_syst/ (1 skills)
 │   │   ├── templates/ (1 skills)
 │   │   ├── typography_first/ (1 skills)
 │   │   ├── vibe_code_auditor/ (1 skills)

@@ -14823,6 +14823,28 @@
     "maturity": "stable"
   },
   {
+    "name": "tailwind-design-system",
+    "path": "skills/ai-engineering/models/tailwind_design_syst/tailwind-design-system",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "tailwind_design_syst",
+    "description": "Use this skill to design, implement, and operate production workflows for tailwind design system. Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "tailwind",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Tailwind Design System",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "templates",
     "path": "skills/ai-engineering/models/templates/templates",
     "domain": "ai-engineering",
