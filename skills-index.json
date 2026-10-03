@@ -22587,6 +22587,28 @@
     "maturity": "stable"
   },
   {
+    "name": "skill-porter",
+    "path": "skills/developer-tools/productivity/skill_porter/skill-porter",
+    "domain": "developer-tools",
+    "category": "productivity",
+    "subcategory": "skill_porter",
+    "description": "Use this skill to design, implement, and operate production workflows for skill porter. Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity.",
+    "tags": [
+      "developer-tools",
+      "productivity",
+      "skill",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Skill Porter",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agents-md-repository-context-specification",
     "path": "skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification",
     "domain": "developer-tools",

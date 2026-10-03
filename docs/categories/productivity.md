@@ -1,6 +1,6 @@
 # Category Index: Productivity
 
-> **44 skills** available in this category.
+> **45 skills** available in this category.
 
 | Skill | Subcategory | Complexity | Maturity | Description |
 |---|---|---|---|---|
@@ -48,3 +48,4 @@
 | [sentry-automation](../../skills/developer-tools/productivity/sentry_automation/sentry-automation/SKILL.md) | `sentry_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for sentry automation. Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas. |
 | [serply-search-mcp](../../skills/developer-tools/productivity/serply_search_mcp/serply-search-mcp/SKILL.md) | `serply_search_mcp` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for serply search mcp. Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the user chooses Serply or its connected tools for current information and source verification. |
 | [shopify-automation](../../skills/developer-tools/productivity/shopify_automation/shopify-automation/SKILL.md) | `shopify_automation` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for shopify automation. Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas. |
+| [skill-porter](../../skills/developer-tools/productivity/skill_porter/skill-porter/SKILL.md) | `skill_porter` | `advanced` | `stable` | Use this skill to design, implement, and operate production workflows for skill porter. Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity. |

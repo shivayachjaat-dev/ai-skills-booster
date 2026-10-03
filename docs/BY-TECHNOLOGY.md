@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1875 skills)
+## Bash (1876 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2018,6 +2018,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [sentry-automation](../skills/developer-tools/productivity/sentry_automation/sentry-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for sentry automation. Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.
 - [serply-search-mcp](../skills/developer-tools/productivity/serply_search_mcp/serply-search-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for serply search mcp. Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the user chooses Serply or its connected tools for current information and source verification.
 - [shopify-automation](../skills/developer-tools/productivity/shopify_automation/shopify-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for shopify automation. Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.
+- [skill-porter](../skills/developer-tools/productivity/skill_porter/skill-porter/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill porter. Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,
 - [aws-s3](../skills/devops/ci-cd/aws_s3/aws-s3/SKILL.md) — Use this skill to configure S3 buckets, policies, and lifecycle rules. Implement versioning,
 - [aws-vpc](../skills/devops/ci-cd/aws_vpc/aws-vpc/SKILL.md) — Use this skill to design and implement VPCs and networking. Configure subnets, route tables,
@@ -9855,7 +9856,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1978 skills)
+## Python (1979 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10849,6 +10850,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [sentry-automation](../skills/developer-tools/productivity/sentry_automation/sentry-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for sentry automation. Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.
 - [serply-search-mcp](../skills/developer-tools/productivity/serply_search_mcp/serply-search-mcp/SKILL.md) — Use this skill to design, implement, and operate production workflows for serply search mcp. Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the user chooses Serply or its connected tools for current information and source verification.
 - [shopify-automation](../skills/developer-tools/productivity/shopify_automation/shopify-automation/SKILL.md) — Use this skill to design, implement, and operate production workflows for shopify automation. Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.
+- [skill-porter](../skills/developer-tools/productivity/skill_porter/skill-porter/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill porter. Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity.
 - [agents-md-repository-context-specification](../skills/developer-tools/repository-specs/agents-md/agents-md-repository-context-specification/SKILL.md) — Use this skill to inspect, generate, audit, and maintain standardized AGENTS.md and CLAUDE.md repository guideline files. It codifies verified build commands, testing instructions, architectural boundaries, code styling rules, and security guardrails for AI coding assistants.
 - [multi-language-api-sdk-code-generator](../skills/developer-tools/sdk-generation/openapi-generator/multi-language-api-sdk-code-generator/SKILL.md) — Use this skill to design and automate multi-language client SDK generation (TypeScript, Python, Go, Java) from OpenAPI 3.1 specifications using OpenAPI Generator and fern. It enforces typed error classes, automated retry middleware, telemetry hooks, and semantic versioning.
 - [aws-cost-optimization](../skills/devops/ci-cd/aws_cost_optimizatio/aws-cost-optimization/SKILL.md) — Use this skill to reduce AWS spend with rightsizing, autoscaling, commitment planning,
@@ -13066,6 +13068,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Skill Installer (1 skills)
 
 - [skill-installer](../skills/software-engineering/architecture/patterns/skill-installer/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill installer. Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao.
+
+## Skill Porter (1 skills)
+
+- [skill-porter](../skills/developer-tools/productivity/skill_porter/skill-porter/SKILL.md) — Use this skill to design, implement, and operate production workflows for skill porter. Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity.
 
 ## Skill Security Audit (1 skills)
 
