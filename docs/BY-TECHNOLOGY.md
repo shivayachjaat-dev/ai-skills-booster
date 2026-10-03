@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1658 skills)
+## Bash (1659 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1633,6 +1633,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [projects-work-management](../skills/ai-engineering/models/projects_work_manage/projects-work-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for projects work management. Project register: owner, team, priority, progress percentage, milestones, deliverables and budget against actual cost. Use for project tracking.
 - [prompt-engineer](../skills/ai-engineering/models/prompt_engineer/prompt-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineer. Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)
 - [pydantic-ai](../skills/ai-engineering/models/pydantic_ai/pydantic-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for pydantic ai. Build production-ready AI agents with PydanticAI — type-safe tool use, structured outputs, dependency injection, and multi-model support.
+- [pypict-skill](../skills/ai-engineering/models/pypict_skill/pypict-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pypict skill. Pairwise test generation
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -9610,11 +9611,15 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [fastapi-high-performance-endpoint-builder](../skills/backend/api-frameworks/fastapi-endpoints/fastapi-high-performance-endpoint-builder/SKILL.md) — Use this skill to design, implement, and benchmark high-performance, asynchronous REST API endpoints using FastAPI and Pydantic v2. It covers typed dependency injection, async database connection pools, custom exception handlers, response caching, and OpenAPI documentation.
 - [fastapi-async-api-design](../skills/backend/fastapi/async-architecture/fastapi-async-api-design/SKILL.md) — Use this skill when building high-performance, asynchronous REST APIs with FastAPI, Pydantic v2, and async database drivers. It guides the agent through dependency injection patterns, async/await event loop blocking prevention, structured error handlers, lifespan context managers, and OpenAPI schema generation.
 
+## Pypict Skill (1 skills)
+
+- [pypict-skill](../skills/ai-engineering/models/pypict_skill/pypict-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pypict skill. Pairwise test generation
+
 ## Pytest (1 skills)
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1761 skills)
+## Python (1762 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10195,6 +10200,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [projects-work-management](../skills/ai-engineering/models/projects_work_manage/projects-work-management/SKILL.md) — Use this skill to design, implement, and operate production workflows for projects work management. Project register: owner, team, priority, progress percentage, milestones, deliverables and budget against actual cost. Use for project tracking.
 - [prompt-engineer](../skills/ai-engineering/models/prompt_engineer/prompt-engineer/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineer. Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)
 - [pydantic-ai](../skills/ai-engineering/models/pydantic_ai/pydantic-ai/SKILL.md) — Use this skill to design, implement, and operate production workflows for pydantic ai. Build production-ready AI agents with PydanticAI — type-safe tool use, structured outputs, dependency injection, and multi-model support.
+- [pypict-skill](../skills/ai-engineering/models/pypict_skill/pypict-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pypict skill. Pairwise test generation
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
