@@ -12051,6 +12051,28 @@
     "maturity": "stable"
   },
   {
+    "name": "payment-accounting",
+    "path": "skills/ai-engineering/models/payment_accounting/payment-accounting",
+    "domain": "ai-engineering",
+    "category": "models",
+    "subcategory": "payment_accounting",
+    "description": "Use this skill to design, implement, and operate production workflows for payment accounting. Payment voucher register: payment number and date, paid to and purpose, mode, gross amount, TDS rate and deducted, net paid, invoice allocation, ledger and reconciliation status. Use for vouchers.",
+    "tags": [
+      "ai-engineering",
+      "models",
+      "payment",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Payment Accounting",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "skill-audit",
     "path": "skills/ai-engineering/models/skill_audit/skill-audit",
     "domain": "ai-engineering",

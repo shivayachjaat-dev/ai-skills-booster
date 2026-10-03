@@ -548,6 +548,7 @@ AI_Skills_Booster/
 │   │   ├── papers_skill/ (1 skills)
 │   │   ├── parallel_agents/ (1 skills)
 │   │   ├── party_ledger_reconci/ (1 skills)
+│   │   ├── payment_accounting/ (1 skills)
 │   │   ├── skill_audit/ (1 skills)
 │   │   ├── supply_chain_risk_au/ (1 skills)
 │   │   ├── templates/ (1 skills)
