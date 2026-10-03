@@ -1752,7 +1752,8 @@ AI_Skills_Booster/
 │   │   ├── sast_scanning/ (1 skills)
 │   │   ├── security_arsenal/ (1 skills)
 │   │   ├── security_auditor/ (1 skills)
-│   │   └── security_checklist/ (1 skills)
+│   │   ├── security_checklist/ (1 skills)
+│   │   └── security_scanning_se/ (1 skills)
 │   ├── architecture/
 │   │   └── zero-trust/ (1 skills)
 │   ├── authentication/
