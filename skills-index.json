@@ -27405,6 +27405,28 @@
     "maturity": "stable"
   },
   {
+    "name": "personal-tool-builder",
+    "path": "skills/frontend/ui-ux/personal_tool_builde/personal-tool-builder",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "personal_tool_builde",
+    "description": "Use this skill to design, implement, and operate production workflows for personal tool builder. Expert in building custom tools that solve your own problems first.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "personal",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Personal Tool Builder",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",

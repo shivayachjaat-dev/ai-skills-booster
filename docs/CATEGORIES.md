@@ -1,6 +1,6 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,740** skills across structured domains, categories, and subcategories.
+Master navigation for **1,741** skills across structured domains, categories, and subcategories.
 
 ## Ai Engineering (601 skills)
 
@@ -2289,7 +2289,7 @@ Category index: [`docs/categories/firmware.md`](categories/firmware.md)
 - **Eas_Update_Insights** (1):
   - [eas-update-insights](../skills/embedded/firmware/eas_update_insights/eas-update-insights/SKILL.md) — Use this skill to design, implement, and operate production workflows for eas update insights. Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel.
 
-## Frontend (344 skills)
+## Frontend (345 skills)
 
 ### 3D Graphics (1 skills)
 Category index: [`docs/categories/3d-graphics.md`](categories/3d-graphics.md)
@@ -2455,7 +2455,7 @@ Category index: [`docs/categories/ui-development.md`](categories/ui-development.
 - **Markstream_Vue2_Vite** (1):
   - [markstream-vue2-vite](../skills/frontend/ui-development/markstream_vue2_vite/markstream-vue2-vite/SKILL.md) — Use this skill to design, implement, and operate production workflows for markstream vue2 vite. Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
 
-### Ui Ux (205 skills)
+### Ui Ux (206 skills)
 Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
 
 - **Anti_Sleep** (1):
@@ -2862,6 +2862,8 @@ Category index: [`docs/categories/ui-ux.md`](categories/ui-ux.md)
   - [onboarding-playbook](../skills/frontend/ui-ux/onboarding_playbook/onboarding-playbook/SKILL.md) — Use this skill to design, implement, and operate production workflows for onboarding playbook. Onboarding checklist: step, phase and order, department, owner, linked SOP and required flag. Use for joiner onboarding.
 - **Pci_Dss_Compliance** (1):
   - [pci-dss-compliance](../skills/frontend/ui-ux/pci_dss_compliance/pci-dss-compliance/SKILL.md) — Use this skill to design, implement, and operate production workflows for pci dss compliance. Implement PCI DSS requirements for payment card data. Configure cardholder
+- **Personal_Tool_Builde** (1):
+  - [personal-tool-builder](../skills/frontend/ui-ux/personal_tool_builde/personal-tool-builder/SKILL.md) — Use this skill to design, implement, and operate production workflows for personal tool builder. Expert in building custom tools that solve your own problems first.
 - **Seo_Content_Auditor** (1):
   - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - **Swiftui_Performance_** (1):
