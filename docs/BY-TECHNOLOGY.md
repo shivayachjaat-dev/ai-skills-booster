@@ -1073,7 +1073,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1649 skills)
+## Bash (1650 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -2251,6 +2251,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [product-inventor](../skills/frontend/ui-ux/product_inventor/product-inventor/SKILL.md) — Use this skill to design, implement, and operate production workflows for product inventor. Product Inventor e Design Alchemist de nivel maximo — combina Product Thinking, Design Systems, UI Engineering, Psicologia Cognitiva, Storytelling e execucao impecavel nivel Jobs/Apple.
 - [projection-patterns](../skills/frontend/ui-ux/projection_patterns/projection-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for projection patterns. Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems.
 - [prometheus-configuration](../skills/frontend/ui-ux/prometheus_configura/prometheus-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for prometheus configuration. Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules.
+- [prototype](../skills/frontend/ui-ux/prototype/prototype/SKILL.md) — Use this skill to design, implement, and operate production workflows for prototype. Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.
@@ -9523,6 +9524,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [protocol-reverse-engineering](../skills/security/appsec/protocol_reverse_eng/protocol-reverse-engineering/SKILL.md) — Use this skill to design, implement, and operate production workflows for protocol reverse engineering. Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.
 
+## Prototype (1 skills)
+
+- [prototype](../skills/frontend/ui-ux/prototype/prototype/SKILL.md) — Use this skill to design, implement, and operate production workflows for prototype. Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.
+
 ## PyAnnote (1 skills)
 
 - [whisper-speech-to-text-and-diarization-pipeline](../skills/ai-engineering/audio-processing/speech-recognition/whisper-speech-to-text-and-diarization-pipeline/SKILL.md) — Use this skill to build end-to-end automated speech recognition (ASR) and speaker diarization pipelines using OpenAI Whisper and PyAnnote. It covers CTranslate2 (faster-whisper) acceleration, Silero Voice Activity Detection (VAD) audio chunking, multi-speaker clustering, precise timestamp word alignment, and structured Markdown, SRT, and JSON transcript generation.
@@ -9569,7 +9574,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [ai-agent-benchmark-evaluation](../skills/ai-engineering/agents/benchmarking/ai-agent-benchmark-evaluation/SKILL.md) — Use this skill when evaluating, benchmarking, and grading autonomous AI agents across multi-step execution tasks. It guides the agent through establishing reproducible mock environments, measuring task completion rates, analyzing tool calling trajectory efficiency, computing hallucination indices, and detecting regression degradation across model releases.
 
-## Python (1752 skills)
+## Python (1753 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10814,6 +10819,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [product-inventor](../skills/frontend/ui-ux/product_inventor/product-inventor/SKILL.md) — Use this skill to design, implement, and operate production workflows for product inventor. Product Inventor e Design Alchemist de nivel maximo — combina Product Thinking, Design Systems, UI Engineering, Psicologia Cognitiva, Storytelling e execucao impecavel nivel Jobs/Apple.
 - [projection-patterns](../skills/frontend/ui-ux/projection_patterns/projection-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for projection patterns. Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems.
 - [prometheus-configuration](../skills/frontend/ui-ux/prometheus_configura/prometheus-configuration/SKILL.md) — Use this skill to design, implement, and operate production workflows for prometheus configuration. Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules.
+- [prototype](../skills/frontend/ui-ux/prototype/prototype/SKILL.md) — Use this skill to design, implement, and operate production workflows for prototype. Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.
 - [seo-content-auditor](../skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor/SKILL.md) — Use this skill to analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
 - [swiftui-performance-audit](../skills/frontend/ui-ux/swiftui_performance_/swiftui-performance-audit/SKILL.md) — Use this skill to audit SwiftUI performance issues from code review and profiling evidence.
 - [vr-ar](../skills/frontend/ui-ux/vr_ar/vr-ar/SKILL.md) — Use this skill to design, implement, and operate production workflows for vr ar. VR/AR development principles. Comfort, interaction, performance requirements.

@@ -28879,6 +28879,28 @@
     "maturity": "stable"
   },
   {
+    "name": "prototype",
+    "path": "skills/frontend/ui-ux/prototype/prototype",
+    "domain": "frontend",
+    "category": "ui-ux",
+    "subcategory": "prototype",
+    "description": "Use this skill to design, implement, and operate production workflows for prototype. Build a throwaway prototype to flesh out a design \u2014 a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.",
+    "tags": [
+      "frontend",
+      "ui-ux",
+      "prototype",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Prototype",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "seo-content-auditor",
     "path": "skills/frontend/ui-ux/seo_content_auditor/seo-content-auditor",
     "domain": "frontend",
