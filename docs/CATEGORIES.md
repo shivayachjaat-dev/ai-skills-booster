@@ -1,8 +1,8 @@
 # Skill Categories & Directory Map
 
-Master navigation for **1,826** skills across structured domains, categories, and subcategories.
+Master navigation for **1,827** skills across structured domains, categories, and subcategories.
 
-## Ai Engineering (628 skills)
+## Ai Engineering (629 skills)
 
 ### Agents (80 skills)
 Category index: [`docs/categories/agents.md`](categories/agents.md)
@@ -260,7 +260,7 @@ Category index: [`docs/categories/inference-optimization.md`](categories/inferen
 - **Vllm** (1):
   - [vllm-high-throughput-inference-serving](../skills/ai-engineering/inference-optimization/vllm/vllm-high-throughput-inference-serving/SKILL.md) — Use this skill when architecting, configuring, and deploying high-throughput LLM serving infrastructure using vLLM. It guides the agent through PagedAttention memory management, continuous dynamic batching, tensor parallelism for multi-GPU distribution, prefix caching for long prompts, and hosting OpenAI-compatible API servers.
 
-### Llm Ops (24 skills)
+### Llm Ops (25 skills)
 Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
 
 - **Andrej_Karpathy** (1):
@@ -311,6 +311,8 @@ Category index: [`docs/categories/llm-ops.md`](categories/llm-ops.md)
   - [ollama-stack](../skills/ai-engineering/llm-ops/ollama_stack/ollama-stack/SKILL.md) — Use this skill to design, implement, and operate production workflows for ollama stack. Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning
 - **Prompt_Caching** (1):
   - [prompt-caching](../skills/ai-engineering/llm-ops/prompt_caching/prompt-caching/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt caching. Caching strategies for LLM prompts including Anthropic prompt
+- **Prompt_Engineering_P** (1):
+  - [prompt-engineering-patterns](../skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns/SKILL.md) — Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
 ### Models (455 skills)
 Category index: [`docs/categories/models.md`](categories/models.md)

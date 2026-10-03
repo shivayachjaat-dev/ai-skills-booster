@@ -2987,6 +2987,28 @@
     "maturity": "stable"
   },
   {
+    "name": "prompt-engineering-patterns",
+    "path": "skills/ai-engineering/llm-ops/prompt_engineering_p/prompt-engineering-patterns",
+    "domain": "ai-engineering",
+    "category": "llm-ops",
+    "subcategory": "prompt_engineering_p",
+    "description": "Use this skill to design, implement, and operate production workflows for prompt engineering patterns. Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.",
+    "tags": [
+      "ai-engineering",
+      "llm-ops",
+      "prompt",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Prompt Engineering Patterns",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "agentfolio",
     "path": "skills/ai-engineering/models/agentfolio/agentfolio",
     "domain": "ai-engineering",

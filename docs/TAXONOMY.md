@@ -145,7 +145,8 @@ AI_Skills_Booster/
 │   │   ├── multi_tenant_llm_hos/ (1 skills)
 │   │   ├── odoo_ecommerce_confi/ (1 skills)
 │   │   ├── ollama_stack/ (1 skills)
-│   │   └── prompt_caching/ (1 skills)
+│   │   ├── prompt_caching/ (1 skills)
+│   │   └── prompt_engineering_p/ (1 skills)
 │   ├── models/
 │   │   ├── agentfolio/ (1 skills)
 │   │   ├── ai_agent_development/ (1 skills)
