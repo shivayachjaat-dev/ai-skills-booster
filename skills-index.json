@@ -42111,6 +42111,28 @@
     "maturity": "stable"
   },
   {
+    "name": "review-and-simplify-changes",
+    "path": "skills/software-engineering/architecture/patterns/review-and-simplify-changes",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for review and simplify changes. Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then optionally apply safe Codex-driven fixes.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "review",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Review And Simplify Changes",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "scale-benchmarks",
     "path": "skills/software-engineering/architecture/patterns/scale-benchmarks",
     "domain": "software-engineering",
