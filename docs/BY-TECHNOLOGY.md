@@ -1085,7 +1085,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [baseline-ui](../skills/frontend/ui-ux/baseline_ui/baseline-ui/SKILL.md) — Use this skill to quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-## Bash (1812 skills)
+## Bash (1813 skills)
 
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
 - [aomi-transact](../skills/ai-engineering/agents/aomi_transact/aomi-transact/SKILL.md) — Use this skill to build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea — non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliqu
@@ -1684,6 +1684,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [security-compliance-compliance-check](../skills/ai-engineering/models/security_compliance_/security-compliance-compliance-check/SKILL.md) — Use this skill to design, implement, and operate production workflows for security compliance compliance check. You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform comprehensive compliance audits and provide implementation guidance fo...
 - [security-scanning-security-dependencies](../skills/ai-engineering/models/security_scanning_se/security-scanning-security-dependencies/SKILL.md) — Use this skill to design, implement, and operate production workflows for security scanning security dependencies. You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide aut...
 - [seek-and-analyze-video](../skills/ai-engineering/models/seek_and_analyze_vid/seek-and-analyze-video/SKILL.md) — Use this skill to design, implement, and operate production workflows for seek and analyze video. Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence
+- [selenium-skill](../skills/ai-engineering/models/selenium_skill/selenium-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for selenium skill. Generates production-grade Selenium WebDriver automation scripts and tests in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution and TestMu AI cloud with 3000+ browser/OS combinations.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -9792,7 +9793,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 
 - [pytest-skill](../skills/backend/python-services/pytest_skill/pytest-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for pytest skill. Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions \"pytest\", \"conftest\", \"@pytest.fixture\", \"@pytest.mark\", \"Python test\".
 
-## Python (1915 skills)
+## Python (1916 skills)
 
 - [autonomous-agent-squad-role-collaboration](../skills/ai-engineering/agents/agent-squad/autonomous-agent-squad-role-collaboration/SKILL.md) — Use this skill to orchestrate multi-agent squads with specialized complementary roles (Planner, Architect, Implementer, Reviewer, DevOps). It provides structured handoff protocols, peer review approval gates, consensus negotiation, and shared artifact state management.
 - [antigravity-skill-orchestrator](../skills/ai-engineering/agents/antigravity_skill_or/antigravity-skill-orchestrator/SKILL.md) — Use this skill to a meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.
@@ -10412,6 +10413,7 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 - [security-compliance-compliance-check](../skills/ai-engineering/models/security_compliance_/security-compliance-compliance-check/SKILL.md) — Use this skill to design, implement, and operate production workflows for security compliance compliance check. You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform comprehensive compliance audits and provide implementation guidance fo...
 - [security-scanning-security-dependencies](../skills/ai-engineering/models/security_scanning_se/security-scanning-security-dependencies/SKILL.md) — Use this skill to design, implement, and operate production workflows for security scanning security dependencies. You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide aut...
 - [seek-and-analyze-video](../skills/ai-engineering/models/seek_and_analyze_vid/seek-and-analyze-video/SKILL.md) — Use this skill to design, implement, and operate production workflows for seek and analyze video. Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence
+- [selenium-skill](../skills/ai-engineering/models/selenium_skill/selenium-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for selenium skill. Generates production-grade Selenium WebDriver automation scripts and tests in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution and TestMu AI cloud with 3000+ browser/OS combinations.
 - [skill-audit](../skills/ai-engineering/models/skill_audit/skill-audit/SKILL.md) — Use this skill to pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
 - [supply-chain-risk-auditor](../skills/ai-engineering/models/supply_chain_risk_au/supply-chain-risk-auditor/SKILL.md) — Use this skill to identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 - [templates](../skills/ai-engineering/models/templates/templates/SKILL.md) — Use this skill to project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
@@ -12636,6 +12638,10 @@ Discover skills tailored to specific frameworks, platforms, and languages.
 ## Segment Cdp (1 skills)
 
 - [segment-cdp](../skills/data-analytics/data-pipelines/segment_cdp/segment-cdp/SKILL.md) — Use this skill to design, implement, and operate production workflows for segment cdp. Expert patterns for Segment Customer Data Platform including
+
+## Selenium Skill (1 skills)
+
+- [selenium-skill](../skills/ai-engineering/models/selenium_skill/selenium-skill/SKILL.md) — Use this skill to design, implement, and operate production workflows for selenium skill. Generates production-grade Selenium WebDriver automation scripts and tests in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution and TestMu AI cloud with 3000+ browser/OS combinations.
 
 ## Semantic Layer (1 skills)
 
