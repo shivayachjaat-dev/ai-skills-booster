@@ -37095,6 +37095,28 @@
     "maturity": "stable"
   },
   {
+    "name": "orchestrate-batch-refactor",
+    "path": "skills/software-engineering/architecture/patterns/orchestrate-batch-refactor",
+    "domain": "software-engineering",
+    "category": "architecture",
+    "subcategory": "patterns",
+    "description": "Use this skill to design, implement, and operate production workflows for orchestrate batch refactor. Plan and execute large refactors with dependency-aware work packets and parallel analysis.",
+    "tags": [
+      "software-engineering",
+      "architecture",
+      "orchestrate",
+      "automation",
+      "production-ready"
+    ],
+    "technologies": [
+      "Orchestrate Batch Refactor",
+      "Python",
+      "Bash"
+    ],
+    "complexity": "advanced",
+    "maturity": "stable"
+  },
+  {
     "name": "patterns",
     "path": "skills/software-engineering/architecture/patterns/patterns",
     "domain": "software-engineering",
